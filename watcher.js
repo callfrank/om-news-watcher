@@ -9,7 +9,7 @@ const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 
-const VERSION = '0.11';
+const VERSION = '0.12';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
@@ -502,19 +502,88 @@ function pruneStoredItems(items, sources) {
   return kept;
 }
 
-function makeFeed(items) {
+function compactSourceName(value = '') {
+  let result = String(value || '').trim();
+
+  const suffixPatterns = [
+    /\s+News\s*&\s*Presse$/i,
+    /\s+News\s*&\s*Events$/i,
+    /\s+News\s*&\s*Resources$/i,
+    /\s+Press\s+Newsroom$/i,
+    /\s+Press\s+Releases$/i,
+    /\s+News\s+Releases$/i,
+    /\s+Aktuelle\s+Mitteilungen$/i,
+    /\s+Corporate\s+News$/i,
+    /\s+Medieninformationen$/i,
+    /\s+Medienmitteilungen$/i,
+    /\s+Pressemitteilungen$/i,
+    /\s+Newsroom\s+DE$/i,
+    /\s+Newsroom$/i,
+    /\s+Presse$/i,
+    /\s+Papers$/i,
+    /\s+Reports$/i,
+    /\s+Blog$/i,
+    /\s+Events$/i
+  ];
+
+  for (const pattern of suffixPatterns) {
+    result = result
+      .replace(pattern, '')
+      .trim();
+  }
+
+  return result || String(value || '').trim() || 'Quelle';
+}
+
+function sourceFeedLabel(source) {
+  const explicit =
+    String(source?.shortName || '')
+      .trim();
+
+  if (explicit) {
+    return explicit;
+  }
+
+  return compactSourceName(
+    source?.name || ''
+  );
+}
+
+function makeFeed(items, sources = []) {
   const now = new Date().toUTCString();
 
-  const body = items.map(item => `
+  const sourceMap = new Map(
+    sources.map(source => [
+      source.name,
+      source
+    ])
+  );
+
+  const body = items.map(item => {
+    const configuredSource =
+      sourceMap.get(item.source);
+
+    const label =
+      configuredSource
+        ? sourceFeedLabel(configuredSource)
+        : (
+            item.sourceLabel ||
+            compactSourceName(item.source)
+          );
+
+    const feedTitle =
+      `${label} · ${item.title}`;
+
+    return `
     <item>
-      <title>${escXml(item.title)}</title>
+      <title>${escXml(feedTitle)}</title>
       <link>${escXml(item.link)}</link>
       <guid isPermaLink="false">${escXml(item.guid)}</guid>
       <pubDate>${escXml(new Date(item.detectedAt).toUTCString())}</pubDate>
-      <description>${escXml('Quelle: ' + item.source)}</description>
-      <source>${escXml(item.source)}</source>
-    </item>`
-  ).join('');
+      <description>${escXml('Quelle: ' + label)}</description>
+      <source>${escXml(label)}</source>
+    </item>`;
+  }).join('');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
@@ -1031,7 +1100,7 @@ async function mapWithConcurrency(items, limit, worker) {
 
     fs.writeFileSync(
       FEED_FILE,
-      makeFeed(items)
+      makeFeed(items, sources)
     );
 
     process.exit(0);
@@ -1268,6 +1337,9 @@ async function mapWithConcurrency(items, limit, worker) {
           source:
             source.name,
 
+          sourceLabel:
+            sourceFeedLabel(source),
+
           title:
             r.title,
 
@@ -1347,7 +1419,7 @@ async function mapWithConcurrency(items, limit, worker) {
 
   fs.writeFileSync(
     FEED_FILE,
-    makeFeed(items)
+    makeFeed(items, sources)
   );
 
   console.log(
