@@ -805,5 +805,18 @@
     "timeoutMs" : 60000,
     "url" : "https://corporate.yougov.com/press/news-and-press-releases/",
     "waitMs" : 5000
+  },
+  {
+    "baselineVersion" : "mac-app-20260814-131943",
+    "enabled" : true,
+    "name" : "Deloitte",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "url" : "https://www.deloitte.com/de/de/about/press-room.html",
+    "waitMs" : 2500
   }
 ]
