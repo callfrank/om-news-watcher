@@ -805,18 +805,5 @@
     "timeoutMs" : 60000,
     "url" : "https://corporate.yougov.com/press/news-and-press-releases/",
     "waitMs" : 5000
-  },
-  {
-    "baselineVersion" : "mac-app-20260814-123145",
-    "enabled" : false,
-    "name" : "TEST – bitte löschen",
-    "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
-    },
-    "url" : "https://onlinemarktplatz.de/",
-    "waitMs" : 2500
   }
 ]
