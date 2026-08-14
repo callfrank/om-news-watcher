@@ -98,7 +98,7 @@
   },
   {
     "baselineVersion" : "v10-parked",
-    "enabled" : false,
+    "enabled" : true,
     "excludeRegex" : "^https://www\\.omt\\.de/(?:events/?$|webinare/?$|events/e-commerce-konferenzen/?$)",
     "name" : "OMT E-Commerce Events",
     "selectors" : {
@@ -262,9 +262,11 @@
   },
   {
     "allowTitleOnly" : true,
-    "baselineVersion" : "v10-hellofresh",
+    "baselineVersion" : "mac-app-20260814-151047",
+    "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
     "enabled" : true,
     "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
+    "includeRegex" : "^https?://www\\.hellofreshgroup\\.com\\/de\\/newsroom\\/",
     "maxDetectedItems" : 25,
     "minTitleLength" : 14,
     "name" : "HelloFresh Press Releases",
@@ -370,11 +372,11 @@
   },
   {
     "autoScroll" : 0,
-    "baselineVersion" : "v11-mastercard",
-    "candidateSelector" : "a[href*=\"/newsroom/pressemitteilungen/de-de/\"]",
+    "baselineVersion" : "mac-app-20260814-151218",
+    "candidateSelector" : "a[href*=\"/news/europe/de-de/newsroom/pressemitteilungen/de-de/2024/\"]",
     "enabled" : true,
     "fetchMode" : "html",
-    "includeRegex" : "^https://www\\.mastercard\\.com/news/europe/de-de/newsroom/pressemitteilungen/de-de/20\\d{2}/[^/?#]+/?$",
+    "includeRegex" : "^https?://www\\.mastercard\\.com\\/news\\/europe\\/de-de\\/newsroom\\/pressemitteilungen\\/de-de\\/2024\\/",
     "minTitleLength" : 18,
     "name" : "Mastercard Pressemitteilungen",
     "selectors" : {
