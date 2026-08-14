@@ -942,8 +942,6 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
             guard let resolved = resolve(row.href, relativeTo: source.url) else { continue }
 
-            let profile = stabilityProfile(for: source)
-
             let allowExternal =
                 profile?.allowExternal == true ||
                 source.allowExternal
