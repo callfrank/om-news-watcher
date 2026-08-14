@@ -9,23 +9,25 @@ const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 
-const VERSION = '0.7';
+const VERSION = '0.8';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
 const DEFAULT_SAMPLE_COUNT = 3;
 
 /*
- * v0.7: Speed-/Timeout-Version
+ * v0.8: Hard-Timeout-Version
  *
  * - 8 Quellen parallel
  * - normale Navigation max. 15 s
  * - HTTP/2-Fallback max. 7 s
  * - JS-Wartezeit max. 2,5 s
  * - Auto-Scroll max. 2 Schritte
+ * - jede Quelle insgesamt max. 25 s
+ * - page.close() darf nicht mehr unbegrenzt hängen
  *
- * Ziel: Auch bei 50+ Quellen soll der komplette Lauf
- * typischerweise nur wenige Minuten dauern.
+ * Selbst defekte Webseiten sollen den Gesamtlauf
+ * nicht mehr blockieren können.
  */
 
 const SOURCE_CONCURRENCY = Math.max(
@@ -47,6 +49,35 @@ const MAX_WAIT_MS = Math.max(
   500,
   Math.min(5000, Number(process.env.OM_MAX_WAIT_MS || 2500))
 );
+
+/*
+ * v0.8: echter Gesamt-Timeout pro Quelle.
+ *
+ * Dieser Timeout umfasst ALLES:
+ * Navigation, Cookiebanner, waitFor, JavaScript-Wartezeit,
+ * Scrollen, DOM-Auswertung und das Schließen der Seite.
+ */
+const HARD_SOURCE_TIMEOUT_MS = Math.max(
+  12000,
+  Math.min(35000, Number(process.env.OM_HARD_SOURCE_TIMEOUT_MS || 25000))
+);
+
+const PAGE_CLOSE_TIMEOUT_MS = 1200;
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function closePageFast(page) {
+  if (!page) return;
+
+  try {
+    await Promise.race([
+      page.close({ runBeforeUnload: false }).catch(() => {}),
+      delay(PAGE_CLOSE_TIMEOUT_MS)
+    ]);
+  } catch {}
+}
 
 function readJson(file, fallback) {
   try {
@@ -464,6 +495,8 @@ async function usePartiallyLoadedDom(page) {
 
 async function loadPage(context, fallbackContext, source, notes) {
   let page = await context.newPage();
+  page.setDefaultTimeout(5000);
+  page.setDefaultNavigationTimeout(NAV_TIMEOUT_MS);
 
   try {
     await page.goto(source.url, {
@@ -474,9 +507,7 @@ async function loadPage(context, fallbackContext, source, notes) {
     return {
       page,
       cleanup: async () => {
-        try {
-          await page.close();
-        } catch {}
+        await closePageFast(page);
       }
     };
 
@@ -494,9 +525,7 @@ async function loadPage(context, fallbackContext, source, notes) {
       return {
         page,
         cleanup: async () => {
-          try {
-            await page.close();
-          } catch {}
+          await closePageFast(page);
         }
       };
     }
@@ -504,9 +533,7 @@ async function loadPage(context, fallbackContext, source, notes) {
     const isHttp2 =
       /ERR_HTTP2_PROTOCOL_ERROR/i.test(message);
 
-    try {
-      await page.close();
-    } catch {}
+    await closePageFast(page);
 
     if (
       isHttp2 &&
@@ -517,6 +544,8 @@ async function loadPage(context, fallbackContext, source, notes) {
       );
 
       page = await fallbackContext.newPage();
+      page.setDefaultTimeout(5000);
+      page.setDefaultNavigationTimeout(FALLBACK_TIMEOUT_MS);
 
       try {
         await page.goto(source.url, {
@@ -527,9 +556,7 @@ async function loadPage(context, fallbackContext, source, notes) {
         return {
           page,
           cleanup: async () => {
-            try {
-              await page.close();
-            } catch {}
+            await closePageFast(page);
           }
         };
 
@@ -552,9 +579,7 @@ async function loadPage(context, fallbackContext, source, notes) {
           };
         }
 
-        try {
-          await page.close();
-        } catch {}
+        await closePageFast(page);
 
         throw fallbackErr;
       }
@@ -656,6 +681,63 @@ async function inspectSource(context, fallbackContext, source, index, total) {
   }
 }
 
+
+async function inspectSourceWithHardTimeout(
+  context,
+  fallbackContext,
+  source,
+  index,
+  total
+) {
+  const started = Date.now();
+  let timer = null;
+
+  const work = inspectSource(
+    context,
+    fallbackContext,
+    source,
+    index,
+    total
+  );
+
+  const timeout = new Promise(resolve => {
+    timer = setTimeout(() => {
+      resolve({
+        source,
+        rows: [],
+        notes: [
+          `HARD TIMEOUT: Quelle nach ${HARD_SOURCE_TIMEOUT_MS / 1000}s zwangsweise beendet.`
+        ],
+        durationMs: Date.now() - started,
+        error: new Error(
+          `HARD TIMEOUT nach ${HARD_SOURCE_TIMEOUT_MS / 1000}s`
+        ),
+        hardTimeout: true
+      });
+    }, HARD_SOURCE_TIMEOUT_MS);
+  });
+
+  const result = await Promise.race([
+    work,
+    timeout
+  ]);
+
+  if (timer) {
+    clearTimeout(timer);
+  }
+
+  const seconds = (
+    (Date.now() - started) / 1000
+  ).toFixed(1);
+
+  console.log(
+    `[${index + 1}/${total}] Ende: ${source.name} (${seconds}s)` +
+    (result.hardTimeout ? ' [HARD TIMEOUT]' : '')
+  );
+
+  return result;
+}
+
 async function mapWithConcurrency(items, limit, worker) {
   const results = new Array(items.length);
   let nextIndex = 0;
@@ -697,6 +779,9 @@ async function mapWithConcurrency(items, limit, worker) {
   );
   console.log(
     `Navigation: max. ${NAV_TIMEOUT_MS / 1000}s; HTTP/2-Fallback: max. ${FALLBACK_TIMEOUT_MS / 1000}s; JS-Wartezeit: max. ${MAX_WAIT_MS / 1000}s`
+  );
+  console.log(
+    `HARD TIMEOUT pro Quelle: ${HARD_SOURCE_TIMEOUT_MS / 1000}s`
   );
 
   const sources = readJson(
@@ -781,7 +866,7 @@ async function mapWithConcurrency(items, limit, worker) {
     sources,
     SOURCE_CONCURRENCY,
     (source, index) =>
-      inspectSource(
+      inspectSourceWithHardTimeout(
         context,
         fallbackContext,
         source,
