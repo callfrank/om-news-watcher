@@ -5,6 +5,7 @@
     "enabled": true,
     "waitMs": 5000,
     "timeoutMs": 60000,
+    "includePath": "/de/newsroom/news-stories/",
     "selectors": {
       "item": "",
       "title": "",
