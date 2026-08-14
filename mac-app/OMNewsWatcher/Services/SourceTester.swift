@@ -81,7 +81,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 18
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.3",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.7",
                 forHTTPHeaderField: "User-Agent"
             )
 
@@ -162,9 +162,15 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 .trimmingCharacters(in: .whitespacesAndNewlines)
             let href = (row["href"] as? String ?? "")
                 .trimmingCharacters(in: .whitespacesAndNewlines)
+            let date = (row["date"] as? String ?? "")
+                .trimmingCharacters(in: .whitespacesAndNewlines)
 
             guard !title.isEmpty else { return nil }
-            return Candidate(title: title, href: href)
+            return Candidate(
+                title: title,
+                href: href,
+                date: date
+            )
         }
     }
 
@@ -177,7 +183,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 15
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.3",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.7",
                 forHTTPHeaderField: "User-Agent"
             )
             request.setValue("text/html,application/xhtml+xml", forHTTPHeaderField: "Accept")
@@ -432,7 +438,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             result.append(
                 Candidate(
                     title: title,
-                    href: resolved
+                    href: resolved,
+                    date: row.date
                 )
             )
         }
@@ -500,20 +507,39 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         Array(rows.prefix(5)).map {
             SourceTestHit(
                 title: $0.title,
-                url: $0.href.isEmpty ? nil : $0.href
+                url: $0.href.isEmpty ? nil : $0.href,
+                publicationDate:
+                    $0.date.trimmingCharacters(
+                        in: .whitespacesAndNewlines
+                    ).isEmpty
+                    ? nil
+                    : $0.date
             )
         }
     }
 
     private func isGenericNavigationTitle(_ title: String) -> Bool {
-        let lower = normalizeWhitespace(title).lowercased()
+        let normalized = normalizeWhitespace(title)
+        let lower = normalized.lowercased()
+
+        if normalized.range(
+            of: #"<\s*(img|svg|picture|source|div|span|a)\b"#,
+            options: .regularExpression
+        ) != nil {
+            return true
+        }
 
         let exact = [
             "home", "startseite", "kontakt", "contact", "about", "über uns",
             "impressum", "datenschutz", "privacy", "login", "jobs", "karriere",
             "services", "service", "governance", "unsere werte", "unsere talente",
             "auszeichnungen", "standorte", "locations", "media", "stories",
-            "publications", "news", "presse", "press", "menu", "navigation"
+            "publications", "news", "presse", "press", "menu", "navigation",
+            "alle akzeptieren", "alles akzeptieren", "akzeptieren",
+            "accept all", "accept", "zustimmen", "allow all",
+            "link öffnet in neuem tab", "opens in a new tab",
+            "open in new tab", "mehr erfahren", "mehr erfahren >",
+            "read more", "learn more", "weiterlesen"
         ]
 
         if exact.contains(lower) {
@@ -521,11 +547,89 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         }
 
         let prefixes = [
-            "mehr erfahren", "read more", "weiterlesen",
-            "zurück", "back", "alle themen", "all topics"
+            "mehr erfahren", "read more", "learn more", "weiterlesen",
+            "zurück", "back", "alle themen", "all topics",
+            "link öffnet", "opens in", "open in new"
         ]
 
-        return prefixes.contains(where: { lower.hasPrefix($0) })
+        if prefixes.contains(where: { lower.hasPrefix($0) }) {
+            return true
+        }
+
+        if lower.range(
+            of: #"^pdf\s*[-–—:]\s*\d"#,
+            options: .regularExpression
+        ) != nil {
+            return true
+        }
+
+        return false
+    }
+
+    private func isBadContentURL(
+        _ urlString: String,
+        sourceURL: String,
+        title: String
+    ) -> Bool {
+        guard
+            let url = URL(string: urlString),
+            let source = URL(string: sourceURL)
+        else {
+            return true
+        }
+
+        let path = url.path.lowercased()
+
+        let badPaths = [
+            "/producttype/",
+            "/products/",
+            "/product/",
+            "/warenkorb/",
+            "/cart/",
+            "/checkout/",
+            "/search/"
+        ]
+
+        if badPaths.contains(where: { path.contains($0) }) {
+            return true
+        }
+
+        var targetComponents = URLComponents(
+            url: url,
+            resolvingAgainstBaseURL: false
+        )
+        targetComponents?.fragment = nil
+
+        var sourceComponents = URLComponents(
+            url: source,
+            resolvingAgainstBaseURL: false
+        )
+        sourceComponents?.fragment = nil
+
+        let canonicalTarget =
+            targetComponents?.url?.absoluteString ?? url.absoluteString
+        let canonicalSource =
+            sourceComponents?.url?.absoluteString ?? source.absoluteString
+
+        if canonicalTarget == canonicalSource &&
+           url.query?.contains("om_item=") != true {
+            return true
+        }
+
+        if path.hasSuffix(".pdf") {
+            let lowerTitle = title.lowercased()
+
+            if lowerTitle.range(
+                of: #"^pdf\b"#,
+                options: .regularExpression
+            ) != nil ||
+               lowerTitle.contains("factsheet") ||
+               lowerTitle.contains("fact sheet") {
+                return true
+            }
+        }
+
+        return false
     }
 
     private let articlePathHints = [
@@ -577,6 +681,18 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
             guard let resolved = resolve(row.href, relativeTo: source.url) else { continue }
 
+            if isGenericNavigationTitle(title) {
+                continue
+            }
+
+            if isBadContentURL(
+                resolved,
+                sourceURL: source.url,
+                title: title
+            ) {
+                continue
+            }
+
             if !source.allowExternal && !isInternal(resolved, sourceURL: source.url) {
                 continue
             }
@@ -602,7 +718,13 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
             let key = resolved.lowercased()
             guard seen.insert(key).inserted else { continue }
-            result.append(Candidate(title: title, href: resolved))
+            result.append(
+                Candidate(
+                    title: title,
+                    href: resolved,
+                    date: row.date
+                )
+            )
         }
 
         return result
@@ -645,6 +767,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             "itemSelector": source.itemSelector ?? "",
             "titleSelector": source.titleSelector ?? "",
             "linkSelector": source.linkSelector ?? "",
+            "dateSelector": source.dateSelector ?? "",
             "allowTitleOnly": source.allowTitleOnly
         ]
 
@@ -655,19 +778,175 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         (() => {
           const cfg = \(json);
           const clean = (text) => (text || '').replace(/\\s+/g, ' ').trim();
+
+          const genericTitle = (value) => {
+            const title = clean(value);
+            const lower = title.toLowerCase();
+
+            if (!title) return true;
+            if (/<\\s*(img|svg|picture|source|div|span|a)\\b/i.test(title)) {
+              return true;
+            }
+
+            const exact = new Set([
+              'home', 'startseite', 'kontakt', 'contact', 'about',
+              'über uns', 'impressum', 'datenschutz', 'privacy',
+              'login', 'jobs', 'karriere', 'services', 'service',
+              'governance', 'unsere werte', 'unsere talente',
+              'auszeichnungen', 'standorte', 'locations', 'media',
+              'stories', 'publications', 'news', 'presse', 'press',
+              'menu', 'navigation', 'alle akzeptieren', 'alles akzeptieren',
+              'akzeptieren', 'accept all', 'accept', 'zustimmen',
+              'allow all', 'link öffnet in neuem tab',
+              'opens in a new tab', 'open in new tab',
+              'mehr erfahren', 'mehr erfahren >', 'read more',
+              'learn more', 'weiterlesen'
+            ]);
+
+            if (exact.has(lower)) return true;
+
+            return [
+              'mehr erfahren', 'read more', 'learn more', 'weiterlesen',
+              'zurück', 'back', 'alle themen', 'all topics',
+              'link öffnet', 'opens in', 'open in new'
+            ].some(prefix => lower.startsWith(prefix));
+          };
+
+          const cardFor = (node) => {
+            if (!node || !node.closest) return null;
+
+            return node.closest(
+              'article, li, section, [class*="card" i], [class*="teaser" i], ' +
+              '[class*="news" i], [class*="press" i], [class*="event" i], ' +
+              '[class*="story" i], [class*="result" i], [class*="item" i]'
+            );
+          };
+
+          const headingFrom = (root) => {
+            if (!root || !root.querySelector) return '';
+
+            const selectors = [
+              'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+              '[class*="headline" i]',
+              '[class*="heading" i]',
+              '[class*="title" i]'
+            ];
+
+            for (const selector of selectors) {
+              const el = root.querySelector(selector);
+              const value = clean(
+                el?.textContent ||
+                el?.getAttribute?.('aria-label') ||
+                ''
+              );
+
+              if (value && !genericTitle(value)) {
+                return value;
+              }
+            }
+
+            return '';
+          };
+
+          const bestTitle = (link, root = null) => {
+            const own = clean(
+              link?.textContent ||
+              link?.getAttribute?.('aria-label') ||
+              link?.title ||
+              ''
+            );
+
+            if (own && !genericTitle(own)) {
+              return own;
+            }
+
+            const card = root || cardFor(link);
+            const heading = headingFrom(card);
+
+            if (heading) {
+              return heading;
+            }
+
+            const imageAlt = clean(
+              link?.querySelector?.('img[alt]')?.getAttribute('alt') ||
+              ''
+            );
+
+            if (imageAlt && !genericTitle(imageAlt)) {
+              return imageAlt;
+            }
+
+            return own;
+          };
+
+          const bestDate = (link, root = null) => {
+            const card = root || cardFor(link);
+
+            if (!card || !card.querySelector) {
+              return '';
+            }
+
+            if (cfg.dateSelector) {
+              const configured = card.querySelector(cfg.dateSelector);
+              const configuredValue = clean(
+                configured?.getAttribute?.('datetime') ||
+                configured?.textContent ||
+                ''
+              );
+              if (configuredValue) return configuredValue;
+            }
+
+            const selectors = [
+              'time[datetime]',
+              'time',
+              '[class*="date" i]',
+              '[class*="datum" i]',
+              '[class*="time" i]',
+              '[class*="published" i]'
+            ];
+
+            const datePattern =
+              /(?:\\b\\d{1,2}[.\\/-]\\d{1,2}[.\\/-]20\\d{2}\\b|\\b20\\d{2}-\\d{2}-\\d{2}\\b|\\b\\d{1,2}\\.?\\s+(?:Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|January|February|March|May|June|July|October|December)\\s+20\\d{2}\\b)/i;
+
+            for (const selector of selectors) {
+              const el = card.querySelector(selector);
+              const value = clean(
+                el?.getAttribute?.('datetime') ||
+                el?.textContent ||
+                ''
+              );
+
+              if (!value) continue;
+
+              const match = value.match(datePattern);
+              if (match) return match[0];
+
+              if (/^20\\d{2}-\\d{2}-\\d{2}(?:T|$)/.test(value)) {
+                return value;
+              }
+            }
+
+            return '';
+          };
+
+          const rowForLink = (link, root = null) => ({
+            title: bestTitle(link, root),
+            href:
+              link?.href ||
+              link?.getAttribute?.('href') ||
+              '',
+            date: bestDate(link, root)
+          });
+
           const rows = [];
           const allRows = [];
 
           try {
             document.querySelectorAll('a[href]').forEach((a) => {
-              const title = clean(
-                a.textContent ||
-                a.getAttribute('aria-label') ||
-                a.title ||
-                ''
-              );
-              const href = a.href || a.getAttribute('href') || '';
-              if (title && href) allRows.push({ title, href });
+              const row = rowForLink(a);
+              if (row.title && row.href) {
+                allRows.push(row);
+              }
             });
 
             if (cfg.allowTitleOnly && cfg.itemSelector) {
@@ -677,10 +956,20 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                       ? item
                       : item.querySelector(cfg.titleSelector))
                   : item;
+
                 const title = clean(
                   titleEl ? titleEl.textContent : item.textContent
                 );
-                if (title) rows.push({ title, href: '' });
+
+                const date = bestDate(null, item);
+
+                if (title) {
+                  rows.push({
+                    title,
+                    href: '',
+                    date
+                  });
+                }
               });
             } else if (cfg.itemSelector) {
               document.querySelectorAll(cfg.itemSelector).forEach((item) => {
@@ -698,45 +987,50 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
                 if (!linkEl) return;
 
-                const titleEl = cfg.titleSelector
+                const configuredTitleEl = cfg.titleSelector
                   ? (item.matches(cfg.titleSelector)
                       ? item
                       : item.querySelector(cfg.titleSelector))
-                  : item;
+                  : null;
 
-                const title = clean(
-                  titleEl ? titleEl.textContent : linkEl.textContent
+                const configuredTitle = clean(
+                  configuredTitleEl?.textContent || ''
                 );
+
+                const title =
+                  configuredTitle && !genericTitle(configuredTitle)
+                    ? configuredTitle
+                    : bestTitle(linkEl, item);
 
                 const href =
                   linkEl.href ||
                   linkEl.getAttribute('href') ||
                   '';
 
+                const date = bestDate(linkEl, item);
+
                 if (title && href) {
-                  rows.push({ title, href });
+                  rows.push({
+                    title,
+                    href,
+                    date
+                  });
                 }
               });
             } else {
               const selector =
                 cfg.candidateSelector ||
-                'main article a[href], article a[href], main a[href]';
+                'main article a[href], article a[href], ' +
+                'main [class*="card" i] a[href], ' +
+                'main [class*="teaser" i] a[href], ' +
+                'main [class*="news" i] a[href], ' +
+                'main [class*="press" i] a[href], ' +
+                'main [class*="event" i] a[href], main a[href]';
 
               document.querySelectorAll(selector).forEach((a) => {
-                const title = clean(
-                  a.textContent ||
-                  a.getAttribute('aria-label') ||
-                  a.title ||
-                  ''
-                );
-
-                const href =
-                  a.href ||
-                  a.getAttribute('href') ||
-                  '';
-
-                if (title && href) {
-                  rows.push({ title, href });
+                const row = rowForLink(a);
+                if (row.title && row.href) {
+                  rows.push(row);
                 }
               });
 
@@ -795,7 +1089,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
             return Candidate(
                 title: title,
-                href: href
+                href: href,
+                date: ""
             )
         }
     }
@@ -927,6 +1222,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
     private struct Candidate {
         let title: String
         let href: String
+        let date: String
     }
 
     private struct RepairCandidate {

@@ -20,6 +20,17 @@ struct SourceTestHit: Identifiable, Equatable {
     let id = UUID()
     let title: String
     let url: String?
+    let publicationDate: String?
+
+    init(
+        title: String,
+        url: String?,
+        publicationDate: String? = nil
+    ) {
+        self.title = title
+        self.url = url
+        self.publicationDate = publicationDate
+    }
 }
 
 struct SourceRepairProposal: Equatable {

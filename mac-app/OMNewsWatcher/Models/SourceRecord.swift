@@ -146,6 +146,10 @@ struct SourceRecord: Identifiable, Equatable {
         selectorValue("link")
     }
 
+    var dateSelector: String? {
+        selectorValue("date")
+    }
+
     static func new(url: String = "") -> SourceRecord {
         let guessedName = suggestedName(from: url)
 

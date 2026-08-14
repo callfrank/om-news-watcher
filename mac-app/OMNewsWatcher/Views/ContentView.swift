@@ -295,6 +295,12 @@ struct ContentView: View {
                                             Text(hit.title)
                                                 .lineLimit(2)
                                                 .multilineTextAlignment(.leading)
+                                            if let publicationDate = hit.publicationDate {
+                                                Text("Veröffentlicht: \(publicationDate)")
+                                                    .font(.caption2)
+                                                    .foregroundStyle(.secondary)
+                                            }
+
                                             if let url = hit.url {
                                                 Text(url)
                                                     .font(.caption2)
@@ -386,8 +392,15 @@ struct ContentView: View {
                                         HStack(alignment: .top, spacing: 7) {
                                             Image(systemName: "checkmark")
                                                 .foregroundStyle(.green)
-                                            Text(hit.title)
-                                                .lineLimit(2)
+                                            VStack(alignment: .leading, spacing: 1) {
+                                                Text(hit.title)
+                                                    .lineLimit(2)
+
+                                                if let publicationDate = hit.publicationDate {
+                                                    Text("Veröffentlicht: \(publicationDate)")
+                                                        .foregroundStyle(.secondary)
+                                                }
+                                            }
                                         }
                                         .font(.caption)
                                     }
