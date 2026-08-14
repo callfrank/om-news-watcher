@@ -951,6 +951,24 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 
     func webView(
         _ webView: WKWebView,
+        decidePolicyFor navigationAction: WKNavigationAction,
+        decisionHandler: @escaping (WKNavigationActionPolicy) -> Void
+    ) {
+        // Zweite Schutzschicht für Seiten, die trotz abgefangenem
+        // DOM-Klick per JavaScript oder eigenem Router navigieren.
+        // Im Markiermodus soll die aktuelle Trainingsseite niemals
+        // verlassen werden.
+        if interactionMode == .select,
+           navigationAction.targetFrame?.isMainFrame != false {
+            decisionHandler(.cancel)
+            return
+        }
+
+        decisionHandler(.allow)
+    }
+
+    func webView(
+        _ webView: WKWebView,
         didFail navigation: WKNavigation!,
         withError error: Error
     ) {
@@ -974,6 +992,10 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
         // target="_blank" und JavaScript-Popups im Bedienmodus
         // im selben Fenster öffnen. So kann man auch Cookie-/Login-
         // und Cloudflare-Flows innerhalb der Einlernansicht abschließen.
+        if interactionMode == .select {
+            return nil
+        }
+
         if navigationAction.targetFrame == nil,
            let url = navigationAction.request.url {
             webView.load(URLRequest(url: url))
@@ -1464,6 +1486,39 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     }
   `;
   document.head.appendChild(style);
+
+  const blockEarlySelectionEvent = event => {
+    if (state.mode !== 'select') return;
+
+    const anchor = findAnchor(event.target);
+    if (!anchor) return;
+
+    // Manche Seiten navigieren bereits auf pointerdown/pointerup,
+    // bevor der normale click-Handler läuft. Diese Website-Handler
+    // werden gestoppt, der Browser-Default aber nicht künstlich
+    // ausgelöst oder verändert.
+    event.stopPropagation();
+
+    if (typeof event.stopImmediatePropagation === 'function') {
+      event.stopImmediatePropagation();
+    }
+  };
+
+  [
+    'pointerdown',
+    'pointerup',
+    'mousedown',
+    'mouseup',
+    'touchstart',
+    'touchend',
+    'auxclick'
+  ].forEach(type => {
+    document.addEventListener(
+      type,
+      blockEarlySelectionEvent,
+      true
+    );
+  });
 
   document.addEventListener('click', event => {
     // Im Bedienmodus keinerlei Klicks abfangen:
