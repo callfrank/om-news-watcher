@@ -828,17 +828,31 @@
     "waitMs" : 2500
   },
   {
-    "baselineVersion" : "mac-app-20260814-160215",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260814-165320",
     "enabled" : true,
+    "minTitleLength" : 5,
     "name" : "Etsy",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "a.wt-text-link-no-underline",
+      "link" : "a.wt-text-link-no-underline",
+      "title" : "a.wt-text-link-no-underline"
     },
     "shortName" : "Etsy",
     "url" : "https://www.etsy.com/news/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-14T14:53:20Z",
+    "visualSampleCount" : 3,
     "waitMs" : 2500
   },
   {
