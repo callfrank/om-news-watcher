@@ -25,8 +25,9 @@
       "date": ""
     },
     "excludeRegex": "/unternehmen/de/presse/(?:pressemitteilungen(?:-20\\d{2})?|unternehmen|otto-for-business)/?$",
-    "baselineVersion": "v10-otto",
-    "excludeTitleRegex": "^(?:Presse|Unternehmen|Nachhaltigkeit|Technologie|OTTO for Business|Jobs|Kontakt)$"
+    "baselineVersion": "v11-otto",
+    "excludeTitleRegex": "^(?:Presse|Unternehmen|Nachhaltigkeit|Technologie|OTTO for Business|Services|Marketing|Jobs|Kontakt|Handel|Logistik|Personal|Finanzen)$",
+    "minTitleLength": 28
   },
   {
     "name": "DPD Presse",
@@ -44,7 +45,7 @@
   },
   {
     "name": "eco Presse",
-    "url": "https://www.eco.de/pressemitteilungen/",
+    "url": "https://www.eco.de/presse/",
     "enabled": true,
     "waitMs": 1500,
     "timeoutMs": 60000,
@@ -54,10 +55,13 @@
       "link": "",
       "date": ""
     },
-    "includeRegex": "^https://www\\.eco\\.de/pressemitteilungen/[^/?#]+/?$",
+    "includeRegex": "^https://www\\.eco\\.de/presse/[^/?#]+/?$",
     "autoScroll": 0,
     "candidateSelector": "a[href*=\"/pressemitteilungen/\"]",
-    "baselineVersion": "v10-eco"
+    "baselineVersion": "v11-eco",
+    "fetchMode": "html",
+    "excludeRegex": "/presse/?$",
+    "minTitleLength": 18
   },
   {
     "name": "Ecommerce Europe Press Releases",
@@ -74,7 +78,9 @@
     "autoScroll": 0,
     "includeRegex": "^https://ecommerce-europe\\.eu/press-item/",
     "candidateSelector": "a[href*=\"/press-item/\"]",
-    "baselineVersion": "v10-ece"
+    "baselineVersion": "v11-ece",
+    "fetchMode": "html",
+    "minTitleLength": 18
   },
   {
     "name": "ECDB Reports",
@@ -108,7 +114,7 @@
   {
     "name": "experte.de E-Commerce Events",
     "url": "https://www.experte.de/events/e-commerce",
-    "enabled": true,
+    "enabled": false,
     "waitMs": 3000,
     "timeoutMs": 60000,
     "selectors": {
@@ -122,7 +128,7 @@
     "reverseDetected": false,
     "excludeTitleRegex": "^(?:Business|Marketing|Technologie|Städte|Vergangene Events|EXPERTE\\.de Event-Partner)$",
     "maxDetectedItems": 40,
-    "baselineVersion": "v10-experte"
+    "baselineVersion": "v11-parked"
   },
   {
     "name": "EY Newsroom",
@@ -324,7 +330,10 @@
       "link": "",
       "date": ""
     },
-    "includeRegex": "^https://www\\.polizei-praevention\\.de/aktuelles/.+\\.html$"
+    "includeRegex": "^https://www\\.polizei-praevention\\.de/aktuelles/[^/?#]+\\.html$",
+    "fetchMode": "html",
+    "minTitleLength": 18,
+    "baselineVersion": "v11-lka"
   },
   {
     "name": "Mordor Intelligence Case Studies",
@@ -370,8 +379,10 @@
     },
     "autoScroll": 0,
     "candidateSelector": "a[href*=\"/newsroom/pressemitteilungen/de-de/\"]",
-    "includeRegex": "^https://www\\.mastercard\\.com/news/europe/de-de/newsroom/pressemitteilungen/de-de/20\\d{2}/",
-    "baselineVersion": "v10-mastercard"
+    "includeRegex": "^https://www\\.mastercard\\.com/news/europe/de-de/newsroom/pressemitteilungen/de-de/20\\d{2}/[^/?#]+/?$",
+    "baselineVersion": "v11-mastercard",
+    "fetchMode": "html",
+    "minTitleLength": 18
   },
   {
     "name": "Tencent News",
@@ -384,7 +395,9 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "excludeTitleRegex": "^(?:Stories|Media|News|About Tencent)$",
+    "baselineVersion": "v11-tencent"
   },
   {
     "name": "MediaMarktSaturn News & Presse",
@@ -393,15 +406,19 @@
     "waitMs": 1500,
     "timeoutMs": 60000,
     "selectors": {
-      "item": "",
+      "item": "main h2",
       "title": "",
       "link": "",
       "date": ""
     },
     "autoScroll": 0,
     "candidateSelector": "a[href*=\"/de/news-presse/pressemitteilungen/\"]",
-    "includeRegex": "^https://www\\.mediamarktsaturn\\.de/de/news-presse/pressemitteilungen/",
-    "baselineVersion": "v10-mms"
+    "includeRegex": "",
+    "baselineVersion": "v11-mms",
+    "allowTitleOnly": true,
+    "minTitleLength": 22,
+    "excludeTitleRegex": "^(?:News & Presse|Breadcrumb|Pagination)$",
+    "maxDetectedItems": 20
   },
   {
     "name": "Mercado Libre News & Events",
@@ -538,7 +555,8 @@
       "date": ""
     },
     "excludeRegex": "[?&]cat=\\d+",
-    "baselineVersion": "v10-paypal"
+    "baselineVersion": "v11-paypal",
+    "excludeTitleRegex": "^(?:Stories|Blog|Aktuelle Mitteilungen)$"
   },
   {
     "name": "PDD Holdings News Releases",
@@ -569,7 +587,8 @@
       "date": ""
     },
     "excludeRegex": "^https://www\\.pewresearch\\.org/(?:topic/(?!internet-technology)|publications/\\?)",
-    "baselineVersion": "v10-pew"
+    "baselineVersion": "v11-pew",
+    "excludeTitleRegex": "^(?:Publications|Artificial Intelligence|Technology Policy Issues|News Habits & Media|Fact Sheet|Beliefs & Practices)$"
   },
   {
     "name": "ServiceValue Newsroom",

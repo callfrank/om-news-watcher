@@ -9,7 +9,7 @@ const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 
-const VERSION = '0.10';
+const VERSION = '0.11';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
@@ -69,7 +69,8 @@ const PAGE_CLOSE_TIMEOUT_MS = 1200;
  * Beim ersten Lauf von v0.10 wird nur data/items.json geleert.
  * Der bekannte Seitenbestand in state.json bleibt erhalten.
  */
-const FEED_RESET_TOKEN = 'clean-baseline-v10';
+const FEED_RESET_TOKEN = 'clean-baseline-v11';
+const GLOBAL_BASELINE_TOKEN = 'global-baseline-v11';
 
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -376,6 +377,13 @@ function normalizeAndFilter(rows, source) {
 
     if (!title) continue;
 
+    if (
+      source.minTitleLength &&
+      title.length < Number(source.minTitleLength)
+    ) {
+      continue;
+    }
+
     const rawHref =
       r.href ||
       (source.allowTitleOnly === true
@@ -400,7 +408,8 @@ function normalizeAndFilter(rows, source) {
 
     if (
       source.allowTitleOnly === true &&
-      title.length < Number(source.minTitleLength || 12)
+      !source.minTitleLength &&
+      title.length < 12
     ) {
       continue;
     }
@@ -644,6 +653,124 @@ async function loadPage(context, fallbackContext, source, notes) {
   }
 }
 
+
+function decodeHtmlEntities(text = '') {
+  return String(text)
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/&#(\d+);/g, (_, n) => {
+      try { return String.fromCodePoint(Number(n)); } catch { return ''; }
+    })
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => {
+      try { return String.fromCodePoint(parseInt(n, 16)); } catch { return ''; }
+    });
+}
+
+function stripHtml(html = '') {
+  return decodeHtmlEntities(
+    String(html)
+      .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+  );
+}
+
+function anchorsFromHtml(html = '') {
+  const rows = [];
+  const re = /<a\b([^>]*?)href\s*=\s*["']([^"']+)["']([^>]*)>([\s\S]*?)<\/a>/gi;
+  let m;
+
+  while ((m = re.exec(html))) {
+    const title = stripHtml(m[4]);
+    const href = decodeHtmlEntities(m[2] || '');
+
+    if (title && href) {
+      rows.push({
+        title,
+        href,
+        date: ''
+      });
+    }
+  }
+
+  return rows;
+}
+
+async function inspectSourceViaHttp(source, index, total) {
+  const started = Date.now();
+  const timeoutMs = Math.min(
+    Number(source.httpTimeoutMs || 12000),
+    20000
+  );
+
+  console.log(
+    `[${index + 1}/${total}] Start HTTP: ${source.name}`
+  );
+
+  const controller = new AbortController();
+  const timer = setTimeout(
+    () => controller.abort(),
+    timeoutMs
+  );
+
+  try {
+    const response = await fetch(source.url, {
+      redirect: 'follow',
+      signal: controller.signal,
+      headers: {
+        'user-agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ' +
+          `AppleWebKit/537.36 Chrome/140 Safari/537.36 OM-News-Watcher/${VERSION}`,
+        'accept':
+          'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'accept-language':
+          'de-DE,de;q=0.9,en;q=0.7'
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(
+        `HTTP ${response.status} ${response.statusText}`
+      );
+    }
+
+    const html = await response.text();
+    const rows = normalizeAndFilter(
+      anchorsFromHtml(html),
+      source
+    );
+
+    return {
+      source,
+      rows,
+      notes: [
+        `Direkter HTML-Abruf: ${Math.round(html.length / 1024)} KB`
+      ],
+      durationMs: Date.now() - started,
+      error: null
+    };
+  } catch (err) {
+    return {
+      source,
+      rows: [],
+      notes: [],
+      durationMs: Date.now() - started,
+      error: err
+    };
+  } finally {
+    clearTimeout(timer);
+    console.log(
+      `[${index + 1}/${total}] Ende HTTP: ${source.name} (${((Date.now() - started) / 1000).toFixed(1)}s)`
+    );
+  }
+}
+
 async function inspectSource(context, fallbackContext, source, index, total) {
   const started = Date.now();
   const notes = [];
@@ -663,7 +790,9 @@ async function inspectSource(context, fallbackContext, source, index, total) {
 
     const page = loaded.page;
 
-    await dismissCookies(page);
+    if (source.skipCookieDismiss !== true) {
+      await dismissCookies(page);
+    }
 
     if (source.waitFor) {
       try {
@@ -852,6 +981,7 @@ async function mapWithConcurrency(items, limit, worker) {
       seenBySource: {},
       initializedBySource: {},
       configVersionBySource: {},
+      globalBaselineBySource: {},
       feedResetToken: null
     }
   );
@@ -864,6 +994,9 @@ async function mapWithConcurrency(items, limit, worker) {
 
   state.configVersionBySource =
     state.configVersionBySource || {};
+
+  state.globalBaselineBySource =
+    state.globalBaselineBySource || {};
 
   let items = readJson(
     ITEMS_FILE,
@@ -935,13 +1068,19 @@ async function mapWithConcurrency(items, limit, worker) {
     sources,
     SOURCE_CONCURRENCY,
     (source, index) =>
-      inspectSourceWithHardTimeout(
-        context,
-        fallbackContext,
-        source,
-        index,
-        sources.length
-      )
+      source.fetchMode === 'html'
+        ? inspectSourceViaHttp(
+            source,
+            index,
+            sources.length
+          )
+        : inspectSourceWithHardTimeout(
+            context,
+            fallbackContext,
+            source,
+            index,
+            sources.length
+          )
   );
 
   await context.close();
@@ -977,7 +1116,7 @@ async function mapWithConcurrency(items, limit, worker) {
     }
 
     if (result.error) {
-      console.error(
+      console.log(
         `  FEHLER: ${result.error.message}`
       );
 
@@ -1006,7 +1145,12 @@ async function mapWithConcurrency(items, limit, worker) {
       requestedBaseline &&
       requestedBaseline !== storedBaseline;
 
+    const needsGlobalBaseline =
+      state.globalBaselineBySource[key] !==
+      GLOBAL_BASELINE_TOKEN;
+
     const firstRun =
+      needsGlobalBaseline ||
       configChanged ||
       (
         state.initializedBySource[key] !== true &&
@@ -1015,10 +1159,16 @@ async function mapWithConcurrency(items, limit, worker) {
 
     const known =
       new Set(
-        configChanged
+        (needsGlobalBaseline || configChanged)
           ? []
           : (state.seenBySource[key] || [])
       );
+
+    if (needsGlobalBaseline) {
+      console.log(
+        `  ↻ Sauberer Gesamt-Ausgangspunkt (${GLOBAL_BASELINE_TOKEN}) – Quelle wird einmalig neu baseline-gesetzt.`
+      );
+    }
 
     if (configChanged) {
       console.log(
@@ -1042,6 +1192,9 @@ async function mapWithConcurrency(items, limit, worker) {
       if (requestedBaseline) {
         state.configVersionBySource[key] = requestedBaseline;
       }
+
+      state.globalBaselineBySource[key] =
+        GLOBAL_BASELINE_TOKEN;
 
       continue;
     }
@@ -1152,6 +1305,9 @@ async function mapWithConcurrency(items, limit, worker) {
     if (requestedBaseline) {
       state.configVersionBySource[key] = requestedBaseline;
     }
+
+    state.globalBaselineBySource[key] =
+      GLOBAL_BASELINE_TOKEN;
   }
 
   const seenGuid =
