@@ -125,6 +125,24 @@ function currentSlot(settings) {
     };
   }
 
+  if (settings.mode === 'hourly') {
+    if (local.hour < 5 || local.hour > 18) {
+      return {
+        eligible: false,
+        timezone,
+        local
+      };
+    }
+
+    return {
+      eligible: true,
+      key:
+        `${local.date}-${String(local.hour).padStart(2, '0')}`,
+      timezone,
+      local
+    };
+  }
+
   if (settings.mode === 'two-hour') {
     const hours =
       new Set([
