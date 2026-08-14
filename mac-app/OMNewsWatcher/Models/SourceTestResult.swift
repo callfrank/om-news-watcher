@@ -22,14 +22,43 @@ struct SourceTestHit: Identifiable, Equatable {
     let url: String?
     let publicationDate: String?
 
-    init(
-        title: String,
-        url: String?,
-        publicationDate: String? = nil
-    ) {
+    init(title: String, url: String?, publicationDate: String? = nil) {
         self.title = title
         self.url = url
         self.publicationDate = publicationDate
+    }
+}
+
+struct VisualTrainingSample: Identifiable, Equatable {
+    let id = UUID()
+    let title: String
+    let url: String
+}
+
+struct VisualTrainingPreview: Identifiable, Equatable {
+    let id = UUID()
+    let title: String
+    let url: String
+    let date: String?
+}
+
+struct VisualTrainingRule: Equatable {
+    let itemSelector: String
+    let titleSelector: String
+    let linkSelector: String
+    let dateSelector: String?
+    let allowExternal: Bool
+    let sampleCount: Int
+    let previewCount: Int
+    let preview: [VisualTrainingPreview]
+
+    var isUsable: Bool {
+        sampleCount >= 2 &&
+        previewCount >= sampleCount &&
+        previewCount <= 300 &&
+        !itemSelector.isEmpty &&
+        !titleSelector.isEmpty &&
+        !linkSelector.isEmpty
     }
 }
 

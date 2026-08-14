@@ -81,7 +81,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 18
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.8",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.9",
                 forHTTPHeaderField: "User-Agent"
             )
 
@@ -102,10 +102,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         guard let source else { return }
 
         Task { [weak self] in
-            let wait = min(
-                max(effectiveWaitMs(for: source), 0),
-                5000
-            )
+            let wait = min(max(source.waitMs, 0), 5000)
             if wait > 0 {
                 try? await Task.sleep(for: .milliseconds(Int64(wait)))
             }
@@ -169,12 +166,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             guard !title.isEmpty else { return nil }
             let date = (row["date"] as? String ?? "")
                 .trimmingCharacters(in: .whitespacesAndNewlines)
-
-            return Candidate(
-                title: title,
-                href: href,
-                date: date
-            )
+            return Candidate(title: title, href: href, date: date)
         }
     }
 
@@ -187,7 +179,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 15
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.8",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.9",
                 forHTTPHeaderField: "User-Agent"
             )
             request.setValue("text/html,application/xhtml+xml", forHTTPHeaderField: "Accept")
@@ -210,394 +202,21 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         }
     }
 
-    private struct StabilityProfile {
-        let key: String
-        let selector: String?
-        let expectedMax: Int
-        let allowExternal: Bool
-        let titleOnly: Bool
-        let disableAutoRepair: Bool
-    }
-
-    private func stabilityProfile(
-        for source: SourceRecord
-    ) -> StabilityProfile? {
-        let name = source.name.lowercased()
-
-        if name.contains("visa newsroom") {
-            return StabilityProfile(
-                key: "visa",
-                selector: #"main a[href*="/uber-visa/newsroom/press-releases."]"#,
-                expectedMax: 260,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("shein newsroom") {
-            return StabilityProfile(
-                key: "shein",
-                selector: #"main a[href*="/newsroom/"]"#,
-                expectedMax: 260,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("hellofresh press releases") {
-            return StabilityProfile(
-                key: "hellofresh",
-                selector: nil,
-                expectedMax: 220,
-                allowExternal: false,
-                titleOnly: source.allowTitleOnly,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("zalando newsroom") {
-            return StabilityProfile(
-                key: "zalando",
-                selector: #"a[href]"#,
-                expectedMax: 100,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("otto pressemitteilungen") {
-            return StabilityProfile(
-                key: "otto",
-                selector: #"a[href]"#,
-                expectedMax: 80,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("ecdb reports") {
-            return StabilityProfile(
-                key: "ecdb",
-                selector: #"main a[href*="/reports/"]"#,
-                expectedMax: 120,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("mediamarktsaturn") {
-            return StabilityProfile(
-                key: "mms",
-                selector: #"main a[href*="/de/news-presse/pressemitteilungen/"]"#,
-                expectedMax: 120,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("tencent news") {
-            return StabilityProfile(
-                key: "tencent",
-                selector: #"main h2 a[href], main h3 a[href], article h2 a[href], article h3 a[href]"#,
-                expectedMax: 120,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("google ads & commerce") {
-            return StabilityProfile(
-                key: "google-ads",
-                selector: #"main a[href*="/products/ads-commerce/"]"#,
-                expectedMax: 120,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("jd corporate news") {
-            return StabilityProfile(
-                key: "jd-news",
-                selector: #"main article a[href], article a[href]"#,
-                expectedMax: 120,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("amazon freight events") {
-            return StabilityProfile(
-                key: "amazon-freight",
-                selector: #"main a[href*="freight-amazon.com"]"#,
-                expectedMax: 80,
-                allowExternal: true,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("yougov corporate news") {
-            return StabilityProfile(
-                key: "yougov",
-                selector: #"main a[href$=".pdf"], a[href$=".pdf"]"#,
-                expectedMax: 120,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("galaxus medienmitteilungen") {
-            return StabilityProfile(
-                key: "galaxus",
-                selector: #"a[href]"#,
-                expectedMax: 120,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("mordor intelligence case studies") {
-            return StabilityProfile(
-                key: "mordor-case",
-                selector: #"main a[href*="/signal/case-studies/"]"#,
-                expectedMax: 80,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("mordor intelligence insights") {
-            return StabilityProfile(
-                key: "mordor-insights",
-                selector: #"main a[href*="/signal/insights/"]"#,
-                expectedMax: 100,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("omt e-commerce events") {
-            return StabilityProfile(
-                key: "omt",
-                selector: #"main a[href*="/events/"]"#,
-                expectedMax: 100,
-                allowExternal: false,
-                titleOnly: false,
-                disableAutoRepair: true
-            )
-        }
-
-        if name.contains("experte.de e-commerce events") {
-            return StabilityProfile(
-                key: "experte-events",
-                selector: nil,
-                expectedMax: 100,
-                allowExternal: true,
-                titleOnly: true,
-                disableAutoRepair: true
-            )
-        }
-
-        return nil
-    }
-
-    private func profileAccepts(
-        title: String,
-        url: String,
-        source: SourceRecord,
-        profile: StabilityProfile
-    ) -> Bool {
-        let lowerTitle =
-            normalizeWhitespace(title).lowercased()
-
-        guard !lowerTitle.isEmpty else {
-            return false
-        }
-
-        let generic = [
-            "mehr erfahren",
-            "read more",
-            "learn more",
-            "weiterlesen",
-            "link öffnet in neuem tab",
-            "opens in a new tab",
-            "download for free",
-            "download",
-            "webinar ansehen",
-            "zur konferenz",
-            "mehr"
-        ]
-
-        // Bei semantischen Profilen sollte der CTA bereits durch
-        // die Kartenüberschrift ersetzt worden sein.
-        if generic.contains(lowerTitle) {
-            return false
-        }
-
-        if profile.titleOnly && url.isEmpty {
-            return title.count >= 5
-        }
-
-        guard
-            let target = URL(string: url),
-            let base = URL(string: source.url)
-        else {
-            return false
-        }
-
-        let path = target.path.lowercased()
-        let basePath = base.path.lowercased()
-
-        switch profile.key {
-        case "visa":
-            return path.contains("/uber-visa/newsroom/press-releases.")
-
-        case "shein":
-            return
-                path.contains("/newsroom/") &&
-                path != "/newsroom/" &&
-                title.count >= 18
-
-        case "zalando":
-            return
-                path.hasPrefix("/de/newsroom/news-stories/") &&
-                path != basePath
-
-        case "otto":
-            return
-                path.hasPrefix("/unternehmen/de/presse/") &&
-                path != "/unternehmen/de/presse/" &&
-                path != "/unternehmen/de/presse/pressemitteilungen" &&
-                !path.contains("pressemitteilungen-20") &&
-                title.count >= 12
-
-        case "ecdb":
-            return
-                path.hasPrefix("/reports/") &&
-                path != "/reports/"
-
-        case "mms":
-            return
-                path.hasPrefix("/de/news-presse/pressemitteilungen/")
-
-        case "tencent":
-            return
-                target.host?.contains("tencent.com") == true &&
-                path != "/newsroom/all-news/" &&
-                path != "/en-us/media/news.html" &&
-                title.count >= 18
-
-        case "google-ads":
-            return
-                path.hasPrefix("/products/ads-commerce/") &&
-                path != "/products/ads-commerce/"
-
-        case "jd-news":
-            return
-                target.host?.contains("jdcorporateblog.com") == true &&
-                path != "/" &&
-                title.count >= 18
-
-        case "amazon-freight":
-            return
-                target.host?.contains("freight-amazon.com") == true &&
-                title.count >= 12
-
-        case "yougov":
-            return
-                path.hasSuffix(".pdf") &&
-                !lowerTitle.hasPrefix("pdf")
-
-        case "galaxus":
-            return
-                path.hasPrefix("/de/page/") &&
-                path != basePath &&
-                !path.contains("/producttype/") &&
-                title.count >= 12
-
-        case "mordor-case":
-            return
-                path.hasPrefix("/signal/case-studies/") &&
-                path != "/signal/case-studies"
-
-        case "mordor-insights":
-            return
-                path.hasPrefix("/signal/insights/") &&
-                path != "/signal/insights"
-
-        case "omt":
-            return
-                path.hasPrefix("/events/") &&
-                path != "/events/" &&
-                path != "/events/e-commerce-konferenzen/"
-
-        default:
-            return true
-        }
-    }
-
-    private func effectiveWaitMs(
-        for source: SourceRecord
-    ) -> Int {
-        let profile = stabilityProfile(for: source)
-
-        switch profile?.key {
-        case "galaxus":
-            return max(source.waitMs, 4000)
-        case "zalando":
-            return max(source.waitMs, 5000)
-        default:
-            return source.waitMs
-        }
-    }
-
     private func classify(
         _ source: SourceRecord,
         rows: [Candidate],
         allRows: [Candidate]
     ) -> SourceTestResult {
-        let profile = stabilityProfile(for: source)
-
-        var filtered = filter(rows, for: source)
-
-        if filtered.isEmpty,
-           profile != nil,
-           !allRows.isEmpty {
-            let fallback = filter(
-                allRows,
-                for: source
-            )
-
-            if !fallback.isEmpty {
-                filtered = fallback
-            }
-        }
-
+        let filtered = filter(rows, for: source)
         let count = filtered.count
         let examples = hits(from: filtered)
 
         if count == 0 {
-            let repair =
-                profile?.disableAutoRepair == true
-                ? nil
-                : makeRepairProposal(
-                    source,
-                    rawRows: allRows.isEmpty ? rows : allRows,
-                    currentRows: filtered
-                )
+            let repair = source.visualLearned ? nil : makeRepairProposal(
+                source,
+                rawRows: allRows.isEmpty ? rows : allRows,
+                currentRows: filtered
+            )
 
             return SourceTestResult(
                 sourceID: source.id,
@@ -613,33 +232,13 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             )
         }
 
-        let threshold = max(
-            source.maxDetectedItems ?? 0,
-            profile?.expectedMax ?? 80
-        )
+        let threshold = max(source.maxDetectedItems ?? 0, 80)
         if count > threshold {
-            let profile = stabilityProfile(for: source)
-
-            var repair: SourceRepairProposal? = nil
-
-            if profile?.disableAutoRepair != true {
-                let candidate = makeRepairProposal(
-                    source,
-                    rawRows: allRows.isEmpty ? rows : allRows,
-                    currentRows: filtered
-                )
-
-                // Eine Reparatur mit extrem kleiner Vorschau gegenüber
-                // einem großen, plausiblen Archiv wird nicht angeboten.
-                if let candidate {
-                    let minimumUsefulPreview =
-                        max(3, min(12, count / 8))
-
-                    if candidate.previewCount >= minimumUsefulPreview {
-                        repair = candidate
-                    }
-                }
-            }
+            let repair = source.visualLearned ? nil : makeRepairProposal(
+                source,
+                rawRows: allRows.isEmpty ? rows : allRows,
+                currentRows: filtered
+            )
 
             return SourceTestResult(
                 sourceID: source.id,
@@ -905,12 +504,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             SourceTestHit(
                 title: $0.title,
                 url: $0.href.isEmpty ? nil : $0.href,
-                publicationDate:
-                    $0.date.trimmingCharacters(
-                        in: .whitespacesAndNewlines
-                    ).isEmpty
-                    ? nil
-                    : $0.date
+                publicationDate: $0.date.isEmpty ? nil : $0.date
             )
         }
     }
@@ -978,12 +572,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 continue
             }
 
-            let profile = stabilityProfile(for: source)
-            let allowsTitleOnly =
-                source.allowTitleOnly ||
-                profile?.titleOnly == true
-
-            if allowsTitleOnly && row.href.isEmpty {
+            if source.allowTitleOnly && row.href.isEmpty {
                 let key = "title:\(title.lowercased())"
                 guard seen.insert(key).inserted else { continue }
                 result.append(Candidate(title: title, href: "", date: row.date))
@@ -992,21 +581,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
             guard let resolved = resolve(row.href, relativeTo: source.url) else { continue }
 
-            let allowExternal =
-                profile?.allowExternal == true ||
-                source.allowExternal
-
-            if !allowExternal && !isInternal(resolved, sourceURL: source.url) {
-                continue
-            }
-
-            if let profile,
-               !profileAccepts(
-                    title: title,
-                    url: resolved,
-                    source: source,
-                    profile: profile
-               ) {
+            if !source.allowExternal && !isInternal(resolved, sourceURL: source.url) {
                 continue
             }
 
@@ -1069,21 +644,13 @@ final class SourceTester: NSObject, WKNavigationDelegate {
     }
 
     private func javascript(for source: SourceRecord) throws -> String {
-        let profile = stabilityProfile(for: source)
-
         let config: [String: Any] = [
-            "candidateSelector":
-                profile?.selector ??
-                source.candidateSelector ??
-                "",
+            "candidateSelector": source.candidateSelector ?? "",
             "itemSelector": source.itemSelector ?? "",
             "titleSelector": source.titleSelector ?? "",
             "linkSelector": source.linkSelector ?? "",
             "dateSelector": source.dateSelector ?? "",
-            "allowTitleOnly":
-                source.allowTitleOnly ||
-                profile?.titleOnly == true,
-            "profile": profile?.key ?? ""
+            "allowTitleOnly": source.allowTitleOnly
         ]
 
         let data = try JSONSerialization.data(withJSONObject: config)
@@ -1092,327 +659,64 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         return """
         (() => {
           const cfg = \(json);
-          const clean = (text) =>
-            (text || '').replace(/\\s+/g, ' ').trim();
-
-          const genericCTA = (value) => {
-            const lower = clean(value).toLowerCase();
-
-            return [
-              'mehr erfahren',
-              'read more',
-              'learn more',
-              'weiterlesen',
-              'link öffnet in neuem tab',
-              'opens in a new tab',
-              'download for free',
-              'download',
-              'webinar ansehen',
-              'zur konferenz',
-              'mehr'
-            ].includes(lower);
-          };
-
-          const cardFor = (node) =>
-            node?.closest?.(
-              'article, li, tr, section, ' +
-              '[class*="card" i], ' +
-              '[class*="teaser" i], ' +
-              '[class*="news" i], ' +
-              '[class*="press" i], ' +
-              '[class*="event" i], ' +
-              '[class*="story" i], ' +
-              '[class*="result" i], ' +
-              '[class*="item" i], ' +
-              '[class*="report" i]'
-            ) || null;
-
-          const headingFrom = (root) => {
-            if (!root?.querySelector) return '';
-
-            const selectors = [
-              'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
-              '[class*="headline" i]',
-              '[class*="heading" i]',
-              '[class*="title" i]'
-            ];
-
-            for (const selector of selectors) {
-              const el = root.querySelector(selector);
-              const value = clean(
-                el?.textContent ||
-                el?.getAttribute?.('aria-label') ||
-                ''
-              );
-
-              if (value && !genericCTA(value)) {
-                return value;
-              }
-            }
-
-            return '';
-          };
-
-          const titleFor = (link, root = null) => {
-            const own = clean(
-              link?.textContent ||
-              link?.getAttribute?.('aria-label') ||
-              link?.title ||
-              ''
-            );
-
-            if (cfg.profile === 'otto') {
-              const match = own.match(
-                /^Presse\\s+\\d{1,2}\\.\\s+[A-Za-zÄÖÜäöü]+\\.?\\s+20\\d{2}\\s+(.+?)\\s+Mehr erfahren$/i
-              );
-
-              if (match?.[1]) {
-                return clean(match[1]);
-              }
-            }
-
-            const card = root || cardFor(link);
-
-            if (
-              cfg.profile === 'yougov' ||
-              genericCTA(own) ||
-              !own
-            ) {
-              const heading = headingFrom(card);
-              if (heading) return heading;
-
-              if (cfg.profile === 'yougov' && card) {
-                const lines = clean(card.textContent)
-                  .split(/\\s{2,}|\\n/)
-                  .map(clean)
-                  .filter(Boolean)
-                  .filter(v =>
-                    !/^pdf\\b/i.test(v) &&
-                    !/^\\d{1,2}\\s+[A-Za-z]{3}\\s+20\\d{2}$/i.test(v)
-                  )
-                  .sort((a, b) => b.length - a.length);
-
-                if (lines.length) return lines[0];
-              }
-            }
-
-            if (own) return own;
-
-            const imageAlt = clean(
-              link?.querySelector?.('img[alt]')?.getAttribute('alt') ||
-              ''
-            );
-
-            return imageAlt;
-          };
-
-          const dateFor = (link, root = null) => {
-            if (cfg.profile === 'otto') {
-              const own = clean(
-                link?.textContent ||
-                link?.getAttribute?.('aria-label') ||
-                ''
-              );
-
-              const match = own.match(
-                /^Presse\\s+(\\d{1,2}\\.\\s+[A-Za-zÄÖÜäöü]+\\.?\\s+20\\d{2})\\s+/i
-              );
-
-              if (match?.[1]) {
-                return clean(match[1]);
-              }
-            }
-
-            const card = root || cardFor(link);
-
-            if (!card?.querySelector) return '';
-
-            if (cfg.dateSelector) {
-              const el = card.querySelector(cfg.dateSelector);
-              const value = clean(
-                el?.getAttribute?.('datetime') ||
-                el?.textContent ||
-                ''
-              );
-              if (value) return value;
-            }
-
-            const selectors = [
-              'time[datetime]',
-              'time',
-              '[class*="date" i]',
-              '[class*="datum" i]',
-              '[class*="published" i]'
-            ];
-
-            for (const selector of selectors) {
-              const el = card.querySelector(selector);
-              const value = clean(
-                el?.getAttribute?.('datetime') ||
-                el?.textContent ||
-                ''
-              );
-
-              if (
-                /\\b20\\d{2}-\\d{1,2}-\\d{1,2}\\b/.test(value) ||
-                /\\b\\d{1,2}[.\\/-]\\d{1,2}[.\\/-]20\\d{2}\\b/.test(value) ||
-                /\\b\\d{1,2}\\.?\\s+(?:Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|January|February|March|May|June|July|October|December)\\s+20\\d{2}\\b/i.test(value)
-              ) {
-                return value;
-              }
-            }
-
-            // YouGov: Datum steht häufig im selben Tabellen-/Listenblock.
-            if (cfg.profile === 'yougov' && card) {
-              const text = clean(card.textContent);
-              const m = text.match(
-                /\\b\\d{1,2}\\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\\s+20\\d{2}\\b/i
-              );
-              if (m) return m[0];
-            }
-
-            return '';
-          };
-
-          const rowFor = (a, root = null) => ({
-            title: titleFor(a, root),
-            href:
-              a?.href ||
-              a?.getAttribute?.('href') ||
-              '',
-            date: dateFor(a, root)
-          });
-
+          const clean = (text) => (text || '').replace(/\\s+/g, ' ').trim();
           const rows = [];
           const allRows = [];
 
+          const pick = (root, selector, fallbackToRoot = false) => {
+            if (!root) return null;
+            if (!selector) return fallbackToRoot ? root : null;
+            try {
+              if (root.matches && root.matches(selector)) return root;
+              return root.querySelector ? root.querySelector(selector) : null;
+            } catch {
+              return null;
+            }
+          };
+
+          const textOf = (root, selector, fallbackToRoot = false) => {
+            const el = pick(root, selector, fallbackToRoot);
+            return clean(
+              el?.textContent ||
+              el?.getAttribute?.('aria-label') ||
+              el?.title ||
+              ''
+            );
+          };
+
+          const hrefOf = (root, selector) => {
+            let el = pick(root, selector, false);
+            if (!el && root?.matches?.('a[href]')) el = root;
+            if (!el) el = root?.querySelector?.('a[href]');
+            return el ? (el.href || el.getAttribute('href') || '') : '';
+          };
+
           try {
             document.querySelectorAll('a[href]').forEach((a) => {
-              const row = rowFor(a);
-              if (row.title && row.href) {
-                allRows.push(row);
-              }
+              const title = clean(
+                a.textContent ||
+                a.getAttribute('aria-label') ||
+                a.title ||
+                ''
+              );
+              const href = a.href || a.getAttribute('href') || '';
+              if (title && href) allRows.push({ title, href, date: '' });
             });
 
-            // EXPERTE.de:
-            // Event-Titel/Datum sind zuverlässig sichtbar,
-            // der CTA ist teilweise kein normaler Link.
-            if (cfg.profile === 'experte-events') {
-              const bodyText = document.body?.innerText || '';
-              const lines = bodyText
-                .split('\\n')
-                .map(clean)
-                .filter(Boolean);
-
-              const dateRx =
-                /^(?:\\d{1,2}\\.\\s*-\\s*\\d{1,2}\\.\\s+|\\d{1,2}\\.\\s+)(?:Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\\s+20\\d{2}$/i;
-
-              for (let i = 0; i < lines.length - 1; i++) {
-                const title = lines[i];
-                const date = lines[i + 1];
-
-                if (
-                  dateRx.test(date) &&
-                  title.length >= 4 &&
-                  title.length <= 120 &&
-                  !/^(Business|Marketing|Technologie|Städte|Ticketpreis|Vergangene Events)$/i.test(title)
-                ) {
-                  rows.push({
-                    title,
-                    href: '',
-                    date
-                  });
-                }
-              }
-
-              return {
-                rows: rows.slice(0, 200),
-                allRows: allRows.slice(0, 1200),
-                error: ''
-              };
-            }
-
-            // Profilierte Quellen: bewusst den stabilen,
-            // engen Selektor benutzen.
-            if (cfg.profile && cfg.candidateSelector) {
-              document.querySelectorAll(cfg.candidateSelector).forEach((a) => {
-                const row = rowFor(a);
-                if (row.title && row.href) {
-                  rows.push(row);
-                }
-              });
-
-              return {
-                rows: rows.slice(0, 600),
-                allRows: allRows.slice(0, 1200),
-                error: ''
-              };
-            }
-
-            // Bewährte v1.6-Logik für alle übrigen Quellen:
             if (cfg.allowTitleOnly && cfg.itemSelector) {
               document.querySelectorAll(cfg.itemSelector).forEach((item) => {
-                const titleEl = cfg.titleSelector
-                  ? (
-                      item.matches(cfg.titleSelector)
-                        ? item
-                        : item.querySelector(cfg.titleSelector)
-                    )
-                  : item;
-
-                const title = clean(
-                  titleEl ? titleEl.textContent : item.textContent
-                );
-
-                const date = dateFor(null, item);
-
-                if (title) {
-                  rows.push({
-                    title,
-                    href: '',
-                    date
-                  });
-                }
+                const title = textOf(item, cfg.titleSelector, !cfg.titleSelector);
+                const date = cfg.dateSelector ? textOf(item, cfg.dateSelector) : '';
+                if (title) rows.push({ title, href: '', date });
               });
             } else if (cfg.itemSelector) {
               document.querySelectorAll(cfg.itemSelector).forEach((item) => {
-                let linkEl = null;
-
-                if (cfg.linkSelector) {
-                  linkEl = item.matches(cfg.linkSelector)
-                    ? item
-                    : item.querySelector(cfg.linkSelector);
-                } else {
-                  linkEl = item.matches('a[href]')
-                    ? item
-                    : item.querySelector('a[href]');
-                }
-
-                if (!linkEl) return;
-
-                const titleEl = cfg.titleSelector
-                  ? (
-                      item.matches(cfg.titleSelector)
-                        ? item
-                        : item.querySelector(cfg.titleSelector)
-                    )
-                  : item;
-
-                const title = clean(
-                  titleEl ? titleEl.textContent : linkEl.textContent
-                );
-
-                const href =
-                  linkEl.href ||
-                  linkEl.getAttribute('href') ||
-                  '';
+                const title = textOf(item, cfg.titleSelector, !cfg.titleSelector);
+                const href = hrefOf(item, cfg.linkSelector);
+                const date = cfg.dateSelector ? textOf(item, cfg.dateSelector) : '';
 
                 if (title && href) {
-                  rows.push({
-                    title,
-                    href,
-                    date: dateFor(linkEl, item)
-                  });
+                  rows.push({ title, href, date });
                 }
               });
             } else {
@@ -1434,11 +738,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                   '';
 
                 if (title && href) {
-                  rows.push({
-                    title,
-                    href,
-                    date: dateFor(a)
-                  });
+                  rows.push({ title, href, date: '' });
                 }
               });
 

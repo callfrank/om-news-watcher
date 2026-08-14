@@ -135,19 +135,118 @@ struct SourceRecord: Identifiable, Equatable {
     }
 
     var itemSelector: String? {
-        selectorValue("item")
+        get { selectorValue("item") }
+        set { setSelectorValue("item", newValue) }
     }
 
     var titleSelector: String? {
-        selectorValue("title")
+        get { selectorValue("title") }
+        set { setSelectorValue("title", newValue) }
     }
 
     var linkSelector: String? {
-        selectorValue("link")
+        get { selectorValue("link") }
+        set { setSelectorValue("link", newValue) }
     }
 
     var dateSelector: String? {
-        selectorValue("date")
+        get { selectorValue("date") }
+        set { setSelectorValue("date", newValue) }
+    }
+
+    var visualLearned: Bool {
+        raw["visualLearned"]?.boolValue ?? false
+    }
+
+    var visualSampleCount: Int {
+        raw["visualSampleCount"]?.intValue ?? 0
+    }
+
+    var visualLearnedAt: String? {
+        clean(raw["visualLearnedAt"]?.stringValue)
+    }
+
+    mutating func applyVisualTrainingRule(_ rule: VisualTrainingRule) {
+        if !visualLearned {
+            let keys = [
+                "candidateSelector",
+                "includeRegex",
+                "excludeRegex",
+                "includeTitleRegex",
+                "excludeTitleRegex",
+                "fetchMode",
+                "allowTitleOnly",
+                "allowExternal",
+                "minTitleLength",
+                "selectors"
+            ]
+
+            var backup: [String: JSONValue] = [:]
+            for key in keys {
+                if let value = raw[key] {
+                    backup[key] = value
+                }
+            }
+            raw["visualBackup"] = .object(backup)
+        }
+
+        itemSelector = rule.itemSelector
+        titleSelector = rule.titleSelector
+        linkSelector = rule.linkSelector
+        dateSelector = rule.dateSelector
+
+        candidateSelector = nil
+        includeRegex = nil
+        excludeRegex = nil
+        raw.removeValue(forKey: "includeTitleRegex")
+        raw.removeValue(forKey: "excludeTitleRegex")
+        fetchMode = nil
+        allowTitleOnly = false
+        allowExternal = rule.allowExternal
+        minTitleLength = 5
+
+        raw["visualLearned"] = .bool(true)
+        raw["visualSampleCount"] = .int(rule.sampleCount)
+        raw["visualLearnedAt"] = .string(ISO8601DateFormatter().string(from: Date()))
+        baselineVersion = SourceRecord.makeBaselineVersion()
+    }
+
+    mutating func restoreBeforeVisualTraining() {
+        let keys = [
+            "candidateSelector",
+            "includeRegex",
+            "excludeRegex",
+            "includeTitleRegex",
+            "excludeTitleRegex",
+            "fetchMode",
+            "allowTitleOnly",
+            "allowExternal",
+            "minTitleLength",
+            "selectors"
+        ]
+
+        for key in keys {
+            raw.removeValue(forKey: key)
+        }
+
+        if case .object(let backup) = raw["visualBackup"] {
+            for (key, value) in backup {
+                raw[key] = value
+            }
+        } else {
+            raw["selectors"] = .object([
+                "item": .string(""),
+                "title": .string(""),
+                "link": .string(""),
+                "date": .string("")
+            ])
+        }
+
+        raw.removeValue(forKey: "visualBackup")
+        raw.removeValue(forKey: "visualLearned")
+        raw.removeValue(forKey: "visualSampleCount")
+        raw.removeValue(forKey: "visualLearnedAt")
+        baselineVersion = SourceRecord.makeBaselineVersion()
     }
 
     static func new(url: String = "") -> SourceRecord {
@@ -243,6 +342,20 @@ struct SourceRecord: Identifiable, Equatable {
     private func selectorValue(_ key: String) -> String? {
         guard case .object(let selectors) = raw["selectors"] else { return nil }
         return clean(selectors[key]?.stringValue)
+    }
+
+    private mutating func setSelectorValue(_ key: String, _ value: String?) {
+        var selectors: [String: JSONValue] = [:]
+
+        if case .object(let current) = raw["selectors"] {
+            selectors = current
+        }
+
+        let trimmed = value?
+            .trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+
+        selectors[key] = .string(trimmed)
+        raw["selectors"] = .object(selectors)
     }
 
     private func clean(_ value: String?) -> String? {

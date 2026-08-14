@@ -3,6 +3,7 @@ import AppKit
 
 enum EmailAlertMode: String, Codable, CaseIterable, Identifiable {
     case off = "off"
+    case hourly = "hourly"
     case twoHourly = "two-hour"
     case daily = "daily"
 
@@ -12,6 +13,8 @@ enum EmailAlertMode: String, Codable, CaseIterable, Identifiable {
         switch self {
         case .off:
             return "Aus"
+        case .hourly:
+            return "Stündlich (05–18 Uhr)"
         case .twoHourly:
             return "Alle 2 Stunden (05–18 Uhr)"
         case .daily:
@@ -23,6 +26,8 @@ enum EmailAlertMode: String, Codable, CaseIterable, Identifiable {
         switch self {
         case .off:
             return "Keine E-Mail-Benachrichtigungen."
+        case .hourly:
+            return "Sammelmail jede Stunde von 05 bis einschließlich 18 Uhr – nur wenn neue Treffer vorliegen."
         case .twoHourly:
             return "Sammelmail um 05, 07, 09, 11, 13, 15 und 17 Uhr – nur wenn neue Treffer vorliegen."
         case .daily:
@@ -59,6 +64,8 @@ final class AppViewModel: ObservableObject {
     @Published var editingSource: SourceRecord?
     @Published var testResults: [UUID: SourceTestResult] = [:]
     @Published var testingSourceID: UUID?
+    @Published var showVisualTrainer = false
+    @Published var visualTrainingSource: SourceRecord?
     @Published var emailAlertMode: EmailAlertMode = .off
     @Published var emailSettingsDirty = false
     @Published var emailTestStatus: String?
@@ -238,6 +245,47 @@ final class AppViewModel: ObservableObject {
         guard let selectedSource else { return }
         editingSource = selectedSource
         showEditor = true
+    }
+
+    func startVisualTrainingSelected() {
+        guard let selectedSource else { return }
+        startVisualTraining(sourceID: selectedSource.id)
+    }
+
+    func startVisualTraining(sourceID: UUID) {
+        guard let source = sources.first(where: { $0.id == sourceID }) else { return }
+        visualTrainingSource = source
+        showVisualTrainer = true
+        statusMessage = "Visuelles Einlernen: \(source.name)"
+    }
+
+    func applyVisualTrainingRule(
+        _ rule: VisualTrainingRule,
+        to sourceID: UUID
+    ) {
+        guard let index = sources.firstIndex(where: { $0.id == sourceID }) else { return }
+
+        var source = sources[index]
+        source.applyVisualTrainingRule(rule)
+        sources[index] = source
+
+        testResults.removeValue(forKey: sourceID)
+        isDirty = true
+        showVisualTrainer = false
+        visualTrainingSource = nil
+        statusMessage = "\(source.name): visuelle Regel übernommen – bitte speichern"
+    }
+
+    func restoreAutomaticDetection(for sourceID: UUID) {
+        guard let index = sources.firstIndex(where: { $0.id == sourceID }) else { return }
+
+        var source = sources[index]
+        source.restoreBeforeVisualTraining()
+        sources[index] = source
+
+        testResults.removeValue(forKey: sourceID)
+        isDirty = true
+        statusMessage = "\(source.name): Einlernregel zurückgesetzt"
     }
 
     func applyEditorResult(_ edited: SourceRecord) {

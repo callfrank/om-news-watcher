@@ -6,11 +6,18 @@ struct SourceEditorView: View {
     @State private var draft: SourceRecord
     let isExisting: Bool
     let onSave: (SourceRecord) -> Void
+    let onSaveAndTrain: (SourceRecord) -> Void
 
-    init(source: SourceRecord, isExisting: Bool, onSave: @escaping (SourceRecord) -> Void) {
+    init(
+        source: SourceRecord,
+        isExisting: Bool,
+        onSave: @escaping (SourceRecord) -> Void,
+        onSaveAndTrain: @escaping (SourceRecord) -> Void
+    ) {
         _draft = State(initialValue: source)
         self.isExisting = isExisting
         self.onSave = onSave
+        self.onSaveAndTrain = onSaveAndTrain
     }
 
     var body: some View {
@@ -69,9 +76,19 @@ struct SourceEditorView: View {
                         )
                     }
 
-                    Text("Für neue Quellen reicht normalerweise die automatische Erkennung. Spezielle Regeln in sources.json bleiben beim Bearbeiten erhalten.")
+                    Text("Die automatische Erkennung bleibt erhalten. Für neue oder schwierige Quellen kannst du die Seite zusätzlich visuell einlernen: Öffne die Website in der App und klicke 2–3 echte Meldungen an.")
                         .font(.caption)
                         .foregroundStyle(.secondary)
+
+                    Button {
+                        onSaveAndTrain(draft)
+                    } label: {
+                        Label(
+                            "Speichern & visuell einlernen",
+                            systemImage: "cursorarrow.click.2"
+                        )
+                    }
+                    .disabled(!isValid)
                 }
             }
             .formStyle(.grouped)
