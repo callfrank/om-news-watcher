@@ -9,17 +9,18 @@ const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 
-const VERSION = '0.13';
+const VERSION = '0.14';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
 const DEFAULT_SAMPLE_COUNT = 3;
 
 /*
- * v0.13: Qualitätsfilter + semantische Card-Erkennung + Publikationsdatum
- *
- * Wichtig: Die globale Baseline bleibt unverändert.
- * Bestehende funktionierende Quellen werden nicht neu eingelesen.
+ * v0.14: Stabilitäts-Update
+ * - globale v0.13-Qualitätsfilter zurückgenommen
+ * - gezielte Profile für bekannte schwierige Quellen
+ * - Publikationsdatum als Metadatum
+ * - keine neue globale Baseline
  *
  * v0.10: Clean-Baseline + Multi-Source-Version
  *
@@ -186,157 +187,30 @@ function syntheticTitleUrl(source, title) {
 }
 
 
-function cleanTitle(value = '') {
-  return String(value || '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function isGenericTitle(value = '') {
-  const title = cleanTitle(value);
-  const lower = title.toLowerCase();
-
-  if (!title) {
-    return true;
-  }
-
-  if (/<\s*(img|svg|picture|source|div|span|a)\b/i.test(title)) {
-    return true;
-  }
-
-  const exact = new Set([
-    'home', 'startseite', 'kontakt', 'contact', 'about', 'über uns',
-    'impressum', 'datenschutz', 'privacy', 'login', 'jobs', 'karriere',
-    'services', 'service', 'governance', 'unsere werte', 'unsere talente',
-    'auszeichnungen', 'standorte', 'locations', 'media', 'stories',
-    'publications', 'news', 'presse', 'press', 'menu', 'navigation',
-    'alle akzeptieren', 'alles akzeptieren', 'akzeptieren',
-    'accept all', 'accept', 'zustimmen', 'allow all',
-    'link öffnet in neuem tab', 'opens in a new tab', 'open in new tab',
-    'mehr erfahren', 'mehr erfahren >', 'read more', 'learn more',
-    'weiterlesen'
-  ]);
-
-  if (exact.has(lower)) {
-    return true;
-  }
-
-  const genericPrefixes = [
-    'mehr erfahren', 'read more', 'learn more', 'weiterlesen',
-    'zurück', 'back', 'alle themen', 'all topics',
-    'link öffnet', 'opens in', 'open in new'
-  ];
-
-  if (genericPrefixes.some(prefix => lower.startsWith(prefix))) {
-    return true;
-  }
-
-  if (/^pdf\s*[-–—:]\s*\d/i.test(title)) {
-    return true;
-  }
-
-  return false;
-}
-
-function sameCanonicalPage(href, sourceUrl) {
-  try {
-    const target = new URL(href, sourceUrl);
-    const source = new URL(sourceUrl);
-
-    target.hash = '';
-    source.hash = '';
-
-    return (
-      target.origin === source.origin &&
-      target.pathname === source.pathname &&
-      target.search === source.search
-    );
-  } catch {
-    return false;
-  }
-}
-
-function isBadContentUrl(href, source, title = '') {
-  try {
-    const u = new URL(href, source.url);
-    const path = u.pathname.toLowerCase();
-
-    const badPaths = [
-      '/producttype/',
-      '/products/',
-      '/product/',
-      '/warenkorb/',
-      '/cart/',
-      '/checkout/',
-      '/search/'
-    ];
-
-    if (badPaths.some(part => path.includes(part))) {
-      return true;
-    }
-
-    if (
-      source.allowTitleOnly !== true &&
-      sameCanonicalPage(u.href, source.url) &&
-      !u.searchParams.has('om_item')
-    ) {
-      return true;
-    }
-
-    if (path.endsWith('.pdf')) {
-      const lowerTitle = cleanTitle(title).toLowerCase();
-
-      if (
-        /^pdf\b/i.test(lowerTitle) ||
-        lowerTitle.includes('factsheet') ||
-        lowerTitle.includes('fact sheet')
-      ) {
-        return true;
-      }
-    }
-
-    return false;
-  } catch {
-    return true;
-  }
-}
-
-const MONTHS = {
-  januar: 1,
-  january: 1,
-  februar: 2,
-  february: 2,
-  märz: 3,
-  maerz: 3,
-  march: 3,
+const STABILITY_MONTHS = {
+  januar: 1, january: 1,
+  februar: 2, february: 2,
+  märz: 3, maerz: 3, march: 3,
   april: 4,
-  mai: 5,
-  may: 5,
-  juni: 6,
-  june: 6,
-  juli: 7,
-  july: 7,
+  mai: 5, may: 5,
+  juni: 6, june: 6,
+  juli: 7, july: 7,
   august: 8,
   september: 9,
-  oktober: 10,
-  october: 10,
+  oktober: 10, october: 10,
   november: 11,
-  dezember: 12,
-  december: 12
+  dezember: 12, december: 12
 };
 
-function validIsoDate(year, month, day) {
+function validStabilityDate(year, month, day) {
   const y = Number(year);
   const m = Number(month);
   const d = Number(day);
 
   if (
-    y < 2000 ||
-    y > 2100 ||
-    m < 1 ||
-    m > 12 ||
-    d < 1 ||
-    d > 31
+    y < 2000 || y > 2100 ||
+    m < 1 || m > 12 ||
+    d < 1 || d > 31
   ) {
     return null;
   }
@@ -358,39 +232,47 @@ function validIsoDate(year, month, day) {
   ].join('-');
 }
 
-function normalizePageDate(raw = '', link = '') {
-  const value = cleanTitle(raw);
+function normalizePageDateV14(raw = '', link = '') {
+  const value = String(raw || '')
+    .replace(/\s+/g, ' ')
+    .trim();
 
-  let match = value.match(/\b(20\d{2})-(\d{1,2})-(\d{1,2})\b/);
-  if (match) {
-    const iso = validIsoDate(match[1], match[2], match[3]);
+  let m = value.match(/\b(20\d{2})-(\d{1,2})-(\d{1,2})\b/);
+  if (m) {
+    const iso = validStabilityDate(m[1], m[2], m[3]);
     if (iso) return iso;
   }
 
-  match = value.match(/\b(\d{1,2})[.\/-](\d{1,2})[.\/-](20\d{2})\b/);
-  if (match) {
-    const iso = validIsoDate(match[3], match[2], match[1]);
+  m = value.match(/\b(\d{1,2})[.\/-](\d{1,2})[.\/-](20\d{2})\b/);
+  if (m) {
+    const iso = validStabilityDate(m[3], m[2], m[1]);
     if (iso) return iso;
   }
 
-  match = value.match(
+  m = value.match(
     /\b(\d{1,2})\.?\s+(Januar|January|Februar|February|März|Maerz|March|April|Mai|May|Juni|June|Juli|July|August|September|Oktober|October|November|Dezember|December)\s+(20\d{2})\b/i
   );
 
-  if (match) {
-    const month = MONTHS[match[2].toLowerCase()];
-    const iso = validIsoDate(match[3], month, match[1]);
+  if (m) {
+    const month =
+      STABILITY_MONTHS[m[2].toLowerCase()];
+
+    const iso =
+      validStabilityDate(m[3], month, m[1]);
+
     if (iso) return iso;
   }
 
   try {
     const u = new URL(link);
-    match = u.pathname.match(
+    m = u.pathname.match(
       /\/(20\d{2})\/(\d{1,2})\/(\d{1,2})(?:\/|$)/
     );
 
-    if (match) {
-      const iso = validIsoDate(match[1], match[2], match[3]);
+    if (m) {
+      const iso =
+        validStabilityDate(m[1], m[2], m[3]);
+
       if (iso) return iso;
     }
   } catch {}
@@ -398,19 +280,18 @@ function normalizePageDate(raw = '', link = '') {
   return null;
 }
 
-function formatGermanDate(iso) {
-  if (!iso) return null;
+function formatGermanDateV14(iso) {
+  const m =
+    String(iso || '').match(
+      /^(20\d{2})-(\d{2})-(\d{2})$/
+    );
 
-  const match = String(iso).match(
-    /^(20\d{2})-(\d{2})-(\d{2})$/
-  );
-
-  if (!match) return null;
-
-  return `${match[3]}.${match[2]}.${match[1]}`;
+  return m
+    ? `${m[3]}.${m[2]}.${m[1]}`
+    : null;
 }
 
-function formatDetectedAt(value) {
+function formatDetectedAtV14(value) {
   try {
     return new Intl.DateTimeFormat(
       'de-DE',
@@ -428,20 +309,385 @@ function formatDetectedAt(value) {
   }
 }
 
+function stabilityProfile(source) {
+  const name =
+    String(source?.name || '')
+      .toLowerCase();
+
+  const profile = {
+    key: '',
+    selector: null,
+    allowExternal: false,
+    titleOnly: false,
+    expectedMax: 80
+  };
+
+  if (name.includes('visa newsroom')) {
+    return {
+      ...profile,
+      key: 'visa',
+      selector:
+        'main a[href*="/uber-visa/newsroom/press-releases."]',
+      expectedMax: 260
+    };
+  }
+
+  if (name.includes('shein newsroom')) {
+    return {
+      ...profile,
+      key: 'shein',
+      selector:
+        'main a[href*="/newsroom/"]',
+      expectedMax: 260
+    };
+  }
+
+  if (name.includes('hellofresh press releases')) {
+    return {
+      ...profile,
+      key: 'hellofresh',
+      expectedMax: 220
+    };
+  }
+
+  if (name.includes('zalando newsroom')) {
+    return {
+      ...profile,
+      key: 'zalando',
+      selector:
+        'main a[href*="/de/newsroom/news-stories"]',
+      expectedMax: 100
+    };
+  }
+
+  if (name.includes('ecdb reports')) {
+    return {
+      ...profile,
+      key: 'ecdb',
+      selector:
+        'main a[href*="/reports/"]',
+      expectedMax: 120
+    };
+  }
+
+  if (name.includes('mediamarktsaturn')) {
+    return {
+      ...profile,
+      key: 'mms',
+      selector:
+        'main a[href*="/de/news-presse/pressemitteilungen/"]',
+      expectedMax: 120
+    };
+  }
+
+  if (name.includes('tencent news')) {
+    return {
+      ...profile,
+      key: 'tencent',
+      selector:
+        'main h2 a[href], main h3 a[href], article h2 a[href], article h3 a[href]',
+      expectedMax: 120
+    };
+  }
+
+  if (name.includes('google ads & commerce')) {
+    return {
+      ...profile,
+      key: 'google-ads',
+      selector:
+        'main a[href*="/products/ads-commerce/"]',
+      expectedMax: 120
+    };
+  }
+
+  if (name.includes('jd corporate news')) {
+    return {
+      ...profile,
+      key: 'jd-news',
+      selector:
+        'main article a[href], article a[href]',
+      expectedMax: 120
+    };
+  }
+
+  if (name.includes('amazon freight events')) {
+    return {
+      ...profile,
+      key: 'amazon-freight',
+      selector:
+        'main a[href*="freight-amazon.com"]',
+      allowExternal: true,
+      expectedMax: 80
+    };
+  }
+
+  if (name.includes('yougov corporate news')) {
+    return {
+      ...profile,
+      key: 'yougov',
+      selector:
+        'main a[href$=".pdf"], a[href$=".pdf"]',
+      expectedMax: 120
+    };
+  }
+
+  if (name.includes('galaxus medienmitteilungen')) {
+    return {
+      ...profile,
+      key: 'galaxus',
+      selector:
+        'main a[href*="/de/page/"]',
+      expectedMax: 120
+    };
+  }
+
+  if (name.includes('mordor intelligence case studies')) {
+    return {
+      ...profile,
+      key: 'mordor-case',
+      selector:
+        'main a[href*="/signal/case-studies/"]',
+      expectedMax: 80
+    };
+  }
+
+  if (name.includes('mordor intelligence insights')) {
+    return {
+      ...profile,
+      key: 'mordor-insights',
+      selector:
+        'main a[href*="/signal/insights/"]',
+      expectedMax: 100
+    };
+  }
+
+  if (name.includes('omt e-commerce events')) {
+    return {
+      ...profile,
+      key: 'omt',
+      selector:
+        'main a[href*="/events/"]',
+      expectedMax: 100
+    };
+  }
+
+  if (name.includes('experte.de e-commerce events')) {
+    return {
+      ...profile,
+      key: 'experte-events',
+      titleOnly: true,
+      allowExternal: true,
+      expectedMax: 100
+    };
+  }
+
+  return null;
+}
+
+function applyStabilityProfile(source) {
+  const profile =
+    stabilityProfile(source);
+
+  if (!profile) {
+    return source;
+  }
+
+  const copy = {
+    ...source,
+    selectors: {
+      ...(source.selectors || {})
+    },
+    _stabilityProfile:
+      profile
+  };
+
+  if (profile.selector) {
+    copy.candidateSelector =
+      profile.selector;
+  }
+
+  if (profile.allowExternal) {
+    copy.allowExternal =
+      true;
+  }
+
+  if (profile.titleOnly) {
+    copy.allowTitleOnly =
+      true;
+  }
+
+  return copy;
+}
+
+function stabilityAccepts(title, link, source) {
+  const profile =
+    source._stabilityProfile;
+
+  if (!profile) {
+    return true;
+  }
+
+  const lowerTitle =
+    String(title || '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase();
+
+  const generic = new Set([
+    'mehr erfahren',
+    'read more',
+    'learn more',
+    'weiterlesen',
+    'link öffnet in neuem tab',
+    'opens in a new tab',
+    'download for free',
+    'download',
+    'webinar ansehen',
+    'zur konferenz',
+    'mehr'
+  ]);
+
+  if (generic.has(lowerTitle)) {
+    return false;
+  }
+
+  if (
+    profile.titleOnly &&
+    String(link || '').includes('om_item=')
+  ) {
+    return String(title || '').trim().length >= 5;
+  }
+
+  let target;
+  let base;
+
+  try {
+    target = new URL(link, source.url);
+    base = new URL(source.url);
+  } catch {
+    return false;
+  }
+
+  const path =
+    target.pathname.toLowerCase();
+
+  const basePath =
+    base.pathname.toLowerCase();
+
+  switch (profile.key) {
+    case 'visa':
+      return path.includes(
+        '/uber-visa/newsroom/press-releases.'
+      );
+
+    case 'shein':
+      return (
+        path.includes('/newsroom/') &&
+        path !== '/newsroom/' &&
+        title.length >= 18
+      );
+
+    case 'zalando':
+      return (
+        path.startsWith(
+          '/de/newsroom/news-stories/'
+        ) &&
+        path !== basePath
+      );
+
+    case 'ecdb':
+      return (
+        path.startsWith('/reports/') &&
+        path !== '/reports/'
+      );
+
+    case 'mms':
+      return path.startsWith(
+        '/de/news-presse/pressemitteilungen/'
+      );
+
+    case 'tencent':
+      return (
+        target.hostname.includes('tencent.com') &&
+        path !== '/newsroom/all-news/' &&
+        path !== '/en-us/media/news.html' &&
+        title.length >= 18
+      );
+
+    case 'google-ads':
+      return (
+        path.startsWith(
+          '/products/ads-commerce/'
+        ) &&
+        path !== '/products/ads-commerce/'
+      );
+
+    case 'jd-news':
+      return (
+        target.hostname.includes(
+          'jdcorporateblog.com'
+        ) &&
+        path !== '/' &&
+        title.length >= 18
+      );
+
+    case 'amazon-freight':
+      return (
+        target.hostname.includes(
+          'freight-amazon.com'
+        ) &&
+        title.length >= 12
+      );
+
+    case 'yougov':
+      return (
+        path.endsWith('.pdf') &&
+        !lowerTitle.startsWith('pdf')
+      );
+
+    case 'galaxus':
+      return (
+        path.startsWith('/de/page/') &&
+        path !== basePath &&
+        !path.includes('/producttype/') &&
+        title.length >= 12
+      );
+
+    case 'mordor-case':
+      return (
+        path.startsWith(
+          '/signal/case-studies/'
+        ) &&
+        path !== '/signal/case-studies'
+      );
+
+    case 'mordor-insights':
+      return (
+        path.startsWith(
+          '/signal/insights/'
+        ) &&
+        path !== '/signal/insights'
+      );
+
+    case 'omt':
+      return (
+        path.startsWith('/events/') &&
+        path !== '/events/' &&
+        path !==
+          '/events/e-commerce-konferenzen/'
+      );
+
+    default:
+      return true;
+  }
+}
+
 function looksLikeArticle(text, href, source) {
   if (!text || text.length < 6 || text.length > 320 || !href) {
     return false;
   }
 
-  if (isGenericTitle(text)) {
-    return false;
-  }
-
   if (!isAllowedUrl(href, source)) {
-    return false;
-  }
-
-  if (isBadContentUrl(href, source, text)) {
     return false;
   }
 
@@ -536,6 +782,240 @@ async function autoScroll(page, steps = 0) {
   }
 }
 
+
+async function extractProfiled(page, source) {
+  const profile =
+    source._stabilityProfile;
+
+  if (!profile) {
+    return null;
+  }
+
+  if (profile.key === 'experte-events') {
+    return await page.locator('body').evaluate(() => {
+      const clean = value =>
+        (value || '')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+      const lines =
+        (document.body?.innerText || '')
+          .split('\n')
+          .map(clean)
+          .filter(Boolean);
+
+      const dateRx =
+        /^(?:\d{1,2}\.\s*-\s*\d{1,2}\.\s+|\d{1,2}\.\s+)(?:Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+20\d{2}$/i;
+
+      const rows = [];
+
+      for (let i = 0; i < lines.length - 1; i++) {
+        const title = lines[i];
+        const date = lines[i + 1];
+
+        if (
+          dateRx.test(date) &&
+          title.length >= 4 &&
+          title.length <= 120 &&
+          !/^(Business|Marketing|Technologie|Städte|Ticketpreis|Vergangene Events)$/i.test(title)
+        ) {
+          rows.push({
+            title,
+            href: '',
+            date
+          });
+        }
+      }
+
+      return rows;
+    });
+  }
+
+  const selector =
+    profile.selector;
+
+  if (!selector) {
+    return null;
+  }
+
+  return await page.locator(selector).evaluateAll(
+    (nodes, profileKey) => {
+      const clean = value =>
+        (value || '')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+      const genericCTA = value =>
+        new Set([
+          'mehr erfahren',
+          'read more',
+          'learn more',
+          'weiterlesen',
+          'link öffnet in neuem tab',
+          'opens in a new tab',
+          'download for free',
+          'download',
+          'webinar ansehen',
+          'zur konferenz',
+          'mehr'
+        ])
+        .has(
+          clean(value).toLowerCase()
+        );
+
+      const cardFor = node =>
+        node?.closest?.(
+          'article,li,tr,section,' +
+          '[class*="card" i],' +
+          '[class*="teaser" i],' +
+          '[class*="news" i],' +
+          '[class*="press" i],' +
+          '[class*="event" i],' +
+          '[class*="story" i],' +
+          '[class*="result" i],' +
+          '[class*="item" i],' +
+          '[class*="report" i]'
+        ) || null;
+
+      const headingFrom = root => {
+        if (!root?.querySelector) {
+          return '';
+        }
+
+        const selectors = [
+          'h1','h2','h3','h4','h5','h6',
+          '[class*="headline" i]',
+          '[class*="heading" i]',
+          '[class*="title" i]'
+        ];
+
+        for (const selector of selectors) {
+          const el =
+            root.querySelector(selector);
+
+          const value =
+            clean(
+              el?.textContent ||
+              el?.getAttribute?.('aria-label') ||
+              ''
+            );
+
+          if (
+            value &&
+            !genericCTA(value)
+          ) {
+            return value;
+          }
+        }
+
+        return '';
+      };
+
+      const dateFrom = root => {
+        if (!root?.querySelector) {
+          return '';
+        }
+
+        const selectors = [
+          'time[datetime]',
+          'time',
+          '[class*="date" i]',
+          '[class*="datum" i]',
+          '[class*="published" i]'
+        ];
+
+        for (const selector of selectors) {
+          const el =
+            root.querySelector(selector);
+
+          const value =
+            clean(
+              el?.getAttribute?.('datetime') ||
+              el?.textContent ||
+              ''
+            );
+
+          if (
+            /\b20\d{2}-\d{1,2}-\d{1,2}\b/.test(value) ||
+            /\b\d{1,2}[.\/-]\d{1,2}[.\/-]20\d{2}\b/.test(value) ||
+            /\b\d{1,2}\.?\s+(?:Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|January|February|March|May|June|July|October|December)\s+20\d{2}\b/i.test(value)
+          ) {
+            return value;
+          }
+        }
+
+        return '';
+      };
+
+      return nodes.map(a => {
+        const card =
+          cardFor(a);
+
+        const own =
+          clean(
+            a.textContent ||
+            a.getAttribute('aria-label') ||
+            a.title ||
+            ''
+          );
+
+        let title = own;
+
+        if (
+          genericCTA(own) ||
+          !own ||
+          profileKey === 'yougov'
+        ) {
+          const heading =
+            headingFrom(card);
+
+          if (heading) {
+            title = heading;
+          } else if (
+            profileKey === 'yougov' &&
+            card
+          ) {
+            const text =
+              clean(card.textContent);
+
+            const withoutPdf =
+              text
+                .replace(
+                  /\bPDF\b.*$/i,
+                  ''
+                )
+                .trim();
+
+            const dateStripped =
+              withoutPdf
+                .replace(
+                  /\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+20\d{2}\b/i,
+                  ''
+                )
+                .trim();
+
+            if (dateStripped) {
+              title =
+                dateStripped;
+            }
+          }
+        }
+
+        return {
+          title,
+          href:
+            a.href ||
+            a.getAttribute('href') ||
+            '',
+          date:
+            dateFrom(card)
+        };
+      });
+    },
+    profile.key
+  );
+}
+
 async function extractConfigured(page, source) {
   const sel = source.selectors || {};
 
@@ -544,45 +1024,14 @@ async function extractConfigured(page, source) {
   }
 
   return await page.locator(sel.item).evaluateAll((nodes, cfg) => {
-    const clean = text =>
-      (text || '')
-        .replace(/\s+/g, ' ')
-        .trim();
-
-    const genericTitle = value => {
-      const title = clean(value);
-      const lower = title.toLowerCase();
-
-      if (!title) return true;
-
-      if (/<\s*(img|svg|picture|source|div|span|a)\b/i.test(title)) {
-        return true;
-      }
-
-      const exact = new Set([
-        'alle akzeptieren', 'alles akzeptieren', 'akzeptieren',
-        'accept all', 'accept', 'zustimmen', 'allow all',
-        'link öffnet in neuem tab', 'opens in a new tab',
-        'open in new tab', 'mehr erfahren', 'mehr erfahren >',
-        'read more', 'learn more', 'weiterlesen'
-      ]);
-
-      return (
-        exact.has(lower) ||
-        [
-          'mehr erfahren', 'read more', 'learn more',
-          'weiterlesen', 'link öffnet', 'opens in',
-          'open in new'
-        ].some(prefix => lower.startsWith(prefix))
-      );
-    };
-
     const textOf = (root, selector) => {
-      const el = selector
-        ? root.querySelector(selector)
-        : root;
+      const el = selector ? root.querySelector(selector) : root;
 
-      return clean(el ? el.textContent : '');
+      return el
+        ? (el.textContent || '')
+            .replace(/\s+/g, ' ')
+            .trim()
+        : '';
     };
 
     const hrefOf = (root, selector) => {
@@ -590,95 +1039,14 @@ async function extractConfigured(page, source) {
         ? root.querySelector(selector)
         : root.querySelector('a[href]');
 
-      return el
-        ? (
-            el.href ||
-            el.getAttribute('href') ||
-            ''
-          )
-        : '';
+      return el ? el.getAttribute('href') : '';
     };
 
-    const semanticTitle = root => {
-      const heading = root.querySelector(
-        'h1,h2,h3,h4,h5,h6,' +
-        '[class*="headline" i],' +
-        '[class*="heading" i],' +
-        '[class*="title" i]'
-      );
-
-      const headingText = clean(
-        heading?.textContent ||
-        heading?.getAttribute?.('aria-label') ||
-        ''
-      );
-
-      if (headingText && !genericTitle(headingText)) {
-        return headingText;
-      }
-
-      const link = root.matches('a[href]')
-        ? root
-        : root.querySelector('a[href]');
-
-      const own = clean(
-        link?.textContent ||
-        link?.getAttribute?.('aria-label') ||
-        link?.title ||
-        ''
-      );
-
-      if (own && !genericTitle(own)) {
-        return own;
-      }
-
-      const imageAlt = clean(
-        link?.querySelector?.('img[alt]')?.getAttribute('alt') ||
-        ''
-      );
-
-      return imageAlt;
-    };
-
-    const dateOf = root => {
-      if (cfg.date) {
-        const configured = root.querySelector(cfg.date);
-        const value = clean(
-          configured?.getAttribute?.('datetime') ||
-          configured?.textContent ||
-          ''
-        );
-
-        if (value) return value;
-      }
-
-      const el = root.querySelector(
-        'time[datetime],time,' +
-        '[class*="date" i],' +
-        '[class*="datum" i],' +
-        '[class*="published" i]'
-      );
-
-      return clean(
-        el?.getAttribute?.('datetime') ||
-        el?.textContent ||
-        ''
-      );
-    };
-
-    return nodes.map(n => {
-      const configuredTitle = textOf(n, cfg.title);
-      const title =
-        configuredTitle && !genericTitle(configuredTitle)
-          ? configuredTitle
-          : semanticTitle(n);
-
-      return {
-        title,
-        href: hrefOf(n, cfg.link),
-        date: dateOf(n)
-      };
-    });
+    return nodes.map(n => ({
+      title: textOf(n, cfg.title),
+      href: hrefOf(n, cfg.link),
+      date: cfg.date ? textOf(n, cfg.date) : ''
+    }));
   }, sel);
 }
 
@@ -689,19 +1057,17 @@ async function extractAutomatic(page, source) {
     ? [custom]
     : [
         'main article a[href]',
-        'article a[href]',
         'main [class*="teaser" i] a[href]',
         'main [class*="card" i] a[href]',
         'main [class*="news" i] a[href]',
-        'main [class*="press" i] a[href]',
-        'main [class*="event" i] a[href]'
+        'main [class*="press" i] a[href]'
       ];
 
   let selector = null;
 
   for (const candidate of candidates) {
     try {
-      if (await page.locator(candidate).count() >= 2) {
+      if (await page.locator(candidate).count() >= 3) {
         selector = candidate;
         break;
       }
@@ -714,158 +1080,38 @@ async function extractAutomatic(page, source) {
       : 'a[href]';
   }
 
-  return await page.locator(selector).evaluateAll(nodes => {
-    const clean = text =>
-      (text || '')
+  return await page.locator(selector).evaluateAll(nodes =>
+    nodes.map(a => ({
+      title: (
+        a.textContent ||
+        a.getAttribute('aria-label') ||
+        ''
+      )
         .replace(/\s+/g, ' ')
-        .trim();
+        .trim(),
 
-    const genericTitle = value => {
-      const title = clean(value);
-      const lower = title.toLowerCase();
-
-      if (!title) return true;
-
-      if (/<\s*(img|svg|picture|source|div|span|a)\b/i.test(title)) {
-        return true;
-      }
-
-      const exact = new Set([
-        'home', 'startseite', 'kontakt', 'contact',
-        'impressum', 'datenschutz', 'privacy',
-        'alle akzeptieren', 'alles akzeptieren', 'akzeptieren',
-        'accept all', 'accept', 'zustimmen', 'allow all',
-        'link öffnet in neuem tab', 'opens in a new tab',
-        'open in new tab', 'mehr erfahren', 'mehr erfahren >',
-        'read more', 'learn more', 'weiterlesen'
-      ]);
-
-      if (exact.has(lower)) return true;
-
-      return [
-        'mehr erfahren', 'read more', 'learn more', 'weiterlesen',
-        'link öffnet', 'opens in', 'open in new'
-      ].some(prefix => lower.startsWith(prefix));
-    };
-
-    const cardFor = node =>
-      node?.closest?.(
-        'article,li,section,' +
-        '[class*="card" i],' +
-        '[class*="teaser" i],' +
-        '[class*="news" i],' +
-        '[class*="press" i],' +
-        '[class*="event" i],' +
-        '[class*="story" i],' +
-        '[class*="result" i],' +
-        '[class*="item" i]'
-      ) || null;
-
-    const bestTitle = link => {
-      const own = clean(
-        link?.textContent ||
-        link?.getAttribute?.('aria-label') ||
-        link?.title ||
-        ''
-      );
-
-      if (own && !genericTitle(own)) {
-        return own;
-      }
-
-      const card = cardFor(link);
-
-      if (card) {
-        const heading = card.querySelector(
-          'h1,h2,h3,h4,h5,h6,' +
-          '[class*="headline" i],' +
-          '[class*="heading" i],' +
-          '[class*="title" i]'
-        );
-
-        const headingText = clean(
-          heading?.textContent ||
-          heading?.getAttribute?.('aria-label') ||
-          ''
-        );
-
-        if (headingText && !genericTitle(headingText)) {
-          return headingText;
-        }
-      }
-
-      const imageAlt = clean(
-        link?.querySelector?.('img[alt]')?.getAttribute('alt') ||
-        ''
-      );
-
-      if (imageAlt && !genericTitle(imageAlt)) {
-        return imageAlt;
-      }
-
-      return own;
-    };
-
-    const bestDate = link => {
-      const card = cardFor(link);
-
-      if (!card) return '';
-
-      const datePattern =
-        /(?:\b\d{1,2}[.\/-]\d{1,2}[.\/-]20\d{2}\b|\b20\d{2}-\d{2}-\d{2}\b|\b\d{1,2}\.?\s+(?:Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|January|February|March|May|June|July|October|December)\s+20\d{2}\b)/i;
-
-      const selectors = [
-        'time[datetime]',
-        'time',
-        '[class*="date" i]',
-        '[class*="datum" i]',
-        '[class*="published" i]'
-      ];
-
-      for (const selector of selectors) {
-        const el = card.querySelector(selector);
-        const value = clean(
-          el?.getAttribute?.('datetime') ||
-          el?.textContent ||
-          ''
-        );
-
-        if (!value) continue;
-
-        const match = value.match(datePattern);
-        if (match) return match[0];
-
-        if (/^20\d{2}-\d{2}-\d{2}(?:T|$)/.test(value)) {
-          return value;
-        }
-      }
-
-      return '';
-    };
-
-    return nodes.map(a => ({
-      title: bestTitle(a),
       href:
         a.href ||
         a.getAttribute('href') ||
         '',
-      date: bestDate(a)
-    }));
-  });
+
+      date: ''
+    }))
+  );
 }
 
 function normalizeAndFilter(rows, source) {
   const map = new Map();
 
   for (const r of rows || []) {
-    const title = cleanTitle(r.title || '');
-    const rawDate = cleanTitle(r.date || '');
+    const title = (r.title || '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    const date = (r.date || '')
+      .trim();
 
     if (!title) continue;
-
-    if (isGenericTitle(title)) {
-      continue;
-    }
 
     if (
       source.minTitleLength &&
@@ -883,13 +1129,6 @@ function normalizeAndFilter(rows, source) {
     const link = canonicalUrl(rawHref, source.url);
 
     if (!link) continue;
-
-    if (
-      source.allowTitleOnly !== true &&
-      isBadContentUrl(link, source, title)
-    ) {
-      continue;
-    }
 
     /*
      * Titel-only-Quellen haben synthetische URLs zur
@@ -911,12 +1150,22 @@ function normalizeAndFilter(rows, source) {
       continue;
     }
 
+    if (
+      !stabilityAccepts(
+        title,
+        link,
+        source
+      )
+    ) {
+      continue;
+    }
+
     const item = {
       title,
       link,
       date:
-        normalizePageDate(
-          rawDate,
+        normalizePageDateV14(
+          date,
           link
         )
     };
@@ -985,18 +1234,6 @@ function pruneStoredItems(items, sources) {
       title: item.title || '',
       link: item.link || ''
     };
-
-    if (
-      isGenericTitle(candidate.title) ||
-      isBadContentUrl(
-        candidate.link,
-        source,
-        candidate.title
-      )
-    ) {
-      removed++;
-      return false;
-    }
 
     if (!matchesConfiguredRules(candidate, source)) {
       removed++;
@@ -1087,19 +1324,16 @@ function makeFeed(items, sources = []) {
     const feedTitle =
       `${label} · ${item.title}`;
 
-    const normalizedPageDate =
-      normalizePageDate(
-        item.pageDate || '',
-        item.link || ''
-      );
-
     const meta = [
       `Quelle: ${label}`
     ];
 
     const published =
-      formatGermanDate(
-        normalizedPageDate
+      formatGermanDateV14(
+        normalizePageDateV14(
+          item.pageDate || '',
+          item.link || ''
+        )
       );
 
     if (published) {
@@ -1109,7 +1343,7 @@ function makeFeed(items, sources = []) {
     }
 
     const detected =
-      formatDetectedAt(
+      formatDetectedAtV14(
         item.detectedAt
       );
 
@@ -1300,58 +1534,13 @@ function anchorsFromHtml(html = '') {
   const re = /<a\b([^>]*?)href\s*=\s*["']([^"']+)["']([^>]*)>([\s\S]*?)<\/a>/gi;
   let m;
 
-  const attr = (attrs, name) => {
-    const rx = new RegExp(
-      `${name}\\s*=\\s*["']([^"']+)["']`,
-      'i'
-    );
-
-    const match = String(attrs || '').match(rx);
-    return match
-      ? decodeHtmlEntities(match[1])
-      : '';
-  };
-
   while ((m = re.exec(html))) {
-    const attrs =
-      `${m[1] || ''} ${m[3] || ''}`;
-
-    const visible = stripHtml(m[4]);
-    const aria = attr(attrs, 'aria-label');
-    const titleAttr = attr(attrs, 'title');
-
-    const imgAltMatch = String(m[4] || '').match(
-      /<img\b[^>]*\balt\s*=\s*["']([^"']+)["']/i
-    );
-
-    const imgAlt = imgAltMatch
-      ? decodeHtmlEntities(imgAltMatch[1])
-      : '';
-
-    const choices = [
-      visible,
-      aria,
-      titleAttr,
-      imgAlt
-    ];
-
-    const title =
-      choices.find(
-        value =>
-          cleanTitle(value) &&
-          !isGenericTitle(value)
-      ) ||
-      visible;
-
-    const href =
-      decodeHtmlEntities(
-        m[2] || ''
-      );
+    const title = stripHtml(m[4]);
+    const href = decodeHtmlEntities(m[2] || '');
 
     if (title && href) {
       rows.push({
-        title:
-          cleanTitle(title),
+        title,
         href,
         date: ''
       });
@@ -1483,10 +1672,18 @@ async function inspectSource(context, fallbackContext, source, index, total) {
       source.autoScroll || 0
     );
 
-    let rows = await extractConfigured(
-      page,
-      source
-    );
+    let rows =
+      await extractProfiled(
+        page,
+        source
+      );
+
+    if (!rows || !rows.length) {
+      rows = await extractConfigured(
+        page,
+        source
+      );
+    }
 
     if (!rows || !rows.length) {
       rows = await extractAutomatic(
@@ -1627,12 +1824,17 @@ async function mapWithConcurrency(items, limit, worker) {
     `HARD TIMEOUT pro Quelle: ${HARD_SOURCE_TIMEOUT_MS / 1000}s`
   );
 
-  const sources = readJson(
+  const configuredSources = readJson(
     SOURCES_FILE,
     []
   ).filter(
     s => s.enabled !== false
   );
+
+  const sources =
+    configuredSources.map(
+      applyStabilityProfile
+    );
 
   const state = readJson(
     STATE_FILE,
@@ -1673,7 +1875,7 @@ async function mapWithConcurrency(items, limit, worker) {
 
   items = pruneStoredItems(
     items,
-    sources
+    configuredSources
   );
 
   if (!sources.length) {
