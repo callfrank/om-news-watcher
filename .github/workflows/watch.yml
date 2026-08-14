@@ -1,0 +1,50 @@
+name: OM News Watcher
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Zweimal pro Stunde, absichtlich nicht genau zur vollen/halben Stunde.
+    - cron: '17,47 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: om-news-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+
+      - name: Node.js einrichten
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Abhängigkeiten installieren
+        run: npm install
+
+      - name: Chromium installieren
+        run: npx playwright install chromium --with-deps
+
+      - name: Websites prüfen und RSS erzeugen
+        run: node watcher.js
+
+      - name: Änderungen speichern
+        shell: bash
+        run: |
+          git config user.name "OM News Watcher"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/state.json data/items.json docs/feed.xml
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Update news feed"
+            git push
+          fi
