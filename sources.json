@@ -216,9 +216,12 @@
   },
   {
     "autoScroll" : 0,
-    "baselineVersion" : "v10-network-parked",
+    "baselineVersion" : "mac-app-20260814-140235",
+    "candidateSelector" : "a[href*=\"/de/s1/producttype/\"]",
     "enabled" : false,
     "http2Fallback" : false,
+    "includeRegex" : "^https?://www\\.galaxus\\.de\\/de\\/s1\\/producttype\\/",
+    "minTitleLength" : 12,
     "name" : "Galaxus Medienmitteilungen",
     "selectors" : {
       "date" : "",
@@ -561,7 +564,7 @@
   {
     "autoScroll" : 0,
     "baselineVersion" : "v10-network-parked",
-    "enabled" : false,
+    "enabled" : true,
     "http2Fallback" : false,
     "name" : "PDD Holdings News Releases",
     "selectors" : {
@@ -622,7 +625,7 @@
   {
     "autoScroll" : 0,
     "baselineVersion" : "v10-network-parked",
-    "enabled" : false,
+    "enabled" : true,
     "http2Fallback" : false,
     "name" : "DHL Discover Global",
     "selectors" : {
@@ -764,7 +767,7 @@
   {
     "autoScroll" : 0,
     "baselineVersion" : "v10-network-parked",
-    "enabled" : false,
+    "enabled" : true,
     "http2Fallback" : false,
     "name" : "DHL Austria E-Commerce Marketing Calendar",
     "selectors" : {
@@ -780,7 +783,7 @@
   {
     "autoScroll" : 3,
     "baselineVersion" : "v10-content-parked",
-    "enabled" : false,
+    "enabled" : true,
     "excludeRegex" : "^https://www\\.wish\\.com/newsandresources/?$",
     "name" : "Wish News & Resources",
     "selectors" : {
@@ -807,8 +810,11 @@
     "waitMs" : 5000
   },
   {
-    "baselineVersion" : "mac-app-20260814-131943",
-    "enabled" : false,
+    "baselineVersion" : "mac-app-20260814-135827",
+    "candidateSelector" : "a[href*=\"/de/de/about/press-room/\"]",
+    "enabled" : true,
+    "includeRegex" : "^https?://www\\.deloitte\\.com\\/de\\/de\\/about\\/press-room\\/",
+    "minTitleLength" : 12,
     "name" : "Deloitte",
     "selectors" : {
       "date" : "",
