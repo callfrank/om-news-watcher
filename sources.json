@@ -18,7 +18,669 @@
     "enabled": true,
     "waitMs": 3000,
     "timeoutMs": 60000,
-    "includePath": "/unternehmen/de/presse/",
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "DPD Presse",
+    "url": "https://www.dpd.com/de/de/unternehmen/presse/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "eco Presse",
+    "url": "https://www.eco.de/presse/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Ecommerce Europe Press Releases",
+    "url": "https://ecommerce-europe.eu/press-releases/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "ECDB Reports",
+    "url": "https://ecdb.com/whitepapers-and-reports",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "OMT E-Commerce Events",
+    "url": "https://www.omt.de/events/e-commerce-konferenzen/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "experte.de E-Commerce Events",
+    "url": "https://www.experte.de/events/e-commerce",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "EY Newsroom",
+    "url": "https://www.ey.com/de_de/newsroom",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "FedEx Newsroom",
+    "url": "https://newsroom.fedex.com/",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Amazon Seller Events",
+    "url": "https://amzsummits.com/events/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Flaschenpost Newsroom",
+    "url": "https://www.flaschenpost.de/newsroom",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Forrester Press Newsroom",
+    "url": "https://www.forrester.com/press-newsroom/",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Fressnapf Newsroom",
+    "url": "https://www.mynewsdesk.com/de/fressnapf-holding-se",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Galaxus Medienmitteilungen",
+    "url": "https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "GMX Newsroom",
+    "url": "https://newsroom.gmx.net/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Google Think",
+    "url": "https://business.google.com/de/think/",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "HelloFresh Press Releases",
+    "url": "https://www.hellofreshgroup.com/de/newsroom/press-releases/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "JD In-Depth Reports",
+    "url": "https://jdcorporateblog.com/category/jd-in-depths-reports/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "JD Corporate News",
+    "url": "https://jdcorporateblog.com/?s=&type=news&topics=&sort_by=",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Kaufland Newsroom",
+    "url": "https://unternehmen.kaufland.de/presse/newsroom",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "LKA Prävention",
+    "url": "https://www.polizei-praevention.de/aktuelle-meldungen",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Mordor Intelligence Case Studies",
+    "url": "https://www.mordorintelligence.com/signal/case-studies",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Mordor Intelligence Insights",
+    "url": "https://www.mordorintelligence.com/signal/insights",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Mastercard Pressemitteilungen",
+    "url": "https://www.mastercard.com/news/europe/de-de/newsroom/pressemitteilungen/",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Tencent News",
+    "url": "https://www.tencent.com/en-us/media/news.html",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "MediaMarktSaturn News & Presse",
+    "url": "https://www.mediamarktsaturn.de/de/news-presse",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Mercado Libre News & Events",
+    "url": "https://investor.mercadolibre.com/news-and-events",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Meta Newsroom DE",
+    "url": "https://about.fb.com/de/news/",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Qonto Presse",
+    "url": "https://qonto.com/de/press",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Mollie Papers",
+    "url": "https://www.mollie.com/de/papers",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Momox Presse",
+    "url": "https://momox.biz/presse",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Amazon Freight Events",
+    "url": "https://freight.amazon.de/events-and-webinars",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Google Ads & Commerce Blog",
+    "url": "https://blog.google/products/ads-commerce/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Pattern Newsroom",
+    "url": "https://www.pattern.com/about/newsroom",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "PayPal DE Aktuelle Mitteilungen",
+    "url": "https://newsroom.deatch.paypal-corp.com/aktuelle-mitteilungen",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "PDD Holdings News Releases",
+    "url": "https://investor.pddholdings.com/news-releases/",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Pew Research Internet & Technology",
+    "url": "https://www.pewresearch.org/topic/internet-technology/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "ServiceValue Newsroom",
+    "url": "https://servicevalue.de/newsroom/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "SHEIN Newsroom",
+    "url": "https://sheingroup.com/newsroom/",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "DHL Discover Global",
+    "url": "https://www.dhl.com/discover/en-global",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Startup-Verband Presse",
+    "url": "https://startupverband.de/presse/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Telekom Medieninformationen",
+    "url": "https://www.telekom.com/de/medien/medieninformationen",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "The Platform Group Presse",
+    "url": "https://the-platform-group.com/presse/",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Vinted Newsroom",
+    "url": "https://company.vinted.com/newsroom",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Visa Newsroom DE",
+    "url": "https://www.visa.de/uber-visa/newsroom.html",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "VZBV Pressemitteilungen",
+    "url": "https://www.vzbv.de/presse/pressemitteilungen",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Verbraucherzentrale BW Presse",
+    "url": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Verbraucherzentrale Hamburg Presse",
+    "url": "https://www.vzhh.de/presse",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Verbraucherzentrale RLP Presse",
+    "url": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "DHL Austria E-Commerce Marketing Calendar",
+    "url": "https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "Wish News & Resources",
+    "url": "https://www.wish.com/newsandresources",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  },
+  {
+    "name": "YouGov Corporate News",
+    "url": "https://corporate.yougov.com/press/news-and-press-releases/",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
