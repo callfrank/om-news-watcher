@@ -1,809 +1,822 @@
 [
   {
-    "name": "Zalando Newsroom",
-    "url": "https://corporate.zalando.com/de/newsroom/news-stories",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
-    }
-  },
-  {
-    "name": "OTTO Pressemitteilungen",
-    "url": "https://www.otto.de/unternehmen/de/presse/pressemitteilungen",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "name" : "Zalando Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "excludeRegex": "/unternehmen/de/presse/(?:pressemitteilungen(?:-20\\d{2})?|unternehmen|otto-for-business)/?$",
-    "baselineVersion": "v11-otto",
-    "excludeTitleRegex": "^(?:Presse|Unternehmen|Nachhaltigkeit|Technologie|OTTO for Business|Services|Marketing|Jobs|Kontakt|Handel|Logistik|Personal|Finanzen)$",
-    "minTitleLength": 28
+    "timeoutMs" : 60000,
+    "url" : "https://corporate.zalando.com/de/newsroom/news-stories",
+    "waitMs" : 5000
   },
   {
-    "name": "DPD Presse",
-    "url": "https://www.dpd.com/de/de/unternehmen/presse/",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "baselineVersion" : "v11-otto",
+    "enabled" : true,
+    "excludeRegex" : "/unternehmen/de/presse/(?:pressemitteilungen(?:-20\\d{2})?|unternehmen|otto-for-business)/?$",
+    "excludeTitleRegex" : "^(?:Presse|Unternehmen|Nachhaltigkeit|Technologie|OTTO for Business|Services|Marketing|Jobs|Kontakt|Handel|Logistik|Personal|Finanzen)$",
+    "minTitleLength" : 28,
+    "name" : "OTTO Pressemitteilungen",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.dpd\\.com/de/de/news/[^/?#]+/?$"
+    "timeoutMs" : 60000,
+    "url" : "https://www.otto.de/unternehmen/de/presse/pressemitteilungen",
+    "waitMs" : 3000
   },
   {
-    "name": "eco Presse",
-    "url": "https://www.eco.de/presse/",
-    "enabled": true,
-    "waitMs": 1500,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.dpd\\.com/de/de/news/[^/?#]+/?$",
+    "name" : "DPD Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.eco\\.de/presse/[^/?#]+/?$",
-    "autoScroll": 0,
-    "candidateSelector": "a[href*=\"/pressemitteilungen/\"]",
-    "baselineVersion": "v11-eco",
-    "fetchMode": "html",
-    "excludeRegex": "/presse/?$",
-    "minTitleLength": 18
+    "timeoutMs" : 60000,
+    "url" : "https://www.dpd.com/de/de/unternehmen/presse/",
+    "waitMs" : 3000
   },
   {
-    "name": "Ecommerce Europe Press Releases",
-    "url": "https://ecommerce-europe.eu/press-releases/",
-    "enabled": true,
-    "waitMs": 1200,
-    "timeoutMs": 90000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "autoScroll" : 0,
+    "baselineVersion" : "v11-eco",
+    "candidateSelector" : "a[href*=\"/pressemitteilungen/\"]",
+    "enabled" : true,
+    "excludeRegex" : "/presse/?$",
+    "fetchMode" : "html",
+    "includeRegex" : "^https://www\\.eco\\.de/presse/[^/?#]+/?$",
+    "minTitleLength" : 18,
+    "name" : "eco Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "autoScroll": 0,
-    "includeRegex": "^https://ecommerce-europe\\.eu/press-item/",
-    "candidateSelector": "a[href*=\"/press-item/\"]",
-    "baselineVersion": "v11-ece",
-    "fetchMode": "html",
-    "minTitleLength": 18
+    "timeoutMs" : 60000,
+    "url" : "https://www.eco.de/presse/",
+    "waitMs" : 1500
   },
   {
-    "name": "ECDB Reports",
-    "url": "https://ecdb.com/whitepapers-and-reports",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "autoScroll" : 0,
+    "baselineVersion" : "v11-ece",
+    "candidateSelector" : "a[href*=\"/press-item/\"]",
+    "enabled" : true,
+    "fetchMode" : "html",
+    "includeRegex" : "^https://ecommerce-europe\\.eu/press-item/",
+    "minTitleLength" : 18,
+    "name" : "Ecommerce Europe Press Releases",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://ecdb\\.com/reports/"
+    "timeoutMs" : 90000,
+    "url" : "https://ecommerce-europe.eu/press-releases/",
+    "waitMs" : 1200
   },
   {
-    "name": "OMT E-Commerce Events",
-    "url": "https://www.omt.de/events/e-commerce-konferenzen/",
-    "enabled": false,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://ecdb\\.com/reports/",
+    "name" : "ECDB Reports",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "excludeRegex": "^https://www\\.omt\\.de/(?:events/?$|webinare/?$|events/e-commerce-konferenzen/?$)",
-    "baselineVersion": "v10-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://ecdb.com/whitepapers-and-reports",
+    "waitMs" : 5000
   },
   {
-    "name": "experte.de E-Commerce Events",
-    "url": "https://www.experte.de/events/e-commerce",
-    "enabled": false,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "main h2, main h3, main h4",
-      "title": "",
-      "link": "",
-      "date": ""
+    "baselineVersion" : "v10-parked",
+    "enabled" : false,
+    "excludeRegex" : "^https://www\\.omt\\.de/(?:events/?$|webinare/?$|events/e-commerce-konferenzen/?$)",
+    "name" : "OMT E-Commerce Events",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "excludeRegex": "^https://www\\.experte\\.de/events/(?:digitalisierung|e-commerce|finanzen|startup|handel|hr|ki|management|medien|new-work|affiliate-marketing|b2b-marketing|content-marketing|online-marketing|pr-kommunikation|sea|seo|social-media-marketing|blockchain|cloud-hosting|it-security|machine-learning|mobile-apps|softwareentwicklung|user-experience|webentwicklung|berlin|duesseldorf|frankfurt-am-main|hamburg|hannover|koeln|leipzig|muenchen|stuttgart)/?$",
-    "allowTitleOnly": true,
-    "reverseDetected": false,
-    "excludeTitleRegex": "^(?:Business|Marketing|Technologie|Städte|Vergangene Events|EXPERTE\\.de Event-Partner)$",
-    "maxDetectedItems": 40,
-    "baselineVersion": "v11-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://www.omt.de/events/e-commerce-konferenzen/",
+    "waitMs" : 3000
   },
   {
-    "name": "EY Newsroom",
-    "url": "https://www.ey.com/de_de/newsroom",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "allowTitleOnly" : true,
+    "baselineVersion" : "v11-parked",
+    "enabled" : false,
+    "excludeRegex" : "^https://www\\.experte\\.de/events/(?:digitalisierung|e-commerce|finanzen|startup|handel|hr|ki|management|medien|new-work|affiliate-marketing|b2b-marketing|content-marketing|online-marketing|pr-kommunikation|sea|seo|social-media-marketing|blockchain|cloud-hosting|it-security|machine-learning|mobile-apps|softwareentwicklung|user-experience|webentwicklung|berlin|duesseldorf|frankfurt-am-main|hamburg|hannover|koeln|leipzig|muenchen|stuttgart)/?$",
+    "excludeTitleRegex" : "^(?:Business|Marketing|Technologie|Städte|Vergangene Events|EXPERTE\\.de Event-Partner)$",
+    "maxDetectedItems" : 40,
+    "name" : "experte.de E-Commerce Events",
+    "reverseDetected" : false,
+    "selectors" : {
+      "date" : "",
+      "item" : "main h2, main h3, main h4",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.ey\\.com/de_de/newsroom/20\\d{2}/\\d{2}/"
+    "timeoutMs" : 60000,
+    "url" : "https://www.experte.de/events/e-commerce",
+    "waitMs" : 3000
   },
   {
-    "name": "FedEx Newsroom",
-    "url": "https://newsroom.fedex.com/",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.ey\\.com/de_de/newsroom/20\\d{2}/\\d{2}/",
+    "name" : "EY Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://newsroom\\.fedex\\.com/newsroom/[^/]+/[^/?#]+/?$",
-    "candidateSelector": "a[href*=\"/newsroom/\"]",
-    "baselineVersion": "v10-fedex"
+    "timeoutMs" : 60000,
+    "url" : "https://www.ey.com/de_de/newsroom",
+    "waitMs" : 5000
   },
   {
-    "name": "Amazon Seller Events",
-    "url": "https://amzsummits.com/events/",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
-    }
-  },
-  {
-    "name": "Flaschenpost Newsroom",
-    "url": "https://www.flaschenpost.de/newsroom",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "baselineVersion" : "v10-fedex",
+    "candidateSelector" : "a[href*=\"/newsroom/\"]",
+    "enabled" : true,
+    "includeRegex" : "^https://newsroom\\.fedex\\.com/newsroom/[^/]+/[^/?#]+/?$",
+    "name" : "FedEx Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.flaschenpost\\.de/newsroom/pressemitteilungen/"
+    "timeoutMs" : 60000,
+    "url" : "https://newsroom.fedex.com/",
+    "waitMs" : 5000
   },
   {
-    "name": "Forrester Press Newsroom",
-    "url": "https://www.forrester.com/press-newsroom/",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
-    }
-  },
-  {
-    "name": "Fressnapf Newsroom",
-    "url": "https://www.mynewsdesk.com/de/fressnapf-holding-se",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "name" : "Amazon Seller Events",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.mynewsdesk\\.com/de/fressnapf-holding-se/pressreleases/"
+    "timeoutMs" : 60000,
+    "url" : "https://amzsummits.com/events/",
+    "waitMs" : 3000
   },
   {
-    "name": "Galaxus Medienmitteilungen",
-    "url": "https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306",
-    "enabled": false,
-    "waitMs": 1000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.flaschenpost\\.de/newsroom/pressemitteilungen/",
+    "name" : "Flaschenpost Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "http2Fallback": false,
-    "autoScroll": 0,
-    "baselineVersion": "v10-network-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://www.flaschenpost.de/newsroom",
+    "waitMs" : 5000
   },
   {
-    "name": "GMX Newsroom",
-    "url": "https://newsroom.gmx.net/",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "name" : "Forrester Press Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://newsroom\\.gmx\\.net/20\\d{2}/\\d{2}/\\d{2}/"
+    "timeoutMs" : 60000,
+    "url" : "https://www.forrester.com/press-newsroom/",
+    "waitMs" : 5000
   },
   {
-    "name": "Google Think",
-    "url": "https://business.google.com/de/think/",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
-    }
-  },
-  {
-    "name": "HelloFresh Press Releases",
-    "url": "https://www.hellofreshgroup.com/de/newsroom/press-releases/",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "h3",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.mynewsdesk\\.com/de/fressnapf-holding-se/pressreleases/",
+    "name" : "Fressnapf Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "allowTitleOnly": true,
-    "reverseDetected": true,
-    "excludeTitleRegex": "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
-    "maxDetectedItems": 25,
-    "minTitleLength": 14,
-    "baselineVersion": "v10-hellofresh"
+    "timeoutMs" : 60000,
+    "url" : "https://www.mynewsdesk.com/de/fressnapf-holding-se",
+    "waitMs" : 3000
   },
   {
-    "name": "JD In-Depth Reports",
-    "url": "https://jdcorporateblog.com/category/jd-in-depths-reports/",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
-    }
-  },
-  {
-    "name": "JD Corporate News",
-    "url": "https://jdcorporateblog.com/?s=&type=news&topics=&sort_by=",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "autoScroll" : 0,
+    "baselineVersion" : "v10-network-parked",
+    "enabled" : false,
+    "http2Fallback" : false,
+    "name" : "Galaxus Medienmitteilungen",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "candidateSelector": "article a[href], main article a[href]",
-    "baselineVersion": "v10-jd-news"
+    "timeoutMs" : 60000,
+    "url" : "https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306",
+    "waitMs" : 1000
   },
   {
-    "name": "Kaufland Newsroom",
-    "url": "https://unternehmen.kaufland.de/presse/newsroom",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://newsroom\\.gmx\\.net/20\\d{2}/\\d{2}/\\d{2}/",
+    "name" : "GMX Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://unternehmen\\.kaufland\\.de/presse/newsroom/20\\d{2}/"
+    "timeoutMs" : 60000,
+    "url" : "https://newsroom.gmx.net/",
+    "waitMs" : 3000
   },
   {
-    "name": "LKA Prävention",
-    "url": "https://www.polizei-praevention.de/aktuelle-meldungen",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "name" : "Google Think",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.polizei-praevention\\.de/aktuelles/[^/?#]+\\.html$",
-    "fetchMode": "html",
-    "minTitleLength": 18,
-    "baselineVersion": "v11-lka"
+    "timeoutMs" : 60000,
+    "url" : "https://business.google.com/de/think/",
+    "waitMs" : 5000
   },
   {
-    "name": "Mordor Intelligence Case Studies",
-    "url": "https://www.mordorintelligence.com/signal/case-studies",
-    "enabled": false,
-    "waitMs": 7000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "allowTitleOnly" : true,
+    "baselineVersion" : "v10-hellofresh",
+    "enabled" : true,
+    "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
+    "maxDetectedItems" : 25,
+    "minTitleLength" : 14,
+    "name" : "HelloFresh Press Releases",
+    "reverseDetected" : true,
+    "selectors" : {
+      "date" : "",
+      "item" : "h3",
+      "link" : "",
+      "title" : ""
     },
-    "autoScroll": 3,
-    "baselineVersion": "v10-content-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://www.hellofreshgroup.com/de/newsroom/press-releases/",
+    "waitMs" : 3000
   },
   {
-    "name": "Mordor Intelligence Insights",
-    "url": "https://www.mordorintelligence.com/signal/insights",
-    "enabled": false,
-    "waitMs": 7000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "name" : "JD In-Depth Reports",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "autoScroll": 3,
-    "baselineVersion": "v10-content-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://jdcorporateblog.com/category/jd-in-depths-reports/",
+    "waitMs" : 3000
   },
   {
-    "name": "Mastercard Pressemitteilungen",
-    "url": "https://www.mastercard.com/news/europe/de-de/newsroom/pressemitteilungen/",
-    "enabled": true,
-    "waitMs": 1500,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "baselineVersion" : "v10-jd-news",
+    "candidateSelector" : "article a[href], main article a[href]",
+    "enabled" : true,
+    "name" : "JD Corporate News",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "autoScroll": 0,
-    "candidateSelector": "a[href*=\"/newsroom/pressemitteilungen/de-de/\"]",
-    "includeRegex": "^https://www\\.mastercard\\.com/news/europe/de-de/newsroom/pressemitteilungen/de-de/20\\d{2}/[^/?#]+/?$",
-    "baselineVersion": "v11-mastercard",
-    "fetchMode": "html",
-    "minTitleLength": 18
+    "timeoutMs" : 60000,
+    "url" : "https://jdcorporateblog.com/?s=&type=news&topics=&sort_by=",
+    "waitMs" : 3000
   },
   {
-    "name": "Tencent News",
-    "url": "https://www.tencent.com/en-us/media/news.html",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://unternehmen\\.kaufland\\.de/presse/newsroom/20\\d{2}/",
+    "name" : "Kaufland Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "excludeTitleRegex": "^(?:Stories|Media|News|About Tencent)$",
-    "baselineVersion": "v11-tencent"
+    "timeoutMs" : 60000,
+    "url" : "https://unternehmen.kaufland.de/presse/newsroom",
+    "waitMs" : 5000
   },
   {
-    "name": "MediaMarktSaturn News & Presse",
-    "url": "https://www.mediamarktsaturn.de/de/news-presse",
-    "enabled": true,
-    "waitMs": 1500,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "main h2",
-      "title": "",
-      "link": "",
-      "date": ""
+    "baselineVersion" : "v11-lka",
+    "enabled" : true,
+    "fetchMode" : "html",
+    "includeRegex" : "^https://www\\.polizei-praevention\\.de/aktuelles/[^/?#]+\\.html$",
+    "minTitleLength" : 18,
+    "name" : "LKA Prävention",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "autoScroll": 0,
-    "candidateSelector": "a[href*=\"/de/news-presse/pressemitteilungen/\"]",
-    "includeRegex": "",
-    "baselineVersion": "v11-mms",
-    "allowTitleOnly": true,
-    "minTitleLength": 22,
-    "excludeTitleRegex": "^(?:News & Presse|Breadcrumb|Pagination)$",
-    "maxDetectedItems": 20
+    "timeoutMs" : 60000,
+    "url" : "https://www.polizei-praevention.de/aktuelle-meldungen",
+    "waitMs" : 3000
   },
   {
-    "name": "Mercado Libre News & Events",
-    "url": "https://investor.mercadolibre.com/news-and-events",
-    "enabled": true,
-    "waitMs": 1200,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "table tr",
-      "title": "td:first-child",
-      "link": "a[href]",
-      "date": ""
+    "autoScroll" : 3,
+    "baselineVersion" : "v10-content-parked",
+    "enabled" : false,
+    "name" : "Mordor Intelligence Case Studies",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "autoScroll": 0,
-    "allowExternal": true,
-    "includeRegex": "^https?://http2\\.mlstatic\\.com/",
-    "excludeTitleRegex": "^(?:Document Title|Link|Copy Link)$",
-    "baselineVersion": "v10-meli"
+    "timeoutMs" : 60000,
+    "url" : "https://www.mordorintelligence.com/signal/case-studies",
+    "waitMs" : 7000
   },
   {
-    "name": "Meta Newsroom DE",
-    "url": "https://about.fb.com/de/news/",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "autoScroll" : 3,
+    "baselineVersion" : "v10-content-parked",
+    "enabled" : false,
+    "name" : "Mordor Intelligence Insights",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://about\\.fb\\.com/de/news/20\\d{2}/\\d{2}/"
+    "timeoutMs" : 60000,
+    "url" : "https://www.mordorintelligence.com/signal/insights",
+    "waitMs" : 7000
   },
   {
-    "name": "Qonto Presse",
-    "url": "https://qonto.com/de/press",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
-    }
-  },
-  {
-    "name": "Mollie Papers",
-    "url": "https://www.mollie.com/de/papers",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "autoScroll" : 0,
+    "baselineVersion" : "v11-mastercard",
+    "candidateSelector" : "a[href*=\"/newsroom/pressemitteilungen/de-de/\"]",
+    "enabled" : true,
+    "fetchMode" : "html",
+    "includeRegex" : "^https://www\\.mastercard\\.com/news/europe/de-de/newsroom/pressemitteilungen/de-de/20\\d{2}/[^/?#]+/?$",
+    "minTitleLength" : 18,
+    "name" : "Mastercard Pressemitteilungen",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "excludeRegex": "^https://www\\.mollie\\.com/de/(?:news|success-stories|events)/?$"
+    "timeoutMs" : 60000,
+    "url" : "https://www.mastercard.com/news/europe/de-de/newsroom/pressemitteilungen/",
+    "waitMs" : 1500
   },
   {
-    "name": "Momox Presse",
-    "url": "https://momox.biz/presse",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "baselineVersion" : "v11-tencent",
+    "enabled" : true,
+    "excludeTitleRegex" : "^(?:Stories|Media|News|About Tencent)$",
+    "name" : "Tencent News",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://momox\\.biz/presse/\\d+-pressemeldungen/"
+    "timeoutMs" : 60000,
+    "url" : "https://www.tencent.com/en-us/media/news.html",
+    "waitMs" : 5000
   },
   {
-    "name": "Amazon Freight Events",
-    "url": "https://freight.amazon.de/events-and-webinars",
-    "enabled": true,
-    "waitMs": 1200,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "main h2, main h3, main h4",
-      "title": "",
-      "link": "",
-      "date": ""
+    "allowTitleOnly" : true,
+    "autoScroll" : 0,
+    "baselineVersion" : "v11-mms",
+    "candidateSelector" : "a[href*=\"/de/news-presse/pressemitteilungen/\"]",
+    "enabled" : true,
+    "excludeTitleRegex" : "^(?:News & Presse|Breadcrumb|Pagination)$",
+    "includeRegex" : "",
+    "maxDetectedItems" : 20,
+    "minTitleLength" : 22,
+    "name" : "MediaMarktSaturn News & Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "main h2",
+      "link" : "",
+      "title" : ""
     },
-    "autoScroll": 0,
-    "allowTitleOnly": true,
-    "excludeTitleRegex": "^(?:Nehmen Sie an unseren nächsten Veranstaltungen.*|Sehen Sie sich hier vergangene Webinare an|Haben Sie Fragen.*)$",
-    "maxDetectedItems": 40,
-    "minTitleLength": 10,
-    "baselineVersion": "v10-amzfreight"
+    "timeoutMs" : 60000,
+    "url" : "https://www.mediamarktsaturn.de/de/news-presse",
+    "waitMs" : 1500
   },
   {
-    "name": "Google Ads & Commerce Blog",
-    "url": "https://blog.google/products/ads-commerce/",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "allowExternal" : true,
+    "autoScroll" : 0,
+    "baselineVersion" : "v10-meli",
+    "enabled" : true,
+    "excludeTitleRegex" : "^(?:Document Title|Link|Copy Link)$",
+    "includeRegex" : "^https?://http2\\.mlstatic\\.com/",
+    "name" : "Mercado Libre News & Events",
+    "selectors" : {
+      "date" : "",
+      "item" : "table tr",
+      "link" : "a[href]",
+      "title" : "td:first-child"
     },
-    "includeRegex": "^https://blog\\.google/products/ads-commerce/[^/?#]+/?$"
+    "timeoutMs" : 60000,
+    "url" : "https://investor.mercadolibre.com/news-and-events",
+    "waitMs" : 1200
   },
   {
-    "name": "Pattern Newsroom",
-    "url": "https://www.pattern.com/about/newsroom",
-    "enabled": true,
-    "waitMs": 1200,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://about\\.fb\\.com/de/news/20\\d{2}/\\d{2}/",
+    "name" : "Meta Newsroom DE",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "candidateSelector": "a[href^=\"/news/\"], a[href*=\"pattern.com/news/\"]",
-    "includeRegex": "^https://www\\.pattern\\.com/news/",
-    "baselineVersion": "v10-pattern"
+    "timeoutMs" : 60000,
+    "url" : "https://about.fb.com/de/news/",
+    "waitMs" : 5000
   },
   {
-    "name": "PayPal DE Aktuelle Mitteilungen",
-    "url": "https://newsroom.deatch.paypal-corp.com/aktuelle-mitteilungen",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "name" : "Qonto Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "excludeRegex": "[?&]cat=\\d+",
-    "baselineVersion": "v11-paypal",
-    "excludeTitleRegex": "^(?:Stories|Blog|Aktuelle Mitteilungen)$"
+    "timeoutMs" : 60000,
+    "url" : "https://qonto.com/de/press",
+    "waitMs" : 5000
   },
   {
-    "name": "PDD Holdings News Releases",
-    "url": "https://investor.pddholdings.com/news-releases/",
-    "enabled": false,
-    "waitMs": 1000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "excludeRegex" : "^https://www\\.mollie\\.com/de/(?:news|success-stories|events)/?$",
+    "name" : "Mollie Papers",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "http2Fallback": false,
-    "autoScroll": 0,
-    "baselineVersion": "v10-network-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://www.mollie.com/de/papers",
+    "waitMs" : 5000
   },
   {
-    "name": "Pew Research Internet & Technology",
-    "url": "https://www.pewresearch.org/topic/internet-technology/",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://momox\\.biz/presse/\\d+-pressemeldungen/",
+    "name" : "Momox Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "excludeRegex": "^https://www\\.pewresearch\\.org/(?:topic/(?!internet-technology)|publications/\\?)",
-    "baselineVersion": "v11-pew",
-    "excludeTitleRegex": "^(?:Publications|Artificial Intelligence|Technology Policy Issues|News Habits & Media|Fact Sheet|Beliefs & Practices)$"
+    "timeoutMs" : 60000,
+    "url" : "https://momox.biz/presse",
+    "waitMs" : 3000
   },
   {
-    "name": "ServiceValue Newsroom",
-    "url": "https://servicevalue.de/newsroom/",
-    "enabled": false,
-    "waitMs": 7000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "allowTitleOnly" : true,
+    "autoScroll" : 0,
+    "baselineVersion" : "v10-amzfreight",
+    "enabled" : true,
+    "excludeTitleRegex" : "^(?:Nehmen Sie an unseren nächsten Veranstaltungen.*|Sehen Sie sich hier vergangene Webinare an|Haben Sie Fragen.*)$",
+    "maxDetectedItems" : 40,
+    "minTitleLength" : 10,
+    "name" : "Amazon Freight Events",
+    "selectors" : {
+      "date" : "",
+      "item" : "main h2, main h3, main h4",
+      "link" : "",
+      "title" : ""
     },
-    "autoScroll": 3,
-    "baselineVersion": "v10-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://freight.amazon.de/events-and-webinars",
+    "waitMs" : 1200
   },
   {
-    "name": "SHEIN Newsroom",
-    "url": "https://sheingroup.com/newsroom/",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://blog\\.google/products/ads-commerce/[^/?#]+/?$",
+    "name" : "Google Ads & Commerce Blog",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.sheingroup\\.com/newsroom/[^/?#]+/?$"
+    "timeoutMs" : 60000,
+    "url" : "https://blog.google/products/ads-commerce/",
+    "waitMs" : 3000
   },
   {
-    "name": "DHL Discover Global",
-    "url": "https://www.dhl.com/discover/en-global",
-    "enabled": false,
-    "waitMs": 1000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "baselineVersion" : "v10-pattern",
+    "candidateSelector" : "a[href^=\"/news/\"], a[href*=\"pattern.com/news/\"]",
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.pattern\\.com/news/",
+    "name" : "Pattern Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "http2Fallback": false,
-    "autoScroll": 0,
-    "baselineVersion": "v10-network-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://www.pattern.com/about/newsroom",
+    "waitMs" : 1200
   },
   {
-    "name": "Startup-Verband Presse",
-    "url": "https://startupverband.de/presse/",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "baselineVersion" : "v11-paypal",
+    "enabled" : true,
+    "excludeRegex" : "[?&]cat=\\d+",
+    "excludeTitleRegex" : "^(?:Stories|Blog|Aktuelle Mitteilungen)$",
+    "name" : "PayPal DE Aktuelle Mitteilungen",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://startupverband\\.de/presse/pressemitteilungen/"
+    "timeoutMs" : 60000,
+    "url" : "https://newsroom.deatch.paypal-corp.com/aktuelle-mitteilungen",
+    "waitMs" : 5000
   },
   {
-    "name": "Telekom Medieninformationen",
-    "url": "https://www.telekom.com/de/medien/medieninformationen",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "autoScroll" : 0,
+    "baselineVersion" : "v10-network-parked",
+    "enabled" : false,
+    "http2Fallback" : false,
+    "name" : "PDD Holdings News Releases",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.telekom\\.com/de/medien/medieninformationen/detail/"
+    "timeoutMs" : 60000,
+    "url" : "https://investor.pddholdings.com/news-releases/",
+    "waitMs" : 1000
   },
   {
-    "name": "The Platform Group Presse",
-    "url": "https://the-platform-group.com/presse/",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "baselineVersion" : "v11-pew",
+    "enabled" : true,
+    "excludeRegex" : "^https://www\\.pewresearch\\.org/(?:topic/(?!internet-technology)|publications/\\?)",
+    "excludeTitleRegex" : "^(?:Publications|Artificial Intelligence|Technology Policy Issues|News Habits & Media|Fact Sheet|Beliefs & Practices)$",
+    "name" : "Pew Research Internet & Technology",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://the-platform-group\\.com/blog/20\\d{2}/\\d{2}/\\d{2}/"
+    "timeoutMs" : 60000,
+    "url" : "https://www.pewresearch.org/topic/internet-technology/",
+    "waitMs" : 3000
   },
   {
-    "name": "Vinted Newsroom",
-    "url": "https://company.vinted.com/newsroom",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "autoScroll" : 3,
+    "baselineVersion" : "v10-parked",
+    "enabled" : false,
+    "name" : "ServiceValue Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://company\\.vinted\\.com/newsroom/[^/?#]+/?$"
+    "timeoutMs" : 60000,
+    "url" : "https://servicevalue.de/newsroom/",
+    "waitMs" : 7000
   },
   {
-    "name": "Visa Newsroom DE",
-    "url": "https://www.visa.de/uber-visa/newsroom.html",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.sheingroup\\.com/newsroom/[^/?#]+/?$",
+    "name" : "SHEIN Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.visa\\.de/uber-visa/newsroom/press-releases\\.\\d+\\.html$"
+    "timeoutMs" : 60000,
+    "url" : "https://sheingroup.com/newsroom/",
+    "waitMs" : 5000
   },
   {
-    "name": "VZBV Pressemitteilungen",
-    "url": "https://www.vzbv.de/presse/pressemitteilungen",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "autoScroll" : 0,
+    "baselineVersion" : "v10-network-parked",
+    "enabled" : false,
+    "http2Fallback" : false,
+    "name" : "DHL Discover Global",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.vzbv\\.de/pressemitteilungen/"
+    "timeoutMs" : 60000,
+    "url" : "https://www.dhl.com/discover/en-global",
+    "waitMs" : 1000
   },
   {
-    "name": "Verbraucherzentrale BW Presse",
-    "url": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://startupverband\\.de/presse/pressemitteilungen/",
+    "name" : "Startup-Verband Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.verbraucherzentrale-bawue\\.de/pressemitteilungen/"
+    "timeoutMs" : 60000,
+    "url" : "https://startupverband.de/presse/",
+    "waitMs" : 3000
   },
   {
-    "name": "Verbraucherzentrale Hamburg Presse",
-    "url": "https://www.vzhh.de/presse",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.telekom\\.com/de/medien/medieninformationen/detail/",
+    "name" : "Telekom Medieninformationen",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "excludeRegex": "^https://www\\.vzhh\\.de/(?:themen/|presse/?$)"
+    "timeoutMs" : 60000,
+    "url" : "https://www.telekom.com/de/medien/medieninformationen",
+    "waitMs" : 5000
   },
   {
-    "name": "Verbraucherzentrale RLP Presse",
-    "url": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen",
-    "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://the-platform-group\\.com/blog/20\\d{2}/\\d{2}/\\d{2}/",
+    "name" : "The Platform Group Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "includeRegex": "^https://www\\.verbraucherzentrale-rlp\\.de/pressemitteilungen/"
+    "timeoutMs" : 60000,
+    "url" : "https://the-platform-group.com/presse/",
+    "waitMs" : 3000
   },
   {
-    "name": "DHL Austria E-Commerce Marketing Calendar",
-    "url": "https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar",
-    "enabled": false,
-    "waitMs": 1000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://company\\.vinted\\.com/newsroom/[^/?#]+/?$",
+    "name" : "Vinted Newsroom",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "http2Fallback": false,
-    "autoScroll": 0,
-    "baselineVersion": "v10-network-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://company.vinted.com/newsroom",
+    "waitMs" : 5000
   },
   {
-    "name": "Wish News & Resources",
-    "url": "https://www.wish.com/newsandresources",
-    "enabled": false,
-    "waitMs": 7000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.visa\\.de/uber-visa/newsroom/press-releases\\.\\d+\\.html$",
+    "name" : "Visa Newsroom DE",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
-    "autoScroll": 3,
-    "excludeRegex": "^https://www\\.wish\\.com/newsandresources/?$",
-    "baselineVersion": "v10-content-parked"
+    "timeoutMs" : 60000,
+    "url" : "https://www.visa.de/uber-visa/newsroom.html",
+    "waitMs" : 5000
   },
   {
-    "name": "YouGov Corporate News",
-    "url": "https://corporate.yougov.com/press/news-and-press-releases/",
-    "enabled": true,
-    "waitMs": 5000,
-    "timeoutMs": 60000,
-    "selectors": {
-      "item": "",
-      "title": "",
-      "link": "",
-      "date": ""
-    }
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.vzbv\\.de/pressemitteilungen/",
+    "name" : "VZBV Pressemitteilungen",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "timeoutMs" : 60000,
+    "url" : "https://www.vzbv.de/presse/pressemitteilungen",
+    "waitMs" : 3000
+  },
+  {
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.verbraucherzentrale-bawue\\.de/pressemitteilungen/",
+    "name" : "Verbraucherzentrale BW Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "timeoutMs" : 60000,
+    "url" : "https://www.verbraucherzentrale-bawue.de/pressemitteilungen",
+    "waitMs" : 3000
+  },
+  {
+    "enabled" : true,
+    "excludeRegex" : "^https://www\\.vzhh\\.de/(?:themen/|presse/?$)",
+    "name" : "Verbraucherzentrale Hamburg Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "timeoutMs" : 60000,
+    "url" : "https://www.vzhh.de/presse",
+    "waitMs" : 3000
+  },
+  {
+    "enabled" : true,
+    "includeRegex" : "^https://www\\.verbraucherzentrale-rlp\\.de/pressemitteilungen/",
+    "name" : "Verbraucherzentrale RLP Presse",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "timeoutMs" : 60000,
+    "url" : "https://www.verbraucherzentrale-rlp.de/pressemitteilungen",
+    "waitMs" : 3000
+  },
+  {
+    "autoScroll" : 0,
+    "baselineVersion" : "v10-network-parked",
+    "enabled" : false,
+    "http2Fallback" : false,
+    "name" : "DHL Austria E-Commerce Marketing Calendar",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "timeoutMs" : 60000,
+    "url" : "https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar",
+    "waitMs" : 1000
+  },
+  {
+    "autoScroll" : 3,
+    "baselineVersion" : "v10-content-parked",
+    "enabled" : false,
+    "excludeRegex" : "^https://www\\.wish\\.com/newsandresources/?$",
+    "name" : "Wish News & Resources",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "timeoutMs" : 60000,
+    "url" : "https://www.wish.com/newsandresources",
+    "waitMs" : 7000
+  },
+  {
+    "enabled" : true,
+    "name" : "YouGov Corporate News",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "timeoutMs" : 60000,
+    "url" : "https://corporate.yougov.com/press/news-and-press-releases/",
+    "waitMs" : 5000
+  },
+  {
+    "baselineVersion" : "mac-app-20260814-123145",
+    "enabled" : false,
+    "name" : "TEST – bitte löschen",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "url" : "https://onlinemarktplatz.de/",
+    "waitMs" : 2500
   }
 ]
