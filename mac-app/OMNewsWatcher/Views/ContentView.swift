@@ -678,13 +678,36 @@ struct VisualTrainingView: View {
             Divider()
 
             VStack(alignment: .leading, spacing: 10) {
-                HStack(alignment: .top) {
-                    VStack(alignment: .leading, spacing: 3) {
-                        Text("Klicke 2–3 echte Meldungen auf der Website an")
-                            .font(.headline)
-                        Text("Die App verhindert beim Anklicken die Navigation und markiert deine Auswahl blau. Ein erneuter Klick entfernt die Auswahl wieder.")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
+                HStack(alignment: .top, spacing: 18) {
+                    VStack(alignment: .leading, spacing: 7) {
+                        Picker(
+                            "Modus",
+                            selection: Binding(
+                                get: { session.interactionMode },
+                                set: { session.setInteractionMode($0) }
+                            )
+                        ) {
+                            ForEach(VisualTrainingInteractionMode.allCases) { mode in
+                                Text(mode.title)
+                                    .tag(mode)
+                            }
+                        }
+                        .pickerStyle(.segmented)
+                        .frame(maxWidth: 520)
+
+                        if session.interactionMode == .browse {
+                            Text("1. Website bedienen")
+                                .font(.headline)
+                            Text("Cloudflare bestätigen, Cookiebanner akzeptieren, navigieren und scrollen. In diesem Modus verhält sich die Seite wie ein normaler Browser.")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        } else {
+                            Text("2. Klicke 2–3 echte Meldungen an")
+                                .font(.headline)
+                            Text("Jetzt fängt die App Klicks auf Meldungen ab und markiert deine Auswahl blau. Ein erneuter Klick entfernt die Auswahl.")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
                     }
 
                     Spacer()
@@ -776,10 +799,27 @@ struct VisualTrainingView: View {
     }
 }
 
-final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDelegate, WKScriptMessageHandler {
+enum VisualTrainingInteractionMode: String, CaseIterable, Identifiable {
+    case browse
+    case select
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .browse:
+            return "Website bedienen"
+        case .select:
+            return "Links markieren"
+        }
+    }
+}
+
+final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
     @Published var samples: [VisualTrainingSample] = []
     @Published var rule: VisualTrainingRule?
     @Published var statusMessage = "Website wird geladen …"
+    @Published var interactionMode: VisualTrainingInteractionMode = .browse
 
     let webView: WKWebView
     private let source: SourceRecord
@@ -789,8 +829,12 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
         self.source = source
 
         let configuration = WKWebViewConfiguration()
-        configuration.websiteDataStore = .nonPersistent()
+        // Persistente Cookies/Website-Daten sind absichtlich aktiv:
+        // Cloudflare- und Cookie-Bestätigungen sollen beim nächsten
+        // Öffnen derselben Quelle erhalten bleiben.
+        configuration.websiteDataStore = .default()
         configuration.defaultWebpagePreferences.allowsContentJavaScript = true
+        configuration.preferences.javaScriptCanOpenWindowsAutomatically = true
 
         let controller = WKUserContentController()
         configuration.userContentController = controller
@@ -804,6 +848,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 
         controller.add(self, name: "omVisualTrainer")
         webView.navigationDelegate = self
+        webView.uiDelegate = self
     }
 
     deinit {
@@ -833,6 +878,31 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
         webView.reload()
     }
 
+    func setInteractionMode(
+        _ mode: VisualTrainingInteractionMode
+    ) {
+        interactionMode = mode
+
+        switch mode {
+        case .browse:
+            statusMessage =
+                "Website bedienen: Cloudflare/Cookies bestätigen und zur gewünschten Liste navigieren."
+        case .select:
+            statusMessage =
+                "Links markieren: Klicke jetzt 2–3 echte Meldungen an."
+        }
+
+        let jsMode =
+            mode == .select
+            ? "select"
+            : "browse"
+
+        webView.evaluateJavaScript(
+            "window.omTrainerSetMode && window.omTrainerSetMode('\(jsMode)');",
+            completionHandler: nil
+        )
+    }
+
     func resetSelection() {
         samples = []
         rule = nil
@@ -849,6 +919,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
             forName: "omVisualTrainer"
         )
         webView.navigationDelegate = nil
+        webView.uiDelegate = nil
     }
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
@@ -858,6 +929,20 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
             guard let self else { return }
             do {
                 _ = try await webView.evaluateJavaScript(Self.trainingScript)
+
+                let jsMode =
+                    self.interactionMode == .select
+                    ? "select"
+                    : "browse"
+
+                _ = try await webView.evaluateJavaScript(
+                    "window.omTrainerSetMode && window.omTrainerSetMode('\(jsMode)');"
+                )
+
+                self.statusMessage =
+                    self.interactionMode == .select
+                    ? "Links markieren: Klicke jetzt 2–3 echte Meldungen an."
+                    : "Website bedienen: Cloudflare/Cookies bestätigen und zur gewünschten Liste navigieren."
             } catch {
                 self.statusMessage = "Einlernmodus konnte nicht gestartet werden: \(error.localizedDescription)"
             }
@@ -878,6 +963,23 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
         withError error: Error
     ) {
         statusMessage = error.localizedDescription
+    }
+
+    func webView(
+        _ webView: WKWebView,
+        createWebViewWith configuration: WKWebViewConfiguration,
+        for navigationAction: WKNavigationAction,
+        windowFeatures: WKWindowFeatures
+    ) -> WKWebView? {
+        // target="_blank" und JavaScript-Popups im Bedienmodus
+        // im selben Fenster öffnen. So kann man auch Cookie-/Login-
+        // und Cloudflare-Flows innerhalb der Einlernansicht abschließen.
+        if navigationAction.targetFrame == nil,
+           let url = navigationAction.request.url {
+            webView.load(URLRequest(url: url))
+        }
+
+        return nil
     }
 
     func userContentController(
@@ -986,7 +1088,8 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
   window.__omVisualTrainerInstalled = true;
 
   const state = {
-    selected: []
+    selected: [],
+    mode: 'browse'
   };
 
   const clean = value =>
@@ -1329,6 +1432,20 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 
   window.__omVisualTrainerPost = post;
 
+  window.omTrainerSetMode = mode => {
+    state.mode =
+      mode === 'select'
+        ? 'select'
+        : 'browse';
+
+    document.documentElement.setAttribute(
+      'data-om-trainer-mode',
+      state.mode
+    );
+
+    return state.mode;
+  };
+
   window.omTrainerReset = () => {
     document.querySelectorAll('[data-om-visual-selected="1"]').forEach(el => {
       el.removeAttribute('data-om-visual-selected');
@@ -1349,6 +1466,10 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
   document.head.appendChild(style);
 
   document.addEventListener('click', event => {
+    // Im Bedienmodus keinerlei Klicks abfangen:
+    // Cookiebanner, Cloudflare, Navigation und Formulare funktionieren normal.
+    if (state.mode !== 'select') return;
+
     const target = event.target;
     const anchor = findAnchor(target);
     if (!anchor) return;
@@ -1397,6 +1518,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     post();
   }, true);
 
+  window.omTrainerSetMode('browse');
   post();
   return { installed: true };
 })();
