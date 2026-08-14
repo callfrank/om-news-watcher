@@ -24,7 +24,7 @@
       "link": "",
       "date": ""
     },
-    "excludeRegex": "/pressemitteilungen-20\\d{2}/?$"
+    "excludeRegex": "/unternehmen/de/presse/(?:pressemitteilungen(?:-20\\d{2})?|unternehmen|otto-for-business)/?$"
   },
   {
     "name": "DPD Presse",
@@ -37,7 +37,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.dpd\\.com/de/de/news/[^/?#]+/?$"
   },
   {
     "name": "eco Presse",
@@ -50,7 +51,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.eco\\.de/pressemitteilungen/[^/?#]+/?$"
   },
   {
     "name": "Ecommerce Europe Press Releases",
@@ -64,7 +66,8 @@
       "link": "",
       "date": ""
     },
-    "autoScroll": 3
+    "autoScroll": 3,
+    "includeRegex": "^https://ecommerce-europe\\.eu/press-item/"
   },
   {
     "name": "ECDB Reports",
@@ -77,7 +80,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://ecdb\\.com/reports/"
   },
   {
     "name": "OMT E-Commerce Events",
@@ -90,7 +94,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "excludeRegex": "^https://www\\.omt\\.de/(?:events/?$|webinare/?$|events/e-commerce-konferenzen/?$)"
   },
   {
     "name": "experte.de E-Commerce Events",
@@ -103,7 +108,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "excludeRegex": "^https://www\\.experte\\.de/events/(?:digitalisierung|e-commerce|finanzen|startup|handel|hr|ki|management|medien|new-work|affiliate-marketing|b2b-marketing|content-marketing|online-marketing|pr-kommunikation|sea|seo|social-media-marketing|blockchain|cloud-hosting|it-security|machine-learning|mobile-apps|softwareentwicklung|user-experience|webentwicklung|berlin|duesseldorf|frankfurt-am-main|hamburg|hannover|koeln|leipzig|muenchen|stuttgart)/?$"
   },
   {
     "name": "EY Newsroom",
@@ -116,7 +122,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.ey\\.com/de_de/newsroom/20\\d{2}/\\d{2}/"
   },
   {
     "name": "FedEx Newsroom",
@@ -129,7 +136,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://newsroom\\.fedex\\.com/newsroom/[^/]+/[^/?#]+/?$"
   },
   {
     "name": "Amazon Seller Events",
@@ -155,7 +163,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.flaschenpost\\.de/newsroom/pressemitteilungen/"
   },
   {
     "name": "Forrester Press Newsroom",
@@ -181,13 +190,14 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.mynewsdesk\\.com/de/fressnapf-holding-se/pressreleases/"
   },
   {
     "name": "Galaxus Medienmitteilungen",
     "url": "https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 1000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
@@ -195,7 +205,8 @@
       "link": "",
       "date": ""
     },
-    "http2Fallback": true
+    "http2Fallback": false,
+    "autoScroll": 0
   },
   {
     "name": "GMX Newsroom",
@@ -208,7 +219,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://newsroom\\.gmx\\.net/20\\d{2}/\\d{2}/\\d{2}/"
   },
   {
     "name": "Google Think",
@@ -273,7 +285,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://unternehmen\\.kaufland\\.de/presse/newsroom/20\\d{2}/"
   },
   {
     "name": "LKA Prävention",
@@ -286,7 +299,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.polizei-praevention\\.de/aktuelles/.+\\.html$"
   },
   {
     "name": "Mordor Intelligence Case Studies",
@@ -382,7 +396,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://about\\.fb\\.com/de/news/20\\d{2}/\\d{2}/"
   },
   {
     "name": "Qonto Presse",
@@ -408,7 +423,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "excludeRegex": "^https://www\\.mollie\\.com/de/(?:news|success-stories|events)/?$"
   },
   {
     "name": "Momox Presse",
@@ -421,7 +437,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://momox\\.biz/presse/\\d+-pressemeldungen/"
   },
   {
     "name": "Amazon Freight Events",
@@ -448,7 +465,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://blog\\.google/products/ads-commerce/[^/?#]+/?$"
   },
   {
     "name": "Pattern Newsroom",
@@ -474,13 +492,14 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "excludeRegex": "[?&]cat=\\d+"
   },
   {
     "name": "PDD Holdings News Releases",
     "url": "https://investor.pddholdings.com/news-releases/",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 1000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
@@ -488,7 +507,8 @@
       "link": "",
       "date": ""
     },
-    "http2Fallback": true
+    "http2Fallback": false,
+    "autoScroll": 0
   },
   {
     "name": "Pew Research Internet & Technology",
@@ -501,7 +521,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "excludeRegex": "^https://www\\.pewresearch\\.org/(?:topic/(?!internet-technology)|publications/\\?)"
   },
   {
     "name": "ServiceValue Newsroom",
@@ -528,13 +549,14 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.sheingroup\\.com/newsroom/[^/?#]+/?$"
   },
   {
     "name": "DHL Discover Global",
     "url": "https://www.dhl.com/discover/en-global",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 1000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
@@ -542,7 +564,8 @@
       "link": "",
       "date": ""
     },
-    "http2Fallback": true
+    "http2Fallback": false,
+    "autoScroll": 0
   },
   {
     "name": "Startup-Verband Presse",
@@ -555,7 +578,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://startupverband\\.de/presse/pressemitteilungen/"
   },
   {
     "name": "Telekom Medieninformationen",
@@ -568,7 +592,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.telekom\\.com/de/medien/medieninformationen/detail/"
   },
   {
     "name": "The Platform Group Presse",
@@ -581,7 +606,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://the-platform-group\\.com/blog/20\\d{2}/\\d{2}/\\d{2}/"
   },
   {
     "name": "Vinted Newsroom",
@@ -594,7 +620,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://company\\.vinted\\.com/newsroom/[^/?#]+/?$"
   },
   {
     "name": "Visa Newsroom DE",
@@ -607,7 +634,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.visa\\.de/uber-visa/newsroom/press-releases\\.\\d+\\.html$"
   },
   {
     "name": "VZBV Pressemitteilungen",
@@ -620,7 +648,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.vzbv\\.de/pressemitteilungen/"
   },
   {
     "name": "Verbraucherzentrale BW Presse",
@@ -633,7 +662,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.verbraucherzentrale-bawue\\.de/pressemitteilungen/"
   },
   {
     "name": "Verbraucherzentrale Hamburg Presse",
@@ -646,7 +676,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "excludeRegex": "^https://www\\.vzhh\\.de/(?:themen/|presse/?$)"
   },
   {
     "name": "Verbraucherzentrale RLP Presse",
@@ -659,13 +690,14 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "includeRegex": "^https://www\\.verbraucherzentrale-rlp\\.de/pressemitteilungen/"
   },
   {
     "name": "DHL Austria E-Commerce Marketing Calendar",
     "url": "https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 1000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
@@ -673,7 +705,8 @@
       "link": "",
       "date": ""
     },
-    "http2Fallback": true
+    "http2Fallback": false,
+    "autoScroll": 0
   },
   {
     "name": "Wish News & Resources",
@@ -687,7 +720,8 @@
       "link": "",
       "date": ""
     },
-    "autoScroll": 3
+    "autoScroll": 3,
+    "excludeRegex": "^https://www\\.wish\\.com/newsandresources/?$"
   },
   {
     "name": "YouGov Corporate News",
