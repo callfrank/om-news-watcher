@@ -38,6 +38,109 @@ struct SettingsView: View {
                     TextField("Quellen-Datei", text: $model.sourcesPath)
                 }
 
+                Section("E-Mail-Benachrichtigungen") {
+                    VStack(alignment: .leading, spacing: 12) {
+                        Picker(
+                            "Benachrichtigungen",
+                            selection: Binding(
+                                get: {
+                                    model.emailAlertMode
+                                },
+                                set: {
+                                    model.setEmailAlertMode($0)
+                                }
+                            )
+                        ) {
+                            ForEach(EmailAlertMode.allCases) { mode in
+                                Text(mode.title)
+                                    .tag(mode)
+                            }
+                        }
+                        .pickerStyle(.radioGroup)
+
+                        Text(model.emailAlertMode.detail)
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+
+                        HStack {
+                            Label(
+                                "Zeitzone: Europe/Berlin",
+                                systemImage: "clock"
+                            )
+
+                            Spacer()
+
+                            if model.emailSettingsDirty {
+                                Label(
+                                    "Noch nicht gespeichert",
+                                    systemImage:
+                                        "exclamationmark.circle"
+                                )
+                                .foregroundStyle(.orange)
+                            }
+                        }
+                        .font(.caption)
+
+                        HStack {
+                            Button("Einstellung speichern") {
+                                Task {
+                                    await model.saveEmailSettings()
+                                }
+                            }
+                            .buttonStyle(.borderedProminent)
+                            .disabled(
+                                !model.emailSettingsDirty ||
+                                model.isBusy
+                            )
+
+                            Button("Test-E-Mail senden") {
+                                Task {
+                                    await model.sendTestEmail()
+                                }
+                            }
+                            .disabled(
+                                model.emailAlertMode == .off ||
+                                model.isBusy
+                            )
+
+                            Spacer()
+
+                            Button("GitHub Secrets öffnen") {
+                                model.openRepositorySecrets()
+                            }
+                        }
+
+                        if let status = model.emailTestStatus {
+                            Label(
+                                status,
+                                systemImage: "checkmark.circle"
+                            )
+                            .font(.caption)
+                            .foregroundStyle(.green)
+                        }
+
+                        VStack(alignment: .leading, spacing: 3) {
+                            Text(
+                                "Einmalig in GitHub Secrets hinterlegen:"
+                            )
+                            .font(.caption.bold())
+
+                            Text(
+                                "OM_SMTP_HOST · OM_SMTP_PORT · OM_SMTP_USER · OM_SMTP_PASSWORD · OM_EMAIL_FROM · OM_EMAIL_TO"
+                            )
+                            .font(.caption2.monospaced())
+                            .textSelection(.enabled)
+
+                            Text(
+                                "Empfänger und Mail-Zugangsdaten werden nicht in der öffentlichen sources.json oder in der App gespeichert."
+                            )
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                        }
+                    }
+                    .padding(.vertical, 4)
+                }
+
                 Section("GitHub-Zugriff") {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Fine-grained Personal Access Token")
@@ -189,7 +292,7 @@ struct SettingsView: View {
                 }
             }
         }
-        .frame(width: 640, height: 590)
+        .frame(width: 680, height: 790)
     }
 
     private func testConnection() {

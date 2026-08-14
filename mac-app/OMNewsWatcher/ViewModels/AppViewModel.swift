@@ -1,6 +1,48 @@
 import Foundation
 import AppKit
 
+enum EmailAlertMode: String, Codable, CaseIterable, Identifiable {
+    case off = "off"
+    case twoHourly = "two-hour"
+    case daily = "daily"
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .off:
+            return "Aus"
+        case .twoHourly:
+            return "Alle 2 Stunden (05–18 Uhr)"
+        case .daily:
+            return "1× täglich (06 Uhr)"
+        }
+    }
+
+    var detail: String {
+        switch self {
+        case .off:
+            return "Keine E-Mail-Benachrichtigungen."
+        case .twoHourly:
+            return "Sammelmail um 05, 07, 09, 11, 13, 15 und 17 Uhr – nur wenn neue Treffer vorliegen."
+        case .daily:
+            return "Eine Sammelmail um 06 Uhr – nur wenn seit der letzten Mail neue Treffer vorliegen."
+        }
+    }
+}
+
+struct EmailNotificationSettings: Codable, Equatable {
+    var mode: EmailAlertMode
+    var timezone: String
+    var enabledAt: String?
+
+    static let off = EmailNotificationSettings(
+        mode: .off,
+        timezone: "Europe/Berlin",
+        enabledAt: nil
+    )
+}
+
 @MainActor
 final class AppViewModel: ObservableObject {
     @Published var sources: [SourceRecord] = []
@@ -17,6 +59,9 @@ final class AppViewModel: ObservableObject {
     @Published var editingSource: SourceRecord?
     @Published var testResults: [UUID: SourceTestResult] = [:]
     @Published var testingSourceID: UUID?
+    @Published var emailAlertMode: EmailAlertMode = .off
+    @Published var emailSettingsDirty = false
+    @Published var emailTestStatus: String?
 
     @Published var owner: String {
         didSet { defaults.set(owner, forKey: Keys.owner) }
@@ -41,6 +86,8 @@ final class AppViewModel: ObservableObject {
     private let defaults = UserDefaults.standard
     private var token = ""
     private var currentSHA = ""
+    private var emailSettingsSHA = ""
+    private var emailEnabledAt: String?
     private var pollingTask: Task<Void, Never>?
     private var activeTester: SourceTester?
 
@@ -101,6 +148,7 @@ final class AppViewModel: ObservableObject {
 
     func reloadAll() async {
         await loadSources()
+        await loadEmailSettings()
         await refreshLatestRun()
     }
 
@@ -289,6 +337,137 @@ final class AppViewModel: ObservableObject {
             "\(original.name): Reparaturregel übernommen – neuer Test läuft …"
 
         await testSource(repaired)
+    }
+
+    func loadEmailSettings() async {
+        do {
+            if let file = try await client().fetchFileIfExists(
+                path: "email-settings.json"
+            ) {
+                let settings = try JSONDecoder().decode(
+                    EmailNotificationSettings.self,
+                    from: file.data
+                )
+
+                emailAlertMode = settings.mode
+                emailEnabledAt = settings.enabledAt
+                emailSettingsSHA = file.sha
+            } else {
+                emailAlertMode = .off
+                emailEnabledAt = nil
+                emailSettingsSHA = ""
+            }
+
+            emailSettingsDirty = false
+        } catch {
+            // Die Quellenverwaltung soll durch eine fehlende
+            // E-Mail-Konfiguration nicht blockiert werden.
+            emailAlertMode = .off
+            emailEnabledAt = nil
+            emailSettingsDirty = false
+        }
+    }
+
+    func setEmailAlertMode(_ mode: EmailAlertMode) {
+        guard emailAlertMode != mode else { return }
+
+        let oldMode = emailAlertMode
+        emailAlertMode = mode
+
+        if mode == .off {
+            emailEnabledAt = nil
+        } else if oldMode == .off || emailEnabledAt == nil {
+            emailEnabledAt = ISO8601DateFormatter().string(
+                from: Date()
+            )
+        }
+
+        emailSettingsDirty = true
+        emailTestStatus = nil
+    }
+
+    func saveEmailSettings() async {
+        await performBusy("E-Mail-Einstellung wird gespeichert …") {
+            guard self.hasToken else {
+                self.showSettings = true
+                throw GitHubAPIError.missingToken
+            }
+
+            let settings = EmailNotificationSettings(
+                mode: self.emailAlertMode,
+                timezone: "Europe/Berlin",
+                enabledAt:
+                    self.emailAlertMode == .off
+                    ? nil
+                    : (
+                        self.emailEnabledAt ??
+                        ISO8601DateFormatter().string(from: Date())
+                    )
+            )
+
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = [
+                .prettyPrinted,
+                .sortedKeys,
+                .withoutEscapingSlashes
+            ]
+
+            let data = try encoder.encode(settings)
+
+            let newSHA = try await self.client().saveFile(
+                path: "email-settings.json",
+                data: data,
+                sha:
+                    self.emailSettingsSHA.isEmpty
+                    ? nil
+                    : self.emailSettingsSHA,
+                message:
+                    "Update email alerts via OM News Watcher Mac"
+            )
+
+            self.emailSettingsSHA = newSHA
+            self.emailEnabledAt = settings.enabledAt
+            self.emailSettingsDirty = false
+            self.emailTestStatus = "E-Mail-Einstellung gespeichert"
+            self.statusMessage = "E-Mail-Einstellung gespeichert"
+        }
+    }
+
+    func sendTestEmail() async {
+        if emailSettingsDirty {
+            await saveEmailSettings()
+            if errorMessage != nil { return }
+        }
+
+        await performBusy("Test-E-Mail wird angefordert …") {
+            guard self.hasToken else {
+                self.showSettings = true
+                throw GitHubAPIError.missingToken
+            }
+
+            try await self.client().dispatchWorkflow(
+                workflow: "notify.yml",
+                inputs: [
+                    "force": "true"
+                ]
+            )
+
+            self.emailTestStatus =
+                "Test-E-Mail wurde bei GitHub angefordert. " +
+                "Sie sollte nach dem Workflow-Lauf eintreffen."
+            self.statusMessage = "Test-E-Mail angefordert"
+        }
+    }
+
+    func openRepositorySecrets() {
+        guard let url = URL(
+            string:
+                "https://github.com/\(owner)/\(repo)/settings/secrets/actions"
+        ) else {
+            return
+        }
+
+        NSWorkspace.shared.open(url)
     }
 
     func saveToken(_ newToken: String) async {

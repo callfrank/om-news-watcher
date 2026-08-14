@@ -21,7 +21,7 @@ enum GitHubAPIError: LocalizedError {
         case .http(let code, let message):
             return "GitHub-Fehler \(code): \(message)"
         case .invalidBase64:
-            return "sources.json konnte nicht dekodiert werden."
+            return "GitHub-Datei konnte nicht dekodiert werden."
         }
     }
 }
@@ -83,37 +83,127 @@ struct GitHubClient {
     }
 
     func fetchSources() async throws -> GitHubFile {
-        var components = URLComponents(
-            string: "https://api.github.com/repos/\(settings.owner)/\(settings.repo)/contents/\(settings.sourcesPath)"
+        try await fetchFile(path: settings.sourcesPath)
+    }
+
+    func saveSources(data: Data, sha: String) async throws -> String {
+        try await saveFile(
+            path: settings.sourcesPath,
+            data: data,
+            sha: sha,
+            message: "Update sources via OM News Watcher Mac"
         )
-        components?.queryItems = [URLQueryItem(name: "ref", value: settings.branch)]
+    }
 
-        guard let url = components?.url else { throw GitHubAPIError.invalidURL }
+    func fetchFile(path: String) async throws -> GitHubFile {
+        let encodedPath = path
+            .split(separator: "/")
+            .map(String.init)
+            .map {
+                $0.addingPercentEncoding(
+                    withAllowedCharacters: .urlPathAllowed
+                ) ?? $0
+            }
+            .joined(separator: "/")
 
-        var request = makeRequest(url: url, method: "GET")
-        request.setValue("application/vnd.github+json", forHTTPHeaderField: "Accept")
+        var components = URLComponents(
+            string:
+                "https://api.github.com/repos/\(settings.owner)/\(settings.repo)/contents/\(encodedPath)"
+        )
 
-        let (data, response) = try await URLSession.shared.data(for: request)
-        try validate(response: response, data: data)
+        components?.queryItems = [
+            URLQueryItem(
+                name: "ref",
+                value: settings.branch
+            )
+        ]
 
-        let payload = try JSONDecoder().decode(GitHubContentResponse.self, from: data)
+        guard let url = components?.url else {
+            throw GitHubAPIError.invalidURL
+        }
+
+        var request = makeRequest(
+            url: url,
+            method: "GET"
+        )
+
+        request.setValue(
+            "application/vnd.github+json",
+            forHTTPHeaderField: "Accept"
+        )
+
+        let (data, response) =
+            try await URLSession.shared.data(
+                for: request
+            )
+
+        try validate(
+            response: response,
+            data: data
+        )
+
+        let payload =
+            try JSONDecoder().decode(
+                GitHubContentResponse.self,
+                from: data
+            )
+
         guard payload.encoding.lowercased() == "base64" else {
             throw GitHubAPIError.invalidResponse
         }
 
-        let cleaned = payload.content.replacingOccurrences(of: "\n", with: "")
-        guard let decoded = Data(base64Encoded: cleaned) else {
+        let cleaned =
+            payload.content
+                .replacingOccurrences(
+                    of: "\n",
+                    with: ""
+                )
+
+        guard let decoded =
+            Data(
+                base64Encoded: cleaned
+            )
+        else {
             throw GitHubAPIError.invalidBase64
         }
 
-        return GitHubFile(sha: payload.sha, data: decoded)
+        return GitHubFile(
+            sha: payload.sha,
+            data: decoded
+        )
     }
 
-    func saveSources(data: Data, sha: String) async throws -> String {
-        guard !token.isEmpty else { throw GitHubAPIError.missingToken }
+    func fetchFileIfExists(path: String) async throws -> GitHubFile? {
+        do {
+            return try await fetchFile(path: path)
+        } catch GitHubAPIError.http(let code, _) where code == 404 {
+            return nil
+        }
+    }
+
+    func saveFile(
+        path: String,
+        data: Data,
+        sha: String?,
+        message: String
+    ) async throws -> String {
+        guard !token.isEmpty else {
+            throw GitHubAPIError.missingToken
+        }
+
+        let encodedPath = path
+            .split(separator: "/")
+            .map(String.init)
+            .map {
+                $0.addingPercentEncoding(
+                    withAllowedCharacters: .urlPathAllowed
+                ) ?? $0
+            }
+            .joined(separator: "/")
 
         guard let url = URL(
-            string: "https://api.github.com/repos/\(settings.owner)/\(settings.repo)/contents/\(settings.sourcesPath)"
+            string:
+                "https://api.github.com/repos/\(settings.owner)/\(settings.repo)/contents/\(encodedPath)"
         ) else {
             throw GitHubAPIError.invalidURL
         }
@@ -121,65 +211,130 @@ struct GitHubClient {
         struct Body: Encodable {
             let message: String
             let content: String
-            let sha: String
+            let sha: String?
             let branch: String
         }
 
         let body = Body(
-            message: "Update sources via OM News Watcher Mac",
+            message: message,
             content: data.base64EncodedString(),
             sha: sha,
             branch: settings.branch
         )
 
-        var request = makeRequest(url: url, method: "PUT")
-        request.setValue("application/vnd.github+json", forHTTPHeaderField: "Accept")
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.httpBody = try JSONEncoder().encode(body)
+        var request = makeRequest(
+            url: url,
+            method: "PUT"
+        )
 
-        let (responseData, response) = try await URLSession.shared.data(for: request)
-        try validate(response: response, data: responseData)
+        request.setValue(
+            "application/vnd.github+json",
+            forHTTPHeaderField: "Accept"
+        )
 
-        let payload = try JSONDecoder().decode(GitHubUpdateResponse.self, from: responseData)
-        return payload.content?.sha ?? sha
+        request.setValue(
+            "application/json",
+            forHTTPHeaderField: "Content-Type"
+        )
+
+        request.httpBody =
+            try JSONEncoder().encode(body)
+
+        let (responseData, response) =
+            try await URLSession.shared.data(
+                for: request
+            )
+
+        try validate(
+            response: response,
+            data: responseData
+        )
+
+        let payload =
+            try JSONDecoder().decode(
+                GitHubUpdateResponse.self,
+                from: responseData
+            )
+
+        return payload.content?.sha ?? sha ?? ""
     }
 
-    func dispatchWorkflow() async throws -> WorkflowRun? {
-        guard !token.isEmpty else { throw GitHubAPIError.missingToken }
 
-        guard let workflowName = settings.workflow.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed),
-              let url = URL(
-                string: "https://api.github.com/repos/\(settings.owner)/\(settings.repo)/actions/workflows/\(workflowName)/dispatches"
-              )
+    func dispatchWorkflow() async throws -> WorkflowRun? {
+        try await dispatchWorkflow(
+            workflow: settings.workflow,
+            inputs: [:]
+        )
+
+        return nil
+    }
+
+    func dispatchWorkflow(
+        workflow: String,
+        inputs: [String: String]
+    ) async throws {
+        guard !token.isEmpty else {
+            throw GitHubAPIError.missingToken
+        }
+
+        guard let workflowName =
+            workflow.addingPercentEncoding(
+                withAllowedCharacters:
+                    .urlPathAllowed
+            ),
+            let url = URL(
+                string:
+                    "https://api.github.com/repos/\(settings.owner)/\(settings.repo)/actions/workflows/\(workflowName)/dispatches"
+            )
         else {
             throw GitHubAPIError.invalidURL
         }
 
-        struct Body: Encodable { let ref: String }
-
-        var request = makeRequest(url: url, method: "POST")
-        request.setValue("application/vnd.github+json", forHTTPHeaderField: "Accept")
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.httpBody = try JSONEncoder().encode(Body(ref: settings.branch))
-
-        let (data, response) = try await URLSession.shared.data(for: request)
-        try validate(response: response, data: data, acceptedStatusCodes: [200, 204])
-
-        if !data.isEmpty,
-           let payload = try? JSONDecoder().decode(DispatchResponse.self, from: data),
-           let runID = payload.workflowRunID,
-           let html = payload.htmlURL {
-            return WorkflowRun(
-                id: runID,
-                status: "queued",
-                conclusion: nil,
-                htmlURL: html,
-                runNumber: nil,
-                createdAt: nil
-            )
+        struct Body: Encodable {
+            let ref: String
+            let inputs: [String: String]?
         }
 
-        return nil
+        var request =
+            makeRequest(
+                url: url,
+                method: "POST"
+            )
+
+        request.setValue(
+            "application/vnd.github+json",
+            forHTTPHeaderField: "Accept"
+        )
+
+        request.setValue(
+            "application/json",
+            forHTTPHeaderField: "Content-Type"
+        )
+
+        request.httpBody =
+            try JSONEncoder().encode(
+                Body(
+                    ref: settings.branch,
+                    inputs:
+                        inputs.isEmpty
+                        ? nil
+                        : inputs
+                )
+            )
+
+        let (data, response) =
+            try await URLSession.shared.data(
+                for: request
+            )
+
+        try validate(
+            response: response,
+            data: data,
+            acceptedStatusCodes: [
+                200,
+                204
+            ]
+        )
     }
 
     func latestWorkflowRun() async throws -> WorkflowRun? {
@@ -210,7 +365,7 @@ struct GitHubClient {
     private func makeRequest(url: URL, method: String) -> URLRequest {
         var request = URLRequest(url: url)
         request.httpMethod = method
-        request.setValue("OM-News-Watcher-Mac/1.0", forHTTPHeaderField: "User-Agent")
+        request.setValue("OM-News-Watcher-Mac/1.6", forHTTPHeaderField: "User-Agent")
         request.setValue(Self.apiVersion, forHTTPHeaderField: "X-GitHub-Api-Version")
 
         if !token.isEmpty {
