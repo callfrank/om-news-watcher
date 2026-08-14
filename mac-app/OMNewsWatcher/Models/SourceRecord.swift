@@ -14,6 +14,29 @@ struct SourceRecord: Identifiable, Equatable {
         set { raw["name"] = .string(newValue) }
     }
 
+    var shortName: String? {
+        get { clean(raw["shortName"]?.stringValue) }
+        set {
+            if let newValue {
+                let trimmed = newValue.trimmingCharacters(
+                    in: .whitespacesAndNewlines
+                )
+
+                if trimmed.isEmpty {
+                    raw.removeValue(forKey: "shortName")
+                } else {
+                    raw["shortName"] = .string(trimmed)
+                }
+            } else {
+                raw.removeValue(forKey: "shortName")
+            }
+        }
+    }
+
+    var feedLabel: String {
+        shortName ?? SourceRecord.compactSourceName(name)
+    }
+
     var url: String {
         get { raw["url"]?.stringValue ?? "" }
         set { raw["url"] = .string(newValue) }
@@ -151,6 +174,59 @@ struct SourceRecord: Identifiable, Equatable {
 
         let first = host.split(separator: ".").first.map(String.init) ?? host
         return first.prefix(1).uppercased() + first.dropFirst()
+    }
+
+    static func compactSourceName(_ value: String) -> String {
+        var result = value.trimmingCharacters(
+            in: .whitespacesAndNewlines
+        )
+
+        let suffixPatterns = [
+            #"(?i)\s+News\s*&\s*Presse$"#,
+            #"(?i)\s+News\s*&\s*Events$"#,
+            #"(?i)\s+News\s*&\s*Resources$"#,
+            #"(?i)\s+Press\s+Newsroom$"#,
+            #"(?i)\s+Press\s+Releases$"#,
+            #"(?i)\s+News\s+Releases$"#,
+            #"(?i)\s+Aktuelle\s+Mitteilungen$"#,
+            #"(?i)\s+Corporate\s+News$"#,
+            #"(?i)\s+Medieninformationen$"#,
+            #"(?i)\s+Medienmitteilungen$"#,
+            #"(?i)\s+Pressemitteilungen$"#,
+            #"(?i)\s+Newsroom\s+DE$"#,
+            #"(?i)\s+Newsroom$"#,
+            #"(?i)\s+Presse$"#,
+            #"(?i)\s+Papers$"#,
+            #"(?i)\s+Reports$"#,
+            #"(?i)\s+Blog$"#,
+            #"(?i)\s+Events$"#
+        ]
+
+        for pattern in suffixPatterns {
+            result = result.replacingOccurrences(
+                of: pattern,
+                with: "",
+                options: .regularExpression
+            )
+            .trimmingCharacters(
+                in: .whitespacesAndNewlines
+            )
+        }
+
+        return result.isEmpty ? value : result
+    }
+
+    var detectionConfiguration: [String: JSONValue] {
+        var copy = raw
+
+        // Änderungen an Darstellung/Status sollen keinen neuen
+        // Baseline-Lauf auslösen.
+        copy.removeValue(forKey: "name")
+        copy.removeValue(forKey: "shortName")
+        copy.removeValue(forKey: "enabled")
+        copy.removeValue(forKey: "baselineVersion")
+
+        return copy
     }
 
     static func makeBaselineVersion() -> String {

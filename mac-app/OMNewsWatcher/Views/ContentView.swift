@@ -177,6 +177,16 @@ struct ContentView: View {
                                 )
                             }
 
+                            LabeledContent(
+                                "Feed-Kennzeichnung",
+                                value: source.feedLabel
+                            )
+
+                            LabeledContent(
+                                "Feed-Titel",
+                                value: "\(source.feedLabel) · <Originaltitel>"
+                            )
+
                             LabeledContent("JavaScript-Wartezeit", value: "\(source.waitMs) ms")
 
                             if source.fetchMode == "html" {

@@ -35,6 +35,19 @@ struct SourceEditorView: View {
                     ))
                     .textFieldStyle(.roundedBorder)
 
+                    TextField(
+                        "Feed-Kurzname (optional)",
+                        text: Binding(
+                            get: { draft.shortName ?? "" },
+                            set: { draft.shortName = $0 }
+                        )
+                    )
+                    .textFieldStyle(.roundedBorder)
+
+                    Text("Feedly: \(draft.feedLabel) · <Originaltitel>")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+
                     Toggle("Aktiv überwachen", isOn: Binding(
                         get: { draft.enabled },
                         set: { draft.enabled = $0 }
@@ -76,7 +89,7 @@ struct SourceEditorView: View {
                 }
             }
         }
-        .frame(width: 560, height: 390)
+        .frame(width: 580, height: 450)
     }
 
     private var isValid: Bool {

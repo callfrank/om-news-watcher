@@ -194,16 +194,24 @@ final class AppViewModel: ObservableObject {
 
     func applyEditorResult(_ edited: SourceRecord) {
         var copy = edited
-        copy.baselineVersion = SourceRecord.makeBaselineVersion()
 
         if let index = sources.firstIndex(where: { $0.id == edited.id }) {
+            let previous = sources[index]
+
+            if previous.detectionConfiguration != copy.detectionConfiguration {
+                copy.baselineVersion = SourceRecord.makeBaselineVersion()
+                testResults.removeValue(forKey: copy.id)
+            } else {
+                copy.baselineVersion = previous.baselineVersion
+            }
+
             sources[index] = copy
         } else {
+            copy.baselineVersion = SourceRecord.makeBaselineVersion()
             sources.append(copy)
             selectedSourceID = copy.id
         }
 
-        testResults.removeValue(forKey: copy.id)
         isDirty = true
         showEditor = false
         editingSource = nil
