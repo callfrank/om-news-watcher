@@ -54,7 +54,7 @@ struct VisualTrainingRule: Equatable {
 
     var isUsable: Bool {
         sampleCount >= 2 &&
-        previewCount >= sampleCount &&
+        previewCount >= 2 &&
         previewCount <= 300 &&
         !itemSelector.isEmpty &&
         !titleSelector.isEmpty &&

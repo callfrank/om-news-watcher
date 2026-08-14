@@ -1072,7 +1072,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
             rule = newRule
             statusMessage = newRule.isUsable
                 ? "Regel erkannt. Vorschau prüfen und übernehmen."
-                : "Regel erkannt, aber noch zu breit oder unvollständig. Wähle eine weitere Meldung aus."
+                : "Regel erkannt, aber die Vorschau ist noch nicht plausibel. Auswahl ändern oder eine andere Meldung markieren."
         } catch {
             statusMessage = "Vorschau konnte nicht erzeugt werden: \(error.localizedDescription)"
         }
@@ -1481,18 +1481,34 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     const href = anchor.href || anchor.getAttribute('href') || '';
     if (!href) return;
 
-    const existingIndex = state.selected.findIndex(s => s.href === href);
+    const card =
+      target?.closest?.(cardSelector) ||
+      anchor?.closest?.(cardSelector) ||
+      anchor;
+
+    const highlight = card || anchor;
+
+    // Eine Karte kann mehrere interne Links enthalten.
+    // Für das Training zählt die Karte trotzdem nur einmal.
+    const existingIndex = state.selected.findIndex(
+      sample =>
+        sample.highlight === highlight ||
+        sample.href === href
+    );
+
     if (existingIndex >= 0) {
-      state.selected[existingIndex].highlight?.removeAttribute('data-om-visual-selected');
+      state.selected[existingIndex].highlight?.removeAttribute(
+        'data-om-visual-selected'
+      );
       state.selected.splice(existingIndex, 1);
       post();
       return;
     }
 
-    if (state.selected.length >= 6) return;
+    // Maximal drei echte Karten reichen für die Regelerkennung.
+    if (state.selected.length >= 3) return;
 
     const titleEl = bestTitleElement(target, anchor);
-    const card = target?.closest?.(cardSelector) || anchor?.closest?.(cardSelector) || anchor;
     const dateEl = bestDateElement(card);
     const title = clean(
       titleEl?.textContent ||
@@ -1502,7 +1518,6 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
       href
     );
 
-    const highlight = card || anchor;
     highlight.setAttribute('data-om-visual-selected', '1');
 
     state.selected.push({
