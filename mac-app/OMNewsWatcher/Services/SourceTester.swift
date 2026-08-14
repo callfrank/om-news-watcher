@@ -102,7 +102,10 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         guard let source else { return }
 
         Task { [weak self] in
-            let wait = min(max(source.waitMs, 0), 5000)
+            let wait = min(
+                max(effectiveWaitMs(for: source), 0),
+                5000
+            )
             if wait > 0 {
                 try? await Task.sleep(for: .milliseconds(Int64(wait)))
             }
@@ -257,8 +260,19 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         if name.contains("zalando newsroom") {
             return StabilityProfile(
                 key: "zalando",
-                selector: #"main a[href*="/de/newsroom/news-stories"]"#,
+                selector: #"a[href]"#,
                 expectedMax: 100,
+                allowExternal: false,
+                titleOnly: false,
+                disableAutoRepair: true
+            )
+        }
+
+        if name.contains("otto pressemitteilungen") {
+            return StabilityProfile(
+                key: "otto",
+                selector: #"a[href]"#,
+                expectedMax: 80,
                 allowExternal: false,
                 titleOnly: false,
                 disableAutoRepair: true
@@ -345,7 +359,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         if name.contains("galaxus medienmitteilungen") {
             return StabilityProfile(
                 key: "galaxus",
-                selector: #"main a[href*="/de/page/"]"#,
+                selector: #"a[href]"#,
                 expectedMax: 120,
                 allowExternal: false,
                 titleOnly: false,
@@ -462,6 +476,14 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 path.hasPrefix("/de/newsroom/news-stories/") &&
                 path != basePath
 
+        case "otto":
+            return
+                path.hasPrefix("/unternehmen/de/presse/") &&
+                path != "/unternehmen/de/presse/" &&
+                path != "/unternehmen/de/presse/pressemitteilungen" &&
+                !path.contains("pressemitteilungen-20") &&
+                title.count >= 12
+
         case "ecdb":
             return
                 path.hasPrefix("/reports/") &&
@@ -527,18 +549,47 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         }
     }
 
+    private func effectiveWaitMs(
+        for source: SourceRecord
+    ) -> Int {
+        let profile = stabilityProfile(for: source)
+
+        switch profile?.key {
+        case "galaxus":
+            return max(source.waitMs, 4000)
+        case "zalando":
+            return max(source.waitMs, 5000)
+        default:
+            return source.waitMs
+        }
+    }
+
     private func classify(
         _ source: SourceRecord,
         rows: [Candidate],
         allRows: [Candidate]
     ) -> SourceTestResult {
-        let filtered = filter(rows, for: source)
+        let profile = stabilityProfile(for: source)
+
+        var filtered = filter(rows, for: source)
+
+        if filtered.isEmpty,
+           profile != nil,
+           !allRows.isEmpty {
+            let fallback = filter(
+                allRows,
+                for: source
+            )
+
+            if !fallback.isEmpty {
+                filtered = fallback
+            }
+        }
+
         let count = filtered.count
         let examples = hits(from: filtered)
 
         if count == 0 {
-            let profile = stabilityProfile(for: source)
-
             let repair =
                 profile?.disableAutoRepair == true
                 ? nil
@@ -562,7 +613,6 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             )
         }
 
-        let profile = stabilityProfile(for: source)
         let threshold = max(
             source.maxDetectedItems ?? 0,
             profile?.expectedMax ?? 80
@@ -1111,6 +1161,16 @@ final class SourceTester: NSObject, WKNavigationDelegate {
               ''
             );
 
+            if (cfg.profile === 'otto') {
+              const match = own.match(
+                /^Presse\\s+\\d{1,2}\\.\\s+[A-Za-zÄÖÜäöü]+\\.?\\s+20\\d{2}\\s+(.+?)\\s+Mehr erfahren$/i
+              );
+
+              if (match?.[1]) {
+                return clean(match[1]);
+              }
+            }
+
             const card = root || cardFor(link);
 
             if (
@@ -1147,6 +1207,22 @@ final class SourceTester: NSObject, WKNavigationDelegate {
           };
 
           const dateFor = (link, root = null) => {
+            if (cfg.profile === 'otto') {
+              const own = clean(
+                link?.textContent ||
+                link?.getAttribute?.('aria-label') ||
+                ''
+              );
+
+              const match = own.match(
+                /^Presse\\s+(\\d{1,2}\\.\\s+[A-Za-zÄÖÜäöü]+\\.?\\s+20\\d{2})\\s+/i
+              );
+
+              if (match?.[1]) {
+                return clean(match[1]);
+              }
+            }
+
             const card = root || cardFor(link);
 
             if (!card?.querySelector) return '';
