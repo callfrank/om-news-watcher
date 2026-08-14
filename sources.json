@@ -826,5 +826,19 @@
     },
     "url" : "https://www.deloitte.com/de/de/about/press-room.html",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260814-160215",
+    "enabled" : true,
+    "name" : "Etsy",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "shortName" : "Etsy",
+    "url" : "https://www.etsy.com/news/",
+    "waitMs" : 2500
   }
 ]
