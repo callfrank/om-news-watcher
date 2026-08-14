@@ -9,14 +9,14 @@ const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 
-const VERSION = '0.8';
+const VERSION = '0.10';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
 const DEFAULT_SAMPLE_COUNT = 3;
 
 /*
- * v0.8: Hard-Timeout-Version
+ * v0.10: Clean-Baseline + Multi-Source-Version
  *
  * - 8 Quellen parallel
  * - normale Navigation max. 15 s
@@ -63,6 +63,13 @@ const HARD_SOURCE_TIMEOUT_MS = Math.max(
 );
 
 const PAGE_CLOSE_TIMEOUT_MS = 1200;
+
+/*
+ * Einmalige Bereinigung nach der Testphase.
+ * Beim ersten Lauf von v0.10 wird nur data/items.json geleert.
+ * Der bekannte Seitenbestand in state.json bleibt erhalten.
+ */
+const FEED_RESET_TOKEN = 'clean-baseline-v10';
 
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -136,10 +143,19 @@ function safeRegex(pattern) {
   }
 }
 
-function isInternalUrl(href, sourceUrl) {
+function isAllowedUrl(href, source) {
   try {
-    const u = new URL(href, sourceUrl);
-    const src = new URL(sourceUrl);
+    const u = new URL(href, source.url);
+
+    if (!/^https?:$/i.test(u.protocol)) {
+      return false;
+    }
+
+    if (source.allowExternal === true) {
+      return true;
+    }
+
+    const src = new URL(source.url);
 
     return (
       u.hostname === src.hostname ||
@@ -151,19 +167,31 @@ function isInternalUrl(href, sourceUrl) {
   }
 }
 
-function looksLikeArticle(text, href, sourceUrl) {
-  if (!text || text.length < 10 || text.length > 260 || !href) {
+function syntheticTitleUrl(source, title) {
+  const token = crypto
+    .createHash('sha256')
+    .update(`${source.name}|${title}`)
+    .digest('hex')
+    .slice(0, 16);
+
+  const u = new URL(source.url);
+  u.searchParams.set('om_item', token);
+  return u.href;
+}
+
+function looksLikeArticle(text, href, source) {
+  if (!text || text.length < 6 || text.length > 320 || !href) {
     return false;
   }
 
-  if (!isInternalUrl(href, sourceUrl)) {
+  if (!isAllowedUrl(href, source)) {
     return false;
   }
 
   let u;
 
   try {
-    u = new URL(href, sourceUrl);
+    u = new URL(href, source.url);
   } catch {
     return false;
   }
@@ -339,8 +367,6 @@ function normalizeAndFilter(rows, source) {
   const map = new Map();
 
   for (const r of rows || []) {
-    const link = canonicalUrl(r.href, source.url);
-
     const title = (r.title || '')
       .replace(/\s+/g, ' ')
       .trim();
@@ -348,9 +374,34 @@ function normalizeAndFilter(rows, source) {
     const date = (r.date || '')
       .trim();
 
-    if (!link || !title) continue;
+    if (!title) continue;
 
-    if (!looksLikeArticle(title, link, source.url)) {
+    const rawHref =
+      r.href ||
+      (source.allowTitleOnly === true
+        ? syntheticTitleUrl(source, title)
+        : '');
+
+    const link = canonicalUrl(rawHref, source.url);
+
+    if (!link) continue;
+
+    /*
+     * Titel-only-Quellen haben synthetische URLs zur
+     * Wiedererkennung. Sie müssen nicht wie normale
+     * Artikel-URLs aussehen.
+     */
+    if (
+      source.allowTitleOnly !== true &&
+      !looksLikeArticle(title, link, source)
+    ) {
+      continue;
+    }
+
+    if (
+      source.allowTitleOnly === true &&
+      title.length < Number(source.minTitleLength || 12)
+    ) {
       continue;
     }
 
@@ -370,6 +421,10 @@ function normalizeAndFilter(rows, source) {
   }
 
   let result = [...map.values()];
+
+  if (source.reverseDetected === true) {
+    result.reverse();
+  }
 
   if (
     source.maxDetectedItems &&
@@ -795,7 +850,9 @@ async function mapWithConcurrency(items, limit, worker) {
     STATE_FILE,
     {
       seenBySource: {},
-      initializedBySource: {}
+      initializedBySource: {},
+      configVersionBySource: {},
+      feedResetToken: null
     }
   );
 
@@ -805,10 +862,22 @@ async function mapWithConcurrency(items, limit, worker) {
   state.initializedBySource =
     state.initializedBySource || {};
 
+  state.configVersionBySource =
+    state.configVersionBySource || {};
+
   let items = readJson(
     ITEMS_FILE,
     []
   );
+
+  if (state.feedResetToken !== FEED_RESET_TOKEN) {
+    console.log(
+      `Einmalige Feed-Bereinigung (${FEED_RESET_TOKEN}): ${items.length} alte Testeinträge entfernt.`
+    );
+
+    items = [];
+    state.feedResetToken = FEED_RESET_TOKEN;
+  }
 
   items = pruneStoredItems(
     items,
@@ -927,15 +996,35 @@ async function mapWithConcurrency(items, limit, worker) {
         key
       );
 
+    const requestedBaseline =
+      String(source.baselineVersion || '');
+
+    const storedBaseline =
+      String(state.configVersionBySource[key] || '');
+
+    const configChanged =
+      requestedBaseline &&
+      requestedBaseline !== storedBaseline;
+
     const firstRun =
-      state.initializedBySource[key] !== true &&
-      !hadPriorState;
+      configChanged ||
+      (
+        state.initializedBySource[key] !== true &&
+        !hadPriorState
+      );
 
     const known =
       new Set(
-        state.seenBySource[key] ||
-        []
+        configChanged
+          ? []
+          : (state.seenBySource[key] || [])
       );
+
+    if (configChanged) {
+      console.log(
+        `  ↻ Neue Erkennungsregel (${requestedBaseline}) – Quelle wird einmalig neu baseline-gesetzt.`
+      );
+    }
 
     if (rows.length === 0) {
       console.log(
@@ -945,9 +1034,13 @@ async function mapWithConcurrency(items, limit, worker) {
       state.initializedBySource[key] =
         true;
 
-      if (!hadPriorState) {
+      if (!hadPriorState || configChanged) {
         state.seenBySource[key] =
           [];
+      }
+
+      if (requestedBaseline) {
+        state.configVersionBySource[key] = requestedBaseline;
       }
 
       continue;
@@ -1055,6 +1148,10 @@ async function mapWithConcurrency(items, limit, worker) {
 
     state.initializedBySource[key] =
       true;
+
+    if (requestedBaseline) {
+      state.configVersionBySource[key] = requestedBaseline;
+    }
   }
 
   const seenGuid =
