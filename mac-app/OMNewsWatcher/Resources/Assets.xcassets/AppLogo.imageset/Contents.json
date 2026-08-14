@@ -1,19 +1,19 @@
 {
   "images": [
     {
-      "filename": "AppLogo_64.png",
       "idiom": "universal",
-      "scale": "1x"
+      "scale": "1x",
+      "filename": "AppLogo_64.png"
     },
     {
-      "filename": "AppLogo_128.png",
       "idiom": "universal",
-      "scale": "2x"
+      "scale": "2x",
+      "filename": "AppLogo_128.png"
     },
     {
-      "filename": "AppLogo_256.png",
       "idiom": "universal",
-      "scale": "3x"
+      "scale": "3x",
+      "filename": "AppLogo_256.png"
     }
   ],
   "info": {

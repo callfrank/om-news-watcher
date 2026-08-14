@@ -14,6 +14,52 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             return await testViaHTTP(source)
         }
 
+        let browserResult = await testViaWebKit(source)
+
+        guard browserResult.kind == .technicalError else {
+            return browserResult
+        }
+
+        // Automatischer Diagnose-Fallback:
+        // Falls WebKit scheitert, prüfen wir, ob die Seite per normalem
+        // HTML-Abruf funktioniert. Dann kann die App die passende Regel
+        // direkt vorschlagen.
+        let httpResult = await testViaHTTP(source)
+
+        guard httpResult.kind != .technicalError else {
+            return browserResult
+        }
+
+        let baseRepair = httpResult.repairProposal
+        let repair = SourceRepairProposal(
+            title: "Direkten HTML-Abruf verwenden",
+            explanation:
+                "Der Browserabruf ist fehlgeschlagen, der direkte HTML-Abruf liefert aber auswertbare Inhalte. " +
+                (baseRepair?.explanation ?? "Die Quelle kann ohne Browser stabiler überwacht werden."),
+            previewCount: httpResult.hitCount,
+            examples: httpResult.examples,
+            candidateSelector: baseRepair?.candidateSelector,
+            includeRegex: baseRepair?.includeRegex,
+            excludeRegex: baseRepair?.excludeRegex,
+            fetchMode: "html",
+            minTitleLength: baseRepair?.minTitleLength,
+            allowExternal: baseRepair?.allowExternal
+        )
+
+        return SourceTestResult(
+            sourceID: source.id,
+            kind: .technicalError,
+            hitCount: httpResult.hitCount,
+            examples: httpResult.examples,
+            message:
+                "Der Browserabruf ist fehlgeschlagen. Ein direkter HTML-Abruf funktioniert; " +
+                "die App kann die Quelle automatisch umstellen.",
+            testedAt: Date(),
+            repairProposal: repair
+        )
+    }
+
+    private func testViaWebKit(_ source: SourceRecord) async -> SourceTestResult {
         guard let url = URL(string: source.url) else {
             return failure(source, message: "Die URL ist ungültig.")
         }
@@ -35,7 +81,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 18
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.1",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.3",
                 forHTTPHeaderField: "User-Agent"
             )
 
@@ -99,19 +145,26 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 return
             }
 
-            let rawRows = payload["rows"] as? [[String: Any]] ?? []
-            let rows = rawRows.compactMap { row -> Candidate? in
-                let title = (row["title"] as? String ?? "")
-                    .trimmingCharacters(in: .whitespacesAndNewlines)
-                let href = (row["href"] as? String ?? "")
-                    .trimmingCharacters(in: .whitespacesAndNewlines)
-                guard !title.isEmpty else { return nil }
-                return Candidate(title: title, href: href)
-            }
+            let rows = parseCandidates(payload["rows"])
+            let allRows = parseCandidates(payload["allRows"])
 
-            finish(classify(source, rows: rows))
+            finish(classify(source, rows: rows, allRows: allRows))
         } catch {
             finish(failure(source, message: error.localizedDescription))
+        }
+    }
+
+    private func parseCandidates(_ value: Any?) -> [Candidate] {
+        let rawRows = value as? [[String: Any]] ?? []
+
+        return rawRows.compactMap { row -> Candidate? in
+            let title = (row["title"] as? String ?? "")
+                .trimmingCharacters(in: .whitespacesAndNewlines)
+            let href = (row["href"] as? String ?? "")
+                .trimmingCharacters(in: .whitespacesAndNewlines)
+
+            guard !title.isEmpty else { return nil }
+            return Candidate(title: title, href: href)
         }
     }
 
@@ -124,7 +177,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 15
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.1",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.3",
                 forHTTPHeaderField: "User-Agent"
             )
             request.setValue("text/html,application/xhtml+xml", forHTTPHeaderField: "Accept")
@@ -141,39 +194,61 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             }
 
             let rows = extractAnchors(from: html)
-            return classify(source, rows: rows)
+            return classify(source, rows: rows, allRows: rows)
         } catch {
             return failure(source, message: error.localizedDescription)
         }
     }
 
-    private func classify(_ source: SourceRecord, rows: [Candidate]) -> SourceTestResult {
+    private func classify(
+        _ source: SourceRecord,
+        rows: [Candidate],
+        allRows: [Candidate]
+    ) -> SourceTestResult {
         let filtered = filter(rows, for: source)
         let count = filtered.count
-        let examples = filtered.prefix(5).map {
-            SourceTestHit(title: $0.title, url: $0.href.isEmpty ? nil : $0.href)
-        }
+        let examples = hits(from: filtered)
 
         if count == 0 {
+            let repair = makeRepairProposal(
+                source,
+                rawRows: allRows.isEmpty ? rows : allRows,
+                currentRows: filtered
+            )
+
             return SourceTestResult(
                 sourceID: source.id,
                 kind: .zeroHits,
                 hitCount: 0,
                 examples: [],
-                message: "Keine möglichen Artikel erkannt. Die Quelle benötigt wahrscheinlich eine spezielle Erkennungsregel.",
-                testedAt: Date()
+                message:
+                    repair == nil
+                    ? "Keine möglichen Artikel erkannt. Die Quelle benötigt wahrscheinlich eine spezielle Erkennungsregel."
+                    : "Keine Treffer mit der aktuellen Regel. Die App hat eine mögliche Artikelstruktur auf der Seite gefunden.",
+                testedAt: Date(),
+                repairProposal: repair
             )
         }
 
         let threshold = max(source.maxDetectedItems ?? 0, 80)
         if count > threshold {
+            let repair = makeRepairProposal(
+                source,
+                rawRows: allRows.isEmpty ? rows : allRows,
+                currentRows: filtered
+            )
+
             return SourceTestResult(
                 sourceID: source.id,
                 kind: .tooManyHits,
                 hitCount: count,
                 examples: examples,
-                message: "\(count) Treffer erkannt. Das ist ungewöhnlich viel; vermutlich sind Navigation oder Kategorien enthalten.",
-                testedAt: Date()
+                message:
+                    repair == nil
+                    ? "\(count) Treffer erkannt. Das ist ungewöhnlich viel; vermutlich sind Navigation oder Kategorien enthalten."
+                    : "\(count) Treffer erkannt. Die App hat einen engeren Artikelbereich gefunden und kann daraus eine Regel erzeugen.",
+                testedAt: Date(),
+                repairProposal: repair
             )
         }
 
@@ -186,6 +261,294 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             testedAt: Date()
         )
     }
+
+    // MARK: - Automatische Reparatur
+
+    private func makeRepairProposal(
+        _ source: SourceRecord,
+        rawRows: [Candidate],
+        currentRows: [Candidate]
+    ) -> SourceRepairProposal? {
+        let prepared = prepareForRepair(rawRows, source: source)
+
+        guard prepared.count >= 2 else {
+            return nil
+        }
+
+        var groups: [String: [Candidate]] = [:]
+
+        for row in prepared {
+            guard let url = URL(string: row.href) else { continue }
+            let components = url.path
+                .split(separator: "/")
+                .map(String.init)
+
+            guard components.count >= 2 else { continue }
+
+            let lower = components.map { $0.lowercased() }
+
+            // Bevorzugt werden typische News-/Presse-Pfade.
+            for (index, component) in lower.enumerated() {
+                guard articlePathHints.contains(where: {
+                    component == $0 ||
+                    component.contains($0)
+                }) else {
+                    continue
+                }
+
+                var end = index
+
+                if components.indices.contains(index + 1),
+                   components[index + 1].range(
+                    of: #"^20\d{2}$"#,
+                    options: .regularExpression
+                   ) != nil {
+                    end = index + 1
+                }
+
+                guard end < components.count - 1 else { continue }
+
+                let prefix = "/" + components[0...end].joined(separator: "/") + "/"
+                groups[prefix, default: []].append(row)
+            }
+
+            // Zusätzlich gemeinsame Elternordner prüfen.
+            let parent = "/" + components.dropLast().joined(separator: "/") + "/"
+            if parent.split(separator: "/").count >= 3 {
+                groups[parent, default: []].append(row)
+            }
+        }
+
+        let uniqueGroups = groups.mapValues(uniqueCandidates)
+
+        var best: RepairCandidate?
+
+        for (prefix, members) in uniqueGroups {
+            guard members.count >= 2, members.count <= 70 else { continue }
+
+            let prefixDepth = prefix.split(separator: "/").count
+            guard prefixDepth >= 2 else { continue }
+
+            let score = scoreGroup(
+                prefix: prefix,
+                members: members,
+                totalRows: prepared.count,
+                source: source
+            )
+
+            let candidate = RepairCandidate(
+                prefix: prefix,
+                members: members,
+                score: score
+            )
+
+            if best == nil || candidate.score > best!.score {
+                best = candidate
+            }
+        }
+
+        guard let best else {
+            return nil
+        }
+
+        guard let host = URL(string: source.url)?.host else {
+            return nil
+        }
+
+        let escapedHost = NSRegularExpression.escapedPattern(for: host)
+        let escapedPrefix = NSRegularExpression.escapedPattern(for: best.prefix)
+
+        let includeRegex = #"^https?://"# + escapedHost + escapedPrefix
+
+        var proposed = source
+        proposed.includeRegex = includeRegex
+        proposed.candidateSelector = #"a[href*=""# + best.prefix + #""]"#
+        proposed.minTitleLength = max(source.minTitleLength, 12)
+
+        let preview = filter(prepared, for: proposed)
+
+        guard preview.count >= 2, preview.count <= 70 else {
+            return nil
+        }
+
+        if !currentRows.isEmpty,
+           preview.count >= currentRows.count {
+            return nil
+        }
+
+        let reductionText: String
+        if currentRows.count > 0 {
+            let reduction = max(
+                0,
+                Int(
+                    (1.0 - Double(preview.count) / Double(currentRows.count)) * 100.0
+                )
+            )
+            reductionText =
+                "Die Regel reduziert die Treffer von \(currentRows.count) auf \(preview.count) (\(reduction)% weniger)."
+        } else {
+            reductionText =
+                "Die Regel erkennt \(preview.count) plausible Artikel innerhalb eines gemeinsamen URL-Bereichs."
+        }
+
+        return SourceRepairProposal(
+            title: "Nur den erkannten Artikelbereich überwachen",
+            explanation:
+                "\(reductionText) Verwendeter Bereich: \(best.prefix). " +
+                "Die Regel wird als URL-Filter in sources.json gespeichert und damit auch vom GitHub-Watcher verwendet.",
+            previewCount: preview.count,
+            examples: hits(from: preview),
+            candidateSelector: proposed.candidateSelector,
+            includeRegex: includeRegex,
+            excludeRegex: nil,
+            fetchMode: nil,
+            minTitleLength: proposed.minTitleLength,
+            allowExternal: nil
+        )
+    }
+
+    private func prepareForRepair(
+        _ rows: [Candidate],
+        source: SourceRecord
+    ) -> [Candidate] {
+        var result: [Candidate] = []
+        var seen = Set<String>()
+
+        for row in rows {
+            let title = normalizeWhitespace(row.title)
+            guard title.count >= 8, title.count <= 320 else { continue }
+            guard !isGenericNavigationTitle(title) else { continue }
+            guard let resolved = resolve(row.href, relativeTo: source.url) else { continue }
+            guard source.allowExternal || isInternal(resolved, sourceURL: source.url) else {
+                continue
+            }
+
+            guard let url = URL(string: resolved) else { continue }
+            guard url.path != URL(string: source.url)?.path else { continue }
+
+            let key = resolved.lowercased()
+            guard seen.insert(key).inserted else { continue }
+
+            result.append(
+                Candidate(
+                    title: title,
+                    href: resolved
+                )
+            )
+        }
+
+        return result
+    }
+
+    private func scoreGroup(
+        prefix: String,
+        members: [Candidate],
+        totalRows: Int,
+        source: SourceRecord
+    ) -> Int {
+        let lower = prefix.lowercased()
+        var score = 0
+
+        if articlePathHints.contains(where: { lower.contains("/\($0)") }) {
+            score += 70
+        }
+
+        if lower.contains("press") || lower.contains("presse") {
+            score += 35
+        }
+
+        if lower.contains("news") || lower.contains("story") {
+            score += 30
+        }
+
+        if lower.range(of: #"/20\d{2}/"#, options: .regularExpression) != nil {
+            score += 15
+        }
+
+        score += min(members.count, 25)
+
+        let longTitles = members.filter { $0.title.count >= 24 }.count
+        score += min(longTitles * 2, 20)
+
+        let depth = prefix.split(separator: "/").count
+        score += min(depth * 3, 18)
+
+        if members.count > 45 {
+            score -= 20
+        }
+
+        if members.count > Int(Double(totalRows) * 0.8) {
+            score -= 25
+        }
+
+        if let sourcePath = URL(string: source.url)?.deletingLastPathComponent().path,
+           prefix == sourcePath + "/" {
+            score -= 20
+        }
+
+        return score
+    }
+
+    private func uniqueCandidates(_ rows: [Candidate]) -> [Candidate] {
+        var seen = Set<String>()
+        return rows.filter {
+            seen.insert($0.href.lowercased()).inserted
+        }
+    }
+
+    private func hits(from rows: [Candidate]) -> [SourceTestHit] {
+        Array(rows.prefix(5)).map {
+            SourceTestHit(
+                title: $0.title,
+                url: $0.href.isEmpty ? nil : $0.href
+            )
+        }
+    }
+
+    private func isGenericNavigationTitle(_ title: String) -> Bool {
+        let lower = normalizeWhitespace(title).lowercased()
+
+        let exact = [
+            "home", "startseite", "kontakt", "contact", "about", "über uns",
+            "impressum", "datenschutz", "privacy", "login", "jobs", "karriere",
+            "services", "service", "governance", "unsere werte", "unsere talente",
+            "auszeichnungen", "standorte", "locations", "media", "stories",
+            "publications", "news", "presse", "press", "menu", "navigation"
+        ]
+
+        if exact.contains(lower) {
+            return true
+        }
+
+        let prefixes = [
+            "mehr erfahren", "read more", "weiterlesen",
+            "zurück", "back", "alle themen", "all topics"
+        ]
+
+        return prefixes.contains(where: { lower.hasPrefix($0) })
+    }
+
+    private let articlePathHints = [
+        "press-room",
+        "press-releases",
+        "pressrelease",
+        "pressemitteilungen",
+        "presse",
+        "newsroom",
+        "news",
+        "stories",
+        "story",
+        "blog",
+        "reports",
+        "report",
+        "insights",
+        "article",
+        "articles",
+        "events",
+        "event"
+    ]
+
+    // MARK: - Bestehende Filterlogik
 
     private func filter(_ rows: [Candidate], for source: SourceRecord) -> [Candidate] {
         var seen = Set<String>()
@@ -228,7 +591,12 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 continue
             }
 
-            if source.includeRegex == nil && !looksLikeArticle(title: title, url: resolved, sourceURL: source.url) {
+            if source.includeRegex == nil &&
+               !looksLikeArticle(
+                title: title,
+                url: resolved,
+                sourceURL: source.url
+               ) {
                 continue
             }
 
@@ -240,17 +608,14 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         return result
     }
 
-    private func looksLikeArticle(title: String, url: String, sourceURL: String) -> Bool {
+    private func looksLikeArticle(
+        title: String,
+        url: String,
+        sourceURL: String
+    ) -> Bool {
         guard title.count >= 10, title.count <= 320 else { return false }
 
-        let badTitles = [
-            "home", "startseite", "kontakt", "contact", "about", "über uns",
-            "impressum", "datenschutz", "privacy", "login", "jobs", "karriere",
-            "mehr erfahren", "read more", "weiterlesen", "menu", "navigation"
-        ]
-
-        let lower = title.lowercased()
-        if badTitles.contains(where: { lower == $0 || lower.hasPrefix("\($0) ") }) {
+        if isGenericNavigationTitle(title) {
             return false
         }
 
@@ -258,10 +623,20 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         let path = parsed.path
         let components = path.split(separator: "/")
 
-        if components.count >= 2 { return true }
+        if articlePathHints.contains(where: {
+            path.lowercased().contains($0)
+        }) {
+            return true
+        }
 
-        let hints = ["news", "press", "presse", "blog", "article", "story", "report", "event", "2026", "2025"]
-        return hints.contains(where: { path.lowercased().contains($0) })
+        if path.range(
+            of: #"/20\d{2}/"#,
+            options: .regularExpression
+        ) != nil {
+            return true
+        }
+
+        return components.count >= 3 && title.count >= 18
     }
 
     private func javascript(for source: SourceRecord) throws -> String {
@@ -281,54 +656,106 @@ final class SourceTester: NSObject, WKNavigationDelegate {
           const cfg = \(json);
           const clean = (text) => (text || '').replace(/\\s+/g, ' ').trim();
           const rows = [];
+          const allRows = [];
 
           try {
+            document.querySelectorAll('a[href]').forEach((a) => {
+              const title = clean(
+                a.textContent ||
+                a.getAttribute('aria-label') ||
+                a.title ||
+                ''
+              );
+              const href = a.href || a.getAttribute('href') || '';
+              if (title && href) allRows.push({ title, href });
+            });
+
             if (cfg.allowTitleOnly && cfg.itemSelector) {
               document.querySelectorAll(cfg.itemSelector).forEach((item) => {
                 const titleEl = cfg.titleSelector
-                  ? (item.matches(cfg.titleSelector) ? item : item.querySelector(cfg.titleSelector))
+                  ? (item.matches(cfg.titleSelector)
+                      ? item
+                      : item.querySelector(cfg.titleSelector))
                   : item;
-                const title = clean(titleEl ? titleEl.textContent : item.textContent);
+                const title = clean(
+                  titleEl ? titleEl.textContent : item.textContent
+                );
                 if (title) rows.push({ title, href: '' });
               });
             } else if (cfg.itemSelector) {
               document.querySelectorAll(cfg.itemSelector).forEach((item) => {
                 let linkEl = null;
+
                 if (cfg.linkSelector) {
-                  linkEl = item.matches(cfg.linkSelector) ? item : item.querySelector(cfg.linkSelector);
+                  linkEl = item.matches(cfg.linkSelector)
+                    ? item
+                    : item.querySelector(cfg.linkSelector);
                 } else {
-                  linkEl = item.matches('a[href]') ? item : item.querySelector('a[href]');
+                  linkEl = item.matches('a[href]')
+                    ? item
+                    : item.querySelector('a[href]');
                 }
 
                 if (!linkEl) return;
 
                 const titleEl = cfg.titleSelector
-                  ? (item.matches(cfg.titleSelector) ? item : item.querySelector(cfg.titleSelector))
+                  ? (item.matches(cfg.titleSelector)
+                      ? item
+                      : item.querySelector(cfg.titleSelector))
                   : item;
-                const title = clean(titleEl ? titleEl.textContent : linkEl.textContent);
-                const href = linkEl.href || linkEl.getAttribute('href') || '';
-                if (title && href) rows.push({ title, href });
+
+                const title = clean(
+                  titleEl ? titleEl.textContent : linkEl.textContent
+                );
+
+                const href =
+                  linkEl.href ||
+                  linkEl.getAttribute('href') ||
+                  '';
+
+                if (title && href) {
+                  rows.push({ title, href });
+                }
               });
             } else {
-              const selector = cfg.candidateSelector || 'main article a[href], article a[href], main a[href]';
+              const selector =
+                cfg.candidateSelector ||
+                'main article a[href], article a[href], main a[href]';
+
               document.querySelectorAll(selector).forEach((a) => {
-                const title = clean(a.textContent || a.getAttribute('aria-label') || a.title || '');
-                const href = a.href || a.getAttribute('href') || '';
-                if (title && href) rows.push({ title, href });
+                const title = clean(
+                  a.textContent ||
+                  a.getAttribute('aria-label') ||
+                  a.title ||
+                  ''
+                );
+
+                const href =
+                  a.href ||
+                  a.getAttribute('href') ||
+                  '';
+
+                if (title && href) {
+                  rows.push({ title, href });
+                }
               });
 
               if (rows.length === 0) {
-                document.querySelectorAll('a[href]').forEach((a) => {
-                  const title = clean(a.textContent || a.getAttribute('aria-label') || a.title || '');
-                  const href = a.href || a.getAttribute('href') || '';
-                  if (title && href) rows.push({ title, href });
-                });
+                allRows.forEach((row) => rows.push(row));
               }
             }
 
-            return { rows: rows.slice(0, 500), error: '' };
+            return {
+              rows: rows.slice(0, 600),
+              allRows: allRows.slice(0, 1200),
+              error: ''
+            };
           } catch (error) {
-            return { rows: [], error: String(error) };
+            return {
+              rows: [],
+              allRows: [],
+              error: String(error)
+            };
           }
         })();
         """
@@ -336,20 +763,40 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
     private func extractAnchors(from html: String) -> [Candidate] {
         let pattern = #"<a\b[^>]*?href\s*=\s*[\"']([^\"']+)[\"'][^>]*>([\s\S]*?)</a>"#
-        guard let regex = try? NSRegularExpression(pattern: pattern, options: [.caseInsensitive]) else {
+
+        guard let regex = try? NSRegularExpression(
+            pattern: pattern,
+            options: [.caseInsensitive]
+        ) else {
             return []
         }
 
         let ns = html as NSString
         let range = NSRange(location: 0, length: ns.length)
 
-        return regex.matches(in: html, options: [], range: range).compactMap { match in
+        return regex.matches(
+            in: html,
+            options: [],
+            range: range
+        ).compactMap { match in
             guard match.numberOfRanges >= 3 else { return nil }
-            let href = ns.substring(with: match.range(at: 1))
-            let inner = ns.substring(with: match.range(at: 2))
+
+            let href = ns.substring(
+                with: match.range(at: 1)
+            )
+
+            let inner = ns.substring(
+                with: match.range(at: 2)
+            )
+
             let title = stripHTML(inner)
+
             guard !title.isEmpty else { return nil }
-            return Candidate(title: title, href: href)
+
+            return Candidate(
+                title: title,
+                href: href
+            )
         }
     }
 
@@ -371,40 +818,86 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
     private func normalizeWhitespace(_ value: String) -> String {
         value
-            .replacingOccurrences(of: #"\s+"#, with: " ", options: .regularExpression)
-            .trimmingCharacters(in: .whitespacesAndNewlines)
+            .replacingOccurrences(
+                of: #"\s+"#,
+                with: " ",
+                options: .regularExpression
+            )
+            .trimmingCharacters(
+                in: .whitespacesAndNewlines
+            )
     }
 
-    private func resolve(_ href: String, relativeTo sourceURL: String) -> String? {
-        guard !href.isEmpty,
-              let base = URL(string: sourceURL),
-              let url = URL(string: href, relativeTo: base)?.absoluteURL,
-              ["http", "https"].contains(url.scheme?.lowercased() ?? "")
-        else { return nil }
+    private func resolve(
+        _ href: String,
+        relativeTo sourceURL: String
+    ) -> String? {
+        guard
+            !href.isEmpty,
+            let base = URL(string: sourceURL),
+            let url = URL(
+                string: href,
+                relativeTo: base
+            )?.absoluteURL,
+            ["http", "https"].contains(
+                url.scheme?.lowercased() ?? ""
+            )
+        else {
+            return nil
+        }
 
         return url.absoluteString
     }
 
-    private func isInternal(_ urlString: String, sourceURL: String) -> Bool {
-        guard let urlHost = URL(string: urlString)?.host?.lowercased(),
-              let sourceHost = URL(string: sourceURL)?.host?.lowercased()
-        else { return false }
+    private func isInternal(
+        _ urlString: String,
+        sourceURL: String
+    ) -> Bool {
+        guard
+            let urlHost =
+                URL(string: urlString)?
+                .host?
+                .lowercased(),
+            let sourceHost =
+                URL(string: sourceURL)?
+                .host?
+                .lowercased()
+        else {
+            return false
+        }
 
         return urlHost == sourceHost ||
             urlHost.hasSuffix(".\(sourceHost)") ||
             sourceHost.hasSuffix(".\(urlHost)")
     }
 
-    private func matches(_ value: String, pattern: String) -> Bool {
-        guard let regex = try? NSRegularExpression(pattern: pattern, options: [.caseInsensitive]) else {
+    private func matches(
+        _ value: String,
+        pattern: String
+    ) -> Bool {
+        guard let regex = try? NSRegularExpression(
+            pattern: pattern,
+            options: [.caseInsensitive]
+        ) else {
             return false
         }
 
-        let range = NSRange(value.startIndex..<value.endIndex, in: value)
-        return regex.firstMatch(in: value, options: [], range: range) != nil
+        let range = NSRange(
+            value.startIndex..<value.endIndex,
+            in: value
+        )
+
+        return regex.firstMatch(
+            in: value,
+            options: [],
+            range: range
+        ) != nil
     }
 
-    private func failure(_ source: SourceRecord, message: String) -> SourceTestResult {
+    private func failure(
+        _ source: SourceRecord,
+        message: String
+    ) -> SourceTestResult {
         SourceTestResult(
             sourceID: source.id,
             kind: .technicalError,
@@ -417,6 +910,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
     private func finish(_ result: SourceTestResult) {
         guard !finished else { return }
+
         finished = true
         timeoutTask?.cancel()
         timeoutTask = nil
@@ -433,5 +927,11 @@ final class SourceTester: NSObject, WKNavigationDelegate {
     private struct Candidate {
         let title: String
         let href: String
+    }
+
+    private struct RepairCandidate {
+        let prefix: String
+        let members: [Candidate]
+        let score: Int
     }
 }

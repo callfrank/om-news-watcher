@@ -99,6 +99,32 @@ struct ProblemSourcesView: View {
                 }
                 .padding(.leading, 24)
             }
+
+
+            if let result = model.testResults[source.id],
+               let repair = result.repairProposal {
+                HStack {
+                    Label(
+                        "Vorschlag: \(repair.previewCount) plausible Treffer",
+                        systemImage: "wand.and.stars"
+                    )
+                    .font(.caption)
+                    .foregroundStyle(.blue)
+
+                    Spacer()
+
+                    Button("Automatisch reparieren") {
+                        Task {
+                            await model.applyRepairProposal(
+                                repair,
+                                to: source.id
+                            )
+                        }
+                    }
+                    .disabled(model.testingSourceID != nil)
+                }
+                .padding(.leading, 24)
+            }
         }
         .padding(.vertical, 6)
     }

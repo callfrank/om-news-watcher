@@ -41,27 +41,57 @@ struct SourceRecord: Identifiable, Equatable {
     }
 
     var fetchMode: String? {
-        raw["fetchMode"]?.stringValue
+        get { clean(raw["fetchMode"]?.stringValue) }
+        set {
+            if let newValue, !newValue.isEmpty {
+                raw["fetchMode"] = .string(newValue)
+            } else {
+                raw.removeValue(forKey: "fetchMode")
+            }
+        }
     }
 
     var allowTitleOnly: Bool {
-        raw["allowTitleOnly"]?.boolValue ?? false
+        get { raw["allowTitleOnly"]?.boolValue ?? false }
+        set { raw["allowTitleOnly"] = .bool(newValue) }
     }
 
     var allowExternal: Bool {
-        raw["allowExternal"]?.boolValue ?? false
+        get { raw["allowExternal"]?.boolValue ?? false }
+        set { raw["allowExternal"] = .bool(newValue) }
     }
 
     var candidateSelector: String? {
-        clean(raw["candidateSelector"]?.stringValue)
+        get { clean(raw["candidateSelector"]?.stringValue) }
+        set {
+            if let newValue, !newValue.isEmpty {
+                raw["candidateSelector"] = .string(newValue)
+            } else {
+                raw.removeValue(forKey: "candidateSelector")
+            }
+        }
     }
 
     var includeRegex: String? {
-        clean(raw["includeRegex"]?.stringValue)
+        get { clean(raw["includeRegex"]?.stringValue) }
+        set {
+            if let newValue, !newValue.isEmpty {
+                raw["includeRegex"] = .string(newValue)
+            } else {
+                raw.removeValue(forKey: "includeRegex")
+            }
+        }
     }
 
     var excludeRegex: String? {
-        clean(raw["excludeRegex"]?.stringValue)
+        get { clean(raw["excludeRegex"]?.stringValue) }
+        set {
+            if let newValue, !newValue.isEmpty {
+                raw["excludeRegex"] = .string(newValue)
+            } else {
+                raw.removeValue(forKey: "excludeRegex")
+            }
+        }
     }
 
     var includeTitleRegex: String? {
@@ -73,7 +103,8 @@ struct SourceRecord: Identifiable, Equatable {
     }
 
     var minTitleLength: Int {
-        raw["minTitleLength"]?.intValue ?? 10
+        get { raw["minTitleLength"]?.intValue ?? 10 }
+        set { raw["minTitleLength"] = .int(newValue) }
     }
 
     var maxDetectedItems: Int? {

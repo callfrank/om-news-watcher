@@ -301,6 +301,103 @@ struct ContentView: View {
                         }
                         .padding(.top, 4)
                     }
+
+
+                    if let repair = result.repairProposal {
+                        Divider()
+                            .padding(.vertical, 4)
+
+                        VStack(alignment: .leading, spacing: 10) {
+                            HStack(alignment: .top, spacing: 10) {
+                                Image(systemName: "wand.and.stars")
+                                    .font(.title2)
+                                    .foregroundStyle(.blue)
+
+                                VStack(alignment: .leading, spacing: 4) {
+                                    Text("Automatische Reparatur")
+                                        .font(.headline)
+                                    Text(repair.title)
+                                        .font(.subheadline.bold())
+                                    Text(repair.explanation)
+                                        .font(.callout)
+                                        .foregroundStyle(.secondary)
+                                }
+
+                                Spacer()
+
+                                Button {
+                                    Task {
+                                        await model.applyRepairProposal(
+                                            repair,
+                                            to: source.id
+                                        )
+                                    }
+                                } label: {
+                                    Label(
+                                        "Quelle automatisch reparieren",
+                                        systemImage: "wand.and.stars"
+                                    )
+                                }
+                                .buttonStyle(.borderedProminent)
+                                .disabled(model.testingSourceID != nil)
+                            }
+
+                            HStack(spacing: 16) {
+                                Label(
+                                    "\(repair.previewCount) Treffer in der Vorschau",
+                                    systemImage: "checkmark.circle"
+                                )
+
+                                if let includeRegex = repair.includeRegex {
+                                    Label(
+                                        "URL-Filter",
+                                        systemImage: "line.3.horizontal.decrease.circle"
+                                    )
+                                    .help(includeRegex)
+                                }
+
+                                if repair.fetchMode == "html" {
+                                    Label(
+                                        "Direktes HTML",
+                                        systemImage: "doc.text.magnifyingglass"
+                                    )
+                                }
+                            }
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+
+                            if !repair.examples.isEmpty {
+                                VStack(alignment: .leading, spacing: 5) {
+                                    Text("Vorschau nach Reparatur")
+                                        .font(.caption.bold())
+                                        .foregroundStyle(.secondary)
+
+                                    ForEach(repair.examples.prefix(5)) { hit in
+                                        HStack(alignment: .top, spacing: 7) {
+                                            Image(systemName: "checkmark")
+                                                .foregroundStyle(.green)
+                                            Text(hit.title)
+                                                .lineLimit(2)
+                                        }
+                                        .font(.caption)
+                                    }
+                                }
+                                .padding(.leading, 4)
+                            }
+
+                            Text(
+                                "Die Regel wird erst nach „Speichern“ in sources.json geschrieben. " +
+                                "Der GitHub-Watcher verwendet danach dieselben URL-Filter."
+                            )
+                            .font(.caption2)
+                            .foregroundStyle(.tertiary)
+                        }
+                        .padding(12)
+                        .background(
+                            .blue.opacity(0.06),
+                            in: RoundedRectangle(cornerRadius: 10)
+                        )
+                    }
                 }
             }
             .padding(6)

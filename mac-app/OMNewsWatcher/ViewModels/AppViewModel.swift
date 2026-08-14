@@ -260,6 +260,29 @@ final class AppViewModel: ObservableObject {
         }
     }
 
+    func applyRepairProposal(
+        _ proposal: SourceRepairProposal,
+        to sourceID: UUID
+    ) async {
+        guard let index = sources.firstIndex(
+            where: { $0.id == sourceID }
+        ) else {
+            return
+        }
+
+        let original = sources[index]
+        let repaired = proposal.applying(to: original)
+
+        sources[index] = repaired
+        isDirty = true
+        testResults.removeValue(forKey: sourceID)
+
+        statusMessage =
+            "\(original.name): Reparaturregel übernommen – neuer Test läuft …"
+
+        await testSource(repaired)
+    }
+
     func saveToken(_ newToken: String) async {
         let cleaned = newToken.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !cleaned.isEmpty else { return }
