@@ -3,11 +3,14 @@ name: OM News Watcher
 on:
   workflow_dispatch:
   schedule:
-    # Zweimal pro Stunde, absichtlich nicht genau zur vollen/halben Stunde.
+    # Zweimal pro Stunde
     - cron: '17,47 * * * *'
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+  actions: read
 
 concurrency:
   group: om-news-watcher
@@ -20,12 +23,13 @@ jobs:
 
     steps:
       - name: Repository laden
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Node.js einrichten
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '22'
+          package-manager-cache: false
 
       - name: Abhängigkeiten installieren
         run: npm install
@@ -41,10 +45,33 @@ jobs:
         run: |
           git config user.name "OM News Watcher"
           git config user.email "actions@users.noreply.github.com"
+
           git add data/state.json data/items.json docs/feed.xml
+
           if git diff --cached --quiet; then
-            echo "Keine Änderungen."
+            echo "Keine Änderungen zu speichern."
           else
             git commit -m "Update news feed"
             git push
           fi
+
+      - name: GitHub Pages vorbereiten
+        uses: actions/configure-pages@v5
+
+      - name: Pages-Dateien hochladen
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    needs: watch
+
+    steps:
+      - name: GitHub Pages veröffentlichen
+        id: deployment
+        uses: actions/deploy-pages@v4
