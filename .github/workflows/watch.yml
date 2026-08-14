@@ -12,7 +12,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: om-news-watcher
+  group: om-news-watcher-repo
   cancel-in-progress: false
 
 jobs:

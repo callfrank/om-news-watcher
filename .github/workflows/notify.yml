@@ -1,0 +1,87 @@
+name: OM News Watcher Email
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Test-E-Mail unabhängig vom Zeitplan senden'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+  schedule:
+    - cron: '5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: om-news-watcher-repo
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Node.js einrichten
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      - name: Abhängigkeiten installieren
+        run: npm install
+
+      - name: E-Mail-Benachrichtigung prüfen
+        env:
+          OM_NOTIFY_FORCE: ${{ github.event.inputs.force }}
+          OM_SMTP_HOST: ${{ secrets.OM_SMTP_HOST }}
+          OM_SMTP_PORT: ${{ secrets.OM_SMTP_PORT }}
+          OM_SMTP_USER: ${{ secrets.OM_SMTP_USER }}
+          OM_SMTP_PASSWORD: ${{ secrets.OM_SMTP_PASSWORD }}
+          OM_EMAIL_FROM: ${{ secrets.OM_EMAIL_FROM }}
+          OM_EMAIL_TO: ${{ secrets.OM_EMAIL_TO }}
+        run: node notify.js
+
+      - name: E-Mail-Status speichern
+        shell: bash
+        run: |
+          set -e
+
+          git config user.name "OM News Watcher"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add data/email-state.json 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "Kein E-Mail-Status zu speichern."
+            exit 0
+          fi
+
+          git commit -m "Update email notification state"
+
+          for attempt in 1 2 3; do
+            echo "Push-Versuch $attempt von 3"
+
+            git fetch origin main
+            git rebase origin/main
+
+            if git push origin HEAD:main; then
+              echo "E-Mail-Status erfolgreich gespeichert."
+              exit 0
+            fi
+
+            echo "Push wurde zwischenzeitlich überholt – neuer Versuch ..."
+            sleep 2
+          done
+
+          echo "Fehler: E-Mail-Status konnte nach 3 Versuchen nicht gespeichert werden."
+          exit 1
