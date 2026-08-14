@@ -1,9 +1,10 @@
 [
   {
-    "name": "ERSTE PROBLEMSEITE",
-    "url": "https://example.com/news",
-    "enabled": false,
-    "waitMs": 2500,
+    "name": "Zalando Newsroom",
+    "url": "https://corporate.zalando.com/de/newsroom/news-stories",
+    "enabled": true,
+    "waitMs": 5000,
+    "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
