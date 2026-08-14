@@ -9,10 +9,35 @@ const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 
-const VERSION = '0.5';
+const VERSION = '0.6';
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
 const DEFAULT_SAMPLE_COUNT = 3;
+
+/*
+ * Wichtigste Änderung in v0.6:
+ * Mehrere Quellen werden parallel geprüft.
+ *
+ * OM_CONCURRENCY kann im Workflow optional gesetzt werden.
+ * Standard: 5 parallele Quellen.
+ */
+const SOURCE_CONCURRENCY = Math.max(
+  1,
+  Math.min(8, Number(process.env.OM_CONCURRENCY || 5))
+);
+
+/*
+ * Einzelne problematische Seiten dürfen den gesamten Lauf
+ * nicht mehr 60–90 Sekunden blockieren.
+ *
+ * Standard: 30 Sekunden
+ * Obergrenze: 45 Sekunden
+ */
+const DEFAULT_TIMEOUT_MS = 30000;
+const MAX_TIMEOUT_MS = Math.max(
+  10000,
+  Number(process.env.OM_MAX_TIMEOUT_MS || 45000)
+);
 
 function readJson(file, fallback) {
   try {
@@ -61,10 +86,15 @@ function safeRegex(pattern) {
   if (!pattern) return null;
   try {
     return new RegExp(pattern, 'i');
-  } catch (err) {
-    console.warn(`  ⚠ Ungültiger Regex ignoriert: ${pattern} (${err.message})`);
+  } catch {
     return null;
   }
+}
+
+function effectiveTimeout(source) {
+  const requested = Number(source.timeoutMs ?? DEFAULT_TIMEOUT_MS);
+  if (!Number.isFinite(requested) || requested <= 0) return DEFAULT_TIMEOUT_MS;
+  return Math.min(requested, MAX_TIMEOUT_MS);
 }
 
 function isInternalUrl(href, sourceUrl) {
@@ -95,14 +125,19 @@ function looksLikeArticle(text, href, sourceUrl) {
 
   const hay = `${u.pathname} ${text}`.toLowerCase();
 
-  const bad = /(impressum|privacy|datenschutz|cookie|karriere|career|jobs|kontakt|contact|login|newsletter|facebook|instagram|linkedin|youtube|twitter|x\.com|agb|terms|sitemap|warenkorb|cart|account)/i;
+  const bad =
+    /(impressum|privacy|datenschutz|cookie|karriere|career|jobs|kontakt|contact|login|newsletter|facebook|instagram|linkedin|youtube|twitter|x\.com|agb|terms|sitemap|warenkorb|cart|account)/i;
+
   if (bad.test(hay)) return false;
 
   const segments = u.pathname.split('/').filter(Boolean);
   const path = u.pathname.toLowerCase();
 
-  const articleSignals = /(news|presse|press|media|meldung|article|story|stories|blog|insight|report|study|studie|publication|release|event|webinar|202[4-9])/i;
-  const dateSignal = /\/(20\d{2})[\/-](0?[1-9]|1[0-2])(?:[\/-](0?[1-9]|[12]\d|3[01]))?\//i;
+  const articleSignals =
+    /(news|presse|press|media|meldung|article|story|stories|blog|insight|report|study|studie|publication|release|event|webinar|202[4-9])/i;
+
+  const dateSignal =
+    /\/(20\d{2})[\/-](0?[1-9]|1[0-2])(?:[\/-](0?[1-9]|[12]\d|3[01]))?\//i;
 
   if (articleSignals.test(path) || dateSignal.test(path)) return true;
   if (segments.length >= 3 && text.length >= 18) return true;
@@ -139,9 +174,9 @@ async function dismissCookies(page) {
   for (const rx of labels) {
     try {
       const btn = page.getByRole('button', { name: rx }).first();
-      if (await btn.isVisible({ timeout: 300 })) {
-        await btn.click({ timeout: 1500 });
-        await page.waitForTimeout(300);
+      if (await btn.isVisible({ timeout: 250 })) {
+        await btn.click({ timeout: 1200 });
+        await page.waitForTimeout(200);
         return;
       }
     } catch {}
@@ -149,16 +184,16 @@ async function dismissCookies(page) {
 }
 
 async function autoScroll(page, steps = 0) {
-  const count = Number(steps || 0);
+  const count = Math.min(5, Number(steps || 0));
   if (!count) return;
 
   for (let i = 0; i < count; i++) {
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-    await page.waitForTimeout(700);
+    await page.waitForTimeout(500);
   }
 
   await page.evaluate(() => window.scrollTo(0, 0));
-  await page.waitForTimeout(250);
+  await page.waitForTimeout(150);
 }
 
 async function extractConfigured(page, source) {
@@ -213,7 +248,7 @@ async function extractAutomatic(page, source) {
     selector = (await page.locator('main').count()) > 0 ? 'main a[href]' : 'a[href]';
   }
 
-  const rows = await page.locator(selector).evaluateAll(nodes =>
+  return await page.locator(selector).evaluateAll(nodes =>
     nodes.map(a => ({
       title: (a.textContent || a.getAttribute('aria-label') || '')
         .replace(/\s+/g, ' ')
@@ -222,8 +257,6 @@ async function extractAutomatic(page, source) {
       date: ''
     }))
   );
-
-  return rows;
 }
 
 function normalizeAndFilter(rows, source) {
@@ -250,21 +283,6 @@ function normalizeAndFilter(rows, source) {
   }
 
   return result;
-}
-
-function logSamples(rows, source) {
-  if (!rows.length) return;
-
-  const sampleCount = Number(source.sampleCount ?? DEFAULT_SAMPLE_COUNT);
-  const samples = rows.slice(0, Math.max(0, sampleCount));
-
-  if (!samples.length) return;
-
-  console.log('  Beispiele:');
-  for (const row of samples) {
-    console.log(`    - ${row.title}`);
-    console.log(`      ${row.link}`);
-  }
 }
 
 function suspiciousSpike(knownCount, freshCount, source) {
@@ -346,18 +364,18 @@ async function createContext(browser) {
   });
 }
 
-async function prepareLoadedPage(defaultContext, source) {
+async function prepareLoadedPage(defaultContext, source, notes) {
+  const timeoutMs = effectiveTimeout(source);
   let page = await defaultContext.newPage();
 
   try {
     await page.goto(source.url, {
       waitUntil: 'domcontentloaded',
-      timeout: source.timeoutMs || 45000
+      timeout: timeoutMs
     });
 
     return {
       page,
-      usedFallback: false,
       cleanup: async () => {
         try { await page.close(); } catch {}
       }
@@ -367,21 +385,18 @@ async function prepareLoadedPage(defaultContext, source) {
     const http2Error = /ERR_HTTP2_PROTOCOL_ERROR/i.test(message);
     const timeoutError = /Timeout\s+\d+ms\s+exceeded/i.test(message);
 
-    /*
-     * Manche Seiten sind im Browser bereits sichtbar, obwohl
-     * DOMContentLoaded wegen eines hängenden Skripts nie kommt.
-     * In diesem Fall verwenden wir den bereits geladenen DOM.
-     */
     if (timeoutError) {
       try {
         const currentUrl = page.url();
         const bodyExists = await page.locator('body').count();
 
         if (currentUrl && currentUrl !== 'about:blank' && bodyExists) {
-          console.log('  ↻ Lade-Timeout, aber Seite ist bereits teilweise geladen – vorhandenen DOM verwenden.');
+          notes.push(
+            `Lade-Timeout nach ${Math.round(timeoutMs / 1000)} s, aber DOM vorhanden – vorhandene Seite ausgewertet.`
+          );
+
           return {
             page,
-            usedFallback: true,
             cleanup: async () => {
               try { await page.close(); } catch {}
             }
@@ -393,7 +408,7 @@ async function prepareLoadedPage(defaultContext, source) {
     try { await page.close(); } catch {}
 
     if (http2Error && source.http2Fallback !== false) {
-      console.log('  ↻ HTTP/2-Fehler erkannt – zweiter Versuch ohne HTTP/2 ...');
+      notes.push('HTTP/2-Fehler – zweiter Versuch ohne HTTP/2.');
 
       const fallbackBrowser = await chromium.launch({
         headless: true,
@@ -406,34 +421,36 @@ async function prepareLoadedPage(defaultContext, source) {
       try {
         await page.goto(source.url, {
           waitUntil: 'domcontentloaded',
-          timeout: source.timeoutMs || 45000
+          timeout: timeoutMs
         });
       } catch (fallbackErr) {
         const fallbackMessage = fallbackErr.message || '';
         const fallbackTimeout = /Timeout\s+\d+ms\s+exceeded/i.test(fallbackMessage);
 
-        if (!fallbackTimeout) {
-          await fallbackBrowser.close();
-          throw fallbackErr;
+        if (fallbackTimeout) {
+          try {
+            const currentUrl = page.url();
+            const bodyExists = await page.locator('body').count();
+
+            if (currentUrl && currentUrl !== 'about:blank' && bodyExists) {
+              notes.push('Fallback langsam, aber DOM vorhanden – vorhandene Seite ausgewertet.');
+
+              return {
+                page,
+                cleanup: async () => {
+                  try { await fallbackBrowser.close(); } catch {}
+                }
+              };
+            }
+          } catch {}
         }
 
-        try {
-          const currentUrl = page.url();
-          const bodyExists = await page.locator('body').count();
-          if (!currentUrl || currentUrl === 'about:blank' || !bodyExists) {
-            await fallbackBrowser.close();
-            throw fallbackErr;
-          }
-          console.log('  ↻ Fallback ebenfalls langsam – vorhandenen DOM verwenden.');
-        } catch {
-          await fallbackBrowser.close();
-          throw fallbackErr;
-        }
+        try { await fallbackBrowser.close(); } catch {}
+        throw fallbackErr;
       }
 
       return {
         page,
-        usedFallback: true,
         cleanup: async () => {
           try { await fallbackBrowser.close(); } catch {}
         }
@@ -444,8 +461,81 @@ async function prepareLoadedPage(defaultContext, source) {
   }
 }
 
+async function inspectSource(context, source, index, total) {
+  const started = Date.now();
+  const notes = [];
+  let loaded = null;
+
+  console.log(`[${index + 1}/${total}] Start: ${source.name}`);
+
+  try {
+    loaded = await prepareLoadedPage(context, source, notes);
+    const page = loaded.page;
+
+    await dismissCookies(page);
+
+    if (source.waitFor) {
+      await page.locator(source.waitFor).first().waitFor({
+        state: 'attached',
+        timeout: Math.min(effectiveTimeout(source), 12000)
+      });
+    }
+
+    const waitMs = Math.min(Number(source.waitMs ?? 2500), 8000);
+    await page.waitForTimeout(waitMs);
+    await autoScroll(page, source.autoScroll || 0);
+
+    let rows = await extractConfigured(page, source);
+    if (!rows || !rows.length) rows = await extractAutomatic(page, source);
+
+    rows = normalizeAndFilter(rows, source);
+
+    return {
+      source,
+      rows,
+      notes,
+      durationMs: Date.now() - started,
+      error: null
+    };
+  } catch (err) {
+    return {
+      source,
+      rows: [],
+      notes,
+      durationMs: Date.now() - started,
+      error: err
+    };
+  } finally {
+    if (loaded) await loaded.cleanup();
+  }
+}
+
+async function mapWithConcurrency(items, limit, worker) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  async function runWorker() {
+    while (true) {
+      const index = nextIndex++;
+      if (index >= items.length) return;
+
+      results[index] = await worker(items[index], index);
+    }
+  }
+
+  const workers = Array.from(
+    { length: Math.min(limit, items.length) },
+    () => runWorker()
+  );
+
+  await Promise.all(workers);
+  return results;
+}
+
 (async () => {
   console.log(`OM News Watcher v${VERSION}`);
+  console.log(`Parallelität: ${SOURCE_CONCURRENCY} Quellen`);
+  console.log(`Max. Seiten-Timeout: ${Math.round(MAX_TIMEOUT_MS / 1000)} Sekunden`);
 
   const sources = readJson(SOURCES_FILE, []).filter(s => s.enabled !== false);
 
@@ -470,84 +560,87 @@ async function prepareLoadedPage(defaultContext, source) {
   const browser = await chromium.launch({ headless: true });
   const context = await createContext(browser);
 
-  for (const source of sources) {
-    console.log(`Prüfe: ${source.name} — ${source.url}`);
-
-    let loaded = null;
-
-    try {
-      loaded = await prepareLoadedPage(context, source);
-      const page = loaded.page;
-
-      await dismissCookies(page);
-
-      if (source.waitFor) {
-        await page.locator(source.waitFor).first().waitFor({
-          state: 'attached',
-          timeout: source.timeoutMs || 15000
-        });
-      }
-
-      await page.waitForTimeout(source.waitMs ?? 2500);
-      await autoScroll(page, source.autoScroll || 0);
-
-      let rows = await extractConfigured(page, source);
-      if (!rows || !rows.length) rows = await extractAutomatic(page, source);
-
-      rows = normalizeAndFilter(rows, source);
-
-      const key = source.name;
-      const hadPriorState = Object.prototype.hasOwnProperty.call(state.seenBySource, key);
-      const firstRun = state.initializedBySource[key] !== true && !hadPriorState;
-      const known = new Set(state.seenBySource[key] || []);
-
-      if (rows.length === 0) {
-        console.log('  ⚠ KEINE ARTIKEL ERKANNT – Quelle prüfen.');
-        state.initializedBySource[key] = true;
-        if (!hadPriorState) state.seenBySource[key] = [];
-        continue;
-      }
-
-      logSamples(rows, source);
-
-      const fresh = rows.filter(r => !known.has(r.link));
-
-      if (firstRun) {
-        console.log(
-          `  Erster Lauf: ${rows.length} bestehende Links als bekannt gespeichert, keine Altmeldungen ausgegeben.`
-        );
-      } else if (suspiciousSpike(known.size, fresh.length, source)) {
-        console.log(
-          `  ⚠ VERDÄCHTIGER SPRUNG: ${rows.length} Artikel erkannt, ${fresh.length} neu. ` +
-          'Neue Links werden vorsichtshalber NICHT in den Feed übernommen und NICHT als bekannt markiert.'
-        );
-        continue;
-      } else {
-        console.log(`  ${rows.length} Artikel erkannt, ${fresh.length} neu.`);
-
-        for (const r of fresh) {
-          items.unshift({
-            guid: idFor(r.link),
-            source: source.name,
-            title: r.title,
-            link: r.link,
-            pageDate: r.date || null,
-            detectedAt: new Date().toISOString()
-          });
-        }
-      }
-
-      const merged = [...rows.map(r => r.link), ...known];
-      state.seenBySource[key] = [...new Set(merged)].slice(0, MAX_SEEN_PER_SOURCE);
-      state.initializedBySource[key] = true;
-    } catch (err) {
-      console.error(`  FEHLER: ${err.message}`);
-    } finally {
-      if (loaded) await loaded.cleanup();
-    }
-  }
+  const results = await mapWithConcurrency(
+    sources,
+    SOURCE_CONCURRENCY,
+    (source, index) => inspectSource(context, source, index, sources.length)
+  );
 
   await browser.close();
+
+  console.log('\n===== AUSWERTUNG =====');
+
+  for (const result of results) {
+    const source = result.source;
+    const seconds = (result.durationMs / 1000).toFixed(1);
+
+    console.log(`Prüfe: ${source.name} — ${source.url}`);
+    console.log(`  Dauer: ${seconds} s`);
+
+    for (const note of result.notes) {
+      console.log(`  ↻ ${note}`);
+    }
+
+    if (result.error) {
+      console.error(`  FEHLER: ${result.error.message}`);
+      continue;
+    }
+
+    const rows = result.rows;
+    const key = source.name;
+    const hadPriorState = Object.prototype.hasOwnProperty.call(state.seenBySource, key);
+    const firstRun = state.initializedBySource[key] !== true && !hadPriorState;
+    const known = new Set(state.seenBySource[key] || []);
+
+    if (rows.length === 0) {
+      console.log('  ⚠ KEINE ARTIKEL ERKANNT – Quelle prüfen.');
+      state.initializedBySource[key] = true;
+      if (!hadPriorState) state.seenBySource[key] = [];
+      continue;
+    }
+
+    const sampleCount = Number(source.sampleCount ?? DEFAULT_SAMPLE_COUNT);
+    const samples = rows.slice(0, Math.max(0, sampleCount));
+
+    if (samples.length) {
+      console.log('  Beispiele:');
+      for (const row of samples) {
+        console.log(`    - ${row.title}`);
+        console.log(`      ${row.link}`);
+      }
+    }
+
+    const fresh = rows.filter(r => !known.has(r.link));
+
+    if (firstRun) {
+      console.log(
+        `  Erster Lauf: ${rows.length} bestehende Links als bekannt gespeichert, keine Altmeldungen ausgegeben.`
+      );
+    } else if (suspiciousSpike(known.size, fresh.length, source)) {
+      console.log(
+        `  ⚠ VERDÄCHTIGER SPRUNG: ${rows.length} Artikel erkannt, ${fresh.length} neu. ` +
+        'Neue Links werden vorsichtshalber NICHT in den Feed übernommen und NICHT als bekannt markiert.'
+      );
+      continue;
+    } else {
+      console.log(`  ${rows.length} Artikel erkannt, ${fresh.length} neu.`);
+
+      for (const r of fresh) {
+        items.unshift({
+          guid: idFor(r.link),
+          source: source.name,
+          title: r.title,
+          link: r.link,
+          pageDate: r.date || null,
+          detectedAt: new Date().toISOString()
+        });
+      }
+    }
+
+    const merged = [...rows.map(r => r.link), ...known];
+    state.seenBySource[key] = [...new Set(merged)].slice(0, MAX_SEEN_PER_SOURCE);
+    state.initializedBySource[key] = true;
+  }
 
   const seenGuid = new Set();
   items = items.filter(x => x && x.guid && !seenGuid.has(x.guid) && seenGuid.add(x.guid));
@@ -559,7 +652,7 @@ async function prepareLoadedPage(defaultContext, source) {
   fs.mkdirSync(path.dirname(FEED_FILE), { recursive: true });
   fs.writeFileSync(FEED_FILE, makeFeed(items));
 
-  console.log(`RSS geschrieben: ${FEED_FILE} (${items.length} Einträge)`);
+  console.log(`\nRSS geschrieben: ${FEED_FILE} (${items.length} Einträge)`);
 })().catch(err => {
   console.error(err);
   process.exit(1);
