@@ -675,7 +675,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             if source.allowTitleOnly && row.href.isEmpty {
                 let key = "title:\(title.lowercased())"
                 guard seen.insert(key).inserted else { continue }
-                result.append(Candidate(title: title, href: ""))
+                result.append(Candidate(title: title, href: "", date: row.date))
                 continue
             }
 
