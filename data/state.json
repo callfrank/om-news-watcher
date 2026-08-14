@@ -57,13 +57,13 @@
       "https://ecommerce-europe.eu/press-item/strong-regional-disparities-in-european-b2c-e-commerce-give-mixed-picture-on-sectors-growth/"
     ],
     "ECDB Reports": [
+      "https://ecdb.com/reports/social-commerce/1028",
       "https://ecdb.com/reports/marketplace-visibility-autoparts-tools-diy/1034",
       "https://ecdb.com/reports/who-wins-in-online-beauty/1033",
       "https://ecdb.com/reports/ecommerce-in-poland-and-cee/1032",
       "https://ecdb.com/reports/ecommerce-competitive-intelligence/1031",
       "https://ecdb.com/reports/agentic-commerce-and-ai/1030",
       "https://ecdb.com/reports/e-commerce-in-asia-pacific/1029",
-      "https://ecdb.com/reports/social-commerce/1028",
       "https://ecdb.com/reports/amazon-marketplace/1027",
       "https://ecdb.com/reports/future-of-commerce/1024",
       "https://ecdb.com/reports/ecommerce-kpi-and-benchmarks/1022",
@@ -235,10 +235,6 @@
       "https://business.google.com/de/think/search-and-video/gemini-ucp-agentic-commerce/"
     ],
     "HelloFresh Press Releases": [
-      "https://www.hellofreshgroup.com/de/newsroom/press-material",
-      "https://www.hellofreshgroup.com/de/newsroom/contact",
-      "https://www.hellofreshgroup.com/de/newsroom/stories",
-      "https://www.hellofreshgroup.com/de/newsroom/press-releases",
       "https://www.hellofreshgroup.com/de/newsroom/press-releases/?om_item=cfec119db9c364e2",
       "https://www.hellofreshgroup.com/de/newsroom/press-releases/?om_item=ef06b8f4b841a739",
       "https://www.hellofreshgroup.com/de/newsroom/press-releases/?om_item=b4d3dd3877b6c230",
@@ -263,7 +259,11 @@
       "https://www.hellofreshgroup.com/de/newsroom/press-releases/?om_item=3b872420d163062e",
       "https://www.hellofreshgroup.com/de/newsroom/press-releases/?om_item=94bc3061603ea82e",
       "https://www.hellofreshgroup.com/de/newsroom/press-releases/?om_item=fec410fd0ce03e88",
-      "https://www.hellofreshgroup.com/de/newsroom/press-releases/?om_item=33e71d3af18ea396"
+      "https://www.hellofreshgroup.com/de/newsroom/press-releases/?om_item=33e71d3af18ea396",
+      "https://www.hellofreshgroup.com/de/newsroom/press-material",
+      "https://www.hellofreshgroup.com/de/newsroom/contact",
+      "https://www.hellofreshgroup.com/de/newsroom/stories",
+      "https://www.hellofreshgroup.com/de/newsroom/press-releases"
     ],
     "JD In-Depth Reports": [
       "https://jdcorporateblog.com/from-premium-care-to-smart-tech-key-takeaways-from-jds-2025-pet-industry-report/",
@@ -501,18 +501,18 @@
       "https://momox.biz/presse/8-pressemeldungen/30-2018/37-start-neuer-tv-kampagne-fuer-drei-marken-momox-setzt-gebrauchtes-ab-sommer-in-szene"
     ],
     "Amazon Freight Events": [
-      "https://de.freight-amazon.com/chargebacks-im-griff-registration",
-      "https://de.freight-amazon.com/amazon-versand-optimieren-2026-form",
-      "https://de.freight-amazon.com/DEMSMLiveDemoQ425Videoaufnahme",
-      "https://de.freight-amazon.com/LiveNachhaltigkeitswebinar2025",
-      "https://de.freight-amazon.com/LiveBereitf%C3%BCrdieHochsaison2025",
-      "https://de.freight-amazon.com/LTLDE052025",
       "https://events.zoom.us/ev/AlchHtqAwEE3Fq3sV2MIMLz8zoxFO0aSqGCAa8BXuD3n8cKftLOy~Ap34Qi2Wr_P6q7CPRW_nrnuw1SFpGRWOqui4WYgo3vT97N-3l4FRPd2033qTT6JKtwnQ33ggswhT66qN_bxiXS2U5Q",
       "https://www.accelerate.amazon/event/b1439516-c94f-4d03-b20e-5a3b486e4e26/summary",
       "https://www.transporeon.com/insight",
       "https://www.toptransporteurope.com/en/marseille",
       "https://www.retailscl.com/welcome-london",
-      "https://www.scmfair.com/en/"
+      "https://www.scmfair.com/en/",
+      "https://de.freight-amazon.com/chargebacks-im-griff-registration",
+      "https://de.freight-amazon.com/amazon-versand-optimieren-2026-form",
+      "https://de.freight-amazon.com/DEMSMLiveDemoQ425Videoaufnahme",
+      "https://de.freight-amazon.com/LiveNachhaltigkeitswebinar2025",
+      "https://de.freight-amazon.com/LiveBereitf%C3%BCrdieHochsaison2025",
+      "https://de.freight-amazon.com/LTLDE052025"
     ],
     "Google Ads & Commerce Blog": [
       "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
@@ -946,7 +946,17 @@
       "https://corporate.yougov.com/documents/107/SMG_Acquisition_Press_Release_24.05.18.pdf",
       "https://corporate.yougov.com/documents/110/YG-invest-alerts-acquisition-DefInsights_04.04.11.pdf"
     ],
-    "Deloitte": []
+    "Deloitte": [],
+    "Etsy": [],
+    "Onlinemarktplatz": [
+      "https://onlinemarktplatz.de/271090/jd-com-q2-2026/",
+      "https://onlinemarktplatz.de/271025/e-commerce-logistik-china/",
+      "https://onlinemarktplatz.de/270988/mda-markt-2026/",
+      "https://onlinemarktplatz.de/270958/kundenbewertungen-im-shop/",
+      "https://onlinemarktplatz.de/271086/ppwr/",
+      "https://onlinemarktplatz.de/271029/dhl-express-china/",
+      "https://onlinemarktplatz.de/271055/adyen-halbjahreszahlen-2026/"
+    ]
   },
   "initializedBySource": {
     "Zalando Newsroom": true,
@@ -998,7 +1008,9 @@
     "Verbraucherzentrale RLP Presse": true,
     "Wish News & Resources": true,
     "YouGov Corporate News": true,
-    "Deloitte": true
+    "Deloitte": true,
+    "Etsy": true,
+    "Onlinemarktplatz": true
   },
   "configVersionBySource": {
     "OTTO Pressemitteilungen": "v11-otto",
@@ -1019,7 +1031,9 @@
     "Tencent News": "v11-tencent",
     "Deloitte": "mac-app-20260814-135827",
     "Wish News & Resources": "v10-content-parked",
-    "OMT E-Commerce Events": "v10-parked"
+    "OMT E-Commerce Events": "v10-parked",
+    "Etsy": "mac-app-20260814-160215",
+    "Onlinemarktplatz": "mac-app-20260814-165231"
   },
   "feedResetToken": "clean-baseline-v11",
   "globalBaselineBySource": {
@@ -1068,6 +1082,8 @@
     "YouGov Corporate News": "global-baseline-v11",
     "Deloitte": "global-baseline-v11",
     "Wish News & Resources": "global-baseline-v11",
-    "OMT E-Commerce Events": "global-baseline-v11"
+    "OMT E-Commerce Events": "global-baseline-v11",
+    "Etsy": "global-baseline-v11",
+    "Onlinemarktplatz": "global-baseline-v11"
   }
 }
