@@ -23,7 +23,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "excludeRegex": "/pressemitteilungen-20\\d{2}/?$"
   },
   {
     "name": "DPD Presse",
@@ -55,14 +56,15 @@
     "name": "Ecommerce Europe Press Releases",
     "url": "https://ecommerce-europe.eu/press-releases/",
     "enabled": true,
-    "waitMs": 3000,
-    "timeoutMs": 60000,
+    "waitMs": 7000,
+    "timeoutMs": 90000,
     "selectors": {
       "item": "",
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "autoScroll": 3
   },
   {
     "name": "ECDB Reports",
@@ -192,7 +194,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "http2Fallback": true
   },
   {
     "name": "GMX Newsroom",
@@ -289,40 +292,43 @@
     "name": "Mordor Intelligence Case Studies",
     "url": "https://www.mordorintelligence.com/signal/case-studies",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 7000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "autoScroll": 3
   },
   {
     "name": "Mordor Intelligence Insights",
     "url": "https://www.mordorintelligence.com/signal/insights",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 7000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "autoScroll": 3
   },
   {
     "name": "Mastercard Pressemitteilungen",
     "url": "https://www.mastercard.com/news/europe/de-de/newsroom/pressemitteilungen/",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 7000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "autoScroll": 3
   },
   {
     "name": "Tencent News",
@@ -341,27 +347,29 @@
     "name": "MediaMarktSaturn News & Presse",
     "url": "https://www.mediamarktsaturn.de/de/news-presse",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 7000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "autoScroll": 3
   },
   {
     "name": "Mercado Libre News & Events",
     "url": "https://investor.mercadolibre.com/news-and-events",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 7000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "autoScroll": 3
   },
   {
     "name": "Meta Newsroom DE",
@@ -419,14 +427,15 @@
     "name": "Amazon Freight Events",
     "url": "https://freight.amazon.de/events-and-webinars",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 7000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "autoScroll": 3
   },
   {
     "name": "Google Ads & Commerce Blog",
@@ -478,7 +487,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "http2Fallback": true
   },
   {
     "name": "Pew Research Internet & Technology",
@@ -497,14 +507,15 @@
     "name": "ServiceValue Newsroom",
     "url": "https://servicevalue.de/newsroom/",
     "enabled": true,
-    "waitMs": 3000,
+    "waitMs": 7000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "autoScroll": 3
   },
   {
     "name": "SHEIN Newsroom",
@@ -530,7 +541,8 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "http2Fallback": true
   },
   {
     "name": "Startup-Verband Presse",
@@ -660,20 +672,22 @@
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "http2Fallback": true
   },
   {
     "name": "Wish News & Resources",
     "url": "https://www.wish.com/newsandresources",
     "enabled": true,
-    "waitMs": 5000,
+    "waitMs": 7000,
     "timeoutMs": 60000,
     "selectors": {
       "item": "",
       "title": "",
       "link": "",
       "date": ""
-    }
+    },
+    "autoScroll": 3
   },
   {
     "name": "YouGov Corporate News",
