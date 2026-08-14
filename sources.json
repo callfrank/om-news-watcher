@@ -840,5 +840,33 @@
     "shortName" : "Etsy",
     "url" : "https://www.etsy.com/news/",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260814-165231",
+    "enabled" : true,
+    "minTitleLength" : 5,
+    "name" : "Onlinemarktplatz",
+    "selectors" : {
+      "date" : "span.meta-date",
+      "item" : "div.post-content",
+      "link" : "a",
+      "title" : "h2.entry-title"
+    },
+    "shortName" : "https://onlinemarktplatz.de/",
+    "url" : "https://onlinemarktplatz.de/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-14T14:52:31Z",
+    "visualSampleCount" : 3,
+    "waitMs" : 2500
   }
 ]
