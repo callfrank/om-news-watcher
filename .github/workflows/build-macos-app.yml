@@ -1,0 +1,86 @@
+name: Build OM News Watcher Mac
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'mac-app/**'
+      - '.github/workflows/build-macos-app.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build-mac-app:
+    name: macOS App bauen
+    runs-on: macos-15
+    timeout-minutes: 20
+
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v6
+
+      - name: Xcode-Version anzeigen
+        run: xcodebuild -version
+
+      - name: Release-App bauen
+        run: |
+          xcodebuild \
+            -project "$GITHUB_WORKSPACE/mac-app/OMNewsWatcher.xcodeproj" \
+            -scheme OMNewsWatcher \
+            -configuration Release \
+            -derivedDataPath "$RUNNER_TEMP/OMNewsWatcherBuild" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            DEVELOPMENT_TEAM="" \
+            build
+
+      - name: App prüfen und paketieren
+        run: |
+          APP="$RUNNER_TEMP/OMNewsWatcherBuild/Build/Products/Release/OM News Watcher.app"
+          ZIP="$GITHUB_WORKSPACE/OM-News-Watcher-macOS.zip"
+
+          test -d "$APP"
+
+          # Ad-hoc-Signatur: kein Apple-Developer-Zertifikat nötig.
+          codesign \
+            --force \
+            --deep \
+            --sign - \
+            --timestamp=none \
+            "$APP"
+
+          codesign --verify --deep --strict "$APP"
+
+          # ditto bewahrt die für macOS nötigen Bundle-/Dateiattribute.
+          ditto \
+            -c \
+            -k \
+            --sequesterRsrc \
+            --keepParent \
+            "$APP" \
+            "$ZIP"
+
+          ls -lh "$ZIP"
+
+      - name: Fertige Mac-App bereitstellen
+        uses: actions/upload-artifact@v7
+        with:
+          path: OM-News-Watcher-macOS.zip
+          archive: false
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Hinweis
+        run: |
+          {
+            echo "## OM News Watcher Mac"
+            echo ""
+            echo "Die Release-App wurde erfolgreich gebaut."
+            echo ""
+            echo "Unter **Artifacts** steht die Datei **OM-News-Watcher-macOS.zip** bereit."
+            echo ""
+            echo "Nach dem Entpacken kann **OM News Watcher.app** nach **Programme** verschoben werden."
+          } >> "$GITHUB_STEP_SUMMARY"
