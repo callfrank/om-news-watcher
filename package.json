@@ -1,0 +1,12 @@
+{
+  "name": "om-news-watcher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "watch": "node watcher.js"
+  },
+  "dependencies": {
+    "playwright": "latest"
+  }
+}

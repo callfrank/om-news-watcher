@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ERSTE PROBLEMSEITE",
+    "url": "https://example.com/news",
+    "enabled": false,
+    "waitMs": 2500,
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
+  }
+]
