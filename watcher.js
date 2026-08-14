@@ -9,7 +9,7 @@ const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 
-const VERSION = '0.14';
+const VERSION = '0.14.1';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
@@ -263,6 +263,31 @@ function normalizePageDateV14(raw = '', link = '') {
     if (iso) return iso;
   }
 
+  m = value.match(
+    /\b(\d{1,2})\.\s+(Jan|Feb|Mär|Mrz|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov|Dez)\.?\s+(20\d{2})\b/i
+  );
+
+  if (m) {
+    const map = {
+      jan: 1, feb: 2, mär: 3, mrz: 3,
+      apr: 4, mai: 5, jun: 6, jul: 7,
+      aug: 8, sep: 9, okt: 10, nov: 11, dez: 12
+    };
+
+    const month =
+      map[m[2].toLowerCase()];
+
+    const iso =
+      validStabilityDate(
+        m[3],
+        month,
+        m[1]
+      );
+
+    if (iso) return iso;
+  }
+
+
   try {
     const u = new URL(link);
     m = u.pathname.match(
@@ -355,8 +380,17 @@ function stabilityProfile(source) {
       ...profile,
       key: 'zalando',
       selector:
-        'main a[href*="/de/newsroom/news-stories"]',
+        'a[href]',
       expectedMax: 100
+    };
+  }
+
+  if (name.includes('otto pressemitteilungen')) {
+    return {
+      ...profile,
+      key: 'otto',
+      selector: 'a[href]',
+      expectedMax: 80
     };
   }
 
@@ -436,7 +470,7 @@ function stabilityProfile(source) {
       ...profile,
       key: 'galaxus',
       selector:
-        'main a[href*="/de/page/"]',
+        'a[href]',
       expectedMax: 120
     };
   }
@@ -516,6 +550,22 @@ function applyStabilityProfile(source) {
       true;
   }
 
+  if (profile.key === 'galaxus') {
+    copy.waitMs =
+      Math.max(
+        Number(copy.waitMs || 0),
+        4000
+      );
+  }
+
+  if (profile.key === 'zalando') {
+    copy.waitMs =
+      Math.max(
+        Number(copy.waitMs || 0),
+        5000
+      );
+  }
+
   return copy;
 }
 
@@ -593,6 +643,15 @@ function stabilityAccepts(title, link, source) {
           '/de/newsroom/news-stories/'
         ) &&
         path !== basePath
+      );
+
+    case 'otto':
+      return (
+        path.startsWith('/unternehmen/de/presse/') &&
+        path !== '/unternehmen/de/presse/' &&
+        path !== '/unternehmen/de/presse/pressemitteilungen' &&
+        !path.includes('pressemitteilungen-20') &&
+        title.length >= 12
       );
 
     case 'ecdb':
@@ -960,6 +1019,18 @@ async function extractProfiled(page, source) {
           );
 
         let title = own;
+        let forcedDate = '';
+
+        if (profileKey === 'otto') {
+          const match = own.match(
+            /^Presse\s+(\d{1,2}\.\s+[A-Za-zÄÖÜäöü]+\.?\s+20\d{2})\s+(.+?)\s+Mehr erfahren$/i
+          );
+
+          if (match) {
+            forcedDate = clean(match[1]);
+            title = clean(match[2]);
+          }
+        }
 
         if (
           genericCTA(own) ||
@@ -1008,6 +1079,7 @@ async function extractProfiled(page, source) {
             a.getAttribute('href') ||
             '',
           date:
+            forcedDate ||
             dateFrom(card)
         };
       });
@@ -1677,6 +1749,16 @@ async function inspectSource(context, fallbackContext, source, index, total) {
         page,
         source
       );
+
+    if (
+      (!rows || !rows.length) &&
+      source._stabilityProfile
+    ) {
+      rows = await extractAutomatic(
+        page,
+        source
+      );
+    }
 
     if (!rows || !rows.length) {
       rows = await extractConfigured(
