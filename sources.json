@@ -11,5 +11,19 @@
       "link": "",
       "date": ""
     }
+  },
+  {
+    "name": "OTTO Pressemitteilungen",
+    "url": "https://www.otto.de/unternehmen/de/presse/pressemitteilungen",
+    "enabled": true,
+    "waitMs": 3000,
+    "timeoutMs": 60000,
+    "includePath": "/unternehmen/de/presse/",
+    "selectors": {
+      "item": "",
+      "title": "",
+      "link": "",
+      "date": ""
+    }
   }
 ]
