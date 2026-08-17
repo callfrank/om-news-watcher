@@ -291,22 +291,44 @@
     "waitMs" : 3000
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "mac-app-20260814-140235",
-    "candidateSelector" : "a[href*=\"/de/s1/producttype/\"]",
+    "baselineVersion" : "mac-app-20260817-132808",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : false,
     "http2Fallback" : false,
-    "includeRegex" : "^https?://www\\.galaxus\\.de\\/de\\/s1\\/producttype\\/",
-    "minTitleLength" : 12,
+    "includeRegex" : "^https?://www\\.galaxus\\.de/de/page/",
+    "minTitleLength" : 5,
     "name" : "Galaxus Medienmitteilungen",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "section",
+      "link" : "a.yyfb861",
+      "title" : "a.yyfb861"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306",
+    "visualBackup" : {
+      "candidateSelector" : "a[href*=\"/de/s1/producttype/\"]",
+      "includeRegex" : "^https?://www\\.galaxus\\.de\\/de\\/s1\\/producttype\\/",
+      "minTitleLength" : 12,
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T11:28:08Z",
+    "visualRuleVersion" : 2,
+    "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:28:09Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 266 Treffer",
     "waitMs" : 1000
   },
   {
