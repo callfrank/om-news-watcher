@@ -346,40 +346,24 @@
     "waitMs" : 3000
   },
   {
-    "allowExternal" : true,
-    "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-122514",
+    "allowTitleOnly" : true,
+    "baselineVersion" : "mac-app-20260817-132848",
+    "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
     "enabled" : true,
+    "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
+    "includeRegex" : "^https?://www\\.hellofreshgroup\\.com\\/de\\/newsroom\\/",
     "maxDetectedItems" : 25,
-    "minTitleLength" : 5,
+    "minTitleLength" : 14,
     "name" : "HelloFresh Press Releases",
     "reverseDetected" : true,
     "selectors" : {
       "date" : "",
-      "item" : "li.pressRelease-module--pressRelease--2tY4c",
-      "link" : "a.pressRelease-module--downloadButton--Mp1dK",
-      "title" : "h3"
+      "item" : "h3",
+      "link" : "",
+      "title" : ""
     },
     "timeoutMs" : 60000,
     "url" : "https://www.hellofreshgroup.com/de/newsroom/press-releases/",
-    "visualBackup" : {
-      "allowTitleOnly" : true,
-      "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
-      "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
-      "includeRegex" : "^https?://www\\.hellofreshgroup\\.com\\/de\\/newsroom\\/",
-      "minTitleLength" : 14,
-      "selectors" : {
-        "date" : "",
-        "item" : "h3",
-        "link" : "",
-        "title" : ""
-      }
-    },
-    "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T10:25:14Z",
-    "visualSampleCount" : 3,
-    "visualValidated" : false,
-    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Zu viele Treffer",
     "waitMs" : 3000
   },
   {
@@ -398,8 +382,10 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-122708",
+    "baselineVersion" : "mac-app-20260817-132939",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "includeRegex" : "^https?://jdcorporateblog\\.com/",
     "minTitleLength" : 5,
     "name" : "JD Corporate News",
     "selectors" : {
@@ -420,10 +406,14 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T10:27:08Z",
+    "visualLearnedAt" : "2026-08-17T11:29:39Z",
+    "visualRuleVersion" : 2,
     "visualSampleCount" : 3,
-    "visualValidated" : false,
-    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:29:43Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 34 Treffer",
     "waitMs" : 3000
   },
   {
