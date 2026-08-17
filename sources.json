@@ -1556,5 +1556,58 @@
     "visualValidatedAt" : "2026-08-17T12:44:14Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-144830",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://corporate\\.target\\.com/press/release/2026/",
+    "minTitleLength" : 5,
+    "name" : "Target QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "h3.press-release--title",
+      "link" : "a.press-release--title-link",
+      "title" : "h3.press-release--title"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://corporate.target.com/investors/financial-information/financial-news",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T12:48:30Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://corporate.target.com/press/release/2026/06/target-announces-voting-results-from-2026-annual-meeting-of-shareholders",
+      "https://corporate.target.com/press/release/2026/06/target-corporation-increases-quarterly-dividend-by-1-8-percent",
+      "https://corporate.target.com/press/release/2026/05/target-corporation-reports-first-quarter-earnings"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T12:48:33Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer",
+    "waitMs" : 2500
   }
 ]
