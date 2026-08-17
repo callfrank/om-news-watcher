@@ -1152,7 +1152,8 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
                 sampleCount: sampleCount,
                 previewCount: previewCount,
                 preview: preview,
-                strategy: strategy
+                strategy: strategy,
+                sampleURLs: samples.map(\.url)
             )
 
             rule = newRule
@@ -1256,13 +1257,17 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
   const bestTitleElement = (target, clickable, card) => {
     const clickedHeading = target?.closest?.('h1,h2,h3,h4,h5,h6');
     if (clickedHeading && !generic(clickedHeading.textContent)) return clickedHeading;
-    const own = clean(clickable?.textContent || clickable?.getAttribute?.('aria-label') || '');
-    if (own.length >= 5 && own.length <= 320 && !generic(own)) return clickable;
+
+    // v2.1: Bei Karten zuerst die eigentliche Überschrift verwenden.
+    // CTA-Links enthalten auf vielen Seiten Datum + Titel + „Mehr erfahren“.
     const selectors = 'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i],[data-testid*="title" i],strong';
     for (const node of Array.from(card?.querySelectorAll?.(selectors) || [])) {
       const value = clean(node.textContent || node.getAttribute?.('aria-label') || '');
       if (value.length >= 5 && value.length <= 320 && !generic(value)) return node;
     }
+
+    const own = clean(clickable?.textContent || clickable?.getAttribute?.('aria-label') || '');
+    if (own.length >= 5 && own.length <= 320 && !generic(own)) return clickable;
     return clickable;
   };
 
@@ -1298,7 +1303,11 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
       const value = lists[0][i];
       if (lists.every(list => list[i] === value)) common.push(value); else break;
     }
-    const prefix = common.length ? '/' + common.join('/') + '/' : '/';
+    // Ein reines Host-Muster wäre viel zu breit (z. B. PayPal-Kategorien).
+    // Bei gemeinsamen Unterordnern bleibt das URL-Muster ein starker Filter;
+    // sonst übernimmt v2.1 die gespeicherte URL-Form der Trainingsbeispiele.
+    if (!common.length) return '';
+    const prefix = '/' + common.join('/') + '/';
     return '^https?://' + regexEscape(host) + regexEscape(prefix);
   };
 

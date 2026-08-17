@@ -81,7 +81,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 18
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/2.0",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/2.1",
                 forHTTPHeaderField: "User-Agent"
             )
 
@@ -158,14 +158,22 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         let rawRows = value as? [[String: Any]] ?? []
 
         return rawRows.compactMap { row -> Candidate? in
-            let title = (row["title"] as? String ?? "")
+            let rawTitle = (row["title"] as? String ?? "")
                 .trimmingCharacters(in: .whitespacesAndNewlines)
             let href = (row["href"] as? String ?? "")
                 .trimmingCharacters(in: .whitespacesAndNewlines)
-
-            guard !title.isEmpty else { return nil }
-            let date = (row["date"] as? String ?? "")
+            var date = (row["date"] as? String ?? "")
                 .trimmingCharacters(in: .whitespacesAndNewlines)
+
+            guard !rawTitle.isEmpty else { return nil }
+
+            if date.isEmpty, let extracted = extractPublicationDate(from: rawTitle) {
+                date = extracted
+            }
+
+            let title = cleanExtractedTitle(rawTitle)
+            guard !title.isEmpty else { return nil }
+
             return Candidate(title: title, href: href, date: date)
         }
     }
@@ -179,7 +187,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 15
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/2.0",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/2.1",
                 forHTTPHeaderField: "User-Agent"
             )
             request.setValue("text/html,application/xhtml+xml", forHTTPHeaderField: "Accept")
@@ -207,7 +215,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         rows: [Candidate],
         allRows: [Candidate]
     ) -> SourceTestResult {
-        let filtered = filter(rows, for: source)
+        let baseFiltered = filter(rows, for: source)
+        let filtered = refineSemanticScope(baseFiltered, for: source)
         let count = filtered.count
         let examples = hits(from: filtered)
 
@@ -428,6 +437,19 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             return nil
         }
 
+        // Bei einem großen Ausgangsbestand ist eine Reduktion auf nur 2–3
+        // Navigations-/Landingpages fast immer eine Fehlreparatur.
+        if currentRows.count >= 80, preview.count < 5 {
+            return nil
+        }
+
+        let landingCount = preview.filter {
+            looksLikeSectionLandingTitle($0.title) || isGenericNavigationTitle($0.title)
+        }.count
+        if !preview.isEmpty, Double(landingCount) / Double(preview.count) > 0.25 {
+            return nil
+        }
+
         // Reparaturvorschläge müssen zum ursprünglichen Quellentyp passen.
         // Newsroom -> fremde PDF-Factsheets ist z. B. keine Reparatur.
         let sourceHost = URL(string: source.url)?.host?.lowercased()
@@ -496,6 +518,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             let title = normalizeWhitespace(row.title)
             guard title.count >= 8, title.count <= 320 else { continue }
             guard !isGenericNavigationTitle(title) else { continue }
+            guard !looksLikeSectionLandingTitle(title) else { continue }
             guard let resolved = resolve(row.href, relativeTo: source.url) else { continue }
             guard source.allowExternal || isInternal(resolved, sourceURL: source.url) else {
                 continue
@@ -580,7 +603,10 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             SourceTestHit(
                 title: $0.title,
                 url: $0.href.isEmpty ? nil : $0.href,
-                publicationDate: $0.date.isEmpty ? nil : $0.date
+                publicationDate:
+                    $0.date.isEmpty
+                    ? nil
+                    : displayPublicationDate($0.date)
             )
         }
     }
@@ -593,7 +619,10 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             "impressum", "datenschutz", "privacy", "login", "jobs", "karriere",
             "services", "service", "governance", "unsere werte", "unsere talente",
             "auszeichnungen", "standorte", "locations", "media", "stories",
-            "publications", "news", "presse", "press", "menu", "navigation"
+            "publications", "news", "presse", "press", "menu", "navigation",
+            "newsroom", "press releases", "pressemitteilungen", "events",
+            "media & resources", "news & resources", "unternehmensnews",
+            "unternehmensmitteilungen", "company news", "company updates"
         ]
 
         if exact.contains(lower) {
@@ -609,6 +638,236 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         if prefixes.contains(where: { lower.hasPrefix($0) }) { return true }
         if lower.range(of: #"^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$"#, options: .regularExpression) != nil { return true }
         return false
+    }
+
+
+    private func looksLikeSectionLandingTitle(_ title: String) -> Bool {
+        let lower = normalizeWhitespace(title).lowercased()
+        let starts = [
+            "storys", "stories", "kontakt", "contact", "pressematerial",
+            "press material", "media resources", "media & resources",
+            "über uns", "about us", "unternehmen", "company"
+        ]
+
+        return starts.contains { prefix in
+            lower == prefix || lower.hasPrefix(prefix + " ") || lower.hasPrefix(prefix + ":")
+        }
+    }
+
+    private func isSamePage(_ candidate: String, sourceURL: String) -> Bool {
+        guard let a = URL(string: candidate), let b = URL(string: sourceURL) else {
+            return false
+        }
+
+        func normalizedPath(_ url: URL) -> String {
+            let path = url.path.isEmpty ? "/" : url.path
+            return path.count > 1 && path.hasSuffix("/")
+                ? String(path.dropLast())
+                : path
+        }
+
+        return a.host?.lowercased() == b.host?.lowercased() &&
+            normalizedPath(a) == normalizedPath(b) &&
+            (a.query ?? "").isEmpty == (b.query ?? "").isEmpty
+    }
+
+    private func matchesVisualSampleShape(
+        _ candidate: String,
+        source: SourceRecord
+    ) -> Bool {
+        let samples = source.visualSampleURLs.compactMap { URL(string: $0) }
+        guard samples.count >= 2, let url = URL(string: candidate) else {
+            return true
+        }
+
+        let sampleHosts = Set(samples.compactMap { $0.host?.lowercased() })
+        if sampleHosts.count == 1, let host = sampleHosts.first {
+            let candidateHost = url.host?.lowercased() ?? ""
+            guard candidateHost == host ||
+                    candidateHost.hasSuffix(".\(host)") ||
+                    host.hasSuffix(".\(candidateHost)") else {
+                return false
+            }
+        }
+
+        let allQueryless = samples.allSatisfy { ($0.query ?? "").isEmpty }
+        if allQueryless, !(url.query ?? "").isEmpty {
+            return false
+        }
+
+        let sampleExtensions = Set(samples.map { $0.pathExtension.lowercased() })
+        if sampleExtensions.count == 1, let ext = sampleExtensions.first {
+            if ext.isEmpty {
+                if ["pdf", "doc", "docx", "xls", "xlsx", "zip"].contains(url.pathExtension.lowercased()) {
+                    return false
+                }
+            } else if url.pathExtension.lowercased() != ext {
+                return false
+            }
+        }
+
+        let sampleParts = samples.map { $0.path.split(separator: "/").map(String.init) }
+        let depths = sampleParts.map(\.count)
+        if let minDepth = depths.min(), let maxDepth = depths.max(), maxDepth - minDepth <= 1 {
+            let depth = url.path.split(separator: "/").count
+            if depth < minDepth || depth > maxDepth { return false }
+        }
+
+        let leaves = sampleParts.compactMap { $0.last }
+        if leaves.count == samples.count, let shortest = leaves.map(\.count).min() {
+            let threshold = max(10, min(40, Int(Double(shortest) * 0.45)))
+            let candidateLeaf = url.path.split(separator: "/").last.map(String.init) ?? ""
+            if candidateLeaf.count < threshold { return false }
+        }
+
+        // Gemeinsame Verzeichnisse der Beispiele als semantischen Pfad verwenden.
+        if let first = sampleParts.first {
+            var common: [String] = []
+            let limit = max(0, (sampleParts.map(\.count).min() ?? 0) - 1)
+            for index in 0..<limit {
+                let component = first[index]
+                if sampleParts.allSatisfy({ $0[index] == component }) {
+                    common.append(component)
+                } else {
+                    break
+                }
+            }
+
+            if !common.isEmpty {
+                let candidateParts = url.path.split(separator: "/").map(String.init)
+                guard candidateParts.count >= common.count else { return false }
+                for (index, component) in common.enumerated() where candidateParts[index] != component {
+                    return false
+                }
+            }
+        }
+
+        return true
+    }
+
+    private func refineSemanticScope(
+        _ rows: [Candidate],
+        for source: SourceRecord
+    ) -> [Candidate] {
+        guard rows.count >= 8, let sourceURL = URL(string: source.url) else {
+            return rows
+        }
+
+        var sourcePath = sourceURL.path
+        if sourcePath.count > 1 && !sourcePath.hasSuffix("/") {
+            sourcePath += "/"
+        }
+
+        let finalComponent = sourceURL.path
+            .split(separator: "/")
+            .last?
+            .lowercased() ?? ""
+
+        let semanticDirectories: Set<String> = [
+            "newsroom", "news", "presse", "press", "press-releases",
+            "pressemitteilungen", "stories", "reports", "events"
+        ]
+
+        guard semanticDirectories.contains(finalComponent) else {
+            return rows
+        }
+
+        let scoped = rows.filter { row in
+            guard let url = URL(string: row.href) else { return false }
+            return isInternal(row.href, sourceURL: source.url) &&
+                url.path.hasPrefix(sourcePath) &&
+                !isSamePage(row.href, sourceURL: source.url)
+        }
+
+        guard scoped.count >= 5 else { return rows }
+        let ratio = Double(scoped.count) / Double(rows.count)
+        return ratio >= 0.35 ? scoped : rows
+    }
+
+    private func cleanExtractedTitle(_ value: String) -> String {
+        var result = normalizeWhitespace(value)
+        guard !result.isEmpty else { return result }
+
+        // CTA am Ende entfernen.
+        result = result.replacingOccurrences(
+            of: #"(?i)\s*(?:mehr erfahren|mehr anzeigen|weiterlesen|read article|read more|learn more|download(?: for free)?|zur konferenz)\s*[›>…\.]*\s*$"#,
+            with: "",
+            options: .regularExpression
+        )
+
+        // Typ-Bezeichnungen und doppelte „Presse“-Präfixe entfernen.
+        for _ in 0..<3 {
+            let cleaned = result.replacingOccurrences(
+                of: #"(?i)^(?:presseinformation|pressemitteilung|press release|company update|company updates|presse)\s*[:\-–—]?\s*"#,
+                with: "",
+                options: .regularExpression
+            )
+            if cleaned == result { break }
+            result = cleaned
+        }
+
+        // Datum am Titelanfang abtrennen.
+        let datePatterns = [
+            #"(?i)^\d{1,2}\.?\s+(?:jan(?:uar)?|feb(?:ruar)?|mär(?:z)?|mrz|apr(?:il)?|mai|jun(?:i)?|jul(?:i)?|aug(?:ust)?|sep(?:tember)?|okt(?:ober)?|nov(?:ember)?|dez(?:ember)?|january|february|march|april|may|june|july|august|september|october|november|december)\.?\s+20\d{2}\s*[:\-–—]?\s*"#,
+            #"^20\d{2}-\d{2}-\d{2}(?:T[^\s]+)?\s*[:\-–—]?\s*"#
+        ]
+        for pattern in datePatterns {
+            result = result.replacingOccurrences(
+                of: pattern,
+                with: "",
+                options: .regularExpression
+            )
+        }
+
+        return normalizeWhitespace(result)
+            .trimmingCharacters(in: CharacterSet(charactersIn: "-–—:|· "))
+    }
+
+    private func extractPublicationDate(from value: String) -> String? {
+        let text = normalizeWhitespace(value)
+        let patterns = [
+            #"\b\d{1,2}\.?\s+(?:Jan(?:uar)?|Feb(?:ruar)?|Mär(?:z)?|Mrz|Apr(?:il)?|Mai|Jun(?:i)?|Jul(?:i)?|Aug(?:ust)?|Sep(?:tember)?|Okt(?:ober)?|Nov(?:ember)?|Dez(?:ember)?|January|February|March|April|May|June|July|August|September|October|November|December)\.?\s+20\d{2}\b"#,
+            #"\b20\d{2}-\d{2}-\d{2}(?:T\d{2}:\d{2}(?::\d{2})?(?:[+\-]\d{2}:?\d{2}|Z)?)?\b"#
+        ]
+
+        for pattern in patterns {
+            if let range = text.range(of: pattern, options: [.regularExpression, .caseInsensitive]) {
+                return String(text[range])
+            }
+        }
+        return nil
+    }
+
+    private func displayPublicationDate(_ value: String) -> String {
+        let text = normalizeWhitespace(value)
+
+        let iso = ISO8601DateFormatter()
+        if let date = iso.date(from: text) {
+            let formatter = DateFormatter()
+            formatter.locale = Locale(identifier: "de_DE")
+            formatter.dateFormat = "dd.MM.yyyy"
+            return formatter.string(from: date)
+        }
+
+        let formats = [
+            "d. MMM. yyyy", "d. MMM yyyy", "d MMMM yyyy", "d. MMMM yyyy",
+            "MMMM d, yyyy", "MMM d, yyyy", "yyyy-MM-dd"
+        ]
+        for format in formats {
+            let formatter = DateFormatter()
+            formatter.locale = format.contains(",")
+                ? Locale(identifier: "en_US_POSIX")
+                : Locale(identifier: "de_DE")
+            formatter.dateFormat = format
+            if let date = formatter.date(from: text) {
+                let output = DateFormatter()
+                output.locale = Locale(identifier: "de_DE")
+                output.dateFormat = "dd.MM.yyyy"
+                return output.string(from: date)
+            }
+        }
+
+        return text
     }
 
     private let articlePathHints = [
@@ -638,8 +897,9 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         var result: [Candidate] = []
 
         for row in rows {
-            let title = normalizeWhitespace(row.title)
+            let title = cleanExtractedTitle(row.title)
             guard title.count >= source.minTitleLength else { continue }
+            guard !isGenericNavigationTitle(title) else { continue }
 
             if let pattern = source.includeTitleRegex,
                !matches(title, pattern: pattern) {
@@ -659,6 +919,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             }
 
             guard let resolved = resolve(row.href, relativeTo: source.url) else { continue }
+            guard !isSamePage(resolved, sourceURL: source.url) else { continue }
 
             if !source.allowExternal && !isInternal(resolved, sourceURL: source.url) {
                 continue
@@ -671,6 +932,11 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
             if let pattern = source.excludeRegex,
                matches(resolved, pattern: pattern) {
+                continue
+            }
+
+            if source.visualLearned,
+               !matchesVisualSampleShape(resolved, source: source) {
                 continue
             }
 
@@ -781,14 +1047,11 @@ final class SourceTester: NSObject, WKNavigationDelegate {
           };
 
           const smartTitle = (el, root = null) => {
-            const own = clean(el?.textContent || el?.getAttribute?.('aria-label') || el?.title || '');
-            if (own && !generic(own) && own.length <= 320) return own;
-
             const card = root || cardFor(el);
             const selectors = [
               'h1','h2','h3','h4','h5','h6',
               '[class*="headline" i]','[class*="heading" i]','[class*="title" i]',
-              '[data-testid*="title" i]','[aria-label]','strong'
+              '[data-testid*="title" i]','strong'
             ];
             for (const selector of selectors) {
               const nodes = Array.from(card?.querySelectorAll?.(selector) || []);
@@ -797,6 +1060,9 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 if (value.length >= 5 && value.length <= 320 && !generic(value)) return value;
               }
             }
+
+            const own = clean(el?.textContent || el?.getAttribute?.('aria-label') || el?.title || '');
+            if (own && !generic(own) && own.length <= 320) return own;
 
             const imgAlt = clean(card?.querySelector?.('img[alt]')?.getAttribute?.('alt') || '');
             if (imgAlt.length >= 8 && !generic(imgAlt)) return imgAlt;

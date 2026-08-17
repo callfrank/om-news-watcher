@@ -62,6 +62,7 @@ struct VisualTrainingRule: Equatable {
     let previewCount: Int
     let preview: [VisualTrainingPreview]
     let strategy: String
+    let sampleURLs: [String]
 
     var isUsable: Bool {
         sampleCount >= 2 &&

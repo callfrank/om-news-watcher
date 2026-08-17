@@ -182,6 +182,14 @@ struct SourceRecord: Identifiable, Equatable {
         raw["visualSmartExtraction"]?.boolValue ?? (visualRuleVersion >= 2)
     }
 
+    var visualSampleURLs: [String] {
+        guard case .array(let values) = raw["visualSampleURLs"] else {
+            return []
+        }
+
+        return values.compactMap { $0.stringValue }.filter { !$0.isEmpty }
+    }
+
     mutating func applyVisualTrainingRule(_ rule: VisualTrainingRule) {
         if !visualLearned {
             let keys = [
@@ -222,8 +230,11 @@ struct SourceRecord: Identifiable, Equatable {
         raw["visualLearned"] = .bool(true)
         raw["visualSampleCount"] = .int(rule.sampleCount)
         raw["visualLearnedAt"] = .string(ISO8601DateFormatter().string(from: Date()))
-        raw["visualRuleVersion"] = .int(2)
+        raw["visualRuleVersion"] = .int(3)
         raw["visualValidated"] = .bool(false)
+        raw["visualSampleURLs"] = .array(
+            rule.sampleURLs.map { .string($0) }
+        )
         raw["visualSmartExtraction"] = .bool(true)
         raw["visualStrategy"] = .string(rule.strategy)
         raw.removeValue(forKey: "visualValidationMessage")
@@ -284,6 +295,7 @@ struct SourceRecord: Identifiable, Equatable {
         raw.removeValue(forKey: "visualValidationMessage")
         raw.removeValue(forKey: "visualSmartExtraction")
         raw.removeValue(forKey: "visualStrategy")
+        raw.removeValue(forKey: "visualSampleURLs")
         baselineVersion = SourceRecord.makeBaselineVersion()
     }
 
