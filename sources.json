@@ -717,35 +717,79 @@
     "waitMs" : 1200
   },
   {
-    "baselineVersion" : "v11-paypal",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-133451",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
-    "excludeRegex" : "[?&]cat=\\d+",
-    "excludeTitleRegex" : "^(?:Stories|Blog|Aktuelle Mitteilungen)$",
+    "includeRegex" : "^https?://newsroom\\.deatch\\.paypal-corp\\.com/",
+    "minTitleLength" : 5,
     "name" : "PayPal DE Aktuelle Mitteilungen",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "div.wd_item_wrapper",
+      "link" : "a.wd_local",
+      "title" : "a.wd_local"
     },
     "timeoutMs" : 60000,
     "url" : "https://newsroom.deatch.paypal-corp.com/aktuelle-mitteilungen",
+    "visualBackup" : {
+      "excludeRegex" : "[?&]cat=\\d+",
+      "excludeTitleRegex" : "^(?:Stories|Blog|Aktuelle Mitteilungen)$",
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T11:34:51Z",
+    "visualRuleVersion" : 2,
+    "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:34:58Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 40 Treffer",
     "waitMs" : 5000
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "v10-network-parked",
+    "baselineVersion" : "mac-app-20260817-133534",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
     "http2Fallback" : false,
+    "includeRegex" : "^https?://investor\\.pddholdings\\.com/news-releases/news-release-details/",
+    "minTitleLength" : 5,
     "name" : "PDD Holdings News Releases",
     "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "date" : "div.nir-widget--field",
+      "item" : "article.node--nir-news--nir-widget-list",
+      "link" : "a",
+      "title" : "a"
     },
     "timeoutMs" : 60000,
     "url" : "https://investor.pddholdings.com/news-releases/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T11:35:34Z",
+    "visualRuleVersion" : 2,
+    "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:35:35Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 4 Treffer",
     "waitMs" : 1000
   },
   {
