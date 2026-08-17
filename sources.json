@@ -1957,5 +1957,31 @@
     ],
     "url" : "https://www.destatis.de/",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260817-152455",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Staat"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Bundeskartellamt",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.bundeskartellamt.de/DE/Home/home_node.html",
+    "waitMs" : 2500
   }
 ]
