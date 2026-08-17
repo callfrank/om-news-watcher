@@ -1609,5 +1609,58 @@
     "visualValidatedAt" : "2026-08-17T12:48:33Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-145023",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://www\\.alibabagroup\\.com/en-US/",
+    "minTitleLength" : 5,
+    "name" : "Alibaba QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "div.date",
+      "item" : "a.component-card-cover-date-item",
+      "link" : "a.component-card-cover-date-item",
+      "title" : "div.common-font-size-21"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.alibabagroup.com/en-US/investor-relations",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T12:50:23Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://www.alibabagroup.com/en-US/document-2022412636729114624",
+      "https://www.alibabagroup.com/en-US/document-2003564382071554048",
+      "https://www.alibabagroup.com/en-US/document-1993785120221298688"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T12:50:26Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 25 Treffer",
+    "waitMs" : 2500
   }
 ]
