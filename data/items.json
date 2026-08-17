@@ -1,6 +1,6 @@
 [
   {
-    "guid": "17a66883c1417bdc2d6e796b",
+    "guid": "273f2eed88036cb7efcd2cf3",
     "source": "BMJ",
     "sourceLabel": "BMJ",
     "groups": [
@@ -9,13 +9,13 @@
     "tags": [],
     "priority": 1,
     "title": ".st0{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;} Gesetzgebung",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=a7622be4690dfff0de804b6f426002f17484b831a02c&callerId=110518&folderInclude.HASH=429b751a20c0fb54af3f7122b0f5f27ac37e2c9858b7&folderExclude.HASH=733a2f2f3c131c417795ee3474515b84a6c7ee114c92&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=3d065dd77354058bcb58416cb18bb16329cafc44b616&callerId=110518&folderInclude.HASH=4cc4ee76b77652f8841dc135ac0540d43c25467906cf&folderExclude.HASH=7734666072dffa14efa8264f864a0b696a4d659113d1&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
+    "detectedAt": "2026-08-17T17:46:27.065Z",
     "duplicateSources": []
   },
   {
-    "guid": "e8331b5847d79aa5411c7b45",
+    "guid": "5455e8357fc7bb8088bd02e6",
     "source": "BMJ",
     "sourceLabel": "BMJ",
     "groups": [
@@ -24,10 +24,187 @@
     "tags": [],
     "priority": 1,
     "title": ".st0{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;} .st1{fill:none;stroke:#000000;stroke-width:3;} Veranstaltungen",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Veranstaltungssuche/Archiv/Veranstaltungssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=62a626d0a36b2e9dfddb89b7166f6b3922d5331f58d1&callerId=110572&folderInclude.HASH=6ce8ef0bb60a48aade16da40901c1e0af8776f33a9bd&folderExclude.HASH=34d7d74731b096f75625b8ab898610cf5a415be34dcd&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Veranstaltungssuche/Archiv/Veranstaltungssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=e8fd165c2d5f1358cf85de4bceed7d989de128e91418&callerId=110572&folderInclude.HASH=56a398915c34b8c7abfb8cb1108120597a8638e173f0&folderExclude.HASH=505d4257802c522f6d676c16b3539869f9f827654a8c&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
+    "detectedAt": "2026-08-17T17:46:27.065Z",
     "duplicateSources": []
+  },
+  {
+    "guid": "df06548efa3fc566f9ad1d27",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Alle Publikationen",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=2e2eb029e9065889d7d13416099dd3848280f507de88&callerId.HASH=af64954143d5e805ca05c875d612b3a553d6f43f08eb&callerId=110568&folderInclude.HASH=05cd2d5bb5e484e6f5dd76f6810cde31e88e4eabe881&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=916497d96a990699bc1be767c5099a4758c4bb3e2d1f&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z"
+  },
+  {
+    "guid": "b92c5acf8d57b2a805acd592",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Broschüren und Infomaterial",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=b4598bee58db213fa2c5ec6eba990b934a90e8adf8a5&callerId.HASH=5928fb95bae9ef40732263cf8076dd6838a8d070587b&callerId=110568&folderInclude.HASH=888c743dbd156cae80a07a72b670110b60b647d3e94e&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=74bae86f65c768d6a2fd4b46d3d45a47a7a191bab197&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "bbc5b4a296b38ae0d1269ef3",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Aktuelle Gesetzgebungsverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=f6e6b255917c77f7872ba4848d104b923bc030ba1ce2&callerId=110518&folderInclude.HASH=21554eb45250af63f3a58dafcff448af75790f9dd2af&folderExclude.HASH=b000075b05c968f2c8a4fefcdca67bac78a0c5c0b3f0&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "767e144516d2647dea32c8b5",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Richtlinien für den Verkehr mit dem Ausland in strafrechtlichen Angelegenheiten (RiVASt)",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/RiVAStsuche/RiVASt_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=4409b7264470d8a2fde2b75463bdbf97b06b7d065e76&callerId=110522&folderInclude.HASH=3c0f7be5c11fb7f855be8689b07bc6e572ead0e3142a&folderExclude.HASH=0a6235eb2991850c73b28505151be86313165b342548&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "1ac58b85838eff7791972ef9",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Belehrungsformulare für das Jugendstrafverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Belehrungsformularsuche/Belehrungsformularsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=9159598b0badc76026637a65ba4d911d1e7595ada55f&callerId=111028&folderInclude.HASH=92302034c85795bea75fd4100d0a21aa51f9dbe2f447&folderExclude.HASH=d96d9c5bd90d4e47f11be323d05487120571ab7b9b62&folderInclude=%2FBMJ%2FSharedDocs%2FDownloads%2FDE%2FFormular%2FBelehrungsformulare_Jugendliche%2F*+",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "dd1f8b00c3ab7de45546c20f",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Belehrungsformulare für festgehaltene Personen im allgemeinen Strafverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Belehrungsformularsuche/Belehrungsformularsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=8b1a88abb199866cb03b61c3d1a16f407b76f403ce77&callerId=111026&folderInclude.HASH=8830ea599c0eddbe4597f5ade5d2710bbc43a3574ebe&folderExclude.HASH=9eb5dc413e1e0b722a3392fa0a8f61ef792065bfd17b&folderInclude=%2FBMJ%2FSharedDocs%2FDownloads%2FDE%2FFormular%2FBelehrungsformulare_Erwachsene%2F*+",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "182ee928d2c1dd997b6e4a50",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Archiv vorheriger und abgeschlossener Gesetzgebungsverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren_Archiv/Gesetzgebungsverfahrenssuche_Archiv_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=bc58652c4aabbcb274010a720f1bbfceec506fb7a2e2&callerId=262054&folderInclude.HASH=a78388ec12ec4eb05bbd0be75b2ddfe809b54317919e&folderExclude.HASH=c9dac92c7dfb0df0587cc4014258da3c58740d7beb82&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "71ed735402156a60767bb825",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Gesetzgebungsverfahren - Anlagen",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Anlagen/Gesetzgebungsverfahrensanlagensuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=6b0216e8a216fd6cfe3334468e5731ae68eae2fd8320&callerId=110520&folderInclude.HASH=5f214e5e3d588f63ad5c72510e93c49fee0c35923be4&folderExclude.HASH=5ae7f114c3ef559c2bec8d68a41b1c69983be790ff9f&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "1c46e847439e9d360f0503f2",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Übersicht der laufenden Gesetzgebungsverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=8562b82c1fe908e8867a9dd49d95076467ecf663bc7d&callerId=110518&folderInclude.HASH=170d65eb18f6ceb565bf1a4eb958bb6407b132c577e2&folderExclude.HASH=bdeba9da594ce60e776d5fa4400031ad9da23c0d0724&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "b3e442bcf22e999cff99f125",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Alle Meldungen",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=5eb6a34dc5b0336f8cc2aaf490bc1dd5c358222d2253&callerId=148026&folderInclude.HASH=1b80d234ce2d602605389872e153931d310ee62c35a1&folderExclude.HASH=17037c8f0b6b49c5f2388a680a9273685aa7c4736fcc&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z"
+  },
+  {
+    "guid": "d190ea6b7879a14c8a55ab38",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Reden, Interviews und Gastbeiträge",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=cf2e82cb2f6623828867456c657e4c5a933590e8d49b&callerId.HASH=8cbad08b7bf5616570848c1e24b84bb10264efacab17&callerId=110504&folderInclude.HASH=d258e2449e53fcf9200771f264e1e770302ee1007a91&defaultFilter=documentType_%3ASpeech+OR+documentType_%3AInterview+OR+%28documentType_%3ABasepage+AND+cl2Taxonomies_Dokumenttyp%3A0%2FInterviewUndNamensartikel%29&folderExclude.HASH=b992edada318b1bad6e4c739ab4540ef82a831994c55&folderInclude=%2FBMJ%2FSharedDocs%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "e9fe8d5d5040c1539e7ba660",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Alle Meldungen",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=571caae524b1b4d10e1c587f5a9675ac6cdecbd1a7ae&callerId=148026&folderInclude.HASH=cbf7d1c1a3e5de3516ad7999ba511b329483f6dfec9b&folderExclude.HASH=0770ecb996f51a492a2c795eb2dab2966a53ab362264&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T17:46:27.065Z"
   },
   {
     "guid": "ad77e5aef62c12a5f9612ae4",
@@ -44,126 +221,6 @@
     "detectedAt": "2026-08-17T17:09:36.816Z"
   },
   {
-    "guid": "aafdc48f56c668da003a6179",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [],
-    "priority": 1,
-    "title": "Broschüren und Infomaterial",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=88e9dce9e9fc44ab2e45f3ebebeb2736088a83e3069a&callerId.HASH=0148a4e0ef9df57c7c9dd4107d43ebaf94ace14c5d18&callerId=110568&folderInclude.HASH=b0fa00fb703186e83487c0adc1509fdaf4571e54187d&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=c72b8098f000bdb27742dfd328075704fcdd376c4285&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
-    "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
-    "duplicateSources": []
-  },
-  {
-    "guid": "845de7aacceca23496c39719",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [],
-    "priority": 1,
-    "title": "Aktuelle Gesetzgebungsverfahren",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=5c24bf99969e983f23af39aeabf21eca09884af7da83&callerId=110518&folderInclude.HASH=878542a1fa65de490862e0af29974009dc0c5378407b&folderExclude.HASH=dfed646faee544f3381ab12b21588ec8ec1d6bbadfd7&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
-    "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
-    "duplicateSources": []
-  },
-  {
-    "guid": "451abe090cfc34ec7f9e6504",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [],
-    "priority": 1,
-    "title": "Richtlinien für den Verkehr mit dem Ausland in strafrechtlichen Angelegenheiten (RiVASt)",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/RiVAStsuche/RiVASt_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=3260a3c5a9bdb49c4b71566a7695a00d9a77f5a0de7f&callerId=110522&folderInclude.HASH=bff615c4028cf63033fccf7e5658e5aee516d1492be5&folderExclude.HASH=d7521fd21a9ec94fbc6e780630e4c71b944ca01a876f&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
-    "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
-    "duplicateSources": []
-  },
-  {
-    "guid": "687d87bd4f3695c714771953",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [],
-    "priority": 1,
-    "title": "Belehrungsformulare für das Jugendstrafverfahren",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Belehrungsformularsuche/Belehrungsformularsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=7293f45fac3b805415a9f15ec97d45e2641f7bf274c7&callerId=111028&folderInclude.HASH=21f8d1e9b4d8dd6b8302e8fad61ba283a4be9b6e5fb1&folderExclude.HASH=66bf402851d4acd105b6bab7613676aff477b32d7299&folderInclude=%2FBMJ%2FSharedDocs%2FDownloads%2FDE%2FFormular%2FBelehrungsformulare_Jugendliche%2F*+",
-    "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
-    "duplicateSources": []
-  },
-  {
-    "guid": "1f59d9a65d7d69701c2a5e73",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [],
-    "priority": 1,
-    "title": "Belehrungsformulare für festgehaltene Personen im allgemeinen Strafverfahren",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Belehrungsformularsuche/Belehrungsformularsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=92db334f7dcbd5f503dae516eb17548e5d0e576d8747&callerId=111026&folderInclude.HASH=c3a35f927b9dc6575d7f2f8054c69ce9ba860b714e60&folderExclude.HASH=ca0bf83382c73cdacf2e102defc5c9d6bbcc308f039b&folderInclude=%2FBMJ%2FSharedDocs%2FDownloads%2FDE%2FFormular%2FBelehrungsformulare_Erwachsene%2F*+",
-    "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
-    "duplicateSources": []
-  },
-  {
-    "guid": "1fa91c6949a2e22bddfd4a69",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [],
-    "priority": 1,
-    "title": "Archiv vorheriger und abgeschlossener Gesetzgebungsverfahren",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren_Archiv/Gesetzgebungsverfahrenssuche_Archiv_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=ba8e85e6d6ec02a939f4d0e5f33f3fa565ffb0b23389&callerId=262054&folderInclude.HASH=83cec73743449ed1dc68ab31ff871650d24189b2d926&folderExclude.HASH=11bb7f5e943acf8d5ecee24607b5559c7eadebb34497&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
-    "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
-    "duplicateSources": []
-  },
-  {
-    "guid": "62fba33310dd6580bfdf99c0",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [],
-    "priority": 1,
-    "title": "Gesetzgebungsverfahren - Anlagen",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Anlagen/Gesetzgebungsverfahrensanlagensuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=9e965c23768a598b6d3d3df820f97c7f64afacb8412c&callerId=110520&folderInclude.HASH=6933c1b2fb024c4615ae5f7c86facb689c6ae9c15ffb&folderExclude.HASH=81c8dd6a069d64e238b6cedaed483037b843daebf1ba&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
-    "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
-    "duplicateSources": []
-  },
-  {
-    "guid": "3c72b041602e825bc96563d1",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [],
-    "priority": 1,
-    "title": "Übersicht der laufenden Gesetzgebungsverfahren",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=691ecd96141ecae2ef386cccea06427c514d1afb06f2&callerId=110518&folderInclude.HASH=b78b29562e7095da92ddfcd8a66df875bf2906674bc9&folderExclude.HASH=eb404bcec84da84084bbb9fa799c3f2246e946350a20&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
-    "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
-    "duplicateSources": []
-  },
-  {
     "guid": "8353e8ade2b8c91e4cfcfdc1",
     "source": "BMJ",
     "sourceLabel": "BMJ",
@@ -176,21 +233,6 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=43f2f21ea5f971f436ce18c1d0b7d805d556ccd5a759&callerId=148026&folderInclude.HASH=0d2ffa7c9a40a26aed157fc3d45366d13b3b3cd85011&folderExclude.HASH=43f855b35ee4918a68ca8b83ec9225857601f200b166&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
     "detectedAt": "2026-08-17T17:09:36.816Z"
-  },
-  {
-    "guid": "e2dd40effe99d97910207ef1",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [],
-    "priority": 1,
-    "title": "Reden, Interviews und Gastbeiträge",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=49e7c2bcdfc2b0e33e541b32289d365873143f915126&callerId.HASH=bf891c152d1f29aee701285dc496bcdef0b40097983c&callerId=110504&folderInclude.HASH=c5de7d30a72a4d94710d1bbaa235c9aa3588b0663252&defaultFilter=documentType_%3ASpeech+OR+documentType_%3AInterview+OR+%28documentType_%3ABasepage+AND+cl2Taxonomies_Dokumenttyp%3A0%2FInterviewUndNamensartikel%29&folderExclude.HASH=f137373fdee5dc4e48271760416e3016cdd4da729ddb&folderInclude=%2FBMJ%2FSharedDocs%2F*",
-    "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z",
-    "duplicateSources": []
   },
   {
     "guid": "dc13a5e0b0853d8d828308a9",
