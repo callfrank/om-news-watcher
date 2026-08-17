@@ -11,7 +11,9 @@ struct ContentView: View {
 
     var body: some View {
         NavigationSplitView {
-            sidebar
+            folderSidebar
+        } content: {
+            sourceColumn
         } detail: {
             detail
         }
@@ -89,7 +91,7 @@ struct ContentView: View {
         }
     }
 
-    private var sidebar: some View {
+    private var folderSidebar: some View {
         VStack(spacing: 0) {
             HStack(spacing: 10) {
                 Image("AppLogo")
@@ -100,7 +102,7 @@ struct ContentView: View {
                 VStack(alignment: .leading, spacing: 1) {
                     Text("OM News Watcher")
                         .font(.headline)
-                    Text("Quellen & Website-Monitoring")
+                    Text("Ordner & Themen")
                         .font(.caption)
                         .foregroundStyle(.secondary)
                 }
@@ -109,14 +111,20 @@ struct ContentView: View {
             }
             .padding(.horizontal, 12)
             .padding(.top, 10)
-            .padding(.bottom, 6)
+            .padding(.bottom, 8)
 
-            List(selection: $model.selectedSourceID) {
+            List {
                 Section("Ordner") {
                     Button {
                         selectedFolder = nil
                     } label: {
-                        Label("Alle Quellen", systemImage: selectedFolder == nil ? "tray.full.fill" : "tray.full")
+                        HStack {
+                            Label("Alle Quellen", systemImage: selectedFolder == nil ? "tray.full.fill" : "tray.full")
+                            Spacer()
+                            Text("\(model.sources.count)")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
                     }
                     .buttonStyle(.plain)
 
@@ -153,57 +161,17 @@ struct ContentView: View {
                         .buttonStyle(.plain)
                     }
                 }
-
-                Section(selectedFolderTitle) {
-                    ForEach(filteredSources) { source in
-                        HStack(spacing: 9) {
-                            Image(systemName: source.enabled ? "checkmark.circle.fill" : "pause.circle.fill")
-                                .foregroundStyle(source.enabled ? .green : .secondary)
-                            VStack(alignment: .leading, spacing: 2) {
-                                HStack(spacing: 6) {
-                                    Text(source.name).lineLimit(1)
-                                    Text(source.priorityStars)
-                                        .font(.caption2)
-                                        .foregroundStyle(source.priority == 3 ? .orange : .secondary)
-                                }
-                                HStack(spacing: 5) {
-                                    Text(host(for: source.url)).lineLimit(1)
-                                    if let group = source.primaryGroup {
-                                        Text("· \(group)").lineLimit(1)
-                                    }
-                                }
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                            }
-                            Spacer(minLength: 4)
-                            if let result = model.testResults[source.id], result.isProblem {
-                                Image(systemName: result.kind == .technicalError ? "xmark.octagon.fill" : (result.kind == .timeout ? "clock.badge.exclamationmark" : "exclamationmark.triangle.fill"))
-                                    .foregroundStyle(result.kind == .technicalError ? .red : .orange)
-                                    .help(result.message)
-                            }
-                        }
-                        .tag(source.id)
-                        .contextMenu {
-                            Button("Quelle testen") { Task { await model.testSource(source) } }
-                            Button(source.enabled ? "Pausieren" : "Aktivieren") { model.setEnabled(!source.enabled, for: source.id) }
-                            Button("Bearbeiten") { model.selectedSourceID = source.id; model.editSelectedSource() }
-                            Divider()
-                            Button("Löschen", role: .destructive) { model.selectedSourceID = source.id; showDeleteConfirmation = true }
-                        }
-                    }
-                }
             }
-            .searchable(text: $searchText, prompt: "Quellen suchen")
             .safeAreaInset(edge: .top) {
                 HStack {
-                    Picker("Filter", selection: $listFilter) {
-                        ForEach(SourceListFilter.allCases) { filter in Text(filter.title).tag(filter) }
-                    }
-                    .labelsHidden()
-                    .frame(maxWidth: 190)
+                    Text(selectedFolderTitle)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
                     Spacer()
-                    Button { model.showGroupManager = true } label: { Image(systemName: "folder.badge.gearshape") }
-                        .help("Ordner verwalten")
+                    Button { model.showGroupManager = true } label: {
+                        Image(systemName: "folder.badge.gearshape")
+                    }
+                    .help("Ordner verwalten")
                 }
                 .padding(.horizontal, 10)
                 .padding(.vertical, 6)
@@ -211,10 +179,7 @@ struct ContentView: View {
             }
 
             HStack {
-                Text("\(model.activeCount) aktiv")
-                if model.pausedCount > 0 {
-                    Text("• \(model.pausedCount) pausiert")
-                }
+                Text("\(model.allGroups.count) Ordner")
                 Spacer()
                 if model.isDirty {
                     Label("Nicht gespeichert", systemImage: "circle.fill")
@@ -226,8 +191,108 @@ struct ContentView: View {
             .foregroundStyle(.secondary)
             .padding(10)
         }
-        .navigationTitle("OM News Watcher")
-        .frame(minWidth: 310)
+        .navigationTitle("Ordner")
+        .navigationSplitViewColumnWidth(min: 190, ideal: 230, max: 290)
+    }
+
+    private var sourceColumn: some View {
+        VStack(spacing: 0) {
+            HStack {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(selectedFolderTitle)
+                        .font(.headline)
+                    Text("\(filteredSources.count) Quellen")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+            }
+            .padding(.horizontal, 12)
+            .padding(.top, 10)
+            .padding(.bottom, 8)
+
+            List(selection: $model.selectedSourceID) {
+                ForEach(filteredSources) { source in
+                    HStack(spacing: 9) {
+                        Image(systemName: source.enabled ? "checkmark.circle.fill" : "pause.circle.fill")
+                            .foregroundStyle(source.enabled ? .green : .secondary)
+
+                        VStack(alignment: .leading, spacing: 2) {
+                            HStack(spacing: 6) {
+                                Text(source.name)
+                                    .lineLimit(1)
+                                Text(source.priorityStars)
+                                    .font(.caption2)
+                                    .foregroundStyle(source.priority == 3 ? .orange : .secondary)
+                            }
+
+                            HStack(spacing: 5) {
+                                Text(host(for: source.url))
+                                    .lineLimit(1)
+                                if selectedFolder == nil, let group = source.primaryGroup {
+                                    Text("· \(group)")
+                                        .lineLimit(1)
+                                }
+                            }
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                        }
+
+                        Spacer(minLength: 4)
+
+                        if let result = model.testResults[source.id], result.isProblem {
+                            Image(systemName: result.kind == .technicalError ? "xmark.octagon.fill" : (result.kind == .timeout ? "clock.badge.exclamationmark" : "exclamationmark.triangle.fill"))
+                                .foregroundStyle(result.kind == .technicalError ? .red : .orange)
+                                .help(result.message)
+                        }
+                    }
+                    .tag(source.id)
+                    .contextMenu {
+                        Button("Quelle testen") { Task { await model.testSource(source) } }
+                        Button(source.enabled ? "Pausieren" : "Aktivieren") { model.setEnabled(!source.enabled, for: source.id) }
+                        Button("Bearbeiten") { model.selectedSourceID = source.id; model.editSelectedSource() }
+                        Divider()
+                        Button("Löschen", role: .destructive) { model.selectedSourceID = source.id; showDeleteConfirmation = true }
+                    }
+                }
+            }
+            .searchable(text: $searchText, prompt: "Quellen suchen")
+            .safeAreaInset(edge: .top) {
+                HStack {
+                    Picker("Filter", selection: $listFilter) {
+                        ForEach(SourceListFilter.allCases) { filter in
+                            Text(filter.title).tag(filter)
+                        }
+                    }
+                    .labelsHidden()
+                    .frame(maxWidth: 210)
+
+                    Spacer()
+
+                    Button { model.showBulkManager = true } label: {
+                        Image(systemName: "checkmark.circle.badge.plus")
+                    }
+                    .help("Quellen verwalten")
+                }
+                .padding(.horizontal, 10)
+                .padding(.vertical, 6)
+                .background(.bar)
+            }
+
+            HStack {
+                Text("\(filteredSources.filter(\.enabled).count) aktiv")
+                let pausedVisible = filteredSources.filter { !$0.enabled }.count
+                if pausedVisible > 0 {
+                    Text("• \(pausedVisible) pausiert")
+                }
+                Spacer()
+            }
+            .font(.caption)
+            .foregroundStyle(.secondary)
+            .padding(10)
+        }
+        .navigationTitle(selectedFolderTitle)
+        .navigationSplitViewColumnWidth(min: 280, ideal: 340, max: 440)
     }
 
     @ViewBuilder
