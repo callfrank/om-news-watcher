@@ -1222,5 +1222,41 @@
     "visualValidatedAt" : "2026-08-17T11:44:18Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 41 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-134738",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "includeRegex" : "^https?://einzelhandel\\.de/presse/aktuellemeldungen/",
+    "minTitleLength" : 5,
+    "name" : "Handelsverband",
+    "selectors" : {
+      "date" : "",
+      "item" : "h1.result__title",
+      "link" : "a.result__title-link",
+      "title" : "h1.result__title"
+    },
+    "shortName" : "Handelsverband",
+    "url" : "https://einzelhandel.de/presse/aktuellemeldungen",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T11:47:38Z",
+    "visualRuleVersion" : 2,
+    "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:47:41Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 15 Treffer",
+    "waitMs" : 2500
   }
 ]
