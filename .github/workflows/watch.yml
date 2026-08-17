@@ -12,7 +12,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: om-news-watcher-repo
+  group: om-news-watcher
   cancel-in-progress: false
 
 jobs:
@@ -43,35 +43,45 @@ jobs:
       - name: Änderungen speichern
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           git config user.name "OM News Watcher"
           git config user.email "actions@users.noreply.github.com"
 
-          git add data/state.json data/items.json docs/feed.xml
+          TMP_DIR="$(mktemp -d)"
+          cp data/state.json "$TMP_DIR/state.json"
+          cp data/items.json "$TMP_DIR/items.json"
+          cp docs/feed.xml "$TMP_DIR/feed.xml"
 
-          if git diff --cached --quiet; then
-            echo "Keine Änderungen – nichts zu speichern."
-            exit 0
-          fi
-
-          git commit -m "Update news feed"
-
-          # Während der Laufzeit kann z. B. die Mac-App sources.json
-          # geändert haben. Deshalb vor dem Push den neuesten main-Stand
-          # holen und unseren Commit darauf neu aufsetzen.
           for attempt in 1 2 3; do
-            echo "Push-Versuch $attempt von 3"
+            echo "Speicher-Versuch $attempt von 3"
 
+            # Die drei Dateien sind reine Build-Artefakte. Deshalb wird
+            # nicht versucht, zwei unterschiedliche feed.xml-Versionen
+            # per Rebase zusammenzuführen. Zuerst neuesten main holen,
+            # danach die gerade erzeugten Dateien wieder darüberlegen.
             git fetch origin main
-            git rebase origin/main
+            git reset --hard origin/main
+
+            cp "$TMP_DIR/state.json" data/state.json
+            cp "$TMP_DIR/items.json" data/items.json
+            cp "$TMP_DIR/feed.xml" docs/feed.xml
+
+            git add data/state.json data/items.json docs/feed.xml
+
+            if git diff --cached --quiet; then
+              echo "Keine Änderungen – nichts zu speichern."
+              exit 0
+            fi
+
+            git commit -m "Update news feed"
 
             if git push origin HEAD:main; then
               echo "Änderungen erfolgreich gespeichert."
               exit 0
             fi
 
-            echo "Push wurde zwischenzeitlich überholt – neuer Versuch ..."
+            echo "main wurde erneut geändert – neuer Versuch mit frischem Stand."
             sleep 2
           done
 
