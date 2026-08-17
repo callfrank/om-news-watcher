@@ -25,6 +25,9 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-17T10:03:11Z",
     "visualSampleCount" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:21:31Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 68 Treffer",
     "waitMs" : 5000
   },
   {
@@ -124,20 +127,25 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-17T10:08:40Z",
     "visualSampleCount" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:21:47Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 33 Treffer",
     "waitMs" : 5000
   },
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-121041",
+    "baselineVersion" : "mac-app-20260817-132605",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "includeRegex" : "^https?://www\\.omt\\.de/events/",
     "minTitleLength" : 5,
     "name" : "OMT E-Commerce Events",
     "selectors" : {
-      "date" : "",
-      "item" : "a.event-category-listing-button",
-      "link" : "a.event-category-listing-button",
-      "title" : "a.event-category-listing-button"
+      "date" : "p.event-category-listing-date",
+      "item" : "div.event-category-listing-summary",
+      "link" : "a",
+      "title" : "a"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.omt.de/events/e-commerce-konferenzen/",
@@ -151,8 +159,14 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T10:10:41Z",
+    "visualLearnedAt" : "2026-08-17T11:26:05Z",
+    "visualRuleVersion" : 2,
     "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:26:10Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 55 Treffer",
     "waitMs" : 3000
   },
   {
@@ -257,6 +271,9 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-17T10:18:44Z",
     "visualSampleCount" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:22:24Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 26 Treffer",
     "waitMs" : 5000
   },
   {
@@ -339,6 +356,8 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-17T10:25:14Z",
     "visualSampleCount" : 3,
+    "visualValidated" : false,
+    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Zu viele Treffer",
     "waitMs" : 3000
   },
   {
@@ -381,6 +400,8 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-17T10:27:08Z",
     "visualSampleCount" : 3,
+    "visualValidated" : false,
+    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
     "waitMs" : 3000
   },
   {
@@ -525,6 +546,8 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-17T10:31:42Z",
     "visualSampleCount" : 3,
+    "visualValidated" : false,
+    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
     "waitMs" : 1500
   },
   {
@@ -632,6 +655,9 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-17T10:36:38Z",
     "visualSampleCount" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:23:30Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
     "waitMs" : 1200
   },
   {
@@ -970,6 +996,9 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-14T14:53:20Z",
     "visualSampleCount" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:25:14Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 111 Treffer",
     "waitMs" : 2500
   },
   {
@@ -998,6 +1027,9 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-14T14:52:31Z",
     "visualSampleCount" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:25:17Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 16 Treffer",
     "waitMs" : 2500
   }
 ]
