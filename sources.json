@@ -127,18 +127,32 @@
     "waitMs" : 5000
   },
   {
-    "baselineVersion" : "v10-parked",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-121041",
     "enabled" : true,
-    "excludeRegex" : "^https://www\\.omt\\.de/(?:events/?$|webinare/?$|events/e-commerce-konferenzen/?$)",
+    "minTitleLength" : 5,
     "name" : "OMT E-Commerce Events",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "a.event-category-listing-button",
+      "link" : "a.event-category-listing-button",
+      "title" : "a.event-category-listing-button"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.omt.de/events/e-commerce-konferenzen/",
+    "visualBackup" : {
+      "excludeRegex" : "^https://www\\.omt\\.de/(?:events/?$|webinare/?$|events/e-commerce-konferenzen/?$)",
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T10:10:41Z",
+    "visualSampleCount" : 3,
     "waitMs" : 3000
   },
   {
