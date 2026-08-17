@@ -383,6 +383,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Sonstiges"
+    ],
     "includeRegex" : "^https://newsroom\\.gmx\\.net/20\\d{2}/\\d{2}/\\d{2}/",
     "name" : "GMX Newsroom",
     "selectors" : {
@@ -496,6 +499,9 @@
     "baselineVersion" : "v11-lka",
     "enabled" : true,
     "fetchMode" : "html",
+    "groups" : [
+      "Sonstiges"
+    ],
     "includeRegex" : "^https://www\\.polizei-praevention\\.de/aktuelles/[^/?#]+\\.html$",
     "minTitleLength" : 18,
     "name" : "LKA Prävention",
@@ -783,6 +789,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Sonstiges"
+    ],
     "includeRegex" : "^https://blog\\.google/products/ads-commerce/[^/?#]+/?$",
     "name" : "Google Ads & Commerce Blog",
     "selectors" : {
@@ -941,6 +950,9 @@
     "autoScroll" : 3,
     "baselineVersion" : "v10-parked",
     "enabled" : false,
+    "groups" : [
+      "Sonstiges"
+    ],
     "name" : "ServiceValue Newsroom",
     "selectors" : {
       "date" : "",
@@ -1012,6 +1024,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Verbände"
+    ],
     "includeRegex" : "^https://startupverband\\.de/presse/pressemitteilungen/",
     "name" : "Startup-Verband Presse",
     "selectors" : {
@@ -1094,6 +1109,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Sonstiges"
+    ],
     "includeRegex" : "^https://www\\.vzbv\\.de/pressemitteilungen/",
     "name" : "VZBV Pressemitteilungen",
     "selectors" : {
@@ -1108,6 +1126,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Sonstiges"
+    ],
     "includeRegex" : "^https://www\\.verbraucherzentrale-bawue\\.de/pressemitteilungen/",
     "name" : "Verbraucherzentrale BW Presse",
     "selectors" : {
@@ -1123,6 +1144,9 @@
   {
     "enabled" : true,
     "excludeRegex" : "^https://www\\.vzhh\\.de/(?:themen/|presse/?$)",
+    "groups" : [
+      "Sonstiges"
+    ],
     "name" : "Verbraucherzentrale Hamburg Presse",
     "selectors" : {
       "date" : "",
@@ -1136,6 +1160,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Sonstiges"
+    ],
     "includeRegex" : "^https://www\\.verbraucherzentrale-rlp\\.de/pressemitteilungen/",
     "name" : "Verbraucherzentrale RLP Presse",
     "selectors" : {
@@ -1261,6 +1288,9 @@
     "baselineVersion" : "mac-app-20260817-134018",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Sonstiges"
+    ],
     "includeRegex" : "^https?://onlinemarktplatz\\.de/",
     "minTitleLength" : 5,
     "name" : "Onlinemarktplatz",
@@ -1336,6 +1366,9 @@
     "baselineVersion" : "mac-app-20260817-134414",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Sonstiges"
+    ],
     "includeRegex" : "^https?://wortfilter\\.de/",
     "minTitleLength" : 5,
     "name" : "Wortfilter",
