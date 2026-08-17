@@ -9,7 +9,7 @@ const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 
-const VERSION = '0.16';
+const VERSION = '0.17';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
@@ -182,12 +182,165 @@ function syntheticTitleUrl(source, title) {
   return u.href;
 }
 
+
+function normalizeTitle(value = '') {
+  let result = String(value || '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  result = result.replace(
+    /\s*(?:mehr erfahren|mehr anzeigen|weiterlesen|read article|read more|learn more|download(?: for free)?|zur konferenz)\s*[›>…\.]*\s*$/i,
+    ''
+  );
+
+  for (let i = 0; i < 3; i++) {
+    const next = result.replace(
+      /^(?:presseinformation|pressemitteilung|press release|company updates?|presse)\s*[:\-–—]?\s*/i,
+      ''
+    );
+    if (next === result) break;
+    result = next;
+  }
+
+  result = result.replace(
+    /^\d{1,2}\.?\s+(?:jan(?:uar)?|feb(?:ruar)?|mär(?:z)?|mrz|apr(?:il)?|mai|jun(?:i)?|jul(?:i)?|aug(?:ust)?|sep(?:tember)?|okt(?:ober)?|nov(?:ember)?|dez(?:ember)?|january|february|march|april|may|june|july|august|september|october|november|december)\.?\s+20\d{2}\s*[:\-–—]?\s*/i,
+    ''
+  );
+
+  result = result.replace(
+    /^20\d{2}-\d{2}-\d{2}(?:T[^\s]+)?\s*[:\-–—]?\s*/,
+    ''
+  );
+
+  return result
+    .replace(/^[\-–—:|·\s]+|[\-–—:|·\s]+$/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function genericTitle(value = '') {
+  const lower = String(value || '').replace(/\s+/g, ' ').trim().toLowerCase();
+  if (!lower) return true;
+
+  const exact = new Set([
+    'home','startseite','kontakt','contact','about','über uns','impressum',
+    'datenschutz','privacy','login','jobs','karriere','services','service',
+    'governance','media','stories','publications','news','presse','press',
+    'menu','navigation','newsroom','press releases','pressemitteilungen',
+    'events','media & resources','news & resources','unternehmensnews',
+    'unternehmensmitteilungen','company news','company updates'
+  ]);
+  if (exact.has(lower)) return true;
+
+  if (/^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|zur konferenz)/i.test(lower)) return true;
+  if (/^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(lower)) return true;
+  return false;
+}
+
+function samePage(candidate, sourceUrl) {
+  try {
+    const a = new URL(candidate, sourceUrl);
+    const b = new URL(sourceUrl);
+    const norm = p => p.length > 1 && p.endsWith('/') ? p.slice(0, -1) : (p || '/');
+    return a.hostname.toLowerCase() === b.hostname.toLowerCase() &&
+      norm(a.pathname) === norm(b.pathname) &&
+      !a.search && !b.search;
+  } catch {
+    return false;
+  }
+}
+
+function visualSampleShapeAllows(link, source) {
+  const raw = Array.isArray(source.visualSampleURLs) ? source.visualSampleURLs : [];
+  if (raw.length < 2) return true;
+
+  let samples, candidate;
+  try {
+    samples = raw.map(value => new URL(value, source.url));
+    candidate = new URL(link, source.url);
+  } catch {
+    return true;
+  }
+
+  const hosts = new Set(samples.map(u => u.hostname.toLowerCase()));
+  if (hosts.size === 1) {
+    const host = [...hosts][0];
+    const ch = candidate.hostname.toLowerCase();
+    if (!(ch === host || ch.endsWith('.' + host) || host.endsWith('.' + ch))) return false;
+  }
+
+  if (samples.every(u => !u.search) && candidate.search) return false;
+
+  const exts = new Set(samples.map(u => (u.pathname.match(/\.([a-z0-9]{1,6})$/i)?.[1] || '').toLowerCase()));
+  if (exts.size === 1) {
+    const ext = [...exts][0];
+    const candidateExt = (candidate.pathname.match(/\.([a-z0-9]{1,6})$/i)?.[1] || '').toLowerCase();
+    if (!ext && /^(pdf|docx?|xlsx?|zip)$/i.test(candidateExt)) return false;
+    if (ext && candidateExt !== ext) return false;
+  }
+
+  const parts = samples.map(u => u.pathname.split('/').filter(Boolean));
+  const depths = parts.map(v => v.length);
+  const minDepth = Math.min(...depths), maxDepth = Math.max(...depths);
+  const candidateParts = candidate.pathname.split('/').filter(Boolean);
+  if (maxDepth - minDepth <= 1 && (candidateParts.length < minDepth || candidateParts.length > maxDepth)) return false;
+
+  const leafLengths = parts.map(v => (v.at(-1) || '').length);
+  const shortest = Math.min(...leafLengths);
+  const threshold = Math.max(10, Math.min(40, Math.floor(shortest * 0.45)));
+  if ((candidateParts.at(-1) || '').length < threshold) return false;
+
+  const minParts = Math.min(...parts.map(v => v.length));
+  const common = [];
+  for (let i = 0; i < Math.max(0, minParts - 1); i++) {
+    const value = parts[0][i];
+    if (parts.every(list => list[i] === value)) common.push(value); else break;
+  }
+  if (common.length && common.some((value, index) => candidateParts[index] !== value)) return false;
+
+  return true;
+}
+
+function semanticSourcePrefix(source) {
+  try {
+    const u = new URL(source.url);
+    const parts = u.pathname.split('/').filter(Boolean);
+    const last = (parts.at(-1) || '').toLowerCase();
+    const semantic = new Set(['newsroom','news','presse','press','press-releases','pressemitteilungen','stories','reports','events']);
+    if (!semantic.has(last)) return '';
+    return u.pathname.endsWith('/') ? u.pathname : u.pathname + '/';
+  } catch {
+    return '';
+  }
+}
+
+function normalizePageDate(value = '') {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  if (!text) return '';
+
+  const iso = new Date(text);
+  if (!Number.isNaN(iso.getTime()) && /^20\d{2}-\d{2}-\d{2}/.test(text)) {
+    return new Intl.DateTimeFormat('de-DE', {
+      timeZone: 'Europe/Berlin', day: '2-digit', month: '2-digit', year: 'numeric'
+    }).format(iso);
+  }
+
+  const m = text.match(/\b(\d{1,2})\.?\s+(Jan(?:uar)?|Feb(?:ruar)?|Mär(?:z)?|Mrz|Apr(?:il)?|Mai|Jun(?:i)?|Jul(?:i)?|Aug(?:ust)?|Sep(?:tember)?|Okt(?:ober)?|Nov(?:ember)?|Dez(?:ember)?)\.?\s+(20\d{2})\b/i);
+  if (m) {
+    const map = {jan:1,januar:1,feb:2,februar:2,mär:3,märz:3,mrz:3,apr:4,april:4,mai:5,jun:6,juni:6,jul:7,juli:7,aug:8,august:8,sep:9,september:9,okt:10,oktober:10,nov:11,november:11,dez:12,dezember:12};
+    const month = map[m[2].toLowerCase()];
+    if (month) return `${String(Number(m[1])).padStart(2,'0')}.${String(month).padStart(2,'0')}.${m[3]}`;
+  }
+
+  return text;
+}
+
 function looksLikeArticle(text, href, source) {
   if (!text || text.length < 6 || text.length > 320 || !href) {
     return false;
   }
 
-  if (/^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more)/i.test(text.trim()) || /^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(text.trim())) {
+  if (genericTitle(text)) {
     return false;
   }
 
@@ -315,13 +468,13 @@ async function extractConfigured(page, source) {
       return link?.href || link?.getAttribute?.('href') || '';
     };
     const smartTitle = (el, root) => {
-      const own = clean(el?.textContent || el?.getAttribute?.('aria-label') || el?.title || '');
-      if (own && own.length <= 320 && !generic(own)) return own;
       const selectors = 'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i],[data-testid*="title" i],strong';
       for (const node of Array.from(root?.querySelectorAll?.(selectors) || [])) {
         const value = clean(node.textContent || node.getAttribute?.('aria-label') || '');
         if (value.length >= 5 && value.length <= 320 && !generic(value)) return value;
       }
+      const own = clean(el?.textContent || el?.getAttribute?.('aria-label') || el?.title || '');
+      if (own && own.length <= 320 && !generic(own)) return own;
       const alt = clean(root?.querySelector?.('img[alt]')?.getAttribute?.('alt') || '');
       return alt.length >= 8 ? alt : own;
     };
@@ -372,13 +525,13 @@ async function extractAutomatic(page, source) {
       return link?.href || link?.getAttribute?.('href') || '';
     };
     const titleFor = (el, card) => {
-      const own = clean(el?.textContent || el?.getAttribute?.('aria-label') || el?.title || '');
-      if (own && own.length <= 320 && !generic(own)) return own;
       const selectors = 'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i],[data-testid*="title" i],strong';
       for (const node of Array.from(card?.querySelectorAll?.(selectors) || [])) {
         const value = clean(node.textContent || node.getAttribute?.('aria-label') || '');
         if (value.length >= 5 && value.length <= 320 && !generic(value)) return value;
       }
+      const own = clean(el?.textContent || el?.getAttribute?.('aria-label') || el?.title || '');
+      if (own && own.length <= 320 && !generic(own)) return own;
       const alt = clean(card?.querySelector?.('img[alt]')?.getAttribute?.('alt') || '');
       return alt.length >= 8 ? alt : own;
     };
@@ -398,12 +551,9 @@ function normalizeAndFilter(rows, source) {
   const map = new Map();
 
   for (const r of rows || []) {
-    const title = (r.title || '')
-      .replace(/\s+/g, ' ')
-      .trim();
+    const title = normalizeTitle(r.title || '');
 
-    const date = (r.date || '')
-      .trim();
+    const date = normalizePageDate(r.date || '');
 
     if (!title) continue;
 
@@ -423,6 +573,9 @@ function normalizeAndFilter(rows, source) {
     const link = canonicalUrl(rawHref, source.url);
 
     if (!link) continue;
+    if (source.allowTitleOnly !== true && samePage(link, source.url)) continue;
+    if (genericTitle(title)) continue;
+    if (source.visualLearned === true && !visualSampleShapeAllows(link, source)) continue;
 
     /*
      * Titel-only-Quellen haben synthetische URLs zur
@@ -460,6 +613,19 @@ function normalizeAndFilter(rows, source) {
   }
 
   let result = [...map.values()];
+
+  const semanticPrefix = semanticSourcePrefix(source);
+  if (semanticPrefix && result.length >= 8) {
+    const scoped = result.filter(item => {
+      try {
+        const u = new URL(item.link);
+        return u.pathname.startsWith(semanticPrefix) && !samePage(item.link, source.url);
+      } catch { return false; }
+    });
+    if (scoped.length >= 5 && scoped.length / result.length >= 0.35) {
+      result = scoped;
+    }
+  }
 
   if (source.reverseDetected === true) {
     result.reverse();
