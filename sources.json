@@ -1118,15 +1118,17 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260814-165231",
+    "baselineVersion" : "mac-app-20260817-134018",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "includeRegex" : "^https?://onlinemarktplatz\\.de/",
     "minTitleLength" : 5,
     "name" : "Onlinemarktplatz",
     "selectors" : {
       "date" : "span.meta-date",
       "item" : "div.post-content",
       "link" : "a",
-      "title" : "h2.entry-title"
+      "title" : "a"
     },
     "shortName" : "https://onlinemarktplatz.de/",
     "url" : "https://onlinemarktplatz.de/",
@@ -1139,11 +1141,14 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-14T14:52:31Z",
+    "visualLearnedAt" : "2026-08-17T11:40:18Z",
+    "visualRuleVersion" : 2,
     "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:25:17Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 16 Treffer",
+    "visualValidatedAt" : "2026-08-17T11:40:21Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 47 Treffer",
     "waitMs" : 2500
   }
 ]
