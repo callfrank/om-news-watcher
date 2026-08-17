@@ -1,12 +1,222 @@
 [
   {
+    "guid": "ef6bcd5e18ca0da5df817945",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": ".st0{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;} Gesetzgebung",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=227a88944d941f5cefafffac7daa2130fae1ab9eb643&callerId=110518&folderInclude.HASH=fa948836c7df0289aad7bcc3abf16aea73234c911e5f&folderExclude.HASH=f946c6ffd65ca4ff5693ee392894a1ff8e9c191d27f1&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z"
+  },
+  {
+    "guid": "6b51fb1f81913a498dc65b45",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": ".st0{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;} .st1{fill:none;stroke:#000000;stroke-width:3;} Veranstaltungen",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Veranstaltungssuche/Archiv/Veranstaltungssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=4785c0624dd2680c93a7331604eef3356eca4ee31792&callerId=110572&folderInclude.HASH=13b72d5f33c5d5746b55f4d9b34f7670f3c29709ea12&folderExclude.HASH=a9ef91091c7f955fa65e8b91b5807b2a0a01d0c914ef&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z"
+  },
+  {
+    "guid": "1b02470e5b2bd50c8272f2f3",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Alle Publikationen",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=445f51c1e867cacd0959325a978c2e2445593ce45c2d&callerId.HASH=8c8bf5ac71538d5bad7800b5db55831c159ffe57b665&callerId=110568&folderInclude.HASH=3d2c8f086660032554c6b27d620dbb8fa31c26371914&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=98e22ad6c7360b5e5ef0d4722bb749a748540f7bec60&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z"
+  },
+  {
+    "guid": "50ef3f40b8b5c2517217480a",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Broschüren und Infomaterial",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=a06876853368ba05a60bd53697e5088c9784df434ab1&callerId.HASH=c609819b3bcc23cf09619b20e30473ac73d4de00aff5&callerId=110568&folderInclude.HASH=8d52ba91def18131cb57de63196efeb1849be92a9737&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=f3e89924c6c84b2cbc6d4962125afb007cce830bd377&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "86614b9a49416b55f1d978c6",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Aktuelle Gesetzgebungsverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=e7a4a24796d352f409532debaae36d2ee0e5d556ca0c&callerId=110518&folderInclude.HASH=0e9baa2baa5895793737621fd998f53b551606bb2c30&folderExclude.HASH=ae2feeb54e6905786361ff3ab5749cb1e6f286411d70&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "1fd4b47e955e295f17070115",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Richtlinien für den Verkehr mit dem Ausland in strafrechtlichen Angelegenheiten (RiVASt)",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/RiVAStsuche/RiVASt_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=edd1f53e2a254b21c84286ef9465c0865481478413ec&callerId=110522&folderInclude.HASH=eb71b3d408b32b97424ee0819daa2a92de70c69c1a2c&folderExclude.HASH=3b5b277810b03cdf384a37b184902ccb3cb1d31b32db&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "8a3e375e28b9361270f68dfb",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Belehrungsformulare für das Jugendstrafverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Belehrungsformularsuche/Belehrungsformularsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=e103117c06c2de0c29cfce585bbaef6b4ec974b4184e&callerId=111028&folderInclude.HASH=f9d5027dc1da39bf7e0f4a3a7990d60cfd9b89e16e9b&folderExclude.HASH=29cb70a67e09f4ffcf1004bfd98b996b13b85cfea860&folderInclude=%2FBMJ%2FSharedDocs%2FDownloads%2FDE%2FFormular%2FBelehrungsformulare_Jugendliche%2F*+",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "1e51c40a40a79dbc1580f839",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Belehrungsformulare für festgehaltene Personen im allgemeinen Strafverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Belehrungsformularsuche/Belehrungsformularsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=27df6c84984c9bee906880ce7ec17353206c9d55af72&callerId=111026&folderInclude.HASH=80c3a446ee28440b1d25bc5177ae365d2cfe4f593c3c&folderExclude.HASH=d1fdd2c0f61e393575d4e61eaeba254470d528bbc7a4&folderInclude=%2FBMJ%2FSharedDocs%2FDownloads%2FDE%2FFormular%2FBelehrungsformulare_Erwachsene%2F*+",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "88b2cf46421999ca96d80010",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Archiv vorheriger und abgeschlossener Gesetzgebungsverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren_Archiv/Gesetzgebungsverfahrenssuche_Archiv_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=52cd5b131667879cc76e86164a3e34848b421dcacc06&callerId=262054&folderInclude.HASH=b520fa536cbc9534126677ff9883d483823b273263cd&folderExclude.HASH=e319c690786d720f0d6d4e1314cf7e374d20a7ae3b27&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "56625cf426b9d5dc1f139bd9",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Gesetzgebungsverfahren - Anlagen",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Anlagen/Gesetzgebungsverfahrensanlagensuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=ccd326c288d1d41044b9dd1f4a8ebbf8c1969c5acabb&callerId=110520&folderInclude.HASH=b29ac58ad950555ef683ee671d49c3dc2b11c95c7b51&folderExclude.HASH=7bdffeac5a28ab49cc66fce7ee09d246ef07fdd7b0ef&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "cff7d3cb228d81f626ed9143",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Übersicht der laufenden Gesetzgebungsverfahren",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=5e01f60b6a3dea3dd9b97503ca53138306e92fe0261e&callerId=110518&folderInclude.HASH=dba13b161589aed82b5515753de47f4e16ed808da6ad&folderExclude.HASH=5e482bff2f4de7b266484c434498606e0a4343b54919&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "211d615aa2a1fc8663de0f04",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Alle Meldungen",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=fbc8ab7f068c31c88879e7e358429a379fa57e5bf6a4&callerId=148026&folderInclude.HASH=26b1430e7c99e004ed01bda06961961a61d4d77852f8&folderExclude.HASH=f3fe54c8b97495ab6cfb13dfb1a5ed1e12487c3cdea3&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z"
+  },
+  {
+    "guid": "5d87f0d6a7eeac85ae7f73a4",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Reden, Interviews und Gastbeiträge",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=bdaa5860483c30475758a5df6647866ccd54c419d2d0&callerId.HASH=939822f6ab9e020f5ffcfb01d5bae6e6edf76fd12d25&callerId=110504&folderInclude.HASH=7306bbe7db127e4f441387c7e76d5dac0f2d4d7380b7&defaultFilter=documentType_%3ASpeech+OR+documentType_%3AInterview+OR+%28documentType_%3ABasepage+AND+cl2Taxonomies_Dokumenttyp%3A0%2FInterviewUndNamensartikel%29&folderExclude.HASH=8e9db5adf2144763a554feced8a57030d4c084018550&folderInclude=%2FBMJ%2FSharedDocs%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "duplicateSources": []
+  },
+  {
+    "guid": "28f0a64cc250cfb50ab62348",
+    "source": "BMJ",
+    "sourceLabel": "BMJ",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [],
+    "priority": 1,
+    "title": "Alle Meldungen",
+    "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=42b7d195b2d7a56e043aed58abc9a9998334a7bcb0af&callerId=148026&folderInclude.HASH=8234c5e7e92b48e4ac0fb360ab6cd737f5c83322e830&folderExclude.HASH=65407cc220303f5a4e4166ae6f73ccee4215395505b5&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
+    "pageDate": null,
+    "detectedAt": "2026-08-17T12:35:19.007Z"
+  },
+  {
     "guid": "8fa20f29adf4347d7e71efd1",
     "source": "Visa Newsroom DE",
     "sourceLabel": "Visa",
     "title": "mappe zum Unternehmen",
     "link": "https://www.visa.de/uber-visa/newsroom/press-releases.2894530.html",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:00:36.912Z"
+    "detectedAt": "2026-08-17T12:00:36.912Z",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "91e66ddd9a041d27d52745b9",
@@ -15,7 +225,12 @@
     "title": "mappe zum Unternehmen",
     "link": "https://www.visa.de/uber-visa/newsroom/press-releases.2917166.html",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:00:36.912Z"
+    "detectedAt": "2026-08-17T12:00:36.912Z",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "5872858081c178cc757fa421",
@@ -24,7 +239,12 @@
     "title": "mappe zum Unternehmen",
     "link": "https://www.visa.de/uber-visa/newsroom/press-releases.3024289.html",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:00:36.912Z"
+    "detectedAt": "2026-08-17T12:00:36.912Z",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "718ae12d85e445d6077fd53f",
@@ -33,7 +253,12 @@
     "title": "mappe zum Unternehmen",
     "link": "https://www.visa.de/uber-visa/newsroom/press-releases.3031905.html",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:00:36.912Z"
+    "detectedAt": "2026-08-17T12:00:36.912Z",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "553f8fe90736e0ff47d5e3da",
@@ -42,7 +267,12 @@
     "title": "mappe zum Unternehmen",
     "link": "https://www.visa.de/uber-visa/newsroom/press-releases.3044432.html",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:00:36.912Z"
+    "detectedAt": "2026-08-17T12:00:36.912Z",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "0c0a7d2aaa1bfef6c252edaa",
@@ -51,7 +281,12 @@
     "title": "mappe zum Unternehmen",
     "link": "https://www.visa.de/uber-visa/newsroom/press-releases.3088352.html",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:00:36.912Z"
+    "detectedAt": "2026-08-17T12:00:36.912Z",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "4b2ae81057205ddd845b883f",
@@ -60,7 +295,12 @@
     "title": "mappe zum Unternehmen",
     "link": "https://www.visa.de/uber-visa/newsroom/press-releases.3123270.html",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:00:36.912Z"
+    "detectedAt": "2026-08-17T12:00:36.912Z",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "06be4ebab03b8a5c6a78dce1",
@@ -69,7 +309,12 @@
     "title": "YouGov stories",
     "link": "https://corporate.yougov.com/press/yougov-stories/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.986Z"
+    "detectedAt": "2026-08-17T11:40:45.986Z",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "6eab44f70a8cfc21011de91e",
@@ -78,7 +323,12 @@
     "title": "Media kit",
     "link": "https://corporate.yougov.com/press/media-kit/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.986Z"
+    "detectedAt": "2026-08-17T11:40:45.986Z",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "6c1ce6885cd821d2745b05dc",
@@ -87,7 +337,12 @@
     "title": "Financial reports",
     "link": "https://corporate.yougov.com/investors/financial-reports/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.986Z"
+    "detectedAt": "2026-08-17T11:40:45.986Z",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "fd390cbac02bd0d133954f36",
@@ -96,7 +351,12 @@
     "title": "Main Menu",
     "link": "https://corporate.yougov.com/press/news-and-press-releases/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.986Z"
+    "detectedAt": "2026-08-17T11:40:45.986Z",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "ee86de3368d9c1a0c8763331",
@@ -105,7 +365,12 @@
     "title": "Medieninformation: MagentaTV: Neue Thriller-Serie hat Premiere bei MagentaTV",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/neue-thriller-serie-droneland-premiere-magentatv-1106696",
     "pageDate": "2026-08-17T11:00+0200",
-    "detectedAt": "2026-08-17T11:40:45.985Z"
+    "detectedAt": "2026-08-17T11:40:45.985Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "ec3a9bf63f274b1f9ac79a37",
@@ -114,7 +379,12 @@
     "title": "Sie möchten Ihre Umsätze maximieren und Ihr Online-Business nachhaltig steigern?",
     "link": "https://www.mollie.com/de/papers/world-class-commercial-infrastructure",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "f3961d55673259edc7711e15",
@@ -123,7 +393,12 @@
     "title": "Der Europäische E-Commerce-Report 2022",
     "link": "https://www.mollie.com/de/papers/european-ecommerce-report",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "036d8aff63c5596b75ccb0bd",
@@ -132,7 +407,12 @@
     "title": "Our story",
     "link": "https://www.tencent.com/who-we-are/our-story/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "8508d4aafb6944294ed42a43",
@@ -141,7 +421,12 @@
     "title": "Next »",
     "link": "https://www.tencent.com/en-us/media/news.html",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "a0a057532ba49e8a203e35bd",
@@ -150,7 +435,12 @@
     "title": "Events",
     "link": "https://www.tencent.com/category/events/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "8e327bd237c8086749cc6029",
@@ -159,7 +449,12 @@
     "title": "Media resources",
     "link": "https://www.tencent.com/newsroom/media-resources",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "7aadcb5b4af3a087b4ed5296",
@@ -168,7 +463,12 @@
     "title": "Events news",
     "link": "https://www.tencent.com/newsroom/events/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "4377415ab3a0666534fc1688",
@@ -177,7 +477,12 @@
     "title": "Media resources",
     "link": "https://www.tencent.com/newsroom/media-resources/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "3ac792b4a20e4682f829d8db",
@@ -186,7 +491,12 @@
     "title": "Newsroom",
     "link": "https://www.tencent.com/newsroom/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "3459952de6dcb74f2a05be83",
@@ -195,7 +505,12 @@
     "title": "Financial reports",
     "link": "https://www.tencent.com/investors/financial-reports/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "c5240f173bf4b1b72b7e8b9b",
@@ -204,7 +519,12 @@
     "title": "Investor news",
     "link": "https://www.tencent.com/investors/investor-news/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "193097e483a9def70aff8211",
@@ -213,7 +533,12 @@
     "title": "Reports",
     "link": "https://www.tencent.com/our-actions/reports/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "807cc49a8d18b434dace1cc0",
@@ -222,7 +547,12 @@
     "title": "Our story",
     "link": "https://www.tencent.com/who-we-are/our-story",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "95aeae565da50fa607ade690",
@@ -231,7 +561,12 @@
     "title": "Skip to main content",
     "link": "https://www.tencent.com/newsroom/all-news/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.984Z"
+    "detectedAt": "2026-08-17T11:40:45.984Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "b2425b39884bc848ae067134",
@@ -240,7 +575,12 @@
     "title": "Media Resources",
     "link": "https://jdcorporateblog.com/media-resources/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.983Z"
+    "detectedAt": "2026-08-17T11:40:45.983Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "534eae024811f1020601e5e4",
@@ -249,7 +589,12 @@
     "title": "Amazon Seller Summits & Meetups",
     "link": "https://amzsummits.com/events/",
     "pageDate": null,
-    "detectedAt": "2026-08-17T11:40:45.982Z"
+    "detectedAt": "2026-08-17T11:40:45.982Z",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "ba9c3b849f983194cd85eaa5",
@@ -258,7 +603,10 @@
     "title": "Alltagshelfer unter der Lupe: Wie sicher sind Vorratsdosen & Co.?",
     "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/alltagshelfer-unter-der-lupe-wie-sicher-sind-vorratsdosen-co-125136",
     "pageDate": null,
-    "detectedAt": "2026-08-17T10:38:08.462Z"
+    "detectedAt": "2026-08-17T10:38:08.462Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "0eee61646e6bb1f5e86c53a8",
@@ -267,7 +615,10 @@
     "title": "UVP-Werbung mit Eigenmarken: Gericht setzt Händlern Grenzen",
     "link": "https://onlinemarktplatz.de/270973/uvp-werbung-mit-eigenmarken/",
     "pageDate": "17. August 2026",
-    "detectedAt": "2026-08-17T07:16:58.119Z"
+    "detectedAt": "2026-08-17T07:16:58.119Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "b81eaa0609ae50ac40400462",
@@ -276,7 +627,10 @@
     "title": "Online-Handel treibt den Detailhandel in der Schweiz",
     "link": "https://onlinemarktplatz.de/271103/detailhandel-in-der-schweiz/",
     "pageDate": "17. August 2026",
-    "detectedAt": "2026-08-17T07:16:58.119Z"
+    "detectedAt": "2026-08-17T07:16:58.119Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "73008b831195476aa11246bb",
@@ -285,7 +639,10 @@
     "title": "Stripe will PayPal: Verhandlungen über höheren Kaufpreis",
     "link": "https://onlinemarktplatz.de/271111/paypal-uebernahme-stripe/",
     "pageDate": "17. August 2026",
-    "detectedAt": "2026-08-17T07:16:58.119Z"
+    "detectedAt": "2026-08-17T07:16:58.119Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "225433414c13adc098e5956a",
@@ -294,7 +651,10 @@
     "title": "Halloween im Hochsommer: Händler entdecken Summerween",
     "link": "https://onlinemarktplatz.de/271046/summerween/",
     "pageDate": "16. August 2026",
-    "detectedAt": "2026-08-16T08:02:53.329Z"
+    "detectedAt": "2026-08-16T08:02:53.329Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "c03c161c1c346b4e18d36ed5",
@@ -303,7 +663,10 @@
     "title": "Abnehmspritze, neue Größe: Wie die Abnehmspritze GLP-1 den Modehandel verändert",
     "link": "https://onlinemarktplatz.de/269258/glp-1-modehandel/",
     "pageDate": "16. August 2026",
-    "detectedAt": "2026-08-16T07:45:41.420Z"
+    "detectedAt": "2026-08-16T07:45:41.420Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "98d94fab5d2206397a62576e",
@@ -312,7 +675,10 @@
     "title": "EU-Digitalranking Deutschland: Unternehmen besser als Verwaltung",
     "link": "https://onlinemarktplatz.de/270954/eu-digitalranking-deutschland/",
     "pageDate": "16. August 2026",
-    "detectedAt": "2026-08-16T06:59:40.579Z"
+    "detectedAt": "2026-08-16T06:59:40.579Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "80561663580d05936527dea4",
@@ -321,7 +687,10 @@
     "title": "Alte Kleidung, neues Geschäft: H&M setzt auf Secondhand",
     "link": "https://onlinemarktplatz.de/269262/secondhand-bei-hm/",
     "pageDate": "15. August 2026",
-    "detectedAt": "2026-08-15T08:00:30.061Z"
+    "detectedAt": "2026-08-15T08:00:30.061Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "b0b1de228f3481cb1f0b119b",
@@ -330,7 +699,10 @@
     "title": "Erwachsene jagen Plastikfiguren: Der Ooshies-Hype",
     "link": "https://onlinemarktplatz.de/271041/disney-ooshies/",
     "pageDate": "15. August 2026",
-    "detectedAt": "2026-08-15T08:00:30.061Z"
+    "detectedAt": "2026-08-15T08:00:30.061Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "82faecaf51d487b165886616",
@@ -339,7 +711,10 @@
     "title": "Amazon Prime Air startet Drohnenlieferungen in Großbritannien",
     "link": "https://onlinemarktplatz.de/270993/amazon-prime-air-grossbritannien/",
     "pageDate": "15. August 2026",
-    "detectedAt": "2026-08-15T06:58:17.932Z"
+    "detectedAt": "2026-08-15T06:58:17.932Z",
+    "groups": [],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "5f771688229b450858aba0dd",
@@ -348,7 +723,12 @@
     "title": "Pressemitteilungen",
     "link": "https://www.hellofreshgroup.com/de/newsroom/press-releases",
     "pageDate": null,
-    "detectedAt": "2026-08-14T14:03:09.164Z"
+    "detectedAt": "2026-08-14T14:03:09.164Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "9a23f2adf580a3d6f7870a30",
@@ -357,7 +737,12 @@
     "title": "StorysSpannende Geschichten aus dem UnternehmenMehr",
     "link": "https://www.hellofreshgroup.com/de/newsroom/stories",
     "pageDate": null,
-    "detectedAt": "2026-08-14T14:03:09.164Z"
+    "detectedAt": "2026-08-14T14:03:09.164Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "315c0bc58771845aa135d8bc",
@@ -366,7 +751,12 @@
     "title": "KontaktNimm Kontakt zu unserem PR Team aufKontaktiere uns",
     "link": "https://www.hellofreshgroup.com/de/newsroom/contact",
     "pageDate": null,
-    "detectedAt": "2026-08-14T14:03:09.164Z"
+    "detectedAt": "2026-08-14T14:03:09.164Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "d245b18d4afdc209918b505e",
@@ -375,7 +765,12 @@
     "title": "PressematerialHier geht's zum Download-BereichJetzt ansehen",
     "link": "https://www.hellofreshgroup.com/de/newsroom/press-material",
     "pageDate": null,
-    "detectedAt": "2026-08-14T14:03:09.163Z"
+    "detectedAt": "2026-08-14T14:03:09.163Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "ea762384c44a6e0691d74eb6",
@@ -384,7 +779,12 @@
     "title": "Medieninformation: Telekom und Apple werben für iPhone 17 mit Unlimited",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-und-apple-werben-fuer-iphone-17-mit-unlimited-1106194",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "687bb1dc9f9c3fa990750b7b",
@@ -393,7 +793,12 @@
     "title": "Medieninformation: MagentaSport und DAZN setzen Kooperation fort",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/magentasport-und-dazn-setzen-kooperation-fort-1106220",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "e18e31bb01ac5a5bd8a6bbd4",
@@ -402,7 +807,12 @@
     "title": "Medieninformation: 35 Jahre Wacken Open Air",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/35-jahre-wacken-open-air-1106208",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "16942f6408f25f25fa49e3b4",
@@ -411,7 +821,12 @@
     "title": "Medieninformation: Telekom baut 240.000 Glasfaseranschlüsse im Juni",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-baut-240-000-glasfaseranschluesse-im-juni-1106230",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "ce217ab25221e12756482125",
@@ -420,7 +835,12 @@
     "title": "Medieninformation: Telekom nimmt 71 neue Mobilfunkstandorte in Betrieb",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-nimmt-71-neue-mobilfunkstandorte-in-betrieb-1106244",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "ec63002096d5b4ffcb0bf06c",
@@ -429,7 +849,12 @@
     "title": "Medieninformation: Nach der XXL-WM: Fußball live bei MagentaTV und MagentaSport im August.",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/fussball-live-bei-magentatv-und-magentasport-im-august-1106248",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "520f40b07eac42c8f2bcc2f8",
@@ -438,7 +863,12 @@
     "title": "Medieninformation: Telekom gewinnt Ookla Speedtests",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-gewinnt-ookla-speedtests-1106338",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "4acd5deae4fa1973f63e6653",
@@ -447,7 +877,12 @@
     "title": "Medieninformation: Lückenloser Mobilfunk aus der Luft",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/lueckenloser-mobilfunk-aus-der-luft-1106528",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "1e4d6313ea8607c46e4750a2",
@@ -456,7 +891,12 @@
     "title": "Medieninformation: Google One bei der Telekom",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-erweitert-mobilfunkangebot-um-google-one-1106344",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "cb1ed281fda0f1b63a903245",
@@ -465,7 +905,12 @@
     "title": "Medieninformation: Digital X Köln: Wie aus KI echter Mehrwert wird",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/digital-x-koeln-wie-aus-ki-echter-mehrwert-wird-1106594",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "bff063a65104704de8a2b651",
@@ -474,7 +919,12 @@
     "title": "Medieninformation: Festnetztelefonate via Funk",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-bringt-telefon-box-fuer-klassische-telefonanschluesse-1106644",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "000cd029583d02dd0cf8886d",
@@ -483,7 +933,12 @@
     "title": "Medieninformation: MagentaTV – Düsterer Thriller trifft sonnige Genussreise",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/magentatv-duesterer-thriller-trifft-sonnige-genussreise-1106654",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "15cb2d11ef0cdb8e62d92c89",
@@ -492,7 +947,12 @@
     "title": "Medieninformation: Teachtoday Medienkompetenztest",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/teachtoday-medienkompetenztest-1106648",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "440441c9d95c31503fe4240a",
@@ -501,7 +961,12 @@
     "title": "Pattern Honored as an Inc. Power Partner for the Fourth Consecutive Year",
     "link": "https://www.pattern.com/news/pattern-honored-as-an-inc-power-partner-for-the-fourth-consecutive-year",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "57c2f5da4f67b42bec94096e",
@@ -510,7 +975,12 @@
     "title": "Pattern Recognized as One of America's 100 Most Loved Workplaces® of 2025",
     "link": "https://www.pattern.com/news/pattern-recognized-as-one-of-americas-100-most-loved-workplaces-r-of-2025",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.949Z"
+    "detectedAt": "2026-08-14T13:18:35.949Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "da5f7139af9aaf8b4ba78a4c",
@@ -519,7 +989,12 @@
     "title": "Pattern Announces Launch of Initial Public Offering",
     "link": "https://www.pattern.com/news/pattern-announces-launch-of-initial-public-offering",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.948Z"
+    "detectedAt": "2026-08-14T13:18:35.948Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "8e5e83ee0616e308ff1fb54e",
@@ -528,7 +1003,12 @@
     "title": "Pattern PXM Wins Netty Award for Best Use of AI in Ecommerce",
     "link": "https://www.pattern.com/news/pattern-pxm-wins-netty-award-for-best-use-of-ai-in-ecommerce",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.948Z"
+    "detectedAt": "2026-08-14T13:18:35.948Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "ddee55a3046db56a8ddd584a",
@@ -537,7 +1017,12 @@
     "title": "Pattern Launches Industry’s First Full-Service Partner Solution for TikTok Shop",
     "link": "https://www.pattern.com/news/pattern-launches-industrys-first-full-service-partner-solution-for-tiktok-shop",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.948Z"
+    "detectedAt": "2026-08-14T13:18:35.948Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "dc07e162687b748e7030d759",
@@ -546,7 +1031,12 @@
     "title": "Authentic Brands Group Names Pattern Its Global Ecommerce Marketplace Accelerator and Premier TikTok Shop Partner",
     "link": "https://www.pattern.com/news/authentic-brands-group-names-pattern-its-global-ecommerce-marketplace-accelerator-and-premier-tiktok-shop-partner",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.948Z"
+    "detectedAt": "2026-08-14T13:18:35.948Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "d1da2163448d0f5c0c9c7776",
@@ -555,7 +1045,12 @@
     "title": "Pattern Announces Acquisition of NextWave, Expanding TikTok Shop and Creator-Led Commerce Capabilities",
     "link": "https://www.pattern.com/news/pattern-announces-acquisition-of-nextwave-expanding-tiktok-shop-and-creator-led-commerce-capabilities",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.948Z"
+    "detectedAt": "2026-08-14T13:18:35.948Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "9fbb52a3cfb293f5dab833ca",
@@ -564,7 +1059,12 @@
     "title": "Pattern Named to Fast Company's Annual List of the World's Most Innovative Companies of 2026 for Third Consecutive Year",
     "link": "https://www.pattern.com/news/pattern-named-to-fast-companys-annual-list-of-the-worlds-most-innovative-companies-of-2026-for-third-consecutive-year",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.948Z"
+    "detectedAt": "2026-08-14T13:18:35.948Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "559b1f155f23c0d7d702db00",
@@ -573,7 +1073,12 @@
     "title": "Pattern Launches Pattern Intelligence (Pi) to Accelerate AI-Powered Ecommerce Growth for Global Brands",
     "link": "https://www.pattern.com/news/pattern-launches-pattern-intelligence-pi-to-accelerate-ai-powered-ecommerce-growth-for-global-brands",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.948Z"
+    "detectedAt": "2026-08-14T13:18:35.948Z",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2
   },
   {
     "guid": "5be399cf15d957e7ea5b86a5",
@@ -582,6 +1087,11 @@
     "title": "Personalien EY: Tobias Ehl",
     "link": "https://www.ey.com/de_de/newsroom/2026/06/ey-personalien-juni-tobias-ehl",
     "pageDate": null,
-    "detectedAt": "2026-08-14T13:18:35.945Z"
+    "detectedAt": "2026-08-14T13:18:35.945Z",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2
   }
 ]

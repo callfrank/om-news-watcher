@@ -1,0 +1,44 @@
+[
+  {
+    "group": "Events",
+    "slug": "events",
+    "file": "feeds/events.xml",
+    "count": 1
+  },
+  {
+    "group": "Finanzen",
+    "slug": "finanzen",
+    "file": "feeds/finanzen.xml",
+    "count": 9
+  },
+  {
+    "group": "Firmen",
+    "slug": "firmen",
+    "file": "feeds/firmen.xml",
+    "count": 40
+  },
+  {
+    "group": "Logistik",
+    "slug": "logistik",
+    "file": "feeds/logistik.xml",
+    "count": 0
+  },
+  {
+    "group": "Research",
+    "slug": "research",
+    "file": "feeds/research.xml",
+    "count": 5
+  },
+  {
+    "group": "Staat",
+    "slug": "staat",
+    "file": "feeds/staat.xml",
+    "count": 14
+  },
+  {
+    "group": "Verbände",
+    "slug": "verbande",
+    "file": "feeds/verbande.xml",
+    "count": 0
+  }
+]
