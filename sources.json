@@ -451,15 +451,17 @@
     "allowExternal" : false,
     "allowTitleOnly" : false,
     "autoScroll" : 3,
-    "baselineVersion" : "mac-app-20260817-122930",
+    "baselineVersion" : "mac-app-20260817-133036",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : false,
+    "includeRegex" : "^https?://www\\.mordorintelligence\\.com/signal/case-studies/",
     "minTitleLength" : 5,
     "name" : "Mordor Intelligence Case Studies",
     "selectors" : {
-      "date" : "time,[class*=\"date\" i],[class*=\"datum\" i],[class*=\"published\" i]",
-      "item" : "article.flex",
+      "date" : "time.px-2",
+      "item" : "article.bg-neutrals-50",
       "link" : "a.text-sm",
-      "title" : "h3.cursor-pointer"
+      "title" : "h3.truncate-3-lines"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.mordorintelligence.com/signal/case-studies",
@@ -472,8 +474,14 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T10:29:30Z",
+    "visualLearnedAt" : "2026-08-17T11:30:36Z",
+    "visualRuleVersion" : 2,
     "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:30:42Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 7000
   },
   {
