@@ -307,34 +307,6 @@
     "waitMs" : 3000
   },
   {
-    "allowExternal" : false,
-    "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-070758",
-    "enabled" : true,
-    "minTitleLength" : 5,
-    "name" : "Google Think",
-    "selectors" : {
-      "date" : "",
-      "item" : "a[href*=\"/de/think/consumer-insights/\"]",
-      "link" : "a.ion-card",
-      "title" : "a.ion-card"
-    },
-    "timeoutMs" : 60000,
-    "url" : "https://business.google.com/de/think/",
-    "visualBackup" : {
-      "selectors" : {
-        "date" : "",
-        "item" : "",
-        "link" : "",
-        "title" : ""
-      }
-    },
-    "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T05:07:58Z",
-    "visualSampleCount" : 3,
-    "waitMs" : 5000
-  },
-  {
     "allowTitleOnly" : true,
     "baselineVersion" : "mac-app-20260814-151047",
     "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
