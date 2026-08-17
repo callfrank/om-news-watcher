@@ -860,19 +860,41 @@
     "waitMs" : 5000
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "v10-network-parked",
+    "baselineVersion" : "mac-app-20260817-133741",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
     "http2Fallback" : false,
+    "includeRegex" : "^https?://www\\.dhl\\.com/discover/en-global/",
+    "minTitleLength" : 5,
     "name" : "DHL Discover Global",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "h3",
+      "link" : "a.article-card__title",
+      "title" : "h3"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.dhl.com/discover/en-global",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T11:37:41Z",
+    "visualRuleVersion" : 2,
+    "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:37:43Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 29 Treffer",
     "waitMs" : 1000
   },
   {
