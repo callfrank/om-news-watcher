@@ -5,7 +5,7 @@
     "baselineVersion" : "mac-app-20260817-120311",
     "enabled" : true,
     "groups" : [
-      "Staat"
+      "Firmen"
     ],
     "minTitleLength" : 5,
     "name" : "Zalando Newsroom",
@@ -38,6 +38,9 @@
     "enabled" : true,
     "excludeRegex" : "/unternehmen/de/presse/(?:pressemitteilungen(?:-20\\d{2})?|unternehmen|otto-for-business)/?$",
     "excludeTitleRegex" : "^(?:Presse|Unternehmen|Nachhaltigkeit|Technologie|OTTO for Business|Services|Marketing|Jobs|Kontakt|Handel|Logistik|Personal|Finanzen)$",
+    "groups" : [
+      "Firmen"
+    ],
     "minTitleLength" : 28,
     "name" : "OTTO Pressemitteilungen",
     "selectors" : {
@@ -52,6 +55,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Logistik"
+    ],
     "includeRegex" : "^https://www\\.dpd\\.com/de/de/news/[^/?#]+/?$",
     "name" : "DPD Presse",
     "selectors" : {
@@ -71,6 +77,9 @@
     "enabled" : true,
     "excludeRegex" : "/presse/?$",
     "fetchMode" : "html",
+    "groups" : [
+      "Verbände"
+    ],
     "includeRegex" : "^https://www\\.eco\\.de/presse/[^/?#]+/?$",
     "minTitleLength" : 18,
     "name" : "eco Presse",
@@ -90,6 +99,9 @@
     "candidateSelector" : "a[href*=\"/press-item/\"]",
     "enabled" : true,
     "fetchMode" : "html",
+    "groups" : [
+      "Research"
+    ],
     "includeRegex" : "^https://ecommerce-europe\\.eu/press-item/",
     "minTitleLength" : 18,
     "name" : "Ecommerce Europe Press Releases",
@@ -108,6 +120,9 @@
     "allowTitleOnly" : false,
     "baselineVersion" : "mac-app-20260817-120840",
     "enabled" : true,
+    "groups" : [
+      "Research"
+    ],
     "minTitleLength" : 5,
     "name" : "ECDB Reports",
     "selectors" : {
@@ -141,6 +156,9 @@
     "baselineVersion" : "mac-app-20260817-132605",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Events"
+    ],
     "includeRegex" : "^https?://www\\.omt\\.de/events/",
     "minTitleLength" : 5,
     "name" : "OMT E-Commerce Events",
@@ -178,6 +196,9 @@
     "enabled" : false,
     "excludeRegex" : "^https://www\\.experte\\.de/events/(?:digitalisierung|e-commerce|finanzen|startup|handel|hr|ki|management|medien|new-work|affiliate-marketing|b2b-marketing|content-marketing|online-marketing|pr-kommunikation|sea|seo|social-media-marketing|blockchain|cloud-hosting|it-security|machine-learning|mobile-apps|softwareentwicklung|user-experience|webentwicklung|berlin|duesseldorf|frankfurt-am-main|hamburg|hannover|koeln|leipzig|muenchen|stuttgart)/?$",
     "excludeTitleRegex" : "^(?:Business|Marketing|Technologie|Städte|Vergangene Events|EXPERTE\\.de Event-Partner)$",
+    "groups" : [
+      "Events"
+    ],
     "maxDetectedItems" : 40,
     "name" : "experte.de E-Commerce Events",
     "reverseDetected" : false,
@@ -193,6 +214,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Research"
+    ],
     "includeRegex" : "^https://www\\.ey\\.com/de_de/newsroom/20\\d{2}/\\d{2}/",
     "name" : "EY Newsroom",
     "selectors" : {
@@ -209,6 +233,9 @@
     "baselineVersion" : "v10-fedex",
     "candidateSelector" : "a[href*=\"/newsroom/\"]",
     "enabled" : true,
+    "groups" : [
+      "Logistik"
+    ],
     "includeRegex" : "^https://newsroom\\.fedex\\.com/newsroom/[^/]+/[^/?#]+/?$",
     "name" : "FedEx Newsroom",
     "selectors" : {
@@ -223,6 +250,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Events"
+    ],
     "name" : "Amazon Seller Events",
     "selectors" : {
       "date" : "",
@@ -236,6 +266,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://www\\.flaschenpost\\.de/newsroom/pressemitteilungen/",
     "name" : "Flaschenpost Newsroom",
     "selectors" : {
@@ -253,6 +286,9 @@
     "allowTitleOnly" : false,
     "baselineVersion" : "mac-app-20260817-121844",
     "enabled" : true,
+    "groups" : [
+      "Research"
+    ],
     "minTitleLength" : 5,
     "name" : "Forrester Press Newsroom",
     "selectors" : {
@@ -281,6 +317,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://www\\.mynewsdesk\\.com/de/fressnapf-holding-se/pressreleases/",
     "name" : "Fressnapf Newsroom",
     "selectors" : {
@@ -300,6 +339,9 @@
     "baselineVersion" : "mac-app-20260817-135813",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "http2Fallback" : false,
     "includeRegex" : "^https?://www\\.galaxus\\.de/de/page/",
     "minTitleLength" : 5,
@@ -359,6 +401,9 @@
     "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
     "enabled" : true,
     "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https?://www\\.hellofreshgroup\\.com\\/de\\/newsroom\\/",
     "maxDetectedItems" : 25,
     "minTitleLength" : 14,
@@ -376,6 +421,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "name" : "JD In-Depth Reports",
     "selectors" : {
       "date" : "",
@@ -393,6 +441,9 @@
     "baselineVersion" : "mac-app-20260817-132939",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https?://jdcorporateblog\\.com/",
     "minTitleLength" : 5,
     "name" : "JD Corporate News",
@@ -426,6 +477,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://unternehmen\\.kaufland\\.de/presse/newsroom/20\\d{2}/",
     "name" : "Kaufland Newsroom",
     "selectors" : {
@@ -462,6 +516,9 @@
     "baselineVersion" : "mac-app-20260817-133036",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Research"
+    ],
     "includeRegex" : "^https?://www\\.mordorintelligence\\.com/signal/case-studies/",
     "minTitleLength" : 5,
     "name" : "Mordor Intelligence Case Studies",
@@ -496,6 +553,9 @@
     "autoScroll" : 3,
     "baselineVersion" : "v10-content-parked",
     "enabled" : true,
+    "groups" : [
+      "Research"
+    ],
     "name" : "Mordor Intelligence Insights",
     "selectors" : {
       "date" : "",
@@ -513,6 +573,9 @@
     "candidateSelector" : "a[href*=\"/news/europe/de-de/newsroom/pressemitteilungen/de-de/2024/\"]",
     "enabled" : true,
     "fetchMode" : "html",
+    "groups" : [
+      "Finanzen"
+    ],
     "includeRegex" : "^https?://www\\.mastercard\\.com\\/news\\/europe\\/de-de\\/newsroom\\/pressemitteilungen\\/de-de\\/2024\\/",
     "minTitleLength" : 18,
     "name" : "Mastercard Pressemitteilungen",
@@ -530,6 +593,9 @@
     "baselineVersion" : "v11-tencent",
     "enabled" : true,
     "excludeTitleRegex" : "^(?:Stories|Media|News|About Tencent)$",
+    "groups" : [
+      "Firmen"
+    ],
     "name" : "Tencent News",
     "selectors" : {
       "date" : "",
@@ -548,6 +614,9 @@
     "candidateSelector" : "a[href*=\"/de/news-presse/pressemitteilungen/\"]",
     "enabled" : true,
     "excludeTitleRegex" : "^(?:News & Presse|Breadcrumb|Pagination)$",
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "",
     "maxDetectedItems" : 20,
     "minTitleLength" : 22,
@@ -568,6 +637,9 @@
     "baselineVersion" : "v10-meli",
     "enabled" : true,
     "excludeTitleRegex" : "^(?:Document Title|Link|Copy Link)$",
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https?://http2\\.mlstatic\\.com/",
     "name" : "Mercado Libre News & Events",
     "selectors" : {
@@ -582,6 +654,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://about\\.fb\\.com/de/news/20\\d{2}/\\d{2}/",
     "name" : "Meta Newsroom DE",
     "selectors" : {
@@ -600,6 +675,9 @@
     "baselineVersion" : "mac-app-20260817-133325",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Finanzen"
+    ],
     "minTitleLength" : 5,
     "name" : "Qonto Presse",
     "selectors" : {
@@ -632,6 +710,9 @@
   {
     "enabled" : true,
     "excludeRegex" : "^https://www\\.mollie\\.com/de/(?:news|success-stories|events)/?$",
+    "groups" : [
+      "Finanzen"
+    ],
     "name" : "Mollie Papers",
     "selectors" : {
       "date" : "",
@@ -646,6 +727,9 @@
   {
     "baselineVersion" : "mac-app-20260817-123458",
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://momox\\.biz/presse/\\d+-pressemeldungen/",
     "name" : "Momox Presse",
     "selectors" : {
@@ -664,6 +748,9 @@
     "autoScroll" : 0,
     "baselineVersion" : "mac-app-20260817-123638",
     "enabled" : true,
+    "groups" : [
+      "Events"
+    ],
     "maxDetectedItems" : 40,
     "minTitleLength" : 5,
     "name" : "Amazon Freight Events",
@@ -712,6 +799,9 @@
     "baselineVersion" : "v10-pattern",
     "candidateSelector" : "a[href^=\"/news/\"], a[href*=\"pattern.com/news/\"]",
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://www\\.pattern\\.com/news/",
     "name" : "Pattern Newsroom",
     "selectors" : {
@@ -730,6 +820,9 @@
     "baselineVersion" : "mac-app-20260817-133451",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Finanzen"
+    ],
     "includeRegex" : "^https?://newsroom\\.deatch\\.paypal-corp\\.com/",
     "minTitleLength" : 5,
     "name" : "PayPal DE Aktuelle Mitteilungen",
@@ -769,6 +862,9 @@
     "baselineVersion" : "mac-app-20260817-133534",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "http2Fallback" : false,
     "includeRegex" : "^https?://investor\\.pddholdings\\.com/news-releases/news-release-details/",
     "minTitleLength" : 5,
@@ -806,6 +902,9 @@
     "baselineVersion" : "mac-app-20260817-133616",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Research"
+    ],
     "includeRegex" : "^https?://www\\.pewresearch\\.org/short-reads/2026/03/",
     "minTitleLength" : 5,
     "name" : "Pew Research Internet & Technology",
@@ -855,6 +954,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://www\\.sheingroup\\.com/newsroom/[^/?#]+/?$",
     "name" : "SHEIN Newsroom",
     "selectors" : {
@@ -874,6 +976,9 @@
     "baselineVersion" : "mac-app-20260817-133741",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Logistik"
+    ],
     "http2Fallback" : false,
     "includeRegex" : "^https?://www\\.dhl\\.com/discover/en-global/",
     "minTitleLength" : 5,
@@ -921,6 +1026,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://www\\.telekom\\.com/de/medien/medieninformationen/detail/",
     "name" : "Telekom Medieninformationen",
     "selectors" : {
@@ -935,6 +1043,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://the-platform-group\\.com/blog/20\\d{2}/\\d{2}/\\d{2}/",
     "name" : "The Platform Group Presse",
     "selectors" : {
@@ -949,6 +1060,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "includeRegex" : "^https://company\\.vinted\\.com/newsroom/[^/?#]+/?$",
     "name" : "Vinted Newsroom",
     "selectors" : {
@@ -963,6 +1077,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Finanzen"
+    ],
     "includeRegex" : "^https://www\\.visa\\.de/uber-visa/newsroom/press-releases\\.\\d+\\.html$",
     "name" : "Visa Newsroom DE",
     "selectors" : {
@@ -1035,6 +1152,9 @@
     "autoScroll" : 0,
     "baselineVersion" : "v10-network-parked",
     "enabled" : true,
+    "groups" : [
+      "Logistik"
+    ],
     "http2Fallback" : false,
     "name" : "DHL Austria E-Commerce Marketing Calendar",
     "selectors" : {
@@ -1052,6 +1172,9 @@
     "baselineVersion" : "v10-content-parked",
     "enabled" : true,
     "excludeRegex" : "^https://www\\.wish\\.com/newsandresources/?$",
+    "groups" : [
+      "Firmen"
+    ],
     "name" : "Wish News & Resources",
     "selectors" : {
       "date" : "",
@@ -1065,6 +1188,9 @@
   },
   {
     "enabled" : true,
+    "groups" : [
+      "Research"
+    ],
     "name" : "YouGov Corporate News",
     "selectors" : {
       "date" : "",
@@ -1080,6 +1206,9 @@
     "baselineVersion" : "mac-app-20260814-135827",
     "candidateSelector" : "a[href*=\"/de/de/about/press-room/\"]",
     "enabled" : true,
+    "groups" : [
+      "Research"
+    ],
     "includeRegex" : "^https?://www\\.deloitte\\.com\\/de\\/de\\/about\\/press-room\\/",
     "minTitleLength" : 12,
     "name" : "Deloitte",
@@ -1097,6 +1226,9 @@
     "allowTitleOnly" : false,
     "baselineVersion" : "mac-app-20260814-165320",
     "enabled" : true,
+    "groups" : [
+      "Firmen"
+    ],
     "minTitleLength" : 5,
     "name" : "Etsy",
     "selectors" : {
@@ -1165,6 +1297,9 @@
     "baselineVersion" : "mac-app-20260817-134157",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Logistik"
+    ],
     "includeRegex" : "^https?://group\\.dhl\\.com/de/presse/pressemitteilungen/2026/",
     "minTitleLength" : 5,
     "name" : "DHL",
@@ -1237,6 +1372,9 @@
     "baselineVersion" : "mac-app-20260817-134738",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Verbände"
+    ],
     "includeRegex" : "^https?://einzelhandel\\.de/presse/aktuellemeldungen/",
     "minTitleLength" : 5,
     "name" : "Handelsverband",
@@ -1271,7 +1409,7 @@
     "baselineVersion" : "mac-app-20260817-134932",
     "enabled" : true,
     "groups" : [
-
+      "Staat"
     ],
     "name" : "BMJ",
     "priority" : 1,
@@ -1291,6 +1429,9 @@
     "baselineVersion" : "mac-app-20260817-135237",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Staat"
+    ],
     "includeRegex" : "^https?://www\\.bsi\\.bund\\.de/DE/Service-Navi/Presse/",
     "minTitleLength" : 5,
     "name" : "BSI",
@@ -1327,6 +1468,9 @@
     "baselineVersion" : "mac-app-20260817-140539",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "groups" : [
+      "Verbände"
+    ],
     "includeRegex" : "^https?://bevh\\.org/detail/",
     "minTitleLength" : 5,
     "name" : "BEVH",
