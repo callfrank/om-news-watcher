@@ -1313,5 +1313,44 @@
     "visualValidatedAt" : "2026-08-17T11:52:40Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-140539",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "includeRegex" : "^https?://bevh\\.org/detail/",
+    "minTitleLength" : 5,
+    "name" : "BEVH",
+    "selectors" : {
+      "date" : "",
+      "item" : "div.presse-item",
+      "link" : "a",
+      "title" : "h3.text-large"
+    },
+    "url" : "https://bevh.org/presse",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T12:05:39Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://bevh.org/detail/greenwashing-verbot-bevh-fordert-abverkaufsfrist-und-erlass-gegen-steuern-auf-sachspenden",
+      "https://bevh.org/detail/verwirrung-um-die-neue-verpackungsverordnung-bevh-fordert-moratorium-in-letzter-minute"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T12:05:43Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 4 Treffer",
+    "waitMs" : 2500
   }
 ]
