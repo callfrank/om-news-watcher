@@ -1905,5 +1905,57 @@
     "visualValidatedAt" : "2026-08-17T13:04:48Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260817-151913",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Staat"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Wettbewerbszentrale",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.wettbewerbszentrale.de/",
+    "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260817-152225",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Research"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "DeStatis",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.destatis.de/",
+    "waitMs" : 2500
   }
 ]
