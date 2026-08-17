@@ -36,10 +36,16 @@
     "count": 5
   },
   {
+    "group": "Sonstiges",
+    "slug": "sonstiges",
+    "file": "feeds/sonstiges.xml",
+    "count": 10
+  },
+  {
     "group": "Staat",
     "slug": "staat",
     "file": "feeds/staat.xml",
-    "count": 23
+    "count": 26
   },
   {
     "group": "Verbände",
