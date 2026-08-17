@@ -1,5 +1,50 @@
 import Foundation
 import AppKit
+import UniformTypeIdentifiers
+#if canImport(FoundationXML)
+import FoundationXML
+#endif
+
+struct FeedHistoryItem: Codable, Identifiable, Equatable {
+    var guid: String
+    var source: String
+    var sourceLabel: String?
+    var title: String
+    var link: String
+    var pageDate: String?
+    var detectedAt: String
+    var groups: [String]?
+    var tags: [String]?
+    var priority: Int?
+    var duplicateSources: [String]?
+
+    var id: String { guid }
+    var effectivePriority: Int { max(1, min(3, priority ?? 2)) }
+    var displayDetectedAt: String {
+        let iso = ISO8601DateFormatter()
+        guard let date = iso.date(from: detectedAt) else { return detectedAt }
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "de_DE")
+        formatter.dateFormat = "dd.MM.yyyy HH:mm"
+        return formatter.string(from: date)
+    }
+}
+
+enum SourceListFilter: String, CaseIterable, Identifiable {
+    case all, active, paused, problems, visual, timeout, untested
+    var id: String { rawValue }
+    var title: String {
+        switch self {
+        case .all: return "Alle"
+        case .active: return "Aktiv"
+        case .paused: return "Pausiert"
+        case .problems: return "Probleme"
+        case .visual: return "Visuell eingelernt"
+        case .timeout: return "Timeout"
+        case .untested: return "Noch nicht getestet"
+        }
+    }
+}
 
 enum EmailAlertMode: String, Codable, CaseIterable, Identifiable {
     case off = "off"
@@ -73,6 +118,12 @@ final class AppViewModel: ObservableObject {
     @Published var allTestCompleted = 0
     @Published var allTestTotal = 0
     @Published var allTestCurrentName = ""
+    @Published var feedItems: [FeedHistoryItem] = []
+    @Published var showFeedPreview = false
+    @Published var showHealthDashboard = false
+    @Published var showGroupManager = false
+    @Published var showBulkManager = false
+    @Published var bulkSelectedIDs: Set<UUID> = []
 
     @Published var owner: String {
         didSet { defaults.set(owner, forKey: Keys.owner) }
@@ -136,6 +187,37 @@ final class AppViewModel: ObservableObject {
         sources.count - activeCount
     }
 
+    var allGroups: [String] {
+        Array(Set(sources.flatMap(\.groups))).sorted { $0.localizedCaseInsensitiveCompare($1) == .orderedAscending }
+    }
+
+    var allTags: [String] {
+        Array(Set(sources.flatMap(\.tags))).sorted { $0.localizedCaseInsensitiveCompare($1) == .orderedAscending }
+    }
+
+    var ungroupedCount: Int { sources.filter { $0.groups.isEmpty }.count }
+
+    func groupCount(_ group: String) -> Int {
+        sources.filter { $0.groups.contains(where: { $0.caseInsensitiveCompare(group) == .orderedSame }) }.count
+    }
+
+    func latestItem(for source: SourceRecord) -> FeedHistoryItem? {
+        feedItems
+            .filter { $0.source == source.name }
+            .max { $0.detectedAt < $1.detectedAt }
+    }
+
+    func groupFeedURL(_ group: String) -> URL? {
+        URL(string: "https://\(owner).github.io/\(repo)/feeds/\(Self.slugify(group)).xml")
+    }
+
+    static func slugify(_ value: String) -> String {
+        value.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
+            .lowercased()
+            .replacingOccurrences(of: "[^a-z0-9]+", with: "-", options: .regularExpression)
+            .trimmingCharacters(in: CharacterSet(charactersIn: "-"))
+    }
+
     var problemCount: Int {
         sources.filter { source in
             testResults[source.id]?.isProblem == true
@@ -165,8 +247,21 @@ final class AppViewModel: ObservableObject {
 
     func reloadAll() async {
         await loadSources()
+        await loadFeedItems()
         await loadEmailSettings()
         await refreshLatestRun()
+    }
+
+    func loadFeedItems() async {
+        do {
+            guard let file = try await client().fetchFileIfExists(path: "data/items.json") else {
+                feedItems = []
+                return
+            }
+            feedItems = (try? JSONDecoder().decode([FeedHistoryItem].self, from: file.data)) ?? []
+        } catch {
+            // Feed-Vorschau ist eine Komfortfunktion und soll den Start nicht blockieren.
+        }
     }
 
     func loadSources() async {
@@ -672,6 +767,180 @@ final class AppViewModel: ObservableObject {
         }
     }
 
+    func addGroup(_ name: String) {
+        let cleaned = name.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !cleaned.isEmpty else { return }
+        if let selectedSourceID {
+            assignGroup(cleaned, to: Set([selectedSourceID]))
+            statusMessage = "Ordner \"\(cleaned)\" angelegt und der ausgewählten Quelle zugeordnet"
+        } else {
+            statusMessage = "Bitte zuerst eine Quelle auswählen; der Ordner wird mit der ersten Zuordnung angelegt"
+        }
+    }
+
+    func renameGroup(_ oldName: String, to newName: String) {
+        let cleaned = newName.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !cleaned.isEmpty, oldName != cleaned else { return }
+        for index in sources.indices {
+            if sources[index].groups.contains(where: { $0.caseInsensitiveCompare(oldName) == .orderedSame }) {
+                sources[index].groups = sources[index].groups.map { $0.caseInsensitiveCompare(oldName) == .orderedSame ? cleaned : $0 }
+            }
+        }
+        isDirty = true
+        statusMessage = "Ordner umbenannt"
+    }
+
+    func deleteGroup(_ group: String) {
+        for index in sources.indices {
+            sources[index].groups.removeAll { $0.caseInsensitiveCompare(group) == .orderedSame }
+        }
+        isDirty = true
+        statusMessage = "Ordner entfernt; Quellen bleiben erhalten"
+    }
+
+    func assignGroup(_ group: String, to ids: Set<UUID>) {
+        let cleaned = group.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !cleaned.isEmpty else { return }
+        for index in sources.indices where ids.contains(sources[index].id) {
+            if !sources[index].groups.contains(where: { $0.caseInsensitiveCompare(cleaned) == .orderedSame }) {
+                sources[index].groups.append(cleaned)
+            }
+        }
+        isDirty = true
+        statusMessage = "\(ids.count) Quellen dem Ordner \"\(cleaned)\" zugeordnet"
+    }
+
+    func setEnabled(_ enabled: Bool, for ids: Set<UUID>) {
+        for index in sources.indices where ids.contains(sources[index].id) {
+            sources[index].enabled = enabled
+        }
+        isDirty = true
+    }
+
+    func deleteSources(_ ids: Set<UUID>) {
+        sources.removeAll { ids.contains($0.id) }
+        for id in ids { testResults.removeValue(forKey: id) }
+        bulkSelectedIDs.subtract(ids)
+        if let selectedSourceID, ids.contains(selectedSourceID) {
+            self.selectedSourceID = sources.first?.id
+        }
+        isDirty = true
+        statusMessage = "\(ids.count) Quellen entfernt – bitte speichern"
+    }
+
+    func testSources(_ ids: Set<UUID>) async {
+        guard !isTestingAll, testingSourceID == nil else { return }
+        let candidates = sources.filter { ids.contains($0.id) }
+        isTestingAll = true
+        allTestCompleted = 0
+        allTestTotal = candidates.count
+        defer { testingSourceID = nil; isTestingAll = false; allTestCurrentName = "" }
+        for source in candidates {
+            allTestCurrentName = source.name
+            testingSourceID = source.id
+            let result = await executeTest(source)
+            testResults[source.id] = result
+            updateVisualValidationAfterTest(sourceID: source.id, result: result)
+            allTestCompleted += 1
+        }
+        statusMessage = "Auswahl getestet: \(candidates.count) Quellen"
+    }
+
+    func openGroupFeed(_ group: String) {
+        guard let url = groupFeedURL(group) else { return }
+        NSWorkspace.shared.open(url)
+    }
+
+    func openFeedItem(_ item: FeedHistoryItem) {
+        guard let url = URL(string: item.link) else { return }
+        NSWorkspace.shared.open(url)
+    }
+
+    func exportOPML() {
+        let panel = NSSavePanel()
+        panel.nameFieldStringValue = "OM-News-Watcher-Feeds.opml"
+        panel.allowedContentTypes = [.xml]
+        guard panel.runModal() == .OK, let url = panel.url else { return }
+
+        let overall = feedURL?.absoluteString ?? ""
+        var lines = [
+            "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+            "<opml version=\"2.0\"><head><title>OM News Watcher</title></head><body>",
+            "<outline text=\"OM News Watcher\" title=\"OM News Watcher\" type=\"rss\" xmlUrl=\"\(xmlEscape(overall))\"/>"
+        ]
+        if !allGroups.isEmpty {
+            lines.append("<outline text=\"Themenfeeds\" title=\"Themenfeeds\">")
+            for group in allGroups {
+                if let url = groupFeedURL(group)?.absoluteString {
+                    lines.append("<outline text=\"\(xmlEscape(group))\" title=\"\(xmlEscape(group))\" type=\"rss\" xmlUrl=\"\(xmlEscape(url))\"/>")
+                }
+            }
+            lines.append("</outline>")
+        }
+        lines.append("</body></opml>")
+        try? lines.joined(separator: "\n").write(to: url, atomically: true, encoding: .utf8)
+        statusMessage = "OPML exportiert"
+    }
+
+    func exportSourcesCSV() {
+        let panel = NSSavePanel()
+        panel.nameFieldStringValue = "OM-News-Watcher-Quellen.csv"
+        panel.allowedContentTypes = [.commaSeparatedText]
+        guard panel.runModal() == .OK, let url = panel.url else { return }
+        var lines = ["Name;URL;Aktiv;Ordner;Tags;Priorität;Letzter neuer Treffer"]
+        for source in sources {
+            let latest = latestItem(for: source)?.detectedAt ?? ""
+            let cells = [source.name, source.url, source.enabled ? "Ja" : "Nein", source.groups.joined(separator: ", "), source.tags.joined(separator: ", "), String(source.priority), latest]
+            lines.append(cells.map(csvEscape).joined(separator: ";"))
+        }
+        try? lines.joined(separator: "\n").write(to: url, atomically: true, encoding: .utf8)
+        statusMessage = "CSV exportiert"
+    }
+
+    func exportSourcesJSON() {
+        let panel = NSSavePanel()
+        panel.nameFieldStringValue = "OM-News-Watcher-Quellen.json"
+        panel.allowedContentTypes = [.json]
+        guard panel.runModal() == .OK, let url = panel.url else { return }
+        let values = sources.map { JSONValue.object($0.raw) }
+        let encoder = JSONEncoder(); encoder.outputFormatting = [.prettyPrinted, .sortedKeys, .withoutEscapingSlashes]
+        if let data = try? encoder.encode(values) { try? data.write(to: url) }
+        statusMessage = "JSON exportiert"
+    }
+
+    func importOPML() {
+        let panel = NSOpenPanel()
+        panel.allowedContentTypes = [.xml]
+        panel.allowsMultipleSelection = false
+        guard panel.runModal() == .OK, let url = panel.url,
+              let data = try? Data(contentsOf: url) else { return }
+        let parser = OPMLSourceParser(data: data)
+        let entries = parser.parse()
+        var added = 0
+        for entry in entries {
+            guard !entry.url.isEmpty, !sources.contains(where: { $0.url == entry.url }) else { continue }
+            var source = SourceRecord.new(url: entry.url)
+            source.name = entry.title.isEmpty ? SourceRecord.suggestedName(from: entry.url) : entry.title
+            if let group = entry.group, !group.isEmpty { source.groups = [group] }
+            if entry.isFeed { source.fetchMode = "feed"; source.allowExternal = true }
+            source.homepageURL = entry.homepage
+            sources.append(source); added += 1
+        }
+        if added > 0 { isDirty = true; selectedSourceID = sources.last?.id }
+        statusMessage = "OPML importiert: \(added) neue Quellen"
+    }
+
+    private func xmlEscape(_ value: String) -> String {
+        value.replacingOccurrences(of: "&", with: "&amp;")
+            .replacingOccurrences(of: "\"", with: "&quot;")
+            .replacingOccurrences(of: "<", with: "&lt;")
+            .replacingOccurrences(of: ">", with: "&gt;")
+    }
+
+    private func csvEscape(_ value: String) -> String {
+        "\"" + value.replacingOccurrences(of: "\"", with: "\"\"") + "\""
+    }
+
     func openFeed() {
         guard let feedURL else { return }
         NSWorkspace.shared.open(feedURL)
@@ -691,7 +960,7 @@ final class AppViewModel: ObservableObject {
     }
 
     func openSource(_ source: SourceRecord) {
-        guard let url = URL(string: source.url) else { return }
+        guard let url = URL(string: source.homepageURL ?? source.url) else { return }
         NSWorkspace.shared.open(url)
     }
 
@@ -740,5 +1009,46 @@ final class AppViewModel: ObservableObject {
             errorMessage = error.localizedDescription
             statusMessage = "Fehler"
         }
+    }
+}
+
+
+private struct OPMLSourceEntry {
+    let title: String
+    let url: String
+    let homepage: String?
+    let group: String?
+    let isFeed: Bool
+}
+
+private final class OPMLSourceParser: NSObject, XMLParserDelegate {
+    private let data: Data
+    private var stack: [(title: String, isFolder: Bool)] = []
+    private var entries: [OPMLSourceEntry] = []
+
+    init(data: Data) { self.data = data }
+
+    func parse() -> [OPMLSourceEntry] {
+        let parser = XMLParser(data: data)
+        parser.delegate = self
+        parser.parse()
+        return entries
+    }
+
+    func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
+        guard elementName.lowercased() == "outline" else { return }
+        let title = attributeDict["title"] ?? attributeDict["text"] ?? ""
+        let html = attributeDict["htmlUrl"] ?? attributeDict["htmlurl"]
+        let xml = attributeDict["xmlUrl"] ?? attributeDict["xmlurl"]
+        let isFolder = (html ?? xml) == nil
+        let currentGroup = stack.last(where: { $0.isFolder })?.title
+        if let url = xml ?? html {
+            entries.append(OPMLSourceEntry(title: title, url: url, homepage: html, group: currentGroup, isFeed: xml != nil))
+        }
+        stack.append((title, isFolder))
+    }
+
+    func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
+        if elementName.lowercased() == "outline", !stack.isEmpty { stack.removeLast() }
     }
 }

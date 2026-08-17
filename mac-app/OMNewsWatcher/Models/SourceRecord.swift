@@ -37,9 +37,52 @@ struct SourceRecord: Identifiable, Equatable {
         shortName ?? SourceRecord.compactSourceName(name)
     }
 
+    var groups: [String] {
+        get { stringArray(for: "groups") }
+        set { setStringArray(newValue, for: "groups") }
+    }
+
+    var tags: [String] {
+        get { stringArray(for: "tags") }
+        set { setStringArray(newValue, for: "tags") }
+    }
+
+    var priority: Int {
+        get { max(1, min(3, raw["priority"]?.intValue ?? 2)) }
+        set { raw["priority"] = .int(max(1, min(3, newValue))) }
+    }
+
+    var includeKeywords: [String] {
+        get { stringArray(for: "includeKeywords") }
+        set { setStringArray(newValue, for: "includeKeywords") }
+    }
+
+    var excludeKeywords: [String] {
+        get { stringArray(for: "excludeKeywords") }
+        set { setStringArray(newValue, for: "excludeKeywords") }
+    }
+
+    var primaryGroup: String? { groups.first }
+
+    var priorityStars: String {
+        String(repeating: "★", count: priority) +
+        String(repeating: "☆", count: 3 - priority)
+    }
+
     var url: String {
         get { raw["url"]?.stringValue ?? "" }
         set { raw["url"] = .string(newValue) }
+    }
+
+    var homepageURL: String? {
+        get { clean(raw["homepageUrl"]?.stringValue) }
+        set {
+            if let newValue, !newValue.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                raw["homepageUrl"] = .string(newValue)
+            } else {
+                raw.removeValue(forKey: "homepageUrl")
+            }
+        }
     }
 
     var enabled: Bool {
@@ -307,6 +350,11 @@ struct SourceRecord: Identifiable, Equatable {
             "url": .string(url),
             "enabled": .bool(true),
             "waitMs": .int(2500),
+            "priority": .int(2),
+            "groups": .array([]),
+            "tags": .array([]),
+            "includeKeywords": .array([]),
+            "excludeKeywords": .array([]),
             "selectors": .object([
                 "item": .string(""),
                 "title": .string(""),
@@ -378,6 +426,9 @@ struct SourceRecord: Identifiable, Equatable {
         copy.removeValue(forKey: "shortName")
         copy.removeValue(forKey: "enabled")
         copy.removeValue(forKey: "baselineVersion")
+        copy.removeValue(forKey: "groups")
+        copy.removeValue(forKey: "tags")
+        copy.removeValue(forKey: "priority")
 
         return copy
     }
@@ -406,6 +457,24 @@ struct SourceRecord: Identifiable, Equatable {
 
         selectors[key] = .string(trimmed)
         raw["selectors"] = .object(selectors)
+    }
+
+    private func stringArray(for key: String) -> [String] {
+        guard case .array(let values) = raw[key] else { return [] }
+        var seen = Set<String>()
+        return values.compactMap { $0.stringValue }
+            .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
+            .filter { !$0.isEmpty }
+            .filter { seen.insert($0.lowercased()).inserted }
+    }
+
+    private mutating func setStringArray(_ values: [String], for key: String) {
+        var seen = Set<String>()
+        let cleaned = values
+            .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
+            .filter { !$0.isEmpty }
+            .filter { seen.insert($0.lowercased()).inserted }
+        raw[key] = .array(cleaned.map { .string($0) })
     }
 
     private func clean(_ value: String?) -> String? {

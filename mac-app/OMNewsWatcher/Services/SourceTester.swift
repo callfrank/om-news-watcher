@@ -10,6 +10,9 @@ final class SourceTester: NSObject, WKNavigationDelegate {
     private var finished = false
 
     func test(_ source: SourceRecord) async -> SourceTestResult {
+        if source.fetchMode == "feed" {
+            return await testViaFeed(source)
+        }
         if source.fetchMode == "html" {
             return await testViaHTTP(source)
         }
@@ -59,6 +62,60 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         )
     }
 
+    private func testViaFeed(_ source: SourceRecord) async -> SourceTestResult {
+        guard let url = URL(string: source.url) else { return failure(source, message: "Die Feed-URL ist ungültig.") }
+        do {
+            var request = URLRequest(url: url)
+            request.timeoutInterval = 18
+            request.setValue("application/rss+xml, application/atom+xml, application/xml, text/xml, */*", forHTTPHeaderField: "Accept")
+            let (data, response) = try await URLSession.shared.data(for: request)
+            guard let http = response as? HTTPURLResponse, (200..<400).contains(http.statusCode) else {
+                return failure(source, message: "Feed konnte nicht geladen werden.")
+            }
+            let xml = String(data: data, encoding: .utf8) ?? ""
+            let rows = feedCandidates(xml).prefix(150).map { $0 }
+            return classify(source, rows: Array(rows), allRows: Array(rows))
+        } catch {
+            return failure(source, message: "Feed-Fehler: \(error.localizedDescription)")
+        }
+    }
+
+    private func feedCandidates(_ xml: String) -> [Candidate] {
+        func decode(_ value: String) -> String {
+            value.replacingOccurrences(of: "<![CDATA[", with: "")
+                .replacingOccurrences(of: "]]>", with: "")
+                .replacingOccurrences(of: "&amp;", with: "&")
+                .replacingOccurrences(of: "&quot;", with: "\"")
+                .replacingOccurrences(of: "&#39;", with: "'")
+                .replacingOccurrences(of: "&lt;", with: "<")
+                .replacingOccurrences(of: "&gt;", with: ">")
+                .replacingOccurrences(of: "<[^>]+>", with: " ", options: .regularExpression)
+                .replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
+                .trimmingCharacters(in: .whitespacesAndNewlines)
+        }
+
+        let blockPattern = #"(?is)<(?:item|entry)\\b[^>]*>(.*?)</(?:item|entry)>"#
+        guard let regex = try? NSRegularExpression(pattern: blockPattern) else { return [] }
+        let ns = xml as NSString
+        return regex.matches(in: xml, range: NSRange(location: 0, length: ns.length)).compactMap { match in
+            let block = ns.substring(with: match.range(at: 1))
+            let title = firstMatch(block, pattern: #"(?is)<title\\b[^>]*>(.*?)</title>"#).map(decode) ?? ""
+            var link = firstMatch(block, pattern: #"(?is)<link\\b[^>]*href=[\"']([^\"']+)[\"'][^>]*/?>"#) ?? ""
+            if link.isEmpty { link = firstMatch(block, pattern: #"(?is)<link\\b[^>]*>(.*?)</link>"#).map(decode) ?? "" }
+            let date = firstMatch(block, pattern: #"(?is)<(?:pubDate|published|updated)\\b[^>]*>(.*?)</(?:pubDate|published|updated)>"#).map(decode) ?? ""
+            guard !title.isEmpty, !link.isEmpty else { return nil }
+            return Candidate(title: title, href: link, date: date)
+        }
+    }
+
+    private func firstMatch(_ value: String, pattern: String) -> String? {
+        guard let regex = try? NSRegularExpression(pattern: pattern),
+              let match = regex.firstMatch(in: value, range: NSRange(value.startIndex..., in: value)),
+              match.numberOfRanges > 1,
+              let range = Range(match.range(at: 1), in: value) else { return nil }
+        return String(value[range])
+    }
+
     private func testViaWebKit(_ source: SourceRecord) async -> SourceTestResult {
         guard let url = URL(string: source.url) else {
             return failure(source, message: "Die URL ist ungültig.")
@@ -81,7 +138,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 18
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/2.1",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/3.0",
                 forHTTPHeaderField: "User-Agent"
             )
 
@@ -187,7 +244,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 15
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/2.1",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/3.0",
                 forHTTPHeaderField: "User-Agent"
             )
             request.setValue("text/html,application/xhtml+xml", forHTTPHeaderField: "Accept")
@@ -908,6 +965,15 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
             if let pattern = source.excludeTitleRegex,
                matches(title, pattern: pattern) {
+                continue
+            }
+
+            let lowerTitle = title.lowercased()
+            if !source.includeKeywords.isEmpty &&
+               !source.includeKeywords.contains(where: { lowerTitle.contains($0.lowercased()) }) {
+                continue
+            }
+            if source.excludeKeywords.contains(where: { lowerTitle.contains($0.lowercased()) }) {
                 continue
             }
 

@@ -6,6 +6,8 @@ struct ContentView: View {
     @ObservedObject var model: AppViewModel
     @State private var searchText = ""
     @State private var showDeleteConfirmation = false
+    @State private var selectedFolder: String? = nil
+    @State private var listFilter: SourceListFilter = .all
 
     var body: some View {
         NavigationSplitView {
@@ -54,6 +56,18 @@ struct ContentView: View {
                 }
             }
         }
+        .sheet(isPresented: $model.showFeedPreview) {
+            FeedPreviewView(model: model)
+        }
+        .sheet(isPresented: $model.showHealthDashboard) {
+            HealthDashboardView(model: model)
+        }
+        .sheet(isPresented: $model.showGroupManager) {
+            GroupManagerView(model: model)
+        }
+        .sheet(isPresented: $model.showBulkManager) {
+            BulkManagerView(model: model)
+        }
         .alert("Fehler", isPresented: Binding(
             get: { model.errorMessage != nil },
             set: { if !$0 { model.errorMessage = nil } }
@@ -98,53 +112,103 @@ struct ContentView: View {
             .padding(.bottom, 6)
 
             List(selection: $model.selectedSourceID) {
-                ForEach(filteredSources) { source in
-                    HStack(spacing: 10) {
-                        Image(systemName: source.enabled ? "checkmark.circle.fill" : "pause.circle.fill")
-                            .foregroundStyle(source.enabled ? .green : .secondary)
+                Section("Ordner") {
+                    Button {
+                        selectedFolder = nil
+                    } label: {
+                        Label("Alle Quellen", systemImage: selectedFolder == nil ? "tray.full.fill" : "tray.full")
+                    }
+                    .buttonStyle(.plain)
 
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text(source.name)
-                                .lineLimit(1)
-                            Text(host(for: source.url))
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                                .lineLimit(1)
+                    ForEach(model.allGroups, id: \.self) { group in
+                        Button {
+                            selectedFolder = group
+                        } label: {
+                            HStack {
+                                Label(group, systemImage: selectedFolder == group ? "folder.fill" : "folder")
+                                Spacer()
+                                Text("\(model.groupCount(group))")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
                         }
-
-                        Spacer(minLength: 4)
-
-                        if let result = model.testResults[source.id], result.isProblem {
-                            Image(systemName: result.kind == .technicalError ? "xmark.octagon.fill" : (result.kind == .timeout ? "clock.badge.exclamationmark" : "exclamationmark.triangle.fill"))
-                                .foregroundStyle(result.kind == .technicalError ? .red : .orange)
-                                .help(result.message)
+                        .buttonStyle(.plain)
+                        .contextMenu {
+                            Button("Gruppenfeed öffnen") { model.openGroupFeed(group) }
                         }
                     }
-                    .tag(source.id)
-                    .contextMenu {
-                        Button("Quelle testen") {
-                            Task { await model.testSource(source) }
+
+                    if model.ungroupedCount > 0 {
+                        Button {
+                            selectedFolder = "__UNGROUPED__"
+                        } label: {
+                            HStack {
+                                Label("Ohne Ordner", systemImage: "folder.badge.questionmark")
+                                Spacer()
+                                Text("\(model.ungroupedCount)")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
                         }
+                        .buttonStyle(.plain)
+                    }
+                }
 
-                        Button(source.enabled ? "Pausieren" : "Aktivieren") {
-                            model.setEnabled(!source.enabled, for: source.id)
+                Section(selectedFolderTitle) {
+                    ForEach(filteredSources) { source in
+                        HStack(spacing: 9) {
+                            Image(systemName: source.enabled ? "checkmark.circle.fill" : "pause.circle.fill")
+                                .foregroundStyle(source.enabled ? .green : .secondary)
+                            VStack(alignment: .leading, spacing: 2) {
+                                HStack(spacing: 6) {
+                                    Text(source.name).lineLimit(1)
+                                    Text(source.priorityStars)
+                                        .font(.caption2)
+                                        .foregroundStyle(source.priority == 3 ? .orange : .secondary)
+                                }
+                                HStack(spacing: 5) {
+                                    Text(host(for: source.url)).lineLimit(1)
+                                    if let group = source.primaryGroup {
+                                        Text("· \(group)").lineLimit(1)
+                                    }
+                                }
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                            }
+                            Spacer(minLength: 4)
+                            if let result = model.testResults[source.id], result.isProblem {
+                                Image(systemName: result.kind == .technicalError ? "xmark.octagon.fill" : (result.kind == .timeout ? "clock.badge.exclamationmark" : "exclamationmark.triangle.fill"))
+                                    .foregroundStyle(result.kind == .technicalError ? .red : .orange)
+                                    .help(result.message)
+                            }
                         }
-
-                        Button("Bearbeiten") {
-                            model.selectedSourceID = source.id
-                            model.editSelectedSource()
-                        }
-
-                        Divider()
-
-                        Button("Löschen", role: .destructive) {
-                            model.selectedSourceID = source.id
-                            showDeleteConfirmation = true
+                        .tag(source.id)
+                        .contextMenu {
+                            Button("Quelle testen") { Task { await model.testSource(source) } }
+                            Button(source.enabled ? "Pausieren" : "Aktivieren") { model.setEnabled(!source.enabled, for: source.id) }
+                            Button("Bearbeiten") { model.selectedSourceID = source.id; model.editSelectedSource() }
+                            Divider()
+                            Button("Löschen", role: .destructive) { model.selectedSourceID = source.id; showDeleteConfirmation = true }
                         }
                     }
                 }
             }
             .searchable(text: $searchText, prompt: "Quellen suchen")
+            .safeAreaInset(edge: .top) {
+                HStack {
+                    Picker("Filter", selection: $listFilter) {
+                        ForEach(SourceListFilter.allCases) { filter in Text(filter.title).tag(filter) }
+                    }
+                    .labelsHidden()
+                    .frame(maxWidth: 190)
+                    Spacer()
+                    Button { model.showGroupManager = true } label: { Image(systemName: "folder.badge.gearshape") }
+                        .help("Ordner verwalten")
+                }
+                .padding(.horizontal, 10)
+                .padding(.vertical, 6)
+                .background(.bar)
+            }
 
             HStack {
                 Text("\(model.activeCount) aktiv")
@@ -209,6 +273,13 @@ struct ContentView: View {
                                 "Feed-Titel",
                                 value: "\(source.feedLabel) · <Originaltitel>"
                             )
+
+                            LabeledContent("Ordner", value: source.groups.isEmpty ? "—" : source.groups.joined(separator: ", "))
+                            LabeledContent("Schlagwörter", value: source.tags.isEmpty ? "—" : source.tags.joined(separator: ", "))
+                            LabeledContent("Relevanz", value: source.priorityStars)
+                            if let latest = model.latestItem(for: source) {
+                                LabeledContent("Letzter neuer Treffer", value: latest.displayDetectedAt)
+                            }
 
                             LabeledContent("JavaScript-Wartezeit", value: "\(source.waitMs) ms")
 
@@ -523,6 +594,21 @@ struct ContentView: View {
         }
 
         ToolbarItemGroup(placement: .secondaryAction) {
+            Menu {
+                Button { model.showHealthDashboard = true } label: { Label("Übersicht", systemImage: "gauge.with.dots.needle.67percent") }
+                Button { model.showFeedPreview = true } label: { Label("Meldungen", systemImage: "newspaper") }
+                Button { model.showGroupManager = true } label: { Label("Ordner verwalten", systemImage: "folder.badge.gearshape") }
+                Button { model.showBulkManager = true } label: { Label("Quellen verwalten", systemImage: "checkmark.circle.badge.plus") }
+                Divider()
+                Button("Feeds als OPML exportieren") { model.exportOPML() }
+                Button("Quellen als CSV exportieren") { model.exportSourcesCSV() }
+                Button("Quellen als JSON exportieren") { model.exportSourcesJSON() }
+                Button("OPML importieren …") { model.importOPML() }
+            } label: {
+                HStack(spacing: 5) { Image(systemName: "rectangle.3.group"); Text("Redaktion") }
+            }
+            .help("Ordner, Meldungen, Quellenverwaltung und Export")
+
             Button {
                 model.showProblems = true
             } label: {
@@ -616,14 +702,43 @@ struct ContentView: View {
         .background(.bar)
     }
 
+    private var selectedFolderTitle: String {
+        if selectedFolder == "__UNGROUPED__" { return "Ohne Ordner" }
+        return selectedFolder ?? "Quellen"
+    }
+
     private var filteredSources: [SourceRecord] {
-        if searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-            return model.sources
+        var list = model.sources
+
+        if selectedFolder == "__UNGROUPED__" {
+            list = list.filter { $0.groups.isEmpty }
+        } else if let selectedFolder {
+            list = list.filter { $0.groups.contains(where: { $0.caseInsensitiveCompare(selectedFolder) == .orderedSame }) }
         }
 
-        return model.sources.filter {
-            $0.name.localizedCaseInsensitiveContains(searchText) ||
-            $0.url.localizedCaseInsensitiveContains(searchText)
+        switch listFilter {
+        case .all: break
+        case .active: list = list.filter(\.enabled)
+        case .paused: list = list.filter { !$0.enabled }
+        case .problems: list = list.filter { model.testResults[$0.id]?.isProblem == true }
+        case .visual: list = list.filter(\.visualLearned)
+        case .timeout: list = list.filter { model.testResults[$0.id]?.kind == .timeout }
+        case .untested: list = list.filter { model.testResults[$0.id] == nil }
+        }
+
+        let query = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
+        if !query.isEmpty {
+            list = list.filter {
+                $0.name.localizedCaseInsensitiveContains(query) ||
+                $0.url.localizedCaseInsensitiveContains(query) ||
+                $0.groups.contains(where: { $0.localizedCaseInsensitiveContains(query) }) ||
+                $0.tags.contains(where: { $0.localizedCaseInsensitiveContains(query) })
+            }
+        }
+
+        return list.sorted {
+            if $0.priority != $1.priority { return $0.priority > $1.priority }
+            return $0.name.localizedCaseInsensitiveCompare($1.name) == .orderedAscending
         }
     }
 
@@ -656,6 +771,175 @@ struct ContentView: View {
     }
 }
 
+
+
+// MARK: - Organisation, Export und Dashboard
+
+struct FeedPreviewView: View {
+    @Environment(\.dismiss) private var dismiss
+    @ObservedObject var model: AppViewModel
+    @State private var search = ""
+    @State private var group = "Alle"
+
+    var body: some View {
+        NavigationStack {
+            List(filteredItems) { item in
+                Button { model.openFeedItem(item) } label: {
+                    VStack(alignment: .leading, spacing: 5) {
+                        HStack {
+                            Text(item.sourceLabel ?? item.source).font(.caption.bold())
+                            Text(String(repeating: "★", count: item.effectivePriority)).font(.caption2).foregroundStyle(.orange)
+                            if let groups = item.groups, !groups.isEmpty { Text(groups.joined(separator: " · ")).font(.caption2).foregroundStyle(.secondary) }
+                            Spacer()
+                            Text(item.pageDate ?? item.displayDetectedAt).font(.caption2).foregroundStyle(.secondary)
+                        }
+                        Text(item.title).font(.headline).multilineTextAlignment(.leading)
+                        if let duplicates = item.duplicateSources, !duplicates.isEmpty {
+                            Text("Auch gefunden bei: \(duplicates.joined(separator: ", "))").font(.caption).foregroundStyle(.secondary)
+                        }
+                    }.padding(.vertical, 4)
+                }.buttonStyle(.plain)
+            }
+            .searchable(text: $search, prompt: "Meldungen suchen")
+            .navigationTitle("Feed-Vorschau")
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) { Button("Fertig") { dismiss() } }
+                ToolbarItem { Picker("Ordner", selection: $group) { Text("Alle").tag("Alle"); ForEach(model.allGroups, id: \.self) { Text($0).tag($0) } } }
+            }
+        }.frame(minWidth: 820, minHeight: 620)
+    }
+
+    private var filteredItems: [FeedHistoryItem] {
+        model.feedItems.filter { item in
+            let matchesGroup = group == "Alle" || (item.groups ?? []).contains(group)
+            let q = search.trimmingCharacters(in: .whitespacesAndNewlines)
+            return matchesGroup && (q.isEmpty || item.title.localizedCaseInsensitiveContains(q) || item.source.localizedCaseInsensitiveContains(q))
+        }.sorted {
+            if $0.effectivePriority != $1.effectivePriority { return $0.effectivePriority > $1.effectivePriority }
+            return $0.detectedAt > $1.detectedAt
+        }
+    }
+}
+
+struct HealthDashboardView: View {
+    @Environment(\.dismiss) private var dismiss
+    @ObservedObject var model: AppViewModel
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 18) {
+                    HStack(spacing: 14) {
+                        HealthCard(title: "Aktiv", value: model.activeCount, systemImage: "checkmark.circle.fill")
+                        HealthCard(title: "Probleme", value: model.problemCount, systemImage: "exclamationmark.triangle.fill")
+                        HealthCard(title: "Ordner", value: model.allGroups.count, systemImage: "folder.fill")
+                        HealthCard(title: "Feed-Einträge", value: model.feedItems.count, systemImage: "newspaper.fill")
+                    }
+                    GroupBox("Quellen ohne aktuellen Verlaufstreffer") {
+                        VStack(alignment: .leading, spacing: 7) {
+                            ForEach(model.sources.filter { model.latestItem(for: $0) == nil }.prefix(20)) { source in
+                                HStack { Text(source.name); Spacer(); Text(source.enabled ? "aktiv" : "pausiert").foregroundStyle(.secondary) }
+                            }
+                        }.padding(6)
+                    }
+                    GroupBox("Problemquellen") {
+                        VStack(alignment: .leading, spacing: 7) {
+                            ForEach(model.sources.filter { model.testResults[$0.id]?.isProblem == true }) { source in
+                                HStack { Text(source.name); Spacer(); Text(model.testResults[source.id]?.kind.title ?? "Problem").foregroundStyle(.orange) }
+                            }
+                        }.padding(6)
+                    }
+                }.padding(22)
+            }
+            .navigationTitle("Quellen-Gesundheit")
+            .toolbar { ToolbarItem(placement: .cancellationAction) { Button("Fertig") { dismiss() } } }
+        }.frame(minWidth: 820, minHeight: 600)
+    }
+}
+
+private struct HealthCard: View {
+    let title: String; let value: Int; let systemImage: String
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Image(systemName: systemImage).font(.title2)
+            Text("\(value)").font(.system(size: 32, weight: .bold))
+            Text(title).font(.caption).foregroundStyle(.secondary)
+        }.frame(maxWidth: .infinity, alignment: .leading).padding(16).background(.quaternary.opacity(0.35), in: RoundedRectangle(cornerRadius: 12))
+    }
+}
+
+struct GroupManagerView: View {
+    @Environment(\.dismiss) private var dismiss
+    @ObservedObject var model: AppViewModel
+    @State private var newGroup = ""
+    @State private var renameValues: [String: String] = [:]
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section("Neuen Ordner anlegen") {
+                    HStack { TextField("z. B. Payment", text: $newGroup); Button("Anlegen") { model.addGroup(newGroup); if !newGroup.trimmingCharacters(in: .whitespaces).isEmpty { renameValues[newGroup] = newGroup }; newGroup = "" } }
+                }
+                Section("Vorhandene Ordner") {
+                    ForEach(model.allGroups, id: \.self) { group in
+                        HStack {
+                            TextField(group, text: Binding(get: { renameValues[group] ?? group }, set: { renameValues[group] = $0 }))
+                            Text("\(model.groupCount(group)) Quellen").foregroundStyle(.secondary)
+                            Button("Umbenennen") { model.renameGroup(group, to: renameValues[group] ?? group) }
+                            Button("Feed öffnen") { model.openGroupFeed(group) }
+                            Button("Entfernen", role: .destructive) { model.deleteGroup(group) }
+                        }
+                    }
+                }
+                Text("Ordner werden über die Quellen gespeichert. Ein leerer Ordner ohne zugeordnete Quelle existiert daher erst, sobald mindestens eine Quelle zugeordnet wurde.")
+                    .font(.caption).foregroundStyle(.secondary)
+            }
+            .formStyle(.grouped)
+            .navigationTitle("Ordner & Themenfeeds")
+            .toolbar { ToolbarItem(placement: .cancellationAction) { Button("Fertig") { dismiss() } } }
+        }.frame(width: 820, height: 560)
+    }
+}
+
+struct BulkManagerView: View {
+    @Environment(\.dismiss) private var dismiss
+    @ObservedObject var model: AppViewModel
+    @State private var groupName = ""
+
+    var body: some View {
+        NavigationStack {
+            VStack(spacing: 0) {
+                List(model.sources) { source in
+                    Button {
+                        if model.bulkSelectedIDs.contains(source.id) { model.bulkSelectedIDs.remove(source.id) } else { model.bulkSelectedIDs.insert(source.id) }
+                    } label: {
+                        HStack {
+                            Image(systemName: model.bulkSelectedIDs.contains(source.id) ? "checkmark.circle.fill" : "circle")
+                            VStack(alignment: .leading) { Text(source.name); Text(source.groups.joined(separator: ", ")).font(.caption).foregroundStyle(.secondary) }
+                            Spacer(); Text(source.priorityStars).font(.caption)
+                        }
+                    }.buttonStyle(.plain)
+                }
+                Divider()
+                HStack {
+                    Text("\(model.bulkSelectedIDs.count) ausgewählt").font(.headline)
+                    Button("Alle") { model.bulkSelectedIDs = Set(model.sources.map(\.id)) }
+                    Button("Keine") { model.bulkSelectedIDs.removeAll() }
+                    Divider().frame(height: 24)
+                    Button("Aktivieren") { model.setEnabled(true, for: model.bulkSelectedIDs) }
+                    Button("Pausieren") { model.setEnabled(false, for: model.bulkSelectedIDs) }
+                    Button("Testen") { Task { await model.testSources(model.bulkSelectedIDs) } }
+                    TextField("Ordner", text: $groupName).frame(width: 160)
+                    Button("Zuordnen") { model.assignGroup(groupName, to: model.bulkSelectedIDs); groupName = "" }
+                    Spacer()
+                    Button("Löschen", role: .destructive) { model.deleteSources(model.bulkSelectedIDs) }
+                }.padding(12)
+            }
+            .navigationTitle("Quellen verwalten")
+            .toolbar { ToolbarItem(placement: .cancellationAction) { Button("Fertig") { dismiss() } } }
+        }.frame(minWidth: 920, minHeight: 650)
+    }
+}
 
 // MARK: - Visuelles Einlernen
 
