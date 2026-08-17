@@ -294,9 +294,9 @@
     "allowExternal" : false,
     "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "mac-app-20260817-132808",
+    "baselineVersion" : "mac-app-20260817-135813",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
-    "enabled" : false,
+    "enabled" : true,
     "http2Fallback" : false,
     "includeRegex" : "^https?://www\\.galaxus\\.de/de/page/",
     "minTitleLength" : 5,
@@ -305,7 +305,7 @@
       "date" : "",
       "item" : "section",
       "link" : "a.yyfb861",
-      "title" : "a.yyfb861"
+      "title" : "h4.yoCHKHQA"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306",
@@ -321,14 +321,19 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T11:28:08Z",
-    "visualRuleVersion" : 2,
+    "visualLearnedAt" : "2026-08-17T11:58:13Z",
+    "visualRuleVersion" : 3,
     "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://www.galaxus.de/de/page/ueber-50-prozent-wachstum-bei-haargummis-ein-erling-haaland-effekt-43348",
+      "https://www.galaxus.de/de/page/grillsommer-2026-mehr-strom-mehr-brenner-mehr-plancha-43362",
+      "https://www.galaxus.de/de/page/deutsche-tragen-am-haeufigsten-kurze-hosen-bei-der-arbeit-43287"
+    ],
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:28:09Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 266 Treffer",
+    "visualValidatedAt" : "2026-08-17T11:58:15Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 253 Treffer",
     "waitMs" : 1000
   },
   {
