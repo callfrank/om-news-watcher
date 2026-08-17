@@ -8,8 +8,10 @@ const SOURCES_FILE = path.join(ROOT, 'sources.json');
 const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
+const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
+const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 
-const VERSION = '0.17';
+const VERSION = '0.20';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
@@ -400,6 +402,12 @@ function matchesConfiguredRules(item, source) {
   if (includeTitleRegex && !includeTitleRegex.test(item.title)) return false;
   if (excludeTitleRegex && excludeTitleRegex.test(item.title)) return false;
 
+  const lowerTitle = String(item.title || '').toLowerCase();
+  const includeKeywords = Array.isArray(source.includeKeywords) ? source.includeKeywords.filter(Boolean) : [];
+  const excludeKeywords = Array.isArray(source.excludeKeywords) ? source.excludeKeywords.filter(Boolean) : [];
+  if (includeKeywords.length && !includeKeywords.some(k => lowerTitle.includes(String(k).toLowerCase()))) return false;
+  if (excludeKeywords.some(k => lowerTitle.includes(String(k).toLowerCase()))) return false;
+
   return true;
 }
 
@@ -745,8 +753,10 @@ function sourceFeedLabel(source) {
   );
 }
 
-function makeFeed(items, sources = []) {
+function makeFeed(items, sources = [], options = {}) {
   const now = new Date().toUTCString();
+  const channelTitle = options.title || 'OM News Watcher';
+  const channelDescription = options.description || 'Neue Meldungen aus beobachteten Websites für onlinemarktplatz.de';
 
   const sourceMap = new Map(
     sources.map(source => [
@@ -783,6 +793,13 @@ function makeFeed(items, sources = []) {
       meta.push(`Veröffentlicht: ${pageDate}`);
     }
 
+    const itemGroups = Array.isArray(item.groups) ? item.groups : [];
+    const itemTags = Array.isArray(item.tags) ? item.tags : [];
+    if (itemGroups.length) meta.push(`Thema: ${itemGroups.join(', ')}`);
+    if (itemTags.length) meta.push(`Tags: ${itemTags.join(', ')}`);
+    if (Number(item.priority || 0) > 0) meta.push(`Relevanz: ${'★'.repeat(Math.max(1, Math.min(3, Number(item.priority))))}`);
+    if (Array.isArray(item.duplicateSources) && item.duplicateSources.length) meta.push(`Auch gefunden bei: ${item.duplicateSources.join(', ')}`);
+
     try {
       const detected = new Intl.DateTimeFormat(
         'de-DE',
@@ -815,9 +832,9 @@ function makeFeed(items, sources = []) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>OM News Watcher</title>
+    <title>${escXml(channelTitle)}</title>
     <link>https://github.com/</link>
-    <description>Neue Meldungen aus beobachteten Websites für onlinemarktplatz.de</description>
+    <description>${escXml(channelDescription)}</description>
     <language>de-de</language>
     <lastBuildDate>${now}</lastBuildDate>
     ${body}
@@ -996,6 +1013,39 @@ function anchorsFromHtml(html = '') {
   }
 
   return rows;
+}
+
+function feedRowsFromXml(xml = '') {
+  const rows = [];
+  const blocks = String(xml).match(/<(?:item|entry)\b[^>]*>[\s\S]*?<\/(?:item|entry)>/gi) || [];
+  const pick = (block, re) => decodeHtmlEntities((block.match(re)?.[1] || '').replace(/<!\[CDATA\[|\]\]>/g, '')).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+  for (const block of blocks) {
+    const title = pick(block, /<title\b[^>]*>([\s\S]*?)<\/title>/i);
+    let href = block.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*\/?\s*>/i)?.[1] || '';
+    if (!href) href = pick(block, /<link\b[^>]*>([\s\S]*?)<\/link>/i);
+    const date = pick(block, /<(?:pubDate|published|updated)\b[^>]*>([\s\S]*?)<\/(?:pubDate|published|updated)>/i);
+    if (title && href) rows.push({ title, href, date });
+  }
+  return rows;
+}
+
+async function inspectSourceViaFeed(source, index, total) {
+  const started = Date.now();
+  console.log(`[${index + 1}/${total}] Start FEED: ${source.name}`);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 15000);
+  try {
+    const response = await fetch(source.url, { redirect: 'follow', signal: controller.signal, headers: { 'user-agent': `OM-News-Watcher/${VERSION}`, 'accept': 'application/rss+xml,application/atom+xml,application/xml,text/xml,*/*' } });
+    if (!response.ok) throw new Error(`HTTP ${response.status} ${response.statusText}`);
+    const xml = await response.text();
+    const rows = normalizeAndFilter(feedRowsFromXml(xml), { ...source, includeRegex: source.includeRegex || null });
+    return { source, rows, notes: [`Direkter RSS/Atom-Abruf: ${rows.length} Einträge`], durationMs: Date.now() - started, error: null };
+  } catch (err) {
+    return { source, rows: [], notes: [], durationMs: Date.now() - started, error: err };
+  } finally {
+    clearTimeout(timer);
+    console.log(`[${index + 1}/${total}] Ende FEED: ${source.name} (${((Date.now() - started) / 1000).toFixed(1)}s)`);
+  }
 }
 
 async function inspectSourceViaHttp(source, index, total) {
@@ -1364,7 +1414,9 @@ async function mapWithConcurrency(items, limit, worker) {
     sources,
     SOURCE_CONCURRENCY,
     (source, index) =>
-      source.fetchMode === 'html'
+      source.fetchMode === 'feed'
+        ? inspectSourceViaFeed(source, index, sources.length)
+        : source.fetchMode === 'html'
         ? inspectSourceViaHttp(
             source,
             index,
@@ -1567,6 +1619,15 @@ async function mapWithConcurrency(items, limit, worker) {
           sourceLabel:
             sourceFeedLabel(source),
 
+          groups:
+            Array.isArray(source.groups) ? source.groups : [],
+
+          tags:
+            Array.isArray(source.tags) ? source.tags : [],
+
+          priority:
+            Math.max(1, Math.min(3, Number(source.priority || 2))),
+
           title:
             r.title,
 
@@ -1609,49 +1670,83 @@ async function mapWithConcurrency(items, limit, worker) {
       GLOBAL_BASELINE_TOKEN;
   }
 
-  const seenGuid =
-    new Set();
+  // Organisationsdaten alter Feed-Einträge an die aktuelle Quellenkonfiguration anpassen.
+  const sourceByName = new Map(sources.map(source => [source.name, source]));
+  items = items.map(item => {
+    const source = sourceByName.get(item.source);
+    if (!source) return item;
+    return {
+      ...item,
+      sourceLabel: sourceFeedLabel(source),
+      groups: Array.isArray(source.groups) ? source.groups : [],
+      tags: Array.isArray(source.tags) ? source.tags : [],
+      priority: Math.max(1, Math.min(3, Number(source.priority || 2)))
+    };
+  });
 
-  items =
-    items.filter(
-      x =>
-        x &&
-        x.guid &&
-        !seenGuid.has(x.guid) &&
-        seenGuid.add(x.guid)
-    );
+  // Doppelte Meldungen aus mehreren Quellen im Feed zusammenführen.
+  const deduped = [];
+  const byGuid = new Map();
+  const byTitle = new Map();
+  const normalizedKey = value => String(value || '').toLowerCase().replace(/[^a-z0-9äöüß]+/gi, ' ').replace(/\s+/g, ' ').trim();
 
-  items =
-    items.slice(
-      0,
-      MAX_FEED_ITEMS
-    );
+  const sortedItems = [...items].sort((a, b) => {
+    const timeDiff = Date.parse(b.detectedAt || 0) - Date.parse(a.detectedAt || 0);
+    if (timeDiff !== 0) return timeDiff;
+    return Number(b.priority || 2) - Number(a.priority || 2);
+  });
 
-  saveJson(
-    STATE_FILE,
-    state
-  );
-
-  saveJson(
-    ITEMS_FILE,
-    items
-  );
-
-  fs.mkdirSync(
-    path.dirname(FEED_FILE),
-    {
-      recursive: true
+  for (const item of sortedItems) {
+    if (!item?.guid) continue;
+    const titleKey = normalizedKey(item.title);
+    let existing = byGuid.get(item.guid);
+    if (!existing && titleKey.length >= 25) existing = byTitle.get(titleKey);
+    if (existing) {
+      existing.duplicateSources = [...new Set([...(existing.duplicateSources || []), item.source].filter(x => x && x !== existing.source))];
+      existing.groups = [...new Set([...(existing.groups || []), ...(item.groups || [])])];
+      existing.tags = [...new Set([...(existing.tags || []), ...(item.tags || [])])];
+      existing.priority = Math.max(Number(existing.priority || 2), Number(item.priority || 2));
+      continue;
     }
-  );
+    deduped.push(item);
+    byGuid.set(item.guid, item);
+    if (titleKey.length >= 25) byTitle.set(titleKey, item);
+  }
 
-  fs.writeFileSync(
-    FEED_FILE,
-    makeFeed(items, sources)
-  );
+  items = deduped.slice(0, MAX_FEED_ITEMS);
 
-  console.log(
-    `\nRSS geschrieben: ${FEED_FILE} (${items.length} Einträge)`
-  );
+  saveJson(STATE_FILE, state);
+  saveJson(ITEMS_FILE, items);
+
+  fs.mkdirSync(path.dirname(FEED_FILE), { recursive: true });
+  fs.writeFileSync(FEED_FILE, makeFeed(items, sources));
+
+  // Ein eigener RSS-Feed je Ordner/Themenbereich.
+  fs.rmSync(GROUP_FEED_DIR, { recursive: true, force: true });
+  fs.mkdirSync(GROUP_FEED_DIR, { recursive: true });
+
+  const groups = [...new Set(sources.flatMap(source => Array.isArray(source.groups) ? source.groups : []).filter(Boolean))]
+    .sort((a, b) => String(a).localeCompare(String(b), 'de'));
+
+  const slugify = value => String(value || '')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'thema';
+
+  const groupIndex = [];
+  for (const group of groups) {
+    const slug = slugify(group);
+    const groupItems = items.filter(item => Array.isArray(item.groups) && item.groups.some(g => String(g).toLowerCase() === String(group).toLowerCase()));
+    const filename = `${slug}.xml`;
+    fs.writeFileSync(path.join(GROUP_FEED_DIR, filename), makeFeed(groupItems, sources, {
+      title: `OM News Watcher · ${group}`,
+      description: `Neue Meldungen aus dem Themenbereich ${group}`
+    }));
+    groupIndex.push({ group, slug, file: `feeds/${filename}`, count: groupItems.length });
+  }
+  saveJson(GROUP_FEED_INDEX, groupIndex);
+
+  console.log(`\nRSS geschrieben: ${FEED_FILE} (${items.length} Einträge)`);
+  console.log(`Themenfeeds geschrieben: ${groupIndex.length}`);
 
 })().catch(err => {
   console.error(err);

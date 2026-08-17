@@ -323,9 +323,13 @@ function buildMail(items, force) {
         `  ${item.link}`
       );
 
+      const priority = Math.max(1, Math.min(3, Number(item.priority || 2)));
+      const topic = Array.isArray(item.groups) && item.groups.length ? ` · ${item.groups.join(', ')}` : '';
+      textParts.push(`  ${'★'.repeat(priority)}${topic}`);
       htmlParts.push(
         '<li style="margin-bottom:10px;">',
         `<a href="${escHtml(item.link)}" style="color:#1257a6;text-decoration:none;font-weight:600;">${escHtml(item.title)}</a>`,
+        `<div style="font-size:12px;color:#667085;margin-top:2px;">${'★'.repeat(priority)}${escHtml(topic)}</div>`,
         '</li>'
       );
     }
@@ -505,15 +509,12 @@ async function sendMail(mail) {
       }
     );
 
-  candidates.sort(
-    (a, b) =>
-      Date.parse(
-        a.detectedAt || 0
-      ) -
-      Date.parse(
-        b.detectedAt || 0
-      )
-  );
+  candidates.sort((a, b) => {
+    const pa = Number(a.priority || 2);
+    const pb = Number(b.priority || 2);
+    if (pa !== pb) return pb - pa;
+    return Date.parse(a.detectedAt || 0) - Date.parse(b.detectedAt || 0);
+  });
 
   if (FORCE) {
     // Eine Testmail soll keine echten Benachrichtigungen
