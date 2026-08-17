@@ -57,13 +57,13 @@
       "https://ecommerce-europe.eu/press-item/strong-regional-disparities-in-european-b2c-e-commerce-give-mixed-picture-on-sectors-growth/"
     ],
     "ECDB Reports": [
-      "https://ecdb.com/reports/social-commerce/1028",
       "https://ecdb.com/reports/marketplace-visibility-autoparts-tools-diy/1034",
       "https://ecdb.com/reports/who-wins-in-online-beauty/1033",
       "https://ecdb.com/reports/ecommerce-in-poland-and-cee/1032",
       "https://ecdb.com/reports/ecommerce-competitive-intelligence/1031",
       "https://ecdb.com/reports/agentic-commerce-and-ai/1030",
       "https://ecdb.com/reports/e-commerce-in-asia-pacific/1029",
+      "https://ecdb.com/reports/social-commerce/1028",
       "https://ecdb.com/reports/amazon-marketplace/1027",
       "https://ecdb.com/reports/future-of-commerce/1024",
       "https://ecdb.com/reports/ecommerce-kpi-and-benchmarks/1022",
@@ -1048,7 +1048,8 @@
     "Etsy": "mac-app-20260814-165320",
     "Onlinemarktplatz": "mac-app-20260814-165231",
     "Google Think": "mac-app-20260817-070758",
-    "Zalando Newsroom": "mac-app-20260817-120311"
+    "Zalando Newsroom": "mac-app-20260817-120311",
+    "ECDB Reports": "mac-app-20260817-120840"
   },
   "feedResetToken": "clean-baseline-v11",
   "globalBaselineBySource": {
