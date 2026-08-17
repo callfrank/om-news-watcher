@@ -125,6 +125,12 @@ final class AppViewModel: ObservableObject {
     @Published var showBulkManager = false
     @Published var bulkSelectedIDs: Set<UUID> = []
 
+    // MARK: - Integrierter Reader
+    @Published var showReader = false
+    @Published private(set) var readerReadIDs: Set<String> = []
+    @Published private(set) var readerFavoriteIDs: Set<String> = []
+    @Published private(set) var readerArchivedIDs: Set<String> = []
+
     @Published var owner: String {
         didSet { defaults.set(owner, forKey: Keys.owner) }
     }
@@ -159,6 +165,9 @@ final class AppViewModel: ObservableObject {
         static let branch = "github.branch"
         static let workflow = "github.workflow"
         static let sourcesPath = "github.sourcesPath"
+        static let readerReadIDs = "reader.readIDs"
+        static let readerFavoriteIDs = "reader.favoriteIDs"
+        static let readerArchivedIDs = "reader.archivedIDs"
     }
 
     init() {
@@ -167,6 +176,16 @@ final class AppViewModel: ObservableObject {
         branch = UserDefaults.standard.string(forKey: Keys.branch) ?? "main"
         workflow = UserDefaults.standard.string(forKey: Keys.workflow) ?? "watch.yml"
         sourcesPath = UserDefaults.standard.string(forKey: Keys.sourcesPath) ?? "sources.json"
+
+        readerReadIDs = Set(
+            UserDefaults.standard.stringArray(forKey: Keys.readerReadIDs) ?? []
+        )
+        readerFavoriteIDs = Set(
+            UserDefaults.standard.stringArray(forKey: Keys.readerFavoriteIDs) ?? []
+        )
+        readerArchivedIDs = Set(
+            UserDefaults.standard.stringArray(forKey: Keys.readerArchivedIDs) ?? []
+        )
     }
 
     var repositorySettings: RepositorySettings {
@@ -259,6 +278,8 @@ final class AppViewModel: ObservableObject {
                 return
             }
             feedItems = (try? JSONDecoder().decode([FeedHistoryItem].self, from: file.data)) ?? []
+            pruneReaderState()
+            updateReaderDockBadge()
         } catch {
             // Feed-Vorschau ist eine Komfortfunktion und soll den Start nicht blockieren.
         }
@@ -844,6 +865,113 @@ final class AppViewModel: ObservableObject {
             allTestCompleted += 1
         }
         statusMessage = "Auswahl getestet: \(candidates.count) Quellen"
+    }
+
+
+    // MARK: - Reader
+
+    var readerUnreadCount: Int {
+        feedItems.filter {
+            !readerArchivedIDs.contains($0.id) &&
+            !readerReadIDs.contains($0.id)
+        }.count
+    }
+
+    func readerUnreadCount(in group: String) -> Int {
+        feedItems.filter {
+            !readerArchivedIDs.contains($0.id) &&
+            !readerReadIDs.contains($0.id) &&
+            ($0.groups ?? []).contains(group)
+        }.count
+    }
+
+    func readerIsRead(_ item: FeedHistoryItem) -> Bool {
+        readerReadIDs.contains(item.id)
+    }
+
+    func readerIsFavorite(_ item: FeedHistoryItem) -> Bool {
+        readerFavoriteIDs.contains(item.id)
+    }
+
+    func readerIsArchived(_ item: FeedHistoryItem) -> Bool {
+        readerArchivedIDs.contains(item.id)
+    }
+
+    func readerMarkRead(_ item: FeedHistoryItem, read: Bool = true) {
+        if read {
+            readerReadIDs.insert(item.id)
+        } else {
+            readerReadIDs.remove(item.id)
+        }
+        persistReaderState()
+    }
+
+    func readerToggleRead(_ item: FeedHistoryItem) {
+        readerMarkRead(item, read: !readerIsRead(item))
+    }
+
+    func readerToggleFavorite(_ item: FeedHistoryItem) {
+        if readerFavoriteIDs.contains(item.id) {
+            readerFavoriteIDs.remove(item.id)
+        } else {
+            readerFavoriteIDs.insert(item.id)
+        }
+        persistReaderState()
+    }
+
+    func readerToggleArchive(_ item: FeedHistoryItem) {
+        if readerArchivedIDs.contains(item.id) {
+            readerArchivedIDs.remove(item.id)
+        } else {
+            readerArchivedIDs.insert(item.id)
+            readerReadIDs.insert(item.id)
+        }
+        persistReaderState()
+    }
+
+    func readerMarkAllRead(_ items: [FeedHistoryItem]) {
+        for item in items {
+            readerReadIDs.insert(item.id)
+        }
+        persistReaderState()
+        statusMessage = "\(items.count) Meldungen als gelesen markiert"
+    }
+
+    func readerUnarchiveAll(_ items: [FeedHistoryItem]) {
+        for item in items {
+            readerArchivedIDs.remove(item.id)
+        }
+        persistReaderState()
+    }
+
+    private func persistReaderState() {
+        defaults.set(Array(readerReadIDs), forKey: Keys.readerReadIDs)
+        defaults.set(Array(readerFavoriteIDs), forKey: Keys.readerFavoriteIDs)
+        defaults.set(Array(readerArchivedIDs), forKey: Keys.readerArchivedIDs)
+        updateReaderDockBadge()
+    }
+
+    private func pruneReaderState() {
+        let known = Set(feedItems.map(\.id))
+        // Lesestatus darf länger leben als der 500er Feed-Verlauf,
+        // aber die lokalen Sets sollen nicht unbegrenzt wachsen.
+        if readerReadIDs.count > 10_000 {
+            readerReadIDs = readerReadIDs.intersection(known)
+        }
+        if readerFavoriteIDs.count > 5_000 {
+            readerFavoriteIDs = readerFavoriteIDs.intersection(known)
+        }
+        if readerArchivedIDs.count > 10_000 {
+            readerArchivedIDs = readerArchivedIDs.intersection(known)
+        }
+        defaults.set(Array(readerReadIDs), forKey: Keys.readerReadIDs)
+        defaults.set(Array(readerFavoriteIDs), forKey: Keys.readerFavoriteIDs)
+        defaults.set(Array(readerArchivedIDs), forKey: Keys.readerArchivedIDs)
+    }
+
+    func updateReaderDockBadge() {
+        let count = readerUnreadCount
+        NSApp.dockTile.badgeLabel = count > 0 ? String(count) : nil
     }
 
     func openGroupFeed(_ group: String) {

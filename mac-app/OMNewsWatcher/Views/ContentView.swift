@@ -58,6 +58,9 @@ struct ContentView: View {
                 }
             }
         }
+        .sheet(isPresented: $model.showReader) {
+            ReaderView(model: model)
+        }
         .sheet(isPresented: $model.showFeedPreview) {
             FeedPreviewView(model: model)
         }
@@ -659,9 +662,23 @@ struct ContentView: View {
         }
 
         ToolbarItemGroup(placement: .secondaryAction) {
+            Button {
+                model.showReader = true
+            } label: {
+                HStack(spacing: 5) {
+                    Image(systemName: "newspaper.fill")
+                    Text(model.readerUnreadCount > 0 ? "Reader \(model.readerUnreadCount)" : "Reader")
+                }
+            }
+            .help(
+                model.readerUnreadCount > 0
+                ? "\(model.readerUnreadCount) ungelesene Meldungen öffnen"
+                : "Redaktionellen News-Reader öffnen"
+            )
+
             Menu {
                 Button { model.showHealthDashboard = true } label: { Label("Übersicht", systemImage: "gauge.with.dots.needle.67percent") }
-                Button { model.showFeedPreview = true } label: { Label("Meldungen", systemImage: "newspaper") }
+                Button { model.showFeedPreview = true } label: { Label("Feed-Rohansicht", systemImage: "list.bullet.rectangle") }
                 Button { model.showGroupManager = true } label: { Label("Ordner verwalten", systemImage: "folder.badge.gearshape") }
                 Button { model.showBulkManager = true } label: { Label("Quellen verwalten", systemImage: "checkmark.circle.badge.plus") }
                 Divider()
@@ -1861,3 +1878,705 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 })();
 """#
 }
+
+
+// MARK: - Integrierter News-Reader
+
+enum ReaderScope: Hashable {
+    case inbox
+    case all
+    case favorites
+    case archive
+    case group(String)
+}
+
+enum ReaderSort: String, CaseIterable, Identifiable {
+    case newest
+    case relevance
+    case source
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .newest: return "Neueste"
+        case .relevance: return "Relevanz"
+        case .source: return "Quelle"
+        }
+    }
+}
+
+enum ReaderDateRange: String, CaseIterable, Identifiable {
+    case all
+    case today
+    case last24Hours
+    case week
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .all: return "Alle Zeiträume"
+        case .today: return "Heute"
+        case .last24Hours: return "Letzte 24 Stunden"
+        case .week: return "Diese Woche"
+        }
+    }
+}
+
+struct ReaderView: View {
+    @Environment(\.dismiss) private var dismiss
+    @ObservedObject var model: AppViewModel
+
+    @State private var scope: ReaderScope = .inbox
+    @State private var selectedID: String?
+    @State private var search = ""
+    @State private var sort: ReaderSort = .newest
+    @State private var dateRange: ReaderDateRange = .all
+    @State private var selectedSource = "Alle"
+    @State private var selectedTag = "Alle"
+    @State private var minimumPriority = 1
+    @State private var showWebPreview = false
+
+    var body: some View {
+        NavigationSplitView {
+            readerSidebar
+        } content: {
+            readerList
+        } detail: {
+            readerDetail
+        }
+        .navigationSplitViewStyle(.balanced)
+        .frame(minWidth: 1180, minHeight: 720)
+        .onAppear {
+            if selectedID == nil {
+                selectedID = filteredItems.first?.id
+            }
+            model.updateReaderDockBadge()
+        }
+        .onChange(of: selectedID) { _, newValue in
+            guard
+                let newValue,
+                let item = model.feedItems.first(where: { $0.id == newValue })
+            else { return }
+            model.readerMarkRead(item)
+        }
+        .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button("Fertig") { dismiss() }
+            }
+
+            ToolbarItemGroup {
+                Button {
+                    model.readerMarkAllRead(filteredItems)
+                } label: {
+                    Label("Alle gelesen", systemImage: "checkmark.circle")
+                }
+                .disabled(filteredItems.isEmpty)
+
+                Button {
+                    Task { await model.reloadAll() }
+                } label: {
+                    Label("Aktualisieren", systemImage: "arrow.clockwise")
+                }
+                .disabled(model.isBusy)
+
+                Picker("Sortierung", selection: $sort) {
+                    ForEach(ReaderSort.allCases) { value in
+                        Text(value.title).tag(value)
+                    }
+                }
+                .frame(width: 125)
+            }
+        }
+    }
+
+    private var readerSidebar: some View {
+        List(selection: $scope) {
+            Section("Reader") {
+                ReaderSidebarRow(
+                    title: "Posteingang",
+                    systemImage: "tray.full.fill",
+                    count: model.readerUnreadCount
+                )
+                .tag(ReaderScope.inbox)
+
+                ReaderSidebarRow(
+                    title: "Alle Meldungen",
+                    systemImage: "newspaper",
+                    count: model.feedItems.filter {
+                        !model.readerIsArchived($0)
+                    }.count
+                )
+                .tag(ReaderScope.all)
+
+                ReaderSidebarRow(
+                    title: "Favoriten",
+                    systemImage: "star.fill",
+                    count: model.feedItems.filter {
+                        model.readerIsFavorite($0) &&
+                        !model.readerIsArchived($0)
+                    }.count
+                )
+                .tag(ReaderScope.favorites)
+
+                ReaderSidebarRow(
+                    title: "Archiv",
+                    systemImage: "archivebox",
+                    count: model.feedItems.filter {
+                        model.readerIsArchived($0)
+                    }.count
+                )
+                .tag(ReaderScope.archive)
+            }
+
+            if !model.allGroups.isEmpty {
+                Section("Ordner") {
+                    ForEach(model.allGroups, id: \.self) { group in
+                        ReaderSidebarRow(
+                            title: group,
+                            systemImage: "folder",
+                            count: model.readerUnreadCount(in: group)
+                        )
+                        .tag(ReaderScope.group(group))
+                    }
+                }
+            }
+        }
+        .navigationTitle("News")
+        .navigationSplitViewColumnWidth(min: 190, ideal: 225, max: 300)
+    }
+
+    private var readerList: some View {
+        VStack(spacing: 0) {
+            ReaderFilterBar(
+                sources: sourceChoices,
+                tags: tagChoices,
+                selectedSource: $selectedSource,
+                selectedTag: $selectedTag,
+                minimumPriority: $minimumPriority,
+                dateRange: $dateRange
+            )
+
+            if filteredItems.isEmpty {
+                ContentUnavailableView(
+                    "Keine Meldungen",
+                    systemImage: "newspaper",
+                    description: Text("Für die gewählten Filter gibt es aktuell keine Meldungen.")
+                )
+            } else {
+                List(selection: $selectedID) {
+                    ForEach(filteredItems) { item in
+                        ReaderItemRow(
+                            item: item,
+                            isRead: model.readerIsRead(item),
+                            isFavorite: model.readerIsFavorite(item)
+                        )
+                        .tag(item.id)
+                        .contextMenu {
+                            Button(
+                                model.readerIsRead(item)
+                                ? "Als ungelesen markieren"
+                                : "Als gelesen markieren"
+                            ) {
+                                model.readerToggleRead(item)
+                            }
+
+                            Button(
+                                model.readerIsFavorite(item)
+                                ? "Favorit entfernen"
+                                : "Als Favorit markieren"
+                            ) {
+                                model.readerToggleFavorite(item)
+                            }
+
+                            Button(
+                                model.readerIsArchived(item)
+                                ? "Aus Archiv holen"
+                                : "Archivieren"
+                            ) {
+                                model.readerToggleArchive(item)
+                                if selectedID == item.id {
+                                    selectedID = filteredItems.first {
+                                        $0.id != item.id
+                                    }?.id
+                                }
+                            }
+
+                            Divider()
+
+                            Button("Im Browser öffnen") {
+                                model.openFeedItem(item)
+                                model.readerMarkRead(item)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .searchable(text: $search, prompt: "Meldungen durchsuchen")
+        .navigationTitle(scopeTitle)
+        .navigationSplitViewColumnWidth(min: 390, ideal: 470, max: 620)
+        .onChange(of: scope) { _, _ in
+            ensureSelection()
+        }
+        .onChange(of: search) { _, _ in
+            ensureSelection()
+        }
+        .onChange(of: selectedSource) { _, _ in
+            ensureSelection()
+        }
+        .onChange(of: selectedTag) { _, _ in
+            ensureSelection()
+        }
+        .onChange(of: minimumPriority) { _, _ in
+            ensureSelection()
+        }
+        .onChange(of: dateRange) { _, _ in
+            ensureSelection()
+        }
+    }
+
+    @ViewBuilder
+    private var readerDetail: some View {
+        if let item = selectedItem {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    VStack(alignment: .leading, spacing: 8) {
+                        HStack {
+                            Text(item.sourceLabel ?? item.source)
+                                .font(.headline)
+                                .foregroundStyle(.secondary)
+
+                            Text(String(repeating: "★", count: item.effectivePriority))
+                                .foregroundStyle(.orange)
+
+                            Spacer()
+
+                            if !model.readerIsRead(item) {
+                                Text("UNGelesen".uppercased())
+                                    .font(.caption2.bold())
+                                    .padding(.horizontal, 7)
+                                    .padding(.vertical, 3)
+                                    .background(.blue.opacity(0.12), in: Capsule())
+                            }
+                        }
+
+                        Text(item.title)
+                            .font(.system(size: 28, weight: .bold))
+                            .textSelection(.enabled)
+
+                        HStack(spacing: 12) {
+                            Label(
+                                item.pageDate ?? item.displayDetectedAt,
+                                systemImage: "calendar"
+                            )
+
+                            if let groups = item.groups, !groups.isEmpty {
+                                Label(
+                                    groups.joined(separator: " · "),
+                                    systemImage: "folder"
+                                )
+                            }
+                        }
+                        .font(.callout)
+                        .foregroundStyle(.secondary)
+                    }
+
+                    HStack(spacing: 10) {
+                        Button {
+                            model.openFeedItem(item)
+                            model.readerMarkRead(item)
+                        } label: {
+                            Label("Im Browser öffnen", systemImage: "safari")
+                        }
+                        .buttonStyle(.borderedProminent)
+
+                        Button {
+                            model.readerToggleRead(item)
+                        } label: {
+                            Label(
+                                model.readerIsRead(item)
+                                ? "Ungelesen"
+                                : "Gelesen",
+                                systemImage:
+                                    model.readerIsRead(item)
+                                    ? "circle"
+                                    : "checkmark.circle"
+                            )
+                        }
+
+                        Button {
+                            model.readerToggleFavorite(item)
+                        } label: {
+                            Label(
+                                model.readerIsFavorite(item)
+                                ? "Favorit entfernen"
+                                : "Favorit",
+                                systemImage:
+                                    model.readerIsFavorite(item)
+                                    ? "star.fill"
+                                    : "star"
+                            )
+                        }
+
+                        Button {
+                            model.readerToggleArchive(item)
+                        } label: {
+                            Label(
+                                model.readerIsArchived(item)
+                                ? "Aus Archiv"
+                                : "Archivieren",
+                                systemImage:
+                                    model.readerIsArchived(item)
+                                    ? "tray.and.arrow.up"
+                                    : "archivebox"
+                            )
+                        }
+
+                        Spacer()
+                    }
+
+                    GroupBox("Meldung") {
+                        VStack(alignment: .leading, spacing: 10) {
+                            LabeledContent("Quelle", value: item.source)
+                            LabeledContent("Erkannt", value: item.displayDetectedAt)
+
+                            if let pageDate = item.pageDate, !pageDate.isEmpty {
+                                LabeledContent("Veröffentlicht", value: pageDate)
+                            }
+
+                            if let tags = item.tags, !tags.isEmpty {
+                                LabeledContent("Schlagwörter", value: tags.joined(separator: ", "))
+                            }
+
+                            if let duplicates = item.duplicateSources, !duplicates.isEmpty {
+                                LabeledContent(
+                                    "Auch gefunden bei",
+                                    value: duplicates.joined(separator: ", ")
+                                )
+                            }
+
+                            LabeledContent("Ziel") {
+                                Text(item.link)
+                                    .lineLimit(3)
+                                    .textSelection(.enabled)
+                            }
+                        }
+                        .padding(6)
+                    }
+
+                    Toggle(
+                        "Artikel direkt in der App anzeigen",
+                        isOn: $showWebPreview
+                    )
+                    .toggleStyle(.switch)
+
+                    if showWebPreview {
+                        ReaderWebPreview(urlString: item.link)
+                            .frame(minHeight: 430)
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                            .overlay {
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(.separator, lineWidth: 1)
+                            }
+                    }
+                }
+                .padding(22)
+            }
+            .navigationTitle("Artikel")
+        } else {
+            ContentUnavailableView(
+                "Meldung auswählen",
+                systemImage: "newspaper",
+                description: Text("Wähle links eine Meldung aus.")
+            )
+        }
+    }
+
+    private var selectedItem: FeedHistoryItem? {
+        guard let selectedID else { return nil }
+        return model.feedItems.first { $0.id == selectedID }
+    }
+
+    private var sourceChoices: [String] {
+        ["Alle"] + Array(Set(model.feedItems.map(\.source))).sorted()
+    }
+
+    private var tagChoices: [String] {
+        ["Alle"] + Array(
+            Set(model.feedItems.flatMap { $0.tags ?? [] })
+        ).sorted()
+    }
+
+    private var scopeTitle: String {
+        switch scope {
+        case .inbox: return "Posteingang"
+        case .all: return "Alle Meldungen"
+        case .favorites: return "Favoriten"
+        case .archive: return "Archiv"
+        case .group(let group): return group
+        }
+    }
+
+    private var filteredItems: [FeedHistoryItem] {
+        let query = search.trimmingCharacters(in: .whitespacesAndNewlines)
+        let now = Date()
+
+        var values = model.feedItems.filter { item in
+            let scopeMatches: Bool = {
+                switch scope {
+                case .inbox:
+                    return !model.readerIsArchived(item) &&
+                        !model.readerIsRead(item)
+                case .all:
+                    return !model.readerIsArchived(item)
+                case .favorites:
+                    return !model.readerIsArchived(item) &&
+                        model.readerIsFavorite(item)
+                case .archive:
+                    return model.readerIsArchived(item)
+                case .group(let group):
+                    return !model.readerIsArchived(item) &&
+                        (item.groups ?? []).contains(group)
+                }
+            }()
+
+            guard scopeMatches else { return false }
+
+            if selectedSource != "Alle", item.source != selectedSource {
+                return false
+            }
+
+            if selectedTag != "Alle",
+               !(item.tags ?? []).contains(selectedTag) {
+                return false
+            }
+
+            if item.effectivePriority < minimumPriority {
+                return false
+            }
+
+            if !query.isEmpty {
+                let haystack = [
+                    item.title,
+                    item.source,
+                    item.sourceLabel ?? "",
+                    (item.groups ?? []).joined(separator: " "),
+                    (item.tags ?? []).joined(separator: " ")
+                ].joined(separator: " ")
+
+                if !haystack.localizedCaseInsensitiveContains(query) {
+                    return false
+                }
+            }
+
+            if dateRange != .all {
+                guard let detected = ISO8601DateFormatter().date(
+                    from: item.detectedAt
+                ) else {
+                    return false
+                }
+
+                switch dateRange {
+                case .all:
+                    break
+                case .today:
+                    if !Calendar.current.isDateInToday(detected) {
+                        return false
+                    }
+                case .last24Hours:
+                    if detected < now.addingTimeInterval(-24 * 60 * 60) {
+                        return false
+                    }
+                case .week:
+                    if detected < now.addingTimeInterval(-7 * 24 * 60 * 60) {
+                        return false
+                    }
+                }
+            }
+
+            return true
+        }
+
+        values.sort { lhs, rhs in
+            switch sort {
+            case .newest:
+                return lhs.detectedAt > rhs.detectedAt
+            case .relevance:
+                if lhs.effectivePriority != rhs.effectivePriority {
+                    return lhs.effectivePriority > rhs.effectivePriority
+                }
+                return lhs.detectedAt > rhs.detectedAt
+            case .source:
+                let result = lhs.source.localizedCaseInsensitiveCompare(
+                    rhs.source
+                )
+                if result == .orderedSame {
+                    return lhs.detectedAt > rhs.detectedAt
+                }
+                return result == .orderedAscending
+            }
+        }
+
+        return values
+    }
+
+    private func ensureSelection() {
+        if let selectedID,
+           filteredItems.contains(where: { $0.id == selectedID }) {
+            return
+        }
+        selectedID = filteredItems.first?.id
+    }
+}
+
+private struct ReaderSidebarRow: View {
+    let title: String
+    let systemImage: String
+    let count: Int
+
+    var body: some View {
+        HStack {
+            Label(title, systemImage: systemImage)
+            Spacer()
+            if count > 0 {
+                Text("\(count)")
+                    .font(.caption.monospacedDigit())
+                    .foregroundStyle(.secondary)
+            }
+        }
+    }
+}
+
+private struct ReaderItemRow: View {
+    let item: FeedHistoryItem
+    let isRead: Bool
+    let isFavorite: Bool
+
+    var body: some View {
+        HStack(alignment: .top, spacing: 9) {
+            Circle()
+                .fill(isRead ? Color.clear : Color.blue)
+                .frame(width: 7, height: 7)
+                .padding(.top, 7)
+
+            VStack(alignment: .leading, spacing: 5) {
+                HStack(spacing: 6) {
+                    Text(item.sourceLabel ?? item.source)
+                        .font(.caption.bold())
+                        .foregroundStyle(.secondary)
+
+                    Text(
+                        String(
+                            repeating: "★",
+                            count: item.effectivePriority
+                        )
+                    )
+                    .font(.caption2)
+                    .foregroundStyle(.orange)
+
+                    Spacer()
+
+                    if isFavorite {
+                        Image(systemName: "star.fill")
+                            .foregroundStyle(.yellow)
+                            .font(.caption)
+                    }
+
+                    Text(item.displayDetectedAt)
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                }
+
+                Text(item.title)
+                    .font(isRead ? .body : .headline)
+                    .foregroundStyle(isRead ? .secondary : .primary)
+                    .lineLimit(3)
+
+                if let groups = item.groups, !groups.isEmpty {
+                    Text(groups.joined(separator: " · "))
+                        .font(.caption2)
+                        .foregroundStyle(.tertiary)
+                        .lineLimit(1)
+                }
+            }
+        }
+        .padding(.vertical, 4)
+    }
+}
+
+private struct ReaderFilterBar: View {
+    let sources: [String]
+    let tags: [String]
+
+    @Binding var selectedSource: String
+    @Binding var selectedTag: String
+    @Binding var minimumPriority: Int
+    @Binding var dateRange: ReaderDateRange
+
+    var body: some View {
+        HStack(spacing: 8) {
+            Picker("Zeitraum", selection: $dateRange) {
+                ForEach(ReaderDateRange.allCases) { range in
+                    Text(range.title).tag(range)
+                }
+            }
+            .frame(maxWidth: 160)
+
+            Picker("Quelle", selection: $selectedSource) {
+                ForEach(sources, id: \.self) { source in
+                    Text(source).tag(source)
+                }
+            }
+            .frame(maxWidth: 180)
+
+            Picker("Tag", selection: $selectedTag) {
+                ForEach(tags, id: \.self) { tag in
+                    Text(tag).tag(tag)
+                }
+            }
+            .frame(maxWidth: 160)
+
+            Picker("Relevanz", selection: $minimumPriority) {
+                Text("Alle ★").tag(1)
+                Text("ab ★★").tag(2)
+                Text("nur ★★★").tag(3)
+            }
+            .frame(maxWidth: 120)
+
+            Spacer()
+        }
+        .labelsHidden()
+        .padding(.horizontal, 10)
+        .padding(.vertical, 7)
+        .background(.bar)
+    }
+}
+
+private struct ReaderWebPreview: NSViewRepresentable {
+    let urlString: String
+
+    func makeNSView(context: Context) -> WKWebView {
+        let configuration = WKWebViewConfiguration()
+        configuration.websiteDataStore = .default()
+        let view = WKWebView(
+            frame: .zero,
+            configuration: configuration
+        )
+        view.allowsMagnification = true
+        return view
+    }
+
+    func updateNSView(_ webView: WKWebView, context: Context) {
+        guard
+            let url = URL(string: urlString),
+            webView.url?.absoluteString != url.absoluteString
+        else {
+            return
+        }
+
+        webView.load(URLRequest(url: url))
+    }
+}
+
