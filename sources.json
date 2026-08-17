@@ -1,15 +1,30 @@
 [
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-120311",
     "enabled" : true,
+    "minTitleLength" : 5,
     "name" : "Zalando Newsroom",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "article.node",
+      "link" : "a",
+      "title" : "h2.title"
     },
     "timeoutMs" : 60000,
     "url" : "https://corporate.zalando.com/de/newsroom/news-stories",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T10:03:11Z",
+    "visualSampleCount" : 3,
     "waitMs" : 5000
   },
   {
