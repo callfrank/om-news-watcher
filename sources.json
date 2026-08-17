@@ -1258,5 +1258,55 @@
     "visualValidatedAt" : "2026-08-17T11:47:41Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 15 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260817-134932",
+    "enabled" : true,
+    "name" : "BMJ",
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "shortName" : "BMJ",
+    "url" : "https://www.bmjv.de/DE/Startseite/Startseite_node.html",
+    "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-135237",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "includeRegex" : "^https?://www\\.bsi\\.bund\\.de/DE/Service-Navi/Presse/",
+    "minTitleLength" : 5,
+    "name" : "BSI",
+    "selectors" : {
+      "date" : "",
+      "item" : "a.c-teaser",
+      "link" : "a.c-teaser",
+      "title" : "a.c-teaser"
+    },
+    "shortName" : "BSI",
+    "url" : "https://www.bsi.bund.de/DE/Home/home_node.html",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T11:52:37Z",
+    "visualRuleVersion" : 2,
+    "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:52:40Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
+    "waitMs" : 2500
   }
 ]
