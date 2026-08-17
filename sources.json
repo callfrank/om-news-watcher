@@ -1794,5 +1794,83 @@
     ],
     "url" : "https://www.ecb.europa.eu/home/html/index.en.html",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260817-150126",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Finanzen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Klarna",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.klarna.com/international/press/",
+    "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-150444",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://investors\\.klarna\\.com/News--Events/events-and-presentations/event-details/2026/",
+    "minTitleLength" : 5,
+    "name" : "Klarna QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "a.evergreen-item-title",
+      "link" : "a.evergreen-item-title",
+      "title" : "a.evergreen-item-title"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://investors.klarna.com/News--Events/events-and-presentations/default.aspx",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T13:04:44Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://investors.klarna.com/News--Events/events-and-presentations/event-details/2026/Klarna-at-Bernstein-Strategic-Decisions-Conference-2026-hOCiNmudGV/default.aspx",
+      "https://investors.klarna.com/News--Events/events-and-presentations/event-details/2026/Klarna-at-JPMorgan-Global-Technology-Media--Communications-Conference-2026-hb_K9JTy-w/default.aspx"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T13:04:48Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
+    "waitMs" : 2500
   }
 ]
