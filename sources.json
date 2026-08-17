@@ -453,7 +453,7 @@
     "autoScroll" : 3,
     "baselineVersion" : "mac-app-20260817-133036",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
-    "enabled" : false,
+    "enabled" : true,
     "includeRegex" : "^https?://www\\.mordorintelligence\\.com/signal/case-studies/",
     "minTitleLength" : 5,
     "name" : "Mordor Intelligence Case Studies",
@@ -487,7 +487,7 @@
   {
     "autoScroll" : 3,
     "baselineVersion" : "v10-content-parked",
-    "enabled" : false,
+    "enabled" : true,
     "name" : "Mordor Intelligence Insights",
     "selectors" : {
       "date" : "",
