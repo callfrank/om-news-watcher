@@ -1150,5 +1150,41 @@
     "visualValidatedAt" : "2026-08-17T11:40:21Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 47 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-134157",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "includeRegex" : "^https?://group\\.dhl\\.com/de/presse/pressemitteilungen/2026/",
+    "minTitleLength" : 5,
+    "name" : "DHL",
+    "selectors" : {
+      "date" : "",
+      "item" : "a.l-grid--w-100pc-s",
+      "link" : "a.l-grid--w-100pc-s",
+      "title" : "h3.c-teaser-image--textbox-headline"
+    },
+    "shortName" : "DHL",
+    "url" : "https://group.dhl.com/de/presse.html",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T11:41:57Z",
+    "visualRuleVersion" : 2,
+    "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:42:00Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
+    "waitMs" : 2500
   }
 ]
