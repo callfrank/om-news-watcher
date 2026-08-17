@@ -1768,5 +1768,31 @@
     "visualValidatedAt" : "2026-08-17T12:57:45Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 35 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260817-145947",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Finanzen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "ECB",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.ecb.europa.eu/home/html/index.en.html",
+    "waitMs" : 2500
   }
 ]
