@@ -98,17 +98,32 @@
     "waitMs" : 1200
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-120840",
     "enabled" : true,
-    "includeRegex" : "^https://ecdb\\.com/reports/",
+    "minTitleLength" : 5,
     "name" : "ECDB Reports",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "a.text-jade",
+      "link" : "a.text-jade",
+      "title" : "a.text-jade"
     },
     "timeoutMs" : 60000,
     "url" : "https://ecdb.com/whitepapers-and-reports",
+    "visualBackup" : {
+      "includeRegex" : "^https://ecdb\\.com/reports/",
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T10:08:40Z",
+    "visualSampleCount" : 3,
     "waitMs" : 5000
   },
   {
