@@ -115,7 +115,7 @@ struct ContentView: View {
                         Spacer(minLength: 4)
 
                         if let result = model.testResults[source.id], result.isProblem {
-                            Image(systemName: result.kind == .technicalError ? "xmark.octagon.fill" : "exclamationmark.triangle.fill")
+                            Image(systemName: result.kind == .technicalError ? "xmark.octagon.fill" : (result.kind == .timeout ? "clock.badge.exclamationmark" : "exclamationmark.triangle.fill"))
                                 .foregroundStyle(result.kind == .technicalError ? .red : .orange)
                                 .help(result.message)
                         }
@@ -219,10 +219,15 @@ struct ContentView: View {
                             if source.visualLearned {
                                 LabeledContent("Erkennung") {
                                     Label(
-                                        "Visuell eingelernt (\(source.visualSampleCount) Beispiele)",
-                                        systemImage: "cursorarrow.click.2"
+                                        source.visualValidated
+                                        ? "Visuell eingelernt und validiert (\(source.visualSampleCount) Beispiele)"
+                                        : "Visuell eingelernt – Reload-Test offen/fehlgeschlagen",
+                                        systemImage: source.visualValidated
+                                        ? "checkmark.seal.fill"
+                                        : "exclamationmark.triangle.fill"
                                     )
-                                    .foregroundStyle(.green)
+                                    .foregroundStyle(source.visualValidated ? .green : .orange)
+                                    .help(source.visualValidationMessage ?? "Einlernregel wird erst nach einem erfolgreichen Reload-Test als gültig bewertet.")
                                 }
                             }
 
@@ -307,7 +312,7 @@ struct ContentView: View {
                             Label("Quelle testen", systemImage: "stethoscope")
                         }
                     }
-                    .disabled(model.testingSourceID != nil)
+                    .disabled(model.testingSourceID != nil || model.isTestingAll)
                 }
 
                 if let result = model.testResults[source.id] {
@@ -405,7 +410,7 @@ struct ContentView: View {
                                     )
                                 }
                                 .buttonStyle(.borderedProminent)
-                                .disabled(model.testingSourceID != nil)
+                                .disabled(model.testingSourceID != nil || model.isTestingAll)
                             }
 
                             HStack(spacing: 16) {
@@ -476,53 +481,88 @@ struct ContentView: View {
             Button {
                 model.addSource()
             } label: {
-                Label("Quelle hinzufügen", systemImage: "plus")
+                HStack(spacing: 5) {
+                    Image(systemName: "plus")
+                    Text("Quelle")
+                }
             }
+            .help("Neue Quelle hinzufügen")
+
+            Button {
+                Task { await model.testAllSources() }
+            } label: {
+                HStack(spacing: 5) {
+                    Image(systemName: "checklist")
+                    Text("Alle testen")
+                }
+            }
+            .help("Alle aktiven Quellen nacheinander testen")
+            .disabled(model.isBusy || model.testingSourceID != nil || model.isTestingAll)
 
             Button {
                 Task { await model.saveSourcesFromToolbar() }
             } label: {
-                Label("Speichern", systemImage: "square.and.arrow.down")
+                HStack(spacing: 5) {
+                    Image(systemName: "square.and.arrow.down")
+                    Text("Speichern")
+                }
             }
-            .disabled(!model.isDirty || model.isBusy)
+            .help("Änderungen in sources.json speichern")
+            .disabled(!model.isDirty || model.isBusy || model.isTestingAll)
 
             Button {
                 Task { await model.runWorkflow() }
             } label: {
-                Label("Jetzt prüfen", systemImage: "play.fill")
+                HStack(spacing: 5) {
+                    Image(systemName: "play.fill")
+                    Text("Jetzt prüfen")
+                }
             }
-            .disabled(model.isBusy)
+            .help("GitHub-Watcher sofort starten")
+            .disabled(model.isBusy || model.isTestingAll)
         }
 
         ToolbarItemGroup(placement: .secondaryAction) {
             Button {
                 model.showProblems = true
             } label: {
-                Label(
-                    model.problemCount > 0 ? "Problemquellen (\(model.problemCount))" : "Problemquellen",
-                    systemImage: model.problemCount > 0 ? "exclamationmark.triangle.fill" : "checkmark.seal"
-                )
+                HStack(spacing: 5) {
+                    Image(systemName: model.problemCount > 0 ? "exclamationmark.triangle.fill" : "checkmark.seal")
+                    Text("Probleme")
+                }
             }
-            .help("Beim Schnelltest auffällige sowie pausierte Quellen anzeigen")
+            .help(model.problemCount > 0 ? "\(model.problemCount) Problemquellen anzeigen" : "Problemquellen anzeigen")
 
             Button {
                 Task { await model.reloadAll() }
             } label: {
-                Label("Neu laden", systemImage: "arrow.clockwise")
+                HStack(spacing: 5) {
+                    Image(systemName: "arrow.clockwise")
+                    Text("Neu laden")
+                }
             }
-            .disabled(model.isBusy)
+            .help("Quellen und GitHub-Status neu laden")
+            .disabled(model.isBusy || model.isTestingAll)
 
             Button {
                 model.openFeed()
             } label: {
-                Label("RSS-Feed", systemImage: "dot.radiowaves.left.and.right")
+                HStack(spacing: 5) {
+                    Image(systemName: "dot.radiowaves.left.and.right")
+                    Text("Feed")
+                }
             }
+            .help("RSS-Feed öffnen")
 
             Button {
                 model.showSettings = true
             } label: {
-                Label("Einstellungen", systemImage: "gearshape")
+                HStack(spacing: 5) {
+                    Image(systemName: "gearshape")
+                    Text("Einstellungen")
+                }
             }
+            .help("GitHub- und E-Mail-Einstellungen")
         }
     }
 
@@ -533,9 +573,15 @@ struct ContentView: View {
                     .controlSize(.small)
             }
 
-            Text(model.statusMessage)
-                .font(.caption)
-                .foregroundStyle(.secondary)
+            if let progress = model.allTestProgressText {
+                Text(progress)
+                    .font(.caption.bold())
+                    .foregroundStyle(.secondary)
+            } else {
+                Text(model.statusMessage)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
 
             Spacer()
 
@@ -593,16 +639,18 @@ struct ContentView: View {
     private func testIcon(_ kind: SourceTestKind) -> String {
         switch kind {
         case .success: return "checkmark.circle.fill"
+        case .largeArchive: return "archivebox.circle.fill"
         case .zeroHits: return "questionmark.circle.fill"
         case .tooManyHits: return "exclamationmark.triangle.fill"
+        case .timeout: return "clock.badge.exclamationmark"
         case .technicalError: return "xmark.octagon.fill"
         }
     }
 
     private func testColor(_ kind: SourceTestKind) -> Color {
         switch kind {
-        case .success: return .green
-        case .zeroHits, .tooManyHits: return .orange
+        case .success, .largeArchive: return .green
+        case .zeroHits, .tooManyHits, .timeout: return .orange
         case .technicalError: return .red
         }
     }
@@ -738,10 +786,19 @@ struct VisualTrainingView: View {
                         VStack(alignment: .leading, spacing: 3) {
                             Text("Vorschau: \(rule.previewCount) passende Links")
                                 .font(.subheadline.bold())
-                            Text("Regel: \(rule.itemSelector)")
+                            Text("Strategie: \(rule.strategy)")
+                                .font(.caption2)
+                                .foregroundStyle(.secondary)
+                            Text("Regel: \(rule.itemSelector.isEmpty ? rule.candidateSelector : rule.itemSelector)")
                                 .font(.caption2.monospaced())
                                 .foregroundStyle(.secondary)
                                 .lineLimit(2)
+                            if let urlRegex = rule.urlRegex, !urlRegex.isEmpty {
+                                Text("URL-Muster: \(urlRegex)")
+                                    .font(.caption2.monospaced())
+                                    .foregroundStyle(.secondary)
+                                    .lineLimit(2)
+                            }
                         }
 
                         Spacer()
@@ -874,6 +931,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     func reload() {
         samples = []
         rule = nil
+        interactionMode = .browse
         statusMessage = "Website wird neu geladen …"
         webView.reload()
     }
@@ -1060,6 +1118,9 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
             let dateSelector = (payload["dateSelector"] as? String)?.trimmingCharacters(
                 in: .whitespacesAndNewlines
             )
+            let candidateSelector = payload["candidateSelector"] as? String ?? "a[href]"
+            let urlRegex = (payload["urlRegex"] as? String)?.trimmingCharacters(in: .whitespacesAndNewlines)
+            let strategy = payload["strategy"] as? String ?? "Kartenstruktur"
             let allowExternal = payload["allowExternal"] as? Bool ?? false
             let sampleCount = payload["sampleCount"] as? Int ?? samples.count
             let previewCount = payload["previewCount"] as? Int ?? 0
@@ -1085,10 +1146,13 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
                 titleSelector: titleSelector,
                 linkSelector: linkSelector,
                 dateSelector: (dateSelector?.isEmpty == false) ? dateSelector : nil,
+                candidateSelector: candidateSelector,
+                urlRegex: (urlRegex?.isEmpty == false) ? urlRegex : nil,
                 allowExternal: allowExternal,
                 sampleCount: sampleCount,
                 previewCount: previewCount,
-                preview: preview
+                preview: preview,
+                strategy: strategy
             )
 
             rule = newRule
@@ -1109,487 +1173,332 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 
   window.__omVisualTrainerInstalled = true;
 
-  const state = {
-    selected: [],
-    mode: 'browse'
-  };
-
-  const clean = value =>
-    (value || '').replace(/\s+/g, ' ').trim();
-
-  const cssEscape = value => {
-    if (window.CSS && CSS.escape) return CSS.escape(value);
-    return String(value).replace(/[^a-zA-Z0-9_-]/g, ch => `\\${ch}`);
-  };
-
-  const badClass = token =>
-    !token ||
-    token.length > 42 ||
-    /^(active|selected|current|open|closed|hover|focus|visible|hidden|show|hide|loaded|loading)$/i.test(token) ||
-    /(^|[-_])(?:active|selected|current|hover|focus|open|closed|is-|has-)/i.test(token) ||
-    /[a-f0-9]{10,}/i.test(token);
-
-  const stableClasses = el =>
-    Array.from(el?.classList || [])
-      .filter(token => /^[A-Za-z_-][A-Za-z0-9_-]*$/.test(token))
-      .filter(token => !badClass(token))
-      .slice(0, 3);
-
-  const selectorsFor = el => {
-    if (!el || el.nodeType !== 1) return [];
-
-    const tag = el.tagName.toLowerCase();
-    const out = [];
-
-    for (const attr of ['data-testid', 'data-component', 'data-module', 'data-type', 'data-cy']) {
-      const value = clean(el.getAttribute(attr));
-      if (value && value.length <= 60 && !/["'<>]/.test(value)) {
-        out.push(`${tag}[${attr}="${value.replace(/"/g, '\\"')}"]`);
-        out.push(`[${attr}="${value.replace(/"/g, '\\"')}"]`);
-      }
-    }
-
-    for (const cls of stableClasses(el)) {
-      out.push(`${tag}.${cssEscape(cls)}`);
-      out.push(`.${cssEscape(cls)}`);
-    }
-
-    if (['article', 'li', 'tr', 'section', 'a', 'h2', 'h3', 'h4'].includes(tag)) {
-      out.push(tag);
-    }
-
-    return [...new Set(out)];
-  };
-
+  const state = { selected: [], mode: 'browse' };
+  const clean = value => (value || '').replace(/\s+/g, ' ').trim();
+  const clickableSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick]';
   const cardSelector = [
-    'article',
-    'li',
-    'tr',
-    'section',
-    '[class*="card" i]',
-    '[class*="teaser" i]',
-    '[class*="news" i]',
-    '[class*="press" i]',
-    '[class*="event" i]',
-    '[class*="story" i]',
-    '[class*="result" i]',
-    '[class*="item" i]',
-    '[class*="report" i]',
+    'article','li','tr','section',
+    '[class*="card" i]','[class*="teaser" i]','[class*="news" i]',
+    '[class*="press" i]','[class*="event" i]','[class*="story" i]',
+    '[class*="result" i]','[class*="item" i]','[class*="report" i]',
     '[class*="post" i]'
   ].join(',');
 
-  const genericText = value => {
+  const cssEscape = value => window.CSS?.escape ? CSS.escape(value) : String(value).replace(/[^a-zA-Z0-9_-]/g, ch => `\\${ch}`);
+  const badClass = token =>
+    !token || token.length > 42 ||
+    /^(active|selected|current|open|closed|hover|focus|visible|hidden|show|hide|loaded|loading)$/i.test(token) ||
+    /(^|[-_])(?:active|selected|current|hover|focus|open|closed|is-|has-)/i.test(token) ||
+    /[a-f0-9]{10,}/i.test(token) ||
+    (/^[A-Za-z0-9]{6,18}$/.test(token) && /[A-Z]/.test(token) && /[a-z]/.test(token) && /\d/.test(token));
+
+  const stableClasses = el => Array.from(el?.classList || [])
+    .filter(token => /^[A-Za-z_-][A-Za-z0-9_-]*$/.test(token))
+    .filter(token => !badClass(token)).slice(0, 3);
+
+  const selectorsFor = el => {
+    if (!el || el.nodeType !== 1) return [];
+    const tag = el.tagName.toLowerCase();
+    const out = [];
+    for (const attr of ['data-testid','data-component','data-module','data-type','data-cy']) {
+      const value = clean(el.getAttribute(attr));
+      if (value && value.length <= 60 && !/["'<>]/.test(value)) {
+        const escaped = value.replace(/"/g, '\\"');
+        out.push(`${tag}[${attr}="${escaped}"]`, `[${attr}="${escaped}"]`);
+      }
+    }
+    for (const cls of stableClasses(el)) out.push(`${tag}.${cssEscape(cls)}`, `.${cssEscape(cls)}`);
+    if (['article','li','tr','section','a','h2','h3','h4'].includes(tag)) out.push(tag);
+    return [...new Set(out)];
+  };
+
+  const generic = value => {
     const lower = clean(value).toLowerCase();
-    return !lower || [
-      'mehr erfahren', 'read more', 'learn more', 'weiterlesen',
-      'download', 'download for free', 'details', 'more',
-      'link öffnet in neuem tab', 'opens in a new tab'
-    ].includes(lower);
+    if (!lower) return true;
+    if (/^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|zur konferenz|link öffnet|opens in)/i.test(lower)) return true;
+    if (/^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(lower)) return true;
+    return false;
   };
 
-  const findAnchor = target => {
-    const direct = target?.closest?.('a[href]');
+  const cardFor = target => {
+    const direct = target?.closest?.(cardSelector);
     if (direct) return direct;
-
-    const card = target?.closest?.(cardSelector);
-    return card?.querySelector?.('a[href]') || null;
+    let node = target;
+    for (let depth = 0; node && depth < 6; depth++, node = node.parentElement) {
+      const heading = node.querySelector?.('h1,h2,h3,h4,h5,h6,[class*="title" i],[class*="headline" i]');
+      const clickable = node.querySelector?.(clickableSelector);
+      if (heading && clickable && clean(node.textContent).length < 1800) return node;
+    }
+    return target?.parentElement || target;
   };
 
-  const bestTitleElement = (target, anchor) => {
+  const hrefFrom = (el, card = null) => {
+    const nodes = [el, el?.closest?.('a[href]'), card];
+    for (const node of nodes) {
+      if (!node?.getAttribute) continue;
+      const raw = node.href || node.getAttribute('href') || node.getAttribute('data-href') || node.getAttribute('data-url') || node.getAttribute('data-link') || '';
+      if (raw) return raw;
+      const onclick = node.getAttribute('onclick') || '';
+      const m = onclick.match(/(?:location(?:\.href)?\s*=|window\.open\s*\()\s*['"]([^'"]+)['"]/i);
+      if (m?.[1]) return m[1];
+    }
+    const link = card?.querySelector?.('a[href]');
+    return link?.href || link?.getAttribute?.('href') || '';
+  };
+
+  const findClickable = target => {
+    const direct = target?.closest?.(clickableSelector);
+    if (direct) return direct;
+    const card = cardFor(target);
+    return card?.querySelector?.(clickableSelector) || null;
+  };
+
+  const bestTitleElement = (target, clickable, card) => {
     const clickedHeading = target?.closest?.('h1,h2,h3,h4,h5,h6');
-    if (clickedHeading && !genericText(clickedHeading.textContent)) {
-      return clickedHeading;
+    if (clickedHeading && !generic(clickedHeading.textContent)) return clickedHeading;
+    const own = clean(clickable?.textContent || clickable?.getAttribute?.('aria-label') || '');
+    if (own.length >= 5 && own.length <= 320 && !generic(own)) return clickable;
+    const selectors = 'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i],[data-testid*="title" i],strong';
+    for (const node of Array.from(card?.querySelectorAll?.(selectors) || [])) {
+      const value = clean(node.textContent || node.getAttribute?.('aria-label') || '');
+      if (value.length >= 5 && value.length <= 320 && !generic(value)) return node;
     }
-
-    if (!genericText(anchor?.textContent) && clean(anchor?.textContent).length >= 5) {
-      return anchor;
-    }
-
-    const card = target?.closest?.(cardSelector) || anchor?.closest?.(cardSelector);
-    const heading = card?.querySelector?.(
-      'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i]'
-    );
-
-    if (heading && !genericText(heading.textContent)) {
-      return heading;
-    }
-
-    return anchor;
+    return clickable;
   };
 
-  const bestDateElement = card => {
-    if (!card?.querySelector) return null;
-    return card.querySelector(
-      'time[datetime],time,[class*="date" i],[class*="datum" i],[class*="published" i],[class*="time" i]'
-    );
-  };
+  const bestDateElement = card => card?.querySelector?.('time[datetime],time,[class*="date" i],[class*="datum" i],[class*="published" i],[class*="time" i]') || null;
 
-  const ancestorCandidates = (anchor, titleEl) => {
+  const ancestorCandidates = (clickable, titleEl, card) => {
     const result = [];
-    let node = titleEl?.closest?.(cardSelector) || anchor?.closest?.(cardSelector) || anchor;
+    let node = card || clickable;
     let depth = 0;
-
     while (node && node !== document.body && node !== document.documentElement && depth < 8) {
-      if (node.contains(anchor) && (!titleEl || node.contains(titleEl))) {
-        for (const selector of selectorsFor(node)) {
-          result.push({ selector, depth });
-        }
+      if (node.contains(clickable) && (!titleEl || node.contains(titleEl))) {
+        for (const selector of selectorsFor(node)) result.push({ selector, depth });
       }
       node = node.parentElement;
       depth += 1;
     }
-
-    for (const selector of selectorsFor(anchor)) {
-      result.push({ selector, depth: 0 });
-    }
-
     return result;
   };
 
-  const commonPathSelector = () => {
-    if (state.selected.length < 2) return null;
+  const regexEscape = value => String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
+  const commonURLRegex = () => {
+    if (state.selected.length < 2) return '';
     let urls;
-    try {
-      urls = state.selected.map(s => new URL(s.href, location.href));
-    } catch {
-      return null;
-    }
-
-    const origins = new Set(urls.map(u => u.origin));
-    if (origins.size !== 1) return null;
-
+    try { urls = state.selected.map(s => new URL(s.href, location.href)); } catch { return ''; }
+    const hosts = new Set(urls.map(u => u.host.toLowerCase()));
+    if (hosts.size !== 1) return '';
+    const host = urls[0].host.toLowerCase();
     const lists = urls.map(u => u.pathname.split('/').filter(Boolean));
-    const common = [];
     const min = Math.min(...lists.map(v => v.length));
-
+    const common = [];
     for (let i = 0; i < Math.max(0, min - 1); i++) {
       const value = lists[0][i];
-      if (lists.every(list => list[i] === value)) common.push(value);
-      else break;
+      if (lists.every(list => list[i] === value)) common.push(value); else break;
     }
-
-    if (!common.length) return null;
-    const prefix = '/' + common.join('/') + '/';
-    return `a[href*="${prefix.replace(/"/g, '\\"')}"]`;
+    const prefix = common.length ? '/' + common.join('/') + '/' : '/';
+    return '^https?://' + regexEscape(host) + regexEscape(prefix);
   };
 
   const rootFor = (sample, selector) => {
+    if (!selector) return null;
     try {
-      if (sample.anchor.matches(selector)) return sample.anchor;
-      const root = sample.anchor.closest(selector);
-      if (root && (!sample.titleEl || root.contains(sample.titleEl))) return root;
-    } catch {}
-    return null;
+      if (sample.card?.matches?.(selector)) return sample.card;
+      if (sample.clickable?.matches?.(selector)) return sample.clickable;
+      return sample.clickable?.closest?.(selector) || null;
+    } catch { return null; }
   };
 
   const chooseItemSelector = () => {
-    const maps = state.selected.map(sample =>
-      new Map(sample.itemCandidates.map(c => [c.selector, c.depth]))
-    );
-
+    const maps = state.selected.map(sample => new Map(sample.itemCandidates.map(c => [c.selector, c.depth])));
     const candidates = new Set(maps[0]?.keys?.() || []);
-    const urlSelector = commonPathSelector();
-    if (urlSelector) candidates.add(urlSelector);
-
     let best = null;
-
     for (const selector of candidates) {
-      if (!maps.every(map => map.has(selector)) && selector !== urlSelector) continue;
-
-      let roots;
-      let count;
+      if (!maps.every(map => map.has(selector))) continue;
+      let roots, count;
       try {
         roots = state.selected.map(sample => rootFor(sample, selector));
         if (roots.some(root => !root)) continue;
         count = document.querySelectorAll(selector).length;
-      } catch {
-        continue;
-      }
-
+      } catch { continue; }
       if (count < state.selected.length || count > 500) continue;
-
-      const depths = state.selected.map((sample, index) =>
-        maps[index].get(selector) ?? 0
-      );
-      const avgDepth = depths.reduce((a, b) => a + b, 0) / depths.length;
-      const genericPenalty = /^(div|span|section|li|a)$/.test(selector) ? 80 : 0;
-      const hugePenalty = Math.max(0, count - 120) * 2;
-      const score = avgDepth * 25 + count + genericPenalty + hugePenalty;
-
-      if (!best || score < best.score) {
-        best = { selector, score };
-      }
+      const avgDepth = state.selected.reduce((sum, sample, index) => sum + (maps[index].get(selector) || 0), 0) / state.selected.length;
+      const genericPenalty = /^(div|span|section|li|a)$/.test(selector) ? 60 : 0;
+      const hugePenalty = Math.max(0, count - 150);
+      const score = avgDepth * 20 + count + genericPenalty + hugePenalty;
+      if (!best || score < best.score) best = { selector, score };
     }
-
-    return best?.selector || urlSelector || 'a[href]';
+    return best?.selector || '';
   };
 
-  const commonRelativeSelector = (elements, roots, fallback) => {
-    if (!elements.length || elements.some(el => !el)) return fallback;
-
+  const relativeSelector = (elements, roots, fallback) => {
+    if (!elements.length || elements.some(el => !el) || roots.some(root => !root)) return fallback;
     const arrays = elements.map(el => selectorsFor(el));
-    const candidates = arrays[0] || [];
-
-    for (const selector of candidates) {
+    for (const selector of arrays[0] || []) {
       if (!arrays.every(arr => arr.includes(selector))) continue;
-
-      let valid = true;
+      let ok = true;
       for (let i = 0; i < roots.length; i++) {
-        try {
-          const picked = roots[i].matches(selector)
-            ? roots[i]
-            : roots[i].querySelector(selector);
-          if (!picked) { valid = false; break; }
-        } catch {
-          valid = false;
-          break;
-        }
+        try { if (!(roots[i].matches?.(selector) ? roots[i] : roots[i].querySelector?.(selector))) { ok = false; break; } }
+        catch { ok = false; break; }
       }
-      if (valid) return selector;
+      if (ok) return selector;
     }
-
     return fallback;
   };
 
-  const previewRule = rule => {
+  const smartRow = (clickable, root = null) => {
+    const card = root || cardFor(clickable);
+    const titleEl = bestTitleElement(clickable, clickable, card);
+    const title = clean(titleEl?.textContent || titleEl?.getAttribute?.('aria-label') || '');
+    const href = hrefFrom(clickable, card);
+    const dateEl = bestDateElement(card);
+    const date = clean(dateEl?.getAttribute?.('datetime') || dateEl?.textContent || '');
+    return { title, href, date };
+  };
+
+  const structuralPreview = rule => {
+    if (!rule.itemSelector) return [];
     let roots = [];
-    try {
-      roots = Array.from(document.querySelectorAll(rule.itemSelector));
-    } catch {
-      return [];
-    }
-
-    const pick = (root, selector) => {
-      if (!root || !selector) return null;
-      try {
-        return root.matches(selector) ? root : root.querySelector(selector);
-      } catch {
-        return null;
-      }
-    };
-
-    const rows = [];
-    const seen = new Set();
-
+    try { roots = Array.from(document.querySelectorAll(rule.itemSelector)); } catch { return []; }
+    const rows = [], seen = new Set();
     for (const root of roots) {
-      const titleEl = pick(root, rule.titleSelector);
-      const linkEl = pick(root, rule.linkSelector) || (root.matches?.('a[href]') ? root : root.querySelector?.('a[href]'));
-      const dateEl = rule.dateSelector ? pick(root, rule.dateSelector) : null;
-
-      const title = clean(
-        titleEl?.textContent ||
-        titleEl?.getAttribute?.('aria-label') ||
-        titleEl?.title ||
-        ''
-      );
-      const href = linkEl?.href || linkEl?.getAttribute?.('href') || '';
-      const date = clean(dateEl?.getAttribute?.('datetime') || dateEl?.textContent || '');
-
-      if (!title || !href || seen.has(href)) continue;
-      seen.add(href);
-      rows.push({ title, href, date });
+      let linkEl = null;
+      try { linkEl = root.matches?.(rule.linkSelector) ? root : root.querySelector?.(rule.linkSelector); } catch {}
+      linkEl = linkEl || root.querySelector?.(clickableSelector) || (root.matches?.(clickableSelector) ? root : null);
+      const row = smartRow(linkEl || root, root);
+      if (!row.title || !row.href || seen.has(row.href)) continue;
+      seen.add(row.href); rows.push(row);
     }
+    return rows;
+  };
 
+  const semanticPreview = urlRegex => {
+    let regex = null;
+    try { if (urlRegex) regex = new RegExp(urlRegex, 'i'); } catch {}
+    const rows = [], seen = new Set();
+    for (const el of Array.from(document.querySelectorAll(clickableSelector))) {
+      const row = smartRow(el);
+      let absolute = '';
+      try { absolute = new URL(row.href, location.href).href; } catch { continue; }
+      if (regex && !regex.test(absolute)) continue;
+      if (!row.title || generic(row.title) || seen.has(absolute)) continue;
+      seen.add(absolute); rows.push({ ...row, href: absolute });
+    }
     return rows;
   };
 
   window.omTrainerBuildRule = () => {
-    if (state.selected.length < 2) {
-      return { error: 'Bitte mindestens zwei echte Meldungen anklicken.' };
-    }
+    if (state.selected.length < 2) return { error: 'Bitte mindestens zwei echte Meldungen anklicken.' };
 
     const itemSelector = chooseItemSelector();
-    const roots = state.selected.map(sample => rootFor(sample, itemSelector));
+    const roots = itemSelector ? state.selected.map(sample => rootFor(sample, itemSelector)) : [];
+    const titleSelector = roots.length && !roots.some(r => !r)
+      ? relativeSelector(state.selected.map(s => s.titleEl), roots, 'h1,h2,h3,h4,h5,h6,[class*="title" i],[class*="headline" i]') : '';
+    const linkSelector = roots.length && !roots.some(r => !r)
+      ? relativeSelector(state.selected.map(s => s.clickable), roots, clickableSelector) : clickableSelector;
+    const dateElements = state.selected.map(s => s.dateEl);
+    const dateSelector = roots.length && dateElements.every(Boolean)
+      ? relativeSelector(dateElements, roots, 'time,[class*="date" i],[class*="datum" i],[class*="published" i]') : '';
 
-    if (roots.some(root => !root)) {
-      return { error: 'Die angeklickten Meldungen haben noch keine gemeinsame Struktur. Bitte eine weitere Meldung anklicken.' };
+    const urlRegex = commonURLRegex();
+    const structural = structuralPreview({ itemSelector, titleSelector, linkSelector, dateSelector });
+    const semantic = urlRegex ? semanticPreview(urlRegex) : [];
+
+    let rows = structural;
+    let strategy = 'Kartenstruktur';
+    if (semantic.length >= state.selected.length && (structural.length < state.selected.length || semantic.length > structural.length)) {
+      rows = semantic;
+      strategy = 'URL-Muster + Karteninhalt';
     }
 
-    const titleSelector = commonRelativeSelector(
-      state.selected.map(s => s.titleEl),
-      roots,
-      'h1,h2,h3,h4,h5,h6,a[href]'
-    );
-
-    const linkSelector = commonRelativeSelector(
-      state.selected.map(s => s.anchor),
-      roots,
-      'a[href]'
-    );
-
-    const dateElements = state.selected.map(s => s.dateEl);
-    const dateSelector = dateElements.every(Boolean)
-      ? commonRelativeSelector(
-          dateElements,
-          roots,
-          'time,[class*="date" i],[class*="datum" i],[class*="published" i]'
-        )
-      : '';
-
-    const rule = { itemSelector, titleSelector, linkSelector, dateSelector };
-    const rows = previewRule(rule);
+    if (rows.length < state.selected.length) {
+      return {
+        error: `Regel zu eng: ${state.selected.length} Beispiele markiert, aber nur ${rows.length} Treffer reproduzierbar. Bitte andere Karten markieren.`
+      };
+    }
 
     let allowExternal = false;
-    try {
-      allowExternal = state.selected.some(s => new URL(s.href, location.href).host !== location.host);
-    } catch {}
+    try { allowExternal = state.selected.some(s => new URL(s.href, location.href).host !== location.host); } catch {}
 
     return {
-      ...rule,
+      itemSelector,
+      titleSelector,
+      linkSelector,
+      dateSelector,
+      candidateSelector: clickableSelector,
+      urlRegex,
       allowExternal,
       sampleCount: state.selected.length,
       previewCount: rows.length,
-      preview: rows.slice(0, 12)
+      preview: rows.slice(0, 12),
+      strategy
     };
   };
 
   const post = () => {
-    const payload = {
-      count: state.selected.length,
-      samples: state.selected.map(s => ({ title: s.title, href: s.href }))
-    };
+    const payload = { count: state.selected.length, samples: state.selected.map(s => ({ title: s.title, href: s.href })) };
     window.webkit?.messageHandlers?.omVisualTrainer?.postMessage(payload);
   };
-
   window.__omVisualTrainerPost = post;
 
   window.omTrainerSetMode = mode => {
-    state.mode =
-      mode === 'select'
-        ? 'select'
-        : 'browse';
-
-    document.documentElement.setAttribute(
-      'data-om-trainer-mode',
-      state.mode
-    );
-
+    state.mode = mode === 'select' ? 'select' : 'browse';
+    document.documentElement.setAttribute('data-om-trainer-mode', state.mode);
     return state.mode;
   };
 
   window.omTrainerReset = () => {
-    document.querySelectorAll('[data-om-visual-selected="1"]').forEach(el => {
-      el.removeAttribute('data-om-visual-selected');
-    });
-    state.selected = [];
-    post();
+    document.querySelectorAll('[data-om-visual-selected="1"]').forEach(el => el.removeAttribute('data-om-visual-selected'));
+    state.selected = []; post();
   };
 
   const style = document.createElement('style');
   style.id = 'om-visual-trainer-style';
-  style.textContent = `
-    [data-om-visual-selected="1"] {
-      outline: 4px solid #0a84ff !important;
-      outline-offset: 3px !important;
-      border-radius: 4px !important;
-    }
-  `;
+  style.textContent = '[data-om-visual-selected="1"]{outline:4px solid #0a84ff!important;outline-offset:3px!important;border-radius:4px!important;}';
   document.head.appendChild(style);
 
-  const blockEarlySelectionEvent = event => {
+  const blockEarly = event => {
     if (state.mode !== 'select') return;
-
-    const anchor = findAnchor(event.target);
-    if (!anchor) return;
-
-    // Manche Seiten navigieren bereits auf pointerdown/pointerup,
-    // bevor der normale click-Handler läuft. Diese Website-Handler
-    // werden gestoppt, der Browser-Default aber nicht künstlich
-    // ausgelöst oder verändert.
+    const clickable = findClickable(event.target);
+    if (!clickable) return;
     event.stopPropagation();
-
-    if (typeof event.stopImmediatePropagation === 'function') {
-      event.stopImmediatePropagation();
-    }
+    event.stopImmediatePropagation?.();
   };
-
-  [
-    'pointerdown',
-    'pointerup',
-    'mousedown',
-    'mouseup',
-    'touchstart',
-    'touchend',
-    'auxclick'
-  ].forEach(type => {
-    document.addEventListener(
-      type,
-      blockEarlySelectionEvent,
-      true
-    );
-  });
+  ['pointerdown','pointerup','mousedown','mouseup','touchstart','touchend','auxclick'].forEach(type => document.addEventListener(type, blockEarly, true));
 
   document.addEventListener('click', event => {
-    // Im Bedienmodus keinerlei Klicks abfangen:
-    // Cookiebanner, Cloudflare, Navigation und Formulare funktionieren normal.
     if (state.mode !== 'select') return;
-
     const target = event.target;
-    const anchor = findAnchor(target);
-    if (!anchor) return;
-
-    event.preventDefault();
-    event.stopPropagation();
-    event.stopImmediatePropagation();
-
-    const href = anchor.href || anchor.getAttribute('href') || '';
+    const clickable = findClickable(target);
+    if (!clickable) return;
+    const card = cardFor(target || clickable);
+    const href = hrefFrom(clickable, card);
     if (!href) return;
 
-    const card =
-      target?.closest?.(cardSelector) ||
-      anchor?.closest?.(cardSelector) ||
-      anchor;
+    event.preventDefault(); event.stopPropagation(); event.stopImmediatePropagation();
 
-    const highlight = card || anchor;
-
-    // Eine Karte kann mehrere interne Links enthalten.
-    // Für das Training zählt die Karte trotzdem nur einmal.
-    const existingIndex = state.selected.findIndex(
-      sample =>
-        sample.highlight === highlight ||
-        sample.href === href
-    );
-
+    const highlight = card || clickable;
+    const existingIndex = state.selected.findIndex(sample => sample.highlight === highlight || sample.href === href);
     if (existingIndex >= 0) {
-      state.selected[existingIndex].highlight?.removeAttribute(
-        'data-om-visual-selected'
-      );
-      state.selected.splice(existingIndex, 1);
-      post();
-      return;
+      state.selected[existingIndex].highlight?.removeAttribute('data-om-visual-selected');
+      state.selected.splice(existingIndex, 1); post(); return;
     }
-
-    // Maximal drei echte Karten reichen für die Regelerkennung.
     if (state.selected.length >= 3) return;
 
-    const titleEl = bestTitleElement(target, anchor);
+    const titleEl = bestTitleElement(target, clickable, card);
     const dateEl = bestDateElement(card);
-    const title = clean(
-      titleEl?.textContent ||
-      titleEl?.getAttribute?.('aria-label') ||
-      anchor.textContent ||
-      anchor.getAttribute('aria-label') ||
-      href
-    );
-
-    highlight.setAttribute('data-om-visual-selected', '1');
-
+    const title = clean(titleEl?.textContent || titleEl?.getAttribute?.('aria-label') || href);
+    highlight.setAttribute('data-om-visual-selected','1');
     state.selected.push({
-      anchor,
-      titleEl,
-      dateEl,
-      highlight,
-      href,
-      title,
-      itemCandidates: ancestorCandidates(anchor, titleEl)
+      clickable, card, titleEl, dateEl, highlight, href, title,
+      itemCandidates: ancestorCandidates(clickable, titleEl, card)
     });
-
     post();
   }, true);
 
-  window.omTrainerSetMode('browse');
-  post();
+  window.omTrainerSetMode('browse'); post();
   return { installed: true };
 })();
 """#

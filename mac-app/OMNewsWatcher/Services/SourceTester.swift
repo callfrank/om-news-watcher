@@ -16,7 +16,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
         let browserResult = await testViaWebKit(source)
 
-        guard browserResult.kind == .technicalError else {
+        guard browserResult.kind == .technicalError || browserResult.kind == .timeout else {
             return browserResult
         }
 
@@ -48,7 +48,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
         return SourceTestResult(
             sourceID: source.id,
-            kind: .technicalError,
+            kind: browserResult.kind,
             hitCount: httpResult.hitCount,
             examples: httpResult.examples,
             message:
@@ -68,7 +68,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         self.finished = false
 
         let configuration = WKWebViewConfiguration()
-        configuration.websiteDataStore = .nonPersistent()
+        configuration.websiteDataStore = .default()
         configuration.defaultWebpagePreferences.allowsContentJavaScript = true
 
         let webView = WKWebView(frame: .zero, configuration: configuration)
@@ -81,7 +81,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 18
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.9",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/2.0",
                 forHTTPHeaderField: "User-Agent"
             )
 
@@ -179,7 +179,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             var request = URLRequest(url: url)
             request.timeoutInterval = 15
             request.setValue(
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/1.9",
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 OM-News-Watcher-Mac/2.0",
                 forHTTPHeaderField: "User-Agent"
             )
             request.setValue("text/html,application/xhtml+xml", forHTTPHeaderField: "Accept")
@@ -218,15 +218,19 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 currentRows: filtered
             )
 
+            let visualNote = source.visualLearned
+                ? " Die gespeicherte Einlernregel ist nach einem vollständigen Neuladen nicht reproduzierbar."
+                : ""
+
             return SourceTestResult(
                 sourceID: source.id,
                 kind: .zeroHits,
                 hitCount: 0,
                 examples: [],
                 message:
-                    repair == nil
-                    ? "Keine möglichen Artikel erkannt. Die Quelle benötigt wahrscheinlich eine spezielle Erkennungsregel."
-                    : "Keine Treffer mit der aktuellen Regel. Die App hat eine mögliche Artikelstruktur auf der Seite gefunden.",
+                    (repair == nil
+                     ? "Keine möglichen Artikel erkannt."
+                     : "Keine Treffer mit der aktuellen Regel. Die App hat eine mögliche Artikelstruktur gefunden.") + visualNote,
                 testedAt: Date(),
                 repairProposal: repair
             )
@@ -234,6 +238,17 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
         let threshold = max(source.maxDetectedItems ?? 0, 80)
         if count > threshold {
+            if archiveLooksPlausible(filtered, source: source) {
+                return SourceTestResult(
+                    sourceID: source.id,
+                    kind: .largeArchive,
+                    hitCount: count,
+                    examples: examples,
+                    message: "\(count) strukturell plausible Artikel erkannt. Die hohe Zahl allein wird nicht als Fehler gewertet.",
+                    testedAt: Date()
+                )
+            }
+
             let repair = source.visualLearned ? nil : makeRepairProposal(
                 source,
                 rawRows: allRows.isEmpty ? rows : allRows,
@@ -247,8 +262,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 examples: examples,
                 message:
                     repair == nil
-                    ? "\(count) Treffer erkannt. Das ist ungewöhnlich viel; vermutlich sind Navigation oder Kategorien enthalten."
-                    : "\(count) Treffer erkannt. Die App hat einen engeren Artikelbereich gefunden und kann daraus eine Regel erzeugen.",
+                    ? "\(count) Treffer erkannt; darunter sind vermutlich Navigation, fremde Dokumente oder unpassende Bereiche."
+                    : "\(count) Treffer erkannt. Ein strukturell passenderer Artikelbereich wurde gefunden.",
                 testedAt: Date(),
                 repairProposal: repair
             )
@@ -262,6 +277,46 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             message: "\(count) mögliche Artikel erkannt.",
             testedAt: Date()
         )
+    }
+
+    private func archiveLooksPlausible(
+        _ rows: [Candidate],
+        source: SourceRecord
+    ) -> Bool {
+        guard rows.count >= 20 else { return false }
+
+        let generic = rows.filter { isGenericNavigationTitle($0.title) }.count
+        guard Double(generic) / Double(rows.count) < 0.08 else { return false }
+
+        let sourceHost = URL(string: source.url)?.host?.lowercased()
+        let hosts = rows.compactMap { URL(string: $0.href)?.host?.lowercased() }
+        guard !hosts.isEmpty else { return false }
+
+        let groupedHosts = Dictionary(grouping: hosts, by: { $0 }).mapValues(\.count)
+        guard let dominant = groupedHosts.max(by: { $0.value < $1.value }) else { return false }
+        let hostRatio = Double(dominant.value) / Double(hosts.count)
+        guard hostRatio >= 0.80 else { return false }
+
+        if source.visualLearned,
+           let sourceHost,
+           dominant.key != sourceHost,
+           !dominant.key.hasSuffix(".\(sourceHost)"),
+           !sourceHost.hasSuffix(".\(dominant.key)") {
+            // Ein visuell eingelerntes Newsroom-Archiv darf nicht plötzlich
+            // überwiegend auf einer fremden Asset-/PDF-Domain landen.
+            return false
+        }
+
+        let paths = rows.compactMap { row -> String? in
+            guard let url = URL(string: row.href) else { return nil }
+            let parts = url.path.split(separator: "/")
+            guard !parts.isEmpty else { return nil }
+            return parts.prefix(min(2, parts.count)).joined(separator: "/").lowercased()
+        }
+
+        let groupedPaths = Dictionary(grouping: paths, by: { $0 }).mapValues(\.count)
+        let bestPath = groupedPaths.values.max() ?? 0
+        return Double(bestPath) / Double(max(paths.count, 1)) >= 0.55
     }
 
     // MARK: - Automatische Reparatur
@@ -370,6 +425,27 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         let preview = filter(prepared, for: proposed)
 
         guard preview.count >= 2, preview.count <= 70 else {
+            return nil
+        }
+
+        // Reparaturvorschläge müssen zum ursprünglichen Quellentyp passen.
+        // Newsroom -> fremde PDF-Factsheets ist z. B. keine Reparatur.
+        let sourceHost = URL(string: source.url)?.host?.lowercased()
+        let previewHosts = preview.compactMap { URL(string: $0.href)?.host?.lowercased() }
+        if let sourceHost, !previewHosts.isEmpty {
+            let internalCount = previewHosts.filter { host in
+                host == sourceHost || host.hasSuffix(".\(sourceHost)") || sourceHost.hasSuffix(".\(host)")
+            }.count
+            if Double(internalCount) / Double(previewHosts.count) < 0.80 && !source.allowExternal {
+                return nil
+            }
+        }
+
+        let previewPDFs = preview.filter { $0.href.lowercased().contains(".pdf") }.count
+        let currentPDFs = currentRows.filter { $0.href.lowercased().contains(".pdf") }.count
+        if !currentRows.isEmpty,
+           Double(previewPDFs) / Double(preview.count) > 0.70,
+           Double(currentPDFs) / Double(currentRows.count) < 0.20 {
             return nil
         }
 
@@ -525,11 +601,14 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         }
 
         let prefixes = [
-            "mehr erfahren", "read more", "weiterlesen",
+            "mehr erfahren", "read more", "read article", "learn more",
+            "weiterlesen", "download", "download for free",
             "zurück", "back", "alle themen", "all topics"
         ]
 
-        return prefixes.contains(where: { lower.hasPrefix($0) })
+        if prefixes.contains(where: { lower.hasPrefix($0) }) { return true }
+        if lower.range(of: #"^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$"#, options: .regularExpression) != nil { return true }
+        return false
     }
 
     private let articlePathHints = [
@@ -650,117 +729,141 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             "titleSelector": source.titleSelector ?? "",
             "linkSelector": source.linkSelector ?? "",
             "dateSelector": source.dateSelector ?? "",
-            "allowTitleOnly": source.allowTitleOnly
+            "allowTitleOnly": source.allowTitleOnly,
+            "smart": source.visualSmartExtraction || source.visualLearned
         ]
 
         let data = try JSONSerialization.data(withJSONObject: config)
         let json = String(data: data, encoding: .utf8) ?? "{}"
 
-        return """
+        return #"""
         (() => {
-          const cfg = \(json);
-          const clean = (text) => (text || '').replace(/\\s+/g, ' ').trim();
+          const cfg = \#(json);
+          const clean = text => (text || '').replace(/\s+/g, ' ').trim();
           const rows = [];
           const allRows = [];
+          const clickableSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick]';
+          const cardSelector = 'article,li,tr,section,[class*="card" i],[class*="teaser" i],[class*="news" i],[class*="press" i],[class*="event" i],[class*="story" i],[class*="result" i],[class*="item" i],[class*="report" i],[class*="post" i]';
+
+          const generic = value => {
+            const lower = clean(value).toLowerCase();
+            if (!lower) return true;
+            if (/^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|link öffnet|opens in)/i.test(lower)) return true;
+            if (/^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(lower)) return true;
+            return false;
+          };
 
           const pick = (root, selector, fallbackToRoot = false) => {
             if (!root) return null;
             if (!selector) return fallbackToRoot ? root : null;
             try {
-              if (root.matches && root.matches(selector)) return root;
-              return root.querySelector ? root.querySelector(selector) : null;
-            } catch {
-              return null;
+              if (root.matches?.(selector)) return root;
+              return root.querySelector?.(selector) || null;
+            } catch { return null; }
+          };
+
+          const cardFor = el => el?.closest?.(cardSelector) || el?.parentElement || el;
+
+          const hrefFrom = (el, root = null) => {
+            if (!el && !root) return '';
+            const candidates = [el, el?.closest?.('a[href]'), root];
+            for (const node of candidates) {
+              if (!node?.getAttribute) continue;
+              const raw = node.href || node.getAttribute('href') || node.getAttribute('data-href') || node.getAttribute('data-url') || node.getAttribute('data-link') || '';
+              if (raw) return raw;
+              const onclick = node.getAttribute('onclick') || '';
+              const match = onclick.match(/(?:location(?:\.href)?\s*=|window\.open\s*\()\s*['"]([^'"]+)['"]/i);
+              if (match?.[1]) return match[1];
             }
+            const card = root || cardFor(el);
+            const link = card?.querySelector?.('a[href]');
+            return link?.href || link?.getAttribute?.('href') || '';
           };
 
-          const textOf = (root, selector, fallbackToRoot = false) => {
-            const el = pick(root, selector, fallbackToRoot);
-            return clean(
-              el?.textContent ||
-              el?.getAttribute?.('aria-label') ||
-              el?.title ||
-              ''
-            );
-          };
+          const smartTitle = (el, root = null) => {
+            const own = clean(el?.textContent || el?.getAttribute?.('aria-label') || el?.title || '');
+            if (own && !generic(own) && own.length <= 320) return own;
 
-          const hrefOf = (root, selector) => {
-            let el = pick(root, selector, false);
-            if (!el && root?.matches?.('a[href]')) el = root;
-            if (!el) el = root?.querySelector?.('a[href]');
-            return el ? (el.href || el.getAttribute('href') || '') : '';
-          };
-
-          try {
-            document.querySelectorAll('a[href]').forEach((a) => {
-              const title = clean(
-                a.textContent ||
-                a.getAttribute('aria-label') ||
-                a.title ||
-                ''
-              );
-              const href = a.href || a.getAttribute('href') || '';
-              if (title && href) allRows.push({ title, href, date: '' });
-            });
-
-            if (cfg.allowTitleOnly && cfg.itemSelector) {
-              document.querySelectorAll(cfg.itemSelector).forEach((item) => {
-                const title = textOf(item, cfg.titleSelector, !cfg.titleSelector);
-                const date = cfg.dateSelector ? textOf(item, cfg.dateSelector) : '';
-                if (title) rows.push({ title, href: '', date });
-              });
-            } else if (cfg.itemSelector) {
-              document.querySelectorAll(cfg.itemSelector).forEach((item) => {
-                const title = textOf(item, cfg.titleSelector, !cfg.titleSelector);
-                const href = hrefOf(item, cfg.linkSelector);
-                const date = cfg.dateSelector ? textOf(item, cfg.dateSelector) : '';
-
-                if (title && href) {
-                  rows.push({ title, href, date });
-                }
-              });
-            } else {
-              const selector =
-                cfg.candidateSelector ||
-                'main article a[href], article a[href], main a[href]';
-
-              document.querySelectorAll(selector).forEach((a) => {
-                const title = clean(
-                  a.textContent ||
-                  a.getAttribute('aria-label') ||
-                  a.title ||
-                  ''
-                );
-
-                const href =
-                  a.href ||
-                  a.getAttribute('href') ||
-                  '';
-
-                if (title && href) {
-                  rows.push({ title, href, date: '' });
-                }
-              });
-
-              if (rows.length === 0) {
-                allRows.forEach((row) => rows.push(row));
+            const card = root || cardFor(el);
+            const selectors = [
+              'h1','h2','h3','h4','h5','h6',
+              '[class*="headline" i]','[class*="heading" i]','[class*="title" i]',
+              '[data-testid*="title" i]','[aria-label]','strong'
+            ];
+            for (const selector of selectors) {
+              const nodes = Array.from(card?.querySelectorAll?.(selector) || []);
+              for (const node of nodes) {
+                const value = clean(node.textContent || node.getAttribute?.('aria-label') || node.title || '');
+                if (value.length >= 5 && value.length <= 320 && !generic(value)) return value;
               }
             }
 
+            const imgAlt = clean(card?.querySelector?.('img[alt]')?.getAttribute?.('alt') || '');
+            if (imgAlt.length >= 8 && !generic(imgAlt)) return imgAlt;
+            return own;
+          };
+
+          const smartDate = root => {
+            const card = root || document;
+            const el = card?.querySelector?.('time[datetime],time,[class*="date" i],[class*="datum" i],[class*="published" i],[class*="time" i]');
+            return clean(el?.getAttribute?.('datetime') || el?.textContent || '');
+          };
+
+          const rowFor = (el, root = null) => {
+            const card = root || cardFor(el);
             return {
-              rows: rows.slice(0, 600),
-              allRows: allRows.slice(0, 1200),
+              title: smartTitle(el, card),
+              href: hrefFrom(el, card),
+              date: smartDate(card)
+            };
+          };
+
+          try {
+            document.querySelectorAll(clickableSelector).forEach(el => {
+              const row = rowFor(el);
+              if (row.title && row.href) allRows.push(row);
+            });
+
+            if (cfg.allowTitleOnly && cfg.itemSelector) {
+              document.querySelectorAll(cfg.itemSelector).forEach(item => {
+                const titleEl = pick(item, cfg.titleSelector, !cfg.titleSelector);
+                const title = clean(titleEl?.textContent || titleEl?.getAttribute?.('aria-label') || '');
+                const dateEl = cfg.dateSelector ? pick(item, cfg.dateSelector) : null;
+                const date = clean(dateEl?.getAttribute?.('datetime') || dateEl?.textContent || '');
+                if (title) rows.push({ title, href: '', date });
+              });
+            } else if (cfg.itemSelector) {
+              document.querySelectorAll(cfg.itemSelector).forEach(item => {
+                let linkEl = cfg.linkSelector ? pick(item, cfg.linkSelector) : null;
+                if (!linkEl) linkEl = item.matches?.(clickableSelector) ? item : item.querySelector?.(clickableSelector);
+                let titleEl = cfg.titleSelector ? pick(item, cfg.titleSelector) : null;
+                let title = clean(titleEl?.textContent || titleEl?.getAttribute?.('aria-label') || '');
+                if (!title || generic(title)) title = smartTitle(linkEl || item, item);
+                const href = hrefFrom(linkEl || item, item);
+                const dateEl = cfg.dateSelector ? pick(item, cfg.dateSelector) : null;
+                const date = clean(dateEl?.getAttribute?.('datetime') || dateEl?.textContent || smartDate(item));
+                if (title && href) rows.push({ title, href, date });
+              });
+            }
+
+            if (rows.length === 0 || cfg.smart) {
+              const selector = cfg.candidateSelector || clickableSelector;
+              document.querySelectorAll(selector).forEach(el => {
+                const row = rowFor(el);
+                if (row.title && row.href) rows.push(row);
+              });
+            }
+
+            return {
+              rows: rows.slice(0, 900),
+              allRows: allRows.slice(0, 1600),
               error: ''
             };
           } catch (error) {
-            return {
-              rows: [],
-              allRows: [],
-              error: String(error)
-            };
+            return { rows: [], allRows: [], error: String(error) };
           }
         })();
-        """
+        """#
     }
 
     private func extractAnchors(from html: String) -> [Candidate] {
@@ -901,9 +1004,15 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         _ source: SourceRecord,
         message: String
     ) -> SourceTestResult {
-        SourceTestResult(
+        let lower = message.lowercased()
+        let kind: SourceTestKind =
+            (lower.contains("zeitüberschreitung") || lower.contains("timed out") || lower.contains("timeout"))
+            ? .timeout
+            : .technicalError
+
+        return SourceTestResult(
             sourceID: source.id,
-            kind: .technicalError,
+            kind: kind,
             hitCount: 0,
             examples: [],
             message: message,

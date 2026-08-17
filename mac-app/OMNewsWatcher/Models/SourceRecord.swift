@@ -166,6 +166,22 @@ struct SourceRecord: Identifiable, Equatable {
         clean(raw["visualLearnedAt"]?.stringValue)
     }
 
+    var visualRuleVersion: Int {
+        raw["visualRuleVersion"]?.intValue ?? (visualLearned ? 1 : 0)
+    }
+
+    var visualValidated: Bool {
+        raw["visualValidated"]?.boolValue ?? false
+    }
+
+    var visualValidationMessage: String? {
+        clean(raw["visualValidationMessage"]?.stringValue)
+    }
+
+    var visualSmartExtraction: Bool {
+        raw["visualSmartExtraction"]?.boolValue ?? (visualRuleVersion >= 2)
+    }
+
     mutating func applyVisualTrainingRule(_ rule: VisualTrainingRule) {
         if !visualLearned {
             let keys = [
@@ -183,20 +199,18 @@ struct SourceRecord: Identifiable, Equatable {
 
             var backup: [String: JSONValue] = [:]
             for key in keys {
-                if let value = raw[key] {
-                    backup[key] = value
-                }
+                if let value = raw[key] { backup[key] = value }
             }
             raw["visualBackup"] = .object(backup)
         }
 
-        itemSelector = rule.itemSelector
-        titleSelector = rule.titleSelector
-        linkSelector = rule.linkSelector
+        itemSelector = rule.itemSelector.isEmpty ? nil : rule.itemSelector
+        titleSelector = rule.titleSelector.isEmpty ? nil : rule.titleSelector
+        linkSelector = rule.linkSelector.isEmpty ? nil : rule.linkSelector
         dateSelector = rule.dateSelector
 
-        candidateSelector = nil
-        includeRegex = nil
+        candidateSelector = rule.candidateSelector
+        includeRegex = rule.urlRegex
         excludeRegex = nil
         raw.removeValue(forKey: "includeTitleRegex")
         raw.removeValue(forKey: "excludeTitleRegex")
@@ -208,7 +222,25 @@ struct SourceRecord: Identifiable, Equatable {
         raw["visualLearned"] = .bool(true)
         raw["visualSampleCount"] = .int(rule.sampleCount)
         raw["visualLearnedAt"] = .string(ISO8601DateFormatter().string(from: Date()))
+        raw["visualRuleVersion"] = .int(2)
+        raw["visualValidated"] = .bool(false)
+        raw["visualSmartExtraction"] = .bool(true)
+        raw["visualStrategy"] = .string(rule.strategy)
+        raw.removeValue(forKey: "visualValidationMessage")
         baselineVersion = SourceRecord.makeBaselineVersion()
+    }
+
+    mutating func markVisualTrainingValidated(_ message: String) {
+        guard visualLearned else { return }
+        raw["visualValidated"] = .bool(true)
+        raw["visualValidatedAt"] = .string(ISO8601DateFormatter().string(from: Date()))
+        raw["visualValidationMessage"] = .string(message)
+    }
+
+    mutating func markVisualTrainingUnvalidated(_ message: String) {
+        guard visualLearned else { return }
+        raw["visualValidated"] = .bool(false)
+        raw["visualValidationMessage"] = .string(message)
     }
 
     mutating func restoreBeforeVisualTraining() {
@@ -246,6 +278,12 @@ struct SourceRecord: Identifiable, Equatable {
         raw.removeValue(forKey: "visualLearned")
         raw.removeValue(forKey: "visualSampleCount")
         raw.removeValue(forKey: "visualLearnedAt")
+        raw.removeValue(forKey: "visualRuleVersion")
+        raw.removeValue(forKey: "visualValidated")
+        raw.removeValue(forKey: "visualValidatedAt")
+        raw.removeValue(forKey: "visualValidationMessage")
+        raw.removeValue(forKey: "visualSmartExtraction")
+        raw.removeValue(forKey: "visualStrategy")
         baselineVersion = SourceRecord.makeBaselineVersion()
     }
 

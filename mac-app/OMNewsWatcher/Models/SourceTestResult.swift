@@ -2,17 +2,25 @@ import Foundation
 
 enum SourceTestKind: String, Codable {
     case success
+    case largeArchive
     case zeroHits
     case tooManyHits
+    case timeout
     case technicalError
 
     var title: String {
         switch self {
         case .success: return "Quelle funktioniert"
+        case .largeArchive: return "Großes Archiv – plausibel"
         case .zeroHits: return "Keine Treffer"
         case .tooManyHits: return "Zu viele Treffer"
+        case .timeout: return "Zeitüberschreitung"
         case .technicalError: return "Technischer Fehler"
         }
+    }
+
+    var isSuccessLike: Bool {
+        self == .success || self == .largeArchive
     }
 }
 
@@ -47,18 +55,20 @@ struct VisualTrainingRule: Equatable {
     let titleSelector: String
     let linkSelector: String
     let dateSelector: String?
+    let candidateSelector: String
+    let urlRegex: String?
     let allowExternal: Bool
     let sampleCount: Int
     let previewCount: Int
     let preview: [VisualTrainingPreview]
+    let strategy: String
 
     var isUsable: Bool {
         sampleCount >= 2 &&
-        previewCount >= 2 &&
+        previewCount >= sampleCount &&
         previewCount <= 300 &&
-        !itemSelector.isEmpty &&
-        !titleSelector.isEmpty &&
-        !linkSelector.isEmpty
+        (!itemSelector.isEmpty || !(urlRegex ?? "").isEmpty) &&
+        !candidateSelector.isEmpty
     }
 }
 
@@ -78,29 +88,12 @@ struct SourceRepairProposal: Equatable {
     func applying(to source: SourceRecord) -> SourceRecord {
         var repaired = source
 
-        if let candidateSelector {
-            repaired.candidateSelector = candidateSelector
-        }
-
-        if let includeRegex {
-            repaired.includeRegex = includeRegex
-        }
-
-        if let excludeRegex {
-            repaired.excludeRegex = excludeRegex
-        }
-
-        if let fetchMode {
-            repaired.fetchMode = fetchMode
-        }
-
-        if let minTitleLength {
-            repaired.minTitleLength = minTitleLength
-        }
-
-        if let allowExternal {
-            repaired.allowExternal = allowExternal
-        }
+        if let candidateSelector { repaired.candidateSelector = candidateSelector }
+        if let includeRegex { repaired.includeRegex = includeRegex }
+        if let excludeRegex { repaired.excludeRegex = excludeRegex }
+        if let fetchMode { repaired.fetchMode = fetchMode }
+        if let minTitleLength { repaired.minTitleLength = minTitleLength }
+        if let allowExternal { repaired.allowExternal = allowExternal }
 
         repaired.baselineVersion = SourceRecord.makeBaselineVersion()
         return repaired
@@ -135,7 +128,5 @@ struct SourceTestResult: Identifiable, Equatable {
         self.repairProposal = repairProposal
     }
 
-    var isProblem: Bool {
-        kind != .success
-    }
+    var isProblem: Bool { !kind.isSuccessLike }
 }

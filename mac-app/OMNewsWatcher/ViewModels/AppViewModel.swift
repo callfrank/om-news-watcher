@@ -69,6 +69,10 @@ final class AppViewModel: ObservableObject {
     @Published var emailAlertMode: EmailAlertMode = .off
     @Published var emailSettingsDirty = false
     @Published var emailTestStatus: String?
+    @Published var isTestingAll = false
+    @Published var allTestCompleted = 0
+    @Published var allTestTotal = 0
+    @Published var allTestCurrentName = ""
 
     @Published var owner: String {
         didSet { defaults.set(owner, forKey: Keys.owner) }
@@ -136,6 +140,12 @@ final class AppViewModel: ObservableObject {
         sources.filter { source in
             testResults[source.id]?.isProblem == true
         }.count
+    }
+
+    var allTestProgressText: String? {
+        guard isTestingAll, allTestTotal > 0 else { return nil }
+        return "\(allTestCompleted) von \(allTestTotal) geprüft" +
+            (allTestCurrentName.isEmpty ? "" : " · \(allTestCurrentName)")
     }
 
     var feedURL: URL? {
@@ -263,17 +273,54 @@ final class AppViewModel: ObservableObject {
         _ rule: VisualTrainingRule,
         to sourceID: UUID
     ) {
-        guard let index = sources.firstIndex(where: { $0.id == sourceID }) else { return }
+        Task { @MainActor in
+            await validateAndApplyVisualTrainingRule(rule, to: sourceID)
+        }
+    }
 
-        var source = sources[index]
-        source.applyVisualTrainingRule(rule)
-        sources[index] = source
+    private func validateAndApplyVisualTrainingRule(
+        _ rule: VisualTrainingRule,
+        to sourceID: UUID
+    ) async {
+        guard !isTestingAll,
+              testingSourceID == nil,
+              let index = sources.firstIndex(where: { $0.id == sourceID })
+        else { return }
 
-        testResults.removeValue(forKey: sourceID)
-        isDirty = true
+        let original = sources[index]
+        var candidate = original
+        candidate.applyVisualTrainingRule(rule)
+
         showVisualTrainer = false
         visualTrainingSource = nil
-        statusMessage = "\(source.name): visuelle Regel übernommen – bitte speichern"
+        testingSourceID = sourceID
+        statusMessage = "\(original.name): Einlernregel wird nach komplettem Neuladen validiert …"
+
+        let tester = SourceTester()
+        activeTester = tester
+        let result = await tester.test(candidate)
+        activeTester = nil
+        testingSourceID = nil
+
+        guard result.kind.isSuccessLike,
+              result.hitCount >= rule.sampleCount
+        else {
+            testResults[sourceID] = result
+            errorMessage =
+                "Die neue Einlernregel wurde nicht gespeichert. " +
+                "Nach einem vollständigen Neuladen wurden \(result.hitCount) passende Treffer erkannt. " +
+                "Die vorherige Regel bleibt unverändert."
+            statusMessage = "\(original.name): Einlernregel nach Reload verworfen"
+            return
+        }
+
+        candidate.markVisualTrainingValidated(
+            "Nach Reload bestätigt: \(result.hitCount) Treffer"
+        )
+        sources[index] = candidate
+        testResults[sourceID] = result
+        isDirty = true
+        statusMessage = "\(original.name): Einlernregel validiert – bitte speichern"
     }
 
     func restoreAutomaticDetection(for sourceID: UUID) {
@@ -338,27 +385,101 @@ final class AppViewModel: ObservableObject {
     }
 
     func testSource(_ source: SourceRecord) async {
-        guard testingSourceID == nil else { return }
+        guard testingSourceID == nil, !isTestingAll else { return }
 
         testingSourceID = source.id
         statusMessage = "Teste \(source.name) …"
         errorMessage = nil
 
+        let result = await executeTest(source)
+        testResults[source.id] = result
+        testingSourceID = nil
+        updateVisualValidationAfterTest(sourceID: source.id, result: result)
+        updateStatusAfterTest(source, result: result)
+    }
+
+    func testAllSources() async {
+        guard !isTestingAll, testingSourceID == nil else { return }
+
+        let candidates = sources.filter(\.enabled)
+        isTestingAll = true
+        allTestCompleted = 0
+        allTestTotal = candidates.count
+        allTestCurrentName = ""
+        errorMessage = nil
+
+        defer {
+            testingSourceID = nil
+            isTestingAll = false
+            allTestCurrentName = ""
+        }
+
+        for source in candidates {
+            allTestCurrentName = source.name
+            testingSourceID = source.id
+            statusMessage = "Alle Quellen testen: \(allTestCompleted) von \(allTestTotal)"
+
+            let result = await executeTest(source)
+            testResults[source.id] = result
+            updateVisualValidationAfterTest(sourceID: source.id, result: result)
+            allTestCompleted += 1
+        }
+
+        let testedResults = candidates.compactMap { testResults[$0.id] }
+        let okCount = testedResults.filter { $0.kind == .success }.count
+        let archiveCount = testedResults.filter { $0.kind == .largeArchive }.count
+        let zeroCount = testedResults.filter { $0.kind == .zeroHits }.count
+        let tooManyCount = testedResults.filter { $0.kind == .tooManyHits }.count
+        let timeoutCount = testedResults.filter { $0.kind == .timeout }.count
+        let technicalCount = testedResults.filter { $0.kind == .technicalError }.count
+
+        statusMessage =
+            "Alle getestet: \(okCount) OK · \(archiveCount) Archive · \(zeroCount) ohne Treffer · " +
+            "\(tooManyCount) auffällig · \(timeoutCount) Timeout · \(technicalCount) technisch"
+    }
+
+    private func executeTest(_ source: SourceRecord) async -> SourceTestResult {
         let tester = SourceTester()
         activeTester = tester
         let result = await tester.test(source)
         activeTester = nil
+        return result
+    }
 
-        testResults[source.id] = result
-        testingSourceID = nil
+    private func updateVisualValidationAfterTest(
+        sourceID: UUID,
+        result: SourceTestResult
+    ) {
+        guard let index = sources.firstIndex(where: { $0.id == sourceID }),
+              sources[index].visualLearned
+        else { return }
 
+        if result.kind.isSuccessLike {
+            sources[index].markVisualTrainingValidated(
+                "Nach Reload bestätigt: \(result.hitCount) Treffer"
+            )
+        } else {
+            sources[index].markVisualTrainingUnvalidated(
+                "Einlernregel nach Reload ungültig: \(result.kind.title)"
+            )
+        }
+    }
+
+    private func updateStatusAfterTest(
+        _ source: SourceRecord,
+        result: SourceTestResult
+    ) {
         switch result.kind {
         case .success:
             statusMessage = "\(source.name): \(result.hitCount) Treffer"
+        case .largeArchive:
+            statusMessage = "\(source.name): großes plausibles Archiv (\(result.hitCount))"
         case .zeroHits:
             statusMessage = "\(source.name): keine Treffer"
         case .tooManyHits:
-            statusMessage = "\(source.name): zu viele Treffer"
+            statusMessage = "\(source.name): Trefferstruktur prüfen"
+        case .timeout:
+            statusMessage = "\(source.name): Zeitüberschreitung"
         case .technicalError:
             statusMessage = "\(source.name): technischer Fehler"
         }
@@ -368,23 +489,31 @@ final class AppViewModel: ObservableObject {
         _ proposal: SourceRepairProposal,
         to sourceID: UUID
     ) async {
-        guard let index = sources.firstIndex(
-            where: { $0.id == sourceID }
-        ) else {
-            return
-        }
+        guard !isTestingAll,
+              testingSourceID == nil,
+              let index = sources.firstIndex(where: { $0.id == sourceID })
+        else { return }
 
         let original = sources[index]
         let repaired = proposal.applying(to: original)
 
+        testingSourceID = sourceID
+        statusMessage = "\(original.name): Reparatur wird vor dem Speichern validiert …"
+        let result = await executeTest(repaired)
+        testingSourceID = nil
+        testResults[sourceID] = result
+
+        guard result.kind.isSuccessLike, result.hitCount >= 2 else {
+            errorMessage =
+                "Die automatische Reparatur wurde verworfen. " +
+                "Die vorgeschlagene Regel liefert nach einem neuen Abruf kein plausibles Ergebnis."
+            statusMessage = "\(original.name): Reparatur verworfen"
+            return
+        }
+
         sources[index] = repaired
         isDirty = true
-        testResults.removeValue(forKey: sourceID)
-
-        statusMessage =
-            "\(original.name): Reparaturregel übernommen – neuer Test läuft …"
-
-        await testSource(repaired)
+        statusMessage = "\(original.name): Reparatur validiert – bitte speichern"
     }
 
     func loadEmailSettings() async {
