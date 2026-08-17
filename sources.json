@@ -232,16 +232,31 @@
     "waitMs" : 5000
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-121844",
     "enabled" : true,
+    "minTitleLength" : 5,
     "name" : "Forrester Press Newsroom",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "h2.post-block__title",
+      "link" : "a",
+      "title" : "h2.post-block__title"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.forrester.com/press-newsroom/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T10:18:44Z",
+    "visualSampleCount" : 3,
     "waitMs" : 5000
   },
   {
