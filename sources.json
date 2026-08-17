@@ -307,24 +307,38 @@
     "waitMs" : 3000
   },
   {
-    "allowTitleOnly" : true,
-    "baselineVersion" : "mac-app-20260814-151047",
-    "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
+    "allowExternal" : true,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-122514",
     "enabled" : true,
-    "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
-    "includeRegex" : "^https?://www\\.hellofreshgroup\\.com\\/de\\/newsroom\\/",
     "maxDetectedItems" : 25,
-    "minTitleLength" : 14,
+    "minTitleLength" : 5,
     "name" : "HelloFresh Press Releases",
     "reverseDetected" : true,
     "selectors" : {
       "date" : "",
-      "item" : "h3",
-      "link" : "",
-      "title" : ""
+      "item" : "li.pressRelease-module--pressRelease--2tY4c",
+      "link" : "a.pressRelease-module--downloadButton--Mp1dK",
+      "title" : "h3"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.hellofreshgroup.com/de/newsroom/press-releases/",
+    "visualBackup" : {
+      "allowTitleOnly" : true,
+      "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
+      "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
+      "includeRegex" : "^https?://www\\.hellofreshgroup\\.com\\/de\\/newsroom\\/",
+      "minTitleLength" : 14,
+      "selectors" : {
+        "date" : "",
+        "item" : "h3",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T10:25:14Z",
+    "visualSampleCount" : 3,
     "waitMs" : 3000
   },
   {
@@ -343,7 +357,7 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-070608",
+    "baselineVersion" : "mac-app-20260817-122708",
     "enabled" : true,
     "minTitleLength" : 5,
     "name" : "JD Corporate News",
@@ -365,7 +379,7 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T05:06:08Z",
+    "visualLearnedAt" : "2026-08-17T10:27:08Z",
     "visualSampleCount" : 3,
     "waitMs" : 3000
   },
@@ -401,18 +415,32 @@
     "waitMs" : 3000
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
     "autoScroll" : 3,
-    "baselineVersion" : "v10-content-parked",
+    "baselineVersion" : "mac-app-20260817-122930",
     "enabled" : false,
+    "minTitleLength" : 5,
     "name" : "Mordor Intelligence Case Studies",
     "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "date" : "time,[class*=\"date\" i],[class*=\"datum\" i],[class*=\"published\" i]",
+      "item" : "article.flex",
+      "link" : "a.text-sm",
+      "title" : "h3.cursor-pointer"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.mordorintelligence.com/signal/case-studies",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T10:29:30Z",
+    "visualSampleCount" : 3,
     "waitMs" : 7000
   },
   {
@@ -465,24 +493,38 @@
     "waitMs" : 5000
   },
   {
-    "allowTitleOnly" : true,
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "v11-mms",
-    "candidateSelector" : "a[href*=\"/de/news-presse/pressemitteilungen/\"]",
+    "baselineVersion" : "mac-app-20260817-123142",
     "enabled" : true,
-    "excludeTitleRegex" : "^(?:News & Presse|Breadcrumb|Pagination)$",
-    "includeRegex" : "",
     "maxDetectedItems" : 20,
-    "minTitleLength" : 22,
+    "minTitleLength" : 5,
     "name" : "MediaMarktSaturn News & Presse",
     "selectors" : {
       "date" : "",
-      "item" : "main h2",
-      "link" : "",
-      "title" : ""
+      "item" : "a[href*=\"/api/documents/file/\"]",
+      "link" : "a",
+      "title" : "a"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.mediamarktsaturn.de/de/news-presse",
+    "visualBackup" : {
+      "allowTitleOnly" : true,
+      "candidateSelector" : "a[href*=\"/de/news-presse/pressemitteilungen/\"]",
+      "excludeTitleRegex" : "^(?:News & Presse|Breadcrumb|Pagination)$",
+      "includeRegex" : "",
+      "minTitleLength" : 22,
+      "selectors" : {
+        "date" : "",
+        "item" : "main h2",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T10:31:42Z",
+    "visualSampleCount" : 3,
     "waitMs" : 1500
   },
   {
@@ -545,6 +587,7 @@
     "waitMs" : 5000
   },
   {
+    "baselineVersion" : "mac-app-20260817-123458",
     "enabled" : true,
     "includeRegex" : "^https://momox\\.biz/presse/\\d+-pressemeldungen/",
     "name" : "Momox Presse",
@@ -559,22 +602,36 @@
     "waitMs" : 3000
   },
   {
-    "allowTitleOnly" : true,
+    "allowExternal" : true,
+    "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "v10-amzfreight",
+    "baselineVersion" : "mac-app-20260817-123638",
     "enabled" : true,
-    "excludeTitleRegex" : "^(?:Nehmen Sie an unseren nächsten Veranstaltungen.*|Sehen Sie sich hier vergangene Webinare an|Haben Sie Fragen.*)$",
     "maxDetectedItems" : 40,
-    "minTitleLength" : 10,
+    "minTitleLength" : 5,
     "name" : "Amazon Freight Events",
     "selectors" : {
       "date" : "",
-      "item" : "main h2, main h3, main h4",
-      "link" : "",
-      "title" : ""
+      "item" : "div.PageList-items-item",
+      "link" : "a.Link",
+      "title" : "div.PagePromo-title"
     },
     "timeoutMs" : 60000,
     "url" : "https://freight.amazon.de/events-and-webinars",
+    "visualBackup" : {
+      "allowTitleOnly" : true,
+      "excludeTitleRegex" : "^(?:Nehmen Sie an unseren nächsten Veranstaltungen.*|Sehen Sie sich hier vergangene Webinare an|Haben Sie Fragen.*)$",
+      "minTitleLength" : 10,
+      "selectors" : {
+        "date" : "",
+        "item" : "main h2, main h3, main h4",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T10:36:38Z",
+    "visualSampleCount" : 3,
     "waitMs" : 1200
   },
   {
