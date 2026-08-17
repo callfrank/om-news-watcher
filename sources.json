@@ -1662,5 +1662,58 @@
     "visualValidatedAt" : "2026-08-17T12:50:26Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 25 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-145227",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://investor\\.pddholdings\\.com/events/event-details/",
+    "minTitleLength" : 5,
+    "name" : "PDD QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "div.field__item",
+      "link" : "a",
+      "title" : "a"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://investor.pddholdings.com/investor-events",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T12:52:27Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://investor.pddholdings.com/events/event-details/pdd-holdings-1q-2026-earnings-conference-call",
+      "https://investor.pddholdings.com/events/event-details/pdd-holdings-4q-and-fiscal-year-2025-earnings-conference-call",
+      "https://investor.pddholdings.com/events/event-details/pdd-holdings-3q-2025-earnings-conference-call"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T12:52:30Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
+    "waitMs" : 2500
   }
 ]
