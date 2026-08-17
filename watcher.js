@@ -9,7 +9,7 @@ const STATE_FILE = path.join(ROOT, 'data', 'state.json');
 const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 
-const VERSION = '0.15';
+const VERSION = '0.16';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
@@ -187,6 +187,10 @@ function looksLikeArticle(text, href, source) {
     return false;
   }
 
+  if (/^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more)/i.test(text.trim()) || /^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(text.trim())) {
+    return false;
+  }
+
   if (!isAllowedUrl(href, source)) {
     return false;
   }
@@ -284,106 +288,110 @@ async function autoScroll(page, steps = 0) {
 
 async function extractConfigured(page, source) {
   const sel = source.selectors || {};
-
-  if (!sel.item) {
-    return null;
-  }
+  if (!sel.item) return null;
 
   return await page.locator(sel.item).evaluateAll((nodes, cfg) => {
-    const pick = (root, selector, fallbackToRoot = false) => {
-      if (!root) return null;
-      if (!selector) return fallbackToRoot ? root : null;
-
-      try {
-        if (root.matches && root.matches(selector)) return root;
-        return root.querySelector ? root.querySelector(selector) : null;
-      } catch {
-        return null;
+    const clean = value => (value || '').replace(/\s+/g, ' ').trim();
+    const clickableSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick]';
+    const generic = value => {
+      const lower = clean(value).toLowerCase();
+      return !lower || /^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|zur konferenz)/i.test(lower) || /^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(lower);
+    };
+    const pick = (root, selector) => {
+      if (!root || !selector) return null;
+      try { return root.matches?.(selector) ? root : root.querySelector?.(selector); } catch { return null; }
+    };
+    const hrefFrom = (el, root) => {
+      const nodes = [el, el?.closest?.('a[href]'), root];
+      for (const node of nodes) {
+        if (!node?.getAttribute) continue;
+        const raw = node.href || node.getAttribute('href') || node.getAttribute('data-href') || node.getAttribute('data-url') || node.getAttribute('data-link') || '';
+        if (raw) return raw;
+        const onclick = node.getAttribute('onclick') || '';
+        const m = onclick.match(/(?:location(?:\.href)?\s*=|window\.open\s*\()\s*['"]([^'"]+)['"]/i);
+        if (m?.[1]) return m[1];
       }
+      const link = root?.querySelector?.('a[href]');
+      return link?.href || link?.getAttribute?.('href') || '';
+    };
+    const smartTitle = (el, root) => {
+      const own = clean(el?.textContent || el?.getAttribute?.('aria-label') || el?.title || '');
+      if (own && own.length <= 320 && !generic(own)) return own;
+      const selectors = 'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i],[data-testid*="title" i],strong';
+      for (const node of Array.from(root?.querySelectorAll?.(selectors) || [])) {
+        const value = clean(node.textContent || node.getAttribute?.('aria-label') || '');
+        if (value.length >= 5 && value.length <= 320 && !generic(value)) return value;
+      }
+      const alt = clean(root?.querySelector?.('img[alt]')?.getAttribute?.('alt') || '');
+      return alt.length >= 8 ? alt : own;
+    };
+    const dateOf = root => {
+      const el = root?.querySelector?.('time[datetime],time,[class*="date" i],[class*="datum" i],[class*="published" i],[class*="time" i]');
+      return clean(el?.getAttribute?.('datetime') || el?.textContent || '');
     };
 
-    const textOf = (root, selector, fallbackToRoot = false) => {
-      const el = pick(root, selector, fallbackToRoot);
-
-      return el
-        ? (el.textContent || '')
-            .replace(/\s+/g, ' ')
-            .trim()
-        : '';
-    };
-
-    const hrefOf = (root, selector) => {
-      let el = pick(root, selector, false);
-
-      if (!el && root.matches && root.matches('a[href]')) {
-        el = root;
+    return nodes.map(root => {
+      let linkEl = cfg.link ? pick(root, cfg.link) : null;
+      linkEl = linkEl || (root.matches?.(clickableSelector) ? root : root.querySelector?.(clickableSelector));
+      let titleEl = cfg.title ? pick(root, cfg.title) : null;
+      let title = clean(titleEl?.textContent || titleEl?.getAttribute?.('aria-label') || '');
+      if (!title || generic(title)) title = smartTitle(linkEl || root, root);
+      let date = '';
+      if (cfg.date) {
+        const dateEl = pick(root, cfg.date);
+        date = clean(dateEl?.getAttribute?.('datetime') || dateEl?.textContent || '');
       }
-
-      if (!el && root.querySelector) {
-        el = root.querySelector('a[href]');
-      }
-
-      return el
-        ? (el.href || el.getAttribute('href') || '')
-        : '';
-    };
-
-    return nodes.map(n => ({
-      title: textOf(n, cfg.title, !cfg.title),
-      href: hrefOf(n, cfg.link),
-      date: cfg.date ? textOf(n, cfg.date) : ''
-    }));
+      if (!date) date = dateOf(root);
+      return { title, href: hrefFrom(linkEl || root, root), date };
+    });
   }, sel);
 }
 
 async function extractAutomatic(page, source) {
   const custom = source.candidateSelector;
+  const selector = custom || 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick]';
 
-  const candidates = custom
-    ? [custom]
-    : [
-        'main article a[href]',
-        'main [class*="teaser" i] a[href]',
-        'main [class*="card" i] a[href]',
-        'main [class*="news" i] a[href]',
-        'main [class*="press" i] a[href]'
-      ];
-
-  let selector = null;
-
-  for (const candidate of candidates) {
-    try {
-      if (await page.locator(candidate).count() >= 3) {
-        selector = candidate;
-        break;
+  return await page.locator(selector).evaluateAll(nodes => {
+    const clean = value => (value || '').replace(/\s+/g, ' ').trim();
+    const cardSelector = 'article,li,tr,section,[class*="card" i],[class*="teaser" i],[class*="news" i],[class*="press" i],[class*="event" i],[class*="story" i],[class*="result" i],[class*="item" i],[class*="report" i],[class*="post" i]';
+    const generic = value => {
+      const lower = clean(value).toLowerCase();
+      return !lower || /^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|zur konferenz)/i.test(lower) || /^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(lower);
+    };
+    const hrefFrom = (el, card) => {
+      const nodes2 = [el, el?.closest?.('a[href]'), card];
+      for (const node of nodes2) {
+        if (!node?.getAttribute) continue;
+        const raw = node.href || node.getAttribute('href') || node.getAttribute('data-href') || node.getAttribute('data-url') || node.getAttribute('data-link') || '';
+        if (raw) return raw;
+        const onclick = node.getAttribute('onclick') || '';
+        const m = onclick.match(/(?:location(?:\.href)?\s*=|window\.open\s*\()\s*['"]([^'"]+)['"]/i);
+        if (m?.[1]) return m[1];
       }
-    } catch {}
-  }
+      const link = card?.querySelector?.('a[href]');
+      return link?.href || link?.getAttribute?.('href') || '';
+    };
+    const titleFor = (el, card) => {
+      const own = clean(el?.textContent || el?.getAttribute?.('aria-label') || el?.title || '');
+      if (own && own.length <= 320 && !generic(own)) return own;
+      const selectors = 'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i],[data-testid*="title" i],strong';
+      for (const node of Array.from(card?.querySelectorAll?.(selectors) || [])) {
+        const value = clean(node.textContent || node.getAttribute?.('aria-label') || '');
+        if (value.length >= 5 && value.length <= 320 && !generic(value)) return value;
+      }
+      const alt = clean(card?.querySelector?.('img[alt]')?.getAttribute?.('alt') || '');
+      return alt.length >= 8 ? alt : own;
+    };
+    const dateFor = card => {
+      const el = card?.querySelector?.('time[datetime],time,[class*="date" i],[class*="datum" i],[class*="published" i],[class*="time" i]');
+      return clean(el?.getAttribute?.('datetime') || el?.textContent || '');
+    };
 
-  if (!selector) {
-    selector = (await page.locator('main').count()) > 0
-      ? 'main a[href]'
-      : 'a[href]';
-  }
-
-  return await page.locator(selector).evaluateAll(nodes =>
-    nodes.map(a => ({
-      title: (
-        a.textContent ||
-        a.getAttribute('aria-label') ||
-        ''
-      )
-        .replace(/\s+/g, ' ')
-        .trim(),
-
-      href:
-        a.href ||
-        a.getAttribute('href') ||
-        '',
-
-      date: ''
-    }))
-  );
+    return nodes.map(el => {
+      const card = el.closest?.(cardSelector) || el.parentElement || el;
+      return { title: titleFor(el, card), href: hrefFrom(el, card), date: dateFor(card) };
+    });
+  });
 }
 
 function normalizeAndFilter(rows, source) {
