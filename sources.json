@@ -1503,5 +1503,58 @@
     "visualValidatedAt" : "2026-08-17T12:05:43Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 4 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-144411",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://corporate\\.walmart\\.com/news/2026/",
+    "minTitleLength" : 5,
+    "name" : "Walmart QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "h3.adp-newsroom-card__title",
+      "link" : "a",
+      "title" : "h3.adp-newsroom-card__title"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://corporate.walmart.com/content/corporate/en_us/news.tag=corporate:finance.html",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T12:44:11Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://corporate.walmart.com/news/2026/08/13/walmart-to-host-second-quarter-earnings-conference-call-august-20-2026",
+      "https://corporate.walmart.com/news/2026/06/04/walmart-announces-2026-annual-shareholders-meeting-voting-result",
+      "https://corporate.walmart.com/news/2026/05/22/walmart-leadership-to-participate-in-upcoming-investor-events"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T12:44:14Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
+    "waitMs" : 2500
   }
 ]
