@@ -4,6 +4,9 @@
     "allowTitleOnly" : false,
     "baselineVersion" : "mac-app-20260817-120311",
     "enabled" : true,
+    "groups" : [
+      "Staat"
+    ],
     "minTitleLength" : 5,
     "name" : "Zalando Newsroom",
     "selectors" : {
@@ -1267,7 +1270,11 @@
   {
     "baselineVersion" : "mac-app-20260817-134932",
     "enabled" : true,
+    "groups" : [
+
+    ],
     "name" : "BMJ",
+    "priority" : 1,
     "selectors" : {
       "date" : "",
       "item" : "",
