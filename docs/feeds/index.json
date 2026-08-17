@@ -24,6 +24,12 @@
     "count": 0
   },
   {
+    "group": "Quartalszahlen",
+    "slug": "quartalszahlen",
+    "file": "feeds/quartalszahlen.xml",
+    "count": 0
+  },
+  {
     "group": "Research",
     "slug": "research",
     "file": "feeds/research.xml",
@@ -33,7 +39,7 @@
     "group": "Staat",
     "slug": "staat",
     "file": "feeds/staat.xml",
-    "count": 14
+    "count": 17
   },
   {
     "group": "Verbände",
