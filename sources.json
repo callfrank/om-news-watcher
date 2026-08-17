@@ -793,19 +793,41 @@
     "waitMs" : 1000
   },
   {
-    "baselineVersion" : "v11-pew",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-133616",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
-    "excludeRegex" : "^https://www\\.pewresearch\\.org/(?:topic/(?!internet-technology)|publications/\\?)",
-    "excludeTitleRegex" : "^(?:Publications|Artificial Intelligence|Technology Policy Issues|News Habits & Media|Fact Sheet|Beliefs & Practices)$",
+    "includeRegex" : "^https?://www\\.pewresearch\\.org/short-reads/2026/03/",
+    "minTitleLength" : 5,
     "name" : "Pew Research Internet & Technology",
     "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "date" : "time.date",
+      "item" : "article.right",
+      "link" : "a",
+      "title" : "h2.header"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.pewresearch.org/topic/internet-technology/",
+    "visualBackup" : {
+      "excludeRegex" : "^https://www\\.pewresearch\\.org/(?:topic/(?!internet-technology)|publications/\\?)",
+      "excludeTitleRegex" : "^(?:Publications|Artificial Intelligence|Technology Policy Issues|News Habits & Media|Fact Sheet|Beliefs & Practices)$",
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T11:36:16Z",
+    "visualRuleVersion" : 2,
+    "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:36:20Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 3000
   },
   {
