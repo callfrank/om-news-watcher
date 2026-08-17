@@ -534,40 +534,24 @@
     "waitMs" : 5000
   },
   {
-    "allowExternal" : false,
-    "allowTitleOnly" : false,
+    "allowTitleOnly" : true,
     "autoScroll" : 0,
-    "baselineVersion" : "mac-app-20260817-123142",
+    "baselineVersion" : "mac-app-20260817-133219",
+    "candidateSelector" : "a[href*=\"/de/news-presse/pressemitteilungen/\"]",
     "enabled" : true,
+    "excludeTitleRegex" : "^(?:News & Presse|Breadcrumb|Pagination)$",
+    "includeRegex" : "",
     "maxDetectedItems" : 20,
-    "minTitleLength" : 5,
+    "minTitleLength" : 22,
     "name" : "MediaMarktSaturn News & Presse",
     "selectors" : {
       "date" : "",
-      "item" : "a[href*=\"/api/documents/file/\"]",
-      "link" : "a",
-      "title" : "a"
+      "item" : "main h2",
+      "link" : "",
+      "title" : ""
     },
     "timeoutMs" : 60000,
     "url" : "https://www.mediamarktsaturn.de/de/news-presse",
-    "visualBackup" : {
-      "allowTitleOnly" : true,
-      "candidateSelector" : "a[href*=\"/de/news-presse/pressemitteilungen/\"]",
-      "excludeTitleRegex" : "^(?:News & Presse|Breadcrumb|Pagination)$",
-      "includeRegex" : "",
-      "minTitleLength" : 22,
-      "selectors" : {
-        "date" : "",
-        "item" : "main h2",
-        "link" : "",
-        "title" : ""
-      }
-    },
-    "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T10:31:42Z",
-    "visualSampleCount" : 3,
-    "visualValidated" : false,
-    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
     "waitMs" : 1500
   },
   {
@@ -603,16 +587,38 @@
     "waitMs" : 5000
   },
   {
+    "allowExternal" : true,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260817-133325",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
+    "minTitleLength" : 5,
     "name" : "Qonto Presse",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "div.card",
+      "link" : "a.absolute",
+      "title" : "a.absolute"
     },
     "timeoutMs" : 60000,
     "url" : "https://qonto.com/de/press",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-17T11:33:25Z",
+    "visualRuleVersion" : 2,
+    "visualSampleCount" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-17T11:33:31Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 47 Treffer",
     "waitMs" : 5000
   },
   {
