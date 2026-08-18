@@ -1556,19 +1556,19 @@ struct RuleDebuggerView: View {
                     systemImage: "ladybug"
                 )
             }
-            .toolbar {
-                ToolbarItem(placement: .cancellationAction) {
-                    Button("Fertig") { dismiss() }
-                }
+        }
+        .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button("Fertig") { dismiss() }
+            }
 
-                ToolbarItem {
-                    Button {
-                        Task { await model.testSelectedSource() }
-                    } label: {
-                        Label("Neu testen", systemImage: "stethoscope")
-                    }
-                    .disabled(model.testingSourceID != nil || model.isTestingAll)
+            ToolbarItem {
+                Button {
+                    Task { await model.testSelectedSource() }
+                } label: {
+                    Label("Neu testen", systemImage: "stethoscope")
                 }
+                .disabled(model.testingSourceID != nil || model.isTestingAll)
             }
         }
         .frame(minWidth: 900, minHeight: 700)
