@@ -4304,7 +4304,7 @@
     "GLS": "mac-app-20260818-072112",
     "Hermes": "mac-app-20260818-072206",
     "Post AT": "mac-app-20260818-072340",
-    "Bain": "mac-app-20260818-072619",
+    "Bain": "mac-app-20260818-091858",
     "Ifo": "mac-app-20260818-072929",
     "Nielseniq": "mac-app-20260818-073218",
     "Iwh-halle": "mac-app-20260818-073321",
@@ -4430,5 +4430,810 @@
     "Uber": "global-baseline-v11",
     "DeliveryHero": "global-baseline-v11",
     "Action": "global-baseline-v11"
+  },
+  "lastCheckedAtBySource": {
+    "Zalando Newsroom": "2026-08-18T07:55:27.338Z",
+    "OTTO Pressemitteilungen": "2026-08-18T07:55:27.339Z",
+    "DPD Presse": "2026-08-18T07:55:27.339Z",
+    "eco Presse": "2026-08-18T07:55:27.339Z",
+    "Ecommerce Europe Press Releases": "2026-08-18T07:55:27.339Z",
+    "ECDB Reports": "2026-08-18T07:55:27.339Z",
+    "OMT E-Commerce Events": "2026-08-18T07:55:27.339Z",
+    "EY Newsroom": "2026-08-18T07:55:27.339Z",
+    "FedEx Newsroom": "2026-08-18T07:55:27.339Z",
+    "Amazon Seller Events": "2026-08-18T07:55:27.339Z",
+    "Flaschenpost Newsroom": "2026-08-18T07:55:27.339Z",
+    "Forrester Press Newsroom": "2026-08-18T07:55:27.339Z",
+    "Fressnapf Newsroom": "2026-08-18T07:55:27.340Z",
+    "Galaxus Medienmitteilungen": "2026-08-18T07:55:27.340Z",
+    "GMX Newsroom": "2026-08-18T07:55:27.340Z",
+    "HelloFresh Press Releases": "2026-08-18T07:55:27.340Z",
+    "JD In-Depth Reports": "2026-08-18T07:55:27.340Z",
+    "JD Corporate News": "2026-08-18T07:55:27.340Z",
+    "Kaufland Newsroom": "2026-08-18T07:55:27.340Z",
+    "LKA Prävention": "2026-08-18T07:55:27.340Z",
+    "Mordor Intelligence Case Studies": "2026-08-18T07:55:27.340Z",
+    "Mordor Intelligence Insights": "2026-08-18T07:55:27.340Z",
+    "Mastercard Pressemitteilungen": "2026-08-18T07:55:27.341Z",
+    "Tencent News": "2026-08-18T07:55:27.341Z",
+    "MediaMarktSaturn News & Presse": "2026-08-18T07:55:27.341Z",
+    "Mercado Libre News & Events": "2026-08-18T07:55:27.341Z",
+    "Meta Newsroom DE": "2026-08-18T07:55:27.341Z",
+    "Qonto Presse": "2026-08-18T07:55:27.341Z",
+    "Mollie Papers": "2026-08-18T07:55:27.341Z",
+    "Momox Presse": "2026-08-18T07:55:27.341Z",
+    "Amazon Freight Events": "2026-08-18T07:55:27.341Z",
+    "Google Ads & Commerce Blog": "2026-08-18T07:55:27.341Z",
+    "Pattern Newsroom": "2026-08-18T07:55:27.341Z",
+    "PayPal DE Aktuelle Mitteilungen": "2026-08-18T07:55:27.341Z",
+    "PDD Holdings News Releases": "2026-08-18T07:55:27.341Z",
+    "Pew Research Internet & Technology": "2026-08-18T07:55:27.341Z",
+    "SHEIN Newsroom": "2026-08-18T07:55:27.341Z",
+    "DHL Discover Global": "2026-08-18T07:55:27.342Z",
+    "Startup-Verband Presse": "2026-08-18T07:55:27.342Z",
+    "Telekom Medieninformationen": "2026-08-18T07:55:27.342Z",
+    "The Platform Group Presse": "2026-08-18T07:55:27.342Z",
+    "Vinted Newsroom": "2026-08-18T07:55:27.342Z",
+    "Visa Newsroom DE": "2026-08-18T07:55:27.342Z",
+    "VZBV Pressemitteilungen": "2026-08-18T07:55:27.342Z",
+    "Verbraucherzentrale BW Presse": "2026-08-18T07:55:27.342Z",
+    "Verbraucherzentrale Hamburg Presse": "2026-08-18T07:55:27.342Z",
+    "Verbraucherzentrale RLP Presse": "2026-08-18T07:55:27.342Z",
+    "DHL Austria E-Commerce Marketing Calendar": "2026-08-18T07:55:27.342Z",
+    "Wish News & Resources": "2026-08-18T07:55:27.342Z",
+    "YouGov Corporate News": "2026-08-18T07:55:27.342Z",
+    "Deloitte": "2026-08-18T07:55:27.342Z",
+    "Etsy": "2026-08-18T07:55:27.345Z",
+    "Onlinemarktplatz": "2026-08-18T07:55:27.342Z",
+    "DHL": "2026-08-18T07:55:27.342Z",
+    "Wortfilter": "2026-08-18T07:55:27.342Z",
+    "Handelsverband": "2026-08-18T07:55:27.343Z",
+    "BMJ": "2026-08-18T07:55:27.343Z",
+    "BSI": "2026-08-18T07:55:27.343Z",
+    "BEVH": "2026-08-18T07:55:27.343Z",
+    "Walmart QZ": "2026-08-18T07:55:27.343Z",
+    "Target QZ": "2026-08-18T07:55:27.343Z",
+    "Alibaba QZ": "2026-08-18T07:55:27.343Z",
+    "PDD QZ": "2026-08-18T07:55:27.343Z",
+    "Mittelstand Digital": "2026-08-18T07:55:27.345Z",
+    "ECB": "2026-08-18T07:55:27.343Z",
+    "Klarna": "2026-08-18T07:55:27.343Z",
+    "Klarna QZ": "2026-08-18T07:55:27.343Z",
+    "Wettbewerbszentrale": "2026-08-18T07:55:27.343Z",
+    "DeStatis": "2026-08-18T07:55:27.344Z",
+    "Bundeskartellamt": "2026-08-18T07:55:27.344Z",
+    "eTailment": "2026-08-18T07:55:27.344Z",
+    "EcommerceNews": "2026-08-18T07:55:27.344Z",
+    "BPEX": "2026-08-18T07:55:27.344Z",
+    "GLS": "2026-08-18T07:55:27.344Z",
+    "Hermes": "2026-08-18T07:55:27.344Z",
+    "Post AT": "2026-08-18T07:55:27.344Z",
+    "Bain": "2026-08-18T07:55:27.345Z",
+    "Ifo": "2026-08-18T07:55:27.345Z",
+    "Nielseniq": "2026-08-18T07:55:27.345Z",
+    "Iwh-halle": "2026-08-18T07:55:27.345Z",
+    "Gfu": "2026-08-18T07:55:27.345Z",
+    "Ifhkoeln": "2026-08-18T07:55:27.345Z",
+    "Zew": "2026-08-18T07:55:27.345Z",
+    "Amazon US": "2026-08-18T07:55:27.345Z",
+    "Aboutamazon": "2026-08-18T07:55:27.345Z",
+    "bol": "2026-08-18T07:55:27.345Z",
+    "coolblue": "2026-08-18T07:55:27.345Z",
+    "etsy QZ": "2026-08-18T07:55:27.345Z",
+    "Kaufland": "2026-08-18T07:55:27.345Z",
+    "Shopify": "2026-08-18T07:55:27.346Z",
+    "Zalando QZ": "2026-08-18T07:55:27.346Z",
+    "Schwarz": "2026-08-18T07:55:27.346Z",
+    "Schwarz-digits": "2026-08-18T07:55:27.346Z",
+    "Ebayinc": "2026-08-18T07:55:27.346Z",
+    "eBay QZ": "2026-08-18T07:55:27.346Z",
+    "eBay DE": "2026-08-18T07:55:27.346Z",
+    "Rewe": "2026-08-18T07:55:27.346Z",
+    "Walmart": "2026-08-18T07:55:27.346Z",
+    "DM": "2026-08-18T07:55:27.346Z",
+    "Uber": "2026-08-18T07:55:27.347Z",
+    "DeliveryHero": "2026-08-18T07:55:27.347Z",
+    "Action": "2026-08-18T07:55:27.347Z"
+  },
+  "lastSuccessAtBySource": {
+    "Zalando Newsroom": "2026-08-18T07:55:27.338Z",
+    "DPD Presse": "2026-08-18T07:55:27.339Z",
+    "eco Presse": "2026-08-18T07:55:27.339Z",
+    "Ecommerce Europe Press Releases": "2026-08-18T07:55:27.339Z",
+    "ECDB Reports": "2026-08-18T07:55:27.339Z",
+    "OMT E-Commerce Events": "2026-08-18T07:55:27.339Z",
+    "EY Newsroom": "2026-08-18T07:55:27.339Z",
+    "FedEx Newsroom": "2026-08-18T07:55:27.339Z",
+    "Amazon Seller Events": "2026-08-18T07:55:27.339Z",
+    "Flaschenpost Newsroom": "2026-08-18T07:55:27.339Z",
+    "Forrester Press Newsroom": "2026-08-18T07:55:27.339Z",
+    "Fressnapf Newsroom": "2026-08-18T07:55:27.340Z",
+    "GMX Newsroom": "2026-08-18T07:55:27.340Z",
+    "HelloFresh Press Releases": "2026-08-18T07:55:27.340Z",
+    "JD In-Depth Reports": "2026-08-18T07:55:27.340Z",
+    "JD Corporate News": "2026-08-18T07:55:27.340Z",
+    "Kaufland Newsroom": "2026-08-18T07:55:27.340Z",
+    "LKA Prävention": "2026-08-18T07:55:27.340Z",
+    "Mastercard Pressemitteilungen": "2026-08-18T07:55:27.341Z",
+    "Tencent News": "2026-08-18T07:55:27.341Z",
+    "MediaMarktSaturn News & Presse": "2026-08-18T07:55:27.341Z",
+    "Mercado Libre News & Events": "2026-08-18T07:55:27.341Z",
+    "Meta Newsroom DE": "2026-08-18T07:55:27.341Z",
+    "Qonto Presse": "2026-08-18T07:55:27.341Z",
+    "Mollie Papers": "2026-08-18T07:55:27.341Z",
+    "Momox Presse": "2026-08-18T07:55:27.341Z",
+    "Amazon Freight Events": "2026-08-18T07:55:27.341Z",
+    "Google Ads & Commerce Blog": "2026-08-18T07:55:27.341Z",
+    "Pattern Newsroom": "2026-08-18T07:55:27.341Z",
+    "PayPal DE Aktuelle Mitteilungen": "2026-08-18T07:55:27.341Z",
+    "Pew Research Internet & Technology": "2026-08-18T07:55:27.341Z",
+    "SHEIN Newsroom": "2026-08-18T07:55:27.341Z",
+    "Startup-Verband Presse": "2026-08-18T07:55:27.342Z",
+    "Telekom Medieninformationen": "2026-08-18T07:55:27.342Z",
+    "The Platform Group Presse": "2026-08-18T07:55:27.342Z",
+    "Vinted Newsroom": "2026-08-18T07:55:27.342Z",
+    "Visa Newsroom DE": "2026-08-18T07:55:27.342Z",
+    "VZBV Pressemitteilungen": "2026-08-18T07:55:27.342Z",
+    "Verbraucherzentrale BW Presse": "2026-08-18T07:55:27.342Z",
+    "Verbraucherzentrale Hamburg Presse": "2026-08-18T07:55:27.342Z",
+    "Verbraucherzentrale RLP Presse": "2026-08-18T07:55:27.342Z",
+    "YouGov Corporate News": "2026-08-18T07:55:27.342Z",
+    "Onlinemarktplatz": "2026-08-18T07:55:27.342Z",
+    "Wortfilter": "2026-08-18T07:55:27.342Z",
+    "Handelsverband": "2026-08-18T07:55:27.343Z",
+    "BMJ": "2026-08-18T07:55:27.343Z",
+    "BSI": "2026-08-18T07:55:27.343Z",
+    "BEVH": "2026-08-18T07:55:27.343Z",
+    "Walmart QZ": "2026-08-18T07:55:27.343Z",
+    "Target QZ": "2026-08-18T07:55:27.343Z",
+    "Alibaba QZ": "2026-08-18T07:55:27.343Z",
+    "Mittelstand Digital": "2026-08-18T07:55:27.345Z",
+    "ECB": "2026-08-18T07:55:27.343Z",
+    "Klarna": "2026-08-18T07:55:27.343Z",
+    "Klarna QZ": "2026-08-18T07:55:27.343Z",
+    "Wettbewerbszentrale": "2026-08-18T07:55:27.343Z",
+    "DeStatis": "2026-08-18T07:55:27.344Z",
+    "Bundeskartellamt": "2026-08-18T07:55:27.344Z",
+    "BPEX": "2026-08-18T07:55:27.344Z",
+    "GLS": "2026-08-18T07:55:27.344Z",
+    "Post AT": "2026-08-18T07:55:27.344Z",
+    "Ifo": "2026-08-18T07:55:27.345Z",
+    "Nielseniq": "2026-08-18T07:55:27.345Z",
+    "Iwh-halle": "2026-08-18T07:55:27.345Z",
+    "Gfu": "2026-08-18T07:55:27.345Z",
+    "Ifhkoeln": "2026-08-18T07:55:27.345Z",
+    "Zew": "2026-08-18T07:55:27.345Z",
+    "Amazon US": "2026-08-18T07:55:27.345Z",
+    "Aboutamazon": "2026-08-18T07:55:27.345Z",
+    "bol": "2026-08-18T07:55:27.345Z",
+    "coolblue": "2026-08-18T07:55:27.345Z",
+    "etsy QZ": "2026-08-18T07:55:27.345Z",
+    "Kaufland": "2026-08-18T07:55:27.345Z",
+    "Shopify": "2026-08-18T07:55:27.346Z",
+    "Zalando QZ": "2026-08-18T07:55:27.346Z",
+    "Schwarz": "2026-08-18T07:55:27.346Z",
+    "Schwarz-digits": "2026-08-18T07:55:27.346Z",
+    "Ebayinc": "2026-08-18T07:55:27.346Z",
+    "eBay QZ": "2026-08-18T07:55:27.346Z",
+    "eBay DE": "2026-08-18T07:55:27.346Z",
+    "Rewe": "2026-08-18T07:55:27.346Z",
+    "Walmart": "2026-08-18T07:55:27.346Z",
+    "DM": "2026-08-18T07:55:27.346Z",
+    "Uber": "2026-08-18T07:55:27.347Z",
+    "DeliveryHero": "2026-08-18T07:55:27.347Z",
+    "Action": "2026-08-18T07:55:27.347Z"
+  },
+  "lastNewAtBySource": {},
+  "lastHitCountBySource": {
+    "Zalando Newsroom": 9,
+    "OTTO Pressemitteilungen": 0,
+    "DPD Presse": 4,
+    "eco Presse": 6,
+    "Ecommerce Europe Press Releases": 10,
+    "ECDB Reports": 33,
+    "OMT E-Commerce Events": 20,
+    "EY Newsroom": 18,
+    "FedEx Newsroom": 11,
+    "Amazon Seller Events": 21,
+    "Flaschenpost Newsroom": 3,
+    "Forrester Press Newsroom": 12,
+    "Fressnapf Newsroom": 7,
+    "GMX Newsroom": 6,
+    "HelloFresh Press Releases": 25,
+    "JD In-Depth Reports": 13,
+    "JD Corporate News": 5,
+    "Kaufland Newsroom": 8,
+    "LKA Prävention": 9,
+    "Mordor Intelligence Case Studies": 0,
+    "Mordor Intelligence Insights": 0,
+    "Mastercard Pressemitteilungen": 28,
+    "Tencent News": 16,
+    "MediaMarktSaturn News & Presse": 1,
+    "Mercado Libre News & Events": 16,
+    "Meta Newsroom DE": 10,
+    "Qonto Presse": 5,
+    "Mollie Papers": 31,
+    "Momox Presse": 64,
+    "Amazon Freight Events": 7,
+    "Google Ads & Commerce Blog": 4,
+    "Pattern Newsroom": 14,
+    "PayPal DE Aktuelle Mitteilungen": 1,
+    "Pew Research Internet & Technology": 2,
+    "SHEIN Newsroom": 117,
+    "Startup-Verband Presse": 4,
+    "Telekom Medieninformationen": 15,
+    "The Platform Group Presse": 10,
+    "Vinted Newsroom": 12,
+    "Visa Newsroom DE": 100,
+    "VZBV Pressemitteilungen": 18,
+    "Verbraucherzentrale BW Presse": 24,
+    "Verbraucherzentrale Hamburg Presse": 25,
+    "Verbraucherzentrale RLP Presse": 25,
+    "Wish News & Resources": 0,
+    "YouGov Corporate News": 3,
+    "Deloitte": 0,
+    "Etsy": 0,
+    "Onlinemarktplatz": 7,
+    "Wortfilter": 2,
+    "Handelsverband": 15,
+    "BMJ": 5,
+    "BSI": 2,
+    "BEVH": 4,
+    "Walmart QZ": 10,
+    "Target QZ": 9,
+    "Alibaba QZ": 3,
+    "Mittelstand Digital": 14,
+    "ECB": 400,
+    "Klarna": 440,
+    "Klarna QZ": 8,
+    "Wettbewerbszentrale": 23,
+    "DeStatis": 52,
+    "Bundeskartellamt": 33,
+    "EcommerceNews": 0,
+    "BPEX": 10,
+    "GLS": 7,
+    "Hermes": 0,
+    "Post AT": 1528,
+    "Bain": 0,
+    "Ifo": 14,
+    "Nielseniq": 12,
+    "Iwh-halle": 10,
+    "Gfu": 1,
+    "Ifhkoeln": 3,
+    "Zew": 6,
+    "Amazon US": 3,
+    "Aboutamazon": 34,
+    "bol": 13,
+    "coolblue": 5,
+    "etsy QZ": 10,
+    "Kaufland": 8,
+    "Shopify": 7,
+    "Zalando QZ": 3,
+    "Schwarz": 1,
+    "Schwarz-digits": 11,
+    "Ebayinc": 10,
+    "eBay QZ": 2,
+    "eBay DE": 7,
+    "Rewe": 24,
+    "Walmart": 11,
+    "DM": 11,
+    "Uber": 314,
+    "DeliveryHero": 12,
+    "Action": 8
+  },
+  "recentHitCountsBySource": {
+    "Zalando Newsroom": [
+      9
+    ],
+    "OTTO Pressemitteilungen": [
+      0
+    ],
+    "DPD Presse": [
+      4
+    ],
+    "eco Presse": [
+      6
+    ],
+    "Ecommerce Europe Press Releases": [
+      10
+    ],
+    "ECDB Reports": [
+      33
+    ],
+    "OMT E-Commerce Events": [
+      20
+    ],
+    "EY Newsroom": [
+      18
+    ],
+    "FedEx Newsroom": [
+      11
+    ],
+    "Amazon Seller Events": [
+      21
+    ],
+    "Flaschenpost Newsroom": [
+      3
+    ],
+    "Forrester Press Newsroom": [
+      12
+    ],
+    "Fressnapf Newsroom": [
+      7
+    ],
+    "GMX Newsroom": [
+      6
+    ],
+    "HelloFresh Press Releases": [
+      25
+    ],
+    "JD In-Depth Reports": [
+      13
+    ],
+    "JD Corporate News": [
+      5
+    ],
+    "Kaufland Newsroom": [
+      8
+    ],
+    "LKA Prävention": [
+      9
+    ],
+    "Mordor Intelligence Case Studies": [
+      0
+    ],
+    "Mordor Intelligence Insights": [
+      0
+    ],
+    "Mastercard Pressemitteilungen": [
+      28
+    ],
+    "Tencent News": [
+      16
+    ],
+    "MediaMarktSaturn News & Presse": [
+      1
+    ],
+    "Mercado Libre News & Events": [
+      16
+    ],
+    "Meta Newsroom DE": [
+      10
+    ],
+    "Qonto Presse": [
+      5
+    ],
+    "Mollie Papers": [
+      31
+    ],
+    "Momox Presse": [
+      64
+    ],
+    "Amazon Freight Events": [
+      7
+    ],
+    "Google Ads & Commerce Blog": [
+      4
+    ],
+    "Pattern Newsroom": [
+      14
+    ],
+    "PayPal DE Aktuelle Mitteilungen": [
+      1
+    ],
+    "Pew Research Internet & Technology": [
+      2
+    ],
+    "SHEIN Newsroom": [
+      117
+    ],
+    "Startup-Verband Presse": [
+      4
+    ],
+    "Telekom Medieninformationen": [
+      15
+    ],
+    "The Platform Group Presse": [
+      10
+    ],
+    "Vinted Newsroom": [
+      12
+    ],
+    "Visa Newsroom DE": [
+      100
+    ],
+    "VZBV Pressemitteilungen": [
+      18
+    ],
+    "Verbraucherzentrale BW Presse": [
+      24
+    ],
+    "Verbraucherzentrale Hamburg Presse": [
+      25
+    ],
+    "Verbraucherzentrale RLP Presse": [
+      25
+    ],
+    "Wish News & Resources": [
+      0
+    ],
+    "YouGov Corporate News": [
+      3
+    ],
+    "Deloitte": [
+      0
+    ],
+    "Etsy": [
+      0,
+      0
+    ],
+    "Onlinemarktplatz": [
+      7
+    ],
+    "Wortfilter": [
+      2
+    ],
+    "Handelsverband": [
+      15
+    ],
+    "BMJ": [
+      5
+    ],
+    "BSI": [
+      2
+    ],
+    "BEVH": [
+      4
+    ],
+    "Walmart QZ": [
+      10
+    ],
+    "Target QZ": [
+      9
+    ],
+    "Alibaba QZ": [
+      3
+    ],
+    "Mittelstand Digital": [
+      14,
+      31
+    ],
+    "ECB": [
+      400
+    ],
+    "Klarna": [
+      440
+    ],
+    "Klarna QZ": [
+      8
+    ],
+    "Wettbewerbszentrale": [
+      23
+    ],
+    "DeStatis": [
+      52
+    ],
+    "Bundeskartellamt": [
+      33
+    ],
+    "EcommerceNews": [
+      0
+    ],
+    "BPEX": [
+      10
+    ],
+    "GLS": [
+      7
+    ],
+    "Hermes": [
+      0
+    ],
+    "Post AT": [
+      1528
+    ],
+    "Bain": [
+      0
+    ],
+    "Ifo": [
+      14
+    ],
+    "Nielseniq": [
+      12
+    ],
+    "Iwh-halle": [
+      10
+    ],
+    "Gfu": [
+      1
+    ],
+    "Ifhkoeln": [
+      3
+    ],
+    "Zew": [
+      6
+    ],
+    "Amazon US": [
+      3
+    ],
+    "Aboutamazon": [
+      34
+    ],
+    "bol": [
+      13
+    ],
+    "coolblue": [
+      5
+    ],
+    "etsy QZ": [
+      10
+    ],
+    "Kaufland": [
+      8
+    ],
+    "Shopify": [
+      7
+    ],
+    "Zalando QZ": [
+      3
+    ],
+    "Schwarz": [
+      1
+    ],
+    "Schwarz-digits": [
+      11
+    ],
+    "Ebayinc": [
+      10
+    ],
+    "eBay QZ": [
+      2
+    ],
+    "eBay DE": [
+      7
+    ],
+    "Rewe": [
+      24
+    ],
+    "Walmart": [
+      11
+    ],
+    "DM": [
+      11
+    ],
+    "Uber": [
+      314
+    ],
+    "DeliveryHero": [
+      12
+    ],
+    "Action": [
+      8
+    ]
+  },
+  "lastDurationMsBySource": {
+    "Zalando Newsroom": 4566,
+    "OTTO Pressemitteilungen": 4641,
+    "DPD Presse": 4837,
+    "eco Presse": 3404,
+    "Ecommerce Europe Press Releases": 768,
+    "ECDB Reports": 3909,
+    "OMT E-Commerce Events": 4704,
+    "EY Newsroom": 5415,
+    "FedEx Newsroom": 3756,
+    "Amazon Seller Events": 3624,
+    "Flaschenpost Newsroom": 6234,
+    "Forrester Press Newsroom": 3826,
+    "Fressnapf Newsroom": 3749,
+    "Galaxus Medienmitteilungen": 194,
+    "GMX Newsroom": 4168,
+    "HelloFresh Press Releases": 4104,
+    "JD In-Depth Reports": 6168,
+    "JD Corporate News": 5552,
+    "Kaufland Newsroom": 3754,
+    "LKA Prävention": 904,
+    "Mordor Intelligence Case Studies": 3519,
+    "Mordor Intelligence Insights": 3481,
+    "Mastercard Pressemitteilungen": 394,
+    "Tencent News": 5162,
+    "MediaMarktSaturn News & Presse": 4718,
+    "Mercado Libre News & Events": 2208,
+    "Meta Newsroom DE": 4533,
+    "Qonto Presse": 4711,
+    "Mollie Papers": 4044,
+    "Momox Presse": 6259,
+    "Amazon Freight Events": 4406,
+    "Google Ads & Commerce Blog": 4050,
+    "Pattern Newsroom": 5536,
+    "PayPal DE Aktuelle Mitteilungen": 5404,
+    "PDD Holdings News Releases": 310,
+    "Pew Research Internet & Technology": 4685,
+    "SHEIN Newsroom": 3938,
+    "DHL Discover Global": 362,
+    "Startup-Verband Presse": 4746,
+    "Telekom Medieninformationen": 4540,
+    "The Platform Group Presse": 6961,
+    "Vinted Newsroom": 3379,
+    "Visa Newsroom DE": 4165,
+    "VZBV Pressemitteilungen": 4736,
+    "Verbraucherzentrale BW Presse": 5867,
+    "Verbraucherzentrale Hamburg Presse": 4461,
+    "Verbraucherzentrale RLP Presse": 6046,
+    "DHL Austria E-Commerce Marketing Calendar": 109,
+    "Wish News & Resources": 4042,
+    "YouGov Corporate News": 6873,
+    "Deloitte": 4556,
+    "Etsy": 2756,
+    "Onlinemarktplatz": 3842,
+    "DHL": 25001,
+    "Wortfilter": 5681,
+    "Handelsverband": 4150,
+    "BMJ": 7934,
+    "BSI": 14726,
+    "BEVH": 5008,
+    "Walmart QZ": 3735,
+    "Target QZ": 3124,
+    "Alibaba QZ": 3387,
+    "PDD QZ": 25000,
+    "Mittelstand Digital": 4025,
+    "ECB": 3891,
+    "Klarna": 7417,
+    "Klarna QZ": 3207,
+    "Wettbewerbszentrale": 5418,
+    "DeStatis": 7502,
+    "Bundeskartellamt": 10141,
+    "eTailment": 25000,
+    "EcommerceNews": 4437,
+    "BPEX": 8381,
+    "GLS": 3490,
+    "Hermes": 6230,
+    "Post AT": 8980,
+    "Bain": 2871,
+    "Ifo": 3501,
+    "Nielseniq": 3942,
+    "Iwh-halle": 4282,
+    "Gfu": 4160,
+    "Ifhkoeln": 6280,
+    "Zew": 4719,
+    "Amazon US": 3821,
+    "Aboutamazon": 3590,
+    "bol": 5726,
+    "coolblue": 4744,
+    "etsy QZ": 3738,
+    "Kaufland": 3404,
+    "Shopify": 4107,
+    "Zalando QZ": 4662,
+    "Schwarz": 4419,
+    "Schwarz-digits": 4987,
+    "Ebayinc": 4695,
+    "eBay QZ": 4400,
+    "eBay DE": 5199,
+    "Rewe": 4017,
+    "Walmart": 4196,
+    "DM": 3366,
+    "Uber": 3454,
+    "DeliveryHero": 3511,
+    "Action": 3955
+  },
+  "lastMessageBySource": {
+    "Zalando Newsroom": "9 Artikel erkannt",
+    "OTTO Pressemitteilungen": "Keine Artikel erkannt",
+    "DPD Presse": "4 Artikel erkannt",
+    "eco Presse": "6 Artikel erkannt",
+    "Ecommerce Europe Press Releases": "10 Artikel erkannt",
+    "ECDB Reports": "33 Artikel erkannt",
+    "OMT E-Commerce Events": "20 Artikel erkannt",
+    "EY Newsroom": "18 Artikel erkannt",
+    "FedEx Newsroom": "11 Artikel erkannt",
+    "Amazon Seller Events": "21 Artikel erkannt",
+    "Flaschenpost Newsroom": "3 Artikel erkannt",
+    "Forrester Press Newsroom": "12 Artikel erkannt",
+    "Fressnapf Newsroom": "7 Artikel erkannt",
+    "Galaxus Medienmitteilungen": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306\nCall log:\n  - navigating to \"https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306\", waiting until \"domcontentloaded\"\n",
+    "GMX Newsroom": "6 Artikel erkannt",
+    "HelloFresh Press Releases": "25 Artikel erkannt",
+    "JD In-Depth Reports": "13 Artikel erkannt",
+    "JD Corporate News": "5 Artikel erkannt",
+    "Kaufland Newsroom": "8 Artikel erkannt",
+    "LKA Prävention": "9 Artikel erkannt",
+    "Mordor Intelligence Case Studies": "Keine Artikel erkannt",
+    "Mordor Intelligence Insights": "Keine Artikel erkannt",
+    "Mastercard Pressemitteilungen": "28 Artikel erkannt",
+    "Tencent News": "16 Artikel erkannt",
+    "MediaMarktSaturn News & Presse": "1 Artikel erkannt",
+    "Mercado Libre News & Events": "16 Artikel erkannt",
+    "Meta Newsroom DE": "10 Artikel erkannt",
+    "Qonto Presse": "5 Artikel erkannt",
+    "Mollie Papers": "31 Artikel erkannt",
+    "Momox Presse": "64 Artikel erkannt",
+    "Amazon Freight Events": "7 Artikel erkannt",
+    "Google Ads & Commerce Blog": "4 Artikel erkannt",
+    "Pattern Newsroom": "14 Artikel erkannt",
+    "PayPal DE Aktuelle Mitteilungen": "1 Artikel erkannt",
+    "PDD Holdings News Releases": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://investor.pddholdings.com/news-releases/\nCall log:\n  - navigating to \"https://investor.pddholdings.com/news-releases/\", waiting until \"domcontentloaded\"\n",
+    "Pew Research Internet & Technology": "2 Artikel erkannt",
+    "SHEIN Newsroom": "117 Artikel erkannt",
+    "DHL Discover Global": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.dhl.com/discover/en-global\nCall log:\n  - navigating to \"https://www.dhl.com/discover/en-global\", waiting until \"domcontentloaded\"\n",
+    "Startup-Verband Presse": "4 Artikel erkannt",
+    "Telekom Medieninformationen": "15 Artikel erkannt",
+    "The Platform Group Presse": "10 Artikel erkannt",
+    "Vinted Newsroom": "12 Artikel erkannt",
+    "Visa Newsroom DE": "100 Artikel erkannt",
+    "VZBV Pressemitteilungen": "18 Artikel erkannt",
+    "Verbraucherzentrale BW Presse": "24 Artikel erkannt",
+    "Verbraucherzentrale Hamburg Presse": "25 Artikel erkannt",
+    "Verbraucherzentrale RLP Presse": "25 Artikel erkannt",
+    "DHL Austria E-Commerce Marketing Calendar": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar\nCall log:\n  - navigating to \"https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar\", waiting until \"domcontentloaded\"\n",
+    "Wish News & Resources": "Keine Artikel erkannt",
+    "YouGov Corporate News": "3 Artikel erkannt",
+    "Deloitte": "Keine Artikel erkannt",
+    "Etsy": "Keine Artikel erkannt",
+    "Onlinemarktplatz": "7 Artikel erkannt",
+    "DHL": "HARD TIMEOUT nach 25s",
+    "Wortfilter": "2 Artikel erkannt",
+    "Handelsverband": "15 Artikel erkannt",
+    "BMJ": "5 Artikel erkannt",
+    "BSI": "2 Artikel erkannt",
+    "BEVH": "4 Artikel erkannt",
+    "Walmart QZ": "10 Artikel erkannt",
+    "Target QZ": "9 Artikel erkannt",
+    "Alibaba QZ": "3 Artikel erkannt",
+    "PDD QZ": "HARD TIMEOUT nach 25s",
+    "Mittelstand Digital": "14 Artikel erkannt",
+    "ECB": "400 Artikel erkannt",
+    "Klarna": "440 Artikel erkannt",
+    "Klarna QZ": "8 Artikel erkannt",
+    "Wettbewerbszentrale": "23 Artikel erkannt",
+    "DeStatis": "52 Artikel erkannt",
+    "Bundeskartellamt": "33 Artikel erkannt",
+    "eTailment": "HARD TIMEOUT nach 25s",
+    "EcommerceNews": "Keine Artikel erkannt",
+    "BPEX": "10 Artikel erkannt",
+    "GLS": "7 Artikel erkannt",
+    "Hermes": "Keine Artikel erkannt",
+    "Post AT": "1528 Artikel erkannt",
+    "Bain": "Keine Artikel erkannt",
+    "Ifo": "14 Artikel erkannt",
+    "Nielseniq": "12 Artikel erkannt",
+    "Iwh-halle": "10 Artikel erkannt",
+    "Gfu": "1 Artikel erkannt",
+    "Ifhkoeln": "3 Artikel erkannt",
+    "Zew": "6 Artikel erkannt",
+    "Amazon US": "3 Artikel erkannt",
+    "Aboutamazon": "34 Artikel erkannt",
+    "bol": "13 Artikel erkannt",
+    "coolblue": "5 Artikel erkannt",
+    "etsy QZ": "10 Artikel erkannt",
+    "Kaufland": "8 Artikel erkannt",
+    "Shopify": "7 Artikel erkannt",
+    "Zalando QZ": "3 Artikel erkannt",
+    "Schwarz": "1 Artikel erkannt",
+    "Schwarz-digits": "11 Artikel erkannt",
+    "Ebayinc": "10 Artikel erkannt",
+    "eBay QZ": "2 Artikel erkannt",
+    "eBay DE": "7 Artikel erkannt",
+    "Rewe": "24 Artikel erkannt",
+    "Walmart": "11 Artikel erkannt",
+    "DM": "11 Artikel erkannt",
+    "Uber": "314 Artikel erkannt",
+    "DeliveryHero": "12 Artikel erkannt",
+    "Action": "8 Artikel erkannt"
+  },
+  "anomalyBySource": {
+    "OTTO Pressemitteilungen": "Keine Artikel erkannt",
+    "Galaxus Medienmitteilungen": "Abruf fehlgeschlagen: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306\nCall log:\n  - navigating to \"https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306\", waiting until \"domcontentloaded\"\n",
+    "Mordor Intelligence Case Studies": "Keine Artikel erkannt",
+    "Mordor Intelligence Insights": "Keine Artikel erkannt",
+    "PDD Holdings News Releases": "Abruf fehlgeschlagen: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://investor.pddholdings.com/news-releases/\nCall log:\n  - navigating to \"https://investor.pddholdings.com/news-releases/\", waiting until \"domcontentloaded\"\n",
+    "DHL Discover Global": "Abruf fehlgeschlagen: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.dhl.com/discover/en-global\nCall log:\n  - navigating to \"https://www.dhl.com/discover/en-global\", waiting until \"domcontentloaded\"\n",
+    "DHL Austria E-Commerce Marketing Calendar": "Abruf fehlgeschlagen: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar\nCall log:\n  - navigating to \"https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar\", waiting until \"domcontentloaded\"\n",
+    "Wish News & Resources": "Keine Artikel erkannt",
+    "Deloitte": "Keine Artikel erkannt",
+    "DHL": "Abruf fehlgeschlagen: HARD TIMEOUT nach 25s",
+    "PDD QZ": "Abruf fehlgeschlagen: HARD TIMEOUT nach 25s",
+    "eTailment": "Abruf fehlgeschlagen: HARD TIMEOUT nach 25s",
+    "EcommerceNews": "Keine Artikel erkannt",
+    "Hermes": "Keine Artikel erkannt",
+    "Bain": "Keine Artikel erkannt",
+    "Etsy": "Keine Artikel erkannt"
   }
 }
