@@ -1,5 +1,24 @@
 [
   {
+    "guid": "a09bb40585680db7ebf6aaec",
+    "source": "Wero",
+    "sourceLabel": "Wero",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Skip to navigation",
+    "link": "https://epicompany.eu/media-insights/?_omw_fresh=1787083057598-d5bf3u",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:57:45.120Z",
+    "deliveredAt": "2026-08-18T19:57:45.120Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "fd428baf917b17073a810399",
     "source": "DeliveryHero",
     "sourceLabel": "DeliveryHero",
@@ -17,7 +36,7 @@
     "detectedAt": "2026-08-18T19:45:01.049Z",
     "deliveredAt": "2026-08-18T19:45:01.049Z",
     "recovered": false,
-    "historicalBackfill": false,
+    "historicalBackfill": true,
     "recoveryReason": null
   },
   {
@@ -273,7 +292,7 @@
     "detectedAt": "2026-08-18T19:45:01.035Z",
     "deliveredAt": "2026-08-18T19:45:01.035Z",
     "recovered": false,
-    "historicalBackfill": false,
+    "historicalBackfill": true,
     "recoveryReason": null
   },
   {
