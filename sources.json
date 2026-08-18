@@ -2452,5 +2452,57 @@
     "visualValidatedAt" : "2026-08-18T05:32:21Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-073321",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://www\\.iwh-halle\\.de/presse/pressemitteilungen/detail/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Iwh-halle",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.iwh-halle.de/presse/pressemitteilungen",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:33:21Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.iwh-halle.de/presse/pressemitteilungen/detail/iwh-insolvenztrend-firmenpleiten-auch-im-juli-auf-sehr-hohem-niveau",
+      "https://www.iwh-halle.de/presse/pressemitteilungen/detail/studie-belegt-milliardenluecke-im-wahlprogramm-der-afd-sachsen-anhalt"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:33:23Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
