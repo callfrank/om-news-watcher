@@ -1983,5 +1983,57 @@
     ],
     "url" : "https://www.bundeskartellamt.de/DE/Home/home_node.html",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-055556",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://www\\.etailment\\.de/magazin/",
+    "minTitleLength" : 5,
+    "name" : "eTailment",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "div.grid-cols-1",
+      "link" : "a",
+      "title" : "h3.font-sans"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.etailment.de/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T03:55:56Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.etailment.de/magazin/2026-08-17-social-media-usa-betrugsanzeigen-kosten-95-mio-dollar",
+      "https://www.etailment.de/magazin/2026-08-17-paypal-uebernahme-stripe-und-advent-bessern-nach"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T03:56:01Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 44 Treffer",
+    "waitMs" : 2500
   }
 ]
