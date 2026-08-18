@@ -2057,8 +2057,60 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T04:31:43Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 44 Treffer · URL-Muster",
+    "visualValidatedAt" : "2026-08-18T05:13:39Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 44 Treffer",
+    "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-071246",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Sonstiges"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://ecommercenews\\.eu/category/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "EcommerceNews",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://ecommercenews.eu/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:12:46Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://ecommercenews.eu/category/consumer-behavior/",
+      "https://ecommercenews.eu/category/logistics/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:13:23Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 2500
   }
 ]
