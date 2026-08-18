@@ -1471,7 +1471,7 @@
     "visualLearnedAt" : "2026-08-14T14:53:20Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:10Z",
+    "visualValidatedAt" : "2026-08-18T08:32:39Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 95 Treffer",
     "waitMs" : 2500
   },
@@ -1643,7 +1643,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:24Z",
+    "visualValidatedAt" : "2026-08-18T08:33:01Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 15 Treffer",
     "waitMs" : 2500
   },
@@ -1776,7 +1776,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:34Z",
+    "visualValidatedAt" : "2026-08-18T08:33:31Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 4 Treffer",
     "waitMs" : 2500
   },
@@ -2153,7 +2153,10 @@
     "waitMs" : 2500
   },
   {
-    "baselineVersion" : "mac-app-20260817-151913",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-103406",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -2164,13 +2167,15 @@
     "includeKeywords" : [
 
     ],
+    "includeRegex" : "^https?://www\\.wettbewerbszentrale\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Wettbewerbszentrale",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "header.blockspare-posts-block-post-grid-header",
+      "link" : "a.blockspare-posts-block-title-link",
+      "title" : "h1,h2,h3,h4,h5,h6,[class*=\"headline\" i],[class*=\"heading\" i],[class*=\"title\" i],[class*=\"name\" i],[data-testid*=\"title\" i],strong"
     },
     "tags" : [
       "Recht & Regulierung",
@@ -2179,6 +2184,42 @@
       "Nachhaltigkeit"
     ],
     "url" : "https://www.wettbewerbszentrale.de/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T08:34:06Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-18T08:34:06Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://www.wettbewerbszentrale.de/die-nr-1-im-landkreis-wettbewerbszentrale-beanstandet-werbung-mit-spitzenstellung/",
+      "https://www.wettbewerbszentrale.de/lg-duesseldorf-werbung-mit-wurmmittel-und-zeckenmittel-fuer-ergaenzungsfuttermittel-unzulaessig/",
+      "https://www.wettbewerbszentrale.de/ab-heute-gilt-die-neue-eu-verpackungsverordnung-ppwr/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T08:34:12Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
   {
@@ -2812,7 +2853,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:02Z",
+    "visualValidatedAt" : "2026-08-18T08:33:09Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500
   },
