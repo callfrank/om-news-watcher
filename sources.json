@@ -2164,5 +2164,57 @@
     "visualValidatedAt" : "2026-08-18T05:18:46Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-072023",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Logistik"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://newsroom\\.de\\.gls-group\\.com/news/[^/?#]+/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "GLS",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://newsroom.de.gls-group.com/newslisting?category=publikationen",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:20:23Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://newsroom.de.gls-group.com/news/moderne-citylogistik--ihk-und-stadt-dortmund-informieren-sich--ber-die--last-mile-revolution--von-gl/s/02a45e79-67d0-4fa3-a593-3be6e1ec8425",
+      "https://newsroom.de.gls-group.com/news/netzwerken-in-der-mitte-deutschlands--wirtschaftsrat-hessen-zu-gast-bei-gls/s/cf7c4286-e762-467f-bdc1-28a23deac152"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:20:27Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
