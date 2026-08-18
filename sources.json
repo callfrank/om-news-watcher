@@ -2660,5 +2660,58 @@
     "visualValidatedAt" : "2026-08-18T05:36:49Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 6 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-074013",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://press\\.aboutamazon\\.com/aws/2026/8/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Amazon US",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://press.aboutamazon.com/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:40:13Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://press.aboutamazon.com/aws/2026/8/appfolio-names-amazon-web-services-its-preferred-cloud-provider",
+      "https://press.aboutamazon.com/aws/2026/8/oracle-and-aws-deepen-strategic-collaboration-as-enterprise-adoption-of-oracle-ai-database-aws-accelerates",
+      "https://press.aboutamazon.com/aws/2026/8/axiad-achieves-fedramp-moderate-authorization-on-aws-giving-federal-agencies-a-faster-path-to-modernize-pki-and-phishing-resistant-identity"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:40:16Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
