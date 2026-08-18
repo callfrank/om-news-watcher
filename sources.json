@@ -670,6 +670,10 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Studien & Marktdaten",
+      "Events"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.tencent.com/en-us/media/news.html",
     "waitMs" : 5000
@@ -715,6 +719,12 @@
       "link" : "a[href]",
       "title" : "td:first-child"
     },
+    "tags" : [
+      "Quartalszahlen",
+      "Payment",
+      "Studien & Marktdaten",
+      "Events"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://investor.mercadolibre.com/news-and-events",
     "waitMs" : 1200
@@ -732,6 +742,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "KI"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://about.fb.com/de/news/",
     "waitMs" : 5000
@@ -753,6 +766,10 @@
       "link" : "a.absolute",
       "title" : "a.absolute"
     },
+    "tags" : [
+      "Studien & Marktdaten",
+      "Sicherheit"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://qonto.com/de/press",
     "visualBackup" : {
@@ -770,8 +787,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:33:31Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 47 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:12:14Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 5000
   },
   {
@@ -787,6 +804,13 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Payment",
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Sicherheit",
+      "Nachhaltigkeit"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.mollie.com/de/papers",
     "waitMs" : 5000
@@ -805,6 +829,10 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "E-Commerce",
+      "Studien & Marktdaten"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://momox.biz/presse",
     "waitMs" : 3000
@@ -827,6 +855,9 @@
       "link" : "a.Link",
       "title" : "div.PagePromo-title"
     },
+    "tags" : [
+      "Logistik"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://freight.amazon.de/events-and-webinars",
     "visualBackup" : {
@@ -844,8 +875,8 @@
     "visualLearnedAt" : "2026-08-17T10:36:38Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T12:54:52Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:12:27Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 1 Treffer",
     "waitMs" : 1200
   },
   {
@@ -861,6 +892,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "KI"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://blog.google/products/ads-commerce/",
     "waitMs" : 3000
@@ -880,6 +914,11 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "E-Commerce",
+      "KI",
+      "Unternehmensstrategie"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.pattern.com/about/newsroom",
     "waitMs" : 1200
@@ -902,6 +941,9 @@
       "link" : "a.wd_local",
       "title" : "a.wd_local"
     },
+    "tags" : [
+      "Payment"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://newsroom.deatch.paypal-corp.com/aktuelle-mitteilungen",
     "visualBackup" : {
@@ -921,8 +963,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:34:58Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 40 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:12:41Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 5000
   },
   {
@@ -945,6 +987,10 @@
       "link" : "a",
       "title" : "a"
     },
+    "tags" : [
+      "Quartalszahlen",
+      "Studien & Marktdaten"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://investor.pddholdings.com/news-releases/",
     "visualBackup" : {
@@ -962,8 +1008,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:35:35Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 4 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:12:44Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 1000
   },
   {
@@ -984,6 +1030,10 @@
       "link" : "a",
       "title" : "h2.header"
     },
+    "tags" : [
+      "Studien & Marktdaten",
+      "KI"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.pewresearch.org/topic/internet-technology/",
     "visualBackup" : {
@@ -1003,7 +1053,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:36:20Z",
+    "visualValidatedAt" : "2026-08-18T07:12:48Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 3000
   },
@@ -1062,6 +1112,9 @@
       "link" : "a.article-card__title",
       "title" : "h3"
     },
+    "tags" : [
+      "Events"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.dhl.com/discover/en-global",
     "visualBackup" : {
@@ -1079,8 +1132,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:37:43Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 29 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:12:56Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 1000
   },
   {
@@ -1096,6 +1149,10 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://startupverband.de/presse/",
     "waitMs" : 3000
@@ -1113,6 +1170,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "KI"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.telekom.com/de/medien/medieninformationen",
     "waitMs" : 5000
@@ -1130,6 +1190,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Recht & Regulierung"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://the-platform-group.com/presse/",
     "waitMs" : 3000
@@ -1164,6 +1227,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Payment"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.visa.de/uber-visa/newsroom.html",
     "waitMs" : 5000
@@ -1181,6 +1247,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Recht & Regulierung"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.vzbv.de/presse/pressemitteilungen",
     "waitMs" : 3000
@@ -1198,6 +1267,10 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.verbraucherzentrale-bawue.de/pressemitteilungen",
     "waitMs" : 3000
@@ -1215,6 +1288,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Recht & Regulierung"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.vzhh.de/presse",
     "waitMs" : 3000
@@ -1232,6 +1308,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Recht & Regulierung"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.verbraucherzentrale-rlp.de/pressemitteilungen",
     "waitMs" : 3000
@@ -1251,6 +1330,10 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "E-Commerce",
+      "Events"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar",
     "waitMs" : 1000
@@ -1286,6 +1369,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Studien & Marktdaten"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://corporate.yougov.com/press/news-and-press-releases/",
     "waitMs" : 5000
@@ -1326,6 +1412,9 @@
       "title" : "a.wt-text-link-no-underline"
     },
     "shortName" : "Etsy",
+    "tags" : [
+      "E-Commerce"
+    ],
     "url" : "https://www.etsy.com/news/",
     "visualBackup" : {
       "selectors" : {
@@ -1339,8 +1428,8 @@
     "visualLearnedAt" : "2026-08-14T14:53:20Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:25:14Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 111 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:14:10Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 95 Treffer",
     "waitMs" : 2500
   },
   {
@@ -1362,6 +1451,11 @@
       "title" : "a"
     },
     "shortName" : "https://onlinemarktplatz.de/",
+    "tags" : [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
     "url" : "https://onlinemarktplatz.de/",
     "visualBackup" : {
       "selectors" : {
@@ -1378,8 +1472,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:40:21Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 47 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:14:13Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
     "waitMs" : 2500
   },
   {
@@ -1401,6 +1495,9 @@
       "title" : "h3.c-teaser-image--textbox-headline"
     },
     "shortName" : "DHL",
+    "tags" : [
+      "Quartalszahlen"
+    ],
     "url" : "https://group.dhl.com/de/presse.html",
     "visualBackup" : {
       "selectors" : {
@@ -1417,7 +1514,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:42:00Z",
+    "visualValidatedAt" : "2026-08-18T07:14:17Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 2500
   },
@@ -1440,6 +1537,10 @@
       "title" : "h2.entry-title"
     },
     "shortName" : "Wortfilter",
+    "tags" : [
+      "Logistik",
+      "E-Commerce"
+    ],
     "url" : "https://wortfilter.de/",
     "visualBackup" : {
       "selectors" : {
@@ -1456,8 +1557,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:44:18Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 41 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:14:21Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 14 Treffer",
     "waitMs" : 2500
   },
   {
@@ -1479,6 +1580,10 @@
       "title" : "h1.result__title"
     },
     "shortName" : "Handelsverband",
+    "tags" : [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
     "url" : "https://einzelhandel.de/presse/aktuellemeldungen",
     "visualBackup" : {
       "selectors" : {
@@ -1495,7 +1600,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:47:41Z",
+    "visualValidatedAt" : "2026-08-18T07:14:24Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 15 Treffer",
     "waitMs" : 2500
   },
@@ -1518,6 +1623,9 @@
       "title" : "div.c-teaser__headline-wrapper"
     },
     "shortName" : "BMJ",
+    "tags" : [
+      "Recht & Regulierung"
+    ],
     "url" : "https://www.bmjv.de/DE/Startseite/Startseite_node.html",
     "visualBackup" : {
       "selectors" : {
@@ -1538,7 +1646,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T05:14:28Z",
+    "visualValidatedAt" : "2026-08-18T07:14:27Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 2500
   },
@@ -1561,6 +1669,9 @@
       "title" : "a.c-teaser"
     },
     "shortName" : "BSI",
+    "tags" : [
+      "Sicherheit"
+    ],
     "url" : "https://www.bsi.bund.de/DE/Home/home_node.html",
     "visualBackup" : {
       "selectors" : {
@@ -1577,8 +1688,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:52:40Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:14:30Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 2500
   },
   {
