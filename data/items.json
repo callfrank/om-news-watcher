@@ -1,5 +1,254 @@
 [
   {
+    "guid": "f4d5ececbffeeb2bea91c00a",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber and Zipline Partner to Bring Drone Delivery to Millions of Americans",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx",
+    "pageDate": "August 17, 2026",
+    "detectedAt": "2026-08-18T11:15:59.084Z",
+    "recovered": true,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "c94c6e496c6216c043556ace",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
+    "pageDate": "17.08.2026",
+    "detectedAt": "2026-08-18T11:15:59.081Z",
+    "recovered": true,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "7b7b9c08fa57edb2dcda7fcf",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "The Companies of Schwarz Group are Planning to Increase their Investment in Aleph Alpha",
+    "link": "https://gruppe.schwarz/en/press/archive/2025/the-companies-of-schwarz-group-are-planning-to-increase-their-investment-in-aleph-alpha",
+    "pageDate": "January 28th, 2026",
+    "detectedAt": "2026-08-18T11:15:59.080Z",
+    "recovered": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "52daed4f5ffa4c2898ac6927",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "La Cocoș Acquired by the Companies of Schwarz Group",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/la-cocos-acquired-by-the-companies-of-schwarz-group",
+    "pageDate": "March 3rd, 2026",
+    "detectedAt": "2026-08-18T11:15:59.080Z",
+    "recovered": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "00bcbcec4135653e402625fc",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "The companies of Schwarz Group become UEFA's first strategic corporate partner",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/the-companies-of-schwarz-group-become-uefa-s-first-strategic-corporate-partner",
+    "pageDate": "March 17th, 2026",
+    "detectedAt": "2026-08-18T11:15:59.080Z",
+    "recovered": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7f5f79e0b0981c3a22d6265e",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Companies of Schwarz Group Integrate Tech Specialist Premium Robotics",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/companies-of-schwarz-group-integrate-tech-specialist-premium-robotics",
+    "pageDate": "April 21st, 2026",
+    "detectedAt": "2026-08-18T11:15:59.080Z",
+    "recovered": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ffbaaf5a90e4992229718bde",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "The companies of Schwarz Group mourn the passing of Richard Lohmiller Jr. and Silke Lohmiller",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/the-companies-of-schwarz-group-mourn-the-passing-of-richard-lohmiller-jr.-and-silke-lohmiller",
+    "pageDate": "May 12th, 2026",
+    "detectedAt": "2026-08-18T11:15:59.080Z",
+    "recovered": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e3ee63962e1613ee45ff1c0a",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "The Companies of Schwarz Group Successfully Conclude Their Joint Plastic Strategy",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/the-companies-of-schwarz-group-successfully-conclude-their-joint-plastic-strategy",
+    "pageDate": "May 27th, 2026",
+    "detectedAt": "2026-08-18T11:15:59.080Z",
+    "recovered": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a6fce8a6163a222407efc613",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Companies of Schwarz Group Generate 185.6 Billion Euros in Revenue and Drive Growth with Investments in Excess of 10 Billion Euros",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/companies-of-schwarz-group-generate-185.6-billion-euros-in-revenue-and-drive-growth-with-investments-in-excess-of-10-billion-euros",
+    "pageDate": "June 11th, 2026",
+    "detectedAt": "2026-08-18T11:15:59.080Z",
+    "recovered": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f2185a20213663858e2379a8",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Christian Müller, Co-CEO of Schwarz Digits, Assumes Overall Responsibility – Former Co-CEO Rolf Schumann Leaves Company After Successful Development Phase",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/christian-mueller-co-ceo-of-schwarz-digits-assumes-overall-responsibility-former-co-ceo-rolf-schumann-leaves-company-after-successful-developmen",
+    "pageDate": "July 10th, 2026",
+    "detectedAt": "2026-08-18T11:15:59.080Z",
+    "recovered": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aca2c7524ceb76f1e99ffa58",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Sustainable Business: The Companies of Schwarz Group Present Roadmap to Combat Climate Risks and Resource Scarcity",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/sustainable-business-the-companies-of-schwarz-group-present-roadmap-to-combat-climate-risks-and-resource-scarcity",
+    "pageDate": "July 22nd, 2026",
+    "detectedAt": "2026-08-18T11:15:59.080Z",
+    "recovered": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7110a373cb002af607fd49de",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "A first look at 'The Terminal List' Season 2 starring Chris Pratt, coming to Prime Video October 21",
+    "link": "https://www.aboutamazon.com/news/entertainment/terminal-list-prime-video-chris-pratt",
+    "pageDate": "Aug. 17, 2026",
+    "detectedAt": "2026-08-18T11:15:59.079Z",
+    "recovered": true,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "3b9eed22aab979df500bfb7a",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "NEUE WERBEKAMPAGNE: POST MACHT MODERNE GRUNDVERSORGUNG SICHTBAR",
+    "link": "https://news.post.at/presse/de/post/id/2333207/NEUE%20WERBEKAMPAGNE%3A%20POST%20MACHT%20MODERNE%20GRUNDVERSORGUNG%20SICHTBAR",
+    "pageDate": "17.08.2026",
+    "detectedAt": "2026-08-18T11:15:59.075Z",
+    "recovered": true,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7fd977f767fe7c5da739e223",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Protect yourself from fraud",
+    "link": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/misuse.en.html",
+    "pageDate": "17.08.2026",
+    "detectedAt": "2026-08-18T11:15:59.068Z",
+    "recovered": true,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7754a067a26ffa7e54c13a91",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Is the AI boom the next dot-com bubble?",
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html",
+    "pageDate": "17.08.2026",
+    "detectedAt": "2026-08-18T11:15:59.068Z",
+    "recovered": true,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "95718bb2e0159b6f95790ffb",
     "source": "Onlinemarktplatz",
     "sourceLabel": "OLMP",
