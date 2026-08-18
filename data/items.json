@@ -36,7 +36,7 @@
     "detectedAt": "2026-08-18T22:43:26.842Z",
     "deliveredAt": "2026-08-18T22:43:26.842Z",
     "recovered": false,
-    "historicalBackfill": false,
+    "historicalBackfill": true,
     "recoveryReason": null
   },
   {
@@ -311,7 +311,7 @@
     "detectedAt": "2026-08-18T22:43:26.819Z",
     "deliveredAt": "2026-08-18T22:43:26.819Z",
     "recovered": false,
-    "historicalBackfill": false,
+    "historicalBackfill": true,
     "recoveryReason": null
   },
   {
