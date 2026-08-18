@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.1.0**
+**Aktueller Stand: v5.1.1**
 
 ---
 
@@ -590,8 +590,29 @@ im Reader redaktionell bearbeiten
 
 ---
 
+## Hotfix v5.1.1
+
+v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
+
+- `items.json` ist nun die maßgebliche Wahrheit dafür, ob eine Meldung
+  tatsächlich im Reader angekommen ist.
+- Aktuelle Artikel, die auf der Webseite erkannt werden, aber in
+  `items.json` fehlen, werden innerhalb eines 48-Stunden-Fensters
+  selbstheilend nachgeliefert.
+- Frühere `seenBySource`- oder `deliveredBySource`-Einträge können eine
+  fehlende Reader-Meldung nicht mehr dauerhaft verschlucken.
+- Historische Artikel, die erst deutlich später entdeckt wurden, werden als
+  `historicalBackfill` markiert.
+- Historische Backfills erscheinen nicht in „Neu & relevant“,
+  „Posteingang“, „Seit letztem Besuch“ oder „Heute relevant“.
+- „Alle Meldungen“ behält sie zur Nachvollziehbarkeit.
+- Im Reader wird primär das Veröffentlichungsdatum angezeigt; der
+  Erkennungszeitpunkt bleibt in den Details verfügbar.
+- Wiederhergestellte aktuelle Meldungen werden als „🩹 Wiederhergestellt“
+  gekennzeichnet.
+
 ## Version
 
-**OM News Watcher v5.1.0**
+**OM News Watcher v5.1.1**
 
-Tracking-Audit, Selbstheilung, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.
+Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.
