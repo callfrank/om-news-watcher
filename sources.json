@@ -2347,5 +2347,110 @@
     "visualValidatedAt" : "2026-08-18T05:26:23Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260818-072729",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Mittelstand Digital",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://digitalzentrumhandel.de/aktuelles/",
+    "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260818-072929",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Ifo",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.ifo.de/ifo-startseite",
+    "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-073218",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://nielseniq\\.com/global/en/news-center/2026/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Nielseniq",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://nielseniq.com/global/en/news-center/press-releases/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:32:18Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://nielseniq.com/global/en/news-center/2026/gen-z-spending-is-expected-to-reach-12-trillion-by-2030-heres-why-that-doesnt-matter-as-much-as-brands-think/?_gl=1*cqezyc*_up*MQ..*_ga*Mzg1MjU4MDg5LjE3ODcwMzExMjk.*_ga_KKW9KLS56J*czE3ODcwMzExMjgkbzEkZzAkdDE3ODcwMzExMjgkajYwJGwwJGgw",
+      "https://nielseniq.com/global/en/news-center/2026/contract-caterers-extend-long-run-of-growth-with-9-3-jump-in-sales-in-second-quarter/?_gl=1*cqezyc*_up*MQ..*_ga*Mzg1MjU4MDg5LjE3ODcwMzExMjk.*_ga_KKW9KLS56J*czE3ODcwMzExMjgkbzEkZzAkdDE3ODcwMzExMjgkajYwJGwwJGgw",
+      "https://nielseniq.com/global/en/news-center/2026/chinas-commerce-innovation-is-reshaping-global-retail/?_gl=1*cqezyc*_up*MQ..*_ga*Mzg1MjU4MDg5LjE3ODcwMzExMjk.*_ga_KKW9KLS56J*czE3ODcwMzExMjgkbzEkZzAkdDE3ODcwMzExMjgkajYwJGwwJGgw"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:32:21Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
