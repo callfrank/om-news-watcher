@@ -2713,5 +2713,58 @@
     "visualValidatedAt" : "2026-08-18T05:40:16Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-074121",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://www\\.aboutamazon\\.com/news/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Aboutamazon",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "div.promo-card-v2__content",
+      "link" : "a[data-testid=\"PromoCardV2-title\"]",
+      "title" : "h1,h2,h3,h4,h5,h6,[class*=\"headline\" i],[class*=\"heading\" i],[class*=\"title\" i],[class*=\"name\" i],[data-testid*=\"title\" i],strong"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.aboutamazon.com/amazon-news-today",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:41:21Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://www.aboutamazon.com/news/community/amazon-investment-nevada-jobs-infrastructure-small-business",
+      "https://www.aboutamazon.com/news/community/amazon-investment-colorado-jobs-infrastructure-small-business",
+      "https://www.aboutamazon.com/news/entertainment/terminal-list-prime-video-chris-pratt"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:41:24Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 40 Treffer · Kartenstruktur + URL-Muster",
+    "waitMs" : 2500
   }
 ]
