@@ -1178,7 +1178,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
               });
             }
 
-            if (rows.length === 0 || cfg.smart) {
+            if (rows.length === 0 || (cfg.smart && !cfg.itemSelector)) {
               const selector = cfg.candidateSelector || clickableSelector;
               document.querySelectorAll(selector).forEach(el => {
                 const row = rowFor(el);

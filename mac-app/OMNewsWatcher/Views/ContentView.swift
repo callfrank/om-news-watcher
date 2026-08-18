@@ -1875,29 +1875,107 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     const dateElements = state.selected.map(sample => sample.dateEl);
     const dateSelector = roots.length && dateElements.every(Boolean)
       ? relativeSelector(dateElements, roots, 'time,[class*="date" i],[class*="datum" i],[class*="published" i]') : '';
-    const structural = structuralPreview({ itemSelector, titleSelector: relativeTitleSelector, linkSelector: relativeLinkSelector, dateSelector });
+    const structural = structuralPreview({
+      itemSelector,
+      titleSelector: relativeTitleSelector,
+      linkSelector: relativeLinkSelector,
+      dateSelector
+    });
+
+    const structuralWithURL = (() => {
+      if (!urlRegex) return structural;
+      let regex = null;
+      try { regex = new RegExp(urlRegex, 'i'); } catch { return structural; }
+      return structural.filter(row => {
+        try {
+          return regex.test(new URL(row.href, location.href).href);
+        } catch {
+          return false;
+        }
+      });
+    })();
 
     let allowExternal = false;
-    try { allowExternal = state.selected.some(sample => new URL(sample.href, location.href).host !== location.host); } catch {}
+    try {
+      allowExternal = state.selected.some(
+        sample => new URL(sample.href, location.href).host !== location.host
+      );
+    } catch {}
 
-    if (semantic.length >= state.selected.length) {
+    const narrowURLLimit = Math.max(18, state.selected.length * 6);
+    const urlIsNarrow =
+      semantic.length >= state.selected.length &&
+      semantic.length <= narrowURLLimit;
+
+    // Ein enges, eindeutig passendes URL-Muster ist weiterhin die
+    // einfachste und stabilste Lösung.
+    if (urlIsNarrow) {
       return {
-        itemSelector: '', titleSelector: '', linkSelector: '', dateSelector: '',
-        candidateSelector: clickableSelector, urlRegex, allowExternal,
-        sampleCount: state.selected.length, previewCount: semantic.length,
-        preview: semantic.slice(0, 12), strategy: 'URL-Muster'
+        itemSelector: '',
+        titleSelector: '',
+        linkSelector: '',
+        dateSelector: '',
+        candidateSelector: clickableSelector,
+        urlRegex,
+        allowExternal,
+        sampleCount: state.selected.length,
+        previewCount: semantic.length,
+        preview: semantic.slice(0, 12),
+        strategy: 'URL-Muster'
       };
     }
 
-    if (structural.length < state.selected.length) {
-      return { error: `Die ${state.selected.length} markierten Beispiele konnten noch nicht als stabile Kartenstruktur reproduziert werden.` };
+    // Bei Seiten wie Ecommerce News liegen Artikel und Navigationsseiten
+    // auf derselben URL-Ebene. Dann ist die Kombination aus Kartenstruktur
+    // und URL-Muster wesentlich präziser als URL-only.
+    if (
+      itemSelector &&
+      structuralWithURL.length >= state.selected.length
+    ) {
+      return {
+        itemSelector,
+        titleSelector: relativeTitleSelector,
+        linkSelector: relativeLinkSelector,
+        dateSelector,
+        candidateSelector: clickableSelector,
+        urlRegex,
+        allowExternal,
+        sampleCount: state.selected.length,
+        previewCount: structuralWithURL.length,
+        preview: structuralWithURL.slice(0, 12),
+        strategy: 'Kartenstruktur + URL-Muster'
+      };
+    }
+
+    if (structural.length >= state.selected.length) {
+      return {
+        itemSelector,
+        titleSelector: relativeTitleSelector,
+        linkSelector: relativeLinkSelector,
+        dateSelector,
+        candidateSelector: clickableSelector,
+        urlRegex: '',
+        allowExternal,
+        sampleCount: state.selected.length,
+        previewCount: structural.length,
+        preview: structural.slice(0, 12),
+        strategy: 'Kartenstruktur'
+      };
+    }
+
+    if (semantic.length >= state.selected.length) {
+      return {
+        error:
+          `Das URL-Muster ist zu breit (${semantic.length} Treffer) und ` +
+          `die markierten Karten konnten nicht stabil genug eingegrenzt werden. ` +
+          `Bitte 2–3 vergleichbare echte Meldungskarten anklicken.`
+      };
     }
 
     return {
-      itemSelector, titleSelector: relativeTitleSelector, linkSelector: relativeLinkSelector, dateSelector,
-      candidateSelector: clickableSelector, urlRegex: '', allowExternal,
-      sampleCount: state.selected.length, previewCount: structural.length,
-      preview: structural.slice(0, 12), strategy: 'Kartenstruktur'
+      error:
+        `Die ${state.selected.length} markierten Beispiele konnten noch nicht ` +
+        `als stabile Regel reproduziert werden.`
     };
   };
 
@@ -1968,7 +2046,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 
   window.omTrainerSetMode('browse');
   post();
-  return { installed: true, version: '4.4' };
+  return { installed: true, version: '4.4.3' };
 })();
 """#
 }
@@ -1981,13 +2059,13 @@ private struct UnreadBadge: View {
 
     var body: some View {
         if count > 0 {
-            Text("\\(count)")
+            Text("\(count)")
                 .font(.caption2.bold().monospacedDigit())
                 .foregroundStyle(.white)
                 .padding(.horizontal, 6)
                 .padding(.vertical, 2)
                 .background(.blue, in: Capsule())
-                .accessibilityLabel("\\(count) ungelesene Meldungen")
+                .accessibilityLabel("\(count) ungelesene Meldungen")
         }
     }
 }

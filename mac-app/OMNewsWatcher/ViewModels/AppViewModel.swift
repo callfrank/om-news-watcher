@@ -491,8 +491,18 @@ final class AppViewModel: ObservableObject {
                 bestResult = result
             }
 
+            let expectedCount = max(
+                variant.previewCount,
+                variant.sampleCount
+            )
+            let maximumPlausibleCount = max(
+                expectedCount * 2 + 4,
+                variant.sampleCount * 4
+            )
+
             if result.kind.isSuccessLike,
-               result.hitCount >= variant.sampleCount {
+               result.hitCount >= variant.sampleCount,
+               result.hitCount <= maximumPlausibleCount {
                 candidate.markVisualTrainingValidated(
                     "Nach Reload bestätigt: \(result.hitCount) Treffer · \(variant.strategy)"
                 )
@@ -546,6 +556,13 @@ final class AppViewModel: ObservableObject {
             values.append(value)
         }
 
+        // Die vom Trainer vorgeschlagene vollständige Regel hat Vorrang.
+        // Bei schwierigen Seiten ist das häufig "Kartenstruktur + URL-Muster".
+        append(rule)
+
+        // Danach darf eine reine URL-Regel als Fallback getestet werden.
+        // Durch die Plausibilitätsgrenze in der Validierung kann ein Sprung
+        // von z. B. 5 erwarteten auf 40 Links nicht mehr als Erfolg gelten.
         if let regex = rule.urlRegex, !regex.isEmpty {
             append(
                 VisualTrainingRule(
@@ -565,8 +582,7 @@ final class AppViewModel: ObservableObject {
             )
         }
 
-        append(rule)
-
+        // Struktur-only bleibt der letzte Fallback.
         if !rule.itemSelector.isEmpty {
             append(
                 VisualTrainingRule(
