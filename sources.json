@@ -3474,5 +3474,109 @@
     "visualValidatedAt" : "2026-08-18T06:12:39Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260818-081322",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Uber",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://investor.uber.com/news-events/default.aspx",
+    "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260818-081552",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "DeliveryHero",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://ir.deliveryhero.com/de/news",
+    "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-081745",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://company\\.action\\.com/pressreleases/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Action",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://company.action.com/press-releases-action/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T06:17:45Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://company.action.com/pressreleases/more-customers-drive-actions-first-half-net-sales-up-14-to-e8-3-billion/",
+      "https://company.action.com/pressreleases/action-opens-second-permanent-distribution-center-in-italy/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T06:17:48Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
