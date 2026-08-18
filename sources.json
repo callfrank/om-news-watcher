@@ -928,6 +928,7 @@
     "allowTitleOnly" : false,
     "baselineVersion" : "mac-app-20260817-133451",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "checkIntervalMinutes" : 60,
     "enabled" : true,
     "groups" : [
       "Finanzen"
@@ -965,7 +966,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-18T07:12:41Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "weekdaysOnly" : true
   },
   {
     "allowExternal" : false,
