@@ -2608,5 +2608,57 @@
     "visualValidatedAt" : "2026-08-18T05:35:34Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-073645",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://www\\.zew\\.de/presse/pressearchiv/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Zew",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.zew.de/presse",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:36:45Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.zew.de/presse/pressearchiv/hybride-arbeitsmodelle-auch-zukuenftig-gefragt",
+      "https://www.zew.de/presse/pressearchiv/digitaler-euro-kaum-enthusiasmus"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:36:49Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 6 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
