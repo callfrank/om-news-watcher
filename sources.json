@@ -1710,6 +1710,9 @@
       "link" : "a",
       "title" : "h3.text-large"
     },
+    "tags" : [
+      "E-Commerce"
+    ],
     "url" : "https://bevh.org/presse",
     "visualBackup" : {
       "selectors" : {
@@ -1730,7 +1733,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T12:55:25Z",
+    "visualValidatedAt" : "2026-08-18T07:14:34Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 4 Treffer",
     "waitMs" : 2500
   },
@@ -1760,7 +1763,7 @@
       "title" : "h3.adp-newsroom-card__title"
     },
     "tags" : [
-
+      "Events"
     ],
     "url" : "https://corporate.walmart.com/content/corporate/en_us/news.tag=corporate:finance.html",
     "visualBackup" : {
@@ -1783,7 +1786,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T12:44:14Z",
+    "visualValidatedAt" : "2026-08-18T07:14:38Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500
   },
