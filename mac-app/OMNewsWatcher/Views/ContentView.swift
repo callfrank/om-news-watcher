@@ -429,6 +429,31 @@ struct ContentView: View {
                                         .foregroundStyle(.orange)
                                     }
                                 }
+
+                                if let detected = health.latestDetected,
+                                   let title = detected.title,
+                                   !title.isEmpty {
+                                    LabeledContent(
+                                        "Neuester erkannter Artikel",
+                                        value: title
+                                    )
+                                }
+
+                                if let stored = health.latestStored,
+                                   let title = stored.title,
+                                   !title.isEmpty {
+                                    LabeledContent(
+                                        "Neuester gespeicherter Artikel",
+                                        value: title
+                                    )
+                                }
+
+                                if (health.healedCount ?? 0) > 0 {
+                                    LabeledContent(
+                                        "Tracking-Reparaturen",
+                                        value: "\(health.healedCount ?? 0)"
+                                    )
+                                }
                             }
 
                             LabeledContent("JavaScript-Wartezeit", value: "\(source.waitMs) ms")
@@ -1114,6 +1139,11 @@ struct HealthDashboardView: View {
                         value: model.healthSkippedCount,
                         systemImage: "clock.arrow.circlepath"
                     )
+                    HealthCard(
+                        title: "Tracking-Reparaturen",
+                        value: model.healthItems.reduce(0) { $0 + ($1.healedCount ?? 0) },
+                        systemImage: "cross.case.fill"
+                    )
                 }
                 .padding()
 
@@ -1175,6 +1205,18 @@ struct HealthDashboardView: View {
                         }
                         .width(95)
 
+                        TableColumn("Tracking") { item in
+                            Text(item.trackingDisplay)
+                                .foregroundStyle(
+                                    item.hasWarning
+                                    ? .orange
+                                    : item.trackingStatus == "healed"
+                                    ? .green
+                                    : .secondary
+                                )
+                        }
+                        .width(120)
+
                         TableColumn("Dauer") { item in
                             Text(
                                 item.durationMs.map {
@@ -1228,7 +1270,7 @@ struct HealthDashboardView: View {
                 }
             }
         }
-        .frame(minWidth: 1100, minHeight: 680)
+        .frame(minWidth: 1240, minHeight: 680)
     }
 
     private var filteredHealth: [SourceHealthSnapshot] {

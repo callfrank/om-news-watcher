@@ -134,6 +134,14 @@ struct EmailNotificationSettings: Codable, Equatable {
     )
 }
 
+struct SourceHealthAuditItem: Codable, Equatable {
+    var title: String?
+    var link: String?
+    var pageDate: String?
+    var detectedAt: String?
+    var recovered: Bool?
+}
+
 struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
     var source: String
     var sourceLabel: String?
@@ -148,12 +156,33 @@ struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
     var durationMs: Int?
     var anomaly: String?
     var message: String?
+    var trackingStatus: String?
+    var trackingWarning: String?
+    var latestDetected: SourceHealthAuditItem?
+    var latestStored: SourceHealthAuditItem?
+    var healedCount: Int?
+    var baselineSuppressedCount: Int?
+    var undeliveredRecentCount: Int?
     var nextCheckAt: String?
     var checkIntervalMinutes: Int?
     var weekdaysOnly: Bool?
 
     var id: String { source.lowercased() }
-    var hasWarning: Bool { !(anomaly ?? "").isEmpty }
+    var hasWarning: Bool {
+        !(anomaly ?? "").isEmpty ||
+        (undeliveredRecentCount ?? 0) > 0 ||
+        trackingStatus == "warning"
+    }
+
+    var trackingDisplay: String {
+        if let count = undeliveredRecentCount, count > 0 {
+            return "⚠ \(count) fehlt"
+        }
+        if trackingStatus == "healed", (healedCount ?? 0) > 0 {
+            return "🩹 \(healedCount ?? 0) gerettet"
+        }
+        return "OK"
+    }
 
     var displayHitCount: String {
         guard let hitCount else { return "—" }
