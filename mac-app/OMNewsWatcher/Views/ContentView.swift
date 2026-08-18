@@ -140,7 +140,7 @@ struct ContentView: View {
                                 Text("\(model.groupCount(group))")
                                     .font(.caption2)
                                     .foregroundStyle(.secondary)
-                                UnreadBadge(count: model.readerUnreadCount(in: group))
+                                UnreadBadge(count: readerFolderCount(group))
                             }
                         }
                         .buttonStyle(.plain)
@@ -1442,6 +1442,11 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
             return
         }
 
+        if let messageText = body["status"] as? String,
+           !messageText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            statusMessage = messageText
+        }
+
         let rawSamples = body["samples"] as? [[String: Any]] ?? []
         samples = rawSamples.compactMap { row in
             let title = (row["title"] as? String ?? "")
@@ -1545,26 +1550,33 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 
   const state = { selected: [], mode: 'browse' };
   const clean = value => (value || '').replace(/\s+/g, ' ').trim();
-  const clickableSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick]';
+  const clickableSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick],[onclick]';
+  const titleSelector = 'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i],[class*="name" i],[data-testid*="title" i],strong';
   const cardSelector = [
-    'article','li','tr','section',
+    'article','li','tr',
     '[class*="card" i]','[class*="teaser" i]','[class*="news" i]',
-    '[class*="press" i]','[class*="event" i]','[class*="story" i]',
-    '[class*="result" i]','[class*="item" i]','[class*="report" i]',
+    '[class*="press" i]','[class*="event" i]','[class*="conference" i]',
+    '[class*="messe" i]','[class*="story" i]','[class*="result" i]',
+    '[class*="entry" i]','[class*="item" i]','[class*="report" i]',
     '[class*="post" i]'
   ].join(',');
 
   const cssEscape = value => window.CSS?.escape ? CSS.escape(value) : String(value).replace(/[^a-zA-Z0-9_-]/g, ch => `\\${ch}`);
+  const utilityClass = token => /^(?:p[trblxy]?|m[trblxy]?|gap|space-[xy]|w|h|min-w|max-w|min-h|max-h|text|bg|border|rounded|shadow|grid|flex|block|inline|hidden|relative|absolute|sticky|top|right|bottom|left|z|opacity|overflow|items|justify|content|self|place|col|row|leading|tracking|font)(?:-|$)/i.test(token);
   const badClass = token =>
-    !token || token.length > 42 ||
-    /^(active|selected|current|open|closed|hover|focus|visible|hidden|show|hide|loaded|loading)$/i.test(token) ||
+    !token || token.length > 42 || utilityClass(token) ||
+    /^(active|selected|current|open|closed|hover|focus|visible|hidden|show|hide|loaded|loading|container|wrapper)$/i.test(token) ||
     /(^|[-_])(?:active|selected|current|hover|focus|open|closed|is-|has-)/i.test(token) ||
-    /[a-f0-9]{10,}/i.test(token) ||
-    (/^[A-Za-z0-9]{6,18}$/.test(token) && /[A-Z]/.test(token) && /[a-z]/.test(token) && /\d/.test(token));
+    /[a-f0-9]{10,}/i.test(token);
 
   const stableClasses = el => Array.from(el?.classList || [])
     .filter(token => /^[A-Za-z_-][A-Za-z0-9_-]*$/.test(token))
-    .filter(token => !badClass(token)).slice(0, 3);
+    .filter(token => !badClass(token))
+    .sort((a, b) => {
+      const semantic = token => /(news|press|event|conference|messe|article|post|story|card|entry|item|teaser|result|report)/i.test(token) ? 0 : 1;
+      return semantic(a) - semantic(b);
+    })
+    .slice(0, 4);
 
   const selectorsFor = el => {
     if (!el || el.nodeType !== 1) return [];
@@ -1577,70 +1589,127 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
         out.push(`${tag}[${attr}="${escaped}"]`, `[${attr}="${escaped}"]`);
       }
     }
-    for (const cls of stableClasses(el)) out.push(`${tag}.${cssEscape(cls)}`, `.${cssEscape(cls)}`);
-    if (['article','li','tr','section','a','h2','h3','h4'].includes(tag)) out.push(tag);
+    for (const cls of stableClasses(el)) {
+      out.push(`${tag}.${cssEscape(cls)}`, `.${cssEscape(cls)}`);
+    }
+    if (['article','li','tr','a','h2','h3','h4'].includes(tag)) out.push(tag);
     return [...new Set(out)];
   };
 
   const generic = value => {
     const lower = clean(value).toLowerCase();
     if (!lower) return true;
-    if (/^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|zur konferenz|link öffnet|opens in)/i.test(lower)) return true;
+    if (/^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|zur konferenz|zur veranstaltung|tickets?|get started|link öffnet|opens in)$/i.test(lower)) return true;
     if (/^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(lower)) return true;
     return false;
   };
 
-  const cardFor = target => {
-    const direct = target?.closest?.(cardSelector);
-    if (direct) return direct;
-    let node = target;
-    for (let depth = 0; node && depth < 6; depth++, node = node.parentElement) {
-      const heading = node.querySelector?.('h1,h2,h3,h4,h5,h6,[class*="title" i],[class*="headline" i]');
-      const clickable = node.querySelector?.(clickableSelector);
-      if (heading && clickable && clean(node.textContent).length < 1800) return node;
+  const eventElement = event => {
+    const path = event?.composedPath?.() || [];
+    for (const node of path) {
+      if (node?.nodeType === 1) return node;
     }
-    return target?.parentElement || target;
+    return event?.target?.nodeType === 1 ? event.target : event?.target?.parentElement;
   };
 
-  const hrefFrom = (el, card = null) => {
-    const nodes = [el, el?.closest?.('a[href]'), card];
-    for (const node of nodes) {
-      if (!node?.getAttribute) continue;
-      const raw = node.href || node.getAttribute('href') || node.getAttribute('data-href') || node.getAttribute('data-url') || node.getAttribute('data-link') || '';
-      if (raw) return raw;
-      const onclick = node.getAttribute('onclick') || '';
-      const m = onclick.match(/(?:location(?:\.href)?\s*=|window\.open\s*\()\s*['"]([^'"]+)['"]/i);
-      if (m?.[1]) return m[1];
-    }
-    const link = card?.querySelector?.('a[href]');
-    return link?.href || link?.getAttribute?.('href') || '';
+  const rawHref = node => {
+    if (!node?.getAttribute) return '';
+    const raw = node.href || node.getAttribute('href') || node.getAttribute('data-href') || node.getAttribute('data-url') || node.getAttribute('data-link') || '';
+    if (raw) return raw;
+    const onclick = node.getAttribute('onclick') || '';
+    const match = onclick.match(/(?:location(?:\.href)?\s*=|window\.open\s*\()\s*['"]([^'"]+)['"]/i);
+    return match?.[1] || '';
   };
 
-  const findClickable = target => {
-    const direct = target?.closest?.(clickableSelector);
-    if (direct) return direct;
-    const card = cardFor(target);
-    return card?.querySelector?.(clickableSelector) || null;
+  const usableHref = value => {
+    const raw = clean(value);
+    return !!raw && raw !== '#' && !/^(?:javascript:|mailto:|tel:)/i.test(raw);
+  };
+
+  const absoluteHref = value => {
+    try { return new URL(value, location.href).href; } catch { return ''; }
+  };
+
+  const linkCandidates = root => {
+    const values = [];
+    if (root?.matches?.(clickableSelector)) values.push(root);
+    values.push(...Array.from(root?.querySelectorAll?.(clickableSelector) || []));
+    return [...new Set(values)].filter(node => usableHref(rawHref(node)));
   };
 
   const bestTitleElement = (target, clickable, card) => {
     const clickedHeading = target?.closest?.('h1,h2,h3,h4,h5,h6');
     if (clickedHeading && !generic(clickedHeading.textContent)) return clickedHeading;
-
-    // v2.1: Bei Karten zuerst die eigentliche Überschrift verwenden.
-    // CTA-Links enthalten auf vielen Seiten Datum + Titel + „Mehr erfahren“.
-    const selectors = 'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i],[data-testid*="title" i],strong';
-    for (const node of Array.from(card?.querySelectorAll?.(selectors) || [])) {
-      const value = clean(node.textContent || node.getAttribute?.('aria-label') || '');
+    for (const node of Array.from(card?.querySelectorAll?.(titleSelector) || [])) {
+      const value = clean(node.textContent || node.getAttribute?.('aria-label') || node.getAttribute?.('title') || '');
       if (value.length >= 5 && value.length <= 320 && !generic(value)) return node;
     }
-
-    const own = clean(clickable?.textContent || clickable?.getAttribute?.('aria-label') || '');
+    const own = clean(clickable?.textContent || clickable?.getAttribute?.('aria-label') || clickable?.getAttribute?.('title') || '');
     if (own.length >= 5 && own.length <= 320 && !generic(own)) return clickable;
-    return clickable;
+    return null;
   };
 
   const bestDateElement = card => card?.querySelector?.('time[datetime],time,[class*="date" i],[class*="datum" i],[class*="published" i],[class*="time" i]') || null;
+
+  const isPlausibleCard = (node, target) => {
+    if (!node || node === document.body || node === document.documentElement) return false;
+    const text = clean(node.textContent || '');
+    if (text.length < 8 || text.length > 2600) return false;
+    const links = linkCandidates(node);
+    if (links.length < 1 || links.length > 14) return false;
+    if (!bestTitleElement(target, links[0], node)) return false;
+    const rect = node.getBoundingClientRect?.();
+    return !(rect && (rect.width < 80 || rect.height < 28));
+  };
+
+  const cardFor = target => {
+    let node = target;
+    let fallback = null;
+    for (let depth = 0; node && depth < 10 && node !== document.body && node !== document.documentElement; depth += 1, node = node.parentElement) {
+      if (!isPlausibleCard(node, target)) continue;
+      fallback = node;
+      if (node.matches?.(cardSelector)) return node;
+      const classes = Array.from(node.classList || []).join(' ');
+      if (/(news|press|event|conference|messe|article|post|story|card|entry|teaser|result|report)/i.test(classes)) return node;
+    }
+    return fallback;
+  };
+
+  const scoreLink = (node, target, card) => {
+    const absolute = absoluteHref(rawHref(node));
+    if (!absolute) return -10000;
+    let score = 0;
+    if (target?.closest?.(clickableSelector) === node) score += 250;
+    const text = clean(node.textContent || node.getAttribute?.('aria-label') || node.getAttribute?.('title') || '');
+    if (!generic(text) && text.length >= 8) score += 70;
+    if (/zur konferenz|zur veranstaltung|details|read more|weiterlesen/i.test(text)) score += 25;
+    try {
+      const url = new URL(absolute);
+      if (url.pathname && url.pathname !== '/') score += 35;
+      if (url.pathname.split('/').filter(Boolean).length >= 2) score += 20;
+      if (url.href !== location.href) score += 20;
+    } catch {}
+    const heading = card?.querySelector?.(titleSelector);
+    if (heading && node.contains?.(heading)) score += 80;
+    return score;
+  };
+
+  const bestClickable = (target, card) => {
+    const direct = target?.closest?.(clickableSelector);
+    if (direct && usableHref(rawHref(direct))) return direct;
+    const candidates = linkCandidates(card);
+    if (!candidates.length) return null;
+    return candidates.map(node => ({ node, score: scoreLink(node, target, card) })).sort((a, b) => b.score - a.score)[0]?.node || null;
+  };
+
+  const hrefFrom = (clickable, card) => {
+    const direct = rawHref(clickable);
+    if (usableHref(direct)) return absoluteHref(direct);
+    const cardDirect = rawHref(card);
+    if (usableHref(cardDirect)) return absoluteHref(cardDirect);
+    const best = bestClickable(card, card);
+    return best ? absoluteHref(rawHref(best)) : '';
+  };
 
   const ancestorCandidates = (clickable, titleEl, card) => {
     const result = [];
@@ -1656,28 +1725,52 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     return result;
   };
 
-  const regexEscape = value => String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const selectionFor = target => {
+    const card = cardFor(target);
+    const clickable = bestClickable(target, card);
+    if (!card || !clickable) return null;
+    const href = hrefFrom(clickable, card);
+    if (!href) return null;
+    const titleEl = bestTitleElement(target, clickable, card);
+    const title = clean(titleEl?.textContent || titleEl?.getAttribute?.('aria-label') || clickable?.textContent || href);
+    if (!title || generic(title)) return null;
+    const dateEl = bestDateElement(card);
+    return { clickable, card, titleEl, dateEl, highlight: card, href, title, itemCandidates: ancestorCandidates(clickable, titleEl, card) };
+  };
 
-  const commonURLRegex = () => {
+  const regexEscape = value => String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const extensionOf = path => {
+    const leaf = path.split('/').filter(Boolean).pop() || '';
+    return leaf.match(/(\.[A-Za-z0-9]{1,8})$/)?.[1]?.toLowerCase() || '';
+  };
+
+  const buildURLRegex = () => {
     if (state.selected.length < 2) return '';
     let urls;
-    try { urls = state.selected.map(s => new URL(s.href, location.href)); } catch { return ''; }
-    const hosts = new Set(urls.map(u => u.host.toLowerCase()));
+    try { urls = state.selected.map(sample => new URL(sample.href, location.href)); } catch { return ''; }
+    const hosts = new Set(urls.map(url => url.host.toLowerCase()));
     if (hosts.size !== 1) return '';
     const host = urls[0].host.toLowerCase();
-    const lists = urls.map(u => u.pathname.split('/').filter(Boolean));
-    const min = Math.min(...lists.map(v => v.length));
+    const pathParts = urls.map(url => url.pathname.split('/').filter(Boolean));
+    const depths = pathParts.map(parts => parts.length);
+    if (new Set(depths).size !== 1 || depths[0] < 1) return '';
+    const minDepth = depths[0];
     const common = [];
-    for (let i = 0; i < Math.max(0, min - 1); i++) {
-      const value = lists[0][i];
-      if (lists.every(list => list[i] === value)) common.push(value); else break;
+    for (let index = 0; index < Math.max(0, minDepth - 1); index++) {
+      const value = pathParts[0][index];
+      if (pathParts.every(parts => parts[index] === value)) common.push(value);
+      else break;
     }
-    // Ein reines Host-Muster wäre viel zu breit (z. B. PayPal-Kategorien).
-    // Bei gemeinsamen Unterordnern bleibt das URL-Muster ein starker Filter;
-    // sonst übernimmt v2.1 die gespeicherte URL-Form der Trainingsbeispiele.
-    if (!common.length) return '';
-    const prefix = '/' + common.join('/') + '/';
-    return '^https?://' + regexEscape(host) + regexEscape(prefix);
+    const extensions = new Set(urls.map(url => extensionOf(url.pathname)));
+    const extension = extensions.size === 1 ? [...extensions][0] : '';
+    const dynamicDepth = minDepth - common.length;
+    if (dynamicDepth < 1) return '';
+    const prefix = '/' + common.map(regexEscape).join('/') + (common.length ? '/' : '');
+    const dynamic = Array.from({ length: dynamicDepth }, (_, index) => {
+      const isLast = index === dynamicDepth - 1;
+      return isLast && extension ? '[^/?#]+' + regexEscape(extension) : '[^/?#]+';
+    }).join('/');
+    return '^https?://' + regexEscape(host) + regexEscape(prefix) + dynamic + '/?(?:\\\\?[^#]*)?(?:#.*)?$';
   };
 
   const rootFor = (sample, selector) => {
@@ -1690,7 +1783,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
   };
 
   const chooseItemSelector = () => {
-    const maps = state.selected.map(sample => new Map(sample.itemCandidates.map(c => [c.selector, c.depth])));
+    const maps = state.selected.map(sample => new Map(sample.itemCandidates.map(candidate => [candidate.selector, candidate.depth])));
     const candidates = new Set(maps[0]?.keys?.() || []);
     let best = null;
     for (const selector of candidates) {
@@ -1703,23 +1796,26 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
       } catch { continue; }
       if (count < state.selected.length || count > 500) continue;
       const avgDepth = state.selected.reduce((sum, sample, index) => sum + (maps[index].get(selector) || 0), 0) / state.selected.length;
-      const genericPenalty = /^(div|span|section|li|a)$/.test(selector) ? 60 : 0;
-      const hugePenalty = Math.max(0, count - 150);
-      const score = avgDepth * 20 + count + genericPenalty + hugePenalty;
+      const genericPenalty = /^(div|span|section|li|a)$/.test(selector) ? 80 : 0;
+      const utilityPenalty = /\.(?:p[trblxy]?|m[trblxy]?|gap|w|h|text|bg|flex|grid)-/i.test(selector) ? 180 : 0;
+      const semanticBonus = /(news|press|event|conference|messe|article|post|story|card|entry|teaser|result|report)/i.test(selector) ? -80 : 0;
+      const hugePenalty = Math.max(0, count - 120);
+      const score = avgDepth * 20 + count + genericPenalty + utilityPenalty + semanticBonus + hugePenalty;
       if (!best || score < best.score) best = { selector, score };
     }
     return best?.selector || '';
   };
 
   const relativeSelector = (elements, roots, fallback) => {
-    if (!elements.length || elements.some(el => !el) || roots.some(root => !root)) return fallback;
-    const arrays = elements.map(el => selectorsFor(el));
+    if (!elements.length || elements.some(element => !element) || roots.some(root => !root)) return fallback;
+    const arrays = elements.map(element => selectorsFor(element));
     for (const selector of arrays[0] || []) {
-      if (!arrays.every(arr => arr.includes(selector))) continue;
+      if (!arrays.every(array => array.includes(selector))) continue;
       let ok = true;
-      for (let i = 0; i < roots.length; i++) {
-        try { if (!(roots[i].matches?.(selector) ? roots[i] : roots[i].querySelector?.(selector))) { ok = false; break; } }
-        catch { ok = false; break; }
+      for (let index = 0; index < roots.length; index++) {
+        try {
+          if (!(roots[index].matches?.(selector) || roots[index].querySelector?.(selector))) { ok = false; break; }
+        } catch { ok = false; break; }
       }
       if (ok) return selector;
     }
@@ -1744,7 +1840,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     for (const root of roots) {
       let linkEl = null;
       try { linkEl = root.matches?.(rule.linkSelector) ? root : root.querySelector?.(rule.linkSelector); } catch {}
-      linkEl = linkEl || root.querySelector?.(clickableSelector) || (root.matches?.(clickableSelector) ? root : null);
+      linkEl = linkEl || bestClickable(root, root) || (root.matches?.(clickableSelector) ? root : null);
       const row = smartRow(linkEl || root, root);
       if (!row.title || !row.href || seen.has(row.href)) continue;
       seen.add(row.href); rows.push(row);
@@ -1756,12 +1852,10 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     let regex = null;
     try { if (urlRegex) regex = new RegExp(urlRegex, 'i'); } catch {}
     const rows = [], seen = new Set();
-    for (const el of Array.from(document.querySelectorAll(clickableSelector))) {
-      const row = smartRow(el);
-      let absolute = '';
-      try { absolute = new URL(row.href, location.href).href; } catch { continue; }
-      if (regex && !regex.test(absolute)) continue;
-      if (!row.title || generic(row.title) || seen.has(absolute)) continue;
+    for (const element of Array.from(document.querySelectorAll(clickableSelector))) {
+      const row = smartRow(element);
+      const absolute = absoluteHref(row.href);
+      if (!absolute || (regex && !regex.test(absolute)) || !row.title || generic(row.title) || seen.has(absolute)) continue;
       seen.add(absolute); rows.push({ ...row, href: absolute });
     }
     return rows;
@@ -1770,54 +1864,54 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
   window.omTrainerBuildRule = () => {
     if (state.selected.length < 2) return { error: 'Bitte mindestens zwei echte Meldungen anklicken.' };
 
+    const urlRegex = buildURLRegex();
+    const semantic = urlRegex ? semanticPreview(urlRegex) : [];
     const itemSelector = chooseItemSelector();
     const roots = itemSelector ? state.selected.map(sample => rootFor(sample, itemSelector)) : [];
-    const titleSelector = roots.length && !roots.some(r => !r)
-      ? relativeSelector(state.selected.map(s => s.titleEl), roots, 'h1,h2,h3,h4,h5,h6,[class*="title" i],[class*="headline" i]') : '';
-    const linkSelector = roots.length && !roots.some(r => !r)
-      ? relativeSelector(state.selected.map(s => s.clickable), roots, clickableSelector) : clickableSelector;
-    const dateElements = state.selected.map(s => s.dateEl);
+    const relativeTitleSelector = roots.length && !roots.some(root => !root)
+      ? relativeSelector(state.selected.map(sample => sample.titleEl), roots, titleSelector) : '';
+    const relativeLinkSelector = roots.length && !roots.some(root => !root)
+      ? relativeSelector(state.selected.map(sample => sample.clickable), roots, clickableSelector) : clickableSelector;
+    const dateElements = state.selected.map(sample => sample.dateEl);
     const dateSelector = roots.length && dateElements.every(Boolean)
       ? relativeSelector(dateElements, roots, 'time,[class*="date" i],[class*="datum" i],[class*="published" i]') : '';
+    const structural = structuralPreview({ itemSelector, titleSelector: relativeTitleSelector, linkSelector: relativeLinkSelector, dateSelector });
 
-    const urlRegex = commonURLRegex();
-    const structural = structuralPreview({ itemSelector, titleSelector, linkSelector, dateSelector });
-    const semantic = urlRegex ? semanticPreview(urlRegex) : [];
+    let allowExternal = false;
+    try { allowExternal = state.selected.some(sample => new URL(sample.href, location.href).host !== location.host); } catch {}
 
-    let rows = structural;
-    let strategy = 'Kartenstruktur';
-    if (semantic.length >= state.selected.length && (structural.length < state.selected.length || semantic.length > structural.length)) {
-      rows = semantic;
-      strategy = 'URL-Muster + Karteninhalt';
-    }
-
-    if (rows.length < state.selected.length) {
+    if (semantic.length >= state.selected.length) {
       return {
-        error: `Regel zu eng: ${state.selected.length} Beispiele markiert, aber nur ${rows.length} Treffer reproduzierbar. Bitte andere Karten markieren.`
+        itemSelector: '', titleSelector: '', linkSelector: '', dateSelector: '',
+        candidateSelector: clickableSelector, urlRegex, allowExternal,
+        sampleCount: state.selected.length, previewCount: semantic.length,
+        preview: semantic.slice(0, 12), strategy: 'URL-Muster'
       };
     }
 
-    let allowExternal = false;
-    try { allowExternal = state.selected.some(s => new URL(s.href, location.href).host !== location.host); } catch {}
+    if (structural.length < state.selected.length) {
+      return { error: `Die ${state.selected.length} markierten Beispiele konnten noch nicht als stabile Kartenstruktur reproduziert werden.` };
+    }
 
     return {
-      itemSelector,
-      titleSelector,
-      linkSelector,
-      dateSelector,
-      candidateSelector: clickableSelector,
-      urlRegex,
-      allowExternal,
-      sampleCount: state.selected.length,
-      previewCount: rows.length,
-      preview: rows.slice(0, 12),
-      strategy
+      itemSelector, titleSelector: relativeTitleSelector, linkSelector: relativeLinkSelector, dateSelector,
+      candidateSelector: clickableSelector, urlRegex: '', allowExternal,
+      sampleCount: state.selected.length, previewCount: structural.length,
+      preview: structural.slice(0, 12), strategy: 'Kartenstruktur'
     };
   };
 
-  const post = () => {
-    const payload = { count: state.selected.length, samples: state.selected.map(s => ({ title: s.title, href: s.href })) };
-    window.webkit?.messageHandlers?.omVisualTrainer?.postMessage(payload);
+  const post = status => {
+    const count = state.selected.length;
+    const text = status || (
+      count === 0 ? 'Links markieren: Klicke 2–3 echte Meldungen oder Karten an.' :
+      count === 1 ? '1 Meldung ausgewählt – bitte noch mindestens eine weitere markieren.' :
+      `${count} Meldungen ausgewählt – Regel wird vorbereitet.`
+    );
+    window.webkit?.messageHandlers?.omVisualTrainer?.postMessage({
+      count, status: text,
+      samples: state.selected.map(sample => ({ title: sample.title, href: sample.href }))
+    });
   };
   window.__omVisualTrainerPost = post;
 
@@ -1828,56 +1922,53 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
   };
 
   window.omTrainerReset = () => {
-    document.querySelectorAll('[data-om-visual-selected="1"]').forEach(el => el.removeAttribute('data-om-visual-selected'));
-    state.selected = []; post();
+    document.querySelectorAll('[data-om-visual-selected="1"]').forEach(element => element.removeAttribute('data-om-visual-selected'));
+    state.selected = [];
+    post('Auswahl gelöscht. Klicke 2–3 echte Meldungen oder Karten an.');
   };
 
   const style = document.createElement('style');
   style.id = 'om-visual-trainer-style';
-  style.textContent = '[data-om-visual-selected="1"]{outline:4px solid #0a84ff!important;outline-offset:3px!important;border-radius:4px!important;}';
+  style.textContent = `
+    [data-om-visual-selected="1"]{outline:4px solid #0a84ff!important;outline-offset:3px!important;border-radius:5px!important;}
+    html[data-om-trainer-mode="select"] body,html[data-om-trainer-mode="select"] body *{cursor:crosshair!important;}
+  `;
   document.head.appendChild(style);
-
-  const blockEarly = event => {
-    if (state.mode !== 'select') return;
-    const clickable = findClickable(event.target);
-    if (!clickable) return;
-    event.stopPropagation();
-    event.stopImmediatePropagation?.();
-  };
-  ['pointerdown','pointerup','mousedown','mouseup','touchstart','touchend','auxclick'].forEach(type => document.addEventListener(type, blockEarly, true));
 
   document.addEventListener('click', event => {
     if (state.mode !== 'select') return;
-    const target = event.target;
-    const clickable = findClickable(target);
-    if (!clickable) return;
-    const card = cardFor(target || clickable);
-    const href = hrefFrom(clickable, card);
-    if (!href) return;
+    const target = eventElement(event);
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation?.();
 
-    event.preventDefault(); event.stopPropagation(); event.stopImmediatePropagation();
+    const selection = selectionFor(target);
+    if (!selection) {
+      post('An dieser Stelle wurde kein verwertbarer Ziel-Link gefunden. Klicke auf Titel, Datum, Logo, Kartenfläche oder den Aktionsbutton.');
+      return;
+    }
 
-    const highlight = card || clickable;
-    const existingIndex = state.selected.findIndex(sample => sample.highlight === highlight || sample.href === href);
+    const existingIndex = state.selected.findIndex(sample => sample.highlight === selection.highlight || sample.href === selection.href);
     if (existingIndex >= 0) {
       state.selected[existingIndex].highlight?.removeAttribute('data-om-visual-selected');
-      state.selected.splice(existingIndex, 1); post(); return;
+      state.selected.splice(existingIndex, 1);
+      post();
+      return;
     }
-    if (state.selected.length >= 3) return;
 
-    const titleEl = bestTitleElement(target, clickable, card);
-    const dateEl = bestDateElement(card);
-    const title = clean(titleEl?.textContent || titleEl?.getAttribute?.('aria-label') || href);
-    highlight.setAttribute('data-om-visual-selected','1');
-    state.selected.push({
-      clickable, card, titleEl, dateEl, highlight, href, title,
-      itemCandidates: ancestorCandidates(clickable, titleEl, card)
-    });
+    if (state.selected.length >= 3) {
+      post('Es sind bereits 3 Beispiele ausgewählt. Entferne eines durch erneuten Klick.');
+      return;
+    }
+
+    selection.highlight.setAttribute('data-om-visual-selected','1');
+    state.selected.push(selection);
     post();
   }, true);
 
-  window.omTrainerSetMode('browse'); post();
-  return { installed: true };
+  window.omTrainerSetMode('browse');
+  post();
+  return { installed: true, version: '4.4' };
 })();
 """#
 }
@@ -1966,6 +2057,13 @@ enum ReaderLayoutMode: String, CaseIterable, Identifiable {
     }
 }
 
+enum ReaderFolderBasis {
+    case inbox
+    case all
+    case favorites
+    case archive
+}
+
 struct ReaderView: View {
     @ObservedObject var model: AppViewModel
 
@@ -1978,6 +2076,7 @@ struct ReaderView: View {
     @State private var selectedTag = "Alle"
     @State private var minimumPriority = 1
     @State private var layoutMode: ReaderLayoutMode = .compact
+    @State private var folderBasis: ReaderFolderBasis = .inbox
     @State private var showWebPreview = false
     @State private var markReadTask: Task<Void, Never>?
 
@@ -2035,6 +2134,21 @@ struct ReaderView: View {
             if newMode == .detail {
                 ensureSelection()
             }
+        }
+        .onChange(of: scope) { _, newScope in
+            switch newScope {
+            case .inbox:
+                folderBasis = .inbox
+            case .all:
+                folderBasis = .all
+            case .favorites:
+                folderBasis = .favorites
+            case .archive:
+                folderBasis = .archive
+            case .group:
+                break
+            }
+            ensureSelection()
         }
         .onDisappear {
             markReadTask?.cancel()
@@ -2604,8 +2718,8 @@ struct ReaderView: View {
                 case .archive:
                     return model.readerIsArchived(item)
                 case .group(let group):
-                    return !model.readerIsArchived(item) &&
-                        (item.groups ?? []).contains(group)
+                    return (item.groups ?? []).contains(group) &&
+                        readerItemMatchesFolderBasis(item)
                 }
             }()
 
@@ -2687,6 +2801,32 @@ struct ReaderView: View {
         }
 
         return values
+    }
+
+    private func readerFolderCount(_ group: String) -> Int {
+        switch folderBasis {
+        case .inbox:
+            return model.readerUnreadCount(in: group)
+        case .all:
+            return model.readerAllCount(in: group)
+        case .favorites:
+            return model.readerFavoriteCount(in: group)
+        case .archive:
+            return model.readerArchivedCount(in: group)
+        }
+    }
+
+    private func readerItemMatchesFolderBasis(_ item: FeedHistoryItem) -> Bool {
+        switch folderBasis {
+        case .inbox:
+            return !model.readerIsArchived(item) && !model.readerIsRead(item)
+        case .all:
+            return !model.readerIsArchived(item)
+        case .favorites:
+            return !model.readerIsArchived(item) && model.readerIsFavorite(item)
+        case .archive:
+            return model.readerIsArchived(item)
+        }
     }
 
     private func ensureSelection() {

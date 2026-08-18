@@ -178,6 +178,10 @@ final class AppViewModel: ObservableObject {
     private var readerUnreadBySourceCache: [String: Int] = [:]
     private var readerUngroupedUnreadCache = 0
 
+    private var readerAllByGroupCache: [String: Int] = [:]
+    private var readerFavoriteByGroupCache: [String: Int] = [:]
+    private var readerArchivedByGroupCache: [String: Int] = [:]
+
     @Published var owner: String {
         didSet { defaults.set(owner, forKey: Keys.owner) }
     }
@@ -462,39 +466,127 @@ final class AppViewModel: ObservableObject {
         else { return }
 
         let original = sources[index]
-        var candidate = original
-        candidate.applyVisualTrainingRule(rule)
+        let variants = visualValidationVariants(for: rule)
 
         showVisualTrainer = false
         visualTrainingSource = nil
         testingSourceID = sourceID
         statusMessage = "\(original.name): Einlernregel wird nach komplettem Neuladen validiert …"
 
-        let tester = SourceTester()
-        activeTester = tester
-        let result = await tester.test(candidate)
-        activeTester = nil
+        var bestResult: SourceTestResult?
+        var acceptedSource: SourceRecord?
+
+        for (attemptIndex, variant) in variants.enumerated() {
+            statusMessage = "\(original.name): Validierung \(attemptIndex + 1)/\(variants.count) – \(variant.strategy)"
+
+            var candidate = original
+            candidate.applyVisualTrainingRule(variant)
+
+            let tester = SourceTester()
+            activeTester = tester
+            let result = await tester.test(candidate)
+            activeTester = nil
+
+            if bestResult == nil || result.hitCount > (bestResult?.hitCount ?? -1) {
+                bestResult = result
+            }
+
+            if result.kind.isSuccessLike,
+               result.hitCount >= variant.sampleCount {
+                candidate.markVisualTrainingValidated(
+                    "Nach Reload bestätigt: \(result.hitCount) Treffer · \(variant.strategy)"
+                )
+                acceptedSource = candidate
+                bestResult = result
+                break
+            }
+        }
+
         testingSourceID = nil
 
-        guard result.kind.isSuccessLike,
-              result.hitCount >= rule.sampleCount
+        guard let candidate = acceptedSource,
+              let result = bestResult
         else {
-            testResults[sourceID] = result
+            if let bestResult {
+                testResults[sourceID] = bestResult
+            }
+
             errorMessage =
                 "Die neue Einlernregel wurde nicht gespeichert. " +
-                "Nach einem vollständigen Neuladen wurden \(result.hitCount) passende Treffer erkannt. " +
+                "Die App hat URL-Muster und Kartenstruktur nach einem vollständigen Neuladen geprüft, " +
+                "konnte die markierten Beispiele aber nicht stabil reproduzieren. " +
                 "Die vorherige Regel bleibt unverändert."
+
             statusMessage = "\(original.name): Einlernregel nach Reload verworfen"
             return
         }
 
-        candidate.markVisualTrainingValidated(
-            "Nach Reload bestätigt: \(result.hitCount) Treffer"
-        )
         sources[index] = candidate
         testResults[sourceID] = result
         isDirty = true
         statusMessage = "\(original.name): Einlernregel validiert – bitte speichern"
+    }
+
+    private func visualValidationVariants(
+        for rule: VisualTrainingRule
+    ) -> [VisualTrainingRule] {
+        var values: [VisualTrainingRule] = []
+        var signatures = Set<String>()
+
+        func append(_ value: VisualTrainingRule) {
+            let signature = [
+                value.itemSelector,
+                value.titleSelector,
+                value.linkSelector,
+                value.candidateSelector,
+                value.urlRegex ?? ""
+            ].joined(separator: "|")
+
+            guard signatures.insert(signature).inserted else { return }
+            values.append(value)
+        }
+
+        if let regex = rule.urlRegex, !regex.isEmpty {
+            append(
+                VisualTrainingRule(
+                    itemSelector: "",
+                    titleSelector: "",
+                    linkSelector: "",
+                    dateSelector: nil,
+                    candidateSelector: rule.candidateSelector,
+                    urlRegex: regex,
+                    allowExternal: rule.allowExternal,
+                    sampleCount: rule.sampleCount,
+                    previewCount: rule.previewCount,
+                    preview: rule.preview,
+                    strategy: "URL-Muster",
+                    sampleURLs: rule.sampleURLs
+                )
+            )
+        }
+
+        append(rule)
+
+        if !rule.itemSelector.isEmpty {
+            append(
+                VisualTrainingRule(
+                    itemSelector: rule.itemSelector,
+                    titleSelector: rule.titleSelector,
+                    linkSelector: rule.linkSelector,
+                    dateSelector: rule.dateSelector,
+                    candidateSelector: rule.candidateSelector,
+                    urlRegex: nil,
+                    allowExternal: rule.allowExternal,
+                    sampleCount: rule.sampleCount,
+                    previewCount: rule.previewCount,
+                    preview: rule.preview,
+                    strategy: "Kartenstruktur",
+                    sampleURLs: rule.sampleURLs
+                )
+            )
+        }
+
+        return values
     }
 
     func restoreAutomaticDetection(for sourceID: UUID) {
@@ -944,6 +1036,18 @@ final class AppViewModel: ObservableObject {
         readerUnreadBySourceCache[source.name.lowercased()] ?? 0
     }
 
+    func readerAllCount(in group: String) -> Int {
+        readerAllByGroupCache[group.lowercased()] ?? 0
+    }
+
+    func readerFavoriteCount(in group: String) -> Int {
+        readerFavoriteByGroupCache[group.lowercased()] ?? 0
+    }
+
+    func readerArchivedCount(in group: String) -> Int {
+        readerArchivedByGroupCache[group.lowercased()] ?? 0
+    }
+
     var readerUngroupedUnreadCount: Int {
         readerUngroupedUnreadCache
     }
@@ -1102,36 +1206,58 @@ final class AppViewModel: ObservableObject {
     }
 
     private func rebuildReaderUnreadCache() {
-        var total = 0
-        var byGroup: [String: Int] = [:]
-        var bySource: [String: Int] = [:]
-        var ungrouped = 0
+        var unreadTotal = 0
+        var unreadByGroup: [String: Int] = [:]
+        var unreadBySource: [String: Int] = [:]
+        var unreadUngrouped = 0
+        var allByGroup: [String: Int] = [:]
+        var favoriteByGroup: [String: Int] = [:]
+        var archivedByGroup: [String: Int] = [:]
 
         for item in readerCachedItems {
-            guard
-                !readerArchivedIDs.contains(item.id),
-                !readerReadIDs.contains(item.id)
-            else {
+            let groups = item.groups ?? []
+            let isArchived = readerArchivedIDs.contains(item.id)
+            let isFavorite = readerFavoriteIDs.contains(item.id)
+            let isUnread = !readerReadIDs.contains(item.id)
+
+            if isArchived {
+                for group in groups {
+                    archivedByGroup[group.lowercased(), default: 0] += 1
+                }
                 continue
             }
 
-            total += 1
-            bySource[item.source.lowercased(), default: 0] += 1
+            for group in groups {
+                allByGroup[group.lowercased(), default: 0] += 1
+            }
 
-            let groups = item.groups ?? []
+            if isFavorite {
+                for group in groups {
+                    favoriteByGroup[group.lowercased(), default: 0] += 1
+                }
+            }
+
+            guard isUnread else { continue }
+
+            unreadTotal += 1
+            unreadBySource[item.source.lowercased(), default: 0] += 1
+
             if groups.isEmpty {
-                ungrouped += 1
+                unreadUngrouped += 1
             } else {
                 for group in groups {
-                    byGroup[group.lowercased(), default: 0] += 1
+                    unreadByGroup[group.lowercased(), default: 0] += 1
                 }
             }
         }
 
-        readerUnreadTotalCache = total
-        readerUnreadByGroupCache = byGroup
-        readerUnreadBySourceCache = bySource
-        readerUngroupedUnreadCache = ungrouped
+        readerUnreadTotalCache = unreadTotal
+        readerUnreadByGroupCache = unreadByGroup
+        readerUnreadBySourceCache = unreadBySource
+        readerUngroupedUnreadCache = unreadUngrouped
+        readerAllByGroupCache = allByGroup
+        readerFavoriteByGroupCache = favoriteByGroup
+        readerArchivedByGroupCache = archivedByGroup
     }
 
     private func persistReaderState() {
