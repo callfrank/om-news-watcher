@@ -322,6 +322,12 @@ struct SourceHealthReport: Codable {
     var sources: [SourceHealthSnapshot]
 }
 
+private struct ReaderActivityState: Codable {
+    var lastSeenAt: String
+    var updatedAt: String
+    var appVersion: String
+}
+
 private struct OMNewsWatcherBackup: Codable {
     var version: Int
     var exportedAt: String
@@ -416,6 +422,7 @@ final class AppViewModel: ObservableObject {
     private var emailSettingsSHA = ""
     private var emailEnabledAt: String?
     private var pollingTask: Task<Void, Never>?
+    private var readerActivitySyncTask: Task<Void, Never>?
     private var activeTester: SourceTester?
     private var savedSourcesSnapshot: [SourceRecord] = []
 
@@ -524,6 +531,15 @@ final class AppViewModel: ObservableObject {
         token = await KeychainStore.readToken() ?? ""
         hasToken = !token.isEmpty
         await reloadAll()
+
+        if let stored = defaults.string(
+            forKey: Keys.readerLastOpenedAt
+        ).flatMap(FeedHistoryItem.parsedDate) {
+            scheduleReaderActivitySync(
+                at: stored,
+                delayNanoseconds: 300_000_000
+            )
+        }
     }
 
     func reloadAll() async {
@@ -1538,9 +1554,18 @@ final class AppViewModel: ObservableObject {
         let previous = defaults.string(forKey: Keys.readerLastOpenedAt)
             .flatMap(FeedHistoryItem.parsedDate)
 
+        let now = Date()
+
         defaults.set(
-            ISO8601DateFormatter().string(from: Date()),
+            ISO8601DateFormatter().string(from: now),
             forKey: Keys.readerLastOpenedAt
+        )
+
+        // Die Mail soll nur Meldungen schicken, die seit der letzten
+        // tatsächlichen Reader-Aktivität neu sind.
+        scheduleReaderActivitySync(
+            at: now,
+            delayNanoseconds: 500_000_000
         )
 
         return previous
@@ -1853,6 +1878,127 @@ final class AppViewModel: ObservableObject {
         defaults.set(Array(readerArchivedIDs), forKey: Keys.readerArchivedIDs)
         rebuildReaderUnreadCache()
         updateReaderDockBadge()
+
+        // Debounced: viele Klicks hintereinander erzeugen nur einen
+        // kleinen GitHub-Commit mit dem letzten Reader-Zeitpunkt.
+        scheduleReaderActivitySync(
+            at: Date(),
+            delayNanoseconds: 1_500_000_000
+        )
+    }
+
+    private func scheduleReaderActivitySync(
+        at date: Date,
+        delayNanoseconds: UInt64
+    ) {
+        guard hasToken, !token.isEmpty else { return }
+
+        readerActivitySyncTask?.cancel()
+
+        readerActivitySyncTask = Task { [weak self] in
+            do {
+                try await Task.sleep(
+                    nanoseconds: delayNanoseconds
+                )
+            } catch {
+                return
+            }
+
+            guard !Task.isCancelled else { return }
+            await self?.saveReaderActivity(
+                requestedDate: date
+            )
+        }
+    }
+
+    private func saveReaderActivity(
+        requestedDate: Date
+    ) async {
+        guard hasToken, !token.isEmpty else { return }
+
+        let path = "reader-state.json"
+        let iso = ISO8601DateFormatter()
+
+        for _ in 0..<2 {
+            do {
+                let existing =
+                    try await client().fetchFileIfExists(
+                        path: path
+                    )
+
+                var effectiveDate =
+                    requestedDate
+
+                if let data = existing?.data,
+                   let remote = try? JSONDecoder().decode(
+                        ReaderActivityState.self,
+                        from: data
+                   ),
+                   let remoteDate = FeedHistoryItem.parsedDate(
+                        remote.lastSeenAt
+                   ),
+                   remoteDate > effectiveDate {
+                    effectiveDate = remoteDate
+                }
+
+                // Ist GitHub bereits mindestens auf diesem Stand, ist
+                // kein weiterer Commit nötig.
+                if let data = existing?.data,
+                   let remote = try? JSONDecoder().decode(
+                        ReaderActivityState.self,
+                        from: data
+                   ),
+                   let remoteDate = FeedHistoryItem.parsedDate(
+                        remote.lastSeenAt
+                   ),
+                   remoteDate >= requestedDate {
+                    return
+                }
+
+                let now =
+                    iso.string(from: Date())
+
+                let payload =
+                    ReaderActivityState(
+                        lastSeenAt:
+                            iso.string(
+                                from: effectiveDate
+                            ),
+                        updatedAt:
+                            now,
+                        appVersion:
+                            "5.1.3"
+                    )
+
+                let encoder = JSONEncoder()
+                encoder.outputFormatting = [
+                    .prettyPrinted,
+                    .sortedKeys
+                ]
+
+                let data =
+                    try encoder.encode(
+                        payload
+                    )
+
+                _ = try await client().saveFile(
+                    path: path,
+                    data: data,
+                    sha: existing?.sha,
+                    message:
+                        "Update reader activity via OM News Watcher Mac"
+                )
+
+                return
+            } catch {
+                // GitHub kann genau zwischen GET und PUT geändert worden
+                // sein. Einmal frisch lesen und erneut versuchen.
+                continue
+            }
+        }
+
+        // Reader-Bedienung darf niemals wegen eines optionalen
+        // Synchronisationsfehlers blockieren oder einen Dialog erzeugen.
     }
 
     private func pruneReaderState() {
