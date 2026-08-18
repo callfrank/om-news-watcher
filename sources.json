@@ -1624,6 +1624,7 @@
     "allowTitleOnly" : false,
     "baselineVersion" : "mac-app-20260817-134414",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "checkIntervalMinutes" : 60,
     "enabled" : true,
     "groups" : [
       "Sonstiges"
@@ -1659,7 +1660,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:21Z",
+    "visualValidatedAt" : "2026-08-18T10:12:28Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 14 Treffer",
     "waitMs" : 2500
   },
