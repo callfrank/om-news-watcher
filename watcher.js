@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.22';
+const VERSION = '0.23';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -20,6 +20,8 @@ const MAX_BASELINE_SUPPRESSED_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
 const DEFAULT_SAMPLE_COUNT = 3;
 const SELF_HEAL_WINDOW_HOURS = 48;
+const HISTORICAL_BACKFILL_HOURS = 72;
+const TRACKING_SCHEMA_VERSION = 2;
 
 /*
  * v0.15: stabiler v0.12-Kern + visuell eingelernten Selektoren + Datumsmetadaten
@@ -366,8 +368,44 @@ function pageDateTimestamp(value = '') {
     );
   }
 
-  const parsed = Date.parse(text);
+  match = text.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](20\d{2})$/);
+  if (match) {
+    return Date.UTC(
+      Number(match[3]),
+      Number(match[2]) - 1,
+      Number(match[1]),
+      12, 0, 0
+    );
+  }
+
+  // Browser-/CMS-Daten wie "Aug. 18, 2026" oder "August 18, 2026".
+  const parsed = Date.parse(text.replace(/\bSept\./i, 'Sep'));
   return Number.isFinite(parsed) ? parsed : NaN;
+}
+
+function publicationISOFromPageDate(value = '') {
+  const timestamp = pageDateTimestamp(value);
+  if (!Number.isFinite(timestamp)) return null;
+  return new Date(timestamp).toISOString();
+}
+
+function itemPublishedTimestamp(item) {
+  const published = Date.parse(String(item?.publishedAt || ''));
+  if (Number.isFinite(published)) return published;
+  return pageDateTimestamp(item?.pageDate || '');
+}
+
+function isHistoricalBackfill(item, hours = HISTORICAL_BACKFILL_HOURS) {
+  const published = itemPublishedTimestamp(item);
+  const delivered = Date.parse(
+    String(item?.deliveredAt || item?.detectedAt || '')
+  );
+
+  if (!Number.isFinite(published) || !Number.isFinite(delivered)) {
+    return item?.historicalBackfill === true;
+  }
+
+  return delivered - published > hours * 60 * 60 * 1000;
 }
 
 function rowIsRecent(row, checkedAt, hours = SELF_HEAL_WINDOW_HOURS) {
@@ -394,7 +432,8 @@ function compactAuditRow(row) {
   return {
     title: row.title || '',
     link: row.link || '',
-    pageDate: row.date || null
+    pageDate: row.date || null,
+    publishedAt: publicationISOFromPageDate(row.date || '')
   };
 }
 
@@ -825,6 +864,10 @@ function sourceFeedLabel(source) {
 
 function makeFeed(items, sources = [], options = {}) {
   const now = new Date().toUTCString();
+
+  items = items.filter(
+    item => item.historicalBackfill !== true
+  );
   const channelTitle = options.title || 'OM News Watcher';
   const channelDescription = options.description || 'Neue Meldungen aus beobachteten Websites für onlinemarktplatz.de';
 
@@ -893,7 +936,13 @@ function makeFeed(items, sources = [], options = {}) {
       <title>${escXml(feedTitle)}</title>
       <link>${escXml(item.link)}</link>
       <guid isPermaLink="false">${escXml(item.guid)}</guid>
-      <pubDate>${escXml(new Date(item.detectedAt).toUTCString())}</pubDate>
+      <pubDate>${escXml(
+        new Date(
+          item.publishedAt ||
+          publicationISOFromPageDate(item.pageDate || '') ||
+          item.detectedAt
+        ).toUTCString()
+      )}</pubDate>
       <description>${escXml(meta.join(' · '))}</description>
       <source>${escXml(label)}</source>
     </item>`;
@@ -1515,7 +1564,9 @@ async function mapWithConcurrency(items, limit, worker) {
       lastStoredBySource: {},
       trackingWarningBySource: {},
       healedCountBySource: {},
-      suppressedByBaselineCountBySource: {}
+      suppressedByBaselineCountBySource: {},
+      baselineSuppressedAtBySource: {},
+      trackingSchemaVersion: 0
     }
   );
 
@@ -1579,6 +1630,12 @@ async function mapWithConcurrency(items, limit, worker) {
   state.suppressedByBaselineCountBySource =
     state.suppressedByBaselineCountBySource || {};
 
+  state.baselineSuppressedAtBySource =
+    state.baselineSuppressedAtBySource || {};
+
+  const trackingMigrationMode =
+    Number(state.trackingSchemaVersion || 0) < TRACKING_SCHEMA_VERSION;
+
   const runStartedAt = new Date();
 
   const sources = enabledSources.filter(
@@ -1612,10 +1669,40 @@ async function mapWithConcurrency(items, limit, worker) {
     enabledSources
   );
 
+  // v0.23: Publikations- und Auslieferungszeit strikt trennen.
+  // Bereits durch v0.22 fälschlich als "neu" eingespielte Altartikel
+  // bleiben für "Alle Meldungen" nachvollziehbar, werden aber als
+  // historischer Backfill markiert und nicht mehr als aktuelle Meldung
+  // behandelt.
+  items = items.map(item => {
+    const publishedAt =
+      item.publishedAt ||
+      publicationISOFromPageDate(item.pageDate || '');
+
+    const deliveredAt =
+      item.deliveredAt ||
+      item.detectedAt ||
+      null;
+
+    const normalized = {
+      ...item,
+      publishedAt,
+      deliveredAt
+    };
+
+    return {
+      ...normalized,
+      historicalBackfill:
+        isHistoricalBackfill(normalized)
+    };
+  });
+
   // Migration v0.22:
   // "gesehen" und "ausgeliefert" sind ab jetzt getrennte Zustände.
   // Bereits gespeicherte Reader-Meldungen gelten selbstverständlich als
   // ausgeliefert und werden in deliveredBySource nachgezogen.
+  const storedLinksBySource = new Map();
+
   for (const item of items) {
     if (!item?.source || !item?.link) continue;
 
@@ -1625,6 +1712,42 @@ async function mapWithConcurrency(items, limit, worker) {
         [item.link],
         MAX_DELIVERED_PER_SOURCE
       );
+
+    if (!storedLinksBySource.has(item.source)) {
+      storedLinksBySource.set(item.source, new Set());
+    }
+    storedLinksBySource.get(item.source).add(item.link);
+
+    for (const duplicateSource of item.duplicateSources || []) {
+      if (!storedLinksBySource.has(duplicateSource)) {
+        storedLinksBySource.set(duplicateSource, new Set());
+      }
+      storedLinksBySource.get(duplicateSource).add(item.link);
+    }
+
+    const existingStored = state.lastStoredBySource[item.source];
+    const existingTime = Date.parse(
+      String(existingStored?.deliveredAt || existingStored?.detectedAt || '')
+    );
+    const itemTime = Date.parse(
+      String(item.deliveredAt || item.detectedAt || '')
+    );
+
+    if (
+      !existingStored ||
+      !Number.isFinite(existingTime) ||
+      (Number.isFinite(itemTime) && itemTime > existingTime)
+    ) {
+      state.lastStoredBySource[item.source] = {
+        title: item.title || '',
+        link: item.link || '',
+        pageDate: item.pageDate || null,
+        publishedAt: item.publishedAt || null,
+        detectedAt: item.detectedAt || null,
+        deliveredAt: item.deliveredAt || item.detectedAt || null,
+        recovered: item.recovered === true
+      };
+    }
   }
 
   let results = [];
@@ -1817,6 +1940,15 @@ async function mapWithConcurrency(items, limit, worker) {
         state.baselineSuppressedBySource[key] || []
       );
 
+    const baselineSuppressedAt =
+      state.baselineSuppressedAtBySource[key] || {};
+
+    const storedLinks =
+      storedLinksBySource.get(key) || new Set();
+
+    const isExplicitCurrentBaselineSuppression = link =>
+      Boolean(baselineSuppressedAt[link]);
+
     if (needsGlobalBaseline) {
       console.log(
         `  ↻ Sauberer Gesamt-Ausgangspunkt (${GLOBAL_BASELINE_TOKEN}) – Quelle wird einmalig neu baseline-gesetzt.`
@@ -1901,31 +2033,75 @@ async function mapWithConcurrency(items, limit, worker) {
     state.lastDetectedBySource[key] =
       compactAuditRow(rows[0]);
 
-    // Wirklich neu = noch nie erkannt UND noch nie ausgeliefert.
-    // Der zweite Test schützt bei beschädigtem/gekürztem seen-State vor
-    // Doppelmeldungen.
+    // items.json ist ab v0.23 die letzte Wahrheit:
+    // Nur was dort tatsächlich gespeichert ist, gilt als ausgeliefert.
     const fresh =
       rows.filter(
         r =>
           !known.has(r.link) &&
-          !delivered.has(r.link)
+          !storedLinks.has(r.link)
       );
 
-    // Selbstheilung:
-    // Ein Link ist bereits "gesehen", wurde aber nie ausgeliefert. Wenn
-    // die Seite ein Veröffentlichungsdatum der letzten 48 Stunden liefert,
-    // holen wir ihn nach. Bewusst baseline-unterdrückte Links sind davon
-    // ausgenommen.
+    // Aktuelle Meldung auf der Website, aber NICHT in items.json:
+    // unabhängig davon, ob alte seen/delivered-Zustände den Link bereits
+    // fälschlich kennen. Genau damit wird der Wortfilter-Fall repariert.
+    //
+    // Nur eine Baseline-Unterdrückung, die ab v0.23 mit Zeitstempel
+    // ausdrücklich protokolliert wurde, darf diese Heilung blockieren.
+    // Alte/legacy baselineSuppressed-Listen gelten nicht mehr als Beweis,
+    // dass eine aktuelle Meldung absichtlich unterdrückt werden sollte.
     const recoverable =
       firstRun
         ? []
         : rows.filter(
             r =>
-              known.has(r.link) &&
-              !delivered.has(r.link) &&
-              !baselineSuppressed.has(r.link) &&
-              rowIsRecent(r, checkedAt)
+              !storedLinks.has(r.link) &&
+              rowIsRecent(r, checkedAt) &&
+              !isExplicitCurrentBaselineSuppression(r.link)
           );
+
+    // Beim ersten v0.23-Migrationslauf oder direkt nach einem Regelwechsel
+    // dürfen neu sichtbar gewordene Archivlinks nicht als aktuelle News
+    // ausgespielt werden. Verlässlich aktuelle Publikationsdaten bleiben
+    // dagegen zulässig.
+    const conservativeFreshMode =
+      trackingMigrationMode || configChanged;
+
+    const firstPreviouslyKnownIndex =
+      rows.findIndex(
+        r => known.has(r.link) || storedLinks.has(r.link)
+      );
+
+    const freshEligible =
+      fresh.filter(r => {
+        if (!conservativeFreshMode) return true;
+        if (rowIsRecent(r, checkedAt)) return true;
+
+        // Ohne Publikationsdatum nur Links akzeptieren, die auf einer
+        // bereits bekannten chronologischen Liste VOR dem ersten bekannten
+        // Artikel auftauchen. Das verhindert historische Archiv-Sweeps.
+        const hasReliableDate =
+          Number.isFinite(pageDateTimestamp(r.date || ''));
+
+        const rowIndex =
+          rows.findIndex(candidate => candidate.link === r.link);
+
+        if (
+          !hasReliableDate &&
+          firstPreviouslyKnownIndex > 0 &&
+          rowIndex >= 0 &&
+          rowIndex < firstPreviouslyKnownIndex
+        ) {
+          return true;
+        }
+
+        return false;
+      });
+
+    const suppressedFresh =
+      fresh.filter(
+        r => !freshEligible.some(candidate => candidate.link === r.link)
+      );
 
     if (firstRun) {
       const suppressedLinks = rows.map(r => r.link);
@@ -1936,6 +2112,14 @@ async function mapWithConcurrency(items, limit, worker) {
           suppressedLinks,
           MAX_BASELINE_SUPPRESSED_PER_SOURCE
         );
+
+      const suppressionTimes = {
+        ...(state.baselineSuppressedAtBySource[key] || {})
+      };
+      for (const link of suppressedLinks) {
+        suppressionTimes[link] = checkedAt;
+      }
+      state.baselineSuppressedAtBySource[key] = suppressionTimes;
 
       state.suppressedByBaselineCountBySource[key] =
         Number(state.suppressedByBaselineCountBySource[key] || 0) +
@@ -1950,7 +2134,7 @@ async function mapWithConcurrency(items, limit, worker) {
     } else if (
       suspiciousSpike(
         known.size,
-        fresh.length,
+        freshEligible.length,
         source
       )
     ) {
@@ -1969,7 +2153,7 @@ async function mapWithConcurrency(items, limit, worker) {
     } else {
       const toDeliverMap = new Map();
 
-      for (const r of fresh) {
+      for (const r of freshEligible) {
         toDeliverMap.set(r.link, {
           row: r,
           recovered: false
@@ -1990,9 +2174,12 @@ async function mapWithConcurrency(items, limit, worker) {
         toDeliver.filter(entry => entry.recovered).length;
 
       console.log(
-        `  ${rows.length} Artikel erkannt, ${fresh.length} neu` +
+        `  ${rows.length} Artikel erkannt, ${freshEligible.length} neu` +
+        (suppressedFresh.length
+          ? `, ${suppressedFresh.length} historische/unklare neue Links nicht als aktuell eingestuft`
+          : '') +
         (healedThisRun
-          ? `, ${healedThisRun} still verlorene Meldung(en) nachgeholt.`
+          ? `, ${healedThisRun} fehlende aktuelle Meldung(en) aus items.json nachgeholt.`
           : '.')
       );
 
@@ -2002,6 +2189,12 @@ async function mapWithConcurrency(items, limit, worker) {
 
       for (const entry of toDeliver) {
         const r = entry.row;
+
+        const nowISO =
+          new Date().toISOString();
+
+        const publishedAt =
+          publicationISOFromPageDate(r.date || '');
 
         const storedItem = {
           guid:
@@ -2032,12 +2225,24 @@ async function mapWithConcurrency(items, limit, worker) {
             r.date ||
             null,
 
+          publishedAt,
+
+          // detectedAt = Zeitpunkt, zu dem dieser Watcher die Meldung
+          // erstmals als auszuliefernden Artikel erkannt hat.
           detectedAt:
-            new Date()
-              .toISOString(),
+            nowISO,
+
+          // deliveredAt wird getrennt geführt, damit spätere
+          // Selbstheilungen nicht mit dem Veröffentlichungsdatum
+          // verwechselt werden.
+          deliveredAt:
+            nowISO,
 
           recovered:
             entry.recovered === true,
+
+          historicalBackfill:
+            false,
 
           recoveryReason:
             entry.recovered
@@ -2047,12 +2252,19 @@ async function mapWithConcurrency(items, limit, worker) {
 
         items.unshift(storedItem);
         delivered.add(r.link);
+        storedLinks.add(r.link);
+
+        if (!storedLinksBySource.has(key)) {
+          storedLinksBySource.set(key, storedLinks);
+        }
 
         state.lastStoredBySource[key] = {
           title: r.title || '',
           link: r.link || '',
           pageDate: r.date || null,
+          publishedAt: storedItem.publishedAt || null,
           detectedAt: storedItem.detectedAt,
+          deliveredAt: storedItem.deliveredAt,
           recovered: entry.recovered === true
         };
       }
@@ -2089,20 +2301,16 @@ async function mapWithConcurrency(items, limit, worker) {
       MAX_SEEN_PER_SOURCE
     );
 
-    // Tracking-Audit nach der Verarbeitung.
-    const deliveredAfter =
-      new Set(
-        state.deliveredBySource[key] || []
-      );
-
+    // Tracking-Audit nach der Verarbeitung:
+    // items.json / storedLinks ist die Wahrheit, NICHT deliveredBySource.
     const unresolvedRecent =
       firstRun
         ? []
         : rows.filter(
             r =>
-              !deliveredAfter.has(r.link) &&
-              !baselineSuppressed.has(r.link) &&
-              rowIsRecent(r, checkedAt)
+              !storedLinks.has(r.link) &&
+              rowIsRecent(r, checkedAt) &&
+              !isExplicitCurrentBaselineSuppression(r.link)
           );
 
     if (unresolvedRecent.length > 0) {
@@ -2232,20 +2440,9 @@ async function mapWithConcurrency(items, limit, worker) {
         Number(state.suppressedByBaselineCountBySource[key] || 0),
       undeliveredRecentCount:
         (() => {
-          const detected = state.lastDetectedBySource[key];
-          if (!detected?.link) return 0;
-          const deliveredSet = new Set(state.deliveredBySource[key] || []);
-          const suppressedSet = new Set(state.baselineSuppressedBySource[key] || []);
-          return (
-            !deliveredSet.has(detected.link) &&
-            !suppressedSet.has(detected.link) &&
-            rowIsRecent(
-              {
-                date: detected.pageDate
-              },
-              state.lastCheckedAtBySource[key] || new Date().toISOString()
-            )
-          ) ? 1 : 0;
+          const warning = state.trackingWarningBySource[key] || '';
+          const match = String(warning).match(/^(\d+)\s+aktuelle Meldung/);
+          return match ? Number(match[1]) : 0;
         })(),
       nextCheckAt: isEnabled
         ? nextCheckAtFor(source, state, new Date())
@@ -2254,6 +2451,9 @@ async function mapWithConcurrency(items, limit, worker) {
       weekdaysOnly: source.weekdaysOnly === true
     };
   });
+
+  state.trackingSchemaVersion =
+    TRACKING_SCHEMA_VERSION;
 
   saveJson(HEALTH_FILE, {
     generatedAt: new Date().toISOString(),
