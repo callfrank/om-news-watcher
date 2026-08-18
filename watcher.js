@@ -12,11 +12,14 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.21';
+const VERSION = '0.22';
 
 const MAX_SEEN_PER_SOURCE = 2500;
+const MAX_DELIVERED_PER_SOURCE = 2500;
+const MAX_BASELINE_SUPPRESSED_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
 const DEFAULT_SAMPLE_COUNT = 3;
+const SELF_HEAL_WINDOW_HOURS = 48;
 
 /*
  * v0.15: stabiler v0.12-Kern + visuell eingelernten Selektoren + Datumsmetadaten
@@ -336,6 +339,72 @@ function normalizePageDate(value = '') {
   }
 
   return text;
+}
+
+
+function pageDateTimestamp(value = '') {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  if (!text) return NaN;
+
+  let match = text.match(/^(\d{1,2})\.(\d{1,2})\.(20\d{2})$/);
+  if (match) {
+    return Date.UTC(
+      Number(match[3]),
+      Number(match[2]) - 1,
+      Number(match[1]),
+      12, 0, 0
+    );
+  }
+
+  match = text.match(/^(20\d{2})-(\d{2})-(\d{2})(?:T.*)?$/);
+  if (match) {
+    return Date.UTC(
+      Number(match[1]),
+      Number(match[2]) - 1,
+      Number(match[3]),
+      12, 0, 0
+    );
+  }
+
+  const parsed = Date.parse(text);
+  return Number.isFinite(parsed) ? parsed : NaN;
+}
+
+function rowIsRecent(row, checkedAt, hours = SELF_HEAL_WINDOW_HOURS) {
+  const rowTime = pageDateTimestamp(row?.date || '');
+  const checkedTime = Date.parse(checkedAt || '');
+
+  if (!Number.isFinite(rowTime) || !Number.isFinite(checkedTime)) {
+    return false;
+  }
+
+  const age = checkedTime - rowTime;
+
+  // Ein reines Veröffentlichungsdatum wird auf 12 Uhr UTC normalisiert.
+  // Deshalb etwas Zukunftstoleranz zulassen.
+  return (
+    age >= -(24 * 60 * 60 * 1000) &&
+    age <= hours * 60 * 60 * 1000
+  );
+}
+
+function compactAuditRow(row) {
+  if (!row) return null;
+
+  return {
+    title: row.title || '',
+    link: row.link || '',
+    pageDate: row.date || null
+  };
+}
+
+function appendUniqueLimited(existing, values, limit) {
+  return [
+    ...new Set([
+      ...(values || []).filter(Boolean),
+      ...(existing || []).filter(Boolean)
+    ])
+  ].slice(0, limit);
 }
 
 function looksLikeArticle(text, href, source) {
@@ -1438,7 +1507,15 @@ async function mapWithConcurrency(items, limit, worker) {
       recentHitCountsBySource: {},
       lastDurationMsBySource: {},
       lastMessageBySource: {},
-      anomalyBySource: {}
+      anomalyBySource: {},
+      deliveredBySource: {},
+      baselineSuppressedBySource: {},
+      explicitBaselineVersionBySource: {},
+      lastDetectedBySource: {},
+      lastStoredBySource: {},
+      trackingWarningBySource: {},
+      healedCountBySource: {},
+      suppressedByBaselineCountBySource: {}
     }
   );
 
@@ -1478,6 +1555,30 @@ async function mapWithConcurrency(items, limit, worker) {
   state.anomalyBySource =
     state.anomalyBySource || {};
 
+  state.deliveredBySource =
+    state.deliveredBySource || {};
+
+  state.baselineSuppressedBySource =
+    state.baselineSuppressedBySource || {};
+
+  state.explicitBaselineVersionBySource =
+    state.explicitBaselineVersionBySource || {};
+
+  state.lastDetectedBySource =
+    state.lastDetectedBySource || {};
+
+  state.lastStoredBySource =
+    state.lastStoredBySource || {};
+
+  state.trackingWarningBySource =
+    state.trackingWarningBySource || {};
+
+  state.healedCountBySource =
+    state.healedCountBySource || {};
+
+  state.suppressedByBaselineCountBySource =
+    state.suppressedByBaselineCountBySource || {};
+
   const runStartedAt = new Date();
 
   const sources = enabledSources.filter(
@@ -1510,6 +1611,21 @@ async function mapWithConcurrency(items, limit, worker) {
     items,
     enabledSources
   );
+
+  // Migration v0.22:
+  // "gesehen" und "ausgeliefert" sind ab jetzt getrennte Zustände.
+  // Bereits gespeicherte Reader-Meldungen gelten selbstverständlich als
+  // ausgeliefert und werden in deliveredBySource nachgezogen.
+  for (const item of items) {
+    if (!item?.source || !item?.link) continue;
+
+    state.deliveredBySource[item.source] =
+      appendUniqueLimited(
+        state.deliveredBySource[item.source] || [],
+        [item.link],
+        MAX_DELIVERED_PER_SOURCE
+      );
+  }
 
   let results = [];
 
@@ -1647,6 +1763,8 @@ async function mapWithConcurrency(items, limit, worker) {
         key
       );
 
+    // baselineVersion bleibt die Versionskennung der Erkennungsregel,
+    // löst aber ab v0.22 KEINEN automatischen Baseline-Reset mehr aus.
     const requestedBaseline =
       String(source.baselineVersion || '');
 
@@ -1657,13 +1775,26 @@ async function mapWithConcurrency(items, limit, worker) {
       requestedBaseline &&
       requestedBaseline !== storedBaseline;
 
+    // Ein neuer Baseline-Lauf darf künftig nur noch bewusst angefordert
+    // werden. Neue Quellen benötigen weiterhin ihren unvermeidbaren
+    // einmaligen Start-Baseline.
+    const explicitBaselineRequest =
+      String(source.baselineRequestedVersion || '');
+
+    const storedExplicitBaseline =
+      String(state.explicitBaselineVersionBySource[key] || '');
+
+    const explicitBaselineChanged =
+      explicitBaselineRequest &&
+      explicitBaselineRequest !== storedExplicitBaseline;
+
     const needsGlobalBaseline =
       state.globalBaselineBySource[key] !==
       GLOBAL_BASELINE_TOKEN;
 
     const firstRun =
       needsGlobalBaseline ||
-      configChanged ||
+      explicitBaselineChanged ||
       (
         state.initializedBySource[key] !== true &&
         !hadPriorState
@@ -1671,9 +1802,19 @@ async function mapWithConcurrency(items, limit, worker) {
 
     const known =
       new Set(
-        (needsGlobalBaseline || configChanged)
+        firstRun
           ? []
           : (state.seenBySource[key] || [])
+      );
+
+    const delivered =
+      new Set(
+        state.deliveredBySource[key] || []
+      );
+
+    const baselineSuppressed =
+      new Set(
+        state.baselineSuppressedBySource[key] || []
       );
 
     if (needsGlobalBaseline) {
@@ -1682,9 +1823,15 @@ async function mapWithConcurrency(items, limit, worker) {
       );
     }
 
-    if (configChanged) {
+    if (explicitBaselineChanged) {
       console.log(
-        `  ↻ Neue Erkennungsregel (${requestedBaseline}) – Quelle wird einmalig neu baseline-gesetzt.`
+        `  ↻ Explizit angeforderter Baseline-Lauf (${explicitBaselineRequest}).`
+      );
+    }
+
+    if (configChanged && !firstRun) {
+      console.log(
+        `  ↻ Neue Erkennungsregel (${requestedBaseline}) – bestehender Tracking-Stand bleibt erhalten.`
       );
     }
 
@@ -1700,13 +1847,18 @@ async function mapWithConcurrency(items, limit, worker) {
       state.initializedBySource[key] =
         true;
 
-      if (!hadPriorState || configChanged) {
+      if (!hadPriorState) {
         state.seenBySource[key] =
           [];
       }
 
       if (requestedBaseline) {
         state.configVersionBySource[key] = requestedBaseline;
+      }
+
+      if (explicitBaselineRequest) {
+        state.explicitBaselineVersionBySource[key] =
+          explicitBaselineRequest;
       }
 
       state.globalBaselineBySource[key] =
@@ -1746,19 +1898,53 @@ async function mapWithConcurrency(items, limit, worker) {
       }
     }
 
+    state.lastDetectedBySource[key] =
+      compactAuditRow(rows[0]);
+
+    // Wirklich neu = noch nie erkannt UND noch nie ausgeliefert.
+    // Der zweite Test schützt bei beschädigtem/gekürztem seen-State vor
+    // Doppelmeldungen.
     const fresh =
       rows.filter(
         r =>
-          !known.has(r.link)
+          !known.has(r.link) &&
+          !delivered.has(r.link)
       );
 
-    if (!firstRun && fresh.length > 0) {
-      state.lastNewAtBySource[key] = checkedAt;
-    }
+    // Selbstheilung:
+    // Ein Link ist bereits "gesehen", wurde aber nie ausgeliefert. Wenn
+    // die Seite ein Veröffentlichungsdatum der letzten 48 Stunden liefert,
+    // holen wir ihn nach. Bewusst baseline-unterdrückte Links sind davon
+    // ausgenommen.
+    const recoverable =
+      firstRun
+        ? []
+        : rows.filter(
+            r =>
+              known.has(r.link) &&
+              !delivered.has(r.link) &&
+              !baselineSuppressed.has(r.link) &&
+              rowIsRecent(r, checkedAt)
+          );
 
     if (firstRun) {
+      const suppressedLinks = rows.map(r => r.link);
+
+      state.baselineSuppressedBySource[key] =
+        appendUniqueLimited(
+          state.baselineSuppressedBySource[key] || [],
+          suppressedLinks,
+          MAX_BASELINE_SUPPRESSED_PER_SOURCE
+        );
+
+      state.suppressedByBaselineCountBySource[key] =
+        Number(state.suppressedByBaselineCountBySource[key] || 0) +
+        suppressedLinks.length;
+
+      state.trackingWarningBySource[key] = null;
+
       console.log(
-        `  Erster Lauf: ${rows.length} bestehende Links als bekannt gespeichert, keine Altmeldungen ausgegeben.`
+        `  Erster/Baseline-Lauf: ${rows.length} bestehende Links als bekannt gespeichert, keine Altmeldungen ausgegeben.`
       );
 
     } else if (
@@ -1768,20 +1954,56 @@ async function mapWithConcurrency(items, limit, worker) {
         source
       )
     ) {
+      state.trackingWarningBySource[key] =
+        `Verdächtiger Sprung: ${fresh.length} neue Links wurden noch nicht ausgeliefert`;
+
       console.log(
         `  ⚠ VERDÄCHTIGER SPRUNG: ${rows.length} Artikel erkannt, ${fresh.length} neu. ` +
         'Neue Links werden vorsichtshalber NICHT in den Feed übernommen.'
       );
 
+      // Wichtig: diese neuen Links absichtlich NICHT in seenBySource
+      // übernehmen. So werden sie beim nächsten Lauf erneut geprüft.
       continue;
 
     } else {
-      console.log(
-        `  ${rows.length} Artikel erkannt, ${fresh.length} neu.`
-      );
+      const toDeliverMap = new Map();
 
       for (const r of fresh) {
-        items.unshift({
+        toDeliverMap.set(r.link, {
+          row: r,
+          recovered: false
+        });
+      }
+
+      for (const r of recoverable) {
+        if (!toDeliverMap.has(r.link)) {
+          toDeliverMap.set(r.link, {
+            row: r,
+            recovered: true
+          });
+        }
+      }
+
+      const toDeliver = [...toDeliverMap.values()];
+      const healedThisRun =
+        toDeliver.filter(entry => entry.recovered).length;
+
+      console.log(
+        `  ${rows.length} Artikel erkannt, ${fresh.length} neu` +
+        (healedThisRun
+          ? `, ${healedThisRun} still verlorene Meldung(en) nachgeholt.`
+          : '.')
+      );
+
+      if (toDeliver.length > 0) {
+        state.lastNewAtBySource[key] = checkedAt;
+      }
+
+      for (const entry of toDeliver) {
+        const r = entry.row;
+
+        const storedItem = {
           guid:
             idFor(r.link),
 
@@ -1812,9 +2034,45 @@ async function mapWithConcurrency(items, limit, worker) {
 
           detectedAt:
             new Date()
-              .toISOString()
-        });
+              .toISOString(),
+
+          recovered:
+            entry.recovered === true,
+
+          recoveryReason:
+            entry.recovered
+              ? 'seen-but-never-delivered-within-48h'
+              : null
+        };
+
+        items.unshift(storedItem);
+        delivered.add(r.link);
+
+        state.lastStoredBySource[key] = {
+          title: r.title || '',
+          link: r.link || '',
+          pageDate: r.date || null,
+          detectedAt: storedItem.detectedAt,
+          recovered: entry.recovered === true
+        };
       }
+
+      if (healedThisRun > 0) {
+        state.healedCountBySource[key] =
+          Number(state.healedCountBySource[key] || 0) +
+          healedThisRun;
+
+        console.log(
+          `  🩹 TRACKING-REPARATUR: ${healedThisRun} Meldung(en) waren gesehen, aber nie ausgeliefert.`
+        );
+      }
+
+      state.deliveredBySource[key] =
+        appendUniqueLimited(
+          state.deliveredBySource[key] || [],
+          [...delivered],
+          MAX_DELIVERED_PER_SOURCE
+        );
     }
 
     const merged = [
@@ -1831,11 +2089,39 @@ async function mapWithConcurrency(items, limit, worker) {
       MAX_SEEN_PER_SOURCE
     );
 
+    // Tracking-Audit nach der Verarbeitung.
+    const deliveredAfter =
+      new Set(
+        state.deliveredBySource[key] || []
+      );
+
+    const unresolvedRecent =
+      firstRun
+        ? []
+        : rows.filter(
+            r =>
+              !deliveredAfter.has(r.link) &&
+              !baselineSuppressed.has(r.link) &&
+              rowIsRecent(r, checkedAt)
+          );
+
+    if (unresolvedRecent.length > 0) {
+      state.trackingWarningBySource[key] =
+        `${unresolvedRecent.length} aktuelle Meldung(en) erkannt, aber nicht ausgeliefert`;
+    } else {
+      delete state.trackingWarningBySource[key];
+    }
+
     state.initializedBySource[key] =
       true;
 
     if (requestedBaseline) {
       state.configVersionBySource[key] = requestedBaseline;
+    }
+
+    if (explicitBaselineRequest) {
+      state.explicitBaselineVersionBySource[key] =
+        explicitBaselineRequest;
     }
 
     state.globalBaselineBySource[key] =
@@ -1927,8 +2213,40 @@ async function mapWithConcurrency(items, limit, worker) {
         )
           ? Number(state.lastDurationMsBySource[key])
           : null,
-      anomaly: state.anomalyBySource[key] || null,
+      anomaly: [
+        state.anomalyBySource[key],
+        state.trackingWarningBySource[key]
+      ].filter(Boolean).join(' · ') || null,
       message: state.lastMessageBySource[key] || null,
+      trackingStatus:
+        state.trackingWarningBySource[key]
+          ? 'warning'
+          : Number(state.healedCountBySource[key] || 0) > 0
+          ? 'healed'
+          : 'ok',
+      trackingWarning: state.trackingWarningBySource[key] || null,
+      latestDetected: state.lastDetectedBySource[key] || null,
+      latestStored: state.lastStoredBySource[key] || null,
+      healedCount: Number(state.healedCountBySource[key] || 0),
+      baselineSuppressedCount:
+        Number(state.suppressedByBaselineCountBySource[key] || 0),
+      undeliveredRecentCount:
+        (() => {
+          const detected = state.lastDetectedBySource[key];
+          if (!detected?.link) return 0;
+          const deliveredSet = new Set(state.deliveredBySource[key] || []);
+          const suppressedSet = new Set(state.baselineSuppressedBySource[key] || []);
+          return (
+            !deliveredSet.has(detected.link) &&
+            !suppressedSet.has(detected.link) &&
+            rowIsRecent(
+              {
+                date: detected.pageDate
+              },
+              state.lastCheckedAtBySource[key] || new Date().toISOString()
+            )
+          ) ? 1 : 0;
+        })(),
       nextCheckAt: isEnabled
         ? nextCheckAtFor(source, state, new Date())
         : null,
