@@ -1,5 +1,85 @@
 [
   {
+    "guid": "89699efa4439f163c08fc148",
+    "source": "Zew",
+    "sourceLabel": "Zew",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Deutlich mehr Unternehmensschließungen // 2025 schlossen fast 190.000 Unternehmen in Deutschland",
+    "link": "https://www.zew.de/presse/pressearchiv/deutlich-mehr-unternehmensschliessungen",
+    "pageDate": null,
+    "detectedAt": "2026-08-18T07:05:27.856Z"
+  },
+  {
+    "guid": "bbd071e832a502649fbc9067",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Foodservice inflation continues in July as drought concerns mount",
+    "link": "https://nielseniq.com/global/en/news-center/2026/foodservice-inflation-continues-in-july-as-drought-concerns-mount/",
+    "pageDate": "18.08.2026",
+    "detectedAt": "2026-08-18T07:05:27.855Z"
+  },
+  {
+    "guid": "fdf93c51a6b193ed75724cdd",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "HDE warnt vor China-Shops mit deutscher Tarnung",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15298-hde-warnt-vor-china-shops-mit-deutscher-tarnung",
+    "pageDate": null,
+    "detectedAt": "2026-08-18T07:05:27.850Z"
+  },
+  {
+    "guid": "9c70c15487b37da9a320c171",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "https://onlinemarktplatz.de/",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "E-Commerce Markt Kroatien: Prognose sieht Anstieg auf 2,3 Mrd. USD",
+    "link": "https://onlinemarktplatz.de/264080/e-commerce-markt-kroatien/",
+    "pageDate": "18.08.2026",
+    "detectedAt": "2026-08-18T07:05:27.850Z"
+  },
+  {
+    "guid": "da5e37321aa27bc101801dc0",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "https://onlinemarktplatz.de/",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Generation 60+: Ältere Kunden werden für den Onlinehandel wichtiger",
+    "link": "https://onlinemarktplatz.de/271118/generation-60-plus/",
+    "pageDate": "18.08.2026",
+    "detectedAt": "2026-08-18T07:05:27.850Z"
+  },
+  {
+    "guid": "9e7d28b16648d1ea10a04dc0",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "https://onlinemarktplatz.de/",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Google beendet Content API for Shopping: Händler müssen umstellen",
+    "link": "https://onlinemarktplatz.de/271138/google-merchant-api/",
+    "pageDate": "18.08.2026",
+    "detectedAt": "2026-08-18T07:05:27.850Z"
+  },
+  {
     "guid": "5947f48169d46691e595c966",
     "source": "DeStatis",
     "sourceLabel": "DeStatis",
