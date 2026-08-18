@@ -3263,5 +3263,111 @@
     "visualValidatedAt" : "2026-08-18T06:05:15Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-080636",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://www\\.ebayinc\\.com/stories/press-room/de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "eBay DE",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.ebayinc.com/stories/press-room/de/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T06:06:36Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
+      "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+      "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T06:06:39Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer · URL-Muster",
+    "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-080837",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://mediacenter\\.rewe\\.de/pressemitteilungen/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Rewe",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "time.tile__date",
+      "item" : "a.tile",
+      "link" : "a.tile",
+      "title" : "h2.tile__title"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://mediacenter.rewe.de/pressemitteilungen",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T06:08:37Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://mediacenter.rewe.de/pressemitteilungen/mit-rewe-bonus-einen-von-50000-aral-tankgutscheinen-gewinnen",
+      "https://mediacenter.rewe.de/pressemitteilungen/switch-nahkauf-2026",
+      "https://mediacenter.rewe.de/pressemitteilungen/rewe-er%C3%B6ffnet-green-farming-markt-in-berlin-lankwitz"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T06:08:40Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 24 Treffer · Kartenstruktur + URL-Muster",
+    "waitMs" : 2500
   }
 ]
