@@ -51,6 +51,7 @@ jobs:
           TMP_DIR="$(mktemp -d)"
           cp data/state.json "$TMP_DIR/state.json"
           cp data/items.json "$TMP_DIR/items.json"
+          cp data/health.json "$TMP_DIR/health.json"
           cp docs/feed.xml "$TMP_DIR/feed.xml"
           mkdir -p "$TMP_DIR/feeds"
           if [ -d docs/feeds ]; then cp -R docs/feeds/. "$TMP_DIR/feeds/"; fi
@@ -67,12 +68,13 @@ jobs:
 
             cp "$TMP_DIR/state.json" data/state.json
             cp "$TMP_DIR/items.json" data/items.json
+            cp "$TMP_DIR/health.json" data/health.json
             cp "$TMP_DIR/feed.xml" docs/feed.xml
             rm -rf docs/feeds
             mkdir -p docs/feeds
             if [ -d "$TMP_DIR/feeds" ]; then cp -R "$TMP_DIR/feeds/." docs/feeds/; fi
 
-            git add data/state.json data/items.json docs/feed.xml docs/feeds
+            git add data/state.json data/items.json data/health.json docs/feed.xml docs/feeds
 
             if git diff --cached --quiet; then
               echo "Keine Änderungen – nichts zu speichern."
