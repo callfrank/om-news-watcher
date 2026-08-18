@@ -1,6 +1,6 @@
 [
   {
-    "guid": "f4d5ececbffeeb2bea91c00a",
+    "guid": "aef4cd5989909db41f3b8758",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,18 @@
     ],
     "priority": 2,
     "title": "Uber and Zipline Partner to Bring Drone Delivery to Millions of Americans",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
     "pageDate": "August 17, 2026",
-    "detectedAt": "2026-08-18T11:15:59.084Z",
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "detectedAt": "2026-08-18T11:54:24.973Z",
+    "deliveredAt": "2026-08-18T11:54:24.973Z",
     "recovered": true,
+    "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
   },
   {
-    "guid": "c94c6e496c6216c043556ace",
+    "guid": "3ee8b872934bbee751b5203f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -31,10 +34,13 @@
     "tags": [],
     "priority": 2,
     "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
     "pageDate": "17.08.2026",
-    "detectedAt": "2026-08-18T11:15:59.081Z",
+    "publishedAt": "2026-08-17T12:00:00.000Z",
+    "detectedAt": "2026-08-18T11:54:24.972Z",
+    "deliveredAt": "2026-08-18T11:54:24.972Z",
     "recovered": true,
+    "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
   },
@@ -52,7 +58,10 @@
     "pageDate": "January 28th, 2026",
     "detectedAt": "2026-08-18T11:15:59.080Z",
     "recovered": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T11:15:59.080Z",
+    "historicalBackfill": false
   },
   {
     "guid": "52daed4f5ffa4c2898ac6927",
@@ -68,7 +77,10 @@
     "pageDate": "March 3rd, 2026",
     "detectedAt": "2026-08-18T11:15:59.080Z",
     "recovered": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T11:15:59.080Z",
+    "historicalBackfill": false
   },
   {
     "guid": "00bcbcec4135653e402625fc",
@@ -84,7 +96,10 @@
     "pageDate": "March 17th, 2026",
     "detectedAt": "2026-08-18T11:15:59.080Z",
     "recovered": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T11:15:59.080Z",
+    "historicalBackfill": false
   },
   {
     "guid": "7f5f79e0b0981c3a22d6265e",
@@ -100,7 +115,10 @@
     "pageDate": "April 21st, 2026",
     "detectedAt": "2026-08-18T11:15:59.080Z",
     "recovered": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T11:15:59.080Z",
+    "historicalBackfill": false
   },
   {
     "guid": "ffbaaf5a90e4992229718bde",
@@ -116,7 +134,10 @@
     "pageDate": "May 12th, 2026",
     "detectedAt": "2026-08-18T11:15:59.080Z",
     "recovered": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T11:15:59.080Z",
+    "historicalBackfill": false
   },
   {
     "guid": "e3ee63962e1613ee45ff1c0a",
@@ -132,7 +153,10 @@
     "pageDate": "May 27th, 2026",
     "detectedAt": "2026-08-18T11:15:59.080Z",
     "recovered": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T11:15:59.080Z",
+    "historicalBackfill": false
   },
   {
     "guid": "a6fce8a6163a222407efc613",
@@ -148,7 +172,10 @@
     "pageDate": "June 11th, 2026",
     "detectedAt": "2026-08-18T11:15:59.080Z",
     "recovered": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T11:15:59.080Z",
+    "historicalBackfill": false
   },
   {
     "guid": "f2185a20213663858e2379a8",
@@ -164,7 +191,10 @@
     "pageDate": "July 10th, 2026",
     "detectedAt": "2026-08-18T11:15:59.080Z",
     "recovered": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T11:15:59.080Z",
+    "historicalBackfill": false
   },
   {
     "guid": "aca2c7524ceb76f1e99ffa58",
@@ -180,7 +210,10 @@
     "pageDate": "July 22nd, 2026",
     "detectedAt": "2026-08-18T11:15:59.080Z",
     "recovered": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T11:15:59.080Z",
+    "historicalBackfill": false
   },
   {
     "guid": "7110a373cb002af607fd49de",
@@ -198,7 +231,10 @@
     "pageDate": "Aug. 17, 2026",
     "detectedAt": "2026-08-18T11:15:59.079Z",
     "recovered": true,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "deliveredAt": "2026-08-18T11:15:59.079Z",
+    "historicalBackfill": false
   },
   {
     "guid": "3b9eed22aab979df500bfb7a",
@@ -214,7 +250,10 @@
     "pageDate": "17.08.2026",
     "detectedAt": "2026-08-18T11:15:59.075Z",
     "recovered": true,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "publishedAt": "2026-08-17T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T11:15:59.075Z",
+    "historicalBackfill": false
   },
   {
     "guid": "7fd977f767fe7c5da739e223",
@@ -230,7 +269,10 @@
     "pageDate": "17.08.2026",
     "detectedAt": "2026-08-18T11:15:59.068Z",
     "recovered": true,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "publishedAt": "2026-08-17T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T11:15:59.068Z",
+    "historicalBackfill": false
   },
   {
     "guid": "7754a067a26ffa7e54c13a91",
@@ -246,7 +288,10 @@
     "pageDate": "17.08.2026",
     "detectedAt": "2026-08-18T11:15:59.068Z",
     "recovered": true,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "publishedAt": "2026-08-17T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T11:15:59.068Z",
+    "historicalBackfill": false
   },
   {
     "guid": "95718bb2e0159b6f95790ffb",
@@ -264,7 +309,10 @@
     "title": "Amazon AWD startet in Europa: Das müssen Händler wissen",
     "link": "https://onlinemarktplatz.de/271154/amazon-awd-europa/",
     "pageDate": "18.08.2026",
-    "detectedAt": "2026-08-18T10:55:10.797Z"
+    "detectedAt": "2026-08-18T10:55:10.797Z",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T10:55:10.797Z",
+    "historicalBackfill": false
   },
   {
     "guid": "519653bad0ffc1ed0d551468",
@@ -280,7 +328,10 @@
     "title": "Niedrigwasser bei Flussreisen – welche Rechte haben Reisende?",
     "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/niedrigwasser-bei-flussreisen-welche-rechte-haben-reisende-125188",
     "pageDate": "18.08.2026",
-    "detectedAt": "2026-08-18T10:55:10.797Z"
+    "detectedAt": "2026-08-18T10:55:10.797Z",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T10:55:10.797Z",
+    "historicalBackfill": false
   },
   {
     "guid": "b28b4f4e5d7989c37a50890a",
@@ -296,7 +347,10 @@
     "title": "Konjunkturerwartungen ziehen weiter an // Der ZEW-Indikator liegt bei plus 34,2 Punkten",
     "link": "https://www.zew.de/presse/pressearchiv/konjunkturerwartungen-ziehen-weiter-an",
     "pageDate": null,
-    "detectedAt": "2026-08-18T09:50:16.717Z"
+    "detectedAt": "2026-08-18T09:50:16.717Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T09:50:16.717Z",
+    "historicalBackfill": false
   },
   {
     "guid": "7ace03009a259bae21ad4cae",
@@ -312,7 +366,10 @@
     "title": "Record-breaking summer keeps supermarket sales growing as shoppers opt for convenience",
     "link": "https://nielseniq.com/global/en/news-center/2026/record-breaking-summer-keeps-supermarket-sales-growing-as-shoppers-opt-for-convenience/",
     "pageDate": "18.08.2026",
-    "detectedAt": "2026-08-18T08:32:33.767Z"
+    "detectedAt": "2026-08-18T08:32:33.767Z",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T08:32:33.767Z",
+    "historicalBackfill": false
   },
   {
     "guid": "23c7147a502340b24499d86d",
@@ -326,7 +383,10 @@
     "title": "18.08.2026",
     "link": "https://news.post.at/presse/de/post/id/2333519/SICHER%20ERREICHBAR%20ZUM%20SCHULSTART:%20YELLLOW%20STARTET%20KIDS%20TARIF",
     "pageDate": null,
-    "detectedAt": "2026-08-18T08:32:33.766Z"
+    "detectedAt": "2026-08-18T08:32:33.766Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T08:32:33.766Z",
+    "historicalBackfill": false
   },
   {
     "guid": "dbd7a94de0cde2dd9308d4ba",
@@ -340,7 +400,10 @@
     "title": "SICHER ERREICHBAR ZUM SCHULSTART: YELLLOW STARTET KIDS TARIF",
     "link": "https://news.post.at/presse/de/post/id/2333519/SICHER%20ERREICHBAR%20ZUM%20SCHULSTART%3A%20YELLLOW%20STARTET%20KIDS%20TARIF",
     "pageDate": "18.08.2026",
-    "detectedAt": "2026-08-18T08:32:33.765Z"
+    "detectedAt": "2026-08-18T08:32:33.765Z",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T08:32:33.765Z",
+    "historicalBackfill": false
   },
   {
     "guid": "89699efa4439f163c08fc148",
@@ -356,7 +419,10 @@
     "title": "Deutlich mehr Unternehmensschließungen // 2025 schlossen fast 190.000 Unternehmen in Deutschland",
     "link": "https://www.zew.de/presse/pressearchiv/deutlich-mehr-unternehmensschliessungen",
     "pageDate": null,
-    "detectedAt": "2026-08-18T07:05:27.856Z"
+    "detectedAt": "2026-08-18T07:05:27.856Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T07:05:27.856Z",
+    "historicalBackfill": false
   },
   {
     "guid": "bbd071e832a502649fbc9067",
@@ -372,7 +438,10 @@
     "title": "Foodservice inflation continues in July as drought concerns mount",
     "link": "https://nielseniq.com/global/en/news-center/2026/foodservice-inflation-continues-in-july-as-drought-concerns-mount/",
     "pageDate": "18.08.2026",
-    "detectedAt": "2026-08-18T07:05:27.855Z"
+    "detectedAt": "2026-08-18T07:05:27.855Z",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T07:05:27.855Z",
+    "historicalBackfill": false
   },
   {
     "guid": "fdf93c51a6b193ed75724cdd",
@@ -389,7 +458,10 @@
     "title": "HDE warnt vor China-Shops mit deutscher Tarnung",
     "link": "https://einzelhandel.de/presse/aktuellemeldungen/15298-hde-warnt-vor-china-shops-mit-deutscher-tarnung",
     "pageDate": null,
-    "detectedAt": "2026-08-18T07:05:27.850Z"
+    "detectedAt": "2026-08-18T07:05:27.850Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T07:05:27.850Z",
+    "historicalBackfill": false
   },
   {
     "guid": "9c70c15487b37da9a320c171",
@@ -407,7 +479,10 @@
     "title": "E-Commerce Markt Kroatien: Prognose sieht Anstieg auf 2,3 Mrd. USD",
     "link": "https://onlinemarktplatz.de/264080/e-commerce-markt-kroatien/",
     "pageDate": "18.08.2026",
-    "detectedAt": "2026-08-18T07:05:27.850Z"
+    "detectedAt": "2026-08-18T07:05:27.850Z",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T07:05:27.850Z",
+    "historicalBackfill": false
   },
   {
     "guid": "da5e37321aa27bc101801dc0",
@@ -425,7 +500,10 @@
     "title": "Generation 60+: Ältere Kunden werden für den Onlinehandel wichtiger",
     "link": "https://onlinemarktplatz.de/271118/generation-60-plus/",
     "pageDate": "18.08.2026",
-    "detectedAt": "2026-08-18T07:05:27.850Z"
+    "detectedAt": "2026-08-18T07:05:27.850Z",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T07:05:27.850Z",
+    "historicalBackfill": false
   },
   {
     "guid": "9e7d28b16648d1ea10a04dc0",
@@ -443,7 +521,10 @@
     "title": "Google beendet Content API for Shopping: Händler müssen umstellen",
     "link": "https://onlinemarktplatz.de/271138/google-merchant-api/",
     "pageDate": "18.08.2026",
-    "detectedAt": "2026-08-18T07:05:27.850Z"
+    "detectedAt": "2026-08-18T07:05:27.850Z",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T07:05:27.850Z",
+    "historicalBackfill": false
   },
   {
     "guid": "5947f48169d46691e595c966",
@@ -459,7 +540,10 @@
     "title": "Apfelernte 2026 voraussichtlich 5,4 % unter Zehnjahresschnitt18. August 2026",
     "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_293_412.html",
     "pageDate": null,
-    "detectedAt": "2026-08-18T06:04:52.855Z"
+    "detectedAt": "2026-08-18T06:04:52.855Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T06:04:52.855Z",
+    "historicalBackfill": false
   },
   {
     "guid": "d58c8428b3729e309cd23ce0",
@@ -475,7 +559,10 @@
     "title": "Erwerbstätigkeit im 2. Quartal 2026 saisonbereinigt gesunken18. August 2026",
     "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_292_13321.html",
     "pageDate": null,
-    "detectedAt": "2026-08-18T06:04:52.855Z"
+    "detectedAt": "2026-08-18T06:04:52.855Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T06:04:52.855Z",
+    "historicalBackfill": false
   },
   {
     "guid": "3c1996deff713b50b06c6fdf",
@@ -491,7 +578,10 @@
     "title": "Baugenehmigungen für Wohnungen im Juni 2026: +13,8 % zum Vorjahresmonat18. August 2026",
     "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_291_3111.html",
     "pageDate": null,
-    "detectedAt": "2026-08-18T06:04:52.855Z"
+    "detectedAt": "2026-08-18T06:04:52.855Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T06:04:52.855Z",
+    "historicalBackfill": false
   },
   {
     "guid": "482fc29274707a31c988e469",
@@ -507,7 +597,10 @@
     "title": "36 % aller Übernachtungen in Österreich von Gästen aus Deutschland18. August 2026",
     "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_34_p002.html",
     "pageDate": null,
-    "detectedAt": "2026-08-18T06:04:52.855Z"
+    "detectedAt": "2026-08-18T06:04:52.855Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T06:04:52.855Z",
+    "historicalBackfill": false
   },
   {
     "guid": "4cc6bc36610b2b72049e971d",
@@ -523,7 +616,10 @@
     "title": "Medieninformation: 4. Telekom Starkick bietet Fußball-Spektakel der Extraklasse",
     "link": "https://www.telekom.com/de/medien/medieninformationen/detail/4-telekom-starkick-bietet-fussball-spektakel-der-extraklasse-1106674",
     "pageDate": "18.08.2026",
-    "detectedAt": "2026-08-18T06:04:52.851Z"
+    "detectedAt": "2026-08-18T06:04:52.851Z",
+    "publishedAt": "2026-08-18T12:00:00.000Z",
+    "deliveredAt": "2026-08-18T06:04:52.851Z",
+    "historicalBackfill": false
   },
   {
     "guid": "295afee6b68d446806e71f57",
@@ -540,7 +636,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=34834ba603581a6149d0ed54787c6ecd279fa6126b29&callerId=110518&folderInclude.HASH=952c75073509c702d6bb8a71e8ee00688dee245f6095&folderExclude.HASH=e511acf3043d7e9a83de08b72af12e9b1a8ef2703673&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "5bfe5e3a31c59e32fec57d33",
@@ -557,7 +656,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Veranstaltungssuche/Archiv/Veranstaltungssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=0c5fee29d1788076fadf9c1dbb73c297eeb1f42a350b&callerId=110572&folderInclude.HASH=2a69334c1edd5ab73355914d25b226b850d1646042c4&folderExclude.HASH=ffebadb4d07f75070acf7af8b7697b5578ec406717bb&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "d3da4b96629591c10b55aeb1",
@@ -573,7 +675,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=655566e47916457179f8e95fae2a5c9a0b480d4c93c8&callerId.HASH=2672339e341cb4777575d36d367ed5b93eaa1e2eb19e&callerId=110568&folderInclude.HASH=a4b095416d71e783f857e6fee6293e349d3135606ddc&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=f78b88fb41a3d59bc0562874d937aafe1e8d20e43963&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T03:58:45.344Z"
+    "detectedAt": "2026-08-18T03:58:45.344Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "857f5bdfd188251bbf97428b",
@@ -590,7 +695,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=18b32f68427858262a48e498b05ae25cc421b3434925&callerId.HASH=6a8f764ee33f98097e3fc0d809877cdbeacecc144b5f&callerId=110568&folderInclude.HASH=94dc39e9650a7703b108d8db0e8c8bc8cf863601ffc9&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=7f78436b00ef97df25eb40bdcfd5e695faf70eb1ccd2&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "5a3eb912115e29116759fe9b",
@@ -607,7 +715,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=d8b31ae92256de0a311b517bc790d7a9f78511f262e8&callerId=110518&folderInclude.HASH=0064b7ab06d03cb376b6156953df2a52d47fac214344&folderExclude.HASH=8225a8c44079685b7b20692432d6fc6370674ec678e9&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "dc66b580ca63422f68aaa651",
@@ -624,7 +735,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/RiVAStsuche/RiVASt_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=821148368eeec5518f0fa58e68998f4b833fd698aeec&callerId=110522&folderInclude.HASH=d58fa63dd89a91f8340d4468b48a25525e9061176209&folderExclude.HASH=9ac0641c318fdb17945d3f9cbbf43add4b536715c5ca&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "3dd14ddc1870d8fe48329d49",
@@ -641,7 +755,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Belehrungsformularsuche/Belehrungsformularsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=c1cd4550d9d0d9d6f3d03f4b9d855b8df3e68389ee13&callerId=111028&folderInclude.HASH=7647ecaf6c9e0093f666eba8515278e9071a268b59be&folderExclude.HASH=37ddfa39e6d32b82255a10edf025ca94aee3ad9344fd&folderInclude=%2FBMJ%2FSharedDocs%2FDownloads%2FDE%2FFormular%2FBelehrungsformulare_Jugendliche%2F*+",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "cf2367f3729c1d04d792cae9",
@@ -658,7 +775,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Belehrungsformularsuche/Belehrungsformularsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=40613dc0ac144ee8c13a14112ff3c233680556c40add&callerId=111026&folderInclude.HASH=88c1976bbc063e15c3e241aa3c2dd26fee6b76eeb147&folderExclude.HASH=3e5d7141521aa24218d18832cc234125c937966cd3cd&folderInclude=%2FBMJ%2FSharedDocs%2FDownloads%2FDE%2FFormular%2FBelehrungsformulare_Erwachsene%2F*+",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "92328c6bdd2c30da17214cdd",
@@ -675,7 +795,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren_Archiv/Gesetzgebungsverfahrenssuche_Archiv_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=f98505bb4c1484b801c5fd79d94b9eae669a399d0900&callerId=262054&folderInclude.HASH=57b0e4106c27abe0727ccbecc9494995657ab381dd95&folderExclude.HASH=ab73b5e41d72b1c9ecd5d2d35c2ba0d44289dbf1d5e9&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "7eb53704d6bbd56f156b753c",
@@ -692,7 +815,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Anlagen/Gesetzgebungsverfahrensanlagensuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=6c55c8cff1805390869aa1abfd54cf55179aab39b5ed&callerId=110520&folderInclude.HASH=35126484ebed944725537f3e104c0faf8b1cd8d4217b&folderExclude.HASH=f95fb2e399706f09e40459f5c9abfa6143277a1b5217&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "20528a195c4ad6f5b413d0b2",
@@ -709,7 +835,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=478d452ed2aa6ade700c051995330a9b1790e00c66fd&callerId=110518&folderInclude.HASH=550b5dd5036535fb1e44364aad269aa065853a9b7933&folderExclude.HASH=d08a79067efbb55e1fbddb1c95bf6c3b95f768617c00&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "3f9ccc44017180fd23564307",
@@ -725,7 +854,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=3f4a9843492a58f4f76dbdf3de3e354ea21888e35576&callerId=148026&folderInclude.HASH=28f191021691441182d4a560c514778cac80ee362fbb&folderExclude.HASH=8a80c6948b4cb2cf6d574257563c098360ec4d36dfa3&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T03:58:45.344Z"
+    "detectedAt": "2026-08-18T03:58:45.344Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "85fb2ce06eab7b4bd62032cb",
@@ -742,7 +874,10 @@
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=bfb60d0da38506e0df7022d165a310787ea9eb211d88&callerId.HASH=2dd59aec2d0b5fe6ade04d417ca34cbfebfd85ea2bf4&callerId=110504&folderInclude.HASH=d172ceba8feb9820f69ed68063dd837744d874f653d0&defaultFilter=documentType_%3ASpeech+OR+documentType_%3AInterview+OR+%28documentType_%3ABasepage+AND+cl2Taxonomies_Dokumenttyp%3A0%2FInterviewUndNamensartikel%29&folderExclude.HASH=23d88613b1c5d363a7d491a983d0116059c30ffab370&folderInclude=%2FBMJ%2FSharedDocs%2F*",
     "pageDate": null,
     "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": []
+    "duplicateSources": [],
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "e1ccd3bc355af50f89b73221",
@@ -758,7 +893,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=1565b6b7ad9a95c1bf457bf5ae3e937f6339b193c97c&callerId=148026&folderInclude.HASH=05561a8a112c063afffbac2780c038c8af3d8e4861fe&folderExclude.HASH=2075ff77088a25c9f9fd18ac708e0de06f2238c58662&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T03:58:45.344Z"
+    "detectedAt": "2026-08-18T03:58:45.344Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:58:45.344Z",
+    "historicalBackfill": false
   },
   {
     "guid": "643474a3ae53153c035e054a",
@@ -774,7 +912,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=a80cb44ac354848ae1c2d74cb3cea44b3692c57aede8&callerId.HASH=157bc642707481bf6ed610f5e3d57c21994339e79dfb&callerId=110568&folderInclude.HASH=62dfd9bf025ab06ed9a7d97ebbc201f97c3047cfb1a2&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=6d3597850c5ee4e51be6552ea46f295ebb7f6064449f&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T03:54:31.778Z"
+    "detectedAt": "2026-08-18T03:54:31.778Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:54:31.778Z",
+    "historicalBackfill": false
   },
   {
     "guid": "5258e8435d3afa76396018bc",
@@ -790,7 +931,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=4beaa418979c9f660883b168fa291068bc6d280d520d&callerId=148026&folderInclude.HASH=0c28f6274efbe3089e1e5ef7a508d6ed78a65da66915&folderExclude.HASH=abcf51f8b3b0fe351524e65b7909c54488de77e36262&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T03:54:31.778Z"
+    "detectedAt": "2026-08-18T03:54:31.778Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:54:31.778Z",
+    "historicalBackfill": false
   },
   {
     "guid": "2852806a4c19ad7cd0cab9d4",
@@ -806,7 +950,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=b5a379cd2cb4d64873a37b45e555e0eed9400e079ca5&callerId=148026&folderInclude.HASH=7ddb337dfb240b09c8358b0e819025def61bc0e13f71&folderExclude.HASH=e862d543f675d1ae50fce19639cd8a3f1c0317f25f1d&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T03:54:31.778Z"
+    "detectedAt": "2026-08-18T03:54:31.778Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:54:31.778Z",
+    "historicalBackfill": false
   },
   {
     "guid": "84c041d454f4d8646229f019",
@@ -822,7 +969,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=e966c87c13462d6130896cf41e32541b3cb13161033d&callerId.HASH=18b5afb715a5accd90f9544b8ced591499e11bb31f19&callerId=110568&folderInclude.HASH=d2e02a49677f5a08e75d33d1add97bbfffdeb63ba12d&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=56597b2e4d8426c2591bb082cfc75dbfe925bd34300b&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T03:09:32.996Z"
+    "detectedAt": "2026-08-18T03:09:32.996Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:09:32.996Z",
+    "historicalBackfill": false
   },
   {
     "guid": "04d59723f691d9ed4fcc8d40",
@@ -838,7 +988,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=b17eb45d9f1f6e51f153a750cf35ea0b5c97876275cb&callerId=148026&folderInclude.HASH=268dd8eb24eeef786f80a37b4e75c652a91aa000a455&folderExclude.HASH=1311069170f29c9df4f4af5e0b855d008a1d9cb63e00&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T03:09:32.996Z"
+    "detectedAt": "2026-08-18T03:09:32.996Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:09:32.996Z",
+    "historicalBackfill": false
   },
   {
     "guid": "c20be299b23640d8d464092f",
@@ -854,7 +1007,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=90e32232ac219efd715de231064036227773c1db91c2&callerId=148026&folderInclude.HASH=3bb884a59bda6a222199bd21d29ff8edd3d7cd9611b1&folderExclude.HASH=5996d0bea9b91fb762876922eee2cf44ada5717abc39&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T03:09:32.996Z"
+    "detectedAt": "2026-08-18T03:09:32.996Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T03:09:32.996Z",
+    "historicalBackfill": false
   },
   {
     "guid": "4a3aac839882accd12d21d50",
@@ -870,7 +1026,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=66d933148986bb4bb45a01e9e0767b9647165b218a73&callerId.HASH=886b128a894000cb624243836631e721eb6cc7326c1d&callerId=110568&folderInclude.HASH=30d2e1fca593d2138a9f08c3ca802a2cb6d926cb7d63&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=0a50ae866b372c89bfa2188135802a06f9d4f070a317&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T01:56:58.112Z"
+    "detectedAt": "2026-08-18T01:56:58.112Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T01:56:58.112Z",
+    "historicalBackfill": false
   },
   {
     "guid": "a0ea27da9a95d27af97601e0",
@@ -886,7 +1045,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=32245de08f1f4899389b5d80230f9c5f671e00016989&callerId=148026&folderInclude.HASH=0df0de01098c987e1c83c403913b65c5f0cfc76ed7dd&folderExclude.HASH=89d1b39b278db623303267b8118d016f6c2d28f03837&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T01:56:58.112Z"
+    "detectedAt": "2026-08-18T01:56:58.112Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T01:56:58.112Z",
+    "historicalBackfill": false
   },
   {
     "guid": "0eb02245cae780076bb2ec2d",
@@ -902,7 +1064,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=cb43eaa447fee32e1eaf96a885c8c6beea62d681b14f&callerId=148026&folderInclude.HASH=6607b9f59c09d64bcb40f46bcd24a7b4e272e2f1ca95&folderExclude.HASH=dfeb520c3046e752cb017c55915bd8c76dede17111b4&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-18T01:56:58.112Z"
+    "detectedAt": "2026-08-18T01:56:58.112Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-18T01:56:58.112Z",
+    "historicalBackfill": false
   },
   {
     "guid": "5e3b2bcd8fc12a0a7d5c2f04",
@@ -918,7 +1083,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=64d15db6ce5c05ea14d568ca049997eec0f0708930b8&callerId.HASH=dbfe353918ee260ca36ca02e64a687aed90e87325221&callerId=110568&folderInclude.HASH=97ad4dba5889556e163d1a3fd46d84c86f6bbd7ff174&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=ba023f940ed83e1000a6a763455fc69e77570a4964be&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T23:59:34.588Z"
+    "detectedAt": "2026-08-17T23:59:34.588Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T23:59:34.588Z",
+    "historicalBackfill": false
   },
   {
     "guid": "b72d4b7ca2ab471bb6a6e719",
@@ -934,7 +1102,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=b17f02d40362342cf69a3858e5085d1d3af7de8f3622&callerId=148026&folderInclude.HASH=ba1144a376682a60cdf760b9fd65d014e7b5e65290f8&folderExclude.HASH=83a8d166000013f1657bbf1115e004c98eb3ce170d59&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T23:59:34.587Z"
+    "detectedAt": "2026-08-17T23:59:34.587Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T23:59:34.587Z",
+    "historicalBackfill": false
   },
   {
     "guid": "2f51ff3bb793b230612ed65a",
@@ -950,7 +1121,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=6168064f57b15c892c732c0136649f5d14bf3ca37629&callerId=148026&folderInclude.HASH=03203ccf4a733023b6b7af8570129f970069aae63c3c&folderExclude.HASH=f628b0742a4b26de2921276c0aafefbb612324c6f9b4&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T23:59:34.587Z"
+    "detectedAt": "2026-08-17T23:59:34.587Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T23:59:34.587Z",
+    "historicalBackfill": false
   },
   {
     "guid": "1517556e88ba0ecb2a922777",
@@ -966,7 +1140,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=265454fbde72c7890d159db09d4d4c13eea1a83401c6&callerId.HASH=4f410eb8ed62d0c6e7d09b1c666a0ff577637e273419&callerId=110568&folderInclude.HASH=19e9793e9e42c313dd339547ab4ebf03cb39958fd359&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=23d09b0325c55cc729ecb3f4fb3f23036b157f4ed01f&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T23:36:40.733Z"
+    "detectedAt": "2026-08-17T23:36:40.733Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T23:36:40.733Z",
+    "historicalBackfill": false
   },
   {
     "guid": "3b2395c84b5f20739d06399b",
@@ -982,7 +1159,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=ca301b6353a96120185af2c06f697c8c8baabfe8aca1&callerId=148026&folderInclude.HASH=04cbae6debfdb4aaa41e7e8d905f89a7d1c75742474f&folderExclude.HASH=ae938763893e2e84d53cb33a0aa9f1e35e59f1d00306&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T23:36:40.733Z"
+    "detectedAt": "2026-08-17T23:36:40.733Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T23:36:40.733Z",
+    "historicalBackfill": false
   },
   {
     "guid": "62f50d2a0a64b73b4bae75c5",
@@ -998,7 +1178,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=2bfd14c15d417bd5761890401fff8f370f38a60c0f51&callerId=148026&folderInclude.HASH=b4844de3ed845fc0d606cdc39b30b00b1c5d2a381c8e&folderExclude.HASH=d259a20f6f90ffe4c709bc344eb07510f34ea74a454d&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T23:36:40.733Z"
+    "detectedAt": "2026-08-17T23:36:40.733Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T23:36:40.733Z",
+    "historicalBackfill": false
   },
   {
     "guid": "0a8f8b78dfb844e879b6847a",
@@ -1014,7 +1197,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=aec0d60b296597474da1a94a705057284e89a7f68315&callerId.HASH=22b7775755d9ea9ef0f1fa924ac966dea162b504e398&callerId=110568&folderInclude.HASH=baf07319fc457acdb96d3ec3b4b31f7e2b0352ed915d&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=7ea2e6d8e8cd53ce62f741cf8a6a3a98e8873056f69b&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T23:01:02.738Z"
+    "detectedAt": "2026-08-17T23:01:02.738Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T23:01:02.738Z",
+    "historicalBackfill": false
   },
   {
     "guid": "b00f526da8bb6cad510edee9",
@@ -1030,7 +1216,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=496c58bd28374592dc8ab0b329dc7e230939efcb85a5&callerId=148026&folderInclude.HASH=43b509eb92ecaf5979844977996183e4c4d6165c29eb&folderExclude.HASH=ba11aebf57e112f8fc4732ff638b063f1ab003f47208&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T23:01:02.738Z"
+    "detectedAt": "2026-08-17T23:01:02.738Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T23:01:02.738Z",
+    "historicalBackfill": false
   },
   {
     "guid": "6bae6178fae1ac2464e732a6",
@@ -1046,7 +1235,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=eaf1a73efcc97c34e0350973c1a12a5e16bde5db9151&callerId=148026&folderInclude.HASH=ed3cb3b1dd38b06f8f9fca39b7d7ad1b9055dfc72ff7&folderExclude.HASH=ad04159ab34056b23bf5bf3d7ca60511485bf3182c5e&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T23:01:02.738Z"
+    "detectedAt": "2026-08-17T23:01:02.738Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T23:01:02.738Z",
+    "historicalBackfill": false
   },
   {
     "guid": "9d7f40c833cf640bc45401de",
@@ -1062,7 +1254,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=001593087f42e07e65cceef43c5aca2599e99434df91&callerId.HASH=617c1907b07fd5f7d51dddeab1dfee53a2b1578339fb&callerId=110568&folderInclude.HASH=eead47b3f48550e6026507fa1105819174e3b355dba8&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=f9d1a1b556de8ee94397c7eee6948adf437821a674cb&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T22:41:40.315Z"
+    "detectedAt": "2026-08-17T22:41:40.315Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T22:41:40.315Z",
+    "historicalBackfill": false
   },
   {
     "guid": "e9fc1d90f06e94e7019c045d",
@@ -1078,7 +1273,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=c4749eba93d4e3768f8f473b87b13b67b64e3bf15c02&callerId=148026&folderInclude.HASH=548ec218932e23230c772f7d674918622a1b517a8583&folderExclude.HASH=35ecf3a2a991bc636f2a519703e21ae42a28ad3cb1d7&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T22:41:40.315Z"
+    "detectedAt": "2026-08-17T22:41:40.315Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T22:41:40.315Z",
+    "historicalBackfill": false
   },
   {
     "guid": "637383923f08eeaceb757638",
@@ -1094,7 +1292,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=55f27209fec876ce2b6f332ae0c181bee485832a6120&callerId=148026&folderInclude.HASH=ca16f2e7b733a5481c36b32a2a0ea2fc995069a082ce&folderExclude.HASH=5d95cec0f78b0de39f0b015f18aac2bbe9cef938b257&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T22:41:40.314Z"
+    "detectedAt": "2026-08-17T22:41:40.314Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T22:41:40.314Z",
+    "historicalBackfill": false
   },
   {
     "guid": "8e292671fb0f5ce944677670",
@@ -1110,7 +1311,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=e7a61554c3b9dbc426cedca38be647466cfdf802bb78&callerId.HASH=487a131f62351228881b093ea666aa4105974b8a723e&callerId=110568&folderInclude.HASH=b81611f23de0f8f37fef311f4ffb5574d2d7b6a2eb2a&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=ccc3c41e81f3ddaf6a9121987eb301c0eb6653b7908d&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T22:00:55.336Z"
+    "detectedAt": "2026-08-17T22:00:55.336Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T22:00:55.336Z",
+    "historicalBackfill": false
   },
   {
     "guid": "0334cc9564e408d38780067f",
@@ -1126,7 +1330,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=20b18cf5c2a073845550e05832bb9da81f6525bdb4e0&callerId=148026&folderInclude.HASH=5091ed78dbe07051771359285c11de48b2f9be6da4ec&folderExclude.HASH=38655fcb120dc3fc0525a69ee3618f7a12134b0b4370&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T22:00:55.335Z"
+    "detectedAt": "2026-08-17T22:00:55.335Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T22:00:55.335Z",
+    "historicalBackfill": false
   },
   {
     "guid": "63073a545efb5565ea6b78ce",
@@ -1142,7 +1349,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=9ce3785e2bdedf83cde523f4fe4ea1af30a6f7b8edc5&callerId=148026&folderInclude.HASH=06056d9d3d3fe4a7235f1e63a0c31b66960c5100e3fa&folderExclude.HASH=832cc87eabb1a02fd109c0a99e24832249c09bd3c41d&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T22:00:55.335Z"
+    "detectedAt": "2026-08-17T22:00:55.335Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T22:00:55.335Z",
+    "historicalBackfill": false
   },
   {
     "guid": "c593aa08ba4ac76adedffcba",
@@ -1158,7 +1368,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=8a6b7e442c4bbeee09101b1e1a7b6258bc26f3d5ce60&callerId.HASH=149bfad65e1bf1eab627d12dfbfe20e3ab2b44284f1a&callerId=110568&folderInclude.HASH=090a05bec746ae7c50585d56621239287123a9fa5880&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=3f3cfcaae7704c9d6a6c0a5f1d43fbfb8a6fc64b799e&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T21:43:35.896Z"
+    "detectedAt": "2026-08-17T21:43:35.896Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T21:43:35.896Z",
+    "historicalBackfill": false
   },
   {
     "guid": "bae9dc2ed796e7e2d72606ea",
@@ -1174,7 +1387,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=d94c7a12fb137ecd948230dd928cb9db9d21deafae98&callerId=148026&folderInclude.HASH=2da9fd6827cb7e5f4cd7a4ae835cea64c83d7c95e610&folderExclude.HASH=175b4a9fb83e0d89e7709e016ec2ee84806cbe7737b7&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T21:43:35.896Z"
+    "detectedAt": "2026-08-17T21:43:35.896Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T21:43:35.896Z",
+    "historicalBackfill": false
   },
   {
     "guid": "6a73877845864fbee039936f",
@@ -1190,7 +1406,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=ab61747dcbc6e855b440b1ed52a0e68de2bc02e119bc&callerId=148026&folderInclude.HASH=9e6b525559f141cc76be50b03dad92bc555421f81c37&folderExclude.HASH=062792b2ef3f8ebdfc894199d1db4b8234d9eda0eb7d&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T21:43:35.896Z"
+    "detectedAt": "2026-08-17T21:43:35.896Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T21:43:35.896Z",
+    "historicalBackfill": false
   },
   {
     "guid": "9556ca82a9324694e4c988cb",
@@ -1206,7 +1425,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=c1f919cc000d6698eccd8cf5db5fc78abbc7e0cbf60f&callerId.HASH=fffea57c8e538365dfb2a6de50327a8aab25f2ed365c&callerId=110568&folderInclude.HASH=3ebfe8874709693db6b3568f8f62c195b4e45db17050&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=8d4d61bd3d83b3014eab0af299faf99ac45dfe018c02&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T20:44:36.228Z"
+    "detectedAt": "2026-08-17T20:44:36.228Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T20:44:36.228Z",
+    "historicalBackfill": false
   },
   {
     "guid": "a4e56359ba04a5471e830a6b",
@@ -1222,7 +1444,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=9fdacf955a7a674930130cf1c87a57ba90b57619aa38&callerId=148026&folderInclude.HASH=b5e99601ae636ca3567cea8a40216cb5cb39a26a4657&folderExclude.HASH=8058403195835f2d50e7e41afabd5a90c695990e0e52&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T20:44:36.228Z"
+    "detectedAt": "2026-08-17T20:44:36.228Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T20:44:36.228Z",
+    "historicalBackfill": false
   },
   {
     "guid": "a6a242ccb49108ae95fae827",
@@ -1238,7 +1463,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=5fa4490b04c810454551af4fd9fea62695e0143853fc&callerId=148026&folderInclude.HASH=e928f76225086775279ea2156bde065221b1c91f8bb2&folderExclude.HASH=7609900406138c0e244166e5bf40ebf78d4f01df93d2&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T20:44:36.228Z"
+    "detectedAt": "2026-08-17T20:44:36.228Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T20:44:36.228Z",
+    "historicalBackfill": false
   },
   {
     "guid": "98ae7550a01fb261e74bf3c7",
@@ -1254,7 +1482,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=4537724dc3780d96b8c90a7448b9ef0f5239b76d2f48&callerId.HASH=4f44aadf46fcca04984887ad2dfbfe62557b8ff42a9d&callerId=110568&folderInclude.HASH=41587b5a11a78ebdacac870ac473f07ec7ec4c601c97&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=a1134a0a42413a2d96cf9704dcb365eefff05ff872d9&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T20:00:33.884Z"
+    "detectedAt": "2026-08-17T20:00:33.884Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T20:00:33.884Z",
+    "historicalBackfill": false
   },
   {
     "guid": "6eb5b1f9da79dda66332a098",
@@ -1270,7 +1501,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=cd9478c9a733d76831be960e94999915c5df35e998b0&callerId=148026&folderInclude.HASH=5eddc4647675f11d27901befa10c529c086a1559a0e3&folderExclude.HASH=3d867e5f82c5f9e53fc32c569c2b07ac7d10d74cc8c5&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T20:00:33.884Z"
+    "detectedAt": "2026-08-17T20:00:33.884Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T20:00:33.884Z",
+    "historicalBackfill": false
   },
   {
     "guid": "1d9c1b4743a5d474fe79e932",
@@ -1286,7 +1520,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=508ea1bda7e280017c755d3cea2371b914568278e9f4&callerId=148026&folderInclude.HASH=b68f8ff7bc3342b1d178249a31c4fcbc1e727fd8f7ca&folderExclude.HASH=1f4615250c1cf9e48854ed7b6cd179f9fdcbe3e781aa&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T20:00:33.884Z"
+    "detectedAt": "2026-08-17T20:00:33.884Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T20:00:33.884Z",
+    "historicalBackfill": false
   },
   {
     "guid": "4313318086da1c885d6143ab",
@@ -1302,7 +1539,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=ab2e0bdb0308ec9380b647c6140f56e39481730e9108&callerId.HASH=568a12027b63d3c663c4866d567ebf1174d5483c63d2&callerId=110568&folderInclude.HASH=d8be7a7e9dc3890ea041dd91bfcab446d2e3b69faa0a&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=ef83c285534114cae84e14d1c885da553d909ab1ca93&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T19:43:30.260Z"
+    "detectedAt": "2026-08-17T19:43:30.260Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T19:43:30.260Z",
+    "historicalBackfill": false
   },
   {
     "guid": "a1685111467d7bb17babee16",
@@ -1318,7 +1558,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=ce3c5e2a7c41e7e2c74e1e3ef31958c2d764dd7c8c4c&callerId=148026&folderInclude.HASH=1378a25a7174d1381550e8df5aa585be320f50bcf9dd&folderExclude.HASH=3015f68b8102462fed31970cfb437d2811c3bcab9ead&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T19:43:30.260Z"
+    "detectedAt": "2026-08-17T19:43:30.260Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T19:43:30.260Z",
+    "historicalBackfill": false
   },
   {
     "guid": "fd64deced88b8168ede86f44",
@@ -1334,7 +1577,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=4db2c55e27cc15637aaec3a36a391bf9e4ff29297d64&callerId=148026&folderInclude.HASH=e12320d7b23434e616e8f98b495da2c317fdbe099df3&folderExclude.HASH=fa6c51aefa39a7ccfe63e626799011975674e9e3ef21&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T19:43:30.260Z"
+    "detectedAt": "2026-08-17T19:43:30.260Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T19:43:30.260Z",
+    "historicalBackfill": false
   },
   {
     "guid": "bf860456adda06bbd20ed2c8",
@@ -1350,7 +1596,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=92c06938190066162f7fc4ea6b0efe872135ea9dea63&callerId.HASH=ec89f77b1fdb41b2fdabc35e16ac896bc0fcfbbbad44&callerId=110568&folderInclude.HASH=53085221743ceed73c869325479a02e0d6a07d5a159d&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=1e0cf555a3129f7e08d4122572befa71ff97a946f232&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T18:58:15.031Z"
+    "detectedAt": "2026-08-17T18:58:15.031Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T18:58:15.031Z",
+    "historicalBackfill": false
   },
   {
     "guid": "6d2bff759170ce058c3c73d0",
@@ -1366,7 +1615,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=858cb2948c0b02e402649b97ade9a559fd93ecccddca&callerId=148026&folderInclude.HASH=aa217155cb8f29670df37fec77818436cad43a8d10ca&folderExclude.HASH=64b6d3ed05ceb7e3059dda3050f39e760e2ca6b47aa3&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T18:58:15.031Z"
+    "detectedAt": "2026-08-17T18:58:15.031Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T18:58:15.031Z",
+    "historicalBackfill": false
   },
   {
     "guid": "7d3e7352f74b76a9409c230f",
@@ -1382,7 +1634,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=de8f06743d8676528e1644ac343a3521c22b8b4d59de&callerId=148026&folderInclude.HASH=bf412f65d57313e809e3684676f533c08cc2020162bd&folderExclude.HASH=2c8bbf82ea3e2d10a61f3ded06359fbc012369649508&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T18:58:15.031Z"
+    "detectedAt": "2026-08-17T18:58:15.031Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T18:58:15.031Z",
+    "historicalBackfill": false
   },
   {
     "guid": "f14a4ed8470f007da7cf3bc7",
@@ -1398,7 +1653,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=01314220a1bee52b68f169ad75556f170086c07c34c4&callerId.HASH=6a9fcfcfdf0fcb266f3d5420711bf97f045c77f2ff37&callerId=110568&folderInclude.HASH=9120ff037950b273f48e61cbaa643fee15a25b31d30d&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=e6f741167731654713d7e1698d04da3d2915518c6008&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T18:05:44.831Z"
+    "detectedAt": "2026-08-17T18:05:44.831Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T18:05:44.831Z",
+    "historicalBackfill": false
   },
   {
     "guid": "bddcfe44ceb68ac69648680a",
@@ -1414,7 +1672,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=9566e010a86e3ae9d304fe7276374c32e868de6e4f07&callerId=148026&folderInclude.HASH=880914bdc317fa7897c8bb63f791ec2fd57c4a97bbe2&folderExclude.HASH=536043cca4b46ac225811ae335ac8ef996b6bca9ba67&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T18:05:44.831Z"
+    "detectedAt": "2026-08-17T18:05:44.831Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T18:05:44.831Z",
+    "historicalBackfill": false
   },
   {
     "guid": "94e5c3f68973d8bdb678eafa",
@@ -1430,7 +1691,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=5357cb59caf9e7415e34e3d3b4afdb3cf9167add0b56&callerId=148026&folderInclude.HASH=edcff3753c8fc37cdded57d8b707c3fbf3a1be00db68&folderExclude.HASH=0537361d11748480e2ff5473a1a6326ebada34d044b4&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T18:05:44.831Z"
+    "detectedAt": "2026-08-17T18:05:44.831Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T18:05:44.831Z",
+    "historicalBackfill": false
   },
   {
     "guid": "df06548efa3fc566f9ad1d27",
@@ -1446,7 +1710,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=2e2eb029e9065889d7d13416099dd3848280f507de88&callerId.HASH=af64954143d5e805ca05c875d612b3a553d6f43f08eb&callerId=110568&folderInclude.HASH=05cd2d5bb5e484e6f5dd76f6810cde31e88e4eabe881&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=916497d96a990699bc1be767c5099a4758c4bb3e2d1f&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T17:46:27.065Z"
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T17:46:27.065Z",
+    "historicalBackfill": false
   },
   {
     "guid": "b3e442bcf22e999cff99f125",
@@ -1462,7 +1729,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=5eb6a34dc5b0336f8cc2aaf490bc1dd5c358222d2253&callerId=148026&folderInclude.HASH=1b80d234ce2d602605389872e153931d310ee62c35a1&folderExclude.HASH=17037c8f0b6b49c5f2388a680a9273685aa7c4736fcc&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T17:46:27.065Z"
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T17:46:27.065Z",
+    "historicalBackfill": false
   },
   {
     "guid": "e9fe8d5d5040c1539e7ba660",
@@ -1478,7 +1748,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=571caae524b1b4d10e1c587f5a9675ac6cdecbd1a7ae&callerId=148026&folderInclude.HASH=cbf7d1c1a3e5de3516ad7999ba511b329483f6dfec9b&folderExclude.HASH=0770ecb996f51a492a2c795eb2dab2966a53ab362264&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T17:46:27.065Z"
+    "detectedAt": "2026-08-17T17:46:27.065Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T17:46:27.065Z",
+    "historicalBackfill": false
   },
   {
     "guid": "ad77e5aef62c12a5f9612ae4",
@@ -1494,7 +1767,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=4fec264f995cc3f7360eaaa16963cb794aba38628d2b&callerId.HASH=727aab58aaebf2c2227dbe6e61b5f91f444344bfcb80&callerId=110568&folderInclude.HASH=3cca83622bb118620e73566edf44bfa566fd33cc80fb&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=3ab2eb8544f5561fa34b18334f1904e3fb93ddc68c57&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z"
+    "detectedAt": "2026-08-17T17:09:36.816Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T17:09:36.816Z",
+    "historicalBackfill": false
   },
   {
     "guid": "8353e8ade2b8c91e4cfcfdc1",
@@ -1510,7 +1786,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=43f2f21ea5f971f436ce18c1d0b7d805d556ccd5a759&callerId=148026&folderInclude.HASH=0d2ffa7c9a40a26aed157fc3d45366d13b3b3cd85011&folderExclude.HASH=43f855b35ee4918a68ca8b83ec9225857601f200b166&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z"
+    "detectedAt": "2026-08-17T17:09:36.816Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T17:09:36.816Z",
+    "historicalBackfill": false
   },
   {
     "guid": "dc13a5e0b0853d8d828308a9",
@@ -1526,7 +1805,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=db45b7ad87c0f4a9c9f15fc329507da82b1156841e59&callerId=148026&folderInclude.HASH=dc3da98dfe748fd2a443919736229f83de46e70f5a7f&folderExclude.HASH=2e17679ee249797a15905d47159a9c208af7d3eb3ba8&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T17:09:36.816Z"
+    "detectedAt": "2026-08-17T17:09:36.816Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T17:09:36.816Z",
+    "historicalBackfill": false
   },
   {
     "guid": "bc5d272befd01844312211d2",
@@ -1542,7 +1824,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=ad30467b71609006ba9abbe8e704dd7f5e4e24e28390&callerId.HASH=6cae87ca3fd6ba6a2200a0b32b9f0693d81f36f811ec&callerId=110568&folderInclude.HASH=8547023a07041f96ae1b0787ec395c2c38118bcce6ba&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=0de50b21578a0b4ac24731da308fc85a703b00d6d353&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T16:46:29.088Z"
+    "detectedAt": "2026-08-17T16:46:29.088Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T16:46:29.088Z",
+    "historicalBackfill": false
   },
   {
     "guid": "f787239ef9a3ed20971695cd",
@@ -1558,7 +1843,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=9d4180a1db0059257df72afca41c108cee31616f6fc7&callerId=148026&folderInclude.HASH=65eea699e17a39a5cb08273eaccaf1c7dff6bd5a116e&folderExclude.HASH=b7d14a41d227699f16c828631de02f22cd966809d5c0&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T16:46:29.088Z"
+    "detectedAt": "2026-08-17T16:46:29.088Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T16:46:29.088Z",
+    "historicalBackfill": false
   },
   {
     "guid": "3eef34b2ea72c6e0d93f698f",
@@ -1574,7 +1862,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=fc02fde7de07d695c08e518f0f7fc19664e6056eaddb&callerId=148026&folderInclude.HASH=64db46ead4291cb87517502a51d4197f4023c884f3bb&folderExclude.HASH=3b85e2001022aed164e33c3541b55680828bb57c300a&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T16:46:29.088Z"
+    "detectedAt": "2026-08-17T16:46:29.088Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T16:46:29.088Z",
+    "historicalBackfill": false
   },
   {
     "guid": "a4265a02af16728768c0c339",
@@ -1590,7 +1881,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=814a174252a372cdf271f2daf11ade41ad727d3ae52b&callerId.HASH=097cb7459adc58065ac48c2dd0de9a72285b0cf69857&callerId=110568&folderInclude.HASH=33e44f60f2acffe9dd5023e070cf93cdcf5e5915900a&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=5cd4d0f7f3ef2bf82de8c4d0fcf9b55434a19d7208ed&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T15:03:56.010Z"
+    "detectedAt": "2026-08-17T15:03:56.010Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T15:03:56.010Z",
+    "historicalBackfill": false
   },
   {
     "guid": "39285728f1bc2fa3bd88c640",
@@ -1606,7 +1900,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=a56193bc36f5b3f7303320c2ae0bcc9d6f65d4f4a03a&callerId=148026&folderInclude.HASH=b937c8713f5fa4f50c0287a6cb6690b03728ec844bb2&folderExclude.HASH=f9e002f65d38f4466d1addd27be51fb3163c88d9b85f&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T15:03:56.010Z"
+    "detectedAt": "2026-08-17T15:03:56.010Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T15:03:56.010Z",
+    "historicalBackfill": false
   },
   {
     "guid": "467ea308c39bf9547f89cbb1",
@@ -1622,7 +1919,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=aaaa6db5e502931ae40d96f3731f86e2a3b00f21567b&callerId=148026&folderInclude.HASH=4d053af2bee706ce38b3c6d85a0c31472f6e93f66b73&folderExclude.HASH=3ee20369fcb87fe99595e0eb41b3438e051da10aeb39&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T15:03:56.010Z"
+    "detectedAt": "2026-08-17T15:03:56.010Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T15:03:56.010Z",
+    "historicalBackfill": false
   },
   {
     "guid": "6952e02cf1382f86445b68fc",
@@ -1638,7 +1938,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=d2beaa48b6fa70a4d80f70f4e3d9c9a4fa01fd62f928&callerId.HASH=b17926275fbe2d92cb43f56ff8d66eedf9f38030efc7&callerId=110568&folderInclude.HASH=83d44c355a40d6008ea97fb6d7b21f0a81bf38338550&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=c4a148f2df8c5354bfec14120d623086c5174bec0ad6&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T13:54:03.890Z"
+    "detectedAt": "2026-08-17T13:54:03.890Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T13:54:03.890Z",
+    "historicalBackfill": false
   },
   {
     "guid": "1e62f3e2586843b76aa6fb4b",
@@ -1654,7 +1957,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=4cdc5822dccedf07c51e634c6307112696db98195b9f&callerId=148026&folderInclude.HASH=81834cc001b60c94b1f54deb2886dee1a8bc0c214127&folderExclude.HASH=eb2639d38f4c8f922fd9ab01325d9545925758b827d9&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T13:54:03.890Z"
+    "detectedAt": "2026-08-17T13:54:03.890Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T13:54:03.890Z",
+    "historicalBackfill": false
   },
   {
     "guid": "fd12113bb894d36d21b857fe",
@@ -1670,7 +1976,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=ac2ff29dde7e0f89af4c42b6e7c9854cb41a637d8028&callerId=148026&folderInclude.HASH=63dbab640816c7dd6f2c36fab8dc54ca33279acfb0e6&folderExclude.HASH=4e35c035bf7e4beee2e04d26433b00a8700e67c024a6&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T13:54:03.890Z"
+    "detectedAt": "2026-08-17T13:54:03.890Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T13:54:03.890Z",
+    "historicalBackfill": false
   },
   {
     "guid": "56adb5b34c46b6ae001dc288",
@@ -1686,7 +1995,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=f6655a1bc67f4c6f418be8cbae6c0b4e49190b8ab311&callerId.HASH=0609b52f1a1b2bb61c0276649ed4c78e65c6070e28b8&callerId=110568&folderInclude.HASH=173895a76436d227ba5bc38775325767f33693c58489&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=b60768bf534f99778aa247cae30648c8a0142413e6c6&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T13:06:26.688Z"
+    "detectedAt": "2026-08-17T13:06:26.688Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T13:06:26.688Z",
+    "historicalBackfill": false
   },
   {
     "guid": "0cc7b1559266e9bb286efb8d",
@@ -1702,7 +2014,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=a0c517dd24a4672d81ae3416b6532a4a2775760e792b&callerId=148026&folderInclude.HASH=089ca7a9255feada242f8908df91aabc4ef021fd7675&folderExclude.HASH=de2aee0d7ad421d788b9c06557bb8da95a477be467a7&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T13:06:26.688Z"
+    "detectedAt": "2026-08-17T13:06:26.688Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T13:06:26.688Z",
+    "historicalBackfill": false
   },
   {
     "guid": "a58069264834c8973847f3c2",
@@ -1718,7 +2033,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=c5a68a7a5594f9a38746c7e2b7dc53554dc48f2a851c&callerId=148026&folderInclude.HASH=8756081a1258df20bce7564ad7913e14ca2d78d02a7b&folderExclude.HASH=faf05896f15e5ac7c9a7982507d4339ed879ba4b32fb&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T13:06:26.688Z"
+    "detectedAt": "2026-08-17T13:06:26.688Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T13:06:26.688Z",
+    "historicalBackfill": false
   },
   {
     "guid": "7937fcb1d89d5af19be3f0e0",
@@ -1734,7 +2052,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=e34f17f553bde0c174822483f24206db332186e7864e&callerId.HASH=f94c612dc1fc9147641db0f06a01a10161a05cf0c010&callerId=110568&folderInclude.HASH=b8c49fcd45b90f782bc04db346f79817b2f3dbf63289&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=7db6ef2f02287cd93ec74cf9ec4abda86d887f8c1feb&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:57:24.767Z"
+    "detectedAt": "2026-08-17T12:57:24.767Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:57:24.767Z",
+    "historicalBackfill": false
   },
   {
     "guid": "6dae7884403e5de862afee40",
@@ -1750,7 +2071,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=f283d057a0026a49a6fcd588f5f697bb1f1bff6fae9f&callerId=148026&folderInclude.HASH=bb0524fd98a4d72022e486c3347d3fe068800c961e25&folderExclude.HASH=f52a35d0dbac04796c904c4d38aac84dfe55c2be4829&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:57:24.766Z"
+    "detectedAt": "2026-08-17T12:57:24.766Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:57:24.766Z",
+    "historicalBackfill": false
   },
   {
     "guid": "e3c2fcbce6ca06383511de0e",
@@ -1766,7 +2090,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=81e6731c425ea09f321e9019b5481cfeaacdeb0bc959&callerId=148026&folderInclude.HASH=2c15fe5a3de1490a55555be270943c2729acb9ae87b0&folderExclude.HASH=4aab475600bf12de3b26352c7d95eaca427482776b1c&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:57:24.766Z"
+    "detectedAt": "2026-08-17T12:57:24.766Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:57:24.766Z",
+    "historicalBackfill": false
   },
   {
     "guid": "db7275dd814e742e9cebf91c",
@@ -1782,7 +2109,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=ea9d8a393959442c4974cae8ac2321d1b3794c4fb312&callerId.HASH=08bd6f5a3f98e5764d874433d6b6e673e4e95481e66a&callerId=110568&folderInclude.HASH=cb7839cb838d20b70d29c627fa5c66326108fd4bb263&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=7affa91a31b68427a470bf8b841b6934176f6d5a4e4a&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:54:26.743Z"
+    "detectedAt": "2026-08-17T12:54:26.743Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:54:26.743Z",
+    "historicalBackfill": false
   },
   {
     "guid": "54f92c5749ee30dabd4628c1",
@@ -1798,7 +2128,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=0384a02fad95919c02d10e40a58bc21e7486873a425a&callerId=148026&folderInclude.HASH=f3fe2539a51f2491ab433bbf5b9dec4ff2c34d208d9b&folderExclude.HASH=4a0a89d3a5f5f46e1d399630150c0d50e67a409fb799&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:54:26.743Z"
+    "detectedAt": "2026-08-17T12:54:26.743Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:54:26.743Z",
+    "historicalBackfill": false
   },
   {
     "guid": "9aa0a118ac16f768356f55b3",
@@ -1814,7 +2147,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=34417afab26ad997f6304fbd9c7495fb41835c72c848&callerId=148026&folderInclude.HASH=66920f3db68885f8c01f331863891eee1bb2d59bd77b&folderExclude.HASH=6a6540a2689b81616208e85a23ae6bf558bbeb24982f&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:54:26.743Z"
+    "detectedAt": "2026-08-17T12:54:26.743Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:54:26.743Z",
+    "historicalBackfill": false
   },
   {
     "guid": "1b02470e5b2bd50c8272f2f3",
@@ -1830,7 +2166,10 @@
     "title": "Alle Publikationen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=445f51c1e867cacd0959325a978c2e2445593ce45c2d&callerId.HASH=8c8bf5ac71538d5bad7800b5db55831c159ffe57b665&callerId=110568&folderInclude.HASH=3d2c8f086660032554c6b27d620dbb8fa31c26371914&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=98e22ad6c7360b5e5ef0d4722bb749a748540f7bec60&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:35:19.007Z"
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:35:19.007Z",
+    "historicalBackfill": false
   },
   {
     "guid": "211d615aa2a1fc8663de0f04",
@@ -1846,7 +2185,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=fbc8ab7f068c31c88879e7e358429a379fa57e5bf6a4&callerId=148026&folderInclude.HASH=26b1430e7c99e004ed01bda06961961a61d4d77852f8&folderExclude.HASH=f3fe54c8b97495ab6cfb13dfb1a5ed1e12487c3cdea3&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:35:19.007Z"
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:35:19.007Z",
+    "historicalBackfill": false
   },
   {
     "guid": "28f0a64cc250cfb50ab62348",
@@ -1862,7 +2204,10 @@
     "title": "Alle Meldungen",
     "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=42b7d195b2d7a56e043aed58abc9a9998334a7bcb0af&callerId=148026&folderInclude.HASH=8234c5e7e92b48e4ac0fb360ab6cd737f5c83322e830&folderExclude.HASH=65407cc220303f5a4e4166ae6f73ccee4215395505b5&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
     "pageDate": null,
-    "detectedAt": "2026-08-17T12:35:19.007Z"
+    "detectedAt": "2026-08-17T12:35:19.007Z",
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:35:19.007Z",
+    "historicalBackfill": false
   },
   {
     "guid": "8fa20f29adf4347d7e71efd1",
@@ -1878,7 +2223,10 @@
     "tags": [
       "Payment"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:00:36.912Z",
+    "historicalBackfill": false
   },
   {
     "guid": "91e66ddd9a041d27d52745b9",
@@ -1894,7 +2242,10 @@
     "tags": [
       "Payment"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:00:36.912Z",
+    "historicalBackfill": false
   },
   {
     "guid": "5872858081c178cc757fa421",
@@ -1910,7 +2261,10 @@
     "tags": [
       "Payment"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:00:36.912Z",
+    "historicalBackfill": false
   },
   {
     "guid": "718ae12d85e445d6077fd53f",
@@ -1926,7 +2280,10 @@
     "tags": [
       "Payment"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:00:36.912Z",
+    "historicalBackfill": false
   },
   {
     "guid": "553f8fe90736e0ff47d5e3da",
@@ -1942,7 +2299,10 @@
     "tags": [
       "Payment"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:00:36.912Z",
+    "historicalBackfill": false
   },
   {
     "guid": "0c0a7d2aaa1bfef6c252edaa",
@@ -1958,7 +2318,10 @@
     "tags": [
       "Payment"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:00:36.912Z",
+    "historicalBackfill": false
   },
   {
     "guid": "4b2ae81057205ddd845b883f",
@@ -1974,7 +2337,10 @@
     "tags": [
       "Payment"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T12:00:36.912Z",
+    "historicalBackfill": false
   },
   {
     "guid": "06be4ebab03b8a5c6a78dce1",
@@ -1990,7 +2356,10 @@
     "tags": [
       "Studien & Marktdaten"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.986Z",
+    "historicalBackfill": false
   },
   {
     "guid": "6eab44f70a8cfc21011de91e",
@@ -2006,7 +2375,10 @@
     "tags": [
       "Studien & Marktdaten"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.986Z",
+    "historicalBackfill": false
   },
   {
     "guid": "6c1ce6885cd821d2745b05dc",
@@ -2022,7 +2394,10 @@
     "tags": [
       "Studien & Marktdaten"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.986Z",
+    "historicalBackfill": false
   },
   {
     "guid": "fd390cbac02bd0d133954f36",
@@ -2038,7 +2413,10 @@
     "tags": [
       "Studien & Marktdaten"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.986Z",
+    "historicalBackfill": false
   },
   {
     "guid": "ee86de3368d9c1a0c8763331",
@@ -2054,7 +2432,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-17T12:00:00.000Z",
+    "deliveredAt": "2026-08-17T11:40:45.985Z",
+    "historicalBackfill": false
   },
   {
     "guid": "ec3a9bf63f274b1f9ac79a37",
@@ -2074,7 +2455,10 @@
       "Sicherheit",
       "Nachhaltigkeit"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "f3961d55673259edc7711e15",
@@ -2094,7 +2478,10 @@
       "Sicherheit",
       "Nachhaltigkeit"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "036d8aff63c5596b75ccb0bd",
@@ -2111,7 +2498,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "8508d4aafb6944294ed42a43",
@@ -2128,7 +2518,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "a0a057532ba49e8a203e35bd",
@@ -2145,7 +2538,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "8e327bd237c8086749cc6029",
@@ -2162,7 +2558,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "7aadcb5b4af3a087b4ed5296",
@@ -2179,7 +2578,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "4377415ab3a0666534fc1688",
@@ -2196,7 +2598,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "3ac792b4a20e4682f829d8db",
@@ -2213,7 +2618,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "3459952de6dcb74f2a05be83",
@@ -2230,7 +2638,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "c5240f173bf4b1b72b7e8b9b",
@@ -2247,7 +2658,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "193097e483a9def70aff8211",
@@ -2264,7 +2678,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "807cc49a8d18b434dace1cc0",
@@ -2281,7 +2698,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "95aeae565da50fa607ade690",
@@ -2298,7 +2718,10 @@
       "Studien & Marktdaten",
       "Events"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.984Z",
+    "historicalBackfill": false
   },
   {
     "guid": "b2425b39884bc848ae067134",
@@ -2315,7 +2738,10 @@
       "Logistik",
       "Studien & Marktdaten"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.983Z",
+    "historicalBackfill": false
   },
   {
     "guid": "534eae024811f1020601e5e4",
@@ -2329,7 +2755,10 @@
       "Events"
     ],
     "tags": [],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T11:40:45.982Z",
+    "historicalBackfill": false
   },
   {
     "guid": "ba9c3b849f983194cd85eaa5",
@@ -2345,7 +2774,10 @@
     "tags": [
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-17T10:38:08.462Z",
+    "historicalBackfill": false
   },
   {
     "guid": "0eee61646e6bb1f5e86c53a8",
@@ -2363,7 +2795,10 @@
       "E-Commerce",
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "deliveredAt": "2026-08-17T07:16:58.119Z",
+    "historicalBackfill": false
   },
   {
     "guid": "b81eaa0609ae50ac40400462",
@@ -2381,7 +2816,10 @@
       "E-Commerce",
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "deliveredAt": "2026-08-17T07:16:58.119Z",
+    "historicalBackfill": false
   },
   {
     "guid": "73008b831195476aa11246bb",
@@ -2399,7 +2837,10 @@
       "E-Commerce",
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "deliveredAt": "2026-08-17T07:16:58.119Z",
+    "historicalBackfill": false
   },
   {
     "guid": "225433414c13adc098e5956a",
@@ -2417,7 +2858,10 @@
       "E-Commerce",
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-16T00:00:00.000Z",
+    "deliveredAt": "2026-08-16T08:02:53.329Z",
+    "historicalBackfill": false
   },
   {
     "guid": "c03c161c1c346b4e18d36ed5",
@@ -2435,7 +2879,10 @@
       "E-Commerce",
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-16T00:00:00.000Z",
+    "deliveredAt": "2026-08-16T07:45:41.420Z",
+    "historicalBackfill": false
   },
   {
     "guid": "98d94fab5d2206397a62576e",
@@ -2453,7 +2900,10 @@
       "E-Commerce",
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-16T00:00:00.000Z",
+    "deliveredAt": "2026-08-16T06:59:40.579Z",
+    "historicalBackfill": false
   },
   {
     "guid": "80561663580d05936527dea4",
@@ -2471,7 +2921,10 @@
       "E-Commerce",
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-15T00:00:00.000Z",
+    "deliveredAt": "2026-08-15T08:00:30.061Z",
+    "historicalBackfill": false
   },
   {
     "guid": "b0b1de228f3481cb1f0b119b",
@@ -2489,7 +2942,10 @@
       "E-Commerce",
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-15T00:00:00.000Z",
+    "deliveredAt": "2026-08-15T08:00:30.061Z",
+    "historicalBackfill": false
   },
   {
     "guid": "82faecaf51d487b165886616",
@@ -2507,7 +2963,10 @@
       "E-Commerce",
       "Recht & Regulierung"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": "2026-08-15T00:00:00.000Z",
+    "deliveredAt": "2026-08-15T06:58:17.932Z",
+    "historicalBackfill": false
   },
   {
     "guid": "5f771688229b450858aba0dd",
@@ -2521,7 +2980,10 @@
       "Firmen"
     ],
     "tags": [],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T14:03:09.164Z",
+    "historicalBackfill": false
   },
   {
     "guid": "9a23f2adf580a3d6f7870a30",
@@ -2535,7 +2997,10 @@
       "Firmen"
     ],
     "tags": [],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T14:03:09.164Z",
+    "historicalBackfill": false
   },
   {
     "guid": "315c0bc58771845aa135d8bc",
@@ -2549,7 +3014,10 @@
       "Firmen"
     ],
     "tags": [],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T14:03:09.164Z",
+    "historicalBackfill": false
   },
   {
     "guid": "d245b18d4afdc209918b505e",
@@ -2563,7 +3031,10 @@
       "Firmen"
     ],
     "tags": [],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T14:03:09.163Z",
+    "historicalBackfill": false
   },
   {
     "guid": "ea762384c44a6e0691d74eb6",
@@ -2579,7 +3050,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "687bb1dc9f9c3fa990750b7b",
@@ -2595,7 +3069,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "e18e31bb01ac5a5bd8a6bbd4",
@@ -2611,7 +3088,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "16942f6408f25f25fa49e3b4",
@@ -2627,7 +3107,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "ce217ab25221e12756482125",
@@ -2643,7 +3126,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "ec63002096d5b4ffcb0bf06c",
@@ -2659,7 +3145,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "520f40b07eac42c8f2bcc2f8",
@@ -2675,7 +3164,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "4acd5deae4fa1973f63e6653",
@@ -2691,7 +3183,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "1e4d6313ea8607c46e4750a2",
@@ -2707,7 +3202,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "cb1ed281fda0f1b63a903245",
@@ -2723,7 +3221,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "bff063a65104704de8a2b651",
@@ -2739,7 +3240,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "000cd029583d02dd0cf8886d",
@@ -2755,7 +3259,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "15cb2d11ef0cdb8e62d92c89",
@@ -2771,7 +3278,10 @@
     "tags": [
       "KI"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "440441c9d95c31503fe4240a",
@@ -2789,7 +3299,10 @@
       "KI",
       "Unternehmensstrategie"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "57c2f5da4f67b42bec94096e",
@@ -2807,7 +3320,10 @@
       "KI",
       "Unternehmensstrategie"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.949Z",
+    "historicalBackfill": false
   },
   {
     "guid": "da5f7139af9aaf8b4ba78a4c",
@@ -2825,7 +3341,10 @@
       "KI",
       "Unternehmensstrategie"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.948Z",
+    "historicalBackfill": false
   },
   {
     "guid": "8e5e83ee0616e308ff1fb54e",
@@ -2843,7 +3362,10 @@
       "KI",
       "Unternehmensstrategie"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.948Z",
+    "historicalBackfill": false
   },
   {
     "guid": "ddee55a3046db56a8ddd584a",
@@ -2861,7 +3383,10 @@
       "KI",
       "Unternehmensstrategie"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.948Z",
+    "historicalBackfill": false
   },
   {
     "guid": "dc07e162687b748e7030d759",
@@ -2879,7 +3404,10 @@
       "KI",
       "Unternehmensstrategie"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.948Z",
+    "historicalBackfill": false
   },
   {
     "guid": "d1da2163448d0f5c0c9c7776",
@@ -2897,7 +3425,10 @@
       "KI",
       "Unternehmensstrategie"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.948Z",
+    "historicalBackfill": false
   },
   {
     "guid": "9fbb52a3cfb293f5dab833ca",
@@ -2915,7 +3446,10 @@
       "KI",
       "Unternehmensstrategie"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.948Z",
+    "historicalBackfill": false
   },
   {
     "guid": "559b1f155f23c0d7d702db00",
@@ -2933,7 +3467,10 @@
       "KI",
       "Unternehmensstrategie"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.948Z",
+    "historicalBackfill": false
   },
   {
     "guid": "5be399cf15d957e7ea5b86a5",
@@ -2949,6 +3486,9 @@
     "tags": [
       "Quartalszahlen"
     ],
-    "priority": 2
+    "priority": 2,
+    "publishedAt": null,
+    "deliveredAt": "2026-08-14T13:18:35.945Z",
+    "historicalBackfill": false
   }
 ]
