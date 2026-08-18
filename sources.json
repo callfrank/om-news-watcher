@@ -1215,23 +1215,66 @@
     "waitMs" : 5000
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-103050",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
     "groups" : [
       "Finanzen"
     ],
-    "includeRegex" : "^https://www\\.visa\\.de/uber-visa/newsroom/press-releases\\.\\d+\\.html$",
+    "includeRegex" : "^https?://www\\.visa\\.de/uber-visa/newsroom/[^/?#]+\\.html/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Visa Newsroom DE",
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "div.accordionPanel",
+      "link" : "a",
+      "title" : "a"
     },
     "tags" : [
       "Payment"
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.visa.de/uber-visa/newsroom.html",
+    "visualBackup" : {
+      "includeRegex" : "^https://www\\.visa\\.de/uber-visa/newsroom/press-releases\\.\\d+\\.html$",
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T08:30:50Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "includeRegex" : "^https://www\\.visa\\.de/uber-visa/newsroom/press-releases\\.\\d+\\.html$",
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-18T08:30:50Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://www.visa.de/uber-visa/newsroom/press-releases.3460740.html",
+      "https://www.visa.de/uber-visa/newsroom/press-releases.3458764.html",
+      "https://www.visa.de/uber-visa/newsroom/press-releases.3457335.html"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T08:30:57Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 5000
   },
   {
