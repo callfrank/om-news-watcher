@@ -15,6 +15,10 @@
       "link" : "a",
       "title" : "h2.title"
     },
+    "tags" : [
+      "Quartalszahlen",
+      "Unternehmensstrategie"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://corporate.zalando.com/de/newsroom/news-stories",
     "visualBackup" : {
@@ -29,8 +33,8 @@
     "visualLearnedAt" : "2026-08-17T10:03:11Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:21:31Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 68 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:10:12Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 5000
   },
   {
@@ -49,6 +53,11 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Recht & Regulierung",
+      "KI",
+      "Nachhaltigkeit"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.otto.de/unternehmen/de/presse/pressemitteilungen",
     "waitMs" : 3000
@@ -111,6 +120,11 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
     "timeoutMs" : 90000,
     "url" : "https://ecommerce-europe.eu/press-releases/",
     "waitMs" : 1200
@@ -131,6 +145,11 @@
       "link" : "a.text-jade",
       "title" : "a.text-jade"
     },
+    "tags" : [
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "KI"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://ecdb.com/whitepapers-and-reports",
     "visualBackup" : {
@@ -146,7 +165,7 @@
     "visualLearnedAt" : "2026-08-17T10:08:40Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:21:47Z",
+    "visualValidatedAt" : "2026-08-18T07:10:29Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 33 Treffer",
     "waitMs" : 5000
   },
@@ -168,6 +187,9 @@
       "link" : "a",
       "title" : "a"
     },
+    "tags" : [
+      "E-Commerce"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.omt.de/events/e-commerce-konferenzen/",
     "visualBackup" : {
@@ -186,8 +208,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:26:10Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 55 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:10:34Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 22 Treffer",
     "waitMs" : 3000
   },
   {
@@ -225,6 +247,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Quartalszahlen"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.ey.com/de_de/newsroom",
     "waitMs" : 5000
@@ -244,6 +269,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "KI"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://newsroom.fedex.com/",
     "waitMs" : 5000
@@ -277,6 +305,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Unternehmensstrategie"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.flaschenpost.de/newsroom",
     "waitMs" : 5000
@@ -297,6 +328,11 @@
       "link" : "a",
       "title" : "h2.post-block__title"
     },
+    "tags" : [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.forrester.com/press-newsroom/",
     "visualBackup" : {
@@ -311,8 +347,8 @@
     "visualLearnedAt" : "2026-08-17T10:18:44Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:22:24Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 26 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:11:06Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 5000
   },
   {
@@ -328,6 +364,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Logistik"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.mynewsdesk.com/de/fressnapf-holding-se",
     "waitMs" : 3000
@@ -377,8 +416,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:58:15Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 253 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:11:11Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
     "waitMs" : 1000
   },
   {
@@ -394,6 +433,10 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Studien & Marktdaten",
+      "KI"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://newsroom.gmx.net/",
     "waitMs" : 3000
@@ -434,6 +477,10 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Logistik",
+      "Studien & Marktdaten"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://jdcorporateblog.com/category/jd-in-depths-reports/",
     "waitMs" : 3000
@@ -456,6 +503,9 @@
       "link" : "a",
       "title" : "h3"
     },
+    "tags" : [
+      "Quartalszahlen"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://jdcorporateblog.com/?s=&type=news&topics=&sort_by=",
     "visualBackup" : {
@@ -474,8 +524,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T11:29:43Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 34 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:11:28Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 24 Treffer",
     "waitMs" : 3000
   },
   {
@@ -491,6 +541,10 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "E-Commerce",
+      "Unternehmensstrategie"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://unternehmen.kaufland.de/presse/newsroom",
     "waitMs" : 5000
@@ -511,6 +565,10 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Events",
+      "Sicherheit"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.polizei-praevention.de/aktuelle-meldungen",
     "waitMs" : 3000
@@ -550,9 +608,9 @@
     "visualSampleCount" : 3,
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
-    "visualValidated" : true,
+    "visualValidated" : false,
     "visualValidatedAt" : "2026-08-17T11:30:42Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
+    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
     "waitMs" : 7000
   },
   {
@@ -591,6 +649,9 @@
       "link" : "",
       "title" : ""
     },
+    "tags" : [
+      "Payment"
+    ],
     "timeoutMs" : 60000,
     "url" : "https://www.mastercard.com/news/europe/de-de/newsroom/pressemitteilungen/",
     "waitMs" : 1500
