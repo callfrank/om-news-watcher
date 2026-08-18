@@ -3369,5 +3369,57 @@
     "visualValidatedAt" : "2026-08-18T06:08:40Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 24 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-081109",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "minTitleLength" : 5,
+    "name" : "Walmart",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "h3.adp-newsroom-card__title",
+      "link" : "a",
+      "title" : "h3.adp-newsroom-card__title"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://corporate.walmart.com/content/corporate/en_us/news.html",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T06:11:09Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://corporate.walmart.com/news/2026/08/14/discover-the-walmart-plus-in-store-perks-built-for-everyday-life",
+      "https://corporate.walmart.com/news/2026/08/13/walmart-to-host-second-quarter-earnings-conference-call-august-20-2026",
+      "https://corporate.walmart.com/about/samsclub/news/2026/08/12/from-the-classroom-to-the-club-meet-five-teachers-who-are-now-sams-club-associates"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T06:11:13Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · Kartenstruktur + URL-Muster",
+    "waitMs" : 2500
   }
 ]
