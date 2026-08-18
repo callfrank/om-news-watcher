@@ -1,5 +1,886 @@
 [
   {
+    "guid": "8f67407a6c4a062683fbe2f6",
+    "source": "Wero",
+    "sourceLabel": "Wero",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Skip to navigation",
+    "link": "https://epicompany.eu/media-insights/?_omw_fresh=1787062126433-s4jqfw",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.240Z",
+    "deliveredAt": "2026-08-18T14:08:56.240Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "337d2a953db8eaea481f516f",
+    "source": "DeliveryHero",
+    "sourceLabel": "DeliveryHero",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Find us on",
+    "link": "https://ir.deliveryhero.com/de/news?_omw_fresh=1787062124946-755z8d",
+    "pageDate": "13.08.2026",
+    "publishedAt": "2026-08-13T12:00:00.000Z",
+    "detectedAt": "2026-08-18T14:08:56.240Z",
+    "deliveredAt": "2026-08-18T14:08:56.240Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aef4cd5989909db41f3b8758",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber and Zipline Partner to Bring Drone Delivery to Millions of Americans",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "pageDate": "August 17, 2026",
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "detectedAt": "2026-08-18T14:08:56.239Z",
+    "deliveredAt": "2026-08-18T14:08:56.239Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "6af3b986451a46c08ad3ab94",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "News and events",
+    "link": "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787062124588-5jg8ry",
+    "pageDate": "August 17, 2026",
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "detectedAt": "2026-08-18T14:08:56.239Z",
+    "deliveredAt": "2026-08-18T14:08:56.239Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3ee8b872934bbee751b5203f",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+    "pageDate": "17.08.2026",
+    "publishedAt": "2026-08-17T12:00:00.000Z",
+    "detectedAt": "2026-08-18T14:08:56.235Z",
+    "deliveredAt": "2026-08-18T14:08:56.235Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "51bff74b886f84f88c6a574e",
+    "source": "Ebayinc",
+    "sourceLabel": "Ebayinc",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "eBay Foundation’s 2026 Global Give Grants Bring Support Closer to Home",
+    "link": "https://www.ebayinc.com/stories/news/ebay-foundations-2026-global-give-grants-bring-support-closer-to-home/",
+    "pageDate": "Aug 18, 2026 eBay Foundation",
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.234Z",
+    "deliveredAt": "2026-08-18T14:08:56.234Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "538cdc80f118068fe67d3c18",
+    "source": "Ebayinc",
+    "sourceLabel": "Ebayinc",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "eBay Expands Authenticity Guarantee to Collectible Coins",
+    "link": "https://www.ebayinc.com/stories/news/ebay-authenticity-guarantee-collectible-coins/",
+    "pageDate": "Aug 18, 2026 Authenticity Guarantee",
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.234Z",
+    "deliveredAt": "2026-08-18T14:08:56.234Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "eb85b2e0bc7348438508f396",
+    "source": "Schwarz-digits",
+    "sourceLabel": "Schwarz-digits",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Schwarz Gruppe",
+    "link": "https://schwarz-digits.de/presse?_omw_fresh=1787062119059-hmqxsi",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.234Z",
+    "deliveredAt": "2026-08-18T14:08:56.234Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0503ad27f34b7e35d43c4106",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "About us",
+    "link": "https://gruppe.schwarz/en/press?_omw_fresh=1787062118842-dvse7w",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.234Z",
+    "deliveredAt": "2026-08-18T14:08:56.234Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b27c3cd8a51ab7428ea13f5",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Commentary",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fs260818.en.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3535674ea7934afe58af29b2",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SvenskaSV",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.sv.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ebc2349d93550a88b0ae7987",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SlovenščinaSL",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.sl.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d1b78f56b77cacf536692b98",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SlovenčinaSK",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.sk.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8b4e476b75033dac544ea529",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "RomânăRO",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.ro.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "49fb574ebd2c86e8d7939005",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "PortuguêsPT",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.pt.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "59834b2fcb6a68f4d60d05ce",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "PolskiPL",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.pl.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fe66c47ea858cc15e8c75356",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "NederlandsNL",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.nl.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5fc403564f4ef60714ae9aed",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "MaltiMT",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.mt.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "80375629751063d7f0c2a240",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "LatviešuLV",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.lv.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3db4bb73ad569ee2166e1cf4",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "LietuviųLT",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.lt.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a99e442c85c84c57f33a41a2",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ItalianoIT",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.it.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ef6fe375d4ae145e454c7461",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "MagyarHU",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.hu.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "17ddbbe507364cabf0bcdef5",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "HrvatskiHR",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.hr.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e7b32a927743ea3e8ae21a5c",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "FrançaisFR",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.fr.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2baad0078e2f1a52d157ba51",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SuomiFI",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.fi.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "405e8021a0c574d069b7b12d",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Eesti keelET",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.et.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d936f5a26d2c3b6752075e7a",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "EspañolES",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.es.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "119c1f80eb05807cecb79404",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "EλληνικάEL",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.el.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "53065741114076e3a2e04c25",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "DanskDA",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.da.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9943a0fae9d39fc4e70db51c",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ČeštinaCS",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.cs.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4c585e909aaf1910a183c71e",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "БългарскиBG",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.bg.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b00190816396d16456d92c15",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "DEUTSCH",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.de.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6aec8a61c695f6b213ebf0ef",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Consolidated financial statement of the Eurosystem as at 14 August 2026",
+    "link": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.en.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "41b36f3f6e82643a42d4bee2",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Skip to navigation",
+    "link": "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787062091199-rq9zde",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.224Z",
+    "deliveredAt": "2026-08-18T14:08:56.224Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "be5347068e4b39a24e421425",
+    "source": "YouGov Corporate News",
+    "sourceLabel": "YouGov",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Main Menu",
+    "link": "https://corporate.yougov.com/press/news-and-press-releases/?_omw_fresh=1787062079738-06ne1h",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.221Z",
+    "deliveredAt": "2026-08-18T14:08:56.221Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d54901c81f9d7c5ab0299aa8",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Seite 5",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787062078423-5fn2a9&page=4",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.220Z",
+    "deliveredAt": "2026-08-18T14:08:56.220Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "74b3d46d2649c292da2337b2",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Seite 4",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787062078423-5fn2a9&page=3",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.220Z",
+    "deliveredAt": "2026-08-18T14:08:56.220Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e17e8a6b89304aff2c053f64",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Seite 3",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787062078423-5fn2a9&page=2",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.220Z",
+    "deliveredAt": "2026-08-18T14:08:56.220Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2ef74f3991dd7308269bf7ef",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Seite 2",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787062078423-5fn2a9&page=1",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.220Z",
+    "deliveredAt": "2026-08-18T14:08:56.220Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a1aa0fcfb0c84e7e82550db2",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Aktuelle Seite 1",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787062078423-5fn2a9&page=0",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.220Z",
+    "deliveredAt": "2026-08-18T14:08:56.220Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c9be21af8c314c2e03f0cbb1",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Meta Mobil",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787062078423-5fn2a9",
+    "pageDate": "14.08.2026",
+    "publishedAt": "2026-08-14T12:00:00.000Z",
+    "detectedAt": "2026-08-18T14:08:56.220Z",
+    "deliveredAt": "2026-08-18T14:08:56.220Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8d4088578341b88d09014db3",
+    "source": "Tencent News",
+    "sourceLabel": "Tencent News",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Who we are",
+    "link": "https://www.tencent.com/newsroom/all-news/?_omw_fresh=1787062065680-tc6iua",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.217Z",
+    "deliveredAt": "2026-08-18T14:08:56.217Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a1f3c8abba6914388ef74191",
+    "source": "Mordor Intelligence Insights",
+    "sourceLabel": "Mordor Intelligence Insights",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "aktualisieren Sie diese Seite",
+    "link": "https://www.mordorintelligence.com/signal/insights?_omw_fresh=1787062065463-jwgfv1",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.216Z",
+    "deliveredAt": "2026-08-18T14:08:56.216Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "7f0ae22c83339282b04d3d6f",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon Seller Summits & Meetups",
+    "link": "https://amzsummits.com/events/?_omw_fresh=1787062058803-tpr1x1",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T14:08:56.213Z",
+    "deliveredAt": "2026-08-18T14:08:56.213Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
     "guid": "7b3af21723596952ac438712",
     "source": "Excitingcommerce",
     "sourceLabel": "Excitingcommerce",
@@ -353,31 +1234,6 @@
     "recoveryReason": null
   },
   {
-    "guid": "f4d5ececbffeeb2bea91c00a",
-    "source": "Uber",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Uber and Zipline Partner to Bring Drone Delivery to Millions of Americans",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx",
-    "pageDate": "August 17, 2026",
-    "publishedAt": "2026-08-17T00:00:00.000Z",
-    "detectedAt": "2026-08-18T12:48:38.699Z",
-    "deliveredAt": "2026-08-18T12:48:38.699Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
-  },
-  {
     "guid": "3a5b10051e9e8b6b7afc075a",
     "source": "Uber",
     "sourceLabel": "Uber",
@@ -400,26 +1256,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "c94c6e496c6216c043556ace",
-    "source": "eBay DE",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
-    "pageDate": "17.08.2026",
-    "publishedAt": "2026-08-17T12:00:00.000Z",
-    "detectedAt": "2026-08-18T12:48:38.694Z",
-    "deliveredAt": "2026-08-18T12:48:38.694Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "dc6d9a205db9ce79e0407866",
@@ -1094,45 +1930,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "b6a31e47bd10b266a53094d7",
-    "source": "Mordor Intelligence Insights",
-    "sourceLabel": "Mordor Intelligence Insights",
-    "groups": [
-      "Research"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "aktualisieren Sie diese Seite",
-    "link": "https://www.mordorintelligence.com/signal/insights?_omw_fresh=1787057250575-h0noys",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-08-18T12:48:38.672Z",
-    "deliveredAt": "2026-08-18T12:48:38.672Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "354cfab3b4af88ed97573024",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon Seller Summits & Meetups",
-    "link": "https://amzsummits.com/events/?_omw_fresh=1787057244549-47ohe2",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-08-18T12:48:38.669Z",
-    "deliveredAt": "2026-08-18T12:48:38.669Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": []
   },
   {
     "guid": "7b7b9c08fa57edb2dcda7fcf",
