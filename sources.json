@@ -4129,5 +4129,35 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 13 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260818-131621",
+    "checkIntervalMinutes" : 60,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Sonstiges"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Excitingcommerce",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://excitingcommerce.de/",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
