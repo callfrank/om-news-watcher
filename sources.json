@@ -1987,8 +1987,8 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260818-055556",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260818-063140",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -1999,15 +1999,15 @@
     "includeKeywords" : [
 
     ],
-    "includeRegex" : "^https?://www\\.etailment\\.de/magazin/",
+    "includeRegex" : "^https?://www\\.etailment\\.de/magazin/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "eTailment",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "div.grid-cols-1",
-      "link" : "a",
-      "title" : "h3.font-sans"
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
     "tags" : [
 
@@ -2022,7 +2022,7 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-18T03:55:56Z",
+    "visualLearnedAt" : "2026-08-18T04:31:40Z",
     "visualRuleVersion" : 3,
     "visualSampleCount" : 2,
     "visualSampleURLs" : [
@@ -2030,10 +2030,10 @@
       "https://www.etailment.de/magazin/2026-08-17-paypal-uebernahme-stripe-und-advent-bessern-nach"
     ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T03:56:01Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 44 Treffer",
+    "visualValidatedAt" : "2026-08-18T04:31:43Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 44 Treffer · URL-Muster",
     "waitMs" : 2500
   }
 ]
