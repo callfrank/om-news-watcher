@@ -3421,5 +3421,58 @@
     "visualValidatedAt" : "2026-08-18T06:11:13Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-081236",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://newsroom\\.dm\\.de/pressreleases/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "DM",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://newsroom.dm.de/pressreleases/tag/pressemitteilungen",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T06:12:36Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://newsroom.dm.de/pressreleases/neueroeffnung-kaarst-11-august-2026-3459587",
+      "https://newsroom.dm.de/pressreleases/solarstrom-aus-agri-photovoltaik-dm-beteiligt-sich-an-neuem-energieprojekt-3459478",
+      "https://newsroom.dm.de/pressreleases/neueroeffnung-harsewinkel-7-august-2026-3459656"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T06:12:39Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
