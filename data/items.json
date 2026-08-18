@@ -1,5 +1,344 @@
 [
   {
+    "guid": "fd428baf917b17073a810399",
+    "source": "DeliveryHero",
+    "sourceLabel": "DeliveryHero",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Find us on",
+    "link": "https://ir.deliveryhero.com/de/news?_omw_fresh=1787082296432-92n688",
+    "pageDate": "13.08.2026",
+    "publishedAt": "2026-08-13T12:00:00.000Z",
+    "detectedAt": "2026-08-18T19:45:01.049Z",
+    "deliveredAt": "2026-08-18T19:45:01.049Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f4d5ececbffeeb2bea91c00a",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber and Zipline Partner to Bring Drone Delivery to Millions of Americans",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx",
+    "pageDate": "August 17, 2026",
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "detectedAt": "2026-08-18T19:45:01.048Z",
+    "deliveredAt": "2026-08-18T19:45:01.048Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "1de0c7ac5cd476d31352f9b8",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "News and events",
+    "link": "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787082295677-klhglb",
+    "pageDate": "August 17, 2026",
+    "publishedAt": "2026-08-17T00:00:00.000Z",
+    "detectedAt": "2026-08-18T19:45:01.048Z",
+    "deliveredAt": "2026-08-18T19:45:01.048Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c94c6e496c6216c043556ace",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
+    "pageDate": "17.08.2026",
+    "publishedAt": "2026-08-17T12:00:00.000Z",
+    "detectedAt": "2026-08-18T19:45:01.047Z",
+    "deliveredAt": "2026-08-18T19:45:01.047Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "16cd2488786a9ba4ea0f8930",
+    "source": "Schwarz-digits",
+    "sourceLabel": "Schwarz-digits",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Schwarz Gruppe",
+    "link": "https://schwarz-digits.de/presse?_omw_fresh=1787082288818-7rsenu",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.046Z",
+    "deliveredAt": "2026-08-18T19:45:01.046Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e11bc95d22a978b67ed0aa3f",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Skip to navigation",
+    "link": "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787082259061-x9majt",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.039Z",
+    "deliveredAt": "2026-08-18T19:45:01.039Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c1288f36bf512c634eec821a",
+    "source": "YouGov Corporate News",
+    "sourceLabel": "YouGov",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Main Menu",
+    "link": "https://corporate.yougov.com/press/news-and-press-releases/?_omw_fresh=1787082248379-quo5am",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.036Z",
+    "deliveredAt": "2026-08-18T19:45:01.036Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "31fdd8b3ad109ac8e9c25d15",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Seite 5",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787082246781-hl13g0&page=4",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.035Z",
+    "deliveredAt": "2026-08-18T19:45:01.035Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1e9aeaaf662e90e08e4bf1fa",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Seite 4",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787082246781-hl13g0&page=3",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.035Z",
+    "deliveredAt": "2026-08-18T19:45:01.035Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "74d1f2b8418dd991f31849df",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Seite 3",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787082246781-hl13g0&page=2",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.035Z",
+    "deliveredAt": "2026-08-18T19:45:01.035Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2606f2bf57a984470f162a71",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Seite 2",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787082246781-hl13g0&page=1",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.035Z",
+    "deliveredAt": "2026-08-18T19:45:01.035Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2cd1908712f0d8b47c648955",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Aktuelle Seite 1",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787082246781-hl13g0&page=0",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.035Z",
+    "deliveredAt": "2026-08-18T19:45:01.035Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "935f6691c05d9ff3a4d55af0",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Meta Mobil",
+    "link": "https://www.vzhh.de/presse?_omw_fresh=1787082246781-hl13g0",
+    "pageDate": "14.08.2026",
+    "publishedAt": "2026-08-14T12:00:00.000Z",
+    "detectedAt": "2026-08-18T19:45:01.035Z",
+    "deliveredAt": "2026-08-18T19:45:01.035Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8849e83dc1a8256f43646119",
+    "source": "Tencent News",
+    "sourceLabel": "Tencent News",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Who we are",
+    "link": "https://www.tencent.com/newsroom/all-news/?_omw_fresh=1787082234268-tc7itx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.031Z",
+    "deliveredAt": "2026-08-18T19:45:01.031Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5e6e276f429b50deae43eb16",
+    "source": "Mordor Intelligence Insights",
+    "sourceLabel": "Mordor Intelligence Insights",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "aktualisieren Sie diese Seite",
+    "link": "https://www.mordorintelligence.com/signal/insights?_omw_fresh=1787082234035-1w7te4",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.030Z",
+    "deliveredAt": "2026-08-18T19:45:01.030Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "a2f795c9c3f6368d81dbf032",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon Seller Summits & Meetups",
+    "link": "https://amzsummits.com/events/?_omw_fresh=1787082227919-326o86",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-18T19:45:01.027Z",
+    "deliveredAt": "2026-08-18T19:45:01.027Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
     "guid": "2febf02fb55d76ed154569a6",
     "source": "Wero",
     "sourceLabel": "Wero",
@@ -36,33 +375,8 @@
     "detectedAt": "2026-08-18T18:57:59.605Z",
     "deliveredAt": "2026-08-18T18:57:59.605Z",
     "recovered": false,
-    "historicalBackfill": false,
+    "historicalBackfill": true,
     "recoveryReason": null
-  },
-  {
-    "guid": "aef4cd5989909db41f3b8758",
-    "source": "Uber",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Uber and Zipline Partner to Bring Drone Delivery to Millions of Americans",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
-    "pageDate": "August 17, 2026",
-    "publishedAt": "2026-08-17T00:00:00.000Z",
-    "detectedAt": "2026-08-18T18:57:59.604Z",
-    "deliveredAt": "2026-08-18T18:57:59.604Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "6ce6eb0f31a3ea15fe2eef55",
@@ -87,26 +401,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "3ee8b872934bbee751b5203f",
-    "source": "eBay DE",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
-    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
-    "pageDate": "17.08.2026",
-    "publishedAt": "2026-08-17T12:00:00.000Z",
-    "detectedAt": "2026-08-18T18:57:59.602Z",
-    "deliveredAt": "2026-08-18T18:57:59.602Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "d0d0c005e52cb7246f83e7b3",
@@ -311,7 +605,7 @@
     "detectedAt": "2026-08-18T18:57:59.585Z",
     "deliveredAt": "2026-08-18T18:57:59.585Z",
     "recovered": false,
-    "historicalBackfill": false,
+    "historicalBackfill": true,
     "recoveryReason": null
   },
   {
@@ -335,46 +629,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "03dfbb4dc7cda153ac47251a",
-    "source": "Mordor Intelligence Insights",
-    "sourceLabel": "Mordor Intelligence Insights",
-    "groups": [
-      "Research"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "aktualisieren Sie diese Seite",
-    "link": "https://www.mordorintelligence.com/signal/insights?_omw_fresh=1787079406386-i6omhm",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-08-18T18:57:59.580Z",
-    "deliveredAt": "2026-08-18T18:57:59.580Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": []
-  },
-  {
-    "guid": "96a1cf45c6130c49b6b90228",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon Seller Summits & Meetups",
-    "link": "https://amzsummits.com/events/?_omw_fresh=1787079400546-2n863c",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-08-18T18:57:59.576Z",
-    "deliveredAt": "2026-08-18T18:57:59.576Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": []
   },
   {
     "guid": "058478a8d9bcf0f1b7652a0f",
