@@ -2556,5 +2556,57 @@
     "visualValidatedAt" : "2026-08-18T05:34:17Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-073531",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://www\\.ifhkoeln\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Ifhkoeln",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "div.oxy-post-content-wrapper",
+      "link" : "a.oxy-post-title",
+      "title" : "a.oxy-post-title"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.ifhkoeln.de/newsroom/pressemitteilungen/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:35:31Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.ifhkoeln.de/praevention-gewinnt-in-apotheken-an-bedeutung-rahmenbedingungen-bremsen-ausbau/",
+      "https://www.ifhkoeln.de/fahrradmarkt-2025-bei-94-milliarden-euro-strassensportraeder-gewinnen-an-bedeutung/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:35:34Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer · Kartenstruktur + URL-Muster",
+    "waitMs" : 2500
   }
 ]
