@@ -1816,7 +1816,8 @@
       "title" : "h3.press-release--title"
     },
     "tags" : [
-
+      "Studien & Marktdaten",
+      "Events"
     ],
     "url" : "https://corporate.target.com/investors/financial-information/financial-news",
     "visualBackup" : {
@@ -1839,7 +1840,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T12:48:33Z",
+    "visualValidatedAt" : "2026-08-18T07:14:42Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer",
     "waitMs" : 2500
   },
@@ -1869,7 +1870,7 @@
       "title" : "div.common-font-size-21"
     },
     "tags" : [
-
+      "Studien & Marktdaten"
     ],
     "url" : "https://www.alibabagroup.com/en-US/investor-relations",
     "visualBackup" : {
@@ -1892,8 +1893,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T12:50:26Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 25 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:14:45Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 2500
   },
   {
@@ -1922,7 +1923,7 @@
       "title" : "a"
     },
     "tags" : [
-
+      "Events"
     ],
     "url" : "https://investor.pddholdings.com/investor-events",
     "visualBackup" : {
@@ -1945,8 +1946,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T12:52:30Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
+    "visualValidatedAt" : "2026-08-18T07:14:48Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
     "waitMs" : 2500
   },
   {
@@ -1975,7 +1976,8 @@
       "title" : "h3.tribe-events-pro-map__event-title"
     },
     "tags" : [
-
+      "E-Commerce",
+      "KI"
     ],
     "url" : "https://digitalzentrumhandel.de/veranstaltungen/",
     "visualBackup" : {
@@ -1998,7 +2000,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-17T12:57:45Z",
+    "visualValidatedAt" : "2026-08-18T07:14:54Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 35 Treffer",
     "waitMs" : 2500
   },
