@@ -10,6 +10,15 @@ final class SourceTester: NSObject, WKNavigationDelegate {
     private var finished = false
 
     func test(_ source: SourceRecord) async -> SourceTestResult {
+        let startedAt = Date()
+        let result = await performTest(source)
+        let duration = Int(
+            max(0, Date().timeIntervalSince(startedAt) * 1000)
+        )
+        return result.withDuration(duration)
+    }
+
+    private func performTest(_ source: SourceRecord) async -> SourceTestResult {
         if source.fetchMode == "feed" {
             return await testViaFeed(source)
         }

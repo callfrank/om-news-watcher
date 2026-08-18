@@ -110,6 +110,7 @@ struct SourceTestResult: Identifiable, Equatable {
     let message: String
     let testedAt: Date
     let repairProposal: SourceRepairProposal?
+    let durationMs: Int
 
     init(
         sourceID: UUID,
@@ -118,7 +119,8 @@ struct SourceTestResult: Identifiable, Equatable {
         examples: [SourceTestHit],
         message: String,
         testedAt: Date,
-        repairProposal: SourceRepairProposal? = nil
+        repairProposal: SourceRepairProposal? = nil,
+        durationMs: Int = 0
     ) {
         self.sourceID = sourceID
         self.kind = kind
@@ -127,6 +129,20 @@ struct SourceTestResult: Identifiable, Equatable {
         self.message = message
         self.testedAt = testedAt
         self.repairProposal = repairProposal
+        self.durationMs = durationMs
+    }
+
+    func withDuration(_ milliseconds: Int) -> SourceTestResult {
+        SourceTestResult(
+            sourceID: sourceID,
+            kind: kind,
+            hitCount: hitCount,
+            examples: examples,
+            message: message,
+            testedAt: testedAt,
+            repairProposal: repairProposal,
+            durationMs: milliseconds
+        )
     }
 
     var isProblem: Bool { !kind.isSuccessLike }

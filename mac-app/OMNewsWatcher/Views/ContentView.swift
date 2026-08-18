@@ -82,6 +82,9 @@ struct ContentView: View {
         .sheet(isPresented: $model.showBulkManager) {
             BulkManagerView(model: model)
         }
+        .sheet(isPresented: $model.showRuleDebugger) {
+            RuleDebuggerView(model: model)
+        }
         .alert("Fehler", isPresented: Binding(
             get: { model.errorMessage != nil },
             set: { if !$0 { model.errorMessage = nil } }
@@ -391,8 +394,41 @@ struct ContentView: View {
                             LabeledContent("Ordner", value: source.groups.isEmpty ? "—" : source.groups.joined(separator: ", "))
                             LabeledContent("Schlagwörter", value: source.tags.isEmpty ? "—" : source.tags.joined(separator: ", "))
                             LabeledContent("Relevanz", value: source.priorityStars)
+                            LabeledContent("Quellentyp", value: source.sourceType)
+                            LabeledContent(
+                                "Prüfintervall",
+                                value: source.checkIntervalTitle +
+                                    (source.weekdaysOnly ? " · Mo–Fr" : "")
+                            )
+
                             if let latest = model.latestItem(for: source) {
                                 LabeledContent("Letzter neuer Treffer", value: latest.displayDetectedAt)
+                            }
+
+                            if let health = model.health(for: source) {
+                                if let checkedAt = health.checkedAt {
+                                    LabeledContent(
+                                        "Letzter GitHub-Check",
+                                        value: FeedHistoryItem.parsedDate(checkedAt)
+                                            .map {
+                                                DateFormatter.localizedString(
+                                                    from: $0,
+                                                    dateStyle: .short,
+                                                    timeStyle: .short
+                                                )
+                                            } ?? checkedAt
+                                    )
+                                }
+
+                                if let anomaly = health.anomaly, !anomaly.isEmpty {
+                                    LabeledContent("Gesundheit") {
+                                        Label(
+                                            anomaly,
+                                            systemImage: "waveform.path.ecg.rectangle"
+                                        )
+                                        .foregroundStyle(.orange)
+                                    }
+                                }
                             }
 
                             LabeledContent("JavaScript-Wartezeit", value: "\(source.waitMs) ms")
@@ -435,6 +471,15 @@ struct ContentView: View {
                         }
 
                         Button {
+                            model.showRuleDebugger = true
+                        } label: {
+                            Label(
+                                "Regel erklären",
+                                systemImage: "ladybug"
+                            )
+                        }
+
+                        Button {
                             model.startVisualTrainingSelected()
                         } label: {
                             Label(
@@ -442,6 +487,15 @@ struct ContentView: View {
                                 ? "Neu einlernen"
                                 : "Visuell einlernen",
                                 systemImage: "cursorarrow.click.2"
+                            )
+                        }
+
+                        if source.visualRuleHistoryCount > 0 {
+                            Button("Vorherige Regel") {
+                                model.restorePreviousRule(for: source.id)
+                            }
+                            .help(
+                                "\(source.visualRuleHistoryCount) ältere Regelstände verfügbar"
                             )
                         }
 
@@ -751,6 +805,13 @@ struct ContentView: View {
                 Button("Quellen als CSV exportieren") { model.exportSourcesCSV() }
                 Button("Quellen als JSON exportieren") { model.exportSourcesJSON() }
                 Button("OPML importieren …") { model.importOPML() }
+                Divider()
+                Button("Vollständiges Backup exportieren …") {
+                    model.exportFullBackup()
+                }
+                Button("Backup wiederherstellen …") {
+                    model.importFullBackup()
+                }
             } label: {
                 HStack(spacing: 5) { Image(systemName: "rectangle.3.group"); Text("Redaktion") }
             }
@@ -1026,36 +1087,180 @@ struct FeedPreviewView: View {
 struct HealthDashboardView: View {
     @Environment(\.dismiss) private var dismiss
     @ObservedObject var model: AppViewModel
+    @State private var onlyWarnings = false
+    @State private var search = ""
 
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 18) {
-                    HStack(spacing: 14) {
-                        HealthCard(title: "Aktiv", value: model.activeCount, systemImage: "checkmark.circle.fill")
-                        HealthCard(title: "Probleme", value: model.problemCount, systemImage: "exclamationmark.triangle.fill")
-                        HealthCard(title: "Ordner", value: model.allGroups.count, systemImage: "folder.fill")
-                        HealthCard(title: "Feed-Einträge", value: model.feedItems.count, systemImage: "newspaper.fill")
-                    }
-                    GroupBox("Quellen ohne aktuellen Verlaufstreffer") {
-                        VStack(alignment: .leading, spacing: 7) {
-                            ForEach(model.sources.filter { model.latestItem(for: $0) == nil }.prefix(20)) { source in
-                                HStack { Text(source.name); Spacer(); Text(source.enabled ? "aktiv" : "pausiert").foregroundStyle(.secondary) }
+            VStack(spacing: 0) {
+                HStack(spacing: 14) {
+                    HealthCard(
+                        title: "Aktiv",
+                        value: model.activeCount,
+                        systemImage: "checkmark.circle.fill"
+                    )
+                    HealthCard(
+                        title: "Warnungen",
+                        value: model.healthWarningCount,
+                        systemImage: "waveform.path.ecg.rectangle"
+                    )
+                    HealthCard(
+                        title: "14 Tage ohne Neues",
+                        value: model.healthStaleCount,
+                        systemImage: "calendar.badge.exclamationmark"
+                    )
+                    HealthCard(
+                        title: "Intervallbedingt übersprungen",
+                        value: model.healthSkippedCount,
+                        systemImage: "clock.arrow.circlepath"
+                    )
+                }
+                .padding()
+
+                HStack {
+                    Toggle("Nur Warnungen", isOn: $onlyWarnings)
+                        .toggleStyle(.switch)
+
+                    Spacer()
+
+                    TextField("Quelle suchen", text: $search)
+                        .textFieldStyle(.roundedBorder)
+                        .frame(width: 280)
+                }
+                .padding(.horizontal)
+                .padding(.bottom, 8)
+
+                if model.healthItems.isEmpty {
+                    ContentUnavailableView(
+                        "Noch keine Gesundheitsdaten",
+                        systemImage: "waveform.path.ecg",
+                        description: Text(
+                            "Starte den GitHub-Watcher nach dem Update einmal manuell. Danach steht data/health.json zur Verfügung."
+                        )
+                    )
+                } else {
+                    Table(filteredHealth) {
+                        TableColumn("Quelle") { item in
+                            HStack(spacing: 7) {
+                                Image(
+                                    systemName:
+                                        item.hasWarning
+                                        ? "exclamationmark.triangle.fill"
+                                        : item.skipped
+                                        ? "clock.fill"
+                                        : "checkmark.circle.fill"
+                                )
+                                .foregroundStyle(
+                                    item.hasWarning
+                                    ? .orange
+                                    : item.skipped
+                                    ? .secondary
+                                    : .green
+                                )
+
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(item.source)
+                                    if let anomaly = item.anomaly, !anomaly.isEmpty {
+                                        Text(anomaly)
+                                            .font(.caption2)
+                                            .foregroundStyle(.orange)
+                                            .lineLimit(1)
+                                    }
+                                }
                             }
-                        }.padding(6)
-                    }
-                    GroupBox("Problemquellen") {
-                        VStack(alignment: .leading, spacing: 7) {
-                            ForEach(model.sources.filter { model.testResults[$0.id]?.isProblem == true }) { source in
-                                HStack { Text(source.name); Spacer(); Text(model.testResults[source.id]?.kind.title ?? "Problem").foregroundStyle(.orange) }
+                        }
+
+                        TableColumn("Treffer") { item in
+                            Text(item.displayHitCount)
+                        }
+                        .width(95)
+
+                        TableColumn("Dauer") { item in
+                            Text(
+                                item.durationMs.map {
+                                    String(format: "%.1f s", Double($0) / 1000)
+                                } ?? "—"
+                            )
+                        }
+                        .width(75)
+
+                        TableColumn("Letzter Erfolg") { item in
+                            Text(displayDate(item.lastSuccessAt))
+                        }
+                        .width(135)
+
+                        TableColumn("Letzte neue Meldung") { item in
+                            Text(displayDate(item.lastNewAt))
+                        }
+                        .width(145)
+
+                        TableColumn("Nächster Check") { item in
+                            Text(
+                                item.enabled
+                                ? displayDate(item.nextCheckAt)
+                                : "Pausiert"
+                            )
+                        }
+                        .width(135)
+
+                        TableColumn("") { item in
+                            Button("Öffnen") {
+                                model.selectSource(named: item.source)
+                                dismiss()
                             }
-                        }.padding(6)
+                            .buttonStyle(.borderless)
+                        }
+                        .width(65)
                     }
-                }.padding(22)
+                }
             }
             .navigationTitle("Quellen-Gesundheit")
-            .toolbar { ToolbarItem(placement: .cancellationAction) { Button("Fertig") { dismiss() } } }
-        }.frame(minWidth: 820, minHeight: 600)
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Fertig") { dismiss() }
+                }
+                ToolbarItem {
+                    Button {
+                        Task { await model.loadHealth() }
+                    } label: {
+                        Label("Aktualisieren", systemImage: "arrow.clockwise")
+                    }
+                }
+            }
+        }
+        .frame(minWidth: 1100, minHeight: 680)
+    }
+
+    private var filteredHealth: [SourceHealthSnapshot] {
+        model.healthItems
+            .filter { item in
+                let q = search.trimmingCharacters(in: .whitespacesAndNewlines)
+                let searchMatches =
+                    q.isEmpty ||
+                    item.source.localizedCaseInsensitiveContains(q)
+
+                return searchMatches && (!onlyWarnings || item.hasWarning)
+            }
+            .sorted {
+                if $0.hasWarning != $1.hasWarning {
+                    return $0.hasWarning && !$1.hasWarning
+                }
+                if $0.skipped != $1.skipped {
+                    return !$0.skipped && $1.skipped
+                }
+                return $0.source.localizedCaseInsensitiveCompare($1.source) == .orderedAscending
+            }
+    }
+
+    private func displayDate(_ raw: String?) -> String {
+        guard let raw else { return "—" }
+        guard let date = FeedHistoryItem.parsedDate(raw) else { return raw }
+
+        return DateFormatter.localizedString(
+            from: date,
+            dateStyle: .short,
+            timeStyle: .short
+        )
     }
 }
 
@@ -1107,41 +1312,334 @@ struct BulkManagerView: View {
     @Environment(\.dismiss) private var dismiss
     @ObservedObject var model: AppViewModel
     @State private var groupName = ""
+    @State private var tagName = ""
+    @State private var priority = 2
 
     var body: some View {
         NavigationStack {
             VStack(spacing: 0) {
                 List(model.sources) { source in
                     Button {
-                        if model.bulkSelectedIDs.contains(source.id) { model.bulkSelectedIDs.remove(source.id) } else { model.bulkSelectedIDs.insert(source.id) }
+                        if model.bulkSelectedIDs.contains(source.id) {
+                            model.bulkSelectedIDs.remove(source.id)
+                        } else {
+                            model.bulkSelectedIDs.insert(source.id)
+                        }
                     } label: {
                         HStack {
-                            Image(systemName: model.bulkSelectedIDs.contains(source.id) ? "checkmark.circle.fill" : "circle")
-                            VStack(alignment: .leading) { Text(source.name); Text(source.groups.joined(separator: ", ")).font(.caption).foregroundStyle(.secondary) }
-                            Spacer(); Text(source.priorityStars).font(.caption)
+                            Image(
+                                systemName:
+                                    model.bulkSelectedIDs.contains(source.id)
+                                    ? "checkmark.circle.fill"
+                                    : "circle"
+                            )
+
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(source.name)
+                                Text(
+                                    [
+                                        source.groups.joined(separator: ", "),
+                                        source.enabled ? "aktiv" : "pausiert",
+                                        source.checkIntervalTitle
+                                    ]
+                                    .filter { !$0.isEmpty }
+                                    .joined(separator: " · ")
+                                )
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                            }
+
+                            Spacer()
+                            Text(source.priorityStars).font(.caption)
                         }
-                    }.buttonStyle(.plain)
+                    }
+                    .buttonStyle(.plain)
                 }
+
                 Divider()
-                HStack {
-                    Text("\(model.bulkSelectedIDs.count) ausgewählt").font(.headline)
-                    Button("Alle") { model.bulkSelectedIDs = Set(model.sources.map(\.id)) }
-                    Button("Keine") { model.bulkSelectedIDs.removeAll() }
-                    Divider().frame(height: 24)
-                    Button("Aktivieren") { model.setEnabled(true, for: model.bulkSelectedIDs) }
-                    Button("Pausieren") { model.setEnabled(false, for: model.bulkSelectedIDs) }
-                    Button("Testen") { Task { await model.testSources(model.bulkSelectedIDs) } }
-                    TextField("Ordner", text: $groupName).frame(width: 160)
-                    Button("Zuordnen") { model.assignGroup(groupName, to: model.bulkSelectedIDs); groupName = "" }
-                    Spacer()
-                    Button("Löschen", role: .destructive) { model.deleteSources(model.bulkSelectedIDs) }
-                }.padding(12)
+
+                VStack(spacing: 10) {
+                    HStack {
+                        Text("\(model.bulkSelectedIDs.count) ausgewählt")
+                            .font(.headline)
+
+                        Button("Alle") {
+                            model.bulkSelectedIDs = Set(model.sources.map(\.id))
+                        }
+                        Button("Keine") {
+                            model.bulkSelectedIDs.removeAll()
+                        }
+
+                        Spacer()
+
+                        Button("Aktivieren") {
+                            model.setEnabled(true, for: model.bulkSelectedIDs)
+                        }
+                        Button("Pausieren") {
+                            model.setEnabled(false, for: model.bulkSelectedIDs)
+                        }
+                        Button("Testen") {
+                            Task {
+                                await model.testSources(model.bulkSelectedIDs)
+                            }
+                        }
+                    }
+
+                    HStack {
+                        TextField("Ordner", text: $groupName)
+                            .frame(width: 180)
+
+                        Button("Ordner zuordnen") {
+                            model.assignGroup(groupName, to: model.bulkSelectedIDs)
+                            groupName = ""
+                        }
+
+                        Button("Aus Ordner entfernen") {
+                            model.removeGroup(groupName, from: model.bulkSelectedIDs)
+                            groupName = ""
+                        }
+
+                        Divider().frame(height: 26)
+
+                        TextField("Schlagwort", text: $tagName)
+                            .frame(width: 170)
+
+                        Button("Tag hinzufügen") {
+                            model.addTag(tagName, to: model.bulkSelectedIDs)
+                            tagName = ""
+                        }
+
+                        Divider().frame(height: 26)
+
+                        Picker("Relevanz", selection: $priority) {
+                            Text("★☆☆").tag(1)
+                            Text("★★☆").tag(2)
+                            Text("★★★").tag(3)
+                        }
+                        .frame(width: 120)
+
+                        Button("Setzen") {
+                            model.setPriority(priority, for: model.bulkSelectedIDs)
+                        }
+
+                        Spacer()
+
+                        Button("Löschen", role: .destructive) {
+                            model.deleteSources(model.bulkSelectedIDs)
+                        }
+                    }
+                }
+                .padding(12)
             }
             .navigationTitle("Quellen verwalten")
-            .toolbar { ToolbarItem(placement: .cancellationAction) { Button("Fertig") { dismiss() } } }
-        }.frame(minWidth: 920, minHeight: 650)
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Fertig") { dismiss() }
+                }
+            }
+        }
+        .frame(minWidth: 1080, minHeight: 700)
     }
 }
+
+struct RuleDebuggerView: View {
+    @Environment(\.dismiss) private var dismiss
+    @ObservedObject var model: AppViewModel
+
+    var body: some View {
+        NavigationStack {
+            if let source = model.selectedSource {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 16) {
+                        GroupBox("Aktive Erkennungsregel") {
+                            VStack(alignment: .leading, spacing: 7) {
+                                debugLine("Quellentyp", source.sourceType)
+                                debugLine("Abruf", source.fetchMode ?? "Browser / automatisch")
+                                debugLine("Kandidatenselektor", source.candidateSelector ?? "Automatik")
+                                debugLine("Karten-Selektor", source.itemSelector ?? "—")
+                                debugLine("Titel-Selektor", source.titleSelector ?? "—")
+                                debugLine("Link-Selektor", source.linkSelector ?? "—")
+                                debugLine("URL einschließen", source.includeRegex ?? "—")
+                                debugLine("URL ausschließen", source.excludeRegex ?? "—")
+                                debugLine("Min. Titellänge", "\(source.minTitleLength)")
+                                debugLine("Externe Links", source.allowExternal ? "erlaubt" : "nein")
+                                debugLine("Regelstände", "\(source.visualRuleHistoryCount) vorherige")
+                            }
+                            .padding(8)
+                        }
+
+                        if let result = model.testResults[source.id] {
+                            GroupBox("Letzter lokaler Test") {
+                                VStack(alignment: .leading, spacing: 8) {
+                                    HStack {
+                                        Label(
+                                            result.kind.title,
+                                            systemImage:
+                                                result.kind.isSuccessLike
+                                                ? "checkmark.circle.fill"
+                                                : "exclamationmark.triangle.fill"
+                                        )
+                                        .foregroundStyle(
+                                            result.kind.isSuccessLike
+                                            ? .green
+                                            : .orange
+                                        )
+
+                                        Spacer()
+
+                                        Text(
+                                            String(
+                                                format: "%.1f s",
+                                                Double(result.durationMs) / 1000
+                                            )
+                                        )
+                                        .foregroundStyle(.secondary)
+                                    }
+
+                                    Text(result.message)
+                                        .foregroundStyle(.secondary)
+
+                                    ForEach(result.examples.prefix(8)) { hit in
+                                        VStack(alignment: .leading, spacing: 3) {
+                                            Text(hit.title)
+                                                .font(.headline)
+
+                                            if let url = hit.url {
+                                                Text(url)
+                                                    .font(.caption)
+                                                    .foregroundStyle(.secondary)
+                                                    .textSelection(.enabled)
+                                            }
+
+                                            Text(explanation(for: hit, source: source))
+                                                .font(.caption2)
+                                                .foregroundStyle(.secondary)
+                                        }
+                                        .padding(.vertical, 4)
+                                    }
+                                }
+                                .padding(8)
+                            }
+                        } else {
+                            ContentUnavailableView(
+                                "Noch kein lokaler Test",
+                                systemImage: "ladybug",
+                                description: Text(
+                                    "Führe „Quelle testen“ aus. Danach erklärt der Debugger die Beispieltreffer."
+                                )
+                            )
+                        }
+
+                        if let health = model.health(for: source) {
+                            GroupBox("GitHub-Watcher") {
+                                VStack(alignment: .leading, spacing: 7) {
+                                    debugLine("Treffer", health.displayHitCount)
+                                    debugLine(
+                                        "Dauer",
+                                        health.durationMs.map {
+                                            String(format: "%.1f s", Double($0) / 1000)
+                                        } ?? "—"
+                                    )
+                                    debugLine("Warnung", health.anomaly ?? "keine")
+                                    debugLine("Meldung", health.message ?? "—")
+                                }
+                                .padding(8)
+                            }
+                        }
+                    }
+                    .padding(20)
+                }
+                .navigationTitle("Regel-Debugger · \(source.name)")
+            } else {
+                ContentUnavailableView(
+                    "Keine Quelle ausgewählt",
+                    systemImage: "ladybug"
+                )
+            }
+            .toolbar {
+                ToolbarItem(placement: .cancellationAction) {
+                    Button("Fertig") { dismiss() }
+                }
+
+                ToolbarItem {
+                    Button {
+                        Task { await model.testSelectedSource() }
+                    } label: {
+                        Label("Neu testen", systemImage: "stethoscope")
+                    }
+                    .disabled(model.testingSourceID != nil || model.isTestingAll)
+                }
+            }
+        }
+        .frame(minWidth: 900, minHeight: 700)
+    }
+
+    @ViewBuilder
+    private func debugLine(_ title: String, _ value: String) -> some View {
+        HStack(alignment: .top) {
+            Text(title)
+                .foregroundStyle(.secondary)
+                .frame(width: 150, alignment: .leading)
+
+            Text(value)
+                .textSelection(.enabled)
+
+            Spacer()
+        }
+    }
+
+    private func explanation(
+        for hit: SourceTestHit,
+        source: SourceRecord
+    ) -> String {
+        var parts: [String] = []
+
+        parts.append(
+            hit.title.count >= source.minTitleLength
+            ? "Titellänge erfüllt"
+            : "Titellänge zu kurz"
+        )
+
+        if let urlString = hit.url,
+           let url = URL(string: urlString) {
+            let sourceHost = URL(string: source.url)?.host ?? ""
+
+            parts.append(
+                source.allowExternal || url.host == sourceHost
+                ? "Host erlaubt"
+                : "abweichender Host"
+            )
+
+            if let pattern = source.includeRegex,
+               let regex = try? NSRegularExpression(
+                    pattern: pattern,
+                    options: [.caseInsensitive]
+               ) {
+                let range = NSRange(urlString.startIndex..., in: urlString)
+                parts.append(
+                    regex.firstMatch(
+                        in: urlString,
+                        options: [],
+                        range: range
+                    ) != nil
+                    ? "URL-Filter erfüllt"
+                    : "URL-Filter nicht erfüllt"
+                )
+            }
+        }
+
+        if source.visualLearned {
+            parts.append(
+                source.visualValidated
+                ? "visuelle Regel validiert"
+                : "visuelle Regel nicht validiert"
+            )
+        }
+
+        return parts.joined(separator: " · ")
+    }
+}
+
 
 // MARK: - Visuelles Einlernen
 
@@ -2193,6 +2691,8 @@ private struct UnreadBadge: View {
 
 enum ReaderScope: Hashable {
     case inbox
+    case sinceLastVisit
+    case editorial
     case all
     case favorites
     case archive
@@ -2276,6 +2776,7 @@ struct ReaderView: View {
     @State private var folderBasis: ReaderFolderBasis = .inbox
     @State private var showWebPreview = false
     @State private var markReadTask: Task<Void, Never>?
+    @State private var previousReaderVisit: Date?
 
     var body: some View {
         Group {
@@ -2299,9 +2800,14 @@ struct ReaderView: View {
         }
         .frame(minWidth: 1180, minHeight: 720)
         .onAppear {
+            if previousReaderVisit == nil {
+                previousReaderVisit = model.beginReaderSession()
+            }
+
             if selectedID == nil {
                 selectedID = filteredItems.first?.id
             }
+
             model.updateReaderDockBadge()
         }
         .onChange(of: selectedID) { _, newValue in
@@ -2334,7 +2840,7 @@ struct ReaderView: View {
         }
         .onChange(of: scope) { _, newScope in
             switch newScope {
-            case .inbox:
+            case .inbox, .sinceLastVisit, .editorial:
                 folderBasis = .inbox
             case .all:
                 folderBasis = .all
@@ -2410,6 +2916,20 @@ struct ReaderView: View {
                     count: model.readerUnreadCount
                 )
                 .tag(ReaderScope.inbox)
+
+                ReaderSidebarRow(
+                    title: "Seit letztem Besuch",
+                    systemImage: "clock.badge.checkmark",
+                    count: sinceLastVisitCount
+                )
+                .tag(ReaderScope.sinceLastVisit)
+
+                ReaderSidebarRow(
+                    title: "Heute relevant",
+                    systemImage: "sparkles",
+                    count: editorialCount
+                )
+                .tag(ReaderScope.editorial)
 
                 ReaderSidebarRow(
                     title: "Alle Meldungen",
@@ -2887,9 +3407,41 @@ struct ReaderView: View {
         ).sorted()
     }
 
+    private var sinceLastVisitCount: Int {
+        guard let previousReaderVisit else {
+            return model.readerUnreadCount
+        }
+
+        return model.readerItems.filter {
+            guard !model.readerIsArchived($0),
+                  let date = FeedHistoryItem.parsedDate($0.detectedAt)
+            else {
+                return false
+            }
+
+            return date >= previousReaderVisit
+        }.count
+    }
+
+    private var editorialCount: Int {
+        model.readerItems.filter {
+            guard !model.readerIsArchived($0),
+                  !model.readerIsRead($0),
+                  $0.effectivePriority >= 2,
+                  let date = FeedHistoryItem.parsedDate($0.detectedAt)
+            else {
+                return false
+            }
+
+            return Calendar.current.isDateInToday(date)
+        }.count
+    }
+
     private var scopeTitle: String {
         switch scope {
         case .inbox: return "Posteingang"
+        case .sinceLastVisit: return "Seit letztem Besuch"
+        case .editorial: return "Heute relevant"
         case .all: return "Alle Meldungen"
         case .favorites: return "Favoriten"
         case .archive: return "Archiv"
@@ -2907,6 +3459,37 @@ struct ReaderView: View {
                 case .inbox:
                     return !model.readerIsArchived(item) &&
                         !model.readerIsRead(item)
+
+                case .sinceLastVisit:
+                    guard !model.readerIsArchived(item) else {
+                        return false
+                    }
+
+                    guard let previousReaderVisit else {
+                        return !model.readerIsRead(item)
+                    }
+
+                    guard let detected = FeedHistoryItem.parsedDate(
+                        item.detectedAt
+                    ) else {
+                        return false
+                    }
+
+                    return detected >= previousReaderVisit
+
+                case .editorial:
+                    guard !model.readerIsArchived(item),
+                          !model.readerIsRead(item),
+                          item.effectivePriority >= 2,
+                          let detected = FeedHistoryItem.parsedDate(
+                            item.detectedAt
+                          )
+                    else {
+                        return false
+                    }
+
+                    return Calendar.current.isDateInToday(detected)
+
                 case .all:
                     return !model.readerIsArchived(item)
                 case .favorites:

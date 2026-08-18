@@ -52,6 +52,48 @@ struct SourceRecord: Identifiable, Equatable {
         set { raw["automaticTagging"] = .bool(newValue) }
     }
 
+    var sourceType: String {
+        get { clean(raw["sourceType"]?.stringValue) ?? "auto" }
+        set {
+            let trimmed = newValue.trimmingCharacters(in: .whitespacesAndNewlines)
+            raw["sourceType"] = .string(trimmed.isEmpty ? "auto" : trimmed)
+        }
+    }
+
+    var checkIntervalMinutes: Int {
+        get {
+            let value = raw["checkIntervalMinutes"]?.intValue ?? 30
+            return max(30, min(10080, value))
+        }
+        set {
+            raw["checkIntervalMinutes"] = .int(
+                max(30, min(10080, newValue))
+            )
+        }
+    }
+
+    var weekdaysOnly: Bool {
+        get { raw["weekdaysOnly"]?.boolValue ?? false }
+        set { raw["weekdaysOnly"] = .bool(newValue) }
+    }
+
+    var checkIntervalTitle: String {
+        switch checkIntervalMinutes {
+        case 30: return "Alle 30 Minuten"
+        case 60: return "Stündlich"
+        case 180: return "Alle 3 Stunden"
+        case 360: return "Alle 6 Stunden"
+        case 720: return "Alle 12 Stunden"
+        case 1440: return "Täglich"
+        case 10080: return "Wöchentlich"
+        default:
+            if checkIntervalMinutes < 1440 {
+                return "Alle \(max(1, checkIntervalMinutes / 60)) Stunden"
+            }
+            return "Alle \(max(1, checkIntervalMinutes / 1440)) Tage"
+        }
+    }
+
     var priority: Int {
         get { max(1, min(3, raw["priority"]?.intValue ?? 2)) }
         set { raw["priority"] = .int(max(1, min(3, newValue))) }
@@ -238,7 +280,84 @@ struct SourceRecord: Identifiable, Equatable {
         return values.compactMap { $0.stringValue }.filter { !$0.isEmpty }
     }
 
+    var visualRuleHistoryCount: Int {
+        guard case .array(let values) = raw["visualRuleHistory"] else {
+            return 0
+        }
+        return values.count
+    }
+
+    mutating func recordRuleHistory(label: String) {
+        let keys = [
+            "candidateSelector", "includeRegex", "excludeRegex",
+            "includeTitleRegex", "excludeTitleRegex", "fetchMode",
+            "allowTitleOnly", "allowExternal", "minTitleLength",
+            "selectors", "visualLearned", "visualSampleCount",
+            "visualLearnedAt", "visualRuleVersion", "visualValidated",
+            "visualValidatedAt", "visualValidationMessage",
+            "visualSmartExtraction", "visualStrategy", "visualSampleURLs"
+        ]
+
+        var configuration: [String: JSONValue] = [:]
+        for key in keys {
+            if let value = raw[key] {
+                configuration[key] = value
+            }
+        }
+
+        let snapshot: JSONValue = .object([
+            "savedAt": .string(ISO8601DateFormatter().string(from: Date())),
+            "label": .string(label),
+            "configuration": .object(configuration)
+        ])
+
+        var values: [JSONValue] = []
+        if case .array(let current) = raw["visualRuleHistory"] {
+            values = current
+        }
+
+        values.insert(snapshot, at: 0)
+        raw["visualRuleHistory"] = .array(Array(values.prefix(6)))
+    }
+
+    mutating func restorePreviousRule() -> Bool {
+        guard case .array(var history) = raw["visualRuleHistory"],
+              !history.isEmpty,
+              case .object(let snapshot) = history.removeFirst(),
+              case .object(let configuration) = snapshot["configuration"]
+        else {
+            return false
+        }
+
+        let keys = [
+            "candidateSelector", "includeRegex", "excludeRegex",
+            "includeTitleRegex", "excludeTitleRegex", "fetchMode",
+            "allowTitleOnly", "allowExternal", "minTitleLength",
+            "selectors", "visualLearned", "visualSampleCount",
+            "visualLearnedAt", "visualRuleVersion", "visualValidated",
+            "visualValidatedAt", "visualValidationMessage",
+            "visualSmartExtraction", "visualStrategy", "visualSampleURLs"
+        ]
+
+        for key in keys {
+            raw.removeValue(forKey: key)
+        }
+
+        for (key, value) in configuration {
+            raw[key] = value
+        }
+
+        raw["visualRuleHistory"] = .array(history)
+        baselineVersion = SourceRecord.makeBaselineVersion()
+        return true
+    }
+
     mutating func applyVisualTrainingRule(_ rule: VisualTrainingRule) {
+        recordRuleHistory(
+            label: visualLearned
+                ? "Vor neuem visuellen Einlernen"
+                : "Vor visuellem Einlernen"
+        )
         if !visualLearned {
             let keys = [
                 "candidateSelector",
@@ -359,6 +478,9 @@ struct SourceRecord: Identifiable, Equatable {
             "groups": .array([]),
             "tags": .array([]),
             "automaticTagging": .bool(true),
+            "sourceType": .string("auto"),
+            "checkIntervalMinutes": .int(30),
+            "weekdaysOnly": .bool(false),
             "includeKeywords": .array([]),
             "excludeKeywords": .array([]),
             "selectors": .object([
@@ -436,6 +558,10 @@ struct SourceRecord: Identifiable, Equatable {
         copy.removeValue(forKey: "tags")
         copy.removeValue(forKey: "automaticTagging")
         copy.removeValue(forKey: "priority")
+        copy.removeValue(forKey: "sourceType")
+        copy.removeValue(forKey: "checkIntervalMinutes")
+        copy.removeValue(forKey: "weekdaysOnly")
+        copy.removeValue(forKey: "visualRuleHistory")
 
         return copy
     }

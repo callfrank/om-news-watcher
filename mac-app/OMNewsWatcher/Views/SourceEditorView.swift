@@ -1,5 +1,27 @@
 import SwiftUI
 
+private enum SourceTemplateChoice: String, CaseIterable, Identifiable {
+    case auto
+    case newsroom
+    case investorRelations
+    case events
+    case studies
+    case blog
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .auto: return "Automatisch / Allgemein"
+        case .newsroom: return "Newsroom / Presse"
+        case .investorRelations: return "Investor Relations"
+        case .events: return "Events / Termine"
+        case .studies: return "Studien / Reports"
+        case .blog: return "Blog / Fachbeiträge"
+        }
+    }
+}
+
 struct SourceEditorView: View {
     @Environment(\.dismiss) private var dismiss
 
@@ -54,6 +76,33 @@ struct SourceEditorView: View {
                         set: { draft.shortName = $0 }
                     ))
                     .textFieldStyle(.roundedBorder)
+
+                    HStack {
+                        Picker(
+                            "Quellentyp / Vorlage",
+                            selection: Binding(
+                                get: {
+                                    SourceTemplateChoice(
+                                        rawValue: draft.sourceType
+                                    ) ?? .auto
+                                },
+                                set: { draft.sourceType = $0.rawValue }
+                            )
+                        ) {
+                            ForEach(SourceTemplateChoice.allCases) { choice in
+                                Text(choice.title).tag(choice)
+                            }
+                        }
+                        .pickerStyle(.menu)
+
+                        Button("Vorlage anwenden") {
+                            applySelectedTemplate()
+                        }
+                    }
+
+                    Text("Vorlagen setzen sinnvolle Startwerte und Schlagworte, überschreiben aber keine visuelle Regel.")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
                 }
 
                 Section("Ordner") {
@@ -129,9 +178,28 @@ struct SourceEditorView: View {
                     }
                     .pickerStyle(.segmented)
 
+                    Picker(
+                        "Prüfintervall",
+                        selection: binding(\.checkIntervalMinutes)
+                    ) {
+                        Text("Alle 30 Minuten").tag(30)
+                        Text("Stündlich").tag(60)
+                        Text("Alle 3 Stunden").tag(180)
+                        Text("Alle 6 Stunden").tag(360)
+                        Text("Alle 12 Stunden").tag(720)
+                        Text("Täglich").tag(1440)
+                        Text("Wöchentlich").tag(10080)
+                    }
+                    .pickerStyle(.menu)
+
+                    Toggle(
+                        "Nur Montag bis Freitag prüfen",
+                        isOn: binding(\.weekdaysOnly)
+                    )
+
                     Text(
                         draft.enabled
-                            ? "Die Quelle wird bei den nächsten Läufen geprüft."
+                            ? "Geplante GitHub-Läufe berücksichtigen das Intervall. „Jetzt prüfen“ prüft bewusst alle aktiven Quellen."
                             : "Die Quelle bleibt erhalten, wird aber nicht geprüft und erzeugt keine neuen Meldungen."
                     )
                     .font(.caption)
@@ -203,7 +271,7 @@ struct SourceEditorView: View {
                 }
             }
         }
-        .frame(width: 700, height: 720)
+        .frame(width: 720, height: 820)
         .interactiveDismissDisabled(hasDraftChanges)
         .confirmationDialog(
             "Ungespeicherte Änderungen verwerfen?",
@@ -290,6 +358,41 @@ struct SourceEditorView: View {
             result.append(suggestion)
         }
         return result
+    }
+
+    private func applySelectedTemplate() {
+        let choice = SourceTemplateChoice(rawValue: draft.sourceType) ?? .auto
+
+        func addTag(_ value: String) {
+            if !draft.tags.contains(
+                where: { $0.caseInsensitiveCompare(value) == .orderedSame }
+            ) {
+                draft.tags.append(value)
+            }
+        }
+
+        switch choice {
+        case .auto:
+            draft.waitMs = max(draft.waitMs, 2500)
+        case .newsroom:
+            draft.waitMs = max(draft.waitMs, 2500)
+            draft.minTitleLength = max(draft.minTitleLength, 8)
+            addTag("Unternehmensnews")
+        case .investorRelations:
+            draft.waitMs = max(draft.waitMs, 3000)
+            addTag("Quartalszahlen")
+            addTag("Finanzen")
+        case .events:
+            draft.waitMs = max(draft.waitMs, 2500)
+            addTag("Events")
+        case .studies:
+            draft.waitMs = max(draft.waitMs, 2500)
+            addTag("Studien & Marktdaten")
+        case .blog:
+            draft.waitMs = max(draft.waitMs, 2500)
+            draft.minTitleLength = max(draft.minTitleLength, 12)
+            addTag("Fachbeiträge")
+        }
     }
 
     private var isValid: Bool {

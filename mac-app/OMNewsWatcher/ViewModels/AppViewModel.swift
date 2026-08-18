@@ -134,6 +134,56 @@ struct EmailNotificationSettings: Codable, Equatable {
     )
 }
 
+struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
+    var source: String
+    var sourceLabel: String?
+    var url: String?
+    var enabled: Bool
+    var skipped: Bool
+    var checkedAt: String?
+    var lastSuccessAt: String?
+    var lastNewAt: String?
+    var hitCount: Int?
+    var averageHitCount: Double?
+    var durationMs: Int?
+    var anomaly: String?
+    var message: String?
+    var nextCheckAt: String?
+    var checkIntervalMinutes: Int?
+    var weekdaysOnly: Bool?
+
+    var id: String { source.lowercased() }
+    var hasWarning: Bool { !(anomaly ?? "").isEmpty }
+
+    var displayHitCount: String {
+        guard let hitCount else { return "—" }
+        if let averageHitCount {
+            return "\(hitCount) · Ø \(String(format: "%.1f", averageHitCount))"
+        }
+        return "\(hitCount)"
+    }
+}
+
+struct SourceHealthReport: Codable {
+    var generatedAt: String
+    var sources: [SourceHealthSnapshot]
+}
+
+private struct OMNewsWatcherBackup: Codable {
+    var version: Int
+    var exportedAt: String
+    var sources: [JSONValue]
+    var readerReadIDs: [String]
+    var readerFavoriteIDs: [String]
+    var readerArchivedIDs: [String]
+    var owner: String
+    var repo: String
+    var branch: String
+    var workflow: String
+    var sourcesPath: String
+    var emailAlertMode: String
+}
+
 @MainActor
 final class AppViewModel: ObservableObject {
     @Published var sources: [SourceRecord] = []
@@ -164,7 +214,10 @@ final class AppViewModel: ObservableObject {
     @Published var showHealthDashboard = false
     @Published var showGroupManager = false
     @Published var showBulkManager = false
+    @Published var showRuleDebugger = false
     @Published var bulkSelectedIDs: Set<UUID> = []
+    @Published var healthItems: [SourceHealthSnapshot] = []
+    @Published var healthGeneratedAt: String?
 
     // MARK: - Integrierter Reader
     @Published var showReader = false
@@ -221,6 +274,7 @@ final class AppViewModel: ObservableObject {
         static let readerFavoriteIDs = "reader.favoriteIDs"
         static let readerArchivedIDs = "reader.archivedIDs"
         static let readerV41BaselineApplied = "reader.v41BaselineApplied"
+        static let readerLastOpenedAt = "reader.lastOpenedAt"
     }
 
     init() {
@@ -323,7 +377,8 @@ final class AppViewModel: ObservableObject {
         async let feedLoad: Void = loadFeedItems()
         async let emailLoad: Void = loadEmailSettings()
         async let runLoad: Void = refreshLatestRun()
-        _ = await (feedLoad, emailLoad, runLoad)
+        async let healthLoad: Void = loadHealth()
+        _ = await (feedLoad, emailLoad, runLoad, healthLoad)
     }
 
     func loadFeedItems() async {
@@ -346,6 +401,58 @@ final class AppViewModel: ObservableObject {
         } catch {
             // Feed-Vorschau ist eine Komfortfunktion und soll den Start nicht blockieren.
         }
+    }
+
+    func loadHealth() async {
+        do {
+            guard let file = try await client().fetchFileIfExists(
+                path: "data/health.json"
+            ) else {
+                healthItems = []
+                healthGeneratedAt = nil
+                return
+            }
+
+            let report = try JSONDecoder().decode(
+                SourceHealthReport.self,
+                from: file.data
+            )
+            healthItems = report.sources
+            healthGeneratedAt = report.generatedAt
+        } catch {
+            // Ergänzende Diagnose darf den Start nicht blockieren.
+        }
+    }
+
+    func health(for source: SourceRecord) -> SourceHealthSnapshot? {
+        healthItems.first {
+            $0.source.caseInsensitiveCompare(source.name) == .orderedSame
+        }
+    }
+
+    var healthWarningCount: Int {
+        healthItems.filter(\.hasWarning).count
+    }
+
+    var healthSkippedCount: Int {
+        healthItems.filter { $0.enabled && $0.skipped }.count
+    }
+
+    var healthStaleCount: Int {
+        let threshold = Date().addingTimeInterval(-14 * 24 * 60 * 60)
+        return healthItems.filter { item in
+            guard item.enabled,
+                  let raw = item.lastNewAt,
+                  let date = FeedHistoryItem.parsedDate(raw)
+            else { return false }
+            return date < threshold
+        }.count
+    }
+
+    func selectSource(named name: String) {
+        selectedSourceID = sources.first {
+            $0.name.caseInsensitiveCompare(name) == .orderedSame
+        }?.id
     }
 
     func loadSources() async {
@@ -666,6 +773,23 @@ final class AppViewModel: ObservableObject {
         return values
     }
 
+    func restorePreviousRule(for sourceID: UUID) {
+        guard let index = sources.firstIndex(where: { $0.id == sourceID }) else {
+            return
+        }
+
+        var copy = sources[index]
+        guard copy.restorePreviousRule() else {
+            statusMessage = "\(copy.name): keine ältere Regel vorhanden"
+            return
+        }
+
+        sources[index] = copy
+        testResults.removeValue(forKey: sourceID)
+        isDirty = true
+        statusMessage = "\(copy.name): vorherige Regel wiederhergestellt – bitte testen und speichern"
+    }
+
     func restoreAutomaticDetection(for sourceID: UUID) {
         guard let index = sources.firstIndex(where: { $0.id == sourceID }) else { return }
 
@@ -805,35 +929,9 @@ final class AppViewModel: ObservableObject {
         return Array(suggestions.prefix(6))
     }
 
-    private func applyAutomaticTagsIfNeeded(
-        sourceID: UUID,
-        result: SourceTestResult
-    ) {
-        guard result.kind.isSuccessLike,
-              let index = sources.firstIndex(where: { $0.id == sourceID }),
-              sources[index].automaticTagging
-        else { return }
-
-        let suggestions = automaticTagSuggestions(
-            for: sources[index],
-            result: result
-        )
-
-        guard !suggestions.isEmpty else { return }
-
-        var merged = sources[index].tags
-
-        for suggestion in suggestions where !merged.contains(
-            where: { $0.caseInsensitiveCompare(suggestion) == .orderedSame }
-        ) {
-            merged.append(suggestion)
-        }
-
-        guard merged != sources[index].tags else { return }
-
-        sources[index].tags = merged
-        isDirty = true
-    }
+    // Tag-Vorschläge sind bewusst nicht persistent.
+    // automaticTagSuggestions(...) liest Testresultate und liefert sie dem Editor.
+    // Erst der Quelleneditor übernimmt sie bei einem expliziten Speichern.
 
     func deleteSelectedSource() {
         guard let selectedID = selectedSourceID,
@@ -870,7 +968,8 @@ final class AppViewModel: ObservableObject {
         testResults[source.id] = result
         testingSourceID = nil
         updateVisualValidationAfterTest(sourceID: source.id, result: result)
-        applyAutomaticTagsIfNeeded(sourceID: source.id, result: result)
+        // Automatische Schlagworte bleiben nach Tests nur Vorschläge.
+        // Sie werden erst bei einem bewussten Speichern im Quelleneditor übernommen.
         updateStatusAfterTest(source, result: result)
     }
 
@@ -898,7 +997,8 @@ final class AppViewModel: ObservableObject {
             let result = await executeTest(source)
             testResults[source.id] = result
             updateVisualValidationAfterTest(sourceID: source.id, result: result)
-            applyAutomaticTagsIfNeeded(sourceID: source.id, result: result)
+            // „Alle testen“ darf sources.json niemals still verändern.
+            // Tag-Vorschläge werden aus testResults berechnet und erst im Editor gespeichert.
             allTestCompleted += 1
         }
 
@@ -972,7 +1072,9 @@ final class AppViewModel: ObservableObject {
         else { return }
 
         let original = sources[index]
-        let repaired = proposal.applying(to: original)
+        var repairBase = original
+        repairBase.recordRuleHistory(label: "Vor automatischer Reparatur")
+        let repaired = proposal.applying(to: repairBase)
 
         testingSourceID = sourceID
         statusMessage = "\(original.name): Reparatur wird vor dem Speichern validiert …"
@@ -1210,6 +1312,44 @@ final class AppViewModel: ObservableObject {
         statusMessage = "\(ids.count) Quellen entfernt – bitte speichern"
     }
 
+    func removeGroup(_ group: String, from ids: Set<UUID>) {
+        let cleaned = group.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !cleaned.isEmpty else { return }
+
+        for index in sources.indices where ids.contains(sources[index].id) {
+            sources[index].groups.removeAll {
+                $0.caseInsensitiveCompare(cleaned) == .orderedSame
+            }
+        }
+
+        isDirty = true
+        statusMessage = "\(ids.count) Quellen aus dem Ordner „\(cleaned)“ entfernt"
+    }
+
+    func addTag(_ tag: String, to ids: Set<UUID>) {
+        let cleaned = tag.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !cleaned.isEmpty else { return }
+
+        for index in sources.indices where ids.contains(sources[index].id) {
+            if !sources[index].tags.contains(
+                where: { $0.caseInsensitiveCompare(cleaned) == .orderedSame }
+            ) {
+                sources[index].tags.append(cleaned)
+            }
+        }
+
+        isDirty = true
+        statusMessage = "Schlagwort „\(cleaned)“ für \(ids.count) Quellen ergänzt"
+    }
+
+    func setPriority(_ priority: Int, for ids: Set<UUID>) {
+        for index in sources.indices where ids.contains(sources[index].id) {
+            sources[index].priority = priority
+        }
+        isDirty = true
+        statusMessage = "Relevanz für \(ids.count) Quellen geändert"
+    }
+
     func testSources(_ ids: Set<UUID>) async {
         guard !isTestingAll, testingSourceID == nil else { return }
         let candidates = sources.filter { ids.contains($0.id) }
@@ -1228,6 +1368,18 @@ final class AppViewModel: ObservableObject {
         statusMessage = "Auswahl getestet: \(candidates.count) Quellen"
     }
 
+
+    func beginReaderSession() -> Date? {
+        let previous = defaults.string(forKey: Keys.readerLastOpenedAt)
+            .flatMap(FeedHistoryItem.parsedDate)
+
+        defaults.set(
+            ISO8601DateFormatter().string(from: Date()),
+            forKey: Keys.readerLastOpenedAt
+        )
+
+        return previous
+    }
 
     // MARK: - Reader
 
@@ -1377,12 +1529,38 @@ final class AppViewModel: ObservableObject {
             homepageBySource[source.feedLabel.lowercased()] = homepage
         }
 
+        func titleTokens(_ value: String) -> Set<String> {
+            let stopwords: Set<String> = [
+                "der", "die", "das", "den", "dem", "des", "ein", "eine",
+                "und", "oder", "für", "mit", "von", "zu", "im", "in", "auf",
+                "the", "a", "an", "and", "or", "for", "with", "of", "to", "on"
+            ]
+
+            return Set(
+                normalizedTitle(value)
+                    .split(separator: " ")
+                    .map(String.init)
+                    .filter { $0.count >= 3 && !stopwords.contains($0) }
+            )
+        }
+
+        func titleSimilarity(_ lhs: String, _ rhs: String) -> Double {
+            let a = titleTokens(lhs)
+            let b = titleTokens(rhs)
+            guard a.count >= 4, b.count >= 4 else { return 0 }
+
+            let intersection = a.intersection(b).count
+            let union = a.union(b).count
+            guard union > 0 else { return 0 }
+            return Double(intersection) / Double(union)
+        }
+
         var seenLinks = Set<String>()
         var seenSourceTitles = Set<String>()
         var cleaned: [FeedHistoryItem] = []
         cleaned.reserveCapacity(values.count)
 
-        for item in values.sorted(by: { $0.detectedAt > $1.detectedAt }) {
+        for var item in values.sorted(by: { $0.detectedAt > $1.detectedAt }) {
             let title = normalizedTitle(item.title)
             guard title.count >= 5 else { continue }
             guard !genericExact.contains(title) else { continue }
@@ -1407,6 +1585,37 @@ final class AppViewModel: ObservableObject {
 
             let sourceTitleKey = item.source.lowercased() + "|" + title
             guard seenSourceTitles.insert(sourceTitleKey).inserted else {
+                continue
+            }
+
+            if title.count >= 24,
+               let duplicateIndex = cleaned.prefix(120).firstIndex(
+                    where: {
+                        $0.source.caseInsensitiveCompare(item.source) != .orderedSame &&
+                        titleSimilarity($0.title, item.title) >= 0.86
+                    }
+               ) {
+                var existing = cleaned[duplicateIndex]
+                var duplicates = existing.duplicateSources ?? []
+
+                if !duplicates.contains(
+                    where: { $0.caseInsensitiveCompare(item.source) == .orderedSame }
+                ) {
+                    duplicates.append(item.source)
+                }
+
+                existing.duplicateSources = duplicates
+                existing.groups = Array(Set(
+                    (existing.groups ?? []) + (item.groups ?? [])
+                ))
+                existing.tags = Array(Set(
+                    (existing.tags ?? []) + (item.tags ?? [])
+                ))
+                existing.priority = max(
+                    existing.effectivePriority,
+                    item.effectivePriority
+                )
+                cleaned[duplicateIndex] = existing
                 continue
             }
 
@@ -1500,6 +1709,92 @@ final class AppViewModel: ObservableObject {
     func updateReaderDockBadge() {
         let count = readerUnreadCount
         NSApp.dockTile.badgeLabel = count > 0 ? String(count) : nil
+    }
+
+    func exportFullBackup() {
+        let panel = NSSavePanel()
+        panel.nameFieldStringValue = "OM-News-Watcher-Backup.json"
+        panel.allowedContentTypes = [.json]
+        guard panel.runModal() == .OK, let url = panel.url else { return }
+
+        let backup = OMNewsWatcherBackup(
+            version: 1,
+            exportedAt: ISO8601DateFormatter().string(from: Date()),
+            sources: sources.map { .object($0.raw) },
+            readerReadIDs: Array(readerReadIDs),
+            readerFavoriteIDs: Array(readerFavoriteIDs),
+            readerArchivedIDs: Array(readerArchivedIDs),
+            owner: owner,
+            repo: repo,
+            branch: branch,
+            workflow: workflow,
+            sourcesPath: sourcesPath,
+            emailAlertMode: emailAlertMode.rawValue
+        )
+
+        let encoder = JSONEncoder()
+        encoder.outputFormatting = [.prettyPrinted, .sortedKeys, .withoutEscapingSlashes]
+
+        do {
+            try encoder.encode(backup).write(to: url)
+            statusMessage = "Vollständiges Backup exportiert"
+        } catch {
+            errorMessage = "Backup konnte nicht geschrieben werden: \(error.localizedDescription)"
+        }
+    }
+
+    func importFullBackup() {
+        let panel = NSOpenPanel()
+        panel.allowedContentTypes = [.json]
+        panel.allowsMultipleSelection = false
+        guard panel.runModal() == .OK, let url = panel.url else { return }
+
+        do {
+            let data = try Data(contentsOf: url)
+            let backup = try JSONDecoder().decode(
+                OMNewsWatcherBackup.self,
+                from: data
+            )
+
+            let restoredSources = backup.sources.compactMap { value -> SourceRecord? in
+                guard case .object(let object) = value else { return nil }
+                return SourceRecord(raw: object)
+            }
+
+            guard !restoredSources.isEmpty else {
+                throw NSError(
+                    domain: "OMNewsWatcherBackup",
+                    code: 1,
+                    userInfo: [NSLocalizedDescriptionKey: "Das Backup enthält keine Quellen."]
+                )
+            }
+
+            sources = restoredSources
+            readerReadIDs = Set(backup.readerReadIDs)
+            readerFavoriteIDs = Set(backup.readerFavoriteIDs)
+            readerArchivedIDs = Set(backup.readerArchivedIDs)
+
+            owner = backup.owner
+            repo = backup.repo
+            branch = backup.branch
+            workflow = backup.workflow
+            sourcesPath = backup.sourcesPath
+
+            if let mode = EmailAlertMode(rawValue: backup.emailAlertMode) {
+                emailAlertMode = mode
+                emailSettingsDirty = true
+            }
+
+            persistReaderState()
+            rebuildReaderUnreadCache()
+            updateReaderDockBadge()
+
+            selectedSourceID = sources.first?.id
+            isDirty = true
+            statusMessage = "Backup geladen – Quellen bitte speichern"
+        } catch {
+            errorMessage = "Backup konnte nicht geladen werden: \(error.localizedDescription)"
+        }
     }
 
     func openGroupFeed(_ group: String) {
