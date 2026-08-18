@@ -41,24 +41,33 @@ struct FeedHistoryItem: Codable, Identifiable, Equatable {
         return formatter
     }()
 
-    private static func parseDate(_ value: String) -> Date? {
-        let iso = ISO8601DateFormatter()
-        if let date = iso.date(from: value) { return date }
+    private static let isoFormatter = ISO8601DateFormatter()
 
-        let formats = [
+    private static let fallbackFormatters: [DateFormatter] = {
+        [
             "yyyy-MM-dd'T'HH:mm:ss.SSSXXXXX",
             "yyyy-MM-dd'T'HH:mm:ssXXXXX",
             "yyyy-MM-dd HH:mm:ss",
             "yyyy-MM-dd"
-        ]
-        for format in formats {
+        ].map { format in
             let formatter = DateFormatter()
             formatter.locale = Locale(identifier: "en_US_POSIX")
             formatter.timeZone = .current
             formatter.dateFormat = format
+            return formatter
+        }
+    }()
+
+    static func parsedDate(_ value: String) -> Date? {
+        if let date = isoFormatter.date(from: value) { return date }
+        for formatter in fallbackFormatters {
             if let date = formatter.date(from: value) { return date }
         }
         return nil
+    }
+
+    private static func parseDate(_ value: String) -> Date? {
+        parsedDate(value)
     }
 }
 
@@ -162,6 +171,12 @@ final class AppViewModel: ObservableObject {
     @Published private(set) var readerReadIDs: Set<String> = []
     @Published private(set) var readerFavoriteIDs: Set<String> = []
     @Published private(set) var readerArchivedIDs: Set<String> = []
+    @Published private(set) var readerCachedItems: [FeedHistoryItem] = []
+
+    private var readerUnreadTotalCache = 0
+    private var readerUnreadByGroupCache: [String: Int] = [:]
+    private var readerUnreadBySourceCache: [String: Int] = [:]
+    private var readerUngroupedUnreadCache = 0
 
     @Published var owner: String {
         didSet { defaults.set(owner, forKey: Keys.owner) }
@@ -299,9 +314,11 @@ final class AppViewModel: ObservableObject {
 
     func reloadAll() async {
         await loadSources()
-        await loadFeedItems()
-        await loadEmailSettings()
-        await refreshLatestRun()
+
+        async let feedLoad: Void = loadFeedItems()
+        async let emailLoad: Void = loadEmailSettings()
+        async let runLoad: Void = refreshLatestRun()
+        _ = await (feedLoad, emailLoad, runLoad)
     }
 
     func loadFeedItems() async {
@@ -310,9 +327,16 @@ final class AppViewModel: ObservableObject {
                 feedItems = []
                 return
             }
-            feedItems = (try? JSONDecoder().decode([FeedHistoryItem].self, from: file.data)) ?? []
+            let decoded =
+                (try? JSONDecoder().decode([FeedHistoryItem].self, from: file.data)) ?? []
+            let cleaned = cleanedReaderItems(from: decoded)
+
+            feedItems = decoded
+            readerCachedItems = cleaned
+
             pruneReaderState()
             applyReaderV41BaselineIfNeeded()
+            rebuildReaderUnreadCache()
             updateReaderDockBadge()
         } catch {
             // Feed-Vorschau ist eine Komfortfunktion und soll den Start nicht blockieren.
@@ -905,38 +929,23 @@ final class AppViewModel: ObservableObject {
     // MARK: - Reader
 
     var readerItems: [FeedHistoryItem] {
-        cleanedReaderItems(from: feedItems)
+        readerCachedItems
     }
 
     var readerUnreadCount: Int {
-        readerItems.filter {
-            !readerArchivedIDs.contains($0.id) &&
-            !readerReadIDs.contains($0.id)
-        }.count
+        readerUnreadTotalCache
     }
 
     func readerUnreadCount(in group: String) -> Int {
-        readerItems.filter {
-            !readerArchivedIDs.contains($0.id) &&
-            !readerReadIDs.contains($0.id) &&
-            ($0.groups ?? []).contains(group)
-        }.count
+        readerUnreadByGroupCache[group.lowercased()] ?? 0
     }
 
     func readerUnreadCount(for source: SourceRecord) -> Int {
-        readerItems.filter {
-            !readerArchivedIDs.contains($0.id) &&
-            !readerReadIDs.contains($0.id) &&
-            $0.source.caseInsensitiveCompare(source.name) == .orderedSame
-        }.count
+        readerUnreadBySourceCache[source.name.lowercased()] ?? 0
     }
 
     var readerUngroupedUnreadCount: Int {
-        readerItems.filter {
-            !readerArchivedIDs.contains($0.id) &&
-            !readerReadIDs.contains($0.id) &&
-            ($0.groups ?? []).isEmpty
-        }.count
+        readerUngroupedUnreadCache
     }
 
     func readerIsRead(_ item: FeedHistoryItem) -> Bool {
@@ -1024,58 +1033,112 @@ final class AppViewModel: ObservableObject {
 
         func normalizedTitle(_ value: String) -> String {
             value
-                .folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
+                .folding(
+                    options: [.diacriticInsensitive, .caseInsensitive],
+                    locale: .current
+                )
                 .lowercased()
-                .replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
-                .trimmingCharacters(in: .whitespacesAndNewlines)
+                .split(whereSeparator: { $0.isWhitespace })
+                .joined(separator: " ")
         }
 
         func normalizedURL(_ value: String) -> String {
-            guard var parts = URLComponents(string: value) else { return value.lowercased() }
+            guard var parts = URLComponents(string: value) else {
+                return value.lowercased()
+            }
             parts.query = nil
             parts.fragment = nil
             var result = (parts.string ?? value).lowercased()
-            while result.hasSuffix("/") { result.removeLast() }
+            while result.hasSuffix("/") {
+                result.removeLast()
+            }
             return result
         }
 
-        func sourceHomepage(for item: FeedHistoryItem) -> String? {
-            let source = sources.first {
-                $0.name.caseInsensitiveCompare(item.source) == .orderedSame ||
-                $0.feedLabel.caseInsensitiveCompare(item.sourceLabel ?? "") == .orderedSame
-            }
-            return source.map { normalizedURL($0.url) }
+        var homepageBySource: [String: String] = [:]
+        for source in sources {
+            let homepage = normalizedURL(source.url)
+            homepageBySource[source.name.lowercased()] = homepage
+            homepageBySource[source.feedLabel.lowercased()] = homepage
         }
 
         var seenLinks = Set<String>()
         var seenSourceTitles = Set<String>()
         var cleaned: [FeedHistoryItem] = []
+        cleaned.reserveCapacity(values.count)
 
         for item in values.sorted(by: { $0.detectedAt > $1.detectedAt }) {
             let title = normalizedTitle(item.title)
             guard title.count >= 5 else { continue }
             guard !genericExact.contains(title) else { continue }
-            guard !genericPrefixes.contains(where: { title == $0 || title.hasPrefix($0 + " ") }) else { continue }
+            guard !genericPrefixes.contains(where: {
+                title == $0 || title.hasPrefix($0 + " ")
+            }) else {
+                continue
+            }
 
             let link = normalizedURL(item.link)
-            if let homepage = sourceHomepage(for: item), link == homepage { continue }
+            let homepage =
+                homepageBySource[item.source.lowercased()] ??
+                homepageBySource[(item.sourceLabel ?? "").lowercased()]
 
-            let linkKey = link
-            guard seenLinks.insert(linkKey).inserted else { continue }
+            if let homepage, link == homepage {
+                continue
+            }
 
-            // Gleichlautende Karten/CTAs derselben Quelle nur einmal zeigen.
+            guard seenLinks.insert(link).inserted else {
+                continue
+            }
+
             let sourceTitleKey = item.source.lowercased() + "|" + title
-            guard seenSourceTitles.insert(sourceTitleKey).inserted else { continue }
+            guard seenSourceTitles.insert(sourceTitleKey).inserted else {
+                continue
+            }
 
             cleaned.append(item)
         }
+
         return cleaned
+    }
+
+    private func rebuildReaderUnreadCache() {
+        var total = 0
+        var byGroup: [String: Int] = [:]
+        var bySource: [String: Int] = [:]
+        var ungrouped = 0
+
+        for item in readerCachedItems {
+            guard
+                !readerArchivedIDs.contains(item.id),
+                !readerReadIDs.contains(item.id)
+            else {
+                continue
+            }
+
+            total += 1
+            bySource[item.source.lowercased(), default: 0] += 1
+
+            let groups = item.groups ?? []
+            if groups.isEmpty {
+                ungrouped += 1
+            } else {
+                for group in groups {
+                    byGroup[group.lowercased(), default: 0] += 1
+                }
+            }
+        }
+
+        readerUnreadTotalCache = total
+        readerUnreadByGroupCache = byGroup
+        readerUnreadBySourceCache = bySource
+        readerUngroupedUnreadCache = ungrouped
     }
 
     private func persistReaderState() {
         defaults.set(Array(readerReadIDs), forKey: Keys.readerReadIDs)
         defaults.set(Array(readerFavoriteIDs), forKey: Keys.readerFavoriteIDs)
         defaults.set(Array(readerArchivedIDs), forKey: Keys.readerArchivedIDs)
+        rebuildReaderUnreadCache()
         updateReaderDockBadge()
     }
 

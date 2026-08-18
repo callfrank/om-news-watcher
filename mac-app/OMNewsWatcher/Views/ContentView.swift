@@ -1977,6 +1977,10 @@ struct ReaderView: View {
         }
         .onChange(of: selectedID) { _, newValue in
             markReadTask?.cancel()
+
+            // Keine automatische Webnavigation beim Durchklicken.
+            showWebPreview = false
+
             guard
                 let newValue,
                 let item = model.readerItems.first(where: { $0.id == newValue })
@@ -2307,11 +2311,25 @@ struct ReaderView: View {
                         .padding(6)
                     }
 
-                    Toggle(
-                        "Artikel direkt in der App anzeigen",
-                        isOn: $showWebPreview
-                    )
-                    .toggleStyle(.switch)
+                    HStack {
+                        Text("Artikelvorschau")
+                            .font(.headline)
+
+                        Spacer()
+
+                        Button {
+                            showWebPreview.toggle()
+                        } label: {
+                            Label(
+                                showWebPreview
+                                    ? "Vorschau schließen"
+                                    : "Vorschau laden",
+                                systemImage: showWebPreview
+                                    ? "xmark.rectangle"
+                                    : "rectangle.and.text.magnifyingglass"
+                            )
+                        }
+                    }
 
                     if showWebPreview {
                         ReaderWebPreview(urlString: item.link)
@@ -2321,6 +2339,15 @@ struct ReaderView: View {
                                 RoundedRectangle(cornerRadius: 10)
                                     .stroke(.separator, lineWidth: 1)
                             }
+                    } else {
+                        ContentUnavailableView(
+                            "Vorschau nicht geladen",
+                            systemImage: "bolt.horizontal.circle",
+                            description: Text(
+                                "Die Website wird aus Performance-Gründen erst auf Klick geladen."
+                            )
+                        )
+                        .frame(minHeight: 180)
                     }
                 }
                 .padding(22)
@@ -2413,8 +2440,8 @@ struct ReaderView: View {
             }
 
             if dateRange != .all {
-                guard let detected = ISO8601DateFormatter().date(
-                    from: item.detectedAt
+                guard let detected = FeedHistoryItem.parsedDate(
+                    item.detectedAt
                 ) else {
                     return false
                 }
