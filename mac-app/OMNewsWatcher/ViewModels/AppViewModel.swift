@@ -317,6 +317,8 @@ struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
 
 struct SourceHealthReport: Codable {
     var generatedAt: String
+    var watcherVersion: String?
+    var trackingSchemaVersion: Int?
     var sources: [SourceHealthSnapshot]
 }
 
@@ -369,6 +371,8 @@ final class AppViewModel: ObservableObject {
     @Published var bulkSelectedIDs: Set<UUID> = []
     @Published var healthItems: [SourceHealthSnapshot] = []
     @Published var healthGeneratedAt: String?
+    @Published var healthWatcherVersion: String?
+    @Published var healthTrackingSchemaVersion: Int?
 
     // MARK: - Integrierter Reader
     @Published var showReader = false
@@ -561,6 +565,8 @@ final class AppViewModel: ObservableObject {
             ) else {
                 healthItems = []
                 healthGeneratedAt = nil
+                healthWatcherVersion = nil
+                healthTrackingSchemaVersion = nil
                 return
             }
 
@@ -570,6 +576,8 @@ final class AppViewModel: ObservableObject {
             )
             healthItems = report.sources
             healthGeneratedAt = report.generatedAt
+            healthWatcherVersion = report.watcherVersion
+            healthTrackingSchemaVersion = report.trackingSchemaVersion
         } catch {
             // Ergänzende Diagnose darf den Start nicht blockieren.
         }

@@ -420,6 +420,13 @@ struct ContentView: View {
                                     )
                                 }
 
+                                if let watcher = model.healthWatcherVersion {
+                                    LabeledContent(
+                                        "Watcher-Version",
+                                        value: "v\(watcher)"
+                                    )
+                                }
+
                                 if let anomaly = health.anomaly, !anomaly.isEmpty {
                                     LabeledContent("Gesundheit") {
                                         Label(
@@ -1255,6 +1262,32 @@ struct HealthDashboardView: View {
                         .width(65)
                     }
                 }
+            }
+            .safeAreaInset(edge: .bottom) {
+                HStack(spacing: 12) {
+                    Text("App 5.1.2")
+
+                    if let watcher = model.healthWatcherVersion {
+                        Text("Watcher v\(watcher)")
+                    } else {
+                        Text("Watcher-Version unbekannt")
+                    }
+
+                    if let schema = model.healthTrackingSchemaVersion {
+                        Text("Tracking-Schema \(schema)")
+                    }
+
+                    Spacer()
+
+                    if let generated = model.healthGeneratedAt {
+                        Text("Health: \(displayDate(generated))")
+                    }
+                }
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .padding(.horizontal, 14)
+                .padding(.vertical, 7)
+                .background(.bar)
             }
             .navigationTitle("Quellen-Gesundheit")
             .toolbar {
