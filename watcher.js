@@ -10,8 +10,9 @@ const ITEMS_FILE = path.join(ROOT, 'data', 'items.json');
 const FEED_FILE = path.join(ROOT, 'docs', 'feed.xml');
 const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
+const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.20';
+const VERSION = '0.21';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_FEED_ITEMS = 500;
@@ -1268,6 +1269,105 @@ async function inspectSourceWithHardTimeout(
   return result;
 }
 
+function intervalMinutesFor(source) {
+  const raw = Number(source.checkIntervalMinutes ?? 30);
+  if (!Number.isFinite(raw)) return 30;
+  return Math.max(30, Math.min(10080, Math.round(raw)));
+}
+
+function berlinWeekday(date = new Date()) {
+  return new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Europe/Berlin',
+    weekday: 'short'
+  }).format(date);
+}
+
+function scheduledRunIsDue(source, state, now = new Date()) {
+  // "Jetzt prüfen" / manueller workflow_dispatch ignoriert absichtlich Intervalle.
+  if (process.env.GITHUB_EVENT_NAME === 'workflow_dispatch') {
+    return true;
+  }
+
+  if (source.weekdaysOnly === true) {
+    const weekday = berlinWeekday(now);
+    if (weekday === 'Sat' || weekday === 'Sun') {
+      return false;
+    }
+  }
+
+  const lastRaw = state.lastCheckedAtBySource?.[source.name];
+  if (!lastRaw) return true;
+
+  const last = Date.parse(lastRaw);
+  if (!Number.isFinite(last)) return true;
+
+  const elapsedMinutes = (now.getTime() - last) / 60000;
+  return elapsedMinutes >= intervalMinutesFor(source) - 1;
+}
+
+function nextCheckAtFor(source, state, now = new Date()) {
+  if (source.enabled === false) return null;
+
+  const minutes = intervalMinutesFor(source);
+  const lastRaw = state.lastCheckedAtBySource?.[source.name];
+  const parsed = Date.parse(lastRaw || '');
+  const base = Number.isFinite(parsed)
+    ? new Date(parsed)
+    : now;
+
+  let next = new Date(base.getTime() + minutes * 60000);
+
+  if (source.weekdaysOnly === true) {
+    for (let guard = 0; guard < 8; guard++) {
+      const weekday = berlinWeekday(next);
+      if (weekday !== 'Sat' && weekday !== 'Sun') break;
+      next = new Date(next.getTime() + 24 * 60 * 60000);
+    }
+  }
+
+  return next.toISOString();
+}
+
+function median(values) {
+  const prepared = values
+    .map(Number)
+    .filter(Number.isFinite)
+    .sort((a, b) => a - b);
+
+  if (!prepared.length) return 0;
+
+  const middle = Math.floor(prepared.length / 2);
+  return prepared.length % 2
+    ? prepared[middle]
+    : (prepared[middle - 1] + prepared[middle]) / 2;
+}
+
+function hitCountAnomaly(current, previous) {
+  const history = (previous || [])
+    .map(Number)
+    .filter(Number.isFinite)
+    .slice(0, 12);
+
+  if (history.length < 3) return null;
+
+  const normal = median(history);
+  if (normal <= 0) return null;
+
+  if (current === 0) {
+    return `0 Treffer; zuletzt typischerweise ${Math.round(normal)}`;
+  }
+
+  if (current >= Math.max(20, normal * 2.5)) {
+    return `${current} Treffer; deutlich über dem üblichen Niveau ${Math.round(normal)}`;
+  }
+
+  if (normal >= 8 && current <= normal * 0.2) {
+    return `${current} Treffer; deutlich unter dem üblichen Niveau ${Math.round(normal)}`;
+  }
+
+  return null;
+}
+
 async function mapWithConcurrency(items, limit, worker) {
   const results = new Array(items.length);
   let nextIndex = 0;
@@ -1314,10 +1414,12 @@ async function mapWithConcurrency(items, limit, worker) {
     `HARD TIMEOUT pro Quelle: ${HARD_SOURCE_TIMEOUT_MS / 1000}s`
   );
 
-  const sources = readJson(
+  const configuredSources = readJson(
     SOURCES_FILE,
     []
-  ).filter(
+  );
+
+  const enabledSources = configuredSources.filter(
     s => s.enabled !== false
   );
 
@@ -1328,7 +1430,15 @@ async function mapWithConcurrency(items, limit, worker) {
       initializedBySource: {},
       configVersionBySource: {},
       globalBaselineBySource: {},
-      feedResetToken: null
+      feedResetToken: null,
+      lastCheckedAtBySource: {},
+      lastSuccessAtBySource: {},
+      lastNewAtBySource: {},
+      lastHitCountBySource: {},
+      recentHitCountsBySource: {},
+      lastDurationMsBySource: {},
+      lastMessageBySource: {},
+      anomalyBySource: {}
     }
   );
 
@@ -1343,6 +1453,44 @@ async function mapWithConcurrency(items, limit, worker) {
 
   state.globalBaselineBySource =
     state.globalBaselineBySource || {};
+
+  state.lastCheckedAtBySource =
+    state.lastCheckedAtBySource || {};
+
+  state.lastSuccessAtBySource =
+    state.lastSuccessAtBySource || {};
+
+  state.lastNewAtBySource =
+    state.lastNewAtBySource || {};
+
+  state.lastHitCountBySource =
+    state.lastHitCountBySource || {};
+
+  state.recentHitCountsBySource =
+    state.recentHitCountsBySource || {};
+
+  state.lastDurationMsBySource =
+    state.lastDurationMsBySource || {};
+
+  state.lastMessageBySource =
+    state.lastMessageBySource || {};
+
+  state.anomalyBySource =
+    state.anomalyBySource || {};
+
+  const runStartedAt = new Date();
+
+  const sources = enabledSources.filter(
+    source => scheduledRunIsDue(source, state, runStartedAt)
+  );
+
+  const intervalSkippedSources = enabledSources.filter(
+    source => !sources.includes(source)
+  );
+
+  console.log(
+    `Prüfplan: ${sources.length} fällig · ${intervalSkippedSources.length} intervallbedingt übersprungen · ${configuredSources.length - enabledSources.length} pausiert`
+  );
 
   let items = readJson(
     ITEMS_FILE,
@@ -1360,82 +1508,61 @@ async function mapWithConcurrency(items, limit, worker) {
 
   items = pruneStoredItems(
     items,
-    sources
+    enabledSources
   );
+
+  let results = [];
 
   if (!sources.length) {
     console.log(
-      'Keine Quellen aktiviert.'
+      enabledSources.length
+        ? 'Aktuell ist wegen der Prüfintervalle keine Quelle fällig.'
+        : 'Keine Quellen aktiviert.'
+    );
+  } else {
+    const browser = await chromium.launch({
+      headless: true
+    });
+
+    const fallbackBrowser = await chromium.launch({
+      headless: true,
+      args: ['--disable-http2']
+    });
+
+    const context = await createContext(
+      browser
     );
 
-    fs.mkdirSync(
-      path.dirname(FEED_FILE),
-      {
-        recursive: true
-      }
+    const fallbackContext = await createContext(
+      fallbackBrowser
     );
 
-    fs.writeFileSync(
-      FEED_FILE,
-      makeFeed(items, sources)
+    results = await mapWithConcurrency(
+      sources,
+      SOURCE_CONCURRENCY,
+      (source, index) =>
+        source.fetchMode === 'feed'
+          ? inspectSourceViaFeed(source, index, sources.length)
+          : source.fetchMode === 'html'
+          ? inspectSourceViaHttp(
+              source,
+              index,
+              sources.length
+            )
+          : inspectSourceWithHardTimeout(
+              context,
+              fallbackContext,
+              source,
+              index,
+              sources.length
+            )
     );
 
-    process.exit(0);
+    await context.close();
+    await fallbackContext.close();
+    await browser.close();
+    await fallbackBrowser.close();
   }
-
-  /*
-   * Zwei Browser werden einmal gestartet:
-   *
-   * 1. normaler Chromium
-   * 2. Chromium ohne HTTP/2 für problematische CDNs
-   *
-   * Dadurch muss der Fallback-Browser nicht für jede
-   * Problemseite neu gestartet werden.
-   */
-
-  const browser = await chromium.launch({
-    headless: true
-  });
-
-  const fallbackBrowser = await chromium.launch({
-    headless: true,
-    args: ['--disable-http2']
-  });
-
-  const context = await createContext(
-    browser
-  );
-
-  const fallbackContext = await createContext(
-    fallbackBrowser
-  );
-
-  const results = await mapWithConcurrency(
-    sources,
-    SOURCE_CONCURRENCY,
-    (source, index) =>
-      source.fetchMode === 'feed'
-        ? inspectSourceViaFeed(source, index, sources.length)
-        : source.fetchMode === 'html'
-        ? inspectSourceViaHttp(
-            source,
-            index,
-            sources.length
-          )
-        : inspectSourceWithHardTimeout(
-            context,
-            fallbackContext,
-            source,
-            index,
-            sources.length
-          )
-  );
-
-  await context.close();
-  await fallbackContext.close();
-
-  await browser.close();
-  await fallbackBrowser.close();
 
   console.log(
     '\n===== AUSWERTUNG ====='
@@ -1463,7 +1590,15 @@ async function mapWithConcurrency(items, limit, worker) {
       );
     }
 
+    const healthKey = source.name;
+    const checkedAt = new Date().toISOString();
+    state.lastCheckedAtBySource[healthKey] = checkedAt;
+    state.lastDurationMsBySource[healthKey] = Math.round(result.durationMs || 0);
+
     if (result.error) {
+      state.lastMessageBySource[healthKey] = result.error.message;
+      state.anomalyBySource[healthKey] =
+        `Abruf fehlgeschlagen: ${result.error.message}`;
       console.log(
         `  FEHLER: ${result.error.message}`
       );
@@ -1476,6 +1611,35 @@ async function mapWithConcurrency(items, limit, worker) {
 
     const key =
       source.name;
+
+    const previousHitCounts =
+      state.recentHitCountsBySource[key] || [];
+
+    state.lastHitCountBySource[key] = rows.length;
+    state.recentHitCountsBySource[key] = [
+      rows.length,
+      ...previousHitCounts
+    ].slice(0, 12);
+
+    state.lastMessageBySource[key] =
+      rows.length > 0
+        ? `${rows.length} Artikel erkannt`
+        : 'Keine Artikel erkannt';
+
+    const anomaly = hitCountAnomaly(
+      rows.length,
+      previousHitCounts
+    );
+
+    if (anomaly) {
+      state.anomalyBySource[key] = anomaly;
+    } else {
+      delete state.anomalyBySource[key];
+    }
+
+    if (rows.length > 0) {
+      state.lastSuccessAtBySource[key] = checkedAt;
+    }
 
     const hadPriorState =
       Object.prototype.hasOwnProperty.call(
@@ -1528,6 +1692,10 @@ async function mapWithConcurrency(items, limit, worker) {
       console.log(
         '  ⚠ KEINE ARTIKEL ERKANNT – Quelle prüfen.'
       );
+
+      if (!state.anomalyBySource[key]) {
+        state.anomalyBySource[key] = 'Keine Artikel erkannt';
+      }
 
       state.initializedBySource[key] =
         true;
@@ -1583,6 +1751,10 @@ async function mapWithConcurrency(items, limit, worker) {
         r =>
           !known.has(r.link)
       );
+
+    if (!firstRun && fresh.length > 0) {
+      state.lastNewAtBySource[key] = checkedAt;
+    }
 
     if (firstRun) {
       console.log(
@@ -1671,7 +1843,7 @@ async function mapWithConcurrency(items, limit, worker) {
   }
 
   // Organisationsdaten alter Feed-Einträge an die aktuelle Quellenkonfiguration anpassen.
-  const sourceByName = new Map(sources.map(source => [source.name, source]));
+  const sourceByName = new Map(configuredSources.map(source => [source.name, source]));
   items = items.map(item => {
     const source = sourceByName.get(item.source);
     if (!source) return item;
@@ -1715,17 +1887,72 @@ async function mapWithConcurrency(items, limit, worker) {
 
   items = deduped.slice(0, MAX_FEED_ITEMS);
 
+  const healthRows = configuredSources.map(source => {
+    const key = source.name;
+    const recent = state.recentHitCountsBySource[key] || [];
+
+    const average = recent.length
+      ? recent.reduce(
+          (sum, value) => sum + Number(value || 0),
+          0
+        ) / recent.length
+      : null;
+
+    const isEnabled = source.enabled !== false;
+    const skipped =
+      isEnabled &&
+      !sources.includes(source);
+
+    return {
+      source: source.name,
+      sourceLabel: sourceFeedLabel(source),
+      url: source.url,
+      enabled: isEnabled,
+      skipped,
+      checkedAt: state.lastCheckedAtBySource[key] || null,
+      lastSuccessAt: state.lastSuccessAtBySource[key] || null,
+      lastNewAt: state.lastNewAtBySource[key] || null,
+      hitCount:
+        Object.prototype.hasOwnProperty.call(
+          state.lastHitCountBySource,
+          key
+        )
+          ? Number(state.lastHitCountBySource[key])
+          : null,
+      averageHitCount: average,
+      durationMs:
+        Object.prototype.hasOwnProperty.call(
+          state.lastDurationMsBySource,
+          key
+        )
+          ? Number(state.lastDurationMsBySource[key])
+          : null,
+      anomaly: state.anomalyBySource[key] || null,
+      message: state.lastMessageBySource[key] || null,
+      nextCheckAt: isEnabled
+        ? nextCheckAtFor(source, state, new Date())
+        : null,
+      checkIntervalMinutes: intervalMinutesFor(source),
+      weekdaysOnly: source.weekdaysOnly === true
+    };
+  });
+
+  saveJson(HEALTH_FILE, {
+    generatedAt: new Date().toISOString(),
+    sources: healthRows
+  });
+
   saveJson(STATE_FILE, state);
   saveJson(ITEMS_FILE, items);
 
   fs.mkdirSync(path.dirname(FEED_FILE), { recursive: true });
-  fs.writeFileSync(FEED_FILE, makeFeed(items, sources));
+  fs.writeFileSync(FEED_FILE, makeFeed(items, configuredSources));
 
   // Ein eigener RSS-Feed je Ordner/Themenbereich.
   fs.rmSync(GROUP_FEED_DIR, { recursive: true, force: true });
   fs.mkdirSync(GROUP_FEED_DIR, { recursive: true });
 
-  const groups = [...new Set(sources.flatMap(source => Array.isArray(source.groups) ? source.groups : []).filter(Boolean))]
+  const groups = [...new Set(configuredSources.flatMap(source => Array.isArray(source.groups) ? source.groups : []).filter(Boolean))]
     .sort((a, b) => String(a).localeCompare(String(b), 'de'));
 
   const slugify = value => String(value || '')
@@ -1737,7 +1964,7 @@ async function mapWithConcurrency(items, limit, worker) {
     const slug = slugify(group);
     const groupItems = items.filter(item => Array.isArray(item.groups) && item.groups.some(g => String(g).toLowerCase() === String(group).toLowerCase()));
     const filename = `${slug}.xml`;
-    fs.writeFileSync(path.join(GROUP_FEED_DIR, filename), makeFeed(groupItems, sources, {
+    fs.writeFileSync(path.join(GROUP_FEED_DIR, filename), makeFeed(groupItems, configuredSources, {
       title: `OM News Watcher · ${group}`,
       description: `Neue Meldungen aus dem Themenbereich ${group}`
     }));
@@ -1747,6 +1974,7 @@ async function mapWithConcurrency(items, limit, worker) {
 
   console.log(`\nRSS geschrieben: ${FEED_FILE} (${items.length} Einträge)`);
   console.log(`Themenfeeds geschrieben: ${groupIndex.length}`);
+  console.log(`Gesundheitsdaten geschrieben: ${HEALTH_FILE} (${healthRows.length} Quellen)`);
 
 })().catch(err => {
   console.error(err);
