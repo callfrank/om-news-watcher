@@ -2112,5 +2112,57 @@
     "visualValidatedAt" : "2026-08-18T05:13:23Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-071843",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Logistik"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://bpex-ev\\.de/presse/meldung/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "BPEX",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://bpex-ev.de/presse/pressemeldungen",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:18:43Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://bpex-ev.de/presse/meldung/neues-mitglied-urbify",
+      "https://bpex-ev.de/presse/meldung/kep-studie-2026"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:18:46Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
