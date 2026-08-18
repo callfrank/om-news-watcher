@@ -3,6 +3,7 @@ import AppKit
 import WebKit
 
 struct ContentView: View {
+    @Environment(\.openWindow) private var openWindow
     @ObservedObject var model: AppViewModel
     @State private var searchText = ""
     @State private var showDeleteConfirmation = false
@@ -57,9 +58,6 @@ struct ContentView: View {
                     )
                 }
             }
-        }
-        .sheet(isPresented: $model.showReader) {
-            ReaderView(model: model)
         }
         .sheet(isPresented: $model.showFeedPreview) {
             FeedPreviewView(model: model)
@@ -124,9 +122,10 @@ struct ContentView: View {
                         HStack {
                             Label("Alle Quellen", systemImage: selectedFolder == nil ? "tray.full.fill" : "tray.full")
                             Spacer()
-                            Text("\(model.sources.count)")
-                                .font(.caption)
+                            Text("\(model.sources.count) Quellen")
+                                .font(.caption2)
                                 .foregroundStyle(.secondary)
+                            UnreadBadge(count: model.readerUnreadCount)
                         }
                     }
                     .buttonStyle(.plain)
@@ -139,8 +138,9 @@ struct ContentView: View {
                                 Label(group, systemImage: selectedFolder == group ? "folder.fill" : "folder")
                                 Spacer()
                                 Text("\(model.groupCount(group))")
-                                    .font(.caption)
+                                    .font(.caption2)
                                     .foregroundStyle(.secondary)
+                                UnreadBadge(count: model.readerUnreadCount(in: group))
                             }
                         }
                         .buttonStyle(.plain)
@@ -157,8 +157,9 @@ struct ContentView: View {
                                 Label("Ohne Ordner", systemImage: "folder.badge.questionmark")
                                 Spacer()
                                 Text("\(model.ungroupedCount)")
-                                    .font(.caption)
+                                    .font(.caption2)
                                     .foregroundStyle(.secondary)
+                                UnreadBadge(count: model.readerUngroupedUnreadCount)
                             }
                         }
                         .buttonStyle(.plain)
@@ -242,6 +243,8 @@ struct ContentView: View {
                         }
 
                         Spacer(minLength: 4)
+
+                        UnreadBadge(count: model.readerUnreadCount(for: source))
 
                         if let result = model.testResults[source.id], result.isProblem {
                             Image(systemName: result.kind == .technicalError ? "xmark.octagon.fill" : (result.kind == .timeout ? "clock.badge.exclamationmark" : "exclamationmark.triangle.fill"))
@@ -663,7 +666,7 @@ struct ContentView: View {
 
         ToolbarItemGroup(placement: .secondaryAction) {
             Button {
-                model.showReader = true
+                openWindow(id: "reader")
             } label: {
                 HStack(spacing: 5) {
                     Image(systemName: "newspaper.fill")
@@ -1880,6 +1883,24 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 }
 
 
+
+
+private struct UnreadBadge: View {
+    let count: Int
+
+    var body: some View {
+        if count > 0 {
+            Text("\\(count)")
+                .font(.caption2.bold().monospacedDigit())
+                .foregroundStyle(.white)
+                .padding(.horizontal, 6)
+                .padding(.vertical, 2)
+                .background(.blue, in: Capsule())
+                .accessibilityLabel("\\(count) ungelesene Meldungen")
+        }
+    }
+}
+
 // MARK: - Integrierter News-Reader
 
 enum ReaderScope: Hashable {
@@ -1925,7 +1946,6 @@ enum ReaderDateRange: String, CaseIterable, Identifiable {
 }
 
 struct ReaderView: View {
-    @Environment(\.dismiss) private var dismiss
     @ObservedObject var model: AppViewModel
 
     @State private var scope: ReaderScope = .inbox
@@ -1937,6 +1957,7 @@ struct ReaderView: View {
     @State private var selectedTag = "Alle"
     @State private var minimumPriority = 1
     @State private var showWebPreview = false
+    @State private var markReadTask: Task<Void, Never>?
 
     var body: some View {
         NavigationSplitView {
@@ -1955,18 +1976,38 @@ struct ReaderView: View {
             model.updateReaderDockBadge()
         }
         .onChange(of: selectedID) { _, newValue in
+            markReadTask?.cancel()
             guard
                 let newValue,
-                let item = model.feedItems.first(where: { $0.id == newValue })
+                let item = model.readerItems.first(where: { $0.id == newValue })
             else { return }
-            model.readerMarkRead(item)
+
+            markReadTask = Task { @MainActor in
+                try? await Task.sleep(for: .milliseconds(1250))
+                guard !Task.isCancelled, selectedID == newValue else { return }
+                model.readerMarkRead(item)
+            }
+        }
+        .onDisappear {
+            markReadTask?.cancel()
         }
         .toolbar {
             ToolbarItem(placement: .cancellationAction) {
-                Button("Fertig") { dismiss() }
+                Button("Schließen") {
+                    NSApp.keyWindow?.close()
+                }
+                .keyboardShortcut("w", modifiers: [.command])
             }
 
             ToolbarItemGroup {
+                Button {
+                    NSApp.keyWindow?.toggleFullScreen(nil)
+                } label: {
+                    Label("Vollbild", systemImage: "arrow.up.left.and.arrow.down.right")
+                }
+                .keyboardShortcut("f", modifiers: [.command, .control])
+                .help("Reader im Vollbild anzeigen (⌃⌘F)")
+
                 Button {
                     model.readerMarkAllRead(filteredItems)
                 } label: {
@@ -2004,7 +2045,7 @@ struct ReaderView: View {
                 ReaderSidebarRow(
                     title: "Alle Meldungen",
                     systemImage: "newspaper",
-                    count: model.feedItems.filter {
+                    count: model.readerItems.filter {
                         !model.readerIsArchived($0)
                     }.count
                 )
@@ -2013,7 +2054,7 @@ struct ReaderView: View {
                 ReaderSidebarRow(
                     title: "Favoriten",
                     systemImage: "star.fill",
-                    count: model.feedItems.filter {
+                    count: model.readerItems.filter {
                         model.readerIsFavorite($0) &&
                         !model.readerIsArchived($0)
                     }.count
@@ -2023,7 +2064,7 @@ struct ReaderView: View {
                 ReaderSidebarRow(
                     title: "Archiv",
                     systemImage: "archivebox",
-                    count: model.feedItems.filter {
+                    count: model.readerItems.filter {
                         model.readerIsArchived($0)
                     }.count
                 )
@@ -2168,7 +2209,7 @@ struct ReaderView: View {
 
                         HStack(spacing: 12) {
                             Label(
-                                item.pageDate ?? item.displayDetectedAt,
+                                item.displayPageDate ?? item.displayDetectedAt,
                                 systemImage: "calendar"
                             )
 
@@ -2242,7 +2283,7 @@ struct ReaderView: View {
                             LabeledContent("Quelle", value: item.source)
                             LabeledContent("Erkannt", value: item.displayDetectedAt)
 
-                            if let pageDate = item.pageDate, !pageDate.isEmpty {
+                            if let pageDate = item.displayPageDate, !pageDate.isEmpty {
                                 LabeledContent("Veröffentlicht", value: pageDate)
                             }
 
@@ -2296,16 +2337,16 @@ struct ReaderView: View {
 
     private var selectedItem: FeedHistoryItem? {
         guard let selectedID else { return nil }
-        return model.feedItems.first { $0.id == selectedID }
+        return model.readerItems.first { $0.id == selectedID }
     }
 
     private var sourceChoices: [String] {
-        ["Alle"] + Array(Set(model.feedItems.map(\.source))).sorted()
+        ["Alle"] + Array(Set(model.readerItems.map(\.source))).sorted()
     }
 
     private var tagChoices: [String] {
         ["Alle"] + Array(
-            Set(model.feedItems.flatMap { $0.tags ?? [] })
+            Set(model.readerItems.flatMap { $0.tags ?? [] })
         ).sorted()
     }
 
@@ -2323,7 +2364,7 @@ struct ReaderView: View {
         let query = search.trimmingCharacters(in: .whitespacesAndNewlines)
         let now = Date()
 
-        var values = model.feedItems.filter { item in
+        var values = model.readerItems.filter { item in
             let scopeMatches: Bool = {
                 switch scope {
                 case .inbox:

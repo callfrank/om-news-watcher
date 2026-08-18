@@ -21,12 +21,44 @@ struct FeedHistoryItem: Codable, Identifiable, Equatable {
     var id: String { guid }
     var effectivePriority: Int { max(1, min(3, priority ?? 2)) }
     var displayDetectedAt: String {
-        let iso = ISO8601DateFormatter()
-        guard let date = iso.date(from: detectedAt) else { return detectedAt }
+        guard let date = Self.parseDate(detectedAt) else { return detectedAt }
+        return Self.displayFormatter.string(from: date)
+    }
+
+    var displayPageDate: String? {
+        guard let raw = pageDate?.trimmingCharacters(in: .whitespacesAndNewlines), !raw.isEmpty else {
+            return nil
+        }
+        guard let date = Self.parseDate(raw) else { return raw }
+        return Self.displayFormatter.string(from: date)
+    }
+
+    private static let displayFormatter: DateFormatter = {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "de_DE")
-        formatter.dateFormat = "dd.MM.yyyy HH:mm"
-        return formatter.string(from: date)
+        formatter.timeZone = .current
+        formatter.dateFormat = "dd.MM.yyyy · HH:mm"
+        return formatter
+    }()
+
+    private static func parseDate(_ value: String) -> Date? {
+        let iso = ISO8601DateFormatter()
+        if let date = iso.date(from: value) { return date }
+
+        let formats = [
+            "yyyy-MM-dd'T'HH:mm:ss.SSSXXXXX",
+            "yyyy-MM-dd'T'HH:mm:ssXXXXX",
+            "yyyy-MM-dd HH:mm:ss",
+            "yyyy-MM-dd"
+        ]
+        for format in formats {
+            let formatter = DateFormatter()
+            formatter.locale = Locale(identifier: "en_US_POSIX")
+            formatter.timeZone = .current
+            formatter.dateFormat = format
+            if let date = formatter.date(from: value) { return date }
+        }
+        return nil
     }
 }
 
@@ -168,6 +200,7 @@ final class AppViewModel: ObservableObject {
         static let readerReadIDs = "reader.readIDs"
         static let readerFavoriteIDs = "reader.favoriteIDs"
         static let readerArchivedIDs = "reader.archivedIDs"
+        static let readerV41BaselineApplied = "reader.v41BaselineApplied"
     }
 
     init() {
@@ -279,6 +312,7 @@ final class AppViewModel: ObservableObject {
             }
             feedItems = (try? JSONDecoder().decode([FeedHistoryItem].self, from: file.data)) ?? []
             pruneReaderState()
+            applyReaderV41BaselineIfNeeded()
             updateReaderDockBadge()
         } catch {
             // Feed-Vorschau ist eine Komfortfunktion und soll den Start nicht blockieren.
@@ -870,18 +904,38 @@ final class AppViewModel: ObservableObject {
 
     // MARK: - Reader
 
+    var readerItems: [FeedHistoryItem] {
+        cleanedReaderItems(from: feedItems)
+    }
+
     var readerUnreadCount: Int {
-        feedItems.filter {
+        readerItems.filter {
             !readerArchivedIDs.contains($0.id) &&
             !readerReadIDs.contains($0.id)
         }.count
     }
 
     func readerUnreadCount(in group: String) -> Int {
-        feedItems.filter {
+        readerItems.filter {
             !readerArchivedIDs.contains($0.id) &&
             !readerReadIDs.contains($0.id) &&
             ($0.groups ?? []).contains(group)
+        }.count
+    }
+
+    func readerUnreadCount(for source: SourceRecord) -> Int {
+        readerItems.filter {
+            !readerArchivedIDs.contains($0.id) &&
+            !readerReadIDs.contains($0.id) &&
+            $0.source.caseInsensitiveCompare(source.name) == .orderedSame
+        }.count
+    }
+
+    var readerUngroupedUnreadCount: Int {
+        readerItems.filter {
+            !readerArchivedIDs.contains($0.id) &&
+            !readerReadIDs.contains($0.id) &&
+            ($0.groups ?? []).isEmpty
         }.count
     }
 
@@ -942,6 +996,80 @@ final class AppViewModel: ObservableObject {
             readerArchivedIDs.remove(item.id)
         }
         persistReaderState()
+    }
+
+    private func applyReaderV41BaselineIfNeeded() {
+        guard !defaults.bool(forKey: Keys.readerV41BaselineApplied) else { return }
+        // v4.1 behandelt alles, was beim ersten Start bereits vorhanden ist, als Altbestand.
+        // Erst danach neu hinzukommende Meldungen landen als ungelesen im Posteingang.
+        for item in readerItems {
+            readerReadIDs.insert(item.id)
+        }
+        defaults.set(true, forKey: Keys.readerV41BaselineApplied)
+        defaults.set(Array(readerReadIDs), forKey: Keys.readerReadIDs)
+    }
+
+    private func cleanedReaderItems(from values: [FeedHistoryItem]) -> [FeedHistoryItem] {
+        let genericExact: Set<String> = [
+            "main menu", "menu", "stories", "media kit", "financial reports",
+            "media & resources", "media and resources", "mappe zum unternehmen",
+            "unternehmensnews", "unternehmensmitteilungen", "newsroom", "press",
+            "skip to main content", "events", "event", "paypal"
+        ]
+        let genericPrefixes = [
+            "read article", "read more", "learn more", "mehr erfahren", "weiterlesen",
+            "weiter lesen", "download for free", "download", "alle akzeptieren",
+            "accept all", "cookie", "privacy settings"
+        ]
+
+        func normalizedTitle(_ value: String) -> String {
+            value
+                .folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
+                .lowercased()
+                .replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
+                .trimmingCharacters(in: .whitespacesAndNewlines)
+        }
+
+        func normalizedURL(_ value: String) -> String {
+            guard var parts = URLComponents(string: value) else { return value.lowercased() }
+            parts.query = nil
+            parts.fragment = nil
+            var result = (parts.string ?? value).lowercased()
+            while result.hasSuffix("/") { result.removeLast() }
+            return result
+        }
+
+        func sourceHomepage(for item: FeedHistoryItem) -> String? {
+            let source = sources.first {
+                $0.name.caseInsensitiveCompare(item.source) == .orderedSame ||
+                $0.feedLabel.caseInsensitiveCompare(item.sourceLabel ?? "") == .orderedSame
+            }
+            return source.map { normalizedURL($0.url) }
+        }
+
+        var seenLinks = Set<String>()
+        var seenSourceTitles = Set<String>()
+        var cleaned: [FeedHistoryItem] = []
+
+        for item in values.sorted(by: { $0.detectedAt > $1.detectedAt }) {
+            let title = normalizedTitle(item.title)
+            guard title.count >= 5 else { continue }
+            guard !genericExact.contains(title) else { continue }
+            guard !genericPrefixes.contains(where: { title == $0 || title.hasPrefix($0 + " ") }) else { continue }
+
+            let link = normalizedURL(item.link)
+            if let homepage = sourceHomepage(for: item), link == homepage { continue }
+
+            let linkKey = link
+            guard seenLinks.insert(linkKey).inserted else { continue }
+
+            // Gleichlautende Karten/CTAs derselben Quelle nur einmal zeigen.
+            let sourceTitleKey = item.source.lowercased() + "|" + title
+            guard seenSourceTitles.insert(sourceTitleKey).inserted else { continue }
+
+            cleaned.append(item)
+        }
+        return cleaned
     }
 
     private func persistReaderState() {

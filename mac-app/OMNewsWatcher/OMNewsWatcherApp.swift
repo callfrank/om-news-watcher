@@ -28,6 +28,12 @@ struct OMNewsWatcherApp: App {
             }
         }
 
+        Window("OM News Reader", id: "reader") {
+            ReaderView(model: model)
+                .frame(minWidth: 1180, minHeight: 720)
+        }
+        .defaultSize(width: 1380, height: 860)
+
         Settings {
             SettingsView(model: model)
         }
