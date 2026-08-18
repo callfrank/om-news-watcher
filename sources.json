@@ -208,7 +208,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:10:34Z",
+    "visualValidatedAt" : "2026-08-18T08:27:06Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 22 Treffer",
     "waitMs" : 3000
   },
@@ -875,7 +875,7 @@
     "visualLearnedAt" : "2026-08-17T10:36:38Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:12:27Z",
+    "visualValidatedAt" : "2026-08-18T08:27:30Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 1 Treffer",
     "waitMs" : 1200
   },
@@ -1646,7 +1646,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:27Z",
+    "visualValidatedAt" : "2026-08-18T08:27:54Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 2500
   },
@@ -2000,7 +2000,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:54Z",
+    "visualValidatedAt" : "2026-08-18T08:26:53Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 35 Treffer",
     "waitMs" : 2500
   },
@@ -2238,14 +2238,14 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:15:19Z",
+    "visualValidatedAt" : "2026-08-18T08:29:06Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 44 Treffer",
     "waitMs" : 2500
   },
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260818-071246",
+    "baselineVersion" : "mac-app-20260818-102945",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
     "excludeKeywords" : [
@@ -2280,18 +2280,51 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-18T05:12:46Z",
+    "visualLearnedAt" : "2026-08-18T08:29:45Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+          "includeRegex" : "^https?://ecommercenews\\.eu/category/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-18T05:12:46Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 2,
+          "visualSampleURLs" : [
+            "https://ecommercenews.eu/category/consumer-behavior/",
+            "https://ecommercenews.eu/category/logistics/"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-18T08:29:26Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-18T08:29:45Z"
+      }
+    ],
     "visualRuleVersion" : 3,
-    "visualSampleCount" : 2,
+    "visualSampleCount" : 3,
     "visualSampleURLs" : [
       "https://ecommercenews.eu/category/consumer-behavior/",
-      "https://ecommercenews.eu/category/logistics/"
+      "https://ecommercenews.eu/category/logistics/",
+      "https://ecommercenews.eu/category/cross-channel/"
     ],
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:15:23Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
+    "visualValidatedAt" : "2026-08-18T08:29:50Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · URL-Muster",
     "waitMs" : 2500
   },
   {
