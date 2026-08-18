@@ -2217,5 +2217,57 @@
     "visualValidatedAt" : "2026-08-18T05:21:15Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-072206",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Logistik"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://newsroom\\.hermesworld\\.com/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Hermes",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "span.ph-teaser-date",
+      "item" : "a.ph-teaser-link",
+      "link" : "a.ph-teaser-link",
+      "title" : "h2.ph-teaser-title"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://newsroom.hermesworld.com/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:22:06Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://newsroom.hermesworld.com/logistik-mythen-zur-zustellung-funf-gangige-annahmen-zur-paketlogistik-und-was-die-praxis-zeigt-34633/",
+      "https://newsroom.hermesworld.com/digitalisierung-smarte-technologien-wie-ki-in-der-paketlogistik-die-effizienz-steigern-kann-34599/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:22:10Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer · Kartenstruktur + URL-Muster",
+    "waitMs" : 2500
   }
 ]
