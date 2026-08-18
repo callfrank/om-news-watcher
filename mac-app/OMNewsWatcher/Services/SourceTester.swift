@@ -159,7 +159,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         guard let source else { return }
 
         Task { [weak self] in
-            let wait = min(max(source.waitMs, 0), 5000)
+            let wait = min(max(source.waitMs, 0), 8000)
             if wait > 0 {
                 try? await Task.sleep(for: .milliseconds(Int64(wait)))
             }

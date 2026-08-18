@@ -209,6 +209,7 @@ final class AppViewModel: ObservableObject {
     private var emailEnabledAt: String?
     private var pollingTask: Task<Void, Never>?
     private var activeTester: SourceTester?
+    private var savedSourcesSnapshot: [SourceRecord] = []
 
     private enum Keys {
         static let owner = "github.owner"
@@ -358,6 +359,7 @@ final class AppViewModel: ObservableObject {
             }
 
             self.sources = decodedSources
+            self.savedSourcesSnapshot = decodedSources
             self.currentSHA = file.sha
             self.isDirty = false
             self.testResults = [:]
@@ -391,6 +393,7 @@ final class AppViewModel: ObservableObject {
         statusMessage = "Speichere sources.json …"
         let newSHA = try await client().saveSources(data: data, sha: currentSHA)
         currentSHA = newSHA
+        savedSourcesSnapshot = sources
         isDirty = false
         statusMessage = "Quellen gespeichert"
     }
@@ -399,6 +402,38 @@ final class AppViewModel: ObservableObject {
         await performBusy("Speichere Quellen …") {
             try await self.saveSources()
         }
+    }
+
+    func saveSourcesForNavigation() async -> Bool {
+        guard !isBusy else { return false }
+
+        isBusy = true
+        statusMessage = "Speichere Änderungen …"
+        errorMessage = nil
+        defer { isBusy = false }
+
+        do {
+            try await saveSources()
+            return true
+        } catch {
+            errorMessage = error.localizedDescription
+            statusMessage = "Fehler"
+            return false
+        }
+    }
+
+    func discardUnsavedChanges() {
+        sources = savedSourcesSnapshot
+
+        let validIDs = Set(savedSourcesSnapshot.map(\.id))
+        testResults = testResults.filter { validIDs.contains($0.key) }
+
+        if let selectedSourceID, !validIDs.contains(selectedSourceID) {
+            self.selectedSourceID = savedSourcesSnapshot.first?.id
+        }
+
+        isDirty = false
+        statusMessage = "Ungespeicherte Änderungen verworfen"
     }
 
     func runWorkflow() async {
@@ -424,8 +459,13 @@ final class AppViewModel: ObservableObject {
         }
     }
 
-    func addSource() {
-        editingSource = SourceRecord.new()
+    func addSource(defaultGroup: String? = nil) {
+        var source = SourceRecord.new()
+        if let defaultGroup,
+           !defaultGroup.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            source.groups = [defaultGroup]
+        }
+        editingSource = source
         showEditor = true
     }
 
@@ -482,10 +522,31 @@ final class AppViewModel: ObservableObject {
             var candidate = original
             candidate.applyVisualTrainingRule(variant)
 
+            var validationSource = candidate
+            validationSource.waitMs = max(validationSource.waitMs, 4500)
+
             let tester = SourceTester()
             activeTester = tester
-            let result = await tester.test(candidate)
+            var result = await tester.test(validationSource)
             activeTester = nil
+
+            if result.hitCount < variant.sampleCount ||
+               result.kind == .zeroHits ||
+               result.kind == .timeout ||
+               result.kind == .technicalError {
+                var retrySource = candidate
+                retrySource.waitMs = max(retrySource.waitMs, 7500)
+
+                let retryTester = SourceTester()
+                activeTester = retryTester
+                let retryResult = await retryTester.test(retrySource)
+                activeTester = nil
+
+                if retryResult.kind.isSuccessLike ||
+                   retryResult.hitCount > result.hitCount {
+                    result = retryResult
+                }
+            }
 
             if bestResult == nil || result.hitCount > (bestResult?.hitCount ?? -1) {
                 bestResult = result
@@ -642,6 +703,138 @@ final class AppViewModel: ObservableObject {
         editingSource = nil
     }
 
+    func automaticTagSuggestions(
+        for source: SourceRecord,
+        result explicitResult: SourceTestResult? = nil
+    ) -> [String] {
+        var parts: [String] = [
+            source.name,
+            source.shortName ?? "",
+            source.url
+        ]
+
+        let result = explicitResult ?? testResults[source.id]
+        if let result {
+            parts.append(contentsOf: result.examples.map(\.title))
+        }
+
+        let sourceNames = Set([
+            source.name.lowercased(),
+            source.feedLabel.lowercased()
+        ])
+
+        parts.append(
+            contentsOf: feedItems
+                .filter {
+                    sourceNames.contains($0.source.lowercased()) ||
+                    sourceNames.contains(($0.sourceLabel ?? "").lowercased())
+                }
+                .prefix(12)
+                .map(\.title)
+        )
+
+        let corpus = " " + parts
+            .joined(separator: " ")
+            .folding(
+                options: [.diacriticInsensitive, .caseInsensitive],
+                locale: Locale(identifier: "de_DE")
+            )
+            .lowercased() + " "
+
+        let rules: [(String, [String])] = [
+            (
+                "Quartalszahlen",
+                [" q1 ", " q2 ", " q3 ", " q4 ", " qz ", "quartal", "quarter", "earnings", "financial results", "jahreszahlen", "halbjahres"]
+            ),
+            (
+                "Logistik",
+                ["logistik", "logistics", "delivery", "shipping", "parcel", "paket", "freight", "warehouse", "lager", "fulfillment", "fulfilment", "dhl", "dpd", "fedex", "gls"]
+            ),
+            (
+                "Payment",
+                ["payment", "payments", "paypal", "visa", "mastercard", "klarna", "adyen", "checkout", "fintech", "wallet", "bezahlen", "zahlung"]
+            ),
+            (
+                "E-Commerce",
+                ["e-commerce", "ecommerce", "onlinehandel", "online retail", "marketplace", "marktplatz", "digital commerce"]
+            ),
+            (
+                "Studien & Marktdaten",
+                ["studie", "study", "studies", "research", "report", "survey", "umfrage", "index", "marktstudie", "market data"]
+            ),
+            (
+                "Recht & Regulierung",
+                ["recht", "gesetz", "regulier", "regulation", "compliance", "court", "gericht", "kartell", "bundeskartellamt", "bmj", "verbraucherzentrale", "consumer protection"]
+            ),
+            (
+                "Events",
+                ["event", "events", "conference", "konferenz", "summit", "messe", "webinar", "calendar", "kongress"]
+            ),
+            (
+                "KI",
+                [" kunstliche intelligenz ", " künstliche intelligenz ", " artificial intelligence ", " ai ", " ki ", "generative ai", "genai"]
+            ),
+            (
+                "Sicherheit",
+                ["cyber", "security", "fraud", "betrug", "phishing", "scam", "sicherheit"]
+            ),
+            (
+                "Nachhaltigkeit",
+                ["nachhalt", "sustainab", "esg", "climate", "klima", "circularity", "kreislauf"]
+            ),
+            (
+                "Unternehmensstrategie",
+                ["acquisition", "übernahme", "ubernahme", "merger", "strategie", "strategy", "expansion", "partnerschaft", "partnership"]
+            )
+        ]
+
+        var suggestions: [String] = []
+
+        for (tag, terms) in rules {
+            guard terms.contains(where: { corpus.contains($0) }) else {
+                continue
+            }
+
+            if !source.groups.contains(
+                where: { $0.caseInsensitiveCompare(tag) == .orderedSame }
+            ) {
+                suggestions.append(tag)
+            }
+        }
+
+        return Array(suggestions.prefix(6))
+    }
+
+    private func applyAutomaticTagsIfNeeded(
+        sourceID: UUID,
+        result: SourceTestResult
+    ) {
+        guard result.kind.isSuccessLike,
+              let index = sources.firstIndex(where: { $0.id == sourceID }),
+              sources[index].automaticTagging
+        else { return }
+
+        let suggestions = automaticTagSuggestions(
+            for: sources[index],
+            result: result
+        )
+
+        guard !suggestions.isEmpty else { return }
+
+        var merged = sources[index].tags
+
+        for suggestion in suggestions where !merged.contains(
+            where: { $0.caseInsensitiveCompare(suggestion) == .orderedSame }
+        ) {
+            merged.append(suggestion)
+        }
+
+        guard merged != sources[index].tags else { return }
+
+        sources[index].tags = merged
+        isDirty = true
+    }
+
     func deleteSelectedSource() {
         guard let selectedID = selectedSourceID,
               let index = sources.firstIndex(where: { $0.id == selectedID })
@@ -677,6 +870,7 @@ final class AppViewModel: ObservableObject {
         testResults[source.id] = result
         testingSourceID = nil
         updateVisualValidationAfterTest(sourceID: source.id, result: result)
+        applyAutomaticTagsIfNeeded(sourceID: source.id, result: result)
         updateStatusAfterTest(source, result: result)
     }
 
@@ -704,6 +898,7 @@ final class AppViewModel: ObservableObject {
             let result = await executeTest(source)
             testResults[source.id] = result
             updateVisualValidationAfterTest(sourceID: source.id, result: result)
+            applyAutomaticTagsIfNeeded(sourceID: source.id, result: result)
             allTestCompleted += 1
         }
 

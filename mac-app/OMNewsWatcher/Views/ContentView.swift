@@ -2,6 +2,11 @@ import SwiftUI
 import AppKit
 import WebKit
 
+private enum PendingSourceNavigation {
+    case source(UUID?)
+    case folder(String?)
+}
+
 struct ContentView: View {
     @Environment(\.openWindow) private var openWindow
     @ObservedObject var model: AppViewModel
@@ -9,6 +14,8 @@ struct ContentView: View {
     @State private var showDeleteConfirmation = false
     @State private var selectedFolder: String? = nil
     @State private var listFilter: SourceListFilter = .all
+    @State private var pendingNavigation: PendingSourceNavigation?
+    @State private var showUnsavedNavigationConfirmation = false
 
     var body: some View {
         NavigationSplitView {
@@ -32,6 +39,10 @@ struct ContentView: View {
                 SourceEditorView(
                     source: editing,
                     isExisting: exists,
+                    availableGroups: model.allGroups,
+                    suggestTags: { source in
+                        model.automaticTagSuggestions(for: source)
+                    },
                     onSave: { result in
                         model.applyEditorResult(result)
                     },
@@ -90,6 +101,30 @@ struct ContentView: View {
         } message: {
             Text("Die Quelle wird beim nächsten Speichern aus sources.json entfernt.")
         }
+        .confirmationDialog(
+            "Ungespeicherte Änderungen",
+            isPresented: $showUnsavedNavigationConfirmation,
+            titleVisibility: .visible
+        ) {
+            Button("Speichern und wechseln") {
+                Task {
+                    if await model.saveSourcesForNavigation() {
+                        applyPendingNavigation()
+                    }
+                }
+            }
+
+            Button("Änderungen verwerfen", role: .destructive) {
+                model.discardUnsavedChanges()
+                applyPendingNavigation()
+            }
+
+            Button("Abbrechen", role: .cancel) {
+                pendingNavigation = nil
+            }
+        } message: {
+            Text("Vor dem Wechsel sind noch Änderungen an sources.json ungespeichert.")
+        }
     }
 
     private var folderSidebar: some View {
@@ -117,7 +152,7 @@ struct ContentView: View {
             List {
                 Section("Ordner") {
                     Button {
-                        selectedFolder = nil
+                        requestNavigation(.folder(nil))
                     } label: {
                         HStack {
                             Label("Alle Quellen", systemImage: selectedFolder == nil ? "tray.full.fill" : "tray.full")
@@ -132,7 +167,7 @@ struct ContentView: View {
 
                     ForEach(model.allGroups, id: \.self) { group in
                         Button {
-                            selectedFolder = group
+                            requestNavigation(.folder(group))
                         } label: {
                             HStack {
                                 Label(group, systemImage: selectedFolder == group ? "folder.fill" : "folder")
@@ -151,7 +186,7 @@ struct ContentView: View {
 
                     if model.ungroupedCount > 0 {
                         Button {
-                            selectedFolder = "__UNGROUPED__"
+                            requestNavigation(.folder("__UNGROUPED__"))
                         } label: {
                             HStack {
                                 Label("Ohne Ordner", systemImage: "folder.badge.questionmark")
@@ -215,7 +250,7 @@ struct ContentView: View {
             .padding(.top, 10)
             .padding(.bottom, 8)
 
-            List(selection: $model.selectedSourceID) {
+            List(selection: sourceSelectionBinding) {
                 ForEach(filteredSources) { source in
                     HStack(spacing: 9) {
                         Image(systemName: source.enabled ? "checkmark.circle.fill" : "pause.circle.fill")
@@ -319,11 +354,19 @@ struct ContentView: View {
 
                         Spacer()
 
-                        Toggle("Aktiv", isOn: Binding(
-                            get: { source.enabled },
-                            set: { model.setEnabled($0, for: source.id) }
-                        ))
+                        Toggle(
+                            source.enabled ? "Aktiv" : "Pausiert",
+                            isOn: Binding(
+                                get: { source.enabled },
+                                set: { model.setEnabled($0, for: source.id) }
+                            )
+                        )
                         .toggleStyle(.switch)
+                        .help(
+                            source.enabled
+                                ? "Quelle wird überwacht – ausschalten zum Pausieren"
+                                : "Quelle ist pausiert – einschalten zum Aktivieren"
+                        )
                     }
 
                     GroupBox("Quelle") {
@@ -621,7 +664,11 @@ struct ContentView: View {
     private var toolbar: some ToolbarContent {
         ToolbarItemGroup(placement: .primaryAction) {
             Button {
-                model.addSource()
+                let defaultGroup =
+                    selectedFolder == "__UNGROUPED__"
+                        ? nil
+                        : selectedFolder
+                model.addSource(defaultGroup: defaultGroup)
             } label: {
                 HStack(spacing: 5) {
                     Image(systemName: "plus")
@@ -645,11 +692,26 @@ struct ContentView: View {
                 Task { await model.saveSourcesFromToolbar() }
             } label: {
                 HStack(spacing: 5) {
-                    Image(systemName: "square.and.arrow.down")
-                    Text("Speichern")
+                    Image(
+                        systemName: model.isDirty
+                            ? "exclamationmark.circle.fill"
+                            : "checkmark.circle"
+                    )
+                    Text(
+                        model.isDirty
+                            ? "Änderungen speichern"
+                            : "Gespeichert"
+                    )
                 }
             }
-            .help("Änderungen in sources.json speichern")
+            .buttonStyle(.borderedProminent)
+            .tint(model.isDirty ? .orange : .gray)
+            .help(
+                model.isDirty
+                    ? "Ungespeicherte Änderungen in sources.json – jetzt speichern"
+                    : "Alle Änderungen sind gespeichert"
+            )
+            .keyboardShortcut("s", modifiers: .command)
             .disabled(!model.isDirty || model.isBusy || model.isTestingAll)
 
             Button {
@@ -790,6 +852,61 @@ struct ContentView: View {
     private var selectedFolderTitle: String {
         if selectedFolder == "__UNGROUPED__" { return "Ohne Ordner" }
         return selectedFolder ?? "Quellen"
+    }
+
+    private var sourceSelectionBinding: Binding<UUID?> {
+        Binding(
+            get: { model.selectedSourceID },
+            set: { newValue in
+                guard newValue != model.selectedSourceID else { return }
+                requestNavigation(.source(newValue))
+            }
+        )
+    }
+
+    private func requestNavigation(_ navigation: PendingSourceNavigation) {
+        if model.isDirty {
+            pendingNavigation = navigation
+            showUnsavedNavigationConfirmation = true
+        } else {
+            applyNavigation(navigation)
+        }
+    }
+
+    private func applyPendingNavigation() {
+        guard let pendingNavigation else { return }
+        applyNavigation(pendingNavigation)
+        self.pendingNavigation = nil
+    }
+
+    private func applyNavigation(_ navigation: PendingSourceNavigation) {
+        switch navigation {
+        case .source(let sourceID):
+            model.selectedSourceID = sourceID
+        case .folder(let folder):
+            selectedFolder = folder
+
+            if let selectedSourceID = model.selectedSourceID,
+               !filteredSourcesForFolder(folder).contains(where: { $0.id == selectedSourceID }) {
+                model.selectedSourceID = filteredSourcesForFolder(folder).first?.id
+            }
+        }
+    }
+
+    private func filteredSourcesForFolder(_ folder: String?) -> [SourceRecord] {
+        if folder == "__UNGROUPED__" {
+            return model.sources.filter { $0.groups.isEmpty }
+        }
+
+        if let folder {
+            return model.sources.filter { source in
+                source.groups.contains { group in
+                    group.caseInsensitiveCompare(folder) == .orderedSame
+                }
+            }
+        }
+
+        return model.sources
     }
 
     private var filteredSources: [SourceRecord] {
@@ -1640,12 +1757,14 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
   const bestTitleElement = (target, clickable, card) => {
     const clickedHeading = target?.closest?.('h1,h2,h3,h4,h5,h6');
     if (clickedHeading && !generic(clickedHeading.textContent)) return clickedHeading;
+
+    const own = clean(clickable?.textContent || clickable?.getAttribute?.('aria-label') || clickable?.getAttribute?.('title') || '');
+    if (own.length >= 5 && own.length <= 320 && !generic(own)) return clickable;
+
     for (const node of Array.from(card?.querySelectorAll?.(titleSelector) || [])) {
       const value = clean(node.textContent || node.getAttribute?.('aria-label') || node.getAttribute?.('title') || '');
       if (value.length >= 5 && value.length <= 320 && !generic(value)) return node;
     }
-    const own = clean(clickable?.textContent || clickable?.getAttribute?.('aria-label') || clickable?.getAttribute?.('title') || '');
-    if (own.length >= 5 && own.length <= 320 && !generic(own)) return clickable;
     return null;
   };
 
@@ -1667,7 +1786,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     let fallback = null;
     for (let depth = 0; node && depth < 10 && node !== document.body && node !== document.documentElement; depth += 1, node = node.parentElement) {
       if (!isPlausibleCard(node, target)) continue;
-      fallback = node;
+      if (!fallback) fallback = node;
       if (node.matches?.(cardSelector)) return node;
       const classes = Array.from(node.classList || []).join(' ');
       if (/(news|press|event|conference|messe|article|post|story|card|entry|teaser|result|report)/i.test(classes)) return node;
@@ -2046,7 +2165,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 
   window.omTrainerSetMode('browse');
   post();
-  return { installed: true, version: '4.4.3' };
+  return { installed: true, version: '4.5' };
 })();
 """#
 }

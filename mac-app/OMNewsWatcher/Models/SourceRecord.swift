@@ -47,6 +47,11 @@ struct SourceRecord: Identifiable, Equatable {
         set { setStringArray(newValue, for: "tags") }
     }
 
+    var automaticTagging: Bool {
+        get { raw["automaticTagging"]?.boolValue ?? true }
+        set { raw["automaticTagging"] = .bool(newValue) }
+    }
+
     var priority: Int {
         get { max(1, min(3, raw["priority"]?.intValue ?? 2)) }
         set { raw["priority"] = .int(max(1, min(3, newValue))) }
@@ -353,6 +358,7 @@ struct SourceRecord: Identifiable, Equatable {
             "priority": .int(2),
             "groups": .array([]),
             "tags": .array([]),
+            "automaticTagging": .bool(true),
             "includeKeywords": .array([]),
             "excludeKeywords": .array([]),
             "selectors": .object([
@@ -428,6 +434,7 @@ struct SourceRecord: Identifiable, Equatable {
         copy.removeValue(forKey: "baselineVersion")
         copy.removeValue(forKey: "groups")
         copy.removeValue(forKey: "tags")
+        copy.removeValue(forKey: "automaticTagging")
         copy.removeValue(forKey: "priority")
 
         return copy
