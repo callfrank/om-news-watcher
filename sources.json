@@ -2504,5 +2504,57 @@
     "visualValidatedAt" : "2026-08-18T05:33:23Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-073414",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://gfu\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Gfu",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "a.post-card__link",
+      "link" : "a.post-card__link",
+      "title" : "h3.post-card__title"
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://gfu.de/pressemitteilungen/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:34:14Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://gfu.de/mda-markt-2026-wertschoepfung-statt-preisdruck/",
+      "https://gfu.de/brueckenschlag-zwischen-wirtschaft-und-politik/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:34:17Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · Kartenstruktur + URL-Muster",
+    "waitMs" : 2500
   }
 ]
