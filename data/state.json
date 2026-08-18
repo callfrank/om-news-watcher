@@ -4057,7 +4057,9 @@
       "https://newsroom.paypal-corp.com/2026-08-11-PayPal-World-Enables-US-Travelers-to-Pay-Like-a-Local-at-Weixin-Pay-Merchants-Across-China",
       "https://newsroom.paypal-corp.com/2026-08-10-Pay-Your-Way-Play-Your-Way-Venmo-Is-Now-on-Google-Play"
     ],
-    "Chinaeconomic": []
+    "Chinaeconomic": [],
+    "Excitingcommerce": [],
+    "Handelskraft": []
   },
   "initializedBySource": {
     "Zalando Newsroom": true,
@@ -4161,7 +4163,9 @@
     "Action": true,
     "Wero": true,
     "PayPal US": true,
-    "Chinaeconomic": true
+    "Chinaeconomic": true,
+    "Excitingcommerce": true,
+    "Handelskraft": true
   },
   "configVersionBySource": {
     "OTTO Pressemitteilungen": "v11-otto",
@@ -4243,7 +4247,9 @@
     "Visa Newsroom DE": "mac-app-20260818-103050",
     "Wero": "mac-app-20260818-110356",
     "PayPal US": "mac-app-20260818-111433",
-    "Chinaeconomic": "mac-app-20260818-121152"
+    "Chinaeconomic": "mac-app-20260818-121152",
+    "Excitingcommerce": "mac-app-20260818-131722",
+    "Handelskraft": "mac-app-20260818-131914"
   },
   "feedResetToken": "clean-baseline-v11",
   "globalBaselineBySource": {
@@ -4346,7 +4352,9 @@
     "Action": "global-baseline-v11",
     "Wero": "global-baseline-v11",
     "PayPal US": "global-baseline-v11",
-    "Chinaeconomic": "global-baseline-v11"
+    "Chinaeconomic": "global-baseline-v11",
+    "Excitingcommerce": "global-baseline-v11",
+    "Handelskraft": "global-baseline-v11"
   },
   "lastCheckedAtBySource": {
     "Zalando Newsroom": "2026-08-18T11:15:59.055Z",
@@ -4453,7 +4461,9 @@
     "Action": "2026-08-18T11:15:59.085Z",
     "Wero": "2026-08-18T11:15:59.085Z",
     "PayPal US": "2026-08-18T11:15:59.085Z",
-    "Chinaeconomic": "2026-08-18T11:15:59.086Z"
+    "Chinaeconomic": "2026-08-18T11:15:59.086Z",
+    "Excitingcommerce": "2026-08-18T11:40:45.558Z",
+    "Handelskraft": "2026-08-18T11:40:45.558Z"
   },
   "lastSuccessAtBySource": {
     "Zalando Newsroom": "2026-08-18T11:15:59.055Z",
@@ -4655,7 +4665,9 @@
     "Action": 8,
     "Wero": 1,
     "PayPal US": 2,
-    "Chinaeconomic": 0
+    "Chinaeconomic": 0,
+    "Excitingcommerce": 0,
+    "Handelskraft": 0
   },
   "recentHitCountsBySource": {
     "Zalando Newsroom": [
@@ -5345,6 +5357,12 @@
     "Chinaeconomic": [
       0,
       0
+    ],
+    "Excitingcommerce": [
+      0
+    ],
+    "Handelskraft": [
+      0
     ]
   },
   "lastDurationMsBySource": {
@@ -5452,7 +5470,9 @@
     "Action": 4719,
     "Wero": 4272,
     "PayPal US": 4219,
-    "Chinaeconomic": 4534
+    "Chinaeconomic": 4534,
+    "Excitingcommerce": 2961,
+    "Handelskraft": 7932
   },
   "lastMessageBySource": {
     "Zalando Newsroom": "9 Artikel erkannt",
@@ -5559,7 +5579,9 @@
     "Action": "8 Artikel erkannt",
     "Wero": "1 Artikel erkannt",
     "PayPal US": "2 Artikel erkannt",
-    "Chinaeconomic": "Keine Artikel erkannt"
+    "Chinaeconomic": "Keine Artikel erkannt",
+    "Excitingcommerce": "Keine Artikel erkannt",
+    "Handelskraft": "Keine Artikel erkannt"
   },
   "anomalyBySource": {
     "Galaxus Medienmitteilungen": "Abruf fehlgeschlagen: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306\nCall log:\n  - navigating to \"https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306\", waiting until \"domcontentloaded\"\n",
@@ -5582,7 +5604,9 @@
     "Bain": "Keine Artikel erkannt",
     "Ifo": "0 Treffer; zuletzt typischerweise 14",
     "Etsy": "Keine Artikel erkannt",
-    "Chinaeconomic": "Keine Artikel erkannt"
+    "Chinaeconomic": "Keine Artikel erkannt",
+    "Excitingcommerce": "Keine Artikel erkannt",
+    "Handelskraft": "Keine Artikel erkannt"
   },
   "deliveredBySource": {
     "Onlinemarktplatz": [
@@ -5861,20 +5885,20 @@
     "Ebayinc": [],
     "eBay QZ": [],
     "eBay DE": [
+      "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
       "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
       "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
       "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
-      "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
-      "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/"
+      "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/"
     ],
     "Rewe": [],
     "Walmart": [],
     "DM": [],
     "Uber": [
-      "https://investor.uber.com/rss/PressRelease.aspx",
-      "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx"
+      "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx",
+      "https://investor.uber.com/rss/PressRelease.aspx"
     ],
     "DeliveryHero": [],
     "Action": [],
