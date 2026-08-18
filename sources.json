@@ -4057,5 +4057,35 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260818-121053",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Sonstiges"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Chinaeconomic",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://chinaeconomicreview.com/",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
