@@ -2923,5 +2923,84 @@
     "visualValidatedAt" : "2026-08-18T05:44:54Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260818-074551",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Etsy",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.etsy.com/news?ref=press_blog_more",
+    "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-074811",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://unternehmen\\.kaufland\\.de/presse/newsroom/2026/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Kaufland",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://unternehmen.kaufland.de/presse",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:48:11Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://unternehmen.kaufland.de/presse/newsroom/2026/august/rueckruf-k-classic-erntefrische-erdbeeren-tiefgefroren-300g",
+      "https://unternehmen.kaufland.de/presse/newsroom/2026/august/mehr-bio-fuer-alle-kaufland-startet-partnerschaft-mit-naturland",
+      "https://unternehmen.kaufland.de/presse/newsroom/2026/juli/guenstige-abkuehlung-kaufland-gibt-den-ganzen-august-ueber-20-prozent-rabatt-auf-alle-marken-eisartikel"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:48:14Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
