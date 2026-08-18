@@ -140,7 +140,7 @@ struct ContentView: View {
                                 Text("\(model.groupCount(group))")
                                     .font(.caption2)
                                     .foregroundStyle(.secondary)
-                                UnreadBadge(count: readerFolderCount(group))
+                                UnreadBadge(count: model.readerUnreadCount(in: group))
                             }
                         }
                         .buttonStyle(.plain)
@@ -2249,7 +2249,7 @@ struct ReaderView: View {
                         ReaderSidebarRow(
                             title: group,
                             systemImage: "folder",
-                            count: model.readerUnreadCount(in: group)
+                            count: readerFolderCount(group)
                         )
                         .tag(ReaderScope.group(group))
                     }
