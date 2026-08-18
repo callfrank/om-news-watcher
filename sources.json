@@ -3894,5 +3894,35 @@
     "visualValidatedAt" : "2026-08-18T07:17:22Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 2500
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260818-110356",
+    "checkIntervalMinutes" : 60,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Finanzen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Wero",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://epicompany.eu/media-insights/",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
