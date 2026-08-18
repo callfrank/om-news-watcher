@@ -12,7 +12,12 @@ struct FeedHistoryItem: Codable, Identifiable, Equatable {
     var title: String
     var link: String
     var pageDate: String?
+    var publishedAt: String?
     var detectedAt: String
+    var deliveredAt: String?
+    var recovered: Bool?
+    var recoveryReason: String?
+    var historicalBackfill: Bool?
     var groups: [String]?
     var tags: [String]?
     var priority: Int?
@@ -26,11 +31,79 @@ struct FeedHistoryItem: Codable, Identifiable, Equatable {
     }
 
     var displayPageDate: String? {
-        guard let raw = pageDate?.trimmingCharacters(in: .whitespacesAndNewlines), !raw.isEmpty else {
+        guard let raw = pageDate?.trimmingCharacters(in: .whitespacesAndNewlines),
+              !raw.isEmpty
+        else {
             return nil
         }
-        guard let date = Self.parseDate(raw) else { return raw }
-        return Self.displayFormatter.string(from: date)
+
+        guard let date = Self.parsedPageDate(raw) else {
+            return raw
+        }
+
+        return Self.publicationDisplayFormatter.string(from: date)
+    }
+
+    var effectivePublishedDate: Date? {
+        if let publishedAt,
+           let date = Self.parsedDate(publishedAt) {
+            return date
+        }
+
+        if let pageDate,
+           let date = Self.parsedPageDate(pageDate) {
+            return date
+        }
+
+        return nil
+    }
+
+    var effectiveReaderDate: Date? {
+        effectivePublishedDate ?? Self.parsedDate(detectedAt)
+    }
+
+    var isHistoricalDelivery: Bool {
+        if historicalBackfill == true {
+            return true
+        }
+
+        guard let published = effectivePublishedDate,
+              let delivered = Self.parsedDate(deliveredAt ?? detectedAt)
+        else {
+            return false
+        }
+
+        return delivered.timeIntervalSince(published) >
+            72 * 60 * 60
+    }
+
+    var isRecovered: Bool {
+        recovered == true
+    }
+
+    func publicationIsCurrent(
+        reference: Date = Date(),
+        maxAgeHours: Double = 48
+    ) -> Bool {
+        guard let published = effectivePublishedDate else {
+            // Quellen ohne brauchbares Veröffentlichungsdatum dürfen
+            // weiterhin über ihren echten Erkennungszeitpunkt arbeiten.
+            guard let detected = Self.parsedDate(detectedAt) else {
+                return false
+            }
+
+            return detected >=
+                reference.addingTimeInterval(-maxAgeHours * 60 * 60)
+        }
+
+        let lower =
+            reference.addingTimeInterval(-maxAgeHours * 60 * 60)
+
+        // Bei reinen Tagesdaten etwas Zukunftstoleranz.
+        let upper =
+            reference.addingTimeInterval(24 * 60 * 60)
+
+        return published >= lower && published <= upper
     }
 
     private static let displayFormatter: DateFormatter = {
@@ -41,7 +114,37 @@ struct FeedHistoryItem: Codable, Identifiable, Equatable {
         return formatter
     }()
 
+    private static let publicationDisplayFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "de_DE")
+        formatter.timeZone = .current
+        formatter.dateFormat = "dd.MM.yyyy"
+        return formatter
+    }()
+
     private static let isoFormatter = ISO8601DateFormatter()
+
+    private static let pageDateFormatters: [DateFormatter] = {
+        let specifications: [(String, String)] = [
+            ("de_DE", "dd.MM.yyyy"),
+            ("de_DE", "d.M.yyyy"),
+            ("de_DE", "d. MMMM yyyy"),
+            ("de_DE", "d. MMM yyyy"),
+            ("en_US_POSIX", "MMM d, yyyy"),
+            ("en_US_POSIX", "MMM. d, yyyy"),
+            ("en_US_POSIX", "MMMM d, yyyy"),
+            ("en_US_POSIX", "d MMM yyyy"),
+            ("en_US_POSIX", "MM/dd/yyyy")
+        ]
+
+        return specifications.map { locale, format in
+            let formatter = DateFormatter()
+            formatter.locale = Locale(identifier: locale)
+            formatter.timeZone = .current
+            formatter.dateFormat = format
+            return formatter
+        }
+    }()
 
     private static let fallbackFormatters: [DateFormatter] = {
         [
@@ -63,6 +166,23 @@ struct FeedHistoryItem: Codable, Identifiable, Equatable {
         for formatter in fallbackFormatters {
             if let date = formatter.date(from: value) { return date }
         }
+        return nil
+    }
+
+    static func parsedPageDate(_ value: String) -> Date? {
+        let clean = value
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+
+        if let date = parsedDate(clean) {
+            return date
+        }
+
+        for formatter in pageDateFormatters {
+            if let date = formatter.date(from: clean) {
+                return date
+            }
+        }
+
         return nil
     }
 
@@ -138,7 +258,9 @@ struct SourceHealthAuditItem: Codable, Equatable {
     var title: String?
     var link: String?
     var pageDate: String?
+    var publishedAt: String?
     var detectedAt: String?
+    var deliveredAt: String?
     var recovered: Bool?
 }
 
@@ -1674,6 +1796,7 @@ final class AppViewModel: ObservableObject {
             let isArchived = readerArchivedIDs.contains(item.id)
             let isFavorite = readerFavoriteIDs.contains(item.id)
             let isUnread = !readerReadIDs.contains(item.id)
+            let isHistoricalDelivery = item.isHistoricalDelivery
 
             if isArchived {
                 for group in groups {
@@ -1693,6 +1816,7 @@ final class AppViewModel: ObservableObject {
             }
 
             guard isUnread else { continue }
+            guard !isHistoricalDelivery else { continue }
 
             unreadTotal += 1
             unreadBySource[item.source.lowercased(), default: 0] += 1

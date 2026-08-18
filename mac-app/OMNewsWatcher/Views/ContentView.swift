@@ -3354,6 +3354,22 @@ struct ReaderView: View {
 
                             Spacer()
 
+                            if item.isRecovered {
+                                Text("🩹 Wiederhergestellt")
+                                    .font(.caption2.bold())
+                                    .padding(.horizontal, 7)
+                                    .padding(.vertical, 3)
+                                    .background(.green.opacity(0.12), in: Capsule())
+                            }
+
+                            if item.isHistoricalDelivery {
+                                Text("Altbestand")
+                                    .font(.caption2.bold())
+                                    .padding(.horizontal, 7)
+                                    .padding(.vertical, 3)
+                                    .background(.orange.opacity(0.12), in: Capsule())
+                            }
+
                             if !model.readerIsRead(item) {
                                 Text("UNGelesen".uppercased())
                                     .font(.caption2.bold())
@@ -3537,7 +3553,9 @@ struct ReaderView: View {
         model.readerItems.filter {
             guard !model.readerIsArchived($0),
                   !model.readerIsRead($0),
-                  $0.effectivePriority >= 2
+                  !$0.isHistoricalDelivery,
+                  $0.effectivePriority >= 2,
+                  $0.publicationIsCurrent()
             else {
                 return false
             }
@@ -3561,6 +3579,7 @@ struct ReaderView: View {
 
         return model.readerItems.filter {
             guard !model.readerIsArchived($0),
+                  !$0.isHistoricalDelivery,
                   let date = FeedHistoryItem.parsedDate($0.detectedAt)
             else {
                 return false
@@ -3574,8 +3593,9 @@ struct ReaderView: View {
         model.readerItems.filter {
             guard !model.readerIsArchived($0),
                   !model.readerIsRead($0),
+                  !$0.isHistoricalDelivery,
                   $0.effectivePriority >= 2,
-                  let date = FeedHistoryItem.parsedDate($0.detectedAt)
+                  let date = $0.effectiveReaderDate
             else {
                 return false
             }
@@ -3607,7 +3627,11 @@ struct ReaderView: View {
                 case .newRelevant:
                     guard !model.readerIsArchived(item),
                           !model.readerIsRead(item),
-                          item.effectivePriority >= 2
+                          !item.isHistoricalDelivery,
+                          item.effectivePriority >= 2,
+                          item.publicationIsCurrent(
+                            reference: now
+                          )
                     else {
                         return false
                     }
@@ -3626,10 +3650,13 @@ struct ReaderView: View {
 
                 case .inbox:
                     return !model.readerIsArchived(item) &&
-                        !model.readerIsRead(item)
+                        !model.readerIsRead(item) &&
+                        !item.isHistoricalDelivery
 
                 case .sinceLastVisit:
-                    guard !model.readerIsArchived(item) else {
+                    guard !model.readerIsArchived(item),
+                          !item.isHistoricalDelivery
+                    else {
                         return false
                     }
 
@@ -3648,15 +3675,14 @@ struct ReaderView: View {
                 case .editorial:
                     guard !model.readerIsArchived(item),
                           !model.readerIsRead(item),
+                          !item.isHistoricalDelivery,
                           item.effectivePriority >= 2,
-                          let detected = FeedHistoryItem.parsedDate(
-                            item.detectedAt
-                          )
+                          let published = item.effectiveReaderDate
                     else {
                         return false
                     }
 
-                    return Calendar.current.isDateInToday(detected)
+                    return Calendar.current.isDateInToday(published)
 
                 case .all:
                     return !model.readerIsArchived(item)
@@ -3701,9 +3727,7 @@ struct ReaderView: View {
             }
 
             if dateRange != .all {
-                guard let detected = FeedHistoryItem.parsedDate(
-                    item.detectedAt
-                ) else {
+                guard let detected = item.effectiveReaderDate else {
                     return false
                 }
 
@@ -3729,12 +3753,28 @@ struct ReaderView: View {
         }
 
         values.sort { lhs, rhs in
+            let lhsDate =
+                lhs.effectiveReaderDate ??
+                FeedHistoryItem.parsedDate(lhs.detectedAt) ??
+                .distantPast
+
+            let rhsDate =
+                rhs.effectiveReaderDate ??
+                FeedHistoryItem.parsedDate(rhs.detectedAt) ??
+                .distantPast
+
             switch sort {
             case .newest:
+                if lhsDate != rhsDate {
+                    return lhsDate > rhsDate
+                }
                 return lhs.detectedAt > rhs.detectedAt
             case .relevance:
                 if lhs.effectivePriority != rhs.effectivePriority {
                     return lhs.effectivePriority > rhs.effectivePriority
+                }
+                if lhsDate != rhsDate {
+                    return lhsDate > rhsDate
                 }
                 return lhs.detectedAt > rhs.detectedAt
             case .source:
@@ -3820,13 +3860,23 @@ private struct ReaderCompactItemRow: View {
         return "Ohne Thema"
     }
 
-    private var detectedText: String {
+    private var timelineText: String {
+        if let published = item.effectivePublishedDate {
+            return "Veröffentlicht: " + published.formatted(
+                Date.FormatStyle()
+                    .day(.twoDigits)
+                    .month(.twoDigits)
+                    .year(.twoDigits)
+                    .locale(Locale(identifier: "de_DE"))
+            )
+        }
+
         guard let date = FeedHistoryItem.parsedDate(item.detectedAt) else {
-            return item.displayDetectedAt
+            return "Erkannt: \(item.displayDetectedAt)"
         }
 
         if Calendar.current.isDateInToday(date) {
-            return date.formatted(
+            return "Erkannt: " + date.formatted(
                 Date.FormatStyle()
                     .hour(.twoDigits(amPM: .omitted))
                     .minute(.twoDigits)
@@ -3834,7 +3884,7 @@ private struct ReaderCompactItemRow: View {
             )
         }
 
-        return date.formatted(
+        return "Erkannt: " + date.formatted(
             Date.FormatStyle()
                 .day(.twoDigits)
                 .month(.twoDigits)
@@ -3867,7 +3917,7 @@ private struct ReaderCompactItemRow: View {
             Text(
                 "Quelle: \(sourceName) · Thema: \(topicName) · Relevanz: " +
                 String(repeating: "★", count: item.effectivePriority) +
-                " · Erkannt: \(detectedText)"
+                " · \(timelineText)"
             )
             .font(.caption)
             .foregroundStyle(.secondary)
@@ -3919,9 +3969,12 @@ private struct ReaderItemRow: View {
                             .font(.caption)
                     }
 
-                    Text(item.displayDetectedAt)
-                        .font(.caption2)
-                        .foregroundStyle(.secondary)
+                    Text(
+                        item.displayPageDate ??
+                        item.displayDetectedAt
+                    )
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
                 }
 
                 Text(item.title)
