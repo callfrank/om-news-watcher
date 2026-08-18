@@ -2480,7 +2480,7 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260818-072619",
+    "baselineVersion" : "mac-app-20260818-091858",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
     "excludeKeywords" : [
@@ -2515,18 +2515,19 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-18T05:26:19Z",
+    "visualLearnedAt" : "2026-08-18T07:18:58Z",
     "visualRuleVersion" : 3,
-    "visualSampleCount" : 2,
+    "visualSampleCount" : 3,
     "visualSampleURLs" : [
       "https://www.bain.com/about/media-center/press-releases/2026/strong-2025-momentum-masks-structural-challenges-for-global-insurers-bain-company-global-insurance-report-2026/",
-      "https://www.bain.com/about/media-center/press-releases/2026/bain-company-named-an-openai-elite-partner/"
+      "https://www.bain.com/about/media-center/press-releases/2026/bain-company-named-an-openai-elite-partner/",
+      "https://www.bain.com/about/media-center/press-releases/2026/us-grocery-slowdown-enters-a-new-phase-as-stretched-consumers-buy-less--bain-company-analysis/"
     ],
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
-    "visualValidated" : false,
-    "visualValidatedAt" : "2026-08-18T05:26:23Z",
-    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T07:19:04Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
     "waitMs" : 2500
   },
   {
