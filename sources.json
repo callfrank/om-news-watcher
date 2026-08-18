@@ -3106,5 +3106,110 @@
     "visualValidatedAt" : "2026-08-18T05:57:36Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260818-075825",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Schwarz",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://gruppe.schwarz/en/press?",
+    "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260818-080011",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Schwarz-digits",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://schwarz-digits.de/presse",
+    "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-080345",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://www\\.ebayinc\\.com/stories/news/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Ebayinc",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://www.ebayinc.com/stories/news/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T06:02:17Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://www.ebayinc.com/stories/news/ebay-inc-reports-second-quarter-2026-results/",
+      "https://www.ebayinc.com/stories/news/ebay-completes-acquisition-of-depop/",
+      "https://www.ebayinc.com/stories/news/ebay-statement-regarding-agreement-with-ina-and-david-steiner/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T06:03:51Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
+    "waitMs" : 2500
   }
 ]
