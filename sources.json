@@ -1439,21 +1439,46 @@
     "waitMs" : 2500
   },
   {
-    "baselineVersion" : "mac-app-20260817-134932",
+    "allowExternal" : true,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-063308",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
     "groups" : [
       "Staat"
     ],
+    "minTitleLength" : 5,
     "name" : "BMJ",
     "priority" : 1,
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "div.c-teaser",
+      "link" : "a.c-teaser__link",
+      "title" : "div.c-teaser__headline-wrapper"
     },
     "shortName" : "BMJ",
     "url" : "https://www.bmjv.de/DE/Startseite/Startseite_node.html",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T04:33:08Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.raus-aus-gewalt.de/#",
+      "https://www.bmjv.de/SharedDocs/Meldungen/DE/2026/ein-jahr-bundesregierung-2026.html"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T04:33:11Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 194 Treffer · Kartenstruktur",
     "waitMs" : 2500
   },
   {
