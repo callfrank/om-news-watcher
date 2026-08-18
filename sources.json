@@ -2269,5 +2269,31 @@
     "visualValidatedAt" : "2026-08-18T05:22:10Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "baselineVersion" : "mac-app-20260818-072340",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Logistik"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Post AT",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://news.post.at/presse",
+    "waitMs" : 2500
   }
 ]
