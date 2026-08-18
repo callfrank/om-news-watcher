@@ -2819,5 +2819,57 @@
     "visualValidatedAt" : "2026-08-18T05:42:21Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-074337",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://aboutcoolblue\\.com/news/de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "coolblue",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://aboutcoolblue.com/news/de/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:43:37Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://aboutcoolblue.com/news/de/coolblue-eroeffnet-in-leipzig-ersten-store-in-sachsen/",
+      "https://aboutcoolblue.com/news/de/coolblue-eroeffnet-ersten-store-in-berlin-elektronik-zum-anfassen-am-tauentzien/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:43:40Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
