@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.1.1**
+**Aktueller Stand: v5.1.2**
 
 ---
 
@@ -590,6 +590,28 @@ im Reader redaktionell bearbeiten
 
 ---
 
+
+## Hotfix v5.1.2 – frischer Remote-Abruf
+
+v5.1.2 behebt den Fall, dass der lokale Mac bereits neue Inhalte sieht,
+während ein Remote-Runner noch eine gecachte ältere Version derselben
+Startseite erhält.
+
+Der GitHub-Watcher verwendet nun zusätzlich:
+
+- `Cache-Control: no-cache, no-store`
+- `Pragma: no-cache`
+- einen zufälligen Cache-Busting-Parameter bei HTML-/Browser-Aufrufen
+- blockierte Service Worker im Playwright-Kontext
+- bei Startseiten automatisch einen RSS-/Atom-Zweitkanal, sofern verfügbar
+- zusätzlich einen Versuch über `/feed/` bei Startseiten
+
+Browser- und Feed-Treffer werden zusammengeführt. Feed-Einträge stehen bei
+der Aktualitätsbewertung vor den HTML-Treffern.
+
+`data/health.json` enthält außerdem die tatsächlich gelaufene
+`watcherVersion`. Die macOS-App zeigt App-, Watcher- und Tracking-Version an.
+
 ## Hotfix v5.1.1
 
 v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
@@ -613,6 +635,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.1.1**
+**OM News Watcher v5.1.2**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.

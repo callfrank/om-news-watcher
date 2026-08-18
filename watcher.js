@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.23';
+const VERSION = '0.24';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -962,10 +962,158 @@ function makeFeed(items, sources = [], options = {}) {
 `;
 }
 
+
+function cacheBustedUrl(rawUrl, source = {}) {
+  if (source.cacheBust === false) return rawUrl;
+
+  try {
+    const url = new URL(rawUrl);
+    url.searchParams.set(
+      '_omw_fresh',
+      `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`
+    );
+    return url.toString();
+  } catch {
+    return rawUrl;
+  }
+}
+
+function isRootPage(rawUrl) {
+  try {
+    const url = new URL(rawUrl);
+    return !url.pathname || url.pathname === '/';
+  } catch {
+    return false;
+  }
+}
+
+async function fetchTextFresh(rawUrl, options = {}) {
+  const controller = new AbortController();
+  const timeoutMs = Math.max(2000, Number(options.timeoutMs || 10000));
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const response = await fetch(
+      options.cacheBust === false
+        ? rawUrl
+        : cacheBustedUrl(rawUrl, { cacheBust: true }),
+      {
+        redirect: 'follow',
+        signal: controller.signal,
+        headers: {
+          'user-agent':
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ' +
+            `AppleWebKit/537.36 Chrome/140 Safari/537.36 OM-News-Watcher/${VERSION}`,
+          'accept':
+            options.accept ||
+            'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+          'accept-language':
+            'de-DE,de;q=0.9,en;q=0.7',
+          'cache-control':
+            'no-cache, no-store, max-age=0',
+          'pragma':
+            'no-cache'
+        }
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} ${response.statusText}`);
+    }
+
+    return {
+      text: await response.text(),
+      finalUrl: response.url,
+      contentType: response.headers.get('content-type') || ''
+    };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function discoverFeedUrls(page, source) {
+  const candidates = [];
+
+  try {
+    const discovered = await page.locator(
+      'link[rel="alternate"][type*="rss"], ' +
+      'link[rel="alternate"][type*="atom"], ' +
+      'link[rel="alternate"][type*="xml"]'
+    ).evaluateAll(nodes =>
+      nodes
+        .map(node => node.href || '')
+        .filter(Boolean)
+    );
+
+    candidates.push(...discovered);
+  } catch {}
+
+  // Bei Startseiten zusätzlich den verbreiteten WordPress-Endpunkt testen.
+  if (isRootPage(source.url)) {
+    try {
+      const base = new URL(source.url);
+      candidates.push(
+        new URL('/feed/', base.origin).toString()
+      );
+    } catch {}
+  }
+
+  return [...new Set(candidates)].slice(0, 4);
+}
+
+async function fetchDiscoveredFeedRows(page, source, notes) {
+  const allowed =
+    source.discoverFeed !== false &&
+    (
+      source.discoverFeed === true ||
+      isRootPage(source.url)
+    );
+
+  if (!allowed) return [];
+
+  const urls = await discoverFeedUrls(page, source);
+
+  for (const feedUrl of urls) {
+    try {
+      const result = await fetchTextFresh(feedUrl, {
+        timeoutMs: 9000,
+        accept:
+          'application/rss+xml,application/atom+xml,application/xml,text/xml,*/*'
+      });
+
+      if (!/<(?:rss|feed|rdf:RDF)\b/i.test(result.text || '')) {
+        continue;
+      }
+
+      const rows = normalizeAndFilter(
+        feedRowsFromXml(result.text),
+        source
+      );
+
+      if (rows.length) {
+        notes.push(
+          `RSS/Atom-Zweitkanal: ${rows.length} Einträge über ${feedUrl}`
+        );
+        return rows;
+      }
+    } catch {
+      // Zweitkanal ist optional und darf die Hauptprüfung nie stoppen.
+    }
+  }
+
+  return [];
+}
+
 async function createContext(browser) {
   return await browser.newContext({
     locale: 'de-DE',
     timezoneId: 'Europe/Berlin',
+    serviceWorkers: 'block',
+
+    extraHTTPHeaders: {
+      'Cache-Control': 'no-cache, no-store, max-age=0',
+      'Pragma': 'no-cache'
+    },
 
     userAgent:
       'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ' +
@@ -995,7 +1143,14 @@ async function loadPage(context, fallbackContext, source, notes) {
   page.setDefaultNavigationTimeout(NAV_TIMEOUT_MS);
 
   try {
-    await page.goto(source.url, {
+    const navigationUrl =
+      cacheBustedUrl(source.url, source);
+
+    if (navigationUrl !== source.url) {
+      notes.push('Frischer Abruf mit Cache-Busting.');
+    }
+
+    await page.goto(navigationUrl, {
       waitUntil: 'domcontentloaded',
       timeout: NAV_TIMEOUT_MS
     });
@@ -1044,10 +1199,13 @@ async function loadPage(context, fallbackContext, source, notes) {
       page.setDefaultNavigationTimeout(FALLBACK_TIMEOUT_MS);
 
       try {
-        await page.goto(source.url, {
-          waitUntil: 'domcontentloaded',
-          timeout: FALLBACK_TIMEOUT_MS
-        });
+        await page.goto(
+          cacheBustedUrl(source.url, source),
+          {
+            waitUntil: 'domcontentloaded',
+            timeout: FALLBACK_TIMEOUT_MS
+          }
+        );
 
         return {
           page,
@@ -1154,9 +1312,12 @@ async function inspectSourceViaFeed(source, index, total) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 15000);
   try {
-    const response = await fetch(source.url, { redirect: 'follow', signal: controller.signal, headers: { 'user-agent': `OM-News-Watcher/${VERSION}`, 'accept': 'application/rss+xml,application/atom+xml,application/xml,text/xml,*/*' } });
-    if (!response.ok) throw new Error(`HTTP ${response.status} ${response.statusText}`);
-    const xml = await response.text();
+    const fresh = await fetchTextFresh(source.url, {
+      timeoutMs: 15000,
+      accept:
+        'application/rss+xml,application/atom+xml,application/xml,text/xml,*/*'
+    });
+    const xml = fresh.text;
     const rows = normalizeAndFilter(feedRowsFromXml(xml), { ...source, includeRegex: source.includeRegex || null });
     return { source, rows, notes: [`Direkter RSS/Atom-Abruf: ${rows.length} Einträge`], durationMs: Date.now() - started, error: null };
   } catch (err) {
@@ -1185,27 +1346,13 @@ async function inspectSourceViaHttp(source, index, total) {
   );
 
   try {
-    const response = await fetch(source.url, {
-      redirect: 'follow',
-      signal: controller.signal,
-      headers: {
-        'user-agent':
-          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ' +
-          `AppleWebKit/537.36 Chrome/140 Safari/537.36 OM-News-Watcher/${VERSION}`,
-        'accept':
-          'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'accept-language':
-          'de-DE,de;q=0.9,en;q=0.7'
-      }
+    const fresh = await fetchTextFresh(source.url, {
+      timeoutMs,
+      accept:
+        'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
     });
 
-    if (!response.ok) {
-      throw new Error(
-        `HTTP ${response.status} ${response.statusText}`
-      );
-    }
-
-    const html = await response.text();
+    const html = fresh.text;
     const rows = normalizeAndFilter(
       anchorsFromHtml(html),
       source
@@ -1305,6 +1452,29 @@ async function inspectSource(context, fallbackContext, source, index, total) {
       rows,
       source
     );
+
+    // Bei Startseiten zusätzlich einen unabhängigen RSS-/Atom-Kanal nutzen.
+    // Feed-Treffer stehen bewusst zuerst, weil sie häufig aktueller sind
+    // als eine gecachte gerenderte Homepage.
+    const feedRows =
+      await fetchDiscoveredFeedRows(
+        page,
+        source,
+        notes
+      );
+
+    if (feedRows.length) {
+      const byLink = new Map();
+
+      for (const row of [...feedRows, ...rows]) {
+        if (!row?.link) continue;
+        if (!byLink.has(row.link)) {
+          byLink.set(row.link, row);
+        }
+      }
+
+      rows = [...byLink.values()];
+    }
 
     return {
       source,
@@ -2457,6 +2627,8 @@ async function mapWithConcurrency(items, limit, worker) {
 
   saveJson(HEALTH_FILE, {
     generatedAt: new Date().toISOString(),
+    watcherVersion: VERSION,
+    trackingSchemaVersion: TRACKING_SCHEMA_VERSION,
     sources: healthRows
   });
 
