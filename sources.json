@@ -3986,8 +3986,11 @@
     "weekdaysOnly" : true
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
     "automaticTagging" : true,
-    "baselineVersion" : "mac-app-20260818-111408",
+    "baselineVersion" : "mac-app-20260818-111433",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
     "excludeKeywords" : [
@@ -3999,14 +4002,15 @@
     "includeKeywords" : [
 
     ],
-    "minTitleLength" : 10,
+    "includeRegex" : "^https?://newsroom\\.paypal-corp\\.com/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "PayPal US",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "div.wd_newsfeed_releases-teaser",
+      "link" : "a.wd_local",
+      "title" : "a.wd_local"
     },
     "sourceType" : "newsroom",
     "tags" : [
@@ -4014,6 +4018,43 @@
       "Payment"
     ],
     "url" : "https://newsroom.paypal-corp.com/",
+    "visualBackup" : {
+      "minTitleLength" : 10,
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T09:14:33Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "minTitleLength" : 10,
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-18T09:14:33Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://newsroom.paypal-corp.com/2026-08-10-Pay-Your-Way-Play-Your-Way-Venmo-Is-Now-on-Google-Play",
+      "https://newsroom.paypal-corp.com/news?category=794"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T09:14:38Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
   }
