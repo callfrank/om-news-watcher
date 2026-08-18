@@ -4131,8 +4131,11 @@
     "weekdaysOnly" : true
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
     "automaticTagging" : true,
-    "baselineVersion" : "mac-app-20260818-131621",
+    "baselineVersion" : "mac-app-20260818-131722",
+    "candidateSelector" : "a[href*=\"/2026/08/\"]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
     "excludeKeywords" : [
@@ -4144,19 +4147,56 @@
     "includeKeywords" : [
 
     ],
+    "includeRegex" : "^https?://excitingcommerce\\.de/2026/08/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Excitingcommerce",
     "priority" : 2,
     "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "date" : "time.entry-date",
+      "item" : "li.post",
+      "link" : "a.read-more",
+      "title" : "a.read-more"
     },
     "sourceType" : "auto",
     "tags" : [
 
     ],
     "url" : "https://excitingcommerce.de/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T11:17:22Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-18T11:17:22Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://excitingcommerce.de/2026/08/14/tiktok-shop-in-den-usa-machen-die-ersten-seller-100-mio/",
+      "https://excitingcommerce.de/2026/08/11/revolutionrace-kauft-erstes-sportswear-label-fuer-65-mio-e/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T11:17:27Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
   }
