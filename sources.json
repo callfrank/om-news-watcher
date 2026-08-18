@@ -2766,5 +2766,58 @@
     "visualValidatedAt" : "2026-08-18T05:41:24Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 40 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-074218",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://over\\.bol\\.com/en/news/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "bol",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://over.bol.com/en/news/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:42:18Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://over.bol.com/en/news/security-incident-at-a-bol-logistics-warehousing-partner/",
+      "https://over.bol.com/en/news/bol-and-acm-reach-agreements-on-further-transparency-improvements-to-the-platform/",
+      "https://over.bol.com/en/news/in-the-media-or-interview-with-oscar-hundman-in-mt-sprout-there-are-still-so-many-opportunities-in-the-netherlands-and-belgium/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:42:21Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
