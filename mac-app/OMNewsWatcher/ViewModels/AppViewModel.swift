@@ -663,10 +663,16 @@ final class AppViewModel: ObservableObject {
                 variant.previewCount,
                 variant.sampleCount
             )
-            let maximumPlausibleCount = max(
-                expectedCount * 2 + 4,
-                variant.sampleCount * 4
-            )
+            let isDirectURLPattern =
+                variant.strategy == "Direktes URL-Muster"
+
+            let maximumPlausibleCount =
+                isDirectURLPattern
+                ? max(80, expectedCount * 8)
+                : max(
+                    expectedCount * 2 + 4,
+                    variant.sampleCount * 4
+                )
 
             if result.kind.isSuccessLike,
                result.hitCount >= variant.sampleCount,

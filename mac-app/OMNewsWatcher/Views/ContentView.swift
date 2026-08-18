@@ -2361,6 +2361,52 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     return leaf.match(/(\.[A-Za-z0-9]{1,8})$/)?.[1]?.toLowerCase() || '';
   };
 
+  const candidateSelectorFromSelected = () => {
+    if (state.selected.length < 2) return clickableSelector;
+
+    let urls;
+    try {
+      urls = state.selected.map(
+        sample => new URL(sample.href, location.href)
+      );
+    } catch {
+      return clickableSelector;
+    }
+
+    const hosts = new Set(
+      urls.map(url => url.host.toLowerCase())
+    );
+
+    if (hosts.size !== 1) return clickableSelector;
+
+    const pathParts = urls.map(
+      url => url.pathname.split('/').filter(Boolean)
+    );
+
+    const common = [];
+    const shortest = Math.min(...pathParts.map(parts => parts.length));
+
+    // Der letzte Pfadteil ist üblicherweise der Artikelslug und wird
+    // absichtlich nicht als gemeinsamer Teil verwendet.
+    for (let index = 0; index < Math.max(0, shortest - 1); index++) {
+      const value = pathParts[0][index];
+      if (pathParts.every(parts => parts[index] === value)) {
+        common.push(value);
+      } else {
+        break;
+      }
+    }
+
+    if (!common.length) return clickableSelector;
+
+    const prefix = '/' + common.join('/') + '/';
+    const escaped = prefix
+      .replace(/\\/g, '\\\\')
+      .replace(/"/g, '\\"');
+
+    return `a[href*="${escaped}"]`;
+  };
+
   const buildURLRegex = () => {
     if (state.selected.length < 2) return '';
     let urls;
@@ -2532,7 +2578,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
         titleSelector: '',
         linkSelector: '',
         dateSelector: '',
-        candidateSelector: clickableSelector,
+        candidateSelector: candidateSelectorFromSelected(),
         urlRegex,
         allowExternal,
         sampleCount: state.selected.length,
@@ -2554,7 +2600,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
         titleSelector: relativeTitleSelector,
         linkSelector: relativeLinkSelector,
         dateSelector,
-        candidateSelector: clickableSelector,
+        candidateSelector: candidateSelectorFromSelected(),
         urlRegex,
         allowExternal,
         sampleCount: state.selected.length,
@@ -2580,6 +2626,36 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
       };
     }
 
+    // Einige moderne Seiten (z. B. React/Headless-CMS) rendern die
+    // Kartenstruktur nach Benutzerinteraktion anders als beim Reload.
+    // Wenn die 2–3 bewusst markierten Ziele aber ein gemeinsames enges
+    // URL-Muster besitzen, ist dieses Muster selbst die stabilere Regel.
+    if (urlRegex) {
+      const selectedPreview = state.selected.map(sample => ({
+        title: sample.title,
+        href: sample.href,
+        date: clean(
+          sample.dateEl?.getAttribute?.('datetime') ||
+          sample.dateEl?.textContent ||
+          ''
+        )
+      }));
+
+      return {
+        itemSelector: '',
+        titleSelector: '',
+        linkSelector: '',
+        dateSelector: '',
+        candidateSelector: candidateSelectorFromSelected(),
+        urlRegex,
+        allowExternal,
+        sampleCount: state.selected.length,
+        previewCount: selectedPreview.length,
+        preview: selectedPreview,
+        strategy: 'Direktes URL-Muster'
+      };
+    }
+
     if (semantic.length >= state.selected.length) {
       return {
         error:
@@ -2591,8 +2667,8 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 
     return {
       error:
-        `Die ${state.selected.length} markierten Beispiele konnten noch nicht ` +
-        `als stabile Regel reproduziert werden.`
+        `Die ${state.selected.length} markierten Beispiele besitzen weder ` +
+        `eine reproduzierbare Kartenstruktur noch ein gemeinsames Ziel-URL-Muster.`
     };
   };
 
@@ -2663,7 +2739,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
 
   window.omTrainerSetMode('browse');
   post();
-  return { installed: true, version: '4.5' };
+  return { installed: true, version: '5.0.2' };
 })();
 """#
 }
@@ -2690,6 +2766,7 @@ private struct UnreadBadge: View {
 // MARK: - Integrierter News-Reader
 
 enum ReaderScope: Hashable {
+    case newRelevant
     case inbox
     case sinceLastVisit
     case editorial
@@ -2764,7 +2841,7 @@ enum ReaderFolderBasis {
 struct ReaderView: View {
     @ObservedObject var model: AppViewModel
 
-    @State private var scope: ReaderScope = .inbox
+    @State private var scope: ReaderScope = .newRelevant
     @State private var selectedID: String?
     @State private var search = ""
     @State private var sort: ReaderSort = .newest
@@ -2840,7 +2917,7 @@ struct ReaderView: View {
         }
         .onChange(of: scope) { _, newScope in
             switch newScope {
-            case .inbox, .sinceLastVisit, .editorial:
+            case .newRelevant, .inbox, .sinceLastVisit, .editorial:
                 folderBasis = .inbox
             case .all:
                 folderBasis = .all
@@ -2910,6 +2987,13 @@ struct ReaderView: View {
     private var readerSidebar: some View {
         List(selection: $scope) {
             Section("Reader") {
+                ReaderSidebarRow(
+                    title: "Neu & relevant",
+                    systemImage: "sparkles.rectangle.stack.fill",
+                    count: newRelevantCount
+                )
+                .tag(ReaderScope.newRelevant)
+
                 ReaderSidebarRow(
                     title: "Posteingang",
                     systemImage: "tray.full.fill",
@@ -3407,6 +3491,27 @@ struct ReaderView: View {
         ).sorted()
     }
 
+    private var newRelevantCount: Int {
+        model.readerItems.filter {
+            guard !model.readerIsArchived($0),
+                  !model.readerIsRead($0),
+                  $0.effectivePriority >= 2
+            else {
+                return false
+            }
+
+            guard let previousReaderVisit else {
+                return true
+            }
+
+            guard let date = FeedHistoryItem.parsedDate($0.detectedAt) else {
+                return false
+            }
+
+            return date >= previousReaderVisit
+        }.count
+    }
+
     private var sinceLastVisitCount: Int {
         guard let previousReaderVisit else {
             return model.readerUnreadCount
@@ -3439,6 +3544,7 @@ struct ReaderView: View {
 
     private var scopeTitle: String {
         switch scope {
+        case .newRelevant: return "Neu & relevant"
         case .inbox: return "Posteingang"
         case .sinceLastVisit: return "Seit letztem Besuch"
         case .editorial: return "Heute relevant"
@@ -3456,6 +3562,26 @@ struct ReaderView: View {
         var values = model.readerItems.filter { item in
             let scopeMatches: Bool = {
                 switch scope {
+                case .newRelevant:
+                    guard !model.readerIsArchived(item),
+                          !model.readerIsRead(item),
+                          item.effectivePriority >= 2
+                    else {
+                        return false
+                    }
+
+                    guard let previousReaderVisit else {
+                        return true
+                    }
+
+                    guard let detected = FeedHistoryItem.parsedDate(
+                        item.detectedAt
+                    ) else {
+                        return false
+                    }
+
+                    return detected >= previousReaderVisit
+
                 case .inbox:
                     return !model.readerIsArchived(item) &&
                         !model.readerIsRead(item)
