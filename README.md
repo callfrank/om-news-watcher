@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.1.2**
+**Aktueller Stand: v5.1.3**
 
 ---
 
@@ -591,6 +591,82 @@ im Reader redaktionell bearbeiten
 ---
 
 
+
+## v5.1.3 – Reader und E-Mail verwenden dieselbe Relevanzlogik
+
+Die E-Mail-Benachrichtigung zählt nicht mehr einfach alle noch nie
+versendeten Datensätze aus `data/items.json`.
+
+Vor einer Mail werden die Meldungen nun mit derselben Grundlogik wie im
+integrierten Reader aufbereitet:
+
+- Navigationstexte und generische Schaltflächen werden entfernt
+- Quellenseiten selbst werden nicht als Meldung gewertet
+- doppelte Links und doppelte Titel werden entfernt
+- sehr ähnliche Meldungen verschiedener Quellen werden zusammengeführt
+- Relevanz muss mindestens 2 Sterne betragen
+- `historicalBackfill` wird ausgeschlossen
+- verlässliche Veröffentlichungsdaten müssen innerhalb des aktuellen
+  48-Stunden-Fensters liegen
+- bei Quellen ohne Publikationsdatum wird ersatzweise der echte
+  Erkennungszeitpunkt verwendet
+
+### Reader-Aktivität wird berücksichtigt
+
+Die macOS-App schreibt einen kleinen Zustand nach:
+
+```text
+reader-state.json
+```
+
+Gespeichert wird ausschließlich der Zeitpunkt der letzten Reader-Aktivität,
+keine Zugangsdaten und kein Artikelinhalt.
+
+Der Zeitpunkt wird aktualisiert, wenn:
+
+- der Reader geöffnet wird
+- eine Meldung als gelesen/ungelesen markiert wird
+- Favoriten verändert werden
+- archiviert oder wiederhergestellt wird
+- mehrere Meldungen als gelesen markiert werden
+
+Die Schreibvorgänge werden gebündelt (Debounce), damit nicht für jeden Klick
+ein GitHub-Commit entsteht.
+
+Die E-Mail überspringt anschließend Meldungen, die bereits vorhanden waren,
+als der Reader zuletzt angesehen oder bedient wurde. Damit kann eine
+verspätete Sammelmail keinen alten Reader-Bestand erneut als neue Meldungen
+verschicken.
+
+### Neue Betreffzeile
+
+Statt:
+
+```text
+OM News Watcher – 51 neue Treffer
+```
+
+lautet die Mail künftig beispielsweise:
+
+```text
+OM News Watcher – 2 neue relevante Meldungen
+```
+
+Optional wird darunter transparent zusammengefasst, wie viele weitere
+Änderungen verworfen wurden, etwa:
+
+```text
+49 weitere Änderungen nicht gemeldet
+42 bereits im Reader gesehen · 4 Altbestand/nicht aktuell ·
+3 Navigation/Duplikate/Fehltreffer
+```
+
+### E-Mail-Zustand
+
+`data/email-state.json` unterscheidet nun zwischen tatsächlich versendeten
+und bereits anderweitig verarbeiteten Meldungen. Dadurch tauchen gefilterte
+Alt- oder Fehltreffer in späteren Sammelmails nicht erneut auf.
+
 ## Hotfix v5.1.2 – frischer Remote-Abruf
 
 v5.1.2 behebt den Fall, dass der lokale Mac bereits neue Inhalte sieht,
@@ -635,6 +711,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.1.2**
+**OM News Watcher v5.1.3**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.
