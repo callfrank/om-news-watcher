@@ -2871,5 +2871,57 @@
     "visualValidatedAt" : "2026-08-18T05:43:40Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · URL-Muster",
     "waitMs" : 2500
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260818-074451",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://investors\\.etsy\\.com/news-events/press-releases/detail/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "etsy QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "tags" : [
+
+    ],
+    "url" : "https://investors.etsy.com/news-events/press-releases",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T05:44:51Z",
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://investors.etsy.com/news-events/press-releases/detail/226/etsy-to-participate-in-upcoming-investor-conference",
+      "https://investors.etsy.com/news-events/press-releases/detail/225/etsy-inc-reports-second-quarter-2026-results"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T05:44:54Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · URL-Muster",
+    "waitMs" : 2500
   }
 ]
