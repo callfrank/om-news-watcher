@@ -17,8 +17,9 @@ on:
 permissions:
   contents: write
 
+# Watcher und Mail dürfen nicht gleichzeitig Build-Zustände in main schreiben.
 concurrency:
-  group: om-news-watcher-repo
+  group: om-news-watcher
   cancel-in-progress: false
 
 jobs:
@@ -40,6 +41,13 @@ jobs:
       - name: Abhängigkeiten installieren
         run: npm install
 
+      - name: Aktuellsten Reader-Stand laden
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git reset --hard origin/main
+
       - name: E-Mail-Benachrichtigung prüfen
         env:
           OM_NOTIFY_FORCE: ${{ github.event.inputs.force }}
@@ -54,34 +62,44 @@ jobs:
       - name: E-Mail-Status speichern
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
-          git config user.name "OM News Watcher"
-          git config user.email "actions@users.noreply.github.com"
-
-          git add data/email-state.json 2>/dev/null || true
-
-          if git diff --cached --quiet; then
+          if [ ! -f data/email-state.json ]; then
             echo "Kein E-Mail-Status zu speichern."
             exit 0
           fi
 
-          git commit -m "Update email notification state"
+          git config user.name "OM News Watcher"
+          git config user.email "actions@users.noreply.github.com"
+
+          TMP_DIR="$(mktemp -d)"
+          cp data/email-state.json "$TMP_DIR/email-state.json"
 
           for attempt in 1 2 3; do
-            echo "Push-Versuch $attempt von 3"
+            echo "Speicher-Versuch $attempt von 3"
 
             git fetch origin main
-            git rebase origin/main
+            git reset --hard origin/main
+
+            mkdir -p data
+            cp "$TMP_DIR/email-state.json" data/email-state.json
+            git add data/email-state.json
+
+            if git diff --cached --quiet; then
+              echo "Kein geänderter E-Mail-Status."
+              exit 0
+            fi
+
+            git commit -m "Update email notification state"
 
             if git push origin HEAD:main; then
               echo "E-Mail-Status erfolgreich gespeichert."
               exit 0
             fi
 
-            echo "Push wurde zwischenzeitlich überholt – neuer Versuch ..."
+            echo "main wurde erneut geändert – neuer Versuch."
             sleep 2
           done
 
-          echo "Fehler: E-Mail-Status konnte nach 3 Versuchen nicht gespeichert werden."
+          echo "Fehler: E-Mail-Status konnte nicht gespeichert werden."
           exit 1
