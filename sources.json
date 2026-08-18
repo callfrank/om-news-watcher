@@ -3984,5 +3984,37 @@
     "url" : "https://epicompany.eu/media-insights/",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260818-111408",
+    "checkIntervalMinutes" : 60,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Finanzen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "minTitleLength" : 10,
+    "name" : "PayPal US",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceType" : "newsroom",
+    "tags" : [
+      "Unternehmensnews",
+      "Payment"
+    ],
+    "url" : "https://newsroom.paypal-corp.com/",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
