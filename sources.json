@@ -4059,8 +4059,11 @@
     "weekdaysOnly" : true
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
     "automaticTagging" : true,
-    "baselineVersion" : "mac-app-20260818-121053",
+    "baselineVersion" : "mac-app-20260818-121152",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 30,
     "enabled" : true,
     "excludeKeywords" : [
@@ -4072,19 +4075,57 @@
     "includeKeywords" : [
 
     ],
+    "includeRegex" : "^https?://chinaeconomicreview\\.com/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Chinaeconomic",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "h3",
+      "link" : "a",
+      "title" : "h3"
     },
     "sourceType" : "auto",
     "tags" : [
 
     ],
     "url" : "https://chinaeconomicreview.com/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-18T10:11:52Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-18T10:11:52Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://chinaeconomicreview.com/chinas-domestic-demand-further-weakens-in-july/",
+      "https://chinaeconomicreview.com/shein-cuts-hk-ipo-valuation-to-around-25-bn/",
+      "https://chinaeconomicreview.com/china-unveils-domestic-oil-gas-buildout-strategy/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-18T10:11:57Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 13 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
   }
