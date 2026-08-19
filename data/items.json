@@ -1,6 +1,6 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "bd2b464f37631243d7069efd",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,36 @@
     ],
     "priority": 2,
     "title": "Uber Launches Autonomous Rides in Europe",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Autonomous-Rides-in-Europe/default.aspx",
     "pageDate": "August 19, 2026",
     "publishedAt": "2026-08-19T00:00:00.000Z",
-    "detectedAt": "2026-08-19T18:54:13.474Z",
-    "deliveredAt": "2026-08-19T18:54:13.474Z",
+    "detectedAt": "2026-08-19T19:40:22.065Z",
+    "deliveredAt": "2026-08-19T19:40:22.065Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "79b4feba568586d0ebe3aaec",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
+    "pageDate": "Aug. 19, 2026",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "detectedAt": "2026-08-19T19:40:22.038Z",
+    "deliveredAt": "2026-08-19T19:40:22.038Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "174eb4daf2fdc107c5e32efb",
