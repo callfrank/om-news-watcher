@@ -1,11 +1,154 @@
 [
   {
+    "guid": "c94c6e496c6216c043556ace",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
+    "pageDate": "17.08.2026",
+    "publishedAt": "2026-08-17T12:00:00.000Z",
+    "detectedAt": "2026-08-19T07:56:58.777Z",
+    "deliveredAt": "2026-08-19T07:56:58.777Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "664cad4bd87ea9e58ce82b79",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "19.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2333723/SEHEN!WUTSCHER-PAKETE%20WERDEN%20IN%20GRAZ%20JETZT%20AUCH%20AM%20SONNTAG%20ZUGESTELLT&nbsp;",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T07:56:58.762Z",
+    "deliveredAt": "2026-08-19T07:56:58.762Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "14bde6a4f095fbf4ae82c0ba",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SEHEN!WUTSCHER-PAKETE WERDEN IN GRAZ JETZT AUCH AM SONNTAG ZUGESTELLT",
+    "link": "https://news.post.at/presse/de/post/id/2333723/SEHEN%21WUTSCHER-PAKETE%20WERDEN%20IN%20GRAZ%20JETZT%20AUCH%20AM%20SONNTAG%20ZUGESTELLT%26nbsp%3B",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T07:56:58.761Z",
+    "deliveredAt": "2026-08-19T07:56:58.761Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7619f47480fa60e8fdb46eb8",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T07:56:58.703Z",
+    "deliveredAt": "2026-08-19T07:56:58.703Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b9964e8417006da8b7158d87",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "E-Evidence-Verordnung jetzt anwendbar: Diese Pflichten treffen Marktplätze und Plattformen",
+    "link": "https://onlinemarktplatz.de/271165/e-evidence-verordnung/",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T07:56:58.681Z",
+    "deliveredAt": "2026-08-19T07:56:58.681Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "84819c157665a0339ee82c99",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "US-E-Commerce wächst um 12,2 Prozent – Online zieht davon",
+    "link": "https://onlinemarktplatz.de/271173/us-e-commerce-2026/",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T07:56:58.681Z",
+    "deliveredAt": "2026-08-19T07:56:58.681Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cd80113aea9757ba0afff0cf",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Strom vom Balkon",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/strom-vom-balkon-125184",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T07:56:58.680Z",
+    "deliveredAt": "2026-08-19T07:56:58.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "897b01c83959fb893dcc7af6",
     "source": "Walmart",
     "sourceLabel": "Walmart",
     "groups": [
-      "Firmen",
-      "Quartalszahlen"
+      "Firmen"
     ],
     "tags": [
       "Quartalszahlen",
@@ -25,26 +168,6 @@
     "duplicateSources": [
       "Walmart QZ"
     ]
-  },
-  {
-    "guid": "3ee8b872934bbee751b5203f",
-    "source": "eBay DE",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
-    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
-    "pageDate": "17.08.2026",
-    "publishedAt": "2026-08-17T12:00:00.000Z",
-    "detectedAt": "2026-08-19T06:18:40.460Z",
-    "deliveredAt": "2026-08-19T06:18:40.460Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "2831f405064d98c8d81f2350",
