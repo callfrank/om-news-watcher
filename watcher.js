@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.30';
+const VERSION = '0.31';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -2303,12 +2303,33 @@ async function mapWithConcurrency(items, limit, worker) {
         : 'Keine Quellen aktiviert.'
     );
   } else {
-    const browser = await chromium.launch({
-      headless: true
-    });
+    const browserChannel = String(
+      process.env.PLAYWRIGHT_CHANNEL || ''
+    ).trim();
+
+    const launchOptions = {
+      headless: true,
+      ...(browserChannel
+        ? { channel: browserChannel }
+        : {})
+    };
+
+    if (browserChannel) {
+      console.log(
+        `Browser-Channel: ${browserChannel} (vorinstallierter Systembrowser)`
+      );
+    } else {
+      console.log(
+        'Browser-Channel: Playwright Chromium'
+      );
+    }
+
+    const browser = await chromium.launch(
+      launchOptions
+    );
 
     const fallbackBrowser = await chromium.launch({
-      headless: true,
+      ...launchOptions,
       args: ['--disable-http2']
     });
 

@@ -600,6 +600,30 @@ im Reader redaktionell bearbeiten
 
 
 
+
+## v5.3.6 Infra-Hotfix – kein Chromium-Install mehr in GitHub Actions
+
+Der GitHub-Workflow installiert Chromium und Ubuntu-Systempakete nicht mehr
+bei jedem Lauf neu.
+
+Stattdessen verwendet der Watcher auf `ubuntu-24.04` den dort bereits
+vorinstallierten Google-Chrome-Browser über den Playwright-Channel `chrome`.
+
+Dadurch entfällt der bisherige Schritt:
+
+```text
+npx playwright install chromium --with-deps
+```
+
+und damit auch die Abhängigkeit von `apt`/Ubuntu-Paketservern während jedes
+Watcher-Laufs.
+
+### Versionen
+
+- macOS-App: **5.3.5** unverändert
+- Watcher: **0.31**
+- Workflow: **v5.3.6 Infra-Hotfix**
+
 ## v5.3.5 – robuster Selector-Fallback
 
 v5.3.5 beseitigt die letzte harte Abhängigkeit visueller Regeln von einem
