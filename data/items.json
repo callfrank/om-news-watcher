@@ -1,6 +1,6 @@
 [
   {
-    "guid": "3ee8b872934bbee751b5203f",
+    "guid": "c94c6e496c6216c043556ace",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -9,11 +9,11 @@
     "tags": [],
     "priority": 2,
     "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
-    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
     "pageDate": "17.08.2026",
     "publishedAt": "2026-08-17T12:00:00.000Z",
-    "detectedAt": "2026-08-19T05:16:38.058Z",
-    "deliveredAt": "2026-08-19T05:16:38.058Z",
+    "detectedAt": "2026-08-19T05:23:56.934Z",
+    "deliveredAt": "2026-08-19T05:23:56.934Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
@@ -1728,66 +1728,6 @@
     "detectedAt": "2026-08-18T06:04:52.851Z",
     "publishedAt": "2026-08-18T12:00:00.000Z",
     "deliveredAt": "2026-08-18T06:04:52.851Z",
-    "historicalBackfill": false
-  },
-  {
-    "guid": "295afee6b68d446806e71f57",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": ".st0{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;} Gesetzgebung",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=34834ba603581a6149d0ed54787c6ecd279fa6126b29&callerId=110518&folderInclude.HASH=952c75073509c702d6bb8a71e8ee00688dee245f6095&folderExclude.HASH=e511acf3043d7e9a83de08b72af12e9b1a8ef2703673&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
-    "pageDate": null,
-    "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": [],
-    "publishedAt": null,
-    "deliveredAt": "2026-08-18T03:58:45.344Z",
-    "historicalBackfill": false
-  },
-  {
-    "guid": "5bfe5e3a31c59e32fec57d33",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": ".st0{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;} .st1{fill:none;stroke:#000000;stroke-width:3;} Veranstaltungen",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Veranstaltungssuche/Archiv/Veranstaltungssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=0c5fee29d1788076fadf9c1dbb73c297eeb1f42a350b&callerId=110572&folderInclude.HASH=2a69334c1edd5ab73355914d25b226b850d1646042c4&folderExclude.HASH=ffebadb4d07f75070acf7af8b7697b5578ec406717bb&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
-    "pageDate": null,
-    "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": [],
-    "publishedAt": null,
-    "deliveredAt": "2026-08-18T03:58:45.344Z",
-    "historicalBackfill": false
-  },
-  {
-    "guid": "857f5bdfd188251bbf97428b",
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Broschüren und Infomaterial",
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=18b32f68427858262a48e498b05ae25cc421b3434925&callerId.HASH=6a8f764ee33f98097e3fc0d809877cdbeacecc144b5f&callerId=110568&folderInclude.HASH=94dc39e9650a7703b108d8db0e8c8bc8cf863601ffc9&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=7f78436b00ef97df25eb40bdcfd5e695faf70eb1ccd2&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
-    "pageDate": null,
-    "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": [],
-    "publishedAt": null,
-    "deliveredAt": "2026-08-18T03:58:45.344Z",
     "historicalBackfill": false
   },
   {
