@@ -1410,30 +1410,6 @@
     "waitMs" : 3000
   },
   {
-    "autoScroll" : 0,
-    "baselineVersion" : "v10-network-parked",
-    "enabled" : true,
-    "groups" : [
-      "Logistik"
-    ],
-    "http2Fallback" : false,
-    "name" : "DHL Austria E-Commerce Marketing Calendar",
-    "priority" : 2,
-    "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
-    },
-    "tags" : [
-      "E-Commerce",
-      "Events"
-    ],
-    "timeoutMs" : 60000,
-    "url" : "https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar",
-    "waitMs" : 1000
-  },
-  {
     "autoScroll" : 3,
     "baselineVersion" : "v10-content-parked",
     "enabled" : true,
