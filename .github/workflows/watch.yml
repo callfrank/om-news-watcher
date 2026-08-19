@@ -45,8 +45,8 @@ jobs:
           google-chrome --version
           echo "Playwright verwendet Browser-Channel: $PLAYWRIGHT_CHANNEL"
 
-      - name: Watcher v0.33-Patch anwenden
-        run: python3 patch-watcher-v0.33.py
+      - name: Watcher v0.34-Patch anwenden
+        run: python3 patch-watcher-v0.34.py
 
       - name: Websites prüfen und RSS erzeugen
         run: node watcher.js
