@@ -3142,7 +3142,10 @@
     "waitMs" : 2500
   },
   {
-    "baselineVersion" : "mac-app-20260818-072929",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260819-045026",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -3153,18 +3156,55 @@
     "includeKeywords" : [
 
     ],
+    "includeRegex" : "^https?://www\\.ifo\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Ifo",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "div.views-row",
+      "link" : "a",
+      "title" : "h1,h2,h3,h4,h5,h6,[class*=\"headline\" i],[class*=\"heading\" i],[class*=\"title\" i],[class*=\"name\" i],[data-testid*=\"title\" i],strong"
     },
     "tags" : [
 
     ],
     "url" : "https://www.ifo.de/ifo-startseite",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-19T02:50:26Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T02:50:26Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.ifo.de/publikationen",
+      "https://www.ifo.de/ifo-konjunkturumfragen-weitere-ergebnisse"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-19T02:50:31Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
   {
