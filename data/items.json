@@ -1,6 +1,6 @@
 [
   {
-    "guid": "c94c6e496c6216c043556ace",
+    "guid": "3ee8b872934bbee751b5203f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -9,15 +9,99 @@
     "tags": [],
     "priority": 2,
     "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
     "pageDate": "17.08.2026",
     "publishedAt": "2026-08-17T12:00:00.000Z",
-    "detectedAt": "2026-08-19T09:50:27.924Z",
-    "deliveredAt": "2026-08-19T09:50:27.924Z",
+    "detectedAt": "2026-08-19T10:47:06.807Z",
+    "deliveredAt": "2026-08-19T10:47:06.807Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "2efa6606bfaf4f4accad4509",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon Prime Air drone delivery is expanding to nearly 500 cities and towns this year",
+    "link": "https://www.aboutamazon.com/news/transportation/amazon-prime-air-drone-delivery-expansion",
+    "pageDate": "Aug. 19, 2026",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "detectedAt": "2026-08-19T10:47:06.797Z",
+    "deliveredAt": "2026-08-19T10:47:06.797Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "615c14a0e24ea28d10ecd903",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "58% of Consumers Say They Don’t Care Whether a Product is a National Brand or Private Label. They Just Buy What They Need",
+    "link": "https://nielseniq.com/global/en/news-center/2026/private-label-adoption-report/",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T10:47:06.792Z",
+    "deliveredAt": "2026-08-19T10:47:06.792Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3e41441b5b1f52e4b0326ab6",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Letter from the ECB President to Mr Gerald Hauser, MEP, on digital euro",
+    "link": "https://www.ecb.europa.eu/pub/pdf/other/ecb.mepletter260807_Hauser~184853fae9.de.pdf",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T10:47:06.733Z",
+    "deliveredAt": "2026-08-19T10:47:06.733Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "c4dd5cb7f93394c93a4bdce9",
+    "source": "Target QZ",
+    "sourceLabel": "Target QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Target Corporation Reports Second Quarter Earnings",
+    "link": "https://corporate.target.com/press/release/2026/08/target-corporation-reports-second-quarter-earnings",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T10:47:06.712Z",
+    "deliveredAt": "2026-08-19T10:47:06.712Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "ee089b8106bbec2a208d339f",

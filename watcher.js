@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.31';
+const VERSION = '0.32';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -910,9 +910,52 @@ async function extractAutomatic(page, source) {
       return explicit || dateFromText(card?.textContent || '');
     };
 
+    const clickableProbeSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick],[onclick]';
+    const titleProbeSelector = 'h1,h2,h3,h4,h5,h6,[class*="headline" i],[class*="heading" i],[class*="title" i],[data-testid*="title" i],strong';
+
+    const cardFor = el => {
+      const semantic = el?.closest?.(cardSelector);
+      if (semantic) return semantic;
+
+      let node = el?.parentElement;
+      const fallback = node || el;
+
+      for (
+        let depth = 0;
+        node && depth < 9 && node !== document.body && node !== document.documentElement;
+        depth += 1, node = node.parentElement
+      ) {
+        const text = clean(node.textContent || '');
+        if (text.length < 8 || text.length > 3000) continue;
+
+        const linkCount = node.querySelectorAll?.(clickableProbeSelector)?.length || 0;
+        if (linkCount < 1 || linkCount > 16) continue;
+
+        const hasPlausibleTitle = Array.from(
+          node.querySelectorAll?.(titleProbeSelector) || []
+        ).some(candidate => {
+          const value = clean(
+            candidate.textContent ||
+            candidate.getAttribute?.('aria-label') ||
+            candidate.title ||
+            ''
+          );
+          return value.length >= 5 && value.length <= 320 && !generic(value);
+        });
+
+        if (hasPlausibleTitle) return node;
+      }
+
+      return fallback;
+    };
+
     return nodes.map(el => {
-      const card = el.closest?.(cardSelector) || el.parentElement || el;
-      return { title: titleFor(el, card), href: hrefFrom(el, card), date: dateFor(card) };
+      const card = cardFor(el);
+      return {
+        title: titleFor(el, card),
+        href: hrefFrom(el, card),
+        date: dateFor(card)
+      };
     });
   });
 }
