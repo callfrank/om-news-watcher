@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.33';
+const VERSION = '0.34';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -1406,11 +1406,15 @@ function configuredHtmlTargets(html = '', source) {
   if (!includeRegex) return [];
 
   const rawCandidates = [];
-  const anchorPattern = /<a\b[^>]*?href\s*=\s*["']([^"']+)["'][^>]*>/gi;
+
+  // v0.34: href-Werte sowohl quoted als auch unquoted lesen. Einige
+  // Headless-/CMS-Ausgaben unterscheiden sich hier vom Browser-DOM.
+  const anchorPattern = /<a\b[^>]*?href\s*=\s*(?:"([^"]+)"|'([^']+)'|([^\s>]+))/gi;
   let match;
 
   while ((match = anchorPattern.exec(html)) !== null) {
-    rawCandidates.push(match[1]);
+    const value = match[1] || match[2] || match[3] || '';
+    if (value) rawCandidates.push(value);
   }
 
   // Headless-/React-Seiten können Ziel-URLs zusätzlich nur in JSON oder
@@ -1434,7 +1438,9 @@ function configuredHtmlTargets(html = '', source) {
   const seen = new Set();
 
   for (const raw of rawCandidates) {
-    const link = canonicalUrl(raw, source.url);
+    const cleanedRaw = decodeHtmlEntities(String(raw || ''))
+      .replace(/^[\s"'(<]+|[\s"')>,;\\]+$/g, '');
+    const link = canonicalUrl(cleanedRaw, source.url);
     if (!link) continue;
     if (!isAllowedUrl(link, source)) continue;
     if (!includeRegex.test(link)) continue;
@@ -1451,15 +1457,36 @@ function configuredHtmlTargets(html = '', source) {
   return targets;
 }
 
-async function fetchConfiguredHtmlRows(source) {
+async function fetchConfiguredHtmlRows(source, page = null) {
   if (!source.includeRegex) return [];
 
-  const overview = await fetchTextFresh(source.url, {
-    timeoutMs: 7000,
-    accept: 'text/html,application/xhtml+xml,*/*'
-  });
+  // v0.34: Der bereits geladene Playwright-DOM ist die wichtigste Quelle.
+  // Genau dort können dynamisch erzeugte News-Links vorhanden sein, die ein
+  // zweiter serverseitiger fetch() nicht zurückliefert.
+  let renderedHtml = '';
+  if (page) {
+    try {
+      renderedHtml = await page.content();
+    } catch {}
+  }
 
-  const targets = configuredHtmlTargets(overview.text, source);
+  // Zusätzlich die exakte Quell-URL ohne Cache-Busting abrufen. Manche CMS
+  // liefern bei unbekannten Query-Parametern eine reduzierte/andere Variante.
+  let directHtml = '';
+  try {
+    const overview = await fetchTextFresh(source.url, {
+      timeoutMs: 7000,
+      cacheBust: false,
+      accept: 'text/html,application/xhtml+xml,*/*'
+    });
+    directHtml = overview.text || '';
+  } catch {}
+
+  const combinedHtml = [renderedHtml, directHtml]
+    .filter(Boolean)
+    .join('\n');
+
+  const targets = configuredHtmlTargets(combinedHtml, source);
   if (!targets.length) return [];
 
   const rows = await Promise.all(
@@ -1467,6 +1494,7 @@ async function fetchConfiguredHtmlRows(source) {
       try {
         const detail = await fetchTextFresh(link, {
           timeoutMs: 6500,
+          cacheBust: false,
           accept: 'text/html,application/xhtml+xml,*/*'
         });
 
@@ -1998,7 +2026,7 @@ async function inspectSource(context, fallbackContext, source, index, total) {
       (source.visualLearned === true || Array.isArray(source.visualSampleURLs))
     ) {
       try {
-        const htmlRows = await fetchConfiguredHtmlRows(source);
+        const htmlRows = await fetchConfiguredHtmlRows(source, page);
         const htmlFiltered = normalizeAndFilter(htmlRows, source);
 
         if (htmlFiltered.length > 0) {
