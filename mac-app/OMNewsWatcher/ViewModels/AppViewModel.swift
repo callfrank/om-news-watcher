@@ -1680,7 +1680,10 @@ final class AppViewModel: ObservableObject {
             "main menu", "menu", "stories", "media kit", "financial reports",
             "media & resources", "media and resources", "mappe zum unternehmen",
             "unternehmensnews", "unternehmensmitteilungen", "newsroom", "press",
-            "skip to main content", "events", "event", "paypal"
+            "skip to main content", "events", "event", "paypal",
+            "dokumentation zur fehlerbehebung", "aktualisieren sie diese seite",
+            "update this page", "who we are", "find us", "find us on",
+            "all publications", "alle publikationen"
         ]
         let genericPrefixes = [
             "read article", "read more", "learn more", "mehr erfahren", "weiterlesen",
@@ -1754,6 +1757,14 @@ final class AppViewModel: ObservableObject {
             let title = normalizedTitle(item.title)
             guard title.count >= 5 else { continue }
             guard !genericExact.contains(title) else { continue }
+            guard title.range(
+                of: #"^(?:seite|page)\s*\d+$"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) == nil else { continue }
+            guard title.range(
+                of: #"^(?:aktuelle\s+seite|current\s+page)\s*\d+$"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) == nil else { continue }
             guard !genericPrefixes.contains(where: {
                 title == $0 || title.hasPrefix($0 + " ")
             }) else {

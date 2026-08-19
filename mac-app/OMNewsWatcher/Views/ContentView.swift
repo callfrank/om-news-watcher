@@ -1265,7 +1265,7 @@ struct HealthDashboardView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 HStack(spacing: 12) {
-                    Text("App 5.1.3")
+                    Text("App 5.2.0")
 
                     if let watcher = model.healthWatcherVersion {
                         Text("Watcher v\(watcher)")
@@ -3593,15 +3593,7 @@ struct ReaderView: View {
                 return false
             }
 
-            guard let previousReaderVisit else {
-                return true
-            }
-
-            guard let date = FeedHistoryItem.parsedDate($0.detectedAt) else {
-                return false
-            }
-
-            return date >= previousReaderVisit
+            return true
         }.count
     }
 
@@ -3669,17 +3661,7 @@ struct ReaderView: View {
                         return false
                     }
 
-                    guard let previousReaderVisit else {
-                        return true
-                    }
-
-                    guard let detected = FeedHistoryItem.parsedDate(
-                        item.detectedAt
-                    ) else {
-                        return false
-                    }
-
-                    return detected >= previousReaderVisit
+                    return true
 
                 case .inbox:
                     return !model.readerIsArchived(item) &&
