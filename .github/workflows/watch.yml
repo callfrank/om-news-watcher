@@ -45,6 +45,9 @@ jobs:
           google-chrome --version
           echo "Playwright verwendet Browser-Channel: $PLAYWRIGHT_CHANNEL"
 
+      - name: Watcher v0.32-Patch anwenden
+        run: python3 patch-watcher-v0.32.py
+
       - name: Websites prüfen und RSS erzeugen
         run: node watcher.js
 
@@ -59,11 +62,11 @@ jobs:
           echo "Status nach Watcher-Lauf:"
           git status --short
 
-          # Alle vom Watcher erzeugten Persistenz- und Feed-Dateien erfassen.
-          git add -A data docs
+          # Persistenz-/Feed-Dateien sowie den einmalig gepatchten Watcher erfassen.
+          git add -A data docs watcher.js
 
           if git diff --cached --quiet; then
-            echo "Keine Änderungen in data/ oder docs/ – nichts zu speichern."
+            echo "Keine relevanten Änderungen – nichts zu speichern."
 
             # Temporäre Änderungen aus npm/Runner verwerfen.
             git reset --hard HEAD
