@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.26';
+const VERSION = '0.27';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -22,7 +22,7 @@ const DEFAULT_SAMPLE_COUNT = 3;
 const SELF_HEAL_WINDOW_HOURS = 48;
 const HISTORICAL_BACKFILL_HOURS = 72;
 const DELIVERY_FRESH_HOURS = 48;
-const TRACKING_SCHEMA_VERSION = 2;
+const TRACKING_SCHEMA_VERSION = 3;
 
 /*
  * v0.15: stabiler v0.12-Kern + visuell eingelernten Selektoren + Datumsmetadaten
@@ -1769,6 +1769,22 @@ function median(values) {
     : (prepared[middle - 1] + prepared[middle]) / 2;
 }
 
+function berlinDateKey(date = new Date()) {
+  try {
+    return new Intl.DateTimeFormat(
+      'sv-SE',
+      {
+        timeZone: 'Europe/Berlin',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      }
+    ).format(date);
+  } catch {
+    return date.toISOString().slice(0, 10);
+  }
+}
+
 function hitCountAnomaly(current, previous) {
   const history = (previous || [])
     .map(Number)
@@ -1873,6 +1889,9 @@ async function mapWithConcurrency(items, limit, worker) {
       lastStoredBySource: {},
       trackingWarningBySource: {},
       healedCountBySource: {},
+      healedTodayBySource: {},
+      lastEligibleHitCountBySource: {},
+      lastRejectedHitCountBySource: {},
       suppressedByBaselineCountBySource: {},
       baselineSuppressedAtBySource: {},
       trackingSchemaVersion: 0
@@ -1935,6 +1954,15 @@ async function mapWithConcurrency(items, limit, worker) {
 
   state.healedCountBySource =
     state.healedCountBySource || {};
+
+  state.healedTodayBySource =
+    state.healedTodayBySource || {};
+
+  state.lastEligibleHitCountBySource =
+    state.lastEligibleHitCountBySource || {};
+
+  state.lastRejectedHitCountBySource =
+    state.lastRejectedHitCountBySource || {};
 
   state.suppressedByBaselineCountBySource =
     state.suppressedByBaselineCountBySource || {};
@@ -2174,10 +2202,29 @@ async function mapWithConcurrency(items, limit, worker) {
       ...previousHitCounts
     ].slice(0, 12);
 
+    const eligibleHealthRows =
+      rows.filter(
+        row =>
+          deliveryEligibility(
+            row,
+            source,
+            checkedAt
+          ).eligible
+      );
+
+    state.lastEligibleHitCountBySource[key] =
+      eligibleHealthRows.length;
+
+    state.lastRejectedHitCountBySource[key] =
+      Math.max(
+        0,
+        rows.length - eligibleHealthRows.length
+      );
+
     state.lastMessageBySource[key] =
       rows.length > 0
-        ? `${rows.length} Artikel erkannt`
-        : 'Keine Artikel erkannt';
+        ? `${rows.length} technisch erkannt · ${eligibleHealthRows.length} Reader-fähig`
+        : 'Technischer Abruf erfolgreich · keine passenden Artikel';
 
     const anomaly = hitCountAnomaly(
       rows.length,
@@ -2190,9 +2237,10 @@ async function mapWithConcurrency(items, limit, worker) {
       delete state.anomalyBySource[key];
     }
 
-    if (rows.length > 0) {
-      state.lastSuccessAtBySource[key] = checkedAt;
-    }
+    // "Letzter Erfolg" bedeutet ab v0.27: Quelle konnte erfolgreich
+    // geladen und ausgewertet werden – auch wenn aktuell keine Meldung
+    // Reader-fähig ist.
+    state.lastSuccessAtBySource[key] = checkedAt;
 
     const hadPriorState =
       Object.prototype.hasOwnProperty.call(
@@ -2283,12 +2331,10 @@ async function mapWithConcurrency(items, limit, worker) {
 
     if (rows.length === 0) {
       console.log(
-        '  ⚠ KEINE ARTIKEL ERKANNT – Quelle prüfen.'
+        state.anomalyBySource[key]
+          ? `  ⚠ ${state.anomalyBySource[key]}`
+          : '  ℹ Keine aktuell passenden Artikel – technischer Abruf war erfolgreich.'
       );
-
-      if (!state.anomalyBySource[key]) {
-        state.anomalyBySource[key] = 'Keine Artikel erkannt';
-      }
 
       state.initializedBySource[key] =
         true;
@@ -2619,6 +2665,20 @@ async function mapWithConcurrency(items, limit, worker) {
           Number(state.healedCountBySource[key] || 0) +
           healedThisRun;
 
+        const todayKey =
+          berlinDateKey(new Date());
+
+        const currentToday =
+          state.healedTodayBySource[key] || {};
+
+        state.healedTodayBySource[key] = {
+          date: todayKey,
+          count:
+            currentToday.date === todayKey
+              ? Number(currentToday.count || 0) + healedThisRun
+              : healedThisRun
+        };
+
         console.log(
           `  🩹 TRACKING-REPARATUR: ${healedThisRun} Meldung(en) waren gesehen, aber nie ausgeliefert.`
         );
@@ -2742,6 +2802,109 @@ async function mapWithConcurrency(items, limit, worker) {
       isEnabled &&
       !sources.includes(source);
 
+    const technicalHitCount =
+      Object.prototype.hasOwnProperty.call(
+        state.lastHitCountBySource,
+        key
+      )
+        ? Number(state.lastHitCountBySource[key])
+        : null;
+
+    const eligibleHitCount =
+      Object.prototype.hasOwnProperty.call(
+        state.lastEligibleHitCountBySource,
+        key
+      )
+        ? Number(state.lastEligibleHitCountBySource[key])
+        : null;
+
+    const rejectedHitCount =
+      Object.prototype.hasOwnProperty.call(
+        state.lastRejectedHitCountBySource,
+        key
+      )
+        ? Number(state.lastRejectedHitCountBySource[key])
+        : (
+            technicalHitCount != null &&
+            eligibleHitCount != null
+              ? Math.max(
+                  0,
+                  technicalHitCount - eligibleHitCount
+                )
+              : null
+          );
+
+    const anomalyText =
+      state.anomalyBySource[key] || null;
+
+    const trackingWarning =
+      state.trackingWarningBySource[key] || null;
+
+    const technicalError =
+      String(anomalyText || '').startsWith(
+        'Abruf fehlgeschlagen:'
+      );
+
+    let healthStatus =
+      'healthy';
+
+    let healthSummary =
+      'Quelle funktioniert';
+
+    if (!isEnabled) {
+      healthStatus = 'paused';
+      healthSummary = 'Pausiert';
+    } else if (skipped) {
+      healthStatus = 'skipped';
+      healthSummary = 'Intervallbedingt übersprungen';
+    } else if (technicalError) {
+      healthStatus = 'error';
+      healthSummary =
+        anomalyText || 'Technischer Fehler';
+    } else if (trackingWarning) {
+      healthStatus = 'anomaly';
+      healthSummary = trackingWarning;
+    } else if (anomalyText) {
+      healthStatus = 'anomaly';
+      healthSummary = anomalyText;
+    } else if (
+      eligibleHitCount === 0 ||
+      (
+        eligibleHitCount == null &&
+        technicalHitCount === 0
+      )
+    ) {
+      healthStatus = 'no-new';
+
+      if (
+        technicalHitCount != null &&
+        technicalHitCount > 0
+      ) {
+        healthSummary =
+          `${technicalHitCount} technisch erkannt, aktuell nichts Reader-fähig`;
+      } else {
+        healthSummary =
+          'Technisch erreichbar, aktuell keine passende Meldung';
+      }
+    } else {
+      healthStatus = 'healthy';
+      healthSummary =
+        eligibleHitCount != null
+          ? `${eligibleHitCount} Reader-fähig`
+          : 'Quelle funktioniert';
+    }
+
+    const todayKey =
+      berlinDateKey(new Date());
+
+    const todayRepairState =
+      state.healedTodayBySource[key] || {};
+
+    const healedTodayCount =
+      todayRepairState.date === todayKey
+        ? Number(todayRepairState.count || 0)
+        : 0;
+
     return {
       source: source.name,
       sourceLabel: sourceFeedLabel(source),
@@ -2751,14 +2914,18 @@ async function mapWithConcurrency(items, limit, worker) {
       checkedAt: state.lastCheckedAtBySource[key] || null,
       lastSuccessAt: state.lastSuccessAtBySource[key] || null,
       lastNewAt: state.lastNewAtBySource[key] || null,
-      hitCount:
-        Object.prototype.hasOwnProperty.call(
-          state.lastHitCountBySource,
-          key
-        )
-          ? Number(state.lastHitCountBySource[key])
-          : null,
+
+      // Backwards compatible legacy field.
+      hitCount: technicalHitCount,
       averageHitCount: average,
+
+      technicalHitCount,
+      eligibleHitCount,
+      rejectedHitCount,
+
+      healthStatus,
+      healthSummary,
+
       durationMs:
         Object.prototype.hasOwnProperty.call(
           state.lastDurationMsBySource,
@@ -2766,32 +2933,49 @@ async function mapWithConcurrency(items, limit, worker) {
         )
           ? Number(state.lastDurationMsBySource[key])
           : null,
+
       anomaly: [
-        state.anomalyBySource[key],
-        state.trackingWarningBySource[key]
+        anomalyText,
+        trackingWarning
       ].filter(Boolean).join(' · ') || null,
+
       message: state.lastMessageBySource[key] || null,
+
       trackingStatus:
-        state.trackingWarningBySource[key]
+        trackingWarning
           ? 'warning'
           : Number(state.healedCountBySource[key] || 0) > 0
           ? 'healed'
           : 'ok',
-      trackingWarning: state.trackingWarningBySource[key] || null,
+
+      trackingWarning: trackingWarning,
+
       latestDetected: state.lastDetectedBySource[key] || null,
       latestStored: state.lastStoredBySource[key] || null,
-      healedCount: Number(state.healedCountBySource[key] || 0),
+
+      healedCount:
+        Number(state.healedCountBySource[key] || 0),
+
+      healedTodayCount,
+
       baselineSuppressedCount:
         Number(state.suppressedByBaselineCountBySource[key] || 0),
+
       undeliveredRecentCount:
         (() => {
-          const warning = state.trackingWarningBySource[key] || '';
-          const match = String(warning).match(/^(\d+)\s+aktuelle Meldung/);
+          const warning = trackingWarning || '';
+          const match =
+            String(warning).match(
+              /^(\d+)\s+aktuelle Meldung/
+            );
+
           return match ? Number(match[1]) : 0;
         })(),
+
       nextCheckAt: isEnabled
         ? nextCheckAtFor(source, state, new Date())
         : null,
+
       checkIntervalMinutes: intervalMinutesFor(source),
       weekdaysOnly: source.weekdaysOnly === true
     };

@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.3.0**
+**Aktueller Stand: v5.3.1**
 
 ---
 
@@ -595,6 +595,64 @@ im Reader redaktionell bearbeiten
 
 
 
+
+## v5.3.1 – Quellen-Gesundheit nach technischer und redaktioneller Realität
+
+Das Gesundheitsdashboard unterscheidet ab v5.3.1 zwischen einem technischen
+Fehler und dem völlig normalen Fall, dass eine funktionierende Quelle aktuell
+keine neue Reader-fähige Meldung liefert.
+
+### Neue Gesundheitsstufen
+
+- **Gesund** – Quelle funktioniert und liefert Reader-fähige Kandidaten.
+- **Keine neue Meldung** – technischer Abruf funktioniert, aber aktuell ist
+  nichts Reader-fähig. Dieser Zustand ist **keine Warnung**.
+- **Auffällig** – Trefferzahl weicht deutlich vom historischen Niveau ab oder
+  das Tracking meldet eine Inkonsistenz.
+- **Fehler** – Timeout, HTTP-/Browserfehler oder ein anderer technischer
+  Abruffehler.
+- **Übersprungen/Pausiert** – eigener neutraler Zustand.
+
+### Getrennte Trefferzahlen
+
+Das Dashboard zeigt nun getrennt:
+
+- **Technisch** – wie viele passende Artikelkandidaten der Watcher auf der
+  Quelle erkannt hat.
+- **Reader** – wie viele davon das News-Eligibility-Gate tatsächlich als
+  aktuelle Meldung akzeptiert.
+- verworfene Kandidaten erscheinen beim Reader-Wert als `−N`.
+
+Ein funktionierendes BMJ kann damit beispielsweise korrekt als
+
+```text
+5 technisch · 0 Reader-fähig · Keine neue Meldung
+```
+
+erscheinen, ohne eine Warnung zu erzeugen.
+
+### Zero-Hit ist nicht automatisch kaputt
+
+Ein erfolgreicher Abruf mit `0` passenden Artikeln erzeugt nicht mehr
+automatisch `Keine Artikel erkannt` als Warnung. Erst wenn die Trefferzahl
+gegenüber einer belastbaren Historie auffällig einbricht, wird daraus eine
+Trefferzahl-Anomalie.
+
+`Letzter Erfolg` wird jetzt bei jedem technisch erfolgreichen Abruf
+aktualisiert – auch bei 0 Reader-fähigen Meldungen.
+
+### Tracking-Reparaturen
+
+Der Health-Report führt zusätzlich `healedTodayCount`. Im Dashboard steht
+deshalb **Reparaturen heute** statt nur des wenig hilfreichen kumulierten
+Gesamtwerts. Der Gesamtzähler bleibt in den Quelldetails weiterhin sichtbar.
+
+### Versionen
+
+- macOS-App: **5.3.1**
+- Watcher: **0.27**
+- Health-/Tracking-Schema: **3**
+
 ## v5.3.0 – News-Eligibility-Gate
 
 v5.3.0 trennt erstmals konsequent zwischen **technisch erkannt** und
@@ -830,6 +888,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.3.0**
+**OM News Watcher v5.3.1**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.
