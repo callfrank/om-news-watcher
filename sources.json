@@ -1622,21 +1622,21 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-134157",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260819-043350",
+    "candidateSelector" : "a[href*=\"/de/presse/pressemitteilungen/2026/\"]",
     "enabled" : true,
     "groups" : [
       "Logistik"
     ],
-    "includeRegex" : "^https?://group\\.dhl\\.com/de/presse/pressemitteilungen/2026/",
+    "includeRegex" : "^https?://group\\.dhl\\.com/de/presse/pressemitteilungen/2026/[^/?#]+\\.html/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "DHL",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "a.l-grid--w-100pc-s",
-      "link" : "a.l-grid--w-100pc-s",
-      "title" : "h3.c-teaser-image--textbox-headline"
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
     "shortName" : "DHL",
     "tags" : [
@@ -1652,14 +1652,46 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T11:41:57Z",
-    "visualRuleVersion" : 2,
-    "visualSampleCount" : 3,
+    "visualLearnedAt" : "2026-08-19T02:33:50Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+          "includeRegex" : "^https?://group\\.dhl\\.com/de/presse/pressemitteilungen/2026/",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "a.l-grid--w-100pc-s",
+            "link" : "a.l-grid--w-100pc-s",
+            "title" : "h3.c-teaser-image--textbox-headline"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T11:41:57Z",
+          "visualRuleVersion" : 2,
+          "visualSampleCount" : 3,
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "Kartenstruktur",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-18T07:14:17Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T02:33:50Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-erweitert-internationale-express-logistikkapazitaeten-in-china.html",
+      "https://group.dhl.com/de/presse/pressemitteilungen/2026/neue-sonderbriefmarken-feiern-musiklegenden-und-kulthits.html"
+    ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "Kartenstruktur",
+    "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:17Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
+    "visualValidatedAt" : "2026-08-19T02:33:55Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
     "waitMs" : 2500
   },
   {
