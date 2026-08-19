@@ -28,6 +28,9 @@ jobs:
       - name: v5.3.9-Patch anwenden
         run: python3 "$GITHUB_WORKSPACE/mac-app/patch-v5.3.9.py"
 
+      - name: v5.3.9-Hotfix anwenden
+        run: python3 "$GITHUB_WORKSPACE/mac-app/patch-v5.3.9-hotfix.py"
+
       - name: Xcode-Version anzeigen
         run: xcodebuild -version
 
