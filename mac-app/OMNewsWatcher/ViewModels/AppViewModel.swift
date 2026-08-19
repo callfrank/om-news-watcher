@@ -387,6 +387,11 @@ struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
         return "—"
     }
 
+    // Backward-compatible alias for older views/debug helpers.
+    var displayHitCount: String {
+        displayTechnicalCount
+    }
+
     var displayEligibleCount: String {
         guard let eligibleHitCount else {
             return "—"
@@ -2230,7 +2235,7 @@ final class AppViewModel: ObservableObject {
                         updatedAt:
                             now,
                         appVersion:
-                            "5.3.2"
+                            "5.3.3"
                     )
 
                 let encoder = JSONEncoder()

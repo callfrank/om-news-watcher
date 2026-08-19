@@ -1411,7 +1411,7 @@ struct HealthDashboardView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 HStack(spacing: 12) {
-                    Text("App 5.3.2")
+                    Text("App 5.3.3")
 
                     if let watcher = model.healthWatcherVersion {
                         Text("Watcher v\(watcher)")
@@ -1769,7 +1769,7 @@ struct RuleDebuggerView: View {
                         if let health = model.health(for: source) {
                             GroupBox("GitHub-Watcher") {
                                 VStack(alignment: .leading, spacing: 7) {
-                                    debugLine("Treffer", health.displayHitCount)
+                                    debugLine("Technisch erkannt", health.displayTechnicalCount)
                                     debugLine(
                                         "Dauer",
                                         health.durationMs.map {
