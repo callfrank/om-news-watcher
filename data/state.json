@@ -7162,8 +7162,8 @@
     ],
     "eBay QZ": [],
     "eBay DE": [
-      "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
+      "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
       "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
@@ -8094,5 +8094,8 @@
   },
   "suppressedByBaselineCountBySource": {},
   "baselineSuppressedAtBySource": {},
-  "trackingSchemaVersion": 2
+  "trackingSchemaVersion": 3,
+  "healedTodayBySource": {},
+  "lastEligibleHitCountBySource": {},
+  "lastRejectedHitCountBySource": {}
 }
