@@ -45,8 +45,11 @@ jobs:
           google-chrome --version
           echo "Playwright verwendet Browser-Channel: $PLAYWRIGHT_CHANNEL"
 
-      - name: Watcher v0.34-Patch anwenden
-        run: python3 patch-watcher-v0.34.py
+      - name: Stabilen Watcher v0.32 wiederherstellen
+        run: git checkout 3323759f4ace5b0d68d07c74997159e68ce440dd -- watcher.js
+
+      - name: Wero-Quellenregel anwenden
+        run: python3 patch-source-wero.py
 
       - name: Websites prüfen und RSS erzeugen
         run: node watcher.js
@@ -62,20 +65,17 @@ jobs:
           echo "Status nach Watcher-Lauf:"
           git status --short
 
-          # Persistenz-/Feed-Dateien sowie den einmalig gepatchten Watcher erfassen.
-          git add -A data docs watcher.js
+          # Persistenz-/Feed-Dateien sowie stabilisierten Watcher und Wero-Regel erfassen.
+          git add -A data docs watcher.js sources.json
 
           if git diff --cached --quiet; then
             echo "Keine relevanten Änderungen – nichts zu speichern."
 
-            # Temporäre Änderungen aus npm/Runner verwerfen.
             git reset --hard HEAD
             git clean -fd
           else
             git commit -m "Update news feed"
 
-            # Nach dem Commit dürfen für den Rebase keine lokalen
-            # Nebenänderungen mehr vorhanden sein.
             git reset --hard HEAD
             git clean -fd
           fi
