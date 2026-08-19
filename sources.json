@@ -4661,7 +4661,7 @@
     "allowExternal" : false,
     "allowTitleOnly" : false,
     "automaticTagging" : true,
-    "baselineVersion" : "mac-app-20260818-131914",
+    "baselineVersion" : "mac-app-20260819-045104",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
@@ -4698,8 +4698,38 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-18T11:19:14Z",
+    "visualLearnedAt" : "2026-08-19T02:51:04Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+          "includeRegex" : "^https?://www\\.handelskraft\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "h2.entry-title",
+            "link" : "a",
+            "title" : "h2.entry-title"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-18T11:19:14Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 2,
+          "visualSampleURLs" : [
+            "https://www.handelskraft.de/digitale-souveraenitaet-reifegrad-selbsttest/",
+            "https://www.handelskraft.de/gaio-generative-ai-optimization/"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "Kartenstruktur + URL-Muster",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-18T11:19:19Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · Kartenstruktur + URL-Muster"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T02:51:04Z"
+      },
       {
         "configuration" : {
           "selectors" : {
@@ -4722,7 +4752,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T11:19:19Z",
+    "visualValidatedAt" : "2026-08-19T02:51:09Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
