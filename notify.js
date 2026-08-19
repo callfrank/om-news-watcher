@@ -128,7 +128,10 @@ const GENERIC_EXACT = new Set([
   'find us',
   'find us on',
   'all publications',
-  'alle publikationen'
+  'alle publikationen',
+  'broschüren und infomaterial',
+  'broschueren und infomaterial',
+  'brochures and information material'
 ]);
 
 const GENERIC_PREFIXES = [
@@ -232,6 +235,20 @@ function cleanLikeReader(values, sources) {
     }
 
     const title = normalizeTitle(item.title);
+    const rawLink = String(item.link || '');
+
+    const cssArtifact =
+      /\.[a-z0-9_-]+\s*\{[^}]{0,400}(?:fill|stroke|color|font|display)\s*:/i.test(title) ||
+      (/[{};]/.test(title) && /(?:stroke-width|stroke-linecap|stroke-linejoin|fill|stroke)\s*:/i.test(title));
+
+    const staticDocument =
+      /\/shareddocs\/publikationen\//i.test(rawLink) ||
+      /\/(?:broschueren|broschuren|brochures|ratgeber|guides)\//i.test(rawLink);
+
+    if (cssArtifact || staticDocument) {
+      rejected.push({ item, reason: 'statische Publikation/Artefakt' });
+      continue;
+    }
 
     if (title.length < 5) {
       rejected.push({ item, reason: 'technisch/unpassend' });

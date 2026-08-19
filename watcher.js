@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.25';
+const VERSION = '0.26';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -21,6 +21,7 @@ const MAX_FEED_ITEMS = 500;
 const DEFAULT_SAMPLE_COUNT = 3;
 const SELF_HEAL_WINDOW_HOURS = 48;
 const HISTORICAL_BACKFILL_HOURS = 72;
+const DELIVERY_FRESH_HOURS = 48;
 const TRACKING_SCHEMA_VERSION = 2;
 
 /*
@@ -243,9 +244,15 @@ function genericTitle(value = '') {
     'unternehmensmitteilungen','company news','company updates',
     'main menu','who we are','find us','find us on',
     'dokumentation zur fehlerbehebung','aktualisieren sie diese seite',
-    'update this page','all publications','alle publikationen'
+    'update this page','all publications','alle publikationen',
+    'broschüren und infomaterial','broschueren und infomaterial',
+    'brochures and information material'
   ]);
   if (exact.has(lower)) return true;
+
+  // CSS-/SVG-Artefakte dürfen niemals als Titel gespeichert werden.
+  if (/\.[a-z0-9_-]+\s*\{[^}]{0,400}(?:fill|stroke|color|font|display)\s*:/i.test(lower)) return true;
+  if (/[{};]/.test(lower) && /(?:stroke-width|stroke-linecap|stroke-linejoin|fill|stroke)\s*:/i.test(lower)) return true;
 
   if (/^(?:seite|page)\s*\d+$/i.test(lower)) return true;
   if (/^(?:aktuelle\s+seite|current\s+page)\s*\d+$/i.test(lower)) return true;
@@ -269,6 +276,22 @@ function highConfidenceStaticPath(link, source) {
   }
 }
 
+function highConfidenceDocumentPath(link) {
+  try {
+    const path = new URL(link).pathname.toLowerCase();
+
+    // Behörden-Publikationen, Broschüren und Ratgeber sind dauerhafte
+    // Dokumentseiten, keine neu eingestellten Nachrichten. Gesetzgebungs-
+    // verfahren bleiben dagegen zulässig und werden über das Datum geprüft.
+    if (/\/shareddocs\/publikationen\//i.test(path)) return true;
+    if (/\/(?:broschueren|broschuren|brochures|ratgeber|guides)\//i.test(path)) return true;
+
+    return false;
+  } catch {
+    return false;
+  }
+}
+
 function passesQualityGate(item, source) {
   const title = normalizeTitle(item?.title || '');
   const link = canonicalUrl(item?.link || item?.href || '', source.url);
@@ -277,12 +300,34 @@ function passesQualityGate(item, source) {
   if (!title || !link) return false;
   if (genericTitle(title)) return false;
   if (samePage(link, source.url)) return false;
+  if (highConfidenceDocumentPath(link)) return false;
 
   // Statische Navigations-/Produktbereiche ohne Veröffentlichungsdatum sind
   // keine News. Ein explizites Datum oder ein echter Newsroom-Pfad gewinnt.
   if (!date && highConfidenceStaticPath(link, source)) return false;
 
   return true;
+}
+
+function deliveryEligibility(row, source, checkedAt) {
+  if (!passesQualityGate(row, source)) {
+    return { eligible: false, reason: 'quality-gate' };
+  }
+
+  const rowTime = pageDateTimestamp(row?.date || '');
+
+  // Sobald ein belastbares Veröffentlichungsdatum vorhanden ist, darf ein
+  // alter Artikel NIE nur deshalb als neu gelten, weil seine URL erstmals
+  // gesehen wurde. Das ist die zentrale Trennung zwischen Erkennung und News.
+  if (Number.isFinite(rowTime)) {
+    if (!rowIsRecent(row, checkedAt, DELIVERY_FRESH_HOURS)) {
+      return { eligible: false, reason: 'published-outside-current-window' };
+    }
+
+    return { eligible: true, reason: 'current-publication-date' };
+  }
+
+  return { eligible: true, reason: 'undated-candidate' };
 }
 
 function samePage(candidate, sourceUrl) {
@@ -1967,6 +2012,11 @@ async function mapWithConcurrency(items, limit, worker) {
   // ausgeliefert und werden in deliveredBySource nachgezogen.
   const storedLinksBySource = new Map();
 
+  // Audit-Felder ausschließlich aus dem bereinigten items.json neu aufbauen.
+  // So verschwinden alte CSS-/Navigations-Artefakte auch aus "Neuester
+  // gespeicherter Artikel" im Gesundheitsdashboard.
+  state.lastStoredBySource = {};
+
   for (const item of items) {
     if (!item?.source || !item?.link) continue;
 
@@ -2320,7 +2370,8 @@ async function mapWithConcurrency(items, limit, worker) {
         : rows.filter(
             r =>
               !storedLinks.has(r.link) &&
-              rowIsRecent(r, checkedAt) &&
+              deliveryEligibility(r, source, checkedAt).eligible &&
+              Number.isFinite(pageDateTimestamp(r.date || '')) &&
               !isExplicitCurrentBaselineSuppression(r.link)
           );
 
@@ -2336,22 +2387,34 @@ async function mapWithConcurrency(items, limit, worker) {
         r => known.has(r.link) || storedLinks.has(r.link)
       );
 
+    const freshEligibilityReason = new Map();
+
     const freshEligible =
       fresh.filter(r => {
+        const decision =
+          deliveryEligibility(r, source, checkedAt);
+
+        if (!decision.eligible) {
+          freshEligibilityReason.set(r.link, decision.reason);
+          return false;
+        }
+
+        const hasReliableDate =
+          Number.isFinite(pageDateTimestamp(r.date || ''));
+
+        // Ein aktuelles belastbares Veröffentlichungsdatum ist unabhängig
+        // von Migrationen/Regelwechseln ausreichend.
+        if (hasReliableDate) return true;
+
         if (!conservativeFreshMode) return true;
-        if (rowIsRecent(r, checkedAt)) return true;
 
         // Ohne Publikationsdatum nur Links akzeptieren, die auf einer
         // bereits bekannten chronologischen Liste VOR dem ersten bekannten
         // Artikel auftauchen. Das verhindert historische Archiv-Sweeps.
-        const hasReliableDate =
-          Number.isFinite(pageDateTimestamp(r.date || ''));
-
         const rowIndex =
           rows.findIndex(candidate => candidate.link === r.link);
 
         if (
-          !hasReliableDate &&
           firstPreviouslyKnownIndex > 0 &&
           rowIndex >= 0 &&
           rowIndex < firstPreviouslyKnownIndex
@@ -2359,6 +2422,10 @@ async function mapWithConcurrency(items, limit, worker) {
           return true;
         }
 
+        freshEligibilityReason.set(
+          r.link,
+          'undated-not-proven-new-during-migration'
+        );
         return false;
       });
 
@@ -2366,6 +2433,20 @@ async function mapWithConcurrency(items, limit, worker) {
       fresh.filter(
         r => !freshEligible.some(candidate => candidate.link === r.link)
       );
+
+    if (suppressedFresh.length) {
+      const reasonCounts = {};
+      for (const row of suppressedFresh) {
+        const reason = freshEligibilityReason.get(row.link) || 'not-current';
+        reasonCounts[reason] = Number(reasonCounts[reason] || 0) + 1;
+      }
+      console.log(
+        '  News-Eligibility verworfen: ' +
+        Object.entries(reasonCounts)
+          .map(([reason, count]) => `${count}× ${reason}`)
+          .join(', ')
+      );
+    }
 
     if (firstRun) {
       const suppressedLinks = rows.map(r => r.link);

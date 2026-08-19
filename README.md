@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.2.1**
+**Aktueller Stand: v5.3.0**
 
 ---
 
@@ -594,6 +594,61 @@ im Reader redaktionell bearbeiten
 
 
 
+
+## v5.3.0 – News-Eligibility-Gate
+
+v5.3.0 trennt erstmals konsequent zwischen **technisch erkannt** und
+**tatsächlich als aktuelle Nachricht auslieferbar**.
+
+Das behebt insbesondere Fälle wie das BMJ: Eine Erkennungsregel kann korrekt
+mehrere Dokumentseiten finden, trotzdem dürfen alte Gesetzgebungsverfahren,
+Broschüren, Ratgeber oder HTML-/SVG-Artefakte nicht als neue Reader-Meldung
+erscheinen.
+
+### GitHub-Watcher v0.26
+
+Vor dem Speichern in `data/items.json` gilt zusätzlich zum Quality Gate nun
+ein News-Eligibility-Gate:
+
+- belastbares Veröffentlichungsdatum älter als 48 Stunden → nicht als neue
+  Meldung speichern
+- zukünftiges/unplausibles Datum → nicht ausliefern
+- `/SharedDocs/Publikationen/` → statische Publikation, nicht News
+- Broschüren-/Ratgeber-/Guide-Pfade → nicht News
+- CSS-/SVG-Fragmente wie `.st0{fill:none;stroke:...}` → Artefakt, kein Titel
+- „Broschüren und Infomaterial“ → Übersichtsseite, keine Meldung
+
+Wichtig: Eine URL kann damit weiterhin technisch erkannt werden, ohne jemals
+Reader, RSS oder E-Mail zu erreichen.
+
+Beim Start wird `lastStoredBySource` aus dem bereinigten `items.json` neu
+aufgebaut. Alte Artefakte verschwinden dadurch auch aus dem
+Gesundheitsdashboard.
+
+### Quellentest in der macOS-App
+
+Der lokale Test zeigt jetzt drei getrennte Werte:
+
+- **technisch erkannt**
+- **Reader-fähig**
+- **verworfen**
+
+Verworfene Beispieltreffer erhalten einen Grund, z. B.:
+
+- Altbestand – Veröffentlichung älter als 48 Stunden
+- Statische Publikation/Ratgeberseite
+- Übersichts-/Publikationsseite statt News
+- HTML/SVG-Artefakt statt Überschrift
+
+Eine technisch funktionierende Quelle mit ausschließlich altem Bestand wird
+nicht mehr als Problemquelle behandelt, sondern als
+**„Quelle funktioniert – aktuell keine neue Meldung“**.
+
+### Toolbar
+
+Der missverständliche Button **„Jetzt prüfen“** heißt nun
+**„Alle Quellen prüfen“**.
+
 ## v5.2.1 – begrenzter aktiver Reader-Verlauf
 
 Der Reader soll ein Arbeitsbereich und kein dauerhaft wachsendes Protokoll
@@ -775,6 +830,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.2.1**
+**OM News Watcher v5.3.0**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.
