@@ -1442,26 +1442,6 @@
     "waitMs" : 3000
   },
   {
-    "autoScroll" : 3,
-    "baselineVersion" : "v10-content-parked",
-    "enabled" : true,
-    "excludeRegex" : "^https://www\\.wish\\.com/newsandresources/?$",
-    "groups" : [
-      "Firmen"
-    ],
-    "name" : "Wish News & Resources",
-    "priority" : 2,
-    "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
-    },
-    "timeoutMs" : 60000,
-    "url" : "https://www.wish.com/newsandresources",
-    "waitMs" : 7000
-  },
-  {
     "enabled" : true,
     "groups" : [
       "Research"
