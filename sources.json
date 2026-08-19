@@ -4370,7 +4370,7 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260819-143708",
+    "baselineVersion" : "mac-app-20260819-144743",
     "candidateSelector" : "a[href*=\"/de/nachrichten/\"],[data-href*=\"/de/nachrichten/\"],[data-url*=\"/de/nachrichten/\"],[data-link*=\"/de/nachrichten/\"],[onclick*=\"/de/nachrichten/\"]",
     "enabled" : true,
     "excludeKeywords" : [
@@ -4405,8 +4405,38 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-19T12:37:08Z",
+    "visualLearnedAt" : "2026-08-19T12:47:43Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href*=\"/de/nachrichten/\"],[data-href*=\"/de/nachrichten/\"],[data-url*=\"/de/nachrichten/\"],[data-link*=\"/de/nachrichten/\"],[onclick*=\"/de/nachrichten/\"]",
+          "includeRegex" : "^https?://ir\\.deliveryhero\\.com/de/nachrichten/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-19T12:37:08Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 2,
+          "visualSampleURLs" : [
+            "https://ir.deliveryhero.com/de/nachrichten/delivery-hero-startet-agentischen-ki-assistenten-um-shops-und-restaurants-zu-helfen-schneller-zu-wachsen/7fec4e44-4d65-4f45-9ed7-ec935776b0f7",
+            "https://ir.deliveryhero.com/de/nachrichten/delivery-hero-und-uber-buendeln-ihre-kraefte-um-mehr-fuer-verbraucher-haendler-und-kuriere-zu/b21fbac5-4649-4dc8-a7d2-8295a6952a7a"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster",
+          "visualValidated" : false,
+          "visualValidatedAt" : "2026-08-19T12:37:08Z",
+          "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T12:47:43Z"
+      },
       {
         "configuration" : {
           "allowExternal" : false,
@@ -4459,7 +4489,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T12:37:08Z",
+    "visualValidatedAt" : "2026-08-19T12:47:43Z",
     "visualValidationMessage" : "Markierte Beispiel-URLs bestätigen das enge URL-Muster · URL-Muster · GitHub-Endtest ausstehend",
     "waitMs" : 2500
   },
