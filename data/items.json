@@ -1,5 +1,112 @@
 [
   {
+    "guid": "b14623dbbc9b04e47c9f29f8",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
+    "link": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260811~47cd3ee040.fr.pdf",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-19T12:23:12.517Z",
+    "deliveredAt": "2026-08-19T12:23:12.517Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "e8df8cab9efdcbc62b9e50cc",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Einzelhandel wirkt inflationsdämpfend",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15299-einzelhandel-wirkt-inflationsdaempfend",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T12:23:12.492Z",
+    "deliveredAt": "2026-08-19T12:23:12.492Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "974fe8f6f81b87829ab21b1b",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "HDE kritisiert geplante Kassenpflicht",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15300-hde-kritisiert-geplante-kassenpflicht",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T12:23:12.492Z",
+    "deliveredAt": "2026-08-19T12:23:12.492Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2c6f2b859b62b2555106ff48",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "HDE: Bundesregierung entfernt sich weiter von angekündigter Strompreissenkung",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15302-hde-bundesregierung-entfernt-sich-weiter-von-angekuendigter-strompreissenkung",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T12:23:12.492Z",
+    "deliveredAt": "2026-08-19T12:23:12.492Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6b2f26a6a439e14d6c27f465",
+    "source": "JD Corporate News",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "From Product Discovery to Brand Storytelling: How AI Is Reshaping Qixi Gifting on JD.com",
+    "link": "https://jdcorporateblog.com/from-product-discovery-to-brand-storytelling-how-ai-is-reshaping-qixi-gifting-on-jd-com/",
+    "pageDate": "Aug 19, 2026",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "detectedAt": "2026-08-19T12:23:12.448Z",
+    "deliveredAt": "2026-08-19T12:23:12.448Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "9c5b9cc873ed17a3015b0992",
     "source": "PayPal US",
     "sourceLabel": "PayPal US",
