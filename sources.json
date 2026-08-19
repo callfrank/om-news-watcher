@@ -4294,7 +4294,7 @@
     "allowExternal" : false,
     "allowTitleOnly" : false,
     "automaticTagging" : true,
-    "baselineVersion" : "mac-app-20260818-131722",
+    "baselineVersion" : "mac-app-20260819-044122",
     "candidateSelector" : "a[href*=\"/2026/08/\"]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
@@ -4314,8 +4314,8 @@
     "selectors" : {
       "date" : "time.entry-date",
       "item" : "li.post",
-      "link" : "a.read-more",
-      "title" : "a.read-more"
+      "link" : "a.dark",
+      "title" : "h4"
     },
     "sourceType" : "auto",
     "tags" : [
@@ -4331,8 +4331,20 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-18T11:17:22Z",
+    "visualLearnedAt" : "2026-08-19T02:41:22Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T02:41:22Z"
+      },
       {
         "configuration" : {
           "selectors" : {
@@ -4355,7 +4367,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T11:17:27Z",
+    "visualValidatedAt" : "2026-08-19T02:41:27Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
