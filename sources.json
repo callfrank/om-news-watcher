@@ -2304,7 +2304,7 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260818-103406",
+    "baselineVersion" : "mac-app-20260819-044346",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
     "excludeKeywords" : [
@@ -2322,9 +2322,9 @@
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "header.blockspare-posts-block-post-grid-header",
+      "item" : "h4.blockspare-posts-block-post-grid-title",
       "link" : "a.blockspare-posts-block-title-link",
-      "title" : "h1,h2,h3,h4,h5,h6,[class*=\"headline\" i],[class*=\"heading\" i],[class*=\"title\" i],[class*=\"name\" i],[data-testid*=\"title\" i],strong"
+      "title" : "h4.blockspare-posts-block-post-grid-title"
     },
     "tags" : [
       "Recht & Regulierung",
@@ -2342,8 +2342,39 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-18T08:34:06Z",
+    "visualLearnedAt" : "2026-08-19T02:43:46Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+          "includeRegex" : "^https?://www\\.wettbewerbszentrale\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "header.blockspare-posts-block-post-grid-header",
+            "link" : "a.blockspare-posts-block-title-link",
+            "title" : "h1,h2,h3,h4,h5,h6,[class*=\"headline\" i],[class*=\"heading\" i],[class*=\"title\" i],[class*=\"name\" i],[data-testid*=\"title\" i],strong"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-18T08:34:06Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 3,
+          "visualSampleURLs" : [
+            "https://www.wettbewerbszentrale.de/die-nr-1-im-landkreis-wettbewerbszentrale-beanstandet-werbung-mit-spitzenstellung/",
+            "https://www.wettbewerbszentrale.de/lg-duesseldorf-werbung-mit-wurmmittel-und-zeckenmittel-fuer-ergaenzungsfuttermittel-unzulaessig/",
+            "https://www.wettbewerbszentrale.de/ab-heute-gilt-die-neue-eu-verpackungsverordnung-ppwr/"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "Kartenstruktur + URL-Muster",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-18T08:34:12Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · Kartenstruktur + URL-Muster"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T02:43:46Z"
+      },
       {
         "configuration" : {
           "selectors" : {
@@ -2358,16 +2389,15 @@
       }
     ],
     "visualRuleVersion" : 3,
-    "visualSampleCount" : 3,
+    "visualSampleCount" : 2,
     "visualSampleURLs" : [
       "https://www.wettbewerbszentrale.de/die-nr-1-im-landkreis-wettbewerbszentrale-beanstandet-werbung-mit-spitzenstellung/",
-      "https://www.wettbewerbszentrale.de/lg-duesseldorf-werbung-mit-wurmmittel-und-zeckenmittel-fuer-ergaenzungsfuttermittel-unzulaessig/",
-      "https://www.wettbewerbszentrale.de/ab-heute-gilt-die-neue-eu-verpackungsverordnung-ppwr/"
+      "https://www.wettbewerbszentrale.de/lg-duesseldorf-werbung-mit-wurmmittel-und-zeckenmittel-fuer-ergaenzungsfuttermittel-unzulaessig/"
     ],
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:34:12Z",
+    "visualValidatedAt" : "2026-08-19T02:43:52Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
