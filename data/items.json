@@ -1,5 +1,30 @@
 [
   {
+    "guid": "8dc5545bde847e16a1c5ec6c",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber CEO to Participate in Fireside Chat Hosted by Goldman Sachs",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-CEO-to-Participate-in-Fireside-Chat-Hosted-by-Goldman-Sachs/default.aspx",
+    "pageDate": "August 19, 2026",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "detectedAt": "2026-08-19T21:41:55.661Z",
+    "deliveredAt": "2026-08-19T21:41:55.661Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "76e0e1b9df7c62c457448187",
     "source": "Excitingcommerce",
     "sourceLabel": "Excitingcommerce",
@@ -17,31 +42,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "aef4cd5989909db41f3b8758",
-    "source": "Uber",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Uber CEO to Participate in Fireside Chat Hosted by Goldman Sachs",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
-    "pageDate": "August 19, 2026",
-    "publishedAt": "2026-08-19T00:00:00.000Z",
-    "detectedAt": "2026-08-19T20:46:23.144Z",
-    "deliveredAt": "2026-08-19T20:46:23.144Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "bd2b464f37631243d7069efd",
