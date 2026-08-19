@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.27';
+const VERSION = '0.28';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -292,6 +292,127 @@ function highConfidenceDocumentPath(link) {
   }
 }
 
+
+function highConfidenceSectionLanding(title, link) {
+  const lowerTitle =
+    normalizeTitle(title || '').toLowerCase();
+
+  const exactTitles = new Set([
+    'publikationen',
+    'publications',
+    'financial reports and presentations',
+    'finanzberichte und präsentationen',
+    'finanzberichte und praesentation',
+    'nichtfinanzieller konzernbericht',
+    'non-financial report',
+    'non-financial report for the group',
+    'diversity & inclusion',
+    'diversity and inclusion',
+    'ipo mitteilungen',
+    'ipo news',
+    'wertpapierprospekt',
+    'prospectus',
+    'investor relations',
+    'investor information'
+  ]);
+
+  if (exactTitles.has(lowerTitle)) {
+    return true;
+  }
+
+  try {
+    const u = new URL(link);
+
+    // Kaputte Linkauflösung wie
+    // /de/https://www.example.com/... darf nie als Artikel gelten.
+    if (/\/https?:\/\//i.test(u.pathname)) {
+      return true;
+    }
+
+    const path = u.pathname.toLowerCase();
+
+    return (
+      /\/(?:financial-reports-and-presentations|non-financial-report(?:-for-the-group)?|diversity-inclusion|publications?|publikationen)(?:\/|$)/i.test(path) ||
+      /\/ipo\/(?:ipo-news|prospectus)?\/?$/i.test(path) ||
+      /\/(?:prospectus|wertpapierprospekt)\/?$/i.test(path)
+    );
+  } catch {
+    return true;
+  }
+}
+
+function undatedCandidateLooksArticleLike(row, source) {
+  const title =
+    normalizeTitle(row?.title || '');
+
+  const link =
+    canonicalUrl(
+      row?.link || row?.href || '',
+      source.url
+    );
+
+  if (!title || !link) {
+    return false;
+  }
+
+  if (highConfidenceSectionLanding(title, link)) {
+    return false;
+  }
+
+  try {
+    const u = new URL(link);
+    const parts =
+      u.pathname
+        .split('/')
+        .filter(Boolean);
+
+    const leaf =
+      (parts.at(-1) || '').toLowerCase();
+
+    const semanticArticlePath =
+      /\/(?:newsroom|news|nachrichten|presse|press|press-releases|pressemitteilungen|stories|story|article|articles|blog)\//i.test(
+        u.pathname
+      );
+
+    const datedPath =
+      /\/20\d{2}\//.test(u.pathname);
+
+    const slugLike =
+      leaf.length >= 18 &&
+      (
+        (leaf.match(/-/g) || []).length >= 2 ||
+        leaf.length >= 30
+      );
+
+    // Visuell validierte Regeln dürfen auch auf Seiten ohne sichtbares
+    // Veröffentlichungsdatum funktionieren, sofern die URL klar
+    // artikelartig ist.
+    if (
+      source.visualLearned === true &&
+      visualSampleShapeAllows(link, source) &&
+      slugLike
+    ) {
+      return true;
+    }
+
+    if (semanticArticlePath && slugLike) {
+      return true;
+    }
+
+    if (datedPath && slugLike) {
+      return true;
+    }
+
+    return (
+      parts.length >= 3 &&
+      title.length >= 28 &&
+      slugLike
+    );
+  } catch {
+    return false;
+  }
+}
+
 function passesQualityGate(item, source) {
   const title = normalizeTitle(item?.title || '');
   const link = canonicalUrl(item?.link || item?.href || '', source.url);
@@ -301,6 +422,7 @@ function passesQualityGate(item, source) {
   if (genericTitle(title)) return false;
   if (samePage(link, source.url)) return false;
   if (highConfidenceDocumentPath(link)) return false;
+  if (highConfidenceSectionLanding(title, link)) return false;
 
   // Statische Navigations-/Produktbereiche ohne Veröffentlichungsdatum sind
   // keine News. Ein explizites Datum oder ein echter Newsroom-Pfad gewinnt.
@@ -327,7 +449,13 @@ function deliveryEligibility(row, source, checkedAt) {
     return { eligible: true, reason: 'current-publication-date' };
   }
 
-  return { eligible: true, reason: 'undated-candidate' };
+  // Kein Datum mehr = nicht automatisch aktuell.
+  // Nur eindeutig artikelartige URLs dürfen ohne Datum passieren.
+  if (!undatedCandidateLooksArticleLike(row, source)) {
+    return { eligible: false, reason: 'undated-section-or-weak-article-signal' };
+  }
+
+  return { eligible: true, reason: 'undated-but-article-like' };
 }
 
 function samePage(candidate, sourceUrl) {
@@ -680,9 +808,29 @@ async function extractConfigured(page, source) {
       const alt = clean(root?.querySelector?.('img[alt]')?.getAttribute?.('alt') || '');
       return alt.length >= 8 ? alt : own;
     };
+    const dateFromText = value => {
+      const text = clean(value);
+      if (!text) return '';
+
+      const patterns = [
+        /\b\d{1,2}\.\d{1,2}\.20\d{2}\b/,
+        /\b20\d{2}-\d{2}-\d{2}\b/,
+        /\b\d{1,2}\.?\s+(?:Jan(?:uar)?|Feb(?:ruar)?|Mär(?:z)?|Mrz|Apr(?:il)?|Mai|Jun(?:i)?|Jul(?:i)?|Aug(?:ust)?|Sep(?:tember)?|Okt(?:ober)?|Nov(?:ember)?|Dez(?:ember)?|January|February|March|April|May|June|July|August|September|October|November|December)\.?\s+20\d{2}\b/i,
+        /\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2},\s+20\d{2}\b/i
+      ];
+
+      for (const pattern of patterns) {
+        const match = text.match(pattern);
+        if (match?.[0]) return match[0];
+      }
+
+      return '';
+    };
+
     const dateOf = root => {
       const el = root?.querySelector?.('time[datetime],time,[class*="date" i],[class*="datum" i],[class*="published" i],[class*="time" i]');
-      return clean(el?.getAttribute?.('datetime') || el?.textContent || '');
+      const explicit = clean(el?.getAttribute?.('datetime') || el?.textContent || '');
+      return explicit || dateFromText(root?.textContent || '');
     };
 
     return nodes.map(root => {
@@ -737,9 +885,29 @@ async function extractAutomatic(page, source) {
       const alt = clean(card?.querySelector?.('img[alt]')?.getAttribute?.('alt') || '');
       return alt.length >= 8 ? alt : own;
     };
+    const dateFromText = value => {
+      const text = clean(value);
+      if (!text) return '';
+
+      const patterns = [
+        /\b\d{1,2}\.\d{1,2}\.20\d{2}\b/,
+        /\b20\d{2}-\d{2}-\d{2}\b/,
+        /\b\d{1,2}\.?\s+(?:Jan(?:uar)?|Feb(?:ruar)?|Mär(?:z)?|Mrz|Apr(?:il)?|Mai|Jun(?:i)?|Jul(?:i)?|Aug(?:ust)?|Sep(?:tember)?|Okt(?:ober)?|Nov(?:ember)?|Dez(?:ember)?|January|February|March|April|May|June|July|August|September|October|November|December)\.?\s+20\d{2}\b/i,
+        /\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2},\s+20\d{2}\b/i
+      ];
+
+      for (const pattern of patterns) {
+        const match = text.match(pattern);
+        if (match?.[0]) return match[0];
+      }
+
+      return '';
+    };
+
     const dateFor = card => {
       const el = card?.querySelector?.('time[datetime],time,[class*="date" i],[class*="datum" i],[class*="published" i],[class*="time" i]');
-      return clean(el?.getAttribute?.('datetime') || el?.textContent || '');
+      const explicit = clean(el?.getAttribute?.('datetime') || el?.textContent || '');
+      return explicit || dateFromText(card?.textContent || '');
     };
 
     return nodes.map(el => {

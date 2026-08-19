@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.3.1**
+**Aktueller Stand: v5.3.2**
 
 ---
 
@@ -596,6 +596,67 @@ im Reader redaktionell bearbeiten
 
 
 
+
+## v5.3.2 – visuelles Einlernen und undatierte Fehltreffer
+
+v5.3.2 korrigiert zwei Fehler, die unter anderem bei DeliveryHero sichtbar
+wurden.
+
+### 1. Undatierte Bereichsseiten sind nicht automatisch News
+
+Bisher konnte ein technisch erkannter Link ohne Veröffentlichungsdatum als
+aktuelle Meldung gelten. Dadurch konnten beispielsweise Bereiche wie
+`Publikationen`, `IPO Mitteilungen`, `Wertpapierprospekt` oder
+`Diversity & Inclusion` als Reader-fähig erscheinen.
+
+Ab v5.3.2 gilt:
+
+- ein vorhandenes Veröffentlichungsdatum wird weiterhin mit dem 48-Stunden-
+  Fenster geprüft;
+- ohne Datum muss die Ziel-URL ein starkes Artikelsignal besitzen;
+- typische Investor-Relations-, Publikations-, IPO- und Prospectus-
+  Übersichtsseiten werden verworfen;
+- fehlerhaft zusammengesetzte URLs wie `/de/https://...` werden verworfen.
+
+### 2. Datum wird auch aus dem Kartentext erkannt
+
+Einige Webseiten zeigen das Veröffentlichungsdatum zwar sichtbar in der
+Meldungskarte, verwenden dafür aber weder `<time>` noch eine CSS-Klasse mit
+`date` oder `published`.
+
+Watcher, Schnelltest und visueller Trainer suchen deshalb zusätzlich direkt
+im Kartentext nach Datumsformaten wie:
+
+- `13.08.2026`
+- `2026-08-13`
+- `13. August 2026`
+- `August 13, 2026`
+
+Damit kann das Eligibility-Gate ältere Karten zuverlässig als Altbestand
+erkennen.
+
+### 3. Visuelles Einlernen bekommt einen reload-sicheren Fallback
+
+Das visuelle Einlernen validiert die gewählte Regel weiterhin nach einem
+vollständigen Reload. Wenn ein enger CSS-Selector wie
+`a[href*="/de/nachrichten/"]` nach dem Reload nicht stabil reproduzierbar ist,
+wird zusätzlich eine Variante getestet, die zunächst alle klickbaren Links
+liest und erst danach das aus den markierten Beispielen gebildete URL-Muster
+anwendet.
+
+Der Button heißt deshalb jetzt bewusst:
+
+`Regel prüfen & übernehmen`
+
+Eine Regel wird weiterhin erst gespeichert, wenn sie nach einem vollständigen
+Reload technisch reproduzierbar ist.
+
+### Versionen
+
+- macOS-App: **5.3.2**
+- Watcher: **0.28**
+- Tracking-/Health-Schema: **3**
+
 ## v5.3.1 – Quellen-Gesundheit nach technischer und redaktioneller Realität
 
 Das Gesundheitsdashboard unterscheidet ab v5.3.1 zwischen einem technischen
@@ -888,6 +949,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.3.1**
+**OM News Watcher v5.3.2**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.
