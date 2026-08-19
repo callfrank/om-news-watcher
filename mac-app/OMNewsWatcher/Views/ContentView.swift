@@ -1411,7 +1411,7 @@ struct HealthDashboardView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 HStack(spacing: 12) {
-                    Text("App 5.3.4")
+                    Text("App 5.3.5")
 
                     if let watcher = model.healthWatcherVersion {
                         Text("Watcher v\(watcher)")

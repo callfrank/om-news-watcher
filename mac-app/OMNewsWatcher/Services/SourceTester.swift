@@ -282,7 +282,27 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         allRows: [Candidate]
     ) -> SourceTestResult {
         let baseFiltered = filter(rows, for: source)
-        let filtered = refineSemanticScope(baseFiltered, for: source)
+        var filtered = refineSemanticScope(baseFiltered, for: source)
+
+        // Wenn die enge visuelle Regel nach Reload 0 liefert, nutzen wir
+        // die bereits parallel gesammelten allRows als robusten Fallback.
+        // filter(...) wendet weiterhin includeRegex und alle Regeln an.
+        var usedBroadVisualFallback = false
+
+        if filtered.isEmpty,
+           source.visualLearned || !(source.includeRegex ?? "").isEmpty {
+            let broadBase = filter(allRows, for: source)
+            let broadFiltered = refineSemanticScope(
+                broadBase,
+                for: source
+            )
+
+            if !broadFiltered.isEmpty {
+                filtered = broadFiltered
+                usedBroadVisualFallback = true
+            }
+        }
+
         let count = filtered.count
         let examples = hits(from: filtered)
 
@@ -392,17 +412,25 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         let kind: SourceTestKind =
             eligible.isEmpty ? .noCurrentNews : .success
 
+        let fallbackNote =
+            usedBroadVisualFallback
+            ? " Selektor-Fallback: Treffer über breiten DOM-Scan + URL-Regel reproduziert."
+            : ""
+
         let message: String
         if eligible.isEmpty {
             message =
                 "\(count) technisch plausible Treffer erkannt, aber keiner erfüllt aktuell das News-Eligibility-Gate. " +
-                "Diese Treffer würden NICHT in Reader, RSS oder E-Mail gelangen."
+                "Diese Treffer würden NICHT in Reader, RSS oder E-Mail gelangen." +
+                fallbackNote
         } else if rejected.isEmpty {
             message =
-                "\(count) technisch plausible Treffer erkannt; alle \(eligible.count) sind aktuell Reader-fähig."
+                "\(count) technisch plausible Treffer erkannt; alle \(eligible.count) sind aktuell Reader-fähig." +
+                fallbackNote
         } else {
             message =
-                "\(count) technisch plausible Treffer erkannt; \(eligible.count) Reader-fähig, \(rejected.count) verworfen."
+                "\(count) technisch plausible Treffer erkannt; \(eligible.count) Reader-fähig, \(rejected.count) verworfen." +
+                fallbackNote
         }
 
         return SourceTestResult(

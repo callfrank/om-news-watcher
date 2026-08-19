@@ -2235,7 +2235,7 @@ final class AppViewModel: ObservableObject {
                         updatedAt:
                             now,
                         appVersion:
-                            "5.3.4"
+                            "5.3.5"
                     )
 
                 let encoder = JSONEncoder()
