@@ -2284,8 +2284,8 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-145739",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260819-044726",
+    "candidateSelector" : "a[href*=\"/veranstaltung/\"]",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -2296,12 +2296,12 @@
     "includeKeywords" : [
 
     ],
-    "includeRegex" : "^https?://digitalzentrumhandel\\.de/veranstaltung/",
+    "includeRegex" : "^https?://digitalzentrumhandel\\.de/veranstaltung/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Mittelstand Digital",
     "priority" : 2,
     "selectors" : {
-      "date" : "",
+      "date" : "div.tribe-events-pro-map__event-date-tag",
       "item" : "a.tribe-events-c-small-cta__link",
       "link" : "a.tribe-events-c-small-cta__link",
       "title" : "h3.tribe-events-pro-map__event-title"
@@ -2320,19 +2320,51 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T12:57:39Z",
+    "visualLearnedAt" : "2026-08-19T02:47:26Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+          "includeRegex" : "^https?://digitalzentrumhandel\\.de/veranstaltung/",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "a.tribe-events-c-small-cta__link",
+            "link" : "a.tribe-events-c-small-cta__link",
+            "title" : "h3.tribe-events-pro-map__event-title"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T12:57:39Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 3,
+          "visualSampleURLs" : [
+            "https://digitalzentrumhandel.de/veranstaltung/webinare-fuer-den-handel-von-morgen/",
+            "https://digitalzentrumhandel.de/veranstaltung/digitalisierung-und-ki-im-geschaeft-und-onlinehandel/",
+            "https://digitalzentrumhandel.de/veranstaltung/handel-digital-summit-2026-einfach-verkaufen/"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "Kartenstruktur",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-18T08:26:53Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 35 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T02:47:26Z"
+      }
+    ],
     "visualRuleVersion" : 3,
-    "visualSampleCount" : 3,
+    "visualSampleCount" : 2,
     "visualSampleURLs" : [
       "https://digitalzentrumhandel.de/veranstaltung/webinare-fuer-den-handel-von-morgen/",
-      "https://digitalzentrumhandel.de/veranstaltung/digitalisierung-und-ki-im-geschaeft-und-onlinehandel/",
-      "https://digitalzentrumhandel.de/veranstaltung/handel-digital-summit-2026-einfach-verkaufen/"
+      "https://digitalzentrumhandel.de/veranstaltung/digitalisierung-und-ki-im-geschaeft-und-onlinehandel/"
     ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "Kartenstruktur",
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:26:53Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 35 Treffer",
+    "visualValidatedAt" : "2026-08-19T02:47:34Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 34 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
   {
