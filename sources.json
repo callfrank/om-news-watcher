@@ -39,21 +39,23 @@
     "waitMs" : 5000
   },
   {
-    "baselineVersion" : "v11-otto",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260819-044542",
+    "candidateSelector" : "a[href*=\"/unternehmen/de/presse/\"]",
     "enabled" : true,
-    "excludeRegex" : "/unternehmen/de/presse/(?:pressemitteilungen(?:-20\\d{2})?|unternehmen|otto-for-business)/?$",
-    "excludeTitleRegex" : "^(?:Presse|Unternehmen|Nachhaltigkeit|Technologie|OTTO for Business|Services|Marketing|Jobs|Kontakt|Handel|Logistik|Personal|Finanzen)$",
     "groups" : [
       "Firmen"
     ],
-    "minTitleLength" : 28,
+    "includeRegex" : "^https?://www\\.otto\\.de/unternehmen/de/presse/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "OTTO Pressemitteilungen",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "a.o-triple-teaser-row__teaser",
+      "link" : "a.o-triple-teaser-row__teaser",
+      "title" : "h2"
     },
     "tags" : [
       "Recht & Regulierung",
@@ -62,6 +64,47 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.otto.de/unternehmen/de/presse/pressemitteilungen",
+    "visualBackup" : {
+      "excludeRegex" : "/unternehmen/de/presse/(?:pressemitteilungen(?:-20\\d{2})?|unternehmen|otto-for-business)/?$",
+      "excludeTitleRegex" : "^(?:Presse|Unternehmen|Nachhaltigkeit|Technologie|OTTO for Business|Services|Marketing|Jobs|Kontakt|Handel|Logistik|Personal|Finanzen)$",
+      "minTitleLength" : 28,
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-19T02:45:42Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "excludeRegex" : "/unternehmen/de/presse/(?:pressemitteilungen(?:-20\\d{2})?|unternehmen|otto-for-business)/?$",
+          "excludeTitleRegex" : "^(?:Presse|Unternehmen|Nachhaltigkeit|Technologie|OTTO for Business|Services|Marketing|Jobs|Kontakt|Handel|Logistik|Personal|Finanzen)$",
+          "minTitleLength" : 28,
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T02:45:42Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.otto.de/unternehmen/de/presse/ai-ninjas-otto-macht-auszubildende-zu-ki-profis",
+      "https://www.otto.de/unternehmen/de/presse/pride-week-2026-otto-zeigt-haltung-f%C3%BCr-vielfalt-und-gleichberechtigung"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-19T02:45:48Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 3000
   },
   {
