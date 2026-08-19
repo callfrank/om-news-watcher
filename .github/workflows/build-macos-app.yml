@@ -22,8 +22,8 @@ jobs:
       - name: Repository laden
         uses: actions/checkout@v6
 
-      - name: v5.3.7-Patch anwenden
-        run: python3 "$GITHUB_WORKSPACE/mac-app/patch-v5.3.7.py"
+      - name: v5.3.8-Patch anwenden
+        run: python3 "$GITHUB_WORKSPACE/mac-app/patch-v5.3.8.py"
 
       - name: Xcode-Version anzeigen
         run: xcodebuild -version
@@ -77,7 +77,7 @@ jobs:
       - name: Hinweis
         run: |
           {
-            echo "## OM News Watcher Mac 5.3.7"
+            echo "## OM News Watcher Mac 5.3.8"
             echo ""
             echo "Die Release-App wurde erfolgreich gebaut."
             echo ""
