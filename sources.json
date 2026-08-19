@@ -673,8 +673,8 @@
     "allowExternal" : false,
     "allowTitleOnly" : false,
     "autoScroll" : 3,
-    "baselineVersion" : "mac-app-20260819-044643",
-    "candidateSelector" : "a[href*=\"/signal/case-studies/\"]",
+    "baselineVersion" : "mac-app-20260819-160714",
+    "candidateSelector" : "a[href*=\"/signal/case-studies/\"],[data-href*=\"/signal/case-studies/\"],[data-url*=\"/signal/case-studies/\"],[data-link*=\"/signal/case-studies/\"],[onclick*=\"/signal/case-studies/\"]",
     "enabled" : true,
     "groups" : [
       "Research"
@@ -700,8 +700,38 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-19T02:46:43Z",
+    "visualLearnedAt" : "2026-08-19T14:07:14Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href*=\"/signal/case-studies/\"]",
+          "includeRegex" : "^https?://www\\.mordorintelligence\\.com/signal/case-studies/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-19T02:46:43Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 2,
+          "visualSampleURLs" : [
+            "https://www.mordorintelligence.com/signal/case-studies/pharma-cold-chain-strategy",
+            "https://www.mordorintelligence.com/signal/case-studies/solid-state-transformers-market-insights"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster",
+          "visualValidated" : false,
+          "visualValidatedAt" : "2026-08-19T02:46:51Z",
+          "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T14:07:14Z"
+      },
       {
         "configuration" : {
           "allowExternal" : false,
@@ -737,9 +767,9 @@
     ],
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
-    "visualValidated" : false,
-    "visualValidatedAt" : "2026-08-19T02:46:51Z",
-    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-19T14:07:21Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer · URL-Muster",
     "waitMs" : 7000
   },
   {
