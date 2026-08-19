@@ -1,6 +1,6 @@
 [
   {
-    "guid": "c94c6e496c6216c043556ace",
+    "guid": "3ee8b872934bbee751b5203f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -9,15 +9,319 @@
     "tags": [],
     "priority": 2,
     "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
     "pageDate": "17.08.2026",
     "publishedAt": "2026-08-17T12:00:00.000Z",
-    "detectedAt": "2026-08-19T07:56:58.777Z",
-    "deliveredAt": "2026-08-19T07:56:58.777Z",
+    "detectedAt": "2026-08-19T08:53:31.567Z",
+    "deliveredAt": "2026-08-19T08:53:31.567Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "ee089b8106bbec2a208d339f",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "POST VERWANDELT POST CITY LINZ IN STREET-ART-ENSEMBLE",
+    "link": "https://news.post.at/presse/de/post/id/2333720/POST%20VERWANDELT%20POST%20CITY%20LINZ%20IN%20STREET-ART-ENSEMBLE",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T08:53:31.553Z",
+    "deliveredAt": "2026-08-19T08:53:31.553Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bcb53ddd4341866693ac1c1c",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "English",
+    "link": "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819_annex~5bf6f83ab0.en.pdf",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.496Z",
+    "deliveredAt": "2026-08-19T08:53:31.496Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4ca7bb1bb2556e291d924d3e",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Tables",
+    "link": "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819_annex~5bf6f83ab0.en.pdf?b8a95575de842c40903ca74d4086a479",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.496Z",
+    "deliveredAt": "2026-08-19T08:53:31.496Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a76daac27ae85cadcc5dc1fd",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Euro area monthly balance of payments: June 2026",
+    "link": "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819~df1712eb4a.en.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.496Z",
+    "deliveredAt": "2026-08-19T08:53:31.496Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d3193d09ff82fa6c3593f430",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Stimmung der Finanzverantwortlichen in Deutschland verdüstert sich weiter",
+    "link": "https://www.deloitte.com/de/de/about/press-room/stimmung-der-finanzverantwortlichen-in-deutschland-verduestert-sich-weiter.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.474Z",
+    "deliveredAt": "2026-08-19T08:53:31.474Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5e596611c46a94c6c2f4910f",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Auszeichnung für vorbildliche Unternehmensführung",
+    "link": "https://www.deloitte.com/de/de/about/press-room/auszeichnung-fuer-vorbildliche-unternehmensfuehrung-38-firmen-erhalten-den-best-managed-companies-award.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.474Z",
+    "deliveredAt": "2026-08-19T08:53:31.474Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a4d4f800e3683d15c6bbfb27",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Unter Kostendruck: Lebenspläne von Gen Z und Millennials verschieben sich",
+    "link": "https://www.deloitte.com/de/de/about/press-room/unter-kostendruck-Lebensplaene-von-gen-z-und-millennials-verschieben-sich.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.473Z",
+    "deliveredAt": "2026-08-19T08:53:31.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1fb29e4130d6655e73b4b086",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Kreislaufwirtschaft gewinnt strategische Bedeutung – Unternehmen sehen Chance für resilientere Wertschöpfungsketten",
+    "link": "https://www.deloitte.com/de/de/about/press-room/kreislaufwirtschaft-gewinnt-strategische-bedeutung--unternehmen-sehen-chance-fuer-resilientere-wertschoepfungsketten.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.473Z",
+    "deliveredAt": "2026-08-19T08:53:31.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e3c039cf660755bc020bdc2f",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Fast jeder Zweite besorgt um Deutschlands technologische Abhängigkeit in der Telekommunikation",
+    "link": "https://www.deloitte.com/de/de/about/press-room/fast-jeder-zweite-besorgt-um-deutschlands-technologische-abhaengigkeit-in-der-telekommunikation.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.473Z",
+    "deliveredAt": "2026-08-19T08:53:31.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "84fc7e3bc4986201dd88994d",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Kreislaufwirtschaft bei EnBW: Fallstudie zeigt wirtschaftliche Potenziale in der Photovoltaik",
+    "link": "https://www.deloitte.com/de/de/about/press-room/kreislaufwirtschaft-bei-enbw-fallstudie-zeigt-wirtschaftliche-potenziale-in-der-photovoltaik.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.473Z",
+    "deliveredAt": "2026-08-19T08:53:31.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "38d7b0f086960c1b8e15bfe3",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Großteil der Unternehmen in Deutschland setzt auf strikten Sparkurs",
+    "link": "https://www.deloitte.com/de/de/about/press-room/grossteil-der-unternehmen-in-deutschland-setzt-auf-strikten-sparkurs1.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.473Z",
+    "deliveredAt": "2026-08-19T08:53:31.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9656c5cd0345e49c88f6582e",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Europäischer Fußballmarkt überschreitet erstmals die Marke von 40 Milliarden Euro",
+    "link": "https://www.deloitte.com/de/de/about/press-room/europaeischer-fussballmarkt--ueberschreitet-erstmals-die-marke-von-40-milliarden-euro.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.473Z",
+    "deliveredAt": "2026-08-19T08:53:31.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "056e438046c9e771c51f8c31",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Jeder Zweite in Europa shoppt mit KI-Unterstützung",
+    "link": "https://www.deloitte.com/de/de/about/press-room/jeder-zweite-in-europa-shoppt-mit-KI-untersuetzung.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.473Z",
+    "deliveredAt": "2026-08-19T08:53:31.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "06bbfa64a72f6fffcc109890",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Hohe Kosten und geringe Binnennachfrage belasten mittelständische Unternehmen",
+    "link": "https://www.deloitte.com/de/de/about/press-room/hohe-kosten-und-geringe-binnennachfrage-belasten-mittelstaendische-unternehmen.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.473Z",
+    "deliveredAt": "2026-08-19T08:53:31.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "93cb3075ab3c657fb17351e7",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Europas Automobilindustrie entgehen Milliardengewinne",
+    "link": "https://www.deloitte.com/de/de/about/press-room/europas-automobilindustrie-entgehen-milliardengewinne.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.473Z",
+    "deliveredAt": "2026-08-19T08:53:31.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ad13197da4aee6f8549ef0d7",
+    "source": "Deloitte",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Health-Apps und Fitnesstracker: Potenzial für die medizinische Versorgung wird noch nicht ausgeschöpft",
+    "link": "https://www.deloitte.com/de/de/about/press-room/health-apps-und-fitnesstracker-potenzial-fuer-die-medizinische-versorgung-wird-noch-nicht-ausgeschoepft.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T08:53:31.472Z",
+    "deliveredAt": "2026-08-19T08:53:31.472Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "664cad4bd87ea9e58ce82b79",
