@@ -7266,6 +7266,7 @@
       "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819~df1712eb4a.en.html",
       "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819_annex~5bf6f83ab0.en.pdf?b8a95575de842c40903ca74d4086a479",
       "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819_annex~5bf6f83ab0.en.pdf",
+      "https://www.ecb.europa.eu/pub/pdf/other/ecb.mepletter260807_Hauser~184853fae9.de.pdf",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787057275751-7afl4m",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787062091199-rq9zde",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787064833439-mpefur",
@@ -7281,8 +7282,7 @@
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787106967863-8anyxh",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787107533104-t71tb8",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787111948020-khmwjg",
-      "https://www.ecb.europa.eu/pub/pdf/other/ecb.mepletter260807_Hauser~184853fae9.en.pdf",
-      "https://www.ecb.europa.eu/pub/pdf/other/ecb.mepletter260807_Hauser~184853fae9.de.pdf"
+      "https://www.ecb.europa.eu/pub/pdf/other/ecb.mepletter260807_Hauser~184853fae9.en.pdf"
     ],
     "Klarna": [],
     "Klarna QZ": [],
@@ -7348,8 +7348,8 @@
     ],
     "eBay QZ": [],
     "eBay DE": [
-      "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
       "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+      "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
       "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
@@ -8125,13 +8125,22 @@
       "deliveredAt": "2026-08-19T10:47:06.807Z",
       "recovered": true
     },
-    "Post AT": {
-      "title": "POST VERWANDELT POST CITY LINZ IN STREET-ART-ENSEMBLE",
-      "link": "https://news.post.at/presse/de/post/id/2333720/POST%20VERWANDELT%20POST%20CITY%20LINZ%20IN%20STREET-ART-ENSEMBLE",
+    "Aboutamazon": {
+      "title": "Amazon Prime Air drone delivery is expanding to nearly 500 cities and towns this year",
+      "link": "https://www.aboutamazon.com/news/transportation/amazon-prime-air-drone-delivery-expansion",
+      "pageDate": "Aug. 19, 2026",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "detectedAt": "2026-08-19T10:47:06.797Z",
+      "deliveredAt": "2026-08-19T10:47:06.797Z",
+      "recovered": false
+    },
+    "Nielseniq": {
+      "title": "58% of Consumers Say They Don’t Care Whether a Product is a National Brand or Private Label. They Just Buy What They Need",
+      "link": "https://nielseniq.com/global/en/news-center/2026/private-label-adoption-report/",
       "pageDate": "19.08.2026",
       "publishedAt": "2026-08-19T12:00:00.000Z",
-      "detectedAt": "2026-08-19T08:53:31.553Z",
-      "deliveredAt": "2026-08-19T08:53:31.553Z",
+      "detectedAt": "2026-08-19T10:47:06.792Z",
+      "deliveredAt": "2026-08-19T10:47:06.792Z",
       "recovered": false
     },
     "ECB": {
@@ -8141,6 +8150,24 @@
       "publishedAt": null,
       "detectedAt": "2026-08-19T10:47:06.733Z",
       "deliveredAt": "2026-08-19T10:47:06.733Z",
+      "recovered": false
+    },
+    "Target QZ": {
+      "title": "Target Corporation Reports Second Quarter Earnings",
+      "link": "https://corporate.target.com/press/release/2026/08/target-corporation-reports-second-quarter-earnings",
+      "pageDate": null,
+      "publishedAt": null,
+      "detectedAt": "2026-08-19T10:47:06.712Z",
+      "deliveredAt": "2026-08-19T10:47:06.712Z",
+      "recovered": false
+    },
+    "Post AT": {
+      "title": "POST VERWANDELT POST CITY LINZ IN STREET-ART-ENSEMBLE",
+      "link": "https://news.post.at/presse/de/post/id/2333720/POST%20VERWANDELT%20POST%20CITY%20LINZ%20IN%20STREET-ART-ENSEMBLE",
+      "pageDate": "19.08.2026",
+      "publishedAt": "2026-08-19T12:00:00.000Z",
+      "detectedAt": "2026-08-19T08:53:31.553Z",
+      "deliveredAt": "2026-08-19T08:53:31.553Z",
       "recovered": false
     },
     "Deloitte": {
@@ -8251,15 +8278,6 @@
       "deliveredAt": "2026-08-18T12:48:38.685Z",
       "recovered": false
     },
-    "Target QZ": {
-      "title": "Target Corporation Reports Second Quarter Earnings",
-      "link": "https://corporate.target.com/press/release/2026/08/target-corporation-reports-second-quarter-earnings",
-      "pageDate": null,
-      "publishedAt": null,
-      "detectedAt": "2026-08-19T10:47:06.712Z",
-      "deliveredAt": "2026-08-19T10:47:06.712Z",
-      "recovered": false
-    },
     "Mollie Papers": {
       "title": "ArtikelEntdecken Sie hilfreiche Guides für Ihr Unternehmen",
       "link": "https://www.mollie.com/de/growth",
@@ -8287,15 +8305,6 @@
       "deliveredAt": "2026-08-18T11:15:59.080Z",
       "recovered": false
     },
-    "Aboutamazon": {
-      "title": "Amazon Prime Air drone delivery is expanding to nearly 500 cities and towns this year",
-      "link": "https://www.aboutamazon.com/news/transportation/amazon-prime-air-drone-delivery-expansion",
-      "pageDate": "Aug. 19, 2026",
-      "publishedAt": "2026-08-19T00:00:00.000Z",
-      "detectedAt": "2026-08-19T10:47:06.797Z",
-      "deliveredAt": "2026-08-19T10:47:06.797Z",
-      "recovered": false
-    },
     "Zew": {
       "title": "Konjunkturerwartungen ziehen weiter an // Der ZEW-Indikator liegt bei plus 34,2 Punkten",
       "link": "https://www.zew.de/presse/pressearchiv/konjunkturerwartungen-ziehen-weiter-an",
@@ -8303,15 +8312,6 @@
       "publishedAt": null,
       "detectedAt": "2026-08-18T09:50:16.717Z",
       "deliveredAt": "2026-08-18T09:50:16.717Z",
-      "recovered": false
-    },
-    "Nielseniq": {
-      "title": "58% of Consumers Say They Don’t Care Whether a Product is a National Brand or Private Label. They Just Buy What They Need",
-      "link": "https://nielseniq.com/global/en/news-center/2026/private-label-adoption-report/",
-      "pageDate": "19.08.2026",
-      "publishedAt": "2026-08-19T12:00:00.000Z",
-      "detectedAt": "2026-08-19T10:47:06.792Z",
-      "deliveredAt": "2026-08-19T10:47:06.792Z",
       "recovered": false
     },
     "Handelsverband": {
