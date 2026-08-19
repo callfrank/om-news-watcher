@@ -7203,6 +7203,9 @@
       "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fst260818.sv.html",
       "https://www.ecb.europa.eu/press/annual-reports-financial-statements/wfs/2026/html/ecb.fs260818.en.html",
       "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html",
+      "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819~df1712eb4a.en.html",
+      "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819_annex~5bf6f83ab0.en.pdf?b8a95575de842c40903ca74d4086a479",
+      "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819_annex~5bf6f83ab0.en.pdf",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787057275751-7afl4m",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787062091199-rq9zde",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787064833439-mpefur",
@@ -7217,10 +7220,7 @@
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787104477395-wha6o5",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787106967863-8anyxh",
       "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787107533104-t71tb8",
-      "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787111948020-khmwjg",
-      "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819~df1712eb4a.en.html",
-      "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819_annex~5bf6f83ab0.en.pdf?b8a95575de842c40903ca74d4086a479",
-      "https://www.ecb.europa.eu/press/stats/bop/2026/html/ecb.bp260819_annex~5bf6f83ab0.en.pdf"
+      "https://www.ecb.europa.eu/home/html/index.en.html?_omw_fresh=1787111948020-khmwjg"
     ],
     "Klarna": [],
     "Klarna QZ": [],
@@ -7285,8 +7285,8 @@
     ],
     "eBay QZ": [],
     "eBay DE": [
-      "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
       "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+      "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
       "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
@@ -8075,6 +8075,15 @@
       "deliveredAt": "2026-08-19T08:53:31.496Z",
       "recovered": false
     },
+    "Deloitte": {
+      "title": "Stimmung der Finanzverantwortlichen in Deutschland verdüstert sich weiter",
+      "link": "https://www.deloitte.com/de/de/about/press-room/stimmung-der-finanzverantwortlichen-in-deutschland-verduestert-sich-weiter.html",
+      "pageDate": null,
+      "publishedAt": null,
+      "detectedAt": "2026-08-19T08:53:31.474Z",
+      "deliveredAt": "2026-08-19T08:53:31.474Z",
+      "recovered": false
+    },
     "Onlinemarktplatz": {
       "title": "E-Evidence-Verordnung jetzt anwendbar: Diese Pflichten treffen Marktplätze und Plattformen",
       "link": "https://onlinemarktplatz.de/271165/e-evidence-verordnung/",
@@ -8307,15 +8316,6 @@
       "publishedAt": null,
       "detectedAt": "2026-08-14T13:18:35.945Z",
       "deliveredAt": "2026-08-14T13:18:35.945Z",
-      "recovered": false
-    },
-    "Deloitte": {
-      "title": "Stimmung der Finanzverantwortlichen in Deutschland verdüstert sich weiter",
-      "link": "https://www.deloitte.com/de/de/about/press-room/stimmung-der-finanzverantwortlichen-in-deutschland-verduestert-sich-weiter.html",
-      "pageDate": null,
-      "publishedAt": null,
-      "detectedAt": "2026-08-19T08:53:31.474Z",
-      "deliveredAt": "2026-08-19T08:53:31.474Z",
       "recovered": false
     }
   },
