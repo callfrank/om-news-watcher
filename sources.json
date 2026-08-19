@@ -2482,7 +2482,10 @@
     "waitMs" : 2500
   },
   {
-    "baselineVersion" : "mac-app-20260817-145947",
+    "allowExternal" : true,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260819-160836",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -2493,18 +2496,54 @@
     "includeKeywords" : [
 
     ],
+    "minTitleLength" : 5,
     "name" : "ECB",
     "priority" : 2,
     "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "date" : "span.date",
+      "item" : "div.box",
+      "link" : "a",
+      "title" : "h3"
     },
     "tags" : [
 
     ],
     "url" : "https://www.ecb.europa.eu/home/html/index.en.html",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-19T14:08:36Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T14:08:36Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.hr-sinfonieorchester.de/konzerte/konzerte-26-27/allgemeine-hinweise-europa-open-air-2026-v1,europa-open-air-2026--hinweise-100.html",
+      "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-19T14:08:41Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
   {
