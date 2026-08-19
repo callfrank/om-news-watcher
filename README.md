@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.3.3**
+**Aktueller Stand: v5.3.4**
 
 ---
 
@@ -598,6 +598,36 @@ im Reader redaktionell bearbeiten
 
 
 
+
+## v5.3.4 – visuelles Einlernen: identische Klicklogik
+
+v5.3.4 behebt einen Unterschied zwischen visuellem Trainer, Schnelltest und
+GitHub-Watcher. Der Trainer konnte bereits Meldungskarten erkennen, deren
+Ziel über `onclick` oder `data-*` hinterlegt ist. Test und Watcher waren an
+dieser Stelle enger und konnten dieselben Karten nach einem Reload deshalb
+mit 0 Treffern bewerten.
+
+Ab v5.3.4 verwenden Trainer, Schnelltest und Watcher dieselbe Menge klickbarer
+Elemente:
+
+- `a[href]`
+- `data-href`
+- `data-url`
+- `data-link`
+- `[role="link"]`
+- `button[onclick]`
+- beliebige `[onclick]`-Elemente
+
+Das aus den markierten Beispielen erzeugte Kandidatenmuster wird außerdem
+nicht mehr ausschließlich als `a[href*="..."]` gespeichert, sondern kann
+denselben Pfad auch in `data-*`- und `onclick`-Attributen erkennen.
+
+### Versionen
+
+- macOS-App: **5.3.4**
+- Watcher: **0.29**
+- Tracking-/Health-Schema: **3**
+
 ## v5.3.3 – Build-Hotfix für den Regel-Debugger
 
 v5.3.3 korrigiert einen Swift-Compilerfehler aus v5.3.1/v5.3.2.
@@ -973,6 +1003,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.3.3**
+**OM News Watcher v5.3.4**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.

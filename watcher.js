@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.28';
+const VERSION = '0.29';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -775,7 +775,7 @@ async function extractConfigured(page, source) {
 
   return await page.locator(sel.item).evaluateAll((nodes, cfg) => {
     const clean = value => (value || '').replace(/\s+/g, ' ').trim();
-    const clickableSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick]';
+    const clickableSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick],[onclick]';
     const generic = value => {
       const lower = clean(value).toLowerCase();
       return !lower || /^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|zur konferenz)/i.test(lower) || /^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(lower);
@@ -785,7 +785,7 @@ async function extractConfigured(page, source) {
       try { return root.matches?.(selector) ? root : root.querySelector?.(selector); } catch { return null; }
     };
     const hrefFrom = (el, root) => {
-      const nodes = [el, el?.closest?.('a[href]'), root];
+      const nodes = [el, el?.closest?.('a[href],[data-href],[data-url],[data-link],[role="link"],[onclick]'), root];
       for (const node of nodes) {
         if (!node?.getAttribute) continue;
         const raw = node.href || node.getAttribute('href') || node.getAttribute('data-href') || node.getAttribute('data-url') || node.getAttribute('data-link') || '';
@@ -852,7 +852,7 @@ async function extractConfigured(page, source) {
 
 async function extractAutomatic(page, source) {
   const custom = source.candidateSelector;
-  const selector = custom || 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick]';
+  const selector = custom || 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick],[onclick]';
 
   return await page.locator(selector).evaluateAll(nodes => {
     const clean = value => (value || '').replace(/\s+/g, ' ').trim();
@@ -862,7 +862,7 @@ async function extractAutomatic(page, source) {
       return !lower || /^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|zur konferenz)/i.test(lower) || /^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(lower);
     };
     const hrefFrom = (el, card) => {
-      const nodes2 = [el, el?.closest?.('a[href]'), card];
+      const nodes2 = [el, el?.closest?.('a[href],[data-href],[data-url],[data-link],[role="link"],[onclick]'), card];
       for (const node of nodes2) {
         if (!node?.getAttribute) continue;
         const raw = node.href || node.getAttribute('href') || node.getAttribute('data-href') || node.getAttribute('data-url') || node.getAttribute('data-link') || '';
