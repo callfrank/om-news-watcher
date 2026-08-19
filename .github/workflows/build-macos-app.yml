@@ -31,6 +31,9 @@ jobs:
       - name: v5.3.9-Hotfix anwenden
         run: python3 "$GITHUB_WORKSPACE/mac-app/patch-v5.3.9-hotfix.py"
 
+      - name: v5.4.0-Patch anwenden
+        run: python3 "$GITHUB_WORKSPACE/mac-app/patch-v5.4.0.py"
+
       - name: Xcode-Version anzeigen
         run: xcodebuild -version
 
@@ -83,7 +86,7 @@ jobs:
       - name: Hinweis
         run: |
           {
-            echo "## OM News Watcher Mac 5.3.9"
+            echo "## OM News Watcher Mac 5.4.0"
             echo ""
             echo "Die Release-App wurde erfolgreich gebaut."
             echo ""
