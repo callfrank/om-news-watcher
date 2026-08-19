@@ -286,6 +286,40 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         let count = filtered.count
         let examples = hits(from: filtered)
 
+        let evaluations = filtered.map { row in
+            (
+                row: row,
+                rejectionReason: newsEligibilityRejectionReason(
+                    row,
+                    source: source,
+                    reference: Date()
+                )
+            )
+        }
+
+        let eligible = evaluations.compactMap { evaluation in
+            evaluation.rejectionReason == nil ? evaluation.row : nil
+        }
+
+        let rejected = evaluations.compactMap { evaluation -> SourceRejectedHit? in
+            guard let reason = evaluation.rejectionReason else {
+                return nil
+            }
+
+            return SourceRejectedHit(
+                title: evaluation.row.title,
+                url: evaluation.row.href.isEmpty ? nil : evaluation.row.href,
+                publicationDate:
+                    evaluation.row.date.isEmpty
+                    ? nil
+                    : displayPublicationDate(evaluation.row.date),
+                reason: reason
+            )
+        }
+
+        let eligibleExamples = hits(from: eligible)
+        let rejectedExamples = Array(rejected.prefix(6))
+
         if count == 0 {
             let repair = source.visualLearned ? nil : makeRepairProposal(
                 source,
@@ -302,9 +336,12 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 kind: .zeroHits,
                 hitCount: 0,
                 examples: [],
+                eligibleCount: 0,
+                eligibleExamples: [],
+                rejectedExamples: [],
                 message:
                     (repair == nil
-                     ? "Keine möglichen Artikel erkannt."
+                     ? "Keine technisch plausiblen Artikel erkannt."
                      : "Keine Treffer mit der aktuellen Regel. Die App hat eine mögliche Artikelstruktur gefunden.") + visualNote,
                 testedAt: Date(),
                 repairProposal: repair
@@ -319,7 +356,12 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                     kind: .largeArchive,
                     hitCount: count,
                     examples: examples,
-                    message: "\(count) strukturell plausible Artikel erkannt. Die hohe Zahl allein wird nicht als Fehler gewertet.",
+                    eligibleCount: eligible.count,
+                    eligibleExamples: eligibleExamples,
+                    rejectedExamples: rejectedExamples,
+                    message:
+                        "\(count) technisch plausible Artikel erkannt; " +
+                        "\(eligible.count) würden aktuell in den Reader gelangen.",
                     testedAt: Date()
                 )
             }
@@ -335,23 +377,159 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                 kind: .tooManyHits,
                 hitCount: count,
                 examples: examples,
+                eligibleCount: eligible.count,
+                eligibleExamples: eligibleExamples,
+                rejectedExamples: rejectedExamples,
                 message:
                     repair == nil
-                    ? "\(count) Treffer erkannt; darunter sind vermutlich Navigation, fremde Dokumente oder unpassende Bereiche."
+                    ? "\(count) technisch plausible Treffer erkannt; \(eligible.count) wären aktuell Reader-fähig. Die Struktur sollte geprüft werden."
                     : "\(count) Treffer erkannt. Ein strukturell passenderer Artikelbereich wurde gefunden.",
                 testedAt: Date(),
                 repairProposal: repair
             )
         }
 
+        let kind: SourceTestKind =
+            eligible.isEmpty ? .noCurrentNews : .success
+
+        let message: String
+        if eligible.isEmpty {
+            message =
+                "\(count) technisch plausible Treffer erkannt, aber keiner erfüllt aktuell das News-Eligibility-Gate. " +
+                "Diese Treffer würden NICHT in Reader, RSS oder E-Mail gelangen."
+        } else if rejected.isEmpty {
+            message =
+                "\(count) technisch plausible Treffer erkannt; alle \(eligible.count) sind aktuell Reader-fähig."
+        } else {
+            message =
+                "\(count) technisch plausible Treffer erkannt; \(eligible.count) Reader-fähig, \(rejected.count) verworfen."
+        }
+
         return SourceTestResult(
             sourceID: source.id,
-            kind: .success,
+            kind: kind,
             hitCount: count,
             examples: examples,
-            message: "\(count) mögliche Artikel erkannt.",
+            eligibleCount: eligible.count,
+            eligibleExamples: eligibleExamples,
+            rejectedExamples: rejectedExamples,
+            message: message,
             testedAt: Date()
         )
+    }
+
+    private func newsEligibilityRejectionReason(
+        _ row: Candidate,
+        source: SourceRecord,
+        reference: Date
+    ) -> String? {
+        let title = normalizeWhitespace(row.title)
+        let lowerTitle = title.lowercased()
+
+        if looksLikeCSSArtifact(title) {
+            return "HTML/SVG-Artefakt statt Überschrift"
+        }
+
+        let staticLandingTitles: Set<String> = [
+            "broschüren und infomaterial",
+            "broschueren und infomaterial",
+            "brochures and information material",
+            "all publications",
+            "alle publikationen"
+        ]
+
+        if staticLandingTitles.contains(lowerTitle) {
+            return "Übersichts-/Publikationsseite statt News"
+        }
+
+        if let url = URL(string: row.href) {
+            let path = url.path.lowercased()
+
+            if path.contains("/shareddocs/publikationen/") ||
+               path.range(
+                of: #"/(?:broschueren|broschuren|brochures|ratgeber|guides)/"#,
+                options: .regularExpression
+               ) != nil {
+                return "Statische Publikation/Ratgeberseite"
+            }
+        }
+
+        if !row.date.isEmpty {
+            guard let publicationDate = parsedPublicationDate(row.date) else {
+                return "Veröffentlichungsdatum nicht zuverlässig lesbar"
+            }
+
+            let lower = reference.addingTimeInterval(-48 * 60 * 60)
+            let upper = reference.addingTimeInterval(24 * 60 * 60)
+
+            if publicationDate < lower {
+                return "Altbestand – Veröffentlichung älter als 48 Stunden"
+            }
+
+            if publicationDate > upper {
+                return "Unplausibles Veröffentlichungsdatum in der Zukunft"
+            }
+        }
+
+        return nil
+    }
+
+    private func looksLikeCSSArtifact(_ value: String) -> Bool {
+        let text = normalizeWhitespace(value)
+
+        if text.range(
+            of: #"\.[A-Za-z0-9_-]+\s*\{[^}]{0,400}(?:fill|stroke|color|font|display)\s*:"#,
+            options: [.regularExpression, .caseInsensitive]
+        ) != nil {
+            return true
+        }
+
+        return text.contains("{") &&
+            text.contains(";") &&
+            text.range(
+                of: #"(?:stroke-width|stroke-linecap|stroke-linejoin|fill|stroke)\s*:"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil
+    }
+
+    private func parsedPublicationDate(_ value: String) -> Date? {
+        let text = normalizeWhitespace(value)
+
+        let iso = ISO8601DateFormatter()
+        if let date = iso.date(from: text) {
+            return date
+        }
+
+        let formats = [
+            "dd.MM.yyyy", "d.M.yyyy", "dd.MM.yyyy HH:mm", "d.M.yyyy HH:mm",
+            "d. MMM. yyyy", "d. MMM yyyy", "d MMMM yyyy", "d. MMMM yyyy",
+            "MMMM d, yyyy", "MMM d, yyyy", "yyyy-MM-dd"
+        ]
+
+        for format in formats {
+            let formatter = DateFormatter()
+            formatter.locale = format.contains(",")
+                ? Locale(identifier: "en_US_POSIX")
+                : Locale(identifier: "de_DE")
+            formatter.timeZone = TimeZone(identifier: "Europe/Berlin")
+            formatter.dateFormat = format
+
+            if let date = formatter.date(from: text) {
+                // Tagesdaten zur Mitte des Tages normalisieren, damit der
+                // gleiche 24h-Toleranzansatz wie im GitHub-Watcher gilt.
+                if !format.contains("HH") {
+                    return Calendar.current.date(
+                        bySettingHour: 12,
+                        minute: 0,
+                        second: 0,
+                        of: date
+                    ) ?? date
+                }
+                return date
+            }
+        }
+
+        return nil
     }
 
     private func archiveLooksPlausible(
@@ -688,7 +866,10 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             "publications", "news", "presse", "press", "menu", "navigation",
             "newsroom", "press releases", "pressemitteilungen", "events",
             "media & resources", "news & resources", "unternehmensnews",
-            "unternehmensmitteilungen", "company news", "company updates"
+            "unternehmensmitteilungen", "company news", "company updates",
+            "main menu", "who we are", "find us", "find us on",
+            "dokumentation zur fehlerbehebung", "aktualisieren sie diese seite",
+            "update this page"
         ]
 
         if exact.contains(lower) {
@@ -702,6 +883,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         ]
 
         if prefixes.contains(where: { lower.hasPrefix($0) }) { return true }
+        if lower.range(of: #"^(?:seite|page)\s*\d+$"#, options: [.regularExpression, .caseInsensitive]) != nil { return true }
+        if lower.range(of: #"^(?:aktuelle\s+seite|current\s+page)\s*\d+$"#, options: [.regularExpression, .caseInsensitive]) != nil { return true }
         if lower.range(of: #"^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$"#, options: .regularExpression) != nil { return true }
         return false
     }

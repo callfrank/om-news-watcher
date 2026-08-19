@@ -2,6 +2,7 @@ import Foundation
 
 enum SourceTestKind: String, Codable {
     case success
+    case noCurrentNews
     case largeArchive
     case zeroHits
     case tooManyHits
@@ -11,6 +12,7 @@ enum SourceTestKind: String, Codable {
     var title: String {
         switch self {
         case .success: return "Quelle funktioniert"
+        case .noCurrentNews: return "Quelle funktioniert – aktuell keine neue Meldung"
         case .largeArchive: return "Großes Archiv – plausibel"
         case .zeroHits: return "Keine Treffer"
         case .tooManyHits: return "Zu viele Treffer"
@@ -20,7 +22,7 @@ enum SourceTestKind: String, Codable {
     }
 
     var isSuccessLike: Bool {
-        self == .success || self == .largeArchive
+        self == .success || self == .noCurrentNews || self == .largeArchive
     }
 }
 
@@ -34,6 +36,27 @@ struct SourceTestHit: Identifiable, Equatable {
         self.title = title
         self.url = url
         self.publicationDate = publicationDate
+    }
+}
+
+
+struct SourceRejectedHit: Identifiable, Equatable {
+    let id = UUID()
+    let title: String
+    let url: String?
+    let publicationDate: String?
+    let reason: String
+
+    init(
+        title: String,
+        url: String?,
+        publicationDate: String? = nil,
+        reason: String
+    ) {
+        self.title = title
+        self.url = url
+        self.publicationDate = publicationDate
+        self.reason = reason
     }
 }
 
@@ -107,6 +130,9 @@ struct SourceTestResult: Identifiable, Equatable {
     let kind: SourceTestKind
     let hitCount: Int
     let examples: [SourceTestHit]
+    let eligibleCount: Int
+    let eligibleExamples: [SourceTestHit]
+    let rejectedExamples: [SourceRejectedHit]
     let message: String
     let testedAt: Date
     let repairProposal: SourceRepairProposal?
@@ -117,6 +143,9 @@ struct SourceTestResult: Identifiable, Equatable {
         kind: SourceTestKind,
         hitCount: Int,
         examples: [SourceTestHit],
+        eligibleCount: Int? = nil,
+        eligibleExamples: [SourceTestHit]? = nil,
+        rejectedExamples: [SourceRejectedHit] = [],
         message: String,
         testedAt: Date,
         repairProposal: SourceRepairProposal? = nil,
@@ -126,6 +155,9 @@ struct SourceTestResult: Identifiable, Equatable {
         self.kind = kind
         self.hitCount = hitCount
         self.examples = examples
+        self.eligibleCount = eligibleCount ?? hitCount
+        self.eligibleExamples = eligibleExamples ?? examples
+        self.rejectedExamples = rejectedExamples
         self.message = message
         self.testedAt = testedAt
         self.repairProposal = repairProposal
@@ -138,6 +170,9 @@ struct SourceTestResult: Identifiable, Equatable {
             kind: kind,
             hitCount: hitCount,
             examples: examples,
+            eligibleCount: eligibleCount,
+            eligibleExamples: eligibleExamples,
+            rejectedExamples: rejectedExamples,
             message: message,
             testedAt: testedAt,
             repairProposal: repairProposal,

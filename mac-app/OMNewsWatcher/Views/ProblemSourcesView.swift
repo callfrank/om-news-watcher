@@ -145,6 +145,7 @@ struct ProblemSourcesView: View {
         if let result = model.testResults[source.id] {
             switch result.kind {
             case .success: return "checkmark.circle.fill"
+            case .noCurrentNews: return "checkmark.circle"
             case .largeArchive: return "archivebox.circle.fill"
             case .zeroHits: return "questionmark.circle.fill"
             case .tooManyHits: return "exclamationmark.triangle.fill"
@@ -159,7 +160,7 @@ struct ProblemSourcesView: View {
     private func color(for source: SourceRecord) -> Color {
         if let result = model.testResults[source.id] {
             switch result.kind {
-            case .success, .largeArchive: return .green
+            case .success, .noCurrentNews, .largeArchive: return .green
             case .zeroHits, .tooManyHits, .timeout: return .orange
             case .technicalError: return .red
             }

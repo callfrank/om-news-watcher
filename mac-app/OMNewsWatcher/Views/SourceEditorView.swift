@@ -199,7 +199,7 @@ struct SourceEditorView: View {
 
                     Text(
                         draft.enabled
-                            ? "Geplante GitHub-Läufe berücksichtigen das Intervall. „Jetzt prüfen“ prüft bewusst alle aktiven Quellen."
+                            ? "Geplante GitHub-Läufe berücksichtigen das Intervall. „Alle Quellen prüfen“ startet bewusst den vollständigen GitHub-Watcher."
                             : "Die Quelle bleibt erhalten, wird aber nicht geprüft und erzeugt keine neuen Meldungen."
                     )
                     .font(.caption)

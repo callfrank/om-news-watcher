@@ -563,7 +563,7 @@ struct ContentView: View {
                     VStack(alignment: .leading, spacing: 3) {
                         Text("Schnelltest mit der aktuellen Erkennungsregel")
                             .font(.headline)
-                        Text("Die App lädt die Seite lokal und zeigt Beispieltreffer, 0 Treffer, zu viele Treffer oder technische Fehler.")
+                        Text("Die App trennt jetzt zwischen technisch erkannten Treffern und Meldungen, die tatsächlich in Reader/RSS übernommen würden.")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
@@ -605,18 +605,46 @@ struct ContentView: View {
                         }
                     }
 
-                    if !result.examples.isEmpty {
-                        VStack(alignment: .leading, spacing: 7) {
-                            Text("Beispieltreffer")
-                                .font(.subheadline.bold())
+                    HStack(spacing: 18) {
+                        Label(
+                            "\(result.hitCount) technisch erkannt",
+                            systemImage: "scope"
+                        )
+                        .foregroundStyle(.secondary)
 
-                            ForEach(result.examples) { hit in
+                        Label(
+                            "\(result.eligibleCount) Reader-fähig",
+                            systemImage: result.eligibleCount > 0
+                                ? "checkmark.seal.fill"
+                                : "checkmark.seal"
+                        )
+                        .foregroundStyle(
+                            result.eligibleCount > 0 ? .green : .secondary
+                        )
+
+                        if !result.rejectedExamples.isEmpty {
+                            Label(
+                                "\(max(0, result.hitCount - result.eligibleCount)) verworfen",
+                                systemImage: "line.3.horizontal.decrease.circle"
+                            )
+                            .foregroundStyle(.orange)
+                        }
+                    }
+                    .font(.caption)
+
+                    if !result.eligibleExamples.isEmpty {
+                        VStack(alignment: .leading, spacing: 7) {
+                            Text("Würde als neue Meldung gespeichert")
+                                .font(.subheadline.bold())
+                                .foregroundStyle(.green)
+
+                            ForEach(result.eligibleExamples) { hit in
                                 Button {
                                     model.openHit(hit)
                                 } label: {
                                     HStack(alignment: .top, spacing: 8) {
-                                        Image(systemName: "doc.text")
-                                            .foregroundStyle(.secondary)
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .foregroundStyle(.green)
                                         VStack(alignment: .leading, spacing: 2) {
                                             Text(hit.title)
                                                 .lineLimit(2)
@@ -626,7 +654,6 @@ struct ContentView: View {
                                                     .font(.caption2)
                                                     .foregroundStyle(.secondary)
                                             }
-
                                             if let url = hit.url {
                                                 Text(url)
                                                     .font(.caption2)
@@ -643,6 +670,59 @@ struct ContentView: View {
                         }
                         .padding(.top, 4)
                     }
+
+                    if !result.rejectedExamples.isEmpty {
+                        VStack(alignment: .leading, spacing: 7) {
+                            Text("Erkannt, aber vom News-Eligibility-Gate verworfen")
+                                .font(.subheadline.bold())
+                                .foregroundStyle(.orange)
+
+                            ForEach(result.rejectedExamples) { hit in
+                                Button {
+                                    if let url = hit.url {
+                                        model.openHit(
+                                            SourceTestHit(
+                                                title: hit.title,
+                                                url: url,
+                                                publicationDate: hit.publicationDate
+                                            )
+                                        )
+                                    }
+                                } label: {
+                                    HStack(alignment: .top, spacing: 8) {
+                                        Image(systemName: "minus.circle.fill")
+                                            .foregroundStyle(.orange)
+                                        VStack(alignment: .leading, spacing: 2) {
+                                            Text(hit.title)
+                                                .lineLimit(2)
+                                                .multilineTextAlignment(.leading)
+                                            Text(hit.reason)
+                                                .font(.caption)
+                                                .foregroundStyle(.orange)
+                                            if let publicationDate = hit.publicationDate {
+                                                Text("Veröffentlicht: \(publicationDate)")
+                                                    .font(.caption2)
+                                                    .foregroundStyle(.secondary)
+                                            }
+                                            if let url = hit.url {
+                                                Text(url)
+                                                    .font(.caption2)
+                                                    .foregroundStyle(.secondary)
+                                                    .lineLimit(1)
+                                            }
+                                        }
+                                        Spacer()
+                                    }
+                                    .contentShape(Rectangle())
+                                }
+                                .buttonStyle(.plain)
+                                .disabled(hit.url == nil)
+                            }
+                        }
+                        .padding(.top, 4)
+                    }
+
+
 
 
                     if let repair = result.repairProposal {
@@ -805,10 +885,10 @@ struct ContentView: View {
             } label: {
                 HStack(spacing: 5) {
                     Image(systemName: "play.fill")
-                    Text("Jetzt prüfen")
+                    Text("Alle Quellen prüfen")
                 }
             }
-            .help("GitHub-Watcher sofort starten")
+            .help("GitHub-Watcher starten und alle aktuell fälligen aktiven Quellen prüfen")
             .disabled(model.isBusy || model.isTestingAll)
         }
 
@@ -1049,6 +1129,7 @@ struct ContentView: View {
     private func testIcon(_ kind: SourceTestKind) -> String {
         switch kind {
         case .success: return "checkmark.circle.fill"
+        case .noCurrentNews: return "checkmark.circle"
         case .largeArchive: return "archivebox.circle.fill"
         case .zeroHits: return "questionmark.circle.fill"
         case .tooManyHits: return "exclamationmark.triangle.fill"
@@ -1059,7 +1140,7 @@ struct ContentView: View {
 
     private func testColor(_ kind: SourceTestKind) -> Color {
         switch kind {
-        case .success, .largeArchive: return .green
+        case .success, .noCurrentNews, .largeArchive: return .green
         case .zeroHits, .tooManyHits, .timeout: return .orange
         case .technicalError: return .red
         }
@@ -1265,7 +1346,7 @@ struct HealthDashboardView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 HStack(spacing: 12) {
-                    Text("App 5.2.1")
+                    Text("App 5.3.0")
 
                     if let watcher = model.healthWatcherVersion {
                         Text("Watcher v\(watcher)")

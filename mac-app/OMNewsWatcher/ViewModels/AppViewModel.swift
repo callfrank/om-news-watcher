@@ -1258,7 +1258,9 @@ final class AppViewModel: ObservableObject {
     ) {
         switch result.kind {
         case .success:
-            statusMessage = "\(source.name): \(result.hitCount) Treffer"
+            statusMessage = "\(source.name): \(result.eligibleCount) aktuelle Meldung(en)"
+        case .noCurrentNews:
+            statusMessage = "\(source.name): technisch OK, aktuell keine neue Meldung"
         case .largeArchive:
             statusMessage = "\(source.name): großes plausibles Archiv (\(result.hitCount))"
         case .zeroHits:
@@ -1755,7 +1757,9 @@ final class AppViewModel: ObservableObject {
             "skip to main content", "events", "event", "paypal",
             "dokumentation zur fehlerbehebung", "aktualisieren sie diese seite",
             "update this page", "who we are", "find us", "find us on",
-            "all publications", "alle publikationen"
+            "all publications", "alle publikationen",
+            "broschüren und infomaterial", "broschueren und infomaterial",
+            "brochures and information material"
         ]
         let genericPrefixes = [
             "read article", "read more", "learn more", "mehr erfahren", "weiterlesen",
@@ -1843,7 +1847,28 @@ final class AppViewModel: ObservableObject {
                 continue
             }
 
+            let cssArtifact =
+                title.range(
+                    of: #"\.[a-z0-9_-]+\s*\{[^}]{0,400}(?:fill|stroke|color|font|display)\s*:"#,
+                    options: [.regularExpression, .caseInsensitive]
+                ) != nil ||
+                (title.contains("{") &&
+                 title.contains(";") &&
+                 title.range(
+                    of: #"(?:stroke-width|stroke-linecap|stroke-linejoin|fill|stroke)\s*:"#,
+                    options: [.regularExpression, .caseInsensitive]
+                 ) != nil)
+
+            guard !cssArtifact else { continue }
+
             let link = normalizedURL(item.link)
+
+            if link.range(
+                of: #"/shareddocs/publikationen/"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil {
+                continue
+            }
             let homepage =
                 homepageBySource[item.source.lowercased()] ??
                 homepageBySource[(item.sourceLabel ?? "").lowercased()]
@@ -2062,7 +2087,7 @@ final class AppViewModel: ObservableObject {
                         updatedAt:
                             now,
                         appVersion:
-                            "5.2.1"
+                            "5.3.0"
                     )
 
                 let encoder = JSONEncoder()
