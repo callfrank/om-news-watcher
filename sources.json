@@ -1040,22 +1040,22 @@
     "allowExternal" : false,
     "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "mac-app-20260817-133534",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260819-044500",
+    "candidateSelector" : "a[href*=\"/news-releases/news-release-details/\"]",
     "enabled" : true,
     "groups" : [
       "Firmen"
     ],
     "http2Fallback" : false,
-    "includeRegex" : "^https?://investor\\.pddholdings\\.com/news-releases/news-release-details/",
+    "includeRegex" : "^https?://investor\\.pddholdings\\.com/news-releases/news-release-details/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "PDD Holdings News Releases",
     "priority" : 2,
     "selectors" : {
-      "date" : "div.nir-widget--field",
-      "item" : "article.node--nir-news--nir-widget-list",
-      "link" : "a",
-      "title" : "a"
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
     "tags" : [
       "Quartalszahlen",
@@ -1072,14 +1072,46 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T11:35:34Z",
-    "visualRuleVersion" : 2,
-    "visualSampleCount" : 3,
+    "visualLearnedAt" : "2026-08-19T02:45:00Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+          "includeRegex" : "^https?://investor\\.pddholdings\\.com/news-releases/news-release-details/",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "div.nir-widget--field",
+            "item" : "article.node--nir-news--nir-widget-list",
+            "link" : "a",
+            "title" : "a"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T11:35:34Z",
+          "visualRuleVersion" : 2,
+          "visualSampleCount" : 3,
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster + Karteninhalt",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-18T07:12:44Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T02:45:00Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-report-second-quarter-2026-unaudited-financial",
+      "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-first-quarter-2026-unaudited-financial"
+    ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:12:44Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
+    "visualValidatedAt" : "2026-08-19T02:45:04Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · URL-Muster",
     "waitMs" : 1000
   },
   {
