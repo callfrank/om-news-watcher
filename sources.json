@@ -1276,22 +1276,22 @@
     "allowExternal" : false,
     "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "mac-app-20260817-133741",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260819-045231",
+    "candidateSelector" : "a[href*=\"/discover/en-global/logistics-advice/\"]",
     "enabled" : true,
     "groups" : [
       "Logistik"
     ],
     "http2Fallback" : false,
-    "includeRegex" : "^https?://www\\.dhl\\.com/discover/en-global/",
+    "includeRegex" : "^https?://www\\.dhl\\.com/discover/en-global/logistics-advice/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "DHL Discover Global",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "h3",
-      "link" : "a.article-card__title",
-      "title" : "h3"
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
     "tags" : [
       "Events"
@@ -1307,14 +1307,58 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T11:37:41Z",
-    "visualRuleVersion" : 2,
-    "visualSampleCount" : 3,
+    "visualLearnedAt" : "2026-08-19T02:52:31Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T02:52:31Z"
+      },
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+          "includeRegex" : "^https?://www\\.dhl\\.com/discover/en-global/",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "h3",
+            "link" : "a.article-card__title",
+            "title" : "h3"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T11:37:41Z",
+          "visualRuleVersion" : 2,
+          "visualSampleCount" : 3,
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster + Karteninhalt",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-18T07:12:56Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T02:51:50Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.dhl.com/discover/en-global/logistics-advice/essential-guides/damaged-freight",
+      "https://www.dhl.com/discover/en-global/logistics-advice/import-export-advice/prepare-your-business-for-vat-de-minimis-removal"
+    ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:12:56Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
+    "visualValidatedAt" : "2026-08-19T02:52:36Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · URL-Muster",
     "waitMs" : 1000
   },
   {
