@@ -1265,7 +1265,7 @@ struct HealthDashboardView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 HStack(spacing: 12) {
-                    Text("App 5.2.0")
+                    Text("App 5.2.1")
 
                     if let watcher = model.healthWatcherVersion {
                         Text("Watcher v\(watcher)")
@@ -3093,9 +3093,7 @@ struct ReaderView: View {
                 ReaderSidebarRow(
                     title: "Alle Meldungen",
                     systemImage: "newspaper",
-                    count: model.readerItems.filter {
-                        !model.readerIsArchived($0)
-                    }.count
+                    count: model.readerActiveAllCount()
                 )
                 .tag(ReaderScope.all)
 
@@ -3700,7 +3698,10 @@ struct ReaderView: View {
                     return Calendar.current.isDateInToday(published)
 
                 case .all:
-                    return !model.readerIsArchived(item)
+                    return model.readerVisibleInAll(
+                        item,
+                        reference: now
+                    )
                 case .favorites:
                     return !model.readerIsArchived(item) &&
                         model.readerIsFavorite(item)
@@ -3824,7 +3825,7 @@ struct ReaderView: View {
         case .inbox:
             return !model.readerIsArchived(item) && !model.readerIsRead(item)
         case .all:
-            return !model.readerIsArchived(item)
+            return model.readerVisibleInAll(item)
         case .favorites:
             return !model.readerIsArchived(item) && model.readerIsFavorite(item)
         case .archive:

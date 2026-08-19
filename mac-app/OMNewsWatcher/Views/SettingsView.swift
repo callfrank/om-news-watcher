@@ -141,6 +141,35 @@ struct SettingsView: View {
                     .padding(.vertical, 4)
                 }
 
+                Section("Reader") {
+                    Picker(
+                        "Gelesene Meldungen anzeigen",
+                        selection: $model.readerReadRetentionDays
+                    ) {
+                        Text("Nur heute").tag(0)
+                        Text("1 Tag").tag(1)
+                        Text("3 Tage").tag(3)
+                        Text("7 Tage").tag(7)
+                        Text("14 Tage").tag(14)
+                        Text("30 Tage").tag(30)
+                    }
+
+                    Text(
+                        "Ungelesene Meldungen bleiben immer sichtbar. " +
+                        "Favoriten und archivierte Meldungen werden durch diese Frist nicht entfernt. " +
+                        "Die Einstellung bestimmt nur, wie lange bereits gelesene Meldungen im aktiven Reader-Verlauf erscheinen."
+                    )
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+
+                    Label(
+                        "Der GitHub-Watcher hält unabhängig davon maximal 500 Tracking-Einträge vor.",
+                        systemImage: "externaldrive.badge.checkmark"
+                    )
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                }
+
                 Section("GitHub-Zugriff") {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Fine-grained Personal Access Token")

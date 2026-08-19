@@ -387,6 +387,24 @@ final class AppViewModel: ObservableObject {
     @Published private(set) var readerArchivedIDs: Set<String> = []
     @Published private(set) var readerCachedItems: [FeedHistoryItem] = []
 
+    @Published var readerReadRetentionDays: Int {
+        didSet {
+            let allowed = [0, 1, 3, 7, 14, 30]
+
+            if !allowed.contains(readerReadRetentionDays) {
+                readerReadRetentionDays = 1
+                return
+            }
+
+            defaults.set(
+                readerReadRetentionDays,
+                forKey: Keys.readerReadRetentionDays
+            )
+
+            rebuildReaderUnreadCache()
+        }
+    }
+
     private var readerUnreadTotalCache = 0
     private var readerUnreadByGroupCache: [String: Int] = [:]
     private var readerUnreadBySourceCache: [String: Int] = [:]
@@ -437,9 +455,20 @@ final class AppViewModel: ObservableObject {
         static let readerArchivedIDs = "reader.archivedIDs"
         static let readerV41BaselineApplied = "reader.v41BaselineApplied"
         static let readerLastOpenedAt = "reader.lastOpenedAt"
+        static let readerReadRetentionDays = "reader.readRetentionDays"
     }
 
     init() {
+        let storedRetention =
+            UserDefaults.standard.object(
+                forKey: Keys.readerReadRetentionDays
+            ) as? Int
+
+        readerReadRetentionDays =
+            [0, 1, 3, 7, 14, 30].contains(storedRetention ?? -1)
+            ? (storedRetention ?? 1)
+            : 1
+
         owner = UserDefaults.standard.string(forKey: Keys.owner) ?? "callfrank"
         repo = UserDefaults.standard.string(forKey: Keys.repo) ?? "om-news-watcher"
         branch = UserDefaults.standard.string(forKey: Keys.branch) ?? "main"
@@ -1617,6 +1646,49 @@ final class AppViewModel: ObservableObject {
         readerArchivedIDs.contains(item.id)
     }
 
+    /// Aktiver Reader-Verlauf:
+    /// - ungelesene Meldungen bleiben immer sichtbar
+    /// - Favoriten bleiben immer sichtbar
+    /// - gelesene Meldungen verschwinden nach der gewählten Frist
+    /// - Archiv wird separat behandelt
+    func readerVisibleInAll(
+        _ item: FeedHistoryItem,
+        reference: Date = Date()
+    ) -> Bool {
+        guard !readerIsArchived(item) else {
+            return false
+        }
+
+        if !readerIsRead(item) || readerIsFavorite(item) {
+            return true
+        }
+
+        guard let date =
+            item.effectiveReaderDate ??
+            FeedHistoryItem.parsedDate(item.detectedAt)
+        else {
+            return false
+        }
+
+        if readerReadRetentionDays == 0 {
+            return Calendar.current.isDateInToday(date)
+        }
+
+        let cutoff =
+            reference.addingTimeInterval(
+                -Double(readerReadRetentionDays) *
+                24 * 60 * 60
+            )
+
+        return date >= cutoff
+    }
+
+    func readerActiveAllCount() -> Int {
+        readerCachedItems.filter {
+            readerVisibleInAll($0)
+        }.count
+    }
+
     func readerMarkRead(_ item: FeedHistoryItem, read: Bool = true) {
         if read {
             readerReadIDs.insert(item.id)
@@ -1849,9 +1921,21 @@ final class AppViewModel: ObservableObject {
                 continue
             }
 
-            for group in groups {
-                allByGroup[group.lowercased(), default: 0] += 1
+            if readerVisibleInAll(item) {
+
+
+                for group in groups {
+
+
+                    allByGroup[group.lowercased(), default: 0] += 1
+
+
+                }
+
+
             }
+
+
 
             if isFavorite {
                 for group in groups {
@@ -1978,7 +2062,7 @@ final class AppViewModel: ObservableObject {
                         updatedAt:
                             now,
                         appVersion:
-                            "5.1.3"
+                            "5.2.1"
                     )
 
                 let encoder = JSONEncoder()
