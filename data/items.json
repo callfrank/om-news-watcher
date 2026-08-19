@@ -1,5 +1,30 @@
 [
   {
+    "guid": "aef4cd5989909db41f3b8758",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber Launches Autonomous Rides in Europe",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "pageDate": "August 19, 2026",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "detectedAt": "2026-08-19T18:54:13.474Z",
+    "deliveredAt": "2026-08-19T18:54:13.474Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "174eb4daf2fdc107c5e32efb",
     "source": "Amazon US",
     "sourceLabel": "Amazon US",
