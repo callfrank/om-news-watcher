@@ -673,21 +673,21 @@
     "allowExternal" : false,
     "allowTitleOnly" : false,
     "autoScroll" : 3,
-    "baselineVersion" : "mac-app-20260817-133036",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260819-044643",
+    "candidateSelector" : "a[href*=\"/signal/case-studies/\"]",
     "enabled" : true,
     "groups" : [
       "Research"
     ],
-    "includeRegex" : "^https?://www\\.mordorintelligence\\.com/signal/case-studies/",
+    "includeRegex" : "^https?://www\\.mordorintelligence\\.com/signal/case-studies/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Mordor Intelligence Case Studies",
     "priority" : 2,
     "selectors" : {
-      "date" : "time.px-2",
-      "item" : "article.bg-neutrals-50",
-      "link" : "a.text-sm",
-      "title" : "h3.truncate-3-lines"
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
     "timeoutMs" : 60000,
     "url" : "https://www.mordorintelligence.com/signal/case-studies",
@@ -700,14 +700,46 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T11:30:36Z",
-    "visualRuleVersion" : 2,
-    "visualSampleCount" : 3,
+    "visualLearnedAt" : "2026-08-19T02:46:43Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+          "includeRegex" : "^https?://www\\.mordorintelligence\\.com/signal/case-studies/",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "time.px-2",
+            "item" : "article.bg-neutrals-50",
+            "link" : "a.text-sm",
+            "title" : "h3.truncate-3-lines"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T11:30:36Z",
+          "visualRuleVersion" : 2,
+          "visualSampleCount" : 3,
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster + Karteninhalt",
+          "visualValidated" : false,
+          "visualValidatedAt" : "2026-08-17T11:30:42Z",
+          "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T02:46:43Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.mordorintelligence.com/signal/case-studies/pharma-cold-chain-strategy",
+      "https://www.mordorintelligence.com/signal/case-studies/solid-state-transformers-market-insights"
+    ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "URL-Muster + Karteninhalt",
-    "visualValidated" : false,
-    "visualValidatedAt" : "2026-08-17T11:30:42Z",
-    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-19T02:46:51Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer · URL-Muster",
     "waitMs" : 7000
   },
   {
