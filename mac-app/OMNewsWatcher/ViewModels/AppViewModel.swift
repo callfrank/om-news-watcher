@@ -1078,6 +1078,29 @@ final class AppViewModel: ObservableObject {
                     sampleURLs: rule.sampleURLs
                 )
             )
+
+            // Reload-sicherer Fallback:
+            // Nicht mehr von einem href*-CSS-Selector abhängig sein.
+            // Alle klickbaren Ziele werden gelesen und anschließend erst
+            // durch das aus den markierten Beispielen abgeleitete URL-Muster
+            // eingegrenzt.
+            append(
+                VisualTrainingRule(
+                    itemSelector: "",
+                    titleSelector: "",
+                    linkSelector: "",
+                    dateSelector: nil,
+                    candidateSelector:
+                        "a[href],[data-href],[data-url],[data-link],[role=\"link\"]",
+                    urlRegex: regex,
+                    allowExternal: rule.allowExternal,
+                    sampleCount: rule.sampleCount,
+                    previewCount: rule.previewCount,
+                    preview: rule.preview,
+                    strategy: "URL-Muster (reload-sicher)",
+                    sampleURLs: rule.sampleURLs
+                )
+            )
         }
 
         // Struktur-only bleibt der letzte Fallback.
@@ -2207,7 +2230,7 @@ final class AppViewModel: ObservableObject {
                         updatedAt:
                             now,
                         appVersion:
-                            "5.3.1"
+                            "5.3.2"
                     )
 
                 let encoder = JSONEncoder()

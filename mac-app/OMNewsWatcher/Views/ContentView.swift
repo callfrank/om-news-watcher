@@ -1411,7 +1411,7 @@ struct HealthDashboardView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 HStack(spacing: 12) {
-                    Text("App 5.3.1")
+                    Text("App 5.3.2")
 
                     if let watcher = model.healthWatcherVersion {
                         Text("Watcher v\(watcher)")
@@ -2028,7 +2028,7 @@ struct VisualTrainingView: View {
                                 .foregroundStyle(.orange)
                         }
 
-                        Button("Regel übernehmen") {
+                        Button("Regel prüfen & übernehmen") {
                             onApply(rule)
                             dismiss()
                         }
@@ -2721,13 +2721,33 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
     return fallback;
   };
 
+  const dateFromText = value => {
+    const text = clean(value);
+    if (!text) return '';
+
+    const patterns = [
+      /\b\d{1,2}\.\d{1,2}\.20\d{2}\b/,
+      /\b20\d{2}-\d{2}-\d{2}\b/,
+      /\b\d{1,2}\.?\s+(?:Jan(?:uar)?|Feb(?:ruar)?|Mär(?:z)?|Mrz|Apr(?:il)?|Mai|Jun(?:i)?|Jul(?:i)?|Aug(?:ust)?|Sep(?:tember)?|Okt(?:ober)?|Nov(?:ember)?|Dez(?:ember)?|January|February|March|April|May|June|July|August|September|October|November|December)\.?\s+20\d{2}\b/i,
+      /\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2},\s+20\d{2}\b/i
+    ];
+
+    for (const pattern of patterns) {
+      const match = text.match(pattern);
+      if (match?.[0]) return match[0];
+    }
+
+    return '';
+  };
+
   const smartRow = (clickable, root = null) => {
     const card = root || cardFor(clickable);
     const titleEl = bestTitleElement(clickable, clickable, card);
     const title = clean(titleEl?.textContent || titleEl?.getAttribute?.('aria-label') || '');
     const href = hrefFrom(clickable, card);
     const dateEl = bestDateElement(card);
-    const date = clean(dateEl?.getAttribute?.('datetime') || dateEl?.textContent || '');
+    const explicitDate = clean(dateEl?.getAttribute?.('datetime') || dateEl?.textContent || '');
+    const date = explicitDate || dateFromText(card?.textContent || '');
     return { title, href, date };
   };
 

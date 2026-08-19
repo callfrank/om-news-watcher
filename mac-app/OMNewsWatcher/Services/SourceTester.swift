@@ -435,7 +435,22 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             "broschueren und infomaterial",
             "brochures and information material",
             "all publications",
-            "alle publikationen"
+            "alle publikationen",
+            "publikationen",
+            "publications",
+            "financial reports and presentations",
+            "finanzberichte und präsentationen",
+            "nichtfinanzieller konzernbericht",
+            "non-financial report",
+            "non-financial report for the group",
+            "diversity & inclusion",
+            "diversity and inclusion",
+            "ipo mitteilungen",
+            "ipo news",
+            "wertpapierprospekt",
+            "prospectus",
+            "investor relations",
+            "investor information"
         ]
 
         if staticLandingTitles.contains(lowerTitle) {
@@ -445,12 +460,30 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         if let url = URL(string: row.href) {
             let path = url.path.lowercased()
 
+            if path.range(
+                of: #"/https?://"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil {
+                return "Fehlerhaft aufgelöste Ziel-URL"
+            }
+
             if path.contains("/shareddocs/publikationen/") ||
                path.range(
                 of: #"/(?:broschueren|broschuren|brochures|ratgeber|guides)/"#,
                 options: .regularExpression
                ) != nil {
                 return "Statische Publikation/Ratgeberseite"
+            }
+
+            if path.range(
+                of: #"/(?:financial-reports-and-presentations|non-financial-report(?:-for-the-group)?|diversity-inclusion|publications?|publikationen)(?:/|$)"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil ||
+               path.range(
+                of: #"/ipo/(?:ipo-news|prospectus)?/?$"#,
+                options: [.regularExpression, .caseInsensitive]
+               ) != nil {
+                return "Bereichs-/Übersichtsseite statt News"
             }
         }
 
@@ -469,9 +502,95 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             if publicationDate > upper {
                 return "Unplausibles Veröffentlichungsdatum in der Zukunft"
             }
+        } else if !undatedCandidateLooksArticleLike(
+            row,
+            source: source
+        ) {
+            return "Kein Datum und kein ausreichend starkes Artikelsignal"
         }
 
         return nil
+    }
+
+    private func undatedCandidateLooksArticleLike(
+        _ row: Candidate,
+        source: SourceRecord
+    ) -> Bool {
+        guard let url = URL(string: row.href) else {
+            return false
+        }
+
+        let path = url.path.lowercased()
+
+        if path.range(
+            of: #"/https?://"#,
+            options: [.regularExpression, .caseInsensitive]
+        ) != nil {
+            return false
+        }
+
+        let sectionPatterns = [
+            #"/(?:financial-reports-and-presentations|non-financial-report(?:-for-the-group)?|diversity-inclusion|publications?|publikationen)(?:/|$)"#,
+            #"/ipo/(?:ipo-news|prospectus)?/?$"#,
+            #"/(?:prospectus|wertpapierprospekt)/?$"#
+        ]
+
+        if sectionPatterns.contains(where: {
+            path.range(
+                of: $0,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil
+        }) {
+            return false
+        }
+
+        let components =
+            url.path
+                .split(separator: "/")
+                .map(String.init)
+
+        let leaf =
+            components.last ?? ""
+
+        let hyphenCount =
+            leaf.filter { $0 == "-" }.count
+
+        let slugLike =
+            leaf.count >= 18 &&
+            (hyphenCount >= 2 || leaf.count >= 30)
+
+        let semanticArticlePath =
+            path.range(
+                of: #"/(?:newsroom|news|nachrichten|presse|press|press-releases|pressemitteilungen|stories|story|article|articles|blog)/"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil
+
+        let datedPath =
+            path.range(
+                of: #"/20\d{2}/"#,
+                options: .regularExpression
+            ) != nil
+
+        if source.visualLearned,
+           matchesVisualSampleShape(
+            row.href,
+            source: source
+           ),
+           slugLike {
+            return true
+        }
+
+        if semanticArticlePath && slugLike {
+            return true
+        }
+
+        if datedPath && slugLike {
+            return true
+        }
+
+        return components.count >= 3 &&
+            row.title.count >= 28 &&
+            slugLike
     }
 
     private func looksLikeCSSArtifact(_ value: String) -> Bool {
@@ -1327,10 +1446,30 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             return own;
           };
 
+          const dateFromText = value => {
+            const text = clean(value);
+            if (!text) return '';
+
+            const patterns = [
+              /\b\d{1,2}\.\d{1,2}\.20\d{2}\b/,
+              /\b20\d{2}-\d{2}-\d{2}\b/,
+              /\b\d{1,2}\.?\s+(?:Jan(?:uar)?|Feb(?:ruar)?|Mär(?:z)?|Mrz|Apr(?:il)?|Mai|Jun(?:i)?|Jul(?:i)?|Aug(?:ust)?|Sep(?:tember)?|Okt(?:ober)?|Nov(?:ember)?|Dez(?:ember)?|January|February|March|April|May|June|July|August|September|October|November|December)\.?\s+20\d{2}\b/i,
+              /\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2},\s+20\d{2}\b/i
+            ];
+
+            for (const pattern of patterns) {
+              const match = text.match(pattern);
+              if (match?.[0]) return match[0];
+            }
+
+            return '';
+          };
+
           const smartDate = root => {
             const card = root || document;
             const el = card?.querySelector?.('time[datetime],time,[class*="date" i],[class*="datum" i],[class*="published" i],[class*="time" i]');
-            return clean(el?.getAttribute?.('datetime') || el?.textContent || '');
+            const explicit = clean(el?.getAttribute?.('datetime') || el?.textContent || '');
+            return explicit || dateFromText(card?.textContent || '');
           };
 
           const rowFor = (el, root = null) => {
