@@ -275,6 +275,11 @@ struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
     var lastNewAt: String?
     var hitCount: Int?
     var averageHitCount: Double?
+    var technicalHitCount: Int?
+    var eligibleHitCount: Int?
+    var rejectedHitCount: Int?
+    var healthStatus: String?
+    var healthSummary: String?
     var durationMs: Int?
     var anomaly: String?
     var message: String?
@@ -283,6 +288,7 @@ struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
     var latestDetected: SourceHealthAuditItem?
     var latestStored: SourceHealthAuditItem?
     var healedCount: Int?
+    var healedTodayCount: Int?
     var baselineSuppressedCount: Int?
     var undeliveredRecentCount: Int?
     var nextCheckAt: String?
@@ -290,10 +296,70 @@ struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
     var weekdaysOnly: Bool?
 
     var id: String { source.lowercased() }
+
+    var effectiveHealthStatus: String {
+        if let healthStatus, !healthStatus.isEmpty {
+            return healthStatus
+        }
+
+        if skipped {
+            return "skipped"
+        }
+
+        if (anomaly ?? "").hasPrefix("Abruf fehlgeschlagen:") {
+            return "error"
+        }
+
+        if !(anomaly ?? "").isEmpty ||
+           (undeliveredRecentCount ?? 0) > 0 ||
+           trackingStatus == "warning" {
+            return "anomaly"
+        }
+
+        if (eligibleHitCount ?? 0) == 0 {
+            return "no-new"
+        }
+
+        return "healthy"
+    }
+
     var hasWarning: Bool {
-        !(anomaly ?? "").isEmpty ||
-        (undeliveredRecentCount ?? 0) > 0 ||
-        trackingStatus == "warning"
+        effectiveHealthStatus == "error" ||
+        effectiveHealthStatus == "anomaly"
+    }
+
+    var healthTitle: String {
+        switch effectiveHealthStatus {
+        case "error":
+            return "Fehler"
+        case "anomaly":
+            return "Auffällig"
+        case "no-new":
+            return "Keine neue Meldung"
+        case "skipped":
+            return "Übersprungen"
+        case "paused":
+            return "Pausiert"
+        default:
+            return "Gesund"
+        }
+    }
+
+    var healthSystemImage: String {
+        switch effectiveHealthStatus {
+        case "error":
+            return "xmark.octagon.fill"
+        case "anomaly":
+            return "exclamationmark.triangle.fill"
+        case "no-new":
+            return "checkmark.circle"
+        case "skipped":
+            return "clock.fill"
+        case "paused":
+            return "pause.circle.fill"
+        default:
+            return "checkmark.circle.fill"
+        }
     }
 
     var trackingDisplay: String {
@@ -301,18 +367,38 @@ struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
             return "⚠ \(count) fehlt"
         }
         if trackingStatus == "healed", (healedCount ?? 0) > 0 {
-            return "🩹 \(healedCount ?? 0) gerettet"
+            return "🩹 \(healedCount ?? 0) gesamt"
         }
         return "OK"
     }
 
-    var displayHitCount: String {
-        guard let hitCount else { return "—" }
-        if let averageHitCount {
-            return "\(hitCount) · Ø \(String(format: "%.1f", averageHitCount))"
+    var displayTechnicalCount: String {
+        if let technicalHitCount {
+            if let averageHitCount {
+                return "\(technicalHitCount) · Ø \(String(format: "%.1f", averageHitCount))"
+            }
+            return "\(technicalHitCount)"
         }
-        return "\(hitCount)"
+
+        if let hitCount {
+            return "\(hitCount)"
+        }
+
+        return "—"
     }
+
+    var displayEligibleCount: String {
+        guard let eligibleHitCount else {
+            return "—"
+        }
+
+        if let rejectedHitCount, rejectedHitCount > 0 {
+            return "\(eligibleHitCount) · −\(rejectedHitCount)"
+        }
+
+        return "\(eligibleHitCount)"
+    }
+
 }
 
 struct SourceHealthReport: Codable {
@@ -636,6 +722,40 @@ final class AppViewModel: ObservableObject {
 
     var healthWarningCount: Int {
         healthItems.filter(\.hasWarning).count
+    }
+
+    var healthHealthyCount: Int {
+        healthItems.filter {
+            $0.enabled &&
+            $0.effectiveHealthStatus == "healthy"
+        }.count
+    }
+
+    var healthNoNewCount: Int {
+        healthItems.filter {
+            $0.enabled &&
+            $0.effectiveHealthStatus == "no-new"
+        }.count
+    }
+
+    var healthAnomalyCount: Int {
+        healthItems.filter {
+            $0.enabled &&
+            $0.effectiveHealthStatus == "anomaly"
+        }.count
+    }
+
+    var healthErrorCount: Int {
+        healthItems.filter {
+            $0.enabled &&
+            $0.effectiveHealthStatus == "error"
+        }.count
+    }
+
+    var healthHealedTodayCount: Int {
+        healthItems.reduce(0) {
+            $0 + ($1.healedTodayCount ?? 0)
+        }
     }
 
     var healthSkippedCount: Int {
@@ -2087,7 +2207,7 @@ final class AppViewModel: ObservableObject {
                         updatedAt:
                             now,
                         appVersion:
-                            "5.3.0"
+                            "5.3.1"
                     )
 
                 let encoder = JSONEncoder()

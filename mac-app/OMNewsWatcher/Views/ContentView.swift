@@ -427,14 +427,42 @@ struct ContentView: View {
                                     )
                                 }
 
-                                if let anomaly = health.anomaly, !anomaly.isEmpty {
-                                    LabeledContent("Gesundheit") {
-                                        Label(
-                                            anomaly,
-                                            systemImage: "waveform.path.ecg.rectangle"
-                                        )
-                                        .foregroundStyle(.orange)
-                                    }
+                                LabeledContent("Gesundheit") {
+                                    Label(
+                                        health.healthSummary ?? health.healthTitle,
+                                        systemImage: health.healthSystemImage
+                                    )
+                                    .foregroundStyle(
+                                        health.effectiveHealthStatus == "error"
+                                        ? .red
+                                        : health.effectiveHealthStatus == "anomaly"
+                                        ? .orange
+                                        : health.effectiveHealthStatus == "no-new"
+                                        ? .blue
+                                        : .green
+                                    )
+                                }
+
+                                if let technical = health.technicalHitCount {
+                                    LabeledContent(
+                                        "Technisch erkannt",
+                                        value: "\(technical)"
+                                    )
+                                }
+
+                                if let eligible = health.eligibleHitCount {
+                                    LabeledContent(
+                                        "Reader-fähig",
+                                        value: "\(eligible)"
+                                    )
+                                }
+
+                                if let rejected = health.rejectedHitCount,
+                                   rejected > 0 {
+                                    LabeledContent(
+                                        "Verworfen",
+                                        value: "\(rejected)"
+                                    )
                                 }
 
                                 if let detected = health.latestDetected,
@@ -455,9 +483,16 @@ struct ContentView: View {
                                     )
                                 }
 
+                                if (health.healedTodayCount ?? 0) > 0 {
+                                    LabeledContent(
+                                        "Tracking-Reparaturen heute",
+                                        value: "\(health.healedTodayCount ?? 0)"
+                                    )
+                                }
+
                                 if (health.healedCount ?? 0) > 0 {
                                     LabeledContent(
-                                        "Tracking-Reparaturen",
+                                        "Tracking-Reparaturen gesamt",
                                         value: "\(health.healedCount ?? 0)"
                                     )
                                 }
@@ -1206,37 +1241,42 @@ struct HealthDashboardView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 0) {
-                HStack(spacing: 14) {
+                HStack(spacing: 10) {
                     HealthCard(
                         title: "Aktiv",
                         value: model.activeCount,
                         systemImage: "checkmark.circle.fill"
                     )
                     HealthCard(
-                        title: "Warnungen",
-                        value: model.healthWarningCount,
-                        systemImage: "waveform.path.ecg.rectangle"
+                        title: "Gesund",
+                        value: model.healthHealthyCount,
+                        systemImage: "checkmark.seal.fill"
                     )
                     HealthCard(
-                        title: "14 Tage ohne Neues",
-                        value: model.healthStaleCount,
-                        systemImage: "calendar.badge.exclamationmark"
+                        title: "Keine neue Meldung",
+                        value: model.healthNoNewCount,
+                        systemImage: "checkmark.circle"
                     )
                     HealthCard(
-                        title: "Intervallbedingt übersprungen",
-                        value: model.healthSkippedCount,
-                        systemImage: "clock.arrow.circlepath"
+                        title: "Auffällig",
+                        value: model.healthAnomalyCount,
+                        systemImage: "exclamationmark.triangle.fill"
                     )
                     HealthCard(
-                        title: "Tracking-Reparaturen",
-                        value: model.healthItems.reduce(0) { $0 + ($1.healedCount ?? 0) },
+                        title: "Fehler",
+                        value: model.healthErrorCount,
+                        systemImage: "xmark.octagon.fill"
+                    )
+                    HealthCard(
+                        title: "Reparaturen heute",
+                        value: model.healthHealedTodayCount,
                         systemImage: "cross.case.fill"
                     )
                 }
                 .padding()
 
                 HStack {
-                    Toggle("Nur Warnungen", isOn: $onlyWarnings)
+                    Toggle("Nur Probleme", isOn: $onlyWarnings)
                         .toggleStyle(.switch)
 
                     Spacer()
@@ -1262,48 +1302,73 @@ struct HealthDashboardView: View {
                             HStack(spacing: 7) {
                                 Image(
                                     systemName:
-                                        item.hasWarning
-                                        ? "exclamationmark.triangle.fill"
-                                        : item.skipped
-                                        ? "clock.fill"
-                                        : "checkmark.circle.fill"
+                                        item.healthSystemImage
                                 )
                                 .foregroundStyle(
-                                    item.hasWarning
+                                    item.effectiveHealthStatus == "error"
+                                    ? .red
+                                    : item.effectiveHealthStatus == "anomaly"
                                     ? .orange
-                                    : item.skipped
+                                    : item.effectiveHealthStatus == "no-new"
+                                    ? .blue
+                                    : item.effectiveHealthStatus == "skipped"
                                     ? .secondary
                                     : .green
                                 )
 
                                 VStack(alignment: .leading, spacing: 2) {
                                     Text(item.source)
-                                    if let anomaly = item.anomaly, !anomaly.isEmpty {
-                                        Text(anomaly)
+
+                                    if let summary = item.healthSummary,
+                                       !summary.isEmpty {
+                                        Text(summary)
                                             .font(.caption2)
-                                            .foregroundStyle(.orange)
+                                            .foregroundStyle(
+                                                item.hasWarning
+                                                ? .orange
+                                                : .secondary
+                                            )
                                             .lineLimit(1)
                                     }
                                 }
                             }
                         }
 
-                        TableColumn("Treffer") { item in
-                            Text(item.displayHitCount)
+                        TableColumn("Technisch") { item in
+                            Text(item.displayTechnicalCount)
                         }
-                        .width(95)
+                        .width(100)
+
+                        TableColumn("Reader") { item in
+                            Text(item.displayEligibleCount)
+                        }
+                        .width(85)
+
+                        TableColumn("Status") { item in
+                            Text(item.healthTitle)
+                                .foregroundStyle(
+                                    item.effectiveHealthStatus == "error"
+                                    ? .red
+                                    : item.effectiveHealthStatus == "anomaly"
+                                    ? .orange
+                                    : item.effectiveHealthStatus == "no-new"
+                                    ? .blue
+                                    : .secondary
+                                )
+                        }
+                        .width(115)
 
                         TableColumn("Tracking") { item in
                             Text(item.trackingDisplay)
                                 .foregroundStyle(
-                                    item.hasWarning
+                                    item.trackingStatus == "warning"
                                     ? .orange
                                     : item.trackingStatus == "healed"
                                     ? .green
                                     : .secondary
                                 )
                         }
-                        .width(120)
+                        .width(115)
 
                         TableColumn("Dauer") { item in
                             Text(
@@ -1346,7 +1411,7 @@ struct HealthDashboardView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 HStack(spacing: 12) {
-                    Text("App 5.3.0")
+                    Text("App 5.3.1")
 
                     if let watcher = model.healthWatcherVersion {
                         Text("Watcher v\(watcher)")
@@ -1398,13 +1463,28 @@ struct HealthDashboardView: View {
                 return searchMatches && (!onlyWarnings || item.hasWarning)
             }
             .sorted {
-                if $0.hasWarning != $1.hasWarning {
-                    return $0.hasWarning && !$1.hasWarning
+                func rank(_ item: SourceHealthSnapshot) -> Int {
+                    switch item.effectiveHealthStatus {
+                    case "error": return 0
+                    case "anomaly": return 1
+                    case "no-new": return 2
+                    case "healthy": return 3
+                    case "skipped": return 4
+                    case "paused": return 5
+                    default: return 6
+                    }
                 }
-                if $0.skipped != $1.skipped {
-                    return !$0.skipped && $1.skipped
+
+                let leftRank = rank($0)
+                let rightRank = rank($1)
+
+                if leftRank != rightRank {
+                    return leftRank < rightRank
                 }
-                return $0.source.localizedCaseInsensitiveCompare($1.source) == .orderedAscending
+
+                return $0.source.localizedCaseInsensitiveCompare(
+                    $1.source
+                ) == .orderedAscending
             }
     }
 
