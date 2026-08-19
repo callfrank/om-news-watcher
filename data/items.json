@@ -1,6 +1,6 @@
 [
   {
-    "guid": "3ee8b872934bbee751b5203f",
+    "guid": "c94c6e496c6216c043556ace",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -9,15 +9,38 @@
     "tags": [],
     "priority": 2,
     "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
-    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
     "pageDate": "17.08.2026",
     "publishedAt": "2026-08-17T12:00:00.000Z",
-    "detectedAt": "2026-08-19T10:47:06.807Z",
-    "deliveredAt": "2026-08-19T10:47:06.807Z",
+    "detectedAt": "2026-08-19T11:40:43.035Z",
+    "deliveredAt": "2026-08-19T11:40:43.035Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "2a219be0cd90f274a798ba30",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Target Q2 2026: Mehr Kunden, kleinere Warenkörbe, mehr Online",
+    "link": "https://onlinemarktplatz.de/271177/target-us-einzelhandel/",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T11:40:42.932Z",
+    "deliveredAt": "2026-08-19T11:40:42.932Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "2efa6606bfaf4f4accad4509",
