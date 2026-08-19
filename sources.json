@@ -34,7 +34,7 @@
     "visualLearnedAt" : "2026-08-17T10:03:11Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:10:12Z",
+    "visualValidatedAt" : "2026-08-19T13:56:11Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 5000
   },
@@ -103,8 +103,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:45:48Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T13:56:15Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 3000
   },
   {
@@ -214,7 +214,7 @@
     "visualLearnedAt" : "2026-08-17T10:08:40Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:10:29Z",
+    "visualValidatedAt" : "2026-08-19T13:56:27Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 33 Treffer",
     "waitMs" : 5000
   },
@@ -258,7 +258,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:27:06Z",
+    "visualValidatedAt" : "2026-08-19T13:56:32Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 22 Treffer",
     "waitMs" : 3000
   },
@@ -403,7 +403,7 @@
     "visualLearnedAt" : "2026-08-17T10:18:44Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:11:06Z",
+    "visualValidatedAt" : "2026-08-19T13:57:04Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 5000
   },
@@ -506,8 +506,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:42:07Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T13:57:09Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
     "waitMs" : 1000
   },
   {
@@ -618,7 +618,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:11:28Z",
+    "visualValidatedAt" : "2026-08-19T13:57:25Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 24 Treffer",
     "waitMs" : 3000
   },
@@ -737,18 +737,23 @@
     ],
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
-    "visualValidated" : true,
+    "visualValidated" : false,
     "visualValidatedAt" : "2026-08-19T02:46:51Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer · URL-Muster",
+    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
     "waitMs" : 7000
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
     "autoScroll" : 3,
-    "baselineVersion" : "v10-content-parked",
+    "baselineVersion" : "mac-app-20260819-160639",
+    "candidateSelector" : "a[href*=\"/signal/insights/\"],[data-href*=\"/signal/insights/\"],[data-url*=\"/signal/insights/\"],[data-link*=\"/signal/insights/\"],[onclick*=\"/signal/insights/\"]",
     "enabled" : true,
     "groups" : [
       "Research"
     ],
+    "includeRegex" : "^https?://www\\.mordorintelligence\\.com/signal/insights/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Mordor Intelligence Insights",
     "priority" : 2,
     "selectors" : {
@@ -759,6 +764,41 @@
     },
     "timeoutMs" : 60000,
     "url" : "https://www.mordorintelligence.com/signal/insights",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-19T14:06:39Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T14:06:39Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.mordorintelligence.com/signal/insights/h-1b-fee-ruling-changes-nothing",
+      "https://www.mordorintelligence.com/signal/insights/automotive-impact-india-eu-us-trade-deal"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-19T14:06:46Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 6 Treffer · URL-Muster",
     "waitMs" : 7000
   },
   {
@@ -923,7 +963,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:12:14Z",
+    "visualValidatedAt" : "2026-08-19T13:58:12Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 5000
   },
@@ -1014,7 +1054,7 @@
     "visualLearnedAt" : "2026-08-17T10:36:38Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:27:30Z",
+    "visualValidatedAt" : "2026-08-19T13:58:26Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 1 Treffer",
     "waitMs" : 1200
   },
@@ -1106,7 +1146,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:12:41Z",
+    "visualValidatedAt" : "2026-08-19T13:58:41Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 5000,
     "weekdaysOnly" : true
@@ -1185,8 +1225,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:45:04Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · URL-Muster",
+    "visualValidatedAt" : "2026-08-19T13:58:43Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 1000
   },
   {
@@ -1231,7 +1271,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:12:48Z",
+    "visualValidatedAt" : "2026-08-19T13:58:47Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 3000
   },
@@ -1357,8 +1397,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:52:36Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · URL-Muster",
+    "visualValidatedAt" : "2026-08-19T13:58:55Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
     "waitMs" : 1000
   },
   {
@@ -1503,8 +1543,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:30:57Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T13:59:25Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 5000
   },
   {
@@ -1671,8 +1711,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:33:21Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
+    "visualValidatedAt" : "2026-08-19T13:59:52Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 2500
   },
   {
@@ -1732,8 +1772,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:40:28Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T13:59:57Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
     "waitMs" : 2500
   },
   {
@@ -1777,7 +1817,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:13Z",
+    "visualValidatedAt" : "2026-08-19T14:00:00Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
     "waitMs" : 2500
   },
@@ -1852,8 +1892,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:33:55Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:00:03Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 2500
   },
   {
@@ -1897,7 +1937,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T10:12:28Z",
+    "visualValidatedAt" : "2026-08-19T14:00:08Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 14 Treffer",
     "waitMs" : 2500
   },
@@ -1941,7 +1981,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:33:01Z",
+    "visualValidatedAt" : "2026-08-19T14:00:11Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 15 Treffer",
     "waitMs" : 2500
   },
@@ -1987,7 +2027,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:27:54Z",
+    "visualValidatedAt" : "2026-08-19T14:00:14Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 2500
   },
@@ -2030,7 +2070,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:30Z",
+    "visualValidatedAt" : "2026-08-19T14:00:17Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 2500
   },
@@ -2076,7 +2116,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:33:31Z",
+    "visualValidatedAt" : "2026-08-19T14:00:22Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 4 Treffer",
     "waitMs" : 2500
   },
@@ -2129,7 +2169,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:38Z",
+    "visualValidatedAt" : "2026-08-19T14:00:25Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500
   },
@@ -2183,7 +2223,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:42Z",
+    "visualValidatedAt" : "2026-08-19T14:00:29Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer",
     "waitMs" : 2500
   },
@@ -2236,7 +2276,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:14:45Z",
+    "visualValidatedAt" : "2026-08-19T14:00:32Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 2500
   },
@@ -2321,8 +2361,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:44:33Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:00:35Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
     "waitMs" : 2500
   },
   {
@@ -2407,8 +2447,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:47:34Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 34 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:00:41Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 32 Treffer",
     "waitMs" : 2500
   },
   {
@@ -2512,7 +2552,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:15:06Z",
+    "visualValidatedAt" : "2026-08-19T14:00:53Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 2500
   },
@@ -2612,8 +2652,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:43:52Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:00:57Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 2500
   },
   {
@@ -2716,7 +2756,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:38:25Z",
+    "visualValidatedAt" : "2026-08-19T14:01:08Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 44 Treffer",
     "waitMs" : 2500
   },
@@ -2855,8 +2895,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:37:55Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:01:11Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 2500
   },
   {
@@ -2907,7 +2947,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:15:27Z",
+    "visualValidatedAt" : "2026-08-19T14:01:30Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500
   },
@@ -2992,8 +3032,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:42:44Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer · URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:01:33Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
     "waitMs" : 2500
   },
   {
@@ -3044,7 +3084,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:15:35Z",
+    "visualValidatedAt" : "2026-08-19T14:01:37Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer",
     "waitMs" : 2500
   },
@@ -3154,9 +3194,9 @@
     ],
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
-    "visualValidated" : true,
+    "visualValidated" : false,
     "visualValidatedAt" : "2026-08-19T02:32:43Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
+    "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer",
     "waitMs" : 2500
   },
   {
@@ -3247,8 +3287,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:50:31Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:01:53Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
     "waitMs" : 2500
   },
   {
@@ -3300,7 +3340,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:15:56Z",
+    "visualValidatedAt" : "2026-08-19T14:01:56Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 2500
   },
@@ -3353,7 +3393,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:15:59Z",
+    "visualValidatedAt" : "2026-08-19T14:01:59Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500
   },
@@ -3405,7 +3445,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:33:09Z",
+    "visualValidatedAt" : "2026-08-19T14:02:02Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500
   },
@@ -3457,7 +3497,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:04Z",
+    "visualValidatedAt" : "2026-08-19T14:02:05Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 2500
   },
@@ -3509,7 +3549,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:08Z",
+    "visualValidatedAt" : "2026-08-19T14:02:08Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 6 Treffer",
     "waitMs" : 2500
   },
@@ -3563,7 +3603,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:10Z",
+    "visualValidatedAt" : "2026-08-19T14:02:11Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 2500
   },
@@ -3616,7 +3656,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:13Z",
+    "visualValidatedAt" : "2026-08-19T14:02:14Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 40 Treffer",
     "waitMs" : 2500
   },
@@ -3670,7 +3710,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:17Z",
+    "visualValidatedAt" : "2026-08-19T14:02:17Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 2500
   },
@@ -3723,7 +3763,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:20Z",
+    "visualValidatedAt" : "2026-08-19T14:02:21Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 2500
   },
@@ -3776,7 +3816,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:23Z",
+    "visualValidatedAt" : "2026-08-19T14:02:24Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500
   },
@@ -3855,7 +3895,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:41Z",
+    "visualValidatedAt" : "2026-08-19T14:02:43Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 2500
   },
@@ -3907,7 +3947,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:44Z",
+    "visualValidatedAt" : "2026-08-19T14:02:46Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
     "waitMs" : 2500
   },
@@ -3960,7 +4000,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:47Z",
+    "visualValidatedAt" : "2026-08-19T14:02:49Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
     "waitMs" : 2500
   },
@@ -4068,7 +4108,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:16:56Z",
+    "visualValidatedAt" : "2026-08-19T14:03:00Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500
   },
@@ -4121,7 +4161,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:17:00Z",
+    "visualValidatedAt" : "2026-08-19T14:03:05Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
     "waitMs" : 2500
   },
@@ -4174,7 +4214,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:17:03Z",
+    "visualValidatedAt" : "2026-08-19T14:03:08Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
     "waitMs" : 2500
   },
@@ -4227,7 +4267,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:17:06Z",
+    "visualValidatedAt" : "2026-08-19T14:03:11Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 24 Treffer",
     "waitMs" : 2500
   },
@@ -4281,7 +4321,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:17:10Z",
+    "visualValidatedAt" : "2026-08-19T14:03:15Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
     "waitMs" : 2500
   },
@@ -4334,7 +4374,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:17:12Z",
+    "visualValidatedAt" : "2026-08-19T14:03:18Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 2500
   },
@@ -4441,7 +4481,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:17:22Z",
+    "visualValidatedAt" : "2026-08-19T14:03:27Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 2500
   },
@@ -4543,8 +4583,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T09:14:38Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:03:35Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
     "waitMs" : 2500,
     "weekdaysOnly" : true
   },
@@ -4614,8 +4654,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T10:11:57Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 13 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:03:38Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 13 Treffer",
     "waitMs" : 2500,
     "weekdaysOnly" : true
   },
@@ -4696,8 +4736,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:41:27Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:03:41Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
     "waitMs" : 2500,
     "weekdaysOnly" : true
   },
@@ -4796,8 +4836,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T02:51:09Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-19T14:03:45Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500,
     "weekdaysOnly" : true
   }
