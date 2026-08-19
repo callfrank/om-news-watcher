@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.2.0**
+**Aktueller Stand: v5.2.1**
 
 ---
 
@@ -593,6 +593,33 @@ im Reader redaktionell bearbeiten
 
 
 
+
+## v5.2.1 – begrenzter aktiver Reader-Verlauf
+
+Der Reader soll ein Arbeitsbereich und kein dauerhaft wachsendes Protokoll
+sein. Gelesene Meldungen bleiben deshalb nicht mehr unbegrenzt grau in
+`Alle Meldungen` und in Ordneransichten sichtbar.
+
+Unter **Einstellungen → Reader** kann festgelegt werden, wie lange gelesene
+Meldungen im aktiven Verlauf sichtbar bleiben:
+
+- Nur heute
+- 1 Tag (Standard)
+- 3 Tage
+- 7 Tage
+- 14 Tage
+- 30 Tage
+
+Unabhängig davon bleiben immer sichtbar:
+
+- ungelesene Meldungen
+- Favoriten
+- explizit archivierte Meldungen im Archiv
+
+Der GitHub-Watcher begrenzt `data/items.json` bereits auf maximal 500
+Tracking-Einträge. Die neue Reader-Frist verhindert zusätzlich, dass der
+aktive Arbeitsbereich mit erledigten grauen Meldungen vollläuft.
+
 ## v5.2.0 – ein gemeinsamer Quality Gate für Watcher, RSS und Reader
 
 v5.2.0 behebt die strukturelle Abweichung zwischen Feedly und der macOS-App.
@@ -748,6 +775,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.2.0**
+**OM News Watcher v5.2.1**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.
