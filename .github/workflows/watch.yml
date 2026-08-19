@@ -36,7 +36,7 @@ jobs:
           node-version: '22'
 
       - name: Abhängigkeiten installieren
-        run: npm install --no-audit --no-fund
+        run: npm install --no-audit --no-fund --package-lock=false
 
       - name: Vorinstalliertes Chrome prüfen
         shell: bash
@@ -56,14 +56,26 @@ jobs:
           git config user.name "OM News Watcher"
           git config user.email "actions@users.noreply.github.com"
 
-          git add data/state.json data/items.json docs/feed.xml data/health.json 2>/dev/null || true
+          echo "Status nach Watcher-Lauf:"
+          git status --short
+
+          # Alle vom Watcher erzeugten Persistenz- und Feed-Dateien erfassen.
+          git add -A data docs
 
           if git diff --cached --quiet; then
-            echo "Keine Änderungen – nichts zu speichern."
-            exit 0
-          fi
+            echo "Keine Änderungen in data/ oder docs/ – nichts zu speichern."
 
-          git commit -m "Update news feed"
+            # Temporäre Änderungen aus npm/Runner verwerfen.
+            git reset --hard HEAD
+            git clean -fd
+          else
+            git commit -m "Update news feed"
+
+            # Nach dem Commit dürfen für den Rebase keine lokalen
+            # Nebenänderungen mehr vorhanden sein.
+            git reset --hard HEAD
+            git clean -fd
+          fi
 
           for attempt in 1 2 3; do
             echo "Push-Versuch $attempt von 3"
@@ -76,7 +88,7 @@ jobs:
               exit 0
             fi
 
-            echo "Push wurde zwischenzeitlich überholt – neuer Versuch ..."
+            echo "Remote wurde zwischenzeitlich geändert – neuer Versuch ..."
             sleep 2
           done
 
