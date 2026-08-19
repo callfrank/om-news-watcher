@@ -123,7 +123,12 @@ const GENERIC_EXACT = new Set([
   'paypal',
   'dokumentation zur fehlerbehebung',
   'aktualisieren sie diese seite',
-  'update this page'
+  'update this page',
+  'who we are',
+  'find us',
+  'find us on',
+  'all publications',
+  'alle publikationen'
 ]);
 
 const GENERIC_PREFIXES = [
@@ -235,6 +240,8 @@ function cleanLikeReader(values, sources) {
 
     if (
       GENERIC_EXACT.has(title) ||
+      /^(?:seite|page)\s*\d+$/i.test(title) ||
+      /^(?:aktuelle\s+seite|current\s+page)\s*\d+$/i.test(title) ||
       GENERIC_PREFIXES.some(prefix =>
         title === prefix || title.startsWith(prefix + ' ')
       )

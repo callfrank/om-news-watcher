@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.1.3**
+**Aktueller Stand: v5.2.0**
 
 ---
 
@@ -592,6 +592,43 @@ im Reader redaktionell bearbeiten
 
 
 
+
+## v5.2.0 – ein gemeinsamer Quality Gate für Watcher, RSS und Reader
+
+v5.2.0 behebt die strukturelle Abweichung zwischen Feedly und der macOS-App.
+Bisher konnte `docs/feed.xml` Roh-/Alt-Treffer enthalten, die der Reader erst
+später ausblendete. Dadurch zeigte Feedly andere und teilweise wiederholte
+Meldungen als die App.
+
+### Wichtige Korrekturen
+
+- Cache-Busting (`_omw_fresh`) wird beim Kanonisieren einer Artikel-URL immer
+  entfernt und kann deshalb keine neue GUID mehr erzeugen.
+- bereits gespeicherte cache-busted URLs werden beim nächsten Lauf
+  kanonisiert und dedupliziert.
+- `Main Menu`, `Who we are`, `Find us on`, Fehlerbehebungs-/Update-Seiten,
+  `Seite 2`, `Seite 3` usw. werden als hochsichere Fehltreffer verworfen.
+- statische Bereiche wie Datenschutz, Kontakt, Karriere, Preise, Entwickler-
+  und Produktseiten werden ohne Veröffentlichungsdatum nicht als News
+  gespeichert.
+- das Quality Gate läuft **vor `data/items.json`**.
+- das gleiche Gate läuft zusätzlich direkt vor der RSS-Erzeugung. Feedly kann
+  damit nicht mehr ungefilterte Rohdaten bekommen.
+- vorhandene Fehltreffer werden beim nächsten Watcher-Lauf aus `items.json`
+  entfernt; legitime Meldungen bleiben erhalten.
+- `Neu & relevant` bedeutet jetzt ausschließlich: ungelesen, nicht archiviert,
+  nicht historisch, mindestens 2 Sterne und aktuell. Der letzte Reader-Besuch
+  beeinflusst diese Ansicht nicht mehr.
+- `Seit letztem Besuch` bleibt die einzige Ansicht, die den letzten Besuch als
+  Kriterium verwendet.
+
+### Hinweis zu Feedly
+
+Bereits von Feedly früher eingelesene Fehltreffer können durch eine spätere
+RSS-Bereinigung nicht aus Feedlys Historie gelöscht werden. Entscheidend ist,
+dass ab v5.2.0 keine neuen Wiederholungen dieser Fehltreffer mehr erzeugt
+werden. Alte Feedly-Einträge können einmalig als gelesen markiert werden.
+
 ## v5.1.3 – Reader und E-Mail verwenden dieselbe Relevanzlogik
 
 Die E-Mail-Benachrichtigung zählt nicht mehr einfach alle noch nie
@@ -711,6 +748,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.1.3**
+**OM News Watcher v5.2.0**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.

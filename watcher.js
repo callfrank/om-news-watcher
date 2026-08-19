@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.24';
+const VERSION = '0.25';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -125,7 +125,11 @@ function canonicalUrl(raw, base) {
     u.hash = '';
 
     for (const k of [...u.searchParams.keys()]) {
-      if (/^(utm_|fbclid$|gclid$|mc_|ref$|ref_|source$)/i.test(k)) {
+      if (
+        /^(utm_|fbclid$|gclid$|mc_|ref$|ref_|source$)/i.test(k) ||
+        /^_?omw_fresh$/i.test(k) ||
+        /^cache_?bust$/i.test(k)
+      ) {
         u.searchParams.delete(k);
       }
     }
@@ -236,13 +240,49 @@ function genericTitle(value = '') {
     'governance','media','stories','publications','news','presse','press',
     'menu','navigation','newsroom','press releases','pressemitteilungen',
     'events','media & resources','news & resources','unternehmensnews',
-    'unternehmensmitteilungen','company news','company updates'
+    'unternehmensmitteilungen','company news','company updates',
+    'main menu','who we are','find us','find us on',
+    'dokumentation zur fehlerbehebung','aktualisieren sie diese seite',
+    'update this page','all publications','alle publikationen'
   ]);
   if (exact.has(lower)) return true;
 
+  if (/^(?:seite|page)\s*\d+$/i.test(lower)) return true;
+  if (/^(?:aktuelle\s+seite|current\s+page)\s*\d+$/i.test(lower)) return true;
   if (/^(mehr erfahren|read more|read article|learn more|weiterlesen|download(?: for free)?|details|more|zur konferenz)/i.test(lower)) return true;
   if (/^pdf\s*[-–—:]?\s*\d+(?:[.,]\d+)?\s*(kb|mb)?$/i.test(lower)) return true;
   return false;
+}
+
+function highConfidenceStaticPath(link, source) {
+  try {
+    const u = new URL(link, source.url);
+    const path = u.pathname.toLowerCase();
+    const strongNewsPath =
+      /\/(news|newsroom|presse|press|press-releases|pressemitteilungen|media\/news|stories|reports|insights|articles?)\//i.test(path);
+
+    if (strongNewsPath) return false;
+
+    return /\/(?:privacy|privacy-policy|cookies?|terms|legal|impressum|contact|kontakt|careers?|jobs?|who-we-are|find-us|pricing|prices|developer(?:s|-portal)?|products?|solutions?|partners?)(?:\/|$)/i.test(path);
+  } catch {
+    return false;
+  }
+}
+
+function passesQualityGate(item, source) {
+  const title = normalizeTitle(item?.title || '');
+  const link = canonicalUrl(item?.link || item?.href || '', source.url);
+  const date = normalizePageDate(item?.date || item?.pageDate || '');
+
+  if (!title || !link) return false;
+  if (genericTitle(title)) return false;
+  if (samePage(link, source.url)) return false;
+
+  // Statische Navigations-/Produktbereiche ohne Veröffentlichungsdatum sind
+  // keine News. Ein explizites Datum oder ein echter Newsroom-Pfad gewinnt.
+  if (!date && highConfidenceStaticPath(link, source)) return false;
+
+  return true;
 }
 
 function samePage(candidate, sourceUrl) {
@@ -724,6 +764,10 @@ function normalizeAndFilter(rows, source) {
       continue;
     }
 
+    if (!passesQualityGate(item, source)) {
+      continue;
+    }
+
     if (!map.has(link)) {
       map.set(link, item);
     }
@@ -785,30 +829,65 @@ function pruneStoredItems(items, sources) {
   );
 
   let removed = 0;
+  let canonicalized = 0;
+  let deduped = 0;
+  const kept = [];
+  const seenGuids = new Set();
+  const seenSourceTitles = new Set();
 
-  const kept = items.filter(item => {
-    const source = sourceMap.get(item.source);
+  const sorted = [...(items || [])].sort(
+    (a, b) => Date.parse(b.detectedAt || 0) - Date.parse(a.detectedAt || 0)
+  );
+
+  for (const original of sorted) {
+    const source = sourceMap.get(original.source);
 
     if (!source) {
-      return true;
+      kept.push(original);
+      continue;
     }
 
+    const link = canonicalUrl(original.link || '', source.url);
     const candidate = {
-      title: item.title || '',
-      link: item.link || ''
+      title: original.title || '',
+      link,
+      pageDate: original.pageDate || '',
+      date: original.pageDate || ''
     };
 
-    if (!matchesConfiguredRules(candidate, source)) {
+    if (!link || !matchesConfiguredRules(candidate, source) || !passesQualityGate(candidate, source)) {
       removed++;
-      return false;
+      continue;
     }
 
-    return true;
-  });
+    const guid = idFor(link);
+    if (link !== original.link || guid !== original.guid) {
+      canonicalized++;
+    }
 
-  if (removed) {
+    const titleKey =
+      String(original.source || '').toLowerCase() + '|' +
+      normalizeTitle(original.title || '').toLowerCase();
+
+    if (seenGuids.has(guid) || seenSourceTitles.has(titleKey)) {
+      deduped++;
+      continue;
+    }
+
+    seenGuids.add(guid);
+    seenSourceTitles.add(titleKey);
+
+    kept.push({
+      ...original,
+      link,
+      guid
+    });
+  }
+
+  if (removed || canonicalized || deduped) {
     console.log(
-      `Bereinigung: ${removed} gespeicherte Feed-Einträge durch Filter entfernt.`
+      `Quality Gate: ${removed} ungeeignete Einträge entfernt, ` +
+      `${canonicalized} URLs kanonisiert, ${deduped} Duplikate zusammengeführt.`
     );
   }
 
@@ -865,9 +944,24 @@ function sourceFeedLabel(source) {
 function makeFeed(items, sources = [], options = {}) {
   const now = new Date().toUTCString();
 
-  items = items.filter(
-    item => item.historicalBackfill !== true
+  const sourceByNameForQuality = new Map(
+    sources.map(source => [source.name, source])
   );
+
+  items = items.filter(item => {
+    if (item.historicalBackfill === true) return false;
+    const source = sourceByNameForQuality.get(item.source);
+    if (!source) return true;
+    return passesQualityGate(
+      {
+        title: item.title,
+        link: item.link,
+        pageDate: item.pageDate,
+        date: item.pageDate
+      },
+      source
+    );
+  });
   const channelTitle = options.title || 'OM News Watcher';
   const channelDescription = options.description || 'Neue Meldungen aus beobachteten Websites für onlinemarktplatz.de';
 
