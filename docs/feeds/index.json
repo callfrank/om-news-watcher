@@ -3,19 +3,19 @@
     "group": "Events",
     "slug": "events",
     "file": "feeds/events.xml",
-    "count": 1
+    "count": 0
   },
   {
     "group": "Finanzen",
     "slug": "finanzen",
     "file": "feeds/finanzen.xml",
-    "count": 77
+    "count": 35
   },
   {
     "group": "Firmen",
     "slug": "firmen",
     "file": "feeds/firmen.xml",
-    "count": 127
+    "count": 50
   },
   {
     "group": "Institute",
@@ -39,19 +39,19 @@
     "group": "Research",
     "slug": "research",
     "file": "feeds/research.xml",
-    "count": 31
+    "count": 13
   },
   {
     "group": "Sonstiges",
     "slug": "sonstiges",
     "file": "feeds/sonstiges.xml",
-    "count": 120
+    "count": 30
   },
   {
     "group": "Staat",
     "slug": "staat",
     "file": "feeds/staat.xml",
-    "count": 83
+    "count": 12
   },
   {
     "group": "Verbände",
