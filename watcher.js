@@ -12,7 +12,7 @@ const GROUP_FEED_DIR = path.join(ROOT, 'docs', 'feeds');
 const GROUP_FEED_INDEX = path.join(GROUP_FEED_DIR, 'index.json');
 const HEALTH_FILE = path.join(ROOT, 'data', 'health.json');
 
-const VERSION = '0.29';
+const VERSION = '0.30';
 
 const MAX_SEEN_PER_SOURCE = 2500;
 const MAX_DELIVERED_PER_SOURCE = 2500;
@@ -1759,6 +1759,40 @@ async function inspectSource(context, fallbackContext, source, index, total) {
       rows,
       source
     );
+
+    // Visuell gelernte Regeln dürfen nicht an einem einzigen engen
+    // candidateSelector scheitern. Wenn dieser nach Reload 0 plausible
+    // Treffer liefert, wird einmal breit gescannt. includeRegex,
+    // Visual-Sample-Shape und Quality-Gates grenzen anschließend wieder ein.
+    if (
+      rows.length === 0 &&
+      (
+        source.visualLearned === true ||
+        Boolean(source.includeRegex)
+      )
+    ) {
+      const broadSource = {
+        ...source,
+        candidateSelector: null
+      };
+
+      const broadRows = await extractAutomatic(
+        page,
+        broadSource
+      );
+
+      const broadFiltered = normalizeAndFilter(
+        broadRows,
+        source
+      );
+
+      if (broadFiltered.length > 0) {
+        rows = broadFiltered;
+        notes.push(
+          `Selector-Fallback: enger Selektor 0 Treffer, breiter DOM-Scan ${rows.length} Treffer.`
+        );
+      }
+    }
 
     // Bei Startseiten zusätzlich einen unabhängigen RSS-/Atom-Kanal nutzen.
     // Feed-Treffer stehen bewusst zuerst, weil sie häufig aktueller sind

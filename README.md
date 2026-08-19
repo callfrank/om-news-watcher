@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.3.4**
+**Aktueller Stand: v5.3.5**
 
 ---
 
@@ -599,6 +599,39 @@ im Reader redaktionell bearbeiten
 
 
 
+
+## v5.3.5 – robuster Selector-Fallback
+
+v5.3.5 beseitigt die letzte harte Abhängigkeit visueller Regeln von einem
+einzelnen CSS-Kandidatenselektor.
+
+Wenn eine visuell gelernte oder per `includeRegex` eingegrenzte Quelle nach
+einem vollständigen Reload mit dem engen `candidateSelector` 0 Treffer
+liefert, erfolgt automatisch ein zweiter Durchlauf über alle klickbaren
+DOM-Elemente.
+
+Wichtig: Der breite Scan ist kein ungefilterter Import. Danach greifen
+weiterhin:
+
+- `includeRegex`
+- Visual-Sample-Shape
+- Artikel-/URL-Qualitätsregeln
+- News-Eligibility-Gate
+
+Der Mac-Schnelltest meldet in diesem Fall ausdrücklich:
+
+`Selektor-Fallback: Treffer über breiten DOM-Scan + URL-Regel reproduziert.`
+
+Der GitHub-Watcher protokolliert:
+
+`Selector-Fallback: enger Selektor 0 Treffer, breiter DOM-Scan N Treffer.`
+
+### Versionen
+
+- macOS-App: **5.3.5**
+- Watcher: **0.30**
+- Tracking-/Health-Schema: **3**
+
 ## v5.3.4 – visuelles Einlernen: identische Klicklogik
 
 v5.3.4 behebt einen Unterschied zwischen visuellem Trainer, Schnelltest und
@@ -1003,6 +1036,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.3.4**
+**OM News Watcher v5.3.5**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.
