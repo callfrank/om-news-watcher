@@ -7465,6 +7465,7 @@
     "DM": [],
     "Uber": [
       "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx",
+      "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Autonomous-Rides-in-Europe/default.aspx",
       "https://investor.uber.com/rss/PressRelease.aspx",
       "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787057308959-rlz5r2",
       "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787062124588-5jg8ry",
@@ -7480,8 +7481,7 @@
       "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787104510892-tuo2bj",
       "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787107001136-2rw6t3",
       "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787107566977-bbzy2f",
-      "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787111981636-4ojwty",
-      "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Autonomous-Rides-in-Europe/default.aspx"
+      "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787111981636-4ojwty"
     ],
     "DeliveryHero": [
       "https://ir.deliveryhero.com/de/news?_omw_fresh=1787057309472-qmq346",
@@ -8241,15 +8241,6 @@
       "deliveredAt": "2026-08-19T19:40:22.065Z",
       "recovered": true
     },
-    "Amazon US": {
-      "title": "BrightSign Scales Premium, Cloud-Based Device Management Solution on Amazon Web Services",
-      "link": "https://press.aboutamazon.com/aws/2026/8/brightsign-scales-premium-cloud-based-device-management-solution-on-amazon-web-services",
-      "pageDate": null,
-      "publishedAt": null,
-      "detectedAt": "2026-08-19T16:47:35.825Z",
-      "deliveredAt": "2026-08-19T16:47:35.825Z",
-      "recovered": false
-    },
     "Aboutamazon": {
       "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
       "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
@@ -8258,6 +8249,15 @@
       "detectedAt": "2026-08-19T19:40:22.038Z",
       "deliveredAt": "2026-08-19T19:40:22.038Z",
       "recovered": true
+    },
+    "Amazon US": {
+      "title": "BrightSign Scales Premium, Cloud-Based Device Management Solution on Amazon Web Services",
+      "link": "https://press.aboutamazon.com/aws/2026/8/brightsign-scales-premium-cloud-based-device-management-solution-on-amazon-web-services",
+      "pageDate": null,
+      "publishedAt": null,
+      "detectedAt": "2026-08-19T16:47:35.825Z",
+      "deliveredAt": "2026-08-19T16:47:35.825Z",
+      "recovered": false
     },
     "ECB": {
       "title": "Europa Open Air is back!",
