@@ -389,22 +389,22 @@
     "allowExternal" : false,
     "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "mac-app-20260817-135813",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260819-044202",
+    "candidateSelector" : "a[href*=\"/de/page/\"]",
     "enabled" : true,
     "groups" : [
       "Firmen"
     ],
     "http2Fallback" : false,
-    "includeRegex" : "^https?://www\\.galaxus\\.de/de/page/",
+    "includeRegex" : "^https?://www\\.galaxus\\.de/de/page/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Galaxus Medienmitteilungen",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "section",
+      "item" : "section.yI0wRwL",
       "link" : "a.yyfb861",
-      "title" : "h4.yoCHKHQA"
+      "title" : "a.yyfb861"
     },
     "timeoutMs" : 60000,
     "url" : "https://www.galaxus.de/de/page/medienmitteilungen-von-galaxus-27306",
@@ -420,19 +420,51 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T11:58:13Z",
+    "visualLearnedAt" : "2026-08-19T02:42:02Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+          "includeRegex" : "^https?://www\\.galaxus\\.de/de/page/",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "section",
+            "link" : "a.yyfb861",
+            "title" : "h4.yoCHKHQA"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T11:58:13Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 3,
+          "visualSampleURLs" : [
+            "https://www.galaxus.de/de/page/ueber-50-prozent-wachstum-bei-haargummis-ein-erling-haaland-effekt-43348",
+            "https://www.galaxus.de/de/page/grillsommer-2026-mehr-strom-mehr-brenner-mehr-plancha-43362",
+            "https://www.galaxus.de/de/page/deutsche-tragen-am-haeufigsten-kurze-hosen-bei-der-arbeit-43287"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster + Karteninhalt",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-18T07:11:11Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-19T02:42:02Z"
+      }
+    ],
     "visualRuleVersion" : 3,
-    "visualSampleCount" : 3,
+    "visualSampleCount" : 2,
     "visualSampleURLs" : [
-      "https://www.galaxus.de/de/page/ueber-50-prozent-wachstum-bei-haargummis-ein-erling-haaland-effekt-43348",
-      "https://www.galaxus.de/de/page/grillsommer-2026-mehr-strom-mehr-brenner-mehr-plancha-43362",
-      "https://www.galaxus.de/de/page/deutsche-tragen-am-haeufigsten-kurze-hosen-bei-der-arbeit-43287"
+      "https://www.galaxus.de/de/page/drohnenverkaeufe-erreichen-neues-allzeithoch-43323",
+      "https://www.galaxus.de/de/page/ueber-50-prozent-wachstum-bei-haargummis-ein-erling-haaland-effekt-43348"
     ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T07:11:11Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
+    "visualValidatedAt" : "2026-08-19T02:42:07Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 1000
   },
   {
