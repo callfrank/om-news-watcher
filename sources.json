@@ -4588,7 +4588,7 @@
     "automaticTagging" : true,
     "baselineVersion" : "mac-app-20260818-110356",
     "checkIntervalMinutes" : 60,
-    "enabled" : true,
+    "enabled" : false,
     "excludeKeywords" : [
 
     ],
