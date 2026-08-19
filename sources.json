@@ -4939,5 +4939,75 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260819-161307",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Finanzen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://demoshops\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "WERO News",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "h2.wp-block-post-title",
+      "link" : "a",
+      "title" : "h2.wp-block-post-title"
+    },
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://demoshops.de/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-19T14:13:07Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T14:13:07Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://demoshops.de/drogerie-dm-mit-wero-bezahlen/",
+      "https://demoshops.de/welche-kommunen-bieten-wero-an/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-19T14:13:12Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer · Kartenstruktur + URL-Muster",
+    "waitMs" : 2500,
+    "weekdaysOnly" : false
   }
 ]
