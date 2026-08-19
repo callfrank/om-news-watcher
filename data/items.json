@@ -1,5 +1,27 @@
 [
   {
+    "guid": "9c5b9cc873ed17a3015b0992",
+    "source": "PayPal US",
+    "sourceLabel": "PayPal US",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Unternehmensnews",
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "PayPal and Venmo Expand to Tuition Payments in New Integrations with Illumia, Nelnet Campus Commerce, and TouchNet",
+    "link": "https://newsroom.paypal-corp.com/2026-08-19-PayPal-and-Venmo-Expand-to-Tuition-Payments-in-New-Integrations-with-Illumia,-Nelnet-Campus-Commerce,-and-TouchNet",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T12:00:50.858Z",
+    "deliveredAt": "2026-08-19T12:00:50.858Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c94c6e496c6216c043556ace",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
