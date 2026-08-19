@@ -1515,19 +1515,21 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260814-165320",
+    "baselineVersion" : "mac-app-20260819-044022",
+    "candidateSelector" : "a[href*=\"/de/news/\"]",
     "enabled" : true,
     "groups" : [
       "Firmen"
     ],
+    "includeRegex" : "^https?://www\\.etsy\\.com/de/news/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Etsy",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "a.wt-text-link-no-underline",
-      "link" : "a.wt-text-link-no-underline",
-      "title" : "a.wt-text-link-no-underline"
+      "item" : "a.wt-card-link",
+      "link" : "a.wt-card-link",
+      "title" : "a.wt-card-link"
     },
     "shortName" : "Etsy",
     "tags" : [
@@ -1543,11 +1545,32 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-14T14:53:20Z",
-    "visualSampleCount" : 3,
+    "visualLearnedAt" : "2026-08-19T02:40:22Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T02:40:22Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.etsy.com/de/news/olivia-rodrigo-and-etsy-debut-the-official-daisy-chain-fields-collection-and-announce-immersive-festival-experience?ref=news",
+      "https://www.etsy.com/de/news/introducing-the-craft-catalyst-initiative-a-10-million-investment-in-the-future-of-american-craft?ref=news"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:32:39Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 95 Treffer",
+    "visualValidatedAt" : "2026-08-19T02:40:28Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
   {
@@ -2436,7 +2459,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-18T08:29:06Z",
+    "visualValidatedAt" : "2026-08-19T02:38:25Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 44 Treffer",
     "waitMs" : 2500
   },
