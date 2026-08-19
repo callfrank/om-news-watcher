@@ -1,6 +1,30 @@
 [
   {
-    "guid": "be5073de656ef976f7023eee",
+    "guid": "6a0ab90ecd75dc51ea8a0456",
+    "source": "Ebayinc",
+    "sourceLabel": "Ebayinc",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "The Power of Knowing a Product Was 'Used in Japan'",
+    "link": "https://www.ebayinc.com/stories/news/the-power-of-knowing-a-product-was-used-in-japan/",
+    "pageDate": "Aug 19, 2026 Japan",
+    "publishedAt": null,
+    "detectedAt": "2026-08-19T13:58:31.703Z",
+    "deliveredAt": "2026-08-19T13:58:31.703Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b14623dbbc9b04e47c9f29f8",
     "source": "ECB",
     "sourceLabel": "ECB",
     "groups": [
@@ -9,15 +33,38 @@
     "tags": [],
     "priority": 2,
     "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
-    "link": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260811~47cd3ee040.es.pdf",
+    "link": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260811~47cd3ee040.fr.pdf",
     "pageDate": "20.08.2026",
     "publishedAt": "2026-08-20T12:00:00.000Z",
-    "detectedAt": "2026-08-19T12:44:46.391Z",
-    "deliveredAt": "2026-08-19T12:44:46.391Z",
+    "detectedAt": "2026-08-19T13:58:31.662Z",
+    "deliveredAt": "2026-08-19T13:58:31.662Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "c31049ad6f1be5a4d7d28287",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wero wächst im Onlinehandel: Nach Lidl folgt dm",
+    "link": "https://onlinemarktplatz.de/271181/wero-bei-dm/",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T13:58:31.649Z",
+    "deliveredAt": "2026-08-19T13:58:31.649Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "e8df8cab9efdcbc62b9e50cc",
