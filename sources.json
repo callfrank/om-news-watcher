@@ -4368,7 +4368,10 @@
     "waitMs" : 2500
   },
   {
-    "baselineVersion" : "mac-app-20260818-081552",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260819-142017",
+    "candidateSelector" : "a[href*=\"/de/nachrichten/\"],[data-href*=\"/de/nachrichten/\"],[data-url*=\"/de/nachrichten/\"],[data-link*=\"/de/nachrichten/\"],[onclick*=\"/de/nachrichten/\"]",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -4379,6 +4382,8 @@
     "includeKeywords" : [
 
     ],
+    "includeRegex" : "^https?://ir\\.deliveryhero\\.com/de/nachrichten/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "DeliveryHero",
     "priority" : 2,
     "selectors" : {
@@ -4391,6 +4396,41 @@
       "Logistik"
     ],
     "url" : "https://ir.deliveryhero.com/de/news",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-19T12:20:17Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T12:20:17Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://ir.deliveryhero.com/de/nachrichten/delivery-hero-startet-agentischen-ki-assistenten-um-shops-und-restaurants-zu-helfen-schneller-zu-wachsen/7fec4e44-4d65-4f45-9ed7-ec935776b0f7",
+      "https://ir.deliveryhero.com/de/nachrichten/delivery-hero-und-uber-buendeln-ihre-kraefte-um-mehr-fuer-verbraucher-haendler-und-kuriere-zu/b21fbac5-4649-4dc8-a7d2-8295a6952a7a"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-19T12:20:17Z",
+    "visualValidationMessage" : "Markierte Beispiel-URLs bestätigen das enge URL-Muster · URL-Muster · GitHub-Endtest ausstehend",
     "waitMs" : 2500
   },
   {
