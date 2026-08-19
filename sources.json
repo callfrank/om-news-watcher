@@ -1474,14 +1474,16 @@
     "waitMs" : 5000
   },
   {
-    "baselineVersion" : "mac-app-20260814-135827",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260819-043316",
     "candidateSelector" : "a[href*=\"/de/de/about/press-room/\"]",
     "enabled" : true,
     "groups" : [
       "Research"
     ],
-    "includeRegex" : "^https?://www\\.deloitte\\.com\\/de\\/de\\/about\\/press-room\\/",
-    "minTitleLength" : 12,
+    "includeRegex" : "^https?://www\\.deloitte\\.com/de/de/about/press-room/[^/?#]+\\.html/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Deloitte",
     "priority" : 2,
     "selectors" : {
@@ -1491,6 +1493,47 @@
       "title" : ""
     },
     "url" : "https://www.deloitte.com/de/de/about/press-room.html",
+    "visualBackup" : {
+      "candidateSelector" : "a[href*=\"/de/de/about/press-room/\"]",
+      "includeRegex" : "^https?://www\\.deloitte\\.com\\/de\\/de\\/about\\/press-room\\/",
+      "minTitleLength" : 12,
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-19T02:33:16Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "candidateSelector" : "a[href*=\"/de/de/about/press-room/\"]",
+          "includeRegex" : "^https?://www\\.deloitte\\.com\\/de\\/de\\/about\\/press-room\\/",
+          "minTitleLength" : 12,
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-19T02:33:16Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.deloitte.com/de/de/about/press-room/health-apps-und-fitnesstracker-potenzial-fuer-die-medizinische-versorgung-wird-noch-nicht-ausgeschoepft.html",
+      "https://www.deloitte.com/de/de/about/press-room/europas-automobilindustrie-entgehen-milliardengewinne.html"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-19T02:33:21Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
     "waitMs" : 2500
   },
   {
