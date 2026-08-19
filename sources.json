@@ -1325,7 +1325,7 @@
     "waitMs" : 7000
   },
   {
-    "enabled" : true,
+    "enabled" : false,
     "groups" : [
       "Firmen"
     ],
