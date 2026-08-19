@@ -536,7 +536,7 @@
     "allowTitleOnly" : true,
     "baselineVersion" : "mac-app-20260817-132848",
     "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
-    "enabled" : true,
+    "enabled" : false,
     "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
     "groups" : [
       "Firmen"
