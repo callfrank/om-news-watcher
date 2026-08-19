@@ -1411,7 +1411,7 @@ struct HealthDashboardView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 HStack(spacing: 12) {
-                    Text("App 5.3.3")
+                    Text("App 5.3.4")
 
                     if let watcher = model.healthWatcherVersion {
                         Text("Watcher v\(watcher)")
@@ -2640,7 +2640,13 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
       .replace(/\\/g, '\\\\')
       .replace(/"/g, '\\"');
 
-    return `a[href*="${escaped}"]`;
+    return [
+      `a[href*="${escaped}"]`,
+      `[data-href*="${escaped}"]`,
+      `[data-url*="${escaped}"]`,
+      `[data-link*="${escaped}"]`,
+      `[onclick*="${escaped}"]`
+    ].join(',');
   };
 
   const buildURLRegex = () => {

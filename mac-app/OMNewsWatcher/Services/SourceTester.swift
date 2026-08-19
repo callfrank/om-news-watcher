@@ -1385,7 +1385,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
           const clean = text => (text || '').replace(/\s+/g, ' ').trim();
           const rows = [];
           const allRows = [];
-          const clickableSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick]';
+          const clickableSelector = 'a[href],[data-href],[data-url],[data-link],[role="link"],button[onclick],[onclick]';
           const cardSelector = 'article,li,tr,section,[class*="card" i],[class*="teaser" i],[class*="news" i],[class*="press" i],[class*="event" i],[class*="story" i],[class*="result" i],[class*="item" i],[class*="report" i],[class*="post" i]';
 
           const generic = value => {
@@ -1409,7 +1409,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
 
           const hrefFrom = (el, root = null) => {
             if (!el && !root) return '';
-            const candidates = [el, el?.closest?.('a[href]'), root];
+            const candidates = [el, el?.closest?.('a[href],[data-href],[data-url],[data-link],[role="link"],[onclick]'), root];
             for (const node of candidates) {
               if (!node?.getAttribute) continue;
               const raw = node.href || node.getAttribute('href') || node.getAttribute('data-href') || node.getAttribute('data-url') || node.getAttribute('data-link') || '';

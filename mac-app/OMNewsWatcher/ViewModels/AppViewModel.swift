@@ -1096,7 +1096,7 @@ final class AppViewModel: ObservableObject {
                     linkSelector: "",
                     dateSelector: nil,
                     candidateSelector:
-                        "a[href],[data-href],[data-url],[data-link],[role=\"link\"]",
+                        "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
                     urlRegex: regex,
                     allowExternal: rule.allowExternal,
                     sampleCount: rule.sampleCount,
@@ -2235,7 +2235,7 @@ final class AppViewModel: ObservableObject {
                         updatedAt:
                             now,
                         appVersion:
-                            "5.3.3"
+                            "5.3.4"
                     )
 
                 let encoder = JSONEncoder()
