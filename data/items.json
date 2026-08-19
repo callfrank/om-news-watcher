@@ -1,5 +1,24 @@
 [
   {
+    "guid": "916e1b20532a7cbdd8396dbe",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Europa Open Air is back!",
+    "link": "https://www.hr-sinfonieorchester.de/konzerte/konzerte-26-27/allgemeine-hinweise-europa-open-air-2026-v1,europa-open-air-2026--hinweise-100.html",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T14:54:48.768Z",
+    "deliveredAt": "2026-08-19T14:54:48.768Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "6a0ab90ecd75dc51ea8a0456",
     "source": "Ebayinc",
     "sourceLabel": "Ebayinc",
