@@ -4,7 +4,7 @@
 
 Es überwacht definierte Webseiten auf neue Meldungen, Pressemitteilungen, Studien, Events, Quartalszahlen und andere relevante Veröffentlichungen. Die macOS-App dient dabei als Verwaltungs-, Prüf- und Reader-Oberfläche; die eigentliche automatische Überwachung läuft unabhängig davon über GitHub Actions.
 
-**Aktueller Stand: v5.3.2**
+**Aktueller Stand: v5.3.3**
 
 ---
 
@@ -597,6 +597,30 @@ im Reader redaktionell bearbeiten
 
 
 
+
+## v5.3.3 – Build-Hotfix für den Regel-Debugger
+
+v5.3.3 korrigiert einen Swift-Compilerfehler aus v5.3.1/v5.3.2.
+
+Im `RuleDebuggerView` wurde noch die alte Eigenschaft
+
+```text
+health.displayHitCount
+```
+
+verwendet. Das neue Health-Modell nutzt seit v5.3.1 getrennte Werte für
+technisch erkannte und Reader-fähige Treffer. Der Debugger verwendet nun
+`health.displayTechnicalCount`.
+
+Zusätzlich bleibt `displayHitCount` als kompatibler Alias erhalten, damit
+weitere ältere View-Bestandteile nicht erneut denselben Buildfehler auslösen.
+
+### Versionen
+
+- macOS-App: **5.3.3**
+- Watcher: **0.28** unverändert
+- Tracking-/Health-Schema: **3**
+
 ## v5.3.2 – visuelles Einlernen und undatierte Fehltreffer
 
 v5.3.2 korrigiert zwei Fehler, die unter anderem bei DeliveryHero sichtbar
@@ -949,6 +973,6 @@ v5.1.1 korrigiert zwei Fehler der ersten v5.1-Tracking-Migration:
 
 ## Version
 
-**OM News Watcher v5.3.2**
+**OM News Watcher v5.3.3**
 
 Tracking-Audit, items.json-basierte Selbstheilung, Schutz vor historischen Fehl-Backfills, Quellen-Gesundheit, Regel-Versionierung, visueller Trainer und integrierter Reader.
