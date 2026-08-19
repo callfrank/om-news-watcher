@@ -1,6 +1,33 @@
 [
   {
-    "guid": "c94c6e496c6216c043556ace",
+    "guid": "897b01c83959fb893dcc7af6",
+    "source": "Walmart",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen",
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart To Host Second Quarter Earnings Conference Call Aug. 20, 2026",
+    "link": "https://corporate.walmart.com/news/2026/08/13/walmart-to-host-second-quarter-earnings-conference-call-august-20-2026",
+    "pageDate": "Aug. 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-19T06:18:40.462Z",
+    "deliveredAt": "2026-08-19T06:18:40.462Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Walmart QZ"
+    ]
+  },
+  {
+    "guid": "3ee8b872934bbee751b5203f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -9,15 +36,120 @@
     "tags": [],
     "priority": 2,
     "title": "eBay erweitert die Echtheitsprüfung aus Deutschland nach Frankreich und Italien",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
     "pageDate": "17.08.2026",
     "publishedAt": "2026-08-17T12:00:00.000Z",
-    "detectedAt": "2026-08-19T05:23:56.934Z",
-    "deliveredAt": "2026-08-19T05:23:56.934Z",
+    "detectedAt": "2026-08-19T06:18:40.460Z",
+    "deliveredAt": "2026-08-19T06:18:40.460Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "2831f405064d98c8d81f2350",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "17.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2333207/NEUE%20WERBEKAMPAGNE:%20POST%20MACHT%20MODERNE%20GRUNDVERSORGUNG%20SICHTBAR",
+    "pageDate": "17.08.2026",
+    "publishedAt": "2026-08-17T12:00:00.000Z",
+    "detectedAt": "2026-08-19T06:18:40.449Z",
+    "deliveredAt": "2026-08-19T06:18:40.449Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e22fbcab929197fc85413d66",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragsbestand im Verarbeitenden Gewerbe im Juni 2026: +0,8 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_294_421.html",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T06:18:40.409Z",
+    "deliveredAt": "2026-08-19T06:18:40.409Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3846976040ce24d2def619f5",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "10 % mehr Anerkennungen ausländischer Berufsabschlüsse 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_295_212.html",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T06:18:40.409Z",
+    "deliveredAt": "2026-08-19T06:18:40.409Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "eaacce90a70dec8bdc236be9",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Chinesische Händler bauen europäische Logistikstrukturen auf",
+    "link": "https://onlinemarktplatz.de/271134/chinesische-logistik-in-europa/",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T06:18:40.388Z",
+    "deliveredAt": "2026-08-19T06:18:40.388Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0e342ff4816adda3c0e18d44",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Telekom ist offizieller Event-Partner des FIBA Women’s Basketball World Cup 2026 in Berlin",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-ist-offizieller-event-partner-des-fiba-women-s-basketball-world-cup-2026-in-berlin-1106708",
+    "pageDate": "19.08.2026",
+    "publishedAt": "2026-08-19T12:00:00.000Z",
+    "detectedAt": "2026-08-19T06:18:40.382Z",
+    "deliveredAt": "2026-08-19T06:18:40.382Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "ca429323370ae1dea8dd902e",
