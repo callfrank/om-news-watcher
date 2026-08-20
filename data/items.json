@@ -1,6 +1,6 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "543d05cd8f9cc725a6eca33f",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,78 @@
     ],
     "priority": 2,
     "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
     "pageDate": "August 20, 2026",
     "publishedAt": "2026-08-20T00:00:00.000Z",
-    "detectedAt": "2026-08-20T11:43:10.391Z",
-    "deliveredAt": "2026-08-20T11:43:10.391Z",
+    "detectedAt": "2026-08-20T13:12:20.722Z",
+    "deliveredAt": "2026-08-20T13:12:20.722Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "656b1329da8638ba80d277f8",
+    "source": "DM",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "„Wir machen den Unterschied“: Ein gelebter Anspruch als Grundlage der Kampagne zur Mitarbeitergewinnung",
+    "link": "https://newsroom.dm.de/pressreleases/wir-machen-den-unterschied-ein-gelebter-anspruch-als-grundlage-der-kampagne-zur-mitarbeitergewinnung-3461751",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T13:12:20.709Z",
+    "deliveredAt": "2026-08-20T13:12:20.709Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cc2f50f39d8b42ee4caca85f",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Walmart Q2: Marketplace wächst um 52 Prozent, US-Handel bremst",
+    "link": "https://onlinemarktplatz.de/275333/walmart-zahlen-q2-fy27/",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T13:12:20.619Z",
+    "deliveredAt": "2026-08-20T13:12:20.619Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "81bf83e19c9eb64711314fd2",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Sicher ins digitale Leben: Was Eltern beim ersten Smartphone beachten sollten",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/sicher-ins-digitale-leben-1106778",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T13:12:20.607Z",
+    "deliveredAt": "2026-08-20T13:12:20.607Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "2b3020c5bce44861db6902dd",
