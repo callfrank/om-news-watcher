@@ -1,6 +1,6 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "543d05cd8f9cc725a6eca33f",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,123 @@
     ],
     "priority": 2,
     "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
     "pageDate": "August 20, 2026",
     "publishedAt": "2026-08-20T00:00:00.000Z",
-    "detectedAt": "2026-08-20T07:58:07.033Z",
-    "deliveredAt": "2026-08-20T07:58:07.033Z",
+    "detectedAt": "2026-08-20T08:58:04.853Z",
+    "deliveredAt": "2026-08-20T08:58:04.853Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "01a8b8fdec993d15cc0a4105",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch 'Novak Djokovic: The Wolf in Winter,' the Prime Video documentary streaming now",
+    "link": "https://www.aboutamazon.com/news/entertainment/djokovic-prime-video-documentary",
+    "pageDate": "Aug. 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-20T08:58:04.831Z",
+    "deliveredAt": "2026-08-20T08:58:04.831Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9514640bab4c8f1c23e2a013",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Handel bildet Zukunft aus – Hohe Ausbildungsqualität und ein Stück Identität",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15303-handel-bildet-zukunft-aus-hohe-ausbildungsqualitaet-und-ein-stueck-identitaet",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-20T08:58:04.764Z",
+    "deliveredAt": "2026-08-20T08:58:04.764Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9db1860f735f6f354f936413",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Photovoltaik: Einspeisevergütung soll ab 2027 schrittweise auslaufen",
+    "link": "https://www.vzhh.de/presse/photovoltaik-einspeiseverguetung-soll-ab-2027-schrittweise-auslaufen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-20T08:58:04.757Z",
+    "deliveredAt": "2026-08-20T08:58:04.757Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "22a272d5c2d7fc7af30727e4",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Telekom startet Kampagne „Not A Passenger“ mit Rhian Teasdale von der Grammy-prämierten Band Wet Leg",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-startet-kampagne-not-a-passenger-mit-rhian-teasdale-von-der-grammy-praemierten-band-wet-leg-1106716",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T08:58:04.752Z",
+    "deliveredAt": "2026-08-20T08:58:04.752Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e79a507e3f3698eb1212aef0",
+    "source": "Forrester Press Newsroom",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Forrester Introduces AI Disruption Model To Assess AI’s Impact On Technology And Service Markets",
+    "link": "https://www.forrester.com/press-newsroom/forrester-ai-disruption-model/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-20T08:58:04.732Z",
+    "deliveredAt": "2026-08-20T08:58:04.732Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "c2c9406d1f6c1060ec326ebd",
