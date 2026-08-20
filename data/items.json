@@ -1,5 +1,116 @@
 [
   {
+    "guid": "543d05cd8f9cc725a6eca33f",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
+    "pageDate": "August 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-20T10:47:58.816Z",
+    "deliveredAt": "2026-08-20T10:47:58.816Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "7ce878aa3d350055daa2d351",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "AWS commits more than $500 million to student cloud and AI training",
+    "link": "https://www.aboutamazon.com/news/aws/aws-student-rewards-free-cloud-ai-training",
+    "pageDate": "Aug. 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-20T10:47:58.792Z",
+    "deliveredAt": "2026-08-20T10:47:58.792Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "22a3952a924bdceb573152b1",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Packaging Redesigns See 4% Average Volume Lift, NIQ Finds",
+    "link": "https://nielseniq.com/global/en/news-center/2026/packaging-redesigns-see-4-average-volume-lift-niq-finds/",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T10:47:58.787Z",
+    "deliveredAt": "2026-08-20T10:47:58.787Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "df72649f544215be994bdf91",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Alibaba Zahlen Juni 2026: Cloud plus 45 Prozent, Nettogewinn minus 75 Prozent",
+    "link": "https://onlinemarktplatz.de/274617/alibaba-zahlen-juni-2026/",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T10:47:58.715Z",
+    "deliveredAt": "2026-08-20T10:47:58.715Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e62a2abc96a9588b9151adc6",
+    "source": "Fressnapf Newsroom",
+    "sourceLabel": "Fressnapf",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Fressnapf bringt internationales Urban-Store-Konzept erstmals nach Deutschland und setzt Expansionskurs fort",
+    "link": "https://www.mynewsdesk.com/de/fressnapf-holding-se/pressreleases/fressnapf-bringt-internationales-urban-store-konzept-erstmals-nach-deutschland-und-setzt-expansionskurs-fort-3461610",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T10:47:58.684Z",
+    "deliveredAt": "2026-08-20T10:47:58.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "68508639ec46761303e1bc8c",
     "source": "Excitingcommerce",
     "sourceLabel": "Excitingcommerce",
@@ -17,31 +128,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "aef4cd5989909db41f3b8758",
-    "source": "Uber",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
-    "pageDate": "August 20, 2026",
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "detectedAt": "2026-08-20T09:51:09.967Z",
-    "deliveredAt": "2026-08-20T09:51:09.967Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "5e5ff1fefb3e65e0cfa1b8b9",
