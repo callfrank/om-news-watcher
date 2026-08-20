@@ -1,6 +1,6 @@
 [
   {
-    "guid": "543d05cd8f9cc725a6eca33f",
+    "guid": "aef4cd5989909db41f3b8758",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,57 @@
     ],
     "priority": 2,
     "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
     "pageDate": "August 20, 2026",
     "publishedAt": "2026-08-20T00:00:00.000Z",
-    "detectedAt": "2026-08-20T16:51:26.352Z",
-    "deliveredAt": "2026-08-20T16:51:26.352Z",
+    "detectedAt": "2026-08-20T17:46:24.817Z",
+    "deliveredAt": "2026-08-20T17:46:24.817Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "e6c12006fd61110b69c9026a",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "'Sterling Point' Season 2: Everything to know and how to watch Season 1 on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/sterling-point-series-prime-video",
+    "pageDate": "Aug. 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-20T17:46:24.791Z",
+    "deliveredAt": "2026-08-20T17:46:24.791Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5a563036cd347ed71e522b9a",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Prime Video to invest $2 billion in Latin America between 2027 and 2030",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-latin-america-investment",
+    "pageDate": "Aug. 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-20T17:46:24.790Z",
+    "deliveredAt": "2026-08-20T17:46:24.790Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "656b1329da8638ba80d277f8",
