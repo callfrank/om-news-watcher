@@ -1,6 +1,6 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "8dc5545bde847e16a1c5ec6c",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,224 @@
     ],
     "priority": 2,
     "title": "Uber CEO to Participate in Fireside Chat Hosted by Goldman Sachs",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-CEO-to-Participate-in-Fireside-Chat-Hosted-by-Goldman-Sachs/default.aspx",
     "pageDate": "August 19, 2026",
     "publishedAt": "2026-08-19T00:00:00.000Z",
-    "detectedAt": "2026-08-20T05:47:56.158Z",
-    "deliveredAt": "2026-08-20T05:47:56.158Z",
+    "detectedAt": "2026-08-20T07:10:45.057Z",
+    "deliveredAt": "2026-08-20T07:10:45.057Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "543d05cd8f9cc725a6eca33f",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
+    "pageDate": "August 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:45.057Z",
+    "deliveredAt": "2026-08-20T07:10:45.057Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2287834637166b2acc8a5a6b",
+    "source": "DM",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wiedereröffnung – Werder (Havel), 27. August 2026",
+    "link": "https://newsroom.dm.de/pressreleases/wiedereroeffnung-werder-havel-27-august-2026-3460842",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:45.044Z",
+    "deliveredAt": "2026-08-20T07:10:45.044Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8e55de3fe94faa8f5a9491fb",
+    "source": "Zew",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Industrieökonomie im Fokus: Internationale Spitzenforschung zu Gast in Mannheim // ZEW Mannheim richtet in Kooperation mit der Universität Mannheim die EARIE-Konferenz 2026 aus",
+    "link": "https://www.zew.de/presse/pressearchiv/industrieoekonomie-im-fokus-internationale-spitzenforschung-zu-gast-in-mannheim",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:45.032Z",
+    "deliveredAt": "2026-08-20T07:10:45.032Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7ae77813056b4ab86bcd5347",
+    "source": "Gfu",
+    "sourceLabel": "Gfu",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Deutscher Home Electronics Markt im ersten Halbjahr 2026 mit Höhen und Tiefen",
+    "link": "https://gfu.de/deutscher-home-electronics-markt-im-ersten-halbjahr-2026-mit-hoehen-und-tiefen/",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:45.032Z",
+    "deliveredAt": "2026-08-20T07:10:45.032Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bdb5c77666cd0027cc8c373e",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Restaurants’ at-home sales flat in July as consumers head out in heatwaves",
+    "link": "https://nielseniq.com/global/en/news-center/2026/restaurants-at-home-sales-flat-in-july-as-consumers-head-out-in-heatwaves/",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:45.031Z",
+    "deliveredAt": "2026-08-20T07:10:45.031Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c4c26c84fedc816c6e7232ab",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Entlastung der Unternehmen von Berichtspflichten im EU-Binnenhandel",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_297_51.html",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:44.975Z",
+    "deliveredAt": "2026-08-20T07:10:44.975Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e1684ef6c57a0c53a06ea8da",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Deutsche Exporte im 1. Halbjahr 2026: +3,9 % zum Vorjahreszeitraum",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_296_51.html",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:44.975Z",
+    "deliveredAt": "2026-08-20T07:10:44.975Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2b8569baa0122bbef0927ef9",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Erzeugerpreise im Juli 2026: +3,0% gegenüber Juli 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_298_61241.html",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:44.975Z",
+    "deliveredAt": "2026-08-20T07:10:44.975Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "53036d39ef63d0debd8f0191",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Gastgewerbeumsatz im Juni 2026 real 1,2 % niedriger als im Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_299_45213.html",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:44.975Z",
+    "deliveredAt": "2026-08-20T07:10:44.975Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "08e0a5e59dc2d66631fefe29",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Gender Education Gap 2024: Frauen machen häufiger höhere Schulabschlüsse",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N059_212.html",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:10:44.974Z",
+    "deliveredAt": "2026-08-20T07:10:44.974Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "76e0e1b9df7c62c457448187",
