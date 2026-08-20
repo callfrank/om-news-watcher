@@ -1,6 +1,25 @@
 [
   {
-    "guid": "543d05cd8f9cc725a6eca33f",
+    "guid": "68508639ec46761303e1bc8c",
+    "source": "Excitingcommerce",
+    "sourceLabel": "Excitingcommerce",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wann bekommt Galaxus auch Migros Online (ehem. LeShop)?",
+    "link": "https://excitingcommerce.de/2026/08/20/wann-bekommt-galaxus-auch-migros-online-ehem-leshop/",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T09:51:09.972Z",
+    "deliveredAt": "2026-08-20T09:51:09.972Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aef4cd5989909db41f3b8758",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +33,36 @@
     ],
     "priority": 2,
     "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
     "pageDate": "August 20, 2026",
     "publishedAt": "2026-08-20T00:00:00.000Z",
-    "detectedAt": "2026-08-20T08:58:04.853Z",
-    "deliveredAt": "2026-08-20T08:58:04.853Z",
+    "detectedAt": "2026-08-20T09:51:09.967Z",
+    "deliveredAt": "2026-08-20T09:51:09.967Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "5e5ff1fefb3e65e0cfa1b8b9",
+    "source": "Alibaba QZ",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Alibaba Group Announces June Quarter 2026 ResultsAugust 20, 2026",
+    "link": "https://www.alibabagroup.com/en-US/document-2026456290057781248",
+    "pageDate": "August 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-20T09:51:09.863Z",
+    "deliveredAt": "2026-08-20T09:51:09.863Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "01a8b8fdec993d15cc0a4105",
