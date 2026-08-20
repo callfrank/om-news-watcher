@@ -1,5 +1,57 @@
 [
   {
+    "guid": "aef4cd5989909db41f3b8758",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "pageDate": "August 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-20T11:43:10.391Z",
+    "deliveredAt": "2026-08-20T11:43:10.391Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "2b3020c5bce44861db6902dd",
+    "source": "Walmart",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen",
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart Releases Q2 FY27 Earnings",
+    "link": "https://corporate.walmart.com/news/2026/08/20/walmart-releases-q2-fy27-earnings",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-20T11:43:10.379Z",
+    "deliveredAt": "2026-08-20T11:43:10.379Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Walmart QZ"
+    ]
+  },
+  {
     "guid": "ba154bd5f07739598cb981e9",
     "source": "Excitingcommerce",
     "sourceLabel": "Excitingcommerce",
@@ -17,31 +69,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "543d05cd8f9cc725a6eca33f",
-    "source": "Uber",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
-    "pageDate": "August 20, 2026",
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "detectedAt": "2026-08-20T10:47:58.816Z",
-    "deliveredAt": "2026-08-20T10:47:58.816Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "7ce878aa3d350055daa2d351",
