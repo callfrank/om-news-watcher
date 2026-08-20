@@ -1,5 +1,99 @@
 [
   {
+    "guid": "aef4cd5989909db41f3b8758",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "pageDate": "August 20, 2026",
+    "publishedAt": "2026-08-20T00:00:00.000Z",
+    "detectedAt": "2026-08-20T07:58:07.033Z",
+    "deliveredAt": "2026-08-20T07:58:07.033Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "c2c9406d1f6c1060ec326ebd",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wero, Cloud und KI: Europas Alternativen zu US-Tech",
+    "link": "https://onlinemarktplatz.de/271096/digitale-abhaengigkeit-usa/",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:58:06.929Z",
+    "deliveredAt": "2026-08-20T07:58:06.929Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cd259c9759c70cb0540ad057",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Deutschland wird Prüfzentrum für eBays Luxusgeschäft in Europa",
+    "link": "https://onlinemarktplatz.de/271209/ebay-echtheitspruefung/",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:58:06.928Z",
+    "deliveredAt": "2026-08-20T07:58:06.928Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f4912dae2419ad94bb74d472",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Großbritannien will VAT-Abrechnung auf Marktplätze verlagern",
+    "link": "https://onlinemarktplatz.de/271220/uk-vat-reform/",
+    "pageDate": "20.08.2026",
+    "publishedAt": "2026-08-20T12:00:00.000Z",
+    "detectedAt": "2026-08-20T07:58:06.928Z",
+    "deliveredAt": "2026-08-20T07:58:06.928Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "8dc5545bde847e16a1c5ec6c",
     "source": "Uber",
     "sourceLabel": "Uber",
@@ -23,30 +117,6 @@
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
-  },
-  {
-    "guid": "543d05cd8f9cc725a6eca33f",
-    "source": "Uber",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
-    "pageDate": "August 20, 2026",
-    "publishedAt": "2026-08-20T00:00:00.000Z",
-    "detectedAt": "2026-08-20T07:10:45.057Z",
-    "deliveredAt": "2026-08-20T07:10:45.057Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   },
   {
     "guid": "2287834637166b2acc8a5a6b",
