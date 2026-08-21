@@ -5009,5 +5009,35 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : false
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260821-074034",
+    "checkIntervalMinutes" : 30,
+    "enabled" : false,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "TPG QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://corporate.the-platform-group.com/publications/",
+    "waitMs" : 2500,
+    "weekdaysOnly" : false
   }
 ]
