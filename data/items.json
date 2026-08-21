@@ -1,6 +1,6 @@
 [
   {
-    "guid": "543d05cd8f9cc725a6eca33f",
+    "guid": "aef4cd5989909db41f3b8758",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,525 @@
     ],
     "priority": 2,
     "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
     "pageDate": "August 20, 2026",
     "publishedAt": "2026-08-20T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.799Z",
-    "deliveredAt": "2026-08-21T05:49:25.799Z",
+    "detectedAt": "2026-08-21T07:08:36.451Z",
+    "deliveredAt": "2026-08-21T07:08:36.451Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "1f3e7f27a2949b3ae790384a",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Headline score up three points to -14 in August",
+    "link": "https://nielseniq.com/global/en/news-center/2026/headline-score-up-three-points-to-14-in-august/",
+    "pageDate": "21.08.2026",
+    "publishedAt": "2026-08-21T12:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.423Z",
+    "deliveredAt": "2026-08-21T07:08:36.423Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "73a1425a78e10a26ea4e8cc6",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Rund 32 500 angemeldete Prostituierte zum Jahresende 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_301_228.html",
+    "pageDate": "21.08.2026",
+    "publishedAt": "2026-08-21T12:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.365Z",
+    "deliveredAt": "2026-08-21T07:08:36.365Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4dd35c3e5aee5666986244ba",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Ausgaben für Sozialhilfe im Jahr 2025 um 6,1 % gestiegen",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_300_221.html",
+    "pageDate": "21.08.2026",
+    "publishedAt": "2026-08-21T12:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.365Z",
+    "deliveredAt": "2026-08-21T07:08:36.365Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "af6c2bf60674e4bf7ce6eaa8",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "The Platform Group: 73 Prozent des Wachstums sind organisch",
+    "link": "https://onlinemarktplatz.de/279321/the-platform-group-q2-2026/",
+    "pageDate": "21.08.2026",
+    "publishedAt": "2026-08-21T12:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.353Z",
+    "deliveredAt": "2026-08-21T07:08:36.353Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "56068829718c6d09d9d28d4b",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Digitaler Euro: Annahmepflicht für Onlinehändler rückt näher",
+    "link": "https://onlinemarktplatz.de/271199/annahmepflicht-digitaler-euro/",
+    "pageDate": "21.08.2026",
+    "publishedAt": "2026-08-21T12:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.353Z",
+    "deliveredAt": "2026-08-21T07:08:36.353Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a17cfd5502249e6099d8ef5f",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Telekom Summer Camp mit Orlando Magic und Telekom Baskets",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-summer-camp-mit-orlando-magic-und-telekom-baskets-1106782",
+    "pageDate": "21.08.2026",
+    "publishedAt": "2026-08-21T12:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.343Z",
+    "deliveredAt": "2026-08-21T07:08:36.343Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bf8f26c4402a35923bfcc06d",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/innovate-2027/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.313Z",
+    "deliveredAt": "2026-08-21T07:08:36.313Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "478a2b200a89653b9e1ea38c",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/asgtg-event-2027/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.313Z",
+    "deliveredAt": "2026-08-21T07:08:36.313Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f2315e1bb9b8bf8c07057938",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/seller-sessions-live-2027/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.313Z",
+    "deliveredAt": "2026-08-21T07:08:36.313Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5e5b228b2e647fccf2fbb8a2",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/amazing-days-sofia-2027/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "993417a673e93c5b9c8ed276",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/european-seller-conference-2027/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "6b61c0159f04da2237c9a6e4",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/prosper-show-2027/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b414f7667ed6e00aa1346cef",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/white-label-world-expo-london-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "6e708a8c077f9181d943ee1b",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/cross-border-summit-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "a6bb103c60a19dab60d216f1",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/handlerbund-sellerday-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0949de8aacbe5ec4cb2e97a6",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/ama-fest-uk-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "bc3180adb7725923a7303ebd",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/sellerbarcamp-hamburg-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "817a6c76f315c1348c041eb6",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/amazon-ecommerce-masters-summit-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "27da32082c45ddbbc55f1aac",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/amanordic-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "8f205a803640580ce49f3797",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/white-private-label-expo-new-york-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e84c40850184e2382492f78b",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/amazon-accelerate-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "1e1793279694fa6c006410ff",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/ecommerce-connect-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5942454d07ebce996fb0f401",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/sellerbarcamp-bonn-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d4cbf58dbd899b5ce4783079",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/top-dog-summit-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f3a94469ae8986a3f5409f5e",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/the-proven-conference-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.312Z",
+    "deliveredAt": "2026-08-21T07:08:36.312Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b04cc60f9a1225a03497fc50",
+    "source": "Amazon Seller Events",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon events",
+    "link": "https://amzsummits.com/events/ai-scaling-live-singapore-2026/",
+    "pageDate": "Aug 22, 2026",
+    "publishedAt": "2026-08-22T00:00:00.000Z",
+    "detectedAt": "2026-08-21T07:08:36.311Z",
+    "deliveredAt": "2026-08-21T07:08:36.311Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "ffd0268907889db1a4e97d98",
@@ -81,386 +591,6 @@
     "publishedAt": "2026-08-22T00:00:00.000Z",
     "detectedAt": "2026-08-21T05:49:25.672Z",
     "deliveredAt": "2026-08-21T05:49:25.672Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "478a2b200a89653b9e1ea38c",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/asgtg-event-2027/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.672Z",
-    "deliveredAt": "2026-08-21T05:49:25.672Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f2315e1bb9b8bf8c07057938",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/seller-sessions-live-2027/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.672Z",
-    "deliveredAt": "2026-08-21T05:49:25.672Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5e5b228b2e647fccf2fbb8a2",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/amazing-days-sofia-2027/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.672Z",
-    "deliveredAt": "2026-08-21T05:49:25.672Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "993417a673e93c5b9c8ed276",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/european-seller-conference-2027/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.672Z",
-    "deliveredAt": "2026-08-21T05:49:25.672Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6b61c0159f04da2237c9a6e4",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/prosper-show-2027/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b414f7667ed6e00aa1346cef",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/white-label-world-expo-london-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6e708a8c077f9181d943ee1b",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/cross-border-summit-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a6bb103c60a19dab60d216f1",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/handlerbund-sellerday-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0949de8aacbe5ec4cb2e97a6",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/ama-fest-uk-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bc3180adb7725923a7303ebd",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/sellerbarcamp-hamburg-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "817a6c76f315c1348c041eb6",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/amazon-ecommerce-masters-summit-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "27da32082c45ddbbc55f1aac",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/amanordic-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8f205a803640580ce49f3797",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/white-private-label-expo-new-york-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e84c40850184e2382492f78b",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/amazon-accelerate-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1e1793279694fa6c006410ff",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/ecommerce-connect-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5942454d07ebce996fb0f401",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/sellerbarcamp-bonn-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d4cbf58dbd899b5ce4783079",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/top-dog-summit-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f3a94469ae8986a3f5409f5e",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/the-proven-conference-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.671Z",
-    "deliveredAt": "2026-08-21T05:49:25.671Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b04cc60f9a1225a03497fc50",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/ai-scaling-live-singapore-2026/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T05:49:25.670Z",
-    "deliveredAt": "2026-08-21T05:49:25.670Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bf8f26c4402a35923bfcc06d",
-    "source": "Amazon Seller Events",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Amazon events",
-    "link": "https://amzsummits.com/events/innovate-2027/",
-    "pageDate": "Aug 22, 2026",
-    "publishedAt": "2026-08-22T00:00:00.000Z",
-    "detectedAt": "2026-08-21T04:55:05.033Z",
-    "deliveredAt": "2026-08-21T04:55:05.033Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
