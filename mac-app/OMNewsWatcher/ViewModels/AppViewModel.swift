@@ -531,6 +531,7 @@ final class AppViewModel: ObservableObject {
     private var emailSettingsSHA = ""
     private var emailEnabledAt: String?
     private var pollingTask: Task<Void, Never>?
+    private var lastRefreshedCompletedRunID: Int64?
     private var readerActivitySyncTask: Task<Void, Never>?
     private var activeTester: SourceTester?
     private var savedSourcesSnapshot: [SourceRecord] = []
@@ -651,6 +652,9 @@ final class AppViewModel: ObservableObject {
         token = await KeychainStore.readToken() ?? ""
         hasToken = !token.isEmpty
         await reloadAll()
+        lastRefreshedCompletedRunID =
+            latestRun?.status == "completed" ? latestRun?.id : nil
+        beginPolling()
 
         if let stored = defaults.string(
             forKey: Keys.readerLastOpenedAt
@@ -2512,14 +2516,20 @@ final class AppViewModel: ObservableObject {
         pollingTask = Task { [weak self] in
             guard let self else { return }
 
-            for _ in 0..<30 {
+            while !Task.isCancelled {
                 if Task.isCancelled { return }
-                try? await Task.sleep(for: .seconds(5))
+                try? await Task.sleep(for: .seconds(30))
+                if Task.isCancelled { return }
                 await self.refreshLatestRun()
 
-                if self.latestRun?.status == "completed" {
+                if let run = self.latestRun,
+                   run.status == "completed",
+                   run.id != self.lastRefreshedCompletedRunID {
+                    async let feedLoad: Void = self.loadFeedItems()
+                    async let healthLoad: Void = self.loadHealth()
+                    _ = await (feedLoad, healthLoad)
+                    self.lastRefreshedCompletedRunID = run.id
                     self.statusMessage = "Watcher: \(self.latestRun?.displayStatus ?? "beendet")"
-                    return
                 }
             }
         }
