@@ -7245,8 +7245,8 @@
       "https://jdcorporateblog.com/media-resources/"
     ],
     "Amazon Seller Events": [
-      "https://amzsummits.com/events/innovate-2027/",
       "https://amzsummits.com/events/ambizion-2027/",
+      "https://amzsummits.com/events/innovate-2027/",
       "https://amzsummits.com/events/?_omw_fresh=1787107502328-8kg97r",
       "https://amzsummits.com/events/?_omw_fresh=1787106935894-dyywbf",
       "https://amzsummits.com/events/?_omw_fresh=1787104446295-1wpk0v",
@@ -7600,8 +7600,8 @@
       "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-and-Zipline-Partner-to-Bring-Drone-Delivery-to-Millions-of-Americans/default.aspx",
       "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Autonomous-Rides-in-Europe/default.aspx",
       "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-CEO-to-Participate-in-Fireside-Chat-Hosted-by-Goldman-Sachs/default.aspx",
-      "https://investor.uber.com/rss/PressRelease.aspx",
       "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Launches-Baidus-Fully-Driverless-Apollo-Go-in-Dubai-Establishing-the-First-Multi-Partner-Autonomous-Network-Globally/default.aspx",
+      "https://investor.uber.com/rss/PressRelease.aspx",
       "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787057308959-rlz5r2",
       "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787062124588-5jg8ry",
       "https://investor.uber.com/news-events/default.aspx?_omw_fresh=1787064865958-229lyp",
@@ -8381,15 +8381,6 @@
       "deliveredAt": "2026-08-21T19:37:34.818Z",
       "recovered": true
     },
-    "Walmart": {
-      "title": "Walmart Energizes 100th Store with EV Fast Charging in Monument, CO",
-      "link": "https://corporate.walmart.com/news/2026/08/21/walmart-energizes-100th-store-with-ev-fast-charging-in-monument-co",
-      "pageDate": null,
-      "publishedAt": null,
-      "detectedAt": "2026-08-21T18:57:20.835Z",
-      "deliveredAt": "2026-08-21T18:57:20.835Z",
-      "recovered": false
-    },
     "Amazon Seller Events": {
       "title": "Amazon events",
       "link": "https://amzsummits.com/events/ambizion-2027/",
@@ -8398,6 +8389,15 @@
       "detectedAt": "2026-08-21T19:37:34.747Z",
       "deliveredAt": "2026-08-21T19:37:34.747Z",
       "recovered": true
+    },
+    "Walmart": {
+      "title": "Walmart Energizes 100th Store with EV Fast Charging in Monument, CO",
+      "link": "https://corporate.walmart.com/news/2026/08/21/walmart-energizes-100th-store-with-ev-fast-charging-in-monument-co",
+      "pageDate": null,
+      "publishedAt": null,
+      "detectedAt": "2026-08-21T18:57:20.835Z",
+      "deliveredAt": "2026-08-21T18:57:20.835Z",
+      "recovered": false
     },
     "ECB": {
       "title": "ECB Consumer Expectations Survey results – July 2026",
