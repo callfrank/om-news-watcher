@@ -4953,7 +4953,7 @@
     "Etsy": "2026-08-22T09:42:58.745Z",
     "Onlinemarktplatz": "2026-08-22T09:42:58.650Z",
     "DHL": "2026-08-22T09:42:58.651Z",
-    "Wortfilter": "2026-08-22T08:49:08.492Z",
+    "Wortfilter": "2026-08-22T09:59:19.081Z",
     "Handelsverband": "2026-08-22T09:42:58.652Z",
     "BMJ": "2026-08-22T09:42:58.653Z",
     "BSI": "2026-08-22T09:42:58.654Z",
@@ -5052,7 +5052,7 @@
     "Verbraucherzentrale RLP Presse": "2026-08-22T09:42:58.645Z",
     "YouGov Corporate News": "2026-08-22T09:42:58.646Z",
     "Onlinemarktplatz": "2026-08-22T09:42:58.650Z",
-    "Wortfilter": "2026-08-22T08:49:08.492Z",
+    "Wortfilter": "2026-08-22T09:59:19.081Z",
     "Handelsverband": "2026-08-22T09:42:58.652Z",
     "BMJ": "2026-08-22T09:42:58.653Z",
     "BSI": "2026-08-22T09:42:58.654Z",
@@ -6805,7 +6805,7 @@
     "Etsy": 2928,
     "Onlinemarktplatz": 6004,
     "DHL": 4000,
-    "Wortfilter": 6276,
+    "Wortfilter": 8710,
     "Handelsverband": 4805,
     "BMJ": 15289,
     "BSI": 14109,
@@ -7253,8 +7253,8 @@
       "https://jdcorporateblog.com/media-resources/"
     ],
     "Amazon Seller Events": [
-      "https://amzsummits.com/events/ambizion-2027/",
       "https://amzsummits.com/events/innovate-2027/",
+      "https://amzsummits.com/events/ambizion-2027/",
       "https://amzsummits.com/events/?_omw_fresh=1787107502328-8kg97r",
       "https://amzsummits.com/events/?_omw_fresh=1787106935894-dyywbf",
       "https://amzsummits.com/events/?_omw_fresh=1787104446295-1wpk0v",
@@ -8380,15 +8380,6 @@
     }
   },
   "lastStoredBySource": {
-    "Amazon Seller Events": {
-      "title": "Amazon events",
-      "link": "https://amzsummits.com/events/innovate-2027/",
-      "pageDate": "Aug 22, 2026",
-      "publishedAt": "2026-08-22T00:00:00.000Z",
-      "detectedAt": "2026-08-22T09:42:58.608Z",
-      "deliveredAt": "2026-08-22T09:42:58.608Z",
-      "recovered": true
-    },
     "Onlinemarktplatz": {
       "title": "Das Überraschungsei für Erwachsene: Der Handel entdeckt Blindboxen",
       "link": "https://onlinemarktplatz.de/276893/handel-entdeckt-blindboxen/",
@@ -8397,6 +8388,15 @@
       "detectedAt": "2026-08-22T09:42:58.651Z",
       "deliveredAt": "2026-08-22T09:42:58.651Z",
       "recovered": false
+    },
+    "Amazon Seller Events": {
+      "title": "Amazon events",
+      "link": "https://amzsummits.com/events/innovate-2027/",
+      "pageDate": "Aug 22, 2026",
+      "publishedAt": "2026-08-22T00:00:00.000Z",
+      "detectedAt": "2026-08-22T09:42:58.608Z",
+      "deliveredAt": "2026-08-22T09:42:58.608Z",
+      "recovered": true
     },
     "Uber": {
       "title": "Uber Launches Baidu’s Fully Driverless Apollo Go in Dubai, Establishing the First Multi-Partner Autonomous Network Globally",
