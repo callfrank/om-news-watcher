@@ -1,5 +1,28 @@
 [
   {
+    "guid": "87cb0b5f1119175581e6fc2e",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Matcha Knappheit: Wenn TikTok schneller ist als die Ernte",
+    "link": "https://onlinemarktplatz.de/276879/matcha-knappheit/",
+    "pageDate": "23.08.2026",
+    "publishedAt": "2026-08-23T12:00:00.000Z",
+    "detectedAt": "2026-08-23T08:49:20.135Z",
+    "deliveredAt": "2026-08-23T08:49:20.135Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "749339e1aeb28a2c105bfd0e",
     "source": "Alibaba QZ",
     "sourceLabel": "Alibaba QZ",
