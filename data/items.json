@@ -1,5 +1,49 @@
 [
   {
+    "guid": "749339e1aeb28a2c105bfd0e",
+    "source": "Alibaba QZ",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Alibaba Group Announced Proposed Placing of New Shares in Hong KongAugust 23, 2026",
+    "link": "https://www.alibabagroup.com/en-US/document-2028246284372017152",
+    "pageDate": "August 23, 2026",
+    "publishedAt": "2026-08-23T00:00:00.000Z",
+    "detectedAt": "2026-08-23T07:02:04.585Z",
+    "deliveredAt": "2026-08-23T07:02:04.585Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4e320d2cb0e0cd5ba2c1375a",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Deutsche Domain, chinesische Lieferkette: Das steckt hinter den Shops",
+    "link": "https://onlinemarktplatz.de/271194/china-shops/",
+    "pageDate": "23.08.2026",
+    "publishedAt": "2026-08-23T12:00:00.000Z",
+    "detectedAt": "2026-08-23T07:02:04.580Z",
+    "deliveredAt": "2026-08-23T07:02:04.580Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "bf8f26c4402a35923bfcc06d",
     "source": "Amazon Seller Events",
     "sourceLabel": "Amazon Seller",
