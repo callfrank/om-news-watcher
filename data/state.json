@@ -4957,7 +4957,7 @@
     "Etsy": "2026-08-23T16:44:18.472Z",
     "Onlinemarktplatz": "2026-08-23T16:44:18.382Z",
     "DHL": "2026-08-23T16:44:18.383Z",
-    "Wortfilter": "2026-08-23T15:57:45.252Z",
+    "Wortfilter": "2026-08-23T17:01:17.486Z",
     "Handelsverband": "2026-08-23T16:44:18.383Z",
     "BMJ": "2026-08-23T16:44:18.384Z",
     "BSI": "2026-08-23T16:44:18.385Z",
@@ -5056,7 +5056,7 @@
     "Verbraucherzentrale RLP Presse": "2026-08-23T16:44:18.378Z",
     "YouGov Corporate News": "2026-08-23T16:44:18.379Z",
     "Onlinemarktplatz": "2026-08-23T16:44:18.382Z",
-    "Wortfilter": "2026-08-23T15:57:45.252Z",
+    "Wortfilter": "2026-08-23T17:01:17.486Z",
     "Handelsverband": "2026-08-23T16:44:18.383Z",
     "BMJ": "2026-08-23T16:44:18.384Z",
     "BSI": "2026-08-23T16:44:18.385Z",
@@ -6809,7 +6809,7 @@
     "Etsy": 2901,
     "Onlinemarktplatz": 5881,
     "DHL": 4763,
-    "Wortfilter": 8420,
+    "Wortfilter": 8504,
     "Handelsverband": 4383,
     "BMJ": 11692,
     "BSI": 8173,
@@ -8389,15 +8389,6 @@
     }
   },
   "lastStoredBySource": {
-    "Onlinemarktplatz": {
-      "title": "Matcha Knappheit: Wenn TikTok schneller ist als die Ernte",
-      "link": "https://onlinemarktplatz.de/276879/matcha-knappheit/",
-      "pageDate": "23.08.2026",
-      "publishedAt": "2026-08-23T12:00:00.000Z",
-      "detectedAt": "2026-08-23T08:49:20.135Z",
-      "deliveredAt": "2026-08-23T08:49:20.135Z",
-      "recovered": false
-    },
     "Alibaba QZ": {
       "title": "Alibaba Group Announced Pricing of HK$80 Billion Placing of New Shares in Hong KongAugust 24, 2026",
       "link": "https://www.alibabagroup.com/en-US/document-2028384807859257344",
@@ -8405,6 +8396,15 @@
       "publishedAt": "2026-08-24T00:00:00.000Z",
       "detectedAt": "2026-08-23T16:44:18.389Z",
       "deliveredAt": "2026-08-23T16:44:18.389Z",
+      "recovered": false
+    },
+    "Onlinemarktplatz": {
+      "title": "Matcha Knappheit: Wenn TikTok schneller ist als die Ernte",
+      "link": "https://onlinemarktplatz.de/276879/matcha-knappheit/",
+      "pageDate": "23.08.2026",
+      "publishedAt": "2026-08-23T12:00:00.000Z",
+      "detectedAt": "2026-08-23T08:49:20.135Z",
+      "deliveredAt": "2026-08-23T08:49:20.135Z",
       "recovered": false
     },
     "Amazon Seller Events": {
