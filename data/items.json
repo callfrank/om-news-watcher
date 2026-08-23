@@ -1,5 +1,26 @@
 [
   {
+    "guid": "8b940b27859e9c322c90b57d",
+    "source": "Alibaba QZ",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Alibaba Group Announced Pricing of HK$80 Billion Placing of New Shares in Hong KongAugust 24, 2026",
+    "link": "https://www.alibabagroup.com/en-US/document-2028384807859257344",
+    "pageDate": "August 24, 2026",
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "detectedAt": "2026-08-23T16:44:18.389Z",
+    "deliveredAt": "2026-08-23T16:44:18.389Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "87cb0b5f1119175581e6fc2e",
     "source": "Onlinemarktplatz",
     "sourceLabel": "OLMP",
