@@ -1,5 +1,28 @@
 [
   {
+    "guid": "50efebe7bef4e01fa63768e5",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Temu-Mutter PDD Holdings wächst weiter – Gewinn bleibt unter Druck",
+    "link": "https://onlinemarktplatz.de/287721/pdd-holdings-quartalszahlen-q2-2026/",
+    "pageDate": "24.08.2026",
+    "publishedAt": "2026-08-24T12:00:00.000Z",
+    "detectedAt": "2026-08-24T11:08:56.255Z",
+    "deliveredAt": "2026-08-24T11:08:56.255Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "56ac96d6e793ea90ed0f2056",
     "source": "eTailment",
     "sourceLabel": "eTailment",
