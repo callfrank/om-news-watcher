@@ -1,5 +1,464 @@
 [
   {
+    "guid": "56ac96d6e793ea90ed0f2056",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "McDonald’s zeigt die Datengrenze der Loyalty-App",
+    "link": "https://www.etailment.de/magazin/mcdonald-s-zeigt-die-datengrenze-der-loyalty-app",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.310Z",
+    "deliveredAt": "2026-08-24T10:34:29.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cbf0ed1d22976b29d6a015c5",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "WLW – Wer liefert Wo in E-Grocery Deutschland? Die große Übersicht oder warum die 3,6 Prozent Marktanteil nur eine verzerrte Wahrnehmung sind",
+    "link": "https://www.etailment.de/magazin/wlw-wer-liefert-wo-in-e-grocery-deutschland-die-grosse-uebersicht-oder-warum-die-3-6-prozent-marktanteil-nur-eine-verzerrte-wahrnehmung-sind",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.310Z",
+    "deliveredAt": "2026-08-24T10:34:29.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6dda17da598aaeacc40adea8",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Apples Update macht Store-Geräte zur Chefsache",
+    "link": "https://www.etailment.de/magazin/apples-update-macht-store-geraete-zur-chefsache",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.310Z",
+    "deliveredAt": "2026-08-24T10:34:29.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5addec5af6219e982dfb8c2a",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Warum Wachstum am Finanz-Stack scheitert",
+    "link": "https://www.etailment.de/magazin/warum-wachstum-am-finanz-stack-scheitert",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.310Z",
+    "deliveredAt": "2026-08-24T10:34:29.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "69dc7b92a978c2bef38afdcd",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wenn Kundenmails zum Trainingsfutter werden",
+    "link": "https://www.etailment.de/magazin/wenn-kundenmails-zum-trainingsfutter-werden",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.310Z",
+    "deliveredAt": "2026-08-24T10:34:29.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e47d8646020b96634790dea9",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Steam-Retouren: Wenn Kulanz zur Kostenfalle wird",
+    "link": "https://www.etailment.de/magazin/steam-retouren-wenn-kulanz-zur-kostenfalle-wird",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.310Z",
+    "deliveredAt": "2026-08-24T10:34:29.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "48bccf73e7b833b30b4b41e2",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Warum Galaxus Migros Online nicht einfach retten kann",
+    "link": "https://www.etailment.de/magazin/warum-galaxus-migros-online-nicht-einfach-retten-kann",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.310Z",
+    "deliveredAt": "2026-08-24T10:34:29.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "12f7334ba8622a5edeb5b0f4",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Niedrigwasser wird zur Preisfrage im Regal",
+    "link": "https://www.etailment.de/magazin/niedrigwasser-wird-zur-preisfrage-im-regal",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.310Z",
+    "deliveredAt": "2026-08-24T10:34:29.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fbde7157a642de4d3c2347cd",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Connox räumt auf: Wenn Marken zu Ballast werden",
+    "link": "https://www.etailment.de/magazin/connox-raeumt-auf-wenn-marken-zu-ballast-werden",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.310Z",
+    "deliveredAt": "2026-08-24T10:34:29.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1c48a9ee7b57b726a45329dd",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ChatGPT im Handel braucht einen Daten-Türsteher",
+    "link": "https://www.etailment.de/magazin/chatgpt-im-handel-braucht-einen-daten-tuersteher",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9f0a7492fe0330f85c3412dd",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Paypal-Poker macht den Checkout zur Risikofrage",
+    "link": "https://www.etailment.de/magazin/paypal-poker-macht-den-checkout-zur-risikofrage",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8091bccb910dffa8727ee810",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Schweizer B2B-Einkauf: 27 Prozent nutzen KI",
+    "link": "https://www.etailment.de/magazin/2026-08-21-schweizer-b2b-einkauf-27-prozent-nutzen-ki",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "62181b2211414306a7e3ef74",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Online-Fashion: Zu viele Produkte, zu wenig Anleitung",
+    "link": "https://www.etailment.de/magazin/2026-08-24-online-fashion-zu-viele-produkte-zu-wenig-anleitung",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6687cd075a262f552e1fb31b",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Schweiz und China: Fast alle Zölle fallen",
+    "link": "https://www.etailment.de/magazin/2026-08-24-schweiz-und-china-fast-alle-zoelle-fallen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "97497034074238dbf8d5e712",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Apple zahlt in Deutschland 131 Mio. Euro Steuern",
+    "link": "https://www.etailment.de/magazin/2026-08-24-apple-zahlt-in-deutschland-131-mio-euro-steuern",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1f4fc0187f2baed66d2be44b",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Generation Ü60 solventer als Twens",
+    "link": "https://www.etailment.de/magazin/2026-08-24-generation-ue60-solventer-als-twens",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2821304ab605d0ea427904c4",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Tchibo will in fremde Supermarkt-Apps",
+    "link": "https://www.etailment.de/magazin/2026-08-24-tchibo-will-in-fremde-supermarkt-apps",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1da2db122904038e4a8d543d",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "In den Niederlanden berechnet Amazon 19,7 Prozent Provision",
+    "link": "https://www.etailment.de/magazin/2026-08-24-in-den-niederlanden-berechnet-amazon-197-prozent-provision",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fb118b55696f14413c770ded",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amazon verstößt gegen DSA",
+    "link": "https://www.etailment.de/magazin/2026-08-24-amazon-verstoesst-gegen-dsa",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "efbec580499ba9abc009ad42",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Tiktok zahlt 400 Mio. Dollar in US-Kinderschutzstreit",
+    "link": "https://www.etailment.de/magazin/2026-08-24-tiktok-zahlt-400-mio-dollar-in-us-kinderschutzstreit",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6d8a0799c4ce633e9790108f",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Amerikaner sparen – nicht bei Lieferdiensten",
+    "link": "https://www.etailment.de/magazin/2026-08-24-amerikaner-sparen-nicht-bei-lieferdiensten",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ab2c8c97bf5ece4a97f2ecd5",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Ebay-Trend: Leere Luxusverpackungen",
+    "link": "https://www.etailment.de/magazin/2026-08-24-ebay-trend-leere-luxusverpackungen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "884b64a173cd041d6701c4b5",
+    "source": "eTailment",
+    "sourceLabel": "eTailment",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Teil 3: Wenn die Amortisation länger dauert als der Mietvertrag",
+    "link": "https://www.etailment.de/magazin/teil-3-wenn-die-amortisation-laenger-dauert-als-der-mietvertrag",
+    "pageDate": "23.08.2026",
+    "publishedAt": "2026-08-23T12:00:00.000Z",
+    "detectedAt": "2026-08-24T10:34:29.309Z",
+    "deliveredAt": "2026-08-24T10:34:29.309Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fdba169e37478ddb3918afff",
+    "source": "PDD Holdings News Releases",
+    "sourceLabel": "PDD Holdings",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "PDD Holdings Announces Second Quarter 2026 Unaudited Financial Results",
+    "link": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-second-quarter-2026-unaudited-financial",
+    "pageDate": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T00:00:00.000Z",
+    "detectedAt": "2026-08-24T10:34:29.266Z",
+    "deliveredAt": "2026-08-24T10:34:29.266Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "b4425011eb3f31808c904259",
     "source": "Excitingcommerce",
     "sourceLabel": "Excitingcommerce",
