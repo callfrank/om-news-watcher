@@ -1,5 +1,67 @@
 [
   {
+    "guid": "6d97526584271565b09ba267",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "5,9 Millionen Liter wassergefährdende Stoffe bei Unfällen im Jahr 2025 ausgetreten",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_302_32311.html",
+    "pageDate": "24.08.2026",
+    "publishedAt": "2026-08-24T12:00:00.000Z",
+    "detectedAt": "2026-08-24T07:21:22.387Z",
+    "deliveredAt": "2026-08-24T07:21:22.387Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "273ba83a1b29cfb78a8f63db",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Unlocking the Single Market’s potential",
+    "link": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260824~fa5acbddea.en.html",
+    "pageDate": "24.08.2026",
+    "publishedAt": "2026-08-24T12:00:00.000Z",
+    "detectedAt": "2026-08-24T07:21:22.383Z",
+    "deliveredAt": "2026-08-24T07:21:22.383Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8cb32b001d7222f21b2eca6e",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Kabinettsklausur: Handelsverband fordert rasche Umsetzung von Reformen und mahnt weitere Schritte an",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15305-kabinettsklausur-handelsverband-fordert-rasche-umsetzung-von-reformen-und-mahnt-weitere-schritte-an",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-24T07:21:22.374Z",
+    "deliveredAt": "2026-08-24T07:21:22.374Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "69c8301735009e826bc321d8",
     "source": "Onlinemarktplatz",
     "sourceLabel": "OLMP",
