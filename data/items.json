@@ -1,5 +1,26 @@
 [
   {
+    "guid": "73e8dc968ffd60794244a8f6",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Telekom unterstützt Orlando Magic Summer Tour 2026 in fünf deutschen Städten.",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-und-orlando-magic-bringen-basketball-sommer-nach-deutschland-1106824",
+    "pageDate": "24.08.2026",
+    "publishedAt": "2026-08-24T12:00:00.000Z",
+    "detectedAt": "2026-08-24T15:00:41.970Z",
+    "deliveredAt": "2026-08-24T15:00:41.970Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "50efebe7bef4e01fa63768e5",
     "source": "Onlinemarktplatz",
     "sourceLabel": "OLMP",
