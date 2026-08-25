@@ -1,5 +1,28 @@
 [
   {
+    "guid": "7eb9893e5c55bab16ab6fb9a",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Merchant Center Reporting: Google ändert Traffic-Zuordnung",
+    "link": "https://onlinemarktplatz.de/290083/merchant-center-reporting/",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T13:12:15.830Z",
+    "deliveredAt": "2026-08-25T13:12:15.830Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "57747095f69eee5e63d7e0bc",
     "source": "Wortfilter",
     "sourceLabel": "Wortfilter",
