@@ -1,5 +1,71 @@
 [
   {
+    "guid": "7bfde631341bcfd3632af02b",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "World Cup scores for pubs in July but restaurant sales flag in the heat",
+    "link": "https://nielseniq.com/global/en/news-center/2026/world-cup-scores-for-pubs-in-july-but-restaurant-sales-flag-in-the-heat/",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T07:31:34.532Z",
+    "deliveredAt": "2026-08-25T07:31:34.532Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0d5e7c47c4ba099068eedd9b",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Händlerbund Jahresstudie 2026: 56 Prozent der Onlinehändler melden sinkende Umsätze",
+    "link": "https://onlinemarktplatz.de/288591/haendlerbund-jahresstudie-2026/",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T07:31:34.467Z",
+    "deliveredAt": "2026-08-25T07:31:34.467Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8aac1877967392b0d866797a",
+    "source": "Zalando Newsroom",
+    "sourceLabel": "Zalando",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "KI-gestützte Inhalte bei Zalando: Genauigkeit, Mehrwert für Kund*innen und menschliche Urteilskraft",
+    "link": "https://corporate.zalando.com/de/technologie/ki-gestuetzte-inhalte-bei-zalando-genauigkeit-mehrwert-fuer-kundinnen-menschliche-urteilskraft",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T07:31:34.420Z",
+    "deliveredAt": "2026-08-25T07:31:34.420Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "18b8b45238d4be074c35ebc1",
     "source": "DeStatis",
     "sourceLabel": "DeStatis",
