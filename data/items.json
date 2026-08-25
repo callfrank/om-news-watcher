@@ -1,5 +1,112 @@
 [
   {
+    "guid": "18b8b45238d4be074c35ebc1",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "26 % der neuen Auszubildenden hatten 2025 Abitur",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_35_p002.html",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T06:20:16.589Z",
+    "deliveredAt": "2026-08-25T06:20:16.589Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2ffc52c1277c4207e525188c",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Deutsches Staatsdefizit erhöht sich im 1. Halbjahr 2026 auf 71,3 Milliarden Euro",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_305_813.html",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T06:20:16.588Z",
+    "deliveredAt": "2026-08-25T06:20:16.588Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cb7f70c52757606ba841466a",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragseingang im Bauhauptgewerbe im Juni 2026: +6,0 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_304_441.html",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T06:20:16.588Z",
+    "deliveredAt": "2026-08-25T06:20:16.588Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "20478ff3c706f8391c5d7f5b",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Bruttoinlandsprodukt: Ausführliche Ergebnisse zur Wirtschaftsleistung im 2. Quartal 2026",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_303_811.html",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T06:20:16.587Z",
+    "deliveredAt": "2026-08-25T06:20:16.587Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ad8fe7a21b541162d32526ac",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Werbemarkt Deutschland im Juli: Online wächst, TV verliert",
+    "link": "https://onlinemarktplatz.de/281552/werbemarkt-deutschland-juli-2026/",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T06:20:16.576Z",
+    "deliveredAt": "2026-08-25T06:20:16.576Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "f281190543d70bb59e52b676",
     "source": "Handelskraft",
     "sourceLabel": "Handelskraft",
