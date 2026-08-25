@@ -1,5 +1,45 @@
 [
   {
+    "guid": "638e1bbc9df75d7ac3d7e34d",
+    "source": "Excitingcommerce",
+    "sourceLabel": "Excitingcommerce",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "AI Thinktank Serie 2: Wie können KI-Agenten Geld verdienen?",
+    "link": "https://excitingcommerce.de/2026/08/25/ai-thinktank-serie-2-wie-koennen-ki-agenten-geld-verdienen/",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T10:50:45.480Z",
+    "deliveredAt": "2026-08-25T10:50:45.480Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6a07c08bd1d06c20856b8de1",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ and The OpenAI Deployment Company Collaborate to Bring Consumer Intelligence into Enterprise Workflows",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-deployco-consumer-intelligence-enterprise-workflows/",
+    "pageDate": "25.08.2026",
+    "publishedAt": "2026-08-25T12:00:00.000Z",
+    "detectedAt": "2026-08-25T10:50:45.458Z",
+    "deliveredAt": "2026-08-25T10:50:45.458Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "3886519b1587803871581965",
     "source": "Aboutamazon",
     "sourceLabel": "Aboutamazon",
