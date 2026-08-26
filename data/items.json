@@ -1,5 +1,70 @@
 [
   {
+    "guid": "eb4a0fa430da5199aa39e1bd",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "AWS and NVIDIA expand partnership for next-gen AI infrastructure",
+    "link": "https://www.aboutamazon.com/news/aws/aws-nvidia-2-million-gpus-ai",
+    "pageDate": "Aug. 26, 2026",
+    "publishedAt": "2026-08-26T00:00:00.000Z",
+    "detectedAt": "2026-08-26T22:31:53.687Z",
+    "deliveredAt": "2026-08-26T22:31:53.687Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9f43a79e9c23b1f329d8a71a",
+    "source": "Amazon US",
+    "sourceLabel": "Amazon US",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
+    "link": "https://press.aboutamazon.com/aws/2026/8/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-26T22:31:53.684Z",
+    "deliveredAt": "2026-08-26T22:31:53.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f39bd8f0f58071018dc81e5d",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Durchbruch bei Tarifverhandlungen im Einzelhandel – Tarifabschluss in NRW",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15321-durchbruch-bei-tarifverhandlungen-im-einzelhandel-tarifabschluss-in-nrw",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-26T22:31:53.616Z",
+    "deliveredAt": "2026-08-26T22:31:53.616Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "36955e1b32a70ad750a911f5",
     "source": "Ebayinc",
     "sourceLabel": "Ebayinc",
