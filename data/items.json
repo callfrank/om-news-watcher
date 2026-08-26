@@ -1,5 +1,86 @@
 [
   {
+    "guid": "218f6ace22784915271c5cc6",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "26.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2335928/LEHRLINGE%20&Uuml;BERNEHMEN%20POSTFILIALE%20IN%20KLAGENFURT",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T09:03:22.854Z",
+    "deliveredAt": "2026-08-26T09:03:22.854Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "deac8a3b7d196cdea2e427f3",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "LEHRLINGE ÜBERNEHMEN POSTFILIALE IN KLAGENFURT",
+    "link": "https://news.post.at/presse/de/post/id/2335928/LEHRLINGE%20%26Uuml%3BBERNEHMEN%20POSTFILIALE%20IN%20KLAGENFURT",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T09:03:22.853Z",
+    "deliveredAt": "2026-08-26T09:03:22.853Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "22c44f908a30f545dfe0cf47",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Textil- und Modeindustrie sowie Handel schmieden breite Allianz für textile Kreisläufe",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15319-textil-und-modeindustrie-sowie-handel-schmieden-breite-allianz-fuer-textile-kreislaeufe",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-26T09:03:22.792Z",
+    "deliveredAt": "2026-08-26T09:03:22.792Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "07baaff4a58df43d027ab152",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Weiterhin lukrativ: Callcenter-Betrug in Rheinland-Pfalz",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/weiterhin-lukrativ-callcenterbetrug-in-rheinlandpfalz-125372",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T09:03:22.786Z",
+    "deliveredAt": "2026-08-26T09:03:22.786Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "fc4460982d4aa0175c00dbd4",
     "source": "Nielseniq",
     "sourceLabel": "Nielseniq",
