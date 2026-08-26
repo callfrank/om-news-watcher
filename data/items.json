@@ -1,5 +1,158 @@
 [
   {
+    "guid": "fc4460982d4aa0175c00dbd4",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Retail’s share of EU consumer spending falls for the fourth consecutive year",
+    "link": "https://nielseniq.com/global/en/news-center/2026/retails-share-of-eu-consumer-spending-falls-for-the-fourth-consecutive-year/",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T07:09:56.873Z",
+    "deliveredAt": "2026-08-26T07:09:56.873Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "548c4ddcb3ae325272e460f0",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Festgesetzte Erbschaft- und Schenkungsteuer erreicht 2025 mit 21,4 Milliarden Euro neuen Höchstwert",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_306_736.html",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T07:09:56.813Z",
+    "deliveredAt": "2026-08-26T07:09:56.813Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9df59aaaf56ddb93a6367d86",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "1,8 % mehr Promovierende im Jahr 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_307_213.html",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T07:09:56.813Z",
+    "deliveredAt": "2026-08-26T07:09:56.813Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c63c8b62a5f509daebb6e056",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Elektronikmarkt Deutschland: Umsatz sinkt im ersten Halbjahr 2026 um 2,5 Prozent",
+    "link": "https://onlinemarktplatz.de/286109/elektronikmarkt-deutschland-2026/",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T07:09:56.797Z",
+    "deliveredAt": "2026-08-26T07:09:56.797Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1837bd55412316387a144c37",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "TikTok Shop Plus: TikTok testet Prime-ähnliches Abo in den USA",
+    "link": "https://onlinemarktplatz.de/289464/tiktok-shop-plus-abo-test-usa/",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T07:09:56.797Z",
+    "deliveredAt": "2026-08-26T07:09:56.797Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c9a6179f296cac5d725415ae",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon Prime Lieferziele steigen ab 7. September",
+    "link": "https://onlinemarktplatz.de/290812/amazon-prime-lieferziele-deutschland/",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T07:09:56.797Z",
+    "deliveredAt": "2026-08-26T07:09:56.797Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "08a6d0696b03e318c9f4f743",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Telekom mit Rekordmonat beim Glasfaserausbau",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-mit-rekordmonat-beim-glasfaserausbau-1106680",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T07:09:56.782Z",
+    "deliveredAt": "2026-08-26T07:09:56.782Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "f20f7632e37df7b0f0884068",
     "source": "VZBV Pressemitteilungen",
     "sourceLabel": "VZBV",
