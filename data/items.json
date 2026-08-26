@@ -1,5 +1,45 @@
 [
   {
+    "guid": "c2163a5fc7757863c3c49613",
+    "source": "ECB",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Shaping Europe’s digital asset market",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260826~3641116314.en.html",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T10:52:53.345Z",
+    "deliveredAt": "2026-08-26T10:52:53.345Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ba93160bd2d3e9089df98642",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Bis Ende 2029: Telekom verlängert Medienpartnerschaft mit dem Deutschen Basketball Bund",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/bis-ende-2029-telekom-verlaengert-medienpartnerschaft-mit-dem-deutschen-basketball-bund-1106844",
+    "pageDate": "26.08.2026",
+    "publishedAt": "2026-08-26T12:00:00.000Z",
+    "detectedAt": "2026-08-26T10:52:53.324Z",
+    "deliveredAt": "2026-08-26T10:52:53.324Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "98e1b7d8402840541b656c98",
     "source": "ECB",
     "sourceLabel": "ECB",
