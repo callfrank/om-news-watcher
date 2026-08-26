@@ -1,5 +1,26 @@
 [
   {
+    "guid": "84fbe5fd62358a1a5e0c65b9",
+    "source": "Alibaba QZ",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Alibaba Group Announced Completion of HK$80 Billion Placing of New Shares in Hong KongAugust 26, 2026",
+    "link": "https://www.alibabagroup.com/en-US/document-2029365886510432256",
+    "pageDate": "August 26, 2026",
+    "publishedAt": "2026-08-26T00:00:00.000Z",
+    "detectedAt": "2026-08-26T11:45:51.836Z",
+    "deliveredAt": "2026-08-26T11:45:51.836Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c2163a5fc7757863c3c49613",
     "source": "ECB",
     "sourceLabel": "ECB",
