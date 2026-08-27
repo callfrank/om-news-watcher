@@ -1,5 +1,221 @@
 [
   {
+    "guid": "24ac80795054c9c91d2d2af9",
+    "source": "DM",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wiedereröffnung – Bünde, 3. September 2026",
+    "link": "https://newsroom.dm.de/pressreleases/wiedereroeffnung-buende-3-september-2026-3460828",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.860Z",
+    "deliveredAt": "2026-08-27T08:24:37.860Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3ee8b872934bbee751b5203f",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.855Z",
+    "deliveredAt": "2026-08-27T08:24:37.855Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "ff5d2894ed112e6ad9a8e3c2",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Reallöhne im 2. Quartal 2026 um 1,5 % höher als im Vorjahresquartal",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_308_62321.html",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.780Z",
+    "deliveredAt": "2026-08-27T08:24:37.780Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b1830cf0fde333f4f8413ab9",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Bundesbank bringt Wero Integration für digitalen Euro ins Spiel",
+    "link": "https://onlinemarktplatz.de/291628/wero-integration-digitaler-euro/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.767Z",
+    "deliveredAt": "2026-08-27T08:24:37.767Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "57dd5b8ba43f3a8270f6ef9b",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Shein IPO: Aktienhandel soll am 1. September beginnen",
+    "link": "https://onlinemarktplatz.de/292414/shein-ipo-hongkong-aktienhandel/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.767Z",
+    "deliveredAt": "2026-08-27T08:24:37.767Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "06c2eff34e3ad74e17765b55",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "eComID Einkaufspass: 17 Millionen Dollar für KI-Kontext",
+    "link": "https://onlinemarktplatz.de/292420/ecomid-einkaufspass-17-millionen-dollar/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.767Z",
+    "deliveredAt": "2026-08-27T08:24:37.767Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5e94c48a50a872cc1fbc9b7f",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon Retourenaktion: Second Chance Deal Days kehren zurück",
+    "link": "https://onlinemarktplatz.de/292426/amazon-retourenaktion-2026/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.767Z",
+    "deliveredAt": "2026-08-27T08:24:37.767Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "13b58d91ffd211550345874f",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Wärmeverluste im Haus: Wo Energie unbemerkt verloren geht",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/waermeverluste-im-haus-wo-energie-unbemerkt-verloren-geht-125429",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.760Z",
+    "deliveredAt": "2026-08-27T08:24:37.760Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "732ec898a8c71fbdc4d176a7",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Telekom modernisiert Mobilfunkversorgung im Stadion von Bayer 04 Leverkusen",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/modernisierung-mobilfunkversorgung-stadion-bayer-04-leverkusen-1106848",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.755Z",
+    "deliveredAt": "2026-08-27T08:24:37.755Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f42f4d1e56d61ebd53cec709",
+    "source": "Fressnapf Newsroom",
+    "sourceLabel": "Fressnapf",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Fressnapf und HSG Krefeld Niederrhein verlängern Partnerschaft",
+    "link": "https://www.mynewsdesk.com/de/fressnapf-holding-se/pressreleases/fressnapf-und-hsg-krefeld-niederrhein-verlaengern-partnerschaft-3462628",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T08:24:37.735Z",
+    "deliveredAt": "2026-08-27T08:24:37.735Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "cd87fbebdb5b6cd841138904",
     "source": "Aboutamazon",
     "sourceLabel": "Aboutamazon",
