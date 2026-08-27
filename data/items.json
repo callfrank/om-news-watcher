@@ -1,6 +1,6 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "713031f6c6de4cdbd4990943",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,18 +14,18 @@
     ],
     "priority": 2,
     "title": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Publishes-Offer-Document-for-its-Takeover-Offer-for-Delivery-Hero/default.aspx",
     "pageDate": "August 27, 2026",
     "publishedAt": "2026-08-27T00:00:00.000Z",
-    "detectedAt": "2026-08-27T09:50:57.866Z",
-    "deliveredAt": "2026-08-27T09:50:57.866Z",
+    "detectedAt": "2026-08-27T12:31:58.623Z",
+    "deliveredAt": "2026-08-27T12:31:58.623Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
   },
   {
-    "guid": "5b545def3c011a25acd3834f",
+    "guid": "3ee8b872934bbee751b5203f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -34,15 +34,103 @@
     "tags": [],
     "priority": 2,
     "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
-    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
     "pageDate": "27.08.2026",
     "publishedAt": "2026-08-27T12:00:00.000Z",
-    "detectedAt": "2026-08-27T09:50:57.855Z",
-    "deliveredAt": "2026-08-27T09:50:57.855Z",
+    "detectedAt": "2026-08-27T12:31:58.606Z",
+    "deliveredAt": "2026-08-27T12:31:58.606Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "705ae79a28c7e40558f8c76e",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "74% of Shoppers Use AI for Discovery—NIQ Showcases What That Means for the Consumer Purchase Journey in New Report",
+    "link": "https://nielseniq.com/global/en/news-center/2026/74-of-shoppers-use-ai-for-discovery-niq-showcases-what-that-means-for-the-consumer-purchase-journey-in-new-report/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T12:31:58.593Z",
+    "deliveredAt": "2026-08-27T12:31:58.593Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4a2be258a380f4301bf19463",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "83% of Chinese Consumers Use Quick Commerce, Offering a Glimpse into Grocery’s Future",
+    "link": "https://nielseniq.com/global/en/news-center/2026/83-of-chinese-consumers-use-quick-commerce-offering-a-glimpse-into-grocerys-future/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T12:31:58.593Z",
+    "deliveredAt": "2026-08-27T12:31:58.593Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4d4bbe51b4c95e94e0d66d8b",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Zukunft im E-Commerce – Miriam Wohlfarth über KI, eBay Live und Liquidität",
+    "link": "https://onlinemarktplatz.de/291603/zukunft-im-e-commerce/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T12:31:58.529Z",
+    "deliveredAt": "2026-08-27T12:31:58.529Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "133395687c2911c7d83e2dc0",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Schwarz Gruppe baut Rechenzentrum in Dummerstorf für 5,6 Milliarden Euro",
+    "link": "https://onlinemarktplatz.de/292468/rechenzentrum-dummerstorf/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-27T12:31:58.528Z",
+    "deliveredAt": "2026-08-27T12:31:58.528Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "24ac80795054c9c91d2d2af9",
