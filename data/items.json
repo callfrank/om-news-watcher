@@ -1,6 +1,6 @@
 [
   {
-    "guid": "713031f6c6de4cdbd4990943",
+    "guid": "aef4cd5989909db41f3b8758",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,18 +14,41 @@
     ],
     "priority": 2,
     "title": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Publishes-Offer-Document-for-its-Takeover-Offer-for-Delivery-Hero/default.aspx",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
     "pageDate": "August 27, 2026",
     "publishedAt": "2026-08-27T00:00:00.000Z",
-    "detectedAt": "2026-08-27T12:31:58.623Z",
-    "deliveredAt": "2026-08-27T12:31:58.623Z",
+    "detectedAt": "2026-08-27T14:47:46.853Z",
+    "deliveredAt": "2026-08-27T14:47:46.853Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
   },
   {
-    "guid": "3ee8b872934bbee751b5203f",
+    "guid": "330d275eb27818b01a82b772",
+    "source": "Walmart",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Meet Scenario, Walmart’s New Women’s Fashion Brand Bringing Feminine, Modern Bohemian Style Within Reach",
+    "link": "https://corporate.walmart.com/news/2026/08/27/meet-scenario-walmarts-new-womens-fashion-brand-bringing-feminine-modern-bohemian-style-within-reach",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-27T14:47:46.840Z",
+    "deliveredAt": "2026-08-27T14:47:46.840Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b545def3c011a25acd3834f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -34,11 +57,11 @@
     "tags": [],
     "priority": 2,
     "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
-    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
     "pageDate": "27.08.2026",
     "publishedAt": "2026-08-27T12:00:00.000Z",
-    "detectedAt": "2026-08-27T12:31:58.606Z",
-    "deliveredAt": "2026-08-27T12:31:58.606Z",
+    "detectedAt": "2026-08-27T14:47:46.836Z",
+    "deliveredAt": "2026-08-27T14:47:46.836Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
