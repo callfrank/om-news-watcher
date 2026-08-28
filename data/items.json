@@ -1,6 +1,25 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "347cb19a6789a0323e905d93",
+    "source": "WERO News",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "WordPress Backup erstellen",
+    "link": "https://demoshops.de/wordpress-backup-erstellen/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-28T09:40:49.699Z",
+    "deliveredAt": "2026-08-28T09:40:49.699Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "713031f6c6de4cdbd4990943",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +33,57 @@
     ],
     "priority": 2,
     "title": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Publishes-Offer-Document-for-its-Takeover-Offer-for-Delivery-Hero/default.aspx",
     "pageDate": "August 27, 2026",
     "publishedAt": "2026-08-27T00:00:00.000Z",
-    "detectedAt": "2026-08-28T08:28:41.340Z",
-    "deliveredAt": "2026-08-28T08:28:41.340Z",
+    "detectedAt": "2026-08-28T09:40:49.696Z",
+    "deliveredAt": "2026-08-28T09:40:49.696Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "3ee8b872934bbee751b5203f",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-28T09:40:49.681Z",
+    "deliveredAt": "2026-08-28T09:40:49.681Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "7ccb97bb9a47c2f16589ee76",
+    "source": "Tencent News",
+    "sourceLabel": "Tencent News",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Tencent Releases and Open-Sources Tencent Hy4 preview",
+    "link": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+    "pageDate": "August 28, 2026",
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "detectedAt": "2026-08-28T09:40:49.598Z",
+    "deliveredAt": "2026-08-28T09:40:49.598Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "fd7ab360003708f3260e8bd0",
@@ -42,26 +103,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "5b545def3c011a25acd3834f",
-    "source": "eBay DE",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
-    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
-    "pageDate": "27.08.2026",
-    "publishedAt": "2026-08-27T12:00:00.000Z",
-    "detectedAt": "2026-08-28T08:28:41.321Z",
-    "deliveredAt": "2026-08-28T08:28:41.321Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "ebc5ec9366234c41c4c12f7b",
