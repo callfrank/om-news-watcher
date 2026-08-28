@@ -1,6 +1,6 @@
 [
   {
-    "guid": "713031f6c6de4cdbd4990943",
+    "guid": "aef4cd5989909db41f3b8758",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,18 +14,37 @@
     ],
     "priority": 2,
     "title": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Publishes-Offer-Document-for-its-Takeover-Offer-for-Delivery-Hero/default.aspx",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
     "pageDate": "August 27, 2026",
     "publishedAt": "2026-08-27T00:00:00.000Z",
-    "detectedAt": "2026-08-28T06:19:42.353Z",
-    "deliveredAt": "2026-08-28T06:19:42.353Z",
+    "detectedAt": "2026-08-28T08:28:41.340Z",
+    "deliveredAt": "2026-08-28T08:28:41.340Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
   },
   {
-    "guid": "3ee8b872934bbee751b5203f",
+    "guid": "fd7ab360003708f3260e8bd0",
+    "source": "Rewe",
+    "sourceLabel": "Rewe",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Mit „Dein REWE Match“ zum passenden Berufseinstieg",
+    "link": "https://mediacenter.rewe.de/pressemitteilungen/rewe-azubi-kampagne",
+    "pageDate": "Heute",
+    "publishedAt": null,
+    "detectedAt": "2026-08-28T08:28:41.324Z",
+    "deliveredAt": "2026-08-28T08:28:41.324Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b545def3c011a25acd3834f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -34,15 +53,61 @@
     "tags": [],
     "priority": 2,
     "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
-    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
     "pageDate": "27.08.2026",
     "publishedAt": "2026-08-27T12:00:00.000Z",
-    "detectedAt": "2026-08-28T06:19:42.341Z",
-    "deliveredAt": "2026-08-28T06:19:42.341Z",
+    "detectedAt": "2026-08-28T08:28:41.321Z",
+    "deliveredAt": "2026-08-28T08:28:41.321Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "ebc5ec9366234c41c4c12f7b",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Einzelhandelsanteil der EU sinkt auf 31,9 Prozent",
+    "link": "https://onlinemarktplatz.de/292398/einzelhandelsanteil-der-eu-sinkt-2025/",
+    "pageDate": "28.08.2026",
+    "publishedAt": "2026-08-28T12:00:00.000Z",
+    "detectedAt": "2026-08-28T08:28:41.239Z",
+    "deliveredAt": "2026-08-28T08:28:41.239Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0777c4fcaf022f45fcc9c267",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Ozempic verändert den Einkaufswagen",
+    "link": "https://onlinemarktplatz.de/292443/glp-1-konsum-einkaufswagen/",
+    "pageDate": "28.08.2026",
+    "publishedAt": "2026-08-28T12:00:00.000Z",
+    "detectedAt": "2026-08-28T08:28:41.239Z",
+    "deliveredAt": "2026-08-28T08:28:41.239Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "7b19ef848aab7883696ff01e",
