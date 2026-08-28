@@ -1,6 +1,6 @@
 [
   {
-    "guid": "713031f6c6de4cdbd4990943",
+    "guid": "aef4cd5989909db41f3b8758",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,18 +14,18 @@
     ],
     "priority": 2,
     "title": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Publishes-Offer-Document-for-its-Takeover-Offer-for-Delivery-Hero/default.aspx",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
     "pageDate": "August 27, 2026",
     "publishedAt": "2026-08-27T00:00:00.000Z",
-    "detectedAt": "2026-08-28T00:04:28.718Z",
-    "deliveredAt": "2026-08-28T00:04:28.718Z",
+    "detectedAt": "2026-08-28T04:37:59.107Z",
+    "deliveredAt": "2026-08-28T04:37:59.107Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
   },
   {
-    "guid": "3ee8b872934bbee751b5203f",
+    "guid": "5b545def3c011a25acd3834f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -34,15 +34,36 @@
     "tags": [],
     "priority": 2,
     "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
-    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
     "pageDate": "27.08.2026",
     "publishedAt": "2026-08-27T12:00:00.000Z",
-    "detectedAt": "2026-08-28T00:04:28.703Z",
-    "deliveredAt": "2026-08-28T00:04:28.703Z",
+    "detectedAt": "2026-08-28T04:37:59.091Z",
+    "deliveredAt": "2026-08-28T04:37:59.091Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "984baa5d027ffbcb0916294d",
+    "source": "JD Corporate News",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "AI-Powered, ESG-Embedded Industrial Supply Chain Innovation Earns JINGDONG Industrials 2026 Sedex Technoical Innovation Award",
+    "link": "https://jdcorporateblog.com/ai-powered-esg-embedded-industrial-supply-chain-innovation-earns-jingdong-industrials-2026-sedex-technoical-innovation-award/",
+    "pageDate": "Aug 28, 2026",
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "detectedAt": "2026-08-28T04:37:58.979Z",
+    "deliveredAt": "2026-08-28T04:37:58.979Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "e2032a3b75cba8e0d510d463",
