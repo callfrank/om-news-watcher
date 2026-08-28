@@ -1,6 +1,6 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "713031f6c6de4cdbd4990943",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,75 @@
     ],
     "priority": 2,
     "title": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Publishes-Offer-Document-for-its-Takeover-Offer-for-Delivery-Hero/default.aspx",
     "pageDate": "August 27, 2026",
     "publishedAt": "2026-08-27T00:00:00.000Z",
-    "detectedAt": "2026-08-27T14:47:46.853Z",
-    "deliveredAt": "2026-08-27T14:47:46.853Z",
+    "detectedAt": "2026-08-28T00:04:28.718Z",
+    "deliveredAt": "2026-08-28T00:04:28.718Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "3ee8b872934bbee751b5203f",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-28T00:04:28.703Z",
+    "deliveredAt": "2026-08-28T00:04:28.703Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "e2032a3b75cba8e0d510d463",
+    "source": "Schwarz",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Mecklenburg-Vorpommern and the Companies of Schwarz Group Form Groundbreaking Partnership",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/mecklenburg-vorpommern-and-the-companies-of-schwarz-group-form-groundbreaking-partnership",
+    "pageDate": "August 27th, 2026",
+    "publishedAt": null,
+    "detectedAt": "2026-08-28T00:04:28.699Z",
+    "deliveredAt": "2026-08-28T00:04:28.699Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f1553f6bd8f7a913b6353fc3",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to stream Seattle Kraken games on Prime Video during 2026–27 season",
+    "link": "https://www.aboutamazon.com/news/entertainment/seattle-kraken-games-prime-video-watch-stream",
+    "pageDate": "Aug. 27, 2026",
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "detectedAt": "2026-08-28T00:04:28.693Z",
+    "deliveredAt": "2026-08-28T00:04:28.693Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "330d275eb27818b01a82b772",
@@ -46,26 +106,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "5b545def3c011a25acd3834f",
-    "source": "eBay DE",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
-    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
-    "pageDate": "27.08.2026",
-    "publishedAt": "2026-08-27T12:00:00.000Z",
-    "detectedAt": "2026-08-27T14:47:46.836Z",
-    "deliveredAt": "2026-08-27T14:47:46.836Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "705ae79a28c7e40558f8c76e",
