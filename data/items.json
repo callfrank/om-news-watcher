@@ -1,6 +1,6 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "713031f6c6de4cdbd4990943",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,18 +14,18 @@
     ],
     "priority": 2,
     "title": "Uber Publishes Offer Document for its Takeover Offer for Delivery Hero",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Publishes-Offer-Document-for-its-Takeover-Offer-for-Delivery-Hero/default.aspx",
     "pageDate": "August 27, 2026",
     "publishedAt": "2026-08-27T00:00:00.000Z",
-    "detectedAt": "2026-08-28T04:37:59.107Z",
-    "deliveredAt": "2026-08-28T04:37:59.107Z",
+    "detectedAt": "2026-08-28T06:19:42.353Z",
+    "deliveredAt": "2026-08-28T06:19:42.353Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
   },
   {
-    "guid": "5b545def3c011a25acd3834f",
+    "guid": "3ee8b872934bbee751b5203f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -34,15 +34,101 @@
     "tags": [],
     "priority": 2,
     "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
-    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
     "pageDate": "27.08.2026",
     "publishedAt": "2026-08-27T12:00:00.000Z",
-    "detectedAt": "2026-08-28T04:37:59.091Z",
-    "deliveredAt": "2026-08-28T04:37:59.091Z",
+    "detectedAt": "2026-08-28T06:19:42.341Z",
+    "deliveredAt": "2026-08-28T06:19:42.341Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "7b19ef848aab7883696ff01e",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon is preparing for the energy needs of the future",
+    "link": "https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-updates",
+    "pageDate": "Aug. 27, 2026",
+    "publishedAt": "2026-08-27T00:00:00.000Z",
+    "detectedAt": "2026-08-28T06:19:42.334Z",
+    "deliveredAt": "2026-08-28T06:19:42.334Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "08499a05eff9127da2e32fd3",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Erwerbstätigkeit im Juli 2026 saisonbereinigt gegenüber dem Vormonat leicht gesunken",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_310_132.html",
+    "pageDate": "28.08.2026",
+    "publishedAt": "2026-08-28T12:00:00.000Z",
+    "detectedAt": "2026-08-28T06:19:42.289Z",
+    "deliveredAt": "2026-08-28T06:19:42.289Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "98b2469284c30be2aa274040",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Importpreise im Juli 2026: +6,8 % gegenüber Juli 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_309_614.html",
+    "pageDate": "28.08.2026",
+    "publishedAt": "2026-08-28T12:00:00.000Z",
+    "detectedAt": "2026-08-28T06:19:42.288Z",
+    "deliveredAt": "2026-08-28T06:19:42.288Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f70d34e8d63c7e5960fe9439",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Europäische Zahlungsdienste: Gemeinsame Infrastruktur fehlt",
+    "link": "https://onlinemarktplatz.de/291794/europaeische-zahlungsdienste/",
+    "pageDate": "28.08.2026",
+    "publishedAt": "2026-08-28T12:00:00.000Z",
+    "detectedAt": "2026-08-28T06:19:42.278Z",
+    "deliveredAt": "2026-08-28T06:19:42.278Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "984baa5d027ffbcb0916294d",
