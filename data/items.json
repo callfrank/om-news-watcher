@@ -1,6 +1,6 @@
 [
   {
-    "guid": "5b545def3c011a25acd3834f",
+    "guid": "3ee8b872934bbee751b5203f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -9,15 +9,105 @@
     "tags": [],
     "priority": 2,
     "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
-    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
     "pageDate": "27.08.2026",
     "publishedAt": "2026-08-27T12:00:00.000Z",
-    "detectedAt": "2026-08-29T03:24:19.901Z",
-    "deliveredAt": "2026-08-29T03:24:19.901Z",
+    "detectedAt": "2026-08-29T10:27:07.652Z",
+    "deliveredAt": "2026-08-29T10:27:07.652Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "796a11bcd14b19c048de24a2",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Announces First Quarter 2026 Results That...",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-announces-first-quarter-2026-results-that-exceed-expectations/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-29T10:27:07.642Z",
+    "deliveredAt": "2026-08-29T10:27:07.642Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3a7d4015d33e8f92f12a4685",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Waymo Deutschland plant Robotaxi-Start in München für 2027",
+    "link": "https://onlinemarktplatz.de/290645/waymo-deutschland-muenchen-2027/",
+    "pageDate": "29.08.2026",
+    "publishedAt": "2026-08-29T12:00:00.000Z",
+    "detectedAt": "2026-08-29T10:27:07.590Z",
+    "deliveredAt": "2026-08-29T10:27:07.590Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "02ce763b9f7f7d30d1975bcb",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "NeeDoh Klage: Der Squishy-Hype gerät zum Sicherheitsrisiko",
+    "link": "https://onlinemarktplatz.de/292432/needoh-klage-squishy/",
+    "pageDate": "29.08.2026",
+    "publishedAt": "2026-08-29T12:00:00.000Z",
+    "detectedAt": "2026-08-29T10:27:07.590Z",
+    "deliveredAt": "2026-08-29T10:27:07.590Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b8c3f32edc55669b0ff7bfbc",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Fressnapf City startet in München: Fressnapf testet das Kleinformat für die Innenstadt",
+    "link": "https://onlinemarktplatz.de/286125/fressnapf-city-muenchen-schwabing/",
+    "pageDate": "29.08.2026",
+    "publishedAt": "2026-08-29T12:00:00.000Z",
+    "detectedAt": "2026-08-29T10:27:07.590Z",
+    "deliveredAt": "2026-08-29T10:27:07.590Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "c289590f22f9ebcd07d5aa50",
