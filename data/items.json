@@ -1,5 +1,67 @@
 [
   {
+    "guid": "5b545def3c011a25acd3834f",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
+    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
+    "pageDate": "27.08.2026",
+    "publishedAt": "2026-08-27T12:00:00.000Z",
+    "detectedAt": "2026-08-29T03:24:19.901Z",
+    "deliveredAt": "2026-08-29T03:24:19.901Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "c289590f22f9ebcd07d5aa50",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon is helping communities impacted by the Nepal flash floods",
+    "link": "https://www.aboutamazon.com/news/community/nepal-floods-amazon-disaster-relief",
+    "pageDate": "Aug. 28, 2026",
+    "publishedAt": "2026-08-28T00:00:00.000Z",
+    "detectedAt": "2026-08-29T03:24:19.895Z",
+    "deliveredAt": "2026-08-29T03:24:19.895Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "473cd7551bc3d013de8efc51",
+    "source": "Zew",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Solarförderung gezielter und marktnäher gestalten // ZEW-Ökonom Sebastian Rausch zum Erneuerbare-Energien-Gesetz (EEG)",
+    "link": "https://www.zew.de/presse/pressearchiv/solarfoerderung-gezielter-und-marktnaeher-gestalten",
+    "pageDate": "28.08.2026",
+    "publishedAt": "2026-08-28T12:00:00.000Z",
+    "detectedAt": "2026-08-29T03:24:19.893Z",
+    "deliveredAt": "2026-08-29T03:24:19.893Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "713031f6c6de4cdbd4990943",
     "source": "Uber",
     "sourceLabel": "Uber",
@@ -19,26 +81,6 @@
     "publishedAt": "2026-08-27T00:00:00.000Z",
     "detectedAt": "2026-08-28T21:32:55.722Z",
     "deliveredAt": "2026-08-28T21:32:55.722Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
-  },
-  {
-    "guid": "3ee8b872934bbee751b5203f",
-    "source": "eBay DE",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Live verkaufen, international wachsen: Die eBay OPEN 2026 bringt E-Commerce-Wissen auf die große Bühne",
-    "link": "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
-    "pageDate": "27.08.2026",
-    "publishedAt": "2026-08-27T12:00:00.000Z",
-    "detectedAt": "2026-08-28T21:32:55.707Z",
-    "deliveredAt": "2026-08-28T21:32:55.707Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
