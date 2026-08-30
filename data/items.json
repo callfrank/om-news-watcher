@@ -1,5 +1,51 @@
 [
   {
+    "guid": "5d87621026b42afb769b27ba",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon plant 500 Millionen Drohnenpakete pro Jahr",
+    "link": "https://onlinemarktplatz.de/271204/amazon-drohnenlieferung-usa/",
+    "pageDate": "30.08.2026",
+    "publishedAt": "2026-08-30T12:00:00.000Z",
+    "detectedAt": "2026-08-30T07:26:50.196Z",
+    "deliveredAt": "2026-08-30T07:26:50.196Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "85658a88e908cb12aa18c551",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "BUBS Übernahme: Wie TikTok den Süßwarenmarkt bis in die Fabrik treibt",
+    "link": "https://onlinemarktplatz.de/292449/bubs-uebernahme-orkla/",
+    "pageDate": "30.08.2026",
+    "publishedAt": "2026-08-30T12:00:00.000Z",
+    "detectedAt": "2026-08-30T07:26:50.196Z",
+    "deliveredAt": "2026-08-30T07:26:50.196Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "3ee8b872934bbee751b5203f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
