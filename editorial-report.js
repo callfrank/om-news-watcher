@@ -53,9 +53,12 @@ function escapeHtml(text) {
 async function main() {
   const now = new Date();
   const berlin = berlinParts(now);
-  const hhmm = `${berlin.hour}:${berlin.minute}`;
-  if (!["07:30", "12:00"].includes(hhmm)) {
-    console.log(`Nicht der Berliner Zielzeitpunkt (${hhmm}); Lauf wird beendet.`);
+  const hour = Number(berlin.hour);
+  const minute = Number(berlin.minute);
+  const isMorningWindow = hour === 7 && minute >= 30;
+  const isNoonWindow = hour === 12;
+  if (!isMorningWindow && !isNoonWindow) {
+    console.log(`Nicht im Berliner Zielzeitfenster (${berlin.hour}:${berlin.minute}); Lauf wird beendet.`);
     return;
   }
 
