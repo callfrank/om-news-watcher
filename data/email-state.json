@@ -394,9 +394,13 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastSlot": "2026-08-30-14",
+  "lastSlot": "2026-08-31-07",
   "lastSentAt": "2026-08-30T12:46:42.146Z",
   "handledGuids": [
+    "c3f3c41f8b8478503da42229",
+    "f7f6329a7da37b84d8d9bca3",
+    "b5d02023b4dc296ed2773995",
+    "d48d81523eae08cd30e16298",
     "5d87621026b42afb769b27ba",
     "85658a88e908cb12aa18c551",
     "796a11bcd14b19c048de24a2",
@@ -1153,10 +1157,10 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastEvaluatedAt": "2026-08-30T12:46:42.146Z",
+  "lastEvaluatedAt": "2026-08-31T05:20:01.492Z",
   "lastFilterSummary": {
-    "readerSeen": 0,
-    "historical": 0,
+    "readerSeen": 3,
+    "historical": 1,
     "lowPriority": 0,
     "quality": 0
   },
