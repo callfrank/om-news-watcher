@@ -1,5 +1,115 @@
 [
   {
+    "guid": "3e9f0ae4af31363c75dd8dbc",
+    "source": "DeStatis",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Männer sind in jüngeren Altersgruppen in der Überzahl, Frauen in älteren",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N060_12.html",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-08-31T07:03:16.804Z",
+    "deliveredAt": "2026-08-31T07:03:16.804Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e0ab1094d34910e024db7fe3",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Ausbildungsstart 2026: Handel bleibt eine der wichtigsten Ausbildungsbranchen - kämpft aber weiter um Nachwuchs",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15333-ausbildungsstart-2026-handel-bleibt-eine-der-wichtigsten-ausbildungsbranchen-kaempft-aber-weiter-um-nachwuchs",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-08-31T07:03:16.793Z",
+    "deliveredAt": "2026-08-31T07:03:16.793Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fa4792f6f1b9fb46c7538072",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Pix Bezahlsystem: Warum Brasilien Europa voraus ist",
+    "link": "https://onlinemarktplatz.de/291932/pix-bezahlsystem-brasilien/",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-08-31T07:03:16.791Z",
+    "deliveredAt": "2026-08-31T07:03:16.791Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c619b91f92f1f626500ba3a7",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "PayPal-Übernahmepläne beendet: Stripe und Advent ziehen sich zurück",
+    "link": "https://onlinemarktplatz.de/292484/paypal-uebernahmeplaene-beendet/",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-08-31T07:03:16.791Z",
+    "deliveredAt": "2026-08-31T07:03:16.791Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6eeed1285d4696bc60558ce6",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Telekom nimmt 81 neue Mobilfunkstandorte in Betrieb",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-nimmt-81-neue-mobilfunkstandorte-in-betrieb-1106678",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-08-31T07:03:16.777Z",
+    "deliveredAt": "2026-08-31T07:03:16.777Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c3f3c41f8b8478503da42229",
     "source": "Handelskraft",
     "sourceLabel": "Handelskraft",
