@@ -362,20 +362,61 @@
     "waitMs" : 5000
   },
   {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260831-054806",
+    "candidateSelector" : "a[href*=\"/events/\"],[data-href*=\"/events/\"],[data-url*=\"/events/\"],[data-link*=\"/events/\"],[onclick*=\"/events/\"]",
     "enabled" : true,
     "groups" : [
       "Events"
     ],
+    "includeRegex" : "^https?://amzsummits\\.com/events/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Amazon Seller Events",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : "a",
+      "link" : "a",
+      "title" : "a"
     },
     "timeoutMs" : 60000,
     "url" : "https://amzsummits.com/events/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-08-31T03:48:06Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-31T03:48:06Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://amzsummits.com/events/top-dog-summit-2026/",
+      "https://amzsummits.com/events/sellerbarcamp-bonn-2026/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-08-31T03:48:11Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 20 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 3000
   },
   {
