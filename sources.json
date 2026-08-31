@@ -290,7 +290,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster + Karteninhalt",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T13:56:32Z",
+    "visualValidatedAt" : "2026-08-31T03:50:36Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 22 Treffer",
     "waitMs" : 3000
   },
@@ -1193,22 +1193,22 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-133451",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260831-055318",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
     "groups" : [
       "Finanzen"
     ],
-    "includeRegex" : "^https?://newsroom\\.deatch\\.paypal-corp\\.com/",
+    "includeRegex" : "^https?://newsroom\\.deatch\\.paypal-corp\\.com/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "PayPal DE Aktuelle Mitteilungen",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "div.wd_item_wrapper",
-      "link" : "a.wd_local",
-      "title" : "a.wd_local"
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
     "tags" : [
       "Payment"
@@ -1226,14 +1226,46 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T11:34:51Z",
-    "visualRuleVersion" : 2,
-    "visualSampleCount" : 3,
+    "visualLearnedAt" : "2026-08-31T03:53:18Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+          "includeRegex" : "^https?://newsroom\\.deatch\\.paypal-corp\\.com/",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "div.wd_item_wrapper",
+            "link" : "a.wd_local",
+            "title" : "a.wd_local"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T11:34:51Z",
+          "visualRuleVersion" : 2,
+          "visualSampleCount" : 3,
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster + Karteninhalt",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-31T03:52:39Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-31T03:53:18Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://newsroom.deatch.paypal-corp.com/2026-08-17-PayPal-und-Deutsche-Bahn-starten-Cashback-Aktion-fuer-Reisende",
+      "https://newsroom.deatch.paypal-corp.com/PayPal-und-Amazon-fuehren-PayPal-Ratenzahlung-fuer-Kund-innen-in-Deutschland-und-Oesterreich-ein"
+    ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T13:58:41Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
+    "visualValidatedAt" : "2026-08-31T03:53:25Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer · URL-Muster",
     "waitMs" : 5000,
     "weekdaysOnly" : true
   },
@@ -2702,8 +2734,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T14:08:41Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-31T03:50:57Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
     "waitMs" : 2500
   },
   {
