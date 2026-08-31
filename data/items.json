@@ -1,5 +1,65 @@
 [
   {
+    "guid": "0e64a16edc855c551a37f766",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337086/CAWI-PRINT%202026:%20&bdquo;DAS%20KUVERT&ldquo;%20ERREICHT%2045%20PROZENT%20REICHWEITE%20UND%20W&Auml;CHST%20IN%20JUNGEN%20ZIELGRUPPEN",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-08-31T08:56:47.281Z",
+    "deliveredAt": "2026-08-31T08:56:47.281Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "24ede6946f8770858307c323",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "CAWI-PRINT 2026: „DAS KUVERT“ ERREICHT 45 PROZENT REICHWEITE UND WÄCHST IN JUNGEN ZIELGRUPPEN",
+    "link": "https://news.post.at/presse/de/post/id/2337086/CAWI-PRINT%202026%3A%20%26bdquo%3BDAS%20KUVERT%26ldquo%3B%20ERREICHT%2045%20PROZENT%20REICHWEITE%20UND%20W%26Auml%3BCHST%20IN%20JUNGEN%20ZIELGRUPPEN",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-08-31T08:56:47.281Z",
+    "deliveredAt": "2026-08-31T08:56:47.281Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ab158d783abdf34baf9c356b",
+    "source": "Zalando Newsroom",
+    "sourceLabel": "Zalando",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Zalandos Herbst/Winter 2026 Kampagne „Inner Voices“ verwandelt tägliche Stil-Dilemmas in eine filmische Komödie mit Lily Collins",
+    "link": "https://corporate.zalando.com/de/unternehmen/zalandos-herbstwinter-2026-kampagne-inner-voices-verwandelt-taegliche-stil-dilemmas",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-08-31T08:56:47.167Z",
+    "deliveredAt": "2026-08-31T08:56:47.167Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "3e9f0ae4af31363c75dd8dbc",
     "source": "DeStatis",
     "sourceLabel": "DeStatis",
