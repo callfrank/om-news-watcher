@@ -2815,7 +2815,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T14:00:57Z",
+    "visualValidatedAt" : "2026-08-31T03:40:39Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
     "waitMs" : 2500
   },
@@ -4682,7 +4682,7 @@
     "automaticTagging" : true,
     "baselineVersion" : "mac-app-20260818-110356",
     "checkIntervalMinutes" : 60,
-    "enabled" : false,
+    "enabled" : true,
     "excludeKeywords" : [
 
     ],
@@ -5099,8 +5099,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T14:13:12Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer · Kartenstruktur + URL-Muster",
+    "visualValidatedAt" : "2026-08-31T03:40:48Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 2500,
     "weekdaysOnly" : false
   },
