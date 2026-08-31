@@ -1111,7 +1111,18 @@ function pruneStoredItems(items, sources) {
       date: original.pageDate || ''
     };
 
-    if (!link || !matchesConfiguredRules(candidate, source) || !passesQualityGate(candidate, source)) {
+    // Manuell in der Mac-App bestätigte Einträge bleiben im Reader. Das
+    // umgeht ausschließlich die spätere Bereinigung dieses einzelnen
+    // Datensatzes; die automatische Erkennung und ihr Eligibility-Gate
+    // bleiben unverändert.
+    const manuallyConfirmed = original.manualOverride === true;
+
+    if (
+      !link ||
+      (!manuallyConfirmed &&
+        (!matchesConfiguredRules(candidate, source) ||
+          !passesQualityGate(candidate, source)))
+    ) {
       removed++;
       continue;
     }

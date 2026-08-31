@@ -708,50 +708,88 @@ struct ContentView: View {
 
                     if !result.rejectedExamples.isEmpty {
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("Erkannt, aber vom News-Eligibility-Gate verworfen")
-                                .font(.subheadline.bold())
-                                .foregroundStyle(.orange)
+                            HStack {
+                                Text("Erkannt, aber vom News-Eligibility-Gate verworfen")
+                                    .font(.subheadline.bold())
+                                    .foregroundStyle(.orange)
 
-                            ForEach(result.rejectedExamples) { hit in
-                                Button {
-                                    if let url = hit.url {
-                                        model.openHit(
-                                            SourceTestHit(
-                                                title: hit.title,
-                                                url: url,
-                                                publicationDate: hit.publicationDate
-                                            )
+                                Spacer()
+
+                                Button("Alle übernehmen") {
+                                    Task {
+                                        await model.importRejectedHitsIntoReader(
+                                            result.rejectedExamples,
+                                            from: source
                                         )
                                     }
-                                } label: {
-                                    HStack(alignment: .top, spacing: 8) {
-                                        Image(systemName: "minus.circle.fill")
-                                            .foregroundStyle(.orange)
-                                        VStack(alignment: .leading, spacing: 2) {
-                                            Text(hit.title)
-                                                .lineLimit(2)
-                                                .multilineTextAlignment(.leading)
-                                            Text(hit.reason)
-                                                .font(.caption)
+                                }
+                                .disabled(
+                                    model.isBusy ||
+                                    !result.rejectedExamples.contains {
+                                        !model.rejectedHitIsAlreadyInReader($0)
+                                    }
+                                )
+                            }
+
+                            ForEach(result.rejectedExamples) { hit in
+                                HStack(alignment: .top, spacing: 8) {
+                                    Button {
+                                        if let url = hit.url {
+                                            model.openHit(
+                                                SourceTestHit(
+                                                    title: hit.title,
+                                                    url: url,
+                                                    publicationDate: hit.publicationDate
+                                                )
+                                            )
+                                        }
+                                    } label: {
+                                        HStack(alignment: .top, spacing: 8) {
+                                            Image(systemName: "minus.circle.fill")
                                                 .foregroundStyle(.orange)
-                                            if let publicationDate = hit.publicationDate {
-                                                Text("Veröffentlicht: \(publicationDate)")
-                                                    .font(.caption2)
-                                                    .foregroundStyle(.secondary)
-                                            }
-                                            if let url = hit.url {
-                                                Text(url)
-                                                    .font(.caption2)
-                                                    .foregroundStyle(.secondary)
-                                                    .lineLimit(1)
+                                            VStack(alignment: .leading, spacing: 2) {
+                                                Text(hit.title)
+                                                    .lineLimit(2)
+                                                    .multilineTextAlignment(.leading)
+                                                Text(hit.reason)
+                                                    .font(.caption)
+                                                    .foregroundStyle(.orange)
+                                                if let publicationDate = hit.publicationDate {
+                                                    Text("Veröffentlicht: \(publicationDate)")
+                                                        .font(.caption2)
+                                                        .foregroundStyle(.secondary)
+                                                }
+                                                if let url = hit.url {
+                                                    Text(url)
+                                                        .font(.caption2)
+                                                        .foregroundStyle(.secondary)
+                                                        .lineLimit(1)
+                                                }
                                             }
                                         }
-                                        Spacer()
                                     }
                                     .contentShape(Rectangle())
                                 }
                                 .buttonStyle(.plain)
                                 .disabled(hit.url == nil)
+
+                                Spacer()
+
+                                if model.rejectedHitIsAlreadyInReader(hit) {
+                                    Label("Im Reader", systemImage: "checkmark.circle.fill")
+                                        .font(.caption)
+                                        .foregroundStyle(.green)
+                                } else {
+                                    Button("In Reader übernehmen") {
+                                        Task {
+                                            await model.importRejectedHitsIntoReader(
+                                                [hit],
+                                                from: source
+                                            )
+                                        }
+                                    }
+                                    .disabled(hit.url == nil || model.isBusy)
+                                }
                             }
                         }
                         .padding(.top, 4)
@@ -4270,4 +4308,3 @@ private struct ReaderWebPreview: NSViewRepresentable {
         webView.load(URLRequest(url: url))
     }
 }
-
