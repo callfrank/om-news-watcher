@@ -1078,46 +1078,29 @@
     "waitMs" : 3000
   },
   {
-    "allowExternal" : true,
-    "allowTitleOnly" : false,
+    "allowTitleOnly" : true,
     "autoScroll" : 0,
-    "baselineVersion" : "mac-app-20260817-123638",
+    "baselineVersion" : "mac-app-20260831-054702",
     "enabled" : true,
+    "excludeTitleRegex" : "^(?:Nehmen Sie an unseren nächsten Veranstaltungen.*|Sehen Sie sich hier vergangene Webinare an|Haben Sie Fragen.*)$",
     "groups" : [
       "Events"
     ],
     "maxDetectedItems" : 40,
-    "minTitleLength" : 5,
+    "minTitleLength" : 10,
     "name" : "Amazon Freight Events",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "div.PageList-items-item",
-      "link" : "a.Link",
-      "title" : "div.PagePromo-title"
+      "item" : "main h2, main h3, main h4",
+      "link" : "",
+      "title" : ""
     },
     "tags" : [
       "Logistik"
     ],
     "timeoutMs" : 60000,
     "url" : "https://freight.amazon.de/events-and-webinars",
-    "visualBackup" : {
-      "allowTitleOnly" : true,
-      "excludeTitleRegex" : "^(?:Nehmen Sie an unseren nächsten Veranstaltungen.*|Sehen Sie sich hier vergangene Webinare an|Haben Sie Fragen.*)$",
-      "minTitleLength" : 10,
-      "selectors" : {
-        "date" : "",
-        "item" : "main h2, main h3, main h4",
-        "link" : "",
-        "title" : ""
-      }
-    },
-    "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T10:36:38Z",
-    "visualSampleCount" : 3,
-    "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T13:58:26Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 1 Treffer",
     "waitMs" : 1200
   },
   {
@@ -3742,7 +3725,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T14:02:08Z",
+    "visualValidatedAt" : "2026-08-31T03:43:30Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 6 Treffer",
     "waitMs" : 2500
   },
