@@ -135,7 +135,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T13:56:15Z",
+    "visualValidatedAt" : "2026-08-31T03:00:48Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
     "waitMs" : 3000
   },
@@ -1357,7 +1357,7 @@
     "waitMs" : 7000
   },
   {
-    "enabled" : false,
+    "enabled" : true,
     "groups" : [
       "Firmen"
     ],
