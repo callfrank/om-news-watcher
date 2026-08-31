@@ -253,21 +253,21 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-132605",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260831-062903",
+    "candidateSelector" : "a[href*=\"/events/\"],[data-href*=\"/events/\"],[data-url*=\"/events/\"],[data-link*=\"/events/\"],[onclick*=\"/events/\"]",
     "enabled" : true,
     "groups" : [
       "Events"
     ],
-    "includeRegex" : "^https?://www\\.omt\\.de/events/",
+    "includeRegex" : "^https?://www\\.omt\\.de/events/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "OMT E-Commerce Events",
     "priority" : 2,
     "selectors" : {
-      "date" : "p.event-category-listing-date",
-      "item" : "div.event-category-listing-summary",
+      "date" : "",
+      "item" : "h3.event-category-listing-title",
       "link" : "a",
-      "title" : "a"
+      "title" : "h3.event-category-listing-title"
     },
     "tags" : [
       "E-Commerce"
@@ -284,14 +284,46 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T11:26:05Z",
-    "visualRuleVersion" : 2,
-    "visualSampleCount" : 3,
+    "visualLearnedAt" : "2026-08-31T04:29:03Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+          "includeRegex" : "^https?://www\\.omt\\.de/events/",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "p.event-category-listing-date",
+            "item" : "div.event-category-listing-summary",
+            "link" : "a",
+            "title" : "a"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T11:26:05Z",
+          "visualRuleVersion" : 2,
+          "visualSampleCount" : 3,
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster + Karteninhalt",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-31T03:50:36Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 22 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-31T04:29:03Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://www.omt.de/events/e-commerce-best-practice-day/",
+      "https://www.omt.de/events/ehi-connect/"
+    ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-31T03:50:36Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 22 Treffer",
+    "visualValidatedAt" : "2026-08-31T04:29:09Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 17 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 3000
   },
   {
