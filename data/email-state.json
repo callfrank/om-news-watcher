@@ -1,5 +1,8 @@
 {
   "sentGuids": [
+    "256defa98531744857f25f60",
+    "0e64a16edc855c551a37f766",
+    "047798272027efb1f0975e1e",
     "5d87621026b42afb769b27ba",
     "85658a88e908cb12aa18c551",
     "796a11bcd14b19c048de24a2",
@@ -394,9 +397,41 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastSlot": "2026-08-31-07",
-  "lastSentAt": "2026-08-30T12:46:42.146Z",
+  "lastSlot": "2026-08-31-15",
+  "lastSentAt": "2026-08-31T13:31:08.620Z",
   "handledGuids": [
+    "256defa98531744857f25f60",
+    "0e64a16edc855c551a37f766",
+    "047798272027efb1f0975e1e",
+    "67147018729943fde6473419",
+    "7343cc686d4326a1824d1d94",
+    "058a874611d6f95530ce0516",
+    "bb3a81f1dbeafac99225a4b1",
+    "85d99fba09beb206cd9c6bbe",
+    "98bfcd97257d260e13c111f8",
+    "27eb089b7dd02eb40001038f",
+    "2fa398832078f382292edb1f",
+    "e30e359b0e6949c9e04b1471",
+    "7b202fa0aef14d5afd31f329",
+    "a0abcfbf13e45897bc0b5a1d",
+    "a075e1fcc70b9d2c6806e5b1",
+    "2e1b0e970f4d3afbd396d730",
+    "2d12addb7b9085904c693893",
+    "c001ef58fac0a3f6fa4cc26c",
+    "6708923597bf1836e30f6a48",
+    "5e53c54d30afb805b37f981e",
+    "056fde55bef7d0dc9ce3b1bf",
+    "9bc015e0c4b8290b2dbcfdbb",
+    "3385b2a9ba557ab33b3691a6",
+    "e010740a9791228f4811e5af",
+    "f10eab376a84ba1f7161dc23",
+    "24ede6946f8770858307c323",
+    "ab158d783abdf34baf9c356b",
+    "3e9f0ae4af31363c75dd8dbc",
+    "e0ab1094d34910e024db7fe3",
+    "fa4792f6f1b9fb46c7538072",
+    "c619b91f92f1f626500ba3a7",
+    "6eeed1285d4696bc60558ce6",
     "c3f3c41f8b8478503da42229",
     "f7f6329a7da37b84d8d9bca3",
     "b5d02023b4dc296ed2773995",
@@ -1157,12 +1192,12 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastEvaluatedAt": "2026-08-31T05:20:01.492Z",
+  "lastEvaluatedAt": "2026-08-31T13:31:08.620Z",
   "lastFilterSummary": {
-    "readerSeen": 3,
-    "historical": 1,
+    "readerSeen": 20,
+    "historical": 0,
     "lowPriority": 0,
-    "quality": 0
+    "quality": 9
   },
-  "lastSentCount": 2
+  "lastSentCount": 3
 }
