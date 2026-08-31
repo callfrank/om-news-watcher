@@ -2516,8 +2516,8 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260819-044726",
-    "candidateSelector" : "a[href*=\"/veranstaltung/\"]",
+    "baselineVersion" : "mac-app-20260831-055005",
+    "candidateSelector" : "a[href*=\"/veranstaltung/\"],[data-href*=\"/veranstaltung/\"],[data-url*=\"/veranstaltung/\"],[data-link*=\"/veranstaltung/\"],[onclick*=\"/veranstaltung/\"]",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -2552,8 +2552,50 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-19T02:47:26Z",
+    "visualLearnedAt" : "2026-08-31T03:50:05Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-08-31T03:50:05Z"
+      },
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href*=\"/veranstaltung/\"]",
+          "includeRegex" : "^https?://digitalzentrumhandel\\.de/veranstaltung/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "div.tribe-events-pro-map__event-date-tag",
+            "item" : "a.tribe-events-c-small-cta__link",
+            "link" : "a.tribe-events-c-small-cta__link",
+            "title" : "h3.tribe-events-pro-map__event-title"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-19T02:47:26Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 2,
+          "visualSampleURLs" : [
+            "https://digitalzentrumhandel.de/veranstaltung/webinare-fuer-den-handel-von-morgen/",
+            "https://digitalzentrumhandel.de/veranstaltung/digitalisierung-und-ki-im-geschaeft-und-onlinehandel/"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "Kartenstruktur + URL-Muster",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-31T03:48:26Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 26 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-31T03:48:57Z"
+      },
       {
         "configuration" : {
           "allowExternal" : false,
@@ -2595,8 +2637,8 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T14:00:41Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 32 Treffer",
+    "visualValidatedAt" : "2026-08-31T03:50:13Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 26 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
   {
