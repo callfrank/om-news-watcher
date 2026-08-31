@@ -2,17 +2,19 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-120311",
+    "baselineVersion" : "mac-app-20260831-050017",
+    "candidateSelector" : "a[href*=\"/de/\"],[data-href*=\"/de/\"],[data-url*=\"/de/\"],[data-link*=\"/de/\"],[onclick*=\"/de/\"]",
     "enabled" : true,
     "groups" : [
       "Firmen"
     ],
+    "includeRegex" : "^https?://corporate\\.zalando\\.com/de/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Zalando Newsroom",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "article.node",
+      "item" : "article.news",
       "link" : "a",
       "title" : "h2.title"
     },
@@ -31,11 +33,41 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T10:03:11Z",
-    "visualSampleCount" : 3,
+    "visualLearnedAt" : "2026-08-31T03:00:17Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "article.node",
+            "link" : "a",
+            "title" : "h2.title"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T10:03:11Z",
+          "visualSampleCount" : 3,
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-31T02:59:50Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-31T03:00:17Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://corporate.zalando.com/de/technologie/ki-gestuetzte-inhalte-bei-zalando-genauigkeit-mehrwert-fuer-kundinnen-menschliche-urteilskraft",
+      "https://corporate.zalando.com/de/finanzen/zalando-ergebnis-q2-2026"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T13:56:11Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
+    "visualValidatedAt" : "2026-08-31T03:00:22Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 5000
   },
   {
