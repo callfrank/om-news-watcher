@@ -1961,20 +1961,20 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-134414",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+    "baselineVersion" : "mac-app-20260831-053743",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
     "groups" : [
       "Sonstiges"
     ],
-    "includeRegex" : "^https?://wortfilter\\.de/",
+    "includeRegex" : "^https?://wortfilter\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Wortfilter",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "article.et_pb_post",
+      "item" : "h2.entry-title",
       "link" : "a",
       "title" : "h2.entry-title"
     },
@@ -1993,14 +1993,76 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T11:44:14Z",
-    "visualRuleVersion" : 2,
-    "visualSampleCount" : 3,
+    "visualLearnedAt" : "2026-08-31T03:37:43Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+          "includeRegex" : "^https?://wortfilter\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "div.post-content",
+            "link" : "a.more-link",
+            "title" : "a.more-link"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-31T03:37:01Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 2,
+          "visualSampleURLs" : [
+            "https://wortfilter.de/fiu-betrugsmails/",
+            "https://wortfilter.de/privater-konsum-bip-q2-2026/"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "Kartenstruktur + URL-Muster",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-31T03:37:07Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 13 Treffer · Kartenstruktur + URL-Muster"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-31T03:37:43Z"
+      },
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
+          "includeRegex" : "^https?://wortfilter\\.de/",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "article.et_pb_post",
+            "link" : "a",
+            "title" : "h2.entry-title"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-17T11:44:14Z",
+          "visualRuleVersion" : 2,
+          "visualSampleCount" : 3,
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster + Karteninhalt",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-19T14:00:08Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 14 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-08-31T03:37:01Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://wortfilter.de/fiu-betrugsmails/",
+      "https://wortfilter.de/privater-konsum-bip-q2-2026/"
+    ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "URL-Muster + Karteninhalt",
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T14:00:08Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 14 Treffer",
+    "visualValidatedAt" : "2026-08-31T03:37:49Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 13 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
   {
