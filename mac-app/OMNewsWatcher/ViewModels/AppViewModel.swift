@@ -1,5 +1,6 @@
 import Foundation
 import AppKit
+import CryptoKit
 import UniformTypeIdentifiers
 #if canImport(FoundationXML)
 import FoundationXML
@@ -18,6 +19,8 @@ struct FeedHistoryItem: Codable, Identifiable, Equatable {
     var recovered: Bool?
     var recoveryReason: String?
     var historicalBackfill: Bool?
+    var manualOverride: Bool?
+    var manualConfirmedAt: String?
     var groups: [String]?
     var tags: [String]?
     var priority: Int?
@@ -63,6 +66,12 @@ struct FeedHistoryItem: Codable, Identifiable, Equatable {
     }
 
     var isHistoricalDelivery: Bool {
+        // Eine bewusste manuelle Übernahme ist kein versehentlicher
+        // historischer Backfill und bleibt deshalb im Reader sichtbar.
+        if manualOverride == true {
+            return false
+        }
+
         if historicalBackfill == true {
             return true
         }
@@ -696,6 +705,184 @@ final class AppViewModel: ObservableObject {
         } catch {
             // Feed-Vorschau ist eine Komfortfunktion und soll den Start nicht blockieren.
         }
+    }
+
+    // MARK: - Manuelle Reader-Übernahme
+
+    /// Übernimmt bewusst bestätigte Testtreffer in genau dieselbe Ablage wie
+    /// der Watcher. Die automatische Erkennung und deren Eligibility-Gate
+    /// bleiben davon unberührt.
+    func importRejectedHitsIntoReader(
+        _ hits: [SourceRejectedHit],
+        from source: SourceRecord
+    ) async {
+        let candidates = hits.filter {
+            guard let url = $0.url?.trimmingCharacters(
+                in: .whitespacesAndNewlines
+            ) else {
+                return false
+            }
+            return !url.isEmpty
+        }
+
+        guard !candidates.isEmpty else {
+            statusMessage = "Für diese Treffer fehlt eine übernehmbare URL"
+            return
+        }
+
+        await performBusy("Übernehme in den Reader …") {
+            guard self.hasToken else {
+                self.showSettings = true
+                throw GitHubAPIError.missingToken
+            }
+
+            let existing = try await self.client().fetchFileIfExists(
+                path: "data/items.json"
+            )
+            var items = existing.flatMap {
+                try? JSONDecoder().decode(
+                    [FeedHistoryItem].self,
+                    from: $0.data
+                )
+            } ?? []
+
+            var knownGUIDs = Set(items.map(\.guid))
+            var knownLinks = Set(items.map { self.normalizedReaderLink($0.link) })
+            let now = ISO8601DateFormatter().string(from: Date())
+            var added = 0
+            var skipped = 0
+
+            for hit in candidates {
+                guard let link = hit.url?.trimmingCharacters(
+                    in: .whitespacesAndNewlines
+                ), !link.isEmpty else {
+                    continue
+                }
+
+                let guid = self.readerGUID(for: link)
+                let normalizedLink = self.normalizedReaderLink(link)
+                guard !knownGUIDs.contains(guid),
+                      !knownLinks.contains(normalizedLink)
+                else {
+                    skipped += 1
+                    continue
+                }
+
+                items.append(
+                    FeedHistoryItem(
+                        guid: guid,
+                        source: source.name,
+                        sourceLabel: source.feedLabel,
+                        title: hit.title,
+                        link: link,
+                        pageDate: hit.publicationDate,
+                        publishedAt: nil,
+                        detectedAt: now,
+                        deliveredAt: now,
+                        recovered: false,
+                        recoveryReason: "Manuell im Quellen-Test bestätigt",
+                        historicalBackfill: false,
+                        manualOverride: true,
+                        manualConfirmedAt: now,
+                        groups: source.groups,
+                        tags: source.tags,
+                        priority: source.priority,
+                        duplicateSources: nil
+                    )
+                )
+                knownGUIDs.insert(guid)
+                knownLinks.insert(normalizedLink)
+                added += 1
+            }
+
+            guard added > 0 else {
+                self.statusMessage = "Bereits im Reader vorhanden"
+                return
+            }
+
+            items.sort { $0.detectedAt > $1.detectedAt }
+
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = [
+                .prettyPrinted,
+                .sortedKeys,
+                .withoutEscapingSlashes
+            ]
+            let data = try encoder.encode(items)
+
+            _ = try await self.client().saveFile(
+                path: "data/items.json",
+                data: data,
+                sha: existing?.sha,
+                message: "Manually add confirmed reader item via OM News Watcher Mac"
+            )
+
+            self.feedItems = items
+            self.readerCachedItems = self.cleanedReaderItems(from: items)
+            self.pruneReaderState()
+            self.rebuildReaderUnreadCache()
+            self.updateReaderDockBadge()
+
+            let addedText = added == 1
+                ? "1 Treffer in den Reader übernommen"
+                : "\(added) Treffer in den Reader übernommen"
+            self.statusMessage = skipped > 0
+                ? "\(addedText) · \(skipped) bereits vorhanden"
+                : addedText
+        }
+    }
+
+    func rejectedHitIsAlreadyInReader(_ hit: SourceRejectedHit) -> Bool {
+        guard let link = hit.url?.trimmingCharacters(
+            in: .whitespacesAndNewlines
+        ), !link.isEmpty else {
+            return false
+        }
+
+        let guid = readerGUID(for: link)
+        let normalizedLink = normalizedReaderLink(link)
+        return feedItems.contains {
+            $0.guid == guid || normalizedReaderLink($0.link) == normalizedLink
+        }
+    }
+
+    private func readerGUID(for link: String) -> String {
+        // Entspricht der ID-Bildung des Watchers: SHA-256 der gespeicherten
+        // (bereits vom Tester aufgelösten) Ziel-URL, auf 24 Stellen gekürzt.
+        let digest = SHA256.hash(data: Data(link.utf8))
+        return digest.map { String(format: "%02x", $0) }
+            .joined()
+            .prefix(24)
+            .description
+    }
+
+    private func normalizedReaderLink(_ value: String) -> String {
+        guard var components = URLComponents(string: value) else {
+            return value.trimmingCharacters(
+                in: .whitespacesAndNewlines
+            ).lowercased()
+        }
+
+        components.fragment = nil
+        components.queryItems = components.queryItems?.filter { item in
+            let key = item.name.lowercased()
+            return !key.hasPrefix("utm_") &&
+                key != "fbclid" &&
+                key != "gclid" &&
+                key != "ref" &&
+                !key.hasPrefix("ref_") &&
+                key != "source" &&
+                !key.hasPrefix("mc_") &&
+                key != "cache_bust" &&
+                key != "cachebust" &&
+                key != "_omw_fresh"
+        }
+
+        var normalized = (components.string ?? value).lowercased()
+        while normalized.hasSuffix("/") {
+            normalized.removeLast()
+        }
+        return normalized
     }
 
     func loadHealth() async {
@@ -1984,19 +2171,23 @@ final class AppViewModel: ObservableObject {
         for var item in values.sorted(by: { $0.detectedAt > $1.detectedAt }) {
             let title = normalizedTitle(item.title)
             guard title.count >= 5 else { continue }
-            guard !genericExact.contains(title) else { continue }
-            guard title.range(
-                of: #"^(?:seite|page)\s*\d+$"#,
-                options: [.regularExpression, .caseInsensitive]
-            ) == nil else { continue }
-            guard title.range(
-                of: #"^(?:aktuelle\s+seite|current\s+page)\s*\d+$"#,
-                options: [.regularExpression, .caseInsensitive]
-            ) == nil else { continue }
-            guard !genericPrefixes.contains(where: {
-                title == $0 || title.hasPrefix($0 + " ")
-            }) else {
-                continue
+            let manuallyConfirmed = item.manualOverride == true
+
+            if !manuallyConfirmed {
+                guard !genericExact.contains(title) else { continue }
+                guard title.range(
+                    of: #"^(?:seite|page)\s*\d+$"#,
+                    options: [.regularExpression, .caseInsensitive]
+                ) == nil else { continue }
+                guard title.range(
+                    of: #"^(?:aktuelle\s+seite|current\s+page)\s*\d+$"#,
+                    options: [.regularExpression, .caseInsensitive]
+                ) == nil else { continue }
+                guard !genericPrefixes.contains(where: {
+                    title == $0 || title.hasPrefix($0 + " ")
+                }) else {
+                    continue
+                }
             }
 
             let cssArtifact =
@@ -2011,11 +2202,11 @@ final class AppViewModel: ObservableObject {
                     options: [.regularExpression, .caseInsensitive]
                  ) != nil)
 
-            guard !cssArtifact else { continue }
+            guard manuallyConfirmed || !cssArtifact else { continue }
 
             let link = normalizedURL(item.link)
 
-            if link.range(
+            if !manuallyConfirmed && link.range(
                 of: #"/shareddocs/publikationen/"#,
                 options: [.regularExpression, .caseInsensitive]
             ) != nil {
@@ -2025,7 +2216,7 @@ final class AppViewModel: ObservableObject {
                 homepageBySource[item.source.lowercased()] ??
                 homepageBySource[(item.sourceLabel ?? "").lowercased()]
 
-            if let homepage, link == homepage {
+            if !manuallyConfirmed, let homepage, link == homepage {
                 continue
             }
 

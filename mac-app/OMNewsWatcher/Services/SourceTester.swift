@@ -338,7 +338,9 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         }
 
         let eligibleExamples = hits(from: eligible)
-        let rejectedExamples = Array(rejected.prefix(6))
+        // Der Nutzer kann jeden vom Eligibility-Gate abgelehnten Treffer
+        // einzeln prüfen und bei Bedarf manuell in den Reader übernehmen.
+        let rejectedExamples = rejected
 
         if count == 0 {
             let repair = source.visualLearned ? nil : makeRepairProposal(
