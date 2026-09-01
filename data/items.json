@@ -1,5 +1,197 @@
 [
   {
+    "guid": "57471b9381e79757f938accc",
+    "source": "Nielseniq",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ and Morrisons collaborate to drive smarter decisions through advanced market and omnichannel insights",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-and-morrisons-collaborate-to-drive-smarter-decisions-through-advanced-market-and-omnichannel-insights/",
+    "pageDate": "01.09.2026",
+    "publishedAt": "2026-09-01T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.328Z",
+    "deliveredAt": "2026-09-01T10:29:03.328Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e30e359b0e6949c9e04b1471",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337209/POSTPARTNER%20IN%20WIEN:%20ERFOLGSMODELL%20DER%20NAHVERSORGUNG",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.324Z",
+    "deliveredAt": "2026-09-01T10:29:03.324Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "67147018729943fde6473419",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337197/25%20JAHRE%20POSTPARTNER:%20ERFOLGSMODELL%20F&Uuml;R%20&Ouml;STERREICHS%20REGIONEN",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.324Z",
+    "deliveredAt": "2026-09-01T10:29:03.324Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7343cc686d4326a1824d1d94",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337239/POSTPARTNER%20IN%20VORARLBERG:%20EIN%20ERFOLGSMODELL&nbsp;",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.324Z",
+    "deliveredAt": "2026-09-01T10:29:03.324Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "058a874611d6f95530ce0516",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337230/POSTPARTNER%20IN%20TIROL:%20ERFOLGSMODELL%20F&Uuml;R%20&Ouml;STERREICHS%20REGIONEN",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.324Z",
+    "deliveredAt": "2026-09-01T10:29:03.324Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "bb3a81f1dbeafac99225a4b1",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337227/25%20JAHRE%20POSTPARTNER%20IN%20SALZBURG:%20ERFOLGSMODELL%20DER%20NAHVERSORGUNG",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.324Z",
+    "deliveredAt": "2026-09-01T10:29:03.324Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "85d99fba09beb206cd9c6bbe",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337212/25%20JAHRE%20POSTPARTNER%20IN%20NIEDER&Ouml;STERREICH:%20EIN%20ERFOLGSMODELL",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.324Z",
+    "deliveredAt": "2026-09-01T10:29:03.324Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "98bfcd97257d260e13c111f8",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337251/25%20JAHRE%20POSTPARTNER%20IN%20DER%20STEIERMARK:%20EIN%20ERFOLGSMODELL",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.324Z",
+    "deliveredAt": "2026-09-01T10:29:03.324Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "27eb089b7dd02eb40001038f",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337248/POSTPARTNER%20IN%20K&Auml;RNTEN:%20ERFOLGSMODELL%20F&Uuml;R%20&Ouml;STERREICHS%20REGIONEN",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.324Z",
+    "deliveredAt": "2026-09-01T10:29:03.324Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "2fa398832078f382292edb1f",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337218/25%20JAHRE%20POSTPARTNER%20IN%20OBER&Ouml;STERREICH:%20EIN%20ERFOLGSMODELL",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-01T10:29:03.323Z",
+    "deliveredAt": "2026-09-01T10:29:03.323Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "33e9e8e4472dc9404339b4dc",
     "source": "Rewe",
     "sourceLabel": "Rewe",
@@ -51,158 +243,6 @@
     "priority": 2,
     "title": "31.08.2026",
     "link": "https://news.post.at/presse/de/post/id/2337086/CAWI-PRINT%202026:%20&bdquo;DAS%20KUVERT&ldquo;%20ERREICHT%2045%20PROZENT%20REICHWEITE%20UND%20W&Auml;CHST%20IN%20JUNGEN%20ZIELGRUPPEN",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-01T09:43:01.606Z",
-    "deliveredAt": "2026-09-01T09:43:01.606Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "67147018729943fde6473419",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337197/25%20JAHRE%20POSTPARTNER:%20ERFOLGSMODELL%20F&Uuml;R%20&Ouml;STERREICHS%20REGIONEN",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-01T09:43:01.606Z",
-    "deliveredAt": "2026-09-01T09:43:01.606Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7343cc686d4326a1824d1d94",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337239/POSTPARTNER%20IN%20VORARLBERG:%20EIN%20ERFOLGSMODELL&nbsp;",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-01T09:43:01.606Z",
-    "deliveredAt": "2026-09-01T09:43:01.606Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "058a874611d6f95530ce0516",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337230/POSTPARTNER%20IN%20TIROL:%20ERFOLGSMODELL%20F&Uuml;R%20&Ouml;STERREICHS%20REGIONEN",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-01T09:43:01.606Z",
-    "deliveredAt": "2026-09-01T09:43:01.606Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bb3a81f1dbeafac99225a4b1",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337227/25%20JAHRE%20POSTPARTNER%20IN%20SALZBURG:%20ERFOLGSMODELL%20DER%20NAHVERSORGUNG",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-01T09:43:01.606Z",
-    "deliveredAt": "2026-09-01T09:43:01.606Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "85d99fba09beb206cd9c6bbe",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337212/25%20JAHRE%20POSTPARTNER%20IN%20NIEDER&Ouml;STERREICH:%20EIN%20ERFOLGSMODELL",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-01T09:43:01.606Z",
-    "deliveredAt": "2026-09-01T09:43:01.606Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "98bfcd97257d260e13c111f8",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337251/25%20JAHRE%20POSTPARTNER%20IN%20DER%20STEIERMARK:%20EIN%20ERFOLGSMODELL",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-01T09:43:01.606Z",
-    "deliveredAt": "2026-09-01T09:43:01.606Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "27eb089b7dd02eb40001038f",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337248/POSTPARTNER%20IN%20K&Auml;RNTEN:%20ERFOLGSMODELL%20F&Uuml;R%20&Ouml;STERREICHS%20REGIONEN",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-01T09:43:01.606Z",
-    "deliveredAt": "2026-09-01T09:43:01.606Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2fa398832078f382292edb1f",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337218/25%20JAHRE%20POSTPARTNER%20IN%20OBER&Ouml;STERREICH:%20EIN%20ERFOLGSMODELL",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
     "detectedAt": "2026-09-01T09:43:01.606Z",
@@ -269,25 +309,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "e30e359b0e6949c9e04b1471",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337209/POSTPARTNER%20IN%20WIEN:%20ERFOLGSMODELL%20DER%20NAHVERSORGUNG",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-01T07:29:31.634Z",
-    "deliveredAt": "2026-09-01T07:29:31.634Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "d54d1b56783c9edb7f49686b",
