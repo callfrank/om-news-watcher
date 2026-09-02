@@ -1,6 +1,6 @@
 [
   {
-    "guid": "4c2aff29a728c06893e8a4f0",
+    "guid": "8fb2c2a5cbcbacdc8ab90b4e",
     "source": "Aboutamazon",
     "sourceLabel": "Aboutamazon",
     "groups": [
@@ -11,18 +11,18 @@
     ],
     "priority": 2,
     "title": "Claude Fable 5.1 is now available on AWS",
-    "link": "https://www.aboutamazon.com/news/aws/claude-fable-5-anthropic-available-amazon-bedrock",
+    "link": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
     "pageDate": "Sept. 1, 2026",
     "publishedAt": "2026-09-01T00:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.155Z",
-    "deliveredAt": "2026-09-02T04:54:40.155Z",
+    "detectedAt": "2026-09-02T05:26:44.275Z",
+    "deliveredAt": "2026-09-02T05:26:44.275Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
   },
   {
-    "guid": "0e64a16edc855c551a37f766",
+    "guid": "e30e359b0e6949c9e04b1471",
     "source": "Post AT",
     "sourceLabel": "Post AT",
     "groups": [
@@ -31,11 +31,11 @@
     "tags": [],
     "priority": 2,
     "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337086/CAWI-PRINT%202026:%20&bdquo;DAS%20KUVERT&ldquo;%20ERREICHT%2045%20PROZENT%20REICHWEITE%20UND%20W&Auml;CHST%20IN%20JUNGEN%20ZIELGRUPPEN",
+    "link": "https://news.post.at/presse/de/post/id/2337209/POSTPARTNER%20IN%20WIEN:%20ERFOLGSMODELL%20DER%20NAHVERSORGUNG",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.147Z",
-    "deliveredAt": "2026-09-02T04:54:40.147Z",
+    "detectedAt": "2026-09-02T05:26:44.268Z",
+    "deliveredAt": "2026-09-02T05:26:44.268Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -53,8 +53,8 @@
     "link": "https://news.post.at/presse/de/post/id/2337197/25%20JAHRE%20POSTPARTNER:%20ERFOLGSMODELL%20F&Uuml;R%20&Ouml;STERREICHS%20REGIONEN",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.147Z",
-    "deliveredAt": "2026-09-02T04:54:40.147Z",
+    "detectedAt": "2026-09-02T05:26:44.268Z",
+    "deliveredAt": "2026-09-02T05:26:44.268Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -72,8 +72,8 @@
     "link": "https://news.post.at/presse/de/post/id/2337239/POSTPARTNER%20IN%20VORARLBERG:%20EIN%20ERFOLGSMODELL&nbsp;",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.147Z",
-    "deliveredAt": "2026-09-02T04:54:40.147Z",
+    "detectedAt": "2026-09-02T05:26:44.268Z",
+    "deliveredAt": "2026-09-02T05:26:44.268Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -91,8 +91,8 @@
     "link": "https://news.post.at/presse/de/post/id/2337230/POSTPARTNER%20IN%20TIROL:%20ERFOLGSMODELL%20F&Uuml;R%20&Ouml;STERREICHS%20REGIONEN",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.147Z",
-    "deliveredAt": "2026-09-02T04:54:40.147Z",
+    "detectedAt": "2026-09-02T05:26:44.268Z",
+    "deliveredAt": "2026-09-02T05:26:44.268Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -110,8 +110,8 @@
     "link": "https://news.post.at/presse/de/post/id/2337227/25%20JAHRE%20POSTPARTNER%20IN%20SALZBURG:%20ERFOLGSMODELL%20DER%20NAHVERSORGUNG",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.147Z",
-    "deliveredAt": "2026-09-02T04:54:40.147Z",
+    "detectedAt": "2026-09-02T05:26:44.268Z",
+    "deliveredAt": "2026-09-02T05:26:44.268Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -129,8 +129,8 @@
     "link": "https://news.post.at/presse/de/post/id/2337212/25%20JAHRE%20POSTPARTNER%20IN%20NIEDER&Ouml;STERREICH:%20EIN%20ERFOLGSMODELL",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.147Z",
-    "deliveredAt": "2026-09-02T04:54:40.147Z",
+    "detectedAt": "2026-09-02T05:26:44.267Z",
+    "deliveredAt": "2026-09-02T05:26:44.267Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -148,8 +148,8 @@
     "link": "https://news.post.at/presse/de/post/id/2337251/25%20JAHRE%20POSTPARTNER%20IN%20DER%20STEIERMARK:%20EIN%20ERFOLGSMODELL",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.147Z",
-    "deliveredAt": "2026-09-02T04:54:40.147Z",
+    "detectedAt": "2026-09-02T05:26:44.267Z",
+    "deliveredAt": "2026-09-02T05:26:44.267Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -167,8 +167,8 @@
     "link": "https://news.post.at/presse/de/post/id/2337248/POSTPARTNER%20IN%20K&Auml;RNTEN:%20ERFOLGSMODELL%20F&Uuml;R%20&Ouml;STERREICHS%20REGIONEN",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.147Z",
-    "deliveredAt": "2026-09-02T04:54:40.147Z",
+    "detectedAt": "2026-09-02T05:26:44.267Z",
+    "deliveredAt": "2026-09-02T05:26:44.267Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -186,8 +186,27 @@
     "link": "https://news.post.at/presse/de/post/id/2337218/25%20JAHRE%20POSTPARTNER%20IN%20OBER&Ouml;STERREICH:%20EIN%20ERFOLGSMODELL",
     "pageDate": "31.08.2026",
     "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T04:54:40.146Z",
-    "deliveredAt": "2026-09-02T04:54:40.146Z",
+    "detectedAt": "2026-09-02T05:26:44.266Z",
+    "deliveredAt": "2026-09-02T05:26:44.266Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0e64a16edc855c551a37f766",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "31.08.2026",
+    "link": "https://news.post.at/presse/de/post/id/2337086/CAWI-PRINT%202026:%20&bdquo;DAS%20KUVERT&ldquo;%20ERREICHT%2045%20PROZENT%20REICHWEITE%20UND%20W&Auml;CHST%20IN%20JUNGEN%20ZIELGRUPPEN",
+    "pageDate": "31.08.2026",
+    "publishedAt": "2026-08-31T12:00:00.000Z",
+    "detectedAt": "2026-09-02T04:54:40.147Z",
+    "deliveredAt": "2026-09-02T04:54:40.147Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -214,25 +233,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "e30e359b0e6949c9e04b1471",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "31.08.2026",
-    "link": "https://news.post.at/presse/de/post/id/2337209/POSTPARTNER%20IN%20WIEN:%20ERFOLGSMODELL%20DER%20NAHVERSORGUNG",
-    "pageDate": "31.08.2026",
-    "publishedAt": "2026-08-31T12:00:00.000Z",
-    "detectedAt": "2026-09-02T01:26:15.301Z",
-    "deliveredAt": "2026-09-02T01:26:15.301Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "d7f2c68b0d5acdf0709e26b6",
