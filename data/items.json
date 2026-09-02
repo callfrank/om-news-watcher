@@ -1,5 +1,27 @@
 [
   {
+    "guid": "8fb2c2a5cbcbacdc8ab90b4e",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Claude Fable 5.1 is now available on AWS",
+    "link": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
+    "pageDate": "Sept. 1, 2026",
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "detectedAt": "2026-09-02T18:58:28.703Z",
+    "deliveredAt": "2026-09-02T18:58:28.703Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "9e4f173a0a5da09e76e6d255",
     "source": "Ebayinc",
     "sourceLabel": "Ebayinc",
@@ -22,28 +44,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "4c2aff29a728c06893e8a4f0",
-    "source": "Aboutamazon",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Claude Fable 5.1 is now available on AWS",
-    "link": "https://www.aboutamazon.com/news/aws/claude-fable-5-anthropic-available-amazon-bedrock",
-    "pageDate": "Sept. 1, 2026",
-    "publishedAt": "2026-09-01T00:00:00.000Z",
-    "detectedAt": "2026-09-02T15:20:01.724Z",
-    "deliveredAt": "2026-09-02T15:20:01.724Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "97f6f828617fbae69fae475f",
