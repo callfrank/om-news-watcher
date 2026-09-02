@@ -5263,5 +5263,35 @@
     "url" : "https://corporate.the-platform-group.com/publications/",
     "waitMs" : 2500,
     "weekdaysOnly" : false
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260902-082207",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Hahnclassic",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://www.hahnclassic.de/fahrzeuge",
+    "waitMs" : 2500,
+    "weekdaysOnly" : false
   }
 ]
