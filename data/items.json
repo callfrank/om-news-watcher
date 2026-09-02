@@ -1,6 +1,28 @@
 [
   {
-    "guid": "8fb2c2a5cbcbacdc8ab90b4e",
+    "guid": "03d54f69c82620641ac8b14b",
+    "source": "etsy QZ",
+    "sourceLabel": "etsy QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Events",
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Etsy to Participate in Upcoming Investor Conference",
+    "link": "https://investors.etsy.com/news-events/press-releases/detail/227/etsy-to-participate-in-upcoming-investor-conference",
+    "pageDate": "Sep 2, 2026 4:05 pm EDT",
+    "publishedAt": "2026-09-02T20:05:00.000Z",
+    "detectedAt": "2026-09-02T21:50:55.009Z",
+    "deliveredAt": "2026-09-02T21:50:55.009Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4c2aff29a728c06893e8a4f0",
     "source": "Aboutamazon",
     "sourceLabel": "Aboutamazon",
     "groups": [
@@ -11,11 +33,11 @@
     ],
     "priority": 2,
     "title": "Claude Fable 5.1 is now available on AWS",
-    "link": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
+    "link": "https://www.aboutamazon.com/news/aws/claude-fable-5-anthropic-available-amazon-bedrock",
     "pageDate": "Sept. 1, 2026",
     "publishedAt": "2026-09-01T00:00:00.000Z",
-    "detectedAt": "2026-09-02T18:58:28.703Z",
-    "deliveredAt": "2026-09-02T18:58:28.703Z",
+    "detectedAt": "2026-09-02T21:50:55.006Z",
+    "deliveredAt": "2026-09-02T21:50:55.006Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
