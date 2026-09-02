@@ -2049,7 +2049,7 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260831-053743",
+    "baselineVersion" : "mac-app-20260902-101930",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
@@ -2081,8 +2081,20 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-31T03:37:43Z",
+    "visualLearnedAt" : "2026-09-02T08:19:30Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-02T08:19:30Z"
+      },
       {
         "configuration" : {
           "allowExternal" : false,
@@ -2143,13 +2155,13 @@
     "visualRuleVersion" : 3,
     "visualSampleCount" : 2,
     "visualSampleURLs" : [
-      "https://wortfilter.de/fiu-betrugsmails/",
-      "https://wortfilter.de/privater-konsum-bip-q2-2026/"
+      "https://wortfilter.de/bild-marktplatz-eingestellt/",
+      "https://wortfilter.de/jp-kraemer-ebay-partnerschaft-beendet/"
     ],
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-31T03:37:49Z",
+    "visualValidatedAt" : "2026-09-02T08:19:37Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 13 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
