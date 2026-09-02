@@ -1,6 +1,30 @@
 [
   {
-    "guid": "8fb2c2a5cbcbacdc8ab90b4e",
+    "guid": "9e4f173a0a5da09e76e6d255",
+    "source": "Ebayinc",
+    "sourceLabel": "Ebayinc",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "eBay Announces American Fashion Retrospective and Auction",
+    "link": "https://www.ebayinc.com/stories/news/ebay-announces-american-fashion-retrospective-and-auction/",
+    "pageDate": "Sep 2, 2026 Announcements",
+    "publishedAt": null,
+    "detectedAt": "2026-09-02T15:20:01.732Z",
+    "deliveredAt": "2026-09-02T15:20:01.732Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4c2aff29a728c06893e8a4f0",
     "source": "Aboutamazon",
     "sourceLabel": "Aboutamazon",
     "groups": [
@@ -11,15 +35,120 @@
     ],
     "priority": 2,
     "title": "Claude Fable 5.1 is now available on AWS",
-    "link": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
+    "link": "https://www.aboutamazon.com/news/aws/claude-fable-5-anthropic-available-amazon-bedrock",
     "pageDate": "Sept. 1, 2026",
     "publishedAt": "2026-09-01T00:00:00.000Z",
-    "detectedAt": "2026-09-02T11:28:50.270Z",
-    "deliveredAt": "2026-09-02T11:28:50.270Z",
+    "detectedAt": "2026-09-02T15:20:01.724Z",
+    "deliveredAt": "2026-09-02T15:20:01.724Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "97f6f828617fbae69fae475f",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch live sports like the NBA, NFL, and more on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/live-sports-streaming-prime-video",
+    "pageDate": "Sept. 2, 2026",
+    "publishedAt": "2026-09-02T00:00:00.000Z",
+    "detectedAt": "2026-09-02T15:20:01.724Z",
+    "deliveredAt": "2026-09-02T15:20:01.724Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c07dbf07416de3619ae1b700",
+    "source": "Aboutamazon",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Is that message really from Amazon? Just ask Alexa for Shopping.",
+    "link": "https://www.aboutamazon.com/news/retail/how-to-verify-amazon-messages-alexa-for-shopping",
+    "pageDate": "Sept. 2, 2026",
+    "publishedAt": "2026-09-02T00:00:00.000Z",
+    "detectedAt": "2026-09-02T15:20:01.724Z",
+    "deliveredAt": "2026-09-02T15:20:01.724Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "166bd71834bf9a8b5938a5d1",
+    "source": "Gfu",
+    "sourceLabel": "Gfu",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "IFA Media Days 2026 gestartet",
+    "link": "https://gfu.de/ifa-media-days-2026-gestartet/",
+    "pageDate": "02.09.2026",
+    "publishedAt": "2026-09-02T12:00:00.000Z",
+    "detectedAt": "2026-09-02T15:20:01.720Z",
+    "deliveredAt": "2026-09-02T15:20:01.720Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e0eabb7118d2ef32241e1657",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Chinesische Plattformen und Händler: Neue Zollgebühren zeigen erste Wirkung",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15339-chinesische-plattformen-und-haendler-neue-zollgebuehren-zeigen-erste-wirkung",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-02T15:20:01.652Z",
+    "deliveredAt": "2026-09-02T15:20:01.652Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bde2cf26a48a3616b0d7c3ea",
+    "source": "Handelsverband",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Deutschland hat unter G20-Staaten die höchsten Strompreise: HDE fordert Senkung der Kosten",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15340-deutschland-hat-unter-g20-staaten-die-hoechsten-strompreise-hde-fordert-senkung-der-kosten",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-02T15:20:01.652Z",
+    "deliveredAt": "2026-09-02T15:20:01.652Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "7a53137a57d58f4a803373a3",
