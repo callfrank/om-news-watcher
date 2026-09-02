@@ -4823,6 +4823,9 @@
       "https://demoshops.de/wordpress-news/",
       "https://demoshops.de/wordpress-backup-erstellen/",
       "https://demoshops.de/wordpress-theme-2027/"
+    ],
+    "Hahnclassic": [
+      "https://hahnclassic.de/preview.php/porsche-911-carrera-cabriolet-g-modell-ii-3"
     ]
   },
   "initializedBySource": {
@@ -4935,7 +4938,8 @@
     "DHL Discover Global": true,
     "DHL": true,
     "PDD QZ": true,
-    "WERO News": true
+    "WERO News": true,
+    "Hahnclassic": true
   },
   "configVersionBySource": {
     "OTTO Pressemitteilungen": "mac-app-20260819-044542",
@@ -5026,7 +5030,8 @@
     "DHL": "mac-app-20260819-043350",
     "PDD QZ": "mac-app-20260819-044429",
     "WERO News": "mac-app-20260819-161307",
-    "Amazon Seller Events": "mac-app-20260831-054806"
+    "Amazon Seller Events": "mac-app-20260831-054806",
+    "Hahnclassic": "mac-app-20260902-082207"
   },
   "feedResetToken": "clean-baseline-v11",
   "globalBaselineBySource": {
@@ -5137,7 +5142,8 @@
     "DHL Discover Global": "global-baseline-v11",
     "DHL": "global-baseline-v11",
     "PDD QZ": "global-baseline-v11",
-    "WERO News": "global-baseline-v11"
+    "WERO News": "global-baseline-v11",
+    "Hahnclassic": "global-baseline-v11"
   },
   "lastCheckedAtBySource": {
     "Zalando Newsroom": "2026-09-02T06:05:40.192Z",
@@ -5247,7 +5253,8 @@
     "Chinaeconomic": "2026-09-02T06:05:40.273Z",
     "Excitingcommerce": "2026-09-02T06:05:40.273Z",
     "Handelskraft": "2026-09-02T06:05:40.273Z",
-    "WERO News": "2026-09-02T06:05:40.273Z"
+    "WERO News": "2026-09-02T06:05:40.273Z",
+    "Hahnclassic": "2026-09-02T06:26:04.321Z"
   },
   "lastSuccessAtBySource": {
     "Zalando Newsroom": "2026-09-02T06:05:40.192Z",
@@ -5355,7 +5362,8 @@
     "DHL": "2026-09-02T06:05:40.234Z",
     "PDD QZ": "2026-09-02T06:05:40.238Z",
     "WERO News": "2026-09-02T06:05:40.273Z",
-    "eTailment": "2026-08-24T10:34:29.303Z"
+    "eTailment": "2026-08-24T10:34:29.303Z",
+    "Hahnclassic": "2026-09-02T06:26:04.321Z"
   },
   "lastNewAtBySource": {
     "Post AT": "2026-09-02T05:26:44.217Z",
@@ -5520,7 +5528,8 @@
     "DHL": 3,
     "PDD QZ": 10,
     "WERO News": 6,
-    "eTailment": 43
+    "eTailment": 43,
+    "Hahnclassic": 1
   },
   "recentHitCountsBySource": {
     "Zalando Newsroom": [
@@ -7009,6 +7018,9 @@
     ],
     "eTailment": [
       43
+    ],
+    "Hahnclassic": [
+      1
     ]
   },
   "lastDurationMsBySource": {
@@ -7119,7 +7131,8 @@
     "Chinaeconomic": 3950,
     "Excitingcommerce": 6186,
     "Handelskraft": 5666,
-    "WERO News": 4921
+    "WERO News": 4921,
+    "Hahnclassic": 7451
   },
   "lastMessageBySource": {
     "Zalando Newsroom": "9 technisch erkannt · 1 Reader-fähig",
@@ -7229,7 +7242,8 @@
     "Chinaeconomic": "locator.evaluateAll: Execution context was destroyed, most likely because of a navigation",
     "Excitingcommerce": "locator.evaluateAll: Execution context was destroyed, most likely because of a navigation",
     "Handelskraft": "1 technisch erkannt · 1 Reader-fähig",
-    "WERO News": "6 technisch erkannt · 1 Reader-fähig"
+    "WERO News": "6 technisch erkannt · 1 Reader-fähig",
+    "Hahnclassic": "1 technisch erkannt · 0 Reader-fähig"
   },
   "anomalyBySource": {
     "DHL Austria E-Commerce Marketing Calendar": "Abruf fehlgeschlagen: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar?_omw_fresh=1787106955583-6vffz0\nCall log:\n  - navigating to \"https://www.dhl.com/discover/de-at/e-commerce-advice/e-commerce-trends/e-commerce-marketing-calendar?_omw_fresh=1787106955583-6vffz0\", waiting until \"domcontentloaded\"\n",
@@ -7948,8 +7962,8 @@
       "https://www.aboutamazon.com/news/entertainment/prime-video-september-films-shows-sports-2026",
       "https://www.aboutamazon.com/news/devices/alexa-plus-available-free-prime-members-us",
       "https://www.aboutamazon.com/news/retail/amazon-prime-young-adults-cash-back-rewards",
-      "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
-      "https://www.aboutamazon.com/news/aws/claude-fable-5-anthropic-available-amazon-bedrock"
+      "https://www.aboutamazon.com/news/aws/claude-fable-5-anthropic-available-amazon-bedrock",
+      "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock"
     ],
     "bol": [],
     "coolblue": [],
@@ -8254,6 +8268,9 @@
       "https://demoshops.de/wordpress-71-neue-features/",
       "https://demoshops.de/targobank-wero-kommt-2027/",
       "https://demoshops.de/wordpress-theme-2027/"
+    ],
+    "Hahnclassic": [
+      "https://hahnclassic.de/preview.php/porsche-911-carrera-cabriolet-g-modell-ii-3"
     ]
   },
   "explicitBaselineVersionBySource": {},
@@ -8863,6 +8880,12 @@
       "link": "https://www.handelskraft.de/composable-commerce-gehoert-die-zukunft-und-weitere-wichtige-ergebnisse-des-gartner-report/",
       "pageDate": "01.09.2026",
       "publishedAt": "2026-09-01T12:00:00.000Z"
+    },
+    "Hahnclassic": {
+      "title": "Porsche 911 Carrera Cabriolet (G-Modell II)",
+      "link": "https://hahnclassic.de/preview.php/porsche-911-carrera-cabriolet-g-modell-ii-3",
+      "pageDate": null,
+      "publishedAt": null
     }
   },
   "lastStoredBySource": {
@@ -8875,15 +8898,6 @@
       "deliveredAt": "2026-09-02T06:05:40.250Z",
       "recovered": true
     },
-    "Post AT": {
-      "title": "31.08.2026",
-      "link": "https://news.post.at/presse/de/post/id/2337209/POSTPARTNER%20IN%20WIEN:%20ERFOLGSMODELL%20DER%20NAHVERSORGUNG",
-      "pageDate": "31.08.2026",
-      "publishedAt": "2026-08-31T12:00:00.000Z",
-      "detectedAt": "2026-09-02T05:26:44.268Z",
-      "deliveredAt": "2026-09-02T05:26:44.268Z",
-      "recovered": true
-    },
     "Onlinemarktplatz": {
       "title": "Freihandelsabkommen Schweiz China: Zölle sinken",
       "link": "https://onlinemarktplatz.de/292403/freihandelsabkommen-schweiz-china/",
@@ -8892,6 +8906,15 @@
       "detectedAt": "2026-09-02T06:05:40.234Z",
       "deliveredAt": "2026-09-02T06:05:40.234Z",
       "recovered": false
+    },
+    "Post AT": {
+      "title": "31.08.2026",
+      "link": "https://news.post.at/presse/de/post/id/2337209/POSTPARTNER%20IN%20WIEN:%20ERFOLGSMODELL%20DER%20NAHVERSORGUNG",
+      "pageDate": "31.08.2026",
+      "publishedAt": "2026-08-31T12:00:00.000Z",
+      "detectedAt": "2026-09-02T05:26:44.268Z",
+      "deliveredAt": "2026-09-02T05:26:44.268Z",
+      "recovered": true
     },
     "Nielseniq": {
       "title": "NIQ and Morrisons collaborate to drive smarter decisions through advanced market and omnichannel insights",
@@ -9380,7 +9403,8 @@
     "DHL Discover Global": 11,
     "DHL": 3,
     "PDD QZ": 11,
-    "WERO News": 3
+    "WERO News": 3,
+    "Hahnclassic": 1
   },
   "baselineSuppressedAtBySource": {
     "Galaxus Medienmitteilungen": {
@@ -9429,6 +9453,9 @@
       "https://demoshops.de/wordpress-71-neue-features/": "2026-08-19T14:54:48.857Z",
       "https://demoshops.de/targobank-wero-kommt-2027/": "2026-08-19T14:54:48.857Z",
       "https://demoshops.de/wordpress-theme-2027/": "2026-08-19T14:54:48.857Z"
+    },
+    "Hahnclassic": {
+      "https://hahnclassic.de/preview.php/porsche-911-carrera-cabriolet-g-modell-ii-3": "2026-09-02T06:26:04.321Z"
     }
   },
   "trackingSchemaVersion": 3,
@@ -9572,7 +9599,8 @@
     "PDD QZ": 10,
     "Excitingcommerce": 2,
     "WERO News": 1,
-    "eTailment": 41
+    "eTailment": 41,
+    "Hahnclassic": 0
   },
   "lastRejectedHitCountBySource": {
     "Zalando Newsroom": 8,
@@ -9680,6 +9708,7 @@
     "PDD QZ": 0,
     "Excitingcommerce": 17,
     "WERO News": 5,
-    "eTailment": 2
+    "eTailment": 2,
+    "Hahnclassic": 1
   }
 }
