@@ -1,6 +1,6 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "f7305414cb2a894d0cf662d3",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,94 @@
     ],
     "priority": 2,
     "title": "Wayve and Uber Launch First-Ever Autonomous Rides in the UK",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Wayve-and-Uber-Launch-First-Ever-Autonomous-Rides-in-the-UK-2026-VoFQI1WbQi/default.aspx",
     "pageDate": "September 3, 2026",
     "publishedAt": "2026-09-03T00:00:00.000Z",
-    "detectedAt": "2026-09-03T07:49:00.635Z",
-    "deliveredAt": "2026-09-03T07:49:00.635Z",
+    "detectedAt": "2026-09-03T08:52:38.233Z",
+    "deliveredAt": "2026-09-03T08:52:38.233Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "5b545def3c011a25acd3834f",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
+    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T08:52:38.220Z",
+    "deliveredAt": "2026-09-03T08:52:38.220Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "18cc28a4b02fb26ce171a528",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "03.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2338661/CALLE%20LIBRE%20FESTIVAL:%20POST%20CITY%20LINZ%20WIRD%20ZUM%20TREFFPUNKT%20F&Uuml;R%20URBANE%20KULTUR",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T08:52:38.210Z",
+    "deliveredAt": "2026-09-03T08:52:38.210Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "533caf5e273e0e1e976fba72",
+    "source": "Post AT",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "CALLE LIBRE FESTIVAL: POST CITY LINZ WIRD ZUM TREFFPUNKT FÜR URBANE KULTUR",
+    "link": "https://news.post.at/presse/de/post/id/2338661/CALLE%20LIBRE%20FESTIVAL%3A%20POST%20CITY%20LINZ%20WIRD%20ZUM%20TREFFPUNKT%20F%26Uuml%3BR%20URBANE%20KULTUR",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T08:52:38.209Z",
+    "deliveredAt": "2026-09-03T08:52:38.209Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7831afd4a75de331df89674c",
+    "source": "Telekom Medieninformationen",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Medieninformation: Telekom bringt Ray-Ban Meta Glasses in ihre Shops",
+    "link": "https://www.telekom.com/de/medien/medieninformationen/detail/telekom-bringt-ray-ban-meta-glasses-in-ihre-shops-1106928",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T08:52:38.152Z",
+    "deliveredAt": "2026-09-03T08:52:38.152Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "35cea51b32d397657ed6fcd7",
