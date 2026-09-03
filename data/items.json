@@ -1,6 +1,6 @@
 [
   {
-    "guid": "f7305414cb2a894d0cf662d3",
+    "guid": "aef4cd5989909db41f3b8758",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,15 +14,192 @@
     ],
     "priority": 2,
     "title": "Wayve and Uber Launch First-Ever Autonomous Rides in the UK",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Wayve-and-Uber-Launch-First-Ever-Autonomous-Rides-in-the-UK-2026-VoFQI1WbQi/default.aspx",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
     "pageDate": "September 3, 2026",
     "publishedAt": "2026-09-03T00:00:00.000Z",
-    "detectedAt": "2026-09-03T04:26:53.780Z",
-    "deliveredAt": "2026-09-03T04:26:53.780Z",
+    "detectedAt": "2026-09-03T07:49:00.635Z",
+    "deliveredAt": "2026-09-03T07:49:00.635Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "35cea51b32d397657ed6fcd7",
+    "source": "bol",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Bol recertified as a B Corp™ under strengthened standards",
+    "link": "https://over.bol.com/en/news/bol-recertified-as-a-b-corp-tm-under-strengthened-standards/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-03T07:49:00.617Z",
+    "deliveredAt": "2026-09-03T07:49:00.617Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2f37104fa13ef0b71f1010a5",
+    "source": "Zew",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "EZB-Rat kommuniziert weiter restriktiven Kurs // EZB-Transparenz-Monitor des ZEW sieht Zinserhöhung im September als realistische Möglichkeit",
+    "link": "https://www.zew.de/presse/pressearchiv/ezb-rat-kommuniziert-weiter-restriktiven-kurs",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T07:49:00.614Z",
+    "deliveredAt": "2026-09-03T07:49:00.614Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0bff0e809170817d41f6c825",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Alibaba erhöht Kapital: 10,2 Milliarden US-Dollar für KI",
+    "link": "https://onlinemarktplatz.de/292399/alibaba-erhoeht-kapital-fuer-ki/",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T07:49:00.562Z",
+    "deliveredAt": "2026-09-03T07:49:00.562Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b239c793475c6e88721d3da",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "eBay-Preisvorschläge: Wann vier Tage Zahlungsfrist gelten",
+    "link": "https://onlinemarktplatz.de/292574/ebay-zahlungsfrist/",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T07:49:00.562Z",
+    "deliveredAt": "2026-09-03T07:49:00.562Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6551bb64abe4e2cf8a93526c",
+    "source": "Onlinemarktplatz",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Onlinehandel im Juli: Umsatz fällt real um 5,6 Prozent",
+    "link": "https://onlinemarktplatz.de/292581/onlinehandel-im-juli-umsatzminus-2026/",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T07:49:00.562Z",
+    "deliveredAt": "2026-09-03T07:49:00.562Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7b47121e807308384091e78a",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Dubiose Unkrautvernichter im Netz: Finger weg von „X-Weed-King“ und Co.",
+    "link": "https://www.vzhh.de/presse/dubiose-unkrautvernichter-im-netz-finger-weg-von-x-weed-king-co",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-03T07:49:00.558Z",
+    "deliveredAt": "2026-09-03T07:49:00.558Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8d831cc63b1a486582cd66ed",
+    "source": "Fressnapf Newsroom",
+    "sourceLabel": "Fressnapf",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Fressnapf baut Gesundheitskompetenz weiter aus: Partnerschaft mit Royal Canin erleichtert den Zugang zu veterinärmedizinischer Spezialnahrung",
+    "link": "https://www.mynewsdesk.com/de/fressnapf-holding-se/pressreleases/fressnapf-baut-gesundheitskompetenz-weiter-aus-partnerschaft-mit-royal-canin-erleichtert-den-zugang-zu-veterinaermedizinischer-spezialnahrung-3464171",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T07:49:00.531Z",
+    "deliveredAt": "2026-09-03T07:49:00.531Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "abf629e8964067305a4226db",
+    "source": "OTTO Pressemitteilungen",
+    "sourceLabel": "OTTO",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Forschungskooperation zum Management von KI-Innovation erschließt Wertpotenziale in Millionenhöhe",
+    "link": "https://www.otto.de/unternehmen/de/presse/forschungskooperation-zum-management-von-ki-innovation-erschlie%C3%9Ft-wertpotenziale-in-millionenh%C3%B6he",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-03T07:49:00.522Z",
+    "deliveredAt": "2026-09-03T07:49:00.522Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "03d54f69c82620641ac8b14b",
