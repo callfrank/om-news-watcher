@@ -1,6 +1,6 @@
 [
   {
-    "guid": "f7305414cb2a894d0cf662d3",
+    "guid": "aef4cd5989909db41f3b8758",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,11 +14,31 @@
     ],
     "priority": 2,
     "title": "Wayve and Uber Launch First-Ever Autonomous Rides in the UK",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Wayve-and-Uber-Launch-First-Ever-Autonomous-Rides-in-the-UK-2026-VoFQI1WbQi/default.aspx",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
     "pageDate": "September 3, 2026",
     "publishedAt": "2026-09-03T00:00:00.000Z",
-    "detectedAt": "2026-09-03T12:16:14.035Z",
-    "deliveredAt": "2026-09-03T12:16:14.035Z",
+    "detectedAt": "2026-09-03T13:36:18.289Z",
+    "deliveredAt": "2026-09-03T13:36:18.289Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "6784c0575cf70e63cd8b100a",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
+    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T13:36:18.273Z",
+    "deliveredAt": "2026-09-03T13:36:18.273Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
@@ -46,26 +66,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "5b545def3c011a25acd3834f",
-    "source": "eBay DE",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
-    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
-    "pageDate": "03.09.2026",
-    "publishedAt": "2026-09-03T12:00:00.000Z",
-    "detectedAt": "2026-09-03T12:16:14.019Z",
-    "deliveredAt": "2026-09-03T12:16:14.019Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "65b31da1196be63bcc325975",
