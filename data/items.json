@@ -1,5 +1,30 @@
 [
   {
+    "guid": "aef4cd5989909db41f3b8758",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Wayve and Uber Launch First-Ever Autonomous Rides in the UK",
+    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "pageDate": "September 3, 2026",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "detectedAt": "2026-09-03T00:16:28.269Z",
+    "deliveredAt": "2026-09-03T00:16:28.269Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "03d54f69c82620641ac8b14b",
     "source": "etsy QZ",
     "sourceLabel": "etsy QZ",
