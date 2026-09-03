@@ -1,5 +1,73 @@
 [
   {
+    "guid": "f7305414cb2a894d0cf662d3",
+    "source": "Uber",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Wayve and Uber Launch First-Ever Autonomous Rides in the UK",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Wayve-and-Uber-Launch-First-Ever-Autonomous-Rides-in-the-UK-2026-VoFQI1WbQi/default.aspx",
+    "pageDate": "September 3, 2026",
+    "publishedAt": "2026-09-03T00:00:00.000Z",
+    "detectedAt": "2026-09-03T12:16:14.035Z",
+    "deliveredAt": "2026-09-03T12:16:14.035Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "08064e0725f83b322eff0f79",
+    "source": "Walmart",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart Expands Restaurant Delivery with Dunkin’",
+    "link": "https://corporate.walmart.com/news/2026/09/walmart-expands-restaurant-delivery-with-dunkin",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-03T12:16:14.022Z",
+    "deliveredAt": "2026-09-03T12:16:14.022Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b545def3c011a25acd3834f",
+    "source": "eBay DE",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
+    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T12:16:14.019Z",
+    "deliveredAt": "2026-09-03T12:16:14.019Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "65b31da1196be63bcc325975",
     "source": "Wero",
     "sourceLabel": "Wero",
@@ -17,51 +85,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "aef4cd5989909db41f3b8758",
-    "source": "Uber",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Wayve and Uber Launch First-Ever Autonomous Rides in the UK",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
-    "pageDate": "September 3, 2026",
-    "publishedAt": "2026-09-03T00:00:00.000Z",
-    "detectedAt": "2026-09-03T10:15:30.079Z",
-    "deliveredAt": "2026-09-03T10:15:30.079Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
-  },
-  {
-    "guid": "6784c0575cf70e63cd8b100a",
-    "source": "eBay DE",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
-    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
-    "pageDate": "03.09.2026",
-    "publishedAt": "2026-09-03T12:00:00.000Z",
-    "detectedAt": "2026-09-03T10:15:30.059Z",
-    "deliveredAt": "2026-09-03T10:15:30.059Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "b69192d9fa39e6024e8ceac8",
@@ -708,25 +731,6 @@
     ],
     "title": "aquaPro2000 GmbH insolvent: Onlinehändler der ersten Stunde",
     "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-09-02T07:58:12.619Z",
-    "detectedAt": "2026-09-02T07:58:12.619Z",
-    "groups": [
-      "Finanzen"
-    ],
-    "guid": "85c90bc4b3795abc778bcf06",
-    "historicalBackfill": false,
-    "link": "https://epicompany.eu/media-insights/media-insights/epi-welcomes-erste-bank-oesterreich-raiffeisen-bank-international-and-raiffeisen-landesbanken-as-new-shareholders",
-    "pageDate": "September 2, 2026",
-    "priority": 2,
-    "publishedAt": "2026-09-02T00:00:00.000Z",
-    "recovered": true,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "source": "Wero",
-    "sourceLabel": "Wero",
-    "tags": [],
-    "title": "Media & insights"
   },
   {
     "deliveredAt": "2026-09-02T07:58:12.585Z",
