@@ -1,6 +1,6 @@
 [
   {
-    "guid": "aef4cd5989909db41f3b8758",
+    "guid": "f7305414cb2a894d0cf662d3",
     "source": "Uber",
     "sourceLabel": "Uber",
     "groups": [
@@ -14,18 +14,18 @@
     ],
     "priority": 2,
     "title": "Wayve and Uber Launch First-Ever Autonomous Rides in the UK",
-    "link": "https://investor.uber.com/rss/PressRelease.aspx",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Wayve-and-Uber-Launch-First-Ever-Autonomous-Rides-in-the-UK-2026-VoFQI1WbQi/default.aspx",
     "pageDate": "September 3, 2026",
     "publishedAt": "2026-09-03T00:00:00.000Z",
-    "detectedAt": "2026-09-03T13:36:18.289Z",
-    "deliveredAt": "2026-09-03T13:36:18.289Z",
+    "detectedAt": "2026-09-03T17:16:26.211Z",
+    "deliveredAt": "2026-09-03T17:16:26.211Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
   },
   {
-    "guid": "6784c0575cf70e63cd8b100a",
+    "guid": "5b545def3c011a25acd3834f",
     "source": "eBay DE",
     "sourceLabel": "eBay DE",
     "groups": [
@@ -34,15 +34,149 @@
     "tags": [],
     "priority": 2,
     "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
-    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
     "pageDate": "03.09.2026",
     "publishedAt": "2026-09-03T12:00:00.000Z",
-    "detectedAt": "2026-09-03T13:36:18.273Z",
-    "deliveredAt": "2026-09-03T13:36:18.273Z",
+    "detectedAt": "2026-09-03T17:16:26.194Z",
+    "deliveredAt": "2026-09-03T17:16:26.194Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "5ca3527567dc849ba78d4b4a",
+    "source": "BSI",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Sovereign Tech Agency und BSI empfehlen speichersichere Programmiersprachen",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/STA_Programmiersprachen_260903.html",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-03T17:16:26.117Z",
+    "deliveredAt": "2026-09-03T17:16:26.117Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7909035336eceddbe2f7491d",
+    "source": "BSI",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Wheel of Distortion",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Blog/Wheel_of_Distortion_250213.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-03T17:16:26.117Z",
+    "deliveredAt": "2026-09-03T17:16:26.117Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "30c9edf51e31afa94d0ed3e5",
+    "source": "Forrester Press Newsroom",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Financial Times – Is AI Really Responsible For Recent Job Cuts?",
+    "link": "https://www.forrester.com/press-newsroom/financial-times-is-ai-really-responsible-for-recent-job-cuts/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-03T17:16:26.072Z",
+    "deliveredAt": "2026-09-03T17:16:26.072Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b68cda9617052a9f1e1535f7",
+    "source": "Forrester Press Newsroom",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Associated Press – Amazon Set To Expand Drone Delivery Of Lightweight Packages To 500 US Cities",
+    "link": "https://www.forrester.com/press-newsroom/associated-press-amazon-set-to-expand-drone-delivery-of-lightweight-packages-to-500-us-cities/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-03T17:16:26.072Z",
+    "deliveredAt": "2026-09-03T17:16:26.072Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f7164fb3ee325314deffc87c",
+    "source": "Forrester Press Newsroom",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "The Wall Street Journal – Nvidia Reports Blowout Quarter, Says Demand for AI Chips Is Getting Even Hotter",
+    "link": "https://www.forrester.com/press-newsroom/the-wall-street-journal-nvidia-reports-blowout-quarter-says-demand-for-ai-chips-is-getting-even-hotter/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-03T17:16:26.072Z",
+    "deliveredAt": "2026-09-03T17:16:26.072Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aca39cbe7e9828756221f48c",
+    "source": "Forrester Press Newsroom",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "CNBC – Nvidia Is Bolstering Support For Chinese Open AI Models As It Warns Of White House Crackdown",
+    "link": "https://www.forrester.com/press-newsroom/cnbc-nvidia-is-bolstering-support-for-chinese-open-ai-models-as-it-warns-of-white-house-crackdown/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-03T17:16:26.071Z",
+    "deliveredAt": "2026-09-03T17:16:26.071Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "08064e0725f83b322eff0f79",
