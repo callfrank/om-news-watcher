@@ -384,6 +384,41 @@ function undatedCandidateLooksArticleLike(row, source) {
         leaf.length >= 30
       );
 
+    const validatedCardRule =
+      source.visualLearned === true &&
+      source.visualValidated === true &&
+      Boolean(source.selectors?.item);
+
+    // Eine reproduzierte Kartenregel ist selbst ein starkes Struktursignal.
+    // Sie darf auch kurze oder externe Ziel-URLs liefern, sofern der Treffer
+    // weder eine bekannte statische Seite noch ein Bereichseinstieg ist.
+    if (
+      validatedCardRule &&
+      title.length >= 8 &&
+      !highConfidenceStaticPath(link, source)
+    ) {
+      return true;
+    }
+
+    const configuredURLRule = safeRegex(source.includeRegex);
+    const specificConfiguredLeaf =
+      slugLike ||
+      /^\d{3,}$/.test(leaf) ||
+      /\.\d{5,}\.html?$/i.test(leaf) ||
+      (/\.html?$/i.test(leaf) && leaf.length >= 18);
+
+    // Ein bewusst konfiguriertes URL-Muster ist für undatierte Treffer ein
+    // belastbares Artikelsignal, wenn es auf eine konkrete Detail-URL und
+    // nicht nur auf eine Rubrik zeigt.
+    if (
+      configuredURLRule &&
+      configuredURLRule.test(link) &&
+      parts.length >= 2 &&
+      specificConfiguredLeaf
+    ) {
+      return true;
+    }
+
     // Visuell validierte Regeln dürfen auch auf Seiten ohne sichtbares
     // Veröffentlichungsdatum funktionieren, sofern die URL klar
     // artikelartig ist.
@@ -1217,16 +1252,26 @@ function sourceFeedLabel(source) {
   );
 }
 
+function sourceStateKey(source) {
+  const explicit = String(source?.sourceKey || '').trim();
+  return explicit || String(source?.name || '').trim();
+}
+
 function makeFeed(items, sources = [], options = {}) {
   const now = new Date().toUTCString();
 
   const sourceByNameForQuality = new Map(
     sources.map(source => [source.name, source])
   );
+  const sourceByKeyForQuality = new Map(
+    sources.map(source => [sourceStateKey(source), source])
+  );
 
   items = items.filter(item => {
     if (item.historicalBackfill === true) return false;
-    const source = sourceByNameForQuality.get(item.source);
+    const source =
+      sourceByKeyForQuality.get(item.sourceKey) ||
+      sourceByNameForQuality.get(item.source);
     if (!source) return true;
     return passesQualityGate(
       {
@@ -1247,9 +1292,16 @@ function makeFeed(items, sources = [], options = {}) {
       source
     ])
   );
+  const sourceKeyMap = new Map(
+    sources.map(source => [
+      sourceStateKey(source),
+      source
+    ])
+  );
 
   const body = items.map(item => {
     const configuredSource =
+      sourceKeyMap.get(item.sourceKey) ||
       sourceMap.get(item.source);
 
     const label =
@@ -1480,15 +1532,10 @@ async function createContext(browser) {
     timezoneId: 'Europe/Berlin',
     serviceWorkers: 'block',
 
-    extraHTTPHeaders: {
-      'Cache-Control': 'no-cache, no-store, max-age=0',
-      'Pragma': 'no-cache'
-    },
-
     userAgent:
       'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) ' +
-      'AppleWebKit/537.36 Chrome/140 Safari/537.36 ' +
-      `OM-News-Watcher/${VERSION}`
+      'AppleWebKit/537.36 (KHTML, like Gecko) ' +
+      'Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0'
   });
 }
 
@@ -1507,6 +1554,30 @@ async function usePartiallyLoadedDom(page) {
   }
 }
 
+async function assertUsablePage(page, response) {
+  const status = response?.status?.() || 0;
+  let title = '';
+  let body = '';
+
+  try {
+    title = await page.title();
+    body = await page.locator('body').innerText({ timeout: 1500 });
+  } catch {}
+
+  const challengeText = `${title}\n${body.slice(0, 4000)}`;
+  const challenged =
+    /access denied|nur einen moment|just a moment|security verification|sicherheitsüberprüfung|verify you are human|captcha/i.test(
+      challengeText
+    );
+
+  if (status >= 400 || challenged) {
+    const detail = challenged
+      ? 'Bot-/Sicherheitsprüfung statt Quellenseite'
+      : `HTTP ${status}`;
+    throw new Error(detail);
+  }
+}
+
 async function loadPage(context, fallbackContext, source, notes) {
   let page = await context.newPage();
   page.setDefaultTimeout(5000);
@@ -1520,10 +1591,12 @@ async function loadPage(context, fallbackContext, source, notes) {
       notes.push('Frischer Abruf mit Cache-Busting.');
     }
 
-    await page.goto(navigationUrl, {
+    const response = await page.goto(navigationUrl, {
       waitUntil: 'domcontentloaded',
       timeout: NAV_TIMEOUT_MS
     });
+
+    await assertUsablePage(page, response);
 
     return {
       page,
@@ -1569,13 +1642,15 @@ async function loadPage(context, fallbackContext, source, notes) {
       page.setDefaultNavigationTimeout(FALLBACK_TIMEOUT_MS);
 
       try {
-        await page.goto(
+        const response = await page.goto(
           cacheBustedUrl(source.url, source),
           {
             waitUntil: 'domcontentloaded',
             timeout: FALLBACK_TIMEOUT_MS
           }
         );
+
+        await assertUsablePage(page, response);
 
         return {
           page,
@@ -1810,6 +1885,7 @@ async function inspectSource(context, fallbackContext, source, index, total) {
       page,
       source
     );
+    const configuredRowCount = rows?.length || 0;
 
     const hasValidatedVisualCardRule =
       source.visualLearned === true &&
@@ -1827,6 +1903,12 @@ async function inspectSource(context, fallbackContext, source, index, total) {
       rows,
       source
     );
+
+    if (configuredRowCount > 0 && rows.length === 0) {
+      notes.push(
+        `Konfigurierter Selektor fand ${configuredRowCount} Elemente, aber alle wurden durch URL-/Qualitaetsregeln verworfen.`
+      );
+    }
 
     // Nur URL-basierte Regeln dürfen bei einem leeren engen Selektor einmal
     // breit gescannt werden. Eine validierte Kartenregel darf bei instabiler
@@ -1964,6 +2046,89 @@ async function inspectSourceWithHardTimeout(
   return result;
 }
 
+async function inspectSourceOnce(context, fallbackContext, source, index, total) {
+  if (source.fetchMode === 'feed') {
+    return inspectSourceViaFeed(source, index, total);
+  }
+
+  if (source.fetchMode === 'html') {
+    return inspectSourceViaHttp(source, index, total);
+  }
+
+  return inspectSourceWithHardTimeout(
+    context,
+    fallbackContext,
+    source,
+    index,
+    total
+  );
+}
+
+async function inspectSourceReliably(context, fallbackContext, source, index, total) {
+  const first = await inspectSourceOnce(
+    context,
+    fallbackContext,
+    source,
+    index,
+    total
+  );
+
+  if (!first.error && (first.rows || []).length > 0) {
+    return { ...first, reliabilityAttempts: 1 };
+  }
+
+  await delay(500);
+
+  const second = await inspectSourceOnce(
+    context,
+    fallbackContext,
+    source,
+    index,
+    total
+  );
+
+  const firstCount = (first.rows || []).length;
+  const secondCount = (second.rows || []).length;
+  const firstWorked = !first.error;
+  const secondWorked = !second.error;
+
+  let selected = second;
+  if (firstWorked && !secondWorked) {
+    selected = first;
+  } else if (firstWorked === secondWorked && firstCount > secondCount) {
+    selected = first;
+  }
+
+  const recovered =
+    (!firstWorked || firstCount === 0) &&
+    !selected.error &&
+    (selected.rows || []).length > 0;
+
+  const confirmedZero =
+    firstWorked &&
+    secondWorked &&
+    firstCount === 0 &&
+    secondCount === 0;
+
+  const notes = [
+    ...(selected.notes || []),
+    recovered
+      ? 'Wiederholungsprüfung: erster Abruf war leer/fehlerhaft, zweiter Abruf erfolgreich.'
+      : confirmedZero
+      ? 'Wiederholungsprüfung: auch der zweite unabhängige Abruf lieferte 0 Treffer.'
+      : 'Wiederholungsprüfung durchgeführt; das belastbarere Ergebnis wurde verwendet.'
+  ];
+
+  return {
+    ...selected,
+    notes,
+    durationMs: Number(first.durationMs || 0) + Number(second.durationMs || 0),
+    reliabilityAttempts: 2,
+    transientRecovered: recovered,
+    confirmedZero
+  };
+}
+
 function intervalMinutesFor(source) {
   const raw = Number(source.checkIntervalMinutes ?? 30);
   if (!Number.isFinite(raw)) return 30;
@@ -1990,7 +2155,7 @@ function scheduledRunIsDue(source, state, now = new Date()) {
     }
   }
 
-  const lastRaw = state.lastCheckedAtBySource?.[source.name];
+  const lastRaw = state.lastCheckedAtBySource?.[sourceStateKey(source)];
   if (!lastRaw) return true;
 
   const last = Date.parse(lastRaw);
@@ -2004,7 +2169,7 @@ function nextCheckAtFor(source, state, now = new Date()) {
   if (source.enabled === false) return null;
 
   const minutes = intervalMinutesFor(source);
-  const lastRaw = state.lastCheckedAtBySource?.[source.name];
+  const lastRaw = state.lastCheckedAtBySource?.[sourceStateKey(source)];
   const parsed = Date.parse(lastRaw || '');
   const base = Number.isFinite(parsed)
     ? new Date(parsed)
@@ -2238,6 +2403,53 @@ async function mapWithConcurrency(items, limit, worker) {
   state.baselineSuppressedAtBySource =
     state.baselineSuppressedAtBySource || {};
 
+  // Quellen mit gleichem Anzeigenamen benötigen getrennte Zustände. Beim
+  // ersten Lauf mit sourceKey wird der bisherige Namenszustand vorsichtig in
+  // beide neuen Schlüssel kopiert, damit bekannte Links nicht erneut als neu
+  // ausgeliefert werden.
+  const stateBuckets = [
+    'seenBySource',
+    'initializedBySource',
+    'configVersionBySource',
+    'globalBaselineBySource',
+    'lastCheckedAtBySource',
+    'lastSuccessAtBySource',
+    'lastNewAtBySource',
+    'lastHitCountBySource',
+    'recentHitCountsBySource',
+    'lastDurationMsBySource',
+    'lastMessageBySource',
+    'anomalyBySource',
+    'deliveredBySource',
+    'baselineSuppressedBySource',
+    'explicitBaselineVersionBySource',
+    'lastDetectedBySource',
+    'lastStoredBySource',
+    'trackingWarningBySource',
+    'healedCountBySource',
+    'healedTodayBySource',
+    'lastEligibleHitCountBySource',
+    'lastRejectedHitCountBySource',
+    'suppressedByBaselineCountBySource',
+    'baselineSuppressedAtBySource'
+  ];
+
+  for (const source of configuredSources) {
+    const key = sourceStateKey(source);
+    const legacyKey = source.name;
+    if (!key || key === legacyKey) continue;
+
+    for (const bucketName of stateBuckets) {
+      const bucket = state[bucketName];
+      if (
+        !Object.prototype.hasOwnProperty.call(bucket, key) &&
+        Object.prototype.hasOwnProperty.call(bucket, legacyKey)
+      ) {
+        bucket[key] = JSON.parse(JSON.stringify(bucket[legacyKey]));
+      }
+    }
+  }
+
   const trackingMigrationMode =
     Number(state.trackingSchemaVersion || 0) < TRACKING_SCHEMA_VERSION;
 
@@ -2313,50 +2525,74 @@ async function mapWithConcurrency(items, limit, worker) {
   // gespeicherter Artikel" im Gesundheitsdashboard.
   state.lastStoredBySource = {};
 
+  const sourcesByDisplayName = new Map();
+  for (const source of configuredSources) {
+    const list = sourcesByDisplayName.get(source.name) || [];
+    list.push(source);
+    sourcesByDisplayName.set(source.name, list);
+  }
+
+  const stateKeysForStoredItem = item => {
+    if (item.sourceKey) return [item.sourceKey];
+    const matches = sourcesByDisplayName.get(item.source) || [];
+    if (matches.length) {
+      return [...new Set(matches.map(sourceStateKey))];
+    }
+    return [item.source];
+  };
+
   for (const item of items) {
     if (!item?.source || !item?.link) continue;
 
-    state.deliveredBySource[item.source] =
-      appendUniqueLimited(
-        state.deliveredBySource[item.source] || [],
-        [item.link],
-        MAX_DELIVERED_PER_SOURCE
+    for (const itemKey of stateKeysForStoredItem(item)) {
+      state.deliveredBySource[itemKey] =
+        appendUniqueLimited(
+          state.deliveredBySource[itemKey] || [],
+          [item.link],
+          MAX_DELIVERED_PER_SOURCE
+        );
+
+      if (!storedLinksBySource.has(itemKey)) {
+        storedLinksBySource.set(itemKey, new Set());
+      }
+      storedLinksBySource.get(itemKey).add(item.link);
+
+      const existingStored = state.lastStoredBySource[itemKey];
+      const existingTime = Date.parse(
+        String(existingStored?.deliveredAt || existingStored?.detectedAt || '')
+      );
+      const itemTime = Date.parse(
+        String(item.deliveredAt || item.detectedAt || '')
       );
 
-    if (!storedLinksBySource.has(item.source)) {
-      storedLinksBySource.set(item.source, new Set());
+      if (
+        !existingStored ||
+        !Number.isFinite(existingTime) ||
+        (Number.isFinite(itemTime) && itemTime > existingTime)
+      ) {
+        state.lastStoredBySource[itemKey] = {
+          title: item.title || '',
+          link: item.link || '',
+          pageDate: item.pageDate || null,
+          publishedAt: item.publishedAt || null,
+          detectedAt: item.detectedAt || null,
+          deliveredAt: item.deliveredAt || item.detectedAt || null,
+          recovered: item.recovered === true
+        };
+      }
     }
-    storedLinksBySource.get(item.source).add(item.link);
 
     for (const duplicateSource of item.duplicateSources || []) {
-      if (!storedLinksBySource.has(duplicateSource)) {
-        storedLinksBySource.set(duplicateSource, new Set());
+      const duplicateMatches = sourcesByDisplayName.get(duplicateSource) || [];
+      const duplicateKeys = duplicateMatches.length
+        ? duplicateMatches.map(sourceStateKey)
+        : [duplicateSource];
+      for (const duplicateKey of duplicateKeys) {
+        if (!storedLinksBySource.has(duplicateKey)) {
+          storedLinksBySource.set(duplicateKey, new Set());
+        }
+        storedLinksBySource.get(duplicateKey).add(item.link);
       }
-      storedLinksBySource.get(duplicateSource).add(item.link);
-    }
-
-    const existingStored = state.lastStoredBySource[item.source];
-    const existingTime = Date.parse(
-      String(existingStored?.deliveredAt || existingStored?.detectedAt || '')
-    );
-    const itemTime = Date.parse(
-      String(item.deliveredAt || item.detectedAt || '')
-    );
-
-    if (
-      !existingStored ||
-      !Number.isFinite(existingTime) ||
-      (Number.isFinite(itemTime) && itemTime > existingTime)
-    ) {
-      state.lastStoredBySource[item.source] = {
-        title: item.title || '',
-        link: item.link || '',
-        pageDate: item.pageDate || null,
-        publishedAt: item.publishedAt || null,
-        detectedAt: item.detectedAt || null,
-        deliveredAt: item.deliveredAt || item.detectedAt || null,
-        recovered: item.recovered === true
-      };
     }
   }
 
@@ -2411,21 +2647,13 @@ async function mapWithConcurrency(items, limit, worker) {
       sources,
       SOURCE_CONCURRENCY,
       (source, index) =>
-        source.fetchMode === 'feed'
-          ? inspectSourceViaFeed(source, index, sources.length)
-          : source.fetchMode === 'html'
-          ? inspectSourceViaHttp(
-              source,
-              index,
-              sources.length
-            )
-          : inspectSourceWithHardTimeout(
-              context,
-              fallbackContext,
-              source,
-              index,
-              sources.length
-            )
+        inspectSourceReliably(
+          context,
+          fallbackContext,
+          source,
+          index,
+          sources.length
+        )
     );
 
     await context.close();
@@ -2460,7 +2688,7 @@ async function mapWithConcurrency(items, limit, worker) {
       );
     }
 
-    const healthKey = source.name;
+    const healthKey = sourceStateKey(source);
     const checkedAt = new Date().toISOString();
     state.lastCheckedAtBySource[healthKey] = checkedAt;
     state.lastDurationMsBySource[healthKey] = Math.round(result.durationMs || 0);
@@ -2469,6 +2697,9 @@ async function mapWithConcurrency(items, limit, worker) {
       state.lastMessageBySource[healthKey] = result.error.message;
       state.anomalyBySource[healthKey] =
         `Abruf fehlgeschlagen: ${result.error.message}`;
+      state.lastHitCountBySource[healthKey] = 0;
+      state.lastEligibleHitCountBySource[healthKey] = 0;
+      state.lastRejectedHitCountBySource[healthKey] = 0;
       console.log(
         `  FEHLER: ${result.error.message}`
       );
@@ -2480,7 +2711,7 @@ async function mapWithConcurrency(items, limit, worker) {
       result.rows;
 
     const key =
-      source.name;
+      sourceStateKey(source);
 
     const previousHitCounts =
       state.recentHitCountsBySource[key] || [];
@@ -2883,6 +3114,9 @@ async function mapWithConcurrency(items, limit, worker) {
           source:
             source.name,
 
+          sourceKey:
+            key,
+
           sourceLabel:
             sourceFeedLabel(source),
 
@@ -3032,8 +3266,9 @@ async function mapWithConcurrency(items, limit, worker) {
 
   // Organisationsdaten alter Feed-Einträge an die aktuelle Quellenkonfiguration anpassen.
   const sourceByName = new Map(configuredSources.map(source => [source.name, source]));
+  const sourceByKey = new Map(configuredSources.map(source => [sourceStateKey(source), source]));
   items = items.map(item => {
-    const source = sourceByName.get(item.source);
+    const source = sourceByKey.get(item.sourceKey) || sourceByName.get(item.source);
     if (!source) return item;
     return {
       ...item,
@@ -3076,7 +3311,7 @@ async function mapWithConcurrency(items, limit, worker) {
   items = deduped.slice(0, MAX_FEED_ITEMS);
 
   const healthRows = configuredSources.map(source => {
-    const key = source.name;
+    const key = sourceStateKey(source);
     const recent = state.recentHitCountsBySource[key] || [];
 
     const average = recent.length
@@ -3196,6 +3431,7 @@ async function mapWithConcurrency(items, limit, worker) {
 
     return {
       source: source.name,
+      sourceKey: key,
       sourceLabel: sourceFeedLabel(source),
       url: source.url,
       enabled: isEnabled,

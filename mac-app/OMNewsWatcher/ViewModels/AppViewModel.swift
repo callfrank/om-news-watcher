@@ -9,6 +9,7 @@ import FoundationXML
 struct FeedHistoryItem: Codable, Identifiable, Equatable {
     var guid: String
     var source: String
+    var sourceKey: String? = nil
     var sourceLabel: String?
     var title: String
     var link: String
@@ -275,6 +276,7 @@ struct SourceHealthAuditItem: Codable, Equatable {
 
 struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
     var source: String
+    var sourceKey: String?
     var sourceLabel: String?
     var url: String?
     var enabled: Bool
@@ -304,7 +306,9 @@ struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
     var checkIntervalMinutes: Int?
     var weekdaysOnly: Bool?
 
-    var id: String { source.lowercased() }
+    var id: String {
+        sourceKey ?? [source, url ?? ""].joined(separator: "|").lowercased()
+    }
 
     var effectiveHealthStatus: String {
         if let healthStatus, !healthStatus.isEmpty {
@@ -621,7 +625,13 @@ final class AppViewModel: ObservableObject {
 
     func latestItem(for source: SourceRecord) -> FeedHistoryItem? {
         feedItems
-            .filter { $0.source == source.name }
+            .filter {
+                if let sourceKey = source.sourceKey,
+                   let itemKey = $0.sourceKey {
+                    return itemKey == sourceKey
+                }
+                return $0.source == source.name
+            }
             .max { $0.detectedAt < $1.detectedAt }
     }
 
@@ -911,8 +921,14 @@ final class AppViewModel: ObservableObject {
     }
 
     func health(for source: SourceRecord) -> SourceHealthSnapshot? {
-        healthItems.first {
-            $0.source.caseInsensitiveCompare(source.name) == .orderedSame
+        if let sourceKey = source.sourceKey,
+           let exact = healthItems.first(where: { $0.sourceKey == sourceKey }) {
+            return exact
+        }
+
+        return healthItems.first {
+            $0.source.caseInsensitiveCompare(source.name) == .orderedSame &&
+            ($0.url == nil || normalizedReaderLink($0.url ?? "") == normalizedReaderLink(source.url))
         }
     }
 
@@ -1640,11 +1656,30 @@ final class AppViewModel: ObservableObject {
     }
 
     private func executeTest(_ source: SourceRecord) async -> SourceTestResult {
-        let tester = SourceTester()
-        activeTester = tester
-        let result = await tester.test(source)
+        let firstTester = SourceTester()
+        activeTester = firstTester
+        let first = await firstTester.test(source)
         activeTester = nil
-        return result
+
+        guard first.kind == .zeroHits ||
+              first.kind == .timeout ||
+              first.kind == .technicalError
+        else {
+            return first
+        }
+
+        try? await Task.sleep(for: .milliseconds(500))
+
+        let retryTester = SourceTester()
+        activeTester = retryTester
+        let retry = await retryTester.test(source)
+        activeTester = nil
+
+        if retry.kind.isSuccessLike || retry.hitCount > first.hitCount {
+            return retry
+        }
+
+        return first
     }
 
     private func updateVisualValidationAfterTest(

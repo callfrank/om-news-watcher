@@ -592,6 +592,51 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             leaf.count >= 18 &&
             (hyphenCount >= 2 || leaf.count >= 30)
 
+        let highConfidenceStaticPath =
+            path.range(
+                of: #"/(?:privacy|privacy-policy|cookies?|terms|legal|impressum|contact|kontakt|careers?|jobs?|who-we-are|find-us|pricing|prices|developer(?:s|-portal)?|products?|solutions?|partners?)(?:/|$)"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil
+
+        if source.visualLearned,
+           source.visualValidated,
+           !(source.itemSelector ?? "").isEmpty,
+           row.title.count >= 8,
+           !highConfidenceStaticPath {
+            return true
+        }
+
+        let specificConfiguredLeaf =
+            slugLike ||
+            leaf.range(
+                of: #"^\d{3,}$"#,
+                options: .regularExpression
+            ) != nil ||
+            leaf.range(
+                of: #"\.\d{5,}\.html?$"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil ||
+            (
+                leaf.range(
+                    of: #"\.html?$"#,
+                    options: [.regularExpression, .caseInsensitive]
+                ) != nil &&
+                leaf.count >= 18
+            )
+
+        if let pattern = source.includeRegex,
+           let regex = try? NSRegularExpression(
+               pattern: pattern,
+               options: [.caseInsensitive]
+           ) {
+            let range = NSRange(row.href.startIndex..<row.href.endIndex, in: row.href)
+            if regex.firstMatch(in: row.href, options: [], range: range) != nil,
+               components.count >= 2,
+               specificConfiguredLeaf {
+                return true
+            }
+        }
+
         let semanticArticlePath =
             path.range(
                 of: #"/(?:newsroom|news|nachrichten|presse|press|press-releases|pressemitteilungen|stories|story|article|articles|blog)/"#,

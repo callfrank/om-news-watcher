@@ -14,6 +14,18 @@ struct SourceRecord: Identifiable, Equatable {
         set { raw["name"] = .string(newValue) }
     }
 
+    var sourceKey: String? {
+        get { clean(raw["sourceKey"]?.stringValue) }
+        set {
+            if let newValue,
+               !newValue.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                raw["sourceKey"] = .string(newValue)
+            } else {
+                raw.removeValue(forKey: "sourceKey")
+            }
+        }
+    }
+
     var shortName: String? {
         get { clean(raw["shortName"]?.stringValue) }
         set {
@@ -471,6 +483,7 @@ struct SourceRecord: Identifiable, Equatable {
 
         return SourceRecord(raw: [
             "name": .string(guessedName),
+            "sourceKey": .string(UUID().uuidString.lowercased()),
             "url": .string(url),
             "enabled": .bool(true),
             "waitMs": .int(2500),
@@ -551,6 +564,7 @@ struct SourceRecord: Identifiable, Equatable {
         // Änderungen an Darstellung/Status sollen keinen neuen
         // Baseline-Lauf auslösen.
         copy.removeValue(forKey: "name")
+        copy.removeValue(forKey: "sourceKey")
         copy.removeValue(forKey: "shortName")
         copy.removeValue(forKey: "enabled")
         copy.removeValue(forKey: "baselineVersion")
