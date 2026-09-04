@@ -3950,7 +3950,7 @@
     "includeRegex" : "^https?://www\\.ifo\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Ifo",
-    "priority" : 2,
+    "priority" : 3,
     "selectors" : {
       "date" : "",
       "item" : "div.views-row",
@@ -3995,9 +3995,10 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T14:01:53Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
-    "waitMs" : 2500
+    "visualValidatedAt" : "2026-09-04T06:40:23Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   },
   {
     "allowExternal" : false,
