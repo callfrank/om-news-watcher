@@ -6525,5 +6525,77 @@
     "url" : "https://ir.baidu.com/",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-081758",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://stadt-bremerhaven\\.de/[^/?#]+/?(?:\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Cachys Blog",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "div.post-content",
+      "link" : "a",
+      "title" : "h1,h2,h3,h4,h5,h6,[class*=\"headline\" i],[class*=\"heading\" i],[class*=\"title\" i],[class*=\"name\" i],[data-testid*=\"title\" i],strong"
+    },
+    "sourceKey" : "d83577af-f4df-4703-8f03-87f0cd3f4061",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://stadt-bremerhaven.de/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T06:17:58Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T06:17:58Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://stadt-bremerhaven.de/ugreen-dxp6800-ultra-nas-mit-intel-core-i5-10-gbe-startet-hierzulande/",
+      "https://stadt-bremerhaven.de/netflix-preiserhoehung-auch-magentatv-zieht-nach/",
+      "https://stadt-bremerhaven.de/epic-parties-bringt-sprachchats-auf-fortnite-launcher-und-smartphone/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T06:18:03Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · Kartenstruktur + URL-Muster",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
