@@ -3906,7 +3906,10 @@
     "waitMs" : 2500
   },
   {
-    "baselineVersion" : "mac-app-20260818-072729",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260904-084136",
+    "candidateSelector" : "a[href*=\"/author/\"],[data-href*=\"/author/\"],[data-url*=\"/author/\"],[data-link*=\"/author/\"],[onclick*=\"/author/\"]",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -3917,19 +3920,56 @@
     "includeKeywords" : [
 
     ],
+    "includeRegex" : "^https?://digitalzentrumhandel\\.de/author/[^/?#]+/?(?:\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Mittelstand Digital",
     "priority" : 2,
     "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "date" : "time.entry-date",
+      "item" : "div.post-title-meta",
+      "link" : "a",
+      "title" : "h2"
     },
     "sourceKey" : "src-3fbff5b0f3b52fe1",
     "tags" : [
 
     ],
     "url" : "https://digitalzentrumhandel.de/aktuelles/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T06:41:36Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T06:41:36Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://digitalzentrumhandel.de/author/lena-peters/",
+      "https://digitalzentrumhandel.de/author/maj-hammerschmidt/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T06:41:42Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 27 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
   {
