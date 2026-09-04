@@ -6244,5 +6244,36 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-080511",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "JD QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "544a57fa-8f6d-4d8f-8205-461caa30a5d1",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://ir.jd.com/",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
