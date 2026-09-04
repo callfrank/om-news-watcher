@@ -6174,5 +6174,75 @@
     "url" : "https://ir.sheingroup.com/press-releases",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "allowExternal" : true,
+    "allowTitleOnly" : false,
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-080332",
+    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "minTitleLength" : 5,
+    "name" : "FedEx QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "div.grid_col--1-of-2",
+      "link" : "a.module_link",
+      "title" : "a.module_link"
+    },
+    "sourceKey" : "d236a0bb-0b4a-4af9-b318-ae025fe0992f",
+    "sourceType" : "auto",
+    "tags" : [
+      "Logistik"
+    ],
+    "url" : "https://investors.fedex.com/home/default.aspx",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T06:03:32Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T06:03:32Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://s21.q4cdn.com/665674268/files/doc_financials/2026/q4/FedEx-Q4-FY26-Earnings-Release.pdf",
+      "https://events.q4inc.com/attendee/858038331"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T06:03:38Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · Kartenstruktur + URL-Muster",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
