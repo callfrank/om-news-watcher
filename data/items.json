@@ -1,5 +1,162 @@
 [
   {
+    "guid": "5b545def3c011a25acd3834f",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
+    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-04T06:29:26.674Z",
+    "deliveredAt": "2026-09-04T06:29:26.674Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "ec62e73b771fc36e284dbfd7",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragseingang im Verarbeitenden Gewerbe im Juli 2026: +2,5 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_313_421.html",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T06:29:26.650Z",
+    "deliveredAt": "2026-09-04T06:29:26.650Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cf3ee48ceaccd7b6fb97945a",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Umsatz im Dienstleistungsbereich im Juni 2026 um 1,7 % niedriger als im Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_315_474.html",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T06:29:26.650Z",
+    "deliveredAt": "2026-09-04T06:29:26.650Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7ddc5876d2ee52415c91bf65",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Arbeitszeitwünsche 2025: 3,8 Millionen Erwerbstätige wollten weniger und 1,5 Millionen wollten mehr arbeiten",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_314_13.html",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T06:29:26.650Z",
+    "deliveredAt": "2026-09-04T06:29:26.650Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f772e6b06cdd02ff95b3dd80",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Deutsche Wirtschaft wächst – der Handel bleibt im Gegenwind",
+    "link": "https://onlinemarktplatz.de/292654/konjunktur-im-handel/",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T06:29:26.618Z",
+    "deliveredAt": "2026-09-04T06:29:26.618Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bfac07f1c844b85c133ea551",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "App-Rabatte: Aldi Süd greift Lidls Bonusmodell an",
+    "link": "https://onlinemarktplatz.de/292456/app-rabatte-aldi-lidl-bonusmodell/",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T06:29:26.618Z",
+    "deliveredAt": "2026-09-04T06:29:26.618Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8e0a9b12a5cc2623587a90e0",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EY-Studierendenstudie 2026 - Künstliche Intelligenz",
+    "link": "https://www.ey.com/de_de/newsroom/2026/09/ey-studierendenstudie-2026-kuenstliche-intelligenz",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-04T06:29:26.573Z",
+    "deliveredAt": "2026-09-04T06:29:26.573Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "e8214e0d25c046fb0b785c80",
     "source": "Hahnclassic",
     "sourceKey": "src-4e8676d7ff867c65",
@@ -16,27 +173,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "6784c0575cf70e63cd8b100a",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
-    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
-    "pageDate": "03.09.2026",
-    "publishedAt": "2026-09-03T12:00:00.000Z",
-    "detectedAt": "2026-09-04T04:40:08.126Z",
-    "deliveredAt": "2026-09-04T04:40:08.126Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "549fa288b1b16b78a272ab62",
