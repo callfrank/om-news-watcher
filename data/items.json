@@ -1,5 +1,84 @@
 [
   {
+    "guid": "8a7344ed268e27a516501c43",
+    "source": "Cachys Blog",
+    "sourceKey": "d83577af-f4df-4703-8f03-87f0cd3f4061",
+    "sourceLabel": "Cachys",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Aqara: Neue smarte Beleuchtung für drinnen und draußen vorgestellt",
+    "link": "https://stadt-bremerhaven.de/aqara-neue-smarte-beleuchtung-fuer-drinnen-und-draussen-vorgestellt/",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T08:23:45.967Z",
+    "deliveredAt": "2026-09-04T08:23:45.967Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "226b0ecde7d2a0f7bc3da166",
+    "source": "Cachys Blog",
+    "sourceKey": "d83577af-f4df-4703-8f03-87f0cd3f4061",
+    "sourceLabel": "Cachys",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "UGREEN MagFlow: Drei neue Qi2-Ladegeräte mit 25 Watt und cleveren Kühlsystemen",
+    "link": "https://stadt-bremerhaven.de/ugreen-magflow-drei-neue-qi2-ladegeraete-mit-25-watt-und-cleveren-kuehlsystemen/",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T08:23:45.967Z",
+    "deliveredAt": "2026-09-04T08:23:45.967Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b545def3c011a25acd3834f",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
+    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
+    "pageDate": "03.09.2026",
+    "publishedAt": "2026-09-03T12:00:00.000Z",
+    "detectedAt": "2026-09-04T08:23:45.950Z",
+    "deliveredAt": "2026-09-04T08:23:45.950Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "5c68edb7dab1d27250743ba9",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Die berühmteste Zunge der Welt jetzt auf Briefmarken",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/die-beruehmteste-zunge-der-welt-jetzt-auf-briefmarken.html",
+    "pageDate": "04.09.2026, 10:00 MESZ POST & PAKET DEUTSCHLAND",
+    "publishedAt": null,
+    "detectedAt": "2026-09-04T08:23:45.909Z",
+    "deliveredAt": "2026-09-04T08:23:45.909Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "dc01dcded14e0b12d8158445",
     "source": "Cachys Blog",
     "sourceKey": "d83577af-f4df-4703-8f03-87f0cd3f4061",
@@ -52,27 +131,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "6784c0575cf70e63cd8b100a",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
-    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
-    "pageDate": "03.09.2026",
-    "publishedAt": "2026-09-03T12:00:00.000Z",
-    "detectedAt": "2026-09-04T07:39:06.572Z",
-    "deliveredAt": "2026-09-04T07:39:06.572Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "d9d7ae6b33582848907726e2",
