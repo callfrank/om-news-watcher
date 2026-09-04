@@ -5938,5 +5938,77 @@
     "visualValidationMessage" : "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-075035",
+    "candidateSelector" : "a[href*=\"/investors/press-releases/\"],[data-href*=\"/investors/press-releases/\"],[data-url*=\"/investors/press-releases/\"],[data-link*=\"/investors/press-releases/\"],[onclick*=\"/investors/press-releases/\"]",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://www\\.shopify\\.com/investors/press-releases/[^/?#]+/?(?:\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Shopify QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "e2a0e49e-43a8-4a12-8cd6-b4eefbc328a7",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://www.shopify.com/investors",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T05:50:35Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T05:50:35Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://www.shopify.com/investors/press-releases/shopify-delivers-big-30-growth-across-gmv-revenue-gross-profit",
+      "https://www.shopify.com/investors/press-releases/shopify-announce-second-quarter-2026-financial-results",
+      "https://www.shopify.com/investors/press-releases/shopify-announces-results-its-2026-annual-meeting-shareholders"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T05:50:40Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
