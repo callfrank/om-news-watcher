@@ -73,8 +73,7 @@ private enum AboutPanelPresenter {
 
         NSApp.orderFrontStandardAboutPanel(
             options: [
-                .credits: credits,
-                .copyright: "© 2026 Frank Weyermann · onlinemarktplatz.de"
+                .credits: credits
             ]
         )
         NSApp.activate(ignoringOtherApps: true)
