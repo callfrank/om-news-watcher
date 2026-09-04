@@ -962,6 +962,10 @@ async function extractAutomatic(page, source) {
 
 function normalizeAndFilter(rows, source) {
   const map = new Map();
+  const hasValidatedVisualCardRule =
+    source.visualLearned === true &&
+    source.visualValidated === true &&
+    Boolean(source.selectors?.item);
 
   for (const r of rows || []) {
     const title = normalizeTitle(r.title || '');
@@ -988,7 +992,11 @@ function normalizeAndFilter(rows, source) {
     if (!link) continue;
     if (source.allowTitleOnly !== true && samePage(link, source.url)) continue;
     if (genericTitle(title)) continue;
-    if (source.visualLearned === true && !visualSampleShapeAllows(link, source)) continue;
+    if (
+      source.visualLearned === true &&
+      !hasValidatedVisualCardRule &&
+      !visualSampleShapeAllows(link, source)
+    ) continue;
 
     /*
      * Titel-only-Quellen haben synthetische URLs zur
@@ -997,6 +1005,7 @@ function normalizeAndFilter(rows, source) {
      */
     if (
       source.allowTitleOnly !== true &&
+      !hasValidatedVisualCardRule &&
       !looksLikeArticle(title, link, source)
     ) {
       continue;
@@ -1802,7 +1811,12 @@ async function inspectSource(context, fallbackContext, source, index, total) {
       source
     );
 
-    if (!rows || !rows.length) {
+    const hasValidatedVisualCardRule =
+      source.visualLearned === true &&
+      source.visualValidated === true &&
+      Boolean(source.selectors?.item);
+
+    if ((!rows || !rows.length) && !hasValidatedVisualCardRule) {
       rows = await extractAutomatic(
         page,
         source
@@ -1814,14 +1828,12 @@ async function inspectSource(context, fallbackContext, source, index, total) {
       source
     );
 
-    // Visuell gelernte Regeln dürfen nicht an einem einzigen engen
-    // candidateSelector scheitern. Wenn dieser nach Reload 0 plausible
-    // Treffer liefert, wird einmal breit gescannt. includeRegex,
-    // Visual-Sample-Shape und Quality-Gates grenzen anschließend wieder ein.
+    // Nur URL-basierte Regeln dürfen bei einem leeren engen Selektor einmal
+    // breit gescannt werden. Eine validierte Kartenregel darf bei instabiler
+    // DOM-Struktur nicht unkontrolliert auf alle Seitenlinks zurückfallen.
     if (
       rows.length === 0 &&
       (
-        source.visualLearned === true ||
         Boolean(source.includeRegex)
       )
     ) {
