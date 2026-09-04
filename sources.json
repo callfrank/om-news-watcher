@@ -5734,5 +5734,68 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 31 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : false
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-073912",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Delivery Hero",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "b864dcc2-4649-4d67-aca3-09c875193678",
+    "sourceType" : "auto",
+    "tags" : [
+      "Logistik",
+      "Studien & Marktdaten"
+    ],
+    "url" : "https://ir.deliveryhero.com/financial-reports-and-presentations",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-074231",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "PayPal QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "1a5113b9-7780-4758-9743-ea1759619593",
+    "sourceType" : "auto",
+    "tags" : [
+      "Payment"
+    ],
+    "url" : "https://investor.paypal-corp.com/home/",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
