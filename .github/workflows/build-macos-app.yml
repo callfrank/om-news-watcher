@@ -79,7 +79,7 @@ jobs:
       - name: Hinweis
         run: |
           {
-            echo "## OM News Watcher Mac 5.4.2"
+            echo "## OM News Watcher Mac 5.4.4"
             echo ""
             echo "Die Release-App wurde erfolgreich gebaut."
             echo ""

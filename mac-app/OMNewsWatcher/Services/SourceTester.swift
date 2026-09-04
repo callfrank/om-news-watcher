@@ -290,7 +290,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         var usedBroadVisualFallback = false
 
         if filtered.isEmpty,
-           source.visualLearned || !(source.includeRegex ?? "").isEmpty {
+           !(source.includeRegex ?? "").isEmpty {
             let broadBase = filter(allRows, for: source)
             let broadFiltered = refineSemanticScope(
                 broadBase,
@@ -384,7 +384,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                     message:
                         "\(count) technisch plausible Artikel erkannt; " +
                         "\(eligible.count) würden aktuell in den Reader gelangen.",
-                    testedAt: Date()
+                    testedAt: Date(),
+                    usedBroadVisualFallback: usedBroadVisualFallback
                 )
             }
 
@@ -407,7 +408,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                     ? "\(count) technisch plausible Treffer erkannt; \(eligible.count) wären aktuell Reader-fähig. Die Struktur sollte geprüft werden."
                     : "\(count) Treffer erkannt. Ein strukturell passenderer Artikelbereich wurde gefunden.",
                 testedAt: Date(),
-                repairProposal: repair
+                repairProposal: repair,
+                usedBroadVisualFallback: usedBroadVisualFallback
             )
         }
 
@@ -444,7 +446,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             eligibleExamples: eligibleExamples,
             rejectedExamples: rejectedExamples,
             message: message,
-            testedAt: Date()
+            testedAt: Date(),
+            usedBroadVisualFallback: usedBroadVisualFallback
         )
     }
 
@@ -588,6 +591,51 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         let slugLike =
             leaf.count >= 18 &&
             (hyphenCount >= 2 || leaf.count >= 30)
+
+        let highConfidenceStaticPath =
+            path.range(
+                of: #"/(?:privacy|privacy-policy|cookies?|terms|legal|impressum|contact|kontakt|careers?|jobs?|who-we-are|find-us|pricing|prices|developer(?:s|-portal)?|products?|solutions?|partners?)(?:/|$)"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil
+
+        if source.visualLearned,
+           source.visualValidated,
+           !(source.itemSelector ?? "").isEmpty,
+           row.title.count >= 8,
+           !highConfidenceStaticPath {
+            return true
+        }
+
+        let specificConfiguredLeaf =
+            slugLike ||
+            leaf.range(
+                of: #"^\d{3,}$"#,
+                options: .regularExpression
+            ) != nil ||
+            leaf.range(
+                of: #"\.\d{5,}\.html?$"#,
+                options: [.regularExpression, .caseInsensitive]
+            ) != nil ||
+            (
+                leaf.range(
+                    of: #"\.html?$"#,
+                    options: [.regularExpression, .caseInsensitive]
+                ) != nil &&
+                leaf.count >= 18
+            )
+
+        if let pattern = source.includeRegex,
+           let regex = try? NSRegularExpression(
+               pattern: pattern,
+               options: [.caseInsensitive]
+           ) {
+            let range = NSRange(row.href.startIndex..<row.href.endIndex, in: row.href)
+            if regex.firstMatch(in: row.href, options: [], range: range) != nil,
+               components.count >= 2,
+               specificConfiguredLeaf {
+                return true
+            }
+        }
 
         let semanticArticlePath =
             path.range(
@@ -1293,6 +1341,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
     private func filter(_ rows: [Candidate], for source: SourceRecord) -> [Candidate] {
         var seen = Set<String>()
         var result: [Candidate] = []
+        let hasExplicitVisualCardRule =
+            source.visualLearned && !(source.itemSelector ?? "").isEmpty
 
         for row in rows {
             let title = cleanExtractedTitle(row.title)
@@ -1343,11 +1393,13 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             }
 
             if source.visualLearned,
+               !hasExplicitVisualCardRule,
                !matchesVisualSampleShape(resolved, source: source) {
                 continue
             }
 
             if source.includeRegex == nil &&
+               !hasExplicitVisualCardRule &&
                !looksLikeArticle(
                 title: title,
                 url: resolved,
@@ -1539,7 +1591,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
               });
             }
 
-            if (rows.length === 0 || (cfg.smart && !cfg.itemSelector)) {
+            if (!cfg.itemSelector && (rows.length === 0 || cfg.smart)) {
               const selector = cfg.candidateSelector || clickableSelector;
               document.querySelectorAll(selector).forEach(el => {
                 const row = rowFor(el);

@@ -68,7 +68,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-31T03:00:22Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer · Kartenstruktur + URL-Muster",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-72a2ecac55647739"
   },
   {
     "allowExternal" : false,
@@ -137,7 +138,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-31T03:00:48Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-8ce2a9da213bfc6e"
   },
   {
     "enabled" : true,
@@ -155,7 +157,8 @@
     },
     "timeoutMs" : 60000,
     "url" : "https://www.dpd.com/de/de/unternehmen/presse/",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-bb722a60d74f3965"
   },
   {
     "autoScroll" : 0,
@@ -179,7 +182,8 @@
     },
     "timeoutMs" : 60000,
     "url" : "https://www.eco.de/presse/",
-    "waitMs" : 1500
+    "waitMs" : 1500,
+    "sourceKey" : "src-b784bc4111de43c5"
   },
   {
     "autoScroll" : 0,
@@ -207,12 +211,13 @@
     ],
     "timeoutMs" : 90000,
     "url" : "https://ecommerce-europe.eu/press-releases/",
-    "waitMs" : 1200
+    "waitMs" : 1200,
+    "sourceKey" : "src-8d7a4dfc95d50e42"
   },
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260817-120840",
+    "baselineVersion" : "reliability-20260904-ecdb-reports",
     "enabled" : true,
     "groups" : [
       "Research"
@@ -222,9 +227,9 @@
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "a.text-jade",
-      "link" : "a.text-jade",
-      "title" : "a.text-jade"
+      "item" : "",
+      "link" : "",
+      "title" : ""
     },
     "tags" : [
       "E-Commerce",
@@ -243,12 +248,41 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-17T10:08:40Z",
+    "visualLearnedAt" : "2026-09-04T05:20:00Z",
     "visualSampleCount" : 3,
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T13:56:27Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 33 Treffer",
-    "waitMs" : 5000
+    "visualValidatedAt" : "2026-09-04T05:20:00Z",
+    "visualValidationMessage" : "URL-Regel nach Vollpruefung bestaetigt",
+    "waitMs" : 5000,
+    "sourceKey" : "src-93bc6c77c8e0092a",
+    "visualRuleHistory" : [
+      {
+        "savedAt" : "2026-09-04T05:20:00Z",
+        "label" : "Vor Zuverlaessigkeitsreparatur 5.4.4",
+        "configuration" : {
+          "allowTitleOnly" : false,
+          "allowExternal" : false,
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "a.text-jade",
+            "link" : "a.text-jade",
+            "title" : "a.text-jade"
+          },
+          "visualLearned" : true,
+          "visualSampleCount" : 3,
+          "visualLearnedAt" : "2026-08-17T10:08:40Z",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-19T13:56:27Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 33 Treffer"
+        }
+      }
+    ],
+    "candidateSelector" : "a[href*=\"/reports/\"]",
+    "includeRegex" : "^https://ecdb\\.com/reports/[^/?#]+/\\d+/?(?:\\?[^#]*)?(?:#.*)?$",
+    "visualRuleVersion" : 3,
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster"
   },
   {
     "allowExternal" : false,
@@ -324,7 +358,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-31T04:29:09Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 17 Treffer · Kartenstruktur + URL-Muster",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-b0d6dce4f4e53f64"
   },
   {
     "allowTitleOnly" : true,
@@ -347,7 +382,8 @@
     },
     "timeoutMs" : 60000,
     "url" : "https://www.experte.de/events/e-commerce",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-ce47c2cc0cdd42de"
   },
   {
     "enabled" : true,
@@ -368,7 +404,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.ey.com/de_de/newsroom",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-8fc60553640bf464"
   },
   {
     "baselineVersion" : "v10-fedex",
@@ -391,7 +428,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://newsroom.fedex.com/",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-ccc01078527f3e85"
   },
   {
     "allowExternal" : false,
@@ -449,7 +487,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-09-04T02:23:22Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 21 Treffer",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-4a1336d19ad6bee0"
   },
   {
     "enabled" : true,
@@ -470,7 +509,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.flaschenpost.de/newsroom",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-27ff0ae02372e565"
   },
   {
     "allowExternal" : false,
@@ -510,7 +550,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:57:04Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-b4a8f14e403e1f2f"
   },
   {
     "enabled" : true,
@@ -531,7 +572,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.mynewsdesk.com/de/fressnapf-holding-se",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-94258df63c219915"
   },
   {
     "allowExternal" : false,
@@ -613,7 +655,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:57:09Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
-    "waitMs" : 1000
+    "waitMs" : 1000,
+    "sourceKey" : "src-c4694153f4de0aba"
   },
   {
     "enabled" : true,
@@ -635,7 +678,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://newsroom.gmx.net/",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-3347cf90b11a7aaa"
   },
   {
     "allowTitleOnly" : true,
@@ -660,7 +704,8 @@
     },
     "timeoutMs" : 60000,
     "url" : "https://www.hellofreshgroup.com/de/newsroom/press-releases/",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-9af9bb5d19a30c0c"
   },
   {
     "enabled" : true,
@@ -681,7 +726,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://jdcorporateblog.com/category/jd-in-depths-reports/",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-1d28f7aaeab392b8"
   },
   {
     "allowExternal" : false,
@@ -725,7 +771,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:57:25Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 24 Treffer",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-9261fd3fa3c1f896"
   },
   {
     "enabled" : true,
@@ -747,7 +794,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://unternehmen.kaufland.de/presse/newsroom",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-3706ec107132ce03"
   },
   {
     "baselineVersion" : "v11-lka",
@@ -772,7 +820,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.polizei-praevention.de/aktuelle-meldungen",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-02d707caf7513f21"
   },
   {
     "allowExternal" : false,
@@ -875,7 +924,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:07:21Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer · URL-Muster",
-    "waitMs" : 7000
+    "waitMs" : 7000,
+    "sourceKey" : "src-781d77478bb4a387"
   },
   {
     "allowExternal" : false,
@@ -934,7 +984,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:06:46Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 6 Treffer · URL-Muster",
-    "waitMs" : 7000
+    "waitMs" : 7000,
+    "sourceKey" : "src-81226c953cca81d0"
   },
   {
     "autoScroll" : 0,
@@ -960,7 +1011,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.mastercard.com/news/europe/de-de/newsroom/pressemitteilungen/",
-    "waitMs" : 1500
+    "waitMs" : 1500,
+    "sourceKey" : "src-675574fe23b5bbaa"
   },
   {
     "baselineVersion" : "v11-tencent",
@@ -983,7 +1035,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.tencent.com/en-us/media/news.html",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-185f9a8b3d183058"
   },
   {
     "allowTitleOnly" : true,
@@ -1008,7 +1061,8 @@
     },
     "timeoutMs" : 60000,
     "url" : "https://www.mediamarktsaturn.de/de/news-presse",
-    "waitMs" : 1500
+    "waitMs" : 1500,
+    "sourceKey" : "src-096b9f02c5f6a89f"
   },
   {
     "allowExternal" : true,
@@ -1036,7 +1090,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://investor.mercadolibre.com/news-and-events",
-    "waitMs" : 1200
+    "waitMs" : 1200,
+    "sourceKey" : "src-d4f0ba766aafaf20"
   },
   {
     "enabled" : true,
@@ -1057,7 +1112,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://about.fb.com/de/news/",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-cff07d38ae11809f"
   },
   {
     "allowExternal" : true,
@@ -1100,7 +1156,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:58:12Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-35d9eee1a02b99dd"
   },
   {
     "enabled" : true,
@@ -1125,7 +1182,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.mollie.com/de/papers",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-17b9d0948d9eb5a7"
   },
   {
     "baselineVersion" : "mac-app-20260817-123458",
@@ -1148,12 +1206,13 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://momox.biz/presse",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-347c1a155304dbda"
   },
   {
-    "allowTitleOnly" : true,
+    "allowTitleOnly" : false,
     "autoScroll" : 0,
-    "baselineVersion" : "mac-app-20260831-054702",
+    "baselineVersion" : "reliability-20260904-amazon-freight-events",
     "enabled" : true,
     "excludeTitleRegex" : "^(?:Nehmen Sie an unseren nächsten Veranstaltungen.*|Sehen Sie sich hier vergangene Webinare an|Haben Sie Fragen.*)$",
     "groups" : [
@@ -1164,23 +1223,55 @@
     "name" : "Amazon Freight Events",
     "priority" : 2,
     "selectors" : {
-      "date" : "",
-      "item" : "main h2, main h3, main h4",
-      "link" : "",
-      "title" : ""
+      "date" : "time, [class*=\"date\" i]",
+      "item" : ".PageList-items-item, .PagePromo",
+      "link" : "a[href]",
+      "title" : "h2, h3, h4"
     },
     "tags" : [
       "Logistik"
     ],
     "timeoutMs" : 60000,
     "url" : "https://freight.amazon.de/events-and-webinars",
-    "waitMs" : 1200
+    "waitMs" : 1200,
+    "sourceKey" : "src-561599061574ad3c",
+    "visualRuleHistory" : [
+      {
+        "savedAt" : "2026-09-04T05:20:00Z",
+        "label" : "Vor Zuverlaessigkeitsreparatur 5.4.4",
+        "configuration" : {
+          "excludeTitleRegex" : "^(?:Nehmen Sie an unseren nächsten Veranstaltungen.*|Sehen Sie sich hier vergangene Webinare an|Haben Sie Fragen.*)$",
+          "allowTitleOnly" : true,
+          "minTitleLength" : 10,
+          "selectors" : {
+            "date" : "",
+            "item" : "main h2, main h3, main h4",
+            "link" : "",
+            "title" : ""
+          }
+        }
+      }
+    ],
+    "candidateSelector" : ".PageList-items-item a[href], .PagePromo a[href]",
+    "allowExternal" : true,
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T05:20:00Z",
+    "visualRuleVersion" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T05:20:00Z",
+    "visualValidationMessage" : "Kartenregel nach Vollpruefung bestaetigt",
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur",
+    "visualSampleCount" : 3
   },
   {
+    "baselineVersion" : "reliability-20260904-google-ads-commerce-blog",
     "enabled" : true,
+    "fetchMode" : "feed",
     "groups" : [
       "Sonstiges"
     ],
+    "homepageUrl" : "https://blog.google/products/ads-commerce/",
     "includeRegex" : "^https://blog\\.google/products/ads-commerce/[^/?#]+/?$",
     "name" : "Google Ads & Commerce Blog",
     "priority" : 2,
@@ -1194,8 +1285,24 @@
       "KI"
     ],
     "timeoutMs" : 60000,
-    "url" : "https://blog.google/products/ads-commerce/",
-    "waitMs" : 3000
+    "url" : "https://blog.google/products/ads-commerce/rss/",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "includeRegex" : "^https://blog\\.google/products/ads-commerce/[^/?#]+/?$",
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor Zuverlaessigkeitsreparatur 5.4.4",
+        "savedAt" : "2026-09-04T05:20:00Z"
+      }
+    ],
+    "waitMs" : 3000,
+    "sourceKey" : "src-147cfee3d1361ebb"
   },
   {
     "baselineVersion" : "v10-pattern",
@@ -1220,7 +1327,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.pattern.com/about/newsroom",
-    "waitMs" : 1200
+    "waitMs" : 1200,
+    "sourceKey" : "src-fd172f245374fd81"
   },
   {
     "allowExternal" : false,
@@ -1299,7 +1407,8 @@
     "visualValidatedAt" : "2026-08-31T03:53:25Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer · URL-Muster",
     "waitMs" : 5000,
-    "weekdaysOnly" : true
+    "weekdaysOnly" : true,
+    "sourceKey" : "src-8542e09c0f690b10"
   },
   {
     "allowExternal" : false,
@@ -1377,7 +1486,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:58:43Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
-    "waitMs" : 1000
+    "waitMs" : 1000,
+    "sourceKey" : "src-ee457bfea777d888"
   },
   {
     "allowExternal" : false,
@@ -1423,7 +1533,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:58:47Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-9270afe2506b625b"
   },
   {
     "autoScroll" : 3,
@@ -1442,7 +1553,8 @@
     },
     "timeoutMs" : 60000,
     "url" : "https://servicevalue.de/newsroom/",
-    "waitMs" : 7000
+    "waitMs" : 7000,
+    "sourceKey" : "src-2900cf104035f2b2"
   },
   {
     "enabled" : true,
@@ -1460,7 +1572,8 @@
     },
     "timeoutMs" : 60000,
     "url" : "https://sheingroup.com/newsroom/",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-7d01254fcbc3e629"
   },
   {
     "allowExternal" : false,
@@ -1549,7 +1662,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:58:55Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
-    "waitMs" : 1000
+    "waitMs" : 1000,
+    "sourceKey" : "src-a4b561cb340f5d1b"
   },
   {
     "enabled" : true,
@@ -1571,14 +1685,15 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://startupverband.de/presse/",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-515b92a6da1e3698"
   },
   {
     "enabled" : true,
     "groups" : [
       "Firmen"
     ],
-    "includeRegex" : "^https://www\\.telekom\\.com/de/medien/medieninformationen/detail/",
+    "includeRegex" : "^https://www\\.telekom\\.com/de/newsroom/aktuelles/medieninformationen/20\\d{2}/(?:0?[1-9]|1[0-2])/[^/?#]+/?(?:\\?[^#]*)?(?:#.*)?$",
     "name" : "Telekom Medieninformationen",
     "priority" : 2,
     "selectors" : {
@@ -1591,8 +1706,37 @@
       "KI"
     ],
     "timeoutMs" : 60000,
-    "url" : "https://www.telekom.com/de/medien/medieninformationen",
-    "waitMs" : 5000
+    "url" : "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen",
+    "waitMs" : 5000,
+    "sourceKey" : "src-6f65565f4749a295",
+    "visualRuleHistory" : [
+      {
+        "savedAt" : "2026-09-04T05:20:00Z",
+        "label" : "Vor Zuverlaessigkeitsreparatur 5.4.4",
+        "configuration" : {
+          "includeRegex" : "^https://www\\.telekom\\.com/de/medien/medieninformationen/detail/",
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        }
+      }
+    ],
+    "candidateSelector" : "a[href*=\"/de/newsroom/aktuelles/medieninformationen/\"]",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T05:20:00Z",
+    "visualRuleVersion" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T05:20:00Z",
+    "visualValidationMessage" : "URL-Regel nach Vollpruefung bestaetigt",
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualSampleCount" : 3,
+    "baselineVersion" : "reliability-20260904-telekom-medieninformationen"
   },
   {
     "enabled" : true,
@@ -1613,7 +1757,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://the-platform-group.com/presse/",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-6bc563fcfc6c9b3c"
   },
   {
     "enabled" : true,
@@ -1631,7 +1776,8 @@
     },
     "timeoutMs" : 60000,
     "url" : "https://company.vinted.com/newsroom",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-4bd55bcb182c0d40"
   },
   {
     "allowExternal" : false,
@@ -1695,7 +1841,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:59:25Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-7defdf77aa356e20"
   },
   {
     "enabled" : true,
@@ -1716,7 +1863,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.vzbv.de/presse/pressemitteilungen",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-89cdb65f3f059fb8"
   },
   {
     "enabled" : true,
@@ -1738,7 +1886,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.verbraucherzentrale-bawue.de/pressemitteilungen",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-1b0ed24ce78ff6f3"
   },
   {
     "enabled" : true,
@@ -1759,7 +1908,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.vzhh.de/presse",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-17979740ef54054e"
   },
   {
     "enabled" : true,
@@ -1780,7 +1930,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://www.verbraucherzentrale-rlp.de/pressemitteilungen",
-    "waitMs" : 3000
+    "waitMs" : 3000,
+    "sourceKey" : "src-60410208ae6b15b3"
   },
   {
     "enabled" : true,
@@ -1800,7 +1951,8 @@
     ],
     "timeoutMs" : 60000,
     "url" : "https://corporate.yougov.com/press/news-and-press-releases/",
-    "waitMs" : 5000
+    "waitMs" : 5000,
+    "sourceKey" : "src-6e8d6905b5184c14"
   },
   {
     "allowExternal" : false,
@@ -1863,7 +2015,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:59:52Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-ee546a6472b48b72"
   },
   {
     "allowExternal" : false,
@@ -1924,7 +2077,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T13:59:57Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-dbea0c1ac563772a"
   },
   {
     "allowExternal" : false,
@@ -1969,7 +2123,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:00Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-907af1387802cea1"
   },
   {
     "allowExternal" : false,
@@ -2044,7 +2199,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:03Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-e5330506f57b7169"
   },
   {
     "allowExternal" : false,
@@ -2163,7 +2319,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-09-02T08:19:37Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 13 Treffer · Kartenstruktur + URL-Muster",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-4ac1e5fd69b71704"
   },
   {
     "allowExternal" : false,
@@ -2207,7 +2364,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:11Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 15 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-2703ad59aff2f833"
   },
   {
     "allowExternal" : true,
@@ -2253,7 +2411,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:14Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-cb76e6379efa5a53"
   },
   {
     "allowExternal" : false,
@@ -2296,7 +2455,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:17Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-64a086442adaeeab"
   },
   {
     "allowExternal" : false,
@@ -2342,7 +2502,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:22Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 4 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-0a9ea9df2176887f"
   },
   {
     "allowExternal" : false,
@@ -2350,15 +2511,11 @@
     "baselineVersion" : "mac-app-20260817-144411",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Quartalszahlen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://corporate\\.walmart\\.com/news/2026/",
     "minTitleLength" : 5,
     "name" : "Walmart QZ",
@@ -2395,7 +2552,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:25Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-3e873cdd08b60795"
   },
   {
     "allowExternal" : false,
@@ -2403,15 +2561,11 @@
     "baselineVersion" : "mac-app-20260817-144830",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Quartalszahlen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://corporate\\.target\\.com/press/release/2026/",
     "minTitleLength" : 5,
     "name" : "Target QZ",
@@ -2449,7 +2603,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:29Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-ba300714de43cc5d"
   },
   {
     "allowExternal" : false,
@@ -2457,15 +2612,11 @@
     "baselineVersion" : "mac-app-20260817-145023",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Quartalszahlen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.alibabagroup\\.com/en-US/",
     "minTitleLength" : 5,
     "name" : "Alibaba QZ",
@@ -2502,7 +2653,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-09-04T02:21:52Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-489f9f2250aef60c"
   },
   {
     "allowExternal" : false,
@@ -2510,15 +2662,11 @@
     "baselineVersion" : "mac-app-20260819-044429",
     "candidateSelector" : "a[href*=\"/events/event-details/\"]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Quartalszahlen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://investor\\.pddholdings\\.com/events/event-details/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "PDD QZ",
@@ -2587,7 +2735,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:35Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-14ed67a6e12692ad"
   },
   {
     "allowExternal" : false,
@@ -2595,15 +2744,11 @@
     "baselineVersion" : "mac-app-20260831-055005",
     "candidateSelector" : "a[href*=\"/veranstaltung/\"],[data-href*=\"/veranstaltung/\"],[data-url*=\"/veranstaltung/\"],[data-link*=\"/veranstaltung/\"],[onclick*=\"/veranstaltung/\"]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Events"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://digitalzentrumhandel\\.de/veranstaltung/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Mittelstand Digital",
@@ -2715,7 +2860,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-31T03:50:13Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 26 Treffer · Kartenstruktur + URL-Muster",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-51390123dcbdb93e"
   },
   {
     "allowExternal" : true,
@@ -2723,15 +2869,11 @@
     "baselineVersion" : "mac-app-20260819-160836",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Finanzen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "minTitleLength" : 5,
     "name" : "ECB",
     "priority" : 2,
@@ -2741,9 +2883,7 @@
       "link" : "a",
       "title" : "h3"
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://www.ecb.europa.eu/home/html/index.en.html",
     "visualBackup" : {
       "selectors" : {
@@ -2780,20 +2920,17 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-31T03:50:57Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-f132ccda6cdbce0d"
   },
   {
     "baselineVersion" : "mac-app-20260817-150126",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Finanzen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "Klarna",
     "priority" : 2,
     "selectors" : {
@@ -2806,7 +2943,8 @@
       "Payment"
     ],
     "url" : "https://www.klarna.com/international/press/",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-f16daf5cdc73aa7e"
   },
   {
     "allowExternal" : false,
@@ -2814,15 +2952,11 @@
     "baselineVersion" : "mac-app-20260817-150444",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Quartalszahlen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://investors\\.klarna\\.com/News--Events/events-and-presentations/event-details/2026/",
     "minTitleLength" : 5,
     "name" : "Klarna QZ",
@@ -2859,7 +2993,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:00:53Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-ee7514d4657deb9e"
   },
   {
     "allowExternal" : false,
@@ -2867,15 +3002,11 @@
     "baselineVersion" : "mac-app-20260819-044346",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Staat"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.wettbewerbszentrale\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Wettbewerbszentrale",
@@ -2959,20 +3090,17 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-31T03:40:39Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-24a9968f52923b9b"
   },
   {
     "baselineVersion" : "mac-app-20260817-152225",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Research"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "DeStatis",
     "priority" : 2,
     "selectors" : {
@@ -2985,33 +3113,58 @@
       "Quartalszahlen"
     ],
     "url" : "https://www.destatis.de/",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-7523dc532642ad9d"
   },
   {
-    "baselineVersion" : "mac-app-20260817-152455",
+    "baselineVersion" : "reliability-20260904-bundeskartellamt",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Staat"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "Bundeskartellamt",
     "priority" : 2,
     "selectors" : {
       "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "item" : ".c-stage-teaser, .c-teaser",
+      "link" : "a[href*=\"/SharedDocs/Meldung/\"]",
+      "title" : "h2, h3, h4"
     },
     "tags" : [
       "Recht & Regulierung"
     ],
     "url" : "https://www.bundeskartellamt.de/DE/Home/home_node.html",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-65453440d7dc3b0e",
+    "visualRuleHistory" : [
+      {
+        "savedAt" : "2026-09-04T05:20:00Z",
+        "label" : "Vor Zuverlaessigkeitsreparatur 5.4.4",
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        }
+      }
+    ],
+    "candidateSelector" : "a[href*=\"/SharedDocs/Meldung/DE/Pressemitteilungen/\"],a[href*=\"/SharedDocs/Meldung/DE/AktuelleMeldungen/\"]",
+    "includeRegex" : "^https://www\\.bundeskartellamt\\.de/SharedDocs/Meldung/DE/(?:Pressemitteilungen|AktuelleMeldungen)/20\\d{2}/[^/?#]+\\.html(?:\\?[^#]*)?(?:#.*)?$",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T05:20:00Z",
+    "visualRuleVersion" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T05:20:00Z",
+    "visualValidationMessage" : "Karten- und URL-Regel nach Vollpruefung bestaetigt",
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
+    "visualSampleCount" : 3
   },
   {
     "allowExternal" : false,
@@ -3019,15 +3172,11 @@
     "baselineVersion" : "mac-app-20260818-063140",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Sonstiges"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.etailment\\.de/magazin/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "eTailment",
@@ -3038,9 +3187,7 @@
       "link" : "",
       "title" : ""
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://www.etailment.de/",
     "visualBackup" : {
       "selectors" : {
@@ -3063,7 +3210,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:01:08Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 44 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-65cd776c7db6b237"
   },
   {
     "allowExternal" : false,
@@ -3071,15 +3219,11 @@
     "baselineVersion" : "mac-app-20260819-043750",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Sonstiges"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://ecommercenews\\.eu/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "EcommerceNews",
@@ -3202,7 +3346,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:01:11Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-bd7434d76405faf6"
   },
   {
     "allowExternal" : false,
@@ -3210,15 +3355,11 @@
     "baselineVersion" : "mac-app-20260818-071843",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Logistik"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://bpex-ev\\.de/presse/meldung/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "BPEX",
@@ -3229,9 +3370,7 @@
       "link" : "",
       "title" : ""
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://bpex-ev.de/presse/pressemeldungen",
     "visualBackup" : {
       "selectors" : {
@@ -3254,36 +3393,33 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:01:30Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-fdfe2643c70da9a3"
   },
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260819-044238",
-    "candidateSelector" : "a[href*=\"/news/\"]",
+    "baselineVersion" : "reliability-20260904-gls",
+    "cacheBust" : false,
+    "candidateSelector" : ".news-box a[href*=\"/news/\"][href*=\"/s/\"]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Logistik"
     ],
-    "includeKeywords" : [
-
-    ],
-    "includeRegex" : "^https?://newsroom\\.de\\.gls-group\\.com/news/[^/?#]+/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "includeKeywords" : [],
+    "includeRegex" : "^https://newsroom\\.de\\.gls-group\\.com/news/[^/?#]+/s/[0-9a-f-]+/?(?:\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "GLS",
     "priority" : 2,
+    "skipCookieDismiss" : true,
     "selectors" : {
-      "date" : "",
-      "item" : "",
-      "link" : "",
-      "title" : ""
+      "date" : "[class*=\"date\" i], time",
+      "item" : ".news-box",
+      "link" : ".news-desc a[href]",
+      "title" : ".news-desc a[href]"
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://newsroom.de.gls-group.com/newslisting?category=publikationen",
     "visualBackup" : {
       "selectors" : {
@@ -3296,6 +3432,36 @@
     "visualLearned" : true,
     "visualLearnedAt" : "2026-08-19T02:42:38Z",
     "visualRuleHistory" : [
+      {
+        "savedAt" : "2026-09-04T05:20:00Z",
+        "label" : "Vor Zuverlaessigkeitsreparatur 5.4.4",
+        "configuration" : {
+          "candidateSelector" : "a[href*=\"/news/\"]",
+          "includeRegex" : "^https?://newsroom\\.de\\.gls-group\\.com/news/[^/?#]+/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+          "allowTitleOnly" : false,
+          "allowExternal" : false,
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          },
+          "visualLearned" : true,
+          "visualSampleCount" : 2,
+          "visualLearnedAt" : "2026-08-19T02:42:38Z",
+          "visualRuleVersion" : 3,
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-08-19T14:01:33Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster",
+          "visualSampleURLs" : [
+            "https://newsroom.de.gls-group.com/news/moderne-citylogistik--ihk-und-stadt-dortmund-informieren-sich--ber-die--last-mile-revolution--von-gl/s/02a45e79-67d0-4fa3-a593-3be6e1ec8425",
+            "https://newsroom.de.gls-group.com/news/netzwerken-in-der-mitte-deutschlands--wirtschaftsrat-hessen-zu-gast-bei-gls/s/cf7c4286-e762-467f-bdc1-28a23deac152"
+          ]
+        }
+      },
       {
         "configuration" : {
           "allowExternal" : false,
@@ -3335,11 +3501,12 @@
       "https://newsroom.de.gls-group.com/news/netzwerken-in-der-mitte-deutschlands--wirtschaftsrat-hessen-zu-gast-bei-gls/s/cf7c4286-e762-467f-bdc1-28a23deac152"
     ],
     "visualSmartExtraction" : true,
-    "visualStrategy" : "URL-Muster",
+    "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T14:01:33Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
-    "waitMs" : 2500
+    "visualValidatedAt" : "2026-09-04T05:20:00Z",
+    "visualValidationMessage" : "Karten- und URL-Regel nach Vollpruefung bestaetigt",
+    "waitMs" : 5000,
+    "sourceKey" : "src-64665540153f20fb"
   },
   {
     "allowExternal" : false,
@@ -3347,15 +3514,11 @@
     "baselineVersion" : "mac-app-20260818-072206",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Logistik"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://newsroom\\.hermesworld\\.com/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Hermes",
@@ -3391,20 +3554,17 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:01:37Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-024599969bf8c986"
   },
   {
-    "baselineVersion" : "mac-app-20260818-072340",
+    "baselineVersion" : "reliability-20260904-post-at",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Logistik"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "Post AT",
     "priority" : 2,
     "selectors" : {
@@ -3413,11 +3573,38 @@
       "link" : "",
       "title" : ""
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://news.post.at/presse",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-7233e5eef034b3db",
+    "visualRuleHistory" : [
+      {
+        "savedAt" : "2026-09-04T05:20:00Z",
+        "label" : "Vor Zuverlaessigkeitsreparatur 5.4.4",
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        }
+      }
+    ],
+    "candidateSelector" : "a[href*=\"/presse/de/post/id/\"]",
+    "includeRegex" : "^https://news\\.post\\.at/presse/de/post/id/\\d+/[^/?#]+/?(?:\\?[^#]*)?(?:#.*)?$",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T05:20:00Z",
+    "visualRuleVersion" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T05:20:00Z",
+    "visualValidationMessage" : "URL-Regel nach Vollpruefung bestaetigt",
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualSampleCount" : 3,
+    "maxDetectedItems" : 100
   },
   {
     "allowExternal" : false,
@@ -3425,15 +3612,11 @@
     "baselineVersion" : "mac-app-20260904-042420",
     "candidateSelector" : "a[href*=\"/about/media-center/press-releases/2026/\"],[data-href*=\"/about/media-center/press-releases/2026/\"],[data-url*=\"/about/media-center/press-releases/2026/\"],[data-link*=\"/about/media-center/press-releases/2026/\"],[onclick*=\"/about/media-center/press-releases/2026/\"]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Sonstiges"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.bain\\.com/about/media-center/press-releases/2026/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Bain",
@@ -3444,9 +3627,7 @@
       "link" : "",
       "title" : ""
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://www.bain.com/about/media-center/press-releases",
     "visualBackup" : {
       "selectors" : {
@@ -3562,20 +3743,17 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-09-04T02:24:26Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-ea00eb6ce343e395"
   },
   {
     "baselineVersion" : "mac-app-20260818-072729",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Institute"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "Mittelstand Digital",
     "priority" : 2,
     "selectors" : {
@@ -3584,11 +3762,10 @@
       "link" : "",
       "title" : ""
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://digitalzentrumhandel.de/aktuelles/",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-3fbff5b0f3b52fe1"
   },
   {
     "allowExternal" : false,
@@ -3596,15 +3773,11 @@
     "baselineVersion" : "mac-app-20260819-045026",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Institute"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.ifo\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Ifo",
@@ -3615,9 +3788,7 @@
       "link" : "a",
       "title" : "h1,h2,h3,h4,h5,h6,[class*=\"headline\" i],[class*=\"heading\" i],[class*=\"title\" i],[class*=\"name\" i],[data-testid*=\"title\" i],strong"
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://www.ifo.de/ifo-startseite",
     "visualBackup" : {
       "selectors" : {
@@ -3654,7 +3825,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:01:53Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-63168d62c3d3a5c3"
   },
   {
     "allowExternal" : false,
@@ -3662,15 +3834,11 @@
     "baselineVersion" : "mac-app-20260818-073218",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Research"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://nielseniq\\.com/global/en/news-center/2026/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Nielseniq",
@@ -3707,7 +3875,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:01:56Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-3b4d077cfd190cbb"
   },
   {
     "allowExternal" : false,
@@ -3715,15 +3884,11 @@
     "baselineVersion" : "mac-app-20260818-073321",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Institute"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.iwh-halle\\.de/presse/pressemitteilungen/detail/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Iwh-halle",
@@ -3760,7 +3925,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:01:59Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-029efb425dd21a52"
   },
   {
     "allowExternal" : false,
@@ -3768,15 +3934,11 @@
     "baselineVersion" : "mac-app-20260818-073414",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Verbände"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://gfu\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Gfu",
@@ -3787,9 +3949,7 @@
       "link" : "a.post-card__link",
       "title" : "h3.post-card__title"
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://gfu.de/pressemitteilungen/",
     "visualBackup" : {
       "selectors" : {
@@ -3812,7 +3972,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:02:02Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-e47d0ee60e79a7e8"
   },
   {
     "allowExternal" : false,
@@ -3820,15 +3981,11 @@
     "baselineVersion" : "mac-app-20260818-073531",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Research"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.ifhkoeln\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Ifhkoeln",
@@ -3839,9 +3996,7 @@
       "link" : "a.oxy-post-title",
       "title" : "a.oxy-post-title"
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://www.ifhkoeln.de/newsroom/pressemitteilungen/",
     "visualBackup" : {
       "selectors" : {
@@ -3864,7 +4019,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:02:05Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-ce9e70954500f828"
   },
   {
     "allowExternal" : false,
@@ -3872,15 +4028,11 @@
     "baselineVersion" : "mac-app-20260818-073645",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Institute"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.zew\\.de/presse/pressearchiv/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Zew",
@@ -3916,7 +4068,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-31T03:43:30Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 6 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-f3985f12770a41ec"
   },
   {
     "allowExternal" : false,
@@ -3924,15 +4077,11 @@
     "baselineVersion" : "mac-app-20260818-074013",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://press\\.aboutamazon\\.com/aws/2026/8/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Amazon US",
@@ -3970,7 +4119,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-09-04T02:23:33Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-c731ab04f352d9b2"
   },
   {
     "allowExternal" : false,
@@ -3978,15 +4128,11 @@
     "baselineVersion" : "mac-app-20260818-074121",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.aboutamazon\\.com/news/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Aboutamazon",
@@ -4023,7 +4169,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:02:14Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 40 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-5de41fa90c58714d"
   },
   {
     "allowExternal" : false,
@@ -4031,15 +4178,11 @@
     "baselineVersion" : "mac-app-20260818-074218",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://over\\.bol\\.com/en/news/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "bol",
@@ -4077,7 +4220,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:02:17Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-4a0926dd52e60011"
   },
   {
     "allowExternal" : false,
@@ -4085,15 +4229,11 @@
     "baselineVersion" : "mac-app-20260818-074337",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://aboutcoolblue\\.com/news/de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "coolblue",
@@ -4130,7 +4270,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:02:21Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-76710ae49ff665dc"
   },
   {
     "allowExternal" : false,
@@ -4138,15 +4279,11 @@
     "baselineVersion" : "mac-app-20260818-074451",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Quartalszahlen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://investors\\.etsy\\.com/news-events/press-releases/detail/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "etsy QZ",
@@ -4183,20 +4320,17 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:02:24Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-32deda08b7cb1d3d"
   },
   {
     "baselineVersion" : "mac-app-20260818-074551",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "Etsy",
     "priority" : 2,
     "selectors" : {
@@ -4205,11 +4339,10 @@
       "link" : "",
       "title" : ""
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://www.etsy.com/news?ref=press_blog_more",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-df3769ae5eb9d873"
   },
   {
     "allowExternal" : false,
@@ -4217,15 +4350,11 @@
     "baselineVersion" : "mac-app-20260818-074811",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://unternehmen\\.kaufland\\.de/presse/newsroom/2026/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Kaufland",
@@ -4262,7 +4391,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:02:43Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-824d896356b1a926"
   },
   {
     "allowExternal" : false,
@@ -4270,15 +4400,11 @@
     "baselineVersion" : "mac-app-20260818-074908",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.shopify\\.com/news/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Shopify",
@@ -4314,7 +4440,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:02:46Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-fbfb03cc2cac4b10"
   },
   {
     "allowExternal" : false,
@@ -4322,15 +4449,11 @@
     "baselineVersion" : "mac-app-20260818-075734",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Quartalszahlen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://corporate\\.zalando\\.com/de/finanzen/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Zalando QZ",
@@ -4367,20 +4490,17 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:02:49Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-553cb068207d01a4"
   },
   {
     "baselineVersion" : "mac-app-20260818-075825",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "Schwarz",
     "priority" : 2,
     "selectors" : {
@@ -4389,24 +4509,19 @@
       "link" : "",
       "title" : ""
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://gruppe.schwarz/en/press?",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-c1c0a709a5786247"
   },
   {
     "baselineVersion" : "mac-app-20260818-080011",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "Schwarz-digits",
     "priority" : 2,
     "selectors" : {
@@ -4419,7 +4534,8 @@
       "Sicherheit"
     ],
     "url" : "https://schwarz-digits.de/presse",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-5b5ceca5c9682084"
   },
   {
     "allowExternal" : false,
@@ -4427,15 +4543,11 @@
     "baselineVersion" : "mac-app-20260818-080345",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.ebayinc\\.com/stories/news/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Ebayinc",
@@ -4475,7 +4587,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:03:00Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-15b135037542f2c3"
   },
   {
     "allowExternal" : false,
@@ -4483,15 +4596,11 @@
     "baselineVersion" : "mac-app-20260818-080512",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Quartalszahlen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://investors\\.ebayinc\\.com/investor-news/press-release-details/2026/[^/?#]+/[^/?#]+\\.aspx/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "eBay QZ",
@@ -4528,7 +4637,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:03:05Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-9b45183be4818871"
   },
   {
     "allowExternal" : false,
@@ -4536,15 +4646,11 @@
     "baselineVersion" : "mac-app-20260818-080636",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.ebayinc\\.com/stories/press-room/de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "eBay DE",
@@ -4555,9 +4661,7 @@
       "link" : "",
       "title" : ""
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://www.ebayinc.com/stories/press-room/de/",
     "visualBackup" : {
       "selectors" : {
@@ -4581,7 +4685,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:03:08Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 7 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-af482dcfb65eaa40"
   },
   {
     "allowExternal" : false,
@@ -4589,15 +4694,11 @@
     "baselineVersion" : "mac-app-20260818-080837",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://mediacenter\\.rewe\\.de/pressemitteilungen/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Rewe",
@@ -4608,9 +4709,7 @@
       "link" : "a.tile",
       "title" : "h2.tile__title"
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://mediacenter.rewe.de/pressemitteilungen",
     "visualBackup" : {
       "selectors" : {
@@ -4634,7 +4733,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:03:11Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 24 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-dca03b70693088ae"
   },
   {
     "allowExternal" : false,
@@ -4642,15 +4742,11 @@
     "baselineVersion" : "mac-app-20260818-081109",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "minTitleLength" : 5,
     "name" : "Walmart",
     "priority" : 2,
@@ -4688,7 +4784,8 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:03:15Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-58bea26b3e8930f9"
   },
   {
     "allowExternal" : false,
@@ -4696,15 +4793,11 @@
     "baselineVersion" : "mac-app-20260818-081236",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://newsroom\\.dm\\.de/pressreleases/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "DM",
@@ -4715,9 +4808,7 @@
       "link" : "",
       "title" : ""
     },
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://newsroom.dm.de/pressreleases/tag/pressemitteilungen",
     "visualBackup" : {
       "selectors" : {
@@ -4741,20 +4832,17 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-08-19T14:03:18Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-fd6e846f7c6683bc"
   },
   {
-    "baselineVersion" : "mac-app-20260818-081322",
+    "baselineVersion" : "reliability-20260904-uber",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "Uber",
     "priority" : 2,
     "selectors" : {
@@ -4770,20 +4858,45 @@
       "Unternehmensstrategie"
     ],
     "url" : "https://investor.uber.com/news-events/default.aspx",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-9ca710b31d1e337a",
+    "visualRuleHistory" : [
+      {
+        "savedAt" : "2026-09-04T05:20:00Z",
+        "label" : "Vor Zuverlaessigkeitsreparatur 5.4.4",
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        }
+      }
+    ],
+    "candidateSelector" : "a[href*=\"/news-events/news/press-release-details/\"]",
+    "includeRegex" : "^https://investor\\.uber\\.com/news-events/news/press-release-details/20\\d{2}/[^?#]+/default\\.aspx(?:\\?[^#]*)?(?:#.*)?$",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T05:20:00Z",
+    "visualRuleVersion" : 3,
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T05:20:00Z",
+    "visualValidationMessage" : "URL-Regel nach Vollpruefung bestaetigt",
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualSampleCount" : 3,
+    "maxDetectedItems" : 100
   },
   {
     "baselineVersion" : "mac-app-20260818-081552",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "DeliveryHero",
     "priority" : 2,
     "selectors" : {
@@ -4796,7 +4909,8 @@
       "Logistik"
     ],
     "url" : "https://ir.deliveryhero.com/de/news",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-8eaaff0f8ff54be6"
   },
   {
     "allowExternal" : false,
@@ -4804,15 +4918,11 @@
     "baselineVersion" : "mac-app-20260818-081745",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Firmen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://company\\.action\\.com/pressreleases/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Action",
@@ -4848,22 +4958,19 @@
     "visualValidated" : true,
     "visualValidatedAt" : "2026-09-04T02:21:39Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "sourceKey" : "src-89cea149987a2a2d"
   },
   {
     "automaticTagging" : true,
     "baselineVersion" : "mac-app-20260818-110356",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Finanzen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "Wero",
     "priority" : 2,
     "selectors" : {
@@ -4873,12 +4980,11 @@
       "title" : ""
     },
     "sourceType" : "auto",
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://epicompany.eu/media-insights/",
     "waitMs" : 2500,
-    "weekdaysOnly" : true
+    "weekdaysOnly" : true,
+    "sourceKey" : "src-b3076904e4e4545a"
   },
   {
     "allowExternal" : false,
@@ -4888,15 +4994,11 @@
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Finanzen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://newsroom\\.paypal-corp\\.com/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "PayPal US",
@@ -4951,7 +5053,8 @@
     "visualValidatedAt" : "2026-08-19T14:03:35Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
     "waitMs" : 2500,
-    "weekdaysOnly" : true
+    "weekdaysOnly" : true,
+    "sourceKey" : "src-036682c8cc9a64e1"
   },
   {
     "allowExternal" : false,
@@ -4961,15 +5064,11 @@
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 30,
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Sonstiges"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://chinaeconomicreview\\.com/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Chinaeconomic",
@@ -4981,9 +5080,7 @@
       "title" : "h3"
     },
     "sourceType" : "auto",
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://chinaeconomicreview.com/",
     "visualBackup" : {
       "selectors" : {
@@ -5022,7 +5119,8 @@
     "visualValidatedAt" : "2026-08-19T14:03:38Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 13 Treffer",
     "waitMs" : 2500,
-    "weekdaysOnly" : true
+    "weekdaysOnly" : true,
+    "sourceKey" : "src-a13fac9fbd87fa19"
   },
   {
     "allowExternal" : false,
@@ -5032,15 +5130,11 @@
     "candidateSelector" : "a[href*=\"/2026/08/\"]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Sonstiges"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://excitingcommerce\\.de/2026/08/[^/?#]+/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Excitingcommerce",
@@ -5052,9 +5146,7 @@
       "title" : "h4"
     },
     "sourceType" : "auto",
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://excitingcommerce.de/",
     "visualBackup" : {
       "selectors" : {
@@ -5104,7 +5196,8 @@
     "visualValidatedAt" : "2026-08-19T14:03:41Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 11 Treffer",
     "waitMs" : 2500,
-    "weekdaysOnly" : true
+    "weekdaysOnly" : true,
+    "sourceKey" : "src-c26d540fafcb0061"
   },
   {
     "allowExternal" : false,
@@ -5114,15 +5207,11 @@
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 60,
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Sonstiges"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://www\\.handelskraft\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Handelskraft",
@@ -5134,9 +5223,7 @@
       "title" : "h2.entry-title"
     },
     "sourceType" : "auto",
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://www.handelskraft.de/",
     "visualBackup" : {
       "selectors" : {
@@ -5204,7 +5291,8 @@
     "visualValidatedAt" : "2026-08-19T14:03:45Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
     "waitMs" : 2500,
-    "weekdaysOnly" : true
+    "weekdaysOnly" : true,
+    "sourceKey" : "src-6c1c923af06aedde"
   },
   {
     "allowExternal" : false,
@@ -5214,15 +5302,11 @@
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 30,
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Finanzen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "includeRegex" : "^https?://demoshops\\.de/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "WERO News",
@@ -5234,9 +5318,7 @@
       "title" : "h2.wp-block-post-title"
     },
     "sourceType" : "auto",
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://demoshops.de/",
     "visualBackup" : {
       "selectors" : {
@@ -5274,22 +5356,19 @@
     "visualValidatedAt" : "2026-08-31T03:40:48Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 2500,
-    "weekdaysOnly" : false
+    "weekdaysOnly" : false,
+    "sourceKey" : "src-2a68fce167742775"
   },
   {
     "automaticTagging" : true,
     "baselineVersion" : "mac-app-20260821-074034",
     "checkIntervalMinutes" : 30,
     "enabled" : false,
-    "excludeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
     "groups" : [
       "Quartalszahlen"
     ],
-    "includeKeywords" : [
-
-    ],
+    "includeKeywords" : [],
     "name" : "TPG QZ",
     "priority" : 2,
     "selectors" : {
@@ -5299,27 +5378,20 @@
       "title" : ""
     },
     "sourceType" : "auto",
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://corporate.the-platform-group.com/publications/",
     "waitMs" : 2500,
-    "weekdaysOnly" : false
+    "weekdaysOnly" : false,
+    "sourceKey" : "src-29d9014e1b396d31"
   },
   {
     "automaticTagging" : true,
     "baselineVersion" : "mac-app-20260902-082207",
     "checkIntervalMinutes" : 30,
     "enabled" : true,
-    "excludeKeywords" : [
-
-    ],
-    "groups" : [
-
-    ],
-    "includeKeywords" : [
-
-    ],
+    "excludeKeywords" : [],
+    "groups" : [],
+    "includeKeywords" : [],
     "name" : "Hahnclassic",
     "priority" : 2,
     "selectors" : {
@@ -5329,11 +5401,10 @@
       "title" : ""
     },
     "sourceType" : "auto",
-    "tags" : [
-
-    ],
+    "tags" : [],
     "url" : "https://www.hahnclassic.de/fahrzeuge",
     "waitMs" : 2500,
-    "weekdaysOnly" : false
+    "weekdaysOnly" : false,
+    "sourceKey" : "src-4e8676d7ff867c65"
   }
 ]

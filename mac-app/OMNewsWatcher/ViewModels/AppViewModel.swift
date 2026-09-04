@@ -9,6 +9,7 @@ import FoundationXML
 struct FeedHistoryItem: Codable, Identifiable, Equatable {
     var guid: String
     var source: String
+    var sourceKey: String? = nil
     var sourceLabel: String?
     var title: String
     var link: String
@@ -275,6 +276,7 @@ struct SourceHealthAuditItem: Codable, Equatable {
 
 struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
     var source: String
+    var sourceKey: String?
     var sourceLabel: String?
     var url: String?
     var enabled: Bool
@@ -304,7 +306,9 @@ struct SourceHealthSnapshot: Codable, Identifiable, Equatable {
     var checkIntervalMinutes: Int?
     var weekdaysOnly: Bool?
 
-    var id: String { source.lowercased() }
+    var id: String {
+        sourceKey ?? [source, url ?? ""].joined(separator: "|").lowercased()
+    }
 
     var effectiveHealthStatus: String {
         if let healthStatus, !healthStatus.isEmpty {
@@ -621,7 +625,13 @@ final class AppViewModel: ObservableObject {
 
     func latestItem(for source: SourceRecord) -> FeedHistoryItem? {
         feedItems
-            .filter { $0.source == source.name }
+            .filter {
+                if let sourceKey = source.sourceKey,
+                   let itemKey = $0.sourceKey {
+                    return itemKey == sourceKey
+                }
+                return $0.source == source.name
+            }
             .max { $0.detectedAt < $1.detectedAt }
     }
 
@@ -911,8 +921,14 @@ final class AppViewModel: ObservableObject {
     }
 
     func health(for source: SourceRecord) -> SourceHealthSnapshot? {
-        healthItems.first {
-            $0.source.caseInsensitiveCompare(source.name) == .orderedSame
+        if let sourceKey = source.sourceKey,
+           let exact = healthItems.first(where: { $0.sourceKey == sourceKey }) {
+            return exact
+        }
+
+        return healthItems.first {
+            $0.source.caseInsensitiveCompare(source.name) == .orderedSame &&
+            ($0.url == nil || normalizedReaderLink($0.url ?? "") == normalizedReaderLink(source.url))
         }
     }
 
@@ -1142,8 +1158,12 @@ final class AppViewModel: ObservableObject {
 
         var bestResult: SourceTestResult?
         var acceptedSource: SourceRecord?
+        var acceptedResult: SourceTestResult?
 
-        for (attemptIndex, variant) in variants.enumerated() {
+        var acceptedURLOnlyFallback = false
+
+        for (attemptIndex, validationVariant) in variants.enumerated() {
+            let variant = validationVariant.rule
             statusMessage = "\(original.name): Validierung \(attemptIndex + 1)/\(variants.count) – \(variant.strategy)"
 
             var candidate = original
@@ -1196,20 +1216,67 @@ final class AppViewModel: ObservableObject {
 
             if result.kind.isSuccessLike,
                result.hitCount >= variant.sampleCount,
-               result.hitCount <= maximumPlausibleCount {
-                candidate.markVisualTrainingValidated(
-                    "Nach Reload bestätigt: \(result.hitCount) Treffer · \(variant.strategy)"
-                )
+               result.hitCount <= maximumPlausibleCount,
+               !result.usedBroadVisualFallback {
+                let validationMessage: String
+                if validationVariant.isURLOnlyFallback {
+                    validationMessage =
+                        "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil"
+                } else {
+                    validationMessage =
+                        "Nach Reload bestätigt: \(result.hitCount) Treffer · \(variant.strategy)"
+                }
+
+                candidate.markVisualTrainingValidated(validationMessage)
                 acceptedSource = candidate
-                bestResult = result
+                acceptedResult = result
+                acceptedURLOnlyFallback = validationVariant.isURLOnlyFallback
                 break
             }
         }
 
         testingSourceID = nil
 
+        // Wenn Browser- und HTML-Reproduktion scheitern, darf das bereits
+        // erzeugte URL-Muster noch direkt an den bewusst markierten
+        // Beispiel-URLs geprüft werden. Gespeichert wird ausschließlich die
+        // bereinigte URL-Variante ohne Karten- oder DOM-Selektoren.
+        if acceptedSource == nil,
+           let validationVariant = variants.first(where: {
+               $0.isURLOnlyFallback &&
+               visualSampleURLsValidate($0.rule, sourceURL: original.url)
+           }) {
+            var candidate = original
+            candidate.applyVisualTrainingRule(validationVariant.rule)
+            candidate.markVisualTrainingValidated(
+                "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil"
+            )
+            acceptedSource = candidate
+            acceptedResult = SourceTestResult(
+                sourceID: sourceID,
+                kind: .noCurrentNews,
+                hitCount: validationVariant.rule.sampleCount,
+                examples: validationVariant.rule.preview.prefix(
+                    validationVariant.rule.sampleCount
+                ).map {
+                    SourceTestHit(
+                        title: $0.title,
+                        url: $0.url,
+                        publicationDate: $0.date
+                    )
+                },
+                eligibleCount: 0,
+                eligibleExamples: [],
+                message:
+                    "URL-Regel anhand der markierten Beispiel-URLs gespeichert; " +
+                    "die Kartenstruktur war nach Reload nicht stabil.",
+                testedAt: Date()
+            )
+            acceptedURLOnlyFallback = true
+        }
+
         guard let candidate = acceptedSource,
-              let result = bestResult
+              let result = acceptedResult
         else {
             if let bestResult {
                 testResults[sourceID] = bestResult
@@ -1217,7 +1284,7 @@ final class AppViewModel: ObservableObject {
 
             errorMessage =
                 "Die neue Einlernregel wurde nicht gespeichert. " +
-                "Die App hat URL-Muster und Kartenstruktur nach einem vollständigen Neuladen geprüft, " +
+                "Die App hat URL-Muster, markierte Beispiel-URLs und Kartenstruktur nach einem vollständigen Neuladen geprüft, " +
                 "konnte die markierten Beispiele aber nicht stabil reproduzieren. " +
                 "Die vorherige Regel bleibt unverändert."
 
@@ -1228,16 +1295,21 @@ final class AppViewModel: ObservableObject {
         sources[index] = candidate
         testResults[sourceID] = result
         isDirty = true
-        statusMessage = "\(original.name): Einlernregel validiert – bitte speichern"
+        statusMessage = acceptedURLOnlyFallback
+            ? "\(original.name): URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil – bitte speichern"
+            : "\(original.name): Einlernregel validiert – bitte speichern"
     }
 
     private func visualValidationVariants(
         for rule: VisualTrainingRule
-    ) -> [VisualTrainingRule] {
-        var values: [VisualTrainingRule] = []
+    ) -> [(rule: VisualTrainingRule, isURLOnlyFallback: Bool)] {
+        var values: [(rule: VisualTrainingRule, isURLOnlyFallback: Bool)] = []
         var signatures = Set<String>()
 
-        func append(_ value: VisualTrainingRule) {
+        func append(
+            _ value: VisualTrainingRule,
+            isURLOnlyFallback: Bool = false
+        ) {
             let signature = [
                 value.itemSelector,
                 value.titleSelector,
@@ -1247,16 +1319,17 @@ final class AppViewModel: ObservableObject {
             ].joined(separator: "|")
 
             guard signatures.insert(signature).inserted else { return }
-            values.append(value)
+            values.append((value, isURLOnlyFallback))
         }
 
         // Die vom Trainer vorgeschlagene vollständige Regel hat Vorrang.
         // Bei schwierigen Seiten ist das häufig "Kartenstruktur + URL-Muster".
         append(rule)
 
-        // Danach darf eine reine URL-Regel als Fallback getestet werden.
-        // Durch die Plausibilitätsgrenze in der Validierung kann ein Sprung
-        // von z. B. 5 erwarteten auf 40 Links nicht mehr als Erfolg gelten.
+        // Wenn die Kartenstruktur nach Reload nicht reproduzierbar ist,
+        // wird dieselbe URL-Regel ohne Karten- oder DOM-Selektoren geprüft.
+        // SourceTester verwendet dann seinen allgemeinen Linkscan und wendet
+        // weiterhin URL-Muster und Sample-URL-Formprüfung an.
         if let regex = rule.urlRegex, !regex.isEmpty {
             append(
                 VisualTrainingRule(
@@ -1264,7 +1337,7 @@ final class AppViewModel: ObservableObject {
                     titleSelector: "",
                     linkSelector: "",
                     dateSelector: nil,
-                    candidateSelector: rule.candidateSelector,
+                    candidateSelector: "",
                     urlRegex: regex,
                     allowExternal: rule.allowExternal,
                     sampleCount: rule.sampleCount,
@@ -1272,54 +1345,72 @@ final class AppViewModel: ObservableObject {
                     preview: rule.preview,
                     strategy: "URL-Muster",
                     sampleURLs: rule.sampleURLs
-                )
-            )
-
-            // Reload-sicherer Fallback:
-            // Nicht mehr von einem href*-CSS-Selector abhängig sein.
-            // Alle klickbaren Ziele werden gelesen und anschließend erst
-            // durch das aus den markierten Beispielen abgeleitete URL-Muster
-            // eingegrenzt.
-            append(
-                VisualTrainingRule(
-                    itemSelector: "",
-                    titleSelector: "",
-                    linkSelector: "",
-                    dateSelector: nil,
-                    candidateSelector:
-                        "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
-                    urlRegex: regex,
-                    allowExternal: rule.allowExternal,
-                    sampleCount: rule.sampleCount,
-                    previewCount: rule.previewCount,
-                    preview: rule.preview,
-                    strategy: "URL-Muster (reload-sicher)",
-                    sampleURLs: rule.sampleURLs
-                )
-            )
-        }
-
-        // Struktur-only bleibt der letzte Fallback.
-        if !rule.itemSelector.isEmpty {
-            append(
-                VisualTrainingRule(
-                    itemSelector: rule.itemSelector,
-                    titleSelector: rule.titleSelector,
-                    linkSelector: rule.linkSelector,
-                    dateSelector: rule.dateSelector,
-                    candidateSelector: rule.candidateSelector,
-                    urlRegex: nil,
-                    allowExternal: rule.allowExternal,
-                    sampleCount: rule.sampleCount,
-                    previewCount: rule.previewCount,
-                    preview: rule.preview,
-                    strategy: "Kartenstruktur",
-                    sampleURLs: rule.sampleURLs
-                )
+                ),
+                isURLOnlyFallback: true
             )
         }
 
         return values
+    }
+
+    private func visualSampleURLsValidate(
+        _ rule: VisualTrainingRule,
+        sourceURL: String
+    ) -> Bool {
+        guard let pattern = rule.urlRegex,
+              !pattern.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
+              rule.sampleCount >= 2,
+              rule.sampleURLs.count >= rule.sampleCount,
+              let regex = try? NSRegularExpression(
+                  pattern: pattern,
+                  options: [.caseInsensitive]
+              )
+        else {
+            return false
+        }
+
+        let sampleURLs = Array(rule.sampleURLs.prefix(rule.sampleCount))
+        let allMatchExactly = sampleURLs.allSatisfy { value in
+            let range = NSRange(value.startIndex..<value.endIndex, in: value)
+            guard let match = regex.firstMatch(
+                in: value,
+                options: [],
+                range: range
+            ) else {
+                return false
+            }
+            return match.range == range
+        }
+
+        guard allMatchExactly else { return false }
+
+        let parsed = sampleURLs.compactMap(URL.init(string:))
+        guard parsed.count == sampleURLs.count else { return false }
+
+        let hosts = Set(parsed.compactMap { $0.host?.lowercased() })
+        guard hosts.count == 1, let sampleHost = hosts.first else {
+            return false
+        }
+
+        if !rule.allowExternal {
+            guard let sourceHost = URL(string: sourceURL)?.host?.lowercased(),
+                  sampleHost == sourceHost ||
+                    sampleHost.hasSuffix(".\(sourceHost)") ||
+                    sourceHost.hasSuffix(".\(sampleHost)")
+            else {
+                return false
+            }
+        }
+
+        let pathParts = parsed.map {
+            $0.path.split(separator: "/").map(String.init)
+        }
+        guard pathParts.allSatisfy({ $0.count >= 2 }) else {
+            return false
+        }
+
+        let leaves = Set(pathParts.compactMap { $0.last?.lowercased() })
+        return leaves.count >= 2
     }
 
     func restorePreviousRule(for sourceID: UUID) {
@@ -1565,11 +1656,30 @@ final class AppViewModel: ObservableObject {
     }
 
     private func executeTest(_ source: SourceRecord) async -> SourceTestResult {
-        let tester = SourceTester()
-        activeTester = tester
-        let result = await tester.test(source)
+        let firstTester = SourceTester()
+        activeTester = firstTester
+        let first = await firstTester.test(source)
         activeTester = nil
-        return result
+
+        guard first.kind == .zeroHits ||
+              first.kind == .timeout ||
+              first.kind == .technicalError
+        else {
+            return first
+        }
+
+        try? await Task.sleep(for: .milliseconds(500))
+
+        let retryTester = SourceTester()
+        activeTester = retryTester
+        let retry = await retryTester.test(source)
+        activeTester = nil
+
+        if retry.kind.isSuccessLike || retry.hitCount > first.hitCount {
+            return retry
+        }
+
+        return first
     }
 
     private func updateVisualValidationAfterTest(

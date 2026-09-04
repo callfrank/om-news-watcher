@@ -137,6 +137,7 @@ struct SourceTestResult: Identifiable, Equatable {
     let testedAt: Date
     let repairProposal: SourceRepairProposal?
     let durationMs: Int
+    let usedBroadVisualFallback: Bool
 
     init(
         sourceID: UUID,
@@ -149,7 +150,8 @@ struct SourceTestResult: Identifiable, Equatable {
         message: String,
         testedAt: Date,
         repairProposal: SourceRepairProposal? = nil,
-        durationMs: Int = 0
+        durationMs: Int = 0,
+        usedBroadVisualFallback: Bool = false
     ) {
         self.sourceID = sourceID
         self.kind = kind
@@ -162,6 +164,7 @@ struct SourceTestResult: Identifiable, Equatable {
         self.testedAt = testedAt
         self.repairProposal = repairProposal
         self.durationMs = durationMs
+        self.usedBroadVisualFallback = usedBroadVisualFallback
     }
 
     func withDuration(_ milliseconds: Int) -> SourceTestResult {
@@ -176,7 +179,8 @@ struct SourceTestResult: Identifiable, Equatable {
             message: message,
             testedAt: testedAt,
             repairProposal: repairProposal,
-            durationMs: milliseconds
+            durationMs: milliseconds,
+            usedBroadVisualFallback: usedBroadVisualFallback
         )
     }
 
