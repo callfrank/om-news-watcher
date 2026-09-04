@@ -13,6 +13,11 @@ on:
           - 'true'
   schedule:
     - cron: '5 * * * *'
+  workflow_run:
+    workflows:
+      - OM News Watcher
+    types:
+      - completed
 
 permissions:
   contents: write
@@ -24,6 +29,9 @@ concurrency:
 
 jobs:
   notify:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
