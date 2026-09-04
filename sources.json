@@ -6275,5 +6275,77 @@
     "url" : "https://ir.jd.com/",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-080638",
+    "candidateSelector" : "a[href*=\"/investor-news/press-release-details/2026/\"],[data-href*=\"/investor-news/press-release-details/2026/\"],[data-url*=\"/investor-news/press-release-details/2026/\"],[data-link*=\"/investor-news/press-release-details/2026/\"],[onclick*=\"/investor-news/press-release-details/2026/\"]",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://investor\\.atmeta\\.com/investor-news/press-release-details/2026/[^/?#]+/[^/?#]+\\.aspx/?(?:\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Meta QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "e570b06e-f24a-45ea-a7b2-12f32fa2ed1d",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://investor.atmeta.com/home/default.aspx",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T06:06:38Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T06:06:38Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://investor.atmeta.com/investor-news/press-release-details/2026/Metas-Agreement-With-Bipartisan-Attorneys-General-Calling-on-TikTok-and-YouTube-to-Join-Us-in-Supporting-Teens/default.aspx",
+      "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-New-Strategic-Venture-with-BlackRock-to-Develop-Data-Center-in-El-Paso/default.aspx"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T06:06:45Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · URL-Muster",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
