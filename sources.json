@@ -6494,5 +6494,36 @@
     ],
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-081512",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Baidu QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "0b16875f-ed8a-4824-948a-653a40b8121b",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://ir.baidu.com/",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
