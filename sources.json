@@ -2884,10 +2884,10 @@
     "waitMs" : 2500
   },
   {
-    "allowExternal" : true,
+    "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260819-160836",
-    "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+    "baselineVersion" : "mac-app-20260904-070414",
+    "candidateSelector" : "a[href*=\"/press/\"],[data-href*=\"/press/\"],[data-url*=\"/press/\"],[data-link*=\"/press/\"],[onclick*=\"/press/\"]",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -2921,8 +2921,37 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-08-19T14:08:36Z",
+    "visualLearnedAt" : "2026-09-04T05:04:14Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : true,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "span.date",
+            "item" : "div.box",
+            "link" : "a",
+            "title" : "h3"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-08-19T14:08:36Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 2,
+          "visualSampleURLs" : [
+            "https://www.hr-sinfonieorchester.de/konzerte/konzerte-26-27/allgemeine-hinweise-europa-open-air-2026-v1,europa-open-air-2026--hinweise-100.html",
+            "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "Kartenstruktur + URL-Muster",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-09-04T05:03:30Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-09-04T05:04:14Z"
+      },
       {
         "configuration" : {
           "selectors" : {
@@ -2937,16 +2966,17 @@
       }
     ],
     "visualRuleVersion" : 3,
-    "visualSampleCount" : 2,
+    "visualSampleCount" : 3,
     "visualSampleURLs" : [
-      "https://www.hr-sinfonieorchester.de/konzerte/konzerte-26-27/allgemeine-hinweise-europa-open-air-2026-v1,europa-open-air-2026--hinweise-100.html",
-      "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html"
+      "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
+      "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260902~4ea10b9f9a.en.html",
+      "https://www.ecb.europa.eu/press/tvservices/podcast/html/index.en.html#new"
     ],
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-31T03:50:57Z",
-    "visualValidationMessage" : "Nach Reload bestätigt: 2 Treffer",
+    "visualValidatedAt" : "2026-09-04T05:04:19Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 9 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500
   },
   {
