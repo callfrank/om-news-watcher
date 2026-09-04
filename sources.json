@@ -5868,5 +5868,75 @@
     "visualValidationMessage" : "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "allowExternal" : true,
+    "allowTitleOnly" : false,
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-074748",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://cdn\\.sea\\.com/investor/[^/?#]+/[^/?#]+/[^/?#]+\\.pdf/?(?:\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Sea Ltd. QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "119c47b8-2de5-46eb-9009-6eb2ab2a139a",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://www.sea.com/investor/home",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T05:47:48Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T05:47:48Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://cdn.sea.com/investor/2Q2026/wFBC39MbqnfLb3MGY6LP/2026.08.11%20Sea%20Second%20Quarter%202026%20Results.pdf",
+      "https://cdn.sea.com/investor/1Q2026/HEEdeRDe0NyiZ1PrWIvH/2026.05.12%20Sea%20First%20Quarter%202026%20Results.pdf"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T05:47:48Z",
+    "visualValidationMessage" : "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
