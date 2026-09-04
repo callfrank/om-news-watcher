@@ -4231,7 +4231,7 @@
     "includeRegex" : "^https?://www\\.zew\\.de/presse/pressearchiv/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Zew",
-    "priority" : 2,
+    "priority" : 3,
     "selectors" : {
       "date" : "",
       "item" : "",
@@ -4240,7 +4240,9 @@
     },
     "sourceKey" : "src-f3985f12770a41ec",
     "tags" : [
-      "Studien & Marktdaten"
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
     ],
     "url" : "https://www.zew.de/presse",
     "visualBackup" : {
@@ -4262,9 +4264,10 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-31T03:43:30Z",
+    "visualValidatedAt" : "2026-09-04T06:37:56Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 6 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   },
   {
     "allowExternal" : false,
