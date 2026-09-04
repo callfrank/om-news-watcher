@@ -14958,7 +14958,11 @@
     "src-2a68fce167742775": "32 Treffer; deutlich über dem üblichen Niveau 6",
     "src-8d7a4dfc95d50e42": "Abruf fehlgeschlagen: fetch failed",
     "src-9270afe2506b625b": "Abruf fehlgeschlagen: HTTP 403",
-    "src-4e8676d7ff867c65": "31 Treffer; deutlich über dem üblichen Niveau 1"
+    "src-4e8676d7ff867c65": "31 Treffer; deutlich über dem üblichen Niveau 1",
+    "src-6f65565f4749a295": "0 Treffer; zuletzt typischerweise 7",
+    "src-ba300714de43cc5d": "0 Treffer; zuletzt typischerweise 9",
+    "src-51390123dcbdb93e": "1 Treffer; deutlich unter dem üblichen Niveau 12",
+    "src-3fbff5b0f3b52fe1": "1 Treffer; deutlich unter dem üblichen Niveau 12"
   },
   "deliveredBySource": {
     "Onlinemarktplatz": [
@@ -16885,8 +16889,8 @@
     "src-af482dcfb65eaa40": [
       "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
       "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
-      "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
       "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
+      "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
       "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
@@ -18416,6 +18420,24 @@
     }
   },
   "lastStoredBySource": {
+    "src-4e8676d7ff867c65": {
+      "title": "PorschePorsche 911 Carrera 4 S Coupé (996 II)",
+      "link": "https://hahnclassic.de/porsche-911-carrera-4-s-coupe-996-ii",
+      "pageDate": null,
+      "publishedAt": null,
+      "detectedAt": "2026-09-04T04:40:08.144Z",
+      "deliveredAt": "2026-09-04T04:40:08.144Z",
+      "recovered": false
+    },
+    "src-af482dcfb65eaa40": {
+      "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
+      "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
+      "pageDate": "03.09.2026",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "detectedAt": "2026-09-04T04:40:08.126Z",
+      "deliveredAt": "2026-09-04T04:40:08.126Z",
+      "recovered": true
+    },
     "src-2a68fce167742775": {
       "title": "Zwei-Faktor-Authentifizierung (2FA)",
       "link": "https://demoshops.de/zwei-faktor-authentifizierung-2fa/",
@@ -18442,15 +18464,6 @@
       "detectedAt": "2026-09-04T04:09:41.508Z",
       "deliveredAt": "2026-09-04T04:09:41.508Z",
       "recovered": false
-    },
-    "src-af482dcfb65eaa40": {
-      "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
-      "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
-      "pageDate": "03.09.2026",
-      "publishedAt": "2026-09-03T12:00:00.000Z",
-      "detectedAt": "2026-09-04T04:40:08.126Z",
-      "deliveredAt": "2026-09-04T04:40:08.126Z",
-      "recovered": true
     },
     "src-ce9e70954500f828": {
       "title": "Lebensmittelkauf: Stationär bleibt erste Wahl",
@@ -19017,15 +19030,6 @@
       "publishedAt": null,
       "detectedAt": "2026-08-14T14:03:09.164Z",
       "deliveredAt": "2026-08-14T14:03:09.164Z",
-      "recovered": false
-    },
-    "src-4e8676d7ff867c65": {
-      "title": "PorschePorsche 911 Carrera 4 S Coupé (996 II)",
-      "link": "https://hahnclassic.de/porsche-911-carrera-4-s-coupe-996-ii",
-      "pageDate": null,
-      "publishedAt": null,
-      "detectedAt": "2026-09-04T04:40:08.144Z",
-      "deliveredAt": "2026-09-04T04:40:08.144Z",
       "recovered": false
     }
   },
