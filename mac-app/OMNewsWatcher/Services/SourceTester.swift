@@ -384,7 +384,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                     message:
                         "\(count) technisch plausible Artikel erkannt; " +
                         "\(eligible.count) würden aktuell in den Reader gelangen.",
-                    testedAt: Date()
+                    testedAt: Date(),
+                    usedBroadVisualFallback: usedBroadVisualFallback
                 )
             }
 
@@ -407,7 +408,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
                     ? "\(count) technisch plausible Treffer erkannt; \(eligible.count) wären aktuell Reader-fähig. Die Struktur sollte geprüft werden."
                     : "\(count) Treffer erkannt. Ein strukturell passenderer Artikelbereich wurde gefunden.",
                 testedAt: Date(),
-                repairProposal: repair
+                repairProposal: repair,
+                usedBroadVisualFallback: usedBroadVisualFallback
             )
         }
 
@@ -444,7 +446,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             eligibleExamples: eligibleExamples,
             rejectedExamples: rejectedExamples,
             message: message,
-            testedAt: Date()
+            testedAt: Date(),
+            usedBroadVisualFallback: usedBroadVisualFallback
         )
     }
 
