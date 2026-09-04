@@ -5668,7 +5668,7 @@
     "allowExternal" : true,
     "allowTitleOnly" : false,
     "automaticTagging" : true,
-    "baselineVersion" : "mac-app-20260904-061052",
+    "baselineVersion" : "mac-app-20260904-081909",
     "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
     "checkIntervalMinutes" : 30,
     "enabled" : true,
@@ -5705,8 +5705,38 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-09-04T04:10:52Z",
+    "visualLearnedAt" : "2026-09-04T06:19:09Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : true,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "div.card--body",
+            "link" : "a",
+            "title" : "h3"
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-09-04T04:10:52Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 3,
+          "visualSampleURLs" : [
+            "https://hahnclassic.de/porsche-911-carrera-4-s-coupe-996-ii",
+            "https://hahnclassic.de/preview.php/porsche-911-carrera-cabriolet-g-modell-ii-3",
+            "https://hahnclassic.de/porsche-911-speedster"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "Kartenstruktur + URL-Muster",
+          "visualValidated" : true,
+          "visualValidatedAt" : "2026-09-04T04:10:58Z",
+          "visualValidationMessage" : "Nach Reload bestätigt: 31 Treffer · Kartenstruktur + URL-Muster"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-09-04T06:19:09Z"
+      },
       {
         "configuration" : {
           "selectors" : {
@@ -5730,7 +5760,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-09-04T04:10:58Z",
+    "visualValidatedAt" : "2026-09-04T06:19:15Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 31 Treffer · Kartenstruktur + URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : false
