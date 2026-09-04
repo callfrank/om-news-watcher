@@ -5797,5 +5797,76 @@
     "url" : "https://investor.paypal-corp.com/home/",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-074600",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://investors\\.global-e\\.com/news-releases/news-release-details/[^/?#]+/?(?:\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Global-e QU",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "66a05c3b-dc32-4a76-92b1-2cb74e652cdb",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://investors.global-e.com/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T05:46:00Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T05:46:00Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://investors.global-e.com/news-releases/news-release-details/global-e-announce-financial-results-second-quarter-2026-august",
+      "https://investors.global-e.com/news-releases/news-release-details/global-e-achieves-significant-gmv-revenue-and-profit-expansion",
+      "https://investors.global-e.com/news-releases/news-release-details/global-e-closes-acquisition-passport-us-based-e-commerce"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T05:46:00Z",
+    "visualValidationMessage" : "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
