@@ -6143,5 +6143,36 @@
     "url" : "https://investors.ups.com/",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-080124",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Shein QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "82cd114d-78c9-4305-aed9-d0c5aee42e82",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://ir.sheingroup.com/press-releases",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
