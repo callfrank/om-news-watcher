@@ -3762,7 +3762,7 @@
   {
     "allowExternal" : false,
     "allowTitleOnly" : false,
-    "baselineVersion" : "mac-app-20260904-042420",
+    "baselineVersion" : "mac-app-20260904-084303",
     "candidateSelector" : "a[href*=\"/about/media-center/press-releases/2026/\"],[data-href*=\"/about/media-center/press-releases/2026/\"],[data-url*=\"/about/media-center/press-releases/2026/\"],[data-link*=\"/about/media-center/press-releases/2026/\"],[onclick*=\"/about/media-center/press-releases/2026/\"]",
     "enabled" : true,
     "excludeKeywords" : [
@@ -3774,7 +3774,7 @@
     "includeKeywords" : [
 
     ],
-    "includeRegex" : "^https?://www\\.bain\\.com/about/media-center/press-releases/2026/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+    "includeRegex" : "^https?://www\\.bain\\.com/about/media-center/press-releases/2026/[^/?#]+/?(?:\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Bain",
     "priority" : 2,
@@ -3798,8 +3798,38 @@
       }
     },
     "visualLearned" : true,
-    "visualLearnedAt" : "2026-09-04T02:24:20Z",
+    "visualLearnedAt" : "2026-09-04T06:43:03Z",
     "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowExternal" : false,
+          "allowTitleOnly" : false,
+          "candidateSelector" : "a[href*=\"/about/media-center/press-releases/2026/\"],[data-href*=\"/about/media-center/press-releases/2026/\"],[data-url*=\"/about/media-center/press-releases/2026/\"],[data-link*=\"/about/media-center/press-releases/2026/\"],[onclick*=\"/about/media-center/press-releases/2026/\"]",
+          "includeRegex" : "^https?://www\\.bain\\.com/about/media-center/press-releases/2026/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
+          "minTitleLength" : 5,
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          },
+          "visualLearned" : true,
+          "visualLearnedAt" : "2026-09-04T02:24:20Z",
+          "visualRuleVersion" : 3,
+          "visualSampleCount" : 2,
+          "visualSampleURLs" : [
+            "https://www.bain.com/about/media-center/press-releases/2026/us-holiday-retail-sales-set-to-outpace-last-years-seasonal-growth-performance-to-exceed-$1-trillion-for-the-first-timebain--company-forecasts/",
+            "https://www.bain.com/about/media-center/press-releases/2026/bain-company-announces-partnership-with-anthropic-to-accelerate-clients-enterprise-ai-transformations/"
+          ],
+          "visualSmartExtraction" : true,
+          "visualStrategy" : "URL-Muster",
+          "visualValidated" : false,
+          "visualValidatedAt" : "2026-09-04T02:24:26Z",
+          "visualValidationMessage" : "Einlernregel nach Reload ungültig: Keine Treffer"
+        },
+        "label" : "Vor neuem visuellen Einlernen",
+        "savedAt" : "2026-09-04T06:43:03Z"
+      },
       {
         "configuration" : {
           "allowExternal" : false,
@@ -3901,7 +3931,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-09-04T02:24:26Z",
+    "visualValidatedAt" : "2026-09-04T06:43:09Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 12 Treffer · URL-Muster",
     "waitMs" : 2500
   },
