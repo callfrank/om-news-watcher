@@ -6112,5 +6112,36 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-075831",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "UPS QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://investors.ups.com/",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
