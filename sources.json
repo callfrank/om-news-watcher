@@ -4072,7 +4072,7 @@
     "includeRegex" : "^https?://www\\.iwh-halle\\.de/presse/pressemitteilungen/detail/[^/?#]+/?(?:\\\\?[^#]*)?(?:#.*)?$",
     "minTitleLength" : 5,
     "name" : "Iwh-halle",
-    "priority" : 2,
+    "priority" : 3,
     "selectors" : {
       "date" : "",
       "item" : "",
@@ -4104,9 +4104,10 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-19T14:01:59Z",
+    "visualValidatedAt" : "2026-09-04T06:40:55Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 10 Treffer",
-    "waitMs" : 2500
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   },
   {
     "allowExternal" : false,
