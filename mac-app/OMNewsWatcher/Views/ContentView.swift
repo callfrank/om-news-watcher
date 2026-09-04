@@ -3151,6 +3151,7 @@ struct ReaderView: View {
     @State private var minimumPriority = 1
     @State private var layoutMode: ReaderLayoutMode = .compact
     @State private var folderBasis: ReaderFolderBasis = .inbox
+    @State private var showFilters = false
     @State private var showWebPreview = false
     @State private var markReadTask: Task<Void, Never>?
     @State private var previousReaderVisit: Date?
@@ -3234,13 +3235,6 @@ struct ReaderView: View {
             markReadTask?.cancel()
         }
         .toolbar {
-            ToolbarItem(placement: .cancellationAction) {
-                Button("Schließen") {
-                    NSApp.keyWindow?.close()
-                }
-                .keyboardShortcut("w", modifiers: [.command])
-            }
-
             ToolbarItemGroup {
                 Picker("Ansicht", selection: $layoutMode) {
                     ForEach(ReaderLayoutMode.allCases) { mode in
@@ -3249,23 +3243,23 @@ struct ReaderView: View {
                     }
                 }
                 .pickerStyle(.segmented)
-                .frame(width: 190)
+                .labelStyle(.iconOnly)
+                .frame(width: 96)
                 .help("Zwischen kompakter Feed-Liste und Detailansicht wechseln")
 
                 Button {
-                    NSApp.keyWindow?.toggleFullScreen(nil)
+                    showFilters.toggle()
                 } label: {
-                    Label("Vollbild", systemImage: "arrow.up.left.and.arrow.down.right")
+                    Label(
+                        activeFilterCount > 0
+                            ? "Filter (\(activeFilterCount))"
+                            : "Filter",
+                        systemImage: activeFilterCount > 0
+                            ? "line.3.horizontal.decrease.circle.fill"
+                            : "line.3.horizontal.decrease.circle"
+                    )
                 }
-                .keyboardShortcut("f", modifiers: [.command, .control])
-                .help("Reader im Vollbild anzeigen (⌃⌘F)")
-
-                Button {
-                    model.readerMarkAllRead(filteredItems)
-                } label: {
-                    Label("Alle gelesen", systemImage: "checkmark.circle")
-                }
-                .disabled(filteredItems.isEmpty)
+                .help(showFilters ? "Filter ausblenden" : "Filter anzeigen")
 
                 Button {
                     Task { await model.reloadAll() }
@@ -3274,19 +3268,40 @@ struct ReaderView: View {
                 }
                 .disabled(model.isBusy)
 
-                Picker("Sortierung", selection: $sort) {
-                    ForEach(ReaderSort.allCases) { value in
-                        Text(value.title).tag(value)
+                Menu {
+                    Button {
+                        model.readerMarkAllRead(filteredItems)
+                    } label: {
+                        Label("Alle sichtbaren als gelesen markieren", systemImage: "checkmark.circle")
                     }
+                    .disabled(filteredItems.isEmpty)
+
+                    Divider()
+
+                    Picker("Sortierung", selection: $sort) {
+                        ForEach(ReaderSort.allCases) { value in
+                            Text(value.title).tag(value)
+                        }
+                    }
+
+                    Divider()
+
+                    Button {
+                        NSApp.keyWindow?.toggleFullScreen(nil)
+                    } label: {
+                        Label("Vollbild", systemImage: "arrow.up.left.and.arrow.down.right")
+                    }
+                    .keyboardShortcut("f", modifiers: [.command, .control])
+                } label: {
+                    Label("Weitere Aktionen", systemImage: "ellipsis.circle")
                 }
-                .frame(width: 125)
             }
         }
     }
 
     private var readerSidebar: some View {
         List(selection: $scope) {
-            Section("Reader") {
+            Section("Postfach") {
                 ReaderSidebarRow(
                     title: "Neu & relevant",
                     systemImage: "sparkles.rectangle.stack.fill",
@@ -3301,6 +3316,27 @@ struct ReaderView: View {
                 )
                 .tag(ReaderScope.inbox)
 
+                ReaderSidebarRow(
+                    title: "Favoriten",
+                    systemImage: "star.fill",
+                    count: model.readerItems.filter {
+                        model.readerIsFavorite($0) &&
+                        !model.readerIsArchived($0)
+                    }.count
+                )
+                .tag(ReaderScope.favorites)
+
+                ReaderSidebarRow(
+                    title: "Archiv",
+                    systemImage: "archivebox",
+                    count: model.readerItems.filter {
+                        model.readerIsArchived($0)
+                    }.count
+                )
+                .tag(ReaderScope.archive)
+            }
+
+            Section("Ansichten") {
                 ReaderSidebarRow(
                     title: "Seit letztem Besuch",
                     systemImage: "clock.badge.checkmark",
@@ -3321,25 +3357,6 @@ struct ReaderView: View {
                     count: model.readerActiveAllCount()
                 )
                 .tag(ReaderScope.all)
-
-                ReaderSidebarRow(
-                    title: "Favoriten",
-                    systemImage: "star.fill",
-                    count: model.readerItems.filter {
-                        model.readerIsFavorite($0) &&
-                        !model.readerIsArchived($0)
-                    }.count
-                )
-                .tag(ReaderScope.favorites)
-
-                ReaderSidebarRow(
-                    title: "Archiv",
-                    systemImage: "archivebox",
-                    count: model.readerItems.filter {
-                        model.readerIsArchived($0)
-                    }.count
-                )
-                .tag(ReaderScope.archive)
             }
 
             if !model.allGroups.isEmpty {
@@ -3385,14 +3402,17 @@ struct ReaderView: View {
             .padding(.top, 12)
             .padding(.bottom, 9)
 
-            ReaderFilterBar(
-                sources: sourceChoices,
-                tags: tagChoices,
-                selectedSource: $selectedSource,
-                selectedTag: $selectedTag,
-                minimumPriority: $minimumPriority,
-                dateRange: $dateRange
-            )
+            if showFilters {
+                ReaderFilterBar(
+                    sources: sourceChoices,
+                    tags: tagChoices,
+                    selectedSource: $selectedSource,
+                    selectedTag: $selectedTag,
+                    minimumPriority: $minimumPriority,
+                    dateRange: $dateRange
+                )
+                .transition(.move(edge: .top).combined(with: .opacity))
+            }
 
             if filteredItems.isEmpty {
                 ContentUnavailableView(
@@ -3407,17 +3427,25 @@ struct ReaderView: View {
             } else {
                 List {
                     ForEach(filteredItems) { item in
-                        Button {
-                            model.openFeedItem(item)
-                            model.readerMarkRead(item)
-                        } label: {
-                            ReaderCompactItemRow(
-                                item: item,
-                                isRead: model.readerIsRead(item),
-                                isFavorite: model.readerIsFavorite(item)
-                            )
-                        }
-                        .buttonStyle(.plain)
+                        ReaderCompactItemRow(
+                            item: item,
+                            isRead: model.readerIsRead(item),
+                            isFavorite: model.readerIsFavorite(item),
+                            isArchived: model.readerIsArchived(item),
+                            onOpen: {
+                                model.openFeedItem(item)
+                                model.readerMarkRead(item)
+                            },
+                            onToggleRead: {
+                                model.readerToggleRead(item)
+                            },
+                            onToggleFavorite: {
+                                model.readerToggleFavorite(item)
+                            },
+                            onToggleArchive: {
+                                model.readerToggleArchive(item)
+                            }
+                        )
                         .contextMenu {
                             Button(
                                 model.readerIsRead(item)
@@ -3450,38 +3478,10 @@ struct ReaderView: View {
                                 model.readerMarkRead(item)
                             }
                         }
-                        .help("Artikel im Browser öffnen")
                     }
                 }
                 .listStyle(.inset)
             }
-
-            Divider()
-
-            HStack(spacing: 12) {
-                Button {
-                    model.readerMarkAllRead(filteredItems)
-                } label: {
-                    Label("Alle als gelesen markieren", systemImage: "checkmark.circle")
-                }
-                .disabled(filteredItems.isEmpty)
-
-                Button {
-                    Task { await model.reloadAll() }
-                } label: {
-                    Label("Aktualisieren", systemImage: "arrow.clockwise")
-                }
-                .disabled(model.isBusy)
-
-                Spacer()
-
-                Text("Klick auf eine Meldung öffnet den Artikel im Browser")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-            }
-            .padding(.horizontal, 14)
-            .padding(.vertical, 9)
-            .background(.bar)
         }
         .navigationTitle(scopeTitle)
         .onChange(of: scope) { _, _ in
@@ -3506,14 +3506,17 @@ struct ReaderView: View {
 
     private var readerList: some View {
         VStack(spacing: 0) {
-            ReaderFilterBar(
-                sources: sourceChoices,
-                tags: tagChoices,
-                selectedSource: $selectedSource,
-                selectedTag: $selectedTag,
-                minimumPriority: $minimumPriority,
-                dateRange: $dateRange
-            )
+            if showFilters {
+                ReaderFilterBar(
+                    sources: sourceChoices,
+                    tags: tagChoices,
+                    selectedSource: $selectedSource,
+                    selectedTag: $selectedTag,
+                    minimumPriority: $minimumPriority,
+                    dateRange: $dateRange
+                )
+                .transition(.move(edge: .top).combined(with: .opacity))
+            }
 
             if filteredItems.isEmpty {
                 ContentUnavailableView(
@@ -3527,7 +3530,17 @@ struct ReaderView: View {
                         ReaderItemRow(
                             item: item,
                             isRead: model.readerIsRead(item),
-                            isFavorite: model.readerIsFavorite(item)
+                            isFavorite: model.readerIsFavorite(item),
+                            isArchived: model.readerIsArchived(item),
+                            onToggleRead: {
+                                model.readerToggleRead(item)
+                            },
+                            onToggleFavorite: {
+                                model.readerToggleFavorite(item)
+                            },
+                            onToggleArchive: {
+                                model.readerToggleArchive(item)
+                            }
                         )
                         .tag(item.id)
                         .contextMenu {
@@ -3793,6 +3806,15 @@ struct ReaderView: View {
     private var selectedItem: FeedHistoryItem? {
         guard let selectedID else { return nil }
         return model.readerItems.first { $0.id == selectedID }
+    }
+
+    private var activeFilterCount: Int {
+        var count = 0
+        if dateRange != .all { count += 1 }
+        if selectedSource != "Alle" { count += 1 }
+        if selectedTag != "Alle" { count += 1 }
+        if minimumPriority > 1 { count += 1 }
+        return count
     }
 
     private var sourceChoices: [String] {
@@ -4089,6 +4111,11 @@ private struct ReaderCompactItemRow: View {
     let item: FeedHistoryItem
     let isRead: Bool
     let isFavorite: Bool
+    let isArchived: Bool
+    let onOpen: () -> Void
+    let onToggleRead: () -> Void
+    let onToggleFavorite: () -> Void
+    let onToggleArchive: () -> Void
 
     private var sourceName: String {
         item.sourceLabel ?? item.source
@@ -4136,41 +4163,72 @@ private struct ReaderCompactItemRow: View {
     }
 
     var body: some View {
-        HStack(spacing: 10) {
-            Circle()
-                .fill(isRead ? Color.clear : Color.accentColor)
-                .frame(width: 7, height: 7)
-
-            Text("\(sourceName) · \(item.title)")
-                .font(isRead ? .body : .body.weight(.semibold))
-                .foregroundStyle(isRead ? .secondary : .primary)
-                .lineLimit(1)
-                .truncationMode(.tail)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .layoutPriority(1)
-
-            if isFavorite {
-                Image(systemName: "star.fill")
-                    .font(.caption)
-                    .foregroundStyle(.yellow)
+        HStack(spacing: 8) {
+            Button(action: onToggleRead) {
+                Image(systemName: isRead ? "circle" : "circle.fill")
+                    .foregroundStyle(isRead ? Color.secondary.opacity(0.55) : Color.accentColor)
+                    .frame(width: 18, height: 24)
+                    .contentShape(Rectangle())
             }
+            .buttonStyle(.borderless)
+            .help(isRead ? "Als ungelesen markieren" : "Als gelesen markieren")
 
-            Text(
-                "Quelle: \(sourceName) · Thema: \(topicName) · Relevanz: " +
-                String(repeating: "★", count: item.effectivePriority) +
-                " · \(timelineText)"
-            )
-            .font(.caption)
-            .foregroundStyle(.secondary)
-            .lineLimit(1)
-            .truncationMode(.tail)
-            .frame(minWidth: 360, idealWidth: 520, maxWidth: 650, alignment: .trailing)
+            Button(action: onOpen) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(item.title)
+                        .font(isRead ? .body : .body.weight(.semibold))
+                        .foregroundStyle(isRead ? .secondary : .primary)
+                        .lineLimit(1)
+                        .truncationMode(.tail)
 
-            Image(systemName: "arrow.up.right.square")
-                .font(.caption)
-                .foregroundStyle(.tertiary)
+                    Text(
+                        "\(sourceName) · \(topicName) · " +
+                        String(repeating: "★", count: item.effectivePriority) +
+                        " · \(timelineText)"
+                    )
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(1)
+                    .truncationMode(.tail)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            .help("Artikel im Browser öffnen")
+
+            Button(action: onToggleFavorite) {
+                Image(systemName: isFavorite ? "star.fill" : "star")
+                    .foregroundStyle(isFavorite ? Color.yellow : Color.secondary)
+                    .frame(width: 24, height: 24)
+                    .contentShape(Rectangle())
+            }
+            .buttonStyle(.borderless)
+            .help(isFavorite ? "Favorit entfernen" : "Als Favorit markieren")
+
+            Menu {
+                Button(action: onToggleArchive) {
+                    Label(
+                        isArchived ? "Aus Archiv holen" : "Archivieren",
+                        systemImage: isArchived ? "tray.and.arrow.up" : "archivebox"
+                    )
+                }
+
+                Divider()
+
+                Button(action: onOpen) {
+                    Label("Im Browser öffnen", systemImage: "safari")
+                }
+            } label: {
+                Image(systemName: "ellipsis.circle")
+                    .frame(width: 24, height: 24)
+            }
+            .menuStyle(.borderlessButton)
+            .menuIndicator(.hidden)
+            .fixedSize()
+            .help("Weitere Aktionen")
         }
-        .padding(.vertical, 5)
+        .padding(.vertical, 4)
         .contentShape(Rectangle())
     }
 }
@@ -4179,13 +4237,20 @@ private struct ReaderItemRow: View {
     let item: FeedHistoryItem
     let isRead: Bool
     let isFavorite: Bool
+    let isArchived: Bool
+    let onToggleRead: () -> Void
+    let onToggleFavorite: () -> Void
+    let onToggleArchive: () -> Void
 
     var body: some View {
         HStack(alignment: .top, spacing: 9) {
-            Circle()
-                .fill(isRead ? Color.clear : Color.blue)
-                .frame(width: 7, height: 7)
-                .padding(.top, 7)
+            Button(action: onToggleRead) {
+                Image(systemName: isRead ? "circle" : "circle.fill")
+                    .foregroundStyle(isRead ? Color.secondary.opacity(0.55) : Color.accentColor)
+                    .frame(width: 18, height: 24)
+            }
+            .buttonStyle(.borderless)
+            .help(isRead ? "Als ungelesen markieren" : "Als gelesen markieren")
 
             VStack(alignment: .leading, spacing: 5) {
                 HStack(spacing: 6) {
@@ -4203,12 +4268,6 @@ private struct ReaderItemRow: View {
                     .foregroundStyle(.orange)
 
                     Spacer()
-
-                    if isFavorite {
-                        Image(systemName: "star.fill")
-                            .foregroundStyle(.yellow)
-                            .font(.caption)
-                    }
 
                     Text(
                         item.displayPageDate ??
@@ -4230,6 +4289,23 @@ private struct ReaderItemRow: View {
                         .lineLimit(1)
                 }
             }
+
+            VStack(spacing: 7) {
+                Button(action: onToggleFavorite) {
+                    Image(systemName: isFavorite ? "star.fill" : "star")
+                        .foregroundStyle(isFavorite ? Color.yellow : Color.secondary)
+                }
+                .buttonStyle(.borderless)
+                .help(isFavorite ? "Favorit entfernen" : "Als Favorit markieren")
+
+                Button(action: onToggleArchive) {
+                    Image(systemName: isArchived ? "tray.and.arrow.up" : "archivebox")
+                        .foregroundStyle(.secondary)
+                }
+                .buttonStyle(.borderless)
+                .help(isArchived ? "Aus Archiv holen" : "Archivieren")
+            }
+            .padding(.top, 2)
         }
         .padding(.vertical, 4)
     }
