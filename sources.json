@@ -6418,5 +6418,36 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-081023",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "Pattern QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
+    "sourceType" : "auto",
+    "tags" : [
+      "Events"
+    ],
+    "url" : "https://investors.pattern.com/news-events/news-releases",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
