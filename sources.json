@@ -682,29 +682,74 @@
     "waitMs" : 3000
   },
   {
-    "allowTitleOnly" : true,
-    "baselineVersion" : "mac-app-20260817-132848",
-    "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
+    "allowExternal" : true,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260904-083730",
     "enabled" : false,
-    "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
     "groups" : [
       "Firmen"
     ],
-    "includeRegex" : "^https?://www\\.hellofreshgroup\\.com\\/de\\/newsroom\\/",
+    "includeRegex" : "^https?://assets\\.ctfassets\\.net/irplh84t0tdt/[^/?#]+/[^/?#]+/[^/?#]+\\.pdf/?(?:\\?[^#]*)?(?:#.*)?$",
     "maxDetectedItems" : 25,
-    "minTitleLength" : 14,
+    "minTitleLength" : 5,
     "name" : "HelloFresh Press Releases",
     "priority" : 2,
     "reverseDetected" : true,
     "selectors" : {
       "date" : "",
-      "item" : "h3",
+      "item" : "",
       "link" : "",
       "title" : ""
     },
     "sourceKey" : "src-9af9bb5d19a30c0c",
     "timeoutMs" : 60000,
     "url" : "https://www.hellofreshgroup.com/de/newsroom/press-releases/",
+    "visualBackup" : {
+      "allowTitleOnly" : true,
+      "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
+      "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
+      "includeRegex" : "^https?://www\\.hellofreshgroup\\.com\\/de\\/newsroom\\/",
+      "minTitleLength" : 14,
+      "selectors" : {
+        "date" : "",
+        "item" : "h3",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T06:37:30Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "allowTitleOnly" : true,
+          "candidateSelector" : "a[href*=\"/de/newsroom/\"]",
+          "excludeTitleRegex" : "^(?:20\\d{2}|Unternehmen|Kontakt|Starte jetzt|HelloFresh|Green Chef|EveryPlate|Chefs Plate|Factor|Youfoodz|Pets Table|Good Chop)$",
+          "includeRegex" : "^https?://www\\.hellofreshgroup\\.com\\/de\\/newsroom\\/",
+          "minTitleLength" : 14,
+          "selectors" : {
+            "date" : "",
+            "item" : "h3",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T06:37:30Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://assets.ctfassets.net/irplh84t0tdt/3DZfTIVKKo4GpCnETKPyV6/4c0d321e9e83d9a4cf9ff4aa19d32fac/HelloFresh-Gruppe_Pressemitteilung_Q2_H1_2026.pdf",
+      "https://assets.ctfassets.net/irplh84t0tdt/4Tfdsk35rpPWi1WDj7qBWD/efccd74e230a81f2a90773aeaf826854/260603_Press_Release_HelloFresh_Cookbook.pdf",
+      "https://assets.ctfassets.net/irplh84t0tdt/2JaC9Hea6eR5IcpqJro6Av/194fb8dd3fb3e3ca271dfbe3fbfb1058/HelloFresh_Gruppe_Pressemitteilung_Q1_2026.pdf"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T06:37:30Z",
+    "visualValidationMessage" : "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil",
     "waitMs" : 3000
   },
   {
@@ -5628,7 +5673,7 @@
     "visualSmartExtraction" : true,
     "visualStrategy" : "Kartenstruktur + URL-Muster",
     "visualValidated" : true,
-    "visualValidatedAt" : "2026-08-31T03:40:48Z",
+    "visualValidatedAt" : "2026-09-04T06:36:35Z",
     "visualValidationMessage" : "Nach Reload bestätigt: 8 Treffer",
     "waitMs" : 2500,
     "weekdaysOnly" : false
