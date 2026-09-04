@@ -9,13 +9,13 @@
     "group": "Finanzen",
     "slug": "finanzen",
     "file": "feeds/finanzen.xml",
-    "count": 60
+    "count": 59
   },
   {
     "group": "Firmen",
     "slug": "firmen",
     "file": "feeds/firmen.xml",
-    "count": 97
+    "count": 95
   },
   {
     "group": "Institute",
@@ -33,7 +33,7 @@
     "group": "Quartalszahlen",
     "slug": "quartalszahlen",
     "file": "feeds/quartalszahlen.xml",
-    "count": 8
+    "count": 11
   },
   {
     "group": "Research",
