@@ -2713,7 +2713,7 @@ final class VisualTrainingSession: NSObject, ObservableObject, WKNavigationDeleg
       const isLast = index === dynamicDepth - 1;
       return isLast && extension ? '[^/?#]+' + regexEscape(extension) : '[^/?#]+';
     }).join('/');
-    return '^https?://' + regexEscape(host) + regexEscape(prefix) + dynamic + '/?(?:\\\\?[^#]*)?(?:#.*)?$';
+    return '^https?://' + regexEscape(host) + regexEscape(prefix) + dynamic + '/?(?:\\?[^#]*)?(?:#.*)?$';
   };
 
   const rootFor = (sample, selector) => {
