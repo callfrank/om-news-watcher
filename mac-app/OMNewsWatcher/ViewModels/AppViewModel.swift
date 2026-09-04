@@ -1143,7 +1143,10 @@ final class AppViewModel: ObservableObject {
         var bestResult: SourceTestResult?
         var acceptedSource: SourceRecord?
 
-        for (attemptIndex, variant) in variants.enumerated() {
+        var acceptedURLOnlyFallback = false
+
+        for (attemptIndex, validationVariant) in variants.enumerated() {
+            let variant = validationVariant.rule
             statusMessage = "\(original.name): Validierung \(attemptIndex + 1)/\(variants.count) – \(variant.strategy)"
 
             var candidate = original
@@ -1196,11 +1199,20 @@ final class AppViewModel: ObservableObject {
 
             if result.kind.isSuccessLike,
                result.hitCount >= variant.sampleCount,
-               result.hitCount <= maximumPlausibleCount {
-                candidate.markVisualTrainingValidated(
-                    "Nach Reload bestätigt: \(result.hitCount) Treffer · \(variant.strategy)"
-                )
+               result.hitCount <= maximumPlausibleCount,
+               !result.usedBroadVisualFallback {
+                let validationMessage: String
+                if validationVariant.isURLOnlyFallback {
+                    validationMessage =
+                        "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil"
+                } else {
+                    validationMessage =
+                        "Nach Reload bestätigt: \(result.hitCount) Treffer · \(variant.strategy)"
+                }
+
+                candidate.markVisualTrainingValidated(validationMessage)
                 acceptedSource = candidate
+                acceptedURLOnlyFallback = validationVariant.isURLOnlyFallback
                 bestResult = result
                 break
             }
@@ -1228,16 +1240,21 @@ final class AppViewModel: ObservableObject {
         sources[index] = candidate
         testResults[sourceID] = result
         isDirty = true
-        statusMessage = "\(original.name): Einlernregel validiert – bitte speichern"
+        statusMessage = acceptedURLOnlyFallback
+            ? "\(original.name): URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil – bitte speichern"
+            : "\(original.name): Einlernregel validiert – bitte speichern"
     }
 
     private func visualValidationVariants(
         for rule: VisualTrainingRule
-    ) -> [VisualTrainingRule] {
-        var values: [VisualTrainingRule] = []
+    ) -> [(rule: VisualTrainingRule, isURLOnlyFallback: Bool)] {
+        var values: [(rule: VisualTrainingRule, isURLOnlyFallback: Bool)] = []
         var signatures = Set<String>()
 
-        func append(_ value: VisualTrainingRule) {
+        func append(
+            _ value: VisualTrainingRule,
+            isURLOnlyFallback: Bool = false
+        ) {
             let signature = [
                 value.itemSelector,
                 value.titleSelector,
@@ -1247,16 +1264,17 @@ final class AppViewModel: ObservableObject {
             ].joined(separator: "|")
 
             guard signatures.insert(signature).inserted else { return }
-            values.append(value)
+            values.append((value, isURLOnlyFallback))
         }
 
         // Die vom Trainer vorgeschlagene vollständige Regel hat Vorrang.
         // Bei schwierigen Seiten ist das häufig "Kartenstruktur + URL-Muster".
         append(rule)
 
-        // Danach darf eine reine URL-Regel als Fallback getestet werden.
-        // Durch die Plausibilitätsgrenze in der Validierung kann ein Sprung
-        // von z. B. 5 erwarteten auf 40 Links nicht mehr als Erfolg gelten.
+        // Wenn die Kartenstruktur nach Reload nicht reproduzierbar ist,
+        // wird dieselbe URL-Regel ohne Karten- oder DOM-Selektoren geprüft.
+        // SourceTester verwendet dann seinen allgemeinen Linkscan und wendet
+        // weiterhin URL-Muster und Sample-URL-Formprüfung an.
         if let regex = rule.urlRegex, !regex.isEmpty {
             append(
                 VisualTrainingRule(
@@ -1264,7 +1282,7 @@ final class AppViewModel: ObservableObject {
                     titleSelector: "",
                     linkSelector: "",
                     dateSelector: nil,
-                    candidateSelector: rule.candidateSelector,
+                    candidateSelector: "",
                     urlRegex: regex,
                     allowExternal: rule.allowExternal,
                     sampleCount: rule.sampleCount,
@@ -1272,50 +1290,8 @@ final class AppViewModel: ObservableObject {
                     preview: rule.preview,
                     strategy: "URL-Muster",
                     sampleURLs: rule.sampleURLs
-                )
-            )
-
-            // Reload-sicherer Fallback:
-            // Nicht mehr von einem href*-CSS-Selector abhängig sein.
-            // Alle klickbaren Ziele werden gelesen und anschließend erst
-            // durch das aus den markierten Beispielen abgeleitete URL-Muster
-            // eingegrenzt.
-            append(
-                VisualTrainingRule(
-                    itemSelector: "",
-                    titleSelector: "",
-                    linkSelector: "",
-                    dateSelector: nil,
-                    candidateSelector:
-                        "a[href],[data-href],[data-url],[data-link],[role=\"link\"],button[onclick],[onclick]",
-                    urlRegex: regex,
-                    allowExternal: rule.allowExternal,
-                    sampleCount: rule.sampleCount,
-                    previewCount: rule.previewCount,
-                    preview: rule.preview,
-                    strategy: "URL-Muster (reload-sicher)",
-                    sampleURLs: rule.sampleURLs
-                )
-            )
-        }
-
-        // Struktur-only bleibt der letzte Fallback.
-        if !rule.itemSelector.isEmpty {
-            append(
-                VisualTrainingRule(
-                    itemSelector: rule.itemSelector,
-                    titleSelector: rule.titleSelector,
-                    linkSelector: rule.linkSelector,
-                    dateSelector: rule.dateSelector,
-                    candidateSelector: rule.candidateSelector,
-                    urlRegex: nil,
-                    allowExternal: rule.allowExternal,
-                    sampleCount: rule.sampleCount,
-                    previewCount: rule.previewCount,
-                    preview: rule.preview,
-                    strategy: "Kartenstruktur",
-                    sampleURLs: rule.sampleURLs
-                )
+                ),
+                isURLOnlyFallback: true
             )
         }
 
