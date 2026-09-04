@@ -6449,5 +6449,50 @@
     "url" : "https://investors.pattern.com/news-events/news-releases",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-081237",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "HelloFresh QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "6e871073-3a0f-4c5c-bc95-82d6b5ec7ca7",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://ir.hellofreshgroup.com/?url_redirect=true",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T06:12:25Z"
+      }
+    ],
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
