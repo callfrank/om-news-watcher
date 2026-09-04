@@ -1,6 +1,60 @@
 [
   {
-    "guid": "5b545def3c011a25acd3834f",
+    "guid": "dc01dcded14e0b12d8158445",
+    "source": "Cachys Blog",
+    "sourceKey": "d83577af-f4df-4703-8f03-87f0cd3f4061",
+    "sourceLabel": "Cachys",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Ugreen: Lokales KI-Smart-Home mit HomeAgent, MasterAgent, Kameras und Smart Speaker",
+    "link": "https://stadt-bremerhaven.de/ugreen-lokales-ki-smart-home-mit-homeagent-masteragent-kameras-und-smart-speaker/",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T07:39:06.595Z",
+    "deliveredAt": "2026-09-04T07:39:06.595Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f3c9ff99808327b12d597c65",
+    "source": "Cachys Blog",
+    "sourceKey": "d83577af-f4df-4703-8f03-87f0cd3f4061",
+    "sourceLabel": "Cachys",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Anker SOLIX S2000: Kompakte 2-kWh-Powerstation mit Fokus auf Effizienz vorgestellt",
+    "link": "https://stadt-bremerhaven.de/anker-solix-s2000-kompakte-2-kwh-powerstation-mit-fokus-auf-effizienz-vorgestellt/",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T07:39:06.595Z",
+    "deliveredAt": "2026-09-04T07:39:06.595Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3fb95fccace0ddf814a16bbd",
+    "source": "Cachys Blog",
+    "sourceKey": "d83577af-f4df-4703-8f03-87f0cd3f4061",
+    "sourceLabel": "Cachys",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Wearable mit eigenem Kopf: Luna Band startet auf der IFA in Berlin",
+    "link": "https://stadt-bremerhaven.de/wearable-mit-eigenem-kopf-luna-band-startet-auf-der-ifa-in-berlin/",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T07:39:06.595Z",
+    "deliveredAt": "2026-09-04T07:39:06.595Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6784c0575cf70e63cd8b100a",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +64,63 @@
     "tags": [],
     "priority": 2,
     "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
-    "link": "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
     "pageDate": "03.09.2026",
     "publishedAt": "2026-09-03T12:00:00.000Z",
-    "detectedAt": "2026-09-04T06:29:26.674Z",
-    "deliveredAt": "2026-09-04T06:29:26.674Z",
+    "detectedAt": "2026-09-04T07:39:06.572Z",
+    "deliveredAt": "2026-09-04T07:39:06.572Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "d9d7ae6b33582848907726e2",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "EU erklärt ChatGPT zur sehr großen Online-Suchmaschine",
+    "link": "https://onlinemarktplatz.de/292580/chatgpt-vlose-eu-aufsicht-dsa/",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T07:39:06.519Z",
+    "deliveredAt": "2026-09-04T07:39:06.519Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6cd471a64ac4c7536ab36db0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wero für Abonnements startet in Frankreich",
+    "link": "https://onlinemarktplatz.de/292693/wero-fuer-abonnements-startet/",
+    "pageDate": "04.09.2026",
+    "publishedAt": "2026-09-04T12:00:00.000Z",
+    "detectedAt": "2026-09-04T07:39:06.519Z",
+    "deliveredAt": "2026-09-04T07:39:06.519Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "ec62e73b771fc36e284dbfd7",
@@ -312,7 +414,7 @@
       "Institute"
     ],
     "tags": [],
-    "priority": 2,
+    "priority": 3,
     "title": "Etwas weniger Firmen planen Preiserhöhungen",
     "link": "https://www.ifo.de/ifo-konjunkturumfragen-weitere-ergebnisse",
     "pageDate": null,
@@ -332,7 +434,7 @@
       "Institute"
     ],
     "tags": [],
-    "priority": 2,
+    "priority": 3,
     "title": "Prognose auf 1,4% Wachstum für 2026 erhöht",
     "link": "https://www.ifo.de/prognosen/ifo-konjunkturprognose",
     "pageDate": null,
@@ -1191,7 +1293,7 @@
     "guid": "b69192d9fa39e6024e8ceac8",
     "historicalBackfill": false,
     "link": "https://www.iwh-halle.de/presse/pressemitteilungen/detail/konjunktur-aktuell-deutsche-konjunktur-belebt-sich-rueckenwind-von-weltwirtschaft-und-finanzpolitik",
-    "priority": 2,
+    "priority": 3,
     "recovered": false,
     "source": "Iwh-halle",
     "sourceLabel": "Iwh-halle",
@@ -1290,13 +1392,15 @@
     "historicalBackfill": false,
     "link": "https://www.zew.de/presse/pressearchiv/ezb-rat-kommuniziert-weiter-restriktiven-kurs",
     "pageDate": "03.09.2026",
-    "priority": 2,
+    "priority": 3,
     "publishedAt": "2026-09-03T12:00:00.000Z",
     "recovered": false,
     "source": "Zew",
     "sourceLabel": "Zew",
     "tags": [
-      "Studien & Marktdaten"
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
     ],
     "title": "EZB-Rat kommuniziert weiter restriktiven Kurs // EZB-Transparenz-Monitor des ZEW sieht Zinserhöhung im September als realistische Möglichkeit"
   },
@@ -1661,7 +1765,7 @@
     "guid": "8362a7ec43631309e7296b03",
     "historicalBackfill": false,
     "link": "https://www.iwh-halle.de/presse/pressemitteilungen/detail/start-fuer-den-european-real-estate-index-erei-wohnraum-preise-in-deutschland-steigen-langsamer-als-in-europa",
-    "priority": 2,
+    "priority": 3,
     "recovered": false,
     "source": "Iwh-halle",
     "sourceLabel": "Iwh-halle",
@@ -2067,7 +2171,7 @@
     "guid": "6e4f20998e248c7ac4d227d3",
     "historicalBackfill": false,
     "link": "https://www.iwh-halle.de/presse/pressemitteilungen/detail/sachsen-anhalt-vor-der-wahl-auslaenderfeindliche-politik-koennte-arbeitskraeftemangel-deutlich-verschaerfen",
-    "priority": 2,
+    "priority": 3,
     "recovered": false,
     "source": "Iwh-halle",
     "sourceLabel": "Iwh-halle",
@@ -3135,13 +3239,15 @@
     "historicalBackfill": false,
     "link": "https://www.zew.de/presse/pressearchiv/solarfoerderung-gezielter-und-marktnaeher-gestalten",
     "pageDate": "28.08.2026",
-    "priority": 2,
+    "priority": 3,
     "publishedAt": "2026-08-28T12:00:00.000Z",
     "recovered": false,
     "source": "Zew",
     "sourceLabel": "Zew",
     "tags": [
-      "Studien & Marktdaten"
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
     ],
     "title": "Solarförderung gezielter und marktnäher gestalten // ZEW-Ökonom Sebastian Rausch zum Erneuerbare-Energien-Gesetz (EEG)"
   },
@@ -6102,13 +6208,15 @@
     "historicalBackfill": false,
     "link": "https://www.zew.de/presse/pressearchiv/industrieoekonomie-im-fokus-internationale-spitzenforschung-zu-gast-in-mannheim",
     "pageDate": "20.08.2026",
-    "priority": 2,
+    "priority": 3,
     "publishedAt": "2026-08-20T12:00:00.000Z",
     "recovered": false,
     "source": "Zew",
     "sourceLabel": "Zew",
     "tags": [
-      "Studien & Marktdaten"
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
     ],
     "title": "Industrieökonomie im Fokus: Internationale Spitzenforschung zu Gast in Mannheim // ZEW Mannheim richtet in Kooperation mit der Universität Mannheim die EARIE-Konferenz 2026 aus"
   },
@@ -8498,11 +8606,13 @@
     "guid": "b28b4f4e5d7989c37a50890a",
     "historicalBackfill": false,
     "link": "https://www.zew.de/presse/pressearchiv/konjunkturerwartungen-ziehen-weiter-an",
-    "priority": 2,
+    "priority": 3,
     "source": "Zew",
     "sourceLabel": "Zew",
     "tags": [
-      "Studien & Marktdaten"
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
     ],
     "title": "Konjunkturerwartungen ziehen weiter an // Der ZEW-Indikator liegt bei plus 34,2 Punkten",
     "publishedAt": null
@@ -8568,11 +8678,13 @@
     "guid": "89699efa4439f163c08fc148",
     "historicalBackfill": false,
     "link": "https://www.zew.de/presse/pressearchiv/deutlich-mehr-unternehmensschliessungen",
-    "priority": 2,
+    "priority": 3,
     "source": "Zew",
     "sourceLabel": "Zew",
     "tags": [
-      "Studien & Marktdaten"
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
     ],
     "title": "Deutlich mehr Unternehmensschließungen // 2025 schlossen fast 190.000 Unternehmen in Deutschland",
     "publishedAt": null
