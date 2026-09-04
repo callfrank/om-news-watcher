@@ -1142,6 +1142,7 @@ final class AppViewModel: ObservableObject {
 
         var bestResult: SourceTestResult?
         var acceptedSource: SourceRecord?
+        var acceptedResult: SourceTestResult?
 
         var acceptedURLOnlyFallback = false
 
@@ -1212,16 +1213,54 @@ final class AppViewModel: ObservableObject {
 
                 candidate.markVisualTrainingValidated(validationMessage)
                 acceptedSource = candidate
+                acceptedResult = result
                 acceptedURLOnlyFallback = validationVariant.isURLOnlyFallback
-                bestResult = result
                 break
             }
         }
 
         testingSourceID = nil
 
+        // Wenn Browser- und HTML-Reproduktion scheitern, darf das bereits
+        // erzeugte URL-Muster noch direkt an den bewusst markierten
+        // Beispiel-URLs geprüft werden. Gespeichert wird ausschließlich die
+        // bereinigte URL-Variante ohne Karten- oder DOM-Selektoren.
+        if acceptedSource == nil,
+           let validationVariant = variants.first(where: {
+               $0.isURLOnlyFallback &&
+               visualSampleURLsValidate($0.rule, sourceURL: original.url)
+           }) {
+            var candidate = original
+            candidate.applyVisualTrainingRule(validationVariant.rule)
+            candidate.markVisualTrainingValidated(
+                "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil"
+            )
+            acceptedSource = candidate
+            acceptedResult = SourceTestResult(
+                sourceID: sourceID,
+                kind: .noCurrentNews,
+                hitCount: validationVariant.rule.sampleCount,
+                examples: validationVariant.rule.preview.prefix(
+                    validationVariant.rule.sampleCount
+                ).map {
+                    SourceTestHit(
+                        title: $0.title,
+                        url: $0.url,
+                        publicationDate: $0.date
+                    )
+                },
+                eligibleCount: 0,
+                eligibleExamples: [],
+                message:
+                    "URL-Regel anhand der markierten Beispiel-URLs gespeichert; " +
+                    "die Kartenstruktur war nach Reload nicht stabil.",
+                testedAt: Date()
+            )
+            acceptedURLOnlyFallback = true
+        }
+
         guard let candidate = acceptedSource,
-              let result = bestResult
+              let result = acceptedResult
         else {
             if let bestResult {
                 testResults[sourceID] = bestResult
@@ -1229,7 +1268,7 @@ final class AppViewModel: ObservableObject {
 
             errorMessage =
                 "Die neue Einlernregel wurde nicht gespeichert. " +
-                "Die App hat URL-Muster und Kartenstruktur nach einem vollständigen Neuladen geprüft, " +
+                "Die App hat URL-Muster, markierte Beispiel-URLs und Kartenstruktur nach einem vollständigen Neuladen geprüft, " +
                 "konnte die markierten Beispiele aber nicht stabil reproduzieren. " +
                 "Die vorherige Regel bleibt unverändert."
 
@@ -1296,6 +1335,66 @@ final class AppViewModel: ObservableObject {
         }
 
         return values
+    }
+
+    private func visualSampleURLsValidate(
+        _ rule: VisualTrainingRule,
+        sourceURL: String
+    ) -> Bool {
+        guard let pattern = rule.urlRegex,
+              !pattern.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
+              rule.sampleCount >= 2,
+              rule.sampleURLs.count >= rule.sampleCount,
+              let regex = try? NSRegularExpression(
+                  pattern: pattern,
+                  options: [.caseInsensitive]
+              )
+        else {
+            return false
+        }
+
+        let sampleURLs = Array(rule.sampleURLs.prefix(rule.sampleCount))
+        let allMatchExactly = sampleURLs.allSatisfy { value in
+            let range = NSRange(value.startIndex..<value.endIndex, in: value)
+            guard let match = regex.firstMatch(
+                in: value,
+                options: [],
+                range: range
+            ) else {
+                return false
+            }
+            return match.range == range
+        }
+
+        guard allMatchExactly else { return false }
+
+        let parsed = sampleURLs.compactMap(URL.init(string:))
+        guard parsed.count == sampleURLs.count else { return false }
+
+        let hosts = Set(parsed.compactMap { $0.host?.lowercased() })
+        guard hosts.count == 1, let sampleHost = hosts.first else {
+            return false
+        }
+
+        if !rule.allowExternal {
+            guard let sourceHost = URL(string: sourceURL)?.host?.lowercased(),
+                  sampleHost == sourceHost ||
+                    sampleHost.hasSuffix(".\(sourceHost)") ||
+                    sourceHost.hasSuffix(".\(sampleHost)")
+            else {
+                return false
+            }
+        }
+
+        let pathParts = parsed.map {
+            $0.path.split(separator: "/").map(String.init)
+        }
+        guard pathParts.allSatisfy({ $0.count >= 2 }) else {
+            return false
+        }
+
+        let leaves = Set(pathParts.compactMap { $0.last?.lowercased() })
+        return leaves.count >= 2
     }
 
     func restorePreviousRule(for sourceID: UUID) {

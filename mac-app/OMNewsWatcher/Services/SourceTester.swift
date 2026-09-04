@@ -290,7 +290,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
         var usedBroadVisualFallback = false
 
         if filtered.isEmpty,
-           source.visualLearned || !(source.includeRegex ?? "").isEmpty {
+           !(source.includeRegex ?? "").isEmpty {
             let broadBase = filter(allRows, for: source)
             let broadFiltered = refineSemanticScope(
                 broadBase,
@@ -1296,6 +1296,8 @@ final class SourceTester: NSObject, WKNavigationDelegate {
     private func filter(_ rows: [Candidate], for source: SourceRecord) -> [Candidate] {
         var seen = Set<String>()
         var result: [Candidate] = []
+        let hasExplicitVisualCardRule =
+            source.visualLearned && !(source.itemSelector ?? "").isEmpty
 
         for row in rows {
             let title = cleanExtractedTitle(row.title)
@@ -1346,11 +1348,13 @@ final class SourceTester: NSObject, WKNavigationDelegate {
             }
 
             if source.visualLearned,
+               !hasExplicitVisualCardRule,
                !matchesVisualSampleShape(resolved, source: source) {
                 continue
             }
 
             if source.includeRegex == nil &&
+               !hasExplicitVisualCardRule &&
                !looksLikeArticle(
                 title: title,
                 url: resolved,
@@ -1542,7 +1546,7 @@ final class SourceTester: NSObject, WKNavigationDelegate {
               });
             }
 
-            if (rows.length === 0 || (cfg.smart && !cfg.itemSelector)) {
+            if (!cfg.itemSelector && (rows.length === 0 || cfg.smart)) {
               const selector = cfg.candidateSelector || clickableSelector;
               document.querySelectorAll(selector).forEach(el => {
                 const row = rowFor(el);
