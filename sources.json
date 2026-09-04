@@ -6347,5 +6347,76 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 5 Treffer · URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-080849",
+    "candidateSelector" : "a[href*=\"/news-events/events/event-details/2026/\"],[data-href*=\"/news-events/events/event-details/2026/\"],[data-url*=\"/news-events/events/event-details/2026/\"],[data-link*=\"/news-events/events/event-details/2026/\"],[onclick*=\"/news-events/events/event-details/2026/\"]",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://ir\\.aboutcoupang\\.com/news-events/events/event-details/2026/[^/?#]+/[^/?#]+\\.aspx/?(?:\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "Coupang QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "085feed6-39e4-4952-b0c4-691b8dd8a074",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://ir.aboutcoupang.com/overview/default.aspx",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T06:08:49Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T06:08:49Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://ir.aboutcoupang.com/news-events/events/event-details/2026/Coupang-2026-Second-Quarter-Earnings/default.aspx",
+      "https://ir.aboutcoupang.com/news-events/events/event-details/2026/Coupang-2026-First-Quarter-Earnings/default.aspx"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T06:08:55Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
