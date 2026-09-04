@@ -15415,7 +15415,10 @@
     "src-3fbff5b0f3b52fe1": "27 Treffer; deutlich über dem üblichen Niveau 1",
     "src-a13fac9fbd87fa19": "Abruf fehlgeschlagen: HTTP 403",
     "src-8d7a4dfc95d50e42": "0 Treffer; zuletzt typischerweise 10",
-    "src-c1c0a709a5786247": "2 Treffer; deutlich unter dem üblichen Niveau 10"
+    "src-c1c0a709a5786247": "2 Treffer; deutlich unter dem üblichen Niveau 10",
+    "src-6f65565f4749a295": "0 Treffer; zuletzt typischerweise 7",
+    "src-ba300714de43cc5d": "0 Treffer; zuletzt typischerweise 9",
+    "src-51390123dcbdb93e": "1 Treffer; deutlich unter dem üblichen Niveau 12"
   },
   "deliveredBySource": {
     "Onlinemarktplatz": [
@@ -16447,10 +16450,10 @@
     "src-93bc6c77c8e0092a": [],
     "src-b0d6dce4f4e53f64": [],
     "src-8fc60553640bf464": [
-      "https://www.ey.com/de_de/newsroom/2026/06/ey-personalien-juni-tobias-ehl",
       "https://www.ey.com/de_de/newsroom/2026/09/ey-analyse-bilanzanalyse-banken-europa-usa-september-2026",
       "https://www.ey.com/de_de/newsroom/2026/09/ey-personalien-september-maximilian-rapp",
-      "https://www.ey.com/de_de/newsroom/2026/09/ey-studierendenstudie-2026-kuenstliche-intelligenz"
+      "https://www.ey.com/de_de/newsroom/2026/09/ey-studierendenstudie-2026-kuenstliche-intelligenz",
+      "https://www.ey.com/de_de/newsroom/2026/06/ey-personalien-juni-tobias-ehl"
     ],
     "src-ccc01078527f3e85": [
       "https://newsroom.fedex.com/newsroom/global-english/fedex-passes-milestone-in-ceiv-pharma-certifications",
@@ -17290,8 +17293,8 @@
       "https://www.aboutamazon.com/news/retail/how-to-verify-amazon-messages-alexa-for-shopping",
       "https://www.aboutamazon.com/news/entertainment/live-sports-streaming-prime-video",
       "https://www.aboutamazon.com/news/aws/claude-fable-5-anthropic-available-amazon-bedrock",
-      "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
-      "https://www.aboutamazon.com/news/sustainability/amazon-water-conservation-replenishment-sustainability"
+      "https://www.aboutamazon.com/news/sustainability/amazon-water-conservation-replenishment-sustainability",
+      "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock"
     ],
     "src-4a0926dd52e60011": [
       "https://over.bol.com/en/news/bol-recertified-as-a-b-corp-tm-under-strengthened-standards/"
@@ -17353,8 +17356,8 @@
     "src-af482dcfb65eaa40": [
       "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
       "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
-      "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
       "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
+      "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
       "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
@@ -19179,6 +19182,15 @@
       "deliveredAt": "2026-09-04T09:16:34.403Z",
       "recovered": false
     },
+    "src-4e8676d7ff867c65": {
+      "title": "Porsche 911 Carrera 3.0 Coupé (G-Modell I)",
+      "link": "https://hahnclassic.de/porsche-911-carrera-3-0-coupe-g-modell-i",
+      "pageDate": null,
+      "publishedAt": null,
+      "detectedAt": "2026-09-04T09:16:34.392Z",
+      "deliveredAt": "2026-09-04T09:16:34.392Z",
+      "recovered": false
+    },
     "src-af482dcfb65eaa40": {
       "title": "eBay Deutschland und der 1. FC Union Berlin gehen in die Verlängerung: Premiere für eBay Live auf der IFA",
       "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
@@ -19187,6 +19199,24 @@
       "detectedAt": "2026-09-04T09:16:34.376Z",
       "deliveredAt": "2026-09-04T09:16:34.376Z",
       "recovered": true
+    },
+    "src-5de41fa90c58714d": {
+      "title": "Amazon's water conservation and replenishment efforts around the world",
+      "link": "https://www.aboutamazon.com/news/sustainability/amazon-water-conservation-replenishment-sustainability",
+      "pageDate": "Sept. 4, 2026",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "detectedAt": "2026-09-04T09:16:34.366Z",
+      "deliveredAt": "2026-09-04T09:16:34.366Z",
+      "recovered": true
+    },
+    "src-60410208ae6b15b3": {
+      "title": "Barrierefrei und altersgerecht Wohnen",
+      "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/barrierefrei-und-altersgerecht-wohnen-125651",
+      "pageDate": "04.09.2026",
+      "publishedAt": "2026-09-04T12:00:00.000Z",
+      "detectedAt": "2026-09-04T09:16:34.321Z",
+      "deliveredAt": "2026-09-04T09:16:34.321Z",
+      "recovered": false
     },
     "src-e5330506f57b7169": {
       "title": "Die berühmteste Zunge der Welt jetzt auf Briefmarken",
@@ -19222,15 +19252,6 @@
       "publishedAt": null,
       "detectedAt": "2026-09-04T06:29:26.573Z",
       "deliveredAt": "2026-09-04T06:29:26.573Z",
-      "recovered": false
-    },
-    "src-4e8676d7ff867c65": {
-      "title": "Porsche 911 Carrera 3.0 Coupé (G-Modell I)",
-      "link": "https://hahnclassic.de/porsche-911-carrera-3-0-coupe-g-modell-i",
-      "pageDate": null,
-      "publishedAt": null,
-      "detectedAt": "2026-09-04T09:16:34.392Z",
-      "deliveredAt": "2026-09-04T09:16:34.392Z",
       "recovered": false
     },
     "src-2a68fce167742775": {
@@ -19485,15 +19506,6 @@
       "deliveredAt": "2026-09-02T21:50:55.009Z",
       "recovered": false
     },
-    "src-5de41fa90c58714d": {
-      "title": "Amazon's water conservation and replenishment efforts around the world",
-      "link": "https://www.aboutamazon.com/news/sustainability/amazon-water-conservation-replenishment-sustainability",
-      "pageDate": "Sept. 4, 2026",
-      "publishedAt": "2026-09-04T00:00:00.000Z",
-      "detectedAt": "2026-09-04T09:16:34.366Z",
-      "deliveredAt": "2026-09-04T09:16:34.366Z",
-      "recovered": true
-    },
     "src-15b135037542f2c3": {
       "title": "eBay Announces American Fashion Retrospective and Auction",
       "link": "https://www.ebayinc.com/stories/news/ebay-announces-american-fashion-retrospective-and-auction/",
@@ -19519,15 +19531,6 @@
       "publishedAt": "2026-09-02T12:00:00.000Z",
       "detectedAt": "2026-09-02T11:28:50.267Z",
       "deliveredAt": "2026-09-02T11:28:50.267Z",
-      "recovered": false
-    },
-    "src-60410208ae6b15b3": {
-      "title": "Barrierefrei und altersgerecht Wohnen",
-      "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/barrierefrei-und-altersgerecht-wohnen-125651",
-      "pageDate": "04.09.2026",
-      "publishedAt": "2026-09-04T12:00:00.000Z",
-      "detectedAt": "2026-09-04T09:16:34.321Z",
-      "deliveredAt": "2026-09-04T09:16:34.321Z",
       "recovered": false
     },
     "src-515b92a6da1e3698": {
