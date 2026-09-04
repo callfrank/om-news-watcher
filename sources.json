@@ -6041,5 +6041,76 @@
     "url" : "https://investor.mercadolibre.com/sec-filings",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-075627",
+    "candidateSelector" : "a[href*=\"/de/presse/pressemitteilungen/2026/\"],[data-href*=\"/de/presse/pressemitteilungen/2026/\"],[data-url*=\"/de/presse/pressemitteilungen/2026/\"],[data-link*=\"/de/presse/pressemitteilungen/2026/\"],[onclick*=\"/de/presse/pressemitteilungen/2026/\"]",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "includeRegex" : "^https?://group\\.dhl\\.com/de/presse/pressemitteilungen/2026/[^/?#]+\\.html/?(?:\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
+    "name" : "DHL QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "076d444d-18a6-4ddb-bf20-41d5dc450597",
+    "sourceType" : "auto",
+    "tags" : [
+      "Logistik"
+    ],
+    "url" : "https://group.dhl.com/de/investoren.html",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-04T05:56:27Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-04T05:56:27Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 2,
+    "visualSampleURLs" : [
+      "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-group-konzernergebnisse-h1-2026.html",
+      "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-group-uebertrifft-in-q2-erwartungen-underhoeht-ergebnisprognose-fuer-das-gesamtjahr-2026.html"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-04T05:56:33Z",
+    "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
