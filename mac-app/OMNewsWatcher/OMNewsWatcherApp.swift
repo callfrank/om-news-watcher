@@ -1,4 +1,5 @@
 import SwiftUI
+import AppKit
 
 @main
 struct OMNewsWatcherApp: App {
@@ -14,6 +15,12 @@ struct OMNewsWatcherApp: App {
         }
         .defaultSize(width: 1100, height: 720)
         .commands {
+            CommandGroup(replacing: .appInfo) {
+                Button("Über OM News Watcher") {
+                    AboutPanelPresenter.show()
+                }
+            }
+
             CommandGroup(after: .newItem) {
                 Button("Neue Quelle …") {
                     model.addSource()
@@ -37,5 +44,39 @@ struct OMNewsWatcherApp: App {
         Settings {
             SettingsView(model: model)
         }
+    }
+}
+
+private enum AboutPanelPresenter {
+    static func show() {
+        let paragraph = NSMutableParagraphStyle()
+        paragraph.alignment = .center
+        paragraph.paragraphSpacing = 5
+
+        let credits = NSAttributedString(
+            string: """
+            Persönlicher News-Reader und Quellenmonitor
+            für onlinemarktplatz.de
+
+            Entwickelt und betrieben von
+            Frank Weyermann
+
+            Prüft Nachrichtenquellen, bündelt neue Meldungen
+            und unterstützt die redaktionelle Sichtung.
+            """,
+            attributes: [
+                .font: NSFont.systemFont(ofSize: 12),
+                .foregroundColor: NSColor.secondaryLabelColor,
+                .paragraphStyle: paragraph
+            ]
+        )
+
+        NSApp.orderFrontStandardAboutPanel(
+            options: [
+                .credits: credits,
+                .copyright: "© 2026 Frank Weyermann · onlinemarktplatz.de"
+            ]
+        )
+        NSApp.activate(ignoringOtherApps: true)
     }
 }
