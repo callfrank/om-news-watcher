@@ -6010,5 +6010,36 @@
     "visualValidationMessage" : "Nach Reload bestätigt: 3 Treffer · URL-Muster",
     "waitMs" : 2500,
     "weekdaysOnly" : true
+  },
+  {
+    "automaticTagging" : true,
+    "baselineVersion" : "mac-app-20260904-075238",
+    "checkIntervalMinutes" : 30,
+    "enabled" : true,
+    "excludeKeywords" : [
+
+    ],
+    "groups" : [
+      "Quartalszahlen"
+    ],
+    "includeKeywords" : [
+
+    ],
+    "name" : "MecadoLibre QZ",
+    "priority" : 2,
+    "selectors" : {
+      "date" : "",
+      "item" : "",
+      "link" : "",
+      "title" : ""
+    },
+    "sourceKey" : "3d269910-4ca5-4e44-92c2-14f46433b0d8",
+    "sourceType" : "auto",
+    "tags" : [
+
+    ],
+    "url" : "https://investor.mercadolibre.com/sec-filings",
+    "waitMs" : 2500,
+    "weekdaysOnly" : true
   }
 ]
