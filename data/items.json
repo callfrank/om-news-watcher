@@ -1,5 +1,27 @@
 [
   {
+    "guid": "7869ebcff9629e35887d22f4",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon 21 Air updates",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-21-air-miami-updates",
+    "pageDate": "Sept. 6, 2026",
+    "publishedAt": "2026-09-06T00:00:00.000Z",
+    "detectedAt": "2026-09-06T21:45:10.145Z",
+    "deliveredAt": "2026-09-06T21:45:10.145Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "72e7d7c306fc95aa6a5dc3ea",
     "source": "Onlinemarktplatz",
     "sourceKey": "src-907af1387802cea1",
@@ -9893,25 +9915,6 @@
       "Events"
     ],
     "title": "Skip to main content",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.983Z",
-    "detectedAt": "2026-08-17T11:40:45.983Z",
-    "groups": [
-      "Firmen"
-    ],
-    "guid": "b2425b39884bc848ae067134",
-    "historicalBackfill": false,
-    "link": "https://jdcorporateblog.com/media-resources/",
-    "priority": 2,
-    "source": "JD In-Depth Reports",
-    "sourceLabel": "JD In-Depth",
-    "tags": [
-      "Logistik",
-      "Studien & Marktdaten"
-    ],
-    "title": "Media Resources",
     "publishedAt": null
   }
 ]
