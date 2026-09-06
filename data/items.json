@@ -1,5 +1,53 @@
 [
   {
+    "guid": "72e7d7c306fc95aa6a5dc3ea",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Billigkosmetik von Temu, Shein, AliExpress und Fruugo im Test: Alle 15 Produkte fallen durch",
+    "link": "https://onlinemarktplatz.de/292626/billigkosmetik-im-test/",
+    "pageDate": "06.09.2026",
+    "publishedAt": "2026-09-06T12:00:00.000Z",
+    "detectedAt": "2026-09-06T11:22:44.427Z",
+    "deliveredAt": "2026-09-06T11:22:44.427Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aa14e20d85c56491ee5025ae",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon Nachrichten prüfen: Alexa kontrolliert Mails und Anrufe",
+    "link": "https://onlinemarktplatz.de/292630/amazon-nachrichten-pruefen-alexa-betrug/",
+    "pageDate": "06.09.2026",
+    "publishedAt": "2026-09-06T12:00:00.000Z",
+    "detectedAt": "2026-09-06T11:22:44.426Z",
+    "deliveredAt": "2026-09-06T11:22:44.426Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "e044e0473bb15b55c9a88a4a",
     "source": "Onlinemarktplatz",
     "sourceKey": "src-907af1387802cea1",
@@ -9865,44 +9913,5 @@
     ],
     "title": "Media Resources",
     "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T10:38:08.462Z",
-    "detectedAt": "2026-08-17T10:38:08.462Z",
-    "groups": [
-      "Sonstiges"
-    ],
-    "guid": "ba9c3b849f983194cd85eaa5",
-    "historicalBackfill": false,
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/alltagshelfer-unter-der-lupe-wie-sicher-sind-vorratsdosen-co-125136",
-    "priority": 2,
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "title": "Alltagshelfer unter der Lupe: Wie sicher sind Vorratsdosen & Co.?",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T07:16:58.119Z",
-    "detectedAt": "2026-08-17T07:16:58.119Z",
-    "groups": [
-      "Sonstiges"
-    ],
-    "guid": "0eee61646e6bb1f5e86c53a8",
-    "historicalBackfill": false,
-    "link": "https://onlinemarktplatz.de/270973/uvp-werbung-mit-eigenmarken/",
-    "pageDate": "17. August 2026",
-    "priority": 2,
-    "publishedAt": "2026-08-17T00:00:00.000Z",
-    "source": "Onlinemarktplatz",
-    "sourceLabel": "OLMP",
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "title": "UVP-Werbung mit Eigenmarken: Gericht setzt Händlern Grenzen"
   }
 ]
