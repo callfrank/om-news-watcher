@@ -1,5 +1,29 @@
 [
   {
+    "guid": "e044e0473bb15b55c9a88a4a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon Verpackungen: Plastikanteil sinkt in Nordamerika",
+    "link": "https://onlinemarktplatz.de/291895/amazon-verpackungen-usa/",
+    "pageDate": "06.09.2026",
+    "publishedAt": "2026-09-06T12:00:00.000Z",
+    "detectedAt": "2026-09-06T06:31:50.093Z",
+    "deliveredAt": "2026-09-06T06:31:50.093Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "95f1b3d33dd30b61be00edca",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -9880,26 +9904,5 @@
       "Recht & Regulierung"
     ],
     "title": "UVP-Werbung mit Eigenmarken: Gericht setzt Händlern Grenzen"
-  },
-  {
-    "deliveredAt": "2026-08-17T07:16:58.119Z",
-    "detectedAt": "2026-08-17T07:16:58.119Z",
-    "groups": [
-      "Sonstiges"
-    ],
-    "guid": "b81eaa0609ae50ac40400462",
-    "historicalBackfill": false,
-    "link": "https://onlinemarktplatz.de/271103/detailhandel-in-der-schweiz/",
-    "pageDate": "17. August 2026",
-    "priority": 2,
-    "publishedAt": "2026-08-17T00:00:00.000Z",
-    "source": "Onlinemarktplatz",
-    "sourceLabel": "OLMP",
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "title": "Online-Handel treibt den Detailhandel in der Schweiz"
   }
 ]
