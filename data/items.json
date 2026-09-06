@@ -1,5 +1,27 @@
 [
   {
+    "guid": "be14d5f36bd961c19a7b5cc7",
+    "source": "FedEx QZ",
+    "sourceKey": "d236a0bb-0b4a-4af9-b318-ae025fe0992f",
+    "sourceLabel": "FedEx QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Annual Shareholder Meeting",
+    "link": "https://investors.fedex.com/news-and-events/upcoming-events/upcoming-events-details/2026/Annual-Shareholder-Meeting/default.aspx",
+    "pageDate": "Monday, September 28, 2026 at 08:00 AM CT",
+    "publishedAt": null,
+    "detectedAt": "2026-09-06T23:12:46.584Z",
+    "deliveredAt": "2026-09-06T23:12:46.584Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "7869ebcff9629e35887d22f4",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -9896,25 +9918,6 @@
       "Events"
     ],
     "title": "Reports",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.984Z",
-    "detectedAt": "2026-08-17T11:40:45.984Z",
-    "groups": [
-      "Firmen"
-    ],
-    "guid": "95aeae565da50fa607ade690",
-    "historicalBackfill": false,
-    "link": "https://www.tencent.com/newsroom/all-news/",
-    "priority": 2,
-    "source": "Tencent News",
-    "sourceLabel": "Tencent News",
-    "tags": [
-      "Studien & Marktdaten",
-      "Events"
-    ],
-    "title": "Skip to main content",
     "publishedAt": null
   }
 ]
