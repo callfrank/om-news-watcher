@@ -1,5 +1,25 @@
 [
   {
+    "guid": "3c6afbf21ba510756a6428cd",
+    "source": "Baidu QZ",
+    "sourceKey": "0b16875f-ed8a-4824-948a-653a40b8121b",
+    "sourceLabel": "Baidu QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Baidu Announces Inclusion of Its Class A Ordinary Shares in the Shenzhen-Hong Kong Stock Connect and Shanghai-Hong Kong Stock Connect Programs",
+    "link": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-inclusion-its-class-ordinary-shares-shenzhen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-07T01:02:41.926Z",
+    "deliveredAt": "2026-09-07T01:02:41.926Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "be14d5f36bd961c19a7b5cc7",
     "source": "FedEx QZ",
     "sourceKey": "d236a0bb-0b4a-4af9-b318-ae025fe0992f",
@@ -9899,25 +9919,6 @@
       "Events"
     ],
     "title": "Investor news",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.984Z",
-    "detectedAt": "2026-08-17T11:40:45.984Z",
-    "groups": [
-      "Firmen"
-    ],
-    "guid": "193097e483a9def70aff8211",
-    "historicalBackfill": false,
-    "link": "https://www.tencent.com/our-actions/reports/",
-    "priority": 2,
-    "source": "Tencent News",
-    "sourceLabel": "Tencent News",
-    "tags": [
-      "Studien & Marktdaten",
-      "Events"
-    ],
-    "title": "Reports",
     "publishedAt": null
   }
 ]
