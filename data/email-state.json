@@ -1,5 +1,9 @@
 {
   "sentGuids": [
+    "749121a69797183c8c984182",
+    "75ebc46f36b34bfcb5c27145",
+    "4262c3c967e674ab233b1a5a",
+    "4bb274c93ee578b9bfbc8b3d",
     "66a1d7bd31d48346c3c0027f",
     "b19c2de9e41a09da1de53a6d",
     "9edb3b1d88bf6d1c49a6ae0e",
@@ -424,9 +428,13 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastSlot": "2026-09-07-08",
-  "lastSentAt": "2026-09-07T06:08:20.683Z",
+  "lastSlot": "2026-09-07-09",
+  "lastSentAt": "2026-09-07T07:39:21.827Z",
   "handledGuids": [
+    "749121a69797183c8c984182",
+    "75ebc46f36b34bfcb5c27145",
+    "4262c3c967e674ab233b1a5a",
+    "4bb274c93ee578b9bfbc8b3d",
     "66a1d7bd31d48346c3c0027f",
     "b19c2de9e41a09da1de53a6d",
     "9edb3b1d88bf6d1c49a6ae0e",
@@ -1388,12 +1396,12 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastEvaluatedAt": "2026-09-07T06:08:20.683Z",
+  "lastEvaluatedAt": "2026-09-07T07:39:21.827Z",
   "lastFilterSummary": {
     "readerSeen": 0,
     "historical": 0,
     "lowPriority": 0,
     "quality": 0
   },
-  "lastSentCount": 3
+  "lastSentCount": 4
 }
