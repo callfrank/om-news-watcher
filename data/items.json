@@ -1,5 +1,74 @@
 [
   {
+    "guid": "66a1d7bd31d48346c3c0027f",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Produktion im Juli 2026: -1,1 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-07T06:07:42.294Z",
+    "deliveredAt": "2026-09-07T06:07:42.294Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b19c2de9e41a09da1de53a6d",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "HDE-Konsumbarometer im September: Verbraucherstimmung bleibt trotz Verbesserung schwach",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15343-hde-konsumbarometer-im-september-verbraucherstimmung-bleibt-trotz-verbesserung-schwach",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-07T06:07:42.259Z",
+    "deliveredAt": "2026-09-07T06:07:42.259Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9edb3b1d88bf6d1c49a6ae0e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "NIQ und Similarweb wollen KI-Handel messen",
+    "link": "https://onlinemarktplatz.de/292602/ki-handel-messen-niq-similarweb/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-07T06:07:42.257Z",
+    "deliveredAt": "2026-09-07T06:07:42.257Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "3c6afbf21ba510756a6428cd",
     "source": "Baidu QZ",
     "sourceKey": "0b16875f-ed8a-4824-948a-653a40b8121b",
@@ -9862,63 +9931,6 @@
       "Events"
     ],
     "title": "Media resources",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.984Z",
-    "detectedAt": "2026-08-17T11:40:45.984Z",
-    "groups": [
-      "Firmen"
-    ],
-    "guid": "7aadcb5b4af3a087b4ed5296",
-    "historicalBackfill": false,
-    "link": "https://www.tencent.com/newsroom/events/",
-    "priority": 2,
-    "source": "Tencent News",
-    "sourceLabel": "Tencent News",
-    "tags": [
-      "Studien & Marktdaten",
-      "Events"
-    ],
-    "title": "Events news",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.984Z",
-    "detectedAt": "2026-08-17T11:40:45.984Z",
-    "groups": [
-      "Firmen"
-    ],
-    "guid": "3459952de6dcb74f2a05be83",
-    "historicalBackfill": false,
-    "link": "https://www.tencent.com/investors/financial-reports/",
-    "priority": 2,
-    "source": "Tencent News",
-    "sourceLabel": "Tencent News",
-    "tags": [
-      "Studien & Marktdaten",
-      "Events"
-    ],
-    "title": "Financial reports",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.984Z",
-    "detectedAt": "2026-08-17T11:40:45.984Z",
-    "groups": [
-      "Firmen"
-    ],
-    "guid": "c5240f173bf4b1b72b7e8b9b",
-    "historicalBackfill": false,
-    "link": "https://www.tencent.com/investors/investor-news/",
-    "priority": 2,
-    "source": "Tencent News",
-    "sourceLabel": "Tencent News",
-    "tags": [
-      "Studien & Marktdaten",
-      "Events"
-    ],
-    "title": "Investor news",
     "publishedAt": null
   }
 ]
