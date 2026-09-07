@@ -15596,7 +15596,11 @@
     "src-c26d540fafcb0061": "Abruf fehlgeschlagen: HTTP 403",
     "src-a13fac9fbd87fa19": "Abruf fehlgeschlagen: HTTP 403",
     "src-8d7a4dfc95d50e42": "0 Treffer; zuletzt typischerweise 10",
-    "src-9270afe2506b625b": "Abruf fehlgeschlagen: HTTP 403"
+    "src-9270afe2506b625b": "Abruf fehlgeschlagen: HTTP 403",
+    "src-6f65565f4749a295": "0 Treffer; zuletzt typischerweise 7",
+    "src-ba300714de43cc5d": "0 Treffer; zuletzt typischerweise 9",
+    "src-51390123dcbdb93e": "1 Treffer; deutlich unter dem üblichen Niveau 12",
+    "src-3fbff5b0f3b52fe1": "1 Treffer; deutlich unter dem üblichen Niveau 12"
   },
   "deliveredBySource": {
     "Onlinemarktplatz": [
@@ -17124,8 +17128,6 @@
       "https://einzelhandel.de/presse/aktuellemeldungen/15344-wahlergebnis-in-sachsen-anhalt-handelsverband-warnt-vor-hohen-wirtschaftlichen-schaeden-einer-politik-der-abschottung-und-mahnt-zu-reformen"
     ],
     "src-cb76e6379efa5a53": [
-      "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=3f4a9843492a58f4f76dbdf3de3e354ea21888e35576&callerId=148026&folderInclude.HASH=28f191021691441182d4a560c514778cac80ee362fbb&folderExclude.HASH=8a80c6948b4cb2cf6d574257563c098360ec4d36dfa3&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
-      "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=478d452ed2aa6ade700c051995330a9b1790e00c66fd&callerId=110518&folderInclude.HASH=550b5dd5036535fb1e44364aad269aa065853a9b7933&folderExclude.HASH=d08a79067efbb55e1fbddb1c95bf6c3b95f768617c00&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
       "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Anlagen/Gesetzgebungsverfahrensanlagensuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=6c55c8cff1805390869aa1abfd54cf55179aab39b5ed&callerId=110520&folderInclude.HASH=35126484ebed944725537f3e104c0faf8b1cd8d4217b&folderExclude.HASH=f95fb2e399706f09e40459f5c9abfa6143277a1b5217&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
       "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren_Archiv/Gesetzgebungsverfahrenssuche_Archiv_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=f98505bb4c1484b801c5fd79d94b9eae669a399d0900&callerId=262054&folderInclude.HASH=57b0e4106c27abe0727ccbecc9494995657ab381dd95&folderExclude.HASH=ab73b5e41d72b1c9ecd5d2d35c2ba0d44289dbf1d5e9&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
       "https://www.bmjv.de/SiteGlobals/Forms/Belehrungsformularsuche/Belehrungsformularsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=40613dc0ac144ee8c13a14112ff3c233680556c40add&callerId=111026&folderInclude.HASH=88c1976bbc063e15c3e241aa3c2dd26fee6b76eeb147&folderExclude.HASH=3e5d7141521aa24218d18832cc234125c937966cd3cd&folderInclude=%2FBMJ%2FSharedDocs%2FDownloads%2FDE%2FFormular%2FBelehrungsformulare_Erwachsene%2F*+",
@@ -17133,6 +17135,8 @@
       "https://www.bmjv.de/SiteGlobals/Forms/RiVAStsuche/RiVASt_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=821148368eeec5518f0fa58e68998f4b833fd698aeec&callerId=110522&folderInclude.HASH=d58fa63dd89a91f8340d4468b48a25525e9061176209&folderExclude.HASH=9ac0641c318fdb17945d3f9cbbf43add4b536715c5ca&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
       "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=d8b31ae92256de0a311b517bc790d7a9f78511f262e8&callerId=110518&folderInclude.HASH=0064b7ab06d03cb376b6156953df2a52d47fac214344&folderExclude.HASH=8225a8c44079685b7b20692432d6fc6370674ec678e9&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
       "https://www.raus-aus-gewalt.de/",
+      "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=3f4a9843492a58f4f76dbdf3de3e354ea21888e35576&callerId=148026&folderInclude.HASH=28f191021691441182d4a560c514778cac80ee362fbb&folderExclude.HASH=8a80c6948b4cb2cf6d574257563c098360ec4d36dfa3&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
+      "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=478d452ed2aa6ade700c051995330a9b1790e00c66fd&callerId=110518&folderInclude.HASH=550b5dd5036535fb1e44364aad269aa065853a9b7933&folderExclude.HASH=d08a79067efbb55e1fbddb1c95bf6c3b95f768617c00&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
       "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=bfb60d0da38506e0df7022d165a310787ea9eb211d88&callerId.HASH=2dd59aec2d0b5fe6ade04d417ca34cbfebfd85ea2bf4&callerId=110504&folderInclude.HASH=d172ceba8feb9820f69ed68063dd837744d874f653d0&defaultFilter=documentType_%3ASpeech+OR+documentType_%3AInterview+OR+%28documentType_%3ABasepage+AND+cl2Taxonomies_Dokumenttyp%3A0%2FInterviewUndNamensartikel%29&folderExclude.HASH=23d88613b1c5d363a7d491a983d0116059c30ffab370&folderInclude=%2FBMJ%2FSharedDocs%2F*",
       "https://www.bmjv.de/SiteGlobals/Forms/Dokumenttypsuche/Dokumenttypsuche_Pubikationen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FDE%2F*+-%2FBMJ%2FEN%2F*+-%2FBMJ%2FSharedDocs%2FZitateMitBild%2F*+-%2FBMJ%2FSharedDocs%2FPressearchiv%2F*&defaultFilter.HASH=18b32f68427858262a48e498b05ae25cc421b3434925&callerId.HASH=6a8f764ee33f98097e3fc0d809877cdbeacecc144b5f&callerId=110568&folderInclude.HASH=94dc39e9650a7703b108d8db0e8c8bc8cf863601ffc9&defaultFilter=documentType_%3APBPrintout&folderExclude.HASH=7f78436b00ef97df25eb40bdcfd5e695faf70eb1ccd2&folderInclude=%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren*",
       "https://www.bmjv.de/SiteGlobals/Forms/Veranstaltungssuche/Archiv/Veranstaltungssuche_Formular.html?folderExclude=-%2FBMJ%2F*%2FRestricted&callerId.HASH=0c5fee29d1788076fadf9c1dbb73c297eeb1f42a350b&callerId=110572&folderInclude.HASH=2a69334c1edd5ab73355914d25b226b850d1646042c4&folderExclude.HASH=ffebadb4d07f75070acf7af8b7697b5578ec406717bb&folderInclude=%2FBMJ%2FDE%2F*+%2FBMJ%2FEN%2F*+%2FBMJ%2FSharedDocs%2F*",
@@ -19393,6 +19397,15 @@
     }
   },
   "lastStoredBySource": {
+    "src-4ac1e5fd69b71704": {
+      "title": "The Platform Group Tochter: Lott Autoteile, das Ende naht?",
+      "link": "https://wortfilter.de/lott-autoteile-tpg-ende/",
+      "pageDate": null,
+      "publishedAt": null,
+      "detectedAt": "2026-09-07T12:19:35.858Z",
+      "deliveredAt": "2026-09-07T12:19:35.858Z",
+      "recovered": false
+    },
     "src-6c1c923af06aedde": {
       "title": "Systemmigration erfolgreich planen: So gelingt euch der Wechsel ohne operative Brüche",
       "link": "https://www.handelskraft.de/systemmigration-richtig-planen-und-umsetzen/",
@@ -19670,15 +19683,6 @@
       "publishedAt": null,
       "detectedAt": "2026-09-04T04:09:41.467Z",
       "deliveredAt": "2026-09-04T04:09:41.467Z",
-      "recovered": false
-    },
-    "src-4ac1e5fd69b71704": {
-      "title": "The Platform Group Tochter: Lott Autoteile, das Ende naht?",
-      "link": "https://wortfilter.de/lott-autoteile-tpg-ende/",
-      "pageDate": null,
-      "publishedAt": null,
-      "detectedAt": "2026-09-07T12:19:35.858Z",
-      "deliveredAt": "2026-09-07T12:19:35.858Z",
       "recovered": false
     },
     "src-fd172f245374fd81": {
