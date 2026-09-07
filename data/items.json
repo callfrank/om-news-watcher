@@ -1,5 +1,97 @@
 [
   {
+    "guid": "749121a69797183c8c984182",
+    "source": "Rewe",
+    "sourceKey": "src-dca03b70693088ae",
+    "sourceLabel": "Rewe",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "REWE startet wieder „Scheine für Vereine“",
+    "link": "https://mediacenter.rewe.de/pressemitteilungen/rewe-scheine-fuer-vereine-2026",
+    "pageDate": "Heute",
+    "publishedAt": null,
+    "detectedAt": "2026-09-07T07:36:56.427Z",
+    "deliveredAt": "2026-09-07T07:36:56.427Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "75ebc46f36b34bfcb5c27145",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "DHL ordnet Brief- und Paketgeschäft rechtlich neu",
+    "link": "https://onlinemarktplatz.de/292611/dhl-konzernstruktur-brief/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-07T07:36:56.370Z",
+    "deliveredAt": "2026-09-07T07:36:56.370Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4262c3c967e674ab233b1a5a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "BILD schließt seinen Marktplatz nach nur rund zweieinhalb Jahren",
+    "link": "https://onlinemarktplatz.de/292755/bild-marktplatz-eingestellt/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-07T07:36:56.370Z",
+    "deliveredAt": "2026-09-07T07:36:56.370Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4bb274c93ee578b9bfbc8b3d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Anthropic Commerce Agents: Baukasten lässt Checkout beim Händler",
+    "link": "https://onlinemarktplatz.de/292747/anthropic-commerce-agents/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-07T07:36:56.370Z",
+    "deliveredAt": "2026-09-07T07:36:56.370Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "66a1d7bd31d48346c3c0027f",
     "source": "DeStatis",
     "sourceKey": "src-7523dc532642ad9d",
@@ -9850,87 +9942,6 @@
       "Studien & Marktdaten"
     ],
     "title": "Media kit",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.986Z",
-    "detectedAt": "2026-08-17T11:40:45.986Z",
-    "groups": [
-      "Research"
-    ],
-    "guid": "6c1ce6885cd821d2745b05dc",
-    "historicalBackfill": false,
-    "link": "https://corporate.yougov.com/investors/financial-reports/",
-    "priority": 2,
-    "source": "YouGov Corporate News",
-    "sourceLabel": "YouGov",
-    "tags": [
-      "Studien & Marktdaten"
-    ],
-    "title": "Financial reports",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.984Z",
-    "detectedAt": "2026-08-17T11:40:45.984Z",
-    "groups": [
-      "Finanzen"
-    ],
-    "guid": "ec3a9bf63f274b1f9ac79a37",
-    "historicalBackfill": false,
-    "link": "https://www.mollie.com/de/papers/world-class-commercial-infrastructure",
-    "priority": 2,
-    "source": "Mollie Papers",
-    "sourceLabel": "Mollie",
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Studien & Marktdaten",
-      "Sicherheit",
-      "Nachhaltigkeit"
-    ],
-    "title": "Sie möchten Ihre Umsätze maximieren und Ihr Online-Business nachhaltig steigern?",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.984Z",
-    "detectedAt": "2026-08-17T11:40:45.984Z",
-    "groups": [
-      "Finanzen"
-    ],
-    "guid": "f3961d55673259edc7711e15",
-    "historicalBackfill": false,
-    "link": "https://www.mollie.com/de/papers/european-ecommerce-report",
-    "priority": 2,
-    "source": "Mollie Papers",
-    "sourceLabel": "Mollie",
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Studien & Marktdaten",
-      "Sicherheit",
-      "Nachhaltigkeit"
-    ],
-    "title": "Der Europäische E-Commerce-Report 2022",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-17T11:40:45.984Z",
-    "detectedAt": "2026-08-17T11:40:45.984Z",
-    "groups": [
-      "Firmen"
-    ],
-    "guid": "8e327bd237c8086749cc6029",
-    "historicalBackfill": false,
-    "link": "https://www.tencent.com/newsroom/media-resources",
-    "priority": 2,
-    "source": "Tencent News",
-    "sourceLabel": "Tencent News",
-    "tags": [
-      "Studien & Marktdaten",
-      "Events"
-    ],
-    "title": "Media resources",
     "publishedAt": null
   }
 ]
