@@ -1,5 +1,27 @@
 [
   {
+    "guid": "d15d100001f06e395a5f7103",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Vielfalt im Netz, Einfachheit für den Kunden",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/vielfalt-im-netz-einfachheit-fuer-den-kunden",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-07T21:31:58.240Z",
+    "deliveredAt": "2026-09-07T21:31:58.240Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "04af04f0ee2e929ef96c6505",
     "source": "DM",
     "sourceKey": "src-fd6e846f7c6683bc",
@@ -9964,24 +9986,6 @@
       "Quartalszahlen"
     ],
     "title": "Baugenehmigungen für Wohnungen im Juni 2026: +13,8 % zum Vorjahresmonat18. August 2026",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T06:04:52.855Z",
-    "detectedAt": "2026-08-18T06:04:52.855Z",
-    "groups": [
-      "Research"
-    ],
-    "guid": "482fc29274707a31c988e469",
-    "historicalBackfill": false,
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_34_p002.html",
-    "priority": 2,
-    "source": "DeStatis",
-    "sourceLabel": "DeStatis",
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "title": "36 % aller Übernachtungen in Österreich von Gästen aus Deutschland18. August 2026",
     "publishedAt": null
   }
 ]
