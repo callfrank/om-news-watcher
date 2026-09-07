@@ -1,5 +1,51 @@
 [
   {
+    "guid": "3e7a4bfd73116d44798940b5",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "The Platform Group Tochter: Lott Autoteile, das Ende naht?",
+    "link": "https://wortfilter.de/lott-autoteile-tpg-ende/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-07T12:19:35.858Z",
+    "deliveredAt": "2026-09-07T12:19:35.858Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "22eae9190e4bf7b7d0744548",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Europas Händler nutzen Temu für Wachstum und Expansion [Anzeige]",
+    "link": "https://wortfilter.de/europas-handler-nutzen-temu/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-07T12:19:35.858Z",
+    "deliveredAt": "2026-09-07T12:19:35.858Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "47e6f349a5ed786cae751033",
     "source": "Handelskraft",
     "sourceKey": "src-6c1c923af06aedde",
@@ -9919,43 +9965,6 @@
       "Recht & Regulierung"
     ],
     "title": "Gesetzgebungsverfahren - Anlagen",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T03:58:45.344Z",
-    "detectedAt": "2026-08-18T03:58:45.344Z",
-    "duplicateSources": [],
-    "groups": [
-      "Staat"
-    ],
-    "guid": "20528a195c4ad6f5b413d0b2",
-    "historicalBackfill": false,
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/Gesetzgebungsverfahrensuche/Gesetzgebungsverfahren/Gesetzgebungsverfahrenssuche_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FBearbeiten&callerId.HASH=478d452ed2aa6ade700c051995330a9b1790e00c66fd&callerId=110518&folderInclude.HASH=550b5dd5036535fb1e44364aad269aa065853a9b7933&folderExclude.HASH=d08a79067efbb55e1fbddb1c95bf6c3b95f768617c00&folderInclude=%2FBMJ%2FSharedDocs%2FGesetzgebungsverfahren%2FDE%2F*",
-    "priority": 2,
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "title": "Übersicht der laufenden Gesetzgebungsverfahren",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T03:58:45.344Z",
-    "detectedAt": "2026-08-18T03:58:45.344Z",
-    "groups": [
-      "Staat"
-    ],
-    "guid": "3f9ccc44017180fd23564307",
-    "historicalBackfill": false,
-    "link": "https://www.bmjv.de/SiteGlobals/Forms/AlleMeldungen/allemeldungen_Formular.html?nn=13870&folderExclude=-%2FBMJ%2F*%2FRestricted+-%2FBMJ%2FSharedDocs%2FDownloads%2F*+-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FBroschueren_Sprachvarianten%2F*+-%2FBMJ%2F_doc%2F*++-%2FBMJ%2FSharedDocs%2FPublikationen%2FDE%2FSortieren_Fachpublikationen%2F*&callerId.HASH=3f4a9843492a58f4f76dbdf3de3e354ea21888e35576&callerId=148026&folderInclude.HASH=28f191021691441182d4a560c514778cac80ee362fbb&folderExclude.HASH=8a80c6948b4cb2cf6d574257563c098360ec4d36dfa3&folderInclude=%2FBMJ%2FSharedDocs%2FPressearchiv%2F*+%2FBMJ%2FSharedDocs%2FInterviews%2FDE%2F*+%2FBMJ%2FSharedDocs%2FPressemitteilungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FZitate%2FDE%2F*+%2FBMJ%2FSharedDocs%2FKurzmeldungen%2FDE%2F*+%2FBMJ%2FSharedDocs%2FMeldungen%2FDE%2F*",
-    "priority": 2,
-    "source": "BMJ",
-    "sourceLabel": "BMJ",
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "title": "Alle Meldungen",
     "publishedAt": null
   }
 ]
