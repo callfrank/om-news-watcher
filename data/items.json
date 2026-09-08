@@ -1,5 +1,143 @@
 [
   {
+    "guid": "242153eaf1a51efd09d9e1c4",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "'God of War' on Prime Video: Everything to know about the video game adaptation",
+    "link": "https://www.aboutamazon.com/news/entertainment/god-of-war-prime-video-series",
+    "pageDate": "Sept. 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-08T21:52:28.968Z",
+    "deliveredAt": "2026-09-08T21:52:28.968Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "66a1d7bd31d48346c3c0027f",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Produktion im Juli 2026: -1,1 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-08T21:52:28.947Z",
+    "deliveredAt": "2026-09-08T21:52:28.947Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "75ebc46f36b34bfcb5c27145",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "DHL ordnet Brief- und Paketgeschäft rechtlich neu",
+    "link": "https://onlinemarktplatz.de/292611/dhl-konzernstruktur-brief/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-08T21:52:28.917Z",
+    "deliveredAt": "2026-09-08T21:52:28.917Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4262c3c967e674ab233b1a5a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "BILD schließt seinen Marktplatz nach nur rund zweieinhalb Jahren",
+    "link": "https://onlinemarktplatz.de/292755/bild-marktplatz-eingestellt/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-08T21:52:28.917Z",
+    "deliveredAt": "2026-09-08T21:52:28.917Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4bb274c93ee578b9bfbc8b3d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Anthropic Commerce Agents: Baukasten lässt Checkout beim Händler",
+    "link": "https://onlinemarktplatz.de/292747/anthropic-commerce-agents/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-08T21:52:28.917Z",
+    "deliveredAt": "2026-09-08T21:52:28.917Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "10143314584bd16bd1ed3ea9",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Faire Woche lädt zum Mitmachen ein",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/faire-woche-laedt-zum-mitmachen-ein-125667",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-08T21:52:28.910Z",
+    "deliveredAt": "2026-09-08T21:52:28.910Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "5f4d1f81a756efc6e3b96f82",
     "source": "Wero",
     "sourceKey": "src-b3076904e4e4545a",
@@ -10841,137 +10979,6 @@
     "publishedAt": "2026-09-07T12:00:00.000Z",
     "detectedAt": "2026-09-07T17:56:24.222Z",
     "deliveredAt": "2026-09-07T17:56:24.222Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f1794ad6b2632213cf777199",
-    "source": "Vinted Newsroom",
-    "sourceKey": "src-4bd55bcb182c0d40",
-    "sourceLabel": "Vinted",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "The September reset: where to find the money for the thing you've been putting off",
-    "link": "https://company.vinted.com/newsroom/the-september-reset",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T17:56:24.215Z",
-    "deliveredAt": "2026-09-07T17:56:24.215Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "08ad71c645beaa7d338eec8f",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Digital X: Telekom zeigt erstmals Drohnen-Detektion live",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/digital-x-telekom-zeigt-erstmals-drohnen-detektion-live",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-07T17:56:24.213Z",
-    "deliveredAt": "2026-09-07T17:56:24.213Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3e7a4bfd73116d44798940b5",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "The Platform Group Tochter: Lott Autoteile, das Ende naht?",
-    "link": "https://wortfilter.de/lott-autoteile-tpg-ende/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-07T12:19:35.858Z",
-    "deliveredAt": "2026-09-07T12:19:35.858Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "22eae9190e4bf7b7d0744548",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Europas Händler nutzen Temu für Wachstum und Expansion [Anzeige]",
-    "link": "https://wortfilter.de/europas-handler-nutzen-temu/",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T12:19:35.858Z",
-    "deliveredAt": "2026-09-07T12:19:35.858Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "47e6f349a5ed786cae751033",
-    "source": "Handelskraft",
-    "sourceKey": "src-6c1c923af06aedde",
-    "sourceLabel": "Handelskraft",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Systemmigration erfolgreich planen: So gelingt euch der Wechsel ohne operative Brüche",
-    "link": "https://www.handelskraft.de/systemmigration-richtig-planen-und-umsetzen/",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T09:35:59.149Z",
-    "deliveredAt": "2026-09-07T09:35:59.149Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "44e9cc661b339cc51c088b86",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Wahlergebnis in Sachsen-Anhalt: Handelsverband warnt vor hohen wirtschaftlichen Schäden einer Politik der Abschottung und mahnt zu Reformen",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15344-wahlergebnis-in-sachsen-anhalt-handelsverband-warnt-vor-hohen-wirtschaftlichen-schaeden-einer-politik-der-abschottung-und-mahnt-zu-reformen",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-07T09:35:59.112Z",
-    "deliveredAt": "2026-09-07T09:35:59.112Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
