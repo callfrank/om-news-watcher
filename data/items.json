@@ -1,5 +1,344 @@
 [
   {
+    "guid": "8dec3c4de0114cd50696975a",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wie erkenne ich einen Fake-Shop?",
+    "link": "https://demoshops.de/wie-erkenne-ich-einen-fake-shop/",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.154Z",
+    "deliveredAt": "2026-09-08T10:14:20.154Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "11c7d62c25b1d9fe32667f87",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Kaufland-Marktplatz wächst weiter: Start in den Niederlanden",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/september/kaufland-marktplatz-waechst-weiter-start-in-den-niederlanden",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-08T10:14:20.139Z",
+    "deliveredAt": "2026-09-08T10:14:20.139Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Kaufland Newsroom"
+    ]
+  },
+  {
+    "guid": "e2968e2e735e1e00d84a8e4e",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "See the official first images for ‘Boys of Tommen,’ Prime Video's upcoming book-to-series adaptation",
+    "link": "https://www.aboutamazon.com/news/entertainment/boys-of-tommen-prime-video",
+    "pageDate": "Sept. 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.135Z",
+    "deliveredAt": "2026-09-08T10:14:20.135Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cdc0061e0cbacad6cbb5d463",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "A first look at ‘Love Me Love Me 2,’ the sequel coming to Prime Video in 2027",
+    "link": "https://www.aboutamazon.com/news/entertainment/love-me-love-me-2-sequel-prime-video",
+    "pageDate": "Sept. 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.135Z",
+    "deliveredAt": "2026-09-08T10:14:20.135Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0cc8851bace706fd22e5a4d8",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "A first look at ‘Our Fault: London,’ the ‘Your Fault: London’ and 'My Fault: London' sequel coming to Prime Video in 2027",
+    "link": "https://www.aboutamazon.com/news/entertainment/our-fault-london-prime-video",
+    "pageDate": "Sept. 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.135Z",
+    "deliveredAt": "2026-09-08T10:14:20.135Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2e2306a0334a5c7f7ccedfd2",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Zukunftsorientierung im Kernhaushalt erreicht Tiefststand // ZEW und WWF veröffentlichen Zukunftsquote im Bundeshaushalt 2026",
+    "link": "https://www.zew.de/presse/pressearchiv/zukunftsorientierung-im-kernhaushalt-erreicht-tiefststand",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.133Z",
+    "deliveredAt": "2026-09-08T10:14:20.133Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d596faa2d7161267d2b5db8d",
+    "source": "Iwh-halle",
+    "sourceKey": "src-029efb425dd21a52",
+    "sourceLabel": "Iwh-halle",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten"
+    ],
+    "priority": 3,
+    "title": "IWH-Insolvenztrend: Firmenpleiten gehen im August zurück, bleiben aber auf hohem Niveau",
+    "link": "https://www.iwh-halle.de/presse/pressemitteilungen/detail/iwh-insolvenztrend-firmenpleiten-gehen-im-august-zurueck-bleiben-aber-auf-hohem-niveau",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-08T10:14:20.131Z",
+    "deliveredAt": "2026-09-08T10:14:20.131Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "07763703070caac814ac77f6",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "The More Than $1.1 Trillion US Consumer Goods Market Is Splitting in Two, According to NIQ and World Data Lab Analysis",
+    "link": "https://nielseniq.com/global/en/news-center/2026/the-more-than-1-1-trillion-us-consumer-goods-market-is-splitting-in-two-according-to-niq-and-world-data-lab-analysis/",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.130Z",
+    "deliveredAt": "2026-09-08T10:14:20.130Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f921112e2756ba3ee2e567a3",
+    "source": "Ifo",
+    "sourceKey": "src-63168d62c3d3a5c3",
+    "sourceLabel": "Ifo",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 3,
+    "title": "PISA-Abstieg gefährdet unseren Wohlstand",
+    "link": "https://www.ifo.de/presse",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-08T10:14:20.129Z",
+    "deliveredAt": "2026-09-08T10:14:20.129Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fc4f8cabb1e150cb3618e6fe",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kraftstoffpreise im August/Anfang September – Stand der Verfahren beim Bundeskartellamt",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/09_08_2026_KraftstoffNews_Sonderausgabe.html?nn=52004",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.120Z",
+    "deliveredAt": "2026-09-08T10:14:20.120Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6ead908fbb3e65aa413b2a6c",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Galaktische Briefmarke: Deutsche Post feiert 60 Jahre STAR TREK",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/galaktische-briefmarke-deutsche-post-feiert-60-jahre-star-trek.html",
+    "pageDate": "08.09.2026, 10:00 MESZ POST & PAKET DEUTSCHLAND",
+    "publishedAt": null,
+    "detectedAt": "2026-09-08T10:14:20.089Z",
+    "deliveredAt": "2026-09-08T10:14:20.089Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cbe0fa7b3ea4c86a9a2d58dd",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Organische Sichtbarkeit deutscher Onlineshops sinkt um 16,7 Prozent",
+    "link": "https://onlinemarktplatz.de/292711/organische-sichtbarkeit-seo/",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.089Z",
+    "deliveredAt": "2026-09-08T10:14:20.089Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "eff99dc2f657c12d638c369b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Vinted Pay Deutschland übernimmt Wallets von Mangopay",
+    "link": "https://onlinemarktplatz.de/292759/vinted-pay-deutschland-wallet-wechsel/",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.089Z",
+    "deliveredAt": "2026-09-08T10:14:20.089Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fc633b26c76c9705bf91a13a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kaufland Niederlande: Marktplatz startet mit 3.000 Händlern",
+    "link": "https://onlinemarktplatz.de/292893/kaufland-niederlande-marktplatz-start/",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.089Z",
+    "deliveredAt": "2026-09-08T10:14:20.089Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e9ec6c6fba28c8e7f14440f6",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Beyond the Chatbot: How JD Health Is Bringing AI Into Doctors’ Everyday Work",
+    "link": "https://jdcorporateblog.com/beyond-the-chatbot-how-jd-health-is-bringing-ai-into-doctors-everyday-work/",
+    "pageDate": "Sep 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-08T10:14:20.052Z",
+    "deliveredAt": "2026-09-08T10:14:20.052Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d91e009c3ddda20973cedf17",
     "source": "Mittelstand Digital",
     "sourceKey": "src-3fbff5b0f3b52fe1",
@@ -9714,292 +10053,5 @@
     "tags": [],
     "title": "Christian Müller, Co-CEO of Schwarz Digits, Assumes Overall Responsibility – Former Co-CEO Rolf Schumann Leaves Company After Successful Development Phase",
     "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T11:15:59.080Z",
-    "detectedAt": "2026-08-18T11:15:59.080Z",
-    "groups": [
-      "Firmen"
-    ],
-    "guid": "aca2c7524ceb76f1e99ffa58",
-    "historicalBackfill": false,
-    "link": "https://gruppe.schwarz/en/press/archive/2026/sustainable-business-the-companies-of-schwarz-group-present-roadmap-to-combat-climate-risks-and-resource-scarcity",
-    "pageDate": "July 22nd, 2026",
-    "priority": 2,
-    "recovered": false,
-    "source": "Schwarz",
-    "sourceLabel": "Schwarz",
-    "tags": [],
-    "title": "Sustainable Business: The Companies of Schwarz Group Present Roadmap to Combat Climate Risks and Resource Scarcity",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T11:15:59.079Z",
-    "detectedAt": "2026-08-18T11:15:59.079Z",
-    "groups": [
-      "Firmen"
-    ],
-    "guid": "7110a373cb002af607fd49de",
-    "historicalBackfill": false,
-    "link": "https://www.aboutamazon.com/news/entertainment/terminal-list-prime-video-chris-pratt",
-    "pageDate": "Aug. 17, 2026",
-    "priority": 2,
-    "publishedAt": "2026-08-17T00:00:00.000Z",
-    "recovered": true,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "source": "Aboutamazon",
-    "sourceLabel": "Aboutamazon",
-    "tags": [
-      "KI"
-    ],
-    "title": "A first look at 'The Terminal List' Season 2 starring Chris Pratt, coming to Prime Video October 21"
-  },
-  {
-    "deliveredAt": "2026-08-18T11:15:59.075Z",
-    "detectedAt": "2026-08-18T11:15:59.075Z",
-    "groups": [
-      "Logistik"
-    ],
-    "guid": "3b9eed22aab979df500bfb7a",
-    "historicalBackfill": false,
-    "link": "https://news.post.at/presse/de/post/id/2333207/NEUE%20WERBEKAMPAGNE%3A%20POST%20MACHT%20MODERNE%20GRUNDVERSORGUNG%20SICHTBAR",
-    "pageDate": "17.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-17T12:00:00.000Z",
-    "recovered": true,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "tags": [],
-    "title": "NEUE WERBEKAMPAGNE: POST MACHT MODERNE GRUNDVERSORGUNG SICHTBAR"
-  },
-  {
-    "deliveredAt": "2026-08-18T11:15:59.068Z",
-    "detectedAt": "2026-08-18T11:15:59.068Z",
-    "groups": [
-      "Finanzen"
-    ],
-    "guid": "7fd977f767fe7c5da739e223",
-    "historicalBackfill": false,
-    "link": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/misuse.en.html",
-    "pageDate": "17.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-17T12:00:00.000Z",
-    "recovered": true,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "source": "ECB",
-    "sourceLabel": "ECB",
-    "tags": [],
-    "title": "Protect yourself from fraud"
-  },
-  {
-    "deliveredAt": "2026-08-18T11:15:59.068Z",
-    "detectedAt": "2026-08-18T11:15:59.068Z",
-    "groups": [
-      "Finanzen"
-    ],
-    "guid": "7754a067a26ffa7e54c13a91",
-    "historicalBackfill": false,
-    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260817~754a8a4418.en.html",
-    "pageDate": "17.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-17T12:00:00.000Z",
-    "recovered": true,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "source": "ECB",
-    "sourceLabel": "ECB",
-    "tags": [],
-    "title": "Is the AI boom the next dot-com bubble?"
-  },
-  {
-    "deliveredAt": "2026-08-18T10:55:10.797Z",
-    "detectedAt": "2026-08-18T10:55:10.797Z",
-    "groups": [
-      "Sonstiges"
-    ],
-    "guid": "95718bb2e0159b6f95790ffb",
-    "historicalBackfill": false,
-    "link": "https://onlinemarktplatz.de/271154/amazon-awd-europa/",
-    "pageDate": "18.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-18T12:00:00.000Z",
-    "source": "Onlinemarktplatz",
-    "sourceLabel": "OLMP",
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "title": "Amazon AWD startet in Europa: Das müssen Händler wissen"
-  },
-  {
-    "deliveredAt": "2026-08-18T10:55:10.797Z",
-    "detectedAt": "2026-08-18T10:55:10.797Z",
-    "groups": [
-      "Sonstiges"
-    ],
-    "guid": "519653bad0ffc1ed0d551468",
-    "historicalBackfill": false,
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/niedrigwasser-bei-flussreisen-welche-rechte-haben-reisende-125188",
-    "pageDate": "18.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-18T12:00:00.000Z",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "title": "Niedrigwasser bei Flussreisen – welche Rechte haben Reisende?"
-  },
-  {
-    "deliveredAt": "2026-08-18T09:50:16.717Z",
-    "detectedAt": "2026-08-18T09:50:16.717Z",
-    "groups": [
-      "Institute"
-    ],
-    "guid": "b28b4f4e5d7989c37a50890a",
-    "historicalBackfill": false,
-    "link": "https://www.zew.de/presse/pressearchiv/konjunkturerwartungen-ziehen-weiter-an",
-    "priority": 3,
-    "source": "Zew",
-    "sourceLabel": "Zew",
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "title": "Konjunkturerwartungen ziehen weiter an // Der ZEW-Indikator liegt bei plus 34,2 Punkten",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T08:32:33.767Z",
-    "detectedAt": "2026-08-18T08:32:33.767Z",
-    "groups": [
-      "Research"
-    ],
-    "guid": "7ace03009a259bae21ad4cae",
-    "historicalBackfill": false,
-    "link": "https://nielseniq.com/global/en/news-center/2026/record-breaking-summer-keeps-supermarket-sales-growing-as-shoppers-opt-for-convenience/",
-    "pageDate": "18.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-18T12:00:00.000Z",
-    "source": "Nielseniq",
-    "sourceLabel": "Nielseniq",
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "title": "Record-breaking summer keeps supermarket sales growing as shoppers opt for convenience"
-  },
-  {
-    "deliveredAt": "2026-08-18T08:32:33.766Z",
-    "detectedAt": "2026-08-18T08:32:33.766Z",
-    "groups": [
-      "Logistik"
-    ],
-    "guid": "23c7147a502340b24499d86d",
-    "historicalBackfill": false,
-    "link": "https://news.post.at/presse/de/post/id/2333519/SICHER%20ERREICHBAR%20ZUM%20SCHULSTART:%20YELLLOW%20STARTET%20KIDS%20TARIF",
-    "priority": 2,
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "tags": [],
-    "title": "18.08.2026",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T08:32:33.765Z",
-    "detectedAt": "2026-08-18T08:32:33.765Z",
-    "groups": [
-      "Logistik"
-    ],
-    "guid": "dbd7a94de0cde2dd9308d4ba",
-    "historicalBackfill": false,
-    "link": "https://news.post.at/presse/de/post/id/2333519/SICHER%20ERREICHBAR%20ZUM%20SCHULSTART%3A%20YELLLOW%20STARTET%20KIDS%20TARIF",
-    "pageDate": "18.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-18T12:00:00.000Z",
-    "source": "Post AT",
-    "sourceLabel": "Post AT",
-    "tags": [],
-    "title": "SICHER ERREICHBAR ZUM SCHULSTART: YELLLOW STARTET KIDS TARIF"
-  },
-  {
-    "deliveredAt": "2026-08-18T07:05:27.856Z",
-    "detectedAt": "2026-08-18T07:05:27.856Z",
-    "groups": [
-      "Institute"
-    ],
-    "guid": "89699efa4439f163c08fc148",
-    "historicalBackfill": false,
-    "link": "https://www.zew.de/presse/pressearchiv/deutlich-mehr-unternehmensschliessungen",
-    "priority": 3,
-    "source": "Zew",
-    "sourceLabel": "Zew",
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "title": "Deutlich mehr Unternehmensschließungen // 2025 schlossen fast 190.000 Unternehmen in Deutschland",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T07:05:27.855Z",
-    "detectedAt": "2026-08-18T07:05:27.855Z",
-    "groups": [
-      "Research"
-    ],
-    "guid": "bbd071e832a502649fbc9067",
-    "historicalBackfill": false,
-    "link": "https://nielseniq.com/global/en/news-center/2026/foodservice-inflation-continues-in-july-as-drought-concerns-mount/",
-    "pageDate": "18.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-18T12:00:00.000Z",
-    "source": "Nielseniq",
-    "sourceLabel": "Nielseniq",
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "title": "Foodservice inflation continues in July as drought concerns mount"
-  },
-  {
-    "deliveredAt": "2026-08-18T07:05:27.850Z",
-    "detectedAt": "2026-08-18T07:05:27.850Z",
-    "groups": [
-      "Verbände"
-    ],
-    "guid": "fdf93c51a6b193ed75724cdd",
-    "historicalBackfill": false,
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15298-hde-warnt-vor-china-shops-mit-deutscher-tarnung",
-    "priority": 2,
-    "source": "Handelsverband",
-    "sourceLabel": "Handelsverband",
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "title": "HDE warnt vor China-Shops mit deutscher Tarnung",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T07:05:27.850Z",
-    "detectedAt": "2026-08-18T07:05:27.850Z",
-    "groups": [
-      "Sonstiges"
-    ],
-    "guid": "9c70c15487b37da9a320c171",
-    "historicalBackfill": false,
-    "link": "https://onlinemarktplatz.de/264080/e-commerce-markt-kroatien/",
-    "pageDate": "18.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-18T12:00:00.000Z",
-    "source": "Onlinemarktplatz",
-    "sourceLabel": "OLMP",
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "title": "E-Commerce Markt Kroatien: Prognose sieht Anstieg auf 2,3 Mrd. USD"
   }
 ]
