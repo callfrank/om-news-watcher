@@ -1,5 +1,115 @@
 [
   {
+    "guid": "d91e009c3ddda20973cedf17",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Infoblatt: Digitale Kundenbindungsplattformen für lebendige Innenstädte",
+    "link": "https://digitalzentrumhandel.de/author/eva-neitzel/",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T06:34:04.530Z",
+    "deliveredAt": "2026-09-08T06:34:04.530Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "32accaab7781036a8200aa3e",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Bei 63 % der Paare in Deutschland haben Frau und Mann den gleichen Bildungsstand",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_37_p002.html",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T06:34:04.521Z",
+    "deliveredAt": "2026-09-08T06:34:04.521Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ba06ba3e7717eb949b15363c",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Exporte im Juli 2026: -0,8 % zum Juni 2026",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T06:34:04.520Z",
+    "deliveredAt": "2026-09-08T06:34:04.520Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4bc3ce0f747ba6b8d32f9ab7",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Stromerzeugung im 1. Halbjahr 2026: 6,5 % mehr Strom aus erneuerbaren Energien",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T06:34:04.520Z",
+    "deliveredAt": "2026-09-08T06:34:04.520Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "94c7b21be8130aa4bba33fbe",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Smart Cart: Nutzer geben im Schnitt 32 Prozent mehr aus",
+    "link": "https://onlinemarktplatz.de/292635/smart-cart-studie/",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T06:34:04.485Z",
+    "deliveredAt": "2026-09-08T06:34:04.485Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d15d100001f06e395a5f7103",
     "source": "Telekom Medieninformationen",
     "sourceKey": "src-6f65565f4749a295",
@@ -9891,101 +10001,5 @@
       "Recht & Regulierung"
     ],
     "title": "E-Commerce Markt Kroatien: Prognose sieht Anstieg auf 2,3 Mrd. USD"
-  },
-  {
-    "deliveredAt": "2026-08-18T07:05:27.850Z",
-    "detectedAt": "2026-08-18T07:05:27.850Z",
-    "groups": [
-      "Sonstiges"
-    ],
-    "guid": "da5e37321aa27bc101801dc0",
-    "historicalBackfill": false,
-    "link": "https://onlinemarktplatz.de/271118/generation-60-plus/",
-    "pageDate": "18.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-18T12:00:00.000Z",
-    "source": "Onlinemarktplatz",
-    "sourceLabel": "OLMP",
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "title": "Generation 60+: Ältere Kunden werden für den Onlinehandel wichtiger"
-  },
-  {
-    "deliveredAt": "2026-08-18T07:05:27.850Z",
-    "detectedAt": "2026-08-18T07:05:27.850Z",
-    "groups": [
-      "Sonstiges"
-    ],
-    "guid": "9e7d28b16648d1ea10a04dc0",
-    "historicalBackfill": false,
-    "link": "https://onlinemarktplatz.de/271138/google-merchant-api/",
-    "pageDate": "18.08.2026",
-    "priority": 2,
-    "publishedAt": "2026-08-18T12:00:00.000Z",
-    "source": "Onlinemarktplatz",
-    "sourceLabel": "OLMP",
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "title": "Google beendet Content API for Shopping: Händler müssen umstellen"
-  },
-  {
-    "deliveredAt": "2026-08-18T06:04:52.855Z",
-    "detectedAt": "2026-08-18T06:04:52.855Z",
-    "groups": [
-      "Research"
-    ],
-    "guid": "5947f48169d46691e595c966",
-    "historicalBackfill": false,
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_293_412.html",
-    "priority": 2,
-    "source": "DeStatis",
-    "sourceLabel": "DeStatis",
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "title": "Apfelernte 2026 voraussichtlich 5,4 % unter Zehnjahresschnitt18. August 2026",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T06:04:52.855Z",
-    "detectedAt": "2026-08-18T06:04:52.855Z",
-    "groups": [
-      "Research"
-    ],
-    "guid": "d58c8428b3729e309cd23ce0",
-    "historicalBackfill": false,
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_292_13321.html",
-    "priority": 2,
-    "source": "DeStatis",
-    "sourceLabel": "DeStatis",
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "title": "Erwerbstätigkeit im 2. Quartal 2026 saisonbereinigt gesunken18. August 2026",
-    "publishedAt": null
-  },
-  {
-    "deliveredAt": "2026-08-18T06:04:52.855Z",
-    "detectedAt": "2026-08-18T06:04:52.855Z",
-    "groups": [
-      "Research"
-    ],
-    "guid": "3c1996deff713b50b06c6fdf",
-    "historicalBackfill": false,
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_291_3111.html",
-    "priority": 2,
-    "source": "DeStatis",
-    "sourceLabel": "DeStatis",
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "title": "Baugenehmigungen für Wohnungen im Juni 2026: +13,8 % zum Vorjahresmonat18. August 2026",
-    "publishedAt": null
   }
 ]
