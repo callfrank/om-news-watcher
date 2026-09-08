@@ -1,5 +1,177 @@
 [
   {
+    "guid": "5f4d1f81a756efc6e3b96f82",
+    "source": "Wero",
+    "sourceKey": "src-b3076904e4e4545a",
+    "sourceLabel": "Wero",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Media & insights",
+    "link": "https://epicompany.eu/media-insights/media-insights/epi-initiates-wero-in-luxembourg",
+    "pageDate": "September 7, 2026",
+    "publishedAt": "2026-09-07T00:00:00.000Z",
+    "detectedAt": "2026-09-08T18:59:57.037Z",
+    "deliveredAt": "2026-09-08T18:59:57.037Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7869ebcff9629e35887d22f4",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon 21 Air updates",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-21-air-miami-updates",
+    "pageDate": "Sept. 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-08T18:59:57.018Z",
+    "deliveredAt": "2026-09-08T18:59:57.018Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "084db0d740479dbc1f3b4ba9",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Millions of students can now get access to a free year of Kiro from AWS",
+    "link": "https://www.aboutamazon.com/news/aws/amazon-expands-free-kiro-access-students-universities",
+    "pageDate": "Sept. 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-08T18:59:57.018Z",
+    "deliveredAt": "2026-09-08T18:59:57.018Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d4c20679863117bd0d261b49",
+    "source": "Gfu",
+    "sourceKey": "src-e47d0ee60e79a7e8",
+    "sourceLabel": "Gfu",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "IFA 2026: Die weltweit größte Tech-Show für Consumer Electronics, Home Appliances und Future Tech zieht Rekordbilanz",
+    "link": "https://gfu.de/ifa-2026-die-weltweit-groesste-tech-show-fuer-consumer-electronics-home-appliances-und-future-tech-zieht-rekordbilanz/",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T18:59:57.013Z",
+    "deliveredAt": "2026-09-08T18:59:57.013Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "abf7c8ea67be7c205e0558f2",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "General news",
+    "link": "https://www.klarna.com/international/press/category/general-news/",
+    "pageDate": "September 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-08T18:59:56.993Z",
+    "deliveredAt": "2026-09-08T18:59:56.993Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "1864a24971043f03d1313289",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "logo lockup",
+    "link": "https://www.klarna.com/international/press/category/us/",
+    "pageDate": "September 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-08T18:59:56.993Z",
+    "deliveredAt": "2026-09-08T18:59:56.993Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "2b1bbcb5a2a79cd6cb41f1e8",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Exchange rates",
+    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-08T18:59:56.983Z",
+    "deliveredAt": "2026-09-08T18:59:56.983Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "9edb3b1d88bf6d1c49a6ae0e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "NIQ und Similarweb wollen KI-Handel messen",
+    "link": "https://onlinemarktplatz.de/292602/ki-handel-messen-niq-similarweb/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-08T18:59:56.973Z",
+    "deliveredAt": "2026-09-08T18:59:56.973Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "9819fbc305e80c13db5feb3f",
     "source": "Klarna",
     "sourceKey": "src-f16daf5cdc73aa7e",
@@ -10800,187 +10972,6 @@
     "publishedAt": null,
     "detectedAt": "2026-09-07T09:35:59.112Z",
     "deliveredAt": "2026-09-07T09:35:59.112Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "10143314584bd16bd1ed3ea9",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Faire Woche lädt zum Mitmachen ein",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/faire-woche-laedt-zum-mitmachen-ein-125667",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T09:35:59.107Z",
-    "deliveredAt": "2026-09-07T09:35:59.107Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d78fc156a1a8e47cf0cb9f81",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Telekom hat stabilstes Mobilfunknetz in Europa",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/telekom-hat-stabilstes-mobilfunknetz-in-europa",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-07T09:35:59.101Z",
-    "deliveredAt": "2026-09-07T09:35:59.101Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "749121a69797183c8c984182",
-    "source": "Rewe",
-    "sourceKey": "src-dca03b70693088ae",
-    "sourceLabel": "Rewe",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "REWE startet wieder „Scheine für Vereine“",
-    "link": "https://mediacenter.rewe.de/pressemitteilungen/rewe-scheine-fuer-vereine-2026",
-    "pageDate": "Heute",
-    "publishedAt": null,
-    "detectedAt": "2026-09-07T07:36:56.427Z",
-    "deliveredAt": "2026-09-07T07:36:56.427Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "75ebc46f36b34bfcb5c27145",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "DHL ordnet Brief- und Paketgeschäft rechtlich neu",
-    "link": "https://onlinemarktplatz.de/292611/dhl-konzernstruktur-brief/",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T07:36:56.370Z",
-    "deliveredAt": "2026-09-07T07:36:56.370Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4262c3c967e674ab233b1a5a",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "BILD schließt seinen Marktplatz nach nur rund zweieinhalb Jahren",
-    "link": "https://onlinemarktplatz.de/292755/bild-marktplatz-eingestellt/",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T07:36:56.370Z",
-    "deliveredAt": "2026-09-07T07:36:56.370Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4bb274c93ee578b9bfbc8b3d",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Anthropic Commerce Agents: Baukasten lässt Checkout beim Händler",
-    "link": "https://onlinemarktplatz.de/292747/anthropic-commerce-agents/",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T07:36:56.370Z",
-    "deliveredAt": "2026-09-07T07:36:56.370Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "66a1d7bd31d48346c3c0027f",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Produktion im Juli 2026: -1,1 % zum Vormonat",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T06:07:42.294Z",
-    "deliveredAt": "2026-09-07T06:07:42.294Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b19c2de9e41a09da1de53a6d",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "HDE-Konsumbarometer im September: Verbraucherstimmung bleibt trotz Verbesserung schwach",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15343-hde-konsumbarometer-im-september-verbraucherstimmung-bleibt-trotz-verbesserung-schwach",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-07T06:07:42.259Z",
-    "deliveredAt": "2026-09-07T06:07:42.259Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
