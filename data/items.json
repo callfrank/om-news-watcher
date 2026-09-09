@@ -1,5 +1,110 @@
 [
   {
+    "guid": "47e6f349a5ed786cae751033",
+    "source": "Handelskraft",
+    "sourceKey": "src-6c1c923af06aedde",
+    "sourceLabel": "Handelskraft",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Systemmigration erfolgreich planen: So gelingt euch der Wechsel ohne operative Brüche",
+    "link": "https://www.handelskraft.de/systemmigration-richtig-planen-und-umsetzen/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-09T00:15:44.025Z",
+    "deliveredAt": "2026-09-09T00:15:44.025Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "749121a69797183c8c984182",
+    "source": "Rewe",
+    "sourceKey": "src-dca03b70693088ae",
+    "sourceLabel": "Rewe",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "REWE startet wieder „Scheine für Vereine“",
+    "link": "https://mediacenter.rewe.de/pressemitteilungen/rewe-scheine-fuer-vereine-2026",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-09T00:15:44.014Z",
+    "deliveredAt": "2026-09-09T00:15:44.014Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "604e765ed0d866870d61f205",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "GPT-6 Astra from OpenAI is now available on Amazon Bedrock",
+    "link": "https://www.aboutamazon.com/news/aws/bedrock-openai-models",
+    "pageDate": "Sept. 8, 2026",
+    "publishedAt": "2026-09-08T00:00:00.000Z",
+    "detectedAt": "2026-09-09T00:15:44.005Z",
+    "deliveredAt": "2026-09-09T00:15:44.005Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "22eae9190e4bf7b7d0744548",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Europas Händler nutzen Temu für Wachstum und Expansion [Anzeige]",
+    "link": "https://wortfilter.de/europas-handler-nutzen-temu/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-09T00:15:43.959Z",
+    "deliveredAt": "2026-09-09T00:15:43.959Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f1794ad6b2632213cf777199",
+    "source": "Vinted Newsroom",
+    "sourceKey": "src-4bd55bcb182c0d40",
+    "sourceLabel": "Vinted",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "The September reset: where to find the money for the thing you've been putting off",
+    "link": "https://company.vinted.com/newsroom/the-september-reset",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-09T00:15:43.943Z",
+    "deliveredAt": "2026-09-09T00:15:43.943Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "242153eaf1a51efd09d9e1c4",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10868,117 +10973,6 @@
     "publishedAt": "2026-09-08T12:00:00.000Z",
     "detectedAt": "2026-09-08T06:34:04.485Z",
     "deliveredAt": "2026-09-08T06:34:04.485Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d15d100001f06e395a5f7103",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Vielfalt im Netz, Einfachheit für den Kunden",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/vielfalt-im-netz-einfachheit-fuer-den-kunden",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-07T21:31:58.240Z",
-    "deliveredAt": "2026-09-07T21:31:58.240Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "04af04f0ee2e929ef96c6505",
-    "source": "DM",
-    "sourceKey": "src-fd6e846f7c6683bc",
-    "sourceLabel": "DM",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "dm präsentiert Kinderkunst auf Karlsruher Schlossfassade",
-    "link": "https://newsroom.dm.de/pressreleases/dm-praesentiert-kinderkunst-auf-karlsruher-schlossfassade-3465244",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T17:56:24.264Z",
-    "deliveredAt": "2026-09-07T17:56:24.264Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0102abf8b1ad554a5d88938b",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "Europa muss strukturelle Hürden für Innovation abbauen // ZEW-Ökonomin Hanna Hottenrott zum European Innovation Act (EIA)",
-    "link": "https://www.zew.de/presse/pressearchiv/europa-muss-strukturelle-huerden-fuer-innovation-abbauen",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T17:56:24.255Z",
-    "deliveredAt": "2026-09-07T17:56:24.255Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8b917b0932ccf81e8f865ab8",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "TikTok Shop opens cross-border sales between EU and UK",
-    "link": "https://ecommercenews.eu/tiktok-shop-opens-cross-border-sales-between-eu-and-uk/",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T17:56:24.246Z",
-    "deliveredAt": "2026-09-07T17:56:24.246Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "676c29d58d9d47087008ec67",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Marktplatzverbot per AGB: Wann Händler es ignorieren dürfen",
-    "link": "https://wortfilter.de/marktplatzverbot-agb/",
-    "pageDate": "07.09.2026",
-    "publishedAt": "2026-09-07T12:00:00.000Z",
-    "detectedAt": "2026-09-07T17:56:24.222Z",
-    "deliveredAt": "2026-09-07T17:56:24.222Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
