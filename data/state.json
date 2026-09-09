@@ -15734,7 +15734,12 @@
     "src-65cd776c7db6b237": "Abruf fehlgeschlagen: HARD TIMEOUT nach 25s",
     "src-dbea0c1ac563772a": "Abruf fehlgeschlagen: HTTP 403",
     "src-df3769ae5eb9d873": "Abruf fehlgeschlagen: HTTP 403",
-    "src-9270afe2506b625b": "Abruf fehlgeschlagen: HTTP 403"
+    "src-9270afe2506b625b": "Abruf fehlgeschlagen: HTTP 403",
+    "src-b0d6dce4f4e53f64": "0 Treffer; zuletzt typischerweise 9",
+    "src-6f65565f4749a295": "0 Treffer; zuletzt typischerweise 7",
+    "src-ba300714de43cc5d": "0 Treffer; zuletzt typischerweise 9",
+    "src-51390123dcbdb93e": "1 Treffer; deutlich unter dem üblichen Niveau 12",
+    "src-3fbff5b0f3b52fe1": "1 Treffer; deutlich unter dem üblichen Niveau 12"
   },
   "deliveredBySource": {
     "Onlinemarktplatz": [
@@ -17904,10 +17909,10 @@
     ],
     "src-ee7514d4657deb9e": [],
     "src-7523dc532642ad9d": [
-      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
-      "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_37_p002.html",
       "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_316_421.html",
       "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
+      "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_37_p002.html",
       "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_295_212.html",
       "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_294_421.html",
       "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/08/PD26_N059_212.html",
@@ -20047,6 +20052,24 @@
     }
   },
   "lastStoredBySource": {
+    "src-7523dc532642ad9d": {
+      "title": "Stromerzeugung im 1. Halbjahr 2026: 6,5 % mehr Strom aus erneuerbaren Energien",
+      "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
+      "pageDate": "08.09.2026",
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "detectedAt": "2026-09-09T04:41:14.328Z",
+      "deliveredAt": "2026-09-09T04:41:14.328Z",
+      "recovered": true
+    },
+    "src-907af1387802cea1": {
+      "title": "Smart Cart: Nutzer geben im Schnitt 32 Prozent mehr aus",
+      "link": "https://onlinemarktplatz.de/292635/smart-cart-studie/",
+      "pageDate": "08.09.2026",
+      "publishedAt": "2026-09-08T12:00:00.000Z",
+      "detectedAt": "2026-09-09T04:41:14.301Z",
+      "deliveredAt": "2026-09-09T04:41:14.301Z",
+      "recovered": true
+    },
     "src-fd6e846f7c6683bc": {
       "title": "dm präsentiert Kinderkunst auf Karlsruher Schlossfassade",
       "link": "https://newsroom.dm.de/pressreleases/dm-praesentiert-kinderkunst-auf-karlsruher-schlossfassade-3465244",
@@ -20117,24 +20140,6 @@
       "publishedAt": "2026-09-07T12:00:00.000Z",
       "detectedAt": "2026-09-09T00:15:43.943Z",
       "deliveredAt": "2026-09-09T00:15:43.943Z",
-      "recovered": true
-    },
-    "src-7523dc532642ad9d": {
-      "title": "Stromerzeugung im 1. Halbjahr 2026: 6,5 % mehr Strom aus erneuerbaren Energien",
-      "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
-      "pageDate": "08.09.2026",
-      "publishedAt": "2026-09-08T12:00:00.000Z",
-      "detectedAt": "2026-09-09T04:41:14.328Z",
-      "deliveredAt": "2026-09-09T04:41:14.328Z",
-      "recovered": true
-    },
-    "src-907af1387802cea1": {
-      "title": "Smart Cart: Nutzer geben im Schnitt 32 Prozent mehr aus",
-      "link": "https://onlinemarktplatz.de/292635/smart-cart-studie/",
-      "pageDate": "08.09.2026",
-      "publishedAt": "2026-09-08T12:00:00.000Z",
-      "detectedAt": "2026-09-09T04:41:14.301Z",
-      "deliveredAt": "2026-09-09T04:41:14.301Z",
       "recovered": true
     },
     "src-60410208ae6b15b3": {
