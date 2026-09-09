@@ -1,5 +1,94 @@
 [
   {
+    "guid": "04af04f0ee2e929ef96c6505",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "dm präsentiert Kinderkunst auf Karlsruher Schlossfassade",
+    "link": "https://newsroom.dm.de/pressreleases/dm-praesentiert-kinderkunst-auf-karlsruher-schlossfassade-3465244",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-09T03:36:50.120Z",
+    "deliveredAt": "2026-09-09T03:36:50.120Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0102abf8b1ad554a5d88938b",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Europa muss strukturelle Hürden für Innovation abbauen // ZEW-Ökonomin Hanna Hottenrott zum European Innovation Act (EIA)",
+    "link": "https://www.zew.de/presse/pressearchiv/europa-muss-strukturelle-huerden-fuer-innovation-abbauen",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-09T03:36:50.103Z",
+    "deliveredAt": "2026-09-09T03:36:50.103Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "8b917b0932ccf81e8f865ab8",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "TikTok Shop opens cross-border sales between EU and UK",
+    "link": "https://ecommercenews.eu/tiktok-shop-opens-cross-border-sales-between-eu-and-uk/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-09T03:36:50.089Z",
+    "deliveredAt": "2026-09-09T03:36:50.089Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "676c29d58d9d47087008ec67",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Marktplatzverbot per AGB: Wann Händler es ignorieren dürfen",
+    "link": "https://wortfilter.de/marktplatzverbot-agb/",
+    "pageDate": "07.09.2026",
+    "publishedAt": "2026-09-07T12:00:00.000Z",
+    "detectedAt": "2026-09-09T03:36:50.063Z",
+    "deliveredAt": "2026-09-09T03:36:50.063Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "47e6f349a5ed786cae751033",
     "source": "Handelskraft",
     "sourceKey": "src-6c1c923af06aedde",
@@ -325,50 +414,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "abf7c8ea67be7c205e0558f2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "General news",
-    "link": "https://www.klarna.com/international/press/category/general-news/",
-    "pageDate": "September 8, 2026",
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "detectedAt": "2026-09-08T18:59:56.993Z",
-    "deliveredAt": "2026-09-08T18:59:56.993Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1864a24971043f03d1313289",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "logo lockup",
-    "link": "https://www.klarna.com/international/press/category/us/",
-    "pageDate": "September 8, 2026",
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "detectedAt": "2026-09-08T18:59:56.993Z",
-    "deliveredAt": "2026-09-08T18:59:56.993Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "2b1bbcb5a2a79cd6cb41f1e8",
@@ -10927,52 +10972,6 @@
     "publishedAt": "2026-09-08T12:00:00.000Z",
     "detectedAt": "2026-09-08T06:34:04.520Z",
     "deliveredAt": "2026-09-08T06:34:04.520Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4bc3ce0f747ba6b8d32f9ab7",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Stromerzeugung im 1. Halbjahr 2026: 6,5 % mehr Strom aus erneuerbaren Energien",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T06:34:04.520Z",
-    "deliveredAt": "2026-09-08T06:34:04.520Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "94c7b21be8130aa4bba33fbe",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Smart Cart: Nutzer geben im Schnitt 32 Prozent mehr aus",
-    "link": "https://onlinemarktplatz.de/292635/smart-cart-studie/",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T06:34:04.485Z",
-    "deliveredAt": "2026-09-08T06:34:04.485Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
