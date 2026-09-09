@@ -3025,7 +3025,9 @@
     "waitMs" : 2500
   },
   {
-    "baselineVersion" : "mac-app-20260817-150126",
+    "allowExternal" : false,
+    "allowTitleOnly" : false,
+    "baselineVersion" : "mac-app-20260909-043838",
     "enabled" : true,
     "excludeKeywords" : [
 
@@ -3036,6 +3038,8 @@
     "includeKeywords" : [
 
     ],
+    "includeRegex" : "^https?://www\\.klarna\\.com/international/press/[^/?#]+/?(?:\\?[^#]*)?(?:#.*)?$",
+    "minTitleLength" : 5,
     "name" : "Klarna",
     "priority" : 2,
     "selectors" : {
@@ -3049,6 +3053,42 @@
       "Payment"
     ],
     "url" : "https://www.klarna.com/international/press/",
+    "visualBackup" : {
+      "selectors" : {
+        "date" : "",
+        "item" : "",
+        "link" : "",
+        "title" : ""
+      }
+    },
+    "visualLearned" : true,
+    "visualLearnedAt" : "2026-09-09T02:38:38Z",
+    "visualRuleHistory" : [
+      {
+        "configuration" : {
+          "selectors" : {
+            "date" : "",
+            "item" : "",
+            "link" : "",
+            "title" : ""
+          }
+        },
+        "label" : "Vor visuellem Einlernen",
+        "savedAt" : "2026-09-09T02:38:38Z"
+      }
+    ],
+    "visualRuleVersion" : 3,
+    "visualSampleCount" : 3,
+    "visualSampleURLs" : [
+      "https://www.klarna.com/international/press/klarna-expands-partnership-with-online-retail-marketplace-stockx-to-bring-flexible-payment-options-to-u-s-and-canada/",
+      "https://www.klarna.com/international/press/klarna-and-rare-carat-team-up-to-bring-flexible-payments-to-engagement-ring-shopping/",
+      "https://www.klarna.com/international/press/klarna-ceo-sebastian-siemiatkowski-acquires-692-506-shares-for-10-million/"
+    ],
+    "visualSmartExtraction" : true,
+    "visualStrategy" : "URL-Muster",
+    "visualValidated" : true,
+    "visualValidatedAt" : "2026-09-09T02:38:38Z",
+    "visualValidationMessage" : "URL-Regel gespeichert, Kartenstruktur war nach Reload nicht stabil",
     "waitMs" : 2500
   },
   {
