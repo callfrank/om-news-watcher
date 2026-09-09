@@ -1,5 +1,51 @@
 [
   {
+    "guid": "4bc3ce0f747ba6b8d32f9ab7",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Stromerzeugung im 1. Halbjahr 2026: 6,5 % mehr Strom aus erneuerbaren Energien",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_317_43312.html",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-09T04:41:14.328Z",
+    "deliveredAt": "2026-09-09T04:41:14.328Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "94c7b21be8130aa4bba33fbe",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Smart Cart: Nutzer geben im Schnitt 32 Prozent mehr aus",
+    "link": "https://onlinemarktplatz.de/292635/smart-cart-studie/",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-09T04:41:14.301Z",
+    "deliveredAt": "2026-09-09T04:41:14.301Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "04af04f0ee2e929ef96c6505",
     "source": "DM",
     "sourceKey": "src-fd6e846f7c6683bc",
@@ -10931,49 +10977,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "32accaab7781036a8200aa3e",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Bei 63 % der Paare in Deutschland haben Frau und Mann den gleichen Bildungsstand",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_37_p002.html",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T06:34:04.521Z",
-    "deliveredAt": "2026-09-08T06:34:04.521Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ba06ba3e7717eb949b15363c",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Exporte im Juli 2026: -0,8 % zum Juni 2026",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T06:34:04.520Z",
-    "deliveredAt": "2026-09-08T06:34:04.520Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
