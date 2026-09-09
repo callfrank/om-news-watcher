@@ -1,5 +1,206 @@
 [
   {
+    "guid": "5c4b4f73edc61b6c37b48054",
+    "source": "Rewe",
+    "sourceKey": "src-dca03b70693088ae",
+    "sourceLabel": "Rewe",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Saisonaler Genuss in Bio-Qualität: erste Limited Edition von REWE Bio",
+    "link": "https://mediacenter.rewe.de/pressemitteilungen/rewe-bio-limited-edition-2026",
+    "pageDate": "Heute",
+    "publishedAt": null,
+    "detectedAt": "2026-09-09T06:54:11.069Z",
+    "deliveredAt": "2026-09-09T06:54:11.069Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "32accaab7781036a8200aa3e",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Bei 63 % der Paare in Deutschland haben Frau und Mann den gleichen Bildungsstand",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_37_p002.html",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-09T06:54:11.053Z",
+    "deliveredAt": "2026-09-09T06:54:11.053Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ba06ba3e7717eb949b15363c",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Exporte im Juli 2026: -0,8 % zum Juni 2026",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_318_51.html",
+    "pageDate": "08.09.2026",
+    "publishedAt": "2026-09-08T12:00:00.000Z",
+    "detectedAt": "2026-09-09T06:54:11.053Z",
+    "deliveredAt": "2026-09-09T06:54:11.053Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "df94f5608df0e35024c7589f",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Schulbegleitung und Co.: Zahl der Eingliederungshilfen für junge Menschen mit seelischer Behinderung binnen zehn Jahren mehr als verdoppelt",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N062_221.html",
+    "pageDate": "09.09.2026",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "detectedAt": "2026-09-09T06:54:11.053Z",
+    "deliveredAt": "2026-09-09T06:54:11.053Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cbe7314f8ded0e110e98a82d",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Lkw-Maut-Fahrleistungsindex im August 2026: +0,6 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_319_421.html",
+    "pageDate": "09.09.2026",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "detectedAt": "2026-09-09T06:54:11.053Z",
+    "deliveredAt": "2026-09-09T06:54:11.053Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "71741794a0abf0f490ce4389",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Magento Zero-Day CVSS 10.0: Backdoor in Onlineshops",
+    "link": "https://wortfilter.de/magento-zero-day-cve-2026-75650/",
+    "pageDate": "09.09.2026",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "detectedAt": "2026-09-09T06:54:11.040Z",
+    "deliveredAt": "2026-09-09T06:54:11.040Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a71947986d1bb3fb3c4ab986",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "SAP auf STACKIT: RISE-Cloud startet mit europäischer Infrastruktur",
+    "link": "https://onlinemarktplatz.de/292999/sap-auf-stackit/",
+    "pageDate": "09.09.2026",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "detectedAt": "2026-09-09T06:54:11.039Z",
+    "deliveredAt": "2026-09-09T06:54:11.039Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "406e3cf117de7ecb497fe50c",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Google Ads erweitert Messung um prognostizierte Conversions",
+    "link": "https://onlinemarktplatz.de/292699/qualified-future-conversions-google/",
+    "pageDate": "09.09.2026",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "detectedAt": "2026-09-09T06:54:11.039Z",
+    "deliveredAt": "2026-09-09T06:54:11.039Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7ee8a24dba66d5ac18281da3",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "KI im Mittelstand: Wenn aus Anrufen automatisierte Prozesse werden",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/ki-im-mittelstand-wenn-aus-anrufen-automatisierte-prozesse-werd",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-09T06:54:11.031Z",
+    "deliveredAt": "2026-09-09T06:54:11.031Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "4bc3ce0f747ba6b8d32f9ab7",
     "source": "DeStatis",
     "sourceKey": "src-7523dc532642ad9d",
@@ -10777,205 +10978,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "07763703070caac814ac77f6",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "The More Than $1.1 Trillion US Consumer Goods Market Is Splitting in Two, According to NIQ and World Data Lab Analysis",
-    "link": "https://nielseniq.com/global/en/news-center/2026/the-more-than-1-1-trillion-us-consumer-goods-market-is-splitting-in-two-according-to-niq-and-world-data-lab-analysis/",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T10:14:20.130Z",
-    "deliveredAt": "2026-09-08T10:14:20.130Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f921112e2756ba3ee2e567a3",
-    "source": "Ifo",
-    "sourceKey": "src-63168d62c3d3a5c3",
-    "sourceLabel": "Ifo",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 3,
-    "title": "PISA-Abstieg gefährdet unseren Wohlstand",
-    "link": "https://www.ifo.de/presse",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-08T10:14:20.129Z",
-    "deliveredAt": "2026-09-08T10:14:20.129Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fc4f8cabb1e150cb3618e6fe",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Kraftstoffpreise im August/Anfang September – Stand der Verfahren beim Bundeskartellamt",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/09_08_2026_KraftstoffNews_Sonderausgabe.html?nn=52004",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T10:14:20.120Z",
-    "deliveredAt": "2026-09-08T10:14:20.120Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6ead908fbb3e65aa413b2a6c",
-    "source": "DHL",
-    "sourceKey": "src-e5330506f57b7169",
-    "sourceLabel": "DHL",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Galaktische Briefmarke: Deutsche Post feiert 60 Jahre STAR TREK",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/galaktische-briefmarke-deutsche-post-feiert-60-jahre-star-trek.html",
-    "pageDate": "08.09.2026, 10:00 MESZ POST & PAKET DEUTSCHLAND",
-    "publishedAt": null,
-    "detectedAt": "2026-09-08T10:14:20.089Z",
-    "deliveredAt": "2026-09-08T10:14:20.089Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "cbe0fa7b3ea4c86a9a2d58dd",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Organische Sichtbarkeit deutscher Onlineshops sinkt um 16,7 Prozent",
-    "link": "https://onlinemarktplatz.de/292711/organische-sichtbarkeit-seo/",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T10:14:20.089Z",
-    "deliveredAt": "2026-09-08T10:14:20.089Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "eff99dc2f657c12d638c369b",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Vinted Pay Deutschland übernimmt Wallets von Mangopay",
-    "link": "https://onlinemarktplatz.de/292759/vinted-pay-deutschland-wallet-wechsel/",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T10:14:20.089Z",
-    "deliveredAt": "2026-09-08T10:14:20.089Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fc633b26c76c9705bf91a13a",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Kaufland Niederlande: Marktplatz startet mit 3.000 Händlern",
-    "link": "https://onlinemarktplatz.de/292893/kaufland-niederlande-marktplatz-start/",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T10:14:20.089Z",
-    "deliveredAt": "2026-09-08T10:14:20.089Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e9ec6c6fba28c8e7f14440f6",
-    "source": "JD Corporate News",
-    "sourceKey": "src-9261fd3fa3c1f896",
-    "sourceLabel": "JD",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Beyond the Chatbot: How JD Health Is Bringing AI Into Doctors’ Everyday Work",
-    "link": "https://jdcorporateblog.com/beyond-the-chatbot-how-jd-health-is-bringing-ai-into-doctors-everyday-work/",
-    "pageDate": "Sep 8, 2026",
-    "publishedAt": "2026-09-08T00:00:00.000Z",
-    "detectedAt": "2026-09-08T10:14:20.052Z",
-    "deliveredAt": "2026-09-08T10:14:20.052Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d91e009c3ddda20973cedf17",
-    "source": "Mittelstand Digital",
-    "sourceKey": "src-3fbff5b0f3b52fe1",
-    "sourceLabel": "Mittelstand Digital",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Infoblatt: Digitale Kundenbindungsplattformen für lebendige Innenstädte",
-    "link": "https://digitalzentrumhandel.de/author/eva-neitzel/",
-    "pageDate": "08.09.2026",
-    "publishedAt": "2026-09-08T12:00:00.000Z",
-    "detectedAt": "2026-09-08T06:34:04.530Z",
-    "deliveredAt": "2026-09-08T06:34:04.530Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
