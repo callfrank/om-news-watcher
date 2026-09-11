@@ -1,5 +1,132 @@
 [
   {
+    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay stärkt europäische Ausrichtung und bündelt Führung seiner EU-Marktplätze",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "pageDate": "11.09.2026",
+    "publishedAt": "2026-09-11T12:00:00.000Z",
+    "detectedAt": "2026-09-11T15:14:17.687Z",
+    "deliveredAt": "2026-09-11T15:14:17.687Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "3585d9e60ff61aab5d7e9434",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "‘Off Campus’ Season 2: Everything to know about the Prime Video show’s return",
+    "link": "https://www.aboutamazon.com/news/entertainment/off-campus-hockey-series-prime-video",
+    "pageDate": "Sept. 11, 2026",
+    "publishedAt": "2026-09-11T00:00:00.000Z",
+    "detectedAt": "2026-09-11T15:14:17.680Z",
+    "deliveredAt": "2026-09-11T15:14:17.680Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "568659b4503f768dd8d127f3",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "11.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2342099/&Ouml;STERREICHISCHE%20POST%20VERST&Auml;NDIGT%20SICH%20MIT%20DEM%20BUND%20AUF%20ZAHLUNG%20EINER%20ERSATZLEISTUNG%20F&Uuml;R%20SOZIALABGABEN%20F&Uuml;R%20BEAMT*INNEN%20AUS%20DEN%20JAHREN%201996%20BIS%202008",
+    "pageDate": "11.09.2026",
+    "publishedAt": "2026-09-11T12:00:00.000Z",
+    "detectedAt": "2026-09-11T15:14:17.673Z",
+    "deliveredAt": "2026-09-11T15:14:17.673Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cd48c02b26683d12a0537ecc",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ÖSTERREICHISCHE POST VERSTÄNDIGT SICH MIT DEM BUND AUF ZAHLUNG EINER ERSATZLEISTUNG FÜR SOZIALABGABEN FÜR BEAMT*INNEN AUS DEN JAHREN 1996 BIS 2008",
+    "link": "https://news.post.at/presse/de/post/id/2342099/%26Ouml%3BSTERREICHISCHE%20POST%20VERST%26Auml%3BNDIGT%20SICH%20MIT%20DEM%20BUND%20AUF%20ZAHLUNG%20EINER%20ERSATZLEISTUNG%20F%26Uuml%3BR%20SOZIALABGABEN%20F%26Uuml%3BR%20BEAMT%2AINNEN%20AUS%20DEN%20JAHREN%201996%20BIS%202008",
+    "pageDate": "11.09.2026",
+    "publishedAt": "2026-09-11T12:00:00.000Z",
+    "detectedAt": "2026-09-11T15:14:17.672Z",
+    "deliveredAt": "2026-09-11T15:14:17.672Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "17b586690e1341655b0433d2",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon’s reach in the EU levels off",
+    "link": "https://ecommercenews.eu/amazons-reach-in-the-eu-levels-off/",
+    "pageDate": "11.09.2026",
+    "publishedAt": "2026-09-11T12:00:00.000Z",
+    "detectedAt": "2026-09-11T15:14:17.666Z",
+    "deliveredAt": "2026-09-11T15:14:17.666Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6bb527956340a58b9aaf081d",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": ", Bonn, 11.09.2026 Cyber Resilience Act: Meldepflicht startet Für Hersteller von Produkten mit digitalen Elementen gelten auf dem Binnenmarkt der EU ab dem 11. September 2026 die Meldepflichten des CRA. Hersteller müssen aktiv ausgenutzte Schwachstellen sowie schwerwiegende Sicherheitsvorfälle melden. Das BSI unterstützt mit Schritt-für-Schritt-Anleitungen.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260911_CRA_Meldepflicht_Schwachstellen.html",
+    "pageDate": "11.09.2026",
+    "publishedAt": "2026-09-11T12:00:00.000Z",
+    "detectedAt": "2026-09-11T15:14:17.647Z",
+    "deliveredAt": "2026-09-11T15:14:17.647Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "a1c5bc365fc47ba67dfc514c",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -18,27 +145,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "6784c0575cf70e63cd8b100a",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay stärkt europäische Ausrichtung und bündelt Führung seiner EU-Marktplätze",
-    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
-    "pageDate": "11.09.2026",
-    "publishedAt": "2026-09-11T12:00:00.000Z",
-    "detectedAt": "2026-09-11T11:21:24.710Z",
-    "deliveredAt": "2026-09-11T11:21:24.710Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "a67f8b4476cce69cb57695a6",
@@ -10916,116 +11022,6 @@
     "priority": 2,
     "title": "Navigate to Flix and Klarna expand partnership to give millions of travelers across the U.S. and Europe more ways to pay",
     "link": "https://www.klarna.com/international/press/flix-and-klarna-expand-partnership-to-give-millions-of-travelers-across-the-u-s-and-europe-more-ways-to-pay/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c44526432c58ce5262c20b9e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna adds Germany to its capital efficiency platform with €900m facility supporting €5bn of German Financing expansion",
-    "link": "https://www.klarna.com/international/press/klarna-adds-germany-to-its-capital-efficiency-platform-with-eur900m-facility-supporting-eur5bn-of-german-financing-expansion/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9cedceb485f992c460cfcf73",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna sinks its teeth into dental care with Curve Dental®, bringing flexible payments to practices nationwide",
-    "link": "https://www.klarna.com/international/press/klarna-sinks-its-teeth-into-dental-care-with-curve-dental-r-bringing-flexible-payments-to-practices-nationwide/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a0a5ad53bf270fab9a9e7bee",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna now available on Fragrance.com, bringing flexible payments to one of America's largest online beauty destinations",
-    "link": "https://www.klarna.com/international/press/klarna-now-available-on-fragrance-com-bringing-flexible-payments-to-one-of-americas-largest-online-beauty-destinations/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8f19f7527da8cb6195c9912a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to New regulation set to strengthen consumer trust in BNPL, survey shows",
-    "link": "https://www.klarna.com/international/press/new-regulation-set-to-strengthen-consumer-trust-in-bnpl-survey-shows/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "93978e883ad371d8d7bfe4eb",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna gets physical with lululemon, launching in-store in the UK & Germany",
-    "link": "https://www.klarna.com/international/press/klarna-gets-physical-with-lululemon-launching-in-store-in-the-uk-and-germany/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T20:03:04.089Z",

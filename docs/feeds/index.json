@@ -9,13 +9,13 @@
     "group": "Finanzen",
     "slug": "finanzen",
     "file": "feeds/finanzen.xml",
-    "count": 428
+    "count": 423
   },
   {
     "group": "Firmen",
     "slug": "firmen",
     "file": "feeds/firmen.xml",
-    "count": 19
+    "count": 20
   },
   {
     "group": "Institute",
@@ -27,7 +27,7 @@
     "group": "Logistik",
     "slug": "logistik",
     "file": "feeds/logistik.xml",
-    "count": 3
+    "count": 5
   },
   {
     "group": "Quartalszahlen",
@@ -45,13 +45,13 @@
     "group": "Sonstiges",
     "slug": "sonstiges",
     "file": "feeds/sonstiges.xml",
-    "count": 26
+    "count": 27
   },
   {
     "group": "Staat",
     "slug": "staat",
     "file": "feeds/staat.xml",
-    "count": 4
+    "count": 5
   },
   {
     "group": "Verbände",
