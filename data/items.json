@@ -1,5 +1,123 @@
 [
   {
+    "guid": "4c4d7394c3e19af3667183a9",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Peak Season 2026 – Früh planen statt blind rabattieren",
+    "link": "https://onlinemarktplatz.de/293018/peak-season-2026/",
+    "pageDate": "09.09.2026",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "detectedAt": "2026-09-11T05:59:48.260Z",
+    "deliveredAt": "2026-09-11T05:59:48.260Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0da0e923cfa5a378761c7602",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Magento Zero-Day aktiv ausgenutzt: Adobe veröffentlicht Hotfix",
+    "link": "https://onlinemarktplatz.de/293030/magento-zero-day-hotfix/",
+    "pageDate": "09.09.2026",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "detectedAt": "2026-09-11T05:59:48.260Z",
+    "deliveredAt": "2026-09-11T05:59:48.260Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "9d59cfe67b1e4a69264b449b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Fressnapf Wachstum: Umsatz steigt im zweiten Quartal um 7,1 Prozent",
+    "link": "https://onlinemarktplatz.de/293059/fressnapf-wachstum-q2-2026/",
+    "pageDate": "09.09.2026",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "detectedAt": "2026-09-11T05:59:48.260Z",
+    "deliveredAt": "2026-09-11T05:59:48.260Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4b286c10844c392d49364b2d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Bot-Traffic: Warum Klickzahlen täuschen können",
+    "link": "https://onlinemarktplatz.de/292672/bot-traffic-erkennen/",
+    "pageDate": "11.09.2026",
+    "publishedAt": "2026-09-11T12:00:00.000Z",
+    "detectedAt": "2026-09-11T05:59:48.260Z",
+    "deliveredAt": "2026-09-11T05:59:48.260Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "93e211a147e766bddf37ffb5",
+    "source": "FedEx Newsroom",
+    "sourceKey": "src-ccc01078527f3e85",
+    "sourceLabel": "FedEx",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "FedEx Introduces Global Trade Navigator to Simplify International Shipping",
+    "link": "https://newsroom.fedex.com/newsroom/global-english/fedex-introduces-global-trade-navigator-to-simplify-international-shipping",
+    "pageDate": "09.09.2026",
+    "publishedAt": "2026-09-09T12:00:00.000Z",
+    "detectedAt": "2026-09-11T05:59:48.219Z",
+    "deliveredAt": "2026-09-11T05:59:48.219Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "d2fe8d8aead0cd54e2bc4aae",
     "source": "Ifhkoeln",
     "sourceKey": "src-ce9e70954500f828",
@@ -10905,115 +11023,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cf27afb513a0a0ed480e54d4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Rare Carat team up to bring flexible payments to engagement ring shopping",
-    "link": "https://www.klarna.com/international/press/klarna-and-rare-carat-team-up-to-bring-flexible-payments-to-engagement-ring-shopping/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T17:19:26.934Z",
-    "deliveredAt": "2026-09-09T17:19:26.934Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9ef1baeb8b3cc5b949daa138",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands partnership with global resale platform StockX to bring flexible payment options to U.S. and Canada",
-    "link": "https://www.klarna.com/international/press/klarna-expands-partnership-with-online-retail-marketplace-stockx-to-bring-flexible-payment-options-to-u-s-and-canada/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T17:19:26.934Z",
-    "deliveredAt": "2026-09-09T17:19:26.934Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1e9bc907eb10297e07bc95cd",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "The choice facing Europeans",
-    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260909~59a07e6f05.en.html",
-    "pageDate": "09.09.2026",
-    "publishedAt": "2026-09-09T12:00:00.000Z",
-    "detectedAt": "2026-09-09T17:19:26.925Z",
-    "deliveredAt": "2026-09-09T17:19:26.925Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "06b15437f2d34b2b289741b5",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "JP Performance: Was für eine verlogene Sache",
-    "link": "https://wortfilter.de/jp-performance-kehrtwende/",
-    "pageDate": "09.09.2026",
-    "publishedAt": "2026-09-09T12:00:00.000Z",
-    "detectedAt": "2026-09-09T17:19:26.917Z",
-    "deliveredAt": "2026-09-09T17:19:26.917Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "15e97bf3da31be36fd634bac",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Privatgewerbliche Händler: eBay handelt – nur unsichtbar",
-    "link": "https://wortfilter.de/privatgewerbliche-haendler-ebay/",
-    "pageDate": "09.09.2026",
-    "publishedAt": "2026-09-09T12:00:00.000Z",
-    "detectedAt": "2026-09-09T17:19:26.917Z",
-    "deliveredAt": "2026-09-09T17:19:26.917Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
