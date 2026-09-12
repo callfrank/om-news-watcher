@@ -1,6 +1,6 @@
 [
   {
-    "guid": "6784c0575cf70e63cd8b100a",
+    "guid": "e5a3d548f59793cb5c4ad8f9",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,39 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt europäische Ausrichtung und bündelt Führung seiner EU-Marktplätze",
-    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
     "pageDate": "11.09.2026",
     "publishedAt": "2026-09-11T12:00:00.000Z",
-    "detectedAt": "2026-09-12T06:32:33.648Z",
-    "deliveredAt": "2026-09-12T06:32:33.648Z",
+    "detectedAt": "2026-09-12T11:17:23.138Z",
+    "deliveredAt": "2026-09-12T11:17:23.138Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "68207cc725136a34c5db5eb1",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "TikTok Haushaltsprodukte: Warum Alltagshelfer im Feed auffallen",
+    "link": "https://onlinemarktplatz.de/292790/tiktok-haushaltsprodukte/",
+    "pageDate": "12.09.2026",
+    "publishedAt": "2026-09-12T12:00:00.000Z",
+    "detectedAt": "2026-09-12T11:17:23.098Z",
+    "deliveredAt": "2026-09-12T11:17:23.098Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "bde6d73d69bb5364c4199704",
@@ -10998,28 +11022,6 @@
     "priority": 2,
     "title": "Navigate to Vibrant Planet and WARSI win the Klarna Climate Heroes Award and $50,000 each for their proven impact in protecting forest carbon",
     "link": "https://www.klarna.com/international/press/vibrant-planet-and-warsi-win-the-klarna-climate-heroes-award-and-50-000-each-for-their-proven-impact-in-protecting-forest-carbon/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2a2cf337797676294f50096a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna has received a favorable ruling in PriceRunner litigation, awarding $1.97 billion",
-    "link": "https://www.klarna.com/international/press/klarna-has-received-a-favorable-ruling-in-pricerunner-litigation-awarding-damages-of-1-97-billion/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T20:03:04.089Z",
