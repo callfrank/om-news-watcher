@@ -1,6 +1,46 @@
 [
   {
-    "guid": "6784c0575cf70e63cd8b100a",
+    "guid": "b7b52aa98345d3f546debfa0",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Spanien: Lidl Pay integriert Bizum",
+    "link": "https://demoshops.de/spanien-lidl-pay-integriert-bizum/",
+    "pageDate": "11.09.2026",
+    "publishedAt": "2026-09-11T12:00:00.000Z",
+    "detectedAt": "2026-09-12T01:35:24.619Z",
+    "deliveredAt": "2026-09-12T01:35:24.619Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8a3ca54461ff5ad7eff21915",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Spanien, Frankreich, Deutschland – die Woche 26/37",
+    "link": "https://demoshops.de/wero-woche-26-37/",
+    "pageDate": "12.09.2026",
+    "publishedAt": "2026-09-12T12:00:00.000Z",
+    "detectedAt": "2026-09-12T01:35:24.619Z",
+    "deliveredAt": "2026-09-12T01:35:24.619Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e5a3d548f59793cb5c4ad8f9",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,11 +50,11 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt europäische Ausrichtung und bündelt Führung seiner EU-Marktplätze",
-    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
     "pageDate": "11.09.2026",
     "publishedAt": "2026-09-11T12:00:00.000Z",
-    "detectedAt": "2026-09-11T23:33:23.527Z",
-    "deliveredAt": "2026-09-11T23:33:23.527Z",
+    "detectedAt": "2026-09-12T01:35:24.604Z",
+    "deliveredAt": "2026-09-12T01:35:24.604Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
@@ -10978,50 +11018,6 @@
     "priority": 2,
     "title": "Navigate to Klarna teams up with Money Wellness to offer free financial health checks",
     "link": "https://www.klarna.com/international/press/klarna-teams-up-with-money-wellness-to-offer-free-financial-health-checks/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cbc71ffaa8ee299364d3e3c4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna submits application for U.S. banking license",
-    "link": "https://www.klarna.com/international/press/klarna-submits-application-for-u-s-banking-license/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e24f749779611a8d5fbedbac",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna lands Southwest Airlines, bringing flexible payments to millions of US travelers this fall",
-    "link": "https://www.klarna.com/international/press/klarna-lands-southwest-airlines-bringing-flexible-payments-to-millions-of-us-travelers-this-fall/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T20:03:04.089Z",
