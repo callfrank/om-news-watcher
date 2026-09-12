@@ -1,6 +1,6 @@
 [
   {
-    "guid": "6784c0575cf70e63cd8b100a",
+    "guid": "e5a3d548f59793cb5c4ad8f9",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,35 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt europäische Ausrichtung und bündelt Führung seiner EU-Marktplätze",
-    "link": "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
     "pageDate": "11.09.2026",
     "publishedAt": "2026-09-11T12:00:00.000Z",
-    "detectedAt": "2026-09-12T19:22:15.273Z",
-    "deliveredAt": "2026-09-12T19:22:15.273Z",
+    "detectedAt": "2026-09-12T21:41:35.517Z",
+    "deliveredAt": "2026-09-12T21:41:35.517Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "13b261005846818e3a67e9fb",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Navigating lasting economic shocks",
+    "link": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260912~3cc706f4d6.en.html",
+    "pageDate": "12.09.2026",
+    "publishedAt": "2026-09-12T12:00:00.000Z",
+    "detectedAt": "2026-09-12T21:41:35.491Z",
+    "deliveredAt": "2026-09-12T21:41:35.491Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "68207cc725136a34c5db5eb1",
@@ -11000,28 +11020,6 @@
     "priority": 2,
     "title": "Navigate to Klarna celebrates 5 years of growth, innovation and partnerships in France",
     "link": "https://www.klarna.com/international/press/klarna-celebrates-5-years-of-growth-innovation-and-partnerships-in-france/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "61ca615e9f284422180f0763",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Vibrant Planet and WARSI win the Klarna Climate Heroes Award and $50,000 each for their proven impact in protecting forest carbon",
-    "link": "https://www.klarna.com/international/press/vibrant-planet-and-warsi-win-the-klarna-climate-heroes-award-and-50-000-each-for-their-proven-impact-in-protecting-forest-carbon/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T20:03:04.089Z",
