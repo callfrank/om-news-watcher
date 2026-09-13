@@ -1,5 +1,116 @@
 [
   {
+    "guid": "70a1ef4086e037069684b0b9",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "ChatGPT Ads: Der nächste große Werbekanal für Onlinehändler?",
+    "link": "https://wortfilter.de/chatgpt-ads-werbekanal/",
+    "pageDate": "13.09.2026",
+    "publishedAt": "2026-09-13T12:00:00.000Z",
+    "detectedAt": "2026-09-13T12:21:10.095Z",
+    "deliveredAt": "2026-09-13T12:21:10.095Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "99db48d502be332caf28af21",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Squishy Dumpling: Wie Five Below einen alten Sortimentsartikel zum Trend macht",
+    "link": "https://onlinemarktplatz.de/292789/squishy-dumpling/",
+    "pageDate": "13.09.2026",
+    "publishedAt": "2026-09-13T12:00:00.000Z",
+    "detectedAt": "2026-09-13T12:21:10.094Z",
+    "deliveredAt": "2026-09-13T12:21:10.094Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aa48db849c543775626a9399",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Voice AI Notes: Telekom bringt KI-Notizen in neue Geschäftstarife",
+    "link": "https://onlinemarktplatz.de/292984/voice-ai-notes-telekom-geschaeftstarife/",
+    "pageDate": "13.09.2026",
+    "publishedAt": "2026-09-13T12:00:00.000Z",
+    "detectedAt": "2026-09-13T12:21:10.093Z",
+    "deliveredAt": "2026-09-13T12:21:10.093Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2b78c0530d158830eae74caf",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Madrid, Spain Nov 4 - 5, 2026 FBA Show 2026 Madrid",
+    "link": "https://amzsummits.com/events/fba-show-2026-madrid/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-13T12:21:10.055Z",
+    "deliveredAt": "2026-09-13T12:21:10.055Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "692551ea27604cde672454c1",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Paris, France Oct 26 - 30, 2026 Elite Seller Society Paris 2026",
+    "link": "https://amzsummits.com/events/elite-seller-society-paris-2026/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-13T12:21:10.054Z",
+    "deliveredAt": "2026-09-13T12:21:10.054Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "6784c0575cf70e63cd8b100a",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
@@ -10916,116 +11027,6 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T22:34:37.736Z",
     "deliveredAt": "2026-09-09T22:34:37.736Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "beb01e5667e6dd6c3e091588",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Ulta Beauty partner to bring flexible payments to U.S. beauty shoppers",
-    "link": "https://www.klarna.com/international/press/klarna-and-ulta-beauty-partner-to-bring-flexible-payments-to-u-s-beauty-shoppers/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.736Z",
-    "deliveredAt": "2026-09-09T22:34:37.736Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "79b4feba568586d0ebe3aaec",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
-    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
-    "pageDate": "Sept. 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.112Z",
-    "deliveredAt": "2026-09-09T20:03:04.112Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f66c2c24ead4a2df13d557b3",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon Pharmacy: How to order prescriptions online, save money, and get fast delivery",
-    "link": "https://www.aboutamazon.com/news/retail/how-does-amazon-pharmacy-work",
-    "pageDate": "Sept. 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.112Z",
-    "deliveredAt": "2026-09-09T20:03:04.112Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "894724f44a67e761f154aeea",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches in-app inbox to help consumers avoid scams",
-    "link": "https://www.klarna.com/international/press/klarna-launches-in-app-inbox-to-help-consumers-avoid-scams/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "eeb6094efac033b55f43896c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Bolt to grow ‘pay in full’ for rides and scooters",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-bolt-to-grow-pay-in-full-for-rides-and-scooters/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T20:03:04.089Z",
-    "deliveredAt": "2026-09-09T20:03:04.089Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
