@@ -1,5 +1,118 @@
 [
   {
+    "guid": "7c475cc8ad1efc5496bd9e9b",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart+ Adds CITGO Fuel Stations, Expanding Gas Savings to Over 17,000 Locations Nationwide",
+    "link": "https://corporate.walmart.com/news/2026/09/walmart-expands-gas-savings-to-17k-locations",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-14T14:04:00.152Z",
+    "deliveredAt": "2026-09-14T14:04:00.152Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T14:04:00.147Z",
+    "deliveredAt": "2026-09-14T14:04:00.147Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "2d46b435a279af38da66ae4a",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Zur Pressemitteilung",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/september/ivan-chernev-uebernimmt-vorsitz-der-geschaeftsleitung-kaufland-deutschland",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-14T14:04:00.140Z",
+    "deliveredAt": "2026-09-14T14:04:00.140Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Kaufland Newsroom"
+    ]
+  },
+  {
+    "guid": "b78a942df86df7f494f4d610",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kraftstoffpreise im September – Stand der Verfahren des Bundeskartellamtes",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/09_14_2026_Kraftstoffpreise_September.html?nn=52004",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T14:04:00.120Z",
+    "deliveredAt": "2026-09-14T14:04:00.120Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b61a3c22696dd7a0d94ca98b",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Preparing cash for the future",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T14:04:00.105Z",
+    "deliveredAt": "2026-09-14T14:04:00.105Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "04d5fc68f67a3094d7d44eea",
     "source": "Handelskraft",
     "sourceKey": "src-6c1c923af06aedde",
@@ -18,27 +131,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "6869865f2ead2edd0c6f79fa",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
-    "pageDate": "14.09.2026",
-    "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-14T12:44:28.831Z",
-    "deliveredAt": "2026-09-14T12:44:28.831Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "f21e45d209816c2cfdee5822",
@@ -10929,94 +11021,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Group Plc clarifies mechanics of March 9 lock-up expiration",
     "link": "https://www.klarna.com/international/press/klarna-group-plc-clarifies-mechanics-of-march-9-lock-up-expiration/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "62424b641fbcc8a9bcb26ad3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Board Chair Michael Moritz acquires 3.47 million shares for $50 million",
-    "link": "https://www.klarna.com/international/press/klarna-board-chair-michael-moritz-acquires-3-47-million-shares-for-usd50/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "754a0a56a0e769c1df1a3eea",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna smashes 1 million merchants milestone",
-    "link": "https://www.klarna.com/international/press/klarna-smashes-1-million-merchants-milestone/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "19d9b841cbf6e6838f4ddb01",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Taps Into Growing Demand for Conscious Beauty with Expanded Shopping Filter and Ratings by Good On You",
-    "link": "https://www.klarna.com/international/press/klarna-and-good-on-you-tap-into-growing-demand-for-conscious-beauty-with/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3404c7cbcc0846f3cff74623",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Card reaches 5 million active customers",
-    "link": "https://www.klarna.com/international/press/klarna-card-reaches-5-million-active-customers/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T22:34:37.737Z",
