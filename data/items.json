@@ -1,5 +1,70 @@
 [
   {
+    "guid": "6869865f2ead2edd0c6f79fa",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T19:22:56.692Z",
+    "deliveredAt": "2026-09-14T19:22:56.692Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "488bba93047c3d6c0115497a",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon is helping after back-to-back earthquakes in Venezuela",
+    "link": "https://www.aboutamazon.com/news/community/amazon-response-venezuela-earthquakes-2026",
+    "pageDate": "Sept. 14, 2026",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "detectedAt": "2026-09-14T19:22:56.686Z",
+    "deliveredAt": "2026-09-14T19:22:56.686Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9537238d379dbd382d4f003f",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Prime Video introduces on-demand news clips within its dedicated news destination",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-local-national-world-news-destination",
+    "pageDate": "Sept. 14, 2026",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "detectedAt": "2026-09-14T19:22:56.686Z",
+    "deliveredAt": "2026-09-14T19:22:56.686Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "7c475cc8ad1efc5496bd9e9b",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -24,27 +89,6 @@
     "recoveryReason": null
   },
   {
-    "guid": "e5a3d548f59793cb5c4ad8f9",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
-    "pageDate": "14.09.2026",
-    "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-14T14:04:00.147Z",
-    "deliveredAt": "2026-09-14T14:04:00.147Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
-  },
-  {
     "guid": "2d46b435a279af38da66ae4a",
     "source": "Kaufland",
     "sourceKey": "src-824d896356b1a926",
@@ -53,8 +97,7 @@
       "Firmen"
     ],
     "tags": [
-      "E-Commerce",
-      "Unternehmensstrategie"
+      "E-Commerce"
     ],
     "priority": 2,
     "title": "Zur Pressemitteilung",
@@ -10981,50 +11024,6 @@
     "publishedAt": "2026-09-11T00:00:00.000Z",
     "detectedAt": "2026-09-10T00:38:12.231Z",
     "deliveredAt": "2026-09-10T00:38:12.231Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "663ca75549e35f9a4fdc6e43",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Cybersecurity expert Kevin Mandia joins Amazon's Board of Directors",
-    "link": "https://www.aboutamazon.com/news/company-news/kevin-mandia-amazon-board-of-directors",
-    "pageDate": "Sept. 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.754Z",
-    "deliveredAt": "2026-09-09T22:34:37.754Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "39a6b5a267a15d17838bf295",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Group Plc clarifies mechanics of March 9 lock-up expiration",
-    "link": "https://www.klarna.com/international/press/klarna-group-plc-clarifies-mechanics-of-march-9-lock-up-expiration/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
