@@ -1,5 +1,130 @@
 [
   {
+    "guid": "491aa2da0b0a02b56efdc560",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wiedereröffnung – Rees, 19. September 2026",
+    "link": "https://newsroom.dm.de/pressreleases/wiedereroeffnung-rees-19-september-2026-3466845",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T10:14:30.102Z",
+    "deliveredAt": "2026-09-14T10:14:30.102Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T10:14:30.097Z",
+    "deliveredAt": "2026-09-14T10:14:30.097Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "d766731323588ecb6af068bf",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "14.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2342255/SONDERBRIEFMARKE%20F&Uuml;R%20PFLEGENDE%20KINDER%20UND%20JUGENDLICHE",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T10:14:30.077Z",
+    "deliveredAt": "2026-09-14T10:14:30.077Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c9a5accc17b1999461801eb1",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SONDERBRIEFMARKE FÜR PFLEGENDE KINDER UND JUGENDLICHE",
+    "link": "https://news.post.at/presse/de/post/id/2342255/SONDERBRIEFMARKE%20F%26Uuml%3BR%20PFLEGENDE%20KINDER%20UND%20JUGENDLICHE",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T10:14:30.077Z",
+    "deliveredAt": "2026-09-14T10:14:30.077Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "22ab3d6c5e08eeaf946651a5",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Digitaler Nachlass – Was passiert mit meinen Daten?",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/digitaler-nachlass-was-passiert-mit-meinen-daten-125793",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T10:14:30.042Z",
+    "deliveredAt": "2026-09-14T10:14:30.042Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "52ba66abd147f6eabd41844f",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "MagentaTV zeigt die Verleihung der 78. Primetime Emmy Awards live",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/magentatv-zeigt-die-verleihung-der-78-primetime-emmy-awards-liv",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-14T10:14:30.035Z",
+    "deliveredAt": "2026-09-14T10:14:30.035Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c1cd3178b555701e8e4de218",
     "source": "DeStatis",
     "sourceKey": "src-7523dc532642ad9d",
@@ -10895,138 +11020,6 @@
     "priority": 2,
     "title": "Navigate to Checkout glow-up: Klarna and DOUGLAS expand partnership to Italy and Spain",
     "link": "https://www.klarna.com/international/press/checkout-glow-up-klarna-and-douglas-expand-partnership-to-italy-and-spain/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c2ae464fc8eaa6913b729d9b",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna powers up: Flexible payments now live at Germany's biggest gaming retailer Mindfactory",
-    "link": "https://www.klarna.com/international/press/klarna-powers-up-flexible-payments-now-live-at-germanys-biggest-gaming/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2ebe305638196ba4e5e5aed3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna brings flexible payments to 10,000+ hotels via Aven Hospitality partnership",
-    "link": "https://www.klarna.com/international/press/klarna-brings-flexible-payments-to-10-000-hotels-via-aven-hospitality/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d5e6296123a5e44018a53b08",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna blir tillgängligt genom Swedbank Pay för tusentals handlare i Norden",
-    "link": "https://www.klarna.com/international/press/klarna-blir-tillgaengligt-genom-swedbank-pay-foer-tusentals-handlare-i-norden/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "04347a67d7c7759c2e5999c0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Resale on the rise: Klarna's resell feature grows 75% as consumers put real money back in their pockets",
-    "link": "https://www.klarna.com/international/press/resale-on-the-rise-klarnas-resell-feature-grows-75-as-consumers-put-real-money-back-in-their-pockets/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d8fa68444b1f4b17fe0b73f6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Quay partners with Klarna to make eyewear more accessible with flexible payments",
-    "link": "https://www.klarna.com/international/press/quay-partners-with-klarna-to-make-eyewear-more-accessible-with-flexible-payments/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8f65ed203e8a16dd2d69ccee",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to From checkout to check-in: Klarna and Minor Hotels bring flexible payments to Europe",
-    "link": "https://www.klarna.com/international/press/from-checkout-to-check-in-klarna-and-minor-hotels-bring-flexible-payments-to-europe/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T22:34:37.737Z",
