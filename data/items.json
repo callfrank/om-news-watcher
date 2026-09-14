@@ -1,5 +1,27 @@
 [
   {
+    "guid": "0d4bad59a2134b8d2d77c80d",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Bevölkerung mit Zahlungsrückständen bei Versorgungsbetrieben sowie Preisentwicklung von Wohnungsnebenkosten und Haushaltsenergie14. September 2026",
+    "link": "https://www.destatis.de/DE/Presse/Wochenvorschau/_inhalt.html",
+    "pageDate": "14. SEP 26",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "detectedAt": "2026-09-14T03:37:49.400Z",
+    "deliveredAt": "2026-09-14T03:37:49.400Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "70a1ef4086e037069684b0b9",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11005,28 +11027,6 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T22:34:37.737Z",
     "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cf77e5bd34f15871be740d9a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Arrive for parking in 15 markets",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-arrive-for-parking-in-15-markets/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.736Z",
-    "deliveredAt": "2026-09-09T22:34:37.736Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
