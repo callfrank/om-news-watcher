@@ -1,5 +1,71 @@
 [
   {
+    "guid": "69ec7e46ce39428f4ef44dec",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Infoblatt: KI kauft mit – Wie digitale Assistenten den Zahlungsprozess verändern",
+    "link": "https://digitalzentrumhandel.de/author/julia-frings/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T06:30:52.461Z",
+    "deliveredAt": "2026-09-14T06:30:52.461Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0c1bf62d3e8b296432033950",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "3,8 Millionen Menschen leben in Haushalten mit Zahlungsrückständen bei Versorgungsbetrieben",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N063_63.html",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T06:30:52.450Z",
+    "deliveredAt": "2026-09-14T06:30:52.450Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dbc8ce0582ce53ca86674fa5",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "OTTO und Universität St. Gallen entwickeln System für KI-Projekte",
+    "link": "https://onlinemarktplatz.de/292660/otto-ki-innovation/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T06:30:52.427Z",
+    "deliveredAt": "2026-09-14T06:30:52.427Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "0d4bad59a2134b8d2d77c80d",
     "source": "DeStatis",
     "sourceKey": "src-7523dc532642ad9d",
@@ -10957,72 +11023,6 @@
     "priority": 2,
     "title": "Navigate to Klarna delivers strong start to 2026 with $1bn revenue and $68m adj. operating profit",
     "link": "https://www.klarna.com/international/press/klarna-delivers-strong-start-to-2026/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ebe193ef35ba9c5a07c0d8c9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Worldline and Klarna partner to enable flexible, online and in-store payments everywhere",
-    "link": "https://www.klarna.com/international/press/worldline-and-klarna-partner-to-enable-flexible-online-and-in-store-payments-everywhere/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f5a449c74490cbfb2fe29950",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches AI-powered Shopping Search app in ChatGPT",
-    "link": "https://www.klarna.com/international/press/klarna-launches-ai-powered-shopping-search-app-in-chatgpt/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6c7e566f6ff98143231063d1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Tekion drive flexible payments into the auto service lane",
-    "link": "https://www.klarna.com/international/press/klarna-and-tekion-drive-flexible-payments-into-the-auto-service-lane/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T22:34:37.737Z",
