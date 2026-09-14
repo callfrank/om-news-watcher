@@ -1,5 +1,75 @@
 [
   {
+    "guid": "c1cd3178b555701e8e4de218",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "3,8 Millionen Menschen leben in Haushalten mit Zahlungsrückständen bei Versorgungsbetrieben14. September 2026",
+    "link": "https://www.destatis.de/SiteGlobals/Forms/Suche/Presse/DE/Pressesuche_Formular_2.html",
+    "pageDate": "14. SEP 26",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "detectedAt": "2026-09-14T07:08:04.657Z",
+    "deliveredAt": "2026-09-14T07:08:04.657Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e2100216b7aa48a113ca9190",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "DHL und Alibaba.com planen KI-gestützte Frachtbuchung",
+    "link": "https://onlinemarktplatz.de/293125/accio-und-dhl-frachtbuchungen-alibaba/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T07:08:04.637Z",
+    "deliveredAt": "2026-09-14T07:08:04.637Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f057664747b60e3eec3f2f87",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kartenzahlungspflicht 2027: Was Klingbeils Plan für Händler bedeutet",
+    "link": "https://onlinemarktplatz.de/293135/kartenzahlungspflicht-2027-haendler/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-14T07:08:04.637Z",
+    "deliveredAt": "2026-09-14T07:08:04.637Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "69ec7e46ce39428f4ef44dec",
     "source": "Mittelstand Digital",
     "sourceKey": "src-3fbff5b0f3b52fe1",
@@ -10957,72 +11027,6 @@
     "priority": 2,
     "title": "Navigate to From checkout to check-in: Klarna and Minor Hotels bring flexible payments to Europe",
     "link": "https://www.klarna.com/international/press/from-checkout-to-check-in-klarna-and-minor-hotels-bring-flexible-payments-to-europe/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5163d7987458e1c16f76bf8c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to FNAC upgrades checkout: Klarna's flexible payments now available for shoppers in Spain and Portugal",
-    "link": "https://www.klarna.com/international/press/fnac-upgrades-checkout-klarnas-flexible-payments-now-available-for-shoppers-in-spain-and-portugal/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6b9e30d684fe6b48d64e129d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna's flexible payments are coming to Google Search and the Gemini app within Google Pay",
-    "link": "https://www.klarna.com/international/press/klarnas-flexible-payments-are-coming-to-google-search-and-the-gemini-app-within-google-pay/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-09T22:34:37.737Z",
-    "deliveredAt": "2026-09-09T22:34:37.737Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7027b68e7c6a1a638b8e142c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna delivers strong start to 2026 with $1bn revenue and $68m adj. operating profit",
-    "link": "https://www.klarna.com/international/press/klarna-delivers-strong-start-to-2026/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-09T22:34:37.737Z",
