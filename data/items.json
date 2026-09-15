@@ -1,6 +1,26 @@
 [
   {
-    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "guid": "7e73ffd83b16a2579cfd0a88",
+    "source": "Rewe",
+    "sourceKey": "src-dca03b70693088ae",
+    "sourceLabel": "Rewe",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "\"REWE Sofort-Lieferung\": Uber Eats, Wolt und Lieferando liefern für REWE",
+    "link": "https://mediacenter.rewe.de/pressemitteilungen/rewe-uber-eats-wolt-lieferando-kooperation",
+    "pageDate": "Heute",
+    "publishedAt": null,
+    "detectedAt": "2026-09-15T07:38:29.734Z",
+    "deliveredAt": "2026-09-15T07:38:29.734Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6869865f2ead2edd0c6f79fa",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +30,107 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
     "pageDate": "14.09.2026",
     "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-15T06:11:41.952Z",
-    "deliveredAt": "2026-09-15T06:11:41.952Z",
+    "detectedAt": "2026-09-15T07:38:29.732Z",
+    "deliveredAt": "2026-09-15T07:38:29.732Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "2af517f50dcc39430be50d41",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Google verändert Hotel-, Flug- und Produktsuche in Europa",
+    "link": "https://onlinemarktplatz.de/293095/google-suchmodule-ewr/",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T07:38:29.685Z",
+    "deliveredAt": "2026-09-15T07:38:29.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "441309be759ea333dec9cdc9",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "eBay EU-Marktplätze bekommen eine gemeinsame Führung",
+    "link": "https://onlinemarktplatz.de/293158/ebay-eu-marktplaetze-fuehrung/",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T07:38:29.685Z",
+    "deliveredAt": "2026-09-15T07:38:29.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0b4e80092eee3b78d23556d0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Temu-Reichweite in Frankreich sinkt um 3,1 Millionen – Vinted zurück in Top 5",
+    "link": "https://onlinemarktplatz.de/293144/temu-reichweite-frankreich-vinted-top-5/",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T07:38:29.685Z",
+    "deliveredAt": "2026-09-15T07:38:29.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "23ac6c34c20318fda48bf72f",
+    "source": "Galaxus Medienmitteilungen",
+    "sourceKey": "src-c4694153f4de0aba",
+    "sourceLabel": "Galaxus",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Dein Warenkorb verrät, wie alt du bist",
+    "link": "https://www.galaxus.de/de/page/dein-warenkorb-verraet-wie-alt-du-bist-43625",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-15T07:38:29.646Z",
+    "deliveredAt": "2026-09-15T07:38:29.646Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "bb9f49869b1493376cf3d6ca",
@@ -10916,116 +11028,6 @@
     "priority": 2,
     "title": "Navigate to Record Black Friday lifts Klarna to 45% November growth",
     "link": "https://www.klarna.com/international/press/record-black-friday-lifts-klarna-to-45-november-growth/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8ed51b85d7e28c45d4148783",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches Tap to Pay for in-store purchases across 14 markets",
-    "link": "https://www.klarna.com/international/press/klarna-launches-tap-to-pay-for-in-store-purchases-across-14-markets/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ee39907fd791b1dfdc2bd20e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches global ‘AI for Climate Resilience Program’ to empower communities on the climate frontlines.",
-    "link": "https://www.klarna.com/international/press/klarna-launches-global-ai-for-climate-resilience-program-to-empower/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a17d2efb4e8592c2e066b936",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna now available on Apple Pay to customers in France and Italy",
-    "link": "https://www.klarna.com/international/press/klarna-now-available-on-apple-pay-to-customers-in-france-and-italy/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f3b3f638b2422daafcdd665b",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Privy to develop simple, secure crypto wallet for the masses",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-privy-to-develop-simple-secure-crypto-wallet-for-the/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c91921bd7ade1b0f192fdd28",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches Agentic Product Protocol: The open standard that makes 100M+ products instantly discoverable by AI agents",
-    "link": "https://www.klarna.com/international/press/klarna-launches-agentic-product-protocol-the-open-standard-that-makes-100m/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T00:38:12.280Z",
