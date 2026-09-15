@@ -1,6 +1,57 @@
 [
   {
-    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "guid": "56aa391e83f5c1b263ff17af",
+    "source": "DHL QZ",
+    "sourceKey": "076d444d-18a6-4ddb-bf20-41d5dc450597",
+    "sourceLabel": "DHL QZ",
+    "groups": [
+      "Quartalszahlen",
+      "Logistik"
+    ],
+    "tags": [
+      "Logistik",
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DHL baut seine Logistikaktivitäten in Kolumbien durch die Übernahme von Open Market aus",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-baut-seine-logistikaktivitaeten-in-kolumbien-durch-die-uebernahme-von-open-market-aus.html",
+    "pageDate": "15.09.2026, 14:00 MESZ DHL SUPPLY CHAIN, FINANZ-NEWS",
+    "publishedAt": null,
+    "detectedAt": "2026-09-15T15:44:04.071Z",
+    "deliveredAt": "2026-09-15T15:44:04.071Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "DHL"
+    ]
+  },
+  {
+    "guid": "28c854d39c2990c8a03b86d8",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Bringing Health Support Closer to Home: Walmart Plans Six-Month Rural Health Ambassador Pilot",
+    "link": "https://corporate.walmart.com/news/2026/09/health-ambassador-role",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-15T15:44:04.051Z",
+    "deliveredAt": "2026-09-15T15:44:04.051Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6869865f2ead2edd0c6f79fa",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +61,148 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
     "pageDate": "14.09.2026",
     "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-15T11:45:18.413Z",
-    "deliveredAt": "2026-09-15T11:45:18.413Z",
+    "detectedAt": "2026-09-15T15:44:04.048Z",
+    "deliveredAt": "2026-09-15T15:44:04.048Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "50016f7196e06c2892cc996a",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon One Medical’s weight management care is now available in 48 states and Washington, D.C.",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-glp1-management-program",
+    "pageDate": "Sept. 15, 2026",
+    "publishedAt": "2026-09-15T00:00:00.000Z",
+    "detectedAt": "2026-09-15T15:44:04.038Z",
+    "deliveredAt": "2026-09-15T15:44:04.038Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "773f690df91a85af81c1a716",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "ZEW-Ökonom Friedrich Heinemann zu Entlastungsmaßnahmen // „Spritpreis-Ausgleich statt Spritpreisbremse“",
+    "link": "https://www.zew.de/presse/pressearchiv/zew-oekonom-friedrich-heinemann-zu-entlastungsmassnahmen",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T15:44:04.035Z",
+    "deliveredAt": "2026-09-15T15:44:04.035Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ddbf75cc7a6a0fb4a8e8a8d0",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ expands Shopper Intelligence capabilities in Singapore and Hong Kong through enhanced Homescan coverage",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-expands-shopper-intelligence-capabilities-in-singapore-and-hong-kong-through-enhanced-homescan-coverage/",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T15:44:04.032Z",
+    "deliveredAt": "2026-09-15T15:44:04.032Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "54ae26348841177ce3709ff9",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Interest rates",
+    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-15T15:44:04.000Z",
+    "deliveredAt": "2026-09-15T15:44:04.000Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d2d402bfecc24294f515fd98",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "E-Rechnung 2027: PDF vom Lieferanten kann Vorsteuer kosten",
+    "link": "https://wortfilter.de/e-rechnung-2027-vorsteuerabzug/",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T15:44:03.991Z",
+    "deliveredAt": "2026-09-15T15:44:03.991Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cc11027321b3d735f51bad9e",
+    "source": "FedEx Newsroom",
+    "sourceKey": "src-ccc01078527f3e85",
+    "sourceLabel": "FedEx",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "FedEx Expands Sustainable Aviation Fuel Agreements Across U.S. Air Network",
+    "link": "https://newsroom.fedex.com/newsroom/global-english/fedex-expands-sustainable-aviation-fuel-agreements-across-u-s-air-network",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T15:44:03.930Z",
+    "deliveredAt": "2026-09-15T15:44:03.930Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "a0c5f51d1c01530413d4fa79",
@@ -10860,183 +11044,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "40b9bfcc0b4de9e55fc63646",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Launch of its Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-launch-of-its-initial-public-offering/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c08b022eabc23e7e2f53d160",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Pricing of its Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-pricing-of-its-initial-public-offering/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6dd69f14ea172117233fb16d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna lists on the New York Stock Exchange",
-    "link": "https://www.klarna.com/international/press/klarna-lists-on-the-new-york-stock-exchange/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c2088fee9313afa9cbb22895",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Gap Inc. Partners with Klarna to Offer Seamless, Flexible Payments Across Portfolio of Brands",
-    "link": "https://www.klarna.com/international/press/gap-inc-partners-with-klarna-to-offer-seamless-flexible-payments-across/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0b698823571c7fd977926efb",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Completes Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-completes-initial-public-offering/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "112b10b7c72d43df11771c6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Customers in US and UK Can Now Access Klarna Installment Plans for In-Store Apple Pay Purchases",
-    "link": "https://www.klarna.com/international/press/klarna-customers-in-us-and-uk-can-now-access-klarna-installment-plans-for-in/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4e4376e3c8267b8ea7f5fc61",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Card passes 1 million US sign-ups in 11 weeks",
-    "link": "https://www.klarna.com/international/press/klarna-card-passes-1-million-us-sign-ups-in-11-weeks/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.829Z",
-    "deliveredAt": "2026-09-10T03:35:52.829Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "352a8cb4a3bf56f5829f704e",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "d-you Wallet startet am 2. Januar 2027: Download und Voraussetzungen",
-    "link": "https://onlinemarktplatz.de/293066/d-you-wallet-download-start-2027/",
-    "pageDate": "10.09.2026",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.817Z",
-    "deliveredAt": "2026-09-10T03:35:52.817Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
