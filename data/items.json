@@ -1,16 +1,35 @@
 [
   {
+    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-15T19:14:53.369Z",
+    "deliveredAt": "2026-09-15T19:14:53.369Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "56aa391e83f5c1b263ff17af",
     "source": "DHL QZ",
     "sourceKey": "076d444d-18a6-4ddb-bf20-41d5dc450597",
     "sourceLabel": "DHL QZ",
     "groups": [
-      "Quartalszahlen",
-      "Logistik"
+      "Quartalszahlen"
     ],
     "tags": [
-      "Logistik",
-      "Quartalszahlen"
+      "Logistik"
     ],
     "priority": 2,
     "title": "DHL baut seine Logistikaktivitäten in Kolumbien durch die Übernahme von Open Market aus",
@@ -49,27 +68,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "6869865f2ead2edd0c6f79fa",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
-    "pageDate": "14.09.2026",
-    "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-15T15:44:04.048Z",
-    "deliveredAt": "2026-09-15T15:44:04.048Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "50016f7196e06c2892cc996a",
