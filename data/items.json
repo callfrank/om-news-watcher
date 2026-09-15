@@ -1,6 +1,6 @@
 [
   {
-    "guid": "6869865f2ead2edd0c6f79fa",
+    "guid": "e5a3d548f59793cb5c4ad8f9",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,195 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
     "pageDate": "14.09.2026",
     "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-15T04:46:10.106Z",
-    "deliveredAt": "2026-09-15T04:46:10.106Z",
+    "detectedAt": "2026-09-15T06:11:41.952Z",
+    "deliveredAt": "2026-09-15T06:11:41.952Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "bb9f49869b1493376cf3d6ca",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Bol introduces Shopper Agent: a personal AI assistant for easier online shopping",
+    "link": "https://over.bol.com/en/news/bol-introduces-shopper-agent-a-personal-ai-assistant-for-easier-online-shopping/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-15T06:11:41.943Z",
+    "deliveredAt": "2026-09-15T06:11:41.943Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "17273695494a6f222e82bd68",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Prime Big Deal Days is back October 6-7: Here’s what to expect",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deals-day-2026-when-october-6-7",
+    "pageDate": "Sept. 14, 2026",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "detectedAt": "2026-09-15T06:11:41.942Z",
+    "deliveredAt": "2026-09-15T06:11:41.942Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f82c7a23f938444b25501f02",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Prime Big Deal Days 2026: Early deals you can shop right now",
+    "link": "https://www.aboutamazon.com/news/retail/prime-big-deal-days-2026-best-deals-amazon",
+    "pageDate": "Sept. 14, 2026",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "detectedAt": "2026-09-15T06:11:41.942Z",
+    "deliveredAt": "2026-09-15T06:11:41.942Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "afe8adecdf95f45e2b3bfd54",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon Prime Big Deal Days: Everything you need to know",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-prime-big-deal-days-faq",
+    "pageDate": "Sept. 14, 2026",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "detectedAt": "2026-09-15T06:11:41.941Z",
+    "deliveredAt": "2026-09-15T06:11:41.941Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b850d3a3298e078415813fa",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Weltkindertag: 12,9 % der Bevölkerung in Deutschland waren Ende 2025 unter 14 Jahre alt",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_38_p002.html",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T06:11:41.923Z",
+    "deliveredAt": "2026-09-15T06:11:41.923Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "481cd820de940f02fc1998db",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Großhandelspreise im August 2026: +6,8 % gegenüber August 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_326_61281.html",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T06:11:41.923Z",
+    "deliveredAt": "2026-09-15T06:11:41.923Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "39dd1304563939701eb34a90",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Vor Rede zur Lage der EU: HDE fordert EU-Politik für bezahlbare Preise und mehr Wettbewerbsfähigkeit",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15351-vor-rede-zur-lage-der-eu-hde-fordert-eu-politik-fuer-bezahlbare-preise-und-mehr-wettbewerbsfaehigkeit",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-15T06:11:41.902Z",
+    "deliveredAt": "2026-09-15T06:11:41.902Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "60878b1a372058cf4ecfba1a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon startet Prime Deal Days am 6. Oktober",
+    "link": "https://onlinemarktplatz.de/293220/prime-angebote-2026-amazon/",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T06:11:41.899Z",
+    "deliveredAt": "2026-09-15T06:11:41.899Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "124e7379511597d6d9e68b67",
@@ -10850,182 +11030,6 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T00:38:12.280Z",
     "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "356daa2c214d2e277353fe8d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Coinbase to add stablecoin to funding mix",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-coinbase-to-add-stablecoin-to-funding-mix/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d5d55fda5b573c5e94e0fff1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands digital bank offer with peer-to-peer payments",
-    "link": "https://www.klarna.com/international/press/klarna-expands-digital-bank-offer-with-peer-to-peer-payments/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "554f591ef0ba1223844cca9f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to Publish Q4 2025 Earnings on February 19, 2026",
-    "link": "https://www.klarna.com/international/press/klarna-to-publish-q4-2025-earnings-on-february-19-2026/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9064d75f0307c07d126b2102",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna backs Google’s Universal Commerce Protocol (UCP) to enable agentic commerce across platforms",
-    "link": "https://www.klarna.com/international/press/klarna-backs-googles-universal-commerce-protocol-ucp-to-enable-agentic/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9b784e93c54584a086da61f6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches on Google Pay in the UK",
-    "link": "https://www.klarna.com/international/press/klarna-launches-on-google-pay-in-the-uk/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a6978cec21f468118c2d36cb",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna accelerates U.S. growth and delivers $1bn revenue driven by rapid banking service adoption",
-    "link": "https://www.klarna.com/international/press/klarna-accelerates-u-s-growth-and-delivers-usd1bn-revenue-driven-by-rapid/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "60d8270253af55574472ebfd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Furnish your way: Article brings Klarna’s flexible payments to furniture shoppers",
-    "link": "https://www.klarna.com/international/press/furnish-your-way-article-brings-klarnas-flexible-payments-to-furniture/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0eeed0b7ffd4d1b32e7e3d8b",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Reaches 55 Million Monthly App Users as Usage Surges 53% Year Over Year",
-    "link": "https://www.klarna.com/international/press/klarna-reaches-55-million-monthly-app-users-as-usage-surges-53-year-over/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.279Z",
-    "deliveredAt": "2026-09-10T00:38:12.279Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
