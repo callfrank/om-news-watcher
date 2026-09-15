@@ -1,5 +1,198 @@
 [
   {
+    "guid": "871c10671f117f48c779e5b2",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wero spendiert Cashback für Erstnutzer",
+    "link": "https://demoshops.de/wero-startet-cashback/",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T09:49:39.568Z",
+    "deliveredAt": "2026-09-15T09:49:39.568Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-15T09:49:39.556Z",
+    "deliveredAt": "2026-09-15T09:49:39.556Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "67362aa47d423ab8321b6c22",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon MGM Studios and Prime Video win 17 Emmy Awards for \"Spider-Noir,\" 'Fallout,' and more",
+    "link": "https://www.aboutamazon.com/news/entertainment/emmys-amazon-mgm-studios-prime-video",
+    "pageDate": "Sept. 15, 2026",
+    "publishedAt": "2026-09-15T00:00:00.000Z",
+    "detectedAt": "2026-09-15T09:49:39.550Z",
+    "deliveredAt": "2026-09-15T09:49:39.550Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b0495ddbf942b35907e7ed32",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Konjunkturerwartungen bleiben positiv // Der ZEW-Indikator liegt bei plus 34,7 Punkten",
+    "link": "https://www.zew.de/presse/pressearchiv/konjunkturerwartungen-bleiben-positiv",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T09:49:39.548Z",
+    "deliveredAt": "2026-09-15T09:49:39.548Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d8aaeb4f72723c42b6a223c6",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "​​​Summer slowdown sparks a September reset in UK grocery shopping",
+    "link": "https://nielseniq.com/global/en/news-center/2026/summer-slowdown-sparks-september-reset-in-uk-grocery-shopping/",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T09:49:39.545Z",
+    "deliveredAt": "2026-09-15T09:49:39.545Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "24187b432497cc8662c3063d",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Why Europeans save differently",
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260915~dacebb4a6f.en.html",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T09:49:39.517Z",
+    "deliveredAt": "2026-09-15T09:49:39.517Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8629c1ee50a3178468b44047",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Calling merchants for digital euro pilot",
+    "link": "https://www.ecb.europa.eu/press/intro/news/html/ecb.mipnews260915.en.html",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T09:49:39.517Z",
+    "deliveredAt": "2026-09-15T09:49:39.517Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e4d0a73c93f1594f5761b080",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "„Heizen mit Wärmepumpe – passt das zu meinem Haus?“",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/heizen-mit-waermepumpe-passt-das-zu-meinem-haus-125809",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T09:49:39.505Z",
+    "deliveredAt": "2026-09-15T09:49:39.505Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "673d38fd999675558d694a0f",
+    "source": "Visa Newsroom DE",
+    "sourceKey": "src-7defdf77aa356e20",
+    "sourceLabel": "Visa",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Oktoberfest treibt Ausgaben in München um 30 Prozent nach oben – 2026 mehr Gäste aus Asien zu erwarten",
+    "link": "https://www.visa.de/uber-visa/newsroom/press-releases.3467112.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-15T09:49:39.498Z",
+    "deliveredAt": "2026-09-15T09:49:39.498Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "7e73ffd83b16a2579cfd0a88",
     "source": "Rewe",
     "sourceKey": "src-dca03b70693088ae",
@@ -18,27 +211,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "6869865f2ead2edd0c6f79fa",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
-    "pageDate": "14.09.2026",
-    "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-15T07:38:29.732Z",
-    "deliveredAt": "2026-09-15T07:38:29.732Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "2af517f50dcc39430be50d41",
@@ -10852,182 +11024,6 @@
     "priority": 2,
     "title": "Navigate to Klarna launches flexible debit card and digital wallet in UK",
     "link": "https://www.klarna.com/international/press/klarna-launches-flexible-debit-card-and-digital-wallet-in-uk/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "aec8f4388d4eb3e55a89cf77",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches memberships: premium perks without expensive credit",
-    "link": "https://www.klarna.com/international/press/klarna-launches-memberships-premium-perks-without-expensive-credit/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "79c2029769a37bf55d4aaf6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens the floor to shareholders ahead of Q3 2025 Earnings via Say Technologies",
-    "link": "https://www.klarna.com/international/press/klarna-opens-the-floor-to-shareholders-ahead-of-q3-2025-earnings-via-say/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5b3cdf23eae95d2e87157ced",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna powers Fair Financing hypergrowth with $6.5bn US agreement",
-    "link": "https://www.klarna.com/international/press/klarna-powers-fair-financing-hypergrowth-with-usd6-5bn-us-agreement/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5a8a62ccff123b2ef907c7ed",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna delivers record-breaking Q3 as AI-powered digital bank: $903 million in revenue and 4 million card sign-ups in four months",
-    "link": "https://www.klarna.com/international/press/klarna-delivers-record-breaking-q3-as-ai-powered-digital-bank-usd903-million/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f0d00d0ac2e39e575698a06e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna now available on Apple Pay in Denmark, Spain, and Sweden with France to follow",
-    "link": "https://www.klarna.com/international/press/klarna-now-available-on-apple-pay-in-denmark-spain-and-sweden-with-france-to/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "281c6aefd6bd8a0654f11144",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches KlarnaUSD as stablecoin transactions hit $27 trillion annually",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarnausd-as-stablecoin-transactions-hit-usd27-trillion/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d36a0afd149bbd9224146732",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna set to take off with Lufthansa Group, bringing flexible payments to travellers across Europe and The U.S.",
-    "link": "https://www.klarna.com/international/press/klarna-set-to-take-off-with-lufthansa-group-bringing-flexible-payments-to/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.280Z",
-    "deliveredAt": "2026-09-10T00:38:12.280Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "179374a15d58b0816fc84535",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Record Black Friday lifts Klarna to 45% November growth",
-    "link": "https://www.klarna.com/international/press/record-black-friday-lifts-klarna-to-45-november-growth/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T00:38:12.280Z",
