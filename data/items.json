@@ -1,6 +1,6 @@
 [
   {
-    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "guid": "6869865f2ead2edd0c6f79fa",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,38 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
     "pageDate": "14.09.2026",
     "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-15T19:14:53.369Z",
-    "deliveredAt": "2026-09-15T19:14:53.369Z",
+    "detectedAt": "2026-09-15T22:15:12.028Z",
+    "deliveredAt": "2026-09-15T22:15:12.028Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "48b8deb1f879332138c170d1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Firmenbestatter: So endet die GmbH im Umsatzsteuerkarussell",
+    "link": "https://wortfilter.de/firmenbestatter-umsatzsteuerkarussell/",
+    "pageDate": "15.09.2026",
+    "publishedAt": "2026-09-15T12:00:00.000Z",
+    "detectedAt": "2026-09-15T22:15:11.996Z",
+    "deliveredAt": "2026-09-15T22:15:11.996Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "56aa391e83f5c1b263ff17af",
@@ -11013,28 +11036,6 @@
     "priority": 2,
     "title": "Navigate to Walmart Canada Becomes Klarna’s Largest Omni Retailer in Canada",
     "link": "https://www.klarna.com/international/press/walmart-canada-becomes-klarnas-largest-omni-retailer-in-canada/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1e35aeb3a070c63ff309f03d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches debit-first card across Europe for everyday spending",
-    "link": "https://www.klarna.com/international/press/klarna-launches-debit-first-card-across-europe-for-everyday-spending/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T03:35:52.830Z",
