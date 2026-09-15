@@ -1,6 +1,6 @@
 [
   {
-    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "guid": "6869865f2ead2edd0c6f79fa",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,37 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
     "pageDate": "14.09.2026",
     "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-14T22:46:36.742Z",
-    "deliveredAt": "2026-09-14T22:46:36.742Z",
+    "detectedAt": "2026-09-15T00:57:38.705Z",
+    "deliveredAt": "2026-09-15T00:57:38.705Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "124e7379511597d6d9e68b67",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "8 Amazon AI features to help you find the best deals this Prime Big Deal Days",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-ai-shopping-tools",
+    "pageDate": "Sept. 14, 2026",
+    "publishedAt": "2026-09-14T00:00:00.000Z",
+    "detectedAt": "2026-09-15T00:57:38.697Z",
+    "deliveredAt": "2026-09-15T00:57:38.697Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "488bba93047c3d6c0115497a",
@@ -11004,26 +11026,6 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T00:38:12.279Z",
     "deliveredAt": "2026-09-10T00:38:12.279Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5942454d07ebce996fb0f401",
-    "source": "Amazon Seller Events",
-    "sourceKey": "src-4a1336d19ad6bee0",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Bonn, Germany Sep 11, 2026 sellerbarcamp Bonn 2026",
-    "link": "https://amzsummits.com/events/sellerbarcamp-bonn-2026/",
-    "pageDate": "Sep 11, 2026",
-    "publishedAt": "2026-09-11T00:00:00.000Z",
-    "detectedAt": "2026-09-10T00:38:12.231Z",
-    "deliveredAt": "2026-09-10T00:38:12.231Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
