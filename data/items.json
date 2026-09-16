@@ -1,5 +1,51 @@
 [
   {
+    "guid": "1fe3506f6aa153bff4971877",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart Data Ventures Is Building the Future of Commerce Intelligence",
+    "link": "https://corporate.walmart.com/news/2026/09/walmart-data-ventures-commerce-intelligence",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T22:12:12.538Z",
+    "deliveredAt": "2026-09-16T22:12:12.538Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "79b4feba568586d0ebe3aaec",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
+    "pageDate": "Sept. 16, 2026",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "detectedAt": "2026-09-16T22:12:12.527Z",
+    "deliveredAt": "2026-09-16T22:12:12.527Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "b04db48f0de030f9e8794966",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -11019,49 +11065,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "4d24b79e7c0fa82fee62897b",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Mit der FIFA WM 2026 zum Hattrick",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/mit-der-fifa-wm-2026-zum-hattrick",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-10T07:33:47.270Z",
-    "deliveredAt": "2026-09-10T07:33:47.270Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9cecc57689cf340472e905f7",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Worldpay expand partnership to unlock global merchant network",
-    "link": "https://www.klarna.com/international/press/klarna-and-worldpay-expand-partnership-to-unlock-global-merchant-network/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
