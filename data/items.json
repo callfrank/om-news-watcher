@@ -1,6 +1,6 @@
 [
   {
-    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "guid": "6869865f2ead2edd0c6f79fa",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,221 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
     "pageDate": "14.09.2026",
     "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-16T07:53:29.955Z",
-    "deliveredAt": "2026-09-16T07:53:29.955Z",
+    "detectedAt": "2026-09-16T10:01:58.038Z",
+    "deliveredAt": "2026-09-16T10:01:58.038Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "889dda8238bbf4bc1a78eb4e",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Zur Pressemitteilung",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/september/auszeichnung-fuer-modernes-retail-media-kaufland-interact-gewinnt-ecr-award-fuer-meal-deal-mit-coca-cola",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T10:01:58.034Z",
+    "deliveredAt": "2026-09-16T10:01:58.034Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Kaufland Newsroom"
+    ]
+  },
+  {
+    "guid": "ee401921045cbad71f0350f3",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch 'Neagley,' a new show from the world of 'Reacher' streaming now on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/watch-neagley-reacher-prime-video",
+    "pageDate": "Sept. 16, 2026",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "detectedAt": "2026-09-16T10:01:58.029Z",
+    "deliveredAt": "2026-09-16T10:01:58.029Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "707798249272ed44c448114a",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Alexa+ arrives in India as Amazon's next-generation AI assistant expands internationally",
+    "link": "https://www.aboutamazon.com/news/devices/alexa-plus-international-launch",
+    "pageDate": "Sept. 16, 2026",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "detectedAt": "2026-09-16T10:01:58.029Z",
+    "deliveredAt": "2026-09-16T10:01:58.029Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7eae26b1a367b524a12a8bbb",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon catches up with Boozt in Denmark",
+    "link": "https://ecommercenews.eu/amazon-catches-up-with-boozt-in-denmark/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T10:01:58.015Z",
+    "deliveredAt": "2026-09-16T10:01:58.015Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1510a207663d1f22a9cf524b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon GIA in Deutschland: Ads verbindet Verkaufsdaten und regionale Werbung",
+    "link": "https://onlinemarktplatz.de/293318/amazon-gia-deutschland/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T10:01:57.994Z",
+    "deliveredAt": "2026-09-16T10:01:57.994Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "022eb8a397c19d299ceb1d96",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Agentic AI – Warum Daten über Skalierung entscheiden",
+    "link": "https://onlinemarktplatz.de/292944/agentic-ai-podcast/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T10:01:57.994Z",
+    "deliveredAt": "2026-09-16T10:01:57.994Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f9790f5d3071eb28a492771a",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Genug Betrug: Betrug bei „Kleinanzeigen“ & Co.",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/genug-betrug-betrug-bei-kleinanzeigen-co-125832",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T10:01:57.990Z",
+    "deliveredAt": "2026-09-16T10:01:57.990Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b012f8cca8d6cad81a8a5cd1",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Oktoberfest: Telekom macht Festgelände fit für Rekord-Wiesn",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/oktoberfest-telekom-macht-festgelaende-fit-fuer-rekord-wiesn",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T10:01:57.985Z",
+    "deliveredAt": "2026-09-16T10:01:57.985Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0ee84cfb14c31b9b103b01c1",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "MagentaTV: Zwischen Thrill und Genuss",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/magentatv-zwischen-thrill-und-genuss",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T10:01:57.985Z",
+    "deliveredAt": "2026-09-16T10:01:57.985Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "6525669e80ed1ec321d4c72c",
@@ -10844,204 +11050,6 @@
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T05:01:38.202Z",
     "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0e2dfd32c35e59345f7184c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Aritzia to bring flexible payment options to clients across Canada and the United States",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-aritzia-to-bring-flexible-payment-options-to-clients/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cbaec0a5e14886466c6e9c0a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Plus Marks First Year in the US, Signaling Growing Momentum in Subscription Services",
-    "link": "https://www.klarna.com/international/press/klarna-plus-marks-first-year-in-the-us-signaling-growing-momentum-in/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.201Z",
-    "deliveredAt": "2026-09-10T05:01:38.201Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "98bb0adf014d1c9374b8dc66",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna scales in-store offering with Clover, expanding to local stores and service providers",
-    "link": "https://www.klarna.com/international/press/klarna-scales-in-store-offering-with-clover/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.201Z",
-    "deliveredAt": "2026-09-10T05:01:38.201Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "436d13c834154ede6598725a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to eBay and Klarna Deepen Global Strategic Partnership to Empower Flexible Shopping in the U.S.",
-    "link": "https://www.klarna.com/international/press/ebay-and-klarna-deepen-global-strategic-partnership-to-empower-flexible-shopping/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f2472e3dc677a70ae2b60404",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna hits 11 million UK customers as UK revenue soars 30% in breakout 2024",
-    "link": "https://www.klarna.com/international/press/klarna-hits-11-million-uk-customers-as-uk-revenue-soars-30-in-breakout-2024/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ebba675f8643e03de81127b4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna accelerates global momentum in Q1 2025 and unlocks large gains from AI innovation",
-    "link": "https://www.klarna.com/international/press/klarna-accelerates-global-momentum-in-q1-2025-and-unlocks-large-gains-from/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9ca9d6420ec70d6f112aeec8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Mati Staniszewski appointed to Klarna Group PLC Board of Directors",
-    "link": "https://www.klarna.com/international/press/mati-staniszewski-appointed-to-klarna-group-plc-board-of-directors/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4698091eadf717a76786bd1e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Visa Launch Pilot of New Debit Card with Increased Flexibility at Money 2020 Europe",
-    "link": "https://www.klarna.com/international/press/klarna-and-visa-launch-pilot-of-new-debit-card-with-increased-flexibility-at/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ed82e69420c10e06c875fdab",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens direct line to CEO Sebastian Siemiatkowski – powered by AI",
-    "link": "https://www.klarna.com/international/press/klarna-opens-direct-line-to-ceo-sebastian-siemiatkowski-powered-by-ai/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
