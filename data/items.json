@@ -1,6 +1,6 @@
 [
   {
-    "guid": "e5a3d548f59793cb5c4ad8f9",
+    "guid": "6869865f2ead2edd0c6f79fa",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,39 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
     "pageDate": "14.09.2026",
     "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-16T04:50:41.768Z",
-    "deliveredAt": "2026-09-16T04:50:41.768Z",
+    "detectedAt": "2026-09-16T06:00:00.069Z",
+    "deliveredAt": "2026-09-16T06:00:00.069Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "a6049bff61059c38d8dcd99e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wero Cashback: Bis zu 15 Euro für Erstnutzer",
+    "link": "https://onlinemarktplatz.de/293280/wero-cashback-erstnutzer-15-euro-aktion/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T06:00:00.033Z",
+    "deliveredAt": "2026-09-16T06:00:00.033Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "81ddefcfd597019e7cd1ef61",
@@ -11012,28 +11036,6 @@
     "priority": 2,
     "title": "Navigate to Klarna to Launch as a Payment Option in Autofill on Chrome, Expanding Work with Google Pay",
     "link": "https://www.klarna.com/international/press/klarna-to-launch-as-a-payment-option-in-autofill-on-chrome-expanding-work/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "220877012feee5e931760e1c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna grows Q2 revenue to $823m, reports continued operating profitability and highest number of on-time payments",
-    "link": "https://www.klarna.com/international/press/klarna-grows-q2-revenue-to-usd823m-reports-continued-operating-profitability/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T03:35:52.830Z",
