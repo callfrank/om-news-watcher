@@ -1,5 +1,26 @@
 [
   {
+    "guid": "6869865f2ead2edd0c6f79fa",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-16T03:53:45.504Z",
+    "deliveredAt": "2026-09-16T03:53:45.504Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "b8d5b8c95f7a14f9ee8763db",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -18,27 +39,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "e5a3d548f59793cb5c4ad8f9",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
-    "pageDate": "14.09.2026",
-    "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-16T00:22:04.467Z",
-    "deliveredAt": "2026-09-16T00:22:04.467Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "1e1793279694fa6c006410ff",
