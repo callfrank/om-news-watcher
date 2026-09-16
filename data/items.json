@@ -1,5 +1,49 @@
 [
   {
+    "guid": "b04db48f0de030f9e8794966",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "AWS announces Fastnet, a dedicated high-capacity transatlantic cable connecting the US and Ireland",
+    "link": "https://www.aboutamazon.com/news/aws/transatlantic-subsea-cable-us-ireland-fastnet-aws",
+    "pageDate": "Sept. 16, 2026",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "detectedAt": "2026-09-16T18:55:53.129Z",
+    "deliveredAt": "2026-09-16T18:55:53.129Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cc38b9c661bc46d4ec697448",
+    "source": "Google Ads & Commerce Blog",
+    "sourceKey": "src-147cfee3d1361ebb",
+    "sourceLabel": "Google Ads & Commerce",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Rethink your strategy to drive sales this holiday season.",
+    "link": "https://blog.google/products/ads-commerce/ads-decoded-podcast-holiday-sales-strategies/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T18:55:53.060Z",
+    "deliveredAt": "2026-09-16T18:55:53.060Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "998b82ebc692e8d515ed314b",
     "source": "PayPal US",
     "sourceKey": "src-036682c8cc9a64e1",
@@ -11012,50 +11056,6 @@
     "priority": 2,
     "title": "Navigate to Klarna and Worldpay expand partnership to unlock global merchant network",
     "link": "https://www.klarna.com/international/press/klarna-and-worldpay-expand-partnership-to-unlock-global-merchant-network/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "efd539416eb2e251d117fcc5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Zoom Announce Global Launch of Flexible Payments in 16 Markets",
-    "link": "https://www.klarna.com/international/press/klarna-and-zoom-announce-global-launch-of-flexible-payments-in-16-markets/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b49de484c13e88f41dc94d12",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna now available at John Lewis & Partners",
-    "link": "https://www.klarna.com/international/press/klarna-now-available-at-john-lewis-partners/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T05:01:38.202Z",
