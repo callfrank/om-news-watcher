@@ -1,5 +1,368 @@
 [
   {
+    "guid": "998b82ebc692e8d515ed314b",
+    "source": "PayPal US",
+    "sourceKey": "src-036682c8cc9a64e1",
+    "sourceLabel": "PayPal US",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Unternehmensnews",
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Venmo Kicks Off 2026-2027 NIL Season with Nine Standout Student-Athletes and Introduces Money Moves",
+    "link": "https://newsroom.paypal-corp.com/2026-09-16-Venmo-Kicks-Off-2026-2027-NIL-Season-with-Nine-Standout-Student-Athletes-and-Introduces-Money-Moves",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T15:00:03.991Z",
+    "deliveredAt": "2026-09-16T15:00:03.991Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "590335aebb5a07eae17987f3",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Donna Morris to Associates: “Being People-Led Means Investing in You”",
+    "link": "https://corporate.walmart.com/news/2025/09/04/donna-morris-to-associates-being-people-led-means-investing-in-you",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.984Z",
+    "deliveredAt": "2026-09-16T15:00:03.984Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "87e5127531f7daa364b351c8",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Shaking up the System",
+    "link": "https://corporate.walmart.com/news/2025/09/25/shaking-up-the-system",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.984Z",
+    "deliveredAt": "2026-09-16T15:00:03.984Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ba8bebcaded831c9e3a7ac5f",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "The Beauty Aisle, Redefined",
+    "link": "https://corporate.walmart.com/news/2026/04/30/the-beauty-aisle-redefined",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.984Z",
+    "deliveredAt": "2026-09-16T15:00:03.984Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "db6f61803fdce0af08524287",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Keeping the Future in Focus",
+    "link": "https://corporate.walmart.com/news/2026/06/29/keeping-the-future-in-focus",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.984Z",
+    "deliveredAt": "2026-09-16T15:00:03.984Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b15420739a9756c920af9e61",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart and SCAN to Launch Co-Branded Medicare Advantage Plan",
+    "link": "https://corporate.walmart.com/news/2026/09/walmart-scan-launch-co-branded-medicare-plan",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.984Z",
+    "deliveredAt": "2026-09-16T15:00:03.984Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7d541434f6245b42ad3039fb",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "What is the Amazon Influencer Program? Your questions answered.",
+    "link": "https://www.aboutamazon.com/news/retail/how-amazon-influencer-program-works",
+    "pageDate": "Sept. 16, 2026",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "detectedAt": "2026-09-16T15:00:03.975Z",
+    "deliveredAt": "2026-09-16T15:00:03.975Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ff0975ac64ea4864c539259b",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon raises minimum starting pay for full-time core operations employees to $20/hour, with average pay reaching nearly $24/hour, and launches grocery discount and access to new lifetime banking benefits to make everyday life more affordable for our teammates",
+    "link": "https://www.aboutamazon.com/news/workplace/amazon-raises-minimum-starting-pay-adds-grocery-banking-benefits",
+    "pageDate": "Sept. 16, 2026",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "detectedAt": "2026-09-16T15:00:03.975Z",
+    "deliveredAt": "2026-09-16T15:00:03.975Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2df747b08328c9f7bb7693fb",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon is giving every US employee a discount on groceries",
+    "link": "https://www.aboutamazon.com/news/workplace/amazon-us-employee-grocery-discount",
+    "pageDate": "Sept. 16, 2026",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "detectedAt": "2026-09-16T15:00:03.975Z",
+    "deliveredAt": "2026-09-16T15:00:03.975Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "04c0e552c75ed746c8010077",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Europäische Verpackungsverordnung: Handelsverband fordert Schonfrist bis 2028",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15353-europaeische-verpackungsverordnung-handelsverband-fordert-schonfrist-bis-2028",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.934Z",
+    "deliveredAt": "2026-09-16T15:00:03.934Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d99b7ea87c6e9f2e9f43a3a4",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Digitale Zahlungsmittel: Handelsverband lehnt Akzeptanzpflicht ab",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15352-digitale-zahlungsmittel-handelsverband-lehnt-akzeptanzpflicht-ab",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.934Z",
+    "deliveredAt": "2026-09-16T15:00:03.934Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b0d940554d3c03dfd5e4a154",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "ITC und DHL erneuern Partnerschaft zur Unterstützung kleiner Unternehmen im internationalen Handel",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/itc-und-dhl-erneuern-partnerschaft-zur-unterstuetzung-kleiner-unternehmen-im-internationalen-handel.html",
+    "pageDate": "16.09.2026, 15:00 MESZ DHL",
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.931Z",
+    "deliveredAt": "2026-09-16T15:00:03.931Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "60d8dc48279b1f8c8f02d068",
+    "source": "Etsy",
+    "sourceKey": "src-dbea0c1ac563772a",
+    "sourceLabel": "Etsy",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Inside Etsy’s Creative Village at Olivia Rodrigo’s Daisy Chain Fields",
+    "link": "https://www.etsy.com/de/news/inside-etsyas-creative-village-at-olivia-rodrigoas-daisy-chain-fields",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.929Z",
+    "deliveredAt": "2026-09-16T15:00:03.929Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6346209af7a90bdc8c645b8b",
+    "source": "Google Ads & Commerce Blog",
+    "sourceKey": "src-147cfee3d1361ebb",
+    "sourceLabel": "Google Ads & Commerce",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Rethink 2026",
+    "link": "https://blog.google/products/ads-commerce/rethink-2026/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T15:00:03.904Z",
+    "deliveredAt": "2026-09-16T15:00:03.904Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2dca363d014501d8029c9980",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "JD.com Launches CHEFRESH, Bringing AI Meal Planning and Robotic Cooking into the Home",
+    "link": "https://jdcorporateblog.com/jd-com-launches-chefresh-bringing-ai-meal-planning-and-robotic-cooking-into-the-home/",
+    "pageDate": "Sep 16, 2026",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "detectedAt": "2026-09-16T15:00:03.887Z",
+    "deliveredAt": "2026-09-16T15:00:03.887Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "64c8417a39f4ed6f5c976c7e",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eco zum EU Kids Act: „Kinderschutz braucht einen klaren Kurs im EU-Recht”",
+    "link": "https://www.eco.de/presse/eco-zum-eu-kids-act-kinderschutz-braucht-einen-klaren-kurs-im-eu-recht/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-16T15:00:03.873Z",
+    "deliveredAt": "2026-09-16T15:00:03.873Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "57703eafb22ae97223eb7feb",
     "source": "Uber",
     "sourceKey": "src-9ca710b31d1e337a",
@@ -10693,358 +11056,6 @@
     "priority": 2,
     "title": "Navigate to Klarna now available at John Lewis & Partners",
     "link": "https://www.klarna.com/international/press/klarna-now-available-at-john-lewis-partners/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7eaed8cd85d9a7e3450d35c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Confidential Submission of Draft Registration Statement to SEC for Proposed Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-confidential-submission-of-draft-registration-statement-to-sec-for-proposed-initial-public-offering/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e8f7be11cb87d24ace1b496a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Staples launches Klarna flexible payments, helping consumers to ‘work now, pay later’",
-    "link": "https://www.klarna.com/international/press/staples-launches-klarna-flexible-payments-helping-consumers-to-work-now-pay-later/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3215d60d1b969bd349a1f441",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Global technology powerhouse, Lenovo, bets big on BNPL with Klarna",
-    "link": "https://www.klarna.com/international/press/global-technology-powerhouse-lenovo-bets-big-on-bnpl-with-klarna/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e255d72858b89e78ff54b929",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Reports SEK 216 Million Profit in Q3 2024 as Strategic Partnerships Set Stage for Strong Holiday Season",
-    "link": "https://www.klarna.com/international/press/klarna-reports-sek-216-million-profit-in-q3-2024-as-strategic-partnerships-set-stage-for-strong-holiday-season/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "201da117eb459ffcb2c2eaa8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens new hub in Warsaw to recruit 100 of Poland's top tech talents",
-    "link": "https://www.klarna.com/international/press/klarna-opens-new-hub-in-warsaw-to-recruit-100-of-polands-top-tech-talents/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1ff43ff60b4b038ad0d5abd0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Payment Options Now Available at Checkout on Apple Pay In-App and Online in Canada",
-    "link": "https://www.klarna.com/international/press/klarna-payment-options-now-available-at-checkout-on-apple-pay-in-app-and-online-in-canada/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "06878c2a11950d0a71b86192",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to eBay and Klarna Expand Partnership Bringing Buy Now Pay Later (BNPL) to New Markets",
-    "link": "https://www.klarna.com/international/press/ebay-and-klarna-expand-partnership-bringing-buy-now-pay-later-bnpl-to-new-markets/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "afd7eb3a56d6f173ad180274",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Fabletics teams up with Klarna to bring flexible payments to subscription members across the US",
-    "link": "https://www.klarna.com/international/press/fabletics-teams-up-with-klarna-to-bring-flexible-payments-to-subscription-members-across-the-us/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7f31daa01ef653dc1ae4324e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with iconic luxury retailers Neiman Marcus and Bergdorf Goodman",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-iconic-luxury-retailers-neiman-marcus-and-bergdorf-goodman/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "322f2b8c5358b4221eb3f1ff",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna ‘Pay in 3’ launches for Zalando shoppers in five additional markets",
-    "link": "https://www.klarna.com/international/press/klarna-pay-in-3-launches-for-zalando-shoppers-in-five-additional-markets/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3697c25f86eb62ccf8f8af79",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna is now available to millions of new businesses, in strengthened partnership with Stripe",
-    "link": "https://www.klarna.com/international/press/klarna-available-to-millions-of-new-businesses-in-strengthened-stripe/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e7202999076edb587e00f069",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna signs with J.P. Morgan Payments to expand merchant services offering",
-    "link": "https://www.klarna.com/international/press/klarna-signs-with-j-p-morgan-payments-to-expand-merchant-services-offering/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "54f15da7a4a8870f76396ea9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Nexi and Klarna partner to boost merchant growth",
-    "link": "https://www.klarna.com/international/press/nexi-and-klarna-partner-to-boost-merchant-growth/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ba43784e80ff4c1717af38f0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Markus Villig and Niclas Neglén appointed to Klarna Group PLC Board of Directors",
-    "link": "https://www.klarna.com/international/press/markus-villig-and-niclas-neglen-appointed-to-klarna-group-plc-board-of/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c6512dcdc9309b3a79b9c372",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna files registration statement for proposed Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-files-registration-statement-for-proposed-initial-public-offering/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3079ca0f2ad1bae73fd025b5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Partnership with OnePay to Exclusively Power Installment Loans at Walmart in the U.S.",
-    "link": "https://www.klarna.com/international/press/klarna-announces-partnership-with-onepay-to-exclusively-power-installment/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T05:01:38.202Z",
