@@ -15927,7 +15927,12 @@
     "src-dbea0c1ac563772a": "Abruf fehlgeschlagen: HTTP 403",
     "src-df3769ae5eb9d873": "Abruf fehlgeschlagen: HTTP 403",
     "src-65cd776c7db6b237": "Abruf fehlgeschlagen: HARD TIMEOUT nach 25s",
-    "src-9270afe2506b625b": "Abruf fehlgeschlagen: HTTP 403"
+    "src-9270afe2506b625b": "Abruf fehlgeschlagen: HTTP 403",
+    "src-b0d6dce4f4e53f64": "0 Treffer; zuletzt typischerweise 9",
+    "src-6f65565f4749a295": "0 Treffer; zuletzt typischerweise 7",
+    "src-ba300714de43cc5d": "0 Treffer; zuletzt typischerweise 9",
+    "src-51390123dcbdb93e": "1 Treffer; deutlich unter dem üblichen Niveau 12",
+    "src-3fbff5b0f3b52fe1": "1 Treffer; deutlich unter dem üblichen Niveau 12"
   },
   "deliveredBySource": {
     "Onlinemarktplatz": [
@@ -17401,6 +17406,7 @@
       "https://onlinemarktplatz.de/293158/ebay-eu-marktplaetze-fuehrung/",
       "https://onlinemarktplatz.de/293095/google-suchmodule-ewr/",
       "https://onlinemarktplatz.de/292880/e-commerce-playbook-k5/",
+      "https://onlinemarktplatz.de/293301/zew-konjunkturerwartungen-2026/",
       "https://onlinemarktplatz.de/293066/d-you-wallet-download-start-2027/",
       "https://onlinemarktplatz.de/292847/ki-enablement-payback-otto-unilever/",
       "https://onlinemarktplatz.de/292893/kaufland-niederlande-marktplatz-start/",
@@ -17496,8 +17502,7 @@
       "https://onlinemarktplatz.de/271111/paypal-uebernahme-stripe/",
       "https://onlinemarktplatz.de/271041/disney-ooshies/",
       "https://onlinemarktplatz.de/269262/secondhand-bei-hm/",
-      "https://onlinemarktplatz.de/270993/amazon-prime-air-grossbritannien/",
-      "https://onlinemarktplatz.de/293301/zew-konjunkturerwartungen-2026/"
+      "https://onlinemarktplatz.de/270993/amazon-prime-air-grossbritannien/"
     ],
     "src-e5330506f57b7169": [
       "https://group.dhl.com/de/presse/pressemitteilungen/2026/deutsche-post-ag-zeichnet-speditionen-fuer-emissionsarme-logistik-aus.html",
@@ -17741,7 +17746,6 @@
       "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260811~47cd3ee040.de.html"
     ],
     "src-f16daf5cdc73aa7e": [
-      "https://www.klarna.com/international/press/klarna-secures-scalable-funding-in-usd26bn-deal-to-drive-u-s-pay-in-4-growth/",
       "https://www.klarna.com/international/press/klarna-grows-q2-revenue-to-usd823m-reports-continued-operating-profitability/",
       "https://www.klarna.com/international/press/klarna-to-launch-as-a-payment-option-in-autofill-on-chrome-expanding-work/",
       "https://www.klarna.com/international/press/no-more-friction-klarna-automatically-enables-thousands-of-woocommerce/",
@@ -18092,6 +18096,7 @@
       "https://www.klarna.com/international/press/klarna-announces-acquisition-of-billpay/",
       "https://www.klarna.com/international/press/klarna-checkout-now-supports-american-express/",
       "https://www.klarna.com/international/press/michael-rouse-joins-klarna-as-chief-commercial-officer/",
+      "https://www.klarna.com/international/press/klarna-secures-scalable-funding-in-usd26bn-deal-to-drive-u-s-pay-in-4-growth/",
       "https://www.klarna.com/international/press/walmart-canada-becomes-klarnas-largest-omni-retailer-in-canada/",
       "https://www.klarna.com/international/press/klarna-secures-eur-1-4bn-structured-financing-facility-with-santander/",
       "https://www.klarna.com/international/press/klarna-launches-debit-first-card-across-europe-for-everyday-spending/",
@@ -18522,8 +18527,8 @@
     "src-9b45183be4818871": [],
     "src-af482dcfb65eaa40": [
       "https://www.ebayinc.com/stories/press-room/de/save-the-date-ebay-open-2026/",
-      "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
       "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
+      "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
       "https://www.ebayinc.com/stories/press-room/de/ebay-circular-fashion-fund-2026-trosort-gewinnt-mit-ki-gestuetzter-textilsortierung/",
       "https://www.ebayinc.com/stories/press-room/de/3-2-1-ist-zur%C3%BCck-ebay-deutschland-startet-neue-markenkampagne-rund-um-ebay-live/",
       "https://www.ebayinc.com/stories/press-room/de/kleine-h%C3%A4ndler-innen-sind-online-auf-dem-land-besonders-stark/",
@@ -20429,6 +20434,15 @@
       "deliveredAt": "2026-09-16T04:50:41.768Z",
       "recovered": true
     },
+    "src-907af1387802cea1": {
+      "title": "ZEW Konjunkturerwartungen: Optimismus trifft schwache Handelsdaten",
+      "link": "https://onlinemarktplatz.de/293301/zew-konjunkturerwartungen-2026/",
+      "pageDate": "16.09.2026",
+      "publishedAt": "2026-09-16T12:00:00.000Z",
+      "detectedAt": "2026-09-16T04:50:41.720Z",
+      "deliveredAt": "2026-09-16T04:50:41.720Z",
+      "recovered": false
+    },
     "src-2a68fce167742775": {
       "title": "Preview: Neues WooCommerce Starter Theme",
       "link": "https://demoshops.de/woocommerce-starter-theme/",
@@ -20526,15 +20540,6 @@
       "publishedAt": "2026-09-15T12:00:00.000Z",
       "detectedAt": "2026-09-15T11:04:13.062Z",
       "deliveredAt": "2026-09-15T11:04:13.062Z",
-      "recovered": false
-    },
-    "src-907af1387802cea1": {
-      "title": "ZEW Konjunkturerwartungen: Optimismus trifft schwache Handelsdaten",
-      "link": "https://onlinemarktplatz.de/293301/zew-konjunkturerwartungen-2026/",
-      "pageDate": "16.09.2026",
-      "publishedAt": "2026-09-16T12:00:00.000Z",
-      "detectedAt": "2026-09-16T04:50:41.720Z",
-      "deliveredAt": "2026-09-16T04:50:41.720Z",
       "recovered": false
     },
     "src-89cdb65f3f059fb8": {
