@@ -1,6 +1,51 @@
 [
   {
-    "guid": "6869865f2ead2edd0c6f79fa",
+    "guid": "57703eafb22ae97223eb7feb",
+    "source": "Uber",
+    "sourceKey": "src-9ca710b31d1e337a",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Costco Expands Nationwide Delivery on Uber Eats",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Costco-Expands-Nationwide-Delivery-on-Uber-Eats/default.aspx",
+    "pageDate": "September 16, 2026",
+    "publishedAt": "2026-09-16T00:00:00.000Z",
+    "detectedAt": "2026-09-16T11:35:22.013Z",
+    "deliveredAt": "2026-09-16T11:35:22.013Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "71b7c4723f113e887f1e3679",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "50 Jahre dm in Schwäbisch Gmünd: Gemeinsam mit Kundinnen und Kunden feiern",
+    "link": "https://newsroom.dm.de/pressreleases/50-jahre-dm-in-schwaebisch-gmuend-gemeinsam-mit-kundinnen-und-kunden-feiern-3467365",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T11:35:22.009Z",
+    "deliveredAt": "2026-09-16T11:35:22.009Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e5a3d548f59793cb5c4ad8f9",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +55,61 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
     "pageDate": "14.09.2026",
     "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-16T10:01:58.038Z",
-    "deliveredAt": "2026-09-16T10:01:58.038Z",
+    "detectedAt": "2026-09-16T11:35:22.005Z",
+    "deliveredAt": "2026-09-16T11:35:22.005Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "3a14b72dc16011b88d7fc118",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Garantielabel & Gewährleistungslabel: Alle Infos hier",
+    "link": "https://wortfilter.de/garantielabel-gewaehrleistungslabel-alle-infos/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T11:35:21.963Z",
+    "deliveredAt": "2026-09-16T11:35:21.963Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2d46b435a279af38da66ae4a",
+    "source": "Kaufland Newsroom",
+    "sourceKey": "src-3706ec107132ce03",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Ivan Chernev übernimmt Vorsitz der Geschäftsleitung Kaufland Deutschland",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/september/ivan-chernev-uebernimmt-vorsitz-der-geschaeftsleitung-kaufland-deutschland",
+    "pageDate": "14.09.2026",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "detectedAt": "2026-09-16T11:35:21.919Z",
+    "deliveredAt": "2026-09-16T11:35:21.919Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "889dda8238bbf4bc1a78eb4e",
@@ -29,8 +120,7 @@
       "Firmen"
     ],
     "tags": [
-      "E-Commerce",
-      "Unternehmensstrategie"
+      "E-Commerce"
     ],
     "priority": 2,
     "title": "Zur Pressemitteilung",
@@ -1343,31 +1433,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "2d46b435a279af38da66ae4a",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zur Pressemitteilung",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/september/ivan-chernev-uebernimmt-vorsitz-der-geschaeftsleitung-kaufland-deutschland",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-14T14:04:00.140Z",
-    "deliveredAt": "2026-09-14T14:04:00.140Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Kaufland Newsroom"
-    ]
   },
   {
     "guid": "b78a942df86df7f494f4d610",
@@ -10980,72 +11045,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Announces Partnership with OnePay to Exclusively Power Installment Loans at Walmart in the U.S.",
     "link": "https://www.klarna.com/international/press/klarna-announces-partnership-with-onepay-to-exclusively-power-installment/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f2eb14f4913fa1c01734df51",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to DoorDash Partners with Klarna to Offer US Customers Even More Convenience with Flexible Payments",
-    "link": "https://www.klarna.com/international/press/doordash-partners-with-klarna-to-offer-us-customers-even-more-convenience/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "425351a86335a1e9920e4e58",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Laybuy returns, powered by Klarna",
-    "link": "https://www.klarna.com/international/press/laybuy-returns-powered-by-klarna/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T05:01:38.202Z",
-    "deliveredAt": "2026-09-10T05:01:38.202Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "965758ba157e27e039aa5509",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Eurostar introduces Klarna for flexible payments in the UK and France, making high-speed rail more accessible",
-    "link": "https://www.klarna.com/international/press/eurostar-introduces-klarna-for-flexible-payments-in-the-uk-and-france/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T05:01:38.202Z",
