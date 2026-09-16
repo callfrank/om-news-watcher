@@ -1,6 +1,6 @@
 [
   {
-    "guid": "6869865f2ead2edd0c6f79fa",
+    "guid": "e5a3d548f59793cb5c4ad8f9",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,193 @@
     "tags": [],
     "priority": 2,
     "title": "eBay stärkt Vertrauen durch Einführung kostenloser Rückgaben für Fahrzeugteile & Zubehör",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/rallye-statt-ruhestand-ebay-schickt-umgebauten-porsche-boxter-zum-nordkap/",
     "pageDate": "14.09.2026",
     "publishedAt": "2026-09-14T12:00:00.000Z",
-    "detectedAt": "2026-09-16T06:00:00.069Z",
-    "deliveredAt": "2026-09-16T06:00:00.069Z",
+    "detectedAt": "2026-09-16T07:53:29.955Z",
+    "deliveredAt": "2026-09-16T07:53:29.955Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "6525669e80ed1ec321d4c72c",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Deutsche überschätzen Anteil chinesischer Direktinvestitionen um das 30-fache und sehen sie kritisch // ZEW-Studie zur Wahrnehmung chinesischer Investitionen in Deutschland",
+    "link": "https://www.zew.de/presse/pressearchiv/deutsche-ueberschaetzen-anteil-chinesischer-direktinvestitionen-um-das-30-fache-und-sehen-sie-kritisch",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T07:53:29.949Z",
+    "deliveredAt": "2026-09-16T07:53:29.949Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4dc50d23f785bad8dfbd3ebe",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "16.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2343533/SPORT%20BLEIBT%20HERZST&Uuml;CK:%20ZUKUNFT%20DES%20POSTSPORTQUARTIERS%20HERNALS",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T07:53:29.944Z",
+    "deliveredAt": "2026-09-16T07:53:29.944Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a53137f5539a1ab119d87396",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SPORT BLEIBT HERZSTÜCK: ZUKUNFT DES POSTSPORTQUARTIERS HERNALS",
+    "link": "https://news.post.at/presse/de/post/id/2343533/SPORT%20BLEIBT%20HERZST%26Uuml%3BCK%3A%20ZUKUNFT%20DES%20POSTSPORTQUARTIERS%20HERNALS",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T07:53:29.944Z",
+    "deliveredAt": "2026-09-16T07:53:29.944Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "db4dc133e18942deddf2ce39",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Sanitär-, Heizungs- und Klimatechnik: Zahl der neuen Auszubildenden binnen zehn Jahren um 30,5 % gestiegen",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N064_47_21.html",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T07:53:29.936Z",
+    "deliveredAt": "2026-09-16T07:53:29.936Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cff422029d3873e031ce3f01",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Annual Research Conference",
+    "link": "https://www.ecb.europa.eu/press/conferences/html/20260916_11th_ecb_annual_research_conference.en.html",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T07:53:29.922Z",
+    "deliveredAt": "2026-09-16T07:53:29.922Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3aea6fa6d987cb1ce398944c",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "DHL Open Market: Übernahme in Kolumbien vereinbart",
+    "link": "https://onlinemarktplatz.de/293291/dhl-open-market-uebernahme-kolumbien/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T07:53:29.914Z",
+    "deliveredAt": "2026-09-16T07:53:29.914Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a77e56c46e37ee63815e9d91",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Primark Hauszustellung: Modehändler plant Versand in Großbritannien",
+    "link": "https://onlinemarktplatz.de/293104/primark-hauszustellung-grossbritannien/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T07:53:29.914Z",
+    "deliveredAt": "2026-09-16T07:53:29.914Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bb94dac05d873c7577082a24",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Digital-Euro-Händlerpilot: EZB sucht Onlinehändler für Pilotphase",
+    "link": "https://onlinemarktplatz.de/293307/digital-euro-haendlerpilot-ezb/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-16T07:53:29.913Z",
+    "deliveredAt": "2026-09-16T07:53:29.913Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "a6049bff61059c38d8dcd99e",
@@ -10860,182 +11038,6 @@
     "priority": 2,
     "title": "Navigate to Klarna opens direct line to CEO Sebastian Siemiatkowski – powered by AI",
     "link": "https://www.klarna.com/international/press/klarna-opens-direct-line-to-ceo-sebastian-siemiatkowski-powered-by-ai/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6dc631379b0bd7d5377c29b9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Tap to switch: Klarna expands into mobile phone plans with flexible, no-hassle service for 25M Americans",
-    "link": "https://www.klarna.com/international/press/tap-to-switch-klarna-expands-into-mobile-phone-plans-with-flexible-no-hassle/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "00c46722bdaad1d5c51e5273",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Is Now Available on Google Pay",
-    "link": "https://www.klarna.com/international/press/klarna-is-now-available-on-google-pay/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ba7ed4fd61ae1b433a486ac6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna rejects carbon offsets with fresh $1.25m fund for environmental moonshots",
-    "link": "https://www.klarna.com/international/press/klarna-rejects-carbon-offsets-with-fresh-usd1-25m-fund-for-environmental/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5ded8d053a42eef7f2cdf555",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Poshmark Partner to Power Seamless Resale, Just in Time for Back-to-School",
-    "link": "https://www.klarna.com/international/press/klarna-and-poshmark-partner-to-power-seamless-resale-just-in-time-for-back/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "686d06609842205dcd7e5bd2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna receives FCA authorisation, paving the way for cashback and balance features",
-    "link": "https://www.klarna.com/international/press/klarna-receives-fca-authorisation-paving-the-way-for-cashback-and-balance/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3a5cd4a4a1d2b3a8c269b955",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna delinquency rates drop as consumer health improves",
-    "link": "https://www.klarna.com/international/press/klarna-delinquency-rates-drop-as-consumer-health-improves/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "df51a828d620332cfb727d91",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to No More Friction: Klarna automatically enables thousands of WooCommerce stores, tackling checkout drop-offs head-on.",
-    "link": "https://www.klarna.com/international/press/no-more-friction-klarna-automatically-enables-thousands-of-woocommerce/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T03:35:52.830Z",
-    "deliveredAt": "2026-09-10T03:35:52.830Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "08217146360f5084a888bcd3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to Launch as a Payment Option in Autofill on Chrome, Expanding Work with Google Pay",
-    "link": "https://www.klarna.com/international/press/klarna-to-launch-as-a-payment-option-in-autofill-on-chrome-expanding-work/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T03:35:52.830Z",
