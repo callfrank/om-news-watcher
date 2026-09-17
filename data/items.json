@@ -1,5 +1,93 @@
 [
   {
+    "guid": "6815db06ea4e67259fb22098",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to read books for free with Prime: Amazon First Reads and Amazon Original Stories",
+    "link": "https://www.aboutamazon.com/news/books-and-authors/prime-reading-free-books-benefits",
+    "pageDate": "Sept. 17, 2026",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "detectedAt": "2026-09-17T19:18:20.468Z",
+    "deliveredAt": "2026-09-17T19:18:20.468Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ad4e086145c8b00fd67cadd0",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the trailer for 'Perfect Liars,' the adaptation of the hit novel coming to Prime Video November 20",
+    "link": "https://www.aboutamazon.com/news/entertainment/perfect-liars-prime-video",
+    "pageDate": "Sept. 17, 2026",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "detectedAt": "2026-09-17T19:18:20.468Z",
+    "deliveredAt": "2026-09-17T19:18:20.468Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4e39b8e2ff6e610501aecdbc",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon Connect expands into a set of agentic AI solutions",
+    "link": "https://www.aboutamazon.com/news/aws/amazon-connect-ai-business-set",
+    "pageDate": "Sept. 17, 2026",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "detectedAt": "2026-09-17T19:18:20.468Z",
+    "deliveredAt": "2026-09-17T19:18:20.468Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2ae06e19ddf31c23c1a244e5",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the trailer for 'Helluva Boss' Season 3, coming to Prime Video October 14",
+    "link": "https://www.aboutamazon.com/news/entertainment/helluva-boss-prime-video",
+    "pageDate": "Sept. 17, 2026",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "detectedAt": "2026-09-17T19:18:20.467Z",
+    "deliveredAt": "2026-09-17T19:18:20.467Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "7110a373cb002af607fd49de",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10958,94 +11046,6 @@
     "priority": 2,
     "title": "Navigate to Klarna becomes first Fintech to join The Climate Pledge and Race to Zero campaign",
     "link": "https://www.klarna.com/international/press/klarna-becomes-first-fintech-to-join-the-climate-pledge-and-race-to-zero-campaign/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c07aff289a6342d2d1018a73",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires HERO to bring best of in-store experience to social shopping for its 90m consumers",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-hero-to-bring-best-of-in-store-experience-to-social-shopping-for-its-90m-consumers/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e5fa2cb565b36e9ea6022209",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires APPRL, connecting retailers and content creators as global consumers embrace social shopping",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-apprl-connecting-retailers-and-content-creators-as-global-consumers-embrace-social-shopping/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bc73c68549b574bbc3f556c2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to YOOX NET-A-PORTER Group and Klarna announce global partnership",
-    "link": "https://www.klarna.com/international/press/yoox-net-a-porter-group-and-klarna-announce-global-partnership/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "da57a35b554477cb883beba9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Cześć!” to Poland with “Pay in 30 days”",
-    "link": "https://www.klarna.com/international/press/klarna-says-czesc-to-poland-with-pay-in-30-days/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T10:04:17.080Z",
