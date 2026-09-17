@@ -1,5 +1,25 @@
 [
   {
+    "guid": "c0e46820cdb576a298db46bd",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Das Shopsystem Websale",
+    "link": "https://demoshops.de/shopsystem-websale/",
+    "pageDate": "16.09.2026",
+    "publishedAt": "2026-09-16T12:00:00.000Z",
+    "detectedAt": "2026-09-17T00:33:22.497Z",
+    "deliveredAt": "2026-09-17T00:33:22.497Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "1fe3506f6aa153bff4971877",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -11040,28 +11060,6 @@
     "publishedAt": "2026-09-10T12:00:00.000Z",
     "detectedAt": "2026-09-10T07:33:47.276Z",
     "deliveredAt": "2026-09-10T07:33:47.276Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ecdbfba7d68ac6c61c3f701e",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Telekom macht Smartphones bezahlbarer",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/telekom-macht-hochwertige-smartphones-bezahlbarer",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-10T07:33:47.270Z",
-    "deliveredAt": "2026-09-10T07:33:47.270Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
