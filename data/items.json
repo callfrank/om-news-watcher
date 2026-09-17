@@ -1,5 +1,194 @@
 [
   {
+    "guid": "34f5096f1723153abe46c840",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Zur Pressemitteilung",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/september/schnee-im-spaetsommer-kaufland-startet-als-erster-haendler-weihnachtssaison-im-september",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-17T07:24:14.585Z",
+    "deliveredAt": "2026-09-17T07:24:14.585Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Kaufland Newsroom"
+    ]
+  },
+  {
+    "guid": "ee59cf5935697cd31ca63fcb",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "New labels provide more insight into product sustainability characteristics",
+    "link": "https://over.bol.com/en/news/new-labels-provide-more-insight-into-product-sustainability-characteristics/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-17T07:24:14.583Z",
+    "deliveredAt": "2026-09-17T07:24:14.583Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d1b59a527631733c9d3dc6a0",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Europas Stärke liegt in Offenheit und verlässlichen Partnerschaften // ZEW-Präsident Achim Wambach zu einer assoziierten EU-Mitgliedschaft Kanadas",
+    "link": "https://www.zew.de/presse/pressearchiv/europas-staerke-liegt-in-offenheit-und-verlaesslichen-partnerschaften",
+    "pageDate": "17.09.2026",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "detectedAt": "2026-09-17T07:24:14.579Z",
+    "deliveredAt": "2026-09-17T07:24:14.579Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cb2ce2193449f2b060ed96f1",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragsbestand im Verarbeitenden Gewerbe im Juli 2026: +1,5 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_327_421.html",
+    "pageDate": "17.09.2026",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "detectedAt": "2026-09-17T07:24:14.559Z",
+    "deliveredAt": "2026-09-17T07:24:14.559Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c9373fa89fb944ab9a4333ec",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "40.000 E-Fahrzeuge: Deutsche Post AG erreicht nächsten Meilenstein bei der elektrischen Zustellung in Deutschland",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/40000-e-fahrzeuge-deutsche-post-ag-erreicht-naechsten-meilenstein-bei-der-elektrischen-zustellung-in-deutschland.html",
+    "pageDate": "17.09.2026, 09:00 MESZ POST & PAKET DEUTSCHLAND",
+    "publishedAt": null,
+    "detectedAt": "2026-09-17T07:24:14.536Z",
+    "deliveredAt": "2026-09-17T07:24:14.536Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "de44b08456a526e61060d81d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "OXID startet EU-Garantieanzeige für neue Händlerpflichten",
+    "link": "https://onlinemarktplatz.de/293012/oxid-eu-garantieanzeige/",
+    "pageDate": "17.09.2026",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "detectedAt": "2026-09-17T07:24:14.535Z",
+    "deliveredAt": "2026-09-17T07:24:14.535Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "040a0e4273dfd301ff43e30f",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "GPT-Live-1 API: OpenAI bringt Full-Duplex-Sprachmodell für Unternehmen",
+    "link": "https://onlinemarktplatz.de/293163/gpt-live-1-api-sprachassistenten/",
+    "pageDate": "17.09.2026",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "detectedAt": "2026-09-17T07:24:14.535Z",
+    "deliveredAt": "2026-09-17T07:24:14.535Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6cf65a83aeadda7ac334c74a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Worldline UCP verbindet KI-Checkouts mit Global Collect",
+    "link": "https://onlinemarktplatz.de/293235/worldline-ucp-ki-checkouts/",
+    "pageDate": "17.09.2026",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "detectedAt": "2026-09-17T07:24:14.535Z",
+    "deliveredAt": "2026-09-17T07:24:14.535Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "9cecc57689cf340472e905f7",
     "source": "Klarna",
     "sourceKey": "src-f16daf5cdc73aa7e",
@@ -2723,28 +2912,6 @@
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.969Z",
     "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "da637f58b708db32b6fca55c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "klarna alza at (1)",
-    "link": "https://www.klarna.com/international/press/klarna-teams-up-with-alza-at-bringing-flexible-payments-to-austrian-shoppers/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.968Z",
-    "deliveredAt": "2026-09-17T05:27:08.968Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -10883,160 +11050,6 @@
     "priority": 2,
     "title": "Navigate to Klarna launches browser extension allowing consumers to pay later across all online stores",
     "link": "https://www.klarna.com/international/press/klarna-launches-browser-extension-allowing-consumers-to-pay-later-across-all-online-stores/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ccbeba73fdf991481352f8cd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches first-ever immersive sports activation, bringing basketball fans worldwide closer to the game",
-    "link": "https://www.klarna.com/international/press/klarna-launches-first-ever-immersive-sports-activation-bringing-basketball-fans-worldwide-closer-to-the-game/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "56cf519516a370f612bf2521",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna fuels global expansion with the launch of rewards program and Pay Now in nine new markets",
-    "link": "https://www.klarna.com/international/press/klarna-fuels-global-expansion-with-the-launch-of-rewards-program-and-pay-now-in-nine-new-markets/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e87409e3161f4c2922727701",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands to Canada with flexible “Pay in 4” service and shopping app, while announcing major investment in local economy",
-    "link": "https://www.klarna.com/international/press/klarna-expands-to-canada-with-flexible-pay-in-4-service-and-shopping-app-while-announcing-major-investment-in-local-economy/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b5cf379b4ebc8cbb735bf38d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Brookfield Properties enhance the in-store shopping experience for millions of US customers",
-    "link": "https://www.klarna.com/international/press/klarna-and-brookfield-properties-enhance-the-in-store-shopping-experience-for-millions-of-us-customers/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "45864d92516b61c1b77fcdf4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces Full Year Financial Results 2021",
-    "link": "https://www.klarna.com/international/press/klarna-announces-full-year-financial-results-2021/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "75a710c8fe284b508213b125",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes its Annual Reports and ESG Report for January – December 2021.",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-its-annual-reports-and-esg-report-for-january-december-2021/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9c73aed237237a768b9a88d2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches ‘Klarna Kosma’ sub-brand and business unit to harness rapid growth of Open Banking platform",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarna-kosma-sub-brand-and-business-unit-to-harness-rapid-growth-of-open-banking-platform/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T10:04:17.080Z",
