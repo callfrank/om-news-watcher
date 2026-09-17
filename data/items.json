@@ -1,5 +1,206 @@
 [
   {
+    "guid": "7110a373cb002af607fd49de",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the trailer for 'The Terminal List' Season 2 starring Chris Pratt, coming to Prime Video October 21",
+    "link": "https://www.aboutamazon.com/news/entertainment/terminal-list-prime-video-chris-pratt",
+    "pageDate": "Sept. 17, 2026",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "detectedAt": "2026-09-17T15:20:46.797Z",
+    "deliveredAt": "2026-09-17T15:20:46.797Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "fdc9eebcd4a5d856e2c121f2",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to add subscriptions like HBO Max, Apple TV, FOX One, and more on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/what-are-prime-video-channels",
+    "pageDate": "Sept. 17, 2026",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "detectedAt": "2026-09-17T15:20:46.797Z",
+    "deliveredAt": "2026-09-17T15:20:46.797Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9a9d45aea68f25ff4856476c",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon delivered more than 2 million meals to students in rural communities this summer",
+    "link": "https://www.aboutamazon.com/news/community/amazon-summer-meals-kids-rural-delivery",
+    "pageDate": "Sept. 17, 2026",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "detectedAt": "2026-09-17T15:20:46.797Z",
+    "deliveredAt": "2026-09-17T15:20:46.797Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0cf19a290c7434ed0bd79b57",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Google removes product carousels in Europe",
+    "link": "https://ecommercenews.eu/google-removes-product-carousels-in-europe/",
+    "pageDate": "17.09.2026",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "detectedAt": "2026-09-17T15:20:46.781Z",
+    "deliveredAt": "2026-09-17T15:20:46.781Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "271e1ae815b4fb3b430a8fbe",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Zolldaten als Wettbewerbsvorteil nutzen: DHL Global Forwarding launcht TradeNavigator Tool in TradeConnect",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-global-forwarding-launcht-tradenavigator.html",
+    "pageDate": "17.09.2026, 14:00 MESZ DHL GLOBAL FORWARDING",
+    "publishedAt": null,
+    "detectedAt": "2026-09-17T15:20:46.753Z",
+    "deliveredAt": "2026-09-17T15:20:46.753Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "15b37455b88a3c3a72094a1b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Schwarz Digits STACKIT KI-Ökosystem bindet Celonis und Snowflake stufenweise ein",
+    "link": "https://onlinemarktplatz.de/293389/stackit-ki-oekosystem-celonis-snowflake/",
+    "pageDate": "17.09.2026",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "detectedAt": "2026-09-17T15:20:46.751Z",
+    "deliveredAt": "2026-09-17T15:20:46.751Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6278283f3e0403a6794e31cb",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Gemeinsam Lebensmittel retten: Verbraucherzentralen laden bundesweit zu Veranstaltungen ein",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/gemeinsam-lebensmittel-retten-verbraucherzentralen-laden-bundesweit-zu-veranstaltungen-ein-125851",
+    "pageDate": "17.09.2026",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "detectedAt": "2026-09-17T15:20:46.746Z",
+    "deliveredAt": "2026-09-17T15:20:46.746Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "21d6f2df990d77e2c05fbe5a",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Gemeinsam Lebensmittel retten",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/gemeinsam-lebensmittel-retten-125853",
+    "pageDate": "17.09.2026",
+    "publishedAt": "2026-09-17T12:00:00.000Z",
+    "detectedAt": "2026-09-17T15:20:46.743Z",
+    "deliveredAt": "2026-09-17T15:20:46.743Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a5099564730bb8618ec122f6",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom erweitert Multiorbit-IoT-Roaming mit dem Partner Iridium",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/telekom-erweitert-multiorbit-iot-roaming-mit-dem-partner-iridium",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-17T15:20:46.736Z",
+    "deliveredAt": "2026-09-17T15:20:46.736Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "1a75bf7c34778e16d83b6b71",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10845,204 +11046,6 @@
     "priority": 2,
     "title": "Navigate to Klarna says “Cześć!” to Poland with “Pay in 30 days”",
     "link": "https://www.klarna.com/international/press/klarna-says-czesc-to-poland-with-pay-in-30-days/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e0d4cd61481adfc0e70d2b82",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna hits record 20 million US customers as demand for flexible payment options soars",
-    "link": "https://www.klarna.com/international/press/klarna-hits-record-20-million-us-customers-as-demand-for-flexible-payment-options-soars/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "33c9040236a7377aef25c938",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna interim report January - June 2021",
-    "link": "https://www.klarna.com/international/press/klarna-interim-report-january-june-2021/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1b97600490e5a9bc720ccd92",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Global-e expand international partnership across US, UK, France, Spain, Italy and Australia",
-    "link": "https://www.klarna.com/international/press/klarna-and-global-e-expand-international-partnership-across-us-uk-france-spain-italy-and-australia/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f34a01b17966f85258cd6397",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Amendment to interim reports 2021",
-    "link": "https://www.klarna.com/international/press/amendment-to-interim-reports-2021/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "101152a295037a623a5b8cae",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Beautycounter launch ‘Better Beauty’ livestream shopping series",
-    "link": "https://www.klarna.com/international/press/klarna-and-beautycounter-launch-better-beauty-livestream-shopping-series/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "32f2ea39de1f9bc663ba0a14",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna reaches 1 million downloads of its ‘all-in-one’ shopping app in Australia",
-    "link": "https://www.klarna.com/international/press/klarna-reaches-1-million-downloads-of-its-all-in-one-shopping-app-in-australia/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0549d7403c205bb44519e9c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to US shoppers get a jump on the holidays, with 40% shopping earlier than last year and 22% already started",
-    "link": "https://www.klarna.com/international/press/us-shoppers-get-a-jump-on-the-holidays-with-40-shopping-earlier-than-last-year-and-22-already-started/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a22c774ad5d845e51fd0b9c8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Simon Announce National Strategic Alliance",
-    "link": "https://www.klarna.com/international/press/klarna-and-simon-announce-national-strategic-alliance/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ca7650d016d9dfc9dea8fdc9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Billie and Klarna launch a global partnership",
-    "link": "https://www.klarna.com/international/press/billie-and-klarna-launch-a-global-partnership/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T10:04:17.080Z",
