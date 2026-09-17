@@ -1,5 +1,75 @@
 [
   {
+    "guid": "b51f101c69b12f928d074cc5",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Turning Membership Into Momentum",
+    "link": "https://corporate.walmart.com/about/samsclub/news/2026/09/turning-membership-into-momentum",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-17T22:15:15.746Z",
+    "deliveredAt": "2026-09-17T22:15:15.746Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5570c07430b144fe24300cba",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "125 Wines, Six Days of Tastings: How Sam’s Club Found Its New Napa Valley Cabernet Sauvignon",
+    "link": "https://corporate.walmart.com/about/samsclub/news/2026/09/sams-club-napa-valley-cabernet",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-17T22:15:15.746Z",
+    "deliveredAt": "2026-09-17T22:15:15.746Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9a9b8d967a86b9000b292f37",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Meet the ‘Thursday Night Football’ broadcast team",
+    "link": "https://www.aboutamazon.com/news/entertainment/thursday-night-football-announcers-prime-video",
+    "pageDate": "Sept. 17, 2026",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "detectedAt": "2026-09-17T22:15:15.734Z",
+    "deliveredAt": "2026-09-17T22:15:15.734Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "6815db06ea4e67259fb22098",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10987,71 +11057,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "c1b9d058b1cd04fdf04509ec",
-    "source": "EY Newsroom",
-    "sourceKey": "src-8fc60553640bf464",
-    "sourceLabel": "EY",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Digitale Resilienz: Immobilienwirtschaft stellt die Weichen",
-    "link": "https://www.ey.com/de_de/newsroom/2026/09/ey-parthenon-zia-digitalisierungsstudie-2026",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-10T14:27:43.303Z",
-    "deliveredAt": "2026-09-10T14:27:43.303Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "aa6069278d39915df4f8ff0c",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "NIQ Announces 2026 North American Breakthrough Innovation Award Winners",
-    "link": "https://nielseniq.com/global/en/news-center/2026/niq-announces-2026-breakthrough-innovation-award-winners/",
-    "pageDate": "10.09.2026",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.099Z",
-    "deliveredAt": "2026-09-10T10:04:17.099Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5958bc939e307624b3f64aae",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna becomes first Fintech to join The Climate Pledge and Race to Zero campaign",
-    "link": "https://www.klarna.com/international/press/klarna-becomes-first-fintech-to-join-the-climate-pledge-and-race-to-zero-campaign/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T10:04:17.080Z",
-    "deliveredAt": "2026-09-10T10:04:17.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
