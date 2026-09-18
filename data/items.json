@@ -1,5 +1,27 @@
 [
   {
+    "guid": "ed230366a748a48ce31743f0",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "What AWS's CTO told employees about the future of AI",
+    "link": "https://www.aboutamazon.com/news/aws/aws-cto-future-of-ai",
+    "pageDate": "Sept. 17, 2026",
+    "publishedAt": "2026-09-17T00:00:00.000Z",
+    "detectedAt": "2026-09-18T00:22:00.216Z",
+    "deliveredAt": "2026-09-18T00:22:00.216Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "b51f101c69b12f928d074cc5",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -11029,31 +11051,6 @@
     "publishedAt": "2026-09-10T12:00:00.000Z",
     "detectedAt": "2026-09-10T14:27:43.334Z",
     "deliveredAt": "2026-09-10T14:27:43.334Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "21d2cfda509ef28b254263bb",
-    "source": "Mercado Libre News & Events",
-    "sourceKey": "src-d4f0ba766aafaf20",
-    "sourceLabel": "Mercado Libre",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Payment",
-      "Studien & Marktdaten",
-      "Events"
-    ],
-    "priority": 2,
-    "title": "Document TitlePress Release Mercado Libre Successfully Issues USD 1,000 million of 2036 Senior Unsecured Notes",
-    "link": "https://http2.mlstatic.com/storage/ml-cms-backend/cms-documents-prod/5dbba919-721c-4916-bb91-c76a8713f7f0/5b693125-1530-4caa-b06f-3cc16f933044/MELI_-_Sept_2026_Bond_-_Pricing_Press_Release_Exhibit_to_Pricing_8-K.pdf",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-10T14:27:43.325Z",
-    "deliveredAt": "2026-09-10T14:27:43.325Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
