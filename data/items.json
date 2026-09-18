@@ -1,5 +1,254 @@
 [
   {
+    "guid": "1da17600bf8e9b1550e3992e",
+    "source": "Ifo",
+    "sourceKey": "src-63168d62c3d3a5c3",
+    "sourceLabel": "Ifo",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 3,
+    "title": "Rüstungsausgaben sind eine Investition in den Frieden",
+    "link": "https://www.ifo.de/standpunkte",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-18T07:08:54.119Z",
+    "deliveredAt": "2026-09-18T07:08:54.119Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a102a9cf4193954be1999fb9",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Baugenehmigungen für Wohnungen im Juli 2026: +1,9 % zum Vorjahresmonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_330_3111.html",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.107Z",
+    "deliveredAt": "2026-09-18T07:08:54.107Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0d47b71c9509259153f2c164",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Erzeugerpreise für Dienstleistungen im 2. Quartal 2026: +3,7 % zum Vorjahresquartal",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_329_61311.html",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.107Z",
+    "deliveredAt": "2026-09-18T07:08:54.107Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d3889e554700cf5c4a01a57b",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Gastgewerbeumsatz im Juli 2026 real 1,5 % höher als im Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_331_45213.html",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.107Z",
+    "deliveredAt": "2026-09-18T07:08:54.107Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9c192900d05ada75833359a5",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Erzeugerpreise im August 2026: +4,6 % gegenüber August 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_328_61241.html",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.107Z",
+    "deliveredAt": "2026-09-18T07:08:54.107Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "420746732c6f964d3b3d2751",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Kommentar zur Regulierung: Wenn die EU die Plattformen einnorden würde",
+    "link": "https://wortfilter.de/garantielabel-amazon-ebay-kommentar/",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.079Z",
+    "deliveredAt": "2026-09-18T07:08:54.079Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bd7a673c17e542d04b000229",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Google Produktkarussells verschwinden fast vollständig im EWR",
+    "link": "https://onlinemarktplatz.de/293400/google-produktkarussells-sichtbarkeit/",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.077Z",
+    "deliveredAt": "2026-09-18T07:08:54.077Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "df7f1344af0fd67239004cb7",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon Quick Desktop ist allgemein verfügbar: AWS verbindet Dateien und Shopsysteme",
+    "link": "https://onlinemarktplatz.de/293151/amazon-quick-desktop-aws-ki-assistent/",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.077Z",
+    "deliveredAt": "2026-09-18T07:08:54.077Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e175d449681e1462e22549bf",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "NIQ GeoAudiences bringen digitale Kaufsignale in die Werbeplanung",
+    "link": "https://onlinemarktplatz.de/293286/niq-geoaudiences/",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.077Z",
+    "deliveredAt": "2026-09-18T07:08:54.077Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4dd17f85bac211d07752eee2",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wero bei Fnac: Testphase läuft, Start Anfang 2027 geplant",
+    "link": "https://onlinemarktplatz.de/293167/wero-bei-fnac-start-2027/",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.077Z",
+    "deliveredAt": "2026-09-18T07:08:54.077Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f8562f11e9b4cd37a2df3c45",
+    "source": "Fressnapf Newsroom",
+    "sourceKey": "src-94258df63c219915",
+    "sourceLabel": "Fressnapf",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "DEL-Comeback: Fressnapf startet Partnerschaft mit den Krefeld Pinguinen",
+    "link": "https://www.mynewsdesk.com/de/fressnapf-holding-se/pressreleases/del-comeback-fressnapf-startet-partnerschaft-mit-den-krefeld-pinguinen-3466582",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T07:08:54.025Z",
+    "deliveredAt": "2026-09-18T07:08:54.025Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "ed230366a748a48ce31743f0",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10814,245 +11063,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c681263113a6b977d1dc142a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to A$AP Rocky and Klarna team up for global campaign",
-    "link": "https://www.klarna.com/international/press/aap-rocky-and-klarna-team-up-for-global-campaign/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a8c83ab0726d50aacc7c3cf6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures additional funding as consumers demand smarter alternatives to shop, bank, & pay",
-    "link": "https://www.klarna.com/international/press/klarna-secures-additional-funding-as-consumers-demand-smarter-alternatives-to-shop-bank-pay/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f25cb6db1cec479a29e2e080",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Launches Klarna Comparison Shopping Service across Europe",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarna-comparison-shopping-service-across-europe/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "290ac118bb405835c6bfc2a7",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Our monetary policy statement at a glance",
-    "link": "https://www.ecb.europa.eu/press/press_conference/visual-mps/2026/html/mopo_statement_explained_september.en.html",
-    "pageDate": "10.09.2026",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.363Z",
-    "deliveredAt": "2026-09-10T14:27:43.363Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6b5fc3753ff470c5c4ff5d53",
-    "source": "BEVH",
-    "sourceKey": "src-0a9ea9df2176887f",
-    "sourceLabel": "BEVH",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Verpackungsverordnung: bevh fordert komplette Abschaffung der Bevollmächtigtenpflicht",
-    "link": "https://bevh.org/detail/verpackungsverordnung-bevh-fordert-abschaffung-der-bevollmaechtigtenpflicht",
-    "pageDate": "09.09.2026",
-    "publishedAt": "2026-09-09T12:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.359Z",
-    "deliveredAt": "2026-09-10T14:27:43.359Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "036ed0920b03ade80459c2b2",
-    "source": "BEVH",
-    "sourceKey": "src-0a9ea9df2176887f",
-    "sourceLabel": "BEVH",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "EUDI-Wallet „d-you“ stärkt den Onlinehandel entlang des gesamten Einkaufsprozesses",
-    "link": "https://bevh.org/detail/eudi-wallet-d-you-staerkt-den-onlinehandel-entlang-des-gesamten-einkaufsprozesses",
-    "pageDate": "10.09.2026",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.359Z",
-    "deliveredAt": "2026-09-10T14:27:43.359Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3b88032f3936a5d3601bf0a2",
-    "source": "BSI",
-    "sourceKey": "src-64a086442adaeeab",
-    "sourceLabel": "BSI",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Meldung:, 10.09.2026 XAI in der Cybersicherheit: Whitepaper schafft Bewertungsgrundlagen und Orientierung Erklärbare Künstliche Intelligenz (XAI) wird oft als Lösung gesehen, um KI in der Cybersicherheit einzusetzen. Ein Whitepaper des BSI zeigt Potenziale, Einsatzmöglichkeiten und Risiken auf.",
-    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/XAI-Chancen-Risiken-Cybersicherheit_260910.html",
-    "pageDate": "10.09.2026",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.359Z",
-    "deliveredAt": "2026-09-10T14:27:43.359Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "29c41460b56e83a7191d8c8a",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Sammelklage: Geld zurück nach Amazon-Prime-Preiserhöhung?",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/sammelklage-geld-zurueck-nach-amazonprimepreiserhoehung-125739",
-    "pageDate": "10.09.2026",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.352Z",
-    "deliveredAt": "2026-09-10T14:27:43.352Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "aa7d5be748b8e8ac722c8663",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "iPhone Handoff bei der Telekom",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/iphone-handoff-bei-der-telekom",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-10T14:27:43.345Z",
-    "deliveredAt": "2026-09-10T14:27:43.345Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "eda08fa4e08cdc91463b7c93",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Flexible Multicloud-Nutzung",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/flexible-multicloud-nutzung",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-10T14:27:43.345Z",
-    "deliveredAt": "2026-09-10T14:27:43.345Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "50f92fe38778814ca4ffa37f",
-    "source": "Google Ads & Commerce Blog",
-    "sourceKey": "src-147cfee3d1361ebb",
-    "sourceLabel": "Google Ads & Commerce",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Drive profitable growth with new data and measurement tools",
-    "link": "https://blog.google/products/ads-commerce/data-strength-updates/",
-    "pageDate": "10.09.2026",
-    "publishedAt": "2026-09-10T12:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.334Z",
-    "deliveredAt": "2026-09-10T14:27:43.334Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
