@@ -1,5 +1,67 @@
 [
   {
+    "guid": "a301e14b272d4cd68936f5e4",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon highlights investments in satellite connectivity, responsible AI, and sustainability at UN General Assembly",
+    "link": "https://www.aboutamazon.com/news/policy-news-views/united-nations-general-assembly-2026-amazon-ai-sustainability",
+    "pageDate": "Sept. 18, 2026",
+    "publishedAt": "2026-09-18T00:00:00.000Z",
+    "detectedAt": "2026-09-18T17:42:23.299Z",
+    "deliveredAt": "2026-09-18T17:42:23.299Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1069c17fef3cbe2058ea9aec",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "18.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T17:42:23.291Z",
+    "deliveredAt": "2026-09-18T17:42:23.291Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c65bab387f989047f8ed09be",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "18.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2344466/POST%20CITY%20LINZ%20WIRD%20ZU%20&Ouml;STERREICHS%20GR&Ouml;SSTEM%20STREET-ART-ENSEMBLE",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T17:42:23.291Z",
+    "deliveredAt": "2026-09-18T17:42:23.291Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "212f5ec6f81accb321b19dfa",
     "source": "Action",
     "sourceKey": "src-89cea149987a2a2d",
@@ -37,26 +99,6 @@
     "publishedAt": "2026-09-18T12:00:00.000Z",
     "detectedAt": "2026-09-18T13:55:19.989Z",
     "deliveredAt": "2026-09-18T13:55:19.989Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c65bab387f989047f8ed09be",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344466/POST%20CITY%20LINZ%20WIRD%20ZU%20&Ouml;STERREICHS%20GR&Ouml;SSTEM%20STREET-ART-ENSEMBLE",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T13:55:19.988Z",
-    "deliveredAt": "2026-09-18T13:55:19.988Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -148,26 +190,6 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1069c17fef3cbe2058ea9aec",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T09:48:00.063Z",
-    "deliveredAt": "2026-09-18T09:48:00.063Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   },
   {
     "guid": "951e59c32145c713d80a3a8a",
@@ -11026,28 +11048,6 @@
     "priority": 2,
     "title": "Navigate to Klarna CEO challenges tech to focus on global sustainability in $1 bn funding round",
     "link": "https://www.klarna.com/international/press/klarna-ceo-challenges-tech-to-focus-on-global-sustainability-in-1-bn-funding-round/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "96ba001fed08db47eec6a672",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands Open Banking solution to 8 more European markets",
-    "link": "https://www.klarna.com/international/press/klarna-expands-open-banking-solution-to-8-more-european-markets/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T14:27:43.374Z",
