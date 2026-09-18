@@ -1,6 +1,31 @@
 [
   {
-    "guid": "60d6e1060fe0c02ce1b3e56f",
+    "guid": "66ae8aa390324c3c8cd4fea9",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart+ Adds CITGO Fuel Stations, Expanding Gas Savings to Over 17,000 Locations Nationwide",
+    "link": "https://corporate.walmart.com/content/corporate/en_us/news/2026/09/walmart-expands-gas-savings-to-17k-locations?exp=b",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-18T22:35:40.995Z",
+    "deliveredAt": "2026-09-18T22:35:40.995Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "1069c17fef3cbe2058ea9aec",
     "source": "Post AT",
     "sourceKey": "src-7233e5eef034b3db",
     "sourceLabel": "Post AT",
@@ -10,11 +35,11 @@
     "tags": [],
     "priority": 2,
     "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
+    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T19:59:38.113Z",
-    "deliveredAt": "2026-09-18T19:59:38.113Z",
+    "detectedAt": "2026-09-18T22:35:40.984Z",
+    "deliveredAt": "2026-09-18T22:35:40.984Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -33,8 +58,28 @@
     "link": "https://news.post.at/presse/de/post/id/2344466/POST%20CITY%20LINZ%20WIRD%20ZU%20&Ouml;STERREICHS%20GR&Ouml;SSTEM%20STREET-ART-ENSEMBLE",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T19:59:38.112Z",
-    "deliveredAt": "2026-09-18T19:59:38.112Z",
+    "detectedAt": "2026-09-18T22:35:40.984Z",
+    "deliveredAt": "2026-09-18T22:35:40.984Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "60d6e1060fe0c02ce1b3e56f",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "18.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-18T19:59:38.113Z",
+    "deliveredAt": "2026-09-18T19:59:38.113Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -60,26 +105,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "1069c17fef3cbe2058ea9aec",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T17:42:23.291Z",
-    "deliveredAt": "2026-09-18T17:42:23.291Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "212f5ec6f81accb321b19dfa",
@@ -6005,30 +6030,6 @@
     "publishedAt": "2026-09-14T00:00:00.000Z",
     "detectedAt": "2026-09-14T19:22:56.686Z",
     "deliveredAt": "2026-09-14T19:22:56.686Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7c475cc8ad1efc5496bd9e9b",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Walmart+ Adds CITGO Fuel Stations, Expanding Gas Savings to Over 17,000 Locations Nationwide",
-    "link": "https://corporate.walmart.com/news/2026/09/walmart-expands-gas-savings-to-17k-locations",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-14T14:04:00.152Z",
-    "deliveredAt": "2026-09-14T14:04:00.152Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
