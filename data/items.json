@@ -1,6 +1,6 @@
 [
   {
-    "guid": "60d6e1060fe0c02ce1b3e56f",
+    "guid": "1069c17fef3cbe2058ea9aec",
     "source": "Post AT",
     "sourceKey": "src-7233e5eef034b3db",
     "sourceLabel": "Post AT",
@@ -10,11 +10,11 @@
     "tags": [],
     "priority": 2,
     "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
+    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-19T09:31:36.504Z",
-    "deliveredAt": "2026-09-19T09:31:36.504Z",
+    "detectedAt": "2026-09-19T13:26:29.774Z",
+    "deliveredAt": "2026-09-19T13:26:29.774Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -33,8 +33,74 @@
     "link": "https://news.post.at/presse/de/post/id/2344466/POST%20CITY%20LINZ%20WIRD%20ZU%20&Ouml;STERREICHS%20GR&Ouml;SSTEM%20STREET-ART-ENSEMBLE",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-19T09:31:36.503Z",
-    "deliveredAt": "2026-09-19T09:31:36.503Z",
+    "detectedAt": "2026-09-19T13:26:29.773Z",
+    "deliveredAt": "2026-09-19T13:26:29.773Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "254a41537d94c5628e6d4a49",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "eBay äußert sich: So funktioniert das mit dem Garantielabel",
+    "link": "https://wortfilter.de/ebay-garantielabel/",
+    "pageDate": "19.09.2026",
+    "publishedAt": "2026-09-19T12:00:00.000Z",
+    "detectedAt": "2026-09-19T13:26:29.743Z",
+    "deliveredAt": "2026-09-19T13:26:29.743Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "670cc901b8f45f4028aa1f24",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Die besten 25 Shopify Agenturen deutschlandweit 2026",
+    "link": "https://wortfilter.de/shopify-agentur/",
+    "pageDate": "19.09.2026",
+    "publishedAt": "2026-09-19T12:00:00.000Z",
+    "detectedAt": "2026-09-19T13:26:29.743Z",
+    "deliveredAt": "2026-09-19T13:26:29.743Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "60d6e1060fe0c02ce1b3e56f",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "18.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-19T09:31:36.504Z",
+    "deliveredAt": "2026-09-19T09:31:36.504Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -130,26 +196,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "1069c17fef3cbe2058ea9aec",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-19T05:07:16.864Z",
-    "deliveredAt": "2026-09-19T05:07:16.864Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "66ae8aa390324c3c8cd4fea9",
@@ -11009,50 +11055,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Makes Its Big Game Debut With “The Four Quarter-Sized Cowboys” Campaign Starring Four Singing Maya Rudolphs",
     "link": "https://www.klarna.com/international/press/klarna-makes-its-big-game-debut-with-the-four-quarter-sized-cowboys-campaign-starring-four-singing-maya-rudolphs/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f040460900724e6ac0e128d4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Continues Strong US Growth, Reaching Record Highs In Customers, Retail Partners, and Consumer App Downloads",
-    "link": "https://www.klarna.com/international/press/klarna-continues-strong-us-growth-reaching-record-highs-in-customers-retail-partners-and-consumer-app-downloads/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "372507fcca5c615bcf77a551",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with TELFAR to offer shoppers flexible payment solutions",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-telfar-to-offer-shoppers-flexible-payment-solutions/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T14:27:43.374Z",
