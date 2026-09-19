@@ -1,6 +1,6 @@
 [
   {
-    "guid": "60d6e1060fe0c02ce1b3e56f",
+    "guid": "1069c17fef3cbe2058ea9aec",
     "source": "Post AT",
     "sourceKey": "src-7233e5eef034b3db",
     "sourceLabel": "Post AT",
@@ -10,11 +10,11 @@
     "tags": [],
     "priority": 2,
     "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
+    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-19T00:40:21.069Z",
-    "deliveredAt": "2026-09-19T00:40:21.069Z",
+    "detectedAt": "2026-09-19T05:07:16.864Z",
+    "deliveredAt": "2026-09-19T05:07:16.864Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -31,6 +31,26 @@
     "priority": 2,
     "title": "18.09.2026",
     "link": "https://news.post.at/presse/de/post/id/2344466/POST%20CITY%20LINZ%20WIRD%20ZU%20&Ouml;STERREICHS%20GR&Ouml;SSTEM%20STREET-ART-ENSEMBLE",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-19T05:07:16.863Z",
+    "deliveredAt": "2026-09-19T05:07:16.863Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "60d6e1060fe0c02ce1b3e56f",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "18.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
     "detectedAt": "2026-09-19T00:40:21.069Z",
@@ -63,26 +83,6 @@
     "historicalBackfill": false,
     "recoveryReason": null,
     "duplicateSources": []
-  },
-  {
-    "guid": "1069c17fef3cbe2058ea9aec",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T22:35:40.984Z",
-    "deliveredAt": "2026-09-18T22:35:40.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "a301e14b272d4cd68936f5e4",
