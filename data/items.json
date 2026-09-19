@@ -1,6 +1,28 @@
 [
   {
-    "guid": "1069c17fef3cbe2058ea9aec",
+    "guid": "861dea8c6b2f8433f4c7ba35",
+    "source": "Action",
+    "sourceKey": "src-89cea149987a2a2d",
+    "sourceLabel": "Action",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Action celebrates the opening of its 250th store in Italy, in the city of Bari",
+    "link": "https://company.action.com/pressreleases/action-celebrates-the-opening-of-its-250th-store-in-italy-in-the-city-of-bari/",
+    "pageDate": "19.09.2026",
+    "publishedAt": "2026-09-19T12:00:00.000Z",
+    "detectedAt": "2026-09-19T21:47:24.746Z",
+    "deliveredAt": "2026-09-19T21:47:24.746Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "60d6e1060fe0c02ce1b3e56f",
     "source": "Post AT",
     "sourceKey": "src-7233e5eef034b3db",
     "sourceLabel": "Post AT",
@@ -10,11 +32,11 @@
     "tags": [],
     "priority": 2,
     "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
+    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-19T19:20:31.065Z",
-    "deliveredAt": "2026-09-19T19:20:31.065Z",
+    "detectedAt": "2026-09-19T21:47:24.724Z",
+    "deliveredAt": "2026-09-19T21:47:24.724Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -31,6 +53,26 @@
     "priority": 2,
     "title": "18.09.2026",
     "link": "https://news.post.at/presse/de/post/id/2344466/POST%20CITY%20LINZ%20WIRD%20ZU%20&Ouml;STERREICHS%20GR&Ouml;SSTEM%20STREET-ART-ENSEMBLE",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-19T21:47:24.723Z",
+    "deliveredAt": "2026-09-19T21:47:24.723Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "1069c17fef3cbe2058ea9aec",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "18.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
     "detectedAt": "2026-09-19T19:20:31.065Z",
@@ -58,26 +100,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "60d6e1060fe0c02ce1b3e56f",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-19T16:50:12.818Z",
-    "deliveredAt": "2026-09-19T16:50:12.818Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "254a41537d94c5628e6d4a49",
@@ -11031,28 +11053,6 @@
     "priority": 2,
     "title": "Navigate to Online sales spiked by 2000% during final hours of Black Friday, while shoppers prioritized electronics and marketplace purchases",
     "link": "https://www.klarna.com/international/press/online-sales-spiked-by-2000-during-final-hours-of-black-friday-while-shoppers-prioritized-electronics-and-marketplace-purchases/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8a3c761b31c4ee7bfbfbc347",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Verifone to enable superior shopping experiences in physical stores globally",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-verifone-to-enable-superior-shopping-experiences-in-physical-stores-globally/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T14:27:43.374Z",
