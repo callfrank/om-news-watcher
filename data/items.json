@@ -1,6 +1,6 @@
 [
   {
-    "guid": "1069c17fef3cbe2058ea9aec",
+    "guid": "60d6e1060fe0c02ce1b3e56f",
     "source": "Post AT",
     "sourceKey": "src-7233e5eef034b3db",
     "sourceLabel": "Post AT",
@@ -10,11 +10,11 @@
     "tags": [],
     "priority": 2,
     "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
+    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-19T05:07:16.864Z",
-    "deliveredAt": "2026-09-19T05:07:16.864Z",
+    "detectedAt": "2026-09-19T09:31:36.504Z",
+    "deliveredAt": "2026-09-19T09:31:36.504Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -33,14 +33,106 @@
     "link": "https://news.post.at/presse/de/post/id/2344466/POST%20CITY%20LINZ%20WIRD%20ZU%20&Ouml;STERREICHS%20GR&Ouml;SSTEM%20STREET-ART-ENSEMBLE",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-19T05:07:16.863Z",
-    "deliveredAt": "2026-09-19T05:07:16.863Z",
+    "detectedAt": "2026-09-19T09:31:36.503Z",
+    "deliveredAt": "2026-09-19T09:31:36.503Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
-    "guid": "60d6e1060fe0c02ce1b3e56f",
+    "guid": "7c8747a2c03c1b21d3471229",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Deregulation is not the answer",
+    "link": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html",
+    "pageDate": "18.09.2026",
+    "publishedAt": "2026-09-18T12:00:00.000Z",
+    "detectedAt": "2026-09-19T09:31:36.475Z",
+    "deliveredAt": "2026-09-19T09:31:36.475Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ea238ad3ece57e0eac340d59",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "iPhone Fake-Shops locken vor dem Marktstart mit Billigangeboten",
+    "link": "https://onlinemarktplatz.de/293189/iphone-fake-shops-iphone-18-pro/",
+    "pageDate": "19.09.2026",
+    "publishedAt": "2026-09-19T12:00:00.000Z",
+    "detectedAt": "2026-09-19T09:31:36.466Z",
+    "deliveredAt": "2026-09-19T09:31:36.466Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "79855263fc1fd68e1212ac40",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Vom TikTok-Trend ins Tiefkühlregal: Lidl bringt das Eis-Croissant",
+    "link": "https://onlinemarktplatz.de/293423/eis-croissant-lidl-tiktok-trend/",
+    "pageDate": "19.09.2026",
+    "publishedAt": "2026-09-19T12:00:00.000Z",
+    "detectedAt": "2026-09-19T09:31:36.466Z",
+    "deliveredAt": "2026-09-19T09:31:36.466Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6d2ba08a5f0f4b9e6fbc2534",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Erfundene Familienläden: Das Netz hinter der Boutique-Fassade",
+    "link": "https://onlinemarktplatz.de/292793/erfundene-familienlaeden/",
+    "pageDate": "19.09.2026",
+    "publishedAt": "2026-09-19T12:00:00.000Z",
+    "detectedAt": "2026-09-19T09:31:36.466Z",
+    "deliveredAt": "2026-09-19T09:31:36.466Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1069c17fef3cbe2058ea9aec",
     "source": "Post AT",
     "sourceKey": "src-7233e5eef034b3db",
     "sourceLabel": "Post AT",
@@ -50,11 +142,11 @@
     "tags": [],
     "priority": 2,
     "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
+    "link": "https://news.post.at/presse/de/post/id/2344361/POST%20CITY%20LINZ%20ALS%20GR&Ouml;SSTES%20STREET-ART-ENSEMBLE%20&Ouml;STERREICHS",
     "pageDate": "18.09.2026",
     "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-19T00:40:21.069Z",
-    "deliveredAt": "2026-09-19T00:40:21.069Z",
+    "detectedAt": "2026-09-19T05:07:16.864Z",
+    "deliveredAt": "2026-09-19T05:07:16.864Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -10961,94 +11053,6 @@
     "priority": 2,
     "title": "Navigate to Klarna partners with TELFAR to offer shoppers flexible payment solutions",
     "link": "https://www.klarna.com/international/press/klarna-partners-with-telfar-to-offer-shoppers-flexible-payment-solutions/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cd647b888eb13a3250e31c51",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Worldline and Klarna expand payment offering across Europe",
-    "link": "https://www.klarna.com/international/press/worldline-and-klarna-expand-payment-offering-across-europe/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a4035e0f11db908299feec14",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Cosmopolitan and Klarna host second virtual shopping event for Gen Z and millennials, “Hauliday by Cosmo x Klarna”",
-    "link": "https://www.klarna.com/international/press/cosmopolitan-and-klarna-host-second-virtual-shopping-event-for-gen-z-and-millennials-hauliday-by-cosmo-x-klarna/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a77a5f83dbb688b0c58f1b4e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Q1-Q4 2020 Financial Report",
-    "link": "https://www.klarna.com/international/press/klarna-q1-q4-2020-financial-report/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "33633d588a0b6cf23b1cfe0d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna CEO challenges tech to focus on global sustainability in $1 bn funding round",
-    "link": "https://www.klarna.com/international/press/klarna-ceo-challenges-tech-to-focus-on-global-sustainability-in-1-bn-funding-round/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T14:27:43.374Z",
