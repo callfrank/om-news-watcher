@@ -1,5 +1,97 @@
 [
   {
+    "guid": "beba32a1451a526bae2dfa63",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DHL begleitet Elektro-Lkw auf Weltreise: \"In 80 Ladesäulen um die Welt\" startet auf der IAA Transportation in Hannover",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-begleitet-elektro-lkw-auf-weltreise.html",
+    "pageDate": "20.09.2026, 12:00 MESZ DHL GROUPNACHHALTIGKEIT",
+    "publishedAt": null,
+    "detectedAt": "2026-09-20T12:23:11.673Z",
+    "deliveredAt": "2026-09-20T12:23:11.673Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f77ec8682a13938e896b1fae",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kinder Joy Figuren zu One Piece: Sammeltrieb im Süßwarenregal",
+    "link": "https://onlinemarktplatz.de/293196/kinder-joy-figuren-sammeln/",
+    "pageDate": "20.09.2026",
+    "publishedAt": "2026-09-20T12:00:00.000Z",
+    "detectedAt": "2026-09-20T12:23:11.673Z",
+    "deliveredAt": "2026-09-20T12:23:11.673Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "352e21b40adba9b8784b7ce0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Produkttester Abo-Falle: LG Hannover stoppt verstecktes Zeitschriftenabo",
+    "link": "https://onlinemarktplatz.de/293296/produkttester-abo-falle-lg-hannover/",
+    "pageDate": "20.09.2026",
+    "publishedAt": "2026-09-20T12:00:00.000Z",
+    "detectedAt": "2026-09-20T12:23:11.673Z",
+    "deliveredAt": "2026-09-20T12:23:11.673Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b3f41171b28fc4498e738793",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EY-Analyse Automotive-Bilanzen Q2 2026",
+    "link": "https://www.ey.com/de_de/newsroom/2026/09/ey-analyse-automotive-bilanzen-q2-2026",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-20T12:23:11.641Z",
+    "deliveredAt": "2026-09-20T12:23:11.641Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "1069c17fef3cbe2058ea9aec",
     "source": "Post AT",
     "sourceKey": "src-7233e5eef034b3db",
@@ -15,26 +107,6 @@
     "publishedAt": "2026-09-18T12:00:00.000Z",
     "detectedAt": "2026-09-20T07:03:50.792Z",
     "deliveredAt": "2026-09-20T07:03:50.792Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c65bab387f989047f8ed09be",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344466/POST%20CITY%20LINZ%20WIRD%20ZU%20&Ouml;STERREICHS%20GR&Ouml;SSTEM%20STREET-ART-ENSEMBLE",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-20T07:03:50.791Z",
-    "deliveredAt": "2026-09-20T07:03:50.791Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -62,26 +134,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "60d6e1060fe0c02ce1b3e56f",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "18.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2344469/POST%20CITY%20LINZ:%20&Ouml;STERREICHISCHE%20POST%20DENKT%20ALTES%20LOGISTIKZENTRUM%20NEU",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-20T01:41:46.416Z",
-    "deliveredAt": "2026-09-20T01:41:46.416Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "861dea8c6b2f8433f4c7ba35",
@@ -11011,50 +11063,6 @@
     "priority": 2,
     "title": "Navigate to Shoppers shift e-commerce spending towards leisure and home goods in the run-up to Black Friday",
     "link": "https://www.klarna.com/international/press/shoppers-shift-e-commerce-spending-towards-leisure-and-home-goods-in-the-run-up-to-black-friday/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a72f86ceb5cf45b1dcad57b0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes financial update for January - September 2020",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-financial-update-for-january-september-2020/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "37d8f9fcd4979f2bff7cea79",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna appoints Michael Moritz as Chairman of the Klarna Board and welcomes three new global leaders to the Board",
-    "link": "https://www.klarna.com/international/press/klarna-appoints-michael-moritz-as-chairman-of-the-klarna-board-and-welcomes-three-new-global-leaders-to-the-board/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T14:27:43.374Z",
