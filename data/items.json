@@ -1,5 +1,167 @@
 [
   {
+    "guid": "5ac90fc6cd3207e4c718e6f5",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Exporte von neuen Pkw in den ersten sieben Monaten 2026 um 4,0 % zum Vorjahreszeitraum gesunken",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_332_51.html",
+    "pageDate": "21.09.2026",
+    "publishedAt": "2026-09-21T12:00:00.000Z",
+    "detectedAt": "2026-09-21T07:13:31.258Z",
+    "deliveredAt": "2026-09-21T07:13:31.258Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "52be414f05f471f869d22095",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Personenverkehr im 1. Halbjahr 2026: 2 % mehr Fahrgäste in Bussen und Bahnen",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_333_461.html",
+    "pageDate": "21.09.2026",
+    "publishedAt": "2026-09-21T12:00:00.000Z",
+    "detectedAt": "2026-09-21T07:13:31.258Z",
+    "deliveredAt": "2026-09-21T07:13:31.258Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "37bf6b55c28aa3f0b50bfe26",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Kirschenernte 2026 um 7,8 % über Zehnjahresdurchschnitt",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_334_412.html",
+    "pageDate": "21.09.2026",
+    "publishedAt": "2026-09-21T12:00:00.000Z",
+    "detectedAt": "2026-09-21T07:13:31.257Z",
+    "deliveredAt": "2026-09-21T07:13:31.257Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7b304b58f44fcfc2bd18fa1c",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wero rückt an die Ladenkasse: Payworld zeigt Terminalintegration in Belgien",
+    "link": "https://onlinemarktplatz.de/293381/wero-am-pos-payworld-belgien/",
+    "pageDate": "21.09.2026",
+    "publishedAt": "2026-09-21T12:00:00.000Z",
+    "detectedAt": "2026-09-21T07:13:31.232Z",
+    "deliveredAt": "2026-09-21T07:13:31.232Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2b16104d34804684f632964b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Social Ads im E-Commerce: Mehr Ausgaben bei niedrigeren Klickpreisen",
+    "link": "https://onlinemarktplatz.de/292582/meta-werbekosten-steigen/",
+    "pageDate": "21.09.2026",
+    "publishedAt": "2026-09-21T12:00:00.000Z",
+    "detectedAt": "2026-09-21T07:13:31.232Z",
+    "deliveredAt": "2026-09-21T07:13:31.232Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a142afce432ed19bd12ab87b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "E-Rechnungspflicht 2027: Regeln, Ausnahmen und steuerliche Risiken",
+    "link": "https://onlinemarktplatz.de/293041/e-rechnungspflicht-2027-onlinehaendler/",
+    "pageDate": "21.09.2026",
+    "publishedAt": "2026-09-21T12:00:00.000Z",
+    "detectedAt": "2026-09-21T07:13:31.232Z",
+    "deliveredAt": "2026-09-21T07:13:31.232Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "07fea34461a8f64a11afb790",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Global Trade Navigator: FedEx bündelt Zolltools für den Onlinehandel",
+    "link": "https://onlinemarktplatz.de/293078/fedex-global-trade-navigator-zolltools/",
+    "pageDate": "21.09.2026",
+    "publishedAt": "2026-09-21T12:00:00.000Z",
+    "detectedAt": "2026-09-21T07:13:31.232Z",
+    "deliveredAt": "2026-09-21T07:13:31.232Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "beba32a1451a526bae2dfa63",
     "source": "DHL",
     "sourceKey": "src-e5330506f57b7169",
@@ -10909,160 +11071,6 @@
     "priority": 2,
     "title": "Navigate to GameStop partners with Klarna to offer gaming community a more innovative and flexible shopping experience online and in store",
     "link": "https://www.klarna.com/international/press/gamestop-partners-with-klarna-to-offer-gaming-community-a-more-innovative-and-flexible-shopping-experience-online-and-in-store/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1aa23fed52d844780c2563fe",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches widget to track prices during peak holiday shopping season",
-    "link": "https://www.klarna.com/international/press/klarna-launches-widget-to-track-prices-during-peak-holiday-shopping-season/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9f5ea4cfd49abf9a6ab87294",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches research lab to explore the future of shopping",
-    "link": "https://www.klarna.com/international/press/klarna-launches-research-lab-to-explore-the-future-of-shopping/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "16caf1b015e853fd1d8e5314",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Urban Outfitters and Anthropologie partners with Klarna ahead of peak",
-    "link": "https://www.klarna.com/international/press/urban-outfitters-and-anthropologie-partners-with-klarna-ahead-of-peak/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "13ca36128f41aa49a4dc7028",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna reaches a record 11 million customers in the US",
-    "link": "https://www.klarna.com/international/press/klarna-reaches-a-record-11-million-customers-in-the-us/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "af940ef2dc1e73b25ccc833f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces partnership with Saks OFF 5TH ahead of the holidays",
-    "link": "https://www.klarna.com/international/press/klarna-announces-partnership-with-saks-off-5th-ahead-of-the-holidays/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f84a07478a5053df4ebdbe57",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Express partners with Klarna in time for holiday shopping season",
-    "link": "https://www.klarna.com/international/press/express-partners-with-klarna-in-time-for-holiday-shopping-season/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T14:27:43.374Z",
-    "deliveredAt": "2026-09-10T14:27:43.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "710e3de691fccb0941456c1e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Shoppers shift e-commerce spending towards leisure and home goods in the run-up to Black Friday",
-    "link": "https://www.klarna.com/international/press/shoppers-shift-e-commerce-spending-towards-leisure-and-home-goods-in-the-run-up-to-black-friday/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T14:27:43.374Z",
