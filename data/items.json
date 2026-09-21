@@ -1,5 +1,93 @@
 [
   {
+    "guid": "4c65c6e3363c9d8d4a588c79",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Get a behind-the-scenes look at Amazon's innovations with the 'Learn and Be Curious' podcast",
+    "link": "https://www.aboutamazon.com/news/company-news/learn-be-curious-podcast-amazon-stores-ceo",
+    "pageDate": "Sept. 21, 2026",
+    "publishedAt": "2026-09-21T00:00:00.000Z",
+    "detectedAt": "2026-09-21T19:28:35.489Z",
+    "deliveredAt": "2026-09-21T19:28:35.489Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ec73a87e3527ff5b3436f692",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon and Prime make everyday life more affordable for American families",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-prime-affordable-everyday-savings",
+    "pageDate": "Sept. 21, 2026",
+    "publishedAt": "2026-09-21T00:00:00.000Z",
+    "detectedAt": "2026-09-21T19:28:35.489Z",
+    "deliveredAt": "2026-09-21T19:28:35.489Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dede955792a5c57e52fe5641",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon’s carbon-free energy projects contribute $11 billion to US GDP, support nearly 22,000 jobs in local communities",
+    "link": "https://www.aboutamazon.com/news/sustainability/amazon-carbon-free-energy-economic-impact-study-2026",
+    "pageDate": "Sept. 21, 2026",
+    "publishedAt": "2026-09-21T00:00:00.000Z",
+    "detectedAt": "2026-09-21T19:28:35.488Z",
+    "deliveredAt": "2026-09-21T19:28:35.488Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "16989fb01650239ac4ce4b6d",
+    "source": "BEVH",
+    "sourceKey": "src-0a9ea9df2176887f",
+    "sourceLabel": "BEVH",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "European Product Act: EU zeigt unfairen Drittstaaten-Händlern die Zähne – Forderung nach strengeren Regeln für Bevollmächtigte",
+    "link": "https://bevh.org/detail/european-product-act-eu-zeigt-unfairen-drittstaaten-haendlern-die-zaehne-forderung-nach-strengeren-regeln-fuer-bevollmaechtigte",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-21T19:28:35.460Z",
+    "deliveredAt": "2026-09-21T19:28:35.460Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "ddbc0ad157360909cb3291d7",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10971,94 +11059,6 @@
     "priority": 2,
     "title": "Navigate to Klarna unveils ‘KlarnaSense’ - A new initiative to encourage smarter shopping",
     "link": "https://www.klarna.com/international/press/klarna-unveils-klarnasense-a-new-initiative-to-encourage-smarter-shopping/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d50db052cf06da54b1d4a495",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Cosmopolitan and Klarna partner to launch first-ever virtual shopping event for Gen Z and Millennials: “Hauliday by Cosmo x Klarna”",
-    "link": "https://www.klarna.com/international/press/cosmopolitan-and-klarna-partner-to-launch-first-ever-virtual-shopping-event-for-gen-z-and-millennials-hauliday-by-cosmo-x-klarna/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "49352216b6734f6260c079fa",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to New Klarna data reveal that 79% of consumers would rather be healthy than wealthy this holiday season",
-    "link": "https://www.klarna.com/international/press/new-klarna-data-reveal-that-79-of-consumers-would-rather-be-healthy-than-wealthy-this-holiday-season/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fc31e7509bf4eeebac490815",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna creates new ways to make shopping social with the launch of followable Wish lists",
-    "link": "https://www.klarna.com/international/press/klarna-creates-new-ways-to-make-shopping-social-with-the-launch-of-followable-wish-lists/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3244d5b9770de19d31c0d817",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna introduces Google Pay for in-store payments",
-    "link": "https://www.klarna.com/international/press/klarna-introduces-google-pay-for-in-store-payments/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T17:55:14.562Z",
