@@ -1,5 +1,71 @@
 [
   {
+    "guid": "8fb2c2a5cbcbacdc8ab90b4e",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Anthropic's Claude Opus 5.5 is now available on AWS",
+    "link": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
+    "pageDate": "Sept. 22, 2026",
+    "publishedAt": "2026-09-22T00:00:00.000Z",
+    "detectedAt": "2026-09-22T20:30:17.938Z",
+    "deliveredAt": "2026-09-22T20:30:17.938Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "084b2f80c371c37436ef561d",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon joins global coalition to advance AI education and digital skills for students",
+    "link": "https://www.aboutamazon.com/news/policy-news-views/amazon-joins-global-coalition-ai-education-digital-skills",
+    "pageDate": "Sept. 22, 2026",
+    "publishedAt": "2026-09-22T00:00:00.000Z",
+    "detectedAt": "2026-09-22T20:30:17.937Z",
+    "deliveredAt": "2026-09-22T20:30:17.937Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0761a70a62f0285435376c06",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Inside a decade of Amazon chip design, built workload by workload",
+    "link": "https://www.aboutamazon.com/news/innovation-at-amazon/peter-desantis-amazon-ai-chips-design",
+    "pageDate": "Sept. 22, 2026",
+    "publishedAt": "2026-09-22T00:00:00.000Z",
+    "detectedAt": "2026-09-22T20:30:17.936Z",
+    "deliveredAt": "2026-09-22T20:30:17.936Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c8a58383aa9f0cfada717538",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10991,72 +11057,6 @@
     "priority": 2,
     "title": "Navigate to Funniest woman on the internet, Celeste Barber, shines a comical spotlight on smarter shopping for Klarna’s new global campaign",
     "link": "https://www.klarna.com/international/press/funniest-woman-on-the-internet-celeste-barber-shines-a-comical-spotlight-on-smarter-shopping-for-klarnas-new-global-campaign/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a98ef08d3698fc5ee05da4e1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Group issues senior unsecured bond 2019",
-    "link": "https://www.klarna.com/international/press/klarna-group-issues-senior-unsecured-bond-2019/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6b6c1e3a0e1857a5036aef6b",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with a new merchant every 8 minutes in 2019",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-a-new-merchant-every-8-minutes-in-2019/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f97b0b3f0176298a336832c7",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes interim financial statements for January - September 2019",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-interim-financial-statements-for-january-september-2019/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T17:55:14.562Z",
