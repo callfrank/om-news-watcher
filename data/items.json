@@ -1,5 +1,243 @@
 [
   {
+    "guid": "46c4eae4b1225ec106ac7635",
+    "source": "Handelskraft",
+    "sourceKey": "src-6c1c923af06aedde",
+    "sourceLabel": "Handelskraft",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Claudeforce: Wie Claude zur neuen Salesforce-Oberfläche wird und was ihr beachten solltet",
+    "link": "https://www.handelskraft.de/claudeforce-salesforce-claude/",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-22T06:49:35.362Z",
+    "deliveredAt": "2026-09-22T06:49:35.362Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b46edbeaaa1d614d300aa5b",
+    "source": "Gfu",
+    "sourceKey": "src-e47d0ee60e79a7e8",
+    "sourceLabel": "Gfu",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Messen verbinden Märkte und Innovationen",
+    "link": "https://gfu.de/messen-verbinden-maerkte-und-innovationen/",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-22T06:49:35.341Z",
+    "deliveredAt": "2026-09-22T06:49:35.341Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1e2b8f1ad409b5763b0c347e",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Cautious optimism for late-night economy after closures slow",
+    "link": "https://nielseniq.com/global/en/news-center/2026/cautious-optimism-for-late-night-economy-after-closures-slow/",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-22T06:49:35.339Z",
+    "deliveredAt": "2026-09-22T06:49:35.339Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d4e0bffe8be6a37a080b5360",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Erklärvideo: Retail Media – Die Werbekraft des Handels",
+    "link": "https://digitalzentrumhandel.de/author/lena-peters/",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-22T06:49:35.337Z",
+    "deliveredAt": "2026-09-22T06:49:35.337Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "09c1308b64c1d7ad28bc04e0",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "17,3 % der Pkw-Neuzulassungen in der EU im Jahr 2025 waren E-Autos",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_39_p002.html",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-22T06:49:35.325Z",
+    "deliveredAt": "2026-09-22T06:49:35.325Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "749270def42a8f7ec5e44e2d",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Öffentliches Finanzvermögen steigt im Jahr 2025 um 5,9 %",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_335_71411.html",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-22T06:49:35.325Z",
+    "deliveredAt": "2026-09-22T06:49:35.325Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "27a81cdab42372549f9868c8",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Energy shock to keep inflation higher",
+    "link": "https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-22T06:49:35.303Z",
+    "deliveredAt": "2026-09-22T06:49:35.303Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "67a369938d18f815e2a0648a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "NIQ verbindet Produktmerkmale und Verkaufsdaten in elf Märkten",
+    "link": "https://onlinemarktplatz.de/292989/niq-product-insights-westeuropa-ausbau/",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-22T06:49:35.292Z",
+    "deliveredAt": "2026-09-22T06:49:35.292Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3e198c02072d8eab83d2186a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "AEO messen: Warum KI-Sichtbarkeit keine Reichweite ist",
+    "link": "https://onlinemarktplatz.de/293048/aeo-messen-ki-sichtbarkeit-marken/",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-22T06:49:35.292Z",
+    "deliveredAt": "2026-09-22T06:49:35.292Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f390b60c87e5c6ac8c944e3d",
+    "source": "Galaxus Medienmitteilungen",
+    "sourceKey": "src-c4694153f4de0aba",
+    "sourceLabel": "Galaxus",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Kilowatt statt Liter: Verkäufe von E-Auto-Ladestationen verdoppeln sich",
+    "link": "https://www.galaxus.de/de/page/kilowatt-statt-liter-verkaeufe-von-e-auto-ladestationen-verdoppeln-sich-43839",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-22T06:49:35.248Z",
+    "deliveredAt": "2026-09-22T06:49:35.248Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7228ea6ac0d838de86126b13",
+    "source": "Ecommerce Europe Press Releases",
+    "sourceKey": "src-8d7a4dfc95d50e42",
+    "sourceLabel": "Ecommerce Europe",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "European e-commerce reaches €911 billion as sector calls for fairer competition",
+    "link": "https://ecommerce-europe.eu/press-item/european-e-commerce-reaches-e911-billion-as-sector-calls-for-fairer-competition/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-22T06:49:35.238Z",
+    "deliveredAt": "2026-09-22T06:49:35.238Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "4c65c6e3363c9d8d4a588c79",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10817,248 +11055,6 @@
     "priority": 2,
     "title": "Navigate to Ant Financial Services Group & Klarna announce investment to fuel global cooperation",
     "link": "https://www.klarna.com/international/press/ant-financial-services-group-klarna-announce-investment-to-fuel-global-cooperation/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "62db0309a04c3a4ccf5bfcb2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Millennials value transparency, technology and talking when it comes to managing their finances",
-    "link": "https://www.klarna.com/international/press/millennials-value-transparency-technology-and-talking-when-it-comes-to-managing-their-finances/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "48a902587dd1ddfc5dab3c0a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes annual report for 2019",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-annual-report-for-2019/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7431317e687136faef5d2647",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna pledges to support the frontline response to COVID-19 with ASOS Giveback Day",
-    "link": "https://www.klarna.com/international/press/klarna-pledges-to-support-the-frontline-response-to-covid-19-with-asos-giveback-day/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5a88f6158598c91e6c45a807",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes financial update for January - March 2020",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-financial-update-for-january-march-2020/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "76ec391eab1bb6d67914d751",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Dune London and Klarna announce international partnership",
-    "link": "https://www.klarna.com/international/press/dune-london-and-klarna-announce-international-partnership/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "218c593c11962dda846f4de1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna reaches a record 7.85 million US customers, driven by apparel, beauty and footwear retail partners",
-    "link": "https://www.klarna.com/international/press/klarna-reaches-a-record-785-million-us-customers-driven-by-apparel-beauty-and-footwear-retail-partners/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cfbe001bc0023dfc098ecd64",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches Vibe: The first buy now, pay later shopper loyalty program",
-    "link": "https://www.klarna.com/international/press/klarna-launches-vibe-the-first-buy-now-pay-later-shopper-loyalty-program/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "63159201f657222b8ba6cbe6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna ranks #5 on 2020 CNBC Disruptor 50 list",
-    "link": "https://www.klarna.com/international/press/klarna-ranks-5-on-2020-cnbc-disruptor-50-list/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1481e1a0be83a60a0679a166",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna introduces new shopping experience and app features to the US",
-    "link": "https://www.klarna.com/international/press/klarna-introduces-new-shopping-experience-and-app-features-to-the-us/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9d44309fc9a4e5007e66eee2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Stop the bots! Klarna & Highsnobiety wants passion to win for sneakerheads",
-    "link": "https://www.klarna.com/international/press/stop-the-bots-klarna-highsnobiety-wants-passion-to-win-for-sneakerheads/",
-    "pageDate": "September 9, 2026",
-    "publishedAt": "2026-09-09T00:00:00.000Z",
-    "detectedAt": "2026-09-10T17:55:14.562Z",
-    "deliveredAt": "2026-09-10T17:55:14.562Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bd8da3a8a3a63791fddaace6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna unveils ‘KlarnaSense’ - A new initiative to encourage smarter shopping",
-    "link": "https://www.klarna.com/international/press/klarna-unveils-klarnasense-a-new-initiative-to-encourage-smarter-shopping/",
     "pageDate": "September 9, 2026",
     "publishedAt": "2026-09-09T00:00:00.000Z",
     "detectedAt": "2026-09-10T17:55:14.562Z",
