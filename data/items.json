@@ -1,5 +1,556 @@
 [
   {
+    "guid": "5f4d1f81a756efc6e3b96f82",
+    "source": "Wero",
+    "sourceKey": "src-b3076904e4e4545a",
+    "sourceLabel": "Wero",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Media & insights",
+    "link": "https://epicompany.eu/media-insights/media-insights/epi-initiates-wero-in-luxembourg",
+    "pageDate": "September 22, 2026",
+    "publishedAt": "2026-09-22T00:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.446Z",
+    "deliveredAt": "2026-09-23T12:13:58.446Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "929746556133e20339045483",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wiedereröffnung – Wismar, 30. September 2026",
+    "link": "https://newsroom.dm.de/pressreleases/wiedereroeffnung-wismar-30-september-2026-3468586",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.441Z",
+    "deliveredAt": "2026-09-23T12:13:58.441Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7b19ef848aab7883696ff01e",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon is preparing for the energy needs of the future",
+    "link": "https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-updates",
+    "pageDate": "Sept. 23, 2026",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.434Z",
+    "deliveredAt": "2026-09-23T12:13:58.434Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "cdd112baf42c90aba13e26f5",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch ‘The Love Hypothesis,’ a new rom-com streaming now on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/love-hypothesis-prime-video",
+    "pageDate": "Sept. 23, 2026",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.434Z",
+    "deliveredAt": "2026-09-23T12:13:58.434Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5d21d44221f7c53276b5e5d5",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Expands Local Targeting With TDlinx Audiences",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-expands-local-targeting-with-tdlinx-audiences/",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.431Z",
+    "deliveredAt": "2026-09-23T12:13:58.431Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4bdb4c01e541d8a70b799955",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Podcast: Wenn KI einkauft und bezahlt: Was Agentic Commerce für Händler:innen bedeutet",
+    "link": "https://digitalzentrumhandel.de/author/kinga-schumacher/",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.430Z",
+    "deliveredAt": "2026-09-23T12:13:58.430Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c526cd21bbcaa8a1e041b4bb",
+    "source": "Wettbewerbszentrale",
+    "sourceKey": "src-24a9968f52923b9b",
+    "sourceLabel": "Wettbewerbszentrale",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Events",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Verfahren vor dem LG Berlin II zum rechtlichen Status von „Spaß-Gleitgelen“",
+    "link": "https://www.wettbewerbszentrale.de/verfahren-vor-dem-lg-berlin-ii-zum-rechtlichen-status-von-spass-gleitgelen/",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.423Z",
+    "deliveredAt": "2026-09-23T12:13:58.423Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2b1bbcb5a2a79cd6cb41f1e8",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Exchange rates",
+    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+    "pageDate": "22.09.2026",
+    "publishedAt": "2026-09-22T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.414Z",
+    "deliveredAt": "2026-09-23T12:13:58.414Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "1f153d61baa1b3826e6df853",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Solving Europe’s scale-up challenge",
+    "link": "https://www.ecb.europa.eu/press/economic-bulletin/articles/2026/html/ecb.ebart202606_01~2b533feaed.en.html",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.414Z",
+    "deliveredAt": "2026-09-23T12:13:58.414Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2d3c1d62bb8dceeda03ea27f",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Almost ten million responses",
+    "link": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.414Z",
+    "deliveredAt": "2026-09-23T12:13:58.414Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "affe59669097f9bc1a11351c",
+    "source": "Target QZ",
+    "sourceKey": "src-ba300714de43cc5d",
+    "sourceLabel": "Target QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Target Corporation Declares Regular Quarterly Dividend",
+    "link": "https://corporate.target.com/press/release/2026/09/target-corporation-declares-regular-quarterly-dividend",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-23T12:13:58.413Z",
+    "deliveredAt": "2026-09-23T12:13:58.413Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fc072fa1f4630218c7f72ef8",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Meldung:, 23.09.2026 Sichere Softwareentwicklung: Erstes Zertifikat nach BSI TR-03185 übergeben Erste Zertifizierungen nach der Technischen Richtlinie BSI TR-03185 stärken sichere Softwareentwicklung und beschleunigen Produktaktualisierungen.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/Zertifzierung_TR-03185_260923.html",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.412Z",
+    "deliveredAt": "2026-09-23T12:13:58.412Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0fa9c9536094158541a9f10a",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Deutschlandstudie Innenstadt 2026/27: Stadtzentren gewinnen spürbar an Attraktivität",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15361-deutschlandstudie-innenstadt-2026-27-stadtzentren-gewinnen-spuerbar-an-attraktivitaet",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-23T12:13:58.412Z",
+    "deliveredAt": "2026-09-23T12:13:58.412Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d9e1d9b47fc96b7ba19eec9d",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Gemeinsamer Appell für internationale Zusammenarbeit: HDE setzt sich für eine starke Wirtschaft und nachhaltige Entwicklung ein",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15362-gemeinsamer-appell-fuer-internationale-zusammenarbeit-hde-setzt-sich-fuer-eine-starke-wirtschaft-und-nachhaltige-entwicklung-ein",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-23T12:13:58.411Z",
+    "deliveredAt": "2026-09-23T12:13:58.411Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d0d1377daa2d183fddf135b3",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Marktplatz made in Europe: Wie Kaufland E Commerce neu denkt – Dr. Gerald Schönbucher (Kaufland.de)",
+    "link": "https://onlinemarktplatz.de/293533/marktplatz-made-in-europe-wie-kaufland-e-commerce-neu-denkt-dr-gerald-schoenbucher-kaufland-de/",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.410Z",
+    "deliveredAt": "2026-09-23T12:13:58.410Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c40b7fec2151bfb9337bf6d6",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Verrechnungsmodell Einfuhrumsatzsteuer für 2030 geplant",
+    "link": "https://onlinemarktplatz.de/293177/verrechnungsmodell-einfuhrumsatzsteuer/",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.410Z",
+    "deliveredAt": "2026-09-23T12:13:58.410Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "be040d9d82a943358b53f204",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Douglas Logistikzentrum – Wie Hamm Filialen und Onlinehandel verbindet",
+    "link": "https://onlinemarktplatz.de/292946/douglas-logistikzentrum-hamm/",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.410Z",
+    "deliveredAt": "2026-09-23T12:13:58.410Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8b11da753d272b68e65728cc",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Richtig gut versichert: Wohngebäude und Hausrat gut versichert?",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/richtig-gut-versichert-wohngebaeude-und-hausrat-gut-versichert-125925",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.406Z",
+    "deliveredAt": "2026-09-23T12:13:58.406Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "76841f72c1af933a3f4016b3",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceKey": "src-17979740ef54054e",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Privat krankenversichert ins Studium: Entscheidung bleibt für Jahre bestehen",
+    "link": "https://www.vzhh.de/presse/privat-krankenversichert-ins-studium-entscheidung-bleibt-fuer-jahre-bestehen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-23T12:13:58.406Z",
+    "deliveredAt": "2026-09-23T12:13:58.406Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5ff8afaa7bb0235da4f4e73b",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "23.09.2026Digitale Brieftasche „d-you“: Bundestag muss beim Schutz sensibler Daten nachbessern",
+    "link": "https://www.vzbv.de/pressemitteilungen/digitale-brieftasche-d-you-bundestag-muss-beim-schutz-sensibler-daten",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.405Z",
+    "deliveredAt": "2026-09-23T12:13:58.405Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e696f8c4d0c8ece7a764af93",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "HBO Max jetzt neu bei MagentaTV",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/hbo-max-jetzt-neu-bei-magentatv",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-23T12:13:58.403Z",
+    "deliveredAt": "2026-09-23T12:13:58.403Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7c6bdce4b835a8aa090092cc",
+    "source": "Startup-Verband Presse",
+    "sourceKey": "src-515b92a6da1e3698",
+    "sourceLabel": "Startup-Verband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "German Startup Awards 2027: Endspurt bei den Nominierungen",
+    "link": "https://startupverband.de/presse/pressemitteilungen/german-startup-awards-2027-endspurt-bei-den-nominierungen-23-09-2026/",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.402Z",
+    "deliveredAt": "2026-09-23T12:13:58.402Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4a8e51112542bedc72ae6cc0",
+    "source": "Google Ads & Commerce Blog",
+    "sourceKey": "src-147cfee3d1361ebb",
+    "sourceLabel": "Google Ads & Commerce",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "We’re bringing AI Brief to more languages and adding a new AI Max reporting feature.",
+    "link": "https://blog.google/products/ads-commerce/ai-max-language-reporting-features/",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.395Z",
+    "deliveredAt": "2026-09-23T12:13:58.395Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "05cfb9e97b7a05c47c1f1ed0",
+    "source": "Amazon Freight Events",
+    "sourceKey": "src-561599061574ad3c",
+    "sourceLabel": "Amazon Freight",
+    "groups": [
+      "Events"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Top Transport Marseille",
+    "link": "https://de.freight-amazon.com/top-transport-2026",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-23T12:13:58.395Z",
+    "deliveredAt": "2026-09-23T12:13:58.395Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "603babadc94ee84f1bf3eb5c",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "JINGDONG Industrials Highlights AI and Local Supply Chains at World Economic Forum ASEAN Digital Economy Dialogue",
+    "link": "https://jdcorporateblog.com/jingdong-industrials-highlights-ai-and-local-supply-chains-at-world-economic-forum-asean-digital-economy-dialogue/",
+    "pageDate": "Sep 23, 2026",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "detectedAt": "2026-09-23T12:13:58.388Z",
+    "deliveredAt": "2026-09-23T12:13:58.388Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "dbf6e33e0c2a22afe13068c3",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10483,555 +11034,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "61ca615e9f284422180f0763",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Vibrant Planet and WARSI win the Klarna Climate Heroes Award and $50,000 each for their proven impact in protecting forest carbon",
-    "link": "https://www.klarna.com/international/press/vibrant-planet-and-warsi-win-the-klarna-climate-heroes-award-and-50-000-each-for-their-proven-impact-in-protecting-forest-carbon/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2a2cf337797676294f50096a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna has received a favorable ruling in PriceRunner litigation, awarding $1.97 billion",
-    "link": "https://www.klarna.com/international/press/klarna-has-received-a-favorable-ruling-in-pricerunner-litigation-awarding-damages-of-1-97-billion/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2f38d7acb7ee4015091fc1c3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna teams up with Money Wellness to offer free financial health checks",
-    "link": "https://www.klarna.com/international/press/klarna-teams-up-with-money-wellness-to-offer-free-financial-health-checks/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cbc71ffaa8ee299364d3e3c4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna submits application for U.S. banking license",
-    "link": "https://www.klarna.com/international/press/klarna-submits-application-for-u-s-banking-license/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e24f749779611a8d5fbedbac",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna lands Southwest Airlines, bringing flexible payments to millions of US travelers this fall",
-    "link": "https://www.klarna.com/international/press/klarna-lands-southwest-airlines-bringing-flexible-payments-to-millions-of-us-travelers-this-fall/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e38fd5479fe1f1bb07835449",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Flix and Klarna expand partnership to give millions of travelers across the U.S. and Europe more ways to pay",
-    "link": "https://www.klarna.com/international/press/flix-and-klarna-expand-partnership-to-give-millions-of-travelers-across-the-u-s-and-europe-more-ways-to-pay/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c44526432c58ce5262c20b9e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna adds Germany to its capital efficiency platform with €900m facility supporting €5bn of German Financing expansion",
-    "link": "https://www.klarna.com/international/press/klarna-adds-germany-to-its-capital-efficiency-platform-with-eur900m-facility-supporting-eur5bn-of-german-financing-expansion/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9cedceb485f992c460cfcf73",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna sinks its teeth into dental care with Curve Dental®, bringing flexible payments to practices nationwide",
-    "link": "https://www.klarna.com/international/press/klarna-sinks-its-teeth-into-dental-care-with-curve-dental-r-bringing-flexible-payments-to-practices-nationwide/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a0a5ad53bf270fab9a9e7bee",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna now available on Fragrance.com, bringing flexible payments to one of America's largest online beauty destinations",
-    "link": "https://www.klarna.com/international/press/klarna-now-available-on-fragrance-com-bringing-flexible-payments-to-one-of-americas-largest-online-beauty-destinations/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8f19f7527da8cb6195c9912a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to New regulation set to strengthen consumer trust in BNPL, survey shows",
-    "link": "https://www.klarna.com/international/press/new-regulation-set-to-strengthen-consumer-trust-in-bnpl-survey-shows/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "93978e883ad371d8d7bfe4eb",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna gets physical with lululemon, launching in-store in the UK & Germany",
-    "link": "https://www.klarna.com/international/press/klarna-gets-physical-with-lululemon-launching-in-store-in-the-uk-and-germany/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1e6c5bd991d3dd99bb8f2346",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to More choice and familiar convenience: Kleinanzeigen integrates Klarna Pay in full",
-    "link": "https://www.klarna.com/international/press/more-choice-and-familiar-convenience-kleinanzeigen-integrates-klarna-pay-in-full/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e8de4c70ecc29de1b6fad51e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to power Apple Upgrade, a new hardware leasing program offered by Apple",
-    "link": "https://www.klarna.com/international/press/klarna-to-power-apple-upgrade-a-new-hardware-leasing-program-offered-by-apple/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e1be3170f81252f1d88497d8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna goes live with J.P. Morgan Payments, opening flexible checkout to U.S. merchants",
-    "link": "https://www.klarna.com/international/press/klarna-goes-live-with-j-p-morgan-payments-opening-flexible-checkout-to-u-s-merchants/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a12a6070b8e6fb6d40ed2bda",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Housecall Pro bring flexible payments to America’s skilled trades",
-    "link": "https://www.klarna.com/international/press/klarna-and-housecall-pro-bring-flexible-payments-to-americas-skilled-trades/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7ab809ed235484c46243a5d5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to The fairest of them all: Klarna supercharges memberships, removing fees, boosting cashback and increasing annual value to as much as €6,000",
-    "link": "https://www.klarna.com/international/press/the-fairest-of-them-all-klarna-supercharges-memberships-removing-fees-boosting-cashback-and-increasing-annual-value-to-as-much-as-eur6-000/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ca4a108a38a5d436ec6b1c53",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Reports Second Quarter 2026 Results",
-    "link": "https://www.klarna.com/international/press/klarna-reports-second-quarter-2026-results/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "53dd05ba4fe593e0eb6a8699",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "klarna alza at (1)",
-    "link": "https://www.klarna.com/international/press/klarna-launches-in-store-with-garage-and-dynamite-across-north-america-and-the-uk/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d94bc41f149d1119a0880f12",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna CEO Sebastian Siemiatkowski acquires 692,506 shares for $10 million",
-    "link": "https://www.klarna.com/international/press/klarna-ceo-sebastian-siemiatkowski-acquires-692-506-shares-for-10-million/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cf27afb513a0a0ed480e54d4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Rare Carat team up to bring flexible payments to engagement ring shopping",
-    "link": "https://www.klarna.com/international/press/klarna-and-rare-carat-team-up-to-bring-flexible-payments-to-engagement-ring-shopping/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9ef1baeb8b3cc5b949daa138",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands partnership with global resale platform StockX to bring flexible payment options to U.S. and Canada",
-    "link": "https://www.klarna.com/international/press/klarna-expands-partnership-with-online-retail-marketplace-stockx-to-bring-flexible-payment-options-to-u-s-and-canada/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a96f706f91f5862450d56705",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna is now available in HubSpot's new Checkout experience for merchants in the U.S. and Canada",
-    "link": "https://www.klarna.com/international/press/klarna-is-now-available-in-hubspots-new-checkout-experience-for-merchants-in-the-u-s-and-canada/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4551c48892977ac5d09532a4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands Nordics anti-fraud toolkit with new live call verification tool",
-    "link": "https://www.klarna.com/international/press/klarna-expands-nordics-anti-fraud-toolkit-with-new-live-call-verification-tool/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c0e46820cdb576a298db46bd",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Das Shopsystem Websale",
-    "link": "https://demoshops.de/shopsystem-websale/",
-    "pageDate": "16.09.2026",
-    "publishedAt": "2026-09-16T12:00:00.000Z",
-    "detectedAt": "2026-09-17T00:33:22.497Z",
-    "deliveredAt": "2026-09-17T00:33:22.497Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1fe3506f6aa153bff4971877",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Walmart Data Ventures Is Building the Future of Commerce Intelligence",
-    "link": "https://corporate.walmart.com/news/2026/09/walmart-data-ventures-commerce-intelligence",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-16T22:12:12.538Z",
-    "deliveredAt": "2026-09-16T22:12:12.538Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
