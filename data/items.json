@@ -1,5 +1,115 @@
 [
   {
+    "guid": "3dcc14422a47069a395c1cf6",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon co-founds The Climate Pledge Fashion Coalition to scale more sustainable materials and help prevent waste",
+    "link": "https://www.aboutamazon.com/news/sustainability/amazon-climate-pledge-sustainability-fashion-coalition",
+    "pageDate": "Sept. 23, 2026",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "detectedAt": "2026-09-23T16:59:08.528Z",
+    "deliveredAt": "2026-09-23T16:59:08.528Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f69e81f731463005a1333612",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the teaser trailer for ‘Masterplan’ starring Stanley Tucci, coming to Prime Video October 16",
+    "link": "https://www.aboutamazon.com/news/entertainment/masterplan-stanley-tucci-prime-video",
+    "pageDate": "Sept. 23, 2026",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "detectedAt": "2026-09-23T16:59:08.528Z",
+    "deliveredAt": "2026-09-23T16:59:08.528Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7cbcd4a560d3ef900f1785b6",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon gives sellers an even smarter Seller Assistant and a new plugin for Amazon Quick and Anthropic’s Claude",
+    "link": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude",
+    "pageDate": "Sept. 23, 2026",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "detectedAt": "2026-09-23T16:59:08.528Z",
+    "deliveredAt": "2026-09-23T16:59:08.528Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "85dd30246dd29b7da11b9a09",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon now offers nearly 30,000 pickup locations across the US",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-pickup-locations-expansion",
+    "pageDate": "Sept. 23, 2026",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "detectedAt": "2026-09-23T16:59:08.527Z",
+    "deliveredAt": "2026-09-23T16:59:08.527Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e04da9b3c209044445e48275",
+    "source": "FedEx Newsroom",
+    "sourceKey": "src-ccc01078527f3e85",
+    "sourceLabel": "FedEx",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "73% Automotive Leaders Say Software-Defined Vehicles Will Be Significant To Their Business Over Next 5 Years",
+    "link": "https://newsroom.fedex.com/newsroom/global-english/73-automotive-leaders-say-software-defined-vehicles-will-be-significant-to-their-business-over-next-5-years",
+    "pageDate": "23.09.2026",
+    "publishedAt": "2026-09-23T12:00:00.000Z",
+    "detectedAt": "2026-09-23T16:59:08.430Z",
+    "deliveredAt": "2026-09-23T16:59:08.430Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "5f4d1f81a756efc6e3b96f82",
     "source": "Wero",
     "sourceKey": "src-b3076904e4e4545a",
@@ -10917,116 +11027,6 @@
     "priority": 2,
     "title": "Navigate to Klarna and Tekion drive flexible payments into the auto service lane",
     "link": "https://www.klarna.com/international/press/klarna-and-tekion-drive-flexible-payments-into-the-auto-service-lane/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cf77e5bd34f15871be740d9a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Arrive for parking in 15 markets",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-arrive-for-parking-in-15-markets/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "beb01e5667e6dd6c3e091588",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Ulta Beauty partner to bring flexible payments to U.S. beauty shoppers",
-    "link": "https://www.klarna.com/international/press/klarna-and-ulta-beauty-partner-to-bring-flexible-payments-to-u-s-beauty-shoppers/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "894724f44a67e761f154aeea",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches in-app inbox to help consumers avoid scams",
-    "link": "https://www.klarna.com/international/press/klarna-launches-in-app-inbox-to-help-consumers-avoid-scams/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "eeb6094efac033b55f43896c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Bolt to grow ‘pay in full’ for rides and scooters",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-bolt-to-grow-pay-in-full-for-rides-and-scooters/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b23e8d5c8253347f5dd00c52",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna celebrates 5 years of growth, innovation and partnerships in France",
-    "link": "https://www.klarna.com/international/press/klarna-celebrates-5-years-of-growth-innovation-and-partnerships-in-france/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.969Z",
