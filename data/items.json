@@ -1,5 +1,27 @@
 [
   {
+    "guid": "362cf93cbe54392e165b665d",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Bee Private Compute: How Bee keeps your conversations private",
+    "link": "https://www.aboutamazon.com/news/devices/bee-private-compute-data-protection",
+    "pageDate": "Sept. 23, 2026",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "detectedAt": "2026-09-23T23:12:01.470Z",
+    "deliveredAt": "2026-09-23T23:12:01.470Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "79b4feba568586d0ebe3aaec",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -11005,28 +11027,6 @@
     "priority": 2,
     "title": "Navigate to Worldline and Klarna partner to enable flexible, online and in-store payments everywhere",
     "link": "https://www.klarna.com/international/press/worldline-and-klarna-partner-to-enable-flexible-online-and-in-store-payments-everywhere/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f5a449c74490cbfb2fe29950",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches AI-powered Shopping Search app in ChatGPT",
-    "link": "https://www.klarna.com/international/press/klarna-launches-ai-powered-shopping-search-app-in-chatgpt/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.969Z",
