@@ -1,5 +1,27 @@
 [
   {
+    "guid": "79b4feba568586d0ebe3aaec",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
+    "pageDate": "Sept. 23, 2026",
+    "publishedAt": "2026-09-23T00:00:00.000Z",
+    "detectedAt": "2026-09-23T20:22:51.165Z",
+    "deliveredAt": "2026-09-23T20:22:51.165Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "3dcc14422a47069a395c1cf6",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -11005,28 +11027,6 @@
     "priority": 2,
     "title": "Navigate to Klarna launches AI-powered Shopping Search app in ChatGPT",
     "link": "https://www.klarna.com/international/press/klarna-launches-ai-powered-shopping-search-app-in-chatgpt/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6c7e566f6ff98143231063d1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Tekion drive flexible payments into the auto service lane",
-    "link": "https://www.klarna.com/international/press/klarna-and-tekion-drive-flexible-payments-into-the-auto-service-lane/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.969Z",
