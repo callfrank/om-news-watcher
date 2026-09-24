@@ -1,5 +1,165 @@
 [
   {
+    "guid": "52d81d8093610e99de960bf2",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Foodservice price inflation persists as global commodity markets rebound",
+    "link": "https://nielseniq.com/global/en/news-center/2026/foodservice-price-inflation-persists-as-global-commodity-markets-rebound/",
+    "pageDate": "24.09.2026",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "detectedAt": "2026-09-24T06:47:53.433Z",
+    "deliveredAt": "2026-09-24T06:47:53.433Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a119b1f35426bc4f8b7669d9",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Verkehrsunfälle im 1. Halbjahr 2026: Mehr Unfälle, aber weniger Verkehrstote",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_337_46241.html",
+    "pageDate": "24.09.2026",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "detectedAt": "2026-09-24T06:47:53.422Z",
+    "deliveredAt": "2026-09-24T06:47:53.422Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "10c17bac501e11488fc14756",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Preise für Wohnimmobilien im 2. Quartal 2026: +0,6 % zum Vorjahresquartal",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_336_61262.html",
+    "pageDate": "24.09.2026",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "detectedAt": "2026-09-24T06:47:53.422Z",
+    "deliveredAt": "2026-09-24T06:47:53.422Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "190d339825e709f8399586e9",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Betrug im E-Commerce: 93 Prozent der Onlinehändler betroffen",
+    "link": "https://wortfilter.de/betrug-im-e-commerce-bevh-umfrage/",
+    "pageDate": "24.09.2026",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "detectedAt": "2026-09-24T06:47:53.399Z",
+    "deliveredAt": "2026-09-24T06:47:53.399Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "acada3362da6a7b197c77569",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wolt Retail Report: Was hinter 230 Millionen Bestellungen steckt",
+    "link": "https://onlinemarktplatz.de/292977/wolt-retail-report/",
+    "pageDate": "24.09.2026",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "detectedAt": "2026-09-24T06:47:53.398Z",
+    "deliveredAt": "2026-09-24T06:47:53.398Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ed734803db80c852ff093e35",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Bol baut Vorsprung auf Amazon.nl deutlich aus",
+    "link": "https://onlinemarktplatz.de/293073/bol-marktfuehrerschaft-amazon/",
+    "pageDate": "24.09.2026",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "detectedAt": "2026-09-24T06:47:53.398Z",
+    "deliveredAt": "2026-09-24T06:47:53.398Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fd9f93ed0652cce1fb5dd40d",
+    "source": "Zalando Newsroom",
+    "sourceKey": "src-72a2ecac55647739",
+    "sourceLabel": "Zalando",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Europa im Laufschritt: Wie Sport und Running unser strategisches Wachstum antreiben",
+    "link": "https://corporate.zalando.com/de/unternehmen/europa-im-laufschritt-wie-sport-und-running-unser-strategisches-wachstum-antreiben",
+    "pageDate": "24.09.2026",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "detectedAt": "2026-09-24T06:47:53.344Z",
+    "deliveredAt": "2026-09-24T06:47:53.344Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "362cf93cbe54392e165b665d",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10873,160 +11033,6 @@
     "priority": 2,
     "title": "Navigate to Klarna blir tillgängligt genom Swedbank Pay för tusentals handlare i Norden",
     "link": "https://www.klarna.com/international/press/klarna-blir-tillgaengligt-genom-swedbank-pay-foer-tusentals-handlare-i-norden/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "04347a67d7c7759c2e5999c0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Resale on the rise: Klarna's resell feature grows 75% as consumers put real money back in their pockets",
-    "link": "https://www.klarna.com/international/press/resale-on-the-rise-klarnas-resell-feature-grows-75-as-consumers-put-real-money-back-in-their-pockets/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d8fa68444b1f4b17fe0b73f6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Quay partners with Klarna to make eyewear more accessible with flexible payments",
-    "link": "https://www.klarna.com/international/press/quay-partners-with-klarna-to-make-eyewear-more-accessible-with-flexible-payments/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8f65ed203e8a16dd2d69ccee",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to From checkout to check-in: Klarna and Minor Hotels bring flexible payments to Europe",
-    "link": "https://www.klarna.com/international/press/from-checkout-to-check-in-klarna-and-minor-hotels-bring-flexible-payments-to-europe/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5163d7987458e1c16f76bf8c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to FNAC upgrades checkout: Klarna's flexible payments now available for shoppers in Spain and Portugal",
-    "link": "https://www.klarna.com/international/press/fnac-upgrades-checkout-klarnas-flexible-payments-now-available-for-shoppers-in-spain-and-portugal/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6b9e30d684fe6b48d64e129d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna's flexible payments are coming to Google Search and the Gemini app within Google Pay",
-    "link": "https://www.klarna.com/international/press/klarnas-flexible-payments-are-coming-to-google-search-and-the-gemini-app-within-google-pay/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7027b68e7c6a1a638b8e142c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna delivers strong start to 2026 with $1bn revenue and $68m adj. operating profit",
-    "link": "https://www.klarna.com/international/press/klarna-delivers-strong-start-to-2026/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.969Z",
-    "deliveredAt": "2026-09-17T05:27:08.969Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ebe193ef35ba9c5a07c0d8c9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Worldline and Klarna partner to enable flexible, online and in-store payments everywhere",
-    "link": "https://www.klarna.com/international/press/worldline-and-klarna-partner-to-enable-flexible-online-and-in-store-payments-everywhere/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.969Z",
