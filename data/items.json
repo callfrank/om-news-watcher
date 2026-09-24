@@ -1,5 +1,48 @@
 [
   {
+    "guid": "9a360ef552c5e8bb22c559df",
+    "source": "Schwarz",
+    "sourceKey": "src-c1c0a709a5786247",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Future Day 2026: Companies of Schwarz Group Strengthen Partnerships for Future-Proof Supply Chains",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/future-day-2026-companies-of-schwarz-group-strengthen-partnerships-for-future-proof-supply-chains",
+    "pageDate": "September 24th, 2026",
+    "publishedAt": null,
+    "detectedAt": "2026-09-24T20:48:44.803Z",
+    "deliveredAt": "2026-09-24T20:48:44.803Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a800a607d854365b67c2580c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Warum die Paketsteuer gegen Temu, Shein & Co nix bringt",
+    "link": "https://wortfilter.de/paketsteuer-temu-shein/",
+    "pageDate": "24.09.2026",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "detectedAt": "2026-09-24T20:48:44.759Z",
+    "deliveredAt": "2026-09-24T20:48:44.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "0d1b4f6bf806ee151c2a2886",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -10979,50 +11022,6 @@
     "priority": 2,
     "title": "Navigate to Klarna opens the floor to shareholders ahead of Q3 2025 Earnings via Say Technologies",
     "link": "https://www.klarna.com/international/press/klarna-opens-the-floor-to-shareholders-ahead-of-q3-2025-earnings-via-say/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5b3cdf23eae95d2e87157ced",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna powers Fair Financing hypergrowth with $6.5bn US agreement",
-    "link": "https://www.klarna.com/international/press/klarna-powers-fair-financing-hypergrowth-with-usd6-5bn-us-agreement/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5a8a62ccff123b2ef907c7ed",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna delivers record-breaking Q3 as AI-powered digital bank: $903 million in revenue and 4 million card sign-ups in four months",
-    "link": "https://www.klarna.com/international/press/klarna-delivers-record-breaking-q3-as-ai-powered-digital-bank-usd903-million/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
