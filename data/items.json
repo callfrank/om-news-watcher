@@ -1,5 +1,25 @@
 [
   {
+    "guid": "a8082de401f8ee6185e00ba0",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Google Search Console: Wie füge ich einen TXT-Eintrag in das DNS ein?",
+    "link": "https://demoshops.de/google-search-console-wie-fuege-ich-einen-txt-eintrag-in-dns-ein/",
+    "pageDate": "25.09.2026",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "detectedAt": "2026-09-25T18:07:22.921Z",
+    "deliveredAt": "2026-09-25T18:07:22.921Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "0c0a9700b152effc34d41f06",
     "source": "Nielseniq",
     "sourceKey": "src-3b4d077cfd190cbb",
@@ -11004,28 +11024,6 @@
     "priority": 2,
     "title": "Navigate to Klarna hits 11 million UK customers as UK revenue soars 30% in breakout 2024",
     "link": "https://www.klarna.com/international/press/klarna-hits-11-million-uk-customers-as-uk-revenue-soars-30-in-breakout-2024/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ebba675f8643e03de81127b4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna accelerates global momentum in Q1 2025 and unlocks large gains from AI innovation",
-    "link": "https://www.klarna.com/international/press/klarna-accelerates-global-momentum-in-q1-2025-and-unlocks-large-gains-from/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
