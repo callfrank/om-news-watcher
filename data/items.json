@@ -1,5 +1,73 @@
 [
   {
+    "guid": "5cb30eb28357989acaf96f81",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "A Letter from Our CEO",
+    "link": "https://corporate.walmart.com/news/2026/09/a-letter-from-our-ceo",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T21:35:51.019Z",
+    "deliveredAt": "2026-09-25T21:35:51.019Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "115a4859f6f04cff5698c100",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "What’s new on Prime Video in September 2026, including ‘Neagley,’ ‘The Love Hypothesis,’ and ‘Thursday Night Football’",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-september-films-shows-sports-2026",
+    "pageDate": "Sept. 25, 2026",
+    "publishedAt": "2026-09-25T00:00:00.000Z",
+    "detectedAt": "2026-09-25T21:35:51.005Z",
+    "deliveredAt": "2026-09-25T21:35:51.005Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ce3040987a24f2dbd7ff4afa",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch the WNBA on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/wnba-schedule-prime-video",
+    "pageDate": "Sept. 25, 2026",
+    "publishedAt": "2026-09-25T00:00:00.000Z",
+    "detectedAt": "2026-09-25T21:35:51.004Z",
+    "deliveredAt": "2026-09-25T21:35:51.004Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "a8082de401f8ee6185e00ba0",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10958,72 +11026,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Plus Marks First Year in the US, Signaling Growing Momentum in Subscription Services",
     "link": "https://www.klarna.com/international/press/klarna-plus-marks-first-year-in-the-us-signaling-growing-momentum-in/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "98bb0adf014d1c9374b8dc66",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna scales in-store offering with Clover, expanding to local stores and service providers",
-    "link": "https://www.klarna.com/international/press/klarna-scales-in-store-offering-with-clover/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "436d13c834154ede6598725a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to eBay and Klarna Deepen Global Strategic Partnership to Empower Flexible Shopping in the U.S.",
-    "link": "https://www.klarna.com/international/press/ebay-and-klarna-deepen-global-strategic-partnership-to-empower-flexible-shopping/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f2472e3dc677a70ae2b60404",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna hits 11 million UK customers as UK revenue soars 30% in breakout 2024",
-    "link": "https://www.klarna.com/international/press/klarna-hits-11-million-uk-customers-as-uk-revenue-soars-30-in-breakout-2024/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
