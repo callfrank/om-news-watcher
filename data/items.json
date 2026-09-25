@@ -1,5 +1,228 @@
 [
   {
+    "guid": "aa7da15462b9c9b47c547484",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Consumer Confidence up one point in September to -13",
+    "link": "https://nielseniq.com/global/en/news-center/2026/consumer-confidence-up-one-point-in-september-to-13/",
+    "pageDate": "25.09.2026",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "detectedAt": "2026-09-25T07:49:03.811Z",
+    "deliveredAt": "2026-09-25T07:49:03.811Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d721afe4806f2206672844ad",
+    "source": "Ifo",
+    "sourceKey": "src-63168d62c3d3a5c3",
+    "sourceLabel": "Ifo",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 3,
+    "title": "ifo Exporterwartungen gesunken",
+    "link": "https://www.ifo.de/umfrage/ifo-exporterwartungen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T07:49:03.810Z",
+    "deliveredAt": "2026-09-25T07:49:03.810Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ebc57f3c85dbf04dd04cc7cd",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "25.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2346680/MEHR%20PLATZ,%20MEHR%20SERVICE:%20SB-ZONE%20IN%20WIEN-LANDSTRASSE%20WIEDER%20GE&Ouml;FFNET",
+    "pageDate": "25.09.2026",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "detectedAt": "2026-09-25T07:49:03.808Z",
+    "deliveredAt": "2026-09-25T07:49:03.808Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "77d1933e93b422ed824ed58f",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "MEHR PLATZ, MEHR SERVICE: SB-ZONE IN WIEN-LANDSTRASSE WIEDER GEÖFFNET",
+    "link": "https://news.post.at/presse/de/post/id/2346680/MEHR%20PLATZ%2C%20MEHR%20SERVICE%3A%20SB-ZONE%20IN%20WIEN-LANDSTRASSE%20WIEDER%20GE%26Ouml%3BFFNET",
+    "pageDate": "25.09.2026",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "detectedAt": "2026-09-25T07:49:03.807Z",
+    "deliveredAt": "2026-09-25T07:49:03.807Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2cb0624f8c1058f1fd27db57",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragseingang im Bauhauptgewerbe im Juli 2026: -9,2 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_338_441.html",
+    "pageDate": "25.09.2026",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "detectedAt": "2026-09-25T07:49:03.799Z",
+    "deliveredAt": "2026-09-25T07:49:03.799Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d4cd1436cf590522d6e70290",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "1,3 Millionen Wohngeldhaushalte im Jahr 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_339_22311.html",
+    "pageDate": "25.09.2026",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "detectedAt": "2026-09-25T07:49:03.799Z",
+    "deliveredAt": "2026-09-25T07:49:03.799Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "af2207ab2d346ab608ef188e",
+    "source": "Wettbewerbszentrale",
+    "sourceKey": "src-24a9968f52923b9b",
+    "sourceLabel": "Wettbewerbszentrale",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Events",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "UWG erhält begrenzte EmpCo-Übergangsregel",
+    "link": "https://www.wettbewerbszentrale.de/uwg-erhaelt-begrenzte-empco-uebergangsregel/",
+    "pageDate": "24.09.2026",
+    "publishedAt": "2026-09-24T12:00:00.000Z",
+    "detectedAt": "2026-09-25T07:49:03.796Z",
+    "deliveredAt": "2026-09-25T07:49:03.796Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5dab00f7e115ff4954fbbda9",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "US-Konsumgütermarkt: NIQ sieht Druck auf die mittlere Preislage",
+    "link": "https://onlinemarktplatz.de/292990/us-konsumguetermarkt/",
+    "pageDate": "25.09.2026",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "detectedAt": "2026-09-25T07:49:03.773Z",
+    "deliveredAt": "2026-09-25T07:49:03.773Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "92e5c3e666f4b4e25b258047",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Merchant of Record: Wer verkauft beim Marktplatzgeschäft wirklich?",
+    "link": "https://onlinemarktplatz.de/293249/merchant-of-record/",
+    "pageDate": "25.09.2026",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "detectedAt": "2026-09-25T07:49:03.773Z",
+    "deliveredAt": "2026-09-25T07:49:03.773Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e09d1f006fb1f0ab03458b85",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "KI-Produktdaten: Varianten, Preise und Lieferbarkeit richtig prüfen",
+    "link": "https://onlinemarktplatz.de/293252/ki-produktdaten-katalog/",
+    "pageDate": "25.09.2026",
+    "publishedAt": "2026-09-25T12:00:00.000Z",
+    "detectedAt": "2026-09-25T07:49:03.773Z",
+    "deliveredAt": "2026-09-25T07:49:03.773Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d251088425d1a4fc1bc458cf",
     "source": "HelloFresh QZ",
     "sourceKey": "6e871073-3a0f-4c5c-bc95-82d6b5ec7ca7",
@@ -108,94 +331,6 @@
     "recoveryReason": null
   },
   {
-    "guid": "3e886f8c859951c69901954b",
-    "source": "Alibaba QZ",
-    "sourceKey": "src-489f9f2250aef60c",
-    "sourceLabel": "Alibaba QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "Responsible AI",
-    "link": "https://www.alibabagroup.com/en-US/ai-governance/grow-your-business",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-25T01:56:38.759Z",
-    "deliveredAt": "2026-09-25T01:56:38.759Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "cb210078dc88df66ac09951d",
-    "source": "Alibaba QZ",
-    "sourceKey": "src-489f9f2250aef60c",
-    "sourceLabel": "Alibaba QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "Responsible AI",
-    "link": "https://www.alibabagroup.com/en-US/ai-governance/governance",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-25T01:56:38.759Z",
-    "deliveredAt": "2026-09-25T01:56:38.759Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1555e287e1cfafd38a543506",
-    "source": "Alibaba QZ",
-    "sourceKey": "src-489f9f2250aef60c",
-    "sourceLabel": "Alibaba QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "Responsible AI",
-    "link": "https://www.alibabagroup.com/en-US/ai-governance/our-approach",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-25T01:56:38.759Z",
-    "deliveredAt": "2026-09-25T01:56:38.759Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "706965bfdffcde197e151405",
-    "source": "Alibaba QZ",
-    "sourceKey": "src-489f9f2250aef60c",
-    "sourceLabel": "Alibaba QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "Responsible AI",
-    "link": "https://www.alibabagroup.com/en-US/ai-governance",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-25T01:56:38.759Z",
-    "deliveredAt": "2026-09-25T01:56:38.759Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
     "guid": "25ad26ea690b554173c00b2e",
     "source": "Alibaba QZ",
     "sourceKey": "src-489f9f2250aef60c",
@@ -284,28 +419,6 @@
     "recoveryReason": null
   },
   {
-    "guid": "e754ed77d47902cbeddb4b17",
-    "source": "Alibaba QZ",
-    "sourceKey": "src-489f9f2250aef60c",
-    "sourceLabel": "Alibaba QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "About Us",
-    "link": "https://www.alibabagroup.com/en-US/about-alibaba-businesses",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-25T01:56:38.759Z",
-    "deliveredAt": "2026-09-25T01:56:38.759Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
     "guid": "d741af0229467f4fad29cccf",
     "source": "Alibaba QZ",
     "sourceKey": "src-489f9f2250aef60c",
@@ -323,50 +436,6 @@
     "publishedAt": null,
     "detectedAt": "2026-09-25T01:56:38.759Z",
     "deliveredAt": "2026-09-25T01:56:38.759Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a9aaf19c46986515e8aa41df",
-    "source": "Alibaba QZ",
-    "sourceKey": "src-489f9f2250aef60c",
-    "sourceLabel": "Alibaba QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "News and Resources",
-    "link": "https://www.alibabagroup.com/en-US/news-and-resource",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-25T01:56:38.759Z",
-    "deliveredAt": "2026-09-25T01:56:38.759Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "575eb517f237001b8acf3838",
-    "source": "Alibaba QZ",
-    "sourceKey": "src-489f9f2250aef60c",
-    "sourceLabel": "Alibaba QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "About Us",
-    "link": "https://www.alibabagroup.com/en-US/about-alibaba",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-25T01:56:38.758Z",
-    "deliveredAt": "2026-09-25T01:56:38.758Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
@@ -10954,72 +11023,6 @@
     "priority": 2,
     "title": "Navigate to Klarna receives FCA authorisation, paving the way for cashback and balance features",
     "link": "https://www.klarna.com/international/press/klarna-receives-fca-authorisation-paving-the-way-for-cashback-and-balance/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3a5cd4a4a1d2b3a8c269b955",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna delinquency rates drop as consumer health improves",
-    "link": "https://www.klarna.com/international/press/klarna-delinquency-rates-drop-as-consumer-health-improves/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "df51a828d620332cfb727d91",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to No More Friction: Klarna automatically enables thousands of WooCommerce stores, tackling checkout drop-offs head-on.",
-    "link": "https://www.klarna.com/international/press/no-more-friction-klarna-automatically-enables-thousands-of-woocommerce/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "08217146360f5084a888bcd3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to Launch as a Payment Option in Autofill on Chrome, Expanding Work with Google Pay",
-    "link": "https://www.klarna.com/international/press/klarna-to-launch-as-a-payment-option-in-autofill-on-chrome-expanding-work/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
