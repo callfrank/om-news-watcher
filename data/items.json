@@ -1,5 +1,377 @@
 [
   {
+    "guid": "d251088425d1a4fc1bc458cf",
+    "source": "HelloFresh QZ",
+    "sourceKey": "6e871073-3a0f-4c5c-bc95-82d6b5ec7ca7",
+    "sourceLabel": "HelloFresh QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "HelloFresh SE expects revenue for Q3 2026 below market expectations and adjusts outlook for the financial year 2026",
+    "link": "https://ir.hellofreshgroup.com/news/hellofresh-se-expects-revenue-for-q3-2026-below-market-expectations-and-adjusts-outlook-for-the/65180626-314c-44b8-9ed1-78dc8638581c",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.823Z",
+    "deliveredAt": "2026-09-25T01:56:38.823Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e9453977ee22ae6f810479d8",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "About Us",
+    "link": "https://www.alibabagroup.com/en-US/esg",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8b8370baa66cd576fa066138",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Careers",
+    "link": "https://www.alibabagroup.com/en-US/faqs-corporate-information",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f388d620035cde2aadaec853",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Integrity and Compliance",
+    "link": "https://www.alibabagroup.com/en-US/integrity-compliance",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8af6892d5c9bbed492d6afb8",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Responsible AI",
+    "link": "https://www.alibabagroup.com/en-US/ai-governance/success-cases",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3e886f8c859951c69901954b",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Responsible AI",
+    "link": "https://www.alibabagroup.com/en-US/ai-governance/grow-your-business",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cb210078dc88df66ac09951d",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Responsible AI",
+    "link": "https://www.alibabagroup.com/en-US/ai-governance/governance",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1555e287e1cfafd38a543506",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Responsible AI",
+    "link": "https://www.alibabagroup.com/en-US/ai-governance/our-approach",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "706965bfdffcde197e151405",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Responsible AI",
+    "link": "https://www.alibabagroup.com/en-US/ai-governance",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "25ad26ea690b554173c00b2e",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "News and Resources",
+    "link": "https://www.alibabagroup.com/en-US/media-contacts",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "eca425e173f17b6bff09fba2",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Resources",
+    "link": "https://www.alibabagroup.com/en-US/esg-resource",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1745d9c7cc104b82f4b78508",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Social",
+    "link": "https://www.alibabagroup.com/en-US/esg-employee-development",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "165d43912b29fb9d8b215857",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Environmental",
+    "link": "https://www.alibabagroup.com/en-US/esg-climate-change",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e754ed77d47902cbeddb4b17",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "About Us",
+    "link": "https://www.alibabagroup.com/en-US/about-alibaba-businesses",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d741af0229467f4fad29cccf",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Sports Innovation",
+    "link": "https://www.alibabagroup.com/en-US/sports-innovation",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a9aaf19c46986515e8aa41df",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "News and Resources",
+    "link": "https://www.alibabagroup.com/en-US/news-and-resource",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.759Z",
+    "deliveredAt": "2026-09-25T01:56:38.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "575eb517f237001b8acf3838",
+    "source": "Alibaba QZ",
+    "sourceKey": "src-489f9f2250aef60c",
+    "sourceLabel": "Alibaba QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "About Us",
+    "link": "https://www.alibabagroup.com/en-US/about-alibaba",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-25T01:56:38.758Z",
+    "deliveredAt": "2026-09-25T01:56:38.758Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "9a360ef552c5e8bb22c559df",
     "source": "Schwarz",
     "sourceKey": "src-c1c0a709a5786247",
@@ -10648,380 +11020,6 @@
     "priority": 2,
     "title": "Navigate to Klarna to Launch as a Payment Option in Autofill on Chrome, Expanding Work with Google Pay",
     "link": "https://www.klarna.com/international/press/klarna-to-launch-as-a-payment-option-in-autofill-on-chrome-expanding-work/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "220877012feee5e931760e1c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna grows Q2 revenue to $823m, reports continued operating profitability and highest number of on-time payments",
-    "link": "https://www.klarna.com/international/press/klarna-grows-q2-revenue-to-usd823m-reports-continued-operating-profitability/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b5bd771d204b4a31af7662d1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures scalable funding in $26bn deal to drive U.S. Pay in 4 growth",
-    "link": "https://www.klarna.com/international/press/klarna-secures-scalable-funding-in-usd26bn-deal-to-drive-u-s-pay-in-4-growth/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "61ad3b551f36e34194fff124",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures EUR 1.4bn structured financing facility with Santander",
-    "link": "https://www.klarna.com/international/press/klarna-secures-eur-1-4bn-structured-financing-facility-with-santander/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7d1e0096ffc9cc07f74ea5ec",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Walmart Canada Becomes Klarna’s Largest Omni Retailer in Canada",
-    "link": "https://www.klarna.com/international/press/walmart-canada-becomes-klarnas-largest-omni-retailer-in-canada/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1e35aeb3a070c63ff309f03d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches debit-first card across Europe for everyday spending",
-    "link": "https://www.klarna.com/international/press/klarna-launches-debit-first-card-across-europe-for-everyday-spending/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "40b9bfcc0b4de9e55fc63646",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Launch of its Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-launch-of-its-initial-public-offering/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c08b022eabc23e7e2f53d160",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Pricing of its Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-pricing-of-its-initial-public-offering/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6dd69f14ea172117233fb16d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna lists on the New York Stock Exchange",
-    "link": "https://www.klarna.com/international/press/klarna-lists-on-the-new-york-stock-exchange/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c2088fee9313afa9cbb22895",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Gap Inc. Partners with Klarna to Offer Seamless, Flexible Payments Across Portfolio of Brands",
-    "link": "https://www.klarna.com/international/press/gap-inc-partners-with-klarna-to-offer-seamless-flexible-payments-across/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0b698823571c7fd977926efb",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Completes Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-completes-initial-public-offering/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "112b10b7c72d43df11771c6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Customers in US and UK Can Now Access Klarna Installment Plans for In-Store Apple Pay Purchases",
-    "link": "https://www.klarna.com/international/press/klarna-customers-in-us-and-uk-can-now-access-klarna-installment-plans-for-in/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4e4376e3c8267b8ea7f5fc61",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Card passes 1 million US sign-ups in 11 weeks",
-    "link": "https://www.klarna.com/international/press/klarna-card-passes-1-million-us-sign-ups-in-11-weeks/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7eb1e9aa72420582aac334f2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna strengthens collaboration with Google to support Agent Payments Protocol (AP2)",
-    "link": "https://www.klarna.com/international/press/klarna-strengthens-collaboration-with-google-to-support-agent-payments/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c25acf85d44fc6946d699a68",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna set to land with Qatar Airways, bringing flexible payments to 17 markets",
-    "link": "https://www.klarna.com/international/press/klarna-set-to-land-with-qatar-airways-bringing-flexible-payments-to-17/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "69e5f6c827be346b51dd2e8e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches flexible debit card and digital wallet in UK",
-    "link": "https://www.klarna.com/international/press/klarna-launches-flexible-debit-card-and-digital-wallet-in-uk/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "aec8f4388d4eb3e55a89cf77",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches memberships: premium perks without expensive credit",
-    "link": "https://www.klarna.com/international/press/klarna-launches-memberships-premium-perks-without-expensive-credit/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "79c2029769a37bf55d4aaf6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens the floor to shareholders ahead of Q3 2025 Earnings via Say Technologies",
-    "link": "https://www.klarna.com/international/press/klarna-opens-the-floor-to-shareholders-ahead-of-q3-2025-earnings-via-say/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
