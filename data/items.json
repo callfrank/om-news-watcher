@@ -1,5 +1,47 @@
 [
   {
+    "guid": "6b05cc91b96c04714bb48feb",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Kartenzahlungspflicht? Gibt es nicht!",
+    "link": "https://demoshops.de/keine-kartenzahlungspflicht/",
+    "pageDate": "26.09.2026",
+    "publishedAt": "2026-09-26T12:00:00.000Z",
+    "detectedAt": "2026-09-26T14:30:54.398Z",
+    "deliveredAt": "2026-09-26T14:30:54.398Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4c9b49583b0ad015084b49f1",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "'Cross' Season 3: Everything to know about the Prime Video show’s next season",
+    "link": "https://www.aboutamazon.com/news/entertainment/aldis-hodge-prime-video-cross-james-patterson",
+    "pageDate": "Sept. 26, 2026",
+    "publishedAt": "2026-09-26T00:00:00.000Z",
+    "detectedAt": "2026-09-26T14:30:54.388Z",
+    "deliveredAt": "2026-09-26T14:30:54.388Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "dee7973a66c3fcb21dbf2122",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10990,50 +11032,6 @@
     "priority": 2,
     "title": "Navigate to Markus Villig and Niclas Neglén appointed to Klarna Group PLC Board of Directors",
     "link": "https://www.klarna.com/international/press/markus-villig-and-niclas-neglen-appointed-to-klarna-group-plc-board-of/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c6512dcdc9309b3a79b9c372",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna files registration statement for proposed Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-files-registration-statement-for-proposed-initial-public-offering/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3079ca0f2ad1bae73fd025b5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Partnership with OnePay to Exclusively Power Installment Loans at Walmart in the U.S.",
-    "link": "https://www.klarna.com/international/press/klarna-announces-partnership-with-onepay-to-exclusively-power-installment/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
