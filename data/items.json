@@ -1,5 +1,123 @@
 [
   {
+    "guid": "dee7973a66c3fcb21dbf2122",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon & Garantielabel: Das wissen wir",
+    "link": "https://wortfilter.de/amazon-garantielabel/",
+    "pageDate": "26.09.2026",
+    "publishedAt": "2026-09-26T12:00:00.000Z",
+    "detectedAt": "2026-09-26T09:53:29.447Z",
+    "deliveredAt": "2026-09-26T09:53:29.447Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "517e58c395b7dee61c758994",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Garantielabel: Amazon, eBay & EU bekleckern sich nicht mit Ruhm",
+    "link": "https://wortfilter.de/garantielabel-amazon-ebay-eu/",
+    "pageDate": "26.09.2026",
+    "publishedAt": "2026-09-26T12:00:00.000Z",
+    "detectedAt": "2026-09-26T09:53:29.447Z",
+    "deliveredAt": "2026-09-26T09:53:29.447Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3b8979cffb8571f8a18a0ed9",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "For You Days: TikTok Shop macht den Zahltag zum Shoppingevent",
+    "link": "https://onlinemarktplatz.de/293205/for-you-days-tiktok-shop-zahltag/",
+    "pageDate": "26.09.2026",
+    "publishedAt": "2026-09-26T12:00:00.000Z",
+    "detectedAt": "2026-09-26T09:53:29.445Z",
+    "deliveredAt": "2026-09-26T09:53:29.445Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d170376009ae96e83e7c8130",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Sammelkarten als Investment: Palworld macht Spekulation sichtbar",
+    "link": "https://onlinemarktplatz.de/293215/sammelkarten-als-investment-palworld/",
+    "pageDate": "26.09.2026",
+    "publishedAt": "2026-09-26T12:00:00.000Z",
+    "detectedAt": "2026-09-26T09:53:29.445Z",
+    "deliveredAt": "2026-09-26T09:53:29.445Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "304c16746c3aa879d8120833",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "REWE Sofort-Lieferung mit Wolt startet mit fünf Märkten in Köln",
+    "link": "https://onlinemarktplatz.de/293242/rewe-sofort-lieferung-koeln-wolt/",
+    "pageDate": "26.09.2026",
+    "publishedAt": "2026-09-26T12:00:00.000Z",
+    "detectedAt": "2026-09-26T09:53:29.445Z",
+    "deliveredAt": "2026-09-26T09:53:29.445Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "5cb30eb28357989acaf96f81",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -10916,116 +11034,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Announces Partnership with OnePay to Exclusively Power Installment Loans at Walmart in the U.S.",
     "link": "https://www.klarna.com/international/press/klarna-announces-partnership-with-onepay-to-exclusively-power-installment/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f2eb14f4913fa1c01734df51",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to DoorDash Partners with Klarna to Offer US Customers Even More Convenience with Flexible Payments",
-    "link": "https://www.klarna.com/international/press/doordash-partners-with-klarna-to-offer-us-customers-even-more-convenience/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "425351a86335a1e9920e4e58",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Laybuy returns, powered by Klarna",
-    "link": "https://www.klarna.com/international/press/laybuy-returns-powered-by-klarna/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "965758ba157e27e039aa5509",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Eurostar introduces Klarna for flexible payments in the UK and France, making high-speed rail more accessible",
-    "link": "https://www.klarna.com/international/press/eurostar-introduces-klarna-for-flexible-payments-in-the-uk-and-france/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0e2dfd32c35e59345f7184c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Aritzia to bring flexible payment options to clients across Canada and the United States",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-aritzia-to-bring-flexible-payment-options-to-clients/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cbaec0a5e14886466c6e9c0a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Plus Marks First Year in the US, Signaling Growing Momentum in Subscription Services",
-    "link": "https://www.klarna.com/international/press/klarna-plus-marks-first-year-in-the-us-signaling-growing-momentum-in/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
