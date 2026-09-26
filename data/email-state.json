@@ -1,5 +1,7 @@
 {
   "sentGuids": [
+    "6b05cc91b96c04714bb48feb",
+    "4c9b49583b0ad015084b49f1",
     "dee7973a66c3fcb21dbf2122",
     "517e58c395b7dee61c758994",
     "3b8979cffb8571f8a18a0ed9",
@@ -1316,9 +1318,11 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastSlot": "2026-09-26-14",
-  "lastSentAt": "2026-09-26T09:54:05.280Z",
+  "lastSlot": "2026-09-26-16",
+  "lastSentAt": "2026-09-26T14:31:33.121Z",
   "handledGuids": [
+    "6b05cc91b96c04714bb48feb",
+    "4c9b49583b0ad015084b49f1",
     "dee7973a66c3fcb21dbf2122",
     "517e58c395b7dee61c758994",
     "3b8979cffb8571f8a18a0ed9",
@@ -3248,12 +3252,12 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastEvaluatedAt": "2026-09-26T12:58:25.500Z",
+  "lastEvaluatedAt": "2026-09-26T14:31:33.121Z",
   "lastFilterSummary": {
     "readerSeen": 0,
     "historical": 0,
     "lowPriority": 0,
     "quality": 0
   },
-  "lastSentCount": 5
+  "lastSentCount": 2
 }
