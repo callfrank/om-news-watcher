@@ -1,5 +1,27 @@
 [
   {
+    "guid": "5ca06bed3e14f5eced3a13d9",
+    "source": "FedEx Newsroom",
+    "sourceKey": "src-ccc01078527f3e85",
+    "sourceLabel": "FedEx",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Giant Pandas Ping Ping and Fu Shuang Arrive in Atlanta on the FedEx Panda Express",
+    "link": "https://newsroom.fedex.com/newsroom/global-english/giant-pandas-ping-ping-and-fu-shuang-arrive-in-atlanta-on-the-fedex-panda-express",
+    "pageDate": "27.09.2026",
+    "publishedAt": "2026-09-27T12:00:00.000Z",
+    "detectedAt": "2026-09-27T18:24:43.119Z",
+    "deliveredAt": "2026-09-27T18:24:43.119Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "f67059eb7d451f90089d0891",
     "source": "EcommerceNews",
     "sourceKey": "src-bd7434d76405faf6",
@@ -11013,28 +11035,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Payment Options Now Available at Checkout on Apple Pay In-App and Online in Canada",
     "link": "https://www.klarna.com/international/press/klarna-payment-options-now-available-at-checkout-on-apple-pay-in-app-and-online-in-canada/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "06878c2a11950d0a71b86192",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to eBay and Klarna Expand Partnership Bringing Buy Now Pay Later (BNPL) to New Markets",
-    "link": "https://www.klarna.com/international/press/ebay-and-klarna-expand-partnership-bringing-buy-now-pay-later-bnpl-to-new-markets/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
