@@ -1,5 +1,25 @@
 [
   {
+    "guid": "62ae19c1d6038c4fdebe7b74",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Bizum, Banken & Bargeld – die Woche 26/39",
+    "link": "https://demoshops.de/wero-woche-26-39/",
+    "pageDate": "26.09.2026",
+    "publishedAt": "2026-09-26T12:00:00.000Z",
+    "detectedAt": "2026-09-27T01:50:52.827Z",
+    "deliveredAt": "2026-09-27T01:50:52.827Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "e53f4de5d81b3250ad8a9e3f",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -11008,28 +11028,6 @@
     "priority": 2,
     "title": "Navigate to Klarna signs with J.P. Morgan Payments to expand merchant services offering",
     "link": "https://www.klarna.com/international/press/klarna-signs-with-j-p-morgan-payments-to-expand-merchant-services-offering/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "54f15da7a4a8870f76396ea9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Nexi and Klarna partner to boost merchant growth",
-    "link": "https://www.klarna.com/international/press/nexi-and-klarna-partner-to-boost-merchant-growth/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
