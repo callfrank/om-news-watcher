@@ -1,5 +1,100 @@
 [
   {
+    "guid": "8dc8b1cebdae380419df700b",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Zahlungspflichtig bestellen: KG kippt 60.000-Euro-Autokauf",
+    "link": "https://wortfilter.de/zahlungspflichtig-bestellen-kg-urteil/",
+    "pageDate": "27.09.2026",
+    "publishedAt": "2026-09-27T12:00:00.000Z",
+    "detectedAt": "2026-09-27T08:10:14.717Z",
+    "deliveredAt": "2026-09-27T08:10:14.717Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0f75abbcee7c45ce7e85e921",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Little Treat Culture: Kein neues Sofa, aber ein 7-Euro-Kaffee",
+    "link": "https://onlinemarktplatz.de/293210/little-treat-culture/",
+    "pageDate": "27.09.2026",
+    "publishedAt": "2026-09-27T12:00:00.000Z",
+    "detectedAt": "2026-09-27T08:10:14.716Z",
+    "deliveredAt": "2026-09-27T08:10:14.716Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9e9cb264d94044a4e231f9fd",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "DHL Express und IFZA starten Exportprogramm für Dubai-Firmen",
+    "link": "https://onlinemarktplatz.de/293354/ifza-und-dhl-exporthilfe-dubai/",
+    "pageDate": "27.09.2026",
+    "publishedAt": "2026-09-27T12:00:00.000Z",
+    "detectedAt": "2026-09-27T08:10:14.716Z",
+    "deliveredAt": "2026-09-27T08:10:14.716Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0d4632ce3bd408c81c8a2988",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Fast jede 37. untersuchte .shop-Domain gehört zum DoppelCart-Cluster",
+    "link": "https://onlinemarktplatz.de/293370/doppelcart-fake-shops-119000-domains/",
+    "pageDate": "27.09.2026",
+    "publishedAt": "2026-09-27T12:00:00.000Z",
+    "detectedAt": "2026-09-27T08:10:14.716Z",
+    "deliveredAt": "2026-09-27T08:10:14.716Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "62ae19c1d6038c4fdebe7b74",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10940,94 +11035,6 @@
     "priority": 2,
     "title": "Navigate to Fabletics teams up with Klarna to bring flexible payments to subscription members across the US",
     "link": "https://www.klarna.com/international/press/fabletics-teams-up-with-klarna-to-bring-flexible-payments-to-subscription-members-across-the-us/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7f31daa01ef653dc1ae4324e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with iconic luxury retailers Neiman Marcus and Bergdorf Goodman",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-iconic-luxury-retailers-neiman-marcus-and-bergdorf-goodman/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "322f2b8c5358b4221eb3f1ff",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna ‘Pay in 3’ launches for Zalando shoppers in five additional markets",
-    "link": "https://www.klarna.com/international/press/klarna-pay-in-3-launches-for-zalando-shoppers-in-five-additional-markets/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3697c25f86eb62ccf8f8af79",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna is now available to millions of new businesses, in strengthened partnership with Stripe",
-    "link": "https://www.klarna.com/international/press/klarna-available-to-millions-of-new-businesses-in-strengthened-stripe/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e7202999076edb587e00f069",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna signs with J.P. Morgan Payments to expand merchant services offering",
-    "link": "https://www.klarna.com/international/press/klarna-signs-with-j-p-morgan-payments-to-expand-merchant-services-offering/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
