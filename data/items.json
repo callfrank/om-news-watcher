@@ -1,5 +1,227 @@
 [
   {
+    "guid": "edafe1509606c92c5a3b813f",
+    "source": "Shein QZ",
+    "sourceKey": "82cd114d-78c9-4305-aed9-d0c5aee42e82",
+    "sourceLabel": "Shein QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SHEIN’s Net Revenues Reach US$20.1 Billion in the First Half of 2026, with Total Orders Growing 6.4% Year-over-Year as LATR Model Demonstrates Resilience",
+    "link": "https://ir.sheingroup.com/system/files-encrypted/nasdaq_kms/news/2026/09/28/10-00-07/1H26%20Interim%20Financial%20Report%20Press%20Release.pdf",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-28T19:42:10.019Z",
+    "deliveredAt": "2026-09-28T19:42:10.019Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0bad515b5f7d2cb7718a4632",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Zur Pressemitteilung",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/september/ein-einkauf-statt-zwei-wege-kaufland-startet-drogerie-offensive",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-28T19:42:09.988Z",
+    "deliveredAt": "2026-09-28T19:42:09.988Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Kaufland Newsroom"
+    ]
+  },
+  {
+    "guid": "f82c7a23f938444b25501f02",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Prime Big Deal Days 2026: Early deals you can shop right now",
+    "link": "https://www.aboutamazon.com/news/retail/prime-big-deal-days-2026-best-deals-amazon",
+    "pageDate": "Sept. 28, 2026",
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "detectedAt": "2026-09-28T19:42:09.983Z",
+    "deliveredAt": "2026-09-28T19:42:09.983Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "cee10014d26e4d6f23fc582c",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Michael Bublé and Drew Scott strive for hockey glory in Prime Video docuseries 'Hometown Giants,' coming October 16",
+    "link": "https://www.aboutamazon.com/news/entertainment/hometown-giants-hockey-michael-buble-drew-scott-prime-video",
+    "pageDate": "Sept. 28, 2026",
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "detectedAt": "2026-09-28T19:42:09.983Z",
+    "deliveredAt": "2026-09-28T19:42:09.983Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b4544697b9d0798d8a600b4f",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "'Reacher' renewed for Season 6 after record-breaking Season 4",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-reacher-how-to-watch",
+    "pageDate": "Sept. 28, 2026",
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "detectedAt": "2026-09-28T19:42:09.983Z",
+    "deliveredAt": "2026-09-28T19:42:09.983Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fd0981b7c7e7aa239c88caf3",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Expands Health & Beauty Measurement to Capture $56 Billion in Amazon Marketplace Sales",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-expands-health-beauty-measurement-to-capture-56-billion-in-amazon-marketplace-sales/",
+    "pageDate": "28.09.2026",
+    "publishedAt": "2026-09-28T12:00:00.000Z",
+    "detectedAt": "2026-09-28T19:42:09.978Z",
+    "deliveredAt": "2026-09-28T19:42:09.978Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "74d0a92c0f58ba5abe585e3b",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon will expand GWD to Europe",
+    "link": "https://ecommercenews.eu/amazon-will-expand-gwd-to-europe/",
+    "pageDate": "28.09.2026",
+    "publishedAt": "2026-09-28T12:00:00.000Z",
+    "detectedAt": "2026-09-28T19:42:09.968Z",
+    "deliveredAt": "2026-09-28T19:42:09.968Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "eccf4b7655bfb1eb3fb8a9d2",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "‘European ecommerce set to grow 5% this year’",
+    "link": "https://ecommercenews.eu/european-ecommerce-set-to-grow-5-this-year/",
+    "pageDate": "28.09.2026",
+    "publishedAt": "2026-09-28T12:00:00.000Z",
+    "detectedAt": "2026-09-28T19:42:09.968Z",
+    "deliveredAt": "2026-09-28T19:42:09.968Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9fd25d09298455d2bd09aa0f",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "EDEKA darf tegut-Standorte unter weitreichenden Nebenbestimmungen übernehmen",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/09_28_2026_Edeka_tegut.html?nn=52004",
+    "pageDate": "28.09.2026",
+    "publishedAt": "2026-09-28T12:00:00.000Z",
+    "detectedAt": "2026-09-28T19:42:09.967Z",
+    "deliveredAt": "2026-09-28T19:42:09.967Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5f490906ebfafbb2934710c4",
+    "source": "Etsy",
+    "sourceKey": "src-dbea0c1ac563772a",
+    "sourceLabel": "Etsy",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Etsy x Rachel Antonoff and Susan Alexandra Launch the First-Ever Best in Show Merch Collection at NYFW",
+    "link": "https://www.etsy.com/de/news/etsy-x-rachel-antonoff-and-susan-alexandra-launch-the-first-ever-best-in-show-merch-collection-at-nyfw",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-28T19:42:09.933Z",
+    "deliveredAt": "2026-09-28T19:42:09.933Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "5ffed74d50e193c618ae8837",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10808,225 +11030,6 @@
     "publishedAt": "2026-09-17T00:00:00.000Z",
     "detectedAt": "2026-09-17T19:18:20.467Z",
     "deliveredAt": "2026-09-17T19:18:20.467Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7110a373cb002af607fd49de",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Watch the trailer for 'The Terminal List' Season 2 starring Chris Pratt, coming to Prime Video October 21",
-    "link": "https://www.aboutamazon.com/news/entertainment/terminal-list-prime-video-chris-pratt",
-    "pageDate": "Sept. 17, 2026",
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "detectedAt": "2026-09-17T15:20:46.797Z",
-    "deliveredAt": "2026-09-17T15:20:46.797Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fdc9eebcd4a5d856e2c121f2",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to add subscriptions like HBO Max, Apple TV, FOX One, and more on Prime Video",
-    "link": "https://www.aboutamazon.com/news/entertainment/what-are-prime-video-channels",
-    "pageDate": "Sept. 17, 2026",
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "detectedAt": "2026-09-17T15:20:46.797Z",
-    "deliveredAt": "2026-09-17T15:20:46.797Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9a9d45aea68f25ff4856476c",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon delivered more than 2 million meals to students in rural communities this summer",
-    "link": "https://www.aboutamazon.com/news/community/amazon-summer-meals-kids-rural-delivery",
-    "pageDate": "Sept. 17, 2026",
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "detectedAt": "2026-09-17T15:20:46.797Z",
-    "deliveredAt": "2026-09-17T15:20:46.797Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0cf19a290c7434ed0bd79b57",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Google removes product carousels in Europe",
-    "link": "https://ecommercenews.eu/google-removes-product-carousels-in-europe/",
-    "pageDate": "17.09.2026",
-    "publishedAt": "2026-09-17T12:00:00.000Z",
-    "detectedAt": "2026-09-17T15:20:46.781Z",
-    "deliveredAt": "2026-09-17T15:20:46.781Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "271e1ae815b4fb3b430a8fbe",
-    "source": "DHL",
-    "sourceKey": "src-e5330506f57b7169",
-    "sourceLabel": "DHL",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Zolldaten als Wettbewerbsvorteil nutzen: DHL Global Forwarding launcht TradeNavigator Tool in TradeConnect",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-global-forwarding-launcht-tradenavigator.html",
-    "pageDate": "17.09.2026, 14:00 MESZ DHL GLOBAL FORWARDING",
-    "publishedAt": null,
-    "detectedAt": "2026-09-17T15:20:46.753Z",
-    "deliveredAt": "2026-09-17T15:20:46.753Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "15b37455b88a3c3a72094a1b",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Schwarz Digits STACKIT KI-Ökosystem bindet Celonis und Snowflake stufenweise ein",
-    "link": "https://onlinemarktplatz.de/293389/stackit-ki-oekosystem-celonis-snowflake/",
-    "pageDate": "17.09.2026",
-    "publishedAt": "2026-09-17T12:00:00.000Z",
-    "detectedAt": "2026-09-17T15:20:46.751Z",
-    "deliveredAt": "2026-09-17T15:20:46.751Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "21d6f2df990d77e2c05fbe5a",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Gemeinsam Lebensmittel retten",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/gemeinsam-lebensmittel-retten-125853",
-    "pageDate": "17.09.2026",
-    "publishedAt": "2026-09-17T12:00:00.000Z",
-    "detectedAt": "2026-09-17T15:20:46.743Z",
-    "deliveredAt": "2026-09-17T15:20:46.743Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a5099564730bb8618ec122f6",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Telekom erweitert Multiorbit-IoT-Roaming mit dem Partner Iridium",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/telekom-erweitert-multiorbit-iot-roaming-mit-dem-partner-iridium",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-17T15:20:46.736Z",
-    "deliveredAt": "2026-09-17T15:20:46.736Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1a75bf7c34778e16d83b6b71",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Belgien: Wero kommt an die Ladenkasse",
-    "link": "https://demoshops.de/belgien-wero-ladenkasse/",
-    "pageDate": "17.09.2026",
-    "publishedAt": "2026-09-17T12:00:00.000Z",
-    "detectedAt": "2026-09-17T10:28:11.261Z",
-    "deliveredAt": "2026-09-17T10:28:11.261Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4f0d3c39f0dfdf287485e63b",
-    "source": "DM",
-    "sourceKey": "src-fd6e846f7c6683bc",
-    "sourceLabel": "DM",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Kundenmonitor 2026: dm bleibt für viele Menschen die erste Wahl",
-    "link": "https://newsroom.dm.de/pressreleases/kundenmonitor-2026-dm-bleibt-fuer-viele-menschen-die-erste-wahl-3466721",
-    "pageDate": "17.09.2026",
-    "publishedAt": "2026-09-17T12:00:00.000Z",
-    "detectedAt": "2026-09-17T10:28:11.252Z",
-    "deliveredAt": "2026-09-17T10:28:11.252Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
