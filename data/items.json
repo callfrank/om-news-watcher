@@ -1,5 +1,27 @@
 [
   {
+    "guid": "e63b3f8ad4164db21cc84fef",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How AWS has helped more than 30,000 job seekers land cloud computing jobs",
+    "link": "https://www.aboutamazon.com/news/aws/aws-restart-cloud-workforce-development-program",
+    "pageDate": "Sept. 28, 2026",
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "detectedAt": "2026-09-28T23:58:31.653Z",
+    "deliveredAt": "2026-09-28T23:58:31.653Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "edafe1509606c92c5a3b813f",
     "source": "Shein QZ",
     "sourceKey": "82cd114d-78c9-4305-aed9-d0c5aee42e82",
@@ -28,8 +50,7 @@
       "Firmen"
     ],
     "tags": [
-      "E-Commerce",
-      "Unternehmensstrategie"
+      "E-Commerce"
     ],
     "priority": 2,
     "title": "Zur Pressemitteilung",
@@ -11008,28 +11029,6 @@
     "publishedAt": "2026-09-17T00:00:00.000Z",
     "detectedAt": "2026-09-17T19:18:20.468Z",
     "deliveredAt": "2026-09-17T19:18:20.468Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2ae06e19ddf31c23c1a244e5",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Watch the trailer for 'Helluva Boss' Season 3, coming to Prime Video October 14",
-    "link": "https://www.aboutamazon.com/news/entertainment/helluva-boss-prime-video",
-    "pageDate": "Sept. 17, 2026",
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "detectedAt": "2026-09-17T19:18:20.467Z",
-    "deliveredAt": "2026-09-17T19:18:20.467Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
