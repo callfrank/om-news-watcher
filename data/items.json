@@ -1,5 +1,28 @@
 [
   {
+    "guid": "13136d61df344ead09c420df",
+    "source": "Startup-Verband Presse",
+    "sourceKey": "src-515b92a6da1e3698",
+    "sourceLabel": "Startup-Verband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "DSM 2026 – Startups trotzen Konjunktur",
+    "link": "https://startupverband.de/presse/pressemitteilungen/dsm-2026-%E2%80%93-startups-trotzen-konjunktur-28-09-2026/",
+    "pageDate": "28.09.2026",
+    "publishedAt": "2026-09-28T12:00:00.000Z",
+    "detectedAt": "2026-09-28T05:24:18.404Z",
+    "deliveredAt": "2026-09-28T05:24:18.404Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "5ca06bed3e14f5eced3a13d9",
     "source": "FedEx Newsroom",
     "sourceKey": "src-ccc01078527f3e85",
@@ -11013,28 +11036,6 @@
     "priority": 2,
     "title": "Navigate to Klarna opens new hub in Warsaw to recruit 100 of Poland's top tech talents",
     "link": "https://www.klarna.com/international/press/klarna-opens-new-hub-in-warsaw-to-recruit-100-of-polands-top-tech-talents/",
-    "pageDate": "September 16, 2026",
-    "publishedAt": "2026-09-16T00:00:00.000Z",
-    "detectedAt": "2026-09-17T05:27:08.970Z",
-    "deliveredAt": "2026-09-17T05:27:08.970Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1ff43ff60b4b038ad0d5abd0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Payment Options Now Available at Checkout on Apple Pay In-App and Online in Canada",
-    "link": "https://www.klarna.com/international/press/klarna-payment-options-now-available-at-checkout-on-apple-pay-in-app-and-online-in-canada/",
     "pageDate": "September 16, 2026",
     "publishedAt": "2026-09-16T00:00:00.000Z",
     "detectedAt": "2026-09-17T05:27:08.970Z",
