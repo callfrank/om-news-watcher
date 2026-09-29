@@ -1,5 +1,52 @@
 [
   {
+    "guid": "c6e85e30ed3f15c6fa4df720",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Shopify KI-Agenten übernehmen Checkout: 2,7-mal schneller",
+    "link": "https://wortfilter.de/shopify-ki-agenten-webmcp-checkout/",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T05:44:36.123Z",
+    "deliveredAt": "2026-09-29T05:44:36.123Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c2eb8496ffe5405ac7e34d81",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon in Dänemark erreicht bei Käufern Boozt-Niveau",
+    "link": "https://onlinemarktplatz.de/293343/amazon-in-daenemark/",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T05:44:36.121Z",
+    "deliveredAt": "2026-09-29T05:44:36.121Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "e63b3f8ad4164db21cc84fef",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10981,50 +11028,6 @@
     "priority": 2,
     "title": "How to read books for free with Prime: Amazon First Reads and Amazon Original Stories",
     "link": "https://www.aboutamazon.com/news/books-and-authors/prime-reading-free-books-benefits",
-    "pageDate": "Sept. 17, 2026",
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "detectedAt": "2026-09-17T19:18:20.468Z",
-    "deliveredAt": "2026-09-17T19:18:20.468Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ad4e086145c8b00fd67cadd0",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Watch the trailer for 'Perfect Liars,' the adaptation of the hit novel coming to Prime Video November 20",
-    "link": "https://www.aboutamazon.com/news/entertainment/perfect-liars-prime-video",
-    "pageDate": "Sept. 17, 2026",
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "detectedAt": "2026-09-17T19:18:20.468Z",
-    "deliveredAt": "2026-09-17T19:18:20.468Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4e39b8e2ff6e610501aecdbc",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon Connect expands into a set of agentic AI solutions",
-    "link": "https://www.aboutamazon.com/news/aws/amazon-connect-ai-business-set",
     "pageDate": "Sept. 17, 2026",
     "publishedAt": "2026-09-17T00:00:00.000Z",
     "detectedAt": "2026-09-17T19:18:20.468Z",
