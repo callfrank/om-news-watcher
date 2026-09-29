@@ -1,5 +1,383 @@
 [
   {
+    "guid": "a4ab05286bf4f3352e588a72",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to play free games on Amazon Luna and GameNight with your Prime membership",
+    "link": "https://www.aboutamazon.com/news/entertainment/amazon-luna-redesign-gamenight-prime",
+    "pageDate": "Sept. 29, 2026",
+    "publishedAt": "2026-09-29T00:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.313Z",
+    "deliveredAt": "2026-09-29T11:36:48.313Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "708a51c95a6bbf67b79575c6",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Veröffentlichungstermine für ZEW-Konjunkturerwartungen 2027 stehen fest",
+    "link": "https://www.zew.de/presse/pressearchiv/veroeffentlichungstermine-fuer-zew-konjunkturerwartungen-2027-stehen-fest",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.312Z",
+    "deliveredAt": "2026-09-29T11:36:48.312Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "69ec7e46ce39428f4ef44dec",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wissensnugget: Mit KI die digitale Resilienz im Großhandel stärken",
+    "link": "https://digitalzentrumhandel.de/author/julia-frings/",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.307Z",
+    "deliveredAt": "2026-09-29T11:36:48.307Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7db6d67eff396b995801ecba",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "29.09.2026",
+    "link": "https://news.post.at/presse/de/post/id/2348123/PAKETSTEUER%20STARTET:%20&Ouml;STERREICHISCHE%20POST%20ST&Auml;RKT%20HEIMISCHEN%20ONLINE-HANDEL",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.306Z",
+    "deliveredAt": "2026-09-29T11:36:48.306Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6b3ac555db43b2493408fdea",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "PAKETSTEUER STARTET: ÖSTERREICHISCHE POST STÄRKT HEIMISCHEN ONLINE-HANDEL",
+    "link": "https://news.post.at/presse/de/post/id/2348123/PAKETSTEUER%20STARTET%3A%20%26Ouml%3BSTERREICHISCHE%20POST%20ST%26Auml%3BRKT%20HEIMISCHEN%20ONLINE-HANDEL",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.306Z",
+    "deliveredAt": "2026-09-29T11:36:48.306Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "15d6928970a857d0a4b8ff4d",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "95 % des Gesamtwerts steuerpflichtiger Erbschaften und Schenkungen 2025 in Westdeutschland",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_40_p002.html",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.298Z",
+    "deliveredAt": "2026-09-29T11:36:48.298Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1b469d893d3920d6b71dc404",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Öffentliche Schulden im 2. Quartal 2026 um 1,0 % höher als im Vorquartal",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_341_713.html",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.298Z",
+    "deliveredAt": "2026-09-29T11:36:48.298Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b3b5e491ce1dd805c5055b21",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Kindertagesbetreuung 2026: Zahl der unter Dreijährigen sinkt zum dritten Mal in Folge",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_342_225.html",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.298Z",
+    "deliveredAt": "2026-09-29T11:36:48.298Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "32a3ff22f3e9f04ff095c616",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Beschäftigungsquoten 2025: Mehr Personen mit niedrigem und mittlerem Bildungsabschluss erwerbstätig als 2015",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_343_213.html",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.298Z",
+    "deliveredAt": "2026-09-29T11:36:48.298Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6bdf2f523cc247f146b8fa19",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "48h Gewährleistungslabel: Volles Risiko für Onlinehändler",
+    "link": "https://wortfilter.de/gewaehrleistungslabel-risiko-haendler/",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.273Z",
+    "deliveredAt": "2026-09-29T11:36:48.273Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "db7e22c2b90306a97e0771e0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Data Act im Onlineshop: Diese Angaben brauchen vernetzte Produkte",
+    "link": "https://onlinemarktplatz.de/293251/data-act-vernetzte-produkte/",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.272Z",
+    "deliveredAt": "2026-09-29T11:36:48.272Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e7f9d4ee54f53f13d6b8c41e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Walmarts Sam’s Club Connect: KI soll Käufe vorhersagen",
+    "link": "https://onlinemarktplatz.de/293395/sams-club-connect-walmart/",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.272Z",
+    "deliveredAt": "2026-09-29T11:36:48.272Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "682d879835ffd8167ba834ba",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Vom Hausaufgabenheft zum Amazon-Geschäft mit 10 Mio. Euro",
+    "link": "https://onlinemarktplatz.de/292925/haefft-bei-amazon/",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.272Z",
+    "deliveredAt": "2026-09-29T11:36:48.272Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e9db3ecaafbc09df3b382697",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Das bringt das neue Recht auf Reparatur",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/das-bringt-das-neue-recht-auf-reparatur-126076",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.268Z",
+    "deliveredAt": "2026-09-29T11:36:48.268Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "617abd93cdcedf5e5f8cffdb",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Glasfaserausbau: Telekom knackt die 14-Millionen-Marke",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/glasfaserausbau-telekom-knackt-die-14-millionen-marke",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-29T11:36:48.261Z",
+    "deliveredAt": "2026-09-29T11:36:48.261Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ac72417ef430f07cfb87bc3d",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom und caery revolutionieren mit KI Prozesse für Kranken- und Pflegekassen",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/telekom-und-caery-revolutionieren-mit-ki-prozesse-fuer-kranken",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-29T11:36:48.260Z",
+    "deliveredAt": "2026-09-29T11:36:48.260Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dd78c1c69ed5ab8d58b5500a",
+    "source": "Momox Presse",
+    "sourceKey": "src-347c1a155304dbda",
+    "sourceLabel": "Momox",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Comeback der Nullerjahre: Y2K-Look erreicht den Mainstream",
+    "link": "https://momox.biz/presse/8-pressemeldungen/261-2026/1300-momox-fashion-comeback-2000-y2k",
+    "pageDate": "29.09.2026",
+    "publishedAt": "2026-09-29T12:00:00.000Z",
+    "detectedAt": "2026-09-29T11:36:48.246Z",
+    "deliveredAt": "2026-09-29T11:36:48.246Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c6e85e30ed3f15c6fa4df720",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10647,391 +11025,6 @@
     "publishedAt": "2026-09-18T12:00:00.000Z",
     "detectedAt": "2026-09-18T09:48:00.031Z",
     "deliveredAt": "2026-09-18T09:48:00.031Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "00ce2ace6904825eead861ae",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Essen auf Rädern – die Qual der Wahl",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/essen-auf-raedern-die-qual-der-wahl-125886",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T09:48:00.026Z",
-    "deliveredAt": "2026-09-18T09:48:00.026Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1da17600bf8e9b1550e3992e",
-    "source": "Ifo",
-    "sourceKey": "src-63168d62c3d3a5c3",
-    "sourceLabel": "Ifo",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 3,
-    "title": "Rüstungsausgaben sind eine Investition in den Frieden",
-    "link": "https://www.ifo.de/standpunkte",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-18T07:08:54.119Z",
-    "deliveredAt": "2026-09-18T07:08:54.119Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a102a9cf4193954be1999fb9",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Baugenehmigungen für Wohnungen im Juli 2026: +1,9 % zum Vorjahresmonat",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_330_3111.html",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.107Z",
-    "deliveredAt": "2026-09-18T07:08:54.107Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0d47b71c9509259153f2c164",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Erzeugerpreise für Dienstleistungen im 2. Quartal 2026: +3,7 % zum Vorjahresquartal",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_329_61311.html",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.107Z",
-    "deliveredAt": "2026-09-18T07:08:54.107Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d3889e554700cf5c4a01a57b",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Gastgewerbeumsatz im Juli 2026 real 1,5 % höher als im Vormonat",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_331_45213.html",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.107Z",
-    "deliveredAt": "2026-09-18T07:08:54.107Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9c192900d05ada75833359a5",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Erzeugerpreise im August 2026: +4,6 % gegenüber August 2025",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_328_61241.html",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.107Z",
-    "deliveredAt": "2026-09-18T07:08:54.107Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "420746732c6f964d3b3d2751",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Kommentar zur Regulierung: Wenn die EU die Plattformen einnorden würde",
-    "link": "https://wortfilter.de/garantielabel-amazon-ebay-kommentar/",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.079Z",
-    "deliveredAt": "2026-09-18T07:08:54.079Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bd7a673c17e542d04b000229",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Google Produktkarussells verschwinden fast vollständig im EWR",
-    "link": "https://onlinemarktplatz.de/293400/google-produktkarussells-sichtbarkeit/",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.077Z",
-    "deliveredAt": "2026-09-18T07:08:54.077Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "df7f1344af0fd67239004cb7",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon Quick Desktop ist allgemein verfügbar: AWS verbindet Dateien und Shopsysteme",
-    "link": "https://onlinemarktplatz.de/293151/amazon-quick-desktop-aws-ki-assistent/",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.077Z",
-    "deliveredAt": "2026-09-18T07:08:54.077Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e175d449681e1462e22549bf",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "NIQ GeoAudiences bringen digitale Kaufsignale in die Werbeplanung",
-    "link": "https://onlinemarktplatz.de/293286/niq-geoaudiences/",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.077Z",
-    "deliveredAt": "2026-09-18T07:08:54.077Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4dd17f85bac211d07752eee2",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Wero bei Fnac: Testphase läuft, Start Anfang 2027 geplant",
-    "link": "https://onlinemarktplatz.de/293167/wero-bei-fnac-start-2027/",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.077Z",
-    "deliveredAt": "2026-09-18T07:08:54.077Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f8562f11e9b4cd37a2df3c45",
-    "source": "Fressnapf Newsroom",
-    "sourceKey": "src-94258df63c219915",
-    "sourceLabel": "Fressnapf",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Logistik"
-    ],
-    "priority": 2,
-    "title": "DEL-Comeback: Fressnapf startet Partnerschaft mit den Krefeld Pinguinen",
-    "link": "https://www.mynewsdesk.com/de/fressnapf-holding-se/pressreleases/del-comeback-fressnapf-startet-partnerschaft-mit-den-krefeld-pinguinen-3466582",
-    "pageDate": "18.09.2026",
-    "publishedAt": "2026-09-18T12:00:00.000Z",
-    "detectedAt": "2026-09-18T07:08:54.025Z",
-    "deliveredAt": "2026-09-18T07:08:54.025Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ed230366a748a48ce31743f0",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "What AWS's CTO told employees about the future of AI",
-    "link": "https://www.aboutamazon.com/news/aws/aws-cto-future-of-ai",
-    "pageDate": "Sept. 17, 2026",
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "detectedAt": "2026-09-18T00:22:00.216Z",
-    "deliveredAt": "2026-09-18T00:22:00.216Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b51f101c69b12f928d074cc5",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Turning Membership Into Momentum",
-    "link": "https://corporate.walmart.com/about/samsclub/news/2026/09/turning-membership-into-momentum",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-17T22:15:15.746Z",
-    "deliveredAt": "2026-09-17T22:15:15.746Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5570c07430b144fe24300cba",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "125 Wines, Six Days of Tastings: How Sam’s Club Found Its New Napa Valley Cabernet Sauvignon",
-    "link": "https://corporate.walmart.com/about/samsclub/news/2026/09/sams-club-napa-valley-cabernet",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-17T22:15:15.746Z",
-    "deliveredAt": "2026-09-17T22:15:15.746Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9a9b8d967a86b9000b292f37",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Meet the ‘Thursday Night Football’ broadcast team",
-    "link": "https://www.aboutamazon.com/news/entertainment/thursday-night-football-announcers-prime-video",
-    "pageDate": "Sept. 17, 2026",
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "detectedAt": "2026-09-17T22:15:15.734Z",
-    "deliveredAt": "2026-09-17T22:15:15.734Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6815db06ea4e67259fb22098",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to read books for free with Prime: Amazon First Reads and Amazon Original Stories",
-    "link": "https://www.aboutamazon.com/news/books-and-authors/prime-reading-free-books-benefits",
-    "pageDate": "Sept. 17, 2026",
-    "publishedAt": "2026-09-17T00:00:00.000Z",
-    "detectedAt": "2026-09-17T19:18:20.468Z",
-    "deliveredAt": "2026-09-17T19:18:20.468Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
