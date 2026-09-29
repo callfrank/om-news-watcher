@@ -1,5 +1,27 @@
 [
   {
+    "guid": "8fb2c2a5cbcbacdc8ab90b4e",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Anthropic's Claude Sonnet 5.5 is now on AWS",
+    "link": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
+    "pageDate": "Sept. 28, 2026",
+    "publishedAt": "2026-09-28T00:00:00.000Z",
+    "detectedAt": "2026-09-29T21:25:32.106Z",
+    "deliveredAt": "2026-09-29T21:25:32.106Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "fd20d2dd1415e8dd6886f529",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10988,28 +11010,6 @@
     "priority": 2,
     "title": "Navigate to Klarna launches browser extension allowing consumers to pay later across all online stores",
     "link": "https://www.klarna.com/international/press/klarna-launches-browser-extension-allowing-consumers-to-pay-later-across-all-online-stores/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ccbeba73fdf991481352f8cd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches first-ever immersive sports activation, bringing basketball fans worldwide closer to the game",
-    "link": "https://www.klarna.com/international/press/klarna-launches-first-ever-immersive-sports-activation-bringing-basketball-fans-worldwide-closer-to-the-game/",
     "pageDate": "September 22, 2026",
     "publishedAt": "2026-09-22T00:00:00.000Z",
     "detectedAt": "2026-09-23T06:41:59.141Z",
