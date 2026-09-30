@@ -1,5 +1,49 @@
 [
   {
+    "guid": "3142162adba4ba621bbcd72b",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Prime Big Deal Days: Our biggest deals to kick off fall and holiday shopping October 6-7",
+    "link": "https://www.aboutamazon.com/news/retail/prime-big-deal-days-best-deals-savings-2026",
+    "pageDate": "Sept. 29, 2026",
+    "publishedAt": "2026-09-29T00:00:00.000Z",
+    "detectedAt": "2026-09-30T06:02:23.587Z",
+    "deliveredAt": "2026-09-30T06:02:23.587Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "42d45e3b1acde70e4de59d0c",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Trust and Reliability Put JD.com at No. 2 in Inside Retail’s Asia Brand Conviction Index",
+    "link": "https://jdcorporateblog.com/trust-and-reliability-put-jd-com-at-no-2-in-inside-retails-asia-brand-conviction-index/",
+    "pageDate": "Sep 30, 2026",
+    "publishedAt": "2026-09-30T00:00:00.000Z",
+    "detectedAt": "2026-09-30T06:02:23.509Z",
+    "deliveredAt": "2026-09-30T06:02:23.509Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "8f205a803640580ce49f3797",
     "source": "Amazon Seller Events",
     "sourceKey": "src-4a1336d19ad6bee0",
@@ -10964,50 +11008,6 @@
     "priority": 2,
     "title": "Navigate to Klarna says ‘Dia dhuit’ to Ireland and launches pay in 3",
     "link": "https://www.klarna.com/international/press/klarna-says-dia-dhuit-to-ireland-and-launches-pay-in-3/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9b60edf79ce0a4bb63320d0d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says ‘Olá’ to Portugal and launches ‘Pay in 3’",
-    "link": "https://www.klarna.com/international/press/klarna-says-ola-to-portugal-and-launches-pay-in-3/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "dd284f6622b0e81d16dd2cf8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna supercharges US offering with launch of ‘Pay Now’ option and Klarna Card",
-    "link": "https://www.klarna.com/international/press/klarna-supercharges-us-offering-with-launch-of-pay-now-option-and-klarna-card/",
     "pageDate": "September 22, 2026",
     "publishedAt": "2026-09-22T00:00:00.000Z",
     "detectedAt": "2026-09-23T06:41:59.141Z",
