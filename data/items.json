@@ -1,5 +1,259 @@
 [
   {
+    "guid": "b20a864b0c3d6a496197bdfb",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "2Q 2026 Historical Financial Info",
+    "link": "https://investors.ups.com/_assets/_5c2bc503e4db6d18357d3ab822cb79cf/ups/db/1111/11036/file/2026+Q2+Historical+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-30T18:09:55.282Z",
+    "deliveredAt": "2026-09-30T18:09:55.282Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c45da45ad4bac0fbc8a98a82",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "2Q 2026 Financial Statements",
+    "link": "https://investors.ups.com/_assets/_5c2bc503e4db6d18357d3ab822cb79cf/ups/db/1111/11028/file/2026+Q2+Financial+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-30T18:09:55.282Z",
+    "deliveredAt": "2026-09-30T18:09:55.282Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "246b8d6cdfb27e1f67df554a",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Bancomat + Bizum + Sibs + Vipps + Wero = ENP",
+    "link": "https://demoshops.de/bancomat-bizum-sibs-vipps-wero-enp/",
+    "pageDate": "30.09.2026",
+    "publishedAt": "2026-09-30T12:00:00.000Z",
+    "detectedAt": "2026-09-30T18:09:55.275Z",
+    "deliveredAt": "2026-09-30T18:09:55.275Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3ebfe19cd75910dd77202e18",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart Grants $15 Million to Feeding America® to Help Strengthen Food Access for Families Across the Country",
+    "link": "https://corporate.walmart.com/news/2026/09/15-million-dollars-to-feeding-america",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-30T18:09:55.267Z",
+    "deliveredAt": "2026-09-30T18:09:55.267Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6e297fd2f3f50a5e781fd70a",
+    "source": "Schwarz",
+    "sourceKey": "src-c1c0a709a5786247",
+    "sourceLabel": "Schwarz",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Schwarz Impulse 2026: Strategic Partnerships for Europe's Competitiveness",
+    "link": "https://gruppe.schwarz/en/press/archive/2026/schwarz-impulse-2026-strategic-partnerships-for-europe-s-competitiveness",
+    "pageDate": "September 30th, 2026",
+    "publishedAt": null,
+    "detectedAt": "2026-09-30T18:09:55.263Z",
+    "deliveredAt": "2026-09-30T18:09:55.263Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7cee189a68ae8740f60c6cec",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon's water conservation and replenishment efforts around the world",
+    "link": "https://www.aboutamazon.com/news/sustainability/amazon-water-conservation-replenishment-sustainability",
+    "pageDate": "Sept. 30, 2026",
+    "publishedAt": "2026-09-30T00:00:00.000Z",
+    "detectedAt": "2026-09-30T18:09:55.258Z",
+    "deliveredAt": "2026-09-30T18:09:55.258Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d8a3adafd0789e253d3e33d3",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Alexa+ is making Fire TV smarter, from your TV to your phone",
+    "link": "https://www.aboutamazon.com/news/devices/alexa-plus-fire-tv-hub-mobile-app-updates",
+    "pageDate": "Sept. 30, 2026",
+    "publishedAt": "2026-09-30T00:00:00.000Z",
+    "detectedAt": "2026-09-30T18:09:55.258Z",
+    "deliveredAt": "2026-09-30T18:09:55.258Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "063fde0b55fd91e39c787602",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Fire TV launches all-new, faster 4K stick and new remote design",
+    "link": "https://www.aboutamazon.com/news/devices/fire-tv-stick-4k-new-remote",
+    "pageDate": "Sept. 30, 2026",
+    "publishedAt": "2026-09-30T00:00:00.000Z",
+    "detectedAt": "2026-09-30T18:09:55.258Z",
+    "deliveredAt": "2026-09-30T18:09:55.258Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aa103422df2464085b929dae",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Arnold Schwarzenegger is Santa in Prime Video's 'The Man with the Bag' teaser trailer, coming this Christmas",
+    "link": "https://www.aboutamazon.com/news/entertainment/the-man-with-the-bag-arnold-schwarzenegger-christmas-movie-prime-video",
+    "pageDate": "Sept. 30, 2026",
+    "publishedAt": "2026-09-30T00:00:00.000Z",
+    "detectedAt": "2026-09-30T18:09:55.258Z",
+    "deliveredAt": "2026-09-30T18:09:55.258Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dcc7f652075d2e51a8787f01",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Monetary policy amid overlapping shocks",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260930_1~7c6c120482.en.html",
+    "pageDate": "30.09.2026",
+    "publishedAt": "2026-09-30T12:00:00.000Z",
+    "detectedAt": "2026-09-30T18:09:55.228Z",
+    "deliveredAt": "2026-09-30T18:09:55.228Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0294cda6646a1a984e00b214",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "30.09.2026Deutschlandticket: Verbraucherzentrale kritisiert erneute Preiserhöhung",
+    "link": "https://www.vzbv.de/pressemitteilungen/deutschlandticket-verbraucherzentrale-kritisiert-erneute-preiserhoehung",
+    "pageDate": "30.09.2026",
+    "publishedAt": "2026-09-30T12:00:00.000Z",
+    "detectedAt": "2026-09-30T18:09:55.210Z",
+    "deliveredAt": "2026-09-30T18:09:55.210Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "adcfc4aa04939de1611d92ae",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eco erwartet klare Impulse für modernes Datenrecht",
+    "link": "https://www.eco.de/presse/neuer-bfdi-hennemann-eco-erwartet-klare-impulse-fuer-modernes-datenrecht/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-09-30T18:09:55.170Z",
+    "deliveredAt": "2026-09-30T18:09:55.170Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "a9bb089c74ce7c4f088081b7",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10754,270 +11008,6 @@
     "priority": 2,
     "title": "Navigate to Klarna partners with TELFAR to offer shoppers flexible payment solutions",
     "link": "https://www.klarna.com/international/press/klarna-partners-with-telfar-to-offer-shoppers-flexible-payment-solutions/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cd647b888eb13a3250e31c51",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Worldline and Klarna expand payment offering across Europe",
-    "link": "https://www.klarna.com/international/press/worldline-and-klarna-expand-payment-offering-across-europe/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a4035e0f11db908299feec14",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Cosmopolitan and Klarna host second virtual shopping event for Gen Z and millennials, “Hauliday by Cosmo x Klarna”",
-    "link": "https://www.klarna.com/international/press/cosmopolitan-and-klarna-host-second-virtual-shopping-event-for-gen-z-and-millennials-hauliday-by-cosmo-x-klarna/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a77a5f83dbb688b0c58f1b4e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Q1-Q4 2020 Financial Report",
-    "link": "https://www.klarna.com/international/press/klarna-q1-q4-2020-financial-report/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "33633d588a0b6cf23b1cfe0d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna CEO challenges tech to focus on global sustainability in $1 bn funding round",
-    "link": "https://www.klarna.com/international/press/klarna-ceo-challenges-tech-to-focus-on-global-sustainability-in-1-bn-funding-round/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "96ba001fed08db47eec6a672",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands Open Banking solution to 8 more European markets",
-    "link": "https://www.klarna.com/international/press/klarna-expands-open-banking-solution-to-8-more-european-markets/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "37aa189326868b0892b8e4db",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna takes merchant marketing support to new heights with enhanced demand-generation services",
-    "link": "https://www.klarna.com/international/press/klarna-takes-merchant-marketing-support-to-new-heights-with-enhanced-demand-generation-services/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a46263b45e63946002d116ac",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Consumers turn to BNPL for flexibility and security as retail readies for recovery",
-    "link": "https://www.klarna.com/international/press/consumers-turn-to-bnpl-for-flexibility-and-security-as-retail-readies-for-recovery/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "28996acc57042093518f5e21",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to New Klarna survey finds nearly 80% of shoppers want fitting rooms to reopen this year, while many remain skeptical about product testing",
-    "link": "https://www.klarna.com/international/press/new-klarna-survey-finds-nearly-80-of-shoppers-want-fitting-rooms-to-reopen-this-year-while-many-remain-skeptical-about-product-testing/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "77c6daa0c0cb9948b1f503d3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB (publ) announces tender offer regarding certain outstanding senior unsecured bonds",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-publ-announces-tender-offer-regarding-certain-outstanding-senior-unsecured-bonds/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "21d6e77b264f082072663433",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna 2020 Annual Report Published",
-    "link": "https://www.klarna.com/international/press/klarna-2020-annual-report-published/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7a3c0537f844127020f29344",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB (publ) announces final tender offer results",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-publ-announces-final-tender-offer-results/",
-    "pageDate": "September 22, 2026",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "detectedAt": "2026-09-23T06:41:59.141Z",
-    "deliveredAt": "2026-09-23T06:41:59.141Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b689d6a273561d9dc8df8cc7",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches carbon footprint insights for 90 million consumers",
-    "link": "https://www.klarna.com/international/press/klarna-launches-carbon-footprint-insights-for-90-million-consumers/",
     "pageDate": "September 22, 2026",
     "publishedAt": "2026-09-22T00:00:00.000Z",
     "detectedAt": "2026-09-23T06:41:59.141Z",
