@@ -1,5 +1,309 @@
 [
   {
+    "guid": "912b3e85640369786ced2eae",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Strauss setzt Wero auf Platz 1",
+    "link": "https://demoshops.de/strauss-setzt-wero-auf-platz-1/",
+    "pageDate": "Thu, 01 Oct 2026 10:18:21 +0000",
+    "publishedAt": "2026-10-01T10:18:21.000Z",
+    "detectedAt": "2026-10-01T15:28:34.715Z",
+    "deliveredAt": "2026-10-01T15:28:34.715Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "66a4fe40219f8c4db6f86e8f",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Sparkassen-App: Abos mit Wero bezahlen",
+    "link": "https://demoshops.de/sparkassen-app-abo-wero-bezahlen/",
+    "pageDate": "Thu, 01 Oct 2026 14:38:40 +0000",
+    "publishedAt": "2026-10-01T14:38:40.000Z",
+    "detectedAt": "2026-10-01T15:28:34.715Z",
+    "deliveredAt": "2026-10-01T15:28:34.715Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b30d16ae6531dcc7d797563a",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Can’t Find It? Walmart Can Light the Way",
+    "link": "https://corporate.walmart.com/news/2026/10/cant-find-it-walmart-can-light-the-way",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-01T15:28:34.704Z",
+    "deliveredAt": "2026-10-01T15:28:34.704Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "410a68943732a53c69683240",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon introduces a completely redesigned Kindle family",
+    "link": "https://www.aboutamazon.com/news/devices/new-kindle-lineup-2026",
+    "pageDate": "Oct. 1, 2026",
+    "publishedAt": "2026-10-01T00:00:00.000Z",
+    "detectedAt": "2026-10-01T15:28:34.695Z",
+    "deliveredAt": "2026-10-01T15:28:34.695Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a512b0a63dc465b16a2c3277",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "What’s new on Prime Video in October 2026, including ‘Carrie,’ ‘The Terminal List,’ and NBA games",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-october-films-shows-sports-2026",
+    "pageDate": "Oct. 1, 2026",
+    "publishedAt": "2026-10-01T00:00:00.000Z",
+    "detectedAt": "2026-10-01T15:28:34.695Z",
+    "deliveredAt": "2026-10-01T15:28:34.695Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "13717ed49dce2d8aae4d30e2",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Industry criticizes national parcel levy in Austria",
+    "link": "https://ecommercenews.eu/industry-criticizes-national-parcel-levy-in-austria/",
+    "pageDate": "Thu, 01 Oct 2026 13:52:34 +0000",
+    "publishedAt": "2026-10-01T13:52:34.000Z",
+    "detectedAt": "2026-10-01T15:28:34.680Z",
+    "deliveredAt": "2026-10-01T15:28:34.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b5aa088d383885a274b266b4",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Free returns on the rise in DACH region",
+    "link": "https://ecommercenews.eu/free-returns-on-the-rise-in-dach-region/",
+    "pageDate": "Thu, 01 Oct 2026 16:01:14 +0000",
+    "publishedAt": "2026-10-01T16:01:14.000Z",
+    "detectedAt": "2026-10-01T15:28:34.680Z",
+    "deliveredAt": "2026-10-01T15:28:34.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "740e468fcc2cfdaa1ff8cfa0",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Where AI risks meet",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261001~cf3c630379.en.html",
+    "pageDate": "1 October 2026",
+    "publishedAt": "2026-10-01T00:00:00.000Z",
+    "detectedAt": "2026-10-01T15:28:34.665Z",
+    "deliveredAt": "2026-10-01T15:28:34.665Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4d78d3a3c8b0bff78e73971e",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Meldung:, 01.10.2026 Fortschritte in der Kryptoanalyse von Classic McEliece Das BSI empfiehlt, das kryptographische Verfahren Classic McEliece derzeit nicht für Neuentwicklungen und bei der Planung neuer kryptographischer Anwendungen zu verwenden.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/Classic-McEliece_261001.html",
+    "pageDate": "01.10.2026",
+    "publishedAt": "2026-10-01T12:00:00.000Z",
+    "detectedAt": "2026-10-01T15:28:34.661Z",
+    "deliveredAt": "2026-10-01T15:28:34.661Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "898c677d2c5720217d22f2de",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DeinFach und myflexbox schließen sich zusammen: Anbieteroffenes Netz von Paketautomaten wächst deutlich",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/deinfach-und-myflexbox-schliessen-sich-zusammen.html",
+    "pageDate": "01.10.2026, 14:00 MESZ POST & PAKET DEUTSCHLAND",
+    "publishedAt": null,
+    "detectedAt": "2026-10-01T15:28:34.658Z",
+    "deliveredAt": "2026-10-01T15:28:34.658Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "77529b79c3608cc9a1659828",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Employee Lifecycle im Handel – Bindung beginnt vor dem ersten Arbeitstag",
+    "link": "https://onlinemarktplatz.de/293334/employee-lifecycle-im-handel/",
+    "pageDate": "Thu, 01 Oct 2026 10:10:12 +0000",
+    "publishedAt": "2026-10-01T10:10:12.000Z",
+    "detectedAt": "2026-10-01T15:28:34.657Z",
+    "deliveredAt": "2026-10-01T15:28:34.657Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "34af0c9b4909eb9b92caabcf",
+    "source": "Deloitte",
+    "sourceKey": "src-ee546a6472b48b72",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "50 Milliarden Euro notleidende Kredite",
+    "link": "https://www.deloitte.com/de/de/about/press-room/50-milliarden-euro-notleidende-kredite.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-01T15:28:34.654Z",
+    "deliveredAt": "2026-10-01T15:28:34.654Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2df85045df2703a344bccc5f",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Warum ein Glasfaseranschluss sinnvoll ist",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/warum-ein-glasfaseranschluss-sinnvoll-ist-126116",
+    "pageDate": "01.10.2026",
+    "publishedAt": "2026-10-01T12:00:00.000Z",
+    "detectedAt": "2026-10-01T15:28:34.650Z",
+    "deliveredAt": "2026-10-01T15:28:34.650Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c5d86602acfe0c3a097744bf",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Maximilian Rapp neuer Deutschlandchef von EY Studio+",
+    "link": "https://www.ey.com/de_de/newsroom/2026/10/ey-personalien-oktober-maximilian-rapp",
+    "pageDate": "01.10.2026",
+    "publishedAt": "2026-10-01T12:00:00.000Z",
+    "detectedAt": "2026-10-01T15:28:34.613Z",
+    "deliveredAt": "2026-10-01T15:28:34.613Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "71d0e75ad71d295b15a8dc7a",
     "source": "Zew",
     "sourceKey": "src-f3985f12770a41ec",
@@ -10691,314 +10995,6 @@
     "publishedAt": "2026-09-28T12:00:00.000Z",
     "detectedAt": "2026-09-28T12:01:33.533Z",
     "deliveredAt": "2026-09-28T12:01:33.533Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d4de3fba78f77729c8963016",
-    "source": "Iwh-halle",
-    "sourceKey": "src-029efb425dd21a52",
-    "sourceLabel": "Iwh-halle",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Studien & Marktdaten"
-    ],
-    "priority": 3,
-    "title": "Höhere Auslandsnachfrage hilft auch dem Osten – Implikationen der Gemeinschaftsdiagnose vom Herbst 2026 und amtlicher Länderdaten für die ostdeutsche Wirtschaft",
-    "link": "https://www.iwh-halle.de/presse/pressemitteilungen/detail/hoehere-auslandsnachfrage-hilft-auch-dem-osten-implikationen-der-gemeinschaftsdiagnose-vom-herbst-2026-und-amtlicher-laenderdaten-fuer-die-ostdeutsche-wirtschaft",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-28T12:01:33.532Z",
-    "deliveredAt": "2026-09-28T12:01:33.532Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "490a99fd7f41cf26d6b88e23",
-    "source": "Ifo",
-    "sourceKey": "src-63168d62c3d3a5c3",
-    "sourceLabel": "Ifo",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 3,
-    "title": "Firmen streichen etwas weniger Jobs",
-    "link": "https://www.ifo.de/umfrage/ifo-beschaeftigungsbarometer",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-28T12:01:33.531Z",
-    "deliveredAt": "2026-09-28T12:01:33.531Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "df43b2e72aa88a5c16429d31",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "28.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2347358/DARMKREBSVORSORGE%20WIEN:%20POST%20UNTERST&Uuml;TZT%20ALS%20LOGISTIKPARTNERIN",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.528Z",
-    "deliveredAt": "2026-09-28T12:01:33.528Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e52a79bba2c9cebfe6392329",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "DARMKREBSVORSORGE WIEN: POST UNTERSTÜTZT ALS LOGISTIKPARTNERIN",
-    "link": "https://news.post.at/presse/de/post/id/2347358/DARMKREBSVORSORGE%20WIEN%3A%20POST%20UNTERST%26Uuml%3BTZT%20ALS%20LOGISTIKPARTNERIN",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.528Z",
-    "deliveredAt": "2026-09-28T12:01:33.528Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "68534ab50d35734b713f0576",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Gemeinschaftsunternehmen von Hensoldt, Rohde & Schwarz, Plath und General Dynamics im Bereich der elektronischen Kampfführung genehmigt",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/09_28_2026_Hensold_Rohde_Schwarz_Plath_GD.html?nn=52004",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.519Z",
-    "deliveredAt": "2026-09-28T12:01:33.519Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "155da0e9980d6552fe9ae6be",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Beschäftigte mit Einwanderungsgeschichte 2025 in vielen Mangelberufen überdurchschnittlich stark vertreten",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_N066_13.html",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.518Z",
-    "deliveredAt": "2026-09-28T12:01:33.518Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "193cf5973ab3277790703814",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "2,1 % weniger Drittmitteleinnahmen je Universitätsprofessur im Jahr 2024",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_340_213.html",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.517Z",
-    "deliveredAt": "2026-09-28T12:01:33.517Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "41cb2bf01126735eae168533",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Join the digital euro innovation platform",
-    "link": "https://www.ecb.europa.eu/press/intro/news/html/ecb.mipnews260928.en.html",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.500Z",
-    "deliveredAt": "2026-09-28T12:01:33.500Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6652756f0aa34b57521b73a4",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Wie B2B-Marken mit Amazon erfolgreich ins D2C-Geschäft starten: Rick Heitmann von A-Force im #UdZ Podcast zum Amazon Marketplace",
-    "link": "https://wortfilter.de/b2b-d2c-amazon-rick-heitmann-a-force/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.491Z",
-    "deliveredAt": "2026-09-28T12:01:33.491Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "caad27d30232adb8682e4c5e",
-    "source": "DHL",
-    "sourceKey": "src-e5330506f57b7169",
-    "sourceLabel": "DHL",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "DHL erweitert regionales Engagement mit Telekom Baskets Bonn",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-erweitert-regionales-engagement-mit-telekom-baskets-bonn.html",
-    "pageDate": "28.09.2026, 10:00 MESZ DHL EXPRESS",
-    "publishedAt": null,
-    "detectedAt": "2026-09-28T12:01:33.490Z",
-    "deliveredAt": "2026-09-28T12:01:33.490Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "26c60a5246ca019943ff3559",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Wenn der Marktplatz sperrt oder schließt: Der 48-Stunden-Notfallplan für Händler",
-    "link": "https://onlinemarktplatz.de/293250/notfallplan-fuer-haendler/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.489Z",
-    "deliveredAt": "2026-09-28T12:01:33.489Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c38d1506a8154be955bc1aa3",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon Kaufverhalten 2026: KI gewinnt, bezahlte Platzierungen bleiben schwer erkennbar",
-    "link": "https://onlinemarktplatz.de/293332/amazon-kaufverhalten-2026/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.489Z",
-    "deliveredAt": "2026-09-28T12:01:33.489Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e1ad23d9efecc424debdc197",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "ChannelEngine-Temu-Integration soll Händleranbindung erleichtern",
-    "link": "https://onlinemarktplatz.de/293338/channelengine-temu-integration/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.489Z",
-    "deliveredAt": "2026-09-28T12:01:33.489Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "64f082727643f7552c5b7264",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Reinigung oder Versiegelung für Haus und Fassade? So erkennt man fragwürdige Angebote",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/reinigung-oder-versiegelung-fuer-haus-und-fassade-so-erkennt-man-fragwuerdige-angebote-126059",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.483Z",
-    "deliveredAt": "2026-09-28T12:01:33.483Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
