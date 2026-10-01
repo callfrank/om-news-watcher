@@ -1,5 +1,118 @@
 [
   {
+    "guid": "ee401921045cbad71f0350f3",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "'Neagley' renewed for Season 2 on Prime Video: Plot, cast, and how to watch now",
+    "link": "https://www.aboutamazon.com/news/entertainment/watch-neagley-reacher-prime-video",
+    "pageDate": "Oct. 1, 2026",
+    "publishedAt": "2026-10-01T00:00:00.000Z",
+    "detectedAt": "2026-10-01T20:32:54.988Z",
+    "deliveredAt": "2026-10-01T20:32:54.988Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "18ced43ceca66db36ff5fc33",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "5 ways Amazon is investing in New Jersey",
+    "link": "https://www.aboutamazon.com/news/community/amazon-investment-new-jersey-jobs-infrastructure-small-business",
+    "pageDate": "Oct. 1, 2026",
+    "publishedAt": "2026-10-01T00:00:00.000Z",
+    "detectedAt": "2026-10-01T20:32:54.987Z",
+    "deliveredAt": "2026-10-01T20:32:54.987Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "acc4286cd5cd8faa96eb90b4",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "17 chilling Halloween movies and shows to watch on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/halloween-movies-shows-on-prime-video",
+    "pageDate": "Oct. 1, 2026",
+    "publishedAt": "2026-10-01T00:00:00.000Z",
+    "detectedAt": "2026-10-01T20:32:54.987Z",
+    "deliveredAt": "2026-10-01T20:32:54.987Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a7fe7fe4703334ec52ecbd02",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Widerrufsbutton Abmahnung: Fälle zeigen, was nicht reicht",
+    "link": "https://wortfilter.de/widerrufsbutton-abmahnung/",
+    "pageDate": "Thu, 01 Oct 2026 17:54:12 +0000",
+    "publishedAt": "2026-10-01T17:54:12.000Z",
+    "detectedAt": "2026-10-01T20:32:54.949Z",
+    "deliveredAt": "2026-10-01T20:32:54.949Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "669908a44a35cb6c81e2a6e4",
+    "source": "Pattern Newsroom",
+    "sourceKey": "src-fd172f245374fd81",
+    "sourceLabel": "Pattern",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "KI",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Pattern Announces Preliminary Inclusion in Russell 3000® and Russell 2000® Indexes",
+    "link": "https://www.pattern.com/news/pattern-announces-preliminary-inclusion-in-russell-3000-r-and-russell-2000-r-indexes",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-01T20:32:54.925Z",
+    "deliveredAt": "2026-10-01T20:32:54.925Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "912b3e85640369786ced2eae",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10885,116 +10998,6 @@
     "publishedAt": null,
     "detectedAt": "2026-09-28T12:01:33.537Z",
     "deliveredAt": "2026-09-28T12:01:33.537Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "171e0e78ee35aa5e763c657e",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How Prime members can double their fuel savings every Friday this holiday season",
-    "link": "https://www.aboutamazon.com/news/retail/amazon-gas-savings-prime",
-    "pageDate": "Sept. 28, 2026",
-    "publishedAt": "2026-09-28T00:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.535Z",
-    "deliveredAt": "2026-09-28T12:01:33.535Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8c40873710bff8dd4efbe238",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to stream Shakira's Madrid concert, exclusively with Amazon Music",
-    "link": "https://www.aboutamazon.com/news/entertainment/shakira-livestream-amazon-music-prime-video",
-    "pageDate": "Sept. 28, 2026",
-    "publishedAt": "2026-09-28T00:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.535Z",
-    "deliveredAt": "2026-09-28T12:01:33.535Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1c07afc3f3f2300903bc252f",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How Amazon’s rapid response technology systems help communities recover faster",
-    "link": "https://www.aboutamazon.com/news/community/amazon-disaster-relief-technology-kits-recovery",
-    "pageDate": "Sept. 28, 2026",
-    "publishedAt": "2026-09-28T00:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.535Z",
-    "deliveredAt": "2026-09-28T12:01:33.535Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "77ed8a939868089eecfbb05a",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "Ökonomische Kosten von Feiertagen sind überschaubar // ZEW-Studie zu den Effekten von Feiertagen auf das Bruttoinlandsprodukt",
-    "link": "https://www.zew.de/presse/pressearchiv/oekonomische-kosten-von-feiertagen-sind-ueberschaubar",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.533Z",
-    "deliveredAt": "2026-09-28T12:01:33.533Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "27d9ea9951e67584be61546f",
-    "source": "Ifhkoeln",
-    "sourceKey": "src-ce9e70954500f828",
-    "sourceLabel": "Ifhkoeln",
-    "groups": [
-      "Research"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Fast alle Apotheken bestellen direkt bei Herstellern – auch weil sie müssen",
-    "link": "https://www.ifhkoeln.de/fast-alle-apotheken-bestellen-direkt-bei-herstellern-auch-weil-sie-muessen/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.533Z",
-    "deliveredAt": "2026-09-28T12:01:33.533Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
