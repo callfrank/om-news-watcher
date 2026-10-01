@@ -1,5 +1,363 @@
 [
   {
+    "guid": "71d0e75ad71d295b15a8dc7a",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Abschlüsse verbessern Berufseinstieg, verursachen aber hohe Kosten // ZEW-Studie über Ausbildungen für Studierende an französischen Universitäten",
+    "link": "https://www.zew.de/presse/pressearchiv/abschluesse-verbessern-berufseinstieg-verursachen-aber-hohe-kosten",
+    "pageDate": "01.10.2026",
+    "publishedAt": "2026-10-01T12:00:00.000Z",
+    "detectedAt": "2026-10-01T07:50:24.671Z",
+    "deliveredAt": "2026-10-01T07:50:24.671Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "163ff468e89b901728f3c9c0",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Neue EU-Verpackungsverordnung (PPWR) – was bedeutet sie für KMU?",
+    "link": "https://digitalzentrumhandel.de/author/josephine-seiffert/",
+    "pageDate": "01.10.2026",
+    "publishedAt": "2026-10-01T12:00:00.000Z",
+    "detectedAt": "2026-10-01T07:50:24.666Z",
+    "deliveredAt": "2026-10-01T07:50:24.666Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5473bed397a16693363c4ccf",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "01.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2349347/&Ouml;STERREICHISCHE%20POST%20SCHLIESST%20&Uuml;BERNAHME%20IN%20SERBIEN%20AB",
+    "pageDate": "01.10.2026",
+    "publishedAt": "2026-10-01T12:00:00.000Z",
+    "detectedAt": "2026-10-01T07:50:24.663Z",
+    "deliveredAt": "2026-10-01T07:50:24.663Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6032070ee6f0d6b039b25cf0",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ÖSTERREICHISCHE POST SCHLIESST ÜBERNAHME IN SERBIEN AB",
+    "link": "https://news.post.at/presse/de/post/id/2349347/%26Ouml%3BSTERREICHISCHE%20POST%20SCHLIESST%20%26Uuml%3BBERNAHME%20IN%20SERBIEN%20AB",
+    "pageDate": "01.10.2026",
+    "publishedAt": "2026-10-01T12:00:00.000Z",
+    "detectedAt": "2026-10-01T07:50:24.663Z",
+    "deliveredAt": "2026-10-01T07:50:24.663Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dd09b0eb5f62c22452ed1c6e",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Durchschnittsalter in Landgemeinden seit 2011 um 2,5 Jahre gestiegen, in Großstädten um 0,3 Jahre",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N067_12.html",
+    "pageDate": "Thu, 1 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-01T06:00:00.000Z",
+    "detectedAt": "2026-10-01T07:50:24.654Z",
+    "deliveredAt": "2026-10-01T07:50:24.654Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "228d6af510e26dc6580f7548",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Kommunales Finanzierungsdefizit im 1. Halbjahr 2026 erneut bei 20,1 Milliarden Euro",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_349_71137.html",
+    "pageDate": "Thu, 1 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-01T06:00:00.000Z",
+    "detectedAt": "2026-10-01T07:50:24.654Z",
+    "deliveredAt": "2026-10-01T07:50:24.654Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fd1be57be291a002cbff58ed",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Produktion von Benzin und Diesel im 1. Halbjahr 2026 gestiegen",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N068_51.html",
+    "pageDate": "Thu, 1 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-01T06:00:00.000Z",
+    "detectedAt": "2026-10-01T07:50:24.654Z",
+    "deliveredAt": "2026-10-01T07:50:24.654Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "984e85c43bb884b8b3194cd7",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Europäischer Statistikwettbewerb für Schülerinnen und Schüler startet wieder",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_350_p001.html",
+    "pageDate": "Thu, 1 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-01T06:00:00.000Z",
+    "detectedAt": "2026-10-01T07:50:24.654Z",
+    "deliveredAt": "2026-10-01T07:50:24.654Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "442a552cd0e7c84cf59c6ada",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "PAYBACK Produkte: 18 Mio. Nutzer, aber Lücken im Checkout",
+    "link": "https://wortfilter.de/payback-produkte-marktplatz/",
+    "pageDate": "Thu, 01 Oct 2026 05:41:08 +0000",
+    "publishedAt": "2026-10-01T05:41:08.000Z",
+    "detectedAt": "2026-10-01T07:50:24.628Z",
+    "deliveredAt": "2026-10-01T07:50:24.628Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2f2ef8cd3ea8d43d460c1c0c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Umsatz im Onlinehandel: +3,5 % real, Einzelhandel -0,4 %",
+    "link": "https://wortfilter.de/umsatz-im-onlinehandel-august-2026/",
+    "pageDate": "Thu, 01 Oct 2026 07:29:38 +0000",
+    "publishedAt": "2026-10-01T07:29:38.000Z",
+    "detectedAt": "2026-10-01T07:50:24.628Z",
+    "deliveredAt": "2026-10-01T07:50:24.628Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7bbe696bcede7c9fb7f2f8c7",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon Business Zustellquote: 90 Prozent gelten ab sofort",
+    "link": "https://onlinemarktplatz.de/293622/amazon-business-zustellquote/",
+    "pageDate": "Thu, 01 Oct 2026 05:52:50 +0000",
+    "publishedAt": "2026-10-01T05:52:50.000Z",
+    "detectedAt": "2026-10-01T07:50:24.626Z",
+    "deliveredAt": "2026-10-01T07:50:24.626Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5053bc7f911571ac392cfe3e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wallets im Onlinehandel: Apple Pay erreicht 49 Prozent – Wero liegt noch bei drei Prozent",
+    "link": "https://onlinemarktplatz.de/293623/wallets-im-onlinehandel/",
+    "pageDate": "Thu, 01 Oct 2026 06:31:57 +0000",
+    "publishedAt": "2026-10-01T06:31:57.000Z",
+    "detectedAt": "2026-10-01T07:50:24.626Z",
+    "deliveredAt": "2026-10-01T07:50:24.626Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3cf908932c24ff26c55d87d4",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Whatnot Card Breaks: Wenn Live Shopping wie Glücksspiel wirkt",
+    "link": "https://onlinemarktplatz.de/293641/whatnot-card-breaks-live/",
+    "pageDate": "Thu, 01 Oct 2026 06:59:55 +0000",
+    "publishedAt": "2026-10-01T06:59:55.000Z",
+    "detectedAt": "2026-10-01T07:50:24.626Z",
+    "deliveredAt": "2026-10-01T07:50:24.626Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "76de170bb55052b4d63d701a",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom und Rabot Energy starten Stromtarife",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-und-rabot-energy-starten-stromtarife",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-01T07:50:24.615Z",
+    "deliveredAt": "2026-10-01T07:50:24.615Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6b1ef61fdbed6740f57e47e0",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EY-Analyse IPO-Barometer Q3 2026",
+    "link": "https://www.ey.com/de_de/newsroom/2026/10/ey-ipo-barometer-q3-2026",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-01T07:50:24.583Z",
+    "deliveredAt": "2026-10-01T07:50:24.583Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ec2d5275eb463abf8bf8f9f3",
+    "source": "ECDB Reports",
+    "sourceKey": "src-93bc6c77c8e0092a",
+    "sourceLabel": "ECDB",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Cross-Border E-Commerce in Europe Dossier 2026",
+    "link": "https://ecdb.com/reports/cross-border-e-commerce-in-europe/1038",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-01T07:50:24.578Z",
+    "deliveredAt": "2026-10-01T07:50:24.578Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "5f4d1f81a756efc6e3b96f82",
     "source": "Wero",
     "sourceKey": "src-b3076904e4e4545a",
@@ -10641,365 +10999,6 @@
     "publishedAt": "2026-09-28T12:00:00.000Z",
     "detectedAt": "2026-09-28T12:01:33.483Z",
     "deliveredAt": "2026-09-28T12:01:33.483Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fae110fac870353c38cd5130",
-    "source": "VZBV Pressemitteilungen",
-    "sourceKey": "src-89cdb65f3f059fb8",
-    "sourceLabel": "VZBV",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "28.09.2026Alkoholfreier Wein: Wirklich ohne Alkohol?",
-    "link": "https://www.vzbv.de/pressemitteilungen/alkoholfreier-wein-wirklich-ohne-alkohol",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.478Z",
-    "deliveredAt": "2026-09-28T12:01:33.478Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e8838cefb8c60186147b3718",
-    "source": "Forrester Press Newsroom",
-    "sourceKey": "src-b4a8f14e403e1f2f",
-    "sourceLabel": "Forrester",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Studien & Marktdaten",
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Forrester: Aligning Customer, Brand, And Employee Experience Emerges As The Critical Driver Of Growth For Banks In India",
-    "link": "https://www.forrester.com/press-newsroom/total-experience-india-2026/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-28T12:01:33.436Z",
-    "deliveredAt": "2026-09-28T12:01:33.436Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bfb2287ce3c28833a7b9d3a2",
-    "source": "Zalando Newsroom",
-    "sourceKey": "src-72a2ecac55647739",
-    "sourceLabel": "Zalando",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Fashion spricht viele Sprachen: Zalando Plus kooperiert mit Duolingo",
-    "link": "https://corporate.zalando.com/de/technologie/fashion-spricht-viele-sprachen-zalando-plus-kooperiert-mit-duolingo",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.420Z",
-    "deliveredAt": "2026-09-28T12:01:33.420Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "13136d61df344ead09c420df",
-    "source": "Startup-Verband Presse",
-    "sourceKey": "src-515b92a6da1e3698",
-    "sourceLabel": "Startup-Verband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "DSM 2026 – Startups trotzen Konjunktur",
-    "link": "https://startupverband.de/presse/pressemitteilungen/dsm-2026-%E2%80%93-startups-trotzen-konjunktur-28-09-2026/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T05:24:18.404Z",
-    "deliveredAt": "2026-09-28T05:24:18.404Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5ca06bed3e14f5eced3a13d9",
-    "source": "FedEx Newsroom",
-    "sourceKey": "src-ccc01078527f3e85",
-    "sourceLabel": "FedEx",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Giant Pandas Ping Ping and Fu Shuang Arrive in Atlanta on the FedEx Panda Express",
-    "link": "https://newsroom.fedex.com/newsroom/global-english/giant-pandas-ping-ping-and-fu-shuang-arrive-in-atlanta-on-the-fedex-panda-express",
-    "pageDate": "27.09.2026",
-    "publishedAt": "2026-09-27T12:00:00.000Z",
-    "detectedAt": "2026-09-27T18:24:43.119Z",
-    "deliveredAt": "2026-09-27T18:24:43.119Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f67059eb7d451f90089d0891",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "DHL eCommerce looks for more acquisitions in Eastern Europe",
-    "link": "https://ecommercenews.eu/dhl-ecommerce-looks-for-more-acquisitions-in-eastern-europe/",
-    "pageDate": "27.09.2026",
-    "publishedAt": "2026-09-27T12:00:00.000Z",
-    "detectedAt": "2026-09-27T13:58:58.478Z",
-    "deliveredAt": "2026-09-27T13:58:58.478Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8dc8b1cebdae380419df700b",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zahlungspflichtig bestellen: KG kippt 60.000-Euro-Autokauf",
-    "link": "https://wortfilter.de/zahlungspflichtig-bestellen-kg-urteil/",
-    "pageDate": "27.09.2026",
-    "publishedAt": "2026-09-27T12:00:00.000Z",
-    "detectedAt": "2026-09-27T08:10:14.717Z",
-    "deliveredAt": "2026-09-27T08:10:14.717Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0f75abbcee7c45ce7e85e921",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Little Treat Culture: Kein neues Sofa, aber ein 7-Euro-Kaffee",
-    "link": "https://onlinemarktplatz.de/293210/little-treat-culture/",
-    "pageDate": "27.09.2026",
-    "publishedAt": "2026-09-27T12:00:00.000Z",
-    "detectedAt": "2026-09-27T08:10:14.716Z",
-    "deliveredAt": "2026-09-27T08:10:14.716Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9e9cb264d94044a4e231f9fd",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "DHL Express und IFZA starten Exportprogramm für Dubai-Firmen",
-    "link": "https://onlinemarktplatz.de/293354/ifza-und-dhl-exporthilfe-dubai/",
-    "pageDate": "27.09.2026",
-    "publishedAt": "2026-09-27T12:00:00.000Z",
-    "detectedAt": "2026-09-27T08:10:14.716Z",
-    "deliveredAt": "2026-09-27T08:10:14.716Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0d4632ce3bd408c81c8a2988",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Fast jede 37. untersuchte .shop-Domain gehört zum DoppelCart-Cluster",
-    "link": "https://onlinemarktplatz.de/293370/doppelcart-fake-shops-119000-domains/",
-    "pageDate": "27.09.2026",
-    "publishedAt": "2026-09-27T12:00:00.000Z",
-    "detectedAt": "2026-09-27T08:10:14.716Z",
-    "deliveredAt": "2026-09-27T08:10:14.716Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "62ae19c1d6038c4fdebe7b74",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Bizum, Banken & Bargeld – die Woche 26/39",
-    "link": "https://demoshops.de/wero-woche-26-39/",
-    "pageDate": "26.09.2026",
-    "publishedAt": "2026-09-26T12:00:00.000Z",
-    "detectedAt": "2026-09-27T01:50:52.827Z",
-    "deliveredAt": "2026-09-27T01:50:52.827Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e53f4de5d81b3250ad8a9e3f",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Bizum bringt NFC an die Ladenkasse",
-    "link": "https://demoshops.de/bizum-bringt-nfc-an-die-ladenkasse/",
-    "pageDate": "26.09.2026",
-    "publishedAt": "2026-09-26T12:00:00.000Z",
-    "detectedAt": "2026-09-26T21:11:06.364Z",
-    "deliveredAt": "2026-09-26T21:11:06.364Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6b05cc91b96c04714bb48feb",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Kartenzahlungspflicht? Gibt es nicht!",
-    "link": "https://demoshops.de/keine-kartenzahlungspflicht/",
-    "pageDate": "26.09.2026",
-    "publishedAt": "2026-09-26T12:00:00.000Z",
-    "detectedAt": "2026-09-26T14:30:54.398Z",
-    "deliveredAt": "2026-09-26T14:30:54.398Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4c9b49583b0ad015084b49f1",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "'Cross' Season 3: Everything to know about the Prime Video show’s next season",
-    "link": "https://www.aboutamazon.com/news/entertainment/aldis-hodge-prime-video-cross-james-patterson",
-    "pageDate": "Sept. 26, 2026",
-    "publishedAt": "2026-09-26T00:00:00.000Z",
-    "detectedAt": "2026-09-26T14:30:54.388Z",
-    "deliveredAt": "2026-09-26T14:30:54.388Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "dee7973a66c3fcb21dbf2122",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Amazon & Garantielabel: Das wissen wir",
-    "link": "https://wortfilter.de/amazon-garantielabel/",
-    "pageDate": "26.09.2026",
-    "publishedAt": "2026-09-26T12:00:00.000Z",
-    "detectedAt": "2026-09-26T09:53:29.447Z",
-    "deliveredAt": "2026-09-26T09:53:29.447Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "517e58c395b7dee61c758994",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Garantielabel: Amazon, eBay & EU bekleckern sich nicht mit Ruhm",
-    "link": "https://wortfilter.de/garantielabel-amazon-ebay-eu/",
-    "pageDate": "26.09.2026",
-    "publishedAt": "2026-09-26T12:00:00.000Z",
-    "detectedAt": "2026-09-26T09:53:29.447Z",
-    "deliveredAt": "2026-09-26T09:53:29.447Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
