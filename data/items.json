@@ -1,5 +1,341 @@
 [
   {
+    "guid": "c289590f22f9ebcd07d5aa50",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon is helping communities impacted by the Nepal flash floods",
+    "link": "https://www.aboutamazon.com/news/community/nepal-floods-amazon-disaster-relief",
+    "pageDate": "Oct. 2, 2026",
+    "publishedAt": "2026-10-02T00:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.588Z",
+    "deliveredAt": "2026-10-02T11:23:25.588Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b9e8a329f00545a038034b29",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch 'Verity,' the Colleen Hoover movie adaptation out now in theaters",
+    "link": "https://www.aboutamazon.com/news/entertainment/verity-colleen-hoover-amazon-mgm-studios",
+    "pageDate": "Oct. 2, 2026",
+    "publishedAt": "2026-10-02T00:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.588Z",
+    "deliveredAt": "2026-10-02T11:23:25.588Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e90940e876ce4c6f30b067b5",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "The race our nation can’t afford to lose, plus a new commitment from us and a fresh set of community investments",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together",
+    "pageDate": "Oct. 2, 2026",
+    "publishedAt": "2026-10-02T00:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.588Z",
+    "deliveredAt": "2026-10-02T11:23:25.588Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4ca72180f53df8bb9d483358",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Brings New AI and Automation Capabilities to Retail Space Planning and Merchandising",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-brings-new-ai-and-automation-capabilities-to-retail-space-planning-and-merchandising/",
+    "pageDate": "02.10.2026",
+    "publishedAt": "2026-10-02T12:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.581Z",
+    "deliveredAt": "2026-10-02T11:23:25.581Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "68aba5397941243467b72106",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "BAUHAUS darf acht Baumärkte der insolventen HELLWEG-Gruppe übernehmen",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/10_02_2026_Bauhaus_Hellweg.html?nn=52004",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-02T11:23:25.570Z",
+    "deliveredAt": "2026-10-02T11:23:25.570Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "87ceeadd4cfadb6246f3fb60",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kraftstoffpreise: Steuersenkung, Tankdeckel, regionale Unterschiede und 12 Uhr-Regel",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/10_02_2026_KraftstoffNews.html?nn=52004",
+    "pageDate": "02.10.2026",
+    "publishedAt": "2026-10-02T12:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.570Z",
+    "deliveredAt": "2026-10-02T11:23:25.570Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3fc92eccc442eaf4d346e448",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Öffentliches Finanzierungsdefizit im 1. Halbjahr 2026 bei 98,8 Milliarden Euro",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_351_711.html",
+    "pageDate": "Fri, 2 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-02T06:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.569Z",
+    "deliveredAt": "2026-10-02T11:23:25.569Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fb126f3d24ac50762166a0d6",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Zahl der Hochschulabschlüsse 2025 um 3 % gestiegen",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_352_213.html",
+    "pageDate": "Fri, 2 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-02T06:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.569Z",
+    "deliveredAt": "2026-10-02T11:23:25.569Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "906da15fce68b405018bcb70",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "How firms plan to finance AI adoption",
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261002~7e82912ad5.en.html",
+    "pageDate": "2 October 2026",
+    "publishedAt": "2026-10-02T00:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.554Z",
+    "deliveredAt": "2026-10-02T11:23:25.554Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "502649e6b405969f6d395726",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Shopify Canvas: Shop in 20 Minuten – aber ohne Updates",
+    "link": "https://wortfilter.de/shopify-canvas/",
+    "pageDate": "Fri, 02 Oct 2026 06:23:46 +0000",
+    "publishedAt": "2026-10-02T06:23:46.000Z",
+    "detectedAt": "2026-10-02T11:23:25.547Z",
+    "deliveredAt": "2026-10-02T11:23:25.547Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b2e289382ffdeb6a19202bbb",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Europäisches Zahlungsnetzwerk ENP soll nationale Bezahldienste verbinden",
+    "link": "https://onlinemarktplatz.de/293647/europaeisches-zahlungsnetzwerk/",
+    "pageDate": "Fri, 02 Oct 2026 05:57:18 +0000",
+    "publishedAt": "2026-10-02T05:57:18.000Z",
+    "detectedAt": "2026-10-02T11:23:25.545Z",
+    "deliveredAt": "2026-10-02T11:23:25.545Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "44096be328f68b752bc8d6d0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Onlinehandel im August: Umsatzplus trotz Inflation",
+    "link": "https://onlinemarktplatz.de/293667/onlinehandel-im-august-2026/",
+    "pageDate": "Fri, 02 Oct 2026 06:30:54 +0000",
+    "publishedAt": "2026-10-02T06:30:54.000Z",
+    "detectedAt": "2026-10-02T11:23:25.545Z",
+    "deliveredAt": "2026-10-02T11:23:25.545Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "12f08e090c2b44f41e7688eb",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "SHEIN Halbjahreszahlen: Europa-Umsatz fällt um 13,9 Prozent",
+    "link": "https://onlinemarktplatz.de/293658/shein-halbjahreszahlen-2026/",
+    "pageDate": "Fri, 02 Oct 2026 07:02:11 +0000",
+    "publishedAt": "2026-10-02T07:02:11.000Z",
+    "detectedAt": "2026-10-02T11:23:25.545Z",
+    "deliveredAt": "2026-10-02T11:23:25.545Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "85a8c011780aa4b922166e83",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Gut gepackt ist länger frisch: So kommt der Einkauf unversehrt nach Hause",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/gut-gepackt-ist-laenger-frisch-so-kommt-der-einkauf-unversehrt-nach-hause-126172",
+    "pageDate": "02.10.2026",
+    "publishedAt": "2026-10-02T12:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.540Z",
+    "deliveredAt": "2026-10-02T11:23:25.540Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "88f0b33c35b50b27e3e27c5f",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Jetzt Smart Meter einbauen? Was hinter den Schreiben der Deutsche Messwesen GmbH steckt",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/jetzt-smart-meter-einbauen-was-hinter-den-schreiben-der-deutsche-messwesen-gmbh-steckt-126158",
+    "pageDate": "02.10.2026",
+    "publishedAt": "2026-10-02T12:00:00.000Z",
+    "detectedAt": "2026-10-02T11:23:25.537Z",
+    "deliveredAt": "2026-10-02T11:23:25.537Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "ee401921045cbad71f0350f3",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10668,336 +11004,6 @@
     "publishedAt": "2026-09-29T12:00:00.000Z",
     "detectedAt": "2026-09-29T05:44:36.123Z",
     "deliveredAt": "2026-09-29T05:44:36.123Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c2eb8496ffe5405ac7e34d81",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon in Dänemark erreicht bei Käufern Boozt-Niveau",
-    "link": "https://onlinemarktplatz.de/293343/amazon-in-daenemark/",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T05:44:36.121Z",
-    "deliveredAt": "2026-09-29T05:44:36.121Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e63b3f8ad4164db21cc84fef",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How AWS has helped more than 30,000 job seekers land cloud computing jobs",
-    "link": "https://www.aboutamazon.com/news/aws/aws-restart-cloud-workforce-development-program",
-    "pageDate": "Sept. 28, 2026",
-    "publishedAt": "2026-09-28T00:00:00.000Z",
-    "detectedAt": "2026-09-28T23:58:31.653Z",
-    "deliveredAt": "2026-09-28T23:58:31.653Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "edafe1509606c92c5a3b813f",
-    "source": "Shein QZ",
-    "sourceKey": "82cd114d-78c9-4305-aed9-d0c5aee42e82",
-    "sourceLabel": "Shein QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "SHEIN’s Net Revenues Reach US$20.1 Billion in the First Half of 2026, with Total Orders Growing 6.4% Year-over-Year as LATR Model Demonstrates Resilience",
-    "link": "https://ir.sheingroup.com/system/files-encrypted/nasdaq_kms/news/2026/09/28/10-00-07/1H26%20Interim%20Financial%20Report%20Press%20Release.pdf",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-28T19:42:10.019Z",
-    "deliveredAt": "2026-09-28T19:42:10.019Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0bad515b5f7d2cb7718a4632",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zur Pressemitteilung",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/september/ein-einkauf-statt-zwei-wege-kaufland-startet-drogerie-offensive",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-28T19:42:09.988Z",
-    "deliveredAt": "2026-09-28T19:42:09.988Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Kaufland Newsroom"
-    ]
-  },
-  {
-    "guid": "f82c7a23f938444b25501f02",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Prime Big Deal Days 2026: Early deals you can shop right now",
-    "link": "https://www.aboutamazon.com/news/retail/prime-big-deal-days-2026-best-deals-amazon",
-    "pageDate": "Sept. 28, 2026",
-    "publishedAt": "2026-09-28T00:00:00.000Z",
-    "detectedAt": "2026-09-28T19:42:09.983Z",
-    "deliveredAt": "2026-09-28T19:42:09.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cee10014d26e4d6f23fc582c",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Michael Bublé and Drew Scott strive for hockey glory in Prime Video docuseries 'Hometown Giants,' coming October 16",
-    "link": "https://www.aboutamazon.com/news/entertainment/hometown-giants-hockey-michael-buble-drew-scott-prime-video",
-    "pageDate": "Sept. 28, 2026",
-    "publishedAt": "2026-09-28T00:00:00.000Z",
-    "detectedAt": "2026-09-28T19:42:09.983Z",
-    "deliveredAt": "2026-09-28T19:42:09.983Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b4544697b9d0798d8a600b4f",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "'Reacher' renewed for Season 6 after record-breaking Season 4",
-    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-reacher-how-to-watch",
-    "pageDate": "Sept. 28, 2026",
-    "publishedAt": "2026-09-28T00:00:00.000Z",
-    "detectedAt": "2026-09-28T19:42:09.983Z",
-    "deliveredAt": "2026-09-28T19:42:09.983Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fd0981b7c7e7aa239c88caf3",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "NIQ Expands Health & Beauty Measurement to Capture $56 Billion in Amazon Marketplace Sales",
-    "link": "https://nielseniq.com/global/en/news-center/2026/niq-expands-health-beauty-measurement-to-capture-56-billion-in-amazon-marketplace-sales/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T19:42:09.978Z",
-    "deliveredAt": "2026-09-28T19:42:09.978Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "74d0a92c0f58ba5abe585e3b",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Amazon will expand GWD to Europe",
-    "link": "https://ecommercenews.eu/amazon-will-expand-gwd-to-europe/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T19:42:09.968Z",
-    "deliveredAt": "2026-09-28T19:42:09.968Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "eccf4b7655bfb1eb3fb8a9d2",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "‘European ecommerce set to grow 5% this year’",
-    "link": "https://ecommercenews.eu/european-ecommerce-set-to-grow-5-this-year/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T19:42:09.968Z",
-    "deliveredAt": "2026-09-28T19:42:09.968Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9fd25d09298455d2bd09aa0f",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "EDEKA darf tegut-Standorte unter weitreichenden Nebenbestimmungen übernehmen",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/09_28_2026_Edeka_tegut.html?nn=52004",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T19:42:09.967Z",
-    "deliveredAt": "2026-09-28T19:42:09.967Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5f490906ebfafbb2934710c4",
-    "source": "Etsy",
-    "sourceKey": "src-dbea0c1ac563772a",
-    "sourceLabel": "Etsy",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Etsy x Rachel Antonoff and Susan Alexandra Launch the First-Ever Best in Show Merch Collection at NYFW",
-    "link": "https://www.etsy.com/de/news/etsy-x-rachel-antonoff-and-susan-alexandra-launch-the-first-ever-best-in-show-merch-collection-at-nyfw",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-28T19:42:09.933Z",
-    "deliveredAt": "2026-09-28T19:42:09.933Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5ffed74d50e193c618ae8837",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Belgien: ING startet Wero Subscriptions",
-    "link": "https://demoshops.de/belgien-wero-subscriptions/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.562Z",
-    "deliveredAt": "2026-09-28T12:01:33.562Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "485602d36384d1b1716c2e61",
-    "source": "Handelskraft",
-    "sourceKey": "src-6c1c923af06aedde",
-    "sourceLabel": "Handelskraft",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Claude Commerce Agents: Was bringt Anthropics Blueprint Händlern wirklich?",
-    "link": "https://www.handelskraft.de/claude-commerce-agents/",
-    "pageDate": "28.09.2026",
-    "publishedAt": "2026-09-28T12:00:00.000Z",
-    "detectedAt": "2026-09-28T12:01:33.561Z",
-    "deliveredAt": "2026-09-28T12:01:33.561Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "99a6b5c810c7cdc22df707bd",
-    "source": "bol",
-    "sourceKey": "src-4a0926dd52e60011",
-    "sourceLabel": "bol",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Logistik",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "The power of partnership: growing together on the bol platform",
-    "link": "https://over.bol.com/en/news/the-power-of-partnership-growing-together-on-the-bol-platform/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-28T12:01:33.537Z",
-    "deliveredAt": "2026-09-28T12:01:33.537Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
