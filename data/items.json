@@ -1,5 +1,91 @@
 [
   {
+    "guid": "59f198b502a066d2482b1d0a",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Over 90% of purchases abroad made on Temu, Shein or AliExpress",
+    "link": "https://ecommercenews.eu/over-90-of-purchases-abroad-made-on-temu-shein-or-aliexpress/",
+    "pageDate": "Fri, 02 Oct 2026 15:37:35 +0000",
+    "publishedAt": "2026-10-02T15:37:35.000Z",
+    "detectedAt": "2026-10-02T16:51:35.738Z",
+    "deliveredAt": "2026-10-02T16:51:35.738Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "818e8dd637bcfe5ca38d70f7",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Integration boosts EU banks’ competitiveness",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
+    "pageDate": "2 October 2026",
+    "publishedAt": "2026-10-02T00:00:00.000Z",
+    "detectedAt": "2026-10-02T16:51:35.716Z",
+    "deliveredAt": "2026-10-02T16:51:35.716Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d5bd592aa3b831c6f1f249b2",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Zukunftssichere Infrastruktur für Essen",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/zukunftssichere-infrastruktur-fuer-essen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-02T16:51:35.691Z",
+    "deliveredAt": "2026-10-02T16:51:35.691Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "24d39e3cc2139ea6d702d810",
+    "source": "Fressnapf Newsroom",
+    "sourceKey": "src-94258df63c219915",
+    "sourceLabel": "Fressnapf",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Welttierschutztag 2026: Fressnapf setzt Zeichen für Tierheime, Tieradoption und gelebten Tierschutz",
+    "link": "https://www.mynewsdesk.com/de/fressnapf-holding-se/pressreleases/welttierschutztag-2026-fressnapf-setzt-zeichen-fur-tierheime-tieradoption-und-gelebten-tierschutz-3470630",
+    "pageDate": "02.10.2026",
+    "publishedAt": "2026-10-02T12:00:00.000Z",
+    "detectedAt": "2026-10-02T16:51:35.649Z",
+    "deliveredAt": "2026-10-02T16:51:35.649Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c289590f22f9ebcd07d5aa50",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10914,96 +11000,6 @@
     "publishedAt": "2026-09-29T12:00:00.000Z",
     "detectedAt": "2026-09-29T11:36:48.268Z",
     "deliveredAt": "2026-09-29T11:36:48.268Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "617abd93cdcedf5e5f8cffdb",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Glasfaserausbau: Telekom knackt die 14-Millionen-Marke",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/glasfaserausbau-telekom-knackt-die-14-millionen-marke",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-29T11:36:48.261Z",
-    "deliveredAt": "2026-09-29T11:36:48.261Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ac72417ef430f07cfb87bc3d",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Telekom und caery revolutionieren mit KI Prozesse für Kranken- und Pflegekassen",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/telekom-und-caery-revolutionieren-mit-ki-prozesse-fuer-kranken",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-29T11:36:48.260Z",
-    "deliveredAt": "2026-09-29T11:36:48.260Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "dd78c1c69ed5ab8d58b5500a",
-    "source": "Momox Presse",
-    "sourceKey": "src-347c1a155304dbda",
-    "sourceLabel": "Momox",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce",
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "Comeback der Nullerjahre: Y2K-Look erreicht den Mainstream",
-    "link": "https://momox.biz/presse/8-pressemeldungen/261-2026/1300-momox-fashion-comeback-2000-y2k",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.246Z",
-    "deliveredAt": "2026-09-29T11:36:48.246Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c6e85e30ed3f15c6fa4df720",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Shopify KI-Agenten übernehmen Checkout: 2,7-mal schneller",
-    "link": "https://wortfilter.de/shopify-ki-agenten-webmcp-checkout/",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T05:44:36.123Z",
-    "deliveredAt": "2026-09-29T05:44:36.123Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
