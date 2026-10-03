@@ -1,5 +1,119 @@
 [
   {
+    "guid": "8f003bcfb393a915c57a723b",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Abos, Apps & Abkommen – die Woche 26 / 40",
+    "link": "https://demoshops.de/wero-woche-26-40/",
+    "pageDate": "Sat, 03 Oct 2026 10:32:35 +0000",
+    "publishedAt": "2026-10-03T10:32:35.000Z",
+    "detectedAt": "2026-10-03T10:41:45.187Z",
+    "deliveredAt": "2026-10-03T10:41:45.187Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "79487a065b7ae5e4d52f5890",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "TikTok als Schaufenster: Warum digitale Trends im Laden landen",
+    "link": "https://onlinemarktplatz.de/293195/social-media-ladenbesuche-feed-filiale/",
+    "pageDate": "Sat, 03 Oct 2026 06:21:18 +0000",
+    "publishedAt": "2026-10-03T06:21:18.000Z",
+    "detectedAt": "2026-10-03T10:41:45.123Z",
+    "deliveredAt": "2026-10-03T10:41:45.123Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "582c6a8cf064602aa096269d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Lidl NeckCroissant: Wie Backware zum Marken-Merch wird",
+    "link": "https://onlinemarktplatz.de/293683/lidl-neckcroissant/",
+    "pageDate": "Sat, 03 Oct 2026 07:11:14 +0000",
+    "publishedAt": "2026-10-03T07:11:14.000Z",
+    "detectedAt": "2026-10-03T10:41:45.123Z",
+    "deliveredAt": "2026-10-03T10:41:45.123Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1d0fd9d4c18cbcf3c887083e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "CAIA Adventskalender: 35.000 Wartende beim Verkaufsstart",
+    "link": "https://onlinemarktplatz.de/293681/caia-adventskalender-2026/",
+    "pageDate": "Sat, 03 Oct 2026 07:57:50 +0000",
+    "publishedAt": "2026-10-03T07:57:50.000Z",
+    "detectedAt": "2026-10-03T10:41:45.123Z",
+    "deliveredAt": "2026-10-03T10:41:45.123Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ca536061037651e7c4ff067b",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Passwort: Schalke schlägt Liverpool",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/bei-passwoertern-schlaegt-schalke04-selbst-liverpool",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-03T10:41:45.107Z",
+    "deliveredAt": "2026-10-03T10:41:45.107Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "59f198b502a066d2482b1d0a",
     "source": "EcommerceNews",
     "sourceKey": "src-bd7434d76405faf6",
@@ -10883,123 +10997,6 @@
     "publishedAt": "2026-09-29T12:00:00.000Z",
     "detectedAt": "2026-09-29T11:36:48.298Z",
     "deliveredAt": "2026-09-29T11:36:48.298Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6bdf2f523cc247f146b8fa19",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "48h Gewährleistungslabel: Volles Risiko für Onlinehändler",
-    "link": "https://wortfilter.de/gewaehrleistungslabel-risiko-haendler/",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.273Z",
-    "deliveredAt": "2026-09-29T11:36:48.273Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "db7e22c2b90306a97e0771e0",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Data Act im Onlineshop: Diese Angaben brauchen vernetzte Produkte",
-    "link": "https://onlinemarktplatz.de/293251/data-act-vernetzte-produkte/",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.272Z",
-    "deliveredAt": "2026-09-29T11:36:48.272Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e7f9d4ee54f53f13d6b8c41e",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Walmarts Sam’s Club Connect: KI soll Käufe vorhersagen",
-    "link": "https://onlinemarktplatz.de/293395/sams-club-connect-walmart/",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.272Z",
-    "deliveredAt": "2026-09-29T11:36:48.272Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "682d879835ffd8167ba834ba",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Podcast: Vom Hausaufgabenheft zum Amazon-Geschäft mit 10 Mio. Euro",
-    "link": "https://onlinemarktplatz.de/292925/haefft-bei-amazon/",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.272Z",
-    "deliveredAt": "2026-09-29T11:36:48.272Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e9db3ecaafbc09df3b382697",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Das bringt das neue Recht auf Reparatur",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/das-bringt-das-neue-recht-auf-reparatur-126076",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.268Z",
-    "deliveredAt": "2026-09-29T11:36:48.268Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
