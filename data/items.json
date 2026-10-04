@@ -1,5 +1,100 @@
 [
   {
+    "guid": "67e585955ba291938dea5c61",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Klarna Reparaturservice: 70 % sehen Nutzen, 14 % reparieren",
+    "link": "https://wortfilter.de/klarna-reparaturservice-care-repair/",
+    "pageDate": "Sun, 04 Oct 2026 06:31:38 +0000",
+    "publishedAt": "2026-10-04T06:31:38.000Z",
+    "detectedAt": "2026-10-04T12:21:46.428Z",
+    "deliveredAt": "2026-10-04T12:21:46.428Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2c55006defa965e661fe1017",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Operation Troja: Eine Million mutmaßliche Mogel-Handys im Onlinehandel",
+    "link": "https://onlinemarktplatz.de/293682/operation-troja-millionenbetrug/",
+    "pageDate": "Sun, 04 Oct 2026 06:20:49 +0000",
+    "publishedAt": "2026-10-04T06:20:49.000Z",
+    "detectedAt": "2026-10-04T12:21:46.427Z",
+    "deliveredAt": "2026-10-04T12:21:46.427Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ab2883db83b55da9cfbacb25",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "KI-Betrug mit Veteranen: Falsche Verkäufer auf TikTok",
+    "link": "https://onlinemarktplatz.de/293684/ki-betrug-mit-veteranen-tiktok/",
+    "pageDate": "Sun, 04 Oct 2026 07:11:41 +0000",
+    "publishedAt": "2026-10-04T07:11:41.000Z",
+    "detectedAt": "2026-10-04T12:21:46.427Z",
+    "deliveredAt": "2026-10-04T12:21:46.427Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "577e8cccc30a2026e8ea5a8b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kleinanzeigen KI-Analyse: Was mit Händler-Chats passiert",
+    "link": "https://onlinemarktplatz.de/293711/kleinanzeigen-ki-analyse-haendler-chats/",
+    "pageDate": "Sun, 04 Oct 2026 07:53:08 +0000",
+    "publishedAt": "2026-10-04T07:53:08.000Z",
+    "detectedAt": "2026-10-04T12:21:46.426Z",
+    "deliveredAt": "2026-10-04T12:21:46.426Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "8f003bcfb393a915c57a723b",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10909,94 +11004,6 @@
     "publishedAt": "2026-09-29T12:00:00.000Z",
     "detectedAt": "2026-09-29T11:36:48.306Z",
     "deliveredAt": "2026-09-29T11:36:48.306Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "15d6928970a857d0a4b8ff4d",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "95 % des Gesamtwerts steuerpflichtiger Erbschaften und Schenkungen 2025 in Westdeutschland",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_40_p002.html",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.298Z",
-    "deliveredAt": "2026-09-29T11:36:48.298Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1b469d893d3920d6b71dc404",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Öffentliche Schulden im 2. Quartal 2026 um 1,0 % höher als im Vorquartal",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_341_713.html",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.298Z",
-    "deliveredAt": "2026-09-29T11:36:48.298Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b3b5e491ce1dd805c5055b21",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Kindertagesbetreuung 2026: Zahl der unter Dreijährigen sinkt zum dritten Mal in Folge",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_342_225.html",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.298Z",
-    "deliveredAt": "2026-09-29T11:36:48.298Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "32a3ff22f3e9f04ff095c616",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Beschäftigungsquoten 2025: Mehr Personen mit niedrigem und mittlerem Bildungsabschluss erwerbstätig als 2015",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/09/PD26_343_213.html",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.298Z",
-    "deliveredAt": "2026-09-29T11:36:48.298Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
