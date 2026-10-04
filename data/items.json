@@ -1,5 +1,28 @@
 [
   {
+    "guid": "836aa257fd70498833319ad4",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Risikomanagement: Ohne welche Geräte steht euer Business still?",
+    "link": "https://wortfilter.de/risikomanagement-geraeteausfall-onlinehandel/",
+    "pageDate": "Sun, 04 Oct 2026 17:12:01 +0000",
+    "publishedAt": "2026-10-04T17:12:01.000Z",
+    "detectedAt": "2026-10-04T20:12:18.144Z",
+    "deliveredAt": "2026-10-04T20:12:18.144Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "67e585955ba291938dea5c61",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10980,26 +11003,6 @@
     "priority": 2,
     "title": "29.09.2026",
     "link": "https://news.post.at/presse/de/post/id/2348123/PAKETSTEUER%20STARTET:%20&Ouml;STERREICHISCHE%20POST%20ST&Auml;RKT%20HEIMISCHEN%20ONLINE-HANDEL",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.306Z",
-    "deliveredAt": "2026-09-29T11:36:48.306Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6b3ac555db43b2493408fdea",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "PAKETSTEUER STARTET: ÖSTERREICHISCHE POST STÄRKT HEIMISCHEN ONLINE-HANDEL",
-    "link": "https://news.post.at/presse/de/post/id/2348123/PAKETSTEUER%20STARTET%3A%20%26Ouml%3BSTERREICHISCHE%20POST%20ST%26Auml%3BRKT%20HEIMISCHEN%20ONLINE-HANDEL",
     "pageDate": "29.09.2026",
     "publishedAt": "2026-09-29T12:00:00.000Z",
     "detectedAt": "2026-09-29T11:36:48.306Z",
