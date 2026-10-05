@@ -1492,9 +1492,10 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastSlot": "2026-10-04-15",
+  "lastSlot": "2026-10-05-08",
   "lastSentAt": "2026-10-04T12:22:23.688Z",
   "handledGuids": [
+    "836aa257fd70498833319ad4",
     "577e8cccc30a2026e8ea5a8b",
     "ab2883db83b55da9cfbacb25",
     "67e585955ba291938dea5c61",
@@ -3601,9 +3602,9 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastEvaluatedAt": "2026-10-04T13:07:46.146Z",
+  "lastEvaluatedAt": "2026-10-05T06:51:19.748Z",
   "lastFilterSummary": {
-    "readerSeen": 0,
+    "readerSeen": 1,
     "historical": 0,
     "lowPriority": 0,
     "quality": 0
