@@ -1,5 +1,253 @@
 [
   {
+    "guid": "590049c890ba0a6c41feccbb",
+    "source": "Handelskraft",
+    "sourceKey": "src-6c1c923af06aedde",
+    "sourceLabel": "Handelskraft",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "OpenAI Ads: So profitiert ihr von Werbung in ChatGPT",
+    "link": "https://www.handelskraft.de/openai-ads/",
+    "pageDate": "Mon, 05 Oct 2026 06:00:21 +0000",
+    "publishedAt": "2026-10-05T06:00:21.000Z",
+    "detectedAt": "2026-10-05T09:04:36.743Z",
+    "deliveredAt": "2026-10-05T09:04:36.743Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "18d0fffc9669a375e34c8399",
+    "source": "Ifhkoeln",
+    "sourceKey": "src-ce9e70954500f828",
+    "sourceLabel": "Ifhkoeln",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "B2B-Internethandel von Herstellern und Großhändlern wächst 2025 auf 549 Milliarden Euro",
+    "link": "https://www.ifhkoeln.de/b2b-internethandel-von-herstellern-und-grosshaendlern-waechst-2025-auf-549-milliarden-euro/",
+    "pageDate": "05.10.2026",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "detectedAt": "2026-10-05T09:04:36.724Z",
+    "deliveredAt": "2026-10-05T09:04:36.724Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9bbabec2661b1bb01ae20bc9",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "HDE-Konsumbarometer im Oktober: Verbraucherstimmung verschlechtert sich deutlich",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15372-hde-konsumbarometer-im-oktober-verbraucherstimmung-verschlechtert-sich-deutlich",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-05T09:04:36.689Z",
+    "deliveredAt": "2026-10-05T09:04:36.689Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b9b842b55347965a28e23986",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "DHL Kartenzahlung an der Haustür: Service vorerst gestoppt",
+    "link": "https://wortfilter.de/dhl-kartenzahlung-haustuer-gestoppt/",
+    "pageDate": "Mon, 05 Oct 2026 06:27:54 +0000",
+    "publishedAt": "2026-10-05T06:27:54.000Z",
+    "detectedAt": "2026-10-05T09:04:36.687Z",
+    "deliveredAt": "2026-10-05T09:04:36.687Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ece116ee1c478e238792691e",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "HDE-Konsumbarometer: 93,51 Punkte – Q4 bringt keine Rettung",
+    "link": "https://wortfilter.de/hde-konsumbarometer-oktober-2026/",
+    "pageDate": "Mon, 05 Oct 2026 07:30:01 +0000",
+    "publishedAt": "2026-10-05T07:30:01.000Z",
+    "detectedAt": "2026-10-05T09:04:36.687Z",
+    "deliveredAt": "2026-10-05T09:04:36.687Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b5abcd8e0061b253fee26d24",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Der bessere Marktplatz: Händler finanzieren neue Plattform",
+    "link": "https://onlinemarktplatz.de/293726/der-bessere-marktplatz/",
+    "pageDate": "Mon, 05 Oct 2026 05:58:10 +0000",
+    "publishedAt": "2026-10-05T05:58:10.000Z",
+    "detectedAt": "2026-10-05T09:04:36.685Z",
+    "deliveredAt": "2026-10-05T09:04:36.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5914fab34f7c9115da0959a0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Shopify Canvas verbindet Shop-Design und Sidekick im Early Access",
+    "link": "https://onlinemarktplatz.de/293741/shopify-canvas-early-access/",
+    "pageDate": "Mon, 05 Oct 2026 06:29:55 +0000",
+    "publishedAt": "2026-10-05T06:29:55.000Z",
+    "detectedAt": "2026-10-05T09:04:36.685Z",
+    "deliveredAt": "2026-10-05T09:04:36.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "abc78cfdff2444b175537fc4",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "myflexbox Übernahme: Deutsche Post kauft Paketstationsnetz",
+    "link": "https://onlinemarktplatz.de/293764/myflexbox-uebernahme-dhl/",
+    "pageDate": "Mon, 05 Oct 2026 07:01:20 +0000",
+    "publishedAt": "2026-10-05T07:01:20.000Z",
+    "detectedAt": "2026-10-05T09:04:36.685Z",
+    "deliveredAt": "2026-10-05T09:04:36.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "74384cdac935a8a4fd750c5f",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom steigert Wachstum, Effizienz und Qualität durch Einsatz von KI",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-steigert-wachstum-effizienz-und-qualitaet-durch-einsatz",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-05T09:04:36.669Z",
+    "deliveredAt": "2026-10-05T09:04:36.669Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f31db42b3ddd68447af33dd9",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Christoph Hoerauf wechselt als Partner zu EY",
+    "link": "https://www.ey.com/de_de/newsroom/2026/10/ey-personalien-oktober-christoph-hoerauf",
+    "pageDate": "05.10.2026",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "detectedAt": "2026-10-05T09:04:36.626Z",
+    "deliveredAt": "2026-10-05T09:04:36.626Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b4f1c97be43ee9266c5ce691",
+    "source": "Zalando Newsroom",
+    "sourceKey": "src-72a2ecac55647739",
+    "sourceLabel": "Zalando",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "„Access All Areas“: Zalando bringt 2027 neues Festival für Musik, Mode und Kultur nach Berlin",
+    "link": "https://corporate.zalando.com/de/unternehmen/access-all-areas-zalando-bringt-2027-neues-festival-fuer-musik-mode-kultur-berlin",
+    "pageDate": "05.10.2026",
+    "publishedAt": "2026-10-05T12:00:00.000Z",
+    "detectedAt": "2026-10-05T09:04:36.616Z",
+    "deliveredAt": "2026-10-05T09:04:36.616Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "836aa257fd70498833319ad4",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10770,245 +11018,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "53dd05ba4fe593e0eb6a8699",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches in-store with GARAGE and DYNAMITE across North America and the UK",
-    "link": "https://www.klarna.com/international/press/klarna-launches-in-store-with-garage-and-dynamite-across-north-america-and-the-uk/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d94bc41f149d1119a0880f12",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna CEO Sebastian Siemiatkowski acquires 692,506 shares for $10 million",
-    "link": "https://www.klarna.com/international/press/klarna-ceo-sebastian-siemiatkowski-acquires-692-506-shares-for-10-million/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cf27afb513a0a0ed480e54d4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Rare Carat team up to bring flexible payments to engagement ring shopping",
-    "link": "https://www.klarna.com/international/press/klarna-and-rare-carat-team-up-to-bring-flexible-payments-to-engagement-ring-shopping/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a96f706f91f5862450d56705",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna is now available in HubSpot's new Checkout experience for merchants in the U.S. and Canada",
-    "link": "https://www.klarna.com/international/press/klarna-is-now-available-in-hubspots-new-checkout-experience-for-merchants-in-the-u-s-and-canada/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4551c48892977ac5d09532a4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands Nordics anti-fraud toolkit with new live call verification tool",
-    "link": "https://www.klarna.com/international/press/klarna-expands-nordics-anti-fraud-toolkit-with-new-live-call-verification-tool/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.372Z",
-    "deliveredAt": "2026-09-29T17:03:03.372Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "76e6fd3a36e95a562d402f66",
-    "source": "Etsy",
-    "sourceKey": "src-dbea0c1ac563772a",
-    "sourceLabel": "Etsy",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Newly Crafted: How We’re Investing in Seller Success (Fall 2026)",
-    "link": "https://www.etsy.com/de/news/newly-crafted-how-weare-investing-in-seller-success-fall-2026",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-29T17:03:03.359Z",
-    "deliveredAt": "2026-09-29T17:03:03.359Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7e0a649d6ff177098ec25601",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Cloudflare und Deutsche Telekom engagieren sich für ein sicheres und resilientes Internet",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/09/cloudflare-und-deutsche-telekom-engagieren-sich-fuer-ein-sichere",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-29T17:03:03.353Z",
-    "deliveredAt": "2026-09-29T17:03:03.353Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a4ab05286bf4f3352e588a72",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to play free games on Amazon Luna and GameNight with your Prime membership",
-    "link": "https://www.aboutamazon.com/news/entertainment/amazon-luna-redesign-gamenight-prime",
-    "pageDate": "Sept. 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.313Z",
-    "deliveredAt": "2026-09-29T11:36:48.313Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "708a51c95a6bbf67b79575c6",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "Veröffentlichungstermine für ZEW-Konjunkturerwartungen 2027 stehen fest",
-    "link": "https://www.zew.de/presse/pressearchiv/veroeffentlichungstermine-fuer-zew-konjunkturerwartungen-2027-stehen-fest",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.312Z",
-    "deliveredAt": "2026-09-29T11:36:48.312Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "69ec7e46ce39428f4ef44dec",
-    "source": "Mittelstand Digital",
-    "sourceKey": "src-3fbff5b0f3b52fe1",
-    "sourceLabel": "Mittelstand Digital",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Wissensnugget: Mit KI die digitale Resilienz im Großhandel stärken",
-    "link": "https://digitalzentrumhandel.de/author/julia-frings/",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.307Z",
-    "deliveredAt": "2026-09-29T11:36:48.307Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7db6d67eff396b995801ecba",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "29.09.2026",
-    "link": "https://news.post.at/presse/de/post/id/2348123/PAKETSTEUER%20STARTET:%20&Ouml;STERREICHISCHE%20POST%20ST&Auml;RKT%20HEIMISCHEN%20ONLINE-HANDEL",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T11:36:48.306Z",
-    "deliveredAt": "2026-09-29T11:36:48.306Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
