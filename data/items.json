@@ -1,5 +1,54 @@
 [
   {
+    "guid": "08348e07562f17f454932b38",
+    "source": "Uber",
+    "sourceKey": "src-9ca710b31d1e337a",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber Announces Date of Third Quarter 2026 Results Conference Call",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Date-of-Third-Quarter-2026-Results-Conference-Call/default.aspx",
+    "pageDate": "October 5, 2026",
+    "publishedAt": "2026-10-05T00:00:00.000Z",
+    "detectedAt": "2026-10-06T00:22:26.737Z",
+    "deliveredAt": "2026-10-06T00:22:26.737Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0c42ce8e893858daf4449428",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Correcting the Record: We Price Products, Not People",
+    "link": "https://corporate.walmart.com/news/2026/10/correcting-the-record",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-06T00:22:26.732Z",
+    "deliveredAt": "2026-10-06T00:22:26.732Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "46f15702f9ff221f6ae8dd55",
     "source": "Hahnclassic",
     "sourceKey": "src-4e8676d7ff867c65",
@@ -10970,50 +11019,6 @@
     "priority": 2,
     "title": "Navigate to Klarna lands Southwest Airlines, bringing flexible payments to millions of US travelers this fall",
     "link": "https://www.klarna.com/international/press/klarna-lands-southwest-airlines-bringing-flexible-payments-to-millions-of-us-travelers-this-fall/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e38fd5479fe1f1bb07835449",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Flix and Klarna expand partnership to give millions of travelers across the U.S. and Europe more ways to pay",
-    "link": "https://www.klarna.com/international/press/flix-and-klarna-expand-partnership-to-give-millions-of-travelers-across-the-u-s-and-europe-more-ways-to-pay/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c44526432c58ce5262c20b9e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna adds Germany to its capital efficiency platform with €900m facility supporting €5bn of German Financing expansion",
-    "link": "https://www.klarna.com/international/press/klarna-adds-germany-to-its-capital-efficiency-platform-with-eur900m-facility-supporting-eur5bn-of-german-financing-expansion/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-29T17:03:03.373Z",
