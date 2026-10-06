@@ -1,5 +1,224 @@
 [
   {
+    "guid": "6cfc4dfaac978e6e4ebca774",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Bol’s Het Grote Speelgoedboek comes to life this year with Rutger & Thomas, Lieve Merlijn, Meester Jesper and other familiar faces",
+    "link": "https://over.bol.com/en/news/bol-s-het-grote-speelgoedboek-comes-to-life-this-year-with-rutger-and-thomas-lieve-merlijn-meester-jesper-and-other-familiar-faces/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-06T06:53:50.200Z",
+    "deliveredAt": "2026-10-06T06:53:50.200Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a704645c1aa96df0cf38037f",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Infoblatt: Nachwuchsführungskräfte gewinnen und halten",
+    "link": "https://digitalzentrumhandel.de/author/anne-liesenfeld/",
+    "pageDate": "06.10.2026",
+    "publishedAt": "2026-10-06T12:00:00.000Z",
+    "detectedAt": "2026-10-06T06:53:50.192Z",
+    "deliveredAt": "2026-10-06T06:53:50.192Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d1ec62772be29f7340a39ca7",
+    "source": "BPEX",
+    "sourceKey": "src-fdfe2643c70da9a3",
+    "sourceLabel": "BPEX",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Faire Arbeitsbedingungen in der Paketbranche",
+    "link": "https://bpex-ev.de/presse/meldung/jede-minute-zaehlt-digitale-arbeitszeiterfassung",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-06T06:53:50.185Z",
+    "deliveredAt": "2026-10-06T06:53:50.185Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "04c4ddbf37c8e31ac54dd112",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Umsatz im Dienstleistungsbereich im Juli 2026 um 0,7 % höher als im Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_353_474.html",
+    "pageDate": "Tue, 6 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-06T06:00:00.000Z",
+    "detectedAt": "2026-10-06T06:53:50.183Z",
+    "deliveredAt": "2026-10-06T06:53:50.183Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a364b0970e7bbe8662f4dfb6",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "69 % der Studienanfängerinnen und -anfänger sind zum Studium im eigenen Bundesland geblieben",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_41_p002.html",
+    "pageDate": "Tue, 6 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-06T06:00:00.000Z",
+    "detectedAt": "2026-10-06T06:53:50.182Z",
+    "deliveredAt": "2026-10-06T06:53:50.182Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3a987fcb52b38bcd4cadd53c",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragseingang im Verarbeitenden Gewerbe im August 2026: -10,6 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_354_421.html",
+    "pageDate": "Tue, 6 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-06T06:00:00.000Z",
+    "detectedAt": "2026-10-06T06:53:50.182Z",
+    "deliveredAt": "2026-10-06T06:53:50.182Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3e854aa70f685d0a8b9acea3",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "fulfillmenttools steuert ersten Omnichannel-Pilot bei toom",
+    "link": "https://onlinemarktplatz.de/293744/toom-omnichannel-order-management-pilot/",
+    "pageDate": "Tue, 06 Oct 2026 06:00:40 +0000",
+    "publishedAt": "2026-10-06T06:00:40.000Z",
+    "detectedAt": "2026-10-06T06:53:50.155Z",
+    "deliveredAt": "2026-10-06T06:53:50.155Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0395bb53d9109b89ff11ec94",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Mehr Händler zahlen für Retouren – doch viele kennen ihre Kosten nicht",
+    "link": "https://onlinemarktplatz.de/293763/kostenlose-retouren-haendler/",
+    "pageDate": "Tue, 06 Oct 2026 06:29:01 +0000",
+    "publishedAt": "2026-10-06T06:29:01.000Z",
+    "detectedAt": "2026-10-06T06:53:50.155Z",
+    "deliveredAt": "2026-10-06T06:53:50.155Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "954a321e93185fa05c95f555",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Glasfaser für sieben Millionen Wohnungen",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/glasfaser-fuer-sieben-millionen-wohnungen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-06T06:53:50.140Z",
+    "deliveredAt": "2026-10-06T06:53:50.140Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "72af622108217a733a0eee6c",
+    "source": "Galaxus Medienmitteilungen",
+    "sourceKey": "src-c4694153f4de0aba",
+    "sourceLabel": "Galaxus",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Viele Feinde, geshoppt wird trotzdem: Smart-Glasses-Verkäufe vervierfacht",
+    "link": "https://www.galaxus.de/de/page/viele-feinde-geshoppt-wird-trotzdem-smart-glasses-verkaeufe-vervierfacht-43954",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-06T06:53:50.106Z",
+    "deliveredAt": "2026-10-06T06:53:50.106Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "08348e07562f17f454932b38",
     "source": "Uber",
     "sourceKey": "src-9ca710b31d1e337a",
@@ -10799,226 +11018,6 @@
     "priority": 2,
     "title": "Navigate to Klarna and Tekion drive flexible payments into the auto service lane",
     "link": "https://www.klarna.com/international/press/klarna-and-tekion-drive-flexible-payments-into-the-auto-service-lane/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cf77e5bd34f15871be740d9a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Arrive for parking in 15 markets",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-arrive-for-parking-in-15-markets/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "beb01e5667e6dd6c3e091588",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Ulta Beauty partner to bring flexible payments to U.S. beauty shoppers",
-    "link": "https://www.klarna.com/international/press/klarna-and-ulta-beauty-partner-to-bring-flexible-payments-to-u-s-beauty-shoppers/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "894724f44a67e761f154aeea",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches in-app inbox to help consumers avoid scams",
-    "link": "https://www.klarna.com/international/press/klarna-launches-in-app-inbox-to-help-consumers-avoid-scams/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "eeb6094efac033b55f43896c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Bolt to grow ‘pay in full’ for rides and scooters",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-bolt-to-grow-pay-in-full-for-rides-and-scooters/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b23e8d5c8253347f5dd00c52",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna celebrates 5 years of growth, innovation and partnerships in France",
-    "link": "https://www.klarna.com/international/press/klarna-celebrates-5-years-of-growth-innovation-and-partnerships-in-france/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "61ca615e9f284422180f0763",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Vibrant Planet and WARSI win the Klarna Climate Heroes Award and $50,000 each for their proven impact in protecting forest carbon",
-    "link": "https://www.klarna.com/international/press/vibrant-planet-and-warsi-win-the-klarna-climate-heroes-award-and-50-000-each-for-their-proven-impact-in-protecting-forest-carbon/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2a2cf337797676294f50096a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna has received a favorable ruling in PriceRunner litigation, awarding $1.97 billion",
-    "link": "https://www.klarna.com/international/press/klarna-has-received-a-favorable-ruling-in-pricerunner-litigation-awarding-damages-of-1-97-billion/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2f38d7acb7ee4015091fc1c3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna teams up with Money Wellness to offer free financial health checks",
-    "link": "https://www.klarna.com/international/press/klarna-teams-up-with-money-wellness-to-offer-free-financial-health-checks/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cbc71ffaa8ee299364d3e3c4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna submits application for U.S. banking license",
-    "link": "https://www.klarna.com/international/press/klarna-submits-application-for-u-s-banking-license/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e24f749779611a8d5fbedbac",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna lands Southwest Airlines, bringing flexible payments to millions of US travelers this fall",
-    "link": "https://www.klarna.com/international/press/klarna-lands-southwest-airlines-bringing-flexible-payments-to-millions-of-us-travelers-this-fall/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-29T17:03:03.373Z",
