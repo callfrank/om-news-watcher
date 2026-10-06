@@ -1,5 +1,139 @@
 [
   {
+    "guid": "381db45872a0e385feba9511",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Crowdfunding – welche Plattform ist die beste?",
+    "link": "https://demoshops.de/crowdfunding-welche-plattform-ist-die-beste/",
+    "pageDate": "Tue, 06 Oct 2026 15:15:48 +0000",
+    "publishedAt": "2026-10-06T15:15:48.000Z",
+    "detectedAt": "2026-10-06T19:33:48.361Z",
+    "deliveredAt": "2026-10-06T19:33:48.361Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "98354fc25f98db8de677c4b7",
+    "source": "Ebayinc",
+    "sourceKey": "src-15b135037542f2c3",
+    "sourceLabel": "Ebayinc",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "How eBay CEO Jamie Iannone turns feedback into ideas",
+    "link": "https://www.ebayinc.com/stories/news/how-ebay-ceo-jamie-iannone-turns-feedback-into-ideas/",
+    "pageDate": "Oct 6, 2026 Sellers",
+    "publishedAt": null,
+    "detectedAt": "2026-10-06T19:33:48.347Z",
+    "deliveredAt": "2026-10-06T19:33:48.347Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1ee91379c1e75659fee334d5",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "5 ways Amazon is investing in Missouri",
+    "link": "https://www.aboutamazon.com/news/community/amazon-investment-missouri-jobs-infrastructure-small-business",
+    "pageDate": "Oct. 6, 2026",
+    "publishedAt": "2026-10-06T00:00:00.000Z",
+    "detectedAt": "2026-10-06T19:33:48.339Z",
+    "deliveredAt": "2026-10-06T19:33:48.339Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "33fd702f804a54a4cea7e728",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "5 ways Amazon is investing in Massachusetts",
+    "link": "https://www.aboutamazon.com/news/community/amazon-investment-massachusetts-jobs-infrastructure-small-business",
+    "pageDate": "Oct. 6, 2026",
+    "publishedAt": "2026-10-06T00:00:00.000Z",
+    "detectedAt": "2026-10-06T19:33:48.339Z",
+    "deliveredAt": "2026-10-06T19:33:48.339Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f7dc46505996cb63534a4535",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ and Maverik Announce Strategic Retail Collaboration",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-and-maverik-announce-strategic-retail-collaboration/",
+    "pageDate": "06.10.2026",
+    "publishedAt": "2026-10-06T12:00:00.000Z",
+    "detectedAt": "2026-10-06T19:33:48.333Z",
+    "deliveredAt": "2026-10-06T19:33:48.333Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0ff4f58a821f1bed2580c63c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "E-Mail-Adresse im Impressum: KG Berlin verurteilt Amazon",
+    "link": "https://wortfilter.de/e-mail-adresse-im-impressum-kg-berlin-amazon/",
+    "pageDate": "Tue, 06 Oct 2026 15:42:20 +0000",
+    "publishedAt": "2026-10-06T15:42:20.000Z",
+    "detectedAt": "2026-10-06T19:33:48.299Z",
+    "deliveredAt": "2026-10-06T19:33:48.299Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "1a8db1e4d2967961bf38fee7",
     "source": "Shopify QZ",
     "sourceKey": "e2a0e49e-43a8-4a12-8cd6-b4eefbc328a7",
@@ -95,8 +229,7 @@
       "Firmen"
     ],
     "tags": [
-      "E-Commerce",
-      "Unternehmensstrategie"
+      "E-Commerce"
     ],
     "priority": 2,
     "title": "Ab sofort in neun Ländern: Kaufland wächst mit Launch in Spanien zum größten Marktplatz-Netzwerk aus Europa",
@@ -121,8 +254,7 @@
       "Firmen"
     ],
     "tags": [
-      "E-Commerce",
-      "Unternehmensstrategie"
+      "E-Commerce"
     ],
     "priority": 2,
     "title": "Zur Pressemitteilung",
@@ -10886,138 +11018,6 @@
     "priority": 2,
     "title": "Navigate to Klarna partners with Coinbase to add stablecoin to funding mix",
     "link": "https://www.klarna.com/international/press/klarna-partners-with-coinbase-to-add-stablecoin-to-funding-mix/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d5d55fda5b573c5e94e0fff1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands digital bank offer with peer-to-peer payments",
-    "link": "https://www.klarna.com/international/press/klarna-expands-digital-bank-offer-with-peer-to-peer-payments/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "554f591ef0ba1223844cca9f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to Publish Q4 2025 Earnings on February 19, 2026",
-    "link": "https://www.klarna.com/international/press/klarna-to-publish-q4-2025-earnings-on-february-19-2026/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9064d75f0307c07d126b2102",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna backs Google’s Universal Commerce Protocol (UCP) to enable agentic commerce across platforms",
-    "link": "https://www.klarna.com/international/press/klarna-backs-googles-universal-commerce-protocol-ucp-to-enable-agentic/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9b784e93c54584a086da61f6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches on Google Pay in the UK",
-    "link": "https://www.klarna.com/international/press/klarna-launches-on-google-pay-in-the-uk/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a6978cec21f468118c2d36cb",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna accelerates U.S. growth and delivers $1bn revenue driven by rapid banking service adoption",
-    "link": "https://www.klarna.com/international/press/klarna-accelerates-u-s-growth-and-delivers-usd1bn-revenue-driven-by-rapid/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "60d8270253af55574472ebfd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Furnish your way: Article brings Klarna’s flexible payments to furniture shoppers",
-    "link": "https://www.klarna.com/international/press/furnish-your-way-article-brings-klarnas-flexible-payments-to-furniture/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-29T17:03:03.373Z",
