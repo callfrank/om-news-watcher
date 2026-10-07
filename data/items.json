@@ -1,5 +1,555 @@
 [
   {
+    "guid": "a98997acb9f3c1c3c4f51ed5",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "2Q 2026 Historical Financial Info",
+    "link": "https://investors.ups.com/_assets/_af7d05aefde5cc1d5bc5ad663f488fc9/ups/db/1111/11036/file/2026+Q2+Historical+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.649Z",
+    "deliveredAt": "2026-10-07T16:37:18.649Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "a60ba13978336cc194c8e85a",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "2Q 2026 Financial Statements",
+    "link": "https://investors.ups.com/_assets/_af7d05aefde5cc1d5bc5ad663f488fc9/ups/db/1111/11028/file/2026+Q2+Financial+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.649Z",
+    "deliveredAt": "2026-10-07T16:37:18.649Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "aa08c68d2610ff3fd3a7d7ad",
+    "source": "Hahnclassic",
+    "sourceKey": "src-4e8676d7ff867c65",
+    "sourceLabel": "Hahnclassic",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Porsche 911 Targa 4 (997 II)",
+    "link": "https://hahnclassic.de/porsche-911-targa-4-997-ii",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.645Z",
+    "deliveredAt": "2026-10-07T16:37:18.645Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d823d810fc8656858f5c2a8e",
+    "source": "Hahnclassic",
+    "sourceKey": "src-4e8676d7ff867c65",
+    "sourceLabel": "Hahnclassic",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Porsche 911 Carrera Cabriolet (G-Modell II)",
+    "link": "https://hahnclassic.de/porsche-911-carrera-cabriolet-g-modell-ii-03",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.645Z",
+    "deliveredAt": "2026-10-07T16:37:18.645Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "93188f59e66b8c7d221d287b",
+    "source": "Hahnclassic",
+    "sourceKey": "src-4e8676d7ff867c65",
+    "sourceLabel": "Hahnclassic",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Porsche Porsche-Diesel Standard 218",
+    "link": "https://hahnclassic.de/porsche-porsche-diesel-standard-218",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.645Z",
+    "deliveredAt": "2026-10-07T16:37:18.645Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0a8e19c2f40e5edd6b8536e5",
+    "source": "Hahnclassic",
+    "sourceKey": "src-4e8676d7ff867c65",
+    "sourceLabel": "Hahnclassic",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Porsche 911 S 2.4 Coupé (F-Modell)",
+    "link": "https://hahnclassic.de/porsche-911-s-2-4-coupe-f-modell",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.645Z",
+    "deliveredAt": "2026-10-07T16:37:18.645Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c901cc5c326bbcc37b507fab",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "NFWF and Walmart Foundation Launch Great Plains Grassland Fund with Funding from McDonald’s USA and Key Suppliers",
+    "link": "https://corporate.walmart.com/news/2026/10/NFWF-Walmart-Foundation-Great-Plains-Grassland-Fund",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.636Z",
+    "deliveredAt": "2026-10-07T16:37:18.636Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7eec58b541fa9671ed918613",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "New Ways to Shop, Holiday Traditions to Keep: Walmart is Ready for the Season",
+    "link": "https://corporate.walmart.com/news/2026/10/walmart-is-ready-for-the-season",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.636Z",
+    "deliveredAt": "2026-10-07T16:37:18.636Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6869865f2ead2edd0c6f79fa",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-07T16:37:18.633Z",
+    "deliveredAt": "2026-10-07T16:37:18.633Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "c604c8ef8dec13c458cc1925",
+    "source": "Ebayinc",
+    "sourceKey": "src-15b135037542f2c3",
+    "sourceLabel": "Ebayinc",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "eBay's 2026 Recommerce Report is here",
+    "link": "https://www.ebayinc.com/stories/news/ebay-recommerce-report-secondhand-shopping-rises-worldwide-as-consumers-seek-value-and-stretch-budgets/",
+    "pageDate": "Oct 7, 2026 Recommerce",
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.633Z",
+    "deliveredAt": "2026-10-07T16:37:18.633Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1880b9c2f2a48c1fd4cf0e0c",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Ring introduces four new 4K cameras and a pan-tilt indoor cam",
+    "link": "https://www.aboutamazon.com/news/devices/ring-4k-cameras-pan-tilt-cam",
+    "pageDate": "Oct. 7, 2026",
+    "publishedAt": "2026-10-07T00:00:00.000Z",
+    "detectedAt": "2026-10-07T16:37:18.628Z",
+    "deliveredAt": "2026-10-07T16:37:18.628Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1883e3ec293575bf27544fba",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Ring ends smart lock anxiety with a lock you can recharge by hand",
+    "link": "https://www.aboutamazon.com/news/devices/ring-smart-lock-battery-recharge",
+    "pageDate": "Oct. 7, 2026",
+    "publishedAt": "2026-10-07T00:00:00.000Z",
+    "detectedAt": "2026-10-07T16:37:18.628Z",
+    "deliveredAt": "2026-10-07T16:37:18.628Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "58694ee9543e733b27010b30",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NielsenIQ Appoints Puneet Sharma as Managing Director, India",
+    "link": "https://nielseniq.com/global/en/news-center/2026/nielseniq-appoints-puneet-sharma-as-managing-director-india/",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-07T16:37:18.624Z",
+    "deliveredAt": "2026-10-07T16:37:18.624Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "87b132435219191d6f2b3b80",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon holds 63% of German online retail",
+    "link": "https://ecommercenews.eu/amazon-holds-63-of-german-online-retail/",
+    "pageDate": "Wed, 07 Oct 2026 13:52:07 +0000",
+    "publishedAt": "2026-10-07T13:52:07.000Z",
+    "detectedAt": "2026-10-07T16:37:18.616Z",
+    "deliveredAt": "2026-10-07T16:37:18.616Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "22b462cf093d086c58ac836a",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Beschäftigungszahlen im Einzelhandel rückläufig: HDE warnt vor steigenden Arbeitskosten",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15378-beschaeftigungszahlen-im-einzelhandel-ruecklaeufig-hde-warnt-vor-steigenden-arbeitskosten",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.599Z",
+    "deliveredAt": "2026-10-07T16:37:18.599Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "61a3e6f9bd8e8c29bf87d3a2",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "EPR-Bevollmächtigter: Ausnahme für kleine Unternehmen rückt näher",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15379-epr-bevollmaechtigter-ausnahme-fuer-kleine-unternehmen-rueckt-naeher",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.599Z",
+    "deliveredAt": "2026-10-07T16:37:18.599Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cfb9b6bd64ce55bd5cc706e7",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "HDE kritisiert geplante Einführung einer Plastiksteuer scharf",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15380-hde-kritisiert-geplante-einfuehrung-einer-plastiksteuer-scharf",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.599Z",
+    "deliveredAt": "2026-10-07T16:37:18.599Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "09e8959ac07f44e1577348a7",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Technologie schlägt Zölle: Welthandel wächst schneller - Globalisierung erreicht neuen Rekordwert",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/technologie-schlaegt-zoelle-welthandel-waechst-schneller-globalisierung-erreicht-neuen-rekordwert.html",
+    "pageDate": "07.10.2026, 14:30 MESZ DHL",
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.597Z",
+    "deliveredAt": "2026-10-07T16:37:18.597Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "caec608276f07735183415ea",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Relevanz statt Rabatt: Wie Kaufentscheidungen heute entstehen – Ingo Wienand (MEDIA CENTRAL)",
+    "link": "https://onlinemarktplatz.de/293908/relevanz-statt-rabatt-wie-kaufentscheidungen-heute-entstehen-ingo-wienand-media-central/",
+    "pageDate": "Wed, 07 Oct 2026 04:00:00 +0000",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "detectedAt": "2026-10-07T16:37:18.597Z",
+    "deliveredAt": "2026-10-07T16:37:18.597Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "92bd920ef9972ca9558881de",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Amazon MENA – Chancen und Hürden für deutsche Händler",
+    "link": "https://onlinemarktplatz.de/293898/amazon-mena-podcast/",
+    "pageDate": "Wed, 07 Oct 2026 10:30:21 +0000",
+    "publishedAt": "2026-10-07T10:30:21.000Z",
+    "detectedAt": "2026-10-07T16:37:18.597Z",
+    "deliveredAt": "2026-10-07T16:37:18.597Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a3b66129221775c3eb2c083b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "eBay Oktober-Updates: Neue Funktionen für Versand und Fahrzeugteile",
+    "link": "https://onlinemarktplatz.de/293911/ebay-oktober-updates-2026/",
+    "pageDate": "Wed, 07 Oct 2026 11:28:09 +0000",
+    "publishedAt": "2026-10-07T11:28:09.000Z",
+    "detectedAt": "2026-10-07T16:37:18.597Z",
+    "deliveredAt": "2026-10-07T16:37:18.597Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "385ead2d94d8b457f6939f05",
+    "source": "Qonto Presse",
+    "sourceKey": "src-35d9eee1a02b99dd",
+    "sourceLabel": "Qonto",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Qonto startet seine erste Data-Storytelling-Plattform",
+    "link": "https://qonto-assets.s3.eu-central-1.amazonaws.com/blog/images/cache/07102026_pressemitteilung_qonto%20insights.pdf",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-07T16:37:18.574Z",
+    "deliveredAt": "2026-10-07T16:37:18.574Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "645826c067dceff689c72f23",
+    "source": "GMX Newsroom",
+    "sourceKey": "src-3347cf90b11a7aaa",
+    "sourceLabel": "GMX",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "GMX erneuert Markenauftritt und startet Mobilfunk-Cloud-Paket",
+    "link": "https://newsroom.gmx.net/2026/10/07/gmx-neuer-markenauftritt-mobilfunk-cloud/",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-07T16:37:18.567Z",
+    "deliveredAt": "2026-10-07T16:37:18.567Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "737306d9e602ba2846e2213f",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "10 Jahre Netzpolitisches Forum: Regulierung mit Augenmaß und innovationsfreundliche Rahmenbedingungen entscheiden über digitale Handlungsfähigkeit",
+    "link": "https://www.eco.de/presse/eco-verband-regulierung-mit-augenmass-und-innovationsfreundliche-rahmenbedingungen-entscheiden-ueber-digitale-handlungsfaehigkeit/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T16:37:18.556Z",
+    "deliveredAt": "2026-10-07T16:37:18.556Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "82f3dc3009d328063199b85c",
+    "source": "OTTO Pressemitteilungen",
+    "sourceKey": "src-8ce2a9da213bfc6e",
+    "sourceLabel": "OTTO",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Nächste Phase der KI-Transformation: OTTO startet GenAI-Enablement-Partner-Programm",
+    "link": "https://www.otto.de/unternehmen/de/presse/otto-startet-mit-dem-genai-enablement-partner-programm",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-07T16:37:18.555Z",
+    "deliveredAt": "2026-10-07T16:37:18.555Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c06cb787cb0d127bcedc6c42",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -3827,24 +4377,6 @@
     "publishedAt": null,
     "detectedAt": "2026-10-06T00:22:26.732Z",
     "deliveredAt": "2026-10-06T00:22:26.732Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "46f15702f9ff221f6ae8dd55",
-    "source": "Hahnclassic",
-    "sourceKey": "src-4e8676d7ff867c65",
-    "sourceLabel": "Hahnclassic",
-    "groups": [],
-    "tags": [],
-    "priority": 2,
-    "title": "Porsche 911 Carrera Cabriolet (G-Modell II)",
-    "link": "https://hahnclassic.de/porsche-911-carrera-cabriolet-g-modell-ii-3",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-05T18:28:26.708Z",
-    "deliveredAt": "2026-10-05T18:28:26.708Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
@@ -9535,46 +10067,6 @@
     "duplicateSources": []
   },
   {
-    "guid": "b20a864b0c3d6a496197bdfb",
-    "source": "UPS QZ",
-    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
-    "sourceLabel": "UPS QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "2Q 2026 Historical Financial Info",
-    "link": "https://investors.ups.com/_assets/_5c2bc503e4db6d18357d3ab822cb79cf/ups/db/1111/11036/file/2026+Q2+Historical+Info+for+Website.xlsx",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-30T18:09:55.282Z",
-    "deliveredAt": "2026-09-30T18:09:55.282Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c45da45ad4bac0fbc8a98a82",
-    "source": "UPS QZ",
-    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
-    "sourceLabel": "UPS QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "2Q 2026 Financial Statements",
-    "link": "https://investors.ups.com/_assets/_5c2bc503e4db6d18357d3ab822cb79cf/ups/db/1111/11028/file/2026+Q2+Financial+Info+for+Website.xlsx",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-09-30T18:09:55.282Z",
-    "deliveredAt": "2026-09-30T18:09:55.282Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
     "guid": "246b8d6cdfb27e1f67df554a",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10545,485 +11037,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "42d45e3b1acde70e4de59d0c",
-    "source": "JD Corporate News",
-    "sourceKey": "src-9261fd3fa3c1f896",
-    "sourceLabel": "JD",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Trust and Reliability Put JD.com at No. 2 in Inside Retail’s Asia Brand Conviction Index",
-    "link": "https://jdcorporateblog.com/trust-and-reliability-put-jd-com-at-no-2-in-inside-retails-asia-brand-conviction-index/",
-    "pageDate": "Sep 30, 2026",
-    "publishedAt": "2026-09-30T00:00:00.000Z",
-    "detectedAt": "2026-09-30T06:02:23.509Z",
-    "deliveredAt": "2026-09-30T06:02:23.509Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8f205a803640580ce49f3797",
-    "source": "Amazon Seller Events",
-    "sourceKey": "src-4a1336d19ad6bee0",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "New York, NY, United States Sep 30 - Oct 1, 2026 White & Private Label Expo New York 2026",
-    "link": "https://amzsummits.com/events/white-private-label-expo-new-york-2026/",
-    "pageDate": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T00:00:00.000Z",
-    "detectedAt": "2026-09-30T00:48:04.535Z",
-    "deliveredAt": "2026-09-30T00:48:04.535Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8fb2c2a5cbcbacdc8ab90b4e",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Anthropic's Claude Sonnet 5.5 is now on AWS",
-    "link": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
-    "pageDate": "Sept. 28, 2026",
-    "publishedAt": "2026-09-28T00:00:00.000Z",
-    "detectedAt": "2026-09-29T21:25:32.106Z",
-    "deliveredAt": "2026-09-29T21:25:32.106Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fd20d2dd1415e8dd6886f529",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Webmontag Frankfurt: Wie bekomme ich Wero in meinen E-Shop?",
-    "link": "https://demoshops.de/wie-bekomme-ich-wero-in-meinen-e-shop-und-warum/",
-    "pageDate": "29.09.2026",
-    "publishedAt": "2026-09-29T12:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.396Z",
-    "deliveredAt": "2026-09-29T17:03:03.396Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9c18ee2e47a15cec154227a3",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Watch the teaser trailer for ‘Campus Drivers,’ Prime Video’s adaptation of the best-selling novels coming November 6",
-    "link": "https://www.aboutamazon.com/news/entertainment/campus-drivers-prime-video",
-    "pageDate": "Sept. 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.386Z",
-    "deliveredAt": "2026-09-29T17:03:03.386Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "42f22f45a2b10900c8f835c0",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "'Spider-Man: Brand New Day' is coming to Prime Video October 6. Here's how to watch.",
-    "link": "https://www.aboutamazon.com/news/entertainment/how-to-watch-spider-man-movie-series-prime-video",
-    "pageDate": "Sept. 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.386Z",
-    "deliveredAt": "2026-09-29T17:03:03.386Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9819fbc305e80c13db5feb3f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Michael Rouse Joins Klarna as Chief Commercial Officer",
-    "link": "https://www.klarna.com/international/press/michael-rouse-joins-klarna-as-chief-commercial-officer/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e1a89f4796134e576fd8ee52",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Checkout now supports American Express",
-    "link": "https://www.klarna.com/international/press/klarna-checkout-now-supports-american-express/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "af1cc6db7e68037bbeab7f53",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces acquisition of BillPay",
-    "link": "https://www.klarna.com/international/press/klarna-announces-acquisition-of-billpay/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b2e0ee380cd46452b9a335bf",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Brings Instant Financing Options to Shopify’s Online Merchants in Nine Markets",
-    "link": "https://www.klarna.com/international/press/klarna-brings-instant-financing-options-to-shopifys-online-merchants-in-nine-markets/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b540af7b64771cc623fc917a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Strategic Equity Investment by Brightfolk A/S",
-    "link": "https://www.klarna.com/international/press/klarna-announces-strategic-equity-investment-by-brightfolk-as/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "76828ec311266c07da87d370",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna – Europe’s Newest Bank is born",
-    "link": "https://www.klarna.com/international/press/klarna-europes-newest-bank-is-born/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1b7114481b6fe5a6ac1d124d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Visa Commits to Strategic Investment in Klarna; Companies Plan Partnership Deal",
-    "link": "https://www.klarna.com/international/press/visa-commits-to-strategic-investment-in-klarna-companies-plan-partnership-deal/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1542b491b7adf3c6cc228c58",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Permira Announce Strategic Equity Investment",
-    "link": "https://www.klarna.com/international/press/klarna-and-permira-announce-strategic-equity-investment/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "29dad8d76d570365275e2141",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches “Wavy” Peer-to-Peer Payment Service",
-    "link": "https://www.klarna.com/international/press/klarna-launches-wavy-peer-to-peer-payment-service/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "91e9d535554c0dac8a2043fe",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Swedish Tech Bank Klarna Launches “Smoooth” Brand",
-    "link": "https://www.klarna.com/international/press/swedish-tech-bank-klarna-launches-smoooth-brand/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a05308c88216fa894c4a23aa",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Completion of Acquisition of BillPay",
-    "link": "https://www.klarna.com/international/press/klarna-announces-completion-of-acquisition-of-billpay/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4195ea6f6c4a531c0be31285",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to PPRO Group and Klarna partner to offer risk-free credit payment methods across Europe",
-    "link": "https://www.klarna.com/international/press/ppro-group-and-klarna-partner-to-offer-risk-free-credit-payment-methods-across-europe/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3cf568339afd122a2ea64284",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Global: Worldpay partners with Klarna to launch invoice and credit based payments in 6 key European markets",
-    "link": "https://www.klarna.com/international/press/global-worldpay-partners-with-klarna-to-launch-invoice-and-credit-based-payments-in-6-key-european-markets/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.374Z",
-    "deliveredAt": "2026-09-29T17:03:03.374Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ebf6b3f7c3cb262be97de460",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Tis’ the season to be frazzled: 1 in 6 want to go on holiday to escape the festive frenzy – and almost a third of Brits are exhausted by Boxing Day",
-    "link": "https://www.klarna.com/international/press/tis-the-season-to-be-frazzled-1-in-6-want-to-go-on-holiday-to-escape-the-festive-frenzy-and-almost-a-third-of-brits-are-exhausted-by-boxing-day/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "65e5ee2f844db22880b88048",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Group issues senior unsecured bond 2017",
-    "link": "https://www.klarna.com/international/press/klarna-group-issues-senior-unsecured-bond-2017/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4123ddf2de83526c50773c43",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Listing of Notes and Choice of Home Member State.",
-    "link": "https://www.klarna.com/international/press/listing-of-notes-and-choice-of-home-member-state/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
