@@ -1,5 +1,271 @@
 [
   {
+    "guid": "c06cb787cb0d127bcedc6c42",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "PPRO startet Wero Subscriptions",
+    "link": "https://demoshops.de/ppro-wero-subscriptions/",
+    "pageDate": "Wed, 07 Oct 2026 05:45:13 +0000",
+    "publishedAt": "2026-10-07T05:45:13.000Z",
+    "detectedAt": "2026-10-07T09:18:28.343Z",
+    "deliveredAt": "2026-10-07T09:18:28.343Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "82f427830e07b8bec1c19461",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch Mike Flanagan's ‘Carrie,’ the Stephen King adaptation streaming now on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/carrie-stephen-king-mike-flanagan-prime-video",
+    "pageDate": "Oct. 7, 2026",
+    "publishedAt": "2026-10-07T00:00:00.000Z",
+    "detectedAt": "2026-10-07T09:18:28.332Z",
+    "deliveredAt": "2026-10-07T09:18:28.332Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b19c168b259884680cf1c3c0",
+    "source": "Ifhkoeln",
+    "sourceKey": "src-ce9e70954500f828",
+    "sourceLabel": "Ifhkoeln",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Neue Dynamik im Amazon-Markt: Wachsender Wettbewerb, Potenziale im Lebensmittelmarkt",
+    "link": "https://www.ifhkoeln.de/neue-dynamik-im-amazon-markt-wachsender-wettbewerb-potenziale-im-lebensmittelmarkt/",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-07T09:18:28.331Z",
+    "deliveredAt": "2026-10-07T09:18:28.331Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "89322ba5cc9f956448add24b",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "55% of Consumers Now Use AI During Product Discovery as Marketers Race to Keep Pace with a Faster, More Fragmented Consumer Journey",
+    "link": "https://nielseniq.com/global/en/news-center/2026/consumer-outlook-55-percent-of-consumers-now-use-ai-during-product-discovery/",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-07T09:18:28.330Z",
+    "deliveredAt": "2026-10-07T09:18:28.330Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2c8fcda49e3fe01cd5259a6b",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Produktion im August 2026: +2,0 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_355_421.html",
+    "pageDate": "Wed, 7 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-07T06:00:00.000Z",
+    "detectedAt": "2026-10-07T09:18:28.324Z",
+    "deliveredAt": "2026-10-07T09:18:28.324Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4559394433b15181e51df33d",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Einnahmen aus Hundesteuer stagnieren 2025 auf hohem Niveau",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N069_73.html",
+    "pageDate": "Wed, 7 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-07T06:00:00.000Z",
+    "detectedAt": "2026-10-07T09:18:28.324Z",
+    "deliveredAt": "2026-10-07T09:18:28.324Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1869c503d34c593254a73957",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": ", Berlin, 07.10.2026 Nur jedes zehnte Unternehmen gegen KI-gestützte Angriffe gerüstet - jedes sechste Unternehmen berichtet von Vorfällen Nur wenige Unternehmen in Deutschland haben Schutzmaßnahmen und Prozesse mit Blick auf Cyberangriffe im Zusammenhang mit KI etabliert. Das zeigt die aktuelle Studie zum Thema „Künstliche Intelligenz und Cybersicherheit in Unternehmen\", eine gemeinsame Untersuchung des TÜV-Verbands und des BSI, für die mehr als 500 Unternehmen ab 20 Mitarbeitenden …",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261007_KI-Sicherheitsstudie_TUEV_BSI.html",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-07T09:18:28.312Z",
+    "deliveredAt": "2026-10-07T09:18:28.312Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d8b6e132318bbebb1454803d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon DVA+: Neue Werbeplattform startet als US-Beta",
+    "link": "https://onlinemarktplatz.de/293752/amazon-dva-us-beta-werbeplattform/",
+    "pageDate": "Wed, 07 Oct 2026 05:58:55 +0000",
+    "publishedAt": "2026-10-07T05:58:55.000Z",
+    "detectedAt": "2026-10-07T09:18:28.310Z",
+    "deliveredAt": "2026-10-07T09:18:28.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ba0d771d18c01cc2a7065eef",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "JTL Juno startet in Closed Beta mit Bestellvorschlägen",
+    "link": "https://onlinemarktplatz.de/293828/jtl-juno-closed-beta-bestellvorschlaege/",
+    "pageDate": "Wed, 07 Oct 2026 06:29:28 +0000",
+    "publishedAt": "2026-10-07T06:29:28.000Z",
+    "detectedAt": "2026-10-07T09:18:28.310Z",
+    "deliveredAt": "2026-10-07T09:18:28.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d997b194f11b7326976b2d92",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "OTTO digitale Produkte: Verkauf startet mit Nintendo-Codes",
+    "link": "https://onlinemarktplatz.de/293845/otto-digitale-produkte-nintendo-codes/",
+    "pageDate": "Wed, 07 Oct 2026 07:01:29 +0000",
+    "publishedAt": "2026-10-07T07:01:29.000Z",
+    "detectedAt": "2026-10-07T09:18:28.310Z",
+    "deliveredAt": "2026-10-07T09:18:28.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aadf3acac774997a866c9d6b",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Fenster energetisch sanieren – Energie sparen",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/fenster-energetisch-sanieren-energie-sparen-126269",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-07T09:18:28.305Z",
+    "deliveredAt": "2026-10-07T09:18:28.305Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "af069f59aa05f0d270ffdf3c",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom, SWM und M-net treiben FTTH-Ausbau erfolgreich voran",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-swm-und-m-net-treiben-ftth-ausbau-erfolgreich-voran",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-07T09:18:28.301Z",
+    "deliveredAt": "2026-10-07T09:18:28.301Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "137700a39e1d3708f1686376",
     "source": "Nielseniq",
     "sourceKey": "src-3b4d077cfd190cbb",
@@ -10752,270 +11018,6 @@
     "priority": 2,
     "title": "Navigate to Listing of Notes and Choice of Home Member State.",
     "link": "https://www.klarna.com/international/press/listing-of-notes-and-choice-of-home-member-state/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8fe780e84e280aa2cff38c6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Payments Expands eCommerce Footprint with ACI Worldwide",
-    "link": "https://www.klarna.com/international/press/klarna-payments-expands-ecommerce-footprint-with-aci-worldwide/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7b80e2464d9beb4d65cd159b",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with London College of Fashion, UAL",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-london-college-of-fashion-ual/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4658e43ecc43d76501e99e21",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna appoints new General Manager for DACH Region",
-    "link": "https://www.klarna.com/international/press/klarna-appoints-new-general-manager-for-dach-region/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2ea79ebb353709ad8a73d6c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to close its Tel Aviv office site",
-    "link": "https://www.klarna.com/international/press/klarna-to-close-its-tel-aviv-office-site/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7db746751f986813ca107f94",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Announcement of change to the Board of Directors at Klarna Bank AB",
-    "link": "https://www.klarna.com/international/press/announcement-of-change-to-the-board-of-directors-at-klarna-bank-ab/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ce257b79a00ccb11540ecc37",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna year-end report January – December 2017.",
-    "link": "https://www.klarna.com/international/press/klarna-year-end-report-january-december-2017/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1c2dd0167d70505c05295510",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Record year for Klarna as the company continues to grow rapidly",
-    "link": "https://www.klarna.com/international/press/record-year-for-klarna-as-the-company-continues-to-grow-rapidly/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "78712c5600bbcda03c5e5ca6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to U.S. Online Merchants Believe Instant Financing Will Drive Increased Sales",
-    "link": "https://www.klarna.com/international/press/us-online-merchants-believe-instant-financing-will-drive-increased-sales/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1ffaa55fcc8c8f8052765e99",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to NL: Klarna and MyOnlineStore partner up to offer all-in-one online commerce solution",
-    "link": "https://www.klarna.com/international/press/nl-klarna-and-myonlinestore-partner-up-to-offer-all-in-one-online-commerce-solution/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "02417b309cc64ca7aecfae57",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna initiates advanced space program to offer payment solutions on Mars",
-    "link": "https://www.klarna.com/international/press/klarna-initiates-advanced-space-program-to-offer-payment-solutions-on-mars/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0ebe7457dae1e72c0cac24c9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Man hit by sound waves in new ad by Klarna",
-    "link": "https://www.klarna.com/international/press/man-hit-by-sound-waves-in-new-ad-by-klarna/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-29T17:03:03.373Z",
-    "deliveredAt": "2026-09-29T17:03:03.373Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "16fef6f0d1d97c0cbffbc44f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes annual report for 2017",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-annual-report-for-2017/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-29T17:03:03.373Z",
