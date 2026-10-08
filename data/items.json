@@ -1,18 +1,192 @@
 [
   {
+    "guid": "addc0d91a59515e37ba2afc0",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-08T06:05:47.995Z",
+    "deliveredAt": "2026-10-08T06:05:47.995Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "68a21a34795303cf182d74fb",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Krankheitskosten im Jahr 2024 um 7,6 % gestiegen",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_359_236.html",
+    "pageDate": "Thu, 8 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-08T06:00:00.000Z",
+    "detectedAt": "2026-10-08T06:05:47.981Z",
+    "deliveredAt": "2026-10-08T06:05:47.981Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "73bd2acddc36a5c3555118a0",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "2 % mehr Fahrgäste im Nahverkehr mit Eisenbahnen und Bussen 2025 als im Vorjahr",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_357_461.html",
+    "pageDate": "Thu, 8 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-08T06:00:00.000Z",
+    "detectedAt": "2026-10-08T06:05:47.981Z",
+    "deliveredAt": "2026-10-08T06:05:47.981Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a6c2b26f42fb55436c420e1e",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Exporte im August 2026: -0,8 % zum Juli 2026",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_356_51.html",
+    "pageDate": "Thu, 8 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-08T06:00:00.000Z",
+    "detectedAt": "2026-10-08T06:05:47.981Z",
+    "deliveredAt": "2026-10-08T06:05:47.981Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b02cf04a64c2f5a805855ccd",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Lkw-Maut-Fahrleistungsindex im September 2026: +0,8 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_358_421.html",
+    "pageDate": "Thu, 8 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-08T06:00:00.000Z",
+    "detectedAt": "2026-10-08T06:05:47.981Z",
+    "deliveredAt": "2026-10-08T06:05:47.981Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "62c3c3bf3942860172eb75e0",
+    "source": "BEVH",
+    "sourceKey": "src-0a9ea9df2176887f",
+    "sourceLabel": "BEVH",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Jubiläumspreise des deutschen Versandbuchhandels an Büchergilde Gutenberg und Autorenwelt verliehen",
+    "link": "https://bevh.org/detail/jubilaeumspreise-des-deutschen-versandbuchhandels-an-buechergilde-gutenberg-und-autorenwelt-verliehen",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T06:05:47.966Z",
+    "deliveredAt": "2026-10-08T06:05:47.966Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a19291647904ed5444206e1f",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Onlineapotheken Ranking 2026: Shop Apotheke bleibt vorn",
+    "link": "https://onlinemarktplatz.de/293757/onlineapotheken-ranking-2026/",
+    "pageDate": "Thu, 08 Oct 2026 05:59:17 +0000",
+    "publishedAt": "2026-10-08T05:59:17.000Z",
+    "detectedAt": "2026-10-08T06:05:47.964Z",
+    "deliveredAt": "2026-10-08T06:05:47.964Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8776be838a27d5d6d9306c4d",
+    "source": "Momox Presse",
+    "sourceKey": "src-347c1a155304dbda",
+    "sourceLabel": "Momox",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Größtes Automatisierungsprojekt erfolgreich gestartet: momox baut Logistik in Leipzig aus",
+    "link": "https://momox.biz/presse/8-pressemeldungen/261-2026/1301-momox-automatisierung-logistik-leipzig",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T06:05:47.946Z",
+    "deliveredAt": "2026-10-08T06:05:47.946Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "4d1fb4b13a5430287bb3c25e",
     "source": "Pattern QZ",
     "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
     "sourceLabel": "Pattern QZ",
     "groups": [
-      "Quartalszahlen",
-      "Firmen"
+      "Quartalszahlen"
     ],
     "tags": [
-      "Events",
-      "E-Commerce",
-      "KI",
-      "Unternehmensstrategie"
+      "Events"
     ],
     "priority": 2,
     "title": "Pattern to Report Third Quarter 2026 Financial Results",
@@ -27,27 +201,6 @@
     "duplicateSources": [
       "Pattern Newsroom"
     ]
-  },
-  {
-    "guid": "6869865f2ead2edd0c6f79fa",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
-    "pageDate": "07.10.2026",
-    "publishedAt": "2026-10-07T12:00:00.000Z",
-    "detectedAt": "2026-10-08T01:21:40.735Z",
-    "deliveredAt": "2026-10-08T01:21:40.735Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "42f22f45a2b10900c8f835c0",
@@ -10880,160 +11033,6 @@
     "priority": 2,
     "title": "Navigate to Klarna launches first-ever immersive sports activation, bringing basketball fans worldwide closer to the game",
     "link": "https://www.klarna.com/international/press/klarna-launches-first-ever-immersive-sports-activation-bringing-basketball-fans-worldwide-closer-to-the-game/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "56cf519516a370f612bf2521",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna fuels global expansion with the launch of rewards program and Pay Now in nine new markets",
-    "link": "https://www.klarna.com/international/press/klarna-fuels-global-expansion-with-the-launch-of-rewards-program-and-pay-now-in-nine-new-markets/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e87409e3161f4c2922727701",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands to Canada with flexible “Pay in 4” service and shopping app, while announcing major investment in local economy",
-    "link": "https://www.klarna.com/international/press/klarna-expands-to-canada-with-flexible-pay-in-4-service-and-shopping-app-while-announcing-major-investment-in-local-economy/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b5cf379b4ebc8cbb735bf38d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Brookfield Properties enhance the in-store shopping experience for millions of US customers",
-    "link": "https://www.klarna.com/international/press/klarna-and-brookfield-properties-enhance-the-in-store-shopping-experience-for-millions-of-us-customers/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "45864d92516b61c1b77fcdf4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces Full Year Financial Results 2021",
-    "link": "https://www.klarna.com/international/press/klarna-announces-full-year-financial-results-2021/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "75a710c8fe284b508213b125",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes its Annual Reports and ESG Report for January – December 2021.",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-its-annual-reports-and-esg-report-for-january-december-2021/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9c73aed237237a768b9a88d2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches ‘Klarna Kosma’ sub-brand and business unit to harness rapid growth of Open Banking platform",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarna-kosma-sub-brand-and-business-unit-to-harness-rapid-growth-of-open-banking-platform/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "102cfcc4e7939de5e62e68f9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Chicago artist Chuck Anderson on custom sneakers for Chicago Bulls’ iconic mascot Benny the Bull",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-chicago-artist-chuck-anderson-on-custom-sneakers-for-chicago-bulls-iconic-mascot-benny-the-bull/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-30T22:16:41.429Z",
