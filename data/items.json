@@ -1,5 +1,72 @@
 [
   {
+    "guid": "3ec1877ae7929695b25c7ea9",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart Opens Next-Generation Fulfillment Center in Stockton, Expanding Faster Delivery Across the West Coast",
+    "link": "https://corporate.walmart.com/news/2026/10/stockton-next-generation-fulfillment-center",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-08T20:50:49.841Z",
+    "deliveredAt": "2026-10-08T20:50:49.841Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "addc0d91a59515e37ba2afc0",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-08T20:50:49.838Z",
+    "deliveredAt": "2026-10-08T20:50:49.838Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "360a031ad4a9f93de4994ebb",
+    "source": "BEVH",
+    "sourceKey": "src-0a9ea9df2176887f",
+    "sourceLabel": "BEVH",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Nach Abschaffung der Zollfreigrenze: Asiatische Plattformen verlieren deutlich Marktanteile",
+    "link": "https://bevh.org/detail/nach-abschaffung-der-zollfreigrenze-asiatische-plattformen-verlieren-deutlich-marktanteile",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T20:50:49.792Z",
+    "deliveredAt": "2026-10-08T20:50:49.792Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "6763a3118939c37d067079a4",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -67,27 +134,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "6869865f2ead2edd0c6f79fa",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
-    "pageDate": "07.10.2026",
-    "publishedAt": "2026-10-07T12:00:00.000Z",
-    "detectedAt": "2026-10-08T15:37:57.883Z",
-    "deliveredAt": "2026-10-08T15:37:57.883Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "8ece3f9b4ddd2fe0efa8ab89",
@@ -10995,50 +11041,6 @@
     "priority": 2,
     "title": "Navigate to Announcement of the appointment of Roger W. Ferguson Jr to Klarna Board",
     "link": "https://www.klarna.com/international/press/announcement-of-the-appointment-of-roger-w-ferguson-jr-to-klarna-board/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a5f3bd9f7d8e4910782de7a5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna uses increasing global scale to support emerging tech centres",
-    "link": "https://www.klarna.com/international/press/klarna-uses-increasing-global-scale-to-support-emerging-tech-centres/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f8fa170af4e3e934acdff705",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes first quarter results - January - March 2021",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-first-quarter-results-january-march-2021/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-30T22:16:41.429Z",
