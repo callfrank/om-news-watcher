@@ -1,6 +1,6 @@
 [
   {
-    "guid": "addc0d91a59515e37ba2afc0",
+    "guid": "6869865f2ead2edd0c6f79fa",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,213 @@
     "tags": [],
     "priority": 2,
     "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
     "pageDate": "07.10.2026",
     "publishedAt": "2026-10-07T12:00:00.000Z",
-    "detectedAt": "2026-10-08T06:05:47.995Z",
-    "deliveredAt": "2026-10-08T06:05:47.995Z",
+    "detectedAt": "2026-10-08T08:00:22.569Z",
+    "deliveredAt": "2026-10-08T08:00:22.569Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "e1767bd9cd0c70680ebb0a53",
+    "source": "Iwh-halle",
+    "sourceKey": "src-029efb425dd21a52",
+    "sourceLabel": "Iwh-halle",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten"
+    ],
+    "priority": 3,
+    "title": "08.10.2026 • 30/2026",
+    "link": "https://www.iwh-halle.de/presse/pressemitteilungen/detail/iwh-insolvenztrend-mehr-firmenpleiten-im-september-aber-leichter-rueckgang-im-dritten-quartal",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T08:00:22.563Z",
+    "deliveredAt": "2026-10-08T08:00:22.563Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2af265953831ce796e5e7351",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "08.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2351627/&Ouml;STERREICHISCHE%20POST:%20EIN%20MARKENZEICHEN%20WIRD%20ZUR%20BRIEFMARKE",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T08:00:22.561Z",
+    "deliveredAt": "2026-10-08T08:00:22.561Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a5a67abad9b7be353cbb375e",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ÖSTERREICHISCHE POST: EIN MARKENZEICHEN WIRD ZUR BRIEFMARKE",
+    "link": "https://news.post.at/presse/de/post/id/2351627/%26Ouml%3BSTERREICHISCHE%20POST%3A%20EIN%20MARKENZEICHEN%20WIRD%20ZUR%20BRIEFMARKE",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T08:00:22.561Z",
+    "deliveredAt": "2026-10-08T08:00:22.561Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4076af9cec041eaa5ee0d77e",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Online-Fahrzeughandel: mobile.de darf Carwow erwerben",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/10_08_2026_mobile_carwow.html?nn=52004",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-08T08:00:22.557Z",
+    "deliveredAt": "2026-10-08T08:00:22.557Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "63dd4c96fde37f51d803d753",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "eBay-Bewertungen gelöscht: Käufer dokumentiert 13 Fälle",
+    "link": "https://wortfilter.de/ebay-bewertungen-geloescht-enfield1963/",
+    "pageDate": "Thu, 08 Oct 2026 07:27:36 +0000",
+    "publishedAt": "2026-10-08T07:27:36.000Z",
+    "detectedAt": "2026-10-08T08:00:22.544Z",
+    "deliveredAt": "2026-10-08T08:00:22.544Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b5d462fc313e64c91614b069",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "TikTok Shop Europa: Großbritannien dominiert das GMV",
+    "link": "https://onlinemarktplatz.de/293853/tiktok-shop-europa-gmv-grossbritannien/",
+    "pageDate": "Thu, 08 Oct 2026 06:30:29 +0000",
+    "publishedAt": "2026-10-08T06:30:29.000Z",
+    "detectedAt": "2026-10-08T08:00:22.543Z",
+    "deliveredAt": "2026-10-08T08:00:22.543Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "eb2c89c53a8e7393a5e04fe8",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon im Onlinehandel: IFH beziffert Anteil auf 63 Prozent",
+    "link": "https://onlinemarktplatz.de/293975/amazon-im-onlinehandel-ifh/",
+    "pageDate": "Thu, 08 Oct 2026 07:01:57 +0000",
+    "publishedAt": "2026-10-08T07:01:57.000Z",
+    "detectedAt": "2026-10-08T08:00:22.543Z",
+    "deliveredAt": "2026-10-08T08:00:22.543Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ffa92ef18cccc49e6ee26c5b",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EoY-Ehrenpreisträger 2026: Prof. Dr. Friedhelm Loh",
+    "link": "https://www.ey.com/de_de/newsroom/2026/10/ey-entrepreneur-of-the-year-ehrenpreis-2026-friedhelm-loh",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-08T08:00:22.518Z",
+    "deliveredAt": "2026-10-08T08:00:22.518Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "016079ed90957a8ac744c832",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eco zur IP-Adressspeicherung: Nächster Anlauf, gleiche Probleme",
+    "link": "https://www.eco.de/presse/eco-zur-ip-adressspeicherung-naechster-anlauf-gleiche-probleme/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-08T08:00:22.514Z",
+    "deliveredAt": "2026-10-08T08:00:22.514Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "68a21a34795303cf182d74fb",
@@ -10835,204 +11033,6 @@
     "priority": 2,
     "title": "Navigate to Klarna partners with Wix, bringing flexible payment solutions to merchants worldwide",
     "link": "https://www.klarna.com/international/press/klarna-partners-with-wix-bringing-flexible-payment-solutions-to-merchants-worldwide/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b53480b60054682bdff490e8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires Inspirock, bringing smooth travel planning to its 90M global consumers",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-inspirock-bringing-smooth-travel-planning-to-its-90m-global-consumers/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "dee0259180ccb07621d9349c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Stripe enter strategic partnership to fuel growth for retailers worldwide",
-    "link": "https://www.klarna.com/international/press/klarna-and-stripe-enter-strategic-partnership-to-fuel-growth-for-retailers-worldwide/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7ba21c5f0013949e74db432a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires PriceRunner to strengthen banking offer for its 90m global consumers",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-pricerunner-to-strengthen-banking-offer-for-its-90m-global-consumers/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4e8a09af0a6a10275ecbe478",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Next generation shopping: Klarna reveals the only shopping app consumers need",
-    "link": "https://www.klarna.com/international/press/next-generation-shopping-klarna-reveals-the-only-shopping-app-consumers-need/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a163e7c61dec3c128e5afc52",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says ‘Dia dhuit’ to Ireland and launches pay in 3",
-    "link": "https://www.klarna.com/international/press/klarna-says-dia-dhuit-to-ireland-and-launches-pay-in-3/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9b60edf79ce0a4bb63320d0d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says ‘Olá’ to Portugal and launches ‘Pay in 3’",
-    "link": "https://www.klarna.com/international/press/klarna-says-ola-to-portugal-and-launches-pay-in-3/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "dd284f6622b0e81d16dd2cf8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna supercharges US offering with launch of ‘Pay Now’ option and Klarna Card",
-    "link": "https://www.klarna.com/international/press/klarna-supercharges-us-offering-with-launch-of-pay-now-option-and-klarna-card/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9ea99e57d8e07eac58ce8093",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches browser extension allowing consumers to pay later across all online stores",
-    "link": "https://www.klarna.com/international/press/klarna-launches-browser-extension-allowing-consumers-to-pay-later-across-all-online-stores/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ccbeba73fdf991481352f8cd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches first-ever immersive sports activation, bringing basketball fans worldwide closer to the game",
-    "link": "https://www.klarna.com/international/press/klarna-launches-first-ever-immersive-sports-activation-bringing-basketball-fans-worldwide-closer-to-the-game/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-30T22:16:41.429Z",
