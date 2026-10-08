@@ -1,16 +1,302 @@
 [
   {
+    "guid": "6763a3118939c37d067079a4",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "EPI schließt sich Nexo-Standards an",
+    "link": "https://demoshops.de/epi-schliesst-sich-nexo-standards-an/",
+    "pageDate": "Thu, 08 Oct 2026 10:32:13 +0000",
+    "publishedAt": "2026-10-08T10:32:13.000Z",
+    "detectedAt": "2026-10-08T15:37:57.898Z",
+    "deliveredAt": "2026-10-08T15:37:57.898Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b9aecbe48760961985a323a",
+    "source": "Uber",
+    "sourceKey": "src-9ca710b31d1e337a",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Sur la table Arrives on Uber Eats, Delivering Chef-Trusted Kitchen Gear to Customers Nationwide",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Sur-la-table-Arrives-on-Uber-Eats-Delivering-Chef-Trusted-Kitchen-Gear-to-Customers-Nationwide/default.aspx",
+    "pageDate": "October 8, 2026",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.893Z",
+    "deliveredAt": "2026-10-08T15:37:57.893Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "73dee88b19313f739f0b28de",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart Brings the Collectibles Experience to Fans Everywhere for New York Comic Con",
+    "link": "https://corporate.walmart.com/news/2026/10/collectibles-experience-at-new-york-comic-con",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-08T15:37:57.886Z",
+    "deliveredAt": "2026-10-08T15:37:57.886Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6869865f2ead2edd0c6f79fa",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.883Z",
+    "deliveredAt": "2026-10-08T15:37:57.883Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "8ece3f9b4ddd2fe0efa8ab89",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the trailer for ‘Apocalypse Z: New World,’ the post-apocalyptic action sequel coming to Prime Video October 30",
+    "link": "https://www.aboutamazon.com/news/entertainment/apocalypse-z-2-new-world-sequel-prime-video",
+    "pageDate": "Oct. 8, 2026",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.872Z",
+    "deliveredAt": "2026-10-08T15:37:57.872Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0b2dbdb6dc4a3977f7b09039",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Introducing all-new Amazon Alexa Tablets—powerful tablets with Alexa+ built in",
+    "link": "https://www.aboutamazon.com/news/devices/new-amazon-alexa-tablets-alexa-plus",
+    "pageDate": "Oct. 8, 2026",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.872Z",
+    "deliveredAt": "2026-10-08T15:37:57.872Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2c3cf0608773c9309fc0d667",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon announces an all-new family of tablets designed just for kids",
+    "link": "https://www.aboutamazon.com/news/devices/new-amazon-kids-tablets",
+    "pageDate": "Oct. 8, 2026",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.872Z",
+    "deliveredAt": "2026-10-08T15:37:57.872Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "557f0d4a44f37bae01db0265",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How AWS is helping companies build physical AI machines that think",
+    "link": "https://www.aboutamazon.com/news/aws/aws-physical-ai-toolchain-build-intelligent-machines",
+    "pageDate": "Oct. 8, 2026",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.872Z",
+    "deliveredAt": "2026-10-08T15:37:57.872Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8913d9835b14af63d4c0aa4e",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Reaches Key Milestone in Acquisition of The U Group, Strengthening Trusted Intelligence and The Full View™",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-reaches-key-milestone-in-acquisition-of-the-u-group/",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.866Z",
+    "deliveredAt": "2026-10-08T15:37:57.866Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7ac389f488b6d6c288ee7b8f",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Account of September monetary policy meeting",
+    "link": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261008~a10153d090.en.html",
+    "pageDate": "8 October 2026",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.835Z",
+    "deliveredAt": "2026-10-08T15:37:57.835Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1d863469bf80cfb1329fa4ee",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Allianz aus Markenverband, HDE und vzbv gegen unsichere Billigimporte",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15381-allianz-aus-markenverband-hde-und-vzbv-gegen-unsichere-billigimporte",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-08T15:37:57.829Z",
+    "deliveredAt": "2026-10-08T15:37:57.829Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2e4c50b623da3bf467fa9341",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Vor dem ersten Frost: Was Haushalte jetzt zum Heizen wissen sollten",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/vor-dem-ersten-frost-was-haushalte-jetzt-zum-heizen-wissen-sollten-126320",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.818Z",
+    "deliveredAt": "2026-10-08T15:37:57.818Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "61883cfe23a9e5deadba22d6",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "08.10.2026Hersteller, Handel und Verbraucherschützer fordern schärfere EU-Regeln für Produkte aus Drittstaaten",
+    "link": "https://www.vzbv.de/pressemitteilungen/hersteller-handel-und-verbraucherschuetzer-fordern-schaerfere-eu-regeln-fuer",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T15:37:57.815Z",
+    "deliveredAt": "2026-10-08T15:37:57.815Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c29d61c8783a98041d457564",
     "source": "DHL QZ",
     "sourceKey": "076d444d-18a6-4ddb-bf20-41d5dc450597",
     "sourceLabel": "DHL QZ",
     "groups": [
-      "Quartalszahlen",
-      "Logistik"
+      "Quartalszahlen"
     ],
     "tags": [
-      "Logistik",
-      "Quartalszahlen"
+      "Logistik"
     ],
     "priority": 2,
     "title": "DHL Group plant Investitionen von mehr als 400 Millionen Euro zur Förderung von Wachstum und der Widerstandsfähigkeit von Lieferketten in Mittel- und Osteuropa",
@@ -45,27 +331,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "addc0d91a59515e37ba2afc0",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
-    "pageDate": "07.10.2026",
-    "publishedAt": "2026-10-07T12:00:00.000Z",
-    "detectedAt": "2026-10-08T10:30:58.541Z",
-    "deliveredAt": "2026-10-08T10:30:58.541Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "dffeea938b9d5fd29207ad75",
@@ -10774,270 +11039,6 @@
     "priority": 2,
     "title": "Navigate to Klarna publishes first quarter results - January - March 2021",
     "link": "https://www.klarna.com/international/press/klarna-publishes-first-quarter-results-january-march-2021/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "86e17b0a347a017cce739113",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to A$AP Rocky joins Klarna as investor and CEO for a day",
-    "link": "https://www.klarna.com/international/press/aap-rocky-joins-klarna-as-investor-and-ceo-for-a-day/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "28155b9a69a8276a63226431",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Salut!” to France with unique shopping experience",
-    "link": "https://www.klarna.com/international/press/klarna-says-salut-to-france-with-unique-shopping-experience/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c681263113a6b977d1dc142a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to A$AP Rocky and Klarna team up for global campaign",
-    "link": "https://www.klarna.com/international/press/aap-rocky-and-klarna-team-up-for-global-campaign/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a8c83ab0726d50aacc7c3cf6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures additional funding as consumers demand smarter alternatives to shop, bank, & pay",
-    "link": "https://www.klarna.com/international/press/klarna-secures-additional-funding-as-consumers-demand-smarter-alternatives-to-shop-bank-pay/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f25cb6db1cec479a29e2e080",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Launches Klarna Comparison Shopping Service across Europe",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarna-comparison-shopping-service-across-europe/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5958bc939e307624b3f64aae",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna becomes first Fintech to join The Climate Pledge and Race to Zero campaign",
-    "link": "https://www.klarna.com/international/press/klarna-becomes-first-fintech-to-join-the-climate-pledge-and-race-to-zero-campaign/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c07aff289a6342d2d1018a73",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires HERO to bring best of in-store experience to social shopping for its 90m consumers",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-hero-to-bring-best-of-in-store-experience-to-social-shopping-for-its-90m-consumers/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e5fa2cb565b36e9ea6022209",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires APPRL, connecting retailers and content creators as global consumers embrace social shopping",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-apprl-connecting-retailers-and-content-creators-as-global-consumers-embrace-social-shopping/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bc73c68549b574bbc3f556c2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to YOOX NET-A-PORTER Group and Klarna announce global partnership",
-    "link": "https://www.klarna.com/international/press/yoox-net-a-porter-group-and-klarna-announce-global-partnership/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "da57a35b554477cb883beba9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Cześć!” to Poland with “Pay in 30 days”",
-    "link": "https://www.klarna.com/international/press/klarna-says-czesc-to-poland-with-pay-in-30-days/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e0d4cd61481adfc0e70d2b82",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna hits record 20 million US customers as demand for flexible payment options soars",
-    "link": "https://www.klarna.com/international/press/klarna-hits-record-20-million-us-customers-as-demand-for-flexible-payment-options-soars/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "33c9040236a7377aef25c938",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna interim report January - June 2021",
-    "link": "https://www.klarna.com/international/press/klarna-interim-report-january-june-2021/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-30T22:16:41.429Z",
