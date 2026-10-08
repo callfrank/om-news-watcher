@@ -1,6 +1,53 @@
 [
   {
-    "guid": "6869865f2ead2edd0c6f79fa",
+    "guid": "c29d61c8783a98041d457564",
+    "source": "DHL QZ",
+    "sourceKey": "076d444d-18a6-4ddb-bf20-41d5dc450597",
+    "sourceLabel": "DHL QZ",
+    "groups": [
+      "Quartalszahlen",
+      "Logistik"
+    ],
+    "tags": [
+      "Logistik",
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DHL Group plant Investitionen von mehr als 400 Millionen Euro zur Förderung von Wachstum und der Widerstandsfähigkeit von Lieferketten in Mittel- und Osteuropa",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-group-plant-investitionen-von-mehr-als-400-millionen-euro.html",
+    "pageDate": "08.10.2026, 09:00 MESZ FINANCIAL NEWS",
+    "publishedAt": null,
+    "detectedAt": "2026-10-08T10:30:58.558Z",
+    "deliveredAt": "2026-10-08T10:30:58.558Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "DHL"
+    ]
+  },
+  {
+    "guid": "05d2d5cf9213d24e9bed26ba",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wirtschaftsförderpreis 2026 für das dm-Verteilzentrum Wustermark",
+    "link": "https://newsroom.dm.de/pressreleases/wirtschaftsfoerderpreis-2026-fuer-das-dm-verteilzentrum-wustermark-3471514",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T10:30:58.544Z",
+    "deliveredAt": "2026-10-08T10:30:58.544Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "addc0d91a59515e37ba2afc0",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +57,171 @@
     "tags": [],
     "priority": 2,
     "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
     "pageDate": "07.10.2026",
     "publishedAt": "2026-10-07T12:00:00.000Z",
-    "detectedAt": "2026-10-08T08:00:22.569Z",
-    "deliveredAt": "2026-10-08T08:00:22.569Z",
+    "detectedAt": "2026-10-08T10:30:58.541Z",
+    "deliveredAt": "2026-10-08T10:30:58.541Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "dffeea938b9d5fd29207ad75",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "How collaboration, AI and smart tools help our selling partners grow faster",
+    "link": "https://over.bol.com/en/news/how-collaboration-ai-and-smart-tools-help-our-selling-partners-grow-faster/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-08T10:30:58.535Z",
+    "deliveredAt": "2026-10-08T10:30:58.535Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4c8b559713295f0f66e23f36",
+    "source": "Ifhkoeln",
+    "sourceKey": "src-ce9e70954500f828",
+    "sourceLabel": "Ifhkoeln",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "B2B-Vertriebsstrukturen im Wandel",
+    "link": "https://www.ifhkoeln.de/b2b-vertriebsstrukturen-im-wandel/",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T10:30:58.532Z",
+    "deliveredAt": "2026-10-08T10:30:58.532Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f67059eb7d451f90089d0891",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "DHL eCommerce looks for more acquisitions in Eastern Europe",
+    "link": "https://ecommercenews.eu/dhl-ecommerce-looks-for-more-acquisitions-in-eastern-europe/",
+    "pageDate": "Thu, 08 Oct 2026 10:18:21 +0000",
+    "publishedAt": "2026-10-08T10:18:21.000Z",
+    "detectedAt": "2026-10-08T10:30:58.522Z",
+    "deliveredAt": "2026-10-08T10:30:58.522Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7b22c8c94b38bb0599497774",
+    "source": "Wettbewerbszentrale",
+    "sourceKey": "src-24a9968f52923b9b",
+    "sourceLabel": "Wettbewerbszentrale",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Events",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Wettbewerbszentrale zur 12. GWB-Novelle: „Private Enforcement“ stärken",
+    "link": "https://www.wettbewerbszentrale.de/wettbewerbszentrale-zur-12-gwb-novelle-private-enforcement-staerken/",
+    "pageDate": "Thu, 08 Oct 2026 09:47:44 +0000",
+    "publishedAt": "2026-10-08T09:47:44.000Z",
+    "detectedAt": "2026-10-08T10:30:58.518Z",
+    "deliveredAt": "2026-10-08T10:30:58.518Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b30512bb45ea9c4b5b0f34da",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Why should the ECB care about the unequal effects of climate change?",
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261008~dbf4f59782.en.html",
+    "pageDate": "8 October 2026",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "detectedAt": "2026-10-08T10:30:58.508Z",
+    "deliveredAt": "2026-10-08T10:30:58.508Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "071e474d26499d0c2f927363",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Shopify: Neue Versandfunktionen mit DHL in Europa",
+    "link": "https://onlinemarktplatz.de/293990/shopify-versand-dhl-europa/",
+    "pageDate": "Thu, 08 Oct 2026 08:37:17 +0000",
+    "publishedAt": "2026-10-08T08:37:17.000Z",
+    "detectedAt": "2026-10-08T10:30:58.502Z",
+    "deliveredAt": "2026-10-08T10:30:58.502Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "965671ebe6c0af67e44c266b",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Gut versorgt ins hohe Alter: Tipps für eine gesunde, bedarfsgerechte & genussvolle Ernährung im Alter",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/gut-versorgt-ins-hohe-alter-tipps-fuer-eine-gesunde-bedarfsgerechte-genussvolle-ernaehrung-im-alter-126290",
+    "pageDate": "08.10.2026",
+    "publishedAt": "2026-10-08T12:00:00.000Z",
+    "detectedAt": "2026-10-08T10:30:58.497Z",
+    "deliveredAt": "2026-10-08T10:30:58.497Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "e1767bd9cd0c70680ebb0a53",
@@ -10835,204 +11038,6 @@
     "priority": 2,
     "title": "Navigate to Klarna interim report January - June 2021",
     "link": "https://www.klarna.com/international/press/klarna-interim-report-january-june-2021/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1b97600490e5a9bc720ccd92",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Global-e expand international partnership across US, UK, France, Spain, Italy and Australia",
-    "link": "https://www.klarna.com/international/press/klarna-and-global-e-expand-international-partnership-across-us-uk-france-spain-italy-and-australia/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f34a01b17966f85258cd6397",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Amendment to interim reports 2021",
-    "link": "https://www.klarna.com/international/press/amendment-to-interim-reports-2021/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "101152a295037a623a5b8cae",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Beautycounter launch ‘Better Beauty’ livestream shopping series",
-    "link": "https://www.klarna.com/international/press/klarna-and-beautycounter-launch-better-beauty-livestream-shopping-series/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "32f2ea39de1f9bc663ba0a14",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna reaches 1 million downloads of its ‘all-in-one’ shopping app in Australia",
-    "link": "https://www.klarna.com/international/press/klarna-reaches-1-million-downloads-of-its-all-in-one-shopping-app-in-australia/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0549d7403c205bb44519e9c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to US shoppers get a jump on the holidays, with 40% shopping earlier than last year and 22% already started",
-    "link": "https://www.klarna.com/international/press/us-shoppers-get-a-jump-on-the-holidays-with-40-shopping-earlier-than-last-year-and-22-already-started/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a22c774ad5d845e51fd0b9c8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Simon Announce National Strategic Alliance",
-    "link": "https://www.klarna.com/international/press/klarna-and-simon-announce-national-strategic-alliance/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ca7650d016d9dfc9dea8fdc9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Billie and Klarna launch a global partnership",
-    "link": "https://www.klarna.com/international/press/billie-and-klarna-launch-a-global-partnership/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6c11e6dba639458692ab6374",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes Climate report 2020/2021 and commits over 1 million USD to climate transformation projects",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-climate-report-20202021-and-commits-over-1-million-usd-to-climate-transformation-projects/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1a1426fabd2aadd8116727d6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Wix, bringing flexible payment solutions to merchants worldwide",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-wix-bringing-flexible-payment-solutions-to-merchants-worldwide/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-30T22:16:41.429Z",
