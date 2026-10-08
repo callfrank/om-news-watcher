@@ -1,6 +1,35 @@
 [
   {
-    "guid": "addc0d91a59515e37ba2afc0",
+    "guid": "4d1fb4b13a5430287bb3c25e",
+    "source": "Pattern QZ",
+    "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
+    "sourceLabel": "Pattern QZ",
+    "groups": [
+      "Quartalszahlen",
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "E-Commerce",
+      "KI",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Pattern to Report Third Quarter 2026 Financial Results",
+    "link": "https://investors.pattern.com/news-releases/news-release-details/pattern-report-third-quarter-2026-financial-results",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-08T01:21:40.764Z",
+    "deliveredAt": "2026-10-08T01:21:40.764Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Pattern Newsroom"
+    ]
+  },
+  {
+    "guid": "6869865f2ead2edd0c6f79fa",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,11 +39,11 @@
     "tags": [],
     "priority": 2,
     "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
     "pageDate": "07.10.2026",
     "publishedAt": "2026-10-07T12:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:40.016Z",
-    "deliveredAt": "2026-10-07T21:37:40.016Z",
+    "detectedAt": "2026-10-08T01:21:40.735Z",
+    "deliveredAt": "2026-10-08T01:21:40.735Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
@@ -11005,28 +11034,6 @@
     "priority": 2,
     "title": "Navigate to Klarna partners with Chicago artist Chuck Anderson on custom sneakers for Chicago Bulls’ iconic mascot Benny the Bull",
     "link": "https://www.klarna.com/international/press/klarna-partners-with-chicago-artist-chuck-anderson-on-custom-sneakers-for-chicago-bulls-iconic-mascot-benny-the-bull/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "eefc1bfcb2a3824bfff7af66",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna completes acquisition of PriceRunner",
-    "link": "https://www.klarna.com/international/press/klarna-completes-acquisition-of-pricerunner/",
     "pageDate": "September 29, 2026",
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "detectedAt": "2026-09-30T22:16:41.429Z",
