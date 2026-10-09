@@ -1,5 +1,89 @@
 [
   {
+    "guid": "5f4d1f81a756efc6e3b96f82",
+    "source": "Wero",
+    "sourceKey": "src-b3076904e4e4545a",
+    "sourceLabel": "Wero",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Media & insights",
+    "link": "https://epicompany.eu/media-insights/media-insights/epi-initiates-wero-in-luxembourg",
+    "pageDate": "October 8, 2026",
+    "publishedAt": "2026-10-08T00:00:00.000Z",
+    "detectedAt": "2026-10-09T19:48:30.448Z",
+    "deliveredAt": "2026-10-09T19:48:30.448Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e1f8354d91218fd60e748b4e",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Zur Pressemitteilung",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/oktober/kaufland-ruft-erneut-bereits-zurueckgerufene-aptamil-und-milumil-chargen-zurueck",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-09T19:48:30.440Z",
+    "deliveredAt": "2026-10-09T19:48:30.440Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a508f40f79f1efe033ecc60b",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the teaser trailer for ‘Bloodaxe,’ the epic Viking drama coming to Prime Video January 20, 2027",
+    "link": "https://www.aboutamazon.com/news/entertainment/bloodaxe-vikings-prime-video",
+    "pageDate": "Oct. 9, 2026",
+    "publishedAt": "2026-10-09T00:00:00.000Z",
+    "detectedAt": "2026-10-09T19:48:30.438Z",
+    "deliveredAt": "2026-10-09T19:48:30.438Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2b1bbcb5a2a79cd6cb41f1e8",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Exchange rates",
+    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+    "pageDate": "9 October 2026",
+    "publishedAt": "2026-10-09T00:00:00.000Z",
+    "detectedAt": "2026-10-09T19:48:30.417Z",
+    "deliveredAt": "2026-10-09T19:48:30.417Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "3de042f3e2173d3848f80212",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -10970,98 +11054,6 @@
     "publishedAt": "2026-10-01T06:31:57.000Z",
     "detectedAt": "2026-10-01T07:50:24.626Z",
     "deliveredAt": "2026-10-01T07:50:24.626Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3cf908932c24ff26c55d87d4",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Whatnot Card Breaks: Wenn Live Shopping wie Glücksspiel wirkt",
-    "link": "https://onlinemarktplatz.de/293641/whatnot-card-breaks-live/",
-    "pageDate": "Thu, 01 Oct 2026 06:59:55 +0000",
-    "publishedAt": "2026-10-01T06:59:55.000Z",
-    "detectedAt": "2026-10-01T07:50:24.626Z",
-    "deliveredAt": "2026-10-01T07:50:24.626Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "76de170bb55052b4d63d701a",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Telekom und Rabot Energy starten Stromtarife",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-und-rabot-energy-starten-stromtarife",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-01T07:50:24.615Z",
-    "deliveredAt": "2026-10-01T07:50:24.615Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6b1ef61fdbed6740f57e47e0",
-    "source": "EY Newsroom",
-    "sourceKey": "src-8fc60553640bf464",
-    "sourceLabel": "EY",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "EY-Analyse IPO-Barometer Q3 2026",
-    "link": "https://www.ey.com/de_de/newsroom/2026/10/ey-ipo-barometer-q3-2026",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-01T07:50:24.583Z",
-    "deliveredAt": "2026-10-01T07:50:24.583Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ec2d5275eb463abf8bf8f9f3",
-    "source": "ECDB Reports",
-    "sourceKey": "src-93bc6c77c8e0092a",
-    "sourceLabel": "ECDB",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "E-Commerce",
-      "Studien & Marktdaten",
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Cross-Border E-Commerce in Europe Dossier 2026",
-    "link": "https://ecdb.com/reports/cross-border-e-commerce-in-europe/1038",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-01T07:50:24.578Z",
-    "deliveredAt": "2026-10-01T07:50:24.578Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
