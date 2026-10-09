@@ -1,5 +1,276 @@
 [
   {
+    "guid": "3de042f3e2173d3848f80212",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart and SCAN Launch Co-Branded Medicare Advantage Plans",
+    "link": "https://corporate.walmart.com/news/2026/10/walmart-scan-lauch-co-branded-medicare-plan",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-09T14:42:23.443Z",
+    "deliveredAt": "2026-10-09T14:42:23.443Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cdc0061e0cbacad6cbb5d463",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "A first look at ‘Love Me Love Me 2,’ the sequel coming to Prime Video in 2027",
+    "link": "https://www.aboutamazon.com/news/entertainment/love-me-love-me-2-sequel-prime-video",
+    "pageDate": "Oct. 9, 2026",
+    "publishedAt": "2026-10-09T00:00:00.000Z",
+    "detectedAt": "2026-10-09T14:42:23.432Z",
+    "deliveredAt": "2026-10-09T14:42:23.432Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0638d0e3b75453811278c223",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "'Love Me Love Me 3,' the next sequel in the hit romantic drama series, coming to Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/love-me-love-me-3-prime-video",
+    "pageDate": "Oct. 9, 2026",
+    "publishedAt": "2026-10-09T00:00:00.000Z",
+    "detectedAt": "2026-10-09T14:42:23.432Z",
+    "deliveredAt": "2026-10-09T14:42:23.432Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "783362fb8027b64b09de8c5d",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Swedish ecommerce grew 8% in Q2",
+    "link": "https://ecommercenews.eu/swedish-ecommerce-grew-8-in-q2/",
+    "pageDate": "Fri, 09 Oct 2026 15:19:56 +0000",
+    "publishedAt": "2026-10-09T15:19:56.000Z",
+    "detectedAt": "2026-10-09T14:42:23.422Z",
+    "deliveredAt": "2026-10-09T14:42:23.422Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "939e4fb4f2537a21f9d54007",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EU wants to introduce another parcel tax",
+    "link": "https://ecommercenews.eu/eu-wants-to-introduce-another-parcel-tax/",
+    "pageDate": "Fri, 09 Oct 2026 16:17:20 +0000",
+    "publishedAt": "2026-10-09T16:17:20.000Z",
+    "detectedAt": "2026-10-09T14:42:23.422Z",
+    "deliveredAt": "2026-10-09T14:42:23.422Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dc8929d3b94b11881a10aa45",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Handy-Betrug: 1 Mio. Altgeräte als Neuware verkauft",
+    "link": "https://wortfilter.de/handy-betrug-troja-altgeraete-neuware/",
+    "pageDate": "Fri, 09 Oct 2026 09:50:13 +0000",
+    "publishedAt": "2026-10-09T09:50:13.000Z",
+    "detectedAt": "2026-10-09T14:42:23.399Z",
+    "deliveredAt": "2026-10-09T14:42:23.399Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7c0e477242a2f44f8318ee73",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DHL Express eröffnet neuen Betriebsstandort in Köln",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-express-eroeffnet-neuen-betriebsstandort-in-koeln.html",
+    "pageDate": "09.10.2026, 14:00 MESZ DHL EXPRESS",
+    "publishedAt": null,
+    "detectedAt": "2026-10-09T14:42:23.399Z",
+    "deliveredAt": "2026-10-09T14:42:23.399Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "df962cd77e8b95c4aeabe0c8",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DHL Supply Chain erreicht wichtigen Baufortschritt beim neuen Logistikzentrum Jena-Apolda",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-supply-chain-erreicht-wichtigen-baufortschritt-beim-logistikzentrum-jena-apolda.html",
+    "pageDate": "09.10.2026, 09:30 MESZ DHL SUPPLY CHAIN",
+    "publishedAt": null,
+    "detectedAt": "2026-10-09T14:42:23.399Z",
+    "deliveredAt": "2026-10-09T14:42:23.399Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6189ac5469518a9588be7e75",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "PPWR: EU-Ausschuss will kleine Händler bei Bevollmächtigten entlasten",
+    "link": "https://onlinemarktplatz.de/294081/epr-bevollmaechtigte-eu/",
+    "pageDate": "Fri, 09 Oct 2026 07:41:27 +0000",
+    "publishedAt": "2026-10-09T07:41:27.000Z",
+    "detectedAt": "2026-10-09T14:42:23.398Z",
+    "deliveredAt": "2026-10-09T14:42:23.398Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "249ee7c993945eb2c7051f0f",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: eBay Live Rückblick – Händler ziehen erste Bilanz",
+    "link": "https://onlinemarktplatz.de/293921/ebay-live-rueckblick-podcast/",
+    "pageDate": "Fri, 09 Oct 2026 10:05:00 +0000",
+    "publishedAt": "2026-10-09T10:05:00.000Z",
+    "detectedAt": "2026-10-09T14:42:23.398Z",
+    "deliveredAt": "2026-10-09T14:42:23.398Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7616944c45ea5b55c31ac6fe",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Glasfaser für 1,8 Millionen Haushalte in Baden-Württemberg",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/glasfaser-fuer-1-8-millionen-haushalte-in-baden-wuerttemberg",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-09T14:42:23.387Z",
+    "deliveredAt": "2026-10-09T14:42:23.387Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4cb52a8d0872d5f89d2011cf",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom erwirbt die exklusiven Live-Rechte an der 3.Liga bis 2031",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-erwirbt-die-exklusiven-live-rechte-an-der-3-liga-bis-203",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-09T14:42:23.386Z",
+    "deliveredAt": "2026-10-09T14:42:23.386Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "6869865f2ead2edd0c6f79fa",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
@@ -10794,265 +11065,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "5f4d1f81a756efc6e3b96f82",
-    "source": "Wero",
-    "sourceKey": "src-b3076904e4e4545a",
-    "sourceLabel": "Wero",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Media & insights",
-    "link": "https://epicompany.eu/media-insights/media-insights/epi-initiates-wero-in-luxembourg",
-    "pageDate": "September 30, 2026",
-    "publishedAt": "2026-09-30T00:00:00.000Z",
-    "detectedAt": "2026-10-01T01:20:03.611Z",
-    "deliveredAt": "2026-10-01T01:20:03.611Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7b19ef848aab7883696ff01e",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How Amazon is preparing for the energy needs of the future",
-    "link": "https://www.aboutamazon.com/news/sustainability/amazon-renewable-energy-updates",
-    "pageDate": "Sept. 30, 2026",
-    "publishedAt": "2026-09-30T00:00:00.000Z",
-    "detectedAt": "2026-10-01T01:20:03.602Z",
-    "deliveredAt": "2026-10-01T01:20:03.602Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "79b4feba568586d0ebe3aaec",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
-    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
-    "pageDate": "Sept. 30, 2026",
-    "publishedAt": "2026-09-30T00:00:00.000Z",
-    "detectedAt": "2026-10-01T01:20:03.601Z",
-    "deliveredAt": "2026-10-01T01:20:03.601Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2b1bbcb5a2a79cd6cb41f1e8",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Exchange rates",
-    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-    "pageDate": "30.09.2026",
-    "publishedAt": "2026-09-30T12:00:00.000Z",
-    "detectedAt": "2026-10-01T01:20:03.580Z",
-    "deliveredAt": "2026-10-01T01:20:03.580Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "43afc02f8d65f58e0b933ab0",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon in the community: Service, community, and commitment at HQ2",
-    "link": "https://www.aboutamazon.com/news/community/amazon-arlington-virginia-news",
-    "pageDate": "Sept. 30, 2026",
-    "publishedAt": "2026-09-30T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.450Z",
-    "deliveredAt": "2026-09-30T22:16:41.450Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cd647b888eb13a3250e31c51",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Worldline and Klarna expand payment offering across Europe",
-    "link": "https://www.klarna.com/international/press/worldline-and-klarna-expand-payment-offering-across-europe/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a4035e0f11db908299feec14",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Cosmopolitan and Klarna host second virtual shopping event for Gen Z and millennials, “Hauliday by Cosmo x Klarna”",
-    "link": "https://www.klarna.com/international/press/cosmopolitan-and-klarna-host-second-virtual-shopping-event-for-gen-z-and-millennials-hauliday-by-cosmo-x-klarna/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a77a5f83dbb688b0c58f1b4e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Q1-Q4 2020 Financial Report",
-    "link": "https://www.klarna.com/international/press/klarna-q1-q4-2020-financial-report/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "33633d588a0b6cf23b1cfe0d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna CEO challenges tech to focus on global sustainability in $1 bn funding round",
-    "link": "https://www.klarna.com/international/press/klarna-ceo-challenges-tech-to-focus-on-global-sustainability-in-1-bn-funding-round/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "96ba001fed08db47eec6a672",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands Open Banking solution to 8 more European markets",
-    "link": "https://www.klarna.com/international/press/klarna-expands-open-banking-solution-to-8-more-european-markets/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "37aa189326868b0892b8e4db",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna takes merchant marketing support to new heights with enhanced demand-generation services",
-    "link": "https://www.klarna.com/international/press/klarna-takes-merchant-marketing-support-to-new-heights-with-enhanced-demand-generation-services/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a46263b45e63946002d116ac",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Consumers turn to BNPL for flexibility and security as retail readies for recovery",
-    "link": "https://www.klarna.com/international/press/consumers-turn-to-bnpl-for-flexibility-and-security-as-retail-readies-for-recovery/",
-    "pageDate": "September 29, 2026",
-    "publishedAt": "2026-09-29T00:00:00.000Z",
-    "detectedAt": "2026-09-30T22:16:41.429Z",
-    "deliveredAt": "2026-09-30T22:16:41.429Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
