@@ -1,5 +1,26 @@
 [
   {
+    "guid": "6869865f2ead2edd0c6f79fa",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-handelsupdate-im-2-quartal-2026/",
+    "pageDate": "07.10.2026",
+    "publishedAt": "2026-10-07T12:00:00.000Z",
+    "detectedAt": "2026-10-09T01:15:11.477Z",
+    "deliveredAt": "2026-10-09T01:15:11.477Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "3ec1877ae7929695b25c7ea9",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -22,27 +43,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "addc0d91a59515e37ba2afc0",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay Recommerce Report: 82 Prozent kaufen gebraucht bei eBay, doch der grenzüberschreitende Handel stockt",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
-    "pageDate": "07.10.2026",
-    "publishedAt": "2026-10-07T12:00:00.000Z",
-    "detectedAt": "2026-10-08T20:50:49.838Z",
-    "deliveredAt": "2026-10-08T20:50:49.838Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "360a031ad4a9f93de4994ebb",
