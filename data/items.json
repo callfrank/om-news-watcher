@@ -1,5 +1,96 @@
 [
   {
+    "guid": "f37c17d65541d420313b686f",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "10 tips to protect your Amazon packages this holiday season and beyond",
+    "link": "https://www.aboutamazon.com/news/operations/amazon-porch-pirate-prevention-tips",
+    "pageDate": "Oct. 9, 2026",
+    "publishedAt": "2026-10-09T00:00:00.000Z",
+    "detectedAt": "2026-10-09T23:36:09.800Z",
+    "deliveredAt": "2026-10-09T23:36:09.800Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ff934a4eb8586b908cba4010",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EU-Zollreform: 2 Euro je Warenposition – auch über 150 Euro",
+    "link": "https://wortfilter.de/eu-zollreform-bearbeitungsgebuehr-2-euro-warenposition/",
+    "pageDate": "Fri, 09 Oct 2026 19:52:36 +0000",
+    "publishedAt": "2026-10-09T19:52:36.000Z",
+    "detectedAt": "2026-10-09T23:36:09.767Z",
+    "deliveredAt": "2026-10-09T23:36:09.767Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e1f8354d91218fd60e748b4e",
+    "source": "Kaufland Newsroom",
+    "sourceKey": "src-3706ec107132ce03",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Kaufland ruft erneut bereits zurückgerufene Aptamil- und Milumil Chargen zurück",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/oktober/kaufland-ruft-erneut-bereits-zurueckgerufene-aptamil-und-milumil-chargen-zurueck",
+    "pageDate": "09.10.2026",
+    "publishedAt": "2026-10-09T12:00:00.000Z",
+    "detectedAt": "2026-10-09T23:36:09.740Z",
+    "deliveredAt": "2026-10-09T23:36:09.740Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Kaufland"
+    ]
+  },
+  {
+    "guid": "960777c9b942fecc5e7ce102",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Budapest, Hungary Feb 9 - 10, 2027 Marketplace & Cross-Border Summit Europe 2027",
+    "link": "https://amzsummits.com/events/marketplace-cross-border-summit-europe-2027/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-09T23:36:09.735Z",
+    "deliveredAt": "2026-10-09T23:36:09.735Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "5f4d1f81a756efc6e3b96f82",
     "source": "Wero",
     "sourceKey": "src-b3076904e4e4545a",
@@ -18,28 +109,6 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e1f8354d91218fd60e748b4e",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zur Pressemitteilung",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/oktober/kaufland-ruft-erneut-bereits-zurueckgerufene-aptamil-und-milumil-chargen-zurueck",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-09T19:48:30.440Z",
-    "deliveredAt": "2026-10-09T19:48:30.440Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   },
   {
     "guid": "a508f40f79f1efe033ecc60b",
@@ -8631,31 +8700,6 @@
     ]
   },
   {
-    "guid": "a1b9a148e30bb62ba7cc54c1",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zur Pressemitteilung",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/oktober/kaufland-stellt-werbewoche-um-angebote-starten-jetzt-schon-montags",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-06T14:12:58.650Z",
-    "deliveredAt": "2026-10-06T14:12:58.650Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Kaufland Newsroom"
-    ]
-  },
-  {
     "guid": "f82c7a23f938444b25501f02",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -11006,54 +11050,6 @@
     "publishedAt": "2026-10-01T07:29:38.000Z",
     "detectedAt": "2026-10-01T07:50:24.628Z",
     "deliveredAt": "2026-10-01T07:50:24.628Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7bbe696bcede7c9fb7f2f8c7",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon Business Zustellquote: 90 Prozent gelten ab sofort",
-    "link": "https://onlinemarktplatz.de/293622/amazon-business-zustellquote/",
-    "pageDate": "Thu, 01 Oct 2026 05:52:50 +0000",
-    "publishedAt": "2026-10-01T05:52:50.000Z",
-    "detectedAt": "2026-10-01T07:50:24.626Z",
-    "deliveredAt": "2026-10-01T07:50:24.626Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5053bc7f911571ac392cfe3e",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Wallets im Onlinehandel: Apple Pay erreicht 49 Prozent – Wero liegt noch bei drei Prozent",
-    "link": "https://onlinemarktplatz.de/293623/wallets-im-onlinehandel/",
-    "pageDate": "Thu, 01 Oct 2026 06:31:57 +0000",
-    "publishedAt": "2026-10-01T06:31:57.000Z",
-    "detectedAt": "2026-10-01T07:50:24.626Z",
-    "deliveredAt": "2026-10-01T07:50:24.626Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
