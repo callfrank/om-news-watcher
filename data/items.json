@@ -1,5 +1,48 @@
 [
   {
+    "guid": "8deeed54bdbc4029fd421dd4",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Mit Wero spenden: An InkluFusion",
+    "link": "https://demoshops.de/mit-wero-spenden-inklufusion/",
+    "pageDate": "Sat, 10 Oct 2026 14:14:05 +0000",
+    "publishedAt": "2026-10-10T14:14:05.000Z",
+    "detectedAt": "2026-10-10T15:23:50.243Z",
+    "deliveredAt": "2026-10-10T15:23:50.243Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "342db2eebebeae45d89f44a8",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Herkunftslandprinzip: OVG NRW kippt Sperre von Pornhub",
+    "link": "https://wortfilter.de/herkunftslandprinzip-ovg-nrw-pornhub-sperre/",
+    "pageDate": "Sat, 10 Oct 2026 09:56:02 +0000",
+    "publishedAt": "2026-10-10T09:56:02.000Z",
+    "detectedAt": "2026-10-10T15:23:50.211Z",
+    "deliveredAt": "2026-10-10T15:23:50.211Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "aa7af42fa81ccedcc4a6206e",
     "source": "Onlinemarktplatz",
     "sourceKey": "src-907af1387802cea1",
@@ -11008,50 +11051,6 @@
     "publishedAt": "2026-10-01T12:00:00.000Z",
     "detectedAt": "2026-10-01T07:50:24.663Z",
     "deliveredAt": "2026-10-01T07:50:24.663Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "dd09b0eb5f62c22452ed1c6e",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Durchschnittsalter in Landgemeinden seit 2011 um 2,5 Jahre gestiegen, in Großstädten um 0,3 Jahre",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N067_12.html",
-    "pageDate": "Thu, 1 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-01T06:00:00.000Z",
-    "detectedAt": "2026-10-01T07:50:24.654Z",
-    "deliveredAt": "2026-10-01T07:50:24.654Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "228d6af510e26dc6580f7548",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Kommunales Finanzierungsdefizit im 1. Halbjahr 2026 erneut bei 20,1 Milliarden Euro",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_349_71137.html",
-    "pageDate": "Thu, 1 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-01T06:00:00.000Z",
-    "detectedAt": "2026-10-01T07:50:24.654Z",
-    "deliveredAt": "2026-10-01T07:50:24.654Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
