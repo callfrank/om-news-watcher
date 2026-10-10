@@ -1,5 +1,28 @@
 [
   {
+    "guid": "a0ffd3b238200d271592e1dc",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Urteil: Gewährleistung, Verweis an Hersteller ist Irreführung",
+    "link": "https://wortfilter.de/gewaehrleistung-hersteller-verweis-urteil/",
+    "pageDate": "Sat, 10 Oct 2026 15:41:46 +0000",
+    "publishedAt": "2026-10-10T15:41:46.000Z",
+    "detectedAt": "2026-10-10T19:32:59.767Z",
+    "deliveredAt": "2026-10-10T19:32:59.767Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "8deeed54bdbc4029fd421dd4",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -11027,26 +11050,6 @@
     "priority": 2,
     "title": "01.10.2026",
     "link": "https://news.post.at/presse/de/post/id/2349347/&Ouml;STERREICHISCHE%20POST%20SCHLIESST%20&Uuml;BERNAHME%20IN%20SERBIEN%20AB",
-    "pageDate": "01.10.2026",
-    "publishedAt": "2026-10-01T12:00:00.000Z",
-    "detectedAt": "2026-10-01T07:50:24.663Z",
-    "deliveredAt": "2026-10-01T07:50:24.663Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6032070ee6f0d6b039b25cf0",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "ÖSTERREICHISCHE POST SCHLIESST ÜBERNAHME IN SERBIEN AB",
-    "link": "https://news.post.at/presse/de/post/id/2349347/%26Ouml%3BSTERREICHISCHE%20POST%20SCHLIESST%20%26Uuml%3BBERNAHME%20IN%20SERBIEN%20AB",
     "pageDate": "01.10.2026",
     "publishedAt": "2026-10-01T12:00:00.000Z",
     "detectedAt": "2026-10-01T07:50:24.663Z",
