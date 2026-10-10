@@ -1,5 +1,97 @@
 [
   {
+    "guid": "aa7af42fa81ccedcc4a6206e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "BookTok Sonderausgaben: Wie Bücher zu Sammelobjekten werden",
+    "link": "https://onlinemarktplatz.de/293949/booktok-sonderausgaben/",
+    "pageDate": "Sat, 10 Oct 2026 06:23:34 +0000",
+    "publishedAt": "2026-10-10T06:23:34.000Z",
+    "detectedAt": "2026-10-10T09:06:32.957Z",
+    "deliveredAt": "2026-10-10T09:06:32.957Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "97122a7bd2dde3fd13a90c27",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "ASOS Datenleck: Hacker nutzen Shopping-App für Erpressung",
+    "link": "https://onlinemarktplatz.de/294015/asos-datenleck-shopping-app/",
+    "pageDate": "Sat, 10 Oct 2026 07:11:06 +0000",
+    "publishedAt": "2026-10-10T07:11:06.000Z",
+    "detectedAt": "2026-10-10T09:06:32.957Z",
+    "deliveredAt": "2026-10-10T09:06:32.957Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ed99df76ec1a86a8829fc00a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Milk Dragon: Fake-Shops lesen Kartendaten schon beim Tippen mit",
+    "link": "https://onlinemarktplatz.de/293946/milk-dragon-fake-shops-kartendaten/",
+    "pageDate": "Sat, 10 Oct 2026 07:51:55 +0000",
+    "publishedAt": "2026-10-10T07:51:55.000Z",
+    "detectedAt": "2026-10-10T09:06:32.957Z",
+    "deliveredAt": "2026-10-10T09:06:32.957Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4cf216a9f56fb25975088336",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "New York, NY, United States Sep 22 - 23, 2027 White & Private Label Expo New York 2027",
+    "link": "https://amzsummits.com/events/white-private-label-expo-new-york-2027/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-10T09:06:32.922Z",
+    "deliveredAt": "2026-10-10T09:06:32.922Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "f37c17d65541d420313b686f",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10960,96 +11052,6 @@
     "publishedAt": "2026-10-01T06:00:00.000Z",
     "detectedAt": "2026-10-01T07:50:24.654Z",
     "deliveredAt": "2026-10-01T07:50:24.654Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fd1be57be291a002cbff58ed",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Produktion von Benzin und Diesel im 1. Halbjahr 2026 gestiegen",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N068_51.html",
-    "pageDate": "Thu, 1 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-01T06:00:00.000Z",
-    "detectedAt": "2026-10-01T07:50:24.654Z",
-    "deliveredAt": "2026-10-01T07:50:24.654Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "984e85c43bb884b8b3194cd7",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Europäischer Statistikwettbewerb für Schülerinnen und Schüler startet wieder",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_350_p001.html",
-    "pageDate": "Thu, 1 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-01T06:00:00.000Z",
-    "detectedAt": "2026-10-01T07:50:24.654Z",
-    "deliveredAt": "2026-10-01T07:50:24.654Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "442a552cd0e7c84cf59c6ada",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "PAYBACK Produkte: 18 Mio. Nutzer, aber Lücken im Checkout",
-    "link": "https://wortfilter.de/payback-produkte-marktplatz/",
-    "pageDate": "Thu, 01 Oct 2026 05:41:08 +0000",
-    "publishedAt": "2026-10-01T05:41:08.000Z",
-    "detectedAt": "2026-10-01T07:50:24.628Z",
-    "deliveredAt": "2026-10-01T07:50:24.628Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2f2ef8cd3ea8d43d460c1c0c",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Umsatz im Onlinehandel: +3,5 % real, Einzelhandel -0,4 %",
-    "link": "https://wortfilter.de/umsatz-im-onlinehandel-august-2026/",
-    "pageDate": "Thu, 01 Oct 2026 07:29:38 +0000",
-    "publishedAt": "2026-10-01T07:29:38.000Z",
-    "detectedAt": "2026-10-01T07:50:24.628Z",
-    "deliveredAt": "2026-10-01T07:50:24.628Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
