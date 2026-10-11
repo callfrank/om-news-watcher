@@ -1,5 +1,25 @@
 [
   {
+    "guid": "af8ab8b168e8d5d1ee66e708",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Spenden, Standards & Subscriptions – die Woche 26 / 41",
+    "link": "https://demoshops.de/wero-woche-26-41/",
+    "pageDate": "Sun, 11 Oct 2026 14:24:25 +0000",
+    "publishedAt": "2026-10-11T14:24:25.000Z",
+    "detectedAt": "2026-10-11T15:41:30.706Z",
+    "deliveredAt": "2026-10-11T15:41:30.706Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d4a27e98227dcc6140a473d6",
     "source": "Post AT",
     "sourceKey": "src-7233e5eef034b3db",
@@ -11033,26 +11053,6 @@
     "publishedAt": "2026-10-01T16:01:14.000Z",
     "detectedAt": "2026-10-01T15:28:34.680Z",
     "deliveredAt": "2026-10-01T15:28:34.680Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "740e468fcc2cfdaa1ff8cfa0",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Where AI risks meet",
-    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261001~cf3c630379.en.html",
-    "pageDate": "1 October 2026",
-    "publishedAt": "2026-10-01T00:00:00.000Z",
-    "detectedAt": "2026-10-01T15:28:34.665Z",
-    "deliveredAt": "2026-10-01T15:28:34.665Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
