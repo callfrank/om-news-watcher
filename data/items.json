@@ -1,5 +1,28 @@
 [
   {
+    "guid": "777527841d773f4c117b47e7",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "European Product Act: Verbände fordern Haftung in der EU",
+    "link": "https://wortfilter.de/european-product-act-hde-vzbv-markenverband/",
+    "pageDate": "Sun, 11 Oct 2026 15:48:43 +0000",
+    "publishedAt": "2026-10-11T15:48:43.000Z",
+    "detectedAt": "2026-10-11T19:45:12.564Z",
+    "deliveredAt": "2026-10-11T19:45:12.564Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "af8ab8b168e8d5d1ee66e708",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -11029,28 +11052,6 @@
     "link": "https://ecommercenews.eu/industry-criticizes-national-parcel-levy-in-austria/",
     "pageDate": "Thu, 01 Oct 2026 13:52:34 +0000",
     "publishedAt": "2026-10-01T13:52:34.000Z",
-    "detectedAt": "2026-10-01T15:28:34.680Z",
-    "deliveredAt": "2026-10-01T15:28:34.680Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b5aa088d383885a274b266b4",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Free returns on the rise in DACH region",
-    "link": "https://ecommercenews.eu/free-returns-on-the-rise-in-dach-region/",
-    "pageDate": "Thu, 01 Oct 2026 16:01:14 +0000",
-    "publishedAt": "2026-10-01T16:01:14.000Z",
     "detectedAt": "2026-10-01T15:28:34.680Z",
     "deliveredAt": "2026-10-01T15:28:34.680Z",
     "recovered": false,
