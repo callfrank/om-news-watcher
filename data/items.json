@@ -1,5 +1,65 @@
 [
   {
+    "guid": "5f490906ebfafbb2934710c4",
+    "source": "Etsy",
+    "sourceKey": "src-df3769ae5eb9d873",
+    "sourceLabel": "Etsy",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Etsy x Rachel Antonoff and Susan Alexandra Launch the First-Ever Best in Show Merch Collection at NYFW",
+    "link": "https://www.etsy.com/de/news/etsy-x-rachel-antonoff-and-susan-alexandra-launch-the-first-ever-best-in-show-merch-collection-at-nyfw",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-11T01:54:18.188Z",
+    "deliveredAt": "2026-10-11T01:54:18.188Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "76e6fd3a36e95a562d402f66",
+    "source": "Etsy",
+    "sourceKey": "src-df3769ae5eb9d873",
+    "sourceLabel": "Etsy",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Newly Crafted: How We’re Investing in Seller Success (Fall 2026)",
+    "link": "https://www.etsy.com/de/news/newly-crafted-how-weare-investing-in-seller-success-fall-2026",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-11T01:54:18.187Z",
+    "deliveredAt": "2026-10-11T01:54:18.187Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "372b5ce8eed2f3a75a7daada",
+    "source": "Etsy",
+    "sourceKey": "src-df3769ae5eb9d873",
+    "sourceLabel": "Etsy",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Etsy's framework for addressing the environmental impact of AI",
+    "link": "https://www.etsy.com/de/news/etsy39s-framework-for-addressing-the-environmental-impact-of-ai",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-11T01:54:18.187Z",
+    "deliveredAt": "2026-10-11T01:54:18.187Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "a0ffd3b238200d271592e1dc",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10990,70 +11050,6 @@
     "publishedAt": "2026-10-01T12:00:00.000Z",
     "detectedAt": "2026-10-01T15:28:34.613Z",
     "deliveredAt": "2026-10-01T15:28:34.613Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "71d0e75ad71d295b15a8dc7a",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "Abschlüsse verbessern Berufseinstieg, verursachen aber hohe Kosten // ZEW-Studie über Ausbildungen für Studierende an französischen Universitäten",
-    "link": "https://www.zew.de/presse/pressearchiv/abschluesse-verbessern-berufseinstieg-verursachen-aber-hohe-kosten",
-    "pageDate": "01.10.2026",
-    "publishedAt": "2026-10-01T12:00:00.000Z",
-    "detectedAt": "2026-10-01T07:50:24.671Z",
-    "deliveredAt": "2026-10-01T07:50:24.671Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "163ff468e89b901728f3c9c0",
-    "source": "Mittelstand Digital",
-    "sourceKey": "src-3fbff5b0f3b52fe1",
-    "sourceLabel": "Mittelstand Digital",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Neue EU-Verpackungsverordnung (PPWR) – was bedeutet sie für KMU?",
-    "link": "https://digitalzentrumhandel.de/author/josephine-seiffert/",
-    "pageDate": "01.10.2026",
-    "publishedAt": "2026-10-01T12:00:00.000Z",
-    "detectedAt": "2026-10-01T07:50:24.666Z",
-    "deliveredAt": "2026-10-01T07:50:24.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5473bed397a16693363c4ccf",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "01.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2349347/&Ouml;STERREICHISCHE%20POST%20SCHLIESST%20&Uuml;BERNAHME%20IN%20SERBIEN%20AB",
-    "pageDate": "01.10.2026",
-    "publishedAt": "2026-10-01T12:00:00.000Z",
-    "detectedAt": "2026-10-01T07:50:24.663Z",
-    "deliveredAt": "2026-10-01T07:50:24.663Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
