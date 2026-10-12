@@ -1,5 +1,341 @@
 [
   {
+    "guid": "0c60ef302e93d2b865ef2f70",
+    "source": "Handelskraft",
+    "sourceKey": "src-6c1c923af06aedde",
+    "sourceLabel": "Handelskraft",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "KI-Agenten erstellen: Beispiele & Checkliste für euren Start",
+    "link": "https://www.handelskraft.de/ki-agenten-erstellen-beispiele-checkliste/",
+    "pageDate": "Mon, 12 Oct 2026 09:17:47 +0000",
+    "publishedAt": "2026-10-12T09:17:47.000Z",
+    "detectedAt": "2026-10-12T09:47:22.082Z",
+    "deliveredAt": "2026-10-12T09:47:22.082Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3d11a3d0e578b4fbb5cf2d8b",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Why does bol have its own products alongside those offered by selling partners?",
+    "link": "https://over.bol.com/en/news/why-does-bol-have-its-own-products-alongside-those-offered-by-selling-partners/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-12T09:47:22.073Z",
+    "deliveredAt": "2026-10-12T09:47:22.073Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b9c79bd8d053b9187bbd9263",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the trailer for 'Blade Runner 2099,' a new sci-fi series coming to Prime Video November 25",
+    "link": "https://www.aboutamazon.com/news/entertainment/blade-runner-2099-prime-video",
+    "pageDate": "Oct. 12, 2026",
+    "publishedAt": "2026-10-12T00:00:00.000Z",
+    "detectedAt": "2026-10-12T09:47:22.072Z",
+    "deliveredAt": "2026-10-12T09:47:22.072Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "96f4039033d929fe81872a75",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Marktintegrationspaket: Ratskompromiss baut nationale Hürden nur teilweise ab // Karolin Kirschenmann und Achim Wambach zum Paket für Marktintegration und Aufsicht (MISP)",
+    "link": "https://www.zew.de/presse/pressearchiv/marktintegrationspaket-ratskompromiss-baut-nationale-huerden-nur-teilweise-ab",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-12T09:47:22.071Z",
+    "deliveredAt": "2026-10-12T09:47:22.071Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ce6ffe1ad3aa40b081000aa0",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-12T09:47:22.068Z",
+    "deliveredAt": "2026-10-12T09:47:22.068Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "16b92b9902005bf4a13142d6",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "POST ERÖFFNET NEUE POSTBASIS IN WOLFSBERG",
+    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER%26Ouml%3BFFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-12T09:47:22.068Z",
+    "deliveredAt": "2026-10-12T09:47:22.068Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e473f681996c0e242e26ff98",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Arbeitskreis Kartellrecht 2026",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/10_12_2026_Professorentagung.html?nn=52004",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-12T09:47:22.061Z",
+    "deliveredAt": "2026-10-12T09:47:22.061Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1d87d18e3043083f26a3fffc",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": ", Bonn, 12.10.2026 Umstellung auf Post-Quanten-Kryptografie: Leitlinie zur nationalen Umsetzung der EU-Roadmap veröffentlicht Die gemeinsame Leitlinie von BMI, BMDS und BSI richtet sich insbesondere an Bundes-, Landes- und Kommunalverwaltungen sowie an Organisationen und Unternehmen, darunter Betreiber kritischer Infrastrukturen.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261012_Leitlinie-PQC.html",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-12T09:47:22.045Z",
+    "deliveredAt": "2026-10-12T09:47:22.045Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "75ae538f947236c7a38fdaf9",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Rund 1.800 neue Fake-Shops pro Monat – der HDE warnt vor Online-Betrug",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15383-rund-1-800-neue-fake-shops-pro-monat-der-hde-warnt-vor-online-betrug",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-12T09:47:22.044Z",
+    "deliveredAt": "2026-10-12T09:47:22.044Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f2b5a7240d528b886ae8b7f6",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "25 Tipps für Amazon, eBay und Shop: So vermeidest & reduzierst du Retouren 2026",
+    "link": "https://wortfilter.de/retouren-vermeiden-tipps/",
+    "pageDate": "Mon, 12 Oct 2026 05:24:48 +0000",
+    "publishedAt": "2026-10-12T05:24:48.000Z",
+    "detectedAt": "2026-10-12T09:47:22.044Z",
+    "deliveredAt": "2026-10-12T09:47:22.044Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0552246c578808bad71df977",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Geheime ChatGPT-Codes NICHT: 105 Codes – und was die Forschung belegt",
+    "link": "https://wortfilter.de/chatgpt-codes-liste/",
+    "pageDate": "Mon, 12 Oct 2026 06:15:26 +0000",
+    "publishedAt": "2026-10-12T06:15:26.000Z",
+    "detectedAt": "2026-10-12T09:47:22.044Z",
+    "deliveredAt": "2026-10-12T09:47:22.044Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ddc088786905b43f8c7399e9",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Drei China-Plattformen erreichen 11,8 Prozent der EU-Onlineausgaben",
+    "link": "https://onlinemarktplatz.de/293858/china-plattformen-in-europa/",
+    "pageDate": "Mon, 12 Oct 2026 05:59:17 +0000",
+    "publishedAt": "2026-10-12T05:59:17.000Z",
+    "detectedAt": "2026-10-12T09:47:22.043Z",
+    "deliveredAt": "2026-10-12T09:47:22.043Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "38db4a9d688c8d2755ce90b2",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "B2B-Marktmonitor 2026: Onlinehandel wächst stärker als erwartet",
+    "link": "https://onlinemarktplatz.de/293859/b2b-marktmonitor-2026/",
+    "pageDate": "Mon, 12 Oct 2026 06:27:26 +0000",
+    "publishedAt": "2026-10-12T06:27:26.000Z",
+    "detectedAt": "2026-10-12T09:47:22.043Z",
+    "deliveredAt": "2026-10-12T09:47:22.043Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "861a08cfa4d899a33c11050c",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "US-Onlinehandel wächst während der Prime Deal Days um 8,5 Prozent",
+    "link": "https://onlinemarktplatz.de/294076/prime-day-umsatz-usa-2026/",
+    "pageDate": "Mon, 12 Oct 2026 07:02:48 +0000",
+    "publishedAt": "2026-10-12T07:02:48.000Z",
+    "detectedAt": "2026-10-12T09:47:22.043Z",
+    "deliveredAt": "2026-10-12T09:47:22.043Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "79eebd39bec5d76be1a80764",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceKey": "src-17979740ef54054e",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Formular abgebrochen, Rechnung bekommen",
+    "link": "https://www.vzhh.de/presse/formular-abgebrochen-rechnung-bekommen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-12T09:47:22.038Z",
+    "deliveredAt": "2026-10-12T09:47:22.038Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d3a1adbb8dc5006690e4e8bd",
     "source": "UPS QZ",
     "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
@@ -10714,344 +11050,6 @@
     "publishedAt": "2026-10-02T06:23:46.000Z",
     "detectedAt": "2026-10-02T11:23:25.547Z",
     "deliveredAt": "2026-10-02T11:23:25.547Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b2e289382ffdeb6a19202bbb",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Europäisches Zahlungsnetzwerk ENP soll nationale Bezahldienste verbinden",
-    "link": "https://onlinemarktplatz.de/293647/europaeisches-zahlungsnetzwerk/",
-    "pageDate": "Fri, 02 Oct 2026 05:57:18 +0000",
-    "publishedAt": "2026-10-02T05:57:18.000Z",
-    "detectedAt": "2026-10-02T11:23:25.545Z",
-    "deliveredAt": "2026-10-02T11:23:25.545Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "44096be328f68b752bc8d6d0",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Onlinehandel im August: Umsatzplus trotz Inflation",
-    "link": "https://onlinemarktplatz.de/293667/onlinehandel-im-august-2026/",
-    "pageDate": "Fri, 02 Oct 2026 06:30:54 +0000",
-    "publishedAt": "2026-10-02T06:30:54.000Z",
-    "detectedAt": "2026-10-02T11:23:25.545Z",
-    "deliveredAt": "2026-10-02T11:23:25.545Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "12f08e090c2b44f41e7688eb",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "SHEIN Halbjahreszahlen: Europa-Umsatz fällt um 13,9 Prozent",
-    "link": "https://onlinemarktplatz.de/293658/shein-halbjahreszahlen-2026/",
-    "pageDate": "Fri, 02 Oct 2026 07:02:11 +0000",
-    "publishedAt": "2026-10-02T07:02:11.000Z",
-    "detectedAt": "2026-10-02T11:23:25.545Z",
-    "deliveredAt": "2026-10-02T11:23:25.545Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "85a8c011780aa4b922166e83",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Gut gepackt ist länger frisch: So kommt der Einkauf unversehrt nach Hause",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/gut-gepackt-ist-laenger-frisch-so-kommt-der-einkauf-unversehrt-nach-hause-126172",
-    "pageDate": "02.10.2026",
-    "publishedAt": "2026-10-02T12:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.540Z",
-    "deliveredAt": "2026-10-02T11:23:25.540Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "88f0b33c35b50b27e3e27c5f",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Jetzt Smart Meter einbauen? Was hinter den Schreiben der Deutsche Messwesen GmbH steckt",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/jetzt-smart-meter-einbauen-was-hinter-den-schreiben-der-deutsche-messwesen-gmbh-steckt-126158",
-    "pageDate": "02.10.2026",
-    "publishedAt": "2026-10-02T12:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.537Z",
-    "deliveredAt": "2026-10-02T11:23:25.537Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ee401921045cbad71f0350f3",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "'Neagley' renewed for Season 2 on Prime Video: Plot, cast, and how to watch now",
-    "link": "https://www.aboutamazon.com/news/entertainment/watch-neagley-reacher-prime-video",
-    "pageDate": "Oct. 1, 2026",
-    "publishedAt": "2026-10-01T00:00:00.000Z",
-    "detectedAt": "2026-10-01T20:32:54.988Z",
-    "deliveredAt": "2026-10-01T20:32:54.988Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "18ced43ceca66db36ff5fc33",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "5 ways Amazon is investing in New Jersey",
-    "link": "https://www.aboutamazon.com/news/community/amazon-investment-new-jersey-jobs-infrastructure-small-business",
-    "pageDate": "Oct. 1, 2026",
-    "publishedAt": "2026-10-01T00:00:00.000Z",
-    "detectedAt": "2026-10-01T20:32:54.987Z",
-    "deliveredAt": "2026-10-01T20:32:54.987Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "acc4286cd5cd8faa96eb90b4",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "17 chilling Halloween movies and shows to watch on Prime Video",
-    "link": "https://www.aboutamazon.com/news/entertainment/halloween-movies-shows-on-prime-video",
-    "pageDate": "Oct. 1, 2026",
-    "publishedAt": "2026-10-01T00:00:00.000Z",
-    "detectedAt": "2026-10-01T20:32:54.987Z",
-    "deliveredAt": "2026-10-01T20:32:54.987Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a7fe7fe4703334ec52ecbd02",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Widerrufsbutton Abmahnung: Fälle zeigen, was nicht reicht",
-    "link": "https://wortfilter.de/widerrufsbutton-abmahnung/",
-    "pageDate": "Thu, 01 Oct 2026 17:54:12 +0000",
-    "publishedAt": "2026-10-01T17:54:12.000Z",
-    "detectedAt": "2026-10-01T20:32:54.949Z",
-    "deliveredAt": "2026-10-01T20:32:54.949Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "669908a44a35cb6c81e2a6e4",
-    "source": "Pattern Newsroom",
-    "sourceKey": "src-fd172f245374fd81",
-    "sourceLabel": "Pattern",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce",
-      "KI",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Pattern Announces Preliminary Inclusion in Russell 3000® and Russell 2000® Indexes",
-    "link": "https://www.pattern.com/news/pattern-announces-preliminary-inclusion-in-russell-3000-r-and-russell-2000-r-indexes",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-01T20:32:54.925Z",
-    "deliveredAt": "2026-10-01T20:32:54.925Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "912b3e85640369786ced2eae",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Strauss setzt Wero auf Platz 1",
-    "link": "https://demoshops.de/strauss-setzt-wero-auf-platz-1/",
-    "pageDate": "Thu, 01 Oct 2026 10:18:21 +0000",
-    "publishedAt": "2026-10-01T10:18:21.000Z",
-    "detectedAt": "2026-10-01T15:28:34.715Z",
-    "deliveredAt": "2026-10-01T15:28:34.715Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "66a4fe40219f8c4db6f86e8f",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Sparkassen-App: Abos mit Wero bezahlen",
-    "link": "https://demoshops.de/sparkassen-app-abo-wero-bezahlen/",
-    "pageDate": "Thu, 01 Oct 2026 14:38:40 +0000",
-    "publishedAt": "2026-10-01T14:38:40.000Z",
-    "detectedAt": "2026-10-01T15:28:34.715Z",
-    "deliveredAt": "2026-10-01T15:28:34.715Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b30d16ae6531dcc7d797563a",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Can’t Find It? Walmart Can Light the Way",
-    "link": "https://corporate.walmart.com/news/2026/10/cant-find-it-walmart-can-light-the-way",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-01T15:28:34.704Z",
-    "deliveredAt": "2026-10-01T15:28:34.704Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "410a68943732a53c69683240",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon introduces a completely redesigned Kindle family",
-    "link": "https://www.aboutamazon.com/news/devices/new-kindle-lineup-2026",
-    "pageDate": "Oct. 1, 2026",
-    "publishedAt": "2026-10-01T00:00:00.000Z",
-    "detectedAt": "2026-10-01T15:28:34.695Z",
-    "deliveredAt": "2026-10-01T15:28:34.695Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a512b0a63dc465b16a2c3277",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "What’s new on Prime Video in October 2026, including ‘Carrie,’ ‘The Terminal List,’ and NBA games",
-    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-october-films-shows-sports-2026",
-    "pageDate": "Oct. 1, 2026",
-    "publishedAt": "2026-10-01T00:00:00.000Z",
-    "detectedAt": "2026-10-01T15:28:34.695Z",
-    "deliveredAt": "2026-10-01T15:28:34.695Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
