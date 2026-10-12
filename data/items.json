@@ -1,5 +1,292 @@
 [
   {
+    "guid": "5980a44b7f88bc6e586f4019",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart and the Walmart Foundation Commit $1 Million to Support Communities Impacted by Hurricane Isaias",
+    "link": "https://corporate.walmart.com/news/2026/10/walmart-support-for-communities-impacted-by-hurricane-isaias",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-12T19:24:10.119Z",
+    "deliveredAt": "2026-10-12T19:24:10.119Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7688878e3e60a1fa050487ef",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "The Traditions That Bring Us Together: A Season to Spark Good",
+    "link": "https://corporate.walmart.com/news/2026/10/season-to-spark-good",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-12T19:24:10.119Z",
+    "deliveredAt": "2026-10-12T19:24:10.119Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c51a21c3c112150e3992ed87",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "International Book Market 2026: Mixed first-half results as Adult Fiction continues to grow, Graphic Novels surge and Non-Fiction remains in decline",
+    "link": "https://nielseniq.com/global/en/news-center/2026/international-book-market-2026-mixed-first-half-results-as-adult-fiction-continues-to-grow-graphic-novels-surge-and-non-fiction-remains-in-decline/",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-12T19:24:10.105Z",
+    "deliveredAt": "2026-10-12T19:24:10.105Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e0aac6a40c8d7ecfcca71da8",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2352179/JUNGE%20TALENTE%20VERANTWORTETEN%20EINE%20WOCHE%20LANG%20EINE%20POSTFILIALE%20IN%20WIEN&nbsp;",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-12T19:24:10.102Z",
+    "deliveredAt": "2026-10-12T19:24:10.102Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "201cb8f227b8be6eddd85fa5",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "JUNGE TALENTE VERANTWORTETEN EINE WOCHE LANG EINE POSTFILIALE IN WIEN",
+    "link": "https://news.post.at/presse/de/post/id/2352179/JUNGE%20TALENTE%20VERANTWORTETEN%20EINE%20WOCHE%20LANG%20EINE%20POSTFILIALE%20IN%20WIEN%26nbsp%3B",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-12T19:24:10.102Z",
+    "deliveredAt": "2026-10-12T19:24:10.102Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "afec257684e1f3450d1f7508",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Ikea expands second-hand marketplace",
+    "link": "https://ecommercenews.eu/ikea-expands-second-hand-marketplace/",
+    "pageDate": "Mon, 12 Oct 2026 14:34:48 +0000",
+    "publishedAt": "2026-10-12T14:34:48.000Z",
+    "detectedAt": "2026-10-12T19:24:10.095Z",
+    "deliveredAt": "2026-10-12T19:24:10.095Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8dedafa9aa1bdb6bbfa16e29",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Asian marketplaces lose market share in Germany",
+    "link": "https://ecommercenews.eu/asian-marketplaces-lose-market-share-in-germany/",
+    "pageDate": "Mon, 12 Oct 2026 16:19:31 +0000",
+    "publishedAt": "2026-10-12T16:19:31.000Z",
+    "detectedAt": "2026-10-12T19:24:10.094Z",
+    "deliveredAt": "2026-10-12T19:24:10.094Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "02cfc8da8064c6159c8d72de",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Deutsche Exporte sinken, China-Importe steigen um 11 %",
+    "link": "https://wortfilter.de/deutsche-exporte-august-2026/",
+    "pageDate": "Mon, 12 Oct 2026 09:47:10 +0000",
+    "publishedAt": "2026-10-12T09:47:10.000Z",
+    "detectedAt": "2026-10-12T19:24:10.069Z",
+    "deliveredAt": "2026-10-12T19:24:10.069Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cbc33379ba060b8d4a2178d2",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Expansion – Warum der Nahe Osten für deutsche Verkäufer interessant ist: Jasmin Frick von Amazon im #UdZ Podcast zum Amazon Marketplace",
+    "link": "https://wortfilter.de/amazon-expansion-warum-der-nahe-osten-fuer-deutsche-verkaeufer-interessant-ist-jasmin-frick-von-amazon-im-udz-podcast/",
+    "pageDate": "Mon, 12 Oct 2026 09:47:31 +0000",
+    "publishedAt": "2026-10-12T09:47:31.000Z",
+    "detectedAt": "2026-10-12T19:24:10.069Z",
+    "deliveredAt": "2026-10-12T19:24:10.069Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fcafc66ca525da77791ac05c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Maxcluster, mein Hoster fiel aus. Und dann passierte das",
+    "link": "https://wortfilter.de/maxcluster-ausfall-gutschrift/",
+    "pageDate": "Mon, 12 Oct 2026 16:49:02 +0000",
+    "publishedAt": "2026-10-12T16:49:02.000Z",
+    "detectedAt": "2026-10-12T19:24:10.069Z",
+    "deliveredAt": "2026-10-12T19:24:10.069Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b63f2dcd4ceacb931c26e261",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DHL erweitert Cold Chain Network um sechs neue dedizierte Healthcare-Korridore, die Europa und Nordamerika mit Asien verbinden",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-erweitert-cold-chain-network.html",
+    "pageDate": "12.10.2026, 14:25 MESZ DHL GLOBAL FORWARDING",
+    "publishedAt": null,
+    "detectedAt": "2026-10-12T19:24:10.068Z",
+    "deliveredAt": "2026-10-12T19:24:10.068Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ab46859cc39f9c61d6f4745d",
+    "source": "Deloitte",
+    "sourceKey": "src-ee546a6472b48b72",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Krankenkassen: Neustart des Gesundheitssystems könnte Finanzlücke langfristig schließen",
+    "link": "https://www.deloitte.com/de/de/about/press-room/krankenkassen-neustart-des-gesundheitssystems-koennte-finanzluecke-langfristig-schliessen.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-12T19:24:10.065Z",
+    "deliveredAt": "2026-10-12T19:24:10.065Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e61addc0dd396de829876aa2",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceKey": "src-17979740ef54054e",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Sammelklage-Urteil: Preiserhöhungen von E.on-Fernwärme rechtswidrig",
+    "link": "https://www.vzhh.de/presse/sammelklage-urteil-preiserhoehungen-von-eon-fernwaerme-rechtswidrig",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-12T19:24:10.059Z",
+    "deliveredAt": "2026-10-12T19:24:10.059Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "0c60ef302e93d2b865ef2f70",
     "source": "Handelskraft",
     "sourceKey": "src-6c1c923af06aedde",
@@ -10767,289 +11054,6 @@
     "publishedAt": "2026-10-02T15:37:35.000Z",
     "detectedAt": "2026-10-02T16:51:35.738Z",
     "deliveredAt": "2026-10-02T16:51:35.738Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "818e8dd637bcfe5ca38d70f7",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Integration boosts EU banks’ competitiveness",
-    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
-    "pageDate": "2 October 2026",
-    "publishedAt": "2026-10-02T00:00:00.000Z",
-    "detectedAt": "2026-10-02T16:51:35.716Z",
-    "deliveredAt": "2026-10-02T16:51:35.716Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d5bd592aa3b831c6f1f249b2",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Zukunftssichere Infrastruktur für Essen",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/zukunftssichere-infrastruktur-fuer-essen",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-02T16:51:35.691Z",
-    "deliveredAt": "2026-10-02T16:51:35.691Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "24d39e3cc2139ea6d702d810",
-    "source": "Fressnapf Newsroom",
-    "sourceKey": "src-94258df63c219915",
-    "sourceLabel": "Fressnapf",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Logistik"
-    ],
-    "priority": 2,
-    "title": "Welttierschutztag 2026: Fressnapf setzt Zeichen für Tierheime, Tieradoption und gelebten Tierschutz",
-    "link": "https://www.mynewsdesk.com/de/fressnapf-holding-se/pressreleases/welttierschutztag-2026-fressnapf-setzt-zeichen-fur-tierheime-tieradoption-und-gelebten-tierschutz-3470630",
-    "pageDate": "02.10.2026",
-    "publishedAt": "2026-10-02T12:00:00.000Z",
-    "detectedAt": "2026-10-02T16:51:35.649Z",
-    "deliveredAt": "2026-10-02T16:51:35.649Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c289590f22f9ebcd07d5aa50",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How Amazon is helping communities impacted by the Nepal flash floods",
-    "link": "https://www.aboutamazon.com/news/community/nepal-floods-amazon-disaster-relief",
-    "pageDate": "Oct. 2, 2026",
-    "publishedAt": "2026-10-02T00:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.588Z",
-    "deliveredAt": "2026-10-02T11:23:25.588Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b9e8a329f00545a038034b29",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch 'Verity,' the Colleen Hoover movie adaptation out now in theaters",
-    "link": "https://www.aboutamazon.com/news/entertainment/verity-colleen-hoover-amazon-mgm-studios",
-    "pageDate": "Oct. 2, 2026",
-    "publishedAt": "2026-10-02T00:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.588Z",
-    "deliveredAt": "2026-10-02T11:23:25.588Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e90940e876ce4c6f30b067b5",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "The race our nation can’t afford to lose, plus a new commitment from us and a fresh set of community investments",
-    "link": "https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together",
-    "pageDate": "Oct. 2, 2026",
-    "publishedAt": "2026-10-02T00:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.588Z",
-    "deliveredAt": "2026-10-02T11:23:25.588Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4ca72180f53df8bb9d483358",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "NIQ Brings New AI and Automation Capabilities to Retail Space Planning and Merchandising",
-    "link": "https://nielseniq.com/global/en/news-center/2026/niq-brings-new-ai-and-automation-capabilities-to-retail-space-planning-and-merchandising/",
-    "pageDate": "02.10.2026",
-    "publishedAt": "2026-10-02T12:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.581Z",
-    "deliveredAt": "2026-10-02T11:23:25.581Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "68aba5397941243467b72106",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "BAUHAUS darf acht Baumärkte der insolventen HELLWEG-Gruppe übernehmen",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/10_02_2026_Bauhaus_Hellweg.html?nn=52004",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-02T11:23:25.570Z",
-    "deliveredAt": "2026-10-02T11:23:25.570Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "87ceeadd4cfadb6246f3fb60",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Kraftstoffpreise: Steuersenkung, Tankdeckel, regionale Unterschiede und 12 Uhr-Regel",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/10_02_2026_KraftstoffNews.html?nn=52004",
-    "pageDate": "02.10.2026",
-    "publishedAt": "2026-10-02T12:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.570Z",
-    "deliveredAt": "2026-10-02T11:23:25.570Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3fc92eccc442eaf4d346e448",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Öffentliches Finanzierungsdefizit im 1. Halbjahr 2026 bei 98,8 Milliarden Euro",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_351_711.html",
-    "pageDate": "Fri, 2 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-02T06:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.569Z",
-    "deliveredAt": "2026-10-02T11:23:25.569Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fb126f3d24ac50762166a0d6",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Zahl der Hochschulabschlüsse 2025 um 3 % gestiegen",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_352_213.html",
-    "pageDate": "Fri, 2 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-02T06:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.569Z",
-    "deliveredAt": "2026-10-02T11:23:25.569Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "906da15fce68b405018bcb70",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "How firms plan to finance AI adoption",
-    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261002~7e82912ad5.en.html",
-    "pageDate": "2 October 2026",
-    "publishedAt": "2026-10-02T00:00:00.000Z",
-    "detectedAt": "2026-10-02T11:23:25.554Z",
-    "deliveredAt": "2026-10-02T11:23:25.554Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "502649e6b405969f6d395726",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Shopify Canvas: Shop in 20 Minuten – aber ohne Updates",
-    "link": "https://wortfilter.de/shopify-canvas/",
-    "pageDate": "Fri, 02 Oct 2026 06:23:46 +0000",
-    "publishedAt": "2026-10-02T06:23:46.000Z",
-    "detectedAt": "2026-10-02T11:23:25.547Z",
-    "deliveredAt": "2026-10-02T11:23:25.547Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
