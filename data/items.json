@@ -1,5 +1,169 @@
 [
   {
+    "guid": "aba040df75005d734026eb8d",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "2Q 2026 Historical Financial Info",
+    "link": "https://investors.ups.com/_assets/_9262133c36404be24db33ee7b5a2e11e/ups/db/1111/11036/file/2026+Q2+Historical+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-13T21:35:10.050Z",
+    "deliveredAt": "2026-10-13T21:35:10.050Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "2627c3338d82b17f580e73bb",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "2Q 2026 Financial Statements",
+    "link": "https://investors.ups.com/_assets/_9262133c36404be24db33ee7b5a2e11e/ups/db/1111/11028/file/2026+Q2+Financial+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-13T21:35:10.050Z",
+    "deliveredAt": "2026-10-13T21:35:10.050Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "6ba390c1c9ab99591a878532",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "View press release",
+    "link": "https://investors.ups.com/_assets/_9262133c36404be24db33ee7b5a2e11e/ups/news/2026-07-28_UPS_Releases_2Q_2026_2164.pdf",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-13T21:35:10.050Z",
+    "deliveredAt": "2026-10-13T21:35:10.050Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fa9578b31bac1b52a71d6ea6",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "UPS To Release Third-Quarter 2026 Results On Tuesday, October 27, 2026",
+    "link": "https://investors.ups.com/news-events/press-releases/detail/2171/ups-to-release-third-quarter-2026-results-on-tuesday",
+    "pageDate": "Tue, 13 Oct 26 16:15:00 -0400",
+    "publishedAt": "2026-10-13T20:15:00.000Z",
+    "detectedAt": "2026-10-13T21:35:10.050Z",
+    "deliveredAt": "2026-10-13T21:35:10.050Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cf9a484d6c7df8a47ca95322",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Kein Wero bei Posteo",
+    "link": "https://demoshops.de/wero-posteo/",
+    "pageDate": "Tue, 13 Oct 2026 17:13:06 +0000",
+    "publishedAt": "2026-10-13T17:13:06.000Z",
+    "detectedAt": "2026-10-13T21:35:10.042Z",
+    "deliveredAt": "2026-10-13T21:35:10.042Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ebc41644039c43afac4164fd",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon supported communities impacted by the Colombia earthquake",
+    "link": "https://www.aboutamazon.com/news/community/colombia-earthquake-amazon-disaster-relief",
+    "pageDate": "Oct. 13, 2026",
+    "publishedAt": "2026-10-13T00:00:00.000Z",
+    "detectedAt": "2026-10-13T21:35:10.023Z",
+    "deliveredAt": "2026-10-13T21:35:10.023Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ce6ffe1ad3aa40b081000aa0",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-13T21:35:10.013Z",
+    "deliveredAt": "2026-10-13T21:35:10.013Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "2829e5b2851f6aae0ae84e89",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "The AI opportunity for Europe",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html",
+    "pageDate": "13 October 2026",
+    "publishedAt": "2026-10-13T00:00:00.000Z",
+    "detectedAt": "2026-10-13T21:35:09.987Z",
+    "deliveredAt": "2026-10-13T21:35:09.987Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "82f07c144f9e1b222462300c",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -32,8 +196,7 @@
       "Firmen"
     ],
     "tags": [
-      "E-Commerce",
-      "Unternehmensstrategie"
+      "E-Commerce"
     ],
     "priority": 2,
     "title": "Die Firma Juritex Import-Export GmbH informiert über Artikel der Marke „Crivit“",
@@ -226,26 +389,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "ce6ffe1ad3aa40b081000aa0",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "12.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-13T10:11:21.105Z",
-    "deliveredAt": "2026-10-13T10:11:21.105Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "a161b99428cf5a678a116b20",
@@ -1233,48 +1376,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "d3a1adbb8dc5006690e4e8bd",
-    "source": "UPS QZ",
-    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
-    "sourceLabel": "UPS QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "2Q 2026 Historical Financial Info",
-    "link": "https://investors.ups.com/_assets/_63396234cbd24d6039d32fa5f0d11622/ups/db/1111/11036/file/2026+Q2+Historical+Info+for+Website.xlsx",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-11T23:12:26.895Z",
-    "deliveredAt": "2026-10-11T23:12:26.895Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": []
-  },
-  {
-    "guid": "6f872d60626e9366ed4f4b7b",
-    "source": "UPS QZ",
-    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
-    "sourceLabel": "UPS QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "2Q 2026 Financial Statements",
-    "link": "https://investors.ups.com/_assets/_63396234cbd24d6039d32fa5f0d11622/ups/db/1111/11028/file/2026+Q2+Financial+Info+for+Website.xlsx",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-11T23:12:26.895Z",
-    "deliveredAt": "2026-10-11T23:12:26.895Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": []
   },
   {
     "guid": "ecf39824ee2a7c8d4a38aef0",
@@ -10935,122 +11036,6 @@
     "publishedAt": "2026-10-05T00:00:00.000Z",
     "detectedAt": "2026-10-06T00:22:26.737Z",
     "deliveredAt": "2026-10-06T00:22:26.737Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0c42ce8e893858daf4449428",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Correcting the Record: We Price Products, Not People",
-    "link": "https://corporate.walmart.com/news/2026/10/correcting-the-record",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-06T00:22:26.732Z",
-    "deliveredAt": "2026-10-06T00:22:26.732Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5a9e668213457d072c8c1b62",
-    "source": "PayPal US",
-    "sourceKey": "src-036682c8cc9a64e1",
-    "sourceLabel": "PayPal US",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Unternehmensnews",
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "The Venmo Credit Card Now Pays Up to 4% Cash Back When You Split with Friends",
-    "link": "https://newsroom.paypal-corp.com/2026-10-05-The-Venmo-Credit-Card-Now-Pays-Up-to-4-Cash-Back-When-You-Split-with-Friends",
-    "pageDate": "Mon, 05 Oct 2026 09:00:00 -0400",
-    "publishedAt": "2026-10-05T13:00:00.000Z",
-    "detectedAt": "2026-10-05T18:28:26.702Z",
-    "deliveredAt": "2026-10-05T18:28:26.702Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3ca76ce71b9630765ec37602",
-    "source": "Ebayinc",
-    "sourceKey": "src-15b135037542f2c3",
-    "sourceLabel": "Ebayinc",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "E-Commerce",
-      "Studien & Marktdaten",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "How Salt Lake City eBayers Welcome New Neighbors",
-    "link": "https://www.ebayinc.com/stories/news/how-salt-lake-city-ebayers-welcome-new-neighbors/",
-    "pageDate": "Oct 5, 2026 eBay Foundation",
-    "publishedAt": null,
-    "detectedAt": "2026-10-05T18:28:26.688Z",
-    "deliveredAt": "2026-10-05T18:28:26.688Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "acf83b932344025b8bb044d1",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon in the community: Here’s what’s happening in Seattle, Bellevue, and the Puget Sound",
-    "link": "https://www.aboutamazon.com/news/community/amazon-seattle-bellevue-puget-sound-news",
-    "pageDate": "Oct. 5, 2026",
-    "publishedAt": "2026-10-05T00:00:00.000Z",
-    "detectedAt": "2026-10-05T18:28:26.678Z",
-    "deliveredAt": "2026-10-05T18:28:26.678Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b9bce67294f174cf75c1fa14",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon's Holiday Kids Gift Book is back with 600+ toys, games, and gifts for every age",
-    "link": "https://www.aboutamazon.com/news/retail/amazon-2026-holiday-kids-gift-book",
-    "pageDate": "Oct. 5, 2026",
-    "publishedAt": "2026-10-05T00:00:00.000Z",
-    "detectedAt": "2026-10-05T18:28:26.678Z",
-    "deliveredAt": "2026-10-05T18:28:26.678Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
