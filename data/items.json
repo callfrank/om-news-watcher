@@ -1,5 +1,92 @@
 [
   {
+    "guid": "00d503b2aa3256f4b2ea0040",
+    "source": "Meta QZ",
+    "sourceKey": "e570b06e-f24a-45ea-a7b2-12f32fa2ed1d",
+    "sourceLabel": "Meta QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Meta to Announce Third Quarter 2026 Results",
+    "link": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+    "pageDate": "October 12, 2026",
+    "publishedAt": "2026-10-12T00:00:00.000Z",
+    "detectedAt": "2026-10-13T01:39:08.311Z",
+    "deliveredAt": "2026-10-13T01:39:08.311Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9d5d4cc94707aaff3218a949",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Bringing More to the Table",
+    "link": "https://corporate.walmart.com/news/2026/10/bringing-more-to-the-table",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-13T01:39:08.286Z",
+    "deliveredAt": "2026-10-13T01:39:08.286Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ce6ffe1ad3aa40b081000aa0",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-13T01:39:08.264Z",
+    "deliveredAt": "2026-10-13T01:39:08.264Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "098cfd96d54654036d82b46b",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "40 % Umsatzrückgang Amazon und eBay: Woran liegt es?",
+    "link": "https://wortfilter.de/umsatzrueckgang-onlinehandel-pruefen/",
+    "pageDate": "Mon, 12 Oct 2026 21:14:08 +0000",
+    "publishedAt": "2026-10-12T21:14:08.000Z",
+    "detectedAt": "2026-10-13T01:39:08.223Z",
+    "deliveredAt": "2026-10-13T01:39:08.223Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "5980a44b7f88bc6e586f4019",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -371,26 +458,6 @@
     "publishedAt": "2026-10-12T12:00:00.000Z",
     "detectedAt": "2026-10-12T09:47:22.071Z",
     "deliveredAt": "2026-10-12T09:47:22.071Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ce6ffe1ad3aa40b081000aa0",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "12.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-12T09:47:22.068Z",
-    "deliveredAt": "2026-10-12T09:47:22.068Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
@@ -10986,74 +11053,6 @@
     "publishedAt": "2026-10-03T07:11:14.000Z",
     "detectedAt": "2026-10-03T10:41:45.123Z",
     "deliveredAt": "2026-10-03T10:41:45.123Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1d0fd9d4c18cbcf3c887083e",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "CAIA Adventskalender: 35.000 Wartende beim Verkaufsstart",
-    "link": "https://onlinemarktplatz.de/293681/caia-adventskalender-2026/",
-    "pageDate": "Sat, 03 Oct 2026 07:57:50 +0000",
-    "publishedAt": "2026-10-03T07:57:50.000Z",
-    "detectedAt": "2026-10-03T10:41:45.123Z",
-    "deliveredAt": "2026-10-03T10:41:45.123Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ca536061037651e7c4ff067b",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Passwort: Schalke schlägt Liverpool",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/bei-passwoertern-schlaegt-schalke04-selbst-liverpool",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-03T10:41:45.107Z",
-    "deliveredAt": "2026-10-03T10:41:45.107Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "59f198b502a066d2482b1d0a",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Over 90% of purchases abroad made on Temu, Shein or AliExpress",
-    "link": "https://ecommercenews.eu/over-90-of-purchases-abroad-made-on-temu-shein-or-aliexpress/",
-    "pageDate": "Fri, 02 Oct 2026 15:37:35 +0000",
-    "publishedAt": "2026-10-02T15:37:35.000Z",
-    "detectedAt": "2026-10-02T16:51:35.738Z",
-    "deliveredAt": "2026-10-02T16:51:35.738Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
