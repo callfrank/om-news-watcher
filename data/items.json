@@ -1,5 +1,316 @@
 [
   {
+    "guid": "e20466d9327a1d82a7ca01ec",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "ZEW startet Artist-in-Residence-Programm mit Stefan Karrer // Un/Calculated Future",
+    "link": "https://www.zew.de/presse/pressearchiv/zew-startet-artist-in-residence-programm-mit-stefan-karrer",
+    "pageDate": "13.10.2026",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "detectedAt": "2026-10-13T08:29:18.554Z",
+    "deliveredAt": "2026-10-13T08:29:18.554Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "660b3fdc229740cec533f8ef",
+    "source": "Gfu",
+    "sourceKey": "src-e47d0ee60e79a7e8",
+    "sourceLabel": "Gfu",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Stromtarif im Minutentakt nutzen",
+    "link": "https://gfu.de/stromtarif-im-minutentakt-nutzen/",
+    "pageDate": "13.10.2026",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "detectedAt": "2026-10-13T08:29:18.554Z",
+    "deliveredAt": "2026-10-13T08:29:18.554Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1fd1016731fb1fdd04e24ca4",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "​​​UK shoppers stuck between seasons as summer favourites remain in the supermarket basket",
+    "link": "https://nielseniq.com/global/en/news-center/2026/uk-shoppers-stuck-between-seasons-as-summer-favourites-remain-in-the-supermarket-basket/",
+    "pageDate": "13.10.2026",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "detectedAt": "2026-10-13T08:29:18.553Z",
+    "deliveredAt": "2026-10-13T08:29:18.553Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ce310599286a0500ca259e46",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Erklärvideo: KI-Chatbots für den Handel",
+    "link": "https://digitalzentrumhandel.de/author/shouweling/",
+    "pageDate": "13.10.2026",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "detectedAt": "2026-10-13T08:29:18.551Z",
+    "deliveredAt": "2026-10-13T08:29:18.551Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e0aac6a40c8d7ecfcca71da8",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2352179/JUNGE%20TALENTE%20VERANTWORTETEN%20EINE%20WOCHE%20LANG%20EINE%20POSTFILIALE%20IN%20WIEN&nbsp;",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-13T08:29:18.549Z",
+    "deliveredAt": "2026-10-13T08:29:18.549Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c2a6fc0d91ce545853a18567",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "10 % weniger Lebkuchen im Jahr 2025 in Deutschland produziert",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_42_p002.html",
+    "pageDate": "Tue, 13 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-13T06:00:00.000Z",
+    "detectedAt": "2026-10-13T08:29:18.541Z",
+    "deliveredAt": "2026-10-13T08:29:18.541Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "64de42f0a8dbfa939c39600c",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Voraussichtliche Weinernte 2026 liegt 4 % unter dem Durchschnitt der Vorjahre",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_366_412.html",
+    "pageDate": "Tue, 13 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-13T06:00:00.000Z",
+    "detectedAt": "2026-10-13T08:29:18.541Z",
+    "deliveredAt": "2026-10-13T08:29:18.541Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "04f94f412f582dc4a322968b",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Sterbefallzahlen im 3. Quartal 2026: Hitzewellen führen zu vorübergehenden Anstiegen",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_365_126.html",
+    "pageDate": "Tue, 13 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-13T06:00:00.000Z",
+    "detectedAt": "2026-10-13T08:29:18.541Z",
+    "deliveredAt": "2026-10-13T08:29:18.541Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "56c11e4a40221a85b365ff82",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Inflationsrate im September 2026 bei +3,3 %",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_364_611.html",
+    "pageDate": "Tue, 13 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-13T06:00:00.000Z",
+    "detectedAt": "2026-10-13T08:29:18.541Z",
+    "deliveredAt": "2026-10-13T08:29:18.541Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "04b44ab049c423939f7ec8cd",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Unternehmensinsolvenzen 2026: +8 % – Logistik an der Spitze",
+    "link": "https://wortfilter.de/unternehmensinsolvenzen-2026-juli/",
+    "pageDate": "Tue, 13 Oct 2026 07:04:45 +0000",
+    "publishedAt": "2026-10-13T07:04:45.000Z",
+    "detectedAt": "2026-10-13T08:29:18.519Z",
+    "deliveredAt": "2026-10-13T08:29:18.519Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f16ad66bea1b5ad9a5e46174",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "KI im Welthandel: Infrastrukturboom liefert 47 Prozent des Wachstums",
+    "link": "https://onlinemarktplatz.de/294109/ki-im-welthandel-infrastruktur/",
+    "pageDate": "Tue, 13 Oct 2026 05:57:29 +0000",
+    "publishedAt": "2026-10-13T05:57:29.000Z",
+    "detectedAt": "2026-10-13T08:29:18.517Z",
+    "deliveredAt": "2026-10-13T08:29:18.517Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e899fd11cbcd60c38da60651",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon FBA: Peak-Gebühr steigt 2026 um rund 42 Prozent",
+    "link": "https://onlinemarktplatz.de/294159/amazon-fba-peak-gebuehr-2026/",
+    "pageDate": "Tue, 13 Oct 2026 06:30:58 +0000",
+    "publishedAt": "2026-10-13T06:30:58.000Z",
+    "detectedAt": "2026-10-13T08:29:18.517Z",
+    "deliveredAt": "2026-10-13T08:29:18.517Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8351dc128ad37bec43c029e1",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Porto 2027: Briefe und Pakete könnten deutlich teurer werden",
+    "link": "https://onlinemarktplatz.de/294179/porto-2027-briefe-pakete-preise/",
+    "pageDate": "Tue, 13 Oct 2026 07:01:56 +0000",
+    "publishedAt": "2026-10-13T07:01:56.000Z",
+    "detectedAt": "2026-10-13T08:29:18.517Z",
+    "deliveredAt": "2026-10-13T08:29:18.517Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "88dd86e56612eef6464b429e",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Meta Ray-Ban Display startet",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/verkaufsstart-telekom-bietet-meta-ray-ban-display-an",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-13T08:29:18.508Z",
+    "deliveredAt": "2026-10-13T08:29:18.508Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "00d503b2aa3256f4b2ea0040",
     "source": "Meta QZ",
     "sourceKey": "e570b06e-f24a-45ea-a7b2-12f32fa2ed1d",
@@ -152,26 +463,6 @@
     "publishedAt": "2026-10-12T12:00:00.000Z",
     "detectedAt": "2026-10-12T19:24:10.105Z",
     "deliveredAt": "2026-10-12T19:24:10.105Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e0aac6a40c8d7ecfcca71da8",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "12.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2352179/JUNGE%20TALENTE%20VERANTWORTETEN%20EINE%20WOCHE%20LANG%20EINE%20POSTFILIALE%20IN%20WIEN&nbsp;",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-12T19:24:10.102Z",
-    "deliveredAt": "2026-10-12T19:24:10.102Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
@@ -10752,307 +11043,6 @@
     "publishedAt": "2026-10-05T05:58:10.000Z",
     "detectedAt": "2026-10-05T09:04:36.685Z",
     "deliveredAt": "2026-10-05T09:04:36.685Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5914fab34f7c9115da0959a0",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Shopify Canvas verbindet Shop-Design und Sidekick im Early Access",
-    "link": "https://onlinemarktplatz.de/293741/shopify-canvas-early-access/",
-    "pageDate": "Mon, 05 Oct 2026 06:29:55 +0000",
-    "publishedAt": "2026-10-05T06:29:55.000Z",
-    "detectedAt": "2026-10-05T09:04:36.685Z",
-    "deliveredAt": "2026-10-05T09:04:36.685Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "abc78cfdff2444b175537fc4",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "myflexbox Übernahme: Deutsche Post kauft Paketstationsnetz",
-    "link": "https://onlinemarktplatz.de/293764/myflexbox-uebernahme-dhl/",
-    "pageDate": "Mon, 05 Oct 2026 07:01:20 +0000",
-    "publishedAt": "2026-10-05T07:01:20.000Z",
-    "detectedAt": "2026-10-05T09:04:36.685Z",
-    "deliveredAt": "2026-10-05T09:04:36.685Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "74384cdac935a8a4fd750c5f",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Telekom steigert Wachstum, Effizienz und Qualität durch Einsatz von KI",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-steigert-wachstum-effizienz-und-qualitaet-durch-einsatz",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-05T09:04:36.669Z",
-    "deliveredAt": "2026-10-05T09:04:36.669Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f31db42b3ddd68447af33dd9",
-    "source": "EY Newsroom",
-    "sourceKey": "src-8fc60553640bf464",
-    "sourceLabel": "EY",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Christoph Hoerauf wechselt als Partner zu EY",
-    "link": "https://www.ey.com/de_de/newsroom/2026/10/ey-personalien-oktober-christoph-hoerauf",
-    "pageDate": "05.10.2026",
-    "publishedAt": "2026-10-05T12:00:00.000Z",
-    "detectedAt": "2026-10-05T09:04:36.626Z",
-    "deliveredAt": "2026-10-05T09:04:36.626Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b4f1c97be43ee9266c5ce691",
-    "source": "Zalando Newsroom",
-    "sourceKey": "src-72a2ecac55647739",
-    "sourceLabel": "Zalando",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "„Access All Areas“: Zalando bringt 2027 neues Festival für Musik, Mode und Kultur nach Berlin",
-    "link": "https://corporate.zalando.com/de/unternehmen/access-all-areas-zalando-bringt-2027-neues-festival-fuer-musik-mode-kultur-berlin",
-    "pageDate": "05.10.2026",
-    "publishedAt": "2026-10-05T12:00:00.000Z",
-    "detectedAt": "2026-10-05T09:04:36.616Z",
-    "deliveredAt": "2026-10-05T09:04:36.616Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "836aa257fd70498833319ad4",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Risikomanagement: Ohne welche Geräte steht euer Business still?",
-    "link": "https://wortfilter.de/risikomanagement-geraeteausfall-onlinehandel/",
-    "pageDate": "Sun, 04 Oct 2026 17:12:01 +0000",
-    "publishedAt": "2026-10-04T17:12:01.000Z",
-    "detectedAt": "2026-10-04T20:12:18.144Z",
-    "deliveredAt": "2026-10-04T20:12:18.144Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "67e585955ba291938dea5c61",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Klarna Reparaturservice: 70 % sehen Nutzen, 14 % reparieren",
-    "link": "https://wortfilter.de/klarna-reparaturservice-care-repair/",
-    "pageDate": "Sun, 04 Oct 2026 06:31:38 +0000",
-    "publishedAt": "2026-10-04T06:31:38.000Z",
-    "detectedAt": "2026-10-04T12:21:46.428Z",
-    "deliveredAt": "2026-10-04T12:21:46.428Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2c55006defa965e661fe1017",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Operation Troja: Eine Million mutmaßliche Mogel-Handys im Onlinehandel",
-    "link": "https://onlinemarktplatz.de/293682/operation-troja-millionenbetrug/",
-    "pageDate": "Sun, 04 Oct 2026 06:20:49 +0000",
-    "publishedAt": "2026-10-04T06:20:49.000Z",
-    "detectedAt": "2026-10-04T12:21:46.427Z",
-    "deliveredAt": "2026-10-04T12:21:46.427Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ab2883db83b55da9cfbacb25",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "KI-Betrug mit Veteranen: Falsche Verkäufer auf TikTok",
-    "link": "https://onlinemarktplatz.de/293684/ki-betrug-mit-veteranen-tiktok/",
-    "pageDate": "Sun, 04 Oct 2026 07:11:41 +0000",
-    "publishedAt": "2026-10-04T07:11:41.000Z",
-    "detectedAt": "2026-10-04T12:21:46.427Z",
-    "deliveredAt": "2026-10-04T12:21:46.427Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "577e8cccc30a2026e8ea5a8b",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Kleinanzeigen KI-Analyse: Was mit Händler-Chats passiert",
-    "link": "https://onlinemarktplatz.de/293711/kleinanzeigen-ki-analyse-haendler-chats/",
-    "pageDate": "Sun, 04 Oct 2026 07:53:08 +0000",
-    "publishedAt": "2026-10-04T07:53:08.000Z",
-    "detectedAt": "2026-10-04T12:21:46.426Z",
-    "deliveredAt": "2026-10-04T12:21:46.426Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8f003bcfb393a915c57a723b",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Abos, Apps & Abkommen – die Woche 26 / 40",
-    "link": "https://demoshops.de/wero-woche-26-40/",
-    "pageDate": "Sat, 03 Oct 2026 10:32:35 +0000",
-    "publishedAt": "2026-10-03T10:32:35.000Z",
-    "detectedAt": "2026-10-03T10:41:45.187Z",
-    "deliveredAt": "2026-10-03T10:41:45.187Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "79487a065b7ae5e4d52f5890",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "TikTok als Schaufenster: Warum digitale Trends im Laden landen",
-    "link": "https://onlinemarktplatz.de/293195/social-media-ladenbesuche-feed-filiale/",
-    "pageDate": "Sat, 03 Oct 2026 06:21:18 +0000",
-    "publishedAt": "2026-10-03T06:21:18.000Z",
-    "detectedAt": "2026-10-03T10:41:45.123Z",
-    "deliveredAt": "2026-10-03T10:41:45.123Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "582c6a8cf064602aa096269d",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Lidl NeckCroissant: Wie Backware zum Marken-Merch wird",
-    "link": "https://onlinemarktplatz.de/293683/lidl-neckcroissant/",
-    "pageDate": "Sat, 03 Oct 2026 07:11:14 +0000",
-    "publishedAt": "2026-10-03T07:11:14.000Z",
-    "detectedAt": "2026-10-03T10:41:45.123Z",
-    "deliveredAt": "2026-10-03T10:41:45.123Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
