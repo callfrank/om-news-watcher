@@ -15,7 +15,7 @@
     "group": "Firmen",
     "slug": "firmen",
     "file": "feeds/firmen.xml",
-    "count": 60
+    "count": 63
   },
   {
     "group": "Institute",
@@ -39,24 +39,24 @@
     "group": "Research",
     "slug": "research",
     "file": "feeds/research.xml",
-    "count": 30
+    "count": 29
   },
   {
     "group": "Sonstiges",
     "slug": "sonstiges",
     "file": "feeds/sonstiges.xml",
-    "count": 71
+    "count": 69
   },
   {
     "group": "Staat",
     "slug": "staat",
     "file": "feeds/staat.xml",
-    "count": 5
+    "count": 6
   },
   {
     "group": "Verbände",
     "slug": "verbande",
     "file": "feeds/verbande.xml",
-    "count": 13
+    "count": 12
   }
 ]
