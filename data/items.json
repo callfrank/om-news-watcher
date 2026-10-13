@@ -1,5 +1,71 @@
 [
   {
+    "guid": "ce6ffe1ad3aa40b081000aa0",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-13T10:11:21.105Z",
+    "deliveredAt": "2026-10-13T10:11:21.105Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "a161b99428cf5a678a116b20",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "IKEA Secondhand-Marktplatz startet in Deutschland",
+    "link": "https://onlinemarktplatz.de/294199/ikea-secondhand-marktplatz-deutschland/",
+    "pageDate": "Tue, 13 Oct 2026 09:11:54 +0000",
+    "publishedAt": "2026-10-13T09:11:54.000Z",
+    "detectedAt": "2026-10-13T10:11:21.080Z",
+    "deliveredAt": "2026-10-13T10:11:21.080Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "47f47ee7eb1d2f70eafaa800",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "13.10.2026Gesundheitsdaten: Erst fragen, dann auswerten",
+    "link": "https://www.vzbv.de/pressemitteilungen/gesundheitsdaten-erst-fragen-dann-auswerten-0",
+    "pageDate": "13.10.2026",
+    "publishedAt": "2026-10-13T12:00:00.000Z",
+    "detectedAt": "2026-10-13T10:11:21.074Z",
+    "deliveredAt": "2026-10-13T10:11:21.074Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "e20466d9327a1d82a7ca01ec",
     "source": "Zew",
     "sourceKey": "src-f3985f12770a41ec",
@@ -353,26 +419,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "ce6ffe1ad3aa40b081000aa0",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "12.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-13T01:39:08.264Z",
-    "deliveredAt": "2026-10-13T01:39:08.264Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "098cfd96d54654036d82b46b",
@@ -10996,53 +11042,6 @@
     "publishedAt": "2026-10-05T06:27:54.000Z",
     "detectedAt": "2026-10-05T09:04:36.687Z",
     "deliveredAt": "2026-10-05T09:04:36.687Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ece116ee1c478e238792691e",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "HDE-Konsumbarometer: 93,51 Punkte – Q4 bringt keine Rettung",
-    "link": "https://wortfilter.de/hde-konsumbarometer-oktober-2026/",
-    "pageDate": "Mon, 05 Oct 2026 07:30:01 +0000",
-    "publishedAt": "2026-10-05T07:30:01.000Z",
-    "detectedAt": "2026-10-05T09:04:36.687Z",
-    "deliveredAt": "2026-10-05T09:04:36.687Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b5abcd8e0061b253fee26d24",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Der bessere Marktplatz: Händler finanzieren neue Plattform",
-    "link": "https://onlinemarktplatz.de/293726/der-bessere-marktplatz/",
-    "pageDate": "Mon, 05 Oct 2026 05:58:10 +0000",
-    "publishedAt": "2026-10-05T05:58:10.000Z",
-    "detectedAt": "2026-10-05T09:04:36.685Z",
-    "deliveredAt": "2026-10-05T09:04:36.685Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
