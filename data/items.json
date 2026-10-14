@@ -1,5 +1,47 @@
 [
   {
+    "guid": "acf83b932344025b8bb044d1",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon in the community: Here’s what’s happening in Seattle, Bellevue, and the Puget Sound",
+    "link": "https://www.aboutamazon.com/news/community/amazon-seattle-bellevue-puget-sound-news",
+    "pageDate": "Oct. 13, 2026",
+    "publishedAt": "2026-10-13T00:00:00.000Z",
+    "detectedAt": "2026-10-14T00:38:58.825Z",
+    "deliveredAt": "2026-10-14T00:38:58.825Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e0aac6a40c8d7ecfcca71da8",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2352179/JUNGE%20TALENTE%20VERANTWORTETEN%20EINE%20WOCHE%20LANG%20EINE%20POSTFILIALE%20IN%20WIEN&nbsp;",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-14T00:38:58.816Z",
+    "deliveredAt": "2026-10-14T00:38:58.816Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "aba040df75005d734026eb8d",
     "source": "UPS QZ",
     "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
@@ -255,26 +297,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "e0aac6a40c8d7ecfcca71da8",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "12.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2352179/JUNGE%20TALENTE%20VERANTWORTETEN%20EINE%20WOCHE%20LANG%20EINE%20POSTFILIALE%20IN%20WIEN&nbsp;",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-13T16:28:26.755Z",
-    "deliveredAt": "2026-10-13T16:28:26.755Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "1a22322de07f1f9dd81b0377",
@@ -1373,26 +1395,6 @@
     "publishedAt": null,
     "detectedAt": "2026-10-12T09:47:22.038Z",
     "deliveredAt": "2026-10-12T09:47:22.038Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ecf39824ee2a7c8d4a38aef0",
-    "source": "UPS QZ",
-    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
-    "sourceLabel": "UPS QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "View press release",
-    "link": "https://investors.ups.com/_assets/_63396234cbd24d6039d32fa5f0d11622/ups/news/2026-07-28_UPS_Releases_2Q_2026_2164.pdf",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-11T23:12:26.894Z",
-    "deliveredAt": "2026-10-11T23:12:26.894Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
