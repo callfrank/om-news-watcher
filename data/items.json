@@ -1,5 +1,92 @@
 [
   {
+    "guid": "ce6ffe1ad3aa40b081000aa0",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-14T11:45:21.807Z",
+    "deliveredAt": "2026-10-14T11:45:21.807Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "fd7df99b213d89a7353d766b",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "REWE darf tegut-Standorte unter Nebenbestimmungen übernehmen",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/10_14_2026_Rewe_tegut.html?nn=52004",
+    "pageDate": "14.10.2026",
+    "publishedAt": "2026-10-14T12:00:00.000Z",
+    "detectedAt": "2026-10-14T11:45:21.800Z",
+    "deliveredAt": "2026-10-14T11:45:21.800Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9b755f5650b2ecdb87af8eb8",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Zavvi Insolvenz: 70 Jobs weg, zavvi.de-Kunden gehen leer aus",
+    "link": "https://wortfilter.de/zavvi-insolvenz/",
+    "pageDate": "Wed, 14 Oct 2026 10:39:28 +0000",
+    "publishedAt": "2026-10-14T10:39:28.000Z",
+    "detectedAt": "2026-10-14T11:45:21.781Z",
+    "deliveredAt": "2026-10-14T11:45:21.781Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "321d97ab9f01d42a50db62c9",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "14.10.2026Zuckersteuer: Verbraucherzentrale begrüßt Einigung",
+    "link": "https://www.vzbv.de/pressemitteilungen/zuckersteuer-verbraucherzentrale-begruesst-einigung",
+    "pageDate": "14.10.2026",
+    "publishedAt": "2026-10-14T12:00:00.000Z",
+    "detectedAt": "2026-10-14T11:45:21.772Z",
+    "deliveredAt": "2026-10-14T11:45:21.772Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "2ae06e19ddf31c23c1a244e5",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -356,26 +443,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "ce6ffe1ad3aa40b081000aa0",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "12.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-14T05:26:27.122Z",
-    "deliveredAt": "2026-10-14T05:26:27.122Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "21bced2980a64f7132d13797",
@@ -10981,73 +11048,6 @@
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "detectedAt": "2026-10-06T14:12:58.628Z",
     "deliveredAt": "2026-10-06T14:12:58.628Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4b0f195677c4ae5aa9f9232f",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Diagnostic challenges for monetary policy",
-    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
-    "pageDate": "5 October 2026",
-    "publishedAt": "2026-10-05T00:00:00.000Z",
-    "detectedAt": "2026-10-06T14:12:58.628Z",
-    "deliveredAt": "2026-10-06T14:12:58.628Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c94ac9e2264160977953a61b",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Amazon Zweibrücken: 1.000 Jobs besetzt – Roboter rollen an",
-    "link": "https://wortfilter.de/amazon-zweibruecken-1000-jobs/",
-    "pageDate": "Tue, 06 Oct 2026 08:11:27 +0000",
-    "publishedAt": "2026-10-06T08:11:27.000Z",
-    "detectedAt": "2026-10-06T14:12:58.621Z",
-    "deliveredAt": "2026-10-06T14:12:58.621Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a45b45e8dcc24974a3a30688",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Prisma.fi Marktplatz startet mit ausgewählten europäischen Händlern",
-    "link": "https://onlinemarktplatz.de/293777/prisma-fi-marktplatz/",
-    "pageDate": "Tue, 06 Oct 2026 07:02:13 +0000",
-    "publishedAt": "2026-10-06T07:02:13.000Z",
-    "detectedAt": "2026-10-06T14:12:58.620Z",
-    "deliveredAt": "2026-10-06T14:12:58.620Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
