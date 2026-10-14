@@ -9,7 +9,7 @@
     "group": "Finanzen",
     "slug": "finanzen",
     "file": "feeds/finanzen.xml",
-    "count": 323
+    "count": 321
   },
   {
     "group": "Firmen",
@@ -33,7 +33,7 @@
     "group": "Quartalszahlen",
     "slug": "quartalszahlen",
     "file": "feeds/quartalszahlen.xml",
-    "count": 7
+    "count": 8
   },
   {
     "group": "Research",
@@ -45,7 +45,7 @@
     "group": "Sonstiges",
     "slug": "sonstiges",
     "file": "feeds/sonstiges.xml",
-    "count": 62
+    "count": 63
   },
   {
     "group": "Staat",

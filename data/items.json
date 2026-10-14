@@ -1,5 +1,51 @@
 [
   {
+    "guid": "84dbc6d6e054267e623a16db",
+    "source": "etsy QZ",
+    "sourceKey": "src-32deda08b7cb1d3d",
+    "sourceLabel": "etsy QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Events",
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Etsy to Announce Third Quarter 2026 Financial Results on October 28, 2026",
+    "link": "https://investors.etsy.com/news-events/press-releases/detail/228/etsy-to-announce-third-quarter-2026-financial-results-on-october-28-2026",
+    "pageDate": "Oct 14, 2026 4:05 pm EDT",
+    "publishedAt": "2026-10-14T20:05:00.000Z",
+    "detectedAt": "2026-10-14T22:40:03.925Z",
+    "deliveredAt": "2026-10-14T22:40:03.925Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "842d2dd37749428e49f85880",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "15 Shopware Agenturen für unterschiedliche Anforderungen 2026",
+    "link": "https://wortfilter.de/shopware-agenturen-2026/",
+    "pageDate": "Wed, 14 Oct 2026 20:30:57 +0000",
+    "publishedAt": "2026-10-14T20:30:57.000Z",
+    "detectedAt": "2026-10-14T22:40:03.901Z",
+    "deliveredAt": "2026-10-14T22:40:03.901Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "4612d21d506e9fe0da83258b",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -3802,28 +3848,6 @@
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "detectedAt": "2026-10-14T19:43:50.564Z",
     "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5b5bece8d0113d8f62fb32e0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "tap partnership",
-    "link": "https://www.klarna.com/international/press/tap-and-klarnas-partnership-takes-off-flexible-payments-now-available-in-the-us-spain-france-and-italy/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.563Z",
-    "deliveredAt": "2026-10-14T19:43:50.563Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -11028,28 +11052,6 @@
     "priority": 2,
     "title": "Navigate to Klarna now available on Apple Pay in Denmark, Spain, and Sweden with France to follow",
     "link": "https://www.klarna.com/international/press/klarna-now-available-on-apple-pay-in-denmark-spain-and-sweden-with-france-to/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "281c6aefd6bd8a0654f11144",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches KlarnaUSD as stablecoin transactions hit $27 trillion annually",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarnausd-as-stablecoin-transactions-hit-usd27-trillion/",
     "pageDate": "October 6, 2026",
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "detectedAt": "2026-10-07T21:37:39.983Z",
