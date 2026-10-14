@@ -1,5 +1,49 @@
 [
   {
+    "guid": "ce6ffe1ad3aa40b081000aa0",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
+    "pageDate": "12.10.2026",
+    "publishedAt": "2026-10-12T12:00:00.000Z",
+    "detectedAt": "2026-10-14T05:26:27.122Z",
+    "deliveredAt": "2026-10-14T05:26:27.122Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "21bced2980a64f7132d13797",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Über die Expansion hinaus: Warum profitables Wachstum für deutsche Marktplatzhändler immer wichtiger wird",
+    "link": "https://onlinemarktplatz.de/294208/expansion-benelux-marktplatzhandel/",
+    "pageDate": "Wed, 14 Oct 2026 03:46:20 +0000",
+    "publishedAt": "2026-10-14T03:46:20.000Z",
+    "detectedAt": "2026-10-14T05:26:27.098Z",
+    "deliveredAt": "2026-10-14T05:26:27.098Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "acf83b932344025b8bb044d1",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -161,26 +205,6 @@
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "detectedAt": "2026-10-13T21:35:10.023Z",
     "deliveredAt": "2026-10-13T21:35:10.023Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ce6ffe1ad3aa40b081000aa0",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "12.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2352662/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20WOLFSBERG",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-13T21:35:10.013Z",
-    "deliveredAt": "2026-10-13T21:35:10.013Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
@@ -11013,31 +11037,6 @@
     "publishedAt": null,
     "detectedAt": "2026-10-06T06:53:50.106Z",
     "deliveredAt": "2026-10-06T06:53:50.106Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "08348e07562f17f454932b38",
-    "source": "Uber",
-    "sourceKey": "src-9ca710b31d1e337a",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Uber Announces Date of Third Quarter 2026 Results Conference Call",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Date-of-Third-Quarter-2026-Results-Conference-Call/default.aspx",
-    "pageDate": "October 5, 2026",
-    "publishedAt": "2026-10-05T00:00:00.000Z",
-    "detectedAt": "2026-10-06T00:22:26.737Z",
-    "deliveredAt": "2026-10-06T00:22:26.737Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
