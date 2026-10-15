@@ -1,16 +1,58 @@
 [
   {
+    "guid": "3d3f739df8190a2d5fa9220c",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon introduces 2 new AI products from Bee: Bee Frontier and Bee Eclipse",
+    "link": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+    "pageDate": "Oct. 15, 2026",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "detectedAt": "2026-10-15T13:00:30.482Z",
+    "deliveredAt": "2026-10-15T13:00:30.482Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "22b413c805695d63c53ffd91",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Gargash Prime and JINGDONG Property Sign Joint Venture to Develop a 2.5 Mn. Sq. Ft. Land for a Dubai Logistics Facility in the UAE",
+    "link": "https://jdcorporateblog.com/gargash-prime-and-jingdong-property-sign-joint-venture-to-develop-a-2-5-mn-sq-ft-land-for-a-dubai-logistics-facility-in-the-uae/",
+    "pageDate": "Oct 15, 2026",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "detectedAt": "2026-10-15T13:00:30.433Z",
+    "deliveredAt": "2026-10-15T13:00:30.433Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "3e32f958ff170fbe776c304f",
     "source": "DHL QZ",
     "sourceKey": "076d444d-18a6-4ddb-bf20-41d5dc450597",
     "sourceLabel": "DHL QZ",
     "groups": [
-      "Quartalszahlen",
-      "Logistik"
+      "Quartalszahlen"
     ],
     "tags": [
-      "Logistik",
-      "Quartalszahlen"
+      "Logistik"
     ],
     "priority": 2,
     "title": "Martin Ziegenbalg geht 2027 in den Ruhestand; Robert Schneider übernimmt Leitung von Investor Relations",
@@ -11021,50 +11063,6 @@
     "priority": 2,
     "title": "Navigate to Klarna opens direct line to CEO Sebastian Siemiatkowski – powered by AI",
     "link": "https://www.klarna.com/international/press/klarna-opens-direct-line-to-ceo-sebastian-siemiatkowski-powered-by-ai/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6dc631379b0bd7d5377c29b9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Tap to switch: Klarna expands into mobile phone plans with flexible, no-hassle service for 25M Americans",
-    "link": "https://www.klarna.com/international/press/tap-to-switch-klarna-expands-into-mobile-phone-plans-with-flexible-no-hassle/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "00c46722bdaad1d5c51e5273",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Is Now Available on Google Pay",
-    "link": "https://www.klarna.com/international/press/klarna-is-now-available-on-google-pay/",
     "pageDate": "October 6, 2026",
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "detectedAt": "2026-10-07T21:37:39.984Z",
