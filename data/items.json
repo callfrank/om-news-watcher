@@ -1,5 +1,25 @@
 [
   {
+    "guid": "0949de8aacbe5ec4cb2e97a6",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Birmingham, United Kingdom Oct 16, 2026 AMA Fest UK 2026",
+    "link": "https://amzsummits.com/events/ama-fest-uk-2026/",
+    "pageDate": "Oct 16, 2026",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "detectedAt": "2026-10-15T00:54:57.416Z",
+    "deliveredAt": "2026-10-15T00:54:57.416Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "84dbc6d6e054267e623a16db",
     "source": "etsy QZ",
     "sourceKey": "src-32deda08b7cb1d3d",
@@ -11030,28 +11050,6 @@
     "priority": 2,
     "title": "Navigate to Klarna delivers record-breaking Q3 as AI-powered digital bank: $903 million in revenue and 4 million card sign-ups in four months",
     "link": "https://www.klarna.com/international/press/klarna-delivers-record-breaking-q3-as-ai-powered-digital-bank-usd903-million/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f0d00d0ac2e39e575698a06e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna now available on Apple Pay in Denmark, Spain, and Sweden with France to follow",
-    "link": "https://www.klarna.com/international/press/klarna-now-available-on-apple-pay-in-denmark-spain-and-sweden-with-france-to/",
     "pageDate": "October 6, 2026",
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "detectedAt": "2026-10-07T21:37:39.983Z",
