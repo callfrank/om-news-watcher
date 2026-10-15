@@ -9,13 +9,13 @@
     "group": "Finanzen",
     "slug": "finanzen",
     "file": "feeds/finanzen.xml",
-    "count": 318
+    "count": 296
   },
   {
     "group": "Firmen",
     "slug": "firmen",
     "file": "feeds/firmen.xml",
-    "count": 48
+    "count": 51
   },
   {
     "group": "Institute",
@@ -27,25 +27,25 @@
     "group": "Logistik",
     "slug": "logistik",
     "file": "feeds/logistik.xml",
-    "count": 11
+    "count": 14
   },
   {
     "group": "Quartalszahlen",
     "slug": "quartalszahlen",
     "file": "feeds/quartalszahlen.xml",
-    "count": 8
+    "count": 9
   },
   {
     "group": "Research",
     "slug": "research",
     "file": "feeds/research.xml",
-    "count": 22
+    "count": 25
   },
   {
     "group": "Sonstiges",
     "slug": "sonstiges",
     "file": "feeds/sonstiges.xml",
-    "count": 64
+    "count": 76
   },
   {
     "group": "Staat",
@@ -57,6 +57,6 @@
     "group": "Verbände",
     "slug": "verbande",
     "file": "feeds/verbande.xml",
-    "count": 13
+    "count": 14
   }
 ]

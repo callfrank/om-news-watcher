@@ -1,5 +1,524 @@
 [
   {
+    "guid": "3e32f958ff170fbe776c304f",
+    "source": "DHL QZ",
+    "sourceKey": "076d444d-18a6-4ddb-bf20-41d5dc450597",
+    "sourceLabel": "DHL QZ",
+    "groups": [
+      "Quartalszahlen",
+      "Logistik"
+    ],
+    "tags": [
+      "Logistik",
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Martin Ziegenbalg geht 2027 in den Ruhestand; Robert Schneider übernimmt Leitung von Investor Relations",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/martin-ziegenbalg-geht-2027-in-den-ruhestand-robert-schneider-uebernimmt-leitung-von-investor-relations.html",
+    "pageDate": "15.10.2026, 11:30 MESZ FINANCIAL NEWS",
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T11:28:44.713Z",
+    "deliveredAt": "2026-10-15T11:28:44.713Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "DHL"
+    ]
+  },
+  {
+    "guid": "806704e87d7d83baa4ca4a91",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Neueröffnung – Völklingen, 22. Oktober 2026",
+    "link": "https://newsroom.dm.de/pressreleases/neueroeffnung-voelklingen-22-oktober-2026-3472607",
+    "pageDate": "15.10.2026",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.698Z",
+    "deliveredAt": "2026-10-15T11:28:44.698Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e77ba160068a8ab446060454",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Sam’s Club Presents Its 2026 Member’s Mark™ Thanksgiving Meal",
+    "link": "https://corporate.walmart.com/about/samsclub/news/2026/10/members-mark-thanksgiving-meal",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T11:28:44.697Z",
+    "deliveredAt": "2026-10-15T11:28:44.697Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4a114b4d81d5c33a4ef5f174",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "15.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2354171/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20B&Ouml;HEIMKIRCHEN",
+    "pageDate": "15.10.2026",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.680Z",
+    "deliveredAt": "2026-10-15T11:28:44.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9e80de03977569a9e135f90c",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "POST ERÖFFNET NEUE POSTBASIS IN BÖHEIMKIRCHEN",
+    "link": "https://news.post.at/presse/de/post/id/2354171/POST%20ER%26Ouml%3BFFNET%20NEUE%20POSTBASIS%20IN%20B%26Ouml%3BHEIMKIRCHEN",
+    "pageDate": "15.10.2026",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.680Z",
+    "deliveredAt": "2026-10-15T11:28:44.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "19bd87fda1a0893fd8dd8f67",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "80% of marketplace GMV in Europe come from cross-border transactions",
+    "link": "https://ecommercenews.eu/80-of-marketplace-gmv-in-europe-come-from-cross-border-transactions/",
+    "pageDate": "Thu, 15 Oct 2026 09:30:52 +0000",
+    "publishedAt": "2026-10-15T09:30:52.000Z",
+    "detectedAt": "2026-10-15T11:28:44.672Z",
+    "deliveredAt": "2026-10-15T11:28:44.672Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "703884ec0a94dec4ba43ce67",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Niedrigere Ernte und deutliche Preisanstiege bei Kartoffeln",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N070_61.html",
+    "pageDate": "Thu, 15 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-15T06:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.670Z",
+    "deliveredAt": "2026-10-15T11:28:44.670Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7202e0e6ac9349d18d2e3883",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Gewerbesteuereinnahmen im Jahr 2025 um 1,5 % höher als im Vorjahr",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_369_712.html",
+    "pageDate": "Thu, 15 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-15T06:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.670Z",
+    "deliveredAt": "2026-10-15T11:28:44.670Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "081fc60c774ffe3f8731fbb1",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Ensuring resilience in uncertain times",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
+    "pageDate": "15 October 2026",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.655Z",
+    "deliveredAt": "2026-10-15T11:28:44.655Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "092fffa72c413c6af61cc298",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Meta Werbekonto eingefroren: Starlink-Admin als Auslöser?",
+    "link": "https://wortfilter.de/meta-werbekonto-eingefroren/",
+    "pageDate": "Thu, 15 Oct 2026 07:17:15 +0000",
+    "publishedAt": "2026-10-15T07:17:15.000Z",
+    "detectedAt": "2026-10-15T11:28:44.648Z",
+    "deliveredAt": "2026-10-15T11:28:44.648Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b1c5555bdd5092c13cfe0139",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Straße von Hormus: 2.500 Container weg – iPhones im Umlauf?",
+    "link": "https://wortfilter.de/strasse-von-hormus-gfs-pride-container/",
+    "pageDate": "Thu, 15 Oct 2026 10:07:23 +0000",
+    "publishedAt": "2026-10-15T10:07:23.000Z",
+    "detectedAt": "2026-10-15T11:28:44.648Z",
+    "deliveredAt": "2026-10-15T11:28:44.648Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9b143a42697a67d58d972de2",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Shopify beziffert eigenen Wirtschaftseffekt in Deutschland auf 43,2 Milliarden Euro",
+    "link": "https://onlinemarktplatz.de/294194/shopify-oekosystem-deutschland/",
+    "pageDate": "Thu, 15 Oct 2026 06:02:41 +0000",
+    "publishedAt": "2026-10-15T06:02:41.000Z",
+    "detectedAt": "2026-10-15T11:28:44.646Z",
+    "deliveredAt": "2026-10-15T11:28:44.646Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "20e3e146e3aa99adcb7bbe6e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Cross-Border Marktplätze 2026: Amazon vor Temu und AliExpress",
+    "link": "https://onlinemarktplatz.de/294342/cross-border-marktplaetze-2026/",
+    "pageDate": "Thu, 15 Oct 2026 06:32:29 +0000",
+    "publishedAt": "2026-10-15T06:32:29.000Z",
+    "detectedAt": "2026-10-15T11:28:44.646Z",
+    "deliveredAt": "2026-10-15T11:28:44.646Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2d5d6c42016cbd51a1098c84",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Nur 65 Kontrollen pro Million: Verbände wollen Onlinehandel schärfer überwachen",
+    "link": "https://onlinemarktplatz.de/294293/vollzugsdefizite-im-onlinehandel/",
+    "pageDate": "Thu, 15 Oct 2026 07:05:22 +0000",
+    "publishedAt": "2026-10-15T07:05:22.000Z",
+    "detectedAt": "2026-10-15T11:28:44.646Z",
+    "deliveredAt": "2026-10-15T11:28:44.646Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1d01baccc348bd66e2f53992",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "AliExpress Elite: Kostenloses Vorteilsprogramm für Vielkäufer",
+    "link": "https://onlinemarktplatz.de/294385/aliexpress-elite-vorteilsprogramm/",
+    "pageDate": "Thu, 15 Oct 2026 09:55:07 +0000",
+    "publishedAt": "2026-10-15T09:55:07.000Z",
+    "detectedAt": "2026-10-15T11:28:44.646Z",
+    "deliveredAt": "2026-10-15T11:28:44.646Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c9529523214c0fa6dcf91d59",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Amazon unBoxed 2026 – KI-Suche trifft Werbeautomatisierung",
+    "link": "https://onlinemarktplatz.de/294185/amazon-unboxed-2026/",
+    "pageDate": "Thu, 15 Oct 2026 10:42:55 +0000",
+    "publishedAt": "2026-10-15T10:42:55.000Z",
+    "detectedAt": "2026-10-15T11:28:44.646Z",
+    "deliveredAt": "2026-10-15T11:28:44.646Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "506414fc6106d60cf8ea3f35",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "In Zukunft barrierefrei!",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/in-zukunft-barrierefrei-126463",
+    "pageDate": "15.10.2026",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.642Z",
+    "deliveredAt": "2026-10-15T11:28:44.642Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "63e30f9fed91f97c963ad928",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Zinswerbung erneut beanstandet",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/zinswerbung-erneut-beanstandet-126439",
+    "pageDate": "15.10.2026",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.640Z",
+    "deliveredAt": "2026-10-15T11:28:44.640Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2075935666845d85f07892a3",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Streaming-Abo: Anbieter darf Widerruf nicht zurückweisen",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/streamingabo-anbieter-darf-widerruf-nicht-zurueckweisen-126462",
+    "pageDate": "15.10.2026",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.640Z",
+    "deliveredAt": "2026-10-15T11:28:44.640Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "64b6e663aa45fcfb050a7531",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "15.10.2026Gesundheitsversorgung: Für Verbraucher:innen wird es teurer",
+    "link": "https://www.vzbv.de/pressemitteilungen/gesundheitsversorgung-fuer-verbraucherinnen-wird-es-teurer",
+    "pageDate": "15.10.2026",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.639Z",
+    "deliveredAt": "2026-10-15T11:28:44.639Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b1d3174278d873f3a586a673",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EY-Parthenon-Analyse CEO Outlook Survey Oktober 2026",
+    "link": "https://www.ey.com/de_de/newsroom/2026/10/ey-parthenon-analyse-ceo-outlook-survey-oktober-2026",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T11:28:44.606Z",
+    "deliveredAt": "2026-10-15T11:28:44.606Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c427e494326d6828611db327",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "EuroCloud Pulse Check 2026: Europäische Clouds gewinnen im KI-Zeitalter an Bedeutung",
+    "link": "https://www.eco.de/presse/eurocloud-pulse-check-2026-europaeische-clouds-gewinnen-im-ki-zeitalter-an-bedeutung/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T11:28:44.602Z",
+    "deliveredAt": "2026-10-15T11:28:44.602Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d4496667f224275b65e12819",
+    "source": "OTTO Pressemitteilungen",
+    "sourceKey": "src-8ce2a9da213bfc6e",
+    "sourceLabel": "OTTO",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Black-Friday-Studie für Werbetreibende",
+    "link": "https://www.otto.de/unternehmen/de/presse/black-friday-studie-f%C3%BCr-werbetreibende",
+    "pageDate": "15.10.2026",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "detectedAt": "2026-10-15T11:28:44.599Z",
+    "deliveredAt": "2026-10-15T11:28:44.599Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "006d9bd9596d73c9d8b06545",
     "source": "Onlinemarktplatz",
     "sourceKey": "src-907af1387802cea1",
@@ -10550,512 +11069,6 @@
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "detectedAt": "2026-10-07T21:37:39.984Z",
     "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ba7ed4fd61ae1b433a486ac6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna rejects carbon offsets with fresh $1.25m fund for environmental moonshots",
-    "link": "https://www.klarna.com/international/press/klarna-rejects-carbon-offsets-with-fresh-usd1-25m-fund-for-environmental/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5ded8d053a42eef7f2cdf555",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Poshmark Partner to Power Seamless Resale, Just in Time for Back-to-School",
-    "link": "https://www.klarna.com/international/press/klarna-and-poshmark-partner-to-power-seamless-resale-just-in-time-for-back/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "686d06609842205dcd7e5bd2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna receives FCA authorisation, paving the way for cashback and balance features",
-    "link": "https://www.klarna.com/international/press/klarna-receives-fca-authorisation-paving-the-way-for-cashback-and-balance/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3a5cd4a4a1d2b3a8c269b955",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna delinquency rates drop as consumer health improves",
-    "link": "https://www.klarna.com/international/press/klarna-delinquency-rates-drop-as-consumer-health-improves/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "df51a828d620332cfb727d91",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to No More Friction: Klarna automatically enables thousands of WooCommerce stores, tackling checkout drop-offs head-on.",
-    "link": "https://www.klarna.com/international/press/no-more-friction-klarna-automatically-enables-thousands-of-woocommerce/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "08217146360f5084a888bcd3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to Launch as a Payment Option in Autofill on Chrome, Expanding Work with Google Pay",
-    "link": "https://www.klarna.com/international/press/klarna-to-launch-as-a-payment-option-in-autofill-on-chrome-expanding-work/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "220877012feee5e931760e1c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna grows Q2 revenue to $823m, reports continued operating profitability and highest number of on-time payments",
-    "link": "https://www.klarna.com/international/press/klarna-grows-q2-revenue-to-usd823m-reports-continued-operating-profitability/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b5bd771d204b4a31af7662d1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures scalable funding in $26bn deal to drive U.S. Pay in 4 growth",
-    "link": "https://www.klarna.com/international/press/klarna-secures-scalable-funding-in-usd26bn-deal-to-drive-u-s-pay-in-4-growth/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "61ad3b551f36e34194fff124",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures EUR 1.4bn structured financing facility with Santander",
-    "link": "https://www.klarna.com/international/press/klarna-secures-eur-1-4bn-structured-financing-facility-with-santander/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7d1e0096ffc9cc07f74ea5ec",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Walmart Canada Becomes Klarna’s Largest Omni Retailer in Canada",
-    "link": "https://www.klarna.com/international/press/walmart-canada-becomes-klarnas-largest-omni-retailer-in-canada/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1e35aeb3a070c63ff309f03d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches debit-first card across Europe for everyday spending",
-    "link": "https://www.klarna.com/international/press/klarna-launches-debit-first-card-across-europe-for-everyday-spending/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "40b9bfcc0b4de9e55fc63646",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Launch of its Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-launch-of-its-initial-public-offering/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c08b022eabc23e7e2f53d160",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Pricing of its Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-pricing-of-its-initial-public-offering/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6dd69f14ea172117233fb16d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna lists on the New York Stock Exchange",
-    "link": "https://www.klarna.com/international/press/klarna-lists-on-the-new-york-stock-exchange/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c2088fee9313afa9cbb22895",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Gap Inc. Partners with Klarna to Offer Seamless, Flexible Payments Across Portfolio of Brands",
-    "link": "https://www.klarna.com/international/press/gap-inc-partners-with-klarna-to-offer-seamless-flexible-payments-across/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0b698823571c7fd977926efb",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Completes Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-completes-initial-public-offering/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "112b10b7c72d43df11771c6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Customers in US and UK Can Now Access Klarna Installment Plans for In-Store Apple Pay Purchases",
-    "link": "https://www.klarna.com/international/press/klarna-customers-in-us-and-uk-can-now-access-klarna-installment-plans-for-in/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4e4376e3c8267b8ea7f5fc61",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Card passes 1 million US sign-ups in 11 weeks",
-    "link": "https://www.klarna.com/international/press/klarna-card-passes-1-million-us-sign-ups-in-11-weeks/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7eb1e9aa72420582aac334f2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna strengthens collaboration with Google to support Agent Payments Protocol (AP2)",
-    "link": "https://www.klarna.com/international/press/klarna-strengthens-collaboration-with-google-to-support-agent-payments/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c25acf85d44fc6946d699a68",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna set to land with Qatar Airways, bringing flexible payments to 17 markets",
-    "link": "https://www.klarna.com/international/press/klarna-set-to-land-with-qatar-airways-bringing-flexible-payments-to-17/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "69e5f6c827be346b51dd2e8e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches flexible debit card and digital wallet in UK",
-    "link": "https://www.klarna.com/international/press/klarna-launches-flexible-debit-card-and-digital-wallet-in-uk/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "aec8f4388d4eb3e55a89cf77",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches memberships: premium perks without expensive credit",
-    "link": "https://www.klarna.com/international/press/klarna-launches-memberships-premium-perks-without-expensive-credit/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "79c2029769a37bf55d4aaf6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens the floor to shareholders ahead of Q3 2025 Earnings via Say Technologies",
-    "link": "https://www.klarna.com/international/press/klarna-opens-the-floor-to-shareholders-ahead-of-q3-2025-earnings-via-say/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
