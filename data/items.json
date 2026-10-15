@@ -1,5 +1,50 @@
 [
   {
+    "guid": "f12975ae6bba2bca39bd0498",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon will share its Q3 2026 earnings on October 29",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+    "pageDate": "Oct. 15, 2026",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "detectedAt": "2026-10-15T22:42:43.477Z",
+    "deliveredAt": "2026-10-15T22:42:43.477Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "524747ba3f4e47e1672d15a4",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "eBay Grundpreis-Bug: 100 ml statt Liter – erste Abmahnungen",
+    "link": "https://wortfilter.de/ebay-grundpreis-bug-abmahnung/",
+    "pageDate": "Thu, 15 Oct 2026 19:46:49 +0000",
+    "publishedAt": "2026-10-15T19:46:49.000Z",
+    "detectedAt": "2026-10-15T22:42:43.433Z",
+    "deliveredAt": "2026-10-15T22:42:43.433Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "cc55c35e6b6187ee0600a900",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -11024,50 +11069,6 @@
     "priority": 2,
     "title": "Navigate to Laybuy returns, powered by Klarna",
     "link": "https://www.klarna.com/international/press/laybuy-returns-powered-by-klarna/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "965758ba157e27e039aa5509",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Eurostar introduces Klarna for flexible payments in the UK and France, making high-speed rail more accessible",
-    "link": "https://www.klarna.com/international/press/eurostar-introduces-klarna-for-flexible-payments-in-the-uk-and-france/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0e2dfd32c35e59345f7184c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Aritzia to bring flexible payment options to clients across Canada and the United States",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-aritzia-to-bring-flexible-payment-options-to-clients/",
     "pageDate": "October 6, 2026",
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "detectedAt": "2026-10-07T21:37:39.984Z",
