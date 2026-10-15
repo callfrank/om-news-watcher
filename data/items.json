@@ -1,5 +1,143 @@
 [
   {
+    "guid": "b28a8c5dc775696ccc1d551f",
+    "source": "Action",
+    "sourceKey": "src-89cea149987a2a2d",
+    "sourceLabel": "Action",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Johan Cruyff Foundation and Action open first Cruyff Court in Germany",
+    "link": "https://company.action.com/pressreleases/johan-cruyff-foundation-and-action-open-first-cruyff-court-in-germany/",
+    "pageDate": "15 October 2026",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "detectedAt": "2026-10-15T15:45:59.606Z",
+    "deliveredAt": "2026-10-15T15:45:59.606Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "de6d52154b51554c6609cf2a",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart’s 13th Annual Open Call",
+    "link": "https://corporate.walmart.com/news/2026/10/Walmarts-13th-Annual-Open-Call",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T15:45:59.600Z",
+    "deliveredAt": "2026-10-15T15:45:59.600Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "779001b63f2707651e3b5f8d",
+    "source": "BEVH",
+    "sourceKey": "src-0a9ea9df2176887f",
+    "sourceLabel": "BEVH",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "KI-Steuer würde Fortschritt und Produktivität verteuern",
+    "link": "https://bevh.org/detail/ki-steuer-wuerde-fortschritt-und-produktivitaet-besteuern",
+    "pageDate": "15.10.2026",
+    "publishedAt": "2026-10-15T12:00:00.000Z",
+    "detectedAt": "2026-10-15T15:45:59.548Z",
+    "deliveredAt": "2026-10-15T15:45:59.548Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9627193d329f27f3409a5bb8",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Bundestag macht Weg für EUDI-Wallet frei – HDE betont Bedeutung des Handels",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15389-bundestag-macht-weg-fuer-eudi-wallet-frei-hde-betont-bedeutung-des-handels",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T15:45:59.546Z",
+    "deliveredAt": "2026-10-15T15:45:59.546Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b3fe2d02d8f083754b24a34a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Mindestlohn 2027: 14,60 € – Minijob-Falle für Onlinehändler",
+    "link": "https://wortfilter.de/mindestlohn-2027-minijob-onlinehaendler/",
+    "pageDate": "Thu, 15 Oct 2026 14:48:29 +0000",
+    "publishedAt": "2026-10-15T14:48:29.000Z",
+    "detectedAt": "2026-10-15T15:45:59.545Z",
+    "deliveredAt": "2026-10-15T15:45:59.545Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d60490a908c17efa277f4622",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Forrester Research To Broadcast Its 2026 Third-Quarter Earnings Conference Call",
+    "link": "https://www.forrester.com/press-newsroom/forrester-research-to-broadcast-its-2026-third-quarter-earnings-conference-call/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T15:45:59.502Z",
+    "deliveredAt": "2026-10-15T15:45:59.502Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "3d3f739df8190a2d5fa9220c",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10931,138 +11069,6 @@
     "priority": 2,
     "title": "Navigate to Klarna scales in-store offering with Clover, expanding to local stores and service providers",
     "link": "https://www.klarna.com/international/press/klarna-scales-in-store-offering-with-clover/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "436d13c834154ede6598725a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to eBay and Klarna Deepen Global Strategic Partnership to Empower Flexible Shopping in the U.S.",
-    "link": "https://www.klarna.com/international/press/ebay-and-klarna-deepen-global-strategic-partnership-to-empower-flexible-shopping/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f2472e3dc677a70ae2b60404",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna hits 11 million UK customers as UK revenue soars 30% in breakout 2024",
-    "link": "https://www.klarna.com/international/press/klarna-hits-11-million-uk-customers-as-uk-revenue-soars-30-in-breakout-2024/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ebba675f8643e03de81127b4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna accelerates global momentum in Q1 2025 and unlocks large gains from AI innovation",
-    "link": "https://www.klarna.com/international/press/klarna-accelerates-global-momentum-in-q1-2025-and-unlocks-large-gains-from/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9ca9d6420ec70d6f112aeec8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Mati Staniszewski appointed to Klarna Group PLC Board of Directors",
-    "link": "https://www.klarna.com/international/press/mati-staniszewski-appointed-to-klarna-group-plc-board-of-directors/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4698091eadf717a76786bd1e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Visa Launch Pilot of New Debit Card with Increased Flexibility at Money 2020 Europe",
-    "link": "https://www.klarna.com/international/press/klarna-and-visa-launch-pilot-of-new-debit-card-with-increased-flexibility-at/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ed82e69420c10e06c875fdab",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens direct line to CEO Sebastian Siemiatkowski – powered by AI",
-    "link": "https://www.klarna.com/international/press/klarna-opens-direct-line-to-ceo-sebastian-siemiatkowski-powered-by-ai/",
     "pageDate": "October 6, 2026",
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "detectedAt": "2026-10-07T21:37:39.984Z",
