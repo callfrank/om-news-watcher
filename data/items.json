@@ -1,5 +1,48 @@
 [
   {
+    "guid": "cc55c35e6b6187ee0600a900",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Webmontag Frankfurt 19. Oktober: Wie bekomme ich Wero in meinen E-Shop?",
+    "link": "https://demoshops.de/webmontag-frankfurt-19-oktober-wie-kommt-wero-in-meinen-e-shop/",
+    "pageDate": "Thu, 15 Oct 2026 15:54:35 +0000",
+    "publishedAt": "2026-10-15T15:54:35.000Z",
+    "detectedAt": "2026-10-15T19:25:34.617Z",
+    "deliveredAt": "2026-10-15T19:25:34.617Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "30bb41ecefe740fc7af55523",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Jürgen Klopp: 3 Abgänge, 1 Muster – was Unternehmer lernen",
+    "link": "https://wortfilter.de/juergen-klopp/",
+    "pageDate": "Thu, 15 Oct 2026 17:40:35 +0000",
+    "publishedAt": "2026-10-15T17:40:35.000Z",
+    "detectedAt": "2026-10-15T19:25:34.580Z",
+    "deliveredAt": "2026-10-15T19:25:34.580Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "b28a8c5dc775696ccc1d551f",
     "source": "Action",
     "sourceKey": "src-89cea149987a2a2d",
@@ -11025,50 +11068,6 @@
     "priority": 2,
     "title": "Navigate to Klarna partners with Aritzia to bring flexible payment options to clients across Canada and the United States",
     "link": "https://www.klarna.com/international/press/klarna-partners-with-aritzia-to-bring-flexible-payment-options-to-clients/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cbaec0a5e14886466c6e9c0a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Plus Marks First Year in the US, Signaling Growing Momentum in Subscription Services",
-    "link": "https://www.klarna.com/international/press/klarna-plus-marks-first-year-in-the-us-signaling-growing-momentum-in/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.984Z",
-    "deliveredAt": "2026-10-07T21:37:39.984Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "98bb0adf014d1c9374b8dc66",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna scales in-store offering with Clover, expanding to local stores and service providers",
-    "link": "https://www.klarna.com/international/press/klarna-scales-in-store-offering-with-clover/",
     "pageDate": "October 6, 2026",
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "detectedAt": "2026-10-07T21:37:39.984Z",
