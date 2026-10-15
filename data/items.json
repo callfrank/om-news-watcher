@@ -1,5 +1,51 @@
 [
   {
+    "guid": "006d9bd9596d73c9d8b06545",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Mollie KI-Plattform: Externes Gründerteam soll Finanzinfrastruktur bauen",
+    "link": "https://onlinemarktplatz.de/294312/mollie-ki-plattform-gruenderteam/",
+    "pageDate": "Thu, 15 Oct 2026 04:10:02 +0000",
+    "publishedAt": "2026-10-15T04:10:02.000Z",
+    "detectedAt": "2026-10-15T05:55:48.853Z",
+    "deliveredAt": "2026-10-15T05:55:48.853Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "16675cb8969ea2723695d1ce",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "JINGDONG Industrials and AMD Partner to Bring AI to Factory Operations",
+    "link": "https://jdcorporateblog.com/jingdong-industrials-and-amd-partner-to-bring-ai-to-factory-operations/",
+    "pageDate": "Oct 15, 2026",
+    "publishedAt": "2026-10-15T00:00:00.000Z",
+    "detectedAt": "2026-10-15T05:55:48.814Z",
+    "deliveredAt": "2026-10-15T05:55:48.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "0949de8aacbe5ec4cb2e97a6",
     "source": "Amazon Seller Events",
     "sourceKey": "src-4a1336d19ad6bee0",
@@ -11006,50 +11052,6 @@
     "priority": 2,
     "title": "Navigate to Klarna opens the floor to shareholders ahead of Q3 2025 Earnings via Say Technologies",
     "link": "https://www.klarna.com/international/press/klarna-opens-the-floor-to-shareholders-ahead-of-q3-2025-earnings-via-say/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5b3cdf23eae95d2e87157ced",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna powers Fair Financing hypergrowth with $6.5bn US agreement",
-    "link": "https://www.klarna.com/international/press/klarna-powers-fair-financing-hypergrowth-with-usd6-5bn-us-agreement/",
-    "pageDate": "October 6, 2026",
-    "publishedAt": "2026-10-06T00:00:00.000Z",
-    "detectedAt": "2026-10-07T21:37:39.983Z",
-    "deliveredAt": "2026-10-07T21:37:39.983Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5a8a62ccff123b2ef907c7ed",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna delivers record-breaking Q3 as AI-powered digital bank: $903 million in revenue and 4 million card sign-ups in four months",
-    "link": "https://www.klarna.com/international/press/klarna-delivers-record-breaking-q3-as-ai-powered-digital-bank-usd903-million/",
     "pageDate": "October 6, 2026",
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "detectedAt": "2026-10-07T21:37:39.983Z",
