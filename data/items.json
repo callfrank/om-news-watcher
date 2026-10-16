@@ -1,5 +1,55 @@
 [
   {
+    "guid": "917be91125183b4bb27126a0",
+    "source": "DHL QZ",
+    "sourceKey": "076d444d-18a6-4ddb-bf20-41d5dc450597",
+    "sourceLabel": "DHL QZ",
+    "groups": [
+      "Quartalszahlen",
+      "Logistik"
+    ],
+    "tags": [
+      "Logistik",
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Vorläufige Ergebnisse: DHL Group erhöht Ergebnisprognose für das Gesamtjahr 2026",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-group-erhoeht-ergebnisprognose-fuer-das-gesamtjahr-2026.html",
+    "pageDate": "16.10.2026, 18:19 MESZ FINANZ-NEWS",
+    "publishedAt": null,
+    "detectedAt": "2026-10-16T18:49:58.083Z",
+    "deliveredAt": "2026-10-16T18:49:58.083Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "DHL"
+    ]
+  },
+  {
+    "guid": "c8e5cd3da79fd31df4924ed6",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Warnung: Betrüger Christian Lutz Schoenberger wieder unterwegs",
+    "link": "https://wortfilter.de/christian-lutz-schoenberger-betrueger-warnung/",
+    "pageDate": "Fri, 16 Oct 2026 17:48:03 +0000",
+    "publishedAt": "2026-10-16T17:48:03.000Z",
+    "detectedAt": "2026-10-16T18:49:58.010Z",
+    "deliveredAt": "2026-10-16T18:49:58.010Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "73773fc63ed4a1b4a8c7cfe8",
     "source": "Zew",
     "sourceKey": "src-f3985f12770a41ec",
@@ -11008,53 +11058,6 @@
     "publishedAt": "2026-10-11T12:00:00.000Z",
     "detectedAt": "2026-10-11T08:50:42.587Z",
     "deliveredAt": "2026-10-11T08:50:42.587Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "76f1c42d660ddf8239fa286d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Kostenlose Retouren: 60,6 % der Händler zahlen wieder selbst",
-    "link": "https://wortfilter.de/kostenlose-retouren-ehi-studie-2026/",
-    "pageDate": "Sun, 11 Oct 2026 08:41:27 +0000",
-    "publishedAt": "2026-10-11T08:41:27.000Z",
-    "detectedAt": "2026-10-11T08:50:42.554Z",
-    "deliveredAt": "2026-10-11T08:50:42.554Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "716efd412ab2eef9d40afa53",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Telekom Einsparungen durch KI: 2,5 Milliarden Euro",
-    "link": "https://onlinemarktplatz.de/293870/telekom-ki-einsparungen-25-milliarden/",
-    "pageDate": "Sun, 11 Oct 2026 06:19:30 +0000",
-    "publishedAt": "2026-10-11T06:19:30.000Z",
-    "detectedAt": "2026-10-11T08:50:42.553Z",
-    "deliveredAt": "2026-10-11T08:50:42.553Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
