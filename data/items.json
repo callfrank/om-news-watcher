@@ -1,5 +1,71 @@
 [
   {
+    "guid": "ea4b8a04a67b843de5d93177",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "WooCommerce Theme Purple anpassen",
+    "link": "https://demoshops.de/woocommerce-theme-purple-anpassen/",
+    "pageDate": "Sat, 17 Oct 2026 19:18:58 +0000",
+    "publishedAt": "2026-10-17T19:18:58.000Z",
+    "detectedAt": "2026-10-17T21:29:17.872Z",
+    "deliveredAt": "2026-10-17T21:29:17.872Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4527015574e030d39af21c85",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EUDI-Wallet d-you: Bundestag beschließt Start am 2.1.2027",
+    "link": "https://wortfilter.de/eudi-wallet-d-you-bundestag-start-2027/",
+    "pageDate": "Sat, 17 Oct 2026 19:48:30 +0000",
+    "publishedAt": "2026-10-17T19:48:30.000Z",
+    "detectedAt": "2026-10-17T21:29:17.815Z",
+    "deliveredAt": "2026-10-17T21:29:17.815Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e3d71fe73dbcfa834bbe1ce1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Trekvoss insolvent: 2,2 Mio. € Umsatz, Käufer gesucht",
+    "link": "https://wortfilter.de/trekvoss-insolvenz/",
+    "pageDate": "Sat, 17 Oct 2026 20:48:30 +0000",
+    "publishedAt": "2026-10-17T20:48:30.000Z",
+    "detectedAt": "2026-10-17T21:29:17.815Z",
+    "deliveredAt": "2026-10-17T21:29:17.815Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "9c273fc621a007c4757602c0",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10994,75 +11060,6 @@
     "publishedAt": "2026-10-12T12:00:00.000Z",
     "detectedAt": "2026-10-12T09:47:22.045Z",
     "deliveredAt": "2026-10-12T09:47:22.045Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "75ae538f947236c7a38fdaf9",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Rund 1.800 neue Fake-Shops pro Monat – der HDE warnt vor Online-Betrug",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15383-rund-1-800-neue-fake-shops-pro-monat-der-hde-warnt-vor-online-betrug",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-12T09:47:22.044Z",
-    "deliveredAt": "2026-10-12T09:47:22.044Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f2b5a7240d528b886ae8b7f6",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "25 Tipps für Amazon, eBay und Shop: So vermeidest & reduzierst du Retouren 2026",
-    "link": "https://wortfilter.de/retouren-vermeiden-tipps/",
-    "pageDate": "Mon, 12 Oct 2026 05:24:48 +0000",
-    "publishedAt": "2026-10-12T05:24:48.000Z",
-    "detectedAt": "2026-10-12T09:47:22.044Z",
-    "deliveredAt": "2026-10-12T09:47:22.044Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0552246c578808bad71df977",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Geheime ChatGPT-Codes NICHT: 105 Codes – und was die Forschung belegt",
-    "link": "https://wortfilter.de/chatgpt-codes-liste/",
-    "pageDate": "Mon, 12 Oct 2026 06:15:26 +0000",
-    "publishedAt": "2026-10-12T06:15:26.000Z",
-    "detectedAt": "2026-10-12T09:47:22.044Z",
-    "deliveredAt": "2026-10-12T09:47:22.044Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
