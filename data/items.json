@@ -1,5 +1,25 @@
 [
   {
+    "guid": "8b019f7917a45c7dd2be2bc4",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wero, Web & WooCommerce – die Woche 26 / 42",
+    "link": "https://demoshops.de/wero-woche-26-42/",
+    "pageDate": "Sat, 17 Oct 2026 21:37:53 +0000",
+    "publishedAt": "2026-10-17T21:37:53.000Z",
+    "detectedAt": "2026-10-17T23:27:48.294Z",
+    "deliveredAt": "2026-10-17T23:27:48.294Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "ea4b8a04a67b843de5d93177",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -11038,28 +11058,6 @@
     "publishedAt": "2026-10-12T12:00:00.000Z",
     "detectedAt": "2026-10-12T09:47:22.061Z",
     "deliveredAt": "2026-10-12T09:47:22.061Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1d87d18e3043083f26a3fffc",
-    "source": "BSI",
-    "sourceKey": "src-64a086442adaeeab",
-    "sourceLabel": "BSI",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": ", Bonn, 12.10.2026 Umstellung auf Post-Quanten-Kryptografie: Leitlinie zur nationalen Umsetzung der EU-Roadmap veröffentlicht Die gemeinsame Leitlinie von BMI, BMDS und BSI richtet sich insbesondere an Bundes-, Landes- und Kommunalverwaltungen sowie an Organisationen und Unternehmen, darunter Betreiber kritischer Infrastrukturen.",
-    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261012_Leitlinie-PQC.html",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-12T09:47:22.045Z",
-    "deliveredAt": "2026-10-12T09:47:22.045Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
