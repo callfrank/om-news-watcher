@@ -1,5 +1,27 @@
 [
   {
+    "guid": "286eccec96280ec1d63b939b",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Kindle buying guide: Find out which Kindle is right for you",
+    "link": "https://www.aboutamazon.com/news/devices/which-kindle-to-buy",
+    "pageDate": "Oct. 16, 2026",
+    "publishedAt": "2026-10-16T00:00:00.000Z",
+    "detectedAt": "2026-10-17T00:29:26.776Z",
+    "deliveredAt": "2026-10-17T00:29:26.776Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "917be91125183b4bb27126a0",
     "source": "DHL QZ",
     "sourceKey": "076d444d-18a6-4ddb-bf20-41d5dc450597",
@@ -11036,26 +11058,6 @@
     "publishedAt": "2026-10-11T12:00:00.000Z",
     "detectedAt": "2026-10-11T08:50:42.588Z",
     "deliveredAt": "2026-10-11T08:50:42.588Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "16ccef00bae0ffe5b6289aff",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "ÖSTERREICHISCHE POST ERNEUT VOM WELTPOSTVEREIN ALS EINE DER BESTEN POSTGESELLSCHAFTEN AUSGEZEICHNET",
-    "link": "https://news.post.at/presse/de/post/id/2352407/%26Ouml%3BSTERREICHISCHE%20POST%20ERNEUT%20VOM%20WELTPOSTVEREIN%20ALS%20EINE%20DER%20BESTEN%20POSTGESELLSCHAFTEN%20AUSGEZEICHNET",
-    "pageDate": "11.10.2026",
-    "publishedAt": "2026-10-11T12:00:00.000Z",
-    "detectedAt": "2026-10-11T08:50:42.587Z",
-    "deliveredAt": "2026-10-11T08:50:42.587Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
