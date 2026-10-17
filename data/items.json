@@ -1,5 +1,167 @@
 [
   {
+    "guid": "9c273fc621a007c4757602c0",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Beliebteste Onlineshops 2026: Temu erreicht 31 %, eBay 32 %",
+    "link": "https://wortfilter.de/beliebteste-onlineshops-2026/",
+    "pageDate": "Sat, 17 Oct 2026 06:55:56 +0000",
+    "publishedAt": "2026-10-17T06:55:56.000Z",
+    "detectedAt": "2026-10-17T09:21:37.170Z",
+    "deliveredAt": "2026-10-17T09:21:37.170Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fe6a80125b8f367001af2019",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "700 € weg: EuGH zwingt Banken zur Phishing-Erstattung",
+    "link": "https://wortfilter.de/eugh-phishing-bank-erstattung/",
+    "pageDate": "Sat, 17 Oct 2026 08:53:47 +0000",
+    "publishedAt": "2026-10-17T08:53:47.000Z",
+    "detectedAt": "2026-10-17T09:21:37.170Z",
+    "deliveredAt": "2026-10-17T09:21:37.170Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "228de2e2ea97b80367e8b127",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Cyberangriff auf Kühlanlagen trifft 700 französische Supermärkte",
+    "link": "https://onlinemarktplatz.de/294352/cyberangriff-auf-kuehlanlagen/",
+    "pageDate": "Sat, 17 Oct 2026 05:46:45 +0000",
+    "publishedAt": "2026-10-17T05:46:45.000Z",
+    "detectedAt": "2026-10-17T09:21:37.169Z",
+    "deliveredAt": "2026-10-17T09:21:37.169Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cb3ca54fb821199b0f3174ab",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Premiumbutter im Handel: Wie Butter zur kleinen Luxusware wird",
+    "link": "https://onlinemarktplatz.de/293947/premiumbutter-im-handel/",
+    "pageDate": "Sat, 17 Oct 2026 06:39:56 +0000",
+    "publishedAt": "2026-10-17T06:39:56.000Z",
+    "detectedAt": "2026-10-17T09:21:37.169Z",
+    "deliveredAt": "2026-10-17T09:21:37.169Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1c254be468f3bc9d7531b77d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Neben Labubu: Pop Mart inszeniert Skullpanda als eigene Markenwelt",
+    "link": "https://onlinemarktplatz.de/294353/skullpanda-pop-up-new-york/",
+    "pageDate": "Sat, 17 Oct 2026 07:11:50 +0000",
+    "publishedAt": "2026-10-17T07:11:50.000Z",
+    "detectedAt": "2026-10-17T09:21:37.169Z",
+    "deliveredAt": "2026-10-17T09:21:37.169Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0da4704e74f90a8e28133192",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Jumbo macht den Supermarktbesuch für Kinder zum Suchspiel",
+    "link": "https://onlinemarktplatz.de/294013/jumbo-kinderscanner-supermarkt/",
+    "pageDate": "Sat, 17 Oct 2026 07:51:59 +0000",
+    "publishedAt": "2026-10-17T07:51:59.000Z",
+    "detectedAt": "2026-10-17T09:21:37.169Z",
+    "deliveredAt": "2026-10-17T09:21:37.169Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d4ed134e3ab3b4909e8f5a93",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Seattle, WA, United States Sep 21 - 23, 2027 Amazon Accelerate 2027",
+    "link": "https://amzsummits.com/events/amazon-accelerate-2027/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-17T09:21:37.142Z",
+    "deliveredAt": "2026-10-17T09:21:37.142Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "286eccec96280ec1d63b939b",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10901,163 +11063,6 @@
     "publishedAt": "2026-10-12T06:15:26.000Z",
     "detectedAt": "2026-10-12T09:47:22.044Z",
     "deliveredAt": "2026-10-12T09:47:22.044Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ddc088786905b43f8c7399e9",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Drei China-Plattformen erreichen 11,8 Prozent der EU-Onlineausgaben",
-    "link": "https://onlinemarktplatz.de/293858/china-plattformen-in-europa/",
-    "pageDate": "Mon, 12 Oct 2026 05:59:17 +0000",
-    "publishedAt": "2026-10-12T05:59:17.000Z",
-    "detectedAt": "2026-10-12T09:47:22.043Z",
-    "deliveredAt": "2026-10-12T09:47:22.043Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "38db4a9d688c8d2755ce90b2",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "B2B-Marktmonitor 2026: Onlinehandel wächst stärker als erwartet",
-    "link": "https://onlinemarktplatz.de/293859/b2b-marktmonitor-2026/",
-    "pageDate": "Mon, 12 Oct 2026 06:27:26 +0000",
-    "publishedAt": "2026-10-12T06:27:26.000Z",
-    "detectedAt": "2026-10-12T09:47:22.043Z",
-    "deliveredAt": "2026-10-12T09:47:22.043Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "861a08cfa4d899a33c11050c",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "US-Onlinehandel wächst während der Prime Deal Days um 8,5 Prozent",
-    "link": "https://onlinemarktplatz.de/294076/prime-day-umsatz-usa-2026/",
-    "pageDate": "Mon, 12 Oct 2026 07:02:48 +0000",
-    "publishedAt": "2026-10-12T07:02:48.000Z",
-    "detectedAt": "2026-10-12T09:47:22.043Z",
-    "deliveredAt": "2026-10-12T09:47:22.043Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "79eebd39bec5d76be1a80764",
-    "source": "Verbraucherzentrale Hamburg Presse",
-    "sourceKey": "src-17979740ef54054e",
-    "sourceLabel": "Verbraucherzentrale Hamburg",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Formular abgebrochen, Rechnung bekommen",
-    "link": "https://www.vzhh.de/presse/formular-abgebrochen-rechnung-bekommen",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-12T09:47:22.038Z",
-    "deliveredAt": "2026-10-12T09:47:22.038Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "777527841d773f4c117b47e7",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "European Product Act: Verbände fordern Haftung in der EU",
-    "link": "https://wortfilter.de/european-product-act-hde-vzbv-markenverband/",
-    "pageDate": "Sun, 11 Oct 2026 15:48:43 +0000",
-    "publishedAt": "2026-10-11T15:48:43.000Z",
-    "detectedAt": "2026-10-11T19:45:12.564Z",
-    "deliveredAt": "2026-10-11T19:45:12.564Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "af8ab8b168e8d5d1ee66e708",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Spenden, Standards & Subscriptions – die Woche 26 / 41",
-    "link": "https://demoshops.de/wero-woche-26-41/",
-    "pageDate": "Sun, 11 Oct 2026 14:24:25 +0000",
-    "publishedAt": "2026-10-11T14:24:25.000Z",
-    "detectedAt": "2026-10-11T15:41:30.706Z",
-    "deliveredAt": "2026-10-11T15:41:30.706Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d4a27e98227dcc6140a473d6",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "11.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2352407/&Ouml;STERREICHISCHE%20POST%20ERNEUT%20VOM%20WELTPOSTVEREIN%20ALS%20EINE%20DER%20BESTEN%20POSTGESELLSCHAFTEN%20AUSGEZEICHNET",
-    "pageDate": "11.10.2026",
-    "publishedAt": "2026-10-11T12:00:00.000Z",
-    "detectedAt": "2026-10-11T08:50:42.588Z",
-    "deliveredAt": "2026-10-11T08:50:42.588Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
