@@ -1,5 +1,51 @@
 [
   {
+    "guid": "482c4e7b8761a65325c6ca08",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Ab 12. November: Meta Pixel misst Conversions auf dem Gerät",
+    "link": "https://wortfilter.de/meta-pixel-conversions-geraet/",
+    "pageDate": "Sun, 18 Oct 2026 12:53:51 +0000",
+    "publishedAt": "2026-10-18T12:53:51.000Z",
+    "detectedAt": "2026-10-18T14:52:29.001Z",
+    "deliveredAt": "2026-10-18T14:52:29.001Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "657988935b82c17c1b8b3a7e",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Insolvenzware kaufen: Hellweg & Hammer – wer die Ware verteilt",
+    "link": "https://wortfilter.de/insolvenzware-kaufen/",
+    "pageDate": "Sun, 18 Oct 2026 13:33:03 +0000",
+    "publishedAt": "2026-10-18T13:33:03.000Z",
+    "detectedAt": "2026-10-18T14:52:29.001Z",
+    "deliveredAt": "2026-10-18T14:52:29.001Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "54072338bdf4d9819b1ffa58",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11026,48 +11072,6 @@
     "publishedAt": null,
     "detectedAt": "2026-10-12T19:24:10.068Z",
     "deliveredAt": "2026-10-12T19:24:10.068Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ab46859cc39f9c61d6f4745d",
-    "source": "Deloitte",
-    "sourceKey": "src-ee546a6472b48b72",
-    "sourceLabel": "Deloitte",
-    "groups": [
-      "Research"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Krankenkassen: Neustart des Gesundheitssystems könnte Finanzlücke langfristig schließen",
-    "link": "https://www.deloitte.com/de/de/about/press-room/krankenkassen-neustart-des-gesundheitssystems-koennte-finanzluecke-langfristig-schliessen.html",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-12T19:24:10.065Z",
-    "deliveredAt": "2026-10-12T19:24:10.065Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e61addc0dd396de829876aa2",
-    "source": "Verbraucherzentrale Hamburg Presse",
-    "sourceKey": "src-17979740ef54054e",
-    "sourceLabel": "Verbraucherzentrale Hamburg",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Sammelklage-Urteil: Preiserhöhungen von E.on-Fernwärme rechtswidrig",
-    "link": "https://www.vzhh.de/presse/sammelklage-urteil-preiserhoehungen-von-eon-fernwaerme-rechtswidrig",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-12T19:24:10.059Z",
-    "deliveredAt": "2026-10-12T19:24:10.059Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
