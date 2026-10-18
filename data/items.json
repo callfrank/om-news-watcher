@@ -1,5 +1,29 @@
 [
   {
+    "guid": "300c67c3d0c92892c139cfa9",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wem gehört Gelb? Chocomel gewinnt erneut gegen Cacaolat",
+    "link": "https://onlinemarktplatz.de/294016/chocomel-farbmarke-cacaolat/",
+    "pageDate": "Sun, 18 Oct 2026 06:23:35 +0000",
+    "publishedAt": "2026-10-18T06:23:35.000Z",
+    "detectedAt": "2026-10-18T06:37:39.507Z",
+    "deliveredAt": "2026-10-18T06:37:39.507Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "8b019f7917a45c7dd2be2bc4",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -11036,28 +11060,6 @@
     "publishedAt": "2026-10-12T12:00:00.000Z",
     "detectedAt": "2026-10-12T09:47:22.068Z",
     "deliveredAt": "2026-10-12T09:47:22.068Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e473f681996c0e242e26ff98",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Arbeitskreis Kartellrecht 2026",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/10_12_2026_Professorentagung.html?nn=52004",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-12T09:47:22.061Z",
-    "deliveredAt": "2026-10-12T09:47:22.061Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
