@@ -1,5 +1,51 @@
 [
   {
+    "guid": "0a48d0232d709c0304f1f181",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Hecht-Effekt: Warum Onlinehändler Chancen nicht mehr sehen",
+    "link": "https://wortfilter.de/hecht-effekt/",
+    "pageDate": "Sun, 18 Oct 2026 16:27:34 +0000",
+    "publishedAt": "2026-10-18T16:27:34.000Z",
+    "detectedAt": "2026-10-18T18:06:32.825Z",
+    "deliveredAt": "2026-10-18T18:06:32.825Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2a72d2369ebc34b1a659ce06",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Retourenbetrug: Top 20 Betrugsmuster und so schützt du dich 2026",
+    "link": "https://wortfilter.de/retourenbetrug-maschen/",
+    "pageDate": "Sun, 18 Oct 2026 17:12:00 +0000",
+    "publishedAt": "2026-10-18T17:12:00.000Z",
+    "detectedAt": "2026-10-18T18:06:32.824Z",
+    "deliveredAt": "2026-10-18T18:06:32.824Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "482c4e7b8761a65325c6ca08",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11027,51 +11073,6 @@
     "publishedAt": "2026-10-12T09:47:31.000Z",
     "detectedAt": "2026-10-12T19:24:10.069Z",
     "deliveredAt": "2026-10-12T19:24:10.069Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fcafc66ca525da77791ac05c",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Maxcluster, mein Hoster fiel aus. Und dann passierte das",
-    "link": "https://wortfilter.de/maxcluster-ausfall-gutschrift/",
-    "pageDate": "Mon, 12 Oct 2026 16:49:02 +0000",
-    "publishedAt": "2026-10-12T16:49:02.000Z",
-    "detectedAt": "2026-10-12T19:24:10.069Z",
-    "deliveredAt": "2026-10-12T19:24:10.069Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b63f2dcd4ceacb931c26e261",
-    "source": "DHL",
-    "sourceKey": "src-e5330506f57b7169",
-    "sourceLabel": "DHL",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "DHL erweitert Cold Chain Network um sechs neue dedizierte Healthcare-Korridore, die Europa und Nordamerika mit Asien verbinden",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-erweitert-cold-chain-network.html",
-    "pageDate": "12.10.2026, 14:25 MESZ DHL GLOBAL FORWARDING",
-    "publishedAt": null,
-    "detectedAt": "2026-10-12T19:24:10.068Z",
-    "deliveredAt": "2026-10-12T19:24:10.068Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
