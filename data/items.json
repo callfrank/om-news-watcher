@@ -1,5 +1,488 @@
 [
   {
+    "guid": "089a171e6193623c30226b5f",
+    "source": "Handelskraft",
+    "sourceKey": "src-6c1c923af06aedde",
+    "sourceLabel": "Handelskraft",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "CRM-Einführung: Mehr als Kundendaten für euer Business",
+    "link": "https://www.handelskraft.de/crm-einfuehrung/",
+    "pageDate": "Mon, 19 Oct 2026 06:47:11 +0000",
+    "publishedAt": "2026-10-19T06:47:11.000Z",
+    "detectedAt": "2026-10-19T11:18:14.663Z",
+    "deliveredAt": "2026-10-19T11:18:14.663Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f88e46fb7aafd519e56fe6b3",
+    "source": "Action",
+    "sourceKey": "src-89cea149987a2a2d",
+    "sourceLabel": "Action",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Action opens sixth distribution center in France",
+    "link": "https://company.action.com/pressreleases/action-opens-sixth-distribution-center-in-france/",
+    "pageDate": "19 October 2026",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.661Z",
+    "deliveredAt": "2026-10-19T11:18:14.661Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "df32501a857d2129b5646e8e",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Neue Kooperation von dm und Städel Museum: Digitale Kunstpausen verbinden Kunst mit Alltagsthemen",
+    "link": "https://newsroom.dm.de/pressreleases/neue-kooperation-von-dm-und-staedel-museum-digitale-kunstpausen-verbinden-kunst-mit-alltagsthemen-3473073",
+    "pageDate": "19.10.2026",
+    "publishedAt": "2026-10-19T12:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.652Z",
+    "deliveredAt": "2026-10-19T11:18:14.652Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "addc0d91a59515e37ba2afc0",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Unternehmertum, das begeistert: Das sind die Gewinner*innen der eBay Awards 2026",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
+    "pageDate": "19.10.2026",
+    "publishedAt": "2026-10-19T12:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.647Z",
+    "deliveredAt": "2026-10-19T11:18:14.647Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "7d1f8b21ab291149db976c34",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "How bol Retail Media helps brands make the most of relevant moments",
+    "link": "https://over.bol.com/en/news/how-bol-retail-media-helps-brands-make-the-most-of-relevant-moments/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-19T11:18:14.639Z",
+    "deliveredAt": "2026-10-19T11:18:14.639Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f33fb96e3367d543af9da62c",
+    "source": "Ifhkoeln",
+    "sourceKey": "src-ce9e70954500f828",
+    "sourceLabel": "Ifhkoeln",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Adventskalender: Vorfreude trifft Preisbewusstsein",
+    "link": "https://www.ifhkoeln.de/adventskalender-vorfreude-trifft-preisbewusstsein/",
+    "pageDate": "19.10.2026",
+    "publishedAt": "2026-10-19T12:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.634Z",
+    "deliveredAt": "2026-10-19T11:18:14.634Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "78a0fe98f9b51ff0a3e3653d",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "2026 CRESTA Zones expand global coverage and enhance risk analysis capabilities",
+    "link": "https://nielseniq.com/global/en/news-center/2026/2026-cresta-zones-expand-global-coverage-and-enhance-risk-analysis-capabilities/",
+    "pageDate": "19.10.2026",
+    "publishedAt": "2026-10-19T12:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.631Z",
+    "deliveredAt": "2026-10-19T11:18:14.631Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "efbca15f9707dbaa023bbe62",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Unter EU-Durchschnitt: Weniger als jede dritte Führungskraft in Deutschland ist weiblich",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N071_13.html",
+    "pageDate": "Mon, 19 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-19T06:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.615Z",
+    "deliveredAt": "2026-10-19T11:18:14.615Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9ac2e4124676b9c12aaef7a9",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragsbestand im Verarbeitenden Gewerbe im August 2026: +0,5 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_371_421.html",
+    "pageDate": "Mon, 19 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-19T06:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.615Z",
+    "deliveredAt": "2026-10-19T11:18:14.615Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "64be7598abd4ea95086285ea",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "A Nobel Prize for microeconomic foundations of macroeconomic stabilisation",
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261019~b833d15fce.en.html",
+    "pageDate": "19 October 2026",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.595Z",
+    "deliveredAt": "2026-10-19T11:18:14.595Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "27bfc456ed01eb4e52b76bd9",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Resilience and competitiveness in a changing climate",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
+    "pageDate": "19 October 2026",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.595Z",
+    "deliveredAt": "2026-10-19T11:18:14.595Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "13b972db059938aef5d8e09b",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": ", Bonn, 19.10.2026 Kinder-Smartwatches: Darauf sollten Eltern und Erziehungsberechtigte achten Kinder-Smartwatches versprechen Eltern Sicherheit und ermöglichen Kindern erste Schritte in die digitale Welt. Gleichzeitig verarbeiten die vernetzten Uhren teils hochsensible Daten und können so selbst zum Sicherheitsrisiko werden. Das BSI hat daher eine Auswahl von Kinder-Smartwatches genauer unter die Lupe genommen.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261019_Kinder-Smartwatches.html",
+    "pageDate": "19.10.2026",
+    "publishedAt": "2026-10-19T12:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.589Z",
+    "deliveredAt": "2026-10-19T11:18:14.589Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f954dc21d0ffa3fb9cc2a759",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Aus Fehlern lernen: 3 Fehlertypen – so geht es richtig",
+    "link": "https://wortfilter.de/aus-fehlern-lernen-fehlertypen/",
+    "pageDate": "Mon, 19 Oct 2026 06:58:11 +0000",
+    "publishedAt": "2026-10-19T06:58:11.000Z",
+    "detectedAt": "2026-10-19T11:18:14.586Z",
+    "deliveredAt": "2026-10-19T11:18:14.586Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "736745eef7bfba1b8610cf67",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Herbstdeko 2026: 56 % dekorieren, Möbelumsatz fällt 12 %",
+    "link": "https://wortfilter.de/herbstdeko-2026-yougov-moebel-heimtextilien/",
+    "pageDate": "Mon, 19 Oct 2026 08:14:23 +0000",
+    "publishedAt": "2026-10-19T08:14:23.000Z",
+    "detectedAt": "2026-10-19T11:18:14.586Z",
+    "deliveredAt": "2026-10-19T11:18:14.586Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3677e28cf167c556e620f8df",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Onboarding Bootcamp: 4 Tage, 24 Sessions, 0 Euro",
+    "link": "https://wortfilter.de/amazon-onboarding-bootcamp-november-2026/",
+    "pageDate": "Mon, 19 Oct 2026 08:59:45 +0000",
+    "publishedAt": "2026-10-19T08:59:45.000Z",
+    "detectedAt": "2026-10-19T11:18:14.586Z",
+    "deliveredAt": "2026-10-19T11:18:14.586Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2a47eea5636457dfbc99ca0c",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "KPMG/EHI: Händler-KI hat ein Glaubwürdigkeitsproblem",
+    "link": "https://onlinemarktplatz.de/294111/vertrauen-in-ki-agenten-haendler/",
+    "pageDate": "Mon, 19 Oct 2026 05:56:02 +0000",
+    "publishedAt": "2026-10-19T05:56:02.000Z",
+    "detectedAt": "2026-10-19T11:18:14.584Z",
+    "deliveredAt": "2026-10-19T11:18:14.584Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "acff31a30112364fb303d407",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "eBay Secondhand-Studie: Budgetdruck treibt Gebrauchtkäufe",
+    "link": "https://onlinemarktplatz.de/293938/ebay-secondhand-studie-2026/",
+    "pageDate": "Mon, 19 Oct 2026 06:32:46 +0000",
+    "publishedAt": "2026-10-19T06:32:46.000Z",
+    "detectedAt": "2026-10-19T11:18:14.584Z",
+    "deliveredAt": "2026-10-19T11:18:14.584Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0b6492339b9c315cc0d58e69",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Gamification im Handel: Interesse ist noch keine Kundenbindung",
+    "link": "https://onlinemarktplatz.de/293886/gamification-im-handel/",
+    "pageDate": "Mon, 19 Oct 2026 07:02:12 +0000",
+    "publishedAt": "2026-10-19T07:02:12.000Z",
+    "detectedAt": "2026-10-19T11:18:14.584Z",
+    "deliveredAt": "2026-10-19T11:18:14.584Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6c4ddb1aabb67cf40534d62f",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Selbstbestimmt alles Wichtige regeln",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/selbstbestimmt-alles-wichtige-regeln-126276",
+    "pageDate": "19.10.2026",
+    "publishedAt": "2026-10-19T12:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.578Z",
+    "deliveredAt": "2026-10-19T11:18:14.578Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "de39bd2fc9441fa560c13b71",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceKey": "src-17979740ef54054e",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Marktcheck: Selbstgekochte Mahlzeiten gesünder und günstiger als Fertiggerichte",
+    "link": "https://www.vzhh.de/presse/marktcheck-selbstgekochte-mahlzeiten-gesuender-guenstiger-als-fertiggerichte",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-19T11:18:14.576Z",
+    "deliveredAt": "2026-10-19T11:18:14.576Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5109190852d64b413c9be971",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "JINGDONG Industrials and Partners Launch Alliance to Strengthen Global Industrial Supply Chains",
+    "link": "https://jdcorporateblog.com/jingdong-industrials-and-partners-launch-alliance-to-strengthen-global-industrial-supply-chains/",
+    "pageDate": "Oct 19, 2026",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.540Z",
+    "deliveredAt": "2026-10-19T11:18:14.540Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "06d60ac4f81f8b8091f69bf2",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Rekord bei E-Autos, aber deutsche Konzerne verlieren Marktanteile – jedes achte E-Auto kommt aus China",
+    "link": "https://www.ey.com/de_de/newsroom/2026/10/ey-analyse-elektro-neuwagenmarkt-q3-2026",
+    "pageDate": "18.10.2026",
+    "publishedAt": "2026-10-18T12:00:00.000Z",
+    "detectedAt": "2026-10-19T11:18:14.532Z",
+    "deliveredAt": "2026-10-19T11:18:14.532Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "db3a7ef96c4af2f0c7389d59",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10581,498 +11064,6 @@
     "publishedAt": "2026-10-13T12:00:00.000Z",
     "detectedAt": "2026-10-13T10:11:21.074Z",
     "deliveredAt": "2026-10-13T10:11:21.074Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e20466d9327a1d82a7ca01ec",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "ZEW startet Artist-in-Residence-Programm mit Stefan Karrer // Un/Calculated Future",
-    "link": "https://www.zew.de/presse/pressearchiv/zew-startet-artist-in-residence-programm-mit-stefan-karrer",
-    "pageDate": "13.10.2026",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "detectedAt": "2026-10-13T08:29:18.554Z",
-    "deliveredAt": "2026-10-13T08:29:18.554Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "660b3fdc229740cec533f8ef",
-    "source": "Gfu",
-    "sourceKey": "src-e47d0ee60e79a7e8",
-    "sourceLabel": "Gfu",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Stromtarif im Minutentakt nutzen",
-    "link": "https://gfu.de/stromtarif-im-minutentakt-nutzen/",
-    "pageDate": "13.10.2026",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "detectedAt": "2026-10-13T08:29:18.554Z",
-    "deliveredAt": "2026-10-13T08:29:18.554Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1fd1016731fb1fdd04e24ca4",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "​​​UK shoppers stuck between seasons as summer favourites remain in the supermarket basket",
-    "link": "https://nielseniq.com/global/en/news-center/2026/uk-shoppers-stuck-between-seasons-as-summer-favourites-remain-in-the-supermarket-basket/",
-    "pageDate": "13.10.2026",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "detectedAt": "2026-10-13T08:29:18.553Z",
-    "deliveredAt": "2026-10-13T08:29:18.553Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ce310599286a0500ca259e46",
-    "source": "Mittelstand Digital",
-    "sourceKey": "src-3fbff5b0f3b52fe1",
-    "sourceLabel": "Mittelstand Digital",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Erklärvideo: KI-Chatbots für den Handel",
-    "link": "https://digitalzentrumhandel.de/author/shouweling/",
-    "pageDate": "13.10.2026",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "detectedAt": "2026-10-13T08:29:18.551Z",
-    "deliveredAt": "2026-10-13T08:29:18.551Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c2a6fc0d91ce545853a18567",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "10 % weniger Lebkuchen im Jahr 2025 in Deutschland produziert",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_42_p002.html",
-    "pageDate": "Tue, 13 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-13T06:00:00.000Z",
-    "detectedAt": "2026-10-13T08:29:18.541Z",
-    "deliveredAt": "2026-10-13T08:29:18.541Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "64de42f0a8dbfa939c39600c",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Voraussichtliche Weinernte 2026 liegt 4 % unter dem Durchschnitt der Vorjahre",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_366_412.html",
-    "pageDate": "Tue, 13 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-13T06:00:00.000Z",
-    "detectedAt": "2026-10-13T08:29:18.541Z",
-    "deliveredAt": "2026-10-13T08:29:18.541Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "04f94f412f582dc4a322968b",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Sterbefallzahlen im 3. Quartal 2026: Hitzewellen führen zu vorübergehenden Anstiegen",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_365_126.html",
-    "pageDate": "Tue, 13 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-13T06:00:00.000Z",
-    "detectedAt": "2026-10-13T08:29:18.541Z",
-    "deliveredAt": "2026-10-13T08:29:18.541Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "56c11e4a40221a85b365ff82",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Inflationsrate im September 2026 bei +3,3 %",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_364_611.html",
-    "pageDate": "Tue, 13 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-13T06:00:00.000Z",
-    "detectedAt": "2026-10-13T08:29:18.541Z",
-    "deliveredAt": "2026-10-13T08:29:18.541Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "04b44ab049c423939f7ec8cd",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Unternehmensinsolvenzen 2026: +8 % – Logistik an der Spitze",
-    "link": "https://wortfilter.de/unternehmensinsolvenzen-2026-juli/",
-    "pageDate": "Tue, 13 Oct 2026 07:04:45 +0000",
-    "publishedAt": "2026-10-13T07:04:45.000Z",
-    "detectedAt": "2026-10-13T08:29:18.519Z",
-    "deliveredAt": "2026-10-13T08:29:18.519Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f16ad66bea1b5ad9a5e46174",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "KI im Welthandel: Infrastrukturboom liefert 47 Prozent des Wachstums",
-    "link": "https://onlinemarktplatz.de/294109/ki-im-welthandel-infrastruktur/",
-    "pageDate": "Tue, 13 Oct 2026 05:57:29 +0000",
-    "publishedAt": "2026-10-13T05:57:29.000Z",
-    "detectedAt": "2026-10-13T08:29:18.517Z",
-    "deliveredAt": "2026-10-13T08:29:18.517Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e899fd11cbcd60c38da60651",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon FBA: Peak-Gebühr steigt 2026 um rund 42 Prozent",
-    "link": "https://onlinemarktplatz.de/294159/amazon-fba-peak-gebuehr-2026/",
-    "pageDate": "Tue, 13 Oct 2026 06:30:58 +0000",
-    "publishedAt": "2026-10-13T06:30:58.000Z",
-    "detectedAt": "2026-10-13T08:29:18.517Z",
-    "deliveredAt": "2026-10-13T08:29:18.517Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8351dc128ad37bec43c029e1",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Porto 2027: Briefe und Pakete könnten deutlich teurer werden",
-    "link": "https://onlinemarktplatz.de/294179/porto-2027-briefe-pakete-preise/",
-    "pageDate": "Tue, 13 Oct 2026 07:01:56 +0000",
-    "publishedAt": "2026-10-13T07:01:56.000Z",
-    "detectedAt": "2026-10-13T08:29:18.517Z",
-    "deliveredAt": "2026-10-13T08:29:18.517Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "88dd86e56612eef6464b429e",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Meta Ray-Ban Display startet",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/verkaufsstart-telekom-bietet-meta-ray-ban-display-an",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-13T08:29:18.508Z",
-    "deliveredAt": "2026-10-13T08:29:18.508Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "00d503b2aa3256f4b2ea0040",
-    "source": "Meta QZ",
-    "sourceKey": "e570b06e-f24a-45ea-a7b2-12f32fa2ed1d",
-    "sourceLabel": "Meta QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Meta to Announce Third Quarter 2026 Results",
-    "link": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
-    "pageDate": "October 12, 2026",
-    "publishedAt": "2026-10-12T00:00:00.000Z",
-    "detectedAt": "2026-10-13T01:39:08.311Z",
-    "deliveredAt": "2026-10-13T01:39:08.311Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9d5d4cc94707aaff3218a949",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Bringing More to the Table",
-    "link": "https://corporate.walmart.com/news/2026/10/bringing-more-to-the-table",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-13T01:39:08.286Z",
-    "deliveredAt": "2026-10-13T01:39:08.286Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "098cfd96d54654036d82b46b",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "40 % Umsatzrückgang Amazon und eBay: Woran liegt es?",
-    "link": "https://wortfilter.de/umsatzrueckgang-onlinehandel-pruefen/",
-    "pageDate": "Mon, 12 Oct 2026 21:14:08 +0000",
-    "publishedAt": "2026-10-12T21:14:08.000Z",
-    "detectedAt": "2026-10-13T01:39:08.223Z",
-    "deliveredAt": "2026-10-13T01:39:08.223Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5980a44b7f88bc6e586f4019",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Walmart and the Walmart Foundation Commit $1 Million to Support Communities Impacted by Hurricane Isaias",
-    "link": "https://corporate.walmart.com/news/2026/10/walmart-support-for-communities-impacted-by-hurricane-isaias",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-12T19:24:10.119Z",
-    "deliveredAt": "2026-10-12T19:24:10.119Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7688878e3e60a1fa050487ef",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "The Traditions That Bring Us Together: A Season to Spark Good",
-    "link": "https://corporate.walmart.com/news/2026/10/season-to-spark-good",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-12T19:24:10.119Z",
-    "deliveredAt": "2026-10-12T19:24:10.119Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c51a21c3c112150e3992ed87",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "International Book Market 2026: Mixed first-half results as Adult Fiction continues to grow, Graphic Novels surge and Non-Fiction remains in decline",
-    "link": "https://nielseniq.com/global/en/news-center/2026/international-book-market-2026-mixed-first-half-results-as-adult-fiction-continues-to-grow-graphic-novels-surge-and-non-fiction-remains-in-decline/",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-12T19:24:10.105Z",
-    "deliveredAt": "2026-10-12T19:24:10.105Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "201cb8f227b8be6eddd85fa5",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "JUNGE TALENTE VERANTWORTETEN EINE WOCHE LANG EINE POSTFILIALE IN WIEN",
-    "link": "https://news.post.at/presse/de/post/id/2352179/JUNGE%20TALENTE%20VERANTWORTETEN%20EINE%20WOCHE%20LANG%20EINE%20POSTFILIALE%20IN%20WIEN%26nbsp%3B",
-    "pageDate": "12.10.2026",
-    "publishedAt": "2026-10-12T12:00:00.000Z",
-    "detectedAt": "2026-10-12T19:24:10.102Z",
-    "deliveredAt": "2026-10-12T19:24:10.102Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "afec257684e1f3450d1f7508",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Ikea expands second-hand marketplace",
-    "link": "https://ecommercenews.eu/ikea-expands-second-hand-marketplace/",
-    "pageDate": "Mon, 12 Oct 2026 14:34:48 +0000",
-    "publishedAt": "2026-10-12T14:34:48.000Z",
-    "detectedAt": "2026-10-12T19:24:10.095Z",
-    "deliveredAt": "2026-10-12T19:24:10.095Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8dedafa9aa1bdb6bbfa16e29",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Asian marketplaces lose market share in Germany",
-    "link": "https://ecommercenews.eu/asian-marketplaces-lose-market-share-in-germany/",
-    "pageDate": "Mon, 12 Oct 2026 16:19:31 +0000",
-    "publishedAt": "2026-10-12T16:19:31.000Z",
-    "detectedAt": "2026-10-12T19:24:10.094Z",
-    "deliveredAt": "2026-10-12T19:24:10.094Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
