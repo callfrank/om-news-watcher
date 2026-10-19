@@ -1,5 +1,183 @@
 [
   {
+    "guid": "14ce8ecb8490308f5addb4fc",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Unternehmertum, das begeistert: Das sind die Gewinner*innen der eBay Awards 2026",
+    "link": "https://www.ebayinc.com/stories/press-room/de/live-verkaufen-international-wachsen-die-ebay-open-2026-bringt-e-commerce-wissen-auf-die-gro%C3%9Fe-buehne/",
+    "pageDate": "19.10.2026",
+    "publishedAt": "2026-10-19T12:00:00.000Z",
+    "detectedAt": "2026-10-19T17:32:58.082Z",
+    "deliveredAt": "2026-10-19T17:32:58.082Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "976555674e80d815c79c0dbc",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon invests in nuclear energy project targeting nearly 1 gigawatt of carbon-free energy for Indiana",
+    "link": "https://www.aboutamazon.com/news/sustainability/amazon-nuclear-energy-indiana-x-energy-aep",
+    "pageDate": "Oct. 19, 2026",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "detectedAt": "2026-10-19T17:32:58.073Z",
+    "deliveredAt": "2026-10-19T17:32:58.073Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "63cbe58e85a688d893e85dcb",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon opens its AWS Trainium AI chips to every PyTorch developer, no rewrite needed",
+    "link": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
+    "pageDate": "Oct. 19, 2026",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "detectedAt": "2026-10-19T17:32:58.073Z",
+    "deliveredAt": "2026-10-19T17:32:58.073Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "60395b92bb6c9ec96f5c5811",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the trailer for ‘Drive – The Pretenders,’ coming to Prime Video October 28",
+    "link": "https://www.aboutamazon.com/news/entertainment/drive-the-pretenders-prime-video",
+    "pageDate": "Oct. 19, 2026",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "detectedAt": "2026-10-19T17:32:58.072Z",
+    "deliveredAt": "2026-10-19T17:32:58.072Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2329790e7f4d7660e14e4e7f",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "UK plans to extend VAT liability for marketplaces",
+    "link": "https://ecommercenews.eu/uk-plans-to-extend-vat-liability-for-marketplaces/",
+    "pageDate": "Mon, 19 Oct 2026 14:57:17 +0000",
+    "publishedAt": "2026-10-19T14:57:17.000Z",
+    "detectedAt": "2026-10-19T17:32:58.056Z",
+    "deliveredAt": "2026-10-19T17:32:58.056Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "849a2854a76643b5b916832a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "PayPal AGB-Änderung: 30 Tage Rechnungskauf nur noch für KMU",
+    "link": "https://wortfilter.de/paypal-agb-aenderung-rechnungskauf-ratepay-kmu/",
+    "pageDate": "Mon, 19 Oct 2026 13:32:09 +0000",
+    "publishedAt": "2026-10-19T13:32:09.000Z",
+    "detectedAt": "2026-10-19T17:32:58.032Z",
+    "deliveredAt": "2026-10-19T17:32:58.032Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e55a758c851a2f570f7bbc4c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Kleinanzeigen-Störung: 945 Meldungen – Nachrichten sind weg",
+    "link": "https://wortfilter.de/kleinanzeigen-stoerung-nachrichten/",
+    "pageDate": "Mon, 19 Oct 2026 13:33:51 +0000",
+    "publishedAt": "2026-10-19T13:33:51.000Z",
+    "detectedAt": "2026-10-19T17:32:58.032Z",
+    "deliveredAt": "2026-10-19T17:32:58.032Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "89a525f4d1cff7f0163fb4ad",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EDEKA GTA6: Supermarkt schnappt Händlern die Gamer weg",
+    "link": "https://wortfilter.de/edeka-gta6/",
+    "pageDate": "Mon, 19 Oct 2026 15:14:53 +0000",
+    "publishedAt": "2026-10-19T15:14:53.000Z",
+    "detectedAt": "2026-10-19T17:32:58.032Z",
+    "deliveredAt": "2026-10-19T17:32:58.032Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "089a171e6193623c30226b5f",
     "source": "Handelskraft",
     "sourceKey": "src-6c1c923af06aedde",
@@ -60,27 +238,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "addc0d91a59515e37ba2afc0",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Unternehmertum, das begeistert: Das sind die Gewinner*innen der eBay Awards 2026",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
-    "pageDate": "19.10.2026",
-    "publishedAt": "2026-10-19T12:00:00.000Z",
-    "detectedAt": "2026-10-19T11:18:14.647Z",
-    "deliveredAt": "2026-10-19T11:18:14.647Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "7d1f8b21ab291149db976c34",
@@ -10904,166 +11061,6 @@
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "detectedAt": "2026-10-13T16:28:26.760Z",
     "deliveredAt": "2026-10-13T16:28:26.760Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1a22322de07f1f9dd81b0377",
-    "source": "BSI",
-    "sourceKey": "src-64a086442adaeeab",
-    "sourceLabel": "BSI",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": ", Bonn, 13.10.2026 BSI rät dringend zur Absicherung vernetzter Steuerungssysteme Das Bundesamt für Sicherheit in der Informationstechnik (BSI) empfiehlt ausdrücklich, aus dem Internet erreichbare Steuerungsanlagen nach dem Stand der Technik abzusichern. Das BSI hat dazu eine Cybersicherheitsempfehlung veröffentlicht.",
-    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261013_OT-Gefaehrdung-Kleinanlagen.html",
-    "pageDate": "13.10.2026",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "detectedAt": "2026-10-13T16:28:26.739Z",
-    "deliveredAt": "2026-10-13T16:28:26.739Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b43ec5c2e840836b876a3199",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zollfreigrenze: Temu, Shein & Co. verlieren 35,5 % Umsatz",
-    "link": "https://wortfilter.de/zollfreigrenze-temu-shein-umsatz/",
-    "pageDate": "Tue, 13 Oct 2026 10:32:40 +0000",
-    "publishedAt": "2026-10-13T10:32:40.000Z",
-    "detectedAt": "2026-10-13T16:28:26.738Z",
-    "deliveredAt": "2026-10-13T16:28:26.738Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "869bdf97228b13a68cb46155",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Podcast: HEMA Pop-up testet Markenaufbau in Deutschland",
-    "link": "https://onlinemarktplatz.de/293924/podcast-hema-pop-up/",
-    "pageDate": "Tue, 13 Oct 2026 10:25:34 +0000",
-    "publishedAt": "2026-10-13T10:25:34.000Z",
-    "detectedAt": "2026-10-13T16:28:26.737Z",
-    "deliveredAt": "2026-10-13T16:28:26.737Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4a7c0627614787f810cfaa65",
-    "source": "Google Ads & Commerce Blog",
-    "sourceKey": "src-147cfee3d1361ebb",
-    "sourceLabel": "Google Ads & Commerce",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Build your data strength with October’s Demand Gen drop.",
-    "link": "https://blog.google/products/ads-commerce/demand-gen-drop-october-2026/",
-    "pageDate": "Tue, 13 Oct 2026 16:00:00 +0000",
-    "publishedAt": "2026-10-13T16:00:00.000Z",
-    "detectedAt": "2026-10-13T16:28:26.724Z",
-    "deliveredAt": "2026-10-13T16:28:26.724Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "722726bca8ea4f31ef927851",
-    "source": "Kaufland Newsroom",
-    "sourceKey": "src-3706ec107132ce03",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Ergänzung zum 9. Oktober 2026: Kaufland erweitert Kundeninformation um BEBA- Produkte",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/oktober/ergaenzung-zum-9.-oktober-2026-kaufland-erweitert-kundeninformation-um-beba-produkte",
-    "pageDate": "13.10.2026",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "detectedAt": "2026-10-13T16:28:26.715Z",
-    "deliveredAt": "2026-10-13T16:28:26.715Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a161b99428cf5a678a116b20",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "IKEA Secondhand-Marktplatz startet in Deutschland",
-    "link": "https://onlinemarktplatz.de/294199/ikea-secondhand-marktplatz-deutschland/",
-    "pageDate": "Tue, 13 Oct 2026 09:11:54 +0000",
-    "publishedAt": "2026-10-13T09:11:54.000Z",
-    "detectedAt": "2026-10-13T10:11:21.080Z",
-    "deliveredAt": "2026-10-13T10:11:21.080Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "47f47ee7eb1d2f70eafaa800",
-    "source": "VZBV Pressemitteilungen",
-    "sourceKey": "src-89cdb65f3f059fb8",
-    "sourceLabel": "VZBV",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "13.10.2026Gesundheitsdaten: Erst fragen, dann auswerten",
-    "link": "https://www.vzbv.de/pressemitteilungen/gesundheitsdaten-erst-fragen-dann-auswerten-0",
-    "pageDate": "13.10.2026",
-    "publishedAt": "2026-10-13T12:00:00.000Z",
-    "detectedAt": "2026-10-13T10:11:21.074Z",
-    "deliveredAt": "2026-10-13T10:11:21.074Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
