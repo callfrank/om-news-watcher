@@ -1,5 +1,249 @@
 [
   {
+    "guid": "9a940f3c64f0d409596942af",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Reifenwechsel auf den letzten Drücker: Viele wünschen sich Reifenkauf und Montage aus einer Hand",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-deutschland-und-der-1-fc-union-berlin-gehen-in-die-verlaengerung-premiere-fuer-ebay-live-auf-der-ifa/",
+    "pageDate": "20.10.2026",
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "detectedAt": "2026-10-20T15:24:06.916Z",
+    "deliveredAt": "2026-10-20T15:24:06.916Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "f975eda540d8d7376e347590",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Shop top deals from Amazon’s 2026 Holiday Beauty Event",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-holiday-beauty-event-2026",
+    "pageDate": "Oct. 19, 2026",
+    "publishedAt": "2026-10-19T00:00:00.000Z",
+    "detectedAt": "2026-10-20T15:24:06.908Z",
+    "deliveredAt": "2026-10-20T15:24:06.908Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ad4e086145c8b00fd67cadd0",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the trailer for 'Perfect Liars,' the adaptation of the hit novel coming to Prime Video November 20",
+    "link": "https://www.aboutamazon.com/news/entertainment/perfect-liars-prime-video",
+    "pageDate": "Oct. 20, 2026",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "detectedAt": "2026-10-20T15:24:06.908Z",
+    "deliveredAt": "2026-10-20T15:24:06.908Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "599b73804a65a3e9b810f372",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon is creating over 300,000 new US jobs this holiday season with increased pay and expanded benefits",
+    "link": "https://www.aboutamazon.com/news/workplace/amazon-holiday-jobs-2026-seasonal-hiring-healthcare",
+    "pageDate": "Oct. 20, 2026",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "detectedAt": "2026-10-20T15:24:06.908Z",
+    "deliveredAt": "2026-10-20T15:24:06.908Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "96dc31a4de43f8a78863755a",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Allegro opens to consumers in Ukraine",
+    "link": "https://ecommercenews.eu/allegro-opens-to-consumers-in-ukraine/",
+    "pageDate": "Tue, 20 Oct 2026 15:41:02 +0000",
+    "publishedAt": "2026-10-20T15:41:02.000Z",
+    "detectedAt": "2026-10-20T15:24:06.892Z",
+    "deliveredAt": "2026-10-20T15:24:06.892Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8656d3227360b2cc612261a8",
+    "source": "BEVH",
+    "sourceKey": "src-0a9ea9df2176887f",
+    "sourceLabel": "BEVH",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Nach EP-Vorstoß: bevh drängt zu One-Stop-Shop und Kleinstmengen-Ausnahme",
+    "link": "https://bevh.org/detail/nach-ep-vorstoss-bevh-draengt-zu-one-stop-shop-und-kleinstmengen-ausnahme",
+    "pageDate": "20.10.2026",
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "detectedAt": "2026-10-20T15:24:06.871Z",
+    "deliveredAt": "2026-10-20T15:24:06.871Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b23f9188274d14938512e68",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Revolut Störung: Google-Cloud-Ausfall legt Banking lahm",
+    "link": "https://wortfilter.de/revolut-stoerung-google-cloud/",
+    "pageDate": "Tue, 20 Oct 2026 11:32:45 +0000",
+    "publishedAt": "2026-10-20T11:32:45.000Z",
+    "detectedAt": "2026-10-20T15:24:06.869Z",
+    "deliveredAt": "2026-10-20T15:24:06.869Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "50fe84d2b8b142620c2d67b9",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Deutsche Post AG passt Briefporto und Produkte zum 1. Januar 2027 an",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/deutsche-post-ag-passt-briefporto-und-produkte-zum-ersten-januar-2027-an.html",
+    "pageDate": "20.10.2026, 13:00 MESZ POST & PAKET DEUTSCHLAND",
+    "publishedAt": null,
+    "detectedAt": "2026-10-20T15:24:06.868Z",
+    "deliveredAt": "2026-10-20T15:24:06.868Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e70359c8a47ac64c743f57e1",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Handel in Shanghai – Flagship Stores treffen auf Leerstand",
+    "link": "https://onlinemarktplatz.de/294139/handel-in-shanghai-ehi/",
+    "pageDate": "Tue, 20 Oct 2026 10:30:07 +0000",
+    "publishedAt": "2026-10-20T10:30:07.000Z",
+    "detectedAt": "2026-10-20T15:24:06.867Z",
+    "deliveredAt": "2026-10-20T15:24:06.867Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5c0aac01a857115e11c123e8",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Apheris und T-Systems schützen Daten",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/apheris-und-t-systems-schuetzen-daten",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-20T15:24:06.853Z",
+    "deliveredAt": "2026-10-20T15:24:06.853Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aaace91e46634af67900f9b9",
+    "source": "Google Ads & Commerce Blog",
+    "sourceKey": "src-147cfee3d1361ebb",
+    "sourceLabel": "Google Ads & Commerce",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Expanding our defenses against financial scam ads",
+    "link": "https://blog.google/products/ads-commerce/financial-services-verification-united-states-canada/",
+    "pageDate": "Tue, 20 Oct 2026 15:00:00 +0000",
+    "publishedAt": "2026-10-20T15:00:00.000Z",
+    "detectedAt": "2026-10-20T15:24:06.836Z",
+    "deliveredAt": "2026-10-20T15:24:06.836Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "5a6e2b4d33378eb233962432",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -24,27 +268,6 @@
     "recoveryReason": null
   },
   {
-    "guid": "14ce8ecb8490308f5addb4fc",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Reifenwechsel auf den letzten Drücker: Viele wünschen sich Reifenkauf und Montage aus einer Hand",
-    "link": "https://www.ebayinc.com/stories/press-room/de/live-verkaufen-international-wachsen-die-ebay-open-2026-bringt-e-commerce-wissen-auf-die-gro%C3%9Fe-buehne/",
-    "pageDate": "20.10.2026",
-    "publishedAt": "2026-10-20T12:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.513Z",
-    "deliveredAt": "2026-10-20T10:27:07.513Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
-  },
-  {
     "guid": "78c764de43d5c7379b99e2ee",
     "source": "Kaufland",
     "sourceKey": "src-824d896356b1a926",
@@ -53,8 +276,7 @@
       "Firmen"
     ],
     "tags": [
-      "E-Commerce",
-      "Unternehmensstrategie"
+      "E-Commerce"
     ],
     "priority": 2,
     "title": "Zur Pressemitteilung",
@@ -10850,226 +11072,6 @@
     "priority": 2,
     "title": "Navigate to Klarna growth continues to outpace global e-commerce in first half of 2022 powered by US success",
     "link": "https://www.klarna.com/international/press/klarna-growth-continues-to-outpace-global-e-commerce-in-first-half-of-2022-powered-by-us-success/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8fa11ebcfb4288eb6af0c4ea",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna manifests their position as a universal growth engine for merchants - instituting Klarna Growth Awards",
-    "link": "https://www.klarna.com/international/press/klarna-manifests-their-position-as-a-universal-growth-engine-for-merchants-instituting-klarna-growth-awards/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "90b714f1597b785a3a0e9147",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Γεια σας” to Greece with its interest-free “Pay in 3” service and shopping app",
-    "link": "https://www.klarna.com/international/press/klarna-says-geia-sas-to-greece-with-its-interest-free-pay-in-3-service-and-shopping-app/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "70b0d0e4decd8bec0d6e3fcc",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to re—inc, Klarna, and Angel City Football Club Release Limited-Edition Collab",
-    "link": "https://www.klarna.com/international/press/re-inc-klarna-and-angel-city-football-club-release-limited-edition-collab/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "dddad1d1b72ddd04afce7acd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Ahoj” to Czechia with its interest-free “Pay in 3” service and shopping app",
-    "link": "https://www.klarna.com/international/press/klarna-says-ahoj-to-czechia-with-its-interest-free-pay-in-3-service-and-shopping-app/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "65b0f0a4c0ab51b2d9a51dd8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Wix expand global partnership into Canada, bringing flexible payment options to e-commerce businesses of all sizes",
-    "link": "https://www.klarna.com/international/press/klarna-and-wix-expand-global-partnership-into-canada-bringing-flexible-payment-options-to-e-commerce-businesses-of-all-sizes/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "54b77bb59a5552fea6bf346e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Introducing Klarna Spotlight: a collection of product innovations for a new era of shopping",
-    "link": "https://www.klarna.com/international/press/introducing-klarna-spotlight-a-collection-of-product-innovations-for-a-new-era-of-shopping/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0afa54e7541f567369beb742",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Tender Information Document in respect of a tender offer for certain outstanding SEK denominated senior unsecured floating rate notes",
-    "link": "https://www.klarna.com/international/press/tender-information-document-in-respect-of-a-tender-offer-for-certain-outstanding-sek-denominated-senior-unsecured-floating-rate-notes/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8dcf3e86cd0e7cf3bd611de0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB announces results of tender offer for outstanding bonds",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-announces-results-of-tender-offer-for-outstanding-bonds/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5dbe24042e18bf9a6cf29bec",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Dutch money saving start-up iBilly’s user rates soar after partnering with Klarna Kosma",
-    "link": "https://www.klarna.com/international/press/dutch-money-saving-start-up-ibillys-user-rates-soar-after-partnering-with-klarna-kosma/",
-    "pageDate": "October 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-14T19:43:50.564Z",
-    "deliveredAt": "2026-10-14T19:43:50.564Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "af43b1c5b1ebc114cc7a5b38",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna introduces Money Story: A personal overview of your spending in 2022",
-    "link": "https://www.klarna.com/international/press/klarna-introduces-money-story-a-personal-overview-of-your-spending-in-2022/",
     "pageDate": "October 13, 2026",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "detectedAt": "2026-10-14T19:43:50.564Z",
