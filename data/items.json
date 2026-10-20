@@ -1,6 +1,6 @@
 [
   {
-    "guid": "14ce8ecb8490308f5addb4fc",
+    "guid": "9a940f3c64f0d409596942af",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,80 @@
     "tags": [],
     "priority": 2,
     "title": "Reifenwechsel auf den letzten Drücker: Viele wünschen sich Reifenkauf und Montage aus einer Hand",
-    "link": "https://www.ebayinc.com/stories/press-room/de/live-verkaufen-international-wachsen-die-ebay-open-2026-bringt-e-commerce-wissen-auf-die-gro%C3%9Fe-buehne/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-deutschland-und-der-1-fc-union-berlin-gehen-in-die-verlaengerung-premiere-fuer-ebay-live-auf-der-ifa/",
     "pageDate": "20.10.2026",
     "publishedAt": "2026-10-20T12:00:00.000Z",
-    "detectedAt": "2026-10-20T19:37:03.149Z",
-    "deliveredAt": "2026-10-20T19:37:03.149Z",
+    "detectedAt": "2026-10-20T22:41:40.594Z",
+    "deliveredAt": "2026-10-20T22:41:40.594Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "7939389b9da64692b53fa540",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon commits 30,000 jobs to young people in the UK by 2030—no experience required",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-youth-promise-uk",
+    "pageDate": "Oct. 20, 2026",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "detectedAt": "2026-10-20T22:41:40.588Z",
+    "deliveredAt": "2026-10-20T22:41:40.588Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3c12d016801f55fbd82705d6",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Konjunktur 2026 ist gut: Was vom Aufschwung im Onlinehandel ankommt",
+    "link": "https://wortfilter.de/konjunktur-onlinehandel-2026/",
+    "pageDate": "Tue, 20 Oct 2026 21:32:48 +0000",
+    "publishedAt": "2026-10-20T21:32:48.000Z",
+    "detectedAt": "2026-10-20T22:41:40.558Z",
+    "deliveredAt": "2026-10-20T22:41:40.558Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0fe3d353041c1beab34619e2",
+    "source": "Deloitte",
+    "sourceKey": "src-ee546a6472b48b72",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Steigende Zinsen und hohe Baukosten erhöhen den Druck auf Preise und Mieten bei deutschen Wohnimmobilien",
+    "link": "https://www.deloitte.com/de/de/about/press-room/steigende-zinsen-und-hohe-baukosten-erhoehen-den-druck-auf-preise-und-mieten-bei-deutschen-wohnimmobilien.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-20T22:41:40.556Z",
+    "deliveredAt": "2026-10-20T22:41:40.556Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "c1f38dcaff705bcc1f5883ba",
@@ -11000,70 +11065,6 @@
     "publishedAt": "2026-10-15T12:00:00.000Z",
     "detectedAt": "2026-10-15T11:28:44.698Z",
     "deliveredAt": "2026-10-15T11:28:44.698Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e77ba160068a8ab446060454",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Sam’s Club Presents Its 2026 Member’s Mark™ Thanksgiving Meal",
-    "link": "https://corporate.walmart.com/about/samsclub/news/2026/10/members-mark-thanksgiving-meal",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-15T11:28:44.697Z",
-    "deliveredAt": "2026-10-15T11:28:44.697Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4a114b4d81d5c33a4ef5f174",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "15.10.2026",
-    "link": "https://news.post.at/presse/de/post/id/2354171/POST%20ER&Ouml;FFNET%20NEUE%20POSTBASIS%20IN%20B&Ouml;HEIMKIRCHEN",
-    "pageDate": "15.10.2026",
-    "publishedAt": "2026-10-15T12:00:00.000Z",
-    "detectedAt": "2026-10-15T11:28:44.680Z",
-    "deliveredAt": "2026-10-15T11:28:44.680Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9e80de03977569a9e135f90c",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "POST ERÖFFNET NEUE POSTBASIS IN BÖHEIMKIRCHEN",
-    "link": "https://news.post.at/presse/de/post/id/2354171/POST%20ER%26Ouml%3BFFNET%20NEUE%20POSTBASIS%20IN%20B%26Ouml%3BHEIMKIRCHEN",
-    "pageDate": "15.10.2026",
-    "publishedAt": "2026-10-15T12:00:00.000Z",
-    "detectedAt": "2026-10-15T11:28:44.680Z",
-    "deliveredAt": "2026-10-15T11:28:44.680Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
