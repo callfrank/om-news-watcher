@@ -1,6 +1,6 @@
 [
   {
-    "guid": "addc0d91a59515e37ba2afc0",
+    "guid": "14ce8ecb8490308f5addb4fc",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,38 @@
     "tags": [],
     "priority": 2,
     "title": "Unternehmertum, das begeistert: Das sind die Gewinner*innen der eBay Awards 2026",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-erweitert-die-echtheitspruefung-aus-deutschland-nach-frankreich-und-italien/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/live-verkaufen-international-wachsen-die-ebay-open-2026-bringt-e-commerce-wissen-auf-die-gro%C3%9Fe-buehne/",
     "pageDate": "19.10.2026",
     "publishedAt": "2026-10-19T12:00:00.000Z",
-    "detectedAt": "2026-10-19T21:46:30.334Z",
-    "deliveredAt": "2026-10-19T21:46:30.334Z",
+    "detectedAt": "2026-10-20T00:42:56.021Z",
+    "deliveredAt": "2026-10-20T00:42:56.021Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "b1dbe9fb29a0059f1c4be383",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "The Platform Group 1. Tochter insolvent: 99rooms ist pleite",
+    "link": "https://wortfilter.de/99rooms-insolvent/",
+    "pageDate": "Mon, 19 Oct 2026 23:50:02 +0000",
+    "publishedAt": "2026-10-19T23:50:02.000Z",
+    "detectedAt": "2026-10-20T00:42:55.968Z",
+    "deliveredAt": "2026-10-20T00:42:55.968Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "976555674e80d815c79c0dbc",
@@ -11035,28 +11058,6 @@
     "priority": 2,
     "title": "How to watch the 2026 'Skins Game' golf event on Prime Video",
     "link": "https://www.aboutamazon.com/news/entertainment/golf-prime-video-skins-game",
-    "pageDate": "Oct. 13, 2026",
-    "publishedAt": "2026-10-13T00:00:00.000Z",
-    "detectedAt": "2026-10-13T16:28:26.760Z",
-    "deliveredAt": "2026-10-13T16:28:26.760Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "66adab777a7546d8b1699d93",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch NFL, NBA, and The Skins Game on Prime Video for Black Friday",
-    "link": "https://www.aboutamazon.com/news/entertainment/black-friday-football-prime-video-nba-golf",
     "pageDate": "Oct. 13, 2026",
     "publishedAt": "2026-10-13T00:00:00.000Z",
     "detectedAt": "2026-10-13T16:28:26.760Z",
