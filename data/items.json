@@ -1,25 +1,142 @@
 [
   {
-    "guid": "f043e304a47a910c324bb3d6",
-    "source": "Pattern QZ",
-    "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
-    "sourceLabel": "Pattern QZ",
+    "guid": "d279d9db58f6a046c564520d",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
     "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "WordPress: Sticky Header für Theme Purple",
+    "link": "https://demoshops.de/wordpress-sticky-header/",
+    "pageDate": "Wed, 21 Oct 2026 21:37:54 +0000",
+    "publishedAt": "2026-10-21T21:37:54.000Z",
+    "detectedAt": "2026-10-21T23:20:01.704Z",
+    "deliveredAt": "2026-10-21T23:20:01.704Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4040e1352921e04935caab45",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "KI-Spam in Kommentaren und Rezensionen erkennen",
+    "link": "https://demoshops.de/ki-spam-in-kommentaren-und-rezensionen-erkennen/",
+    "pageDate": "Wed, 21 Oct 2026 22:54:59 +0000",
+    "publishedAt": "2026-10-21T22:54:59.000Z",
+    "detectedAt": "2026-10-21T23:20:01.704Z",
+    "deliveredAt": "2026-10-21T23:20:01.704Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9a940f3c64f0d409596942af",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Reifenwechsel auf den letzten Drücker: Viele wünschen sich Reifenkauf und Montage aus einer Hand",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-deutschland-und-der-1-fc-union-berlin-gehen-in-die-verlaengerung-premiere-fuer-ebay-live-auf-der-ifa/",
+    "pageDate": "20.10.2026",
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "detectedAt": "2026-10-21T23:20:01.689Z",
+    "deliveredAt": "2026-10-21T23:20:01.689Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "2024d150c2f09d0dbec423e9",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Musik Mohr Insolvenz: 6 Filialen, 0 Marktplätze, 1 Shop",
+    "link": "https://wortfilter.de/musik-mohr-insolvenz/",
+    "pageDate": "Wed, 21 Oct 2026 22:36:30 +0000",
+    "publishedAt": "2026-10-21T22:36:30.000Z",
+    "detectedAt": "2026-10-21T23:20:01.626Z",
+    "deliveredAt": "2026-10-21T23:20:01.626Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "991cc5ded05fe0b1fdba3165",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126558",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-21T23:20:01.615Z",
+    "deliveredAt": "2026-10-21T23:20:01.615Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Verbraucherzentrale RLP Presse"
+    ]
+  },
+  {
+    "guid": "9c70072fdc60cefcc60c6970",
+    "source": "Pattern Newsroom",
+    "sourceKey": "src-fd172f245374fd81",
+    "sourceLabel": "Pattern",
+    "groups": [
+      "Firmen",
       "Quartalszahlen"
     ],
     "tags": [
+      "E-Commerce",
+      "KI",
+      "Unternehmensstrategie",
       "Events"
     ],
     "priority": 2,
     "title": "Pattern Recognized as a 2026 Inc. Power Partner Award Winner for the Fifth Consecutive Year",
-    "link": "https://investors.pattern.com/news-releases/news-release-details/pattern-recognized-2026-inc-power-partner-award-winner-fifth",
+    "link": "https://www.pattern.com/news/pattern-recognized-as-a-2026-inc-power-partner-award-winner-for-the-fifth-consecutive-year",
     "pageDate": null,
     "publishedAt": null,
-    "detectedAt": "2026-10-21T20:11:16.121Z",
-    "deliveredAt": "2026-10-21T20:11:16.121Z",
+    "detectedAt": "2026-10-21T23:20:01.600Z",
+    "deliveredAt": "2026-10-21T23:20:01.600Z",
     "recovered": false,
     "historicalBackfill": false,
-    "recoveryReason": null
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Pattern QZ"
+    ]
   },
   {
     "guid": "09dab56fc8093a3f4ffdb120",
@@ -64,27 +181,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "14ce8ecb8490308f5addb4fc",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Reifenwechsel auf den letzten Drücker: Viele wünschen sich Reifenkauf und Montage aus einer Hand",
-    "link": "https://www.ebayinc.com/stories/press-room/de/live-verkaufen-international-wachsen-die-ebay-open-2026-bringt-e-commerce-wissen-auf-die-gro%C3%9Fe-buehne/",
-    "pageDate": "20.10.2026",
-    "publishedAt": "2026-10-20T12:00:00.000Z",
-    "detectedAt": "2026-10-21T20:11:16.098Z",
-    "deliveredAt": "2026-10-21T20:11:16.098Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "79b4feba568586d0ebe3aaec",
@@ -265,32 +361,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "376ca3d566c029fcc1c4a51e",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126561",
-    "pageDate": "21.10.2026",
-    "publishedAt": "2026-10-21T12:00:00.000Z",
-    "detectedAt": "2026-10-21T20:11:16.042Z",
-    "deliveredAt": "2026-10-21T20:11:16.042Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": [
-      "Verbraucherzentrale BW Presse"
-    ]
   },
   {
     "guid": "dc1dbd9d20f0624cfdbf5a29",
@@ -11008,72 +11078,6 @@
     "priority": 2,
     "title": "Navigate to Online sales spiked by 2000% during final hours of Black Friday, while shoppers prioritized electronics and marketplace purchases",
     "link": "https://www.klarna.com/international/press/online-sales-spiked-by-2000-during-final-hours-of-black-friday-while-shoppers-prioritized-electronics-and-marketplace-purchases/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.322Z",
-    "deliveredAt": "2026-10-16T09:35:29.322Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8a3c761b31c4ee7bfbfbc347",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Verifone to enable superior shopping experiences in physical stores globally",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-verifone-to-enable-superior-shopping-experiences-in-physical-stores-globally/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.322Z",
-    "deliveredAt": "2026-10-16T09:35:29.322Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fb139fbbb195e352d31c1e6c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Makes Its Big Game Debut With “The Four Quarter-Sized Cowboys” Campaign Starring Four Singing Maya Rudolphs",
-    "link": "https://www.klarna.com/international/press/klarna-makes-its-big-game-debut-with-the-four-quarter-sized-cowboys-campaign-starring-four-singing-maya-rudolphs/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.322Z",
-    "deliveredAt": "2026-10-16T09:35:29.322Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f040460900724e6ac0e128d4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Continues Strong US Growth, Reaching Record Highs In Customers, Retail Partners, and Consumer App Downloads",
-    "link": "https://www.klarna.com/international/press/klarna-continues-strong-us-growth-reaching-record-highs-in-customers-retail-partners-and-consumer-app-downloads/",
     "pageDate": "October 15, 2026",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "detectedAt": "2026-10-16T09:35:29.322Z",
