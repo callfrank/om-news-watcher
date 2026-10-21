@@ -1,6 +1,6 @@
 [
   {
-    "guid": "14ce8ecb8490308f5addb4fc",
+    "guid": "9a940f3c64f0d409596942af",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,127 @@
     "tags": [],
     "priority": 2,
     "title": "Reifenwechsel auf den letzten Drücker: Viele wünschen sich Reifenkauf und Montage aus einer Hand",
-    "link": "https://www.ebayinc.com/stories/press-room/de/live-verkaufen-international-wachsen-die-ebay-open-2026-bringt-e-commerce-wissen-auf-die-gro%C3%9Fe-buehne/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-deutschland-und-der-1-fc-union-berlin-gehen-in-die-verlaengerung-premiere-fuer-ebay-live-auf-der-ifa/",
     "pageDate": "20.10.2026",
     "publishedAt": "2026-10-20T12:00:00.000Z",
-    "detectedAt": "2026-10-21T01:00:03.362Z",
-    "deliveredAt": "2026-10-21T01:00:03.362Z",
+    "detectedAt": "2026-10-21T06:03:06.298Z",
+    "deliveredAt": "2026-10-21T06:03:06.298Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "1f70126f876b001936aa1476",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Don’t click that link",
+    "link": "https://www.ecb.europa.eu/press/tvservices/podcast/html/index.en.html",
+    "pageDate": "20 October 2026",
+    "publishedAt": "2026-10-20T00:00:00.000Z",
+    "detectedAt": "2026-10-21T06:03:06.247Z",
+    "deliveredAt": "2026-10-21T06:03:06.247Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b47afcabf755fddb96045e20",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Liquidity lines and the euro’s global role",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+    "pageDate": "21 October 2026",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "detectedAt": "2026-10-21T06:03:06.246Z",
+    "deliveredAt": "2026-10-21T06:03:06.246Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4316eb0d5e95945f6f3f3bca",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Briefporto 2027: Höhere Preise und neue Versandgrenzen",
+    "link": "https://onlinemarktplatz.de/294474/briefporto-2027-preise-versandgrenzen/",
+    "pageDate": "Wed, 21 Oct 2026 04:00:41 +0000",
+    "publishedAt": "2026-10-21T04:00:41.000Z",
+    "detectedAt": "2026-10-21T06:03:06.235Z",
+    "deliveredAt": "2026-10-21T06:03:06.235Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7b185f62a838c51bdca88cae",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Revolut Ausfall: Google-Cloud-Störung traf Zahlungen und Kontozugriff",
+    "link": "https://onlinemarktplatz.de/294481/revolut-ausfall-2026/",
+    "pageDate": "Wed, 21 Oct 2026 05:28:29 +0000",
+    "publishedAt": "2026-10-21T05:28:29.000Z",
+    "detectedAt": "2026-10-21T06:03:06.235Z",
+    "deliveredAt": "2026-10-21T06:03:06.235Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "80c5d5ed18047892dd986323",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon KMU-Report 2026: Deutsche Händler erzielen über 20 Milliarden Euro Umsatz",
+    "link": "https://onlinemarktplatz.de/294469/amazon-kmu-report-2026/",
+    "pageDate": "Wed, 21 Oct 2026 05:29:12 +0000",
+    "publishedAt": "2026-10-21T05:29:12.000Z",
+    "detectedAt": "2026-10-21T06:03:06.234Z",
+    "deliveredAt": "2026-10-21T06:03:06.234Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "7939389b9da64692b53fa540",
@@ -10952,119 +11064,6 @@
     "publishedAt": "2026-10-15T14:48:29.000Z",
     "detectedAt": "2026-10-15T15:45:59.545Z",
     "deliveredAt": "2026-10-15T15:45:59.545Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d60490a908c17efa277f4622",
-    "source": "Forrester Press Newsroom",
-    "sourceKey": "src-b4a8f14e403e1f2f",
-    "sourceLabel": "Forrester",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Studien & Marktdaten",
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Forrester Research To Broadcast Its 2026 Third-Quarter Earnings Conference Call",
-    "link": "https://www.forrester.com/press-newsroom/forrester-research-to-broadcast-its-2026-third-quarter-earnings-conference-call/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-15T15:45:59.502Z",
-    "deliveredAt": "2026-10-15T15:45:59.502Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3d3f739df8190a2d5fa9220c",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon introduces 2 new AI products from Bee: Bee Frontier and Bee Eclipse",
-    "link": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
-    "pageDate": "Oct. 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-15T13:00:30.482Z",
-    "deliveredAt": "2026-10-15T13:00:30.482Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "22b413c805695d63c53ffd91",
-    "source": "JD Corporate News",
-    "sourceKey": "src-9261fd3fa3c1f896",
-    "sourceLabel": "JD",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Gargash Prime and JINGDONG Property Sign Joint Venture to Develop a 2.5 Mn. Sq. Ft. Land for a Dubai Logistics Facility in the UAE",
-    "link": "https://jdcorporateblog.com/gargash-prime-and-jingdong-property-sign-joint-venture-to-develop-a-2-5-mn-sq-ft-land-for-a-dubai-logistics-facility-in-the-uae/",
-    "pageDate": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-15T13:00:30.433Z",
-    "deliveredAt": "2026-10-15T13:00:30.433Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3e32f958ff170fbe776c304f",
-    "source": "DHL QZ",
-    "sourceKey": "076d444d-18a6-4ddb-bf20-41d5dc450597",
-    "sourceLabel": "DHL QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Logistik"
-    ],
-    "priority": 2,
-    "title": "Martin Ziegenbalg geht 2027 in den Ruhestand; Robert Schneider übernimmt Leitung von Investor Relations",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/martin-ziegenbalg-geht-2027-in-den-ruhestand-robert-schneider-uebernimmt-leitung-von-investor-relations.html",
-    "pageDate": "15.10.2026, 11:30 MESZ FINANCIAL NEWS",
-    "publishedAt": null,
-    "detectedAt": "2026-10-15T11:28:44.713Z",
-    "deliveredAt": "2026-10-15T11:28:44.713Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "DHL"
-    ]
-  },
-  {
-    "guid": "806704e87d7d83baa4ca4a91",
-    "source": "DM",
-    "sourceKey": "src-fd6e846f7c6683bc",
-    "sourceLabel": "DM",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Neueröffnung – Völklingen, 22. Oktober 2026",
-    "link": "https://newsroom.dm.de/pressreleases/neueroeffnung-voelklingen-22-oktober-2026-3472607",
-    "pageDate": "15.10.2026",
-    "publishedAt": "2026-10-15T12:00:00.000Z",
-    "detectedAt": "2026-10-15T11:28:44.698Z",
-    "deliveredAt": "2026-10-15T11:28:44.698Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
