@@ -1,6 +1,6 @@
 [
   {
-    "guid": "9a940f3c64f0d409596942af",
+    "guid": "14ce8ecb8490308f5addb4fc",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,568 @@
     "tags": [],
     "priority": 2,
     "title": "Reifenwechsel auf den letzten Drücker: Viele wünschen sich Reifenkauf und Montage aus einer Hand",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-deutschland-und-der-1-fc-union-berlin-gehen-in-die-verlaengerung-premiere-fuer-ebay-live-auf-der-ifa/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/live-verkaufen-international-wachsen-die-ebay-open-2026-bringt-e-commerce-wissen-auf-die-gro%C3%9Fe-buehne/",
     "pageDate": "20.10.2026",
     "publishedAt": "2026-10-20T12:00:00.000Z",
-    "detectedAt": "2026-10-21T06:03:06.298Z",
-    "deliveredAt": "2026-10-21T06:03:06.298Z",
+    "detectedAt": "2026-10-21T11:48:58.099Z",
+    "deliveredAt": "2026-10-21T11:48:58.099Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "7110a373cb002af607fd49de",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch 'The Terminal List' Season 2 starring Chris Pratt, streaming now on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/terminal-list-prime-video-chris-pratt",
+    "pageDate": "Oct. 21, 2026",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "detectedAt": "2026-10-21T11:48:58.091Z",
+    "deliveredAt": "2026-10-21T11:48:58.091Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "21d4c87fd410aff975eaaac7",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Announces 2026 Western Europe NIQ BASES Breakthrough Innovation Award Winners",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-announces-2026-western-europe-niq-bases-breakthrough-innovation-award-winners/",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-21T11:48:58.086Z",
+    "deliveredAt": "2026-10-21T11:48:58.086Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2dd8ab86a4decf1b2749e3f5",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Vom reaktiven zum präventiven Retourenmanagement",
+    "link": "https://digitalzentrumhandel.de/author/sergey-bezborodov/",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-21T11:48:58.081Z",
+    "deliveredAt": "2026-10-21T11:48:58.081Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0598b008ef0daa28191cfcf6",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Übernahme einer Mehrheitsbeteiligung an der Zeitungsgruppe Ostfriesland durch die Neue Osnabrücker Zeitung genehmigt",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/10_21_2026_NOZ_ZG_Ostfriesland.html?nn=52004",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-21T11:48:58.073Z",
+    "deliveredAt": "2026-10-21T11:48:58.073Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "64365c05a2d66010ca3e96e9",
+    "source": "Wettbewerbszentrale",
+    "sourceKey": "src-24a9968f52923b9b",
+    "sourceLabel": "Wettbewerbszentrale",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Events",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Irreführende Werbung eines Hörakustikers mit einer Spitzenposition",
+    "link": "https://www.wettbewerbszentrale.de/irrefuehrende-werbung-eines-hoerakustikers-mit-einer-spitzenposition/",
+    "pageDate": "Wed, 21 Oct 2026 07:02:41 +0000",
+    "publishedAt": "2026-10-21T07:02:41.000Z",
+    "detectedAt": "2026-10-21T11:48:58.072Z",
+    "deliveredAt": "2026-10-21T11:48:58.072Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e97d24f3dc660eb6136fd80f",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Resilience of the euro area economy",
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261021~1c5ec8f223.en.html",
+    "pageDate": "21 October 2026",
+    "publishedAt": "2026-10-21T00:00:00.000Z",
+    "detectedAt": "2026-10-21T11:48:58.059Z",
+    "deliveredAt": "2026-10-21T11:48:58.059Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "458df4b14b7f3d4081b57e93",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Bolzplatzkind Insolvenz: Shop leer, Bilanzen Jahre zu spät",
+    "link": "https://wortfilter.de/bolzplatzkind-insolvenz/",
+    "pageDate": "Wed, 21 Oct 2026 06:05:07 +0000",
+    "publishedAt": "2026-10-21T06:05:07.000Z",
+    "detectedAt": "2026-10-21T11:48:58.053Z",
+    "deliveredAt": "2026-10-21T11:48:58.053Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0b06c1aadba31410fa07d832",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Otto ChatGPT-Plugin: Frittenbude lernt Agentic Commerce",
+    "link": "https://wortfilter.de/otto-chatgpt-plugin/",
+    "pageDate": "Wed, 21 Oct 2026 06:42:18 +0000",
+    "publishedAt": "2026-10-21T06:42:18.000Z",
+    "detectedAt": "2026-10-21T11:48:58.053Z",
+    "deliveredAt": "2026-10-21T11:48:58.053Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dd143b33c03106b942752fba",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "PHP-Sicherheitslücke: Notfall-Patch um 16 Uhr für alle Shops",
+    "link": "https://wortfilter.de/php-sicherheitsluecke-notfall-patch-cve-2026-109618/",
+    "pageDate": "Wed, 21 Oct 2026 07:19:05 +0000",
+    "publishedAt": "2026-10-21T07:19:05.000Z",
+    "detectedAt": "2026-10-21T11:48:58.053Z",
+    "deliveredAt": "2026-10-21T11:48:58.053Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0e761f54731c15c1dd5beabb",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Zeitumstellung 2026: 11 % mehr Depressionen – was CEO tun",
+    "link": "https://wortfilter.de/zeitumstellung-2026-unternehmer/",
+    "pageDate": "Wed, 21 Oct 2026 07:49:36 +0000",
+    "publishedAt": "2026-10-21T07:49:36.000Z",
+    "detectedAt": "2026-10-21T11:48:58.053Z",
+    "deliveredAt": "2026-10-21T11:48:58.053Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "949fc359570dc58bd9f4ebc5",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Spotify löscht 50 Mio. KI-Slop-Tracks – Lektion für Händler",
+    "link": "https://wortfilter.de/ki-slop-spotify-lektion-haendler/",
+    "pageDate": "Wed, 21 Oct 2026 08:20:01 +0000",
+    "publishedAt": "2026-10-21T08:20:01.000Z",
+    "detectedAt": "2026-10-21T11:48:58.053Z",
+    "deliveredAt": "2026-10-21T11:48:58.053Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "92904110ae435a543499b478",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Warenkorbwert steigern: Coupons schlagen KI-Empfehlung",
+    "link": "https://wortfilter.de/warenkorbwert-steigern-coupons-schlagen-personalisierung/",
+    "pageDate": "Wed, 21 Oct 2026 09:34:32 +0000",
+    "publishedAt": "2026-10-21T09:34:32.000Z",
+    "detectedAt": "2026-10-21T11:48:58.053Z",
+    "deliveredAt": "2026-10-21T11:48:58.053Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "845cc5cab3aa08ec26bc89f3",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "eBay ändert plötzlich die Datenschutzerklärung. Das musst du jetzt wissen",
+    "link": "https://wortfilter.de/ebay-datenschutzerklaerung-november-2026/",
+    "pageDate": "Wed, 21 Oct 2026 10:20:23 +0000",
+    "publishedAt": "2026-10-21T10:20:23.000Z",
+    "detectedAt": "2026-10-21T11:48:58.053Z",
+    "deliveredAt": "2026-10-21T11:48:58.053Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dcea4103098dac454d580b11",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Vom Lieferanten zum Problemlöser: Wie sich B2B-Food neu erfindet – Jens Friedrich (Transgourmet)",
+    "link": "https://onlinemarktplatz.de/294491/vom-lieferanten-zum-problemloeser-wie-sich-b2b-food-neu-erfindet-jens-friedrich-transgourmet/",
+    "pageDate": "Wed, 21 Oct 2026 03:00:00 +0000",
+    "publishedAt": "2026-10-21T03:00:00.000Z",
+    "detectedAt": "2026-10-21T11:48:58.052Z",
+    "deliveredAt": "2026-10-21T11:48:58.052Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b1248138eb191bf5fdc9306e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Witt-Gruppe startet KI-Anprobe in der heine-App",
+    "link": "https://onlinemarktplatz.de/294069/heine-virtuelle-anprobe-ki/",
+    "pageDate": "Wed, 21 Oct 2026 06:02:54 +0000",
+    "publishedAt": "2026-10-21T06:02:54.000Z",
+    "detectedAt": "2026-10-21T11:48:58.052Z",
+    "deliveredAt": "2026-10-21T11:48:58.052Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2d44f41be2df508706f2c4f6",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Digitaler Produktpass Fristen: Welche Produktgruppen wann betroffen sind",
+    "link": "https://onlinemarktplatz.de/294244/dpp-fristen-produktgruppen/",
+    "pageDate": "Wed, 21 Oct 2026 06:31:06 +0000",
+    "publishedAt": "2026-10-21T06:31:06.000Z",
+    "detectedAt": "2026-10-21T11:48:58.051Z",
+    "deliveredAt": "2026-10-21T11:48:58.051Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "68b78bbdfd3789f6bdd6811e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Shopify App Store: Späte Apps wachsen oft schneller – viele verlieren früh Nutzer",
+    "link": "https://onlinemarktplatz.de/294242/shopify-app-store-wachstum-ausfaelle/",
+    "pageDate": "Wed, 21 Oct 2026 07:02:46 +0000",
+    "publishedAt": "2026-10-21T07:02:46.000Z",
+    "detectedAt": "2026-10-21T11:48:58.051Z",
+    "deliveredAt": "2026-10-21T11:48:58.051Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f914762e22003e96efbf05de",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Genug Betrug: Schutz vor Phishing, Quishing und Identitätsdiebstahl",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/genug-betrug-schutz-vor-phishing-quishing-und-identitaetsdiebstahl-126556",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-21T11:48:58.047Z",
+    "deliveredAt": "2026-10-21T11:48:58.047Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "376ca3d566c029fcc1c4a51e",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126561",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-21T11:48:58.047Z",
+    "deliveredAt": "2026-10-21T11:48:58.047Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Verbraucherzentrale Hamburg Presse",
+      "Verbraucherzentrale BW Presse"
+    ]
+  },
+  {
+    "guid": "0ffb208f8e7219513a17244a",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Finanzierbare Cyberabwehr für kleine Unternehmen",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/finanzierbare-cyberabwehr-fuer-kleine-unternehmen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-21T11:48:58.041Z",
+    "deliveredAt": "2026-10-21T11:48:58.041Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bd980812535c996676771658",
+    "source": "Fressnapf Newsroom",
+    "sourceKey": "src-94258df63c219915",
+    "sourceLabel": "Fressnapf",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Fressnapf | Maxi Zoo bündelt Belgien, die Niederlande und Luxemburg in neuem BeNeLux-Cluster",
+    "link": "https://www.mynewsdesk.com/de/fressnapf-holding-se/pressreleases/fressnapf-maxi-zoo-buendelt-belgien-die-niederlande-und-luxemburg-in-neuem-benelux-cluster-3473527",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-21T11:48:58.013Z",
+    "deliveredAt": "2026-10-21T11:48:58.013Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a3a95a887a5a02966213840f",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Forrester’s 2027 B2B Go-To-Market Predictions: AI Agents Will Influence 75% Of B2B Purchase Decisions",
+    "link": "https://www.forrester.com/press-newsroom/forresters-2027-b2b-go-to-market-predictions-ai-agents-will-influence-75-of-b2b-purchase-decisions/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-21T11:48:58.011Z",
+    "deliveredAt": "2026-10-21T11:48:58.011Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fa4a3fc8a9f7ed65b157a5e6",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Forrester’s 2027 B2C Marketing, CX, And Digital Predictions: Rising AI Costs Will Force B2C Leaders To Scale Back A Third Of AI Initiatives",
+    "link": "https://www.forrester.com/press-newsroom/forresters-2027-b2c-marketing-cx-and-digital-predictions-rising-ai-costs-will-force-b2c-leaders-to-scale-back-a-third-of-ai-initiatives/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-21T11:48:58.011Z",
+    "deliveredAt": "2026-10-21T11:48:58.011Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1d5c20c0334cefba377ac3e7",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Forrester’s 2027 Technology And Security Predictions: AI Will Account For 20% Of All Business Technology Spend",
+    "link": "https://www.forrester.com/press-newsroom/forresters-2027-technology-and-security-predictions-ai-will-account-for-20-of-all-business-technology-spend/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-21T11:48:58.010Z",
+    "deliveredAt": "2026-10-21T11:48:58.010Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "1f70126f876b001936aa1476",
@@ -10524,548 +11077,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d94bc41f149d1119a0880f12",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna CEO Sebastian Siemiatkowski acquires 692,506 shares for $10 million",
-    "link": "https://www.klarna.com/international/press/klarna-ceo-sebastian-siemiatkowski-acquires-692-506-shares-for-10-million/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.321Z",
-    "deliveredAt": "2026-10-16T09:35:29.321Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cf27afb513a0a0ed480e54d4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Rare Carat team up to bring flexible payments to engagement ring shopping",
-    "link": "https://www.klarna.com/international/press/klarna-and-rare-carat-team-up-to-bring-flexible-payments-to-engagement-ring-shopping/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.321Z",
-    "deliveredAt": "2026-10-16T09:35:29.321Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9ef1baeb8b3cc5b949daa138",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands partnership with global resale platform StockX to bring flexible payment options to U.S. and Canada",
-    "link": "https://www.klarna.com/international/press/klarna-expands-partnership-with-online-retail-marketplace-stockx-to-bring-flexible-payment-options-to-u-s-and-canada/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.321Z",
-    "deliveredAt": "2026-10-16T09:35:29.321Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a96f706f91f5862450d56705",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna is now available in HubSpot's new Checkout experience for merchants in the U.S. and Canada",
-    "link": "https://www.klarna.com/international/press/klarna-is-now-available-in-hubspots-new-checkout-experience-for-merchants-in-the-u-s-and-canada/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.321Z",
-    "deliveredAt": "2026-10-16T09:35:29.321Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4551c48892977ac5d09532a4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands Nordics anti-fraud toolkit with new live call verification tool",
-    "link": "https://www.klarna.com/international/press/klarna-expands-nordics-anti-fraud-toolkit-with-new-live-call-verification-tool/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.321Z",
-    "deliveredAt": "2026-10-16T09:35:29.321Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5b5bece8d0113d8f62fb32e0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to TAP and Klarna's partnership takes off: flexible payments now available in the US, Spain, France and Italy",
-    "link": "https://www.klarna.com/international/press/tap-and-klarnas-partnership-takes-off-flexible-payments-now-available-in-the-us-spain-france-and-italy/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.320Z",
-    "deliveredAt": "2026-10-16T09:35:29.320Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f3741643233c3dd26efb9507",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "PRImage 1200x675 Dark LogoOnly M&S",
-    "link": "https://www.klarna.com/international/press/klarna-launches-on-ms-com-to-bring-flexible-payments-to-fashion-home-beauty-customers/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.320Z",
-    "deliveredAt": "2026-10-16T09:35:29.320Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d84287f720a7bae4560e5064",
-    "source": "BSI",
-    "sourceKey": "src-64a086442adaeeab",
-    "sourceLabel": "BSI",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Meldung:, 16.10.2026 Cybersicherheit in der Verwaltung: Jetzt für den InfoSec Impact Award 2027 bewerben Auf der Smart Country Convention zeigten BMDS und BSI, wie sichere Digitalisierung in der öffentlichen Verwaltung gelingt. Praxistaugliche Lösungen prämiert der InfoSec Impact Award - Einreichungen für 2027 sind ab sofort möglich.",
-    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/InfoSec-Impact-Award_SCCON_261016.html",
-    "pageDate": "16.10.2026",
-    "publishedAt": "2026-10-16T12:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.303Z",
-    "deliveredAt": "2026-10-16T09:35:29.303Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1600ad9bfb5d1b96b1e8785c",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "momox Taschensorter: 250.000 Unikate täglich automatisiert",
-    "link": "https://wortfilter.de/momox-taschensorter-leipzig/",
-    "pageDate": "Fri, 16 Oct 2026 06:27:25 +0000",
-    "publishedAt": "2026-10-16T06:27:25.000Z",
-    "detectedAt": "2026-10-16T09:35:29.301Z",
-    "deliveredAt": "2026-10-16T09:35:29.301Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4d6c541125357695bfd830b6",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Amazon Investitionen Deutschland: 100 Mrd. Euro, 3.000 Jobs",
-    "link": "https://wortfilter.de/amazon-investitionen-deutschland-100-milliarden/",
-    "pageDate": "Fri, 16 Oct 2026 07:34:32 +0000",
-    "publishedAt": "2026-10-16T07:34:32.000Z",
-    "detectedAt": "2026-10-16T09:35:29.301Z",
-    "deliveredAt": "2026-10-16T09:35:29.301Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0c4d17d979cec73a3f944147",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Google Warenkorb startet – Europa fehlt aber. Mist.",
-    "link": "https://wortfilter.de/google-universal-cart-usa-eu/",
-    "pageDate": "Fri, 16 Oct 2026 07:55:07 +0000",
-    "publishedAt": "2026-10-16T07:55:07.000Z",
-    "detectedAt": "2026-10-16T09:35:29.301Z",
-    "deliveredAt": "2026-10-16T09:35:29.301Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a7379b8abb3d40301ad411f9",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Startup-Verband fordert Reformen: Was längst läuft und was fehlt",
-    "link": "https://onlinemarktplatz.de/294294/reformen-fuer-startups/",
-    "pageDate": "Fri, 16 Oct 2026 05:55:23 +0000",
-    "publishedAt": "2026-10-16T05:55:23.000Z",
-    "detectedAt": "2026-10-16T09:35:29.300Z",
-    "deliveredAt": "2026-10-16T09:35:29.300Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ea8951c798eae1e241f55c55",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Google Ads gibt Werbekunden neue Budgetregeln",
-    "link": "https://onlinemarktplatz.de/294306/google-ads-kanalpriorisierung/",
-    "pageDate": "Fri, 16 Oct 2026 06:31:30 +0000",
-    "publishedAt": "2026-10-16T06:31:30.000Z",
-    "detectedAt": "2026-10-16T09:35:29.300Z",
-    "deliveredAt": "2026-10-16T09:35:29.300Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c4298a3c8063c6b635d9ecb0",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Virale Produkttrends: Warum 3.000 Prozent noch keine Marktlücke bedeuten",
-    "link": "https://onlinemarktplatz.de/294245/virale-produkttrends-check/",
-    "pageDate": "Fri, 16 Oct 2026 07:01:43 +0000",
-    "publishedAt": "2026-10-16T07:01:43.000Z",
-    "detectedAt": "2026-10-16T09:35:29.300Z",
-    "deliveredAt": "2026-10-16T09:35:29.300Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "44c97206a85e7e38ee1e8fcd",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "easyShop Deutschland startet mit bis zu 20 Prozent Verkaufsgebühr",
-    "link": "https://onlinemarktplatz.de/294422/easyshop-deutschland-start/",
-    "pageDate": "Fri, 16 Oct 2026 07:39:37 +0000",
-    "publishedAt": "2026-10-16T07:39:37.000Z",
-    "detectedAt": "2026-10-16T09:35:29.300Z",
-    "deliveredAt": "2026-10-16T09:35:29.300Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f12975ae6bba2bca39bd0498",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon will share its Q3 2026 earnings on October 29",
-    "link": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
-    "pageDate": "Oct. 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-15T22:42:43.477Z",
-    "deliveredAt": "2026-10-15T22:42:43.477Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "524747ba3f4e47e1672d15a4",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "eBay Grundpreis-Bug: 100 ml statt Liter – erste Abmahnungen",
-    "link": "https://wortfilter.de/ebay-grundpreis-bug-abmahnung/",
-    "pageDate": "Thu, 15 Oct 2026 19:46:49 +0000",
-    "publishedAt": "2026-10-15T19:46:49.000Z",
-    "detectedAt": "2026-10-15T22:42:43.433Z",
-    "deliveredAt": "2026-10-15T22:42:43.433Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "cc55c35e6b6187ee0600a900",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Webmontag Frankfurt 19. Oktober: Wie bekomme ich Wero in meinen E-Shop?",
-    "link": "https://demoshops.de/webmontag-frankfurt-19-oktober-wie-kommt-wero-in-meinen-e-shop/",
-    "pageDate": "Thu, 15 Oct 2026 15:54:35 +0000",
-    "publishedAt": "2026-10-15T15:54:35.000Z",
-    "detectedAt": "2026-10-15T19:25:34.617Z",
-    "deliveredAt": "2026-10-15T19:25:34.617Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "30bb41ecefe740fc7af55523",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Jürgen Klopp: 3 Abgänge, 1 Muster – was Unternehmer lernen",
-    "link": "https://wortfilter.de/juergen-klopp/",
-    "pageDate": "Thu, 15 Oct 2026 17:40:35 +0000",
-    "publishedAt": "2026-10-15T17:40:35.000Z",
-    "detectedAt": "2026-10-15T19:25:34.580Z",
-    "deliveredAt": "2026-10-15T19:25:34.580Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b28a8c5dc775696ccc1d551f",
-    "source": "Action",
-    "sourceKey": "src-89cea149987a2a2d",
-    "sourceLabel": "Action",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Johan Cruyff Foundation and Action open first Cruyff Court in Germany",
-    "link": "https://company.action.com/pressreleases/johan-cruyff-foundation-and-action-open-first-cruyff-court-in-germany/",
-    "pageDate": "15 October 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-15T15:45:59.606Z",
-    "deliveredAt": "2026-10-15T15:45:59.606Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "de6d52154b51554c6609cf2a",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Walmart’s 13th Annual Open Call",
-    "link": "https://corporate.walmart.com/news/2026/10/Walmarts-13th-Annual-Open-Call",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-15T15:45:59.600Z",
-    "deliveredAt": "2026-10-15T15:45:59.600Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "779001b63f2707651e3b5f8d",
-    "source": "BEVH",
-    "sourceKey": "src-0a9ea9df2176887f",
-    "sourceLabel": "BEVH",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "KI-Steuer würde Fortschritt und Produktivität verteuern",
-    "link": "https://bevh.org/detail/ki-steuer-wuerde-fortschritt-und-produktivitaet-besteuern",
-    "pageDate": "15.10.2026",
-    "publishedAt": "2026-10-15T12:00:00.000Z",
-    "detectedAt": "2026-10-15T15:45:59.548Z",
-    "deliveredAt": "2026-10-15T15:45:59.548Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9627193d329f27f3409a5bb8",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Bundestag macht Weg für EUDI-Wallet frei – HDE betont Bedeutung des Handels",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15389-bundestag-macht-weg-fuer-eudi-wallet-frei-hde-betont-bedeutung-des-handels",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-15T15:45:59.546Z",
-    "deliveredAt": "2026-10-15T15:45:59.546Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b3fe2d02d8f083754b24a34a",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Mindestlohn 2027: 14,60 € – Minijob-Falle für Onlinehändler",
-    "link": "https://wortfilter.de/mindestlohn-2027-minijob-onlinehaendler/",
-    "pageDate": "Thu, 15 Oct 2026 14:48:29 +0000",
-    "publishedAt": "2026-10-15T14:48:29.000Z",
-    "detectedAt": "2026-10-15T15:45:59.545Z",
-    "deliveredAt": "2026-10-15T15:45:59.545Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
