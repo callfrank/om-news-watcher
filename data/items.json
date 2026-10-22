@@ -1,5 +1,53 @@
 [
   {
+    "guid": "70e986a187663f4adc056bf5",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the new trailer for 'I Play Rocky,' the true story behind ‘Rocky,’ coming to theaters November 6, 2026",
+    "link": "https://www.aboutamazon.com/news/entertainment/i-play-rocky-trailer-cast-release-date-amazon-mgm-studios",
+    "pageDate": "Oct. 22, 2026",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "detectedAt": "2026-10-22T21:36:15.667Z",
+    "deliveredAt": "2026-10-22T21:36:15.667Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "376ca3d566c029fcc1c4a51e",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126561",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-22T21:36:15.622Z",
+    "deliveredAt": "2026-10-22T21:36:15.622Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Verbraucherzentrale BW Presse"
+    ]
+  },
+  {
     "guid": "82f427830e07b8bec1c19461",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -285,32 +333,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "991cc5ded05fe0b1fdba3165",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126558",
-    "pageDate": "21.10.2026",
-    "publishedAt": "2026-10-21T12:00:00.000Z",
-    "detectedAt": "2026-10-22T18:00:03.425Z",
-    "deliveredAt": "2026-10-22T18:00:03.425Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": [
-      "Verbraucherzentrale RLP Presse"
-    ]
   },
   {
     "guid": "cdf20be38ad3dbbb44da7c3e",
@@ -11041,28 +11063,6 @@
     "priority": 2,
     "title": "Navigate to INDOCHINO CHOOSES KLARNA TO GIVE CONSUMERS THE POWER TO PAY OVER TIME",
     "link": "https://www.klarna.com/international/press/indochino-chooses-klarna-to-give-consumers-the-power-to-pay-over-time/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9f9c379eb3454446ed88177a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Shopify further strengthen global partnership",
-    "link": "https://www.klarna.com/international/press/klarna-and-shopify-further-strengthen-global-partnership/",
     "pageDate": "October 19, 2026",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "detectedAt": "2026-10-20T10:27:07.483Z",
