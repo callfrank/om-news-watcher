@@ -1,5 +1,318 @@
 [
   {
+    "guid": "82f427830e07b8bec1c19461",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "'Carrie' renewed for Season 2: Everything to know and how to watch Season 1 on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/carrie-stephen-king-mike-flanagan-prime-video",
+    "pageDate": "Oct. 22, 2026",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "detectedAt": "2026-10-22T18:00:03.479Z",
+    "deliveredAt": "2026-10-22T18:00:03.479Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f9b3925003a2fe69003020e9",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "What is Kids+? Here’s everything you need to know about the digital subscription service",
+    "link": "https://www.aboutamazon.com/news/devices/what-is-amazon-kids-plus-subscription",
+    "pageDate": "Oct. 22, 2026",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "detectedAt": "2026-10-22T18:00:03.479Z",
+    "deliveredAt": "2026-10-22T18:00:03.479Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4a9263e451bf75c6a0fbc071",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "9 page-turners to discover with Kindle+ right now",
+    "link": "https://www.aboutamazon.com/news/books-and-authors/the-best-new-books-available-on-kindle-plus",
+    "pageDate": "Oct. 22, 2026",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "detectedAt": "2026-10-22T18:00:03.479Z",
+    "deliveredAt": "2026-10-22T18:00:03.479Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "23f8920e2a5d8e4d12524773",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to buy and borrow Kindle books",
+    "link": "https://www.aboutamazon.com/news/devices/how-to-buy-kindle-books",
+    "pageDate": "Oct. 22, 2026",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "detectedAt": "2026-10-22T18:00:03.479Z",
+    "deliveredAt": "2026-10-22T18:00:03.479Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "09e011421d028a02afcc16b8",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon's Kindle+ subscription: Your questions, answered",
+    "link": "https://www.aboutamazon.com/news/devices/what-is-kindle-plus",
+    "pageDate": "Oct. 22, 2026",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "detectedAt": "2026-10-22T18:00:03.479Z",
+    "deliveredAt": "2026-10-22T18:00:03.479Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1a64c457dd0965615ac6de60",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Everything you need to know about Amazon Nova",
+    "link": "https://www.aboutamazon.com/news/aws/amazon-nova-foundation-models-guide",
+    "pageDate": "Oct. 22, 2026",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "detectedAt": "2026-10-22T18:00:03.479Z",
+    "deliveredAt": "2026-10-22T18:00:03.479Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ec97bcc045936dd351ddc40f",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Expands ConnectAI Charter Program with Mars Snacking",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-expands-connectai-charter-program-with-mars-snacking/",
+    "pageDate": "22.10.2026",
+    "publishedAt": "2026-10-22T12:00:00.000Z",
+    "detectedAt": "2026-10-22T18:00:03.473Z",
+    "deliveredAt": "2026-10-22T18:00:03.473Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2da52f293804f4eafedb5f6e",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EU wants to simplify waste legislation for SMEs",
+    "link": "https://ecommercenews.eu/eu-wants-to-simplify-waste-legislation-for-smes/",
+    "pageDate": "Thu, 22 Oct 2026 14:37:32 +0000",
+    "publishedAt": "2026-10-22T14:37:32.000Z",
+    "detectedAt": "2026-10-22T18:00:03.461Z",
+    "deliveredAt": "2026-10-22T18:00:03.461Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "effdc7222b9bfccfa26d83a8",
+    "source": "Klarna QZ",
+    "sourceKey": "src-ee7514d4657deb9e",
+    "sourceLabel": "Klarna QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Payment",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Q3 2026 Klarna earnings call",
+    "link": "https://investors.klarna.com/News--Events/events-and-presentations/event-details/2026/Q3-2026-Klarna-earnings-call-2026-h5tm_gCdoi/default.aspx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-22T18:00:03.456Z",
+    "deliveredAt": "2026-10-22T18:00:03.456Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c48c1a6d1aa43cdb8b3cfa6b",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Last call for merchants for digital euro pilot",
+    "link": "https://www.ecb.europa.eu/euro/digital_euro/timeline/profuse/html/index.en.html?skey=call+expression+interest+pilot+merchants",
+    "pageDate": "22 October 2026",
+    "publishedAt": "2026-10-22T00:00:00.000Z",
+    "detectedAt": "2026-10-22T18:00:03.443Z",
+    "deliveredAt": "2026-10-22T18:00:03.443Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d8fda9ce4f43db957a79a6f0",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "China schickt Alibaba und JD Aktienkurs in den Keller",
+    "link": "https://wortfilter.de/alibaba-jd-aktienkurs-china/",
+    "pageDate": "Thu, 22 Oct 2026 15:14:49 +0000",
+    "publishedAt": "2026-10-22T15:14:49.000Z",
+    "detectedAt": "2026-10-22T18:00:03.436Z",
+    "deliveredAt": "2026-10-22T18:00:03.436Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3f8d4dcb2f3d147c3cb1d3ef",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Koordinierte Weltzeit ab 2027: Die Schaltsekunde geht",
+    "link": "https://wortfilter.de/koordinierte-weltzeit-ab-2027/",
+    "pageDate": "Thu, 22 Oct 2026 15:21:04 +0000",
+    "publishedAt": "2026-10-22T15:21:04.000Z",
+    "detectedAt": "2026-10-22T18:00:03.436Z",
+    "deliveredAt": "2026-10-22T18:00:03.436Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0f38bc80f1de597f94ef1f54",
+    "source": "Etsy",
+    "sourceKey": "src-dbea0c1ac563772a",
+    "sourceLabel": "Etsy",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Etsy Reveals the F/W Trends Rewriting Holiday Traditions with First-Ever Guest Trend Editor Mandy Lee",
+    "link": "https://www.etsy.com/de/news/etsy-reveals-the-fw-trends-rewriting-holiday-traditions-with-first-ever-guest-trend-editor-mandy-lee",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-22T18:00:03.434Z",
+    "deliveredAt": "2026-10-22T18:00:03.434Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "991cc5ded05fe0b1fdba3165",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126558",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-22T18:00:03.425Z",
+    "deliveredAt": "2026-10-22T18:00:03.425Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Verbraucherzentrale RLP Presse"
+    ]
+  },
+  {
     "guid": "cdf20be38ad3dbbb44da7c3e",
     "source": "Nielseniq",
     "sourceKey": "src-3b4d077cfd190cbb",
@@ -1544,32 +1857,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "376ca3d566c029fcc1c4a51e",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126561",
-    "pageDate": "21.10.2026",
-    "publishedAt": "2026-10-21T12:00:00.000Z",
-    "detectedAt": "2026-10-22T13:14:02.951Z",
-    "deliveredAt": "2026-10-22T13:14:02.951Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": [
-      "Verbraucherzentrale BW Presse"
-    ]
   },
   {
     "guid": "38db5c0b7fea48753836dc42",
@@ -10776,292 +11063,6 @@
     "priority": 2,
     "title": "Navigate to Klarna and Shopify further strengthen global partnership",
     "link": "https://www.klarna.com/international/press/klarna-and-shopify-further-strengthen-global-partnership/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "54bbc122b52556eac6d6b8f9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches ‘Boost’ to supercharge SME growth",
-    "link": "https://www.klarna.com/international/press/klarna-launches-boost-to-supercharge-sme-growth/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3a43ba1a8bc6e40b9090eb2f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes interim financial statements for January – September 2018.",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-interim-financial-statements-for-january-september-2018/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "779f07bc726636d1906e4b81",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Fintech Disruptor 2019: Digital relevance, open architectures, automation, and data – the new frontline in the battle for the customer",
-    "link": "https://www.klarna.com/international/press/fintech-disruptor-2019-digital-relevance-open-architectures-automation-and-data-the-new-frontline-in-the-battle-for-the-cutomer/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "04a46a3da99a5b35655f10a4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna joins Shopify Plus Partner Program to power high-growth merchants",
-    "link": "https://www.klarna.com/international/press/klarna-joins-shopify-plus-partner-program-to-power-high-growth-merchants/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f4de52e6bc6179e1128ce73f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna appoints Wilko Klaassen as new General Manager for Belgium and the Netherlands",
-    "link": "https://www.klarna.com/international/press/klarna-appoints-wilko-klaassen-as-new-general-manager-for-belgium-and-the-netherlands/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "19b7b9de63b24f2d665ac21f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to US: Financial limitations are the top cause of holiday shopping stress say consumers",
-    "link": "https://www.klarna.com/international/press/us-financial-limitations-are-the-top-cause-of-holiday-shopping-stress-say-consumers/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4153c55e67081c85ff042060",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Apple Pay Coming to Klarna’s users",
-    "link": "https://www.klarna.com/international/press/apple-pay-coming-to-klarnas-users/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f32c6097fcfda7d4867bd2b0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna links up with Daniel Wellington to allow shoppers to slice their purchase and pay over time",
-    "link": "https://www.klarna.com/international/press/klarna-links-up-with-daniel-wellington-to-allow-shoppers-to-slice-their-purchase-and-pay-over-time/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "db92617a2da42bdc3f56e93a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Snoop Dogg becomes a shareholder in Klarna and transforms into Smoooth Dogg",
-    "link": "https://www.klarna.com/international/press/snoop-dogg-becomes-a-shareholder-in-klarna-and-transforms-into-smoooth-dogg/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "eb6c2af93c1f60d106c5e4a0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Making Gains? Klarna’s Pay later service now available to Gymshark customers in the UK & Nordics",
-    "link": "https://www.klarna.com/international/press/making-gains-klarnas-pay-later-service-now-available-to-gymshark-customers-in-the-uk-nordics/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "385b7ea0f9fd62b3b6339586",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to CFDA/VOGUE FASHION FUND ANNOUNCES MARCH 2019 AMERICANS IN PARIS DESIGNERS",
-    "link": "https://www.klarna.com/international/press/cfdavogue-fashion-fund-announces-march-2019-americans-in-paris-designers/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8134ffe9c8d4187a2bd89216",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna year-end report January - December 2018.",
-    "link": "https://www.klarna.com/international/press/klarna-year-end-report-january-december-2018/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "21318e1e2b3adf03649bf7c5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Smoooth Dogg and Klarna release unique collection",
-    "link": "https://www.klarna.com/international/press/smoooth-dogg-and-klarna-release-unique-collection/",
     "pageDate": "October 19, 2026",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "detectedAt": "2026-10-20T10:27:07.483Z",
