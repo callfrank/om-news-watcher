@@ -1,5 +1,76 @@
 [
   {
+    "guid": "14ce8ecb8490308f5addb4fc",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Reifenwechsel auf den letzten Drücker: Viele wünschen sich Reifenkauf und Montage aus einer Hand",
+    "link": "https://www.ebayinc.com/stories/press-room/de/live-verkaufen-international-wachsen-die-ebay-open-2026-bringt-e-commerce-wissen-auf-die-gro%C3%9Fe-buehne/",
+    "pageDate": "20.10.2026",
+    "publishedAt": "2026-10-20T12:00:00.000Z",
+    "detectedAt": "2026-10-22T01:54:00.810Z",
+    "deliveredAt": "2026-10-22T01:54:00.810Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "376ca3d566c029fcc1c4a51e",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126561",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-22T01:54:00.755Z",
+    "deliveredAt": "2026-10-22T01:54:00.755Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Verbraucherzentrale BW Presse"
+    ]
+  },
+  {
+    "guid": "800e12082d0c0efec5b3abe5",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Forrester’s 2027 Asia Pacific Predictions: One In Three Large Enterprises Will Face A Shadow AI Agent Governance Problem",
+    "link": "https://www.forrester.com/press-newsroom/forrester-2027-asia-pacific-predictions/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-22T01:54:00.714Z",
+    "deliveredAt": "2026-10-22T01:54:00.714Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d279d9db58f6a046c564520d",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -40,27 +111,6 @@
     "recoveryReason": null
   },
   {
-    "guid": "9a940f3c64f0d409596942af",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Reifenwechsel auf den letzten Drücker: Viele wünschen sich Reifenkauf und Montage aus einer Hand",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-deutschland-und-der-1-fc-union-berlin-gehen-in-die-verlaengerung-premiere-fuer-ebay-live-auf-der-ifa/",
-    "pageDate": "20.10.2026",
-    "publishedAt": "2026-10-20T12:00:00.000Z",
-    "detectedAt": "2026-10-21T23:20:01.689Z",
-    "deliveredAt": "2026-10-21T23:20:01.689Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
-  },
-  {
     "guid": "2024d150c2f09d0dbec423e9",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -84,45 +134,17 @@
     "recoveryReason": null
   },
   {
-    "guid": "991cc5ded05fe0b1fdba3165",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126558",
-    "pageDate": "21.10.2026",
-    "publishedAt": "2026-10-21T12:00:00.000Z",
-    "detectedAt": "2026-10-21T23:20:01.615Z",
-    "deliveredAt": "2026-10-21T23:20:01.615Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": [
-      "Verbraucherzentrale RLP Presse"
-    ]
-  },
-  {
     "guid": "9c70072fdc60cefcc60c6970",
     "source": "Pattern Newsroom",
     "sourceKey": "src-fd172f245374fd81",
     "sourceLabel": "Pattern",
     "groups": [
-      "Firmen",
-      "Quartalszahlen"
+      "Firmen"
     ],
     "tags": [
       "E-Commerce",
       "KI",
-      "Unternehmensstrategie",
-      "Events"
+      "Unternehmensstrategie"
     ],
     "priority": 2,
     "title": "Pattern Recognized as a 2026 Inc. Power Partner Award Winner for the Fifth Consecutive Year",
@@ -11056,28 +11078,6 @@
     "priority": 2,
     "title": "Navigate to Klarna appoints Michael Moritz as Chairman of the Klarna Board and welcomes three new global leaders to the Board",
     "link": "https://www.klarna.com/international/press/klarna-appoints-michael-moritz-as-chairman-of-the-klarna-board-and-welcomes-three-new-global-leaders-to-the-board/",
-    "pageDate": "October 15, 2026",
-    "publishedAt": "2026-10-15T00:00:00.000Z",
-    "detectedAt": "2026-10-16T09:35:29.322Z",
-    "deliveredAt": "2026-10-16T09:35:29.322Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8a8e072cc8599180373c66b3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Online sales spiked by 2000% during final hours of Black Friday, while shoppers prioritized electronics and marketplace purchases",
-    "link": "https://www.klarna.com/international/press/online-sales-spiked-by-2000-during-final-hours-of-black-friday-while-shoppers-prioritized-electronics-and-marketplace-purchases/",
     "pageDate": "October 15, 2026",
     "publishedAt": "2026-10-15T00:00:00.000Z",
     "detectedAt": "2026-10-16T09:35:29.322Z",
