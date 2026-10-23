@@ -1,9 +1,282 @@
 [
   {
-    "guid": "376ca3d566c029fcc1c4a51e",
+    "guid": "98e1b97350f372f35274cd83",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Temu kann Wero – schon seit August!",
+    "link": "https://demoshops.de/temu-wero-bezahlen/",
+    "pageDate": "Fri, 23 Oct 2026 08:39:15 +0000",
+    "publishedAt": "2026-10-23T08:39:15.000Z",
+    "detectedAt": "2026-10-23T10:04:20.497Z",
+    "deliveredAt": "2026-10-23T10:04:20.497Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e77dcffc87f42a2a3c23c0d2",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Consumer Confidence plunges 11 points to -24 in October",
+    "link": "https://nielseniq.com/global/en/news-center/2026/consumer-confidence-plunges-11-points-to-24-in-october/",
+    "pageDate": "23.10.2026",
+    "publishedAt": "2026-10-23T12:00:00.000Z",
+    "detectedAt": "2026-10-23T10:04:20.472Z",
+    "deliveredAt": "2026-10-23T10:04:20.472Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "74e592801b3362f385e14ef6",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragseingang im Bauhauptgewerbe im August 2026: +23,0 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_375_441.html",
+    "pageDate": "Fri, 23 Oct 2026 08:00:00 +0200",
+    "publishedAt": "2026-10-23T06:00:00.000Z",
+    "detectedAt": "2026-10-23T10:04:20.462Z",
+    "deliveredAt": "2026-10-23T10:04:20.462Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "acf16561499d4ce43758cf9c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "10 beste VPN-Anbieter 2026 Mobil und Desktop",
+    "link": "https://wortfilter.de/vpn-einfach-erklaert-anbieter-nutzen-risiken/",
+    "pageDate": "Fri, 23 Oct 2026 05:49:02 +0000",
+    "publishedAt": "2026-10-23T05:49:02.000Z",
+    "detectedAt": "2026-10-23T10:04:20.441Z",
+    "deliveredAt": "2026-10-23T10:04:20.441Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "11b46ca3c34b98ef04bd6670",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Meta Muse: 200 Dollar pro Kauf – Was wissen wir?",
+    "link": "https://wortfilter.de/meta-muse-shopping-agent-europa/",
+    "pageDate": "Fri, 23 Oct 2026 06:39:37 +0000",
+    "publishedAt": "2026-10-23T06:39:37.000Z",
+    "detectedAt": "2026-10-23T10:04:20.441Z",
+    "deliveredAt": "2026-10-23T10:04:20.441Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "73367db38ee4d71962e30ff4",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Etsy KI-Regeln: Wildwest-Marktplatz versucht durchzugreifen",
+    "link": "https://wortfilter.de/etsy-ki-regeln/",
+    "pageDate": "Fri, 23 Oct 2026 08:10:17 +0000",
+    "publishedAt": "2026-10-23T08:10:17.000Z",
+    "detectedAt": "2026-10-23T10:04:20.441Z",
+    "deliveredAt": "2026-10-23T10:04:20.441Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5782c3f4bdd239e958b7d36a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Urheberrecht bei KI: Menschlicher Liedtext bleibt geschützt",
+    "link": "https://wortfilter.de/urheberrecht-ki-liedtexte-menschliches-original/",
+    "pageDate": "Fri, 23 Oct 2026 08:26:37 +0000",
+    "publishedAt": "2026-10-23T08:26:37.000Z",
+    "detectedAt": "2026-10-23T10:04:20.441Z",
+    "deliveredAt": "2026-10-23T10:04:20.441Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4b1b16f6d6da2f39373d8713",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "refurbed Marktplatz UK: Gebühren, API, Zugang für Händler",
+    "link": "https://wortfilter.de/refurbed-marktplatz-uk-haendler/",
+    "pageDate": "Fri, 23 Oct 2026 09:27:09 +0000",
+    "publishedAt": "2026-10-23T09:27:09.000Z",
+    "detectedAt": "2026-10-23T10:04:20.441Z",
+    "deliveredAt": "2026-10-23T10:04:20.441Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6ed0436d4bbd264a87c8f08e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Just Eat Lieferroboter starten bei Morrisons in Cambourne",
+    "link": "https://onlinemarktplatz.de/294355/just-eat-lieferroboter-starten/",
+    "pageDate": "Fri, 23 Oct 2026 05:55:38 +0000",
+    "publishedAt": "2026-10-23T05:55:38.000Z",
+    "detectedAt": "2026-10-23T10:04:20.439Z",
+    "deliveredAt": "2026-10-23T10:04:20.439Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ca57bcaa2f7c5d22b2cc81fc",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Creative Capital: YouTube beziffert deutschen BIP-Beitrag auf mehr als eine Milliarde Euro",
+    "link": "https://onlinemarktplatz.de/294402/youtube-creator-economy/",
+    "pageDate": "Fri, 23 Oct 2026 06:31:10 +0000",
+    "publishedAt": "2026-10-23T06:31:10.000Z",
+    "detectedAt": "2026-10-23T10:04:20.439Z",
+    "deliveredAt": "2026-10-23T10:04:20.439Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c5d754389be85fd2da8b79f8",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "eBay baut Personal ab: Umbaukosten von bis zu 150 Millionen Dollar",
+    "link": "https://onlinemarktplatz.de/294541/ebay-stellenabbau-1000-jobs-2026/",
+    "pageDate": "Fri, 23 Oct 2026 07:03:25 +0000",
+    "publishedAt": "2026-10-23T07:03:25.000Z",
+    "detectedAt": "2026-10-23T10:04:20.439Z",
+    "deliveredAt": "2026-10-23T10:04:20.439Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f96ef4cdcaaeaaf9381ce186",
     "source": "Verbraucherzentrale RLP Presse",
     "sourceKey": "src-60410208ae6b15b3",
     "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Welche Heizung passt zu mir?",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/welche-heizung-passt-zu-mir-126689",
+    "pageDate": "23.10.2026",
+    "publishedAt": "2026-10-23T12:00:00.000Z",
+    "detectedAt": "2026-10-23T10:04:20.434Z",
+    "deliveredAt": "2026-10-23T10:04:20.434Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "991cc5ded05fe0b1fdba3165",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
     "groups": [
       "Sonstiges"
     ],
@@ -13,16 +286,16 @@
     ],
     "priority": 2,
     "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126561",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126558",
     "pageDate": "21.10.2026",
     "publishedAt": "2026-10-21T12:00:00.000Z",
-    "detectedAt": "2026-10-23T04:49:24.862Z",
-    "deliveredAt": "2026-10-23T04:49:24.862Z",
+    "detectedAt": "2026-10-23T10:04:20.430Z",
+    "deliveredAt": "2026-10-23T10:04:20.430Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": [
-      "Verbraucherzentrale BW Presse"
+      "Verbraucherzentrale RLP Presse"
     ]
   },
   {
@@ -10799,270 +11072,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Honored with Magento Marketplace Innovator Award at Imagine 2018",
     "link": "https://www.klarna.com/international/press/klarna-honored-with-magento-marketplace-innovator-award-at-imagine-2018/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b71dc404e0584cc6e45894f2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes interim financial statements for January – March 2018",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-interim-financial-statements-for-january-march-2018/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "58f8d3024e2c9602d85d4fbd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens for team applications – part of large recruitment offensive",
-    "link": "https://www.klarna.com/international/press/klarna-opens-for-team-applications-part-of-large-recruitment-offensive/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f3dd6ccefb8628cd44df3a12",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Etsy cooperates with Klarna: New payment options for shops in Germany from June 2018 onwards",
-    "link": "https://www.klarna.com/international/press/etsy-cooperates-with-klarna-new-payment-options-for-shops-in-germany-from-june-2018-onwards/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "27de0e1dc676c60dc6656e40",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to FI: Klarna strengthens leadership team in Finland",
-    "link": "https://www.klarna.com/international/press/fi-klarna-strengthens-leadership-team-in-finland/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2db8f21d465c353e570dfbfe",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna strengthens leadership team in Finland",
-    "link": "https://www.klarna.com/international/press/klarna-strengthens-leadership-team-in-finland/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7e0fa9acca644eb95f0153f2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Interim financial statement release January – June 2018",
-    "link": "https://www.klarna.com/international/press/interim-financial-statement-release-january-june-2018/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a67263bf6e2ffe78a858916d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to UK: The Fragrance Shop joins forces with Klarna to bring customers pay after delivery option",
-    "link": "https://www.klarna.com/international/press/uk-the-fragrance-shop-joins-forces-with-klarna-to-bring-customers-pay-after-delivery-option/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2b3cd8f86a012d3af72f6b40",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to MYBESTBRANDS launches Universal Checkout in collaboration with payment provider Klarna",
-    "link": "https://www.klarna.com/international/press/mybestbrands-launches-universal-checkout-in-collaboration-with-payment-provider-klarna/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "70296051cb509e5b5551a19d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to OXID integrates Klarna as core payment solution",
-    "link": "https://www.klarna.com/international/press/oxid-integrates-klarna-as-core-payment-solution/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "723fa219fc77c09ec683204b",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to NO: Netthandelsgruppen selects Klarna as payments provider",
-    "link": "https://www.klarna.com/international/press/no-netthandelsgruppen-selects-klarna-as-payments-provider/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cc16f3dae5ba5fab3dcb0f64",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Mollie and Klarna partner: where simplicity meets flexibility",
-    "link": "https://www.klarna.com/international/press/mollie-and-klarna-partner-where-simplicity-meets-flexibility/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f06c777009176d3167f91a17",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to INDOCHINO CHOOSES KLARNA TO GIVE CONSUMERS THE POWER TO PAY OVER TIME",
-    "link": "https://www.klarna.com/international/press/indochino-chooses-klarna-to-give-consumers-the-power-to-pay-over-time/",
     "pageDate": "October 19, 2026",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "detectedAt": "2026-10-20T10:27:07.483Z",
