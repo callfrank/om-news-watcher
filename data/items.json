@@ -1,5 +1,142 @@
 [
   {
+    "guid": "c381fc01188ecf397b96cce9",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Zur Pressemitteilung",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/oktober/bojan-luncer-wird-neuer-vorstand-laender-bei-kaufland",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-23T15:04:48.773Z",
+    "deliveredAt": "2026-10-23T15:04:48.773Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Kaufland Newsroom"
+    ]
+  },
+  {
+    "guid": "477380c16be6a58f550fbf33",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "‘The Odyssey’ is coming to Prime Video November 17. Here's how to watch.",
+    "link": "https://www.aboutamazon.com/news/entertainment/the-odyssey-christopher-nolan-prime-video",
+    "pageDate": "Oct. 23, 2026",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "detectedAt": "2026-10-23T15:04:48.770Z",
+    "deliveredAt": "2026-10-23T15:04:48.770Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "28d6cfff9c0bad3a733e621e",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Austrians spent 16% of retail expenditure online",
+    "link": "https://ecommercenews.eu/austrians-spent-16-of-retail-expenditure-online/",
+    "pageDate": "Fri, 23 Oct 2026 10:28:50 +0000",
+    "publishedAt": "2026-10-23T10:28:50.000Z",
+    "detectedAt": "2026-10-23T15:04:48.755Z",
+    "deliveredAt": "2026-10-23T15:04:48.755Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9bdbe09adfab74c31850adeb",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: eBay Versandprozesse zwischen Tempo und Zuverlässigkeit",
+    "link": "https://onlinemarktplatz.de/294552/podcast-ebay-versandprozesse/",
+    "pageDate": "Fri, 23 Oct 2026 10:20:43 +0000",
+    "publishedAt": "2026-10-23T10:20:43.000Z",
+    "detectedAt": "2026-10-23T15:04:48.729Z",
+    "deliveredAt": "2026-10-23T15:04:48.729Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b9ff96215ea044dbae76046c",
+    "source": "Startup-Verband Presse",
+    "sourceKey": "src-515b92a6da1e3698",
+    "sourceLabel": "Startup-Verband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Statement von Christoph J. Stresing zur Einigung der Mitgliedsstaaten auf EU Inc.",
+    "link": "https://startupverband.de/presse/pressemitteilungen/statement-von-christoph-j-stresing-zur-einigung-der-mitgliedsstaaten-auf-eu-inc--23-10-2026/",
+    "pageDate": "23.10.2026",
+    "publishedAt": "2026-10-23T12:00:00.000Z",
+    "detectedAt": "2026-10-23T15:04:48.717Z",
+    "deliveredAt": "2026-10-23T15:04:48.717Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "32639f9cf16ccf68b8db123a",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eco zu PHP2Shell: Weckruf für die Software-Lieferkette im KI-Zeitalter",
+    "link": "https://www.eco.de/presse/eco-zu-php2shell-weckruf-fuer-die-software-lieferkette-im-ki-zeitalter/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-23T15:04:48.679Z",
+    "deliveredAt": "2026-10-23T15:04:48.679Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "98e1b97350f372f35274cd83",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10940,138 +11077,6 @@
     "priority": 2,
     "title": "Navigate to NL: Klarna and MyOnlineStore partner up to offer all-in-one online commerce solution",
     "link": "https://www.klarna.com/international/press/nl-klarna-and-myonlinestore-partner-up-to-offer-all-in-one-online-commerce-solution/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "02417b309cc64ca7aecfae57",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna initiates advanced space program to offer payment solutions on Mars",
-    "link": "https://www.klarna.com/international/press/klarna-initiates-advanced-space-program-to-offer-payment-solutions-on-mars/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0ebe7457dae1e72c0cac24c9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Man hit by sound waves in new ad by Klarna",
-    "link": "https://www.klarna.com/international/press/man-hit-by-sound-waves-in-new-ad-by-klarna/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "16fef6f0d1d97c0cbffbc44f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes annual report for 2017",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-annual-report-for-2017/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cf266cd1a56260d72400dfa9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Integration with Magento Commerce to Streamline the Checkout Process and Improve Conversions",
-    "link": "https://www.klarna.com/international/press/klarna-announces-integration-with-magento-commerce-to-streamline-the-checkout-process-and-improve-conversions/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "207a67b9a9e20717499080a4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna puts customers in charge over personal finances with new app",
-    "link": "https://www.klarna.com/international/press/klarna-puts-customers-in-charge-over-personal-finances-with-new-app/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.483Z",
-    "deliveredAt": "2026-10-20T10:27:07.483Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "26706cbd2232d98824ea889e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Honored with Magento Marketplace Innovator Award at Imagine 2018",
-    "link": "https://www.klarna.com/international/press/klarna-honored-with-magento-marketplace-innovator-award-at-imagine-2018/",
     "pageDate": "October 19, 2026",
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "detectedAt": "2026-10-20T10:27:07.483Z",
