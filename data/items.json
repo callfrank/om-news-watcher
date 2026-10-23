@@ -1,5 +1,31 @@
 [
   {
+    "guid": "991cc5ded05fe0b1fdba3165",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126558",
+    "pageDate": "21.10.2026",
+    "publishedAt": "2026-10-21T12:00:00.000Z",
+    "detectedAt": "2026-10-23T00:12:19.157Z",
+    "deliveredAt": "2026-10-23T00:12:19.157Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Verbraucherzentrale RLP Presse"
+    ]
+  },
+  {
     "guid": "70e986a187663f4adc056bf5",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -20,32 +46,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "376ca3d566c029fcc1c4a51e",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126561",
-    "pageDate": "21.10.2026",
-    "publishedAt": "2026-10-21T12:00:00.000Z",
-    "detectedAt": "2026-10-22T21:36:15.622Z",
-    "deliveredAt": "2026-10-22T21:36:15.622Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": [
-      "Verbraucherzentrale BW Presse"
-    ]
   },
   {
     "guid": "82f427830e07b8bec1c19461",
