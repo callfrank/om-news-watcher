@@ -1,5 +1,27 @@
 [
   {
+    "guid": "a06ef306cc0d00c21f4ef8c0",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon CEO Andy Jassy's career advice: Most people don't land their dream job at 22—and that's okay",
+    "link": "https://www.aboutamazon.com/news/workplace/amazon-ceo-andy-jassy-first-job-advice",
+    "pageDate": "Oct. 23, 2026",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "detectedAt": "2026-10-23T22:11:04.995Z",
+    "deliveredAt": "2026-10-23T22:11:04.995Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "b9e8a329f00545a038034b29",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -11059,27 +11081,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "9819fbc305e80c13db5feb3f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Michael Rouse Joins Klarna as Chief Commercial Officer",
-    "link": "https://www.klarna.com/international/press/michael-rouse-joins-klarna-as-chief-commercial-officer/",
-    "pageDate": "October 19, 2026",
-    "publishedAt": "2026-10-19T00:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.484Z",
-    "deliveredAt": "2026-10-20T10:27:07.484Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
