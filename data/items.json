@@ -1,9 +1,9 @@
 [
   {
-    "guid": "991cc5ded05fe0b1fdba3165",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
+    "guid": "376ca3d566c029fcc1c4a51e",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
     "groups": [
       "Sonstiges"
     ],
@@ -13,16 +13,16 @@
     ],
     "priority": 2,
     "title": "Fertiggerichte mit Hülsenfrüchten: Was steckt drin?",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126558",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/fertiggerichte-mit-huelsenfruechten-was-steckt-drin-126561",
     "pageDate": "21.10.2026",
     "publishedAt": "2026-10-21T12:00:00.000Z",
-    "detectedAt": "2026-10-23T00:12:19.157Z",
-    "deliveredAt": "2026-10-23T00:12:19.157Z",
+    "detectedAt": "2026-10-23T04:49:24.862Z",
+    "deliveredAt": "2026-10-23T04:49:24.862Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": [
-      "Verbraucherzentrale RLP Presse"
+      "Verbraucherzentrale BW Presse"
     ]
   },
   {
