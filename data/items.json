@@ -1,5 +1,166 @@
 [
   {
+    "guid": "b9b1f611490faaf0554365c5",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Was ist Wero und wie kommt es in WooCommerce? Meetup am 2.11. in Frankfurt",
+    "link": "https://demoshops.de/wero-meetup/",
+    "pageDate": "Sat, 24 Oct 2026 06:11:16 +0000",
+    "publishedAt": "2026-10-24T06:11:16.000Z",
+    "detectedAt": "2026-10-24T09:33:08.280Z",
+    "deliveredAt": "2026-10-24T09:33:08.280Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ffc021820a573dce8e1961cc",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Claude Duet: Anthropic startet KI-Agent für Kleinunternehmer",
+    "link": "https://wortfilter.de/claude-duet-anthropic-ki-agent/",
+    "pageDate": "Sat, 24 Oct 2026 05:18:32 +0000",
+    "publishedAt": "2026-10-24T05:18:32.000Z",
+    "detectedAt": "2026-10-24T09:33:08.235Z",
+    "deliveredAt": "2026-10-24T09:33:08.235Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2cdacd1a4ee16e514a35af37",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "570 Betrugsfälle: LKA warnt vor gefälschten BZSt-Mails",
+    "link": "https://wortfilter.de/gefaelschte-bzst-mails-lka-warnung/",
+    "pageDate": "Sat, 24 Oct 2026 07:24:40 +0000",
+    "publishedAt": "2026-10-24T07:24:40.000Z",
+    "detectedAt": "2026-10-24T09:33:08.235Z",
+    "deliveredAt": "2026-10-24T09:33:08.235Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b3cd1c306ad50a0a702e0534",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Zeitumstellung 2026: Was die Rückkehr zur Normalzeit ändert am Sonntag",
+    "link": "https://wortfilter.de/zeitumstellung-2026-normalzeit-schlaf-gesundheit/",
+    "pageDate": "Sat, 24 Oct 2026 07:42:21 +0000",
+    "publishedAt": "2026-10-24T07:42:21.000Z",
+    "detectedAt": "2026-10-24T09:33:08.235Z",
+    "deliveredAt": "2026-10-24T09:33:08.235Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a60c06b7c7e130faa14a7dc0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Influencer im Laden: Warum ein US-Händler Grenzen setzt",
+    "link": "https://onlinemarktplatz.de/294321/influencer-im-laden-grenzen/",
+    "pageDate": "Sat, 24 Oct 2026 06:32:39 +0000",
+    "publishedAt": "2026-10-24T06:32:39.000Z",
+    "detectedAt": "2026-10-24T09:33:08.234Z",
+    "deliveredAt": "2026-10-24T09:33:08.234Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c75300609de9f86ae5f588e0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Fake-Shop-Finder entdeckt 1.800 neue Betrugsseiten pro Monat",
+    "link": "https://onlinemarktplatz.de/294320/1800-neue-fake-shop-domains-pro-monat/",
+    "pageDate": "Sat, 24 Oct 2026 07:11:05 +0000",
+    "publishedAt": "2026-10-24T07:11:05.000Z",
+    "detectedAt": "2026-10-24T09:33:08.234Z",
+    "deliveredAt": "2026-10-24T09:33:08.234Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4c909839502c956c98d00fb0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "TikTok Luxus-Resale: Handtasche für 25.580 Dollar verkauft",
+    "link": "https://onlinemarktplatz.de/294319/tiktok-luxus-resale/",
+    "pageDate": "Sat, 24 Oct 2026 07:54:47 +0000",
+    "publishedAt": "2026-10-24T07:54:47.000Z",
+    "detectedAt": "2026-10-24T09:33:08.233Z",
+    "deliveredAt": "2026-10-24T09:33:08.233Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "a06ef306cc0d00c21f4ef8c0",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10917,167 +11078,6 @@
     "publishedAt": "2026-10-20T15:00:00.000Z",
     "detectedAt": "2026-10-20T15:24:06.836Z",
     "deliveredAt": "2026-10-20T15:24:06.836Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5a6e2b4d33378eb233962432",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Meet Your $120 Life Hack: Walmart+ and Sam’s Club Plus, Together",
-    "link": "https://corporate.walmart.com/news/2026/10/meet-your-120-life-hack",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-20T10:27:07.516Z",
-    "deliveredAt": "2026-10-20T10:27:07.516Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "50a2597938900583fcd38559",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "Rückgang der Konjunkturerwartungen // Der ZEW-Indikator liegt bei plus 28,1 Punkten",
-    "link": "https://www.zew.de/presse/pressearchiv/rueckgang-der-konjunkturerwartungen-1",
-    "pageDate": "20.10.2026",
-    "publishedAt": "2026-10-20T12:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.503Z",
-    "deliveredAt": "2026-10-20T10:27:07.503Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d9f0cd77e9ff88f8efff11b8",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "69 % der Nudeln in der EU werden in Italien hergestellt",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_43_p002.html",
-    "pageDate": "Tue, 20 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-20T06:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.489Z",
-    "deliveredAt": "2026-10-20T10:27:07.489Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9c0630c50632179822a5207d",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Gastgewerbeumsatz im August 2026 real 1,3 % niedriger als im Vormonat",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_374_45213.html",
-    "pageDate": "Tue, 20 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-20T06:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.489Z",
-    "deliveredAt": "2026-10-20T10:27:07.489Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ab38d9726a7079f06bb89049",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Rohöl im Wert von 30,0 Milliarden Euro im Zeitraum Januar bis August 2026 importiert",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_372_51.html",
-    "pageDate": "Tue, 20 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-20T06:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.489Z",
-    "deliveredAt": "2026-10-20T10:27:07.489Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d76296586ce2e039611f5511",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Erzeugerpreise im September 2026: +6,7 % gegenüber September 2025",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_373_61241.html",
-    "pageDate": "Tue, 20 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-20T06:00:00.000Z",
-    "detectedAt": "2026-10-20T10:27:07.488Z",
-    "deliveredAt": "2026-10-20T10:27:07.488Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f358c52593283ef1db49f37b",
-    "source": "Wettbewerbszentrale",
-    "sourceKey": "src-24a9968f52923b9b",
-    "sourceLabel": "Wettbewerbszentrale",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Events",
-      "KI",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Rückblick: Die Wettbewerbszentrale beim Internationalen Kongress der Liga in Bukarest",
-    "link": "https://www.wettbewerbszentrale.de/rueckblick-die-wettbewerbszentrale-beim-internationalen-kongress-der-liga-in-bukarest/",
-    "pageDate": "Tue, 20 Oct 2026 06:42:48 +0000",
-    "publishedAt": "2026-10-20T06:42:48.000Z",
-    "detectedAt": "2026-10-20T10:27:07.486Z",
-    "deliveredAt": "2026-10-20T10:27:07.486Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
