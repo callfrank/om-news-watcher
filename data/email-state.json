@@ -1,5 +1,12 @@
 {
   "sentGuids": [
+    "4c909839502c956c98d00fb0",
+    "b3cd1c306ad50a0a702e0534",
+    "2cdacd1a4ee16e514a35af37",
+    "c75300609de9f86ae5f588e0",
+    "a60c06b7c7e130faa14a7dc0",
+    "b9b1f611490faaf0554365c5",
+    "ffc021820a573dce8e1961cc",
     "c87f8d22ebcc7200184fbbc6",
     "a06ef306cc0d00c21f4ef8c0",
     "c381fc01188ecf397b96cce9",
@@ -1946,9 +1953,16 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastSlot": "2026-10-24-07",
-  "lastSentAt": "2026-10-24T05:04:20.396Z",
+  "lastSlot": "2026-10-24-11",
+  "lastSentAt": "2026-10-24T09:34:09.633Z",
   "handledGuids": [
+    "4c909839502c956c98d00fb0",
+    "b3cd1c306ad50a0a702e0534",
+    "2cdacd1a4ee16e514a35af37",
+    "c75300609de9f86ae5f588e0",
+    "a60c06b7c7e130faa14a7dc0",
+    "b9b1f611490faaf0554365c5",
+    "ffc021820a573dce8e1961cc",
     "c87f8d22ebcc7200184fbbc6",
     "a06ef306cc0d00c21f4ef8c0",
     "c381fc01188ecf397b96cce9",
@@ -4595,12 +4609,12 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastEvaluatedAt": "2026-10-24T05:04:20.396Z",
+  "lastEvaluatedAt": "2026-10-24T09:34:09.633Z",
   "lastFilterSummary": {
     "readerSeen": 0,
     "historical": 0,
     "lowPriority": 0,
     "quality": 0
   },
-  "lastSentCount": 2
+  "lastSentCount": 7
 }
