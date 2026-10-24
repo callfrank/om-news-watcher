@@ -1,5 +1,28 @@
 [
   {
+    "guid": "a7e16fcfdb11d42d533f9daa",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Freie Mitarbeiter: LSG-Urteil macht Vertragsklausel wertlos",
+    "link": "https://wortfilter.de/freie-mitarbeiter-lsg-urteil-scheinselbststaendigkeit/",
+    "pageDate": "Sat, 24 Oct 2026 16:59:27 +0000",
+    "publishedAt": "2026-10-24T16:59:27.000Z",
+    "detectedAt": "2026-10-24T17:00:41.873Z",
+    "deliveredAt": "2026-10-24T17:00:41.873Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "9819fbc305e80c13db5feb3f",
     "source": "Klarna",
     "sourceKey": "src-f16daf5cdc73aa7e",
@@ -11046,28 +11069,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Reports First Quarter Results: New global partnership with Airbnb and accelerating with AI",
     "link": "https://www.klarna.com/international/press/klarna-reports-first-quarter-results-new-global-partnership-with-airbnb-and-accelerating-with-ai/",
-    "pageDate": "October 20, 2026",
-    "publishedAt": "2026-10-20T00:00:00.000Z",
-    "detectedAt": "2026-10-20T19:37:03.118Z",
-    "deliveredAt": "2026-10-20T19:37:03.118Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c1b7380933db307264c2c0d1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says „Bună” to Romania with its interest-free “Pay in 3” service and shopping app",
-    "link": "https://www.klarna.com/international/press/klarna-says-buna-to-romania-with-its-interest-free-pay-in-3-service-and-shopping-app/",
     "pageDate": "October 20, 2026",
     "publishedAt": "2026-10-20T00:00:00.000Z",
     "detectedAt": "2026-10-20T19:37:03.118Z",
