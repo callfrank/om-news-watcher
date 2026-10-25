@@ -1,5 +1,28 @@
 [
   {
+    "guid": "8a7c57acbe60f2f5738a4a02",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Ein Vanille-Händler packt aus. Und Kaufland findet er nicht gut.",
+    "link": "https://wortfilter.de/kaufland-marktplatz-vanille-haendler/",
+    "pageDate": "Sat, 24 Oct 2026 21:57:28 +0000",
+    "publishedAt": "2026-10-24T21:57:28.000Z",
+    "detectedAt": "2026-10-25T00:21:29.700Z",
+    "deliveredAt": "2026-10-25T00:21:29.700Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c1b7380933db307264c2c0d1",
     "source": "Klarna",
     "sourceKey": "src-f16daf5cdc73aa7e",
@@ -11026,28 +11049,6 @@
     "priority": 2,
     "title": "Navigate to Klarna and StyleSeat team up to offer consumers flexible payments",
     "link": "https://www.klarna.com/international/press/klarna-and-styleseat-team-up-to-offer-consumers-flexible-payments/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c6dfd2ff0114dc476b034f7c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna growth continues to outpace global e-commerce in first half of 2022 powered by US success",
-    "link": "https://www.klarna.com/international/press/klarna-growth-continues-to-outpace-global-e-commerce-in-first-half-of-2022-powered-by-us-success/",
     "pageDate": "October 21, 2026",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "detectedAt": "2026-10-21T16:09:51.288Z",
