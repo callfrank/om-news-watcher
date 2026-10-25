@@ -1,5 +1,123 @@
 [
   {
+    "guid": "edd13b32c73e9215cd91bb75",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Einzelanbieter: Händler abmahnbar",
+    "link": "https://wortfilter.de/amazon-einzelanbieter-abmahnung/",
+    "pageDate": "Sun, 25 Oct 2026 07:33:34 +0000",
+    "publishedAt": "2026-10-25T07:33:34.000Z",
+    "detectedAt": "2026-10-25T10:10:56.135Z",
+    "deliveredAt": "2026-10-25T10:10:56.135Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f5ba61f4b83d8254bb04a2ad",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Spam-Abmahnung: Wer sich wehrt, landet bei Google am Pranger",
+    "link": "https://wortfilter.de/spam-abmahnung-anwalt-pranger/",
+    "pageDate": "Sun, 25 Oct 2026 08:06:56 +0000",
+    "publishedAt": "2026-10-25T08:06:56.000Z",
+    "detectedAt": "2026-10-25T10:10:56.135Z",
+    "deliveredAt": "2026-10-25T10:10:56.135Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d3e571543fb73e2a897b0f5b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Halloween für Haustiere: 920 Millionen Dollar für Kürbis und Hotdog",
+    "link": "https://onlinemarktplatz.de/294247/halloween-fuer-haustiere/",
+    "pageDate": "Sun, 25 Oct 2026 07:27:11 +0000",
+    "publishedAt": "2026-10-25T07:27:11.000Z",
+    "detectedAt": "2026-10-25T10:10:56.132Z",
+    "deliveredAt": "2026-10-25T10:10:56.132Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "44021e5ecf0d02934d814c75",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Craftmas auf Etsy: Bastelsets rücken ins Weihnachtsgeschäft",
+    "link": "https://onlinemarktplatz.de/294318/etsy-craftmas-diy-suchen-8500-prozent/",
+    "pageDate": "Sun, 25 Oct 2026 08:11:37 +0000",
+    "publishedAt": "2026-10-25T08:11:37.000Z",
+    "detectedAt": "2026-10-25T10:10:56.132Z",
+    "deliveredAt": "2026-10-25T10:10:56.132Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4681194f767db36b8be02802",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Bitcoin neben Netflix-Gutscheinen: Wie teuer der Einstieg an der Kasse ist",
+    "link": "https://onlinemarktplatz.de/294354/bitcoin-im-supermarkt-carrefour/",
+    "pageDate": "Sun, 25 Oct 2026 08:49:26 +0000",
+    "publishedAt": "2026-10-25T08:49:26.000Z",
+    "detectedAt": "2026-10-25T10:10:56.132Z",
+    "deliveredAt": "2026-10-25T10:10:56.132Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "8a7c57acbe60f2f5738a4a02",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10939,116 +11057,6 @@
     "priority": 2,
     "title": "Navigate to Play by new rules, and pay like a pro. Klarna and Visa change the game with new campaign promoting the Klarna card ahead of the UEFA Women’s EURO 2022™",
     "link": "https://www.klarna.com/international/press/play-by-new-rules-and-pay-like-a-pro-klarna-and-visa-change-the-game-with-new-campaign-promoting-the-klarna-card-ahead-of-the-uefa-womens-euro-2022/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bd2f1aefab5318aad9c1acc2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna invests USD 1.7 million from its internal carbon tax in sustainability projects for maximum long-term climate impact.",
-    "link": "https://www.klarna.com/international/press/klarna-invests-usd-17-million-from-its-internal-carbon-tax-in-sustainability-projects-for-maximum-long-term-climate-impact/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c0136c7fae1ac07fd58f2b28",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna closes major financing round during worst stock downturn in 50 years",
-    "link": "https://www.klarna.com/international/press/klarna-closes-major-financing-round-during-worst-stock-downturn-in-50-years/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4592c0fb3491506f13715bc9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with MEC to offer Canadians payment flexibility when shopping for outdoor gear",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-mec-to-offer-canadians-payment-flexibility-when-shopping-for-outdoor-gear/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5415905c988d024922788478",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Airbank chooses Klarna Kosma’s open banking platform for international expansion",
-    "link": "https://www.klarna.com/international/press/airbank-chooses-klarna-kosmas-open-banking-platform-for-international-expansion/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5a97c515fd9ce107f8f9ab33",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and StyleSeat team up to offer consumers flexible payments",
-    "link": "https://www.klarna.com/international/press/klarna-and-styleseat-team-up-to-offer-consumers-flexible-payments/",
     "pageDate": "October 21, 2026",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "detectedAt": "2026-10-21T16:09:51.288Z",
