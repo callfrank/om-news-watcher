@@ -1,5 +1,25 @@
 [
   {
+    "guid": "f10d6f4ec7abb924012290f9",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "The importance of natural capital for prosperity",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html",
+    "pageDate": "26 October 2026",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "detectedAt": "2026-10-26T06:19:00.830Z",
+    "deliveredAt": "2026-10-26T06:19:00.830Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d3a461b469539d1a94e55bd9",
     "source": "UPS QZ",
     "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
@@ -11039,28 +11059,6 @@
     "priority": 2,
     "title": "Navigate to Klarna completes acquisition of PriceRunner",
     "link": "https://www.klarna.com/international/press/klarna-completes-acquisition-of-pricerunner/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "acdf6ea9a8f75c22c3df33a6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Stocard joins Klarna and gets “Smoooth” with an all-new brand identity",
-    "link": "https://www.klarna.com/international/press/stocard-joins-klarna-and-gets-smoooth-with-an-all-new-brand-identity/",
     "pageDate": "October 21, 2026",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "detectedAt": "2026-10-21T16:09:51.288Z",
