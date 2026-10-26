@@ -1,5 +1,25 @@
 [
   {
+    "guid": "d3a461b469539d1a94e55bd9",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Upcoming Event",
+    "link": "https://investors.ups.com/news-events/ir-calendar/detail/11022/q3-2026-united-parcel-service-inc-earnings-conference-call",
+    "pageDate": "Oct 27, 2026",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "detectedAt": "2026-10-26T01:16:30.474Z",
+    "deliveredAt": "2026-10-26T01:16:30.474Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "289e7753c0c05c77efb3c847",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11041,28 +11061,6 @@
     "priority": 2,
     "title": "Navigate to Stocard joins Klarna and gets “Smoooth” with an all-new brand identity",
     "link": "https://www.klarna.com/international/press/stocard-joins-klarna-and-gets-smoooth-with-an-all-new-brand-identity/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e8feb4507538df755905ce6c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna matches consumer donations towards planet health causes this Earth Week",
-    "link": "https://www.klarna.com/international/press/klarna-matches-consumer-donations-towards-planet-health-causes-this-earth-week/",
     "pageDate": "October 21, 2026",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "detectedAt": "2026-10-21T16:09:51.288Z",
