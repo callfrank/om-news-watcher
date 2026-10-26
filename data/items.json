@@ -76,8 +76,7 @@
       "Firmen"
     ],
     "tags": [
-      "E-Commerce",
-      "Unternehmensstrategie"
+      "E-Commerce"
     ],
     "priority": 2,
     "title": "Zur Pressemitteilung",
@@ -5096,31 +5095,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "c381fc01188ecf397b96cce9",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zur Pressemitteilung",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/oktober/bojan-luncer-wird-neuer-vorstand-laender-bei-kaufland",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-23T15:04:48.773Z",
-    "deliveredAt": "2026-10-23T15:04:48.773Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Kaufland Newsroom"
-    ]
   },
   {
     "guid": "477380c16be6a58f550fbf33",
