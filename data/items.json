@@ -1,5 +1,182 @@
 [
   {
+    "guid": "58d9add8e29adb204db4ce2c",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wero startet in den Niederlanden",
+    "link": "https://demoshops.de/wero-startet-in-den-niederlanden/",
+    "pageDate": "Mon, 26 Oct 2026 15:03:11 +0000",
+    "publishedAt": "2026-10-26T15:03:11.000Z",
+    "detectedAt": "2026-10-26T19:22:10.772Z",
+    "deliveredAt": "2026-10-26T19:22:10.772Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7b257c4bb7219ec525a3da82",
+    "source": "Wero",
+    "sourceKey": "src-b3076904e4e4545a",
+    "sourceLabel": "Wero",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Media & insights",
+    "link": "https://epicompany.eu/media-insights/media-insights/epi-company-initiates-wero-roll-out-in-the-netherlands",
+    "pageDate": "October 26, 2026",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "detectedAt": "2026-10-26T19:22:10.770Z",
+    "deliveredAt": "2026-10-26T19:22:10.770Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f7dc67a6d95a0116a4e8fe99",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon's pro bono program surpasses 90,000 hours of free legal service across six continents",
+    "link": "https://www.aboutamazon.com/news/policy-news-views/amazon-pro-bono-report-2026",
+    "pageDate": "Oct. 26, 2026",
+    "publishedAt": "2026-10-26T00:00:00.000Z",
+    "detectedAt": "2026-10-26T19:22:10.758Z",
+    "deliveredAt": "2026-10-26T19:22:10.758Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3bf6aecdd2ded4ef375a5840",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Appoints Céline Grena as Managing Director, Benelux & Nordics",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-appoints-celine-grena-as-managing-director-benelux-nordics/",
+    "pageDate": "26.10.2026",
+    "publishedAt": "2026-10-26T12:00:00.000Z",
+    "detectedAt": "2026-10-26T19:22:10.754Z",
+    "deliveredAt": "2026-10-26T19:22:10.754Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f471b89ab9be1538fae99563",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Zooplus marketplace launches in Spain",
+    "link": "https://ecommercenews.eu/zooplus-marketplace-launches-in-spain/",
+    "pageDate": "Mon, 26 Oct 2026 13:46:27 +0000",
+    "publishedAt": "2026-10-26T13:46:27.000Z",
+    "detectedAt": "2026-10-26T19:22:10.745Z",
+    "deliveredAt": "2026-10-26T19:22:10.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "def9dce065ccdad08a1d2352",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "FloOne Cloud-Wawi im Check: Preisdeckel bei 119,90 €",
+    "link": "https://wortfilter.de/floone-cloud-wawi-check/",
+    "pageDate": "Mon, 26 Oct 2026 18:00:24 +0000",
+    "publishedAt": "2026-10-26T18:00:24.000Z",
+    "detectedAt": "2026-10-26T19:22:10.722Z",
+    "deliveredAt": "2026-10-26T19:22:10.722Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0c4618435eb1e5ced273736c",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Google-Cloud für Geheimdienste: Deutsche Souveränität am US-Tropf",
+    "link": "https://onlinemarktplatz.de/294787/google-cloud-fuer-geheimdienste/",
+    "pageDate": "Mon, 26 Oct 2026 13:38:42 +0000",
+    "publishedAt": "2026-10-26T13:38:42.000Z",
+    "detectedAt": "2026-10-26T19:22:10.720Z",
+    "deliveredAt": "2026-10-26T19:22:10.720Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1a6a2b4ae2e5d755d83459f6",
+    "source": "Pattern Newsroom",
+    "sourceKey": "src-fd172f245374fd81",
+    "sourceLabel": "Pattern",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "KI",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "ROI Hunter Is Now Pattern Ad Signals",
+    "link": "https://www.pattern.com/news/roi-hunter-is-now-pattern-ad-signals",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-26T19:22:10.700Z",
+    "deliveredAt": "2026-10-26T19:22:10.700Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "513345bff907314dca82f6ad",
     "source": "Meta QZ",
     "sourceKey": "e570b06e-f24a-45ea-a7b2-12f32fa2ed1d",
@@ -10896,160 +11073,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Launches Klarna Comparison Shopping Service across Europe",
     "link": "https://www.klarna.com/international/press/klarna-launches-klarna-comparison-shopping-service-across-europe/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5958bc939e307624b3f64aae",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna becomes first Fintech to join The Climate Pledge and Race to Zero campaign",
-    "link": "https://www.klarna.com/international/press/klarna-becomes-first-fintech-to-join-the-climate-pledge-and-race-to-zero-campaign/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c07aff289a6342d2d1018a73",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires HERO to bring best of in-store experience to social shopping for its 90m consumers",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-hero-to-bring-best-of-in-store-experience-to-social-shopping-for-its-90m-consumers/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e5fa2cb565b36e9ea6022209",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires APPRL, connecting retailers and content creators as global consumers embrace social shopping",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-apprl-connecting-retailers-and-content-creators-as-global-consumers-embrace-social-shopping/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bc73c68549b574bbc3f556c2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to YOOX NET-A-PORTER Group and Klarna announce global partnership",
-    "link": "https://www.klarna.com/international/press/yoox-net-a-porter-group-and-klarna-announce-global-partnership/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "da57a35b554477cb883beba9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Cześć!” to Poland with “Pay in 30 days”",
-    "link": "https://www.klarna.com/international/press/klarna-says-czesc-to-poland-with-pay-in-30-days/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e0d4cd61481adfc0e70d2b82",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna hits record 20 million US customers as demand for flexible payment options soars",
-    "link": "https://www.klarna.com/international/press/klarna-hits-record-20-million-us-customers-as-demand-for-flexible-payment-options-soars/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "33c9040236a7377aef25c938",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna interim report January - June 2021",
-    "link": "https://www.klarna.com/international/press/klarna-interim-report-january-june-2021/",
     "pageDate": "October 21, 2026",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "detectedAt": "2026-10-21T16:09:51.288Z",
