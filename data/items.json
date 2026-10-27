@@ -1,5 +1,321 @@
 [
   {
+    "guid": "646136aaf1c216179884aa8d",
+    "source": "Meta QZ",
+    "sourceKey": "e570b06e-f24a-45ea-a7b2-12f32fa2ed1d",
+    "sourceLabel": "Meta QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Meta Announces Pricing of Offering of Depositary Shares Representing Series A Mandatory Convertible Preferred Stock and Offering of Class A Common Stock in Connection with Forward Sale Agreements",
+    "link": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-Pricing-of-Offering-of-Depositary-Shares-Representing-Series-A-Mandatory-Convertible-Preferred-Stock-and-Offering-of-Class-A-Common-Stock-in-Connection-with-Forward-Sale-Agreements/default.aspx",
+    "pageDate": "October 27, 2026",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "detectedAt": "2026-10-27T08:24:11.891Z",
+    "deliveredAt": "2026-10-27T08:24:11.891Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "42724d6c3b60800e0ca7944d",
+    "source": "Sea Ltd. QZ",
+    "sourceKey": "119c47b8-2de5-46eb-9009-6eb2ab2a139a",
+    "sourceLabel": "Sea Ltd. QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Sea Limited to Report Third Quarter 2026 Results",
+    "link": "https://cdn.sea.com/investor/3Q2026/2QG80dSzQmjmCuV0gQmp/2026.10.27%20Sea%20Limited%20to%20Report%20Third%20Quarter%202026%20Results.pdf",
+    "pageDate": "Oct 27, 2026",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "detectedAt": "2026-10-27T08:24:11.888Z",
+    "deliveredAt": "2026-10-27T08:24:11.888Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4b0e489d9a0829f67b4f2c9c",
+    "source": "Hermes",
+    "sourceKey": "src-024599969bf8c986",
+    "sourceLabel": "Hermes",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "E-Mobility Lange Strecke: Hermes Germany stockt E-Lkw-Flotte und E-Rangierdienst auf",
+    "link": "https://newsroom.hermesworld.com/e-mobility-lange-strecke-hermes-germany-stockt-e-lkw-flotte-und-e-rangierdienst-auf-35011/",
+    "pageDate": "Tue, 27 Oct 2026 08:00:00 +0000",
+    "publishedAt": "2026-10-27T08:00:00.000Z",
+    "detectedAt": "2026-10-27T08:24:11.867Z",
+    "deliveredAt": "2026-10-27T08:24:11.867Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ac500432ef3c0fd2869afbe9",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Bruttosparquote in Deutschland mit 18,9 % im internationalen Vergleich überdurchschnittlich hoch",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_44_p002.html",
+    "pageDate": "Tue, 27 Oct 2026 08:00:00 +0100",
+    "publishedAt": "2026-10-27T07:00:00.000Z",
+    "detectedAt": "2026-10-27T08:24:11.865Z",
+    "deliveredAt": "2026-10-27T08:24:11.865Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8091210800126725ea7d9b38",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "EU-Batterieverordnung: HDE, BVT und BHB fordern Harmonisierung der Sorgfaltspflichten und Anpassung der Fristen",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15394-eu-batterieverordnung-hde-bvt-und-bhb-fordern-harmonisierung-der-sorgfaltspflichten-und-anpassung-der-fristen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T08:24:11.851Z",
+    "deliveredAt": "2026-10-27T08:24:11.851Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bcc49a269349adb87e6edf44",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Leo E-Commerce Abmahnung: Das Dutta-Netz hinter den Fotos",
+    "link": "https://wortfilter.de/leo-e-commerce-abmahnung/",
+    "pageDate": "Tue, 27 Oct 2026 05:46:27 +0000",
+    "publishedAt": "2026-10-27T05:46:27.000Z",
+    "detectedAt": "2026-10-27T08:24:11.850Z",
+    "deliveredAt": "2026-10-27T08:24:11.850Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b3ad8c87e5b66c62d431e32a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "JTL-Hosting Ausfall: 19 Stunden offline, Statusseite schweigt",
+    "link": "https://wortfilter.de/jtl-hosting-ausfall-oktober-2026/",
+    "pageDate": "Tue, 27 Oct 2026 06:19:27 +0000",
+    "publishedAt": "2026-10-27T06:19:27.000Z",
+    "detectedAt": "2026-10-27T08:24:11.850Z",
+    "deliveredAt": "2026-10-27T08:24:11.850Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "16500414ae095c8fd9c7488b",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Gen Z Kundenbindung: 71 % wechseln jährlich den Onlineshop",
+    "link": "https://wortfilter.de/gen-z-kundenbindung-onlineshop/",
+    "pageDate": "Tue, 27 Oct 2026 06:27:05 +0000",
+    "publishedAt": "2026-10-27T06:27:05.000Z",
+    "detectedAt": "2026-10-27T08:24:11.850Z",
+    "deliveredAt": "2026-10-27T08:24:11.850Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ce1fe5cddf4ada3fdc8ca150",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Temu Ranking Europa: Nr. 1 in vier Ländern, Top 2 in zwölf",
+    "link": "https://wortfilter.de/temu-ranking-europa-2025/",
+    "pageDate": "Tue, 27 Oct 2026 07:02:53 +0000",
+    "publishedAt": "2026-10-27T07:02:53.000Z",
+    "detectedAt": "2026-10-27T08:24:11.850Z",
+    "deliveredAt": "2026-10-27T08:24:11.850Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f9d3171ce4105d8d0c5cdaba",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "PartyLite insolvent: Das Aus trifft auch Berater-Shops",
+    "link": "https://wortfilter.de/partylite-insolvent-berater-shops/",
+    "pageDate": "Tue, 27 Oct 2026 07:57:05 +0000",
+    "publishedAt": "2026-10-27T07:57:05.000Z",
+    "detectedAt": "2026-10-27T08:24:11.850Z",
+    "deliveredAt": "2026-10-27T08:24:11.850Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "19dc140c1c1798a72ca3029d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "zooplus-Marktplatz in Spanien startet mit 10.000 Produkten",
+    "link": "https://onlinemarktplatz.de/294581/zooplus-marktplatz-in-spanien-start/",
+    "pageDate": "Tue, 27 Oct 2026 07:01:03 +0000",
+    "publishedAt": "2026-10-27T07:01:03.000Z",
+    "detectedAt": "2026-10-27T08:24:11.848Z",
+    "deliveredAt": "2026-10-27T08:24:11.848Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c95ff654bcbf476907255821",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Label-free Versand: DHL Express erweitert myflexbox-Service in Österreich",
+    "link": "https://onlinemarktplatz.de/294585/label-free-versand-dhl-express-at/",
+    "pageDate": "Tue, 27 Oct 2026 07:30:18 +0000",
+    "publishedAt": "2026-10-27T07:30:18.000Z",
+    "detectedAt": "2026-10-27T08:24:11.848Z",
+    "deliveredAt": "2026-10-27T08:24:11.848Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e58d6bda31b32d30d05c490e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Fujitsu und STACKIT: Partnerschaft für Cloud und Handels-IT",
+    "link": "https://onlinemarktplatz.de/294574/fujitsu-und-stackit-partnerschaft/",
+    "pageDate": "Tue, 27 Oct 2026 08:02:06 +0000",
+    "publishedAt": "2026-10-27T08:02:06.000Z",
+    "detectedAt": "2026-10-27T08:24:11.848Z",
+    "deliveredAt": "2026-10-27T08:24:11.848Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3f8935cffeeadd34b4cf9ff6",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom baut 255.000 Glasfaseranschlüsse im September",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-baut-255-000-glasfaseranschluesse-im-september",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T08:24:11.841Z",
+    "deliveredAt": "2026-10-27T08:24:11.841Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "99c42dfba6c038c56f6defd4",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10761,314 +11077,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Q1-Q4 2020 Financial Report",
     "link": "https://www.klarna.com/international/press/klarna-q1-q4-2020-financial-report/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "33633d588a0b6cf23b1cfe0d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna CEO challenges tech to focus on global sustainability in $1 bn funding round",
-    "link": "https://www.klarna.com/international/press/klarna-ceo-challenges-tech-to-focus-on-global-sustainability-in-1-bn-funding-round/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "96ba001fed08db47eec6a672",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands Open Banking solution to 8 more European markets",
-    "link": "https://www.klarna.com/international/press/klarna-expands-open-banking-solution-to-8-more-european-markets/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "37aa189326868b0892b8e4db",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna takes merchant marketing support to new heights with enhanced demand-generation services",
-    "link": "https://www.klarna.com/international/press/klarna-takes-merchant-marketing-support-to-new-heights-with-enhanced-demand-generation-services/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a46263b45e63946002d116ac",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Consumers turn to BNPL for flexibility and security as retail readies for recovery",
-    "link": "https://www.klarna.com/international/press/consumers-turn-to-bnpl-for-flexibility-and-security-as-retail-readies-for-recovery/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "28996acc57042093518f5e21",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to New Klarna survey finds nearly 80% of shoppers want fitting rooms to reopen this year, while many remain skeptical about product testing",
-    "link": "https://www.klarna.com/international/press/new-klarna-survey-finds-nearly-80-of-shoppers-want-fitting-rooms-to-reopen-this-year-while-many-remain-skeptical-about-product-testing/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "77c6daa0c0cb9948b1f503d3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB (publ) announces tender offer regarding certain outstanding senior unsecured bonds",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-publ-announces-tender-offer-regarding-certain-outstanding-senior-unsecured-bonds/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "21d6e77b264f082072663433",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna 2020 Annual Report Published",
-    "link": "https://www.klarna.com/international/press/klarna-2020-annual-report-published/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7a3c0537f844127020f29344",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB (publ) announces final tender offer results",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-publ-announces-final-tender-offer-results/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b689d6a273561d9dc8df8cc7",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches carbon footprint insights for 90 million consumers",
-    "link": "https://www.klarna.com/international/press/klarna-launches-carbon-footprint-insights-for-90-million-consumers/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1496516dfdfcd51b3da8f841",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Macy's, Inc. exclusively partners with Klarna to offer Pay in Four services in 750+ stores nationwide",
-    "link": "https://www.klarna.com/international/press/macys-inc-exclusively-partners-with-klarna-to-offer-pay-in-four-services-in-750-stores-nationwide/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "992dc6afd7f848deabf79113",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Kia ora New Zealand! Klarna brings “smoooth” shopping to Kiwis.",
-    "link": "https://www.klarna.com/international/press/kia-ora-new-zealand-klarna-brings-smoooth-shopping-to-kiwis/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "24d510441242877406bfae55",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Authentic Brands Group and SPARC Group announce exclusive partnership with Klarna to introduce ‘Pay in Four’ across their portfolio of brands",
-    "link": "https://www.klarna.com/international/press/authentic-brands-group-and-sparc-group-announce-exclusive-partnership-with-klarna-to-introduce-pay-in-four-across-their-portfolio-of-brands/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "022c48770774a1ab1320d6c4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Early redemption of subordinated Tier 2 notes",
-    "link": "https://www.klarna.com/international/press/early-redemption-of-subordinated-tier-2-notes/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "39fb47aed34b85cd4445ab8d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Announcement of the appointment of Roger W. Ferguson Jr to Klarna Board",
-    "link": "https://www.klarna.com/international/press/announcement-of-the-appointment-of-roger-w-ferguson-jr-to-klarna-board/",
     "pageDate": "October 21, 2026",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "detectedAt": "2026-10-21T16:09:51.288Z",
