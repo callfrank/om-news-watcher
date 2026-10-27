@@ -1,5 +1,118 @@
 [
   {
+    "guid": "1087507ed54eae5b5b7a2661",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart and Care Access Plan Three Additional Clinical Trial Centers to Expand Access to Medical Research",
+    "link": "https://corporate.walmart.com/news/2026/10/additional-clinical-trial-centers-planned",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T20:06:38.462Z",
+    "deliveredAt": "2026-10-27T20:06:38.462Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3a6e6250d00375f4dcfd6713",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon data centers in Spain are helping businesses create jobs and opportunities",
+    "link": "https://www.aboutamazon.com/news/aws/amazon-data-centers-spain",
+    "pageDate": "Oct. 27, 2026",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "detectedAt": "2026-10-27T20:06:38.455Z",
+    "deliveredAt": "2026-10-27T20:06:38.455Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "119a8adb3ba006903215ab8a",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "An update from Amazon engineering leadership on the role of the developer in the age of AI",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-software-engineer-role-guideline-ai",
+    "pageDate": "Oct. 27, 2026",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "detectedAt": "2026-10-27T20:06:38.455Z",
+    "deliveredAt": "2026-10-27T20:06:38.455Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "df6a4d7fb1f3ee52c8e31f32",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon FBA News: Händler bekommt nichts, Kunde behält Ware",
+    "link": "https://wortfilter.de/amazon-fba-erstattung-ohne-ruecksendung/",
+    "pageDate": "Tue, 27 Oct 2026 15:34:55 +0000",
+    "publishedAt": "2026-10-27T15:34:55.000Z",
+    "detectedAt": "2026-10-27T20:06:38.426Z",
+    "deliveredAt": "2026-10-27T20:06:38.426Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4265f03ae2c0675033c06892",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Firmennetze aus und für DE",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/firmennetze-aus-und-fuer-de",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T20:06:38.417Z",
+    "deliveredAt": "2026-10-27T20:06:38.417Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "db9191fd21e67a2b2f0d4478",
     "source": "Baidu QZ",
     "sourceKey": "0b16875f-ed8a-4824-948a-653a40b8121b",
@@ -10941,126 +11054,6 @@
     "publishedAt": "2026-10-22T06:16:33.000Z",
     "detectedAt": "2026-10-22T07:36:01.451Z",
     "deliveredAt": "2026-10-22T07:36:01.451Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ae26b0d12129b29ea8660f67",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Neue eBay Datenschutzerklärung: Neue Angaben zu KI und Live-Events",
-    "link": "https://onlinemarktplatz.de/294501/ebay-datenschutzerklaerung-2026/",
-    "pageDate": "Thu, 22 Oct 2026 05:29:13 +0000",
-    "publishedAt": "2026-10-22T05:29:13.000Z",
-    "detectedAt": "2026-10-22T07:36:01.449Z",
-    "deliveredAt": "2026-10-22T07:36:01.449Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a218b7686d294d95059dc739",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "PHP2Shell: Kritische PHP-Lücken erfordern Updates für Shops",
-    "link": "https://onlinemarktplatz.de/294527/php2shell-php-sicherheitsluecken-shops/",
-    "pageDate": "Thu, 22 Oct 2026 05:51:16 +0000",
-    "publishedAt": "2026-10-22T05:51:16.000Z",
-    "detectedAt": "2026-10-22T07:36:01.449Z",
-    "deliveredAt": "2026-10-22T07:36:01.449Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6606ca0df32d339009db1f3c",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Strafe gegen Meta: 25 Milliarden Dollar wegen Datenschutz",
-    "link": "https://onlinemarktplatz.de/294526/strafe-gegen-meta-25-milliarden-dollar/",
-    "pageDate": "Thu, 22 Oct 2026 06:02:40 +0000",
-    "publishedAt": "2026-10-22T06:02:40.000Z",
-    "detectedAt": "2026-10-22T07:36:01.449Z",
-    "deliveredAt": "2026-10-22T07:36:01.449Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3001cc32fe368173f48aa82a",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Neue EU-Normungsregeln sollen KMU bei Konformitätsnachweisen entlasten",
-    "link": "https://onlinemarktplatz.de/294243/harmonisierte-normen-eu/",
-    "pageDate": "Thu, 22 Oct 2026 06:28:38 +0000",
-    "publishedAt": "2026-10-22T06:28:38.000Z",
-    "detectedAt": "2026-10-22T07:36:01.449Z",
-    "deliveredAt": "2026-10-22T07:36:01.449Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6dbd6a8582cf4257860a8375",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Agentische Zahlungen: Ohne Mandat reicht Identität nicht",
-    "link": "https://onlinemarktplatz.de/294279/agentische-zahlungen-mandat-identitaet/",
-    "pageDate": "Thu, 22 Oct 2026 07:04:57 +0000",
-    "publishedAt": "2026-10-22T07:04:57.000Z",
-    "detectedAt": "2026-10-22T07:36:01.449Z",
-    "deliveredAt": "2026-10-22T07:36:01.449Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
