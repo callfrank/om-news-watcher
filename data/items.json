@@ -1,5 +1,458 @@
 [
   {
+    "guid": "db9191fd21e67a2b2f0d4478",
+    "source": "Baidu QZ",
+    "sourceKey": "0b16875f-ed8a-4824-948a-653a40b8121b",
+    "sourceLabel": "Baidu QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Q3 2026 Baidu Earnings Conference Call",
+    "link": "https://ir.baidu.com/events/event-details/q3-2026-baidu-earnings-conference-call",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T14:56:39.467Z",
+    "deliveredAt": "2026-10-27T14:56:39.467Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9f433fe1470c5a43f9b30b84",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "3Q 2026 Historical Financial Info",
+    "link": "https://investors.ups.com/_assets/_717a17014125966b6706e2c168c91902/ups/db/1111/11043/file/2026+Q3+Historical+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T14:56:39.464Z",
+    "deliveredAt": "2026-10-27T14:56:39.464Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a389ca855c7e9e9a85a45d45",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "3Q 2026 Financial Statements",
+    "link": "https://investors.ups.com/_assets/_717a17014125966b6706e2c168c91902/ups/db/1111/11042/file/2026+Q3+Financial+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T14:56:39.464Z",
+    "deliveredAt": "2026-10-27T14:56:39.464Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8ddab5b77ad445edccd7883b",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Earnings release",
+    "link": "https://investors.ups.com/news-events/press-releases/detail/2172/ups-releases-3q-2026-earnings/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T14:56:39.464Z",
+    "deliveredAt": "2026-10-27T14:56:39.464Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bed6ed9c02c1cbc11e031e55",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "UPS Releases 3Q 2026 Earnings",
+    "link": "https://investors.ups.com/news-events/press-releases/detail/2172/ups-releases-3q-2026-earnings",
+    "pageDate": "Tue, 27 Oct 26 06:00:00 -0400",
+    "publishedAt": "2026-10-27T10:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.464Z",
+    "deliveredAt": "2026-10-27T14:56:39.464Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "60691c1c1e7f98e4cb95fa5e",
+    "source": "PayPal US",
+    "sourceKey": "src-036682c8cc9a64e1",
+    "sourceLabel": "PayPal US",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Unternehmensnews",
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "PayPal Reports Third Quarter 2026 Results",
+    "link": "https://newsroom.paypal-corp.com/2026-10-27-PayPal-Reports-Third-Quarter-2026-Results",
+    "pageDate": "Tue, 27 Oct 2026 07:00:00 -0400",
+    "publishedAt": "2026-10-27T11:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.458Z",
+    "deliveredAt": "2026-10-27T14:56:39.458Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2748236814990682ab801ad9",
+    "source": "Uber",
+    "sourceKey": "src-9ca710b31d1e337a",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Key Food Stores Co-Op Joins Uber Eats, Expanding Access to Local Grocery Delivery",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Key-Food-Stores-Co-Op-Joins-Uber-Eats-Expanding-Access-to-Local-Grocery-Delivery/default.aspx",
+    "pageDate": "October 27, 2026",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.457Z",
+    "deliveredAt": "2026-10-27T14:56:39.457Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7cee189a68ae8740f60c6cec",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon's water conservation and replenishment efforts around the world",
+    "link": "https://www.aboutamazon.com/news/sustainability/amazon-water-conservation-replenishment-sustainability",
+    "pageDate": "Oct. 27, 2026",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.446Z",
+    "deliveredAt": "2026-10-27T14:56:39.446Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "aea8bd25aeb9b3de0fb694b2",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "27.10.2026",
+    "link": "https://news.post.at/presse/de/post/id/2357957/KREMSER%20ARCHITEKTUR%20AUF%20BRIEFMARKE:%20POST%20W&Uuml;RDIGT%20LANDESGALERIE%20NIEDER&Ouml;STERREICH",
+    "pageDate": "27.10.2026",
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.440Z",
+    "deliveredAt": "2026-10-27T14:56:39.440Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "879af0f92629d5194f847310",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "KREMSER ARCHITEKTUR AUF BRIEFMARKE: POST WÜRDIGT LANDESGALERIE NIEDERÖSTERREICH",
+    "link": "https://news.post.at/presse/de/post/id/2357957/KREMSER%20ARCHITEKTUR%20AUF%20BRIEFMARKE%3A%20POST%20W%26Uuml%3BRDIGT%20LANDESGALERIE%20NIEDER%26Ouml%3BSTERREICH",
+    "pageDate": "27.10.2026",
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.440Z",
+    "deliveredAt": "2026-10-27T14:56:39.440Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b8c3a24b9dff071f7f42c45f",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Bank lending survey results – Q3 2026",
+    "link": "https://www.ecb.europa.eu/stats/ecb_surveys/bank_lending_survey/html/index.en.html",
+    "pageDate": "27 October 2026",
+    "publishedAt": "2026-10-27T00:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.424Z",
+    "deliveredAt": "2026-10-27T14:56:39.424Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "56c6a90b8772c39ddca32981",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "UTP: Handelsverband warnt vor Ausweitung der EU-Richtlinie",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15401-utp-handelsverband-warnt-vor-ausweitung-der-eu-richtlinie",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T14:56:39.421Z",
+    "deliveredAt": "2026-10-27T14:56:39.421Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "29e06f21196a744a3436f0df",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Temu Aktionsplan: 200-Mio-Strafe, jetzt Algorithmus-Check",
+    "link": "https://wortfilter.de/temu-aktionsplan-eu-kommission/",
+    "pageDate": "Tue, 27 Oct 2026 09:21:44 +0000",
+    "publishedAt": "2026-10-27T09:21:44.000Z",
+    "detectedAt": "2026-10-27T14:56:39.420Z",
+    "deliveredAt": "2026-10-27T14:56:39.420Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5cb5650f35e7a72984aedef9",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "China-News: 3-Euro-Zoll kostet Temu 37 % der Kunden",
+    "link": "https://wortfilter.de/china-news-3-euro-zoll-temu/",
+    "pageDate": "Tue, 27 Oct 2026 10:50:02 +0000",
+    "publishedAt": "2026-10-27T10:50:02.000Z",
+    "detectedAt": "2026-10-27T14:56:39.420Z",
+    "deliveredAt": "2026-10-27T14:56:39.420Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9d30ea238aa354a6a814f4cf",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Bestellfrequenz: US-Kunden ordern 22-mal im Jahr",
+    "link": "https://wortfilter.de/amazon-bestellfrequenz-usa/",
+    "pageDate": "Tue, 27 Oct 2026 13:49:47 +0000",
+    "publishedAt": "2026-10-27T13:49:47.000Z",
+    "detectedAt": "2026-10-27T14:56:39.420Z",
+    "deliveredAt": "2026-10-27T14:56:39.420Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e152e43206fe1699573a6572",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Werbung mit Kundenbewertungen: 4,82 Sterne sind keine 5,0",
+    "link": "https://wortfilter.de/werbung-mit-kundenbewertungen-lg-frankfurt/",
+    "pageDate": "Tue, 27 Oct 2026 14:27:44 +0000",
+    "publishedAt": "2026-10-27T14:27:44.000Z",
+    "detectedAt": "2026-10-27T14:56:39.420Z",
+    "deliveredAt": "2026-10-27T14:56:39.420Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b6a0ccf6d5539c7e0eb71d05",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Richtig gut versichert: Risikolebensversicherung",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/richtig-gut-versichert-risikolebensversicherung-126732",
+    "pageDate": "27.10.2026",
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.416Z",
+    "deliveredAt": "2026-10-27T14:56:39.416Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b638ce39b8fb4ec578bb323",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "27.10.2026EU-Zollreform: Was ist neu, wer bezahlt für Pakete und wie steht es um Produktsicherheit?",
+    "link": "https://www.vzbv.de/pressemitteilungen/eu-zollreform-was-ist-neu-wer-bezahlt-fuer-pakete-und-wie-steht-es-um",
+    "pageDate": "27.10.2026",
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.414Z",
+    "deliveredAt": "2026-10-27T14:56:39.414Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ce3f77feb66d79802b031ce6",
+    "source": "Vinted Newsroom",
+    "sourceKey": "src-4bd55bcb182c0d40",
+    "sourceLabel": "Vinted",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Charli xcx partners with Vinted to wear second-hand on tour and sell special archival pieces",
+    "link": "https://company.vinted.com/newsroom/vinted-charli-xcx",
+    "pageDate": "27.10.2026",
+    "publishedAt": "2026-10-27T12:00:00.000Z",
+    "detectedAt": "2026-10-27T14:56:39.413Z",
+    "deliveredAt": "2026-10-27T14:56:39.413Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "083e3a1699a506c7241c029f",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom investiert in Tandem Health",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-investiert-in-tandem-health",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T14:56:39.411Z",
+    "deliveredAt": "2026-10-27T14:56:39.411Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4ae40ce1a2b7154807e54417",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Testsieg im connect-Festnetztest 2026",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-gewinnt-erneut-den-connect-festnetztest",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T14:56:39.411Z",
+    "deliveredAt": "2026-10-27T14:56:39.411Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "646136aaf1c216179884aa8d",
     "source": "Meta QZ",
     "sourceKey": "e570b06e-f24a-45ea-a7b2-12f32fa2ed1d",
@@ -10611,478 +11064,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "6f6652776f4d0f6aa4d7a564",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Welthandel 2026: KI-Boom treibt Wachstum trotz höherer Zölle",
-    "link": "https://onlinemarktplatz.de/294058/welthandel-2026/",
-    "pageDate": "Thu, 22 Oct 2026 07:32:32 +0000",
-    "publishedAt": "2026-10-22T07:32:32.000Z",
-    "detectedAt": "2026-10-22T07:36:01.449Z",
-    "deliveredAt": "2026-10-22T07:36:01.449Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4eff9394441d338335ad27d0",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Stromanbieter Grüüün stellt Belieferung ein: Verbraucherzentrale rät zu schnellem Handeln",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/stromanbieter-grueueuen-stellt-belieferung-ein-verbraucherzentrale-raet-zu-schnellem-handeln-126614",
-    "pageDate": "22.10.2026",
-    "publishedAt": "2026-10-22T12:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.440Z",
-    "deliveredAt": "2026-10-22T07:36:01.440Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "800e12082d0c0efec5b3abe5",
-    "source": "Forrester Press Newsroom",
-    "sourceKey": "src-b4a8f14e403e1f2f",
-    "sourceLabel": "Forrester",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Studien & Marktdaten",
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Forrester’s 2027 Asia Pacific Predictions: One In Three Large Enterprises Will Face A Shadow AI Agent Governance Problem",
-    "link": "https://www.forrester.com/press-newsroom/forrester-2027-asia-pacific-predictions/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-22T01:54:00.714Z",
-    "deliveredAt": "2026-10-22T01:54:00.714Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d279d9db58f6a046c564520d",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "WordPress: Sticky Header für Theme Purple",
-    "link": "https://demoshops.de/wordpress-sticky-header/",
-    "pageDate": "Wed, 21 Oct 2026 21:37:54 +0000",
-    "publishedAt": "2026-10-21T21:37:54.000Z",
-    "detectedAt": "2026-10-21T23:20:01.704Z",
-    "deliveredAt": "2026-10-21T23:20:01.704Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4040e1352921e04935caab45",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "KI-Spam in Kommentaren und Rezensionen erkennen",
-    "link": "https://demoshops.de/ki-spam-in-kommentaren-und-rezensionen-erkennen/",
-    "pageDate": "Wed, 21 Oct 2026 22:54:59 +0000",
-    "publishedAt": "2026-10-21T22:54:59.000Z",
-    "detectedAt": "2026-10-21T23:20:01.704Z",
-    "deliveredAt": "2026-10-21T23:20:01.704Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2024d150c2f09d0dbec423e9",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Musik Mohr Insolvenz: 6 Filialen, 0 Marktplätze, 1 Shop",
-    "link": "https://wortfilter.de/musik-mohr-insolvenz/",
-    "pageDate": "Wed, 21 Oct 2026 22:36:30 +0000",
-    "publishedAt": "2026-10-21T22:36:30.000Z",
-    "detectedAt": "2026-10-21T23:20:01.626Z",
-    "deliveredAt": "2026-10-21T23:20:01.626Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9c70072fdc60cefcc60c6970",
-    "source": "Pattern Newsroom",
-    "sourceKey": "src-fd172f245374fd81",
-    "sourceLabel": "Pattern",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce",
-      "KI",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Pattern Recognized as a 2026 Inc. Power Partner Award Winner for the Fifth Consecutive Year",
-    "link": "https://www.pattern.com/news/pattern-recognized-as-a-2026-inc-power-partner-award-winner-for-the-fifth-consecutive-year",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-21T23:20:01.600Z",
-    "deliveredAt": "2026-10-21T23:20:01.600Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Pattern QZ"
-    ]
-  },
-  {
-    "guid": "09dab56fc8093a3f4ffdb120",
-    "source": "Meta QZ",
-    "sourceKey": "e570b06e-f24a-45ea-a7b2-12f32fa2ed1d",
-    "sourceLabel": "Meta QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Meta Reports Third Quarter 2026 Results",
-    "link": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T20:11:16.119Z",
-    "deliveredAt": "2026-10-21T20:11:16.119Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b9f77336b70e1cc5b1df2fac",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Making It Possible for Agents to Shop on Behalf of Customers",
-    "link": "https://corporate.walmart.com/news/2026/10/Making-It-Possible-for-Agents-to-Shop-on-Behalf-of-Customers",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-21T20:11:16.101Z",
-    "deliveredAt": "2026-10-21T20:11:16.101Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "79b4feba568586d0ebe3aaec",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
-    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
-    "pageDate": "Oct. 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T20:11:16.090Z",
-    "deliveredAt": "2026-10-21T20:11:16.090Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fe493e598b965f68db778865",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Watch the trailer for ‘The Lord of the Rings: The Rings of Power’ Season 3, premiering November 11",
-    "link": "https://www.aboutamazon.com/news/entertainment/lord-of-the-rings-rings-of-power-season-3-prime-video",
-    "pageDate": "Oct. 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T20:11:16.090Z",
-    "deliveredAt": "2026-10-21T20:11:16.090Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1be5e035a3ad40d9aa753544",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Prime Video’s ‘Fourth Wing’ series casts Esther McGregor and Emilio Sakraya as leads",
-    "link": "https://www.aboutamazon.com/news/entertainment/fourth-wing-cast-violet-xaden-prime-video",
-    "pageDate": "Oct. 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T20:11:16.090Z",
-    "deliveredAt": "2026-10-21T20:11:16.090Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7fc4453a51c5e3b06f8e072f",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Everything to know about the ‘Fourth Wing’ series coming to Prime Video",
-    "link": "https://www.aboutamazon.com/news/entertainment/fourth-wing-series-prime-video",
-    "pageDate": "Oct. 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T20:11:16.090Z",
-    "deliveredAt": "2026-10-21T20:11:16.090Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "901398046893736baa7cb135",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Deutschland importierte im 1. Halbjahr 2026 gut 96 % weniger Waren aus Russland als im 1. Halbjahr 2021",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_N072_51_46.html",
-    "pageDate": "Wed, 21 Oct 2026 08:00:00 +0200",
-    "publishedAt": "2026-10-21T06:00:00.000Z",
-    "detectedAt": "2026-10-21T20:11:16.073Z",
-    "deliveredAt": "2026-10-21T20:11:16.073Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7fe41d158acdda5910b5f23d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "DSA-Verfahren: EU-Kommission nimmt Booking.com ins Visier",
-    "link": "https://wortfilter.de/booking-com-dsa-verfahren-eu-kommission/",
-    "pageDate": "Wed, 21 Oct 2026 16:57:01 +0000",
-    "publishedAt": "2026-10-21T16:57:01.000Z",
-    "detectedAt": "2026-10-21T20:11:16.050Z",
-    "deliveredAt": "2026-10-21T20:11:16.050Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "70fc189a02700a9884291718",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "eBay Stellenabbau: 1.100 Jobs weg – Dreilinden betroffen",
-    "link": "https://wortfilter.de/ebay-stellenabbau-oktober-2026/",
-    "pageDate": "Wed, 21 Oct 2026 18:19:06 +0000",
-    "publishedAt": "2026-10-21T18:19:06.000Z",
-    "detectedAt": "2026-10-21T20:11:16.050Z",
-    "deliveredAt": "2026-10-21T20:11:16.050Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "eb0dd206a2b01784617168f3",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "eBay OPEN 2026: Was die Händlerprogramme konkret bieten",
-    "link": "https://onlinemarktplatz.de/294519/ebay-open-2026-haendlerprogramme/",
-    "pageDate": "Wed, 21 Oct 2026 17:15:09 +0000",
-    "publishedAt": "2026-10-21T17:15:09.000Z",
-    "detectedAt": "2026-10-21T20:11:16.048Z",
-    "deliveredAt": "2026-10-21T20:11:16.048Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "dc1dbd9d20f0624cfdbf5a29",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Blink debuts its first 4K, spotlight, and pan-tilt cameras, plus an expanded XR lineup",
-    "link": "https://www.aboutamazon.com/news/devices/blink-4k-long-range-security-cameras",
-    "pageDate": "Oct. 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.302Z",
-    "deliveredAt": "2026-10-21T16:09:51.302Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "cd647b888eb13a3250e31c51",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Worldline and Klarna expand payment offering across Europe",
-    "link": "https://www.klarna.com/international/press/worldline-and-klarna-expand-payment-offering-across-europe/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a4035e0f11db908299feec14",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Cosmopolitan and Klarna host second virtual shopping event for Gen Z and millennials, “Hauliday by Cosmo x Klarna”",
-    "link": "https://www.klarna.com/international/press/cosmopolitan-and-klarna-host-second-virtual-shopping-event-for-gen-z-and-millennials-hauliday-by-cosmo-x-klarna/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a77a5f83dbb688b0c58f1b4e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Q1-Q4 2020 Financial Report",
-    "link": "https://www.klarna.com/international/press/klarna-q1-q4-2020-financial-report/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-21T16:09:51.288Z",
-    "deliveredAt": "2026-10-21T16:09:51.288Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
