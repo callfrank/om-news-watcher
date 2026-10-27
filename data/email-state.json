@@ -1,5 +1,24 @@
 {
   "sentGuids": [
+    "db9191fd21e67a2b2f0d4478",
+    "9f433fe1470c5a43f9b30b84",
+    "a389ca855c7e9e9a85a45d45",
+    "8ddab5b77ad445edccd7883b",
+    "e152e43206fe1699573a6572",
+    "9d30ea238aa354a6a814f4cf",
+    "aea8bd25aeb9b3de0fb694b2",
+    "879af0f92629d5194f847310",
+    "b6a0ccf6d5539c7e0eb71d05",
+    "5b638ce39b8fb4ec578bb323",
+    "ce3f77feb66d79802b031ce6",
+    "60691c1c1e7f98e4cb95fa5e",
+    "5cb5650f35e7a72984aedef9",
+    "29e06f21196a744a3436f0df",
+    "2748236814990682ab801ad9",
+    "b8c3a24b9dff071f7f42c45f",
+    "56c6a90b8772c39ddca32981",
+    "083e3a1699a506c7241c029f",
+    "4ae40ce1a2b7154807e54417",
     "e58d6bda31b32d30d05c490e",
     "4b0e489d9a0829f67b4f2c9c",
     "f9d3171ce4105d8d0c5cdaba",
@@ -2022,9 +2041,29 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastSlot": "2026-10-27-11",
-  "lastSentAt": "2026-10-27T08:24:49.394Z",
+  "lastSlot": "2026-10-27-15",
+  "lastSentAt": "2026-10-27T14:57:43.717Z",
   "handledGuids": [
+    "db9191fd21e67a2b2f0d4478",
+    "9f433fe1470c5a43f9b30b84",
+    "a389ca855c7e9e9a85a45d45",
+    "8ddab5b77ad445edccd7883b",
+    "e152e43206fe1699573a6572",
+    "9d30ea238aa354a6a814f4cf",
+    "aea8bd25aeb9b3de0fb694b2",
+    "879af0f92629d5194f847310",
+    "b6a0ccf6d5539c7e0eb71d05",
+    "5b638ce39b8fb4ec578bb323",
+    "ce3f77feb66d79802b031ce6",
+    "60691c1c1e7f98e4cb95fa5e",
+    "5cb5650f35e7a72984aedef9",
+    "29e06f21196a744a3436f0df",
+    "2748236814990682ab801ad9",
+    "b8c3a24b9dff071f7f42c45f",
+    "56c6a90b8772c39ddca32981",
+    "083e3a1699a506c7241c029f",
+    "4ae40ce1a2b7154807e54417",
+    "bed6ed9c02c1cbc11e031e55",
     "e58d6bda31b32d30d05c490e",
     "4b0e489d9a0829f67b4f2c9c",
     "f9d3171ce4105d8d0c5cdaba",
@@ -4751,12 +4790,12 @@
     "9a23f2adf580a3d6f7870a30",
     "315c0bc58771845aa135d8bc"
   ],
-  "lastEvaluatedAt": "2026-10-27T10:22:27.555Z",
+  "lastEvaluatedAt": "2026-10-27T14:57:43.717Z",
   "lastFilterSummary": {
     "readerSeen": 0,
     "historical": 0,
     "lowPriority": 0,
-    "quality": 0
+    "quality": 1
   },
-  "lastSentCount": 14
+  "lastSentCount": 19
 }
