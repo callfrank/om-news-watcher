@@ -1,5 +1,25 @@
 [
   {
+    "guid": "37d47cbff9bc8785b9426634",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "London, United Kingdom Oct 1 - 2, 2027 Amazon & Ecommerce Masters Summit 2027",
+    "link": "https://amzsummits.com/events/amazon-ecommerce-masters-summit-2027/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-27T23:47:44.734Z",
+    "deliveredAt": "2026-10-27T23:47:44.734Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "1087507ed54eae5b5b7a2661",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -11029,29 +11049,6 @@
     "link": "https://wortfilter.de/produktideen-testen-nachfrage-fertigung/",
     "pageDate": "Thu, 22 Oct 2026 05:31:42 +0000",
     "publishedAt": "2026-10-22T05:31:42.000Z",
-    "detectedAt": "2026-10-22T07:36:01.451Z",
-    "deliveredAt": "2026-10-22T07:36:01.451Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "94bcb396eedf60aecc025f6a",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Produktidee validieren: So prüfst du Nachfrage für 500 €",
-    "link": "https://wortfilter.de/produktidee-validieren-praxis-beispiele/",
-    "pageDate": "Thu, 22 Oct 2026 06:16:33 +0000",
-    "publishedAt": "2026-10-22T06:16:33.000Z",
     "detectedAt": "2026-10-22T07:36:01.451Z",
     "deliveredAt": "2026-10-22T07:36:01.451Z",
     "recovered": false,
