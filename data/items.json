@@ -1,5 +1,100 @@
 [
   {
+    "guid": "9771ac5384a1c8b3b23099b7",
+    "source": "Delivery Hero",
+    "sourceKey": "b864dcc2-4649-4d67-aca3-09c875193678",
+    "sourceLabel": "Delivery Hero",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Logistik",
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "[object Object] (PDF, opens in a new tab)",
+    "link": "https://ir.deliveryhero.com/news/delivery-hero-hits-one-billion-orders-in-q3-as-growth-accelerates-further-raises-full-year-guidance/570346a6-5fee-4330-b7e1-b5a40b8b9d4c",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-28T06:46:36.697Z",
+    "deliveredAt": "2026-10-28T06:46:36.697Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "46b15e90d664c9037b90508f",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "PayPal Q3-Zahlen 2026: Gewinn sinkt, Rückkäufe stützen EPS, Checkout wächst nur um ein Prozent",
+    "link": "https://onlinemarktplatz.de/294820/paypal-q3-zahlen-2026/",
+    "pageDate": "Wed, 28 Oct 2026 05:14:20 +0000",
+    "publishedAt": "2026-10-28T05:14:20.000Z",
+    "detectedAt": "2026-10-28T06:46:36.648Z",
+    "deliveredAt": "2026-10-28T06:46:36.648Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5fd540038483e75f8ffd1eb4",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Worldline Quartalszahlen Q3 2026: Händlererlöse stagnieren nach Gebühren",
+    "link": "https://onlinemarktplatz.de/294830/worldline-quartalszahlen-q3-2026/",
+    "pageDate": "Wed, 28 Oct 2026 05:34:17 +0000",
+    "publishedAt": "2026-10-28T05:34:17.000Z",
+    "detectedAt": "2026-10-28T06:46:36.648Z",
+    "deliveredAt": "2026-10-28T06:46:36.648Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d0705f8c47aefcdadf53f8cb",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "UPS Q3 2026: Höhere Paketerlöse treiben das Wachstum",
+    "link": "https://onlinemarktplatz.de/294831/ups-q3-2026/",
+    "pageDate": "Wed, 28 Oct 2026 06:00:58 +0000",
+    "publishedAt": "2026-10-28T06:00:58.000Z",
+    "detectedAt": "2026-10-28T06:46:36.648Z",
+    "deliveredAt": "2026-10-28T06:46:36.648Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "0b3e557f967e6e57c754677a",
     "source": "Amazon Seller Events",
     "sourceKey": "src-4a1336d19ad6bee0",
@@ -10953,94 +11048,6 @@
     "priority": 2,
     "title": "Navigate to Klarna goes live with J.P. Morgan Payments, opening flexible checkout to U.S. merchants",
     "link": "https://www.klarna.com/international/press/klarna-goes-live-with-j-p-morgan-payments-opening-flexible-checkout-to-u-s-merchants/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a12a6070b8e6fb6d40ed2bda",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Housecall Pro bring flexible payments to America’s skilled trades",
-    "link": "https://www.klarna.com/international/press/klarna-and-housecall-pro-bring-flexible-payments-to-americas-skilled-trades/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7ab809ed235484c46243a5d5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to The fairest of them all: Klarna supercharges memberships, removing fees, boosting cashback and increasing annual value to as much as €6,000",
-    "link": "https://www.klarna.com/international/press/the-fairest-of-them-all-klarna-supercharges-memberships-removing-fees-boosting-cashback-and-increasing-annual-value-to-as-much-as-eur6-000/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ca4a108a38a5d436ec6b1c53",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Reports Second Quarter 2026 Results",
-    "link": "https://www.klarna.com/international/press/klarna-reports-second-quarter-2026-results/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "53dd05ba4fe593e0eb6a8699",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches in-store with GARAGE and DYNAMITE across North America and the UK",
-    "link": "https://www.klarna.com/international/press/klarna-launches-in-store-with-garage-and-dynamite-across-north-america-and-the-uk/",
     "pageDate": "October 21, 2026",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "detectedAt": "2026-10-22T07:36:01.468Z",
