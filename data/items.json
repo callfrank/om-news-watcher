@@ -1,5 +1,252 @@
 [
   {
+    "guid": "4e57bd153a2fef9ba64439ff",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "“International partners strengthen our relevance for customers”",
+    "link": "https://over.bol.com/en/news/international-partners-strengthen-our-relevance-for-customers/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-28T09:01:02.956Z",
+    "deliveredAt": "2026-10-28T09:01:02.956Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4bdb4c01e541d8a70b799955",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Podcast: Von der Kundenanfrage zum Angebot – KI-Agenten im Handelsalltag",
+    "link": "https://digitalzentrumhandel.de/author/kinga-schumacher/",
+    "pageDate": "28.10.2026",
+    "publishedAt": "2026-10-28T12:00:00.000Z",
+    "detectedAt": "2026-10-28T09:01:02.949Z",
+    "deliveredAt": "2026-10-28T09:01:02.949Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f2fd9fbd6e7a264555f9df40",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "1,2 % mehr Krankenhausbehandlungen im Jahr 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_376_231.html",
+    "pageDate": "Wed, 28 Oct 2026 08:00:00 +0100",
+    "publishedAt": "2026-10-28T07:00:00.000Z",
+    "detectedAt": "2026-10-28T09:01:02.936Z",
+    "deliveredAt": "2026-10-28T09:01:02.936Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "edcc487d85a1b1c40d5db2ba",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Neue Homepage: HDE informiert über Lebensmittellieferkette und UTP-Richtlinie",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15403-neue-homepage-hde-informiert-ueber-lebensmittellieferkette-und-utp-richtlinie",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-28T09:01:02.907Z",
+    "deliveredAt": "2026-10-28T09:01:02.907Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5bb1f88dd3f493c87cc3bb0b",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EU Inc gründen: 48 Stunden, 100 Euro – aber nicht vor 2028",
+    "link": "https://wortfilter.de/eu-inc-gruenden/",
+    "pageDate": "Wed, 28 Oct 2026 08:14:09 +0000",
+    "publishedAt": "2026-10-28T08:14:09.000Z",
+    "detectedAt": "2026-10-28T09:01:02.906Z",
+    "deliveredAt": "2026-10-28T09:01:02.906Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1aac77009473f41926cd942c",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Adyen Quartalszahlen 2026: Wachstum und Abschied vom Margenziel",
+    "link": "https://onlinemarktplatz.de/294842/adyen-quartalszahlen-2026-q3-margenziel/",
+    "pageDate": "Wed, 28 Oct 2026 06:57:38 +0000",
+    "publishedAt": "2026-10-28T06:57:38.000Z",
+    "detectedAt": "2026-10-28T09:01:02.904Z",
+    "deliveredAt": "2026-10-28T09:01:02.904Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2409b7d602a681548cb53f88",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "KI-Produktbilder: Zwischen Kaufhilfe und Vertrauensproblem",
+    "link": "https://onlinemarktplatz.de/294607/ki-produktbilder-kaufhilfe-vertrauen/",
+    "pageDate": "Wed, 28 Oct 2026 07:27:24 +0000",
+    "publishedAt": "2026-10-28T07:27:24.000Z",
+    "detectedAt": "2026-10-28T09:01:02.904Z",
+    "deliveredAt": "2026-10-28T09:01:02.904Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a95c4fb8c98f73e830019bbc",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon erweitert FBA-Retourenlösung: Wann der Verzicht auf die Ware lohnt",
+    "link": "https://onlinemarktplatz.de/294814/fba-erstattung-ohne-ruecksendung/",
+    "pageDate": "Wed, 28 Oct 2026 08:04:32 +0000",
+    "publishedAt": "2026-10-28T08:04:32.000Z",
+    "detectedAt": "2026-10-28T09:01:02.904Z",
+    "deliveredAt": "2026-10-28T09:01:02.904Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b976bc8113f24328e39f8898",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom nimmt 72 neue Mobilfunkstandorte in Betrieb",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/10/telekom-nimmt-72-neue-mobilfunkstandorte-in-betrieb",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-28T09:01:02.891Z",
+    "deliveredAt": "2026-10-28T09:01:02.891Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "64b6f65143e4c742c3e84089",
+    "source": "SHEIN Newsroom",
+    "sourceKey": "src-7d01254fcbc3e629",
+    "sourceLabel": "SHEIN",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SHEIN Further Expands Marketplace Seller Compliance Education With Joint Training Session by US-Based UL Solutions",
+    "link": "https://www.sheingroup.com/newsroom/shein-further-expands-marketplace-seller-compliance-education-with-joint-training-session-by-us",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-28T09:01:02.888Z",
+    "deliveredAt": "2026-10-28T09:01:02.888Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "934ae68c4c2c11f78bd3b1a7",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EY-Studierendenstudie 2026, Fokusthema Branchen",
+    "link": "https://www.ey.com/de_de/newsroom/2026/10/ey-studierendenstudie-2026-branchen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-28T09:01:02.847Z",
+    "deliveredAt": "2026-10-28T09:01:02.847Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "9771ac5384a1c8b3b23099b7",
     "source": "Delivery Hero",
     "sourceKey": "b864dcc2-4649-4d67-aca3-09c875193678",
@@ -10806,248 +11053,6 @@
     "priority": 2,
     "title": "Navigate to Klarna teams up with Money Wellness to offer free financial health checks",
     "link": "https://www.klarna.com/international/press/klarna-teams-up-with-money-wellness-to-offer-free-financial-health-checks/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cbc71ffaa8ee299364d3e3c4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna submits application for U.S. banking license",
-    "link": "https://www.klarna.com/international/press/klarna-submits-application-for-u-s-banking-license/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e24f749779611a8d5fbedbac",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna lands Southwest Airlines, bringing flexible payments to millions of US travelers this fall",
-    "link": "https://www.klarna.com/international/press/klarna-lands-southwest-airlines-bringing-flexible-payments-to-millions-of-us-travelers-this-fall/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e38fd5479fe1f1bb07835449",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Flix and Klarna expand partnership to give millions of travelers across the U.S. and Europe more ways to pay",
-    "link": "https://www.klarna.com/international/press/flix-and-klarna-expand-partnership-to-give-millions-of-travelers-across-the-u-s-and-europe-more-ways-to-pay/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c44526432c58ce5262c20b9e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna adds Germany to its capital efficiency platform with €900m facility supporting €5bn of German Financing expansion",
-    "link": "https://www.klarna.com/international/press/klarna-adds-germany-to-its-capital-efficiency-platform-with-eur900m-facility-supporting-eur5bn-of-german-financing-expansion/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9cedceb485f992c460cfcf73",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna sinks its teeth into dental care with Curve Dental®, bringing flexible payments to practices nationwide",
-    "link": "https://www.klarna.com/international/press/klarna-sinks-its-teeth-into-dental-care-with-curve-dental-r-bringing-flexible-payments-to-practices-nationwide/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a0a5ad53bf270fab9a9e7bee",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna now available on Fragrance.com, bringing flexible payments to one of America's largest online beauty destinations",
-    "link": "https://www.klarna.com/international/press/klarna-now-available-on-fragrance-com-bringing-flexible-payments-to-one-of-americas-largest-online-beauty-destinations/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8f19f7527da8cb6195c9912a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to New regulation set to strengthen consumer trust in BNPL, survey shows",
-    "link": "https://www.klarna.com/international/press/new-regulation-set-to-strengthen-consumer-trust-in-bnpl-survey-shows/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "93978e883ad371d8d7bfe4eb",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna gets physical with lululemon, launching in-store in the UK & Germany",
-    "link": "https://www.klarna.com/international/press/klarna-gets-physical-with-lululemon-launching-in-store-in-the-uk-and-germany/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1e6c5bd991d3dd99bb8f2346",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to More choice and familiar convenience: Kleinanzeigen integrates Klarna Pay in full",
-    "link": "https://www.klarna.com/international/press/more-choice-and-familiar-convenience-kleinanzeigen-integrates-klarna-pay-in-full/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e8de4c70ecc29de1b6fad51e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to power Apple Upgrade, a new hardware leasing program offered by Apple",
-    "link": "https://www.klarna.com/international/press/klarna-to-power-apple-upgrade-a-new-hardware-leasing-program-offered-by-apple/",
-    "pageDate": "October 21, 2026",
-    "publishedAt": "2026-10-21T00:00:00.000Z",
-    "detectedAt": "2026-10-22T07:36:01.468Z",
-    "deliveredAt": "2026-10-22T07:36:01.468Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e1be3170f81252f1d88497d8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna goes live with J.P. Morgan Payments, opening flexible checkout to U.S. merchants",
-    "link": "https://www.klarna.com/international/press/klarna-goes-live-with-j-p-morgan-payments-opening-flexible-checkout-to-u-s-merchants/",
     "pageDate": "October 21, 2026",
     "publishedAt": "2026-10-21T00:00:00.000Z",
     "detectedAt": "2026-10-22T07:36:01.468Z",
