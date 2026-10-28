@@ -1,5 +1,45 @@
 [
   {
+    "guid": "0b3e557f967e6e57c754677a",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Online Event Oct 29, 2026 Amazing Days Online 2026",
+    "link": "https://amzsummits.com/events/amazing-days-online-2026/",
+    "pageDate": "Oct 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-28T02:37:51.898Z",
+    "deliveredAt": "2026-10-28T02:37:51.898Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "a6bb103c60a19dab60d216f1",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Leipzig, Germany Oct 29, 2026 Händlerbund SellerDay 2026",
+    "link": "https://amzsummits.com/events/handlerbund-sellerday-2026/",
+    "pageDate": "Oct 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-28T02:37:51.898Z",
+    "deliveredAt": "2026-10-28T02:37:51.898Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
     "guid": "37d47cbff9bc8785b9426634",
     "source": "Amazon Seller Events",
     "sourceKey": "src-4a1336d19ad6bee0",
@@ -11008,51 +11048,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a4ded0d5827853f8822c9395",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Logistik 2027: 1 Prozent Wachstum, Kosten bleiben hoch",
-    "link": "https://wortfilter.de/logistik-2027-wachstum-kosten/",
-    "pageDate": "Thu, 22 Oct 2026 05:18:01 +0000",
-    "publishedAt": "2026-10-22T05:18:01.000Z",
-    "detectedAt": "2026-10-22T07:36:01.451Z",
-    "deliveredAt": "2026-10-22T07:36:01.451Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bfad55ad7f1ddc0c2bb206bd",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Produktideen testen: Nachfrage vor der Fertigung prüfen",
-    "link": "https://wortfilter.de/produktideen-testen-nachfrage-fertigung/",
-    "pageDate": "Thu, 22 Oct 2026 05:31:42 +0000",
-    "publishedAt": "2026-10-22T05:31:42.000Z",
-    "detectedAt": "2026-10-22T07:36:01.451Z",
-    "deliveredAt": "2026-10-22T07:36:01.451Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
