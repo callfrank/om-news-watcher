@@ -1,5 +1,47 @@
 [
   {
+    "guid": "2b1bbcb5a2a79cd6cb41f1e8",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Exchange rates",
+    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+    "pageDate": "28 October 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T00:56:33.827Z",
+    "deliveredAt": "2026-10-29T00:56:33.827Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "da27cb2db053180e35655404",
+    "source": "Google Ads & Commerce Blog",
+    "sourceKey": "src-147cfee3d1361ebb",
+    "sourceLabel": "Google Ads & Commerce",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Ads in AI Mode expand to new markets.",
+    "link": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+    "pageDate": "Wed, 28 Oct 2026 21:30:00 +0000",
+    "publishedAt": "2026-10-28T21:30:00.000Z",
+    "detectedAt": "2026-10-29T00:56:33.796Z",
+    "deliveredAt": "2026-10-29T00:56:33.796Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "bd9a8b9753fef12c052c303a",
     "source": "FedEx QZ",
     "sourceKey": "d236a0bb-0b4a-4af9-b318-ae025fe0992f",
@@ -49,14 +91,11 @@
     "sourceKey": "src-9b45183be4818871",
     "sourceLabel": "eBay QZ",
     "groups": [
-      "Quartalszahlen",
-      "Firmen"
+      "Quartalszahlen"
     ],
     "tags": [
       "Studien & Marktdaten",
-      "Unternehmensstrategie",
-      "Quartalszahlen",
-      "E-Commerce"
+      "Unternehmensstrategie"
     ],
     "priority": 2,
     "title": "eBay Inc. Reports Third Quarter 2026 Results",
@@ -10487,50 +10526,6 @@
     "priority": 2,
     "title": "Navigate to Klarna appoints new General Manager for DACH Region",
     "link": "https://www.klarna.com/international/press/klarna-appoints-new-general-manager-for-dach-region/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2ea79ebb353709ad8a73d6c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to close its Tel Aviv office site",
-    "link": "https://www.klarna.com/international/press/klarna-to-close-its-tel-aviv-office-site/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7db746751f986813ca107f94",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Announcement of change to the Board of Directors at Klarna Bank AB",
-    "link": "https://www.klarna.com/international/press/announcement-of-change-to-the-board-of-directors-at-klarna-bank-ab/",
     "pageDate": "October 23, 2026",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "detectedAt": "2026-10-24T13:37:29.054Z",
