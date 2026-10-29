@@ -1,5 +1,1507 @@
 [
   {
+    "guid": "70b323afd22637a4d7d9c349",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Reflecting on a Decade of More Sustainable Sourcing at Walmart",
+    "link": "https://corporate.walmart.com/news/2026/10/reflecting-on-a-decade-of-more-sustainable-sourcing-at-walmart",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-29T23:37:54.261Z",
+    "deliveredAt": "2026-10-29T23:37:54.261Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "863c831e849e7cd80adb6318",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eBay Handelsupdate im 3. Quartal 2026",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-europaeische-ausrichtung-und-buendelt-fuehrung-seiner-eu-marktplaetze/",
+    "pageDate": "28.10.2026",
+    "publishedAt": "2026-10-28T12:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.257Z",
+    "deliveredAt": "2026-10-29T23:37:54.257Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "f12975ae6bba2bca39bd0498",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon.com announces third quarter results",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+    "pageDate": "Oct. 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.248Z",
+    "deliveredAt": "2026-10-29T23:37:54.248Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f975eda540d8d7376e347590",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Last chance to shop Amazon’s Holiday Beauty Event before it ends on November 1",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-holiday-beauty-event-2026",
+    "pageDate": "Oct. 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.248Z",
+    "deliveredAt": "2026-10-29T23:37:54.248Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "1a2190b57cd2729a230e8acf",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Highlights from Amazon's third quarter",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-q3-2026-earnings-preview",
+    "pageDate": "Oct. 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.248Z",
+    "deliveredAt": "2026-10-29T23:37:54.248Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c1b7380933db307264c2c0d1",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna says „Bună” to Romania with its interest-free “Pay in 3” service and shopping app",
+    "link": "https://www.klarna.com/international/press/klarna-says-buna-to-romania-with-its-interest-free-pay-in-3-service-and-shopping-app/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "86f4f085bc0ba7fc603e1051",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna unveils new tools enabling consumers to shop more consciously and take climate action",
+    "link": "https://www.klarna.com/international/press/klarna-unveils-new-tools-enabling-consumers-to-shop-more-consciously-and-take-climate-action/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0a80700c7b85d5689988fae4",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna achieves monumental growth in Canada, with 640k active consumers and 2M orders processed",
+    "link": "https://www.klarna.com/international/press/klarna-achieves-monumental-growth-in-canada-with-640k-active-consumers-and-2m-orders-processed/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "57c7849039351df0c4e20719",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna fashions a bigger partnership with MandM to take legendary brands international",
+    "link": "https://www.klarna.com/international/press/klarna-fashions-a-bigger-partnership-with-mandm-to-take-legendary-brands-international/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "18566405ca8639cea9000d4a",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Europe turns pink: Klarna announces huge growth in key European markets",
+    "link": "https://www.klarna.com/international/press/europe-turns-pink-klarna-announces-huge-growth-in-key-european-markets/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "8be5b6a181351f6f5fc79583",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna reports H1 2023 Results: smashes profitability target, continued growth ahead of e-commerce.",
+    "link": "https://www.klarna.com/international/press/klarna-reports-h1-2023-results-smashes-profitability-target-continued-growth-ahead-of-e-commerce/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "6e174da6ddcf78ad09ab6b49",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Shaping a circular future: Klarna debuts several new conscious shopping tools",
+    "link": "https://www.klarna.com/international/press/shaping-a-circular-future-klarna-debuts-several-new-conscious-shopping-tools/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "59d9fb76e891c17f6667e6a3",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Walmart Canada introduces flexible Buy Now, Pay Later payment option for Canadians shopping online",
+    "link": "https://www.klarna.com/international/press/walmart-canada-introduces-flexible-buy-now-pay-later-payment-option-for-canadians-shopping-online/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c3c2da9ef90decb265ada068",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna’s US Growth Soars with GMV Up Nearly 50% YOY in Q3",
+    "link": "https://www.klarna.com/international/press/klarnas-us-growth-soars-with-gmv-up-nearly-50-yoy-in-q3/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "83f7f92da0f8a1907432ef50",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna announces profitable quarter as it gears up for biggest shopping season yet",
+    "link": "https://www.klarna.com/international/press/klarna-announces-profitable-quarter-as-it-gears-up-for-biggest-shopping-season-yet/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "6f9f60e2191ec40ddec9936f",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna expands growth tools for retailers and creators through global rollout of Creator Shops and Ads Manager",
+    "link": "https://www.klarna.com/international/press/klarna-expands-growth-tools-for-retailers-and-creators-through-global-rollout-of-creator-shops-and-ads-manager/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0a29c5bf23c3c9eebf039c91",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to US shoppers opt for budget-savvy shopping during 2023 holidays, leveraging AI as credit debt concerns loom large",
+    "link": "https://www.klarna.com/international/press/us-shoppers-opt-for-budget-savvy-shopping-during-2023-holidays-leveraging-ai-as-credit-debt-concerns-loom-large/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "40e7609770b28626ef2ab83f",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Zalando join forces to enhance fashion retail experience in France, Italy and Spain",
+    "link": "https://www.klarna.com/international/press/klarna-and-zalando-join-forces-to-enhance-fashion-retail-experience-in-france-italy-and-spain/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "033626bb198c6917385ee8bf",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna targets $1 trillion travel sector with Cathay Pacific tie-up",
+    "link": "https://www.klarna.com/international/press/klarna-targets-1-trillion-travel-sector-with-cathay-pacific-tie-up/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "85cdcfc385b263f474cde1b8",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna’s annual trend report reveals ‘Fandom Fashion’ as a key shopping theme for 2023 as consumers celebrated the year of Beyoncé, Taylor Swift and Barbie, among others",
+    "link": "https://www.klarna.com/international/press/klarnas-annual-trend-report-reveals-fandom-fashion-as-a-key-shopping-theme-for-2023-as-consumers-celebrated-the-year-of-beyonce-taylor-swift-and-barbie-among-others/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "36ee72b8cbe0e452c8ad836d",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Matthew Miller appointed to Klarna Holding AB and Klarna Bank AB Boards",
+    "link": "https://www.klarna.com/international/press/matthew-miller-appointed-to-klarna-holding-ab-and-klarna-bank-ab-boards/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "408692ac49c843045bcb0d8b",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Majority of consumers see circularity as a money saver, says new report from Klarna",
+    "link": "https://www.klarna.com/international/press/majority-of-consumers-see-circularity-as-a-money-saver-says-new-report-from-klarna/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "337e1ac3ebd88f3151079745",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna enters booming subscription market with the launch of Klarna Plus in the US",
+    "link": "https://www.klarna.com/international/press/klarna-enters-booming-subscription-market-with-the-launch-of-klarna-plus-in-the-us/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0ae59468234a029d69f7635d",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to 2023 Spending decoded: Klarna's Money Story guides smarter budgeting",
+    "link": "https://www.klarna.com/international/press/2023-spending-decoded-klarnas-money-story-guides-smarter-budgeting/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "39a1abf8d1c790f464616026",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to New Klarna service takes on the US tech giants after awesome success with Swedish merchants",
+    "link": "https://www.klarna.com/international/press/new-klarna-service-takes-on-the-us-tech-giants-after-awesome-success-with-swedish-merchants/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4a1cac78c46b71d6ad395094",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Buy Now, Pay Early: 97.4% of Klarna Black Friday purchases paid off on time or early",
+    "link": "https://www.klarna.com/international/press/buy-now-pay-early-974-of-klarna-black-friday-purchases-paid-off-on-time-or-early/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "1319be815a27e47d230cb59f",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna teams up with Chicago cross-stitch designer Emma “Stitch Gawd” McKee on third-annual special edition sneaker for Benny The Bull",
+    "link": "https://www.klarna.com/international/press/klarna-teams-up-with-chicago-cross-stitch-designer-emma-stitch-gawd-mckee-on-third-annual-special-edition-sneaker-for-benny-the-bull/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "49973fd25d33533ec0642775",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna AI assistant handles two-thirds of customer service chats in its first month",
+    "link": "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "404b93f0047f548c9fb13856",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna reports full year 2023 earnings: growing GMV and approaching annual profitability",
+    "link": "https://www.klarna.com/international/press/klarna-reports-full-year-2023-earnings-growing-gmv-and-approaching-annual-profitability/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "fbb3dc683db557aa72be8c75",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna reveals 2023 sustainability progress: 25% GHG emissions reduction, $24.5M for planet health, and a surge in conscious shopping",
+    "link": "https://www.klarna.com/international/press/klarna-reveals-2023-sustainability-progress-25-ghg-emissions-reduction-245m-for-planet-health-and-a-surge-in-conscious-shopping/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "522a4d58997809da06b3709b",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Angel City Football Club to reserve seats in BMO Stadium for youth soccer players throughout the 2024 NWSL season, making the fan experience more accessible",
+    "link": "https://www.klarna.com/international/press/klarna-and-angel-city-football-club-to-reserve-seats-in-bmo-stadium-for-youth-soccer-players-throughout-the-2024-nwsl-season-making-the-fan-experience-more-accessible/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "79bd33d96a8716e8c5d02a7a",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna ‘Wikipink’ challenges broken US credit system with transparent data",
+    "link": "https://www.klarna.com/international/press/klarna-wikipink-challenges-broken-us-credit-system-with-transparent-data/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "39434ea2cfd51ae1bf014c0f",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Andrew Reed appointed to Klarna Holding AB and Klarna Bank AB Boards",
+    "link": "https://www.klarna.com/international/press/andrew-reed-appointed-to-klarna-holding-ab-and-klarna-bank-ab-boards/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4ef1a064dab175e857ab3358",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to New and improved Klarna Card announced in the US, empowering smarter spending and greater financial control",
+    "link": "https://www.klarna.com/international/press/new-and-improved-klarna-card-announced-in-the-us-empowering-smarter-spending-and-greater-financial-control/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "9b0f4e8b8c8f6cfd1afbef94",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Milkywire open global biodiversity fund to other companies",
+    "link": "https://www.klarna.com/international/press/klarna-and-milkywire-open-global-biodiversity-fund-to-other-companies/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7a18ce7161cb94bcc8ba506f",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna expands global partnership with Expedia Group, offering flexible payments to US consumers",
+    "link": "https://www.klarna.com/international/press/klarna-expands-global-partnership-with-expedia-group-offering-flexible-payments-to-us-consumers/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0fc05a980c2cc8ff7ca28b2f",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna harnesses the power of AI to produce ‘The Untrend Report’, identifying the list of trend-defying products",
+    "link": "https://www.klarna.com/international/press/klarna-harnesses-the-power-of-ai-to-produce-the-untrend-report-identifying-the-list-of-trend-defying-products/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "9bcfdd8afac4bd6ddaa7a9d4",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Uber announce global partnership",
+    "link": "https://www.klarna.com/international/press/klarna-and-uber-announce-global-partnership/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d0401d8b7c79122af77a7805",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna boosts climate fund with $2m as it unveils new CO2 removal innovators to receive funding and doubles its internal carbon tax",
+    "link": "https://www.klarna.com/international/press/klarna-boosts-climate-fund-with-2m-as-it-unveils-new-co2-removal-innovators-to-receive-funding-and-doubles-its-internal-carbon-tax/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "143bf49dd758cd95338d0eb3",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Why Klarna does not report BNPL payments to US credit bureaus",
+    "link": "https://www.klarna.com/international/press/why-klarna-does-not-report-bnpl-payments-to-us-credit-bureaus/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "dd0876d9211719a82afc809b",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to 90% of Klarna staff are using AI daily - game changer for productivity",
+    "link": "https://www.klarna.com/international/press/90-of-klarna-staff-are-using-ai-daily-game-changer-for-productivity/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "9508418e498fa8b76f65364b",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to The CFPB should recognise key differences between BNPL and credit cards.",
+    "link": "https://www.klarna.com/international/press/the-cfpb-should-recognise-key-differences-between-bnpl-and-credit-cards/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e30ece7961ae8bd8f0ad035c",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to AI helps Klarna cut marketing agency spend by 25% and run more campaigns",
+    "link": "https://www.klarna.com/international/press/ai-helps-klarna-cut-marketing-agency-spend-by-25-and-run-more-campaigns/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "3e016d55de877e0e05999cb9",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Announces Profitable Start to 2024 as It Sets the Stage for a Year of Innovation and Growth",
+    "link": "https://www.klarna.com/international/press/klarna-announces-profitable-start-to-2024-as-it-sets-the-stage-for-a-year-of-innovation-and-growth/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "87442aeaa861930c0de3437f",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to New owners to take Klarna Checkout to the next level",
+    "link": "https://www.klarna.com/international/press/new-owners-to-take-klarna-checkout-to-the-next-level/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "41467c6a93fe5ea71723559f",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Plus soars to 100,000 subscribers in the US",
+    "link": "https://www.klarna.com/international/press/klarna-plus-soars-to-100000-subscribers-in-the-us/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e540996be848b9581cc8752c",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna announces Rep Her initiative addressing gender-based disparities in women's sports merchandise accessibility",
+    "link": "https://www.klarna.com/international/press/klarna-announces-rep-her-initiative-addressing-gender-based-disparities-in-womens-sports-merchandise-accessibility/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "41ef2b9ee0358052dd6e62e5",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Britons are struggling with financial language fluency, and it’s costing the nation over £6B per annum",
+    "link": "https://www.klarna.com/international/press/britons-are-struggling-with-financial-language-fluency-and-its-costing-the-nation-over-ps6b-per-annum/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4866c1b48c8a3808f373f1f1",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Partners with Adobe Commerce to Extend Flexible Payment Options to Merchants",
+    "link": "https://www.klarna.com/international/press/klarna-partners-with-adobe-commerce-to-extend-flexible-payment-options-to-merchants/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "bc7643f6227bbfd147ad4a90",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna combines Sofortüberweisung with Klarna Payments to bring customers and merchants the best of both worlds",
+    "link": "https://www.klarna.com/international/press/klarna-combines-sofortuberweisung-with-klarna-payments-to-bring-customers-and-merchants-the-best-of-both-worlds/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0af6f55ae16d8d92e7a5eaf0",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna customers can ‘save now, pay later’ with new balance and cashback features",
+    "link": "https://www.klarna.com/international/press/klarna-customers-can-save-now-pay-later-with-new-balance-and-cashback-features/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0a092286a9e9e11522242252",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna acquires Laybuy in New Zealand",
+    "link": "https://www.klarna.com/international/press/klarna-acquires-laybuy-in-new-zealand/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "45daee304ea35b0d8b2c1a30",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna H1 earnings: Compounding growth generates 27% revenue rise, SEK 1.1 billion profit improvement, and over SEK 1 trillion annualized GMV",
+    "link": "https://www.klarna.com/international/press/klarna-h1-earnings-compounding-growth-generates-27-revenue-rise-sek-11-billion-profit-improvement-and-over-sek-1-trillion-annualized-gmv/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5c9b6272c97831a17d031ae8",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna partners with UATP to tap the $1 trillion air travel industry",
+    "link": "https://www.klarna.com/international/press/klarna-partners-with-uatp-to-tap-the-1-trillion-air-travel-industry/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ccd7830ad4bc006a0cdd52cf",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Shopping made smarter: Klarna adds more AI features to its assistant powered by OpenAI",
+    "link": "https://www.klarna.com/international/press/shopping-made-smarter-klarna-adds-more-ai-features-to-its-assistant-powered-by-openai/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f4c925ed0223e833a3ea0762",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Xero bring ‘buy now, pay later’ to small businesses",
+    "link": "https://www.klarna.com/international/press/klarna-and-xero-bring-buy-now-pay-later-to-small-businesses/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0aff773bc0ef67ae88081817",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Adyen and Klarna go to the shops: Klarna launches on Adyen in-store terminals across Europe, North America and Australia",
+    "link": "https://www.klarna.com/international/press/adyen-and-klarna-go-to-the-shops-klarna-launches-on-adyen-in-store-terminals-across-europe-north-america-and-australia/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "24689bfa065b0c103e2ca69c",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna now an official Apple reseller with the launch of new storefront, offering the latest Apple products and a new flexible monthly payment option",
+    "link": "https://www.klarna.com/international/press/klarna-now-an-official-apple-reseller-with-the-launch-of-new-storefront-offering-the-latest-apple-products-and-a-new-flexible-monthly-payment-option/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d988e6ee3fba23c8331d4c01",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna cashback drives $100m-worth of sales in just six weeks.",
+    "link": "https://www.klarna.com/international/press/klarna-cashback-drives-100m-worth-of-sales-in-just-six-weeks/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "20b90dfa02dba8d1221f2729",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Merchants Continue To Choose Klarna, With 100,000 New Retailers Joining Klarna’s Network in One Year",
+    "link": "https://www.klarna.com/international/press/merchants-continue-to-choose-klarna-with-100000-new-retailers-joining-klarnas-network-in-one-year/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d94a43d95b82bc465eeb4b6d",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna fuels £30bn expansion with UK loans partnership",
+    "link": "https://www.klarna.com/international/press/klarna-fuels-ps30bn-expansion-with-uk-loans-partnership/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f4bd6a99b90320f7e3b1fcd7",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Rite Aid Partners with Klarna to Offer Pay in 4 Option in All Stores",
+    "link": "https://www.klarna.com/international/press/rite-aid-partners-with-klarna-to-offer-pay-in-4-option-in-all-stores/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7f34b1ff8babb4b4fdd15fa6",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna to fuel £30bn expansion with UK loans partnership",
+    "link": "https://www.klarna.com/international/press/klarna-to-fuel-ps30bn-expansion-with-uk-loans-partnership/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.225Z",
+    "deliveredAt": "2026-10-29T23:37:54.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "34adcd0ad796a5fa0d981288",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Payment Options Now Available at Checkout on Apple Pay In-App and Online",
+    "link": "https://www.klarna.com/international/press/klarna-payment-options-now-available-at-checkout-on-apple-pay-in-app-and-online/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T23:37:54.224Z",
+    "deliveredAt": "2026-10-29T23:37:54.224Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "758af2cd9a2f51eaa8e91aba",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "D&W ist wieder insolvent: Was hinter der Pleite steckt",
+    "link": "https://wortfilter.de/dw-insolvenz-2026/",
+    "pageDate": "Thu, 29 Oct 2026 21:55:59 +0000",
+    "publishedAt": "2026-10-29T21:55:59.000Z",
+    "detectedAt": "2026-10-29T23:37:54.201Z",
+    "deliveredAt": "2026-10-29T23:37:54.201Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c17241a66f9eeca9f25c7f74",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Quartalszahlen Q3 2026: 46,5 Mrd. $ von Händlern kassiert",
+    "link": "https://wortfilter.de/amazon-quartalszahlen-q3-2026/",
+    "pageDate": "Thu, 29 Oct 2026 22:27:23 +0000",
+    "publishedAt": "2026-10-29T22:27:23.000Z",
+    "detectedAt": "2026-10-29T23:37:54.201Z",
+    "deliveredAt": "2026-10-29T23:37:54.201Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3302906ff1ea23c4544ba8e3",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Patrick Stewart gestorben: Picard-Merch vor Weihnachtsboom",
+    "link": "https://wortfilter.de/patrick-stewart-gestorben/",
+    "pageDate": "Thu, 29 Oct 2026 22:47:53 +0000",
+    "publishedAt": "2026-10-29T22:47:53.000Z",
+    "detectedAt": "2026-10-29T23:37:54.201Z",
+    "deliveredAt": "2026-10-29T23:37:54.201Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "928414e0bca470b14772f5c8",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Forrester Research Reports 2026 Third-Quarter Financial Results",
+    "link": "https://www.forrester.com/press-newsroom/forrester-research-reports-2026-third-quarter-financial-results/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-29T23:37:54.133Z",
+    "deliveredAt": "2026-10-29T23:37:54.133Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "7528133adfe2ae4ad3437b53",
     "source": "Handelskraft",
     "sourceKey": "src-6c1c923af06aedde",
@@ -67,27 +1569,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "9a940f3c64f0d409596942af",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eBay Handelsupdate im 3. Quartal 2026",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-deutschland-und-der-1-fc-union-berlin-gehen-in-die-verlaengerung-premiere-fuer-ebay-live-auf-der-ifa/",
-    "pageDate": "28.10.2026",
-    "publishedAt": "2026-10-28T12:00:00.000Z",
-    "detectedAt": "2026-10-29T19:44:28.342Z",
-    "deliveredAt": "2026-10-29T19:44:28.342Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "f7b66f0c70c4c9ea14526fbc",
@@ -9527,1441 +11008,6 @@
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.463Z",
     "deliveredAt": "2026-10-29T14:19:35.463Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bc2446780a4430da99824b0d",
-    "source": "Mercado Libre News & Events",
-    "sourceKey": "src-d4f0ba766aafaf20",
-    "sourceLabel": "Mercado Libre",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Payment",
-      "Studien & Marktdaten",
-      "Events"
-    ],
-    "priority": 2,
-    "title": "Document TitleMercadoLibre, Inc. to Report Third Quarter 2026 Financial Results",
-    "link": "https://http2.mlstatic.com/storage/ml-cms-backend/cms-documents-prod/5dbba919-721c-4916-bb91-c76a8713f7f0/7bd68725-6c28-42b0-83e4-1e4c844bbad9/MELI_to_Report_Third_Quarter_2026_Financial_Results.docx.pdf",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-29T14:19:35.422Z",
-    "deliveredAt": "2026-10-29T14:19:35.422Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "03a72191eacfbd85f2ca6025",
-    "source": "TPG QZ",
-    "sourceKey": "src-29d9014e1b396d31",
-    "sourceLabel": "TPG QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Open news detail page",
-    "link": "https://corporate.the-platform-group.com/news/the-platform-group-strengthens-its-growth-platform-through-new-service-companies-centralised-procurement-and-further/4932d0fa-ee0c-4e18-aef8-a4ec55e8c79f?disposition=inline",
-    "pageDate": "Oct 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T12:02:01.925Z",
-    "deliveredAt": "2026-10-29T12:02:01.925Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e68b4e5cc942dbd9127e9e7f",
-    "source": "bol",
-    "sourceKey": "src-4a0926dd52e60011",
-    "sourceLabel": "bol",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Logistik",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Meet Nele: how bol Retail Media makes a difference in Belgium",
-    "link": "https://over.bol.com/en/news/meet-nele-how-bol-retail-media-makes-a-difference-in-belgium/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-29T12:02:01.905Z",
-    "deliveredAt": "2026-10-29T12:02:01.905Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ff87e412877e98fac9e25eb5",
-    "source": "Ifhkoeln",
-    "sourceKey": "src-ce9e70954500f828",
-    "sourceLabel": "Ifhkoeln",
-    "groups": [
-      "Research"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Spontan gekauft, vielfach kontaktiert: Im Schnitt 43 erinnerte Kontakte",
-    "link": "https://www.ifhkoeln.de/spontan-gekauft-vielfach-kontaktiert-im-schnitt-43-erinnerte-kontakte/",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T12:02:01.902Z",
-    "deliveredAt": "2026-10-29T12:02:01.902Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "840abdc2508911c1232f2032",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Europeans’ purchasing power rises to 21,153 euros in 2026",
-    "link": "https://nielseniq.com/global/en/news-center/2026/europeans-purchasing-power-rises-to-21153-euros-in-2026/",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T12:02:01.900Z",
-    "deliveredAt": "2026-10-29T12:02:01.900Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b4a132484d64a41196889fe5",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "NIQ and Google Partner to Advance Agentic Commerce",
-    "link": "https://nielseniq.com/global/en/news-center/2026/niq-and-google-partner-to-advance-agentic-commerce/",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T12:02:01.900Z",
-    "deliveredAt": "2026-10-29T12:02:01.900Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2c9cda23a69898547065c67e",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Veröffentlichte Entscheidung: Freigabe des mittelbaren Erwerbs der Sidra Wasserchemie GmbH durch die Kemira Oyj (Entscheidung vom 18. September 2026)",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/AktuelleMeldungen/2026/10_29_2026_Entscheidung_Kemira_Sidra.html?nn=52004",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T12:02:01.886Z",
-    "deliveredAt": "2026-10-29T12:02:01.886Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6efbb07df903300c9131b0cb",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Press conference today",
-    "link": "https://www.ecb.europa.eu/press/press_conference/html/index.en.html",
-    "pageDate": "29 October 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T12:02:01.857Z",
-    "deliveredAt": "2026-10-29T12:02:01.857Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1268c8eaabe924cbb58977a3",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "eBay Kombirabatte: 3 Rabattstufen und eine Retouren-Falle",
-    "link": "https://wortfilter.de/ebay-kombirabatte/",
-    "pageDate": "Thu, 29 Oct 2026 07:39:12 +0000",
-    "publishedAt": "2026-10-29T07:39:12.000Z",
-    "detectedAt": "2026-10-29T12:02:01.848Z",
-    "deliveredAt": "2026-10-29T12:02:01.848Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "87761b898d7dfa60227f2d9a",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Stability Stacking: Personal gewinnen mit Beständigkeit",
-    "link": "https://wortfilter.de/stability-stacking-onlinehaendler-personal/",
-    "pageDate": "Thu, 29 Oct 2026 08:11:21 +0000",
-    "publishedAt": "2026-10-29T08:11:21.000Z",
-    "detectedAt": "2026-10-29T12:02:01.848Z",
-    "deliveredAt": "2026-10-29T12:02:01.848Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "aa74df70860a8c436bc202ed",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Amazon Shop Direct: 250 Millionen Angebote fremder Shops",
-    "link": "https://wortfilter.de/amazon-shop-direct-externe-shops-deutschland/",
-    "pageDate": "Thu, 29 Oct 2026 08:34:49 +0000",
-    "publishedAt": "2026-10-29T08:34:49.000Z",
-    "detectedAt": "2026-10-29T12:02:01.848Z",
-    "deliveredAt": "2026-10-29T12:02:01.848Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6fd01ed7cb027b4fdf7df388",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "eBay Quartalszahlen Q3 2026: USA +27 %, Ausland nur +4 %",
-    "link": "https://wortfilter.de/ebay-quartalszahlen-q3-2026/",
-    "pageDate": "Thu, 29 Oct 2026 09:19:02 +0000",
-    "publishedAt": "2026-10-29T09:19:02.000Z",
-    "detectedAt": "2026-10-29T12:02:01.848Z",
-    "deliveredAt": "2026-10-29T12:02:01.848Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3759f823ee22f2ade2e0e257",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Black Week: 44 % mehr Bewertungen – bevor das Paket da ist",
-    "link": "https://wortfilter.de/black-week-bewertungen-trustpilot/",
-    "pageDate": "Thu, 29 Oct 2026 09:39:54 +0000",
-    "publishedAt": "2026-10-29T09:39:54.000Z",
-    "detectedAt": "2026-10-29T12:02:01.848Z",
-    "deliveredAt": "2026-10-29T12:02:01.848Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "46059183e32fafdf948fb835",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon Backend-Suchbegriffe: Die Byte-Grenze bei deutschen Listings",
-    "link": "https://onlinemarktplatz.de/294813/amazon-backend-suchbegriffe-byte-grenze/",
-    "pageDate": "Thu, 29 Oct 2026 07:31:38 +0000",
-    "publishedAt": "2026-10-29T07:31:38.000Z",
-    "detectedAt": "2026-10-29T12:02:01.846Z",
-    "deliveredAt": "2026-10-29T12:02:01.846Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4061c144ba46e79fba0e8154",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Shopify Fall Edition 2026 erweitert KI-Verkauf – mit Zugangshürden",
-    "link": "https://onlinemarktplatz.de/294887/shopify-fall-edition-2026-ki-verkauf/",
-    "pageDate": "Thu, 29 Oct 2026 07:58:08 +0000",
-    "publishedAt": "2026-10-29T07:58:08.000Z",
-    "detectedAt": "2026-10-29T12:02:01.846Z",
-    "deliveredAt": "2026-10-29T12:02:01.846Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6352caa8bda587295df653b0",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Quartalszahlen im E-Commerce: Wachstum mit Einschränkungen",
-    "link": "https://onlinemarktplatz.de/294888/quartalszahlen-im-e-commerce-q3-2026/",
-    "pageDate": "Thu, 29 Oct 2026 08:43:57 +0000",
-    "publishedAt": "2026-10-29T08:43:57.000Z",
-    "detectedAt": "2026-10-29T12:02:01.846Z",
-    "deliveredAt": "2026-10-29T12:02:01.846Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9107fce22096826b54d8a12d",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Podcast: Wie persönliche Beratung das Geschäftsmodell prägt",
-    "link": "https://onlinemarktplatz.de/294615/massnahme-podcast-beratung/",
-    "pageDate": "Thu, 29 Oct 2026 11:24:13 +0000",
-    "publishedAt": "2026-10-29T11:24:13.000Z",
-    "detectedAt": "2026-10-29T12:02:01.846Z",
-    "deliveredAt": "2026-10-29T12:02:01.846Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "89ca03612f882d0420626111",
-    "source": "Deloitte",
-    "sourceKey": "src-ee546a6472b48b72",
-    "sourceLabel": "Deloitte",
-    "groups": [
-      "Research"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "CFO-Survey: Hohe Erwartungen an KI, aber noch wenig Transparenz bei Nutzen und Kosten",
-    "link": "https://www.deloitte.com/de/de/about/press-room/cfo-survey-hohe-erwartungen-an-ki-aber-noch-wenig-transparenz-bei-nutzen-und-kosten1.html",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-29T12:02:01.844Z",
-    "deliveredAt": "2026-10-29T12:02:01.844Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8acceef70a7fd49f929a6e26",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Black Friday – So gelingt die Schnäppchenjagd",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/black-friday-so-gelingt-die-schnaeppchenjagd-126789",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T12:02:01.841Z",
-    "deliveredAt": "2026-10-29T12:02:01.841Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8600979eef7bcf4cda04b1f5",
-    "source": "Verbraucherzentrale Hamburg Presse",
-    "sourceKey": "src-17979740ef54054e",
-    "sourceLabel": "Verbraucherzentrale Hamburg",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Warmwasser clever nutzen und Kosten sparen",
-    "link": "https://www.vzhh.de/presse/warmwasser-clever-nutzen-kosten-sparen",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-29T12:02:01.840Z",
-    "deliveredAt": "2026-10-29T12:02:01.840Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "229698efd9f95609d11244ae",
-    "source": "VZBV Pressemitteilungen",
-    "sourceKey": "src-89cdb65f3f059fb8",
-    "sourceLabel": "VZBV",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "29.10.2026Keine Werbung für Chips, Cola und Co.",
-    "link": "https://www.vzbv.de/pressemitteilungen/keine-werbung-fuer-chips-cola-und-co",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T12:02:01.837Z",
-    "deliveredAt": "2026-10-29T12:02:01.837Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f1a4b92fa054ddbeec91a917",
-    "source": "VZBV Pressemitteilungen",
-    "sourceKey": "src-89cdb65f3f059fb8",
-    "sourceLabel": "VZBV",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "29.10.2026Verbraucherzentrale prüft Sammelklage gegen Stromanbieter grüüün",
-    "link": "https://www.vzbv.de/pressemitteilungen/verbraucherzentrale-prueft-sammelklage-gegen-stromanbieter-grueueuen",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T12:02:01.837Z",
-    "deliveredAt": "2026-10-29T12:02:01.837Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9795eef52140de22a50d5716",
-    "source": "eco Presse",
-    "sourceKey": "src-b784bc4111de43c5",
-    "sourceLabel": "eco",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eco veröffentlicht Appel",
-    "link": "https://www.eco.de/presse/digital-gipfel-eco-veroeffentlicht-appell-bundesregierung-darf-ki-chance-nicht-verschlafen/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-29T12:02:01.781Z",
-    "deliveredAt": "2026-10-29T12:02:01.781Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "492d3a39f8e1da2cdfbe85b3",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "Kommunen in tiefster Finanzkrise seit der Wiedervereinigung // ZEW-Analyse zeigt: Stark steigende Sozialausgaben gefährden kommunale Investitionen und Handlungsspielräume",
-    "link": "https://www.zew.de/presse/pressearchiv/kommunen-in-tiefster-finanzkrise-seit-der-wiedervereinigung",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T07:05:30.158Z",
-    "deliveredAt": "2026-10-29T07:05:30.158Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "41ec36c708f938b0e7623f53",
-    "source": "Gfu",
-    "sourceKey": "src-e47d0ee60e79a7e8",
-    "sourceLabel": "Gfu",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Der Handel zwischen Algorithmus und Nähe",
-    "link": "https://gfu.de/der-handel-zwischen-algorithmus-und-naehe/",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T07:05:30.157Z",
-    "deliveredAt": "2026-10-29T07:05:30.157Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d4e0bffe8be6a37a080b5360",
-    "source": "Mittelstand Digital",
-    "sourceKey": "src-3fbff5b0f3b52fe1",
-    "sourceLabel": "Mittelstand Digital",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Selbstlerneinheit: Digitale Technologien im stationären Handel",
-    "link": "https://digitalzentrumhandel.de/author/lena-peters/",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T07:05:30.153Z",
-    "deliveredAt": "2026-10-29T07:05:30.153Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9cb7a3a09a3c1fd2818ab46b",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Integrierte kommunale Schulden steigen im Jahr 2025 um 9,9 %",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_378_713.html",
-    "pageDate": "Thu, 29 Oct 2026 08:00:00 +0100",
-    "publishedAt": "2026-10-29T07:00:00.000Z",
-    "detectedAt": "2026-10-29T07:05:30.142Z",
-    "deliveredAt": "2026-10-29T07:05:30.142Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "10eb2595c895ee3ceba97d23",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "65 Jahre Anwerbeabkommen mit der Türkei: 2,6 Millionen Menschen in Deutschland mit türkischer Einwanderungsgeschichte",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_377_122.html",
-    "pageDate": "Thu, 29 Oct 2026 08:00:00 +0100",
-    "publishedAt": "2026-10-29T07:00:00.000Z",
-    "detectedAt": "2026-10-29T07:05:30.141Z",
-    "deliveredAt": "2026-10-29T07:05:30.141Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "80b7d9c8b82eb2e89328da50",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Hagen Grote Übernahme: Der Käufer sammelt Pleite-Marken",
-    "link": "https://wortfilter.de/hagen-grote-uebernahme-froelich-kaufmann/",
-    "pageDate": "Thu, 29 Oct 2026 05:36:56 +0000",
-    "publishedAt": "2026-10-29T05:36:56.000Z",
-    "detectedAt": "2026-10-29T07:05:30.113Z",
-    "deliveredAt": "2026-10-29T07:05:30.113Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6d046738baed1334171538c2",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "eBay Q3 2026: Umsatz wächst zweistellig, Marge sinkt",
-    "link": "https://onlinemarktplatz.de/294869/ebay-q3-2026-umsatz-waechst-marge-sinkt/",
-    "pageDate": "Thu, 29 Oct 2026 03:32:57 +0000",
-    "publishedAt": "2026-10-29T03:32:57.000Z",
-    "detectedAt": "2026-10-29T07:05:30.111Z",
-    "deliveredAt": "2026-10-29T07:05:30.111Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2c7e1e956130b8f5611c27da",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "FedEx: Treibstoffzuschläge stützen Wachstum im dritten Kalenderquartal",
-    "link": "https://onlinemarktplatz.de/294879/fedex-quartalsbericht-q3-2026/",
-    "pageDate": "Thu, 29 Oct 2026 03:56:00 +0000",
-    "publishedAt": "2026-10-29T03:56:00.000Z",
-    "detectedAt": "2026-10-29T07:05:30.111Z",
-    "deliveredAt": "2026-10-29T07:05:30.111Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "999de1cfa880edc2366f0943",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Wero im Alltag: Fortschritte, Kosten und offene Fragen",
-    "link": "https://onlinemarktplatz.de/294645/wero-im-alltag-entwicklung-2026/",
-    "pageDate": "Thu, 29 Oct 2026 07:01:04 +0000",
-    "publishedAt": "2026-10-29T07:01:04.000Z",
-    "detectedAt": "2026-10-29T07:05:30.111Z",
-    "deliveredAt": "2026-10-29T07:05:30.111Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2b1bbcb5a2a79cd6cb41f1e8",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Exchange rates",
-    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-    "pageDate": "28 October 2026",
-    "publishedAt": "2026-10-28T00:00:00.000Z",
-    "detectedAt": "2026-10-29T00:56:33.827Z",
-    "deliveredAt": "2026-10-29T00:56:33.827Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "da27cb2db053180e35655404",
-    "source": "Google Ads & Commerce Blog",
-    "sourceKey": "src-147cfee3d1361ebb",
-    "sourceLabel": "Google Ads & Commerce",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Ads in AI Mode expand to new markets.",
-    "link": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
-    "pageDate": "Wed, 28 Oct 2026 21:30:00 +0000",
-    "publishedAt": "2026-10-28T21:30:00.000Z",
-    "detectedAt": "2026-10-29T00:56:33.796Z",
-    "deliveredAt": "2026-10-29T00:56:33.796Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bd9a8b9753fef12c052c303a",
-    "source": "FedEx QZ",
-    "sourceKey": "d236a0bb-0b4a-4af9-b318-ae025fe0992f",
-    "sourceLabel": "FedEx QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Logistik"
-    ],
-    "priority": 2,
-    "title": "FedEx Q1 2027 Earnings Call",
-    "link": "https://investors.fedex.com/news-and-events/upcoming-events/upcoming-events-details/2027/FedEx-Q1-2027-Earnings-Call/default.aspx",
-    "pageDate": "Tuesday, April 20, 2027 at 04:30 PM CT",
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.990Z",
-    "deliveredAt": "2026-10-28T21:04:38.990Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "00f86e82c7ffa9f38e16638c",
-    "source": "FedEx QZ",
-    "sourceKey": "d236a0bb-0b4a-4af9-b318-ae025fe0992f",
-    "sourceLabel": "FedEx QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Logistik"
-    ],
-    "priority": 2,
-    "title": "CY26 Q3 Earnings Release(opens in new window)",
-    "link": "https://s21.q4cdn.com/665674268/files/doc_financials/2026/q3_cy/FedEx-Q3-2026-Earnings-Release.pdf",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.990Z",
-    "deliveredAt": "2026-10-28T21:04:38.990Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1a797fb6451ef95a33b150b7",
-    "source": "eBay QZ",
-    "sourceKey": "src-9b45183be4818871",
-    "sourceLabel": "eBay QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "eBay Inc. Reports Third Quarter 2026 Results",
-    "link": "https://investors.ebayinc.com/investor-news/press-release-details/2026/eBay-Inc--Reports-Third-Quarter-2026-Results/default.aspx",
-    "pageDate": "October 28, 2026",
-    "publishedAt": "2026-10-28T00:00:00.000Z",
-    "detectedAt": "2026-10-28T21:04:38.972Z",
-    "deliveredAt": "2026-10-28T21:04:38.972Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Ebayinc"
-    ]
-  },
-  {
-    "guid": "79b4feba568586d0ebe3aaec",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
-    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
-    "pageDate": "Oct. 28, 2026",
-    "publishedAt": "2026-10-28T00:00:00.000Z",
-    "detectedAt": "2026-10-28T21:04:38.965Z",
-    "deliveredAt": "2026-10-28T21:04:38.965Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "12a0ad3c2cf0df720c208c49",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon's most advanced chip helps power the AI behind Prime 360—here's how",
-    "link": "https://www.aboutamazon.com/news/innovation/trainium-ai-chip-prime-360-nba-highlights",
-    "pageDate": "Oct. 28, 2026",
-    "publishedAt": "2026-10-28T00:00:00.000Z",
-    "detectedAt": "2026-10-28T21:04:38.965Z",
-    "deliveredAt": "2026-10-28T21:04:38.965Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "55691822cc670f9d8347bce3",
-    "source": "Google Ads & Commerce Blog",
-    "sourceKey": "src-147cfee3d1361ebb",
-    "sourceLabel": "Google Ads & Commerce",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Adapt your ad strategy to meet the way people search today.",
-    "link": "https://blog.google/products/ads-commerce/ads-decoded-podcast-search-data/",
-    "pageDate": "Wed, 28 Oct 2026 19:00:00 +0000",
-    "publishedAt": "2026-10-28T19:00:00.000Z",
-    "detectedAt": "2026-10-28T21:04:38.897Z",
-    "deliveredAt": "2026-10-28T21:04:38.897Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7d0bfd29962c9c057b09a7f1",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Nachhaltigkeit",
-    "link": "https://www.galaxus.de/de/page/34164",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d1d29092a718d82287f41be5",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Was Galaxus ausmacht",
-    "link": "https://www.galaxus.de/de/page/25759",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4996e6208f731a377bd529e1",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Digitec Galaxus Agency",
-    "link": "https://www.galaxus.de/de/page/28374",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9c297aa555a4d81842c52e9c",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Werden Sie Partner",
-    "link": "https://www.galaxus.de/de/page/25763",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8c2bff3d58413b4fe272013b",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Einkaufen als Unternehmen (B2B)",
-    "link": "https://www.galaxus.de/de/page/19598",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "81f45463995e84cc5123af74",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Weitere Beiträge aus dem Magazin",
-    "link": "https://www.galaxus.de/de/page/klimafussabdruck-2022-mit-den-reduktionszielen-auf-kurs-28201",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": []
-  },
-  {
-    "guid": "664c7954e1a48e51959e4083",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Frank Hasselmann ist Geschäftsführer von Galaxus Deutschland",
-    "link": "https://www.galaxus.de/de/page/frank-hasselmann-ist-geschaeftsfuehrer-von-galaxus-deutschland-8926",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2baac86b9eb7b008dbe6eb76",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus wählt Krefeld als Logistikstandort für deutschen Markteintritt",
-    "link": "https://www.galaxus.de/de/page/galaxus-waehlt-krefeld-als-logistikstandort-fuer-deutschen-markteintritt-9005",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3b93b168a028ffca896bc734",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus bezieht seinen Hauptsitz in Hamburg",
-    "link": "https://www.galaxus.de/de/page/galaxus-bezieht-seinen-hauptsitz-in-hamburg-9258",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "69ca7dd7ca119af94d4acde8",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Onlineshop Galaxus feiert Go-live",
-    "link": "https://www.galaxus.de/de/page/onlineshop-galaxus-feiert-go-live-9449",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b21b23834fb1adaff9d9d6a9",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus zieht erste Bilanz und bringt Haushaltsgeräte in den Shop",
-    "link": "https://www.galaxus.de/de/page/galaxus-zieht-erste-bilanz-und-bringt-haushaltsgeraete-in-den-shop-11318",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8e4c7e136565624ff9106527",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus feiert Geburtstag und baut Sortiment weiter aus",
-    "link": "https://www.galaxus.de/de/page/galaxus-feiert-geburtstag-und-baut-sortiment-weiter-aus-14190",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "74bfb549bfb03eafcc019745",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus ernennt Robert Brohl zum Head of Operations",
-    "link": "https://www.galaxus.de/de/page/galaxus-ernennt-robert-brohl-zum-head-of-operations-15923",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9b1cef10a81e521a637788a5",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus bringt 100.000 Artikel für Gärtner und Heimwerker in den Shop",
-    "link": "https://www.galaxus.de/de/page/galaxus-bringt-100000-artikel-fuer-gaertner-und-heimwerker-in-den-shop-16218",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b235709d93cd27e4f1d48518",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Goodbye CO2: Galaxus macht CO2-neutralen Einkauf möglich",
-    "link": "https://www.galaxus.de/de/page/goodbye-co2-galaxus-macht-co2-neutralen-einkauf-moeglich-16478",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "073f70db8bcf47ded2d89765",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Mehrheit der Deutschen würde CO2-Ausstoß der online gekauften Produkte kompensieren",
-    "link": "https://www.galaxus.de/de/page/mehrheit-der-deutschen-wuerde-co2-ausstoss-der-online-gekauften-produkte-kompensieren-17041",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c4cde48c6cd617483337e92b",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Mit Galaxus wird der Sommer heiß: Ab sofort Erotik-Sortiment online",
-    "link": "https://www.galaxus.de/de/page/mit-galaxus-wird-der-sommer-heiss-ab-sofort-erotik-sortiment-online-17070",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "587de49c2194434f9be5ed94",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Jeder zehnte Einkauf wird kompensiert",
-    "link": "https://www.galaxus.de/de/page/jeder-zehnte-einkauf-wird-kompensiert-18077",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c86384927abf7e0f81f3b7e1",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Jeder zweite Deutsche vergnügt sich mit Sextoys",
-    "link": "https://www.galaxus.de/de/page/jeder-zweite-deutsche-vergnuegt-sich-mit-sextoys-17269",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "cf98ab775612d74d52ac2f22",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Nachhaltigkeit gibt es bei Galaxus jetzt als Filter",
-    "link": "https://www.galaxus.de/de/page/nachhaltigkeit-gibt-es-bei-galaxus-jetzt-als-filter-18414",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6fccd2c1768c94592abde607",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus.de wirbt mit ehrlichem Nutzer-Feedback und startet mit neuer Branding-Kampagne in den Frühling",
-    "link": "https://www.galaxus.de/de/page/galaxusde-wirbt-mit-ehrlichem-nutzer-feedback-und-startet-mit-neuer-branding-kampagne-in-den-fruehling-19298",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1ffaa4caaa57e5a903d28112",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Der Osterhase wird zum Gamer",
-    "link": "https://www.galaxus.de/de/page/der-osterhase-wird-zum-gamer-19463",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "db0c2b02d5328e5382cf9ab4",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Onlinehändler Galaxus druckt Katalog",
-    "link": "https://www.galaxus.de/de/page/onlinehaendler-galaxus-druckt-katalog-19799",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fb616c30a9325b25bf241e4c",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Samstag bestellt, Montag geliefert: Galaxus baut die Logistik aus",
-    "link": "https://www.galaxus.de/de/page/samstag-bestellt-montag-geliefert-galaxus-baut-die-logistik-aus-19848",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e0d2a71f6858b46e91925e1d",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus-Mutter: 20 Jahre digitec – eine Zeitreise in Zahlen",
-    "link": "https://www.galaxus.de/de/page/galaxus-mutter-20-jahre-digitec-eine-zeitreise-in-zahlen-19879",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bed7841acbeac86f8c334a78",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Chia treibt die Preise für Festplatten",
-    "link": "https://www.galaxus.de/de/page/chia-treibt-die-preise-fuer-festplatten-20000",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bf04b731b916cd723e4ee42b",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "In der Pandemie verspielen wir uns die Zeit",
-    "link": "https://www.galaxus.de/de/page/in-der-pandemie-verspielen-wir-uns-die-zeit-19979",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
