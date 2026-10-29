@@ -1,5 +1,208 @@
 [
   {
+    "guid": "492d3a39f8e1da2cdfbe85b3",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Kommunen in tiefster Finanzkrise seit der Wiedervereinigung // ZEW-Analyse zeigt: Stark steigende Sozialausgaben gefährden kommunale Investitionen und Handlungsspielräume",
+    "link": "https://www.zew.de/presse/pressearchiv/kommunen-in-tiefster-finanzkrise-seit-der-wiedervereinigung",
+    "pageDate": "29.10.2026",
+    "publishedAt": "2026-10-29T12:00:00.000Z",
+    "detectedAt": "2026-10-29T07:05:30.158Z",
+    "deliveredAt": "2026-10-29T07:05:30.158Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "41ec36c708f938b0e7623f53",
+    "source": "Gfu",
+    "sourceKey": "src-e47d0ee60e79a7e8",
+    "sourceLabel": "Gfu",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Der Handel zwischen Algorithmus und Nähe",
+    "link": "https://gfu.de/der-handel-zwischen-algorithmus-und-naehe/",
+    "pageDate": "29.10.2026",
+    "publishedAt": "2026-10-29T12:00:00.000Z",
+    "detectedAt": "2026-10-29T07:05:30.157Z",
+    "deliveredAt": "2026-10-29T07:05:30.157Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d4e0bffe8be6a37a080b5360",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Selbstlerneinheit: Digitale Technologien im stationären Handel",
+    "link": "https://digitalzentrumhandel.de/author/lena-peters/",
+    "pageDate": "29.10.2026",
+    "publishedAt": "2026-10-29T12:00:00.000Z",
+    "detectedAt": "2026-10-29T07:05:30.153Z",
+    "deliveredAt": "2026-10-29T07:05:30.153Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "9cb7a3a09a3c1fd2818ab46b",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Integrierte kommunale Schulden steigen im Jahr 2025 um 9,9 %",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_378_713.html",
+    "pageDate": "Thu, 29 Oct 2026 08:00:00 +0100",
+    "publishedAt": "2026-10-29T07:00:00.000Z",
+    "detectedAt": "2026-10-29T07:05:30.142Z",
+    "deliveredAt": "2026-10-29T07:05:30.142Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "10eb2595c895ee3ceba97d23",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "65 Jahre Anwerbeabkommen mit der Türkei: 2,6 Millionen Menschen in Deutschland mit türkischer Einwanderungsgeschichte",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_377_122.html",
+    "pageDate": "Thu, 29 Oct 2026 08:00:00 +0100",
+    "publishedAt": "2026-10-29T07:00:00.000Z",
+    "detectedAt": "2026-10-29T07:05:30.141Z",
+    "deliveredAt": "2026-10-29T07:05:30.141Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "80b7d9c8b82eb2e89328da50",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Hagen Grote Übernahme: Der Käufer sammelt Pleite-Marken",
+    "link": "https://wortfilter.de/hagen-grote-uebernahme-froelich-kaufmann/",
+    "pageDate": "Thu, 29 Oct 2026 05:36:56 +0000",
+    "publishedAt": "2026-10-29T05:36:56.000Z",
+    "detectedAt": "2026-10-29T07:05:30.113Z",
+    "deliveredAt": "2026-10-29T07:05:30.113Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6d046738baed1334171538c2",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "eBay Q3 2026: Umsatz wächst zweistellig, Marge sinkt",
+    "link": "https://onlinemarktplatz.de/294869/ebay-q3-2026-umsatz-waechst-marge-sinkt/",
+    "pageDate": "Thu, 29 Oct 2026 03:32:57 +0000",
+    "publishedAt": "2026-10-29T03:32:57.000Z",
+    "detectedAt": "2026-10-29T07:05:30.111Z",
+    "deliveredAt": "2026-10-29T07:05:30.111Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2c7e1e956130b8f5611c27da",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "FedEx: Treibstoffzuschläge stützen Wachstum im dritten Kalenderquartal",
+    "link": "https://onlinemarktplatz.de/294879/fedex-quartalsbericht-q3-2026/",
+    "pageDate": "Thu, 29 Oct 2026 03:56:00 +0000",
+    "publishedAt": "2026-10-29T03:56:00.000Z",
+    "detectedAt": "2026-10-29T07:05:30.111Z",
+    "deliveredAt": "2026-10-29T07:05:30.111Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "999de1cfa880edc2366f0943",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wero im Alltag: Fortschritte, Kosten und offene Fragen",
+    "link": "https://onlinemarktplatz.de/294645/wero-im-alltag-entwicklung-2026/",
+    "pageDate": "Thu, 29 Oct 2026 07:01:04 +0000",
+    "publishedAt": "2026-10-29T07:01:04.000Z",
+    "detectedAt": "2026-10-29T07:05:30.111Z",
+    "deliveredAt": "2026-10-29T07:05:30.111Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "2b1bbcb5a2a79cd6cb41f1e8",
     "source": "ECB",
     "sourceKey": "src-f132ccda6cdbce0d",
@@ -10328,204 +10531,6 @@
     "priority": 2,
     "title": "Navigate to Swedish Tech Bank Klarna Launches “Smoooth” Brand",
     "link": "https://www.klarna.com/international/press/swedish-tech-bank-klarna-launches-smoooth-brand/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a05308c88216fa894c4a23aa",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Completion of Acquisition of BillPay",
-    "link": "https://www.klarna.com/international/press/klarna-announces-completion-of-acquisition-of-billpay/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4195ea6f6c4a531c0be31285",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to PPRO Group and Klarna partner to offer risk-free credit payment methods across Europe",
-    "link": "https://www.klarna.com/international/press/ppro-group-and-klarna-partner-to-offer-risk-free-credit-payment-methods-across-europe/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3cf568339afd122a2ea64284",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Global: Worldpay partners with Klarna to launch invoice and credit based payments in 6 key European markets",
-    "link": "https://www.klarna.com/international/press/global-worldpay-partners-with-klarna-to-launch-invoice-and-credit-based-payments-in-6-key-european-markets/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ebf6b3f7c3cb262be97de460",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Tis’ the season to be frazzled: 1 in 6 want to go on holiday to escape the festive frenzy – and almost a third of Brits are exhausted by Boxing Day",
-    "link": "https://www.klarna.com/international/press/tis-the-season-to-be-frazzled-1-in-6-want-to-go-on-holiday-to-escape-the-festive-frenzy-and-almost-a-third-of-brits-are-exhausted-by-boxing-day/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "65e5ee2f844db22880b88048",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Group issues senior unsecured bond 2017",
-    "link": "https://www.klarna.com/international/press/klarna-group-issues-senior-unsecured-bond-2017/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4123ddf2de83526c50773c43",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Listing of Notes and Choice of Home Member State.",
-    "link": "https://www.klarna.com/international/press/listing-of-notes-and-choice-of-home-member-state/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8fe780e84e280aa2cff38c6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Payments Expands eCommerce Footprint with ACI Worldwide",
-    "link": "https://www.klarna.com/international/press/klarna-payments-expands-ecommerce-footprint-with-aci-worldwide/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7b80e2464d9beb4d65cd159b",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with London College of Fashion, UAL",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-london-college-of-fashion-ual/",
-    "pageDate": "October 23, 2026",
-    "publishedAt": "2026-10-23T00:00:00.000Z",
-    "detectedAt": "2026-10-24T13:37:29.054Z",
-    "deliveredAt": "2026-10-24T13:37:29.054Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4658e43ecc43d76501e99e21",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna appoints new General Manager for DACH Region",
-    "link": "https://www.klarna.com/international/press/klarna-appoints-new-general-manager-for-dach-region/",
     "pageDate": "October 23, 2026",
     "publishedAt": "2026-10-23T00:00:00.000Z",
     "detectedAt": "2026-10-24T13:37:29.054Z",
