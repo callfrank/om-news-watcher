@@ -1,6 +1,75 @@
 [
   {
-    "guid": "863c831e849e7cd80adb6318",
+    "guid": "7528133adfe2ae4ad3437b53",
+    "source": "Handelskraft",
+    "sourceKey": "src-6c1c923af06aedde",
+    "sourceLabel": "Handelskraft",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "KI-Sicherheit in Unternehmen: So öffnet KI nur dort Türen, wo sie es soll",
+    "link": "https://www.handelskraft.de/ki-sicherheit-in-unternehmen/",
+    "pageDate": "Wed, 28 Oct 2026 11:55:48 +0000",
+    "publishedAt": "2026-10-28T11:55:48.000Z",
+    "detectedAt": "2026-10-29T19:44:28.356Z",
+    "deliveredAt": "2026-10-29T19:44:28.356Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "3da27810bfe4074a09af955e",
+    "source": "Uber",
+    "sourceKey": "src-9ca710b31d1e337a",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber CFO to Participate in Fireside Chat Hosted by Morgan Stanley",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-CFO-to-Participate-in-Fireside-Chat-Hosted-by-Morgan-Stanley-d9f653a83/default.aspx",
+    "pageDate": "October 28, 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.350Z",
+    "deliveredAt": "2026-10-29T19:44:28.350Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ae91e0d292283612dbfb6109",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart+ Launches in Mexico",
+    "link": "https://corporate.walmart.com/news/2026/10/walmart-plus-launches-in-mexico",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-29T19:44:28.345Z",
+    "deliveredAt": "2026-10-29T19:44:28.345Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9a940f3c64f0d409596942af",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +79,676 @@
     "tags": [],
     "priority": 2,
     "title": "eBay Handelsupdate im 3. Quartal 2026",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-europaeische-ausrichtung-und-buendelt-fuehrung-seiner-eu-marktplaetze/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-deutschland-und-der-1-fc-union-berlin-gehen-in-die-verlaengerung-premiere-fuer-ebay-live-auf-der-ifa/",
     "pageDate": "28.10.2026",
     "publishedAt": "2026-10-28T12:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.527Z",
-    "deliveredAt": "2026-10-29T14:19:35.527Z",
+    "detectedAt": "2026-10-29T19:44:28.342Z",
+    "deliveredAt": "2026-10-29T19:44:28.342Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "f7b66f0c70c4c9ea14526fbc",
+    "source": "etsy QZ",
+    "sourceKey": "src-32deda08b7cb1d3d",
+    "sourceLabel": "etsy QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Events",
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Etsy, Inc. Reports Third Quarter 2026 Results",
+    "link": "https://investors.etsy.com/news-events/press-releases/detail/229/etsy-inc-reports-third-quarter-2026-results",
+    "pageDate": "Oct 28, 2026 7:00 am EDT",
+    "publishedAt": "2026-10-28T11:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.336Z",
+    "deliveredAt": "2026-10-29T19:44:28.336Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "67e0167eff5a04cad97580ad",
+    "source": "etsy QZ",
+    "sourceKey": "src-32deda08b7cb1d3d",
+    "sourceLabel": "etsy QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Events",
+      "Studien & Marktdaten"
+    ],
+    "priority": 2,
+    "title": "Etsy Announces Leadership Transition",
+    "link": "https://investors.etsy.com/news-events/press-releases/detail/230/etsy-announces-leadership-transition",
+    "pageDate": "Oct 28, 2026 7:02 am EDT",
+    "publishedAt": "2026-10-28T11:02:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.336Z",
+    "deliveredAt": "2026-10-29T19:44:28.336Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "60395b92bb6c9ec96f5c5811",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch ‘Drive – The Pretenders,’ a new racing romance, on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/drive-the-pretenders-prime-video",
+    "pageDate": "Oct. 28, 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.333Z",
+    "deliveredAt": "2026-10-29T19:44:28.333Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e3f0ba07f1f773d30924ed0b",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon introduces Echo Time, a smarter way to start and end your day",
+    "link": "https://www.aboutamazon.com/news/devices/echo-time-smart-alarm-clock",
+    "pageDate": "Oct. 28, 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.333Z",
+    "deliveredAt": "2026-10-29T19:44:28.333Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "03f4abaa98b4353d5339ba9c",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Introducing the new Echo Dot and all-new Echo Studio with Home Camera",
+    "link": "https://www.aboutamazon.com/news/devices/echo-speaker-lineup",
+    "pageDate": "Oct. 28, 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.333Z",
+    "deliveredAt": "2026-10-29T19:44:28.333Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "831a64e7f7da49f5ca756e53",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon introduces the all-new Echo Show 16—our most advanced, versatile smart display yet",
+    "link": "https://www.aboutamazon.com/news/devices/echo-show-16-smart-display",
+    "pageDate": "Oct. 28, 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.333Z",
+    "deliveredAt": "2026-10-29T19:44:28.333Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4abf8a164c09290bcc43d26c",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon Leo mission updates: Launch dates set for next missions on Vulcan and Ariane 6",
+    "link": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+    "pageDate": "Oct. 28, 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.333Z",
+    "deliveredAt": "2026-10-29T19:44:28.333Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b5a4caac67d3d2432f650a24",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon introduces Alexa Photo Frame—the smartest way to bring your photos into the home",
+    "link": "https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame",
+    "pageDate": "Oct. 28, 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.333Z",
+    "deliveredAt": "2026-10-29T19:44:28.333Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "91655c3aeaa679f01dcbae1a",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon unveils its newest lineup of Alexa devices",
+    "link": "https://www.aboutamazon.com/news/devices/new-alexa-devices-2026",
+    "pageDate": "Oct. 28, 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.333Z",
+    "deliveredAt": "2026-10-29T19:44:28.333Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "707798249272ed44c448114a",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Alexa+ arrives in Japan as Amazon's next-generation AI assistant expands internationally",
+    "link": "https://www.aboutamazon.com/news/devices/alexa-plus-international-launch",
+    "pageDate": "Oct. 28, 2026",
+    "publishedAt": "2026-10-28T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.333Z",
+    "deliveredAt": "2026-10-29T19:44:28.333Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e42168aa78a927373af26031",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Building Rivendell: How 'The Rings of Power' team brought the iconic 'Lord of the Rings' location to life",
+    "link": "https://www.aboutamazon.com/news/entertainment/lord-of-the-rings-the-rings-of-power-rivendell",
+    "pageDate": "Oct. 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.333Z",
+    "deliveredAt": "2026-10-29T19:44:28.333Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "540d1f35c6ea5391407288a9",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Expands Shopper Experience Platform to Improve Product Discovery in AI-Powered Shopping",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-expands-shopper-experience-platform-to-improve-product-discovery-in-ai-powered-shopping/",
+    "pageDate": "28.10.2026",
+    "publishedAt": "2026-10-28T12:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.326Z",
+    "deliveredAt": "2026-10-29T19:44:28.326Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4bdb4c01e541d8a70b799955",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Podcast: Von der Kundenanfrage zum Angebot – KI-Agenten im Handelsalltag",
+    "link": "https://digitalzentrumhandel.de/author/kinga-schumacher/",
+    "pageDate": "28.10.2026",
+    "publishedAt": "2026-10-28T12:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.323Z",
+    "deliveredAt": "2026-10-29T19:44:28.323Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "acfc02ff827e3ec5dc3f4c16",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon introduces returnless refunds in Europe",
+    "link": "https://ecommercenews.eu/amazon-introduces-returnless-refunds-in-europe/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.310Z",
+    "deliveredAt": "2026-10-29T19:44:28.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0b15633ff6d5e0244f733745",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Breuninger expands into 11 new markets",
+    "link": "https://ecommercenews.eu/breuninger-expands-into-11-new-markets/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.310Z",
+    "deliveredAt": "2026-10-29T19:44:28.310Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f2fd9fbd6e7a264555f9df40",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "1,2 % mehr Krankenhausbehandlungen im Jahr 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_376_231.html",
+    "pageDate": "Wed, 28 Oct 2026 08:00:00 +0100",
+    "publishedAt": "2026-10-28T07:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.308Z",
+    "deliveredAt": "2026-10-29T19:44:28.308Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "1f70126f876b001936aa1476",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Tune in to our latest decisions",
+    "link": "https://www.ecb.europa.eu/press/tvservices/podcast/html/index.en.html",
+    "pageDate": "29 October 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.300Z",
+    "deliveredAt": "2026-10-29T19:44:28.300Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "2c8408783d80a84441474e09",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Our monetary policy statement at a glance",
+    "link": "https://www.ecb.europa.eu/press/press_conference/visual-mps/2026/html/mopo_statement_explained_october.en.html",
+    "pageDate": "29 October 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.300Z",
+    "deliveredAt": "2026-10-29T19:44:28.300Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "39ea49cb8d2ccdcf25d51eac",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Meldung:, 28.10.2026 BSI stellt Curriculum für NIS2-Geschäftsleitungsschulung vor Das Bundesamt für Sicherheit in der Informationstechnik (BSI) hat ein Beispielcurriculum für NIS2-Geschäftsleitungsschulungen vorgestellt. Eine ergänzende Checkliste der Gesellschaft für Informatik unterstützt beim Transfer in die Praxis.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/NIS-2-Curriculum-CEO-Schulung_261028.html",
+    "pageDate": "28.10.2026",
+    "publishedAt": "2026-10-28T12:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.292Z",
+    "deliveredAt": "2026-10-29T19:44:28.292Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5bb1f88dd3f493c87cc3bb0b",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EU Inc gründen: 48 Stunden, 100 Euro – aber nicht vor 2028",
+    "link": "https://wortfilter.de/eu-inc-gruenden/",
+    "pageDate": "Wed, 28 Oct 2026 08:14:09 +0000",
+    "publishedAt": "2026-10-28T08:14:09.000Z",
+    "detectedAt": "2026-10-29T19:44:28.287Z",
+    "deliveredAt": "2026-10-29T19:44:28.287Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "feda1cfb489ca30527362b6d",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Konsumklima November 2026: Kauflaune sinkt auf -30,8 Punkte",
+    "link": "https://wortfilter.de/konsumklima-november-2026/",
+    "pageDate": "Wed, 28 Oct 2026 09:48:36 +0000",
+    "publishedAt": "2026-10-28T09:48:36.000Z",
+    "detectedAt": "2026-10-29T19:44:28.287Z",
+    "deliveredAt": "2026-10-29T19:44:28.287Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "539ac8649702023a9b7dd3b2",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Revolut BLIK: Gebühren-Mail kommt 13 Tage nach dem Start",
+    "link": "https://wortfilter.de/revolut-blik-gebuehren/",
+    "pageDate": "Wed, 28 Oct 2026 15:32:42 +0000",
+    "publishedAt": "2026-10-28T15:32:42.000Z",
+    "detectedAt": "2026-10-29T19:44:28.287Z",
+    "deliveredAt": "2026-10-29T19:44:28.287Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "2409b7d602a681548cb53f88",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "KI-Produktbilder: Zwischen Kaufhilfe und Vertrauensproblem",
+    "link": "https://onlinemarktplatz.de/294607/ki-produktbilder-kaufhilfe-vertrauen/",
+    "pageDate": "Wed, 28 Oct 2026 07:27:24 +0000",
+    "publishedAt": "2026-10-28T07:27:24.000Z",
+    "detectedAt": "2026-10-29T19:44:28.284Z",
+    "deliveredAt": "2026-10-29T19:44:28.284Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "a95c4fb8c98f73e830019bbc",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon erweitert FBA-Retourenlösung: Wann der Verzicht auf die Ware lohnt",
+    "link": "https://onlinemarktplatz.de/294814/fba-erstattung-ohne-ruecksendung/",
+    "pageDate": "Wed, 28 Oct 2026 08:04:32 +0000",
+    "publishedAt": "2026-10-28T08:04:32.000Z",
+    "detectedAt": "2026-10-29T19:44:28.284Z",
+    "deliveredAt": "2026-10-29T19:44:28.284Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "db737fb3cac9436cf1a9b5d4",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Etsy Q3-Zahlen 2026: Käuferbasis wächst, Finanzchef geht",
+    "link": "https://onlinemarktplatz.de/294864/etsy-q3-zahlen-2026-kaeuferbasis-cfo-wechsel/",
+    "pageDate": "Wed, 28 Oct 2026 11:16:24 +0000",
+    "publishedAt": "2026-10-28T11:16:24.000Z",
+    "detectedAt": "2026-10-29T19:44:28.284Z",
+    "deliveredAt": "2026-10-29T19:44:28.284Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7ea7002c2b05e1b77473e9bd",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Künstliche Intelligenz verbrauchersicher einsetzen",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/kuenstliche-intelligenz-verbrauchersicher-einsetzen-126754",
+    "pageDate": "28.10.2026",
+    "publishedAt": "2026-10-28T12:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.279Z",
+    "deliveredAt": "2026-10-29T19:44:28.279Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5b638ce39b8fb4ec578bb323",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "28.10.2026EU-Zollreform: Was ist neu, wer bezahlt für Pakete und wie steht es um Produktsicherheit?",
+    "link": "https://www.vzbv.de/pressemitteilungen/eu-zollreform-was-ist-neu-wer-bezahlt-fuer-pakete-und-wie-steht-es-um",
+    "pageDate": "28.10.2026",
+    "publishedAt": "2026-10-28T12:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.273Z",
+    "deliveredAt": "2026-10-29T19:44:28.273Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0b3e557f967e6e57c754677a",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Online Event Oct 29, 2026 Amazing Days Online 2026",
+    "link": "https://amzsummits.com/events/amazing-days-online-2026/",
+    "pageDate": "Oct 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.207Z",
+    "deliveredAt": "2026-10-29T19:44:28.207Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "a6bb103c60a19dab60d216f1",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Leipzig, Germany Oct 29, 2026 Händlerbund SellerDay 2026",
+    "link": "https://amzsummits.com/events/handlerbund-sellerday-2026/",
+    "pageDate": "Oct 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-29T19:44:28.207Z",
+    "deliveredAt": "2026-10-29T19:44:28.207Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "08c8aa7cb8358c4f0d8ef8ff",
+    "source": "FedEx Newsroom",
+    "sourceKey": "src-ccc01078527f3e85",
+    "sourceLabel": "FedEx",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "FedEx Reports Strong Third Quarter Results",
+    "link": "https://newsroom.fedex.com/newsroom/global-english/fedex-reports-strong-third-quarter-results-cy26",
+    "pageDate": "Wed, 28 Oct 2026 20:10:48 GMT",
+    "publishedAt": "2026-10-28T20:10:48.000Z",
+    "detectedAt": "2026-10-29T19:44:28.203Z",
+    "deliveredAt": "2026-10-29T19:44:28.203Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
     "guid": "36b43d3f2ea48f8eef6f642f",
@@ -10228,666 +10958,6 @@
     "priority": 2,
     "title": "In der Pandemie verspielen wir uns die Zeit",
     "link": "https://www.galaxus.de/de/page/in-der-pandemie-verspielen-wir-uns-die-zeit-19979",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fc01adfb2dde17e307043e71",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus-Community investiert rund 1,3 Millionen Euro in den Klimaschutz",
-    "link": "https://www.galaxus.de/de/page/galaxus-community-investiert-rund-13-millionen-euro-in-den-klimaschutz-20124",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bc0a214db66323af98540364",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus lässt Gamer-Herzen höher schlagen / Erstmals auch altersbeschränkte Spiele im Programm",
-    "link": "https://www.galaxus.de/de/page/galaxus-laesst-gamer-herzen-hoeher-schlagen-erstmals-auch-altersbeschraenkte-spiele-im-programm-20316",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6d9532ad94bde13229c809eb",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Luftreiniger statt Klimaanlage: Sicherheitsempfinden kommt vor kühler Brise",
-    "link": "https://www.galaxus.de/de/page/luftreiniger-statt-klimaanlage-sicherheitsempfinden-kommt-vor-kuehler-brise-20416",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "21d8593739be27db457c771f",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Krefeld: Galaxus Deutschland wird Ausbildungsbetrieb",
-    "link": "https://www.galaxus.de/de/page/krefeld-galaxus-deutschland-wird-ausbildungsbetrieb-20431",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b1a2c336a8c256ccb49eb1bd",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Klettern top, Baseball flop – Olympische Neo-Disziplinen im Check",
-    "link": "https://www.galaxus.de/de/page/klettern-top-baseball-flop-olympische-neo-disziplinen-im-check-20567",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c3e8271e7b171a523cd4eb44",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Telefonischer Kundenservice: Nun auch samstags für dich da",
-    "link": "https://www.galaxus.de/de/page/telefonischer-kundenservice-nun-auch-samstags-fuer-dich-da-20822",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6585e08eb749123e4674ac97",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Statt leerer Versprechen der Politik: Du hast die Wahl!",
-    "link": "https://www.galaxus.de/de/page/statt-leerer-versprechen-der-politik-du-hast-die-wahl-21087",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c6a0575ff96eb8103f5f96d0",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus setzt auf Preistransparenz",
-    "link": "https://www.galaxus.de/de/page/galaxus-setzt-auf-preistransparenz-21159",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5f54a250b32b16c10fea8a7f",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Migros und Galaxus starten nächste Wachstumsphase in Deutschland",
-    "link": "https://www.galaxus.de/de/page/migros-und-galaxus-starten-naechste-wachstumsphase-in-deutschland-21221",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0b3c7ea1df146948c976bc58",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus.de startet Live Chat Service",
-    "link": "https://www.galaxus.de/de/page/galaxusde-startet-live-chat-service-21348",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "73617048bf0db2f7cf04ed98",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus sagt «Servus Österreich»",
-    "link": "https://www.galaxus.de/de/page/galaxus-sagt-servus-oesterreich-21152",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7d7861c1c17932201727ec42",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Das sind die digitec- und Galaxus-Bestseller über die Jahre",
-    "link": "https://www.galaxus.de/de/page/das-sind-die-digitec-und-galaxus-bestseller-ueber-die-jahre-21169",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "aa84523bf3c245f8740d102c",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Diese Produkte werden zu Weihnachten knapp",
-    "link": "https://www.galaxus.de/de/page/diese-produkte-werden-zu-weihnachten-knapp-21504",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4a2d808f4379ca7d55c226c2",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Benedict und Svenja sind unsere ersten Azubis",
-    "link": "https://www.galaxus.de/de/page/benedict-und-svenja-sind-unsere-ersten-azubis-21562",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f211445dc861c2d182e40b36",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Deutsche kaufen 2021 drei Mal mehr E-Auto-Ladestationen",
-    "link": "https://www.galaxus.de/de/page/deutsche-kaufen-2021-drei-mal-mehr-e-auto-ladestationen-21738",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "afaa28f8a31783be9ee46024",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Wien findet Galaxus leiwand",
-    "link": "https://www.galaxus.de/de/page/wien-findet-galaxus-leiwand-21723",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "dd529b424c326e6023b2c713",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Wir sind fit fürs Weihnachtsgeschäft",
-    "link": "https://www.galaxus.de/de/page/wir-sind-fit-fuers-weihnachtsgeschaeft-21921",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "191395ea00a4de5c344ca549",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Black Friday: Angebote auf galaxus.de sorgen für Umsatz-Verdopplung",
-    "link": "https://www.galaxus.de/de/page/black-friday-angebote-auf-galaxusde-sorgen-fuer-umsatz-verdopplung-22011",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "211298a97625c8807a076376",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Das Christkind bringt Paw Patrol, Lego und AirPods",
-    "link": "https://www.galaxus.de/de/page/das-christkind-bringt-paw-patrol-lego-und-airpods-21998",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "05662d6b061629e434331f1a",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Der kometenhafte Aufstieg der Windel zum Online-Champion",
-    "link": "https://www.galaxus.de/de/page/der-kometenhafte-aufstieg-der-windel-zum-online-champion-22072",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fbaf88dbd36b9d5db64dbc69",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Klimaneutralität: Digitec Galaxus ist ab 2022 eine Nullnummer",
-    "link": "https://www.galaxus.de/de/page/klimaneutralitaet-digitec-galaxus-ist-ab-2022-eine-nullnummer-21906",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ba710ed84639800200544bd5",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Digitec Galaxus überspringt zweite Umsatzmilliarde",
-    "link": "https://www.galaxus.de/de/page/digitec-galaxus-ueberspringt-zweite-umsatzmilliarde-22376",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "69c3c7353c4559ffe400ab1a",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Robert Brohl wird Head of Supply Chain Management bei Digitec Galaxus",
-    "link": "https://www.galaxus.de/de/page/robert-brohl-wird-head-of-supply-chain-management-bei-digitec-galaxus-22456",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6d61fe96ef166301db8a4a8a",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "80 % Umsatz mit 4 % des Sortiments: So wichtig sind die Topseller für uns",
-    "link": "https://www.galaxus.de/de/page/80-umsatz-mit-4-des-sortiments-so-wichtig-sind-die-topseller-fuer-uns-22393",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9ae5bf7e4e3009a034af7c16",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Deshalb sind unsere Pakete jetzt braun",
-    "link": "https://www.galaxus.de/de/page/deshalb-sind-unsere-pakete-jetzt-braun-22786",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1bd7f846308eb09b5f82c7db",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Umfrage zum Onlinehandel zeigt: Wer weniger Geld verdient, schickt seltener Produkte zurück",
-    "link": "https://www.galaxus.de/de/page/umfrage-zum-onlinehandel-zeigt-wer-weniger-geld-verdient-schickt-seltener-produkte-zurueck-22681",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3404698254900d9e175763a7",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Unsere Treibhausgasdiät: Die Hälfte muss weg",
-    "link": "https://www.galaxus.de/de/page/unsere-treibhausgasdiaet-die-haelfte-muss-weg-22743",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "51779c2b4082c1f185eb616b",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "120.000 Produkte: Galaxus wird zum Möbelhaus",
-    "link": "https://www.galaxus.de/de/page/120000-produkte-galaxus-wird-zum-moebelhaus-23348",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0ac616c53b793b0c250e96e6",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "«Zu Befehl, Herbert» – Deutschland besorgt sich Notvorräte",
-    "link": "https://www.galaxus.de/de/page/zu-befehl-herbert-deutschland-besorgt-sich-notvorraete-23549",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "64d3a80c9b500559148e8ae9",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Wir feiern 10 Jahre Galaxus – ein Gespräch mit zweien, die beim Launch dabei waren",
-    "link": "https://www.galaxus.de/de/page/wir-feiern-10-jahre-galaxus-ein-gespraech-mit-zweien-die-beim-launch-dabei-waren-23850",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c5c45ccdc739e099c6ff2945",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "«New Normal»: Neuerdings shoppen wir lieber später am Tag",
-    "link": "https://www.galaxus.de/de/page/new-normal-neuerdings-shoppen-wir-lieber-spaeter-am-tag-23944",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a1780c68bb4aee51dfde1c0b",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Die erste Million: Das Produktsortiment von Galaxus wächst und wächst",
-    "link": "https://www.galaxus.de/de/page/die-erste-million-das-produktsortiment-von-galaxus-waechst-und-waechst-24159",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-28T21:04:38.875Z",
-    "deliveredAt": "2026-10-28T21:04:38.875Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b76a1ce85ed7cb020a13dbf4",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Mit Kind, Kegel und Koffer: GPS-Tracker fürs Gepäck boomen",
-    "link": "https://www.galaxus.de/de/page/mit-kind-kegel-und-koffer-gps-tracker-fuers-gepaeck-boomen-24222",
     "pageDate": null,
     "publishedAt": null,
     "detectedAt": "2026-10-28T21:04:38.875Z",
