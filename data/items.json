@@ -1,5 +1,1481 @@
 [
   {
+    "guid": "0c9af6f324587c9dc74c7785",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart and Base Power Announce a Strategic Agreement to Bring Affordable Home Backup Power and Energy Savings to Customers",
+    "link": "https://corporate.walmart.com/news/2026/10/Walmart-Base-Power-Agreement",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-30T21:04:53.304Z",
+    "deliveredAt": "2026-10-30T21:04:53.304Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b51753edc5f01b3a8b4a4eb3",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Sparky Makes Holiday Magic Real",
+    "link": "https://corporate.walmart.com/news/2026/10/sparky-shopping-assistant-expansion",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-30T21:04:53.304Z",
+    "deliveredAt": "2026-10-30T21:04:53.304Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cf549a308491ed203fe4e0e9",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch the NBA G League on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/nba-g-league-prime-video-schedule",
+    "pageDate": "Oct. 30, 2026",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.297Z",
+    "deliveredAt": "2026-10-30T21:04:53.297Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "effa5a5d8f15920e4065d538",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna App is enhanced with digital wallet for easy access to loyalty cards",
+    "link": "https://www.klarna.com/international/press/klarna-app-is-enhanced-with-digital-wallet-for-easy-access-to-loyalty-cards/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "594b14b01dc180c379104acf",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Play by new rules, and pay like a pro. Klarna and Visa change the game with new campaign promoting the Klarna card ahead of the UEFA Women’s EURO 2022™",
+    "link": "https://www.klarna.com/international/press/play-by-new-rules-and-pay-like-a-pro-klarna-and-visa-change-the-game-with-new-campaign-promoting-the-klarna-card-ahead-of-the-uefa-womens-euro-2022/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "bd2f1aefab5318aad9c1acc2",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna invests USD 1.7 million from its internal carbon tax in sustainability projects for maximum long-term climate impact.",
+    "link": "https://www.klarna.com/international/press/klarna-invests-usd-17-million-from-its-internal-carbon-tax-in-sustainability-projects-for-maximum-long-term-climate-impact/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c0136c7fae1ac07fd58f2b28",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna closes major financing round during worst stock downturn in 50 years",
+    "link": "https://www.klarna.com/international/press/klarna-closes-major-financing-round-during-worst-stock-downturn-in-50-years/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4592c0fb3491506f13715bc9",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna partners with MEC to offer Canadians payment flexibility when shopping for outdoor gear",
+    "link": "https://www.klarna.com/international/press/klarna-partners-with-mec-to-offer-canadians-payment-flexibility-when-shopping-for-outdoor-gear/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5415905c988d024922788478",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Airbank chooses Klarna Kosma’s open banking platform for international expansion",
+    "link": "https://www.klarna.com/international/press/airbank-chooses-klarna-kosmas-open-banking-platform-for-international-expansion/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5a97c515fd9ce107f8f9ab33",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and StyleSeat team up to offer consumers flexible payments",
+    "link": "https://www.klarna.com/international/press/klarna-and-styleseat-team-up-to-offer-consumers-flexible-payments/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c6dfd2ff0114dc476b034f7c",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna growth continues to outpace global e-commerce in first half of 2022 powered by US success",
+    "link": "https://www.klarna.com/international/press/klarna-growth-continues-to-outpace-global-e-commerce-in-first-half-of-2022-powered-by-us-success/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "8fa11ebcfb4288eb6af0c4ea",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna manifests their position as a universal growth engine for merchants - instituting Klarna Growth Awards",
+    "link": "https://www.klarna.com/international/press/klarna-manifests-their-position-as-a-universal-growth-engine-for-merchants-instituting-klarna-growth-awards/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "90b714f1597b785a3a0e9147",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna says “Γεια σας” to Greece with its interest-free “Pay in 3” service and shopping app",
+    "link": "https://www.klarna.com/international/press/klarna-says-geia-sas-to-greece-with-its-interest-free-pay-in-3-service-and-shopping-app/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "70b0d0e4decd8bec0d6e3fcc",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to re—inc, Klarna, and Angel City Football Club Release Limited-Edition Collab",
+    "link": "https://www.klarna.com/international/press/re-inc-klarna-and-angel-city-football-club-release-limited-edition-collab/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "dddad1d1b72ddd04afce7acd",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna says “Ahoj” to Czechia with its interest-free “Pay in 3” service and shopping app",
+    "link": "https://www.klarna.com/international/press/klarna-says-ahoj-to-czechia-with-its-interest-free-pay-in-3-service-and-shopping-app/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "65b0f0a4c0ab51b2d9a51dd8",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Wix expand global partnership into Canada, bringing flexible payment options to e-commerce businesses of all sizes",
+    "link": "https://www.klarna.com/international/press/klarna-and-wix-expand-global-partnership-into-canada-bringing-flexible-payment-options-to-e-commerce-businesses-of-all-sizes/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "54b77bb59a5552fea6bf346e",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Introducing Klarna Spotlight: a collection of product innovations for a new era of shopping",
+    "link": "https://www.klarna.com/international/press/introducing-klarna-spotlight-a-collection-of-product-innovations-for-a-new-era-of-shopping/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0afa54e7541f567369beb742",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Tender Information Document in respect of a tender offer for certain outstanding SEK denominated senior unsecured floating rate notes",
+    "link": "https://www.klarna.com/international/press/tender-information-document-in-respect-of-a-tender-offer-for-certain-outstanding-sek-denominated-senior-unsecured-floating-rate-notes/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "8dcf3e86cd0e7cf3bd611de0",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Bank AB announces results of tender offer for outstanding bonds",
+    "link": "https://www.klarna.com/international/press/klarna-bank-ab-announces-results-of-tender-offer-for-outstanding-bonds/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5dbe24042e18bf9a6cf29bec",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Dutch money saving start-up iBilly’s user rates soar after partnering with Klarna Kosma",
+    "link": "https://www.klarna.com/international/press/dutch-money-saving-start-up-ibillys-user-rates-soar-after-partnering-with-klarna-kosma/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "af43b1c5b1ebc114cc7a5b38",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna introduces Money Story: A personal overview of your spending in 2022",
+    "link": "https://www.klarna.com/international/press/klarna-introduces-money-story-a-personal-overview-of-your-spending-in-2022/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "a2aa36ab6652e06b873f8598",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna US growth surges with GMV up 71% YoY",
+    "link": "https://www.klarna.com/international/press/klarna-us-growth-surges-with-gmv-up-71-yoy/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "67f89b1fe03356fbb385cde7",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Reports Fourth Quarter Results and Full Year 2022 Annual Report",
+    "link": "https://www.klarna.com/international/press/klarna-reports-fourth-quarter-results-and-full-year-2022-annual-report/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ba1196eb489f1f9a372d9d7d",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Reports Fourth Quarter Results and 2022 Annual Report",
+    "link": "https://www.klarna.com/international/press/klarna-reports-fourth-quarter-results-and-2022-annual-report/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ed82108156dd3ed9aa437ac0",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna unveils conscious badges powered by Clarity AI, the world’s first assessment of electronics brands' environmental achievements",
+    "link": "https://www.klarna.com/international/press/klarna-unveils-conscious-badges-powered-by-clarity-ai-the-worlds-first-assessment-of-electronics-brands-environmental-achievements/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "598e6d4af932283dc3d5f5f0",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna brings smoooth shopping to ChatGPT",
+    "link": "https://www.klarna.com/international/press/klarna-brings-smoooth-shopping-to-chatgpt/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "2f510d6d4a5489108553187c",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Stumped by smallprint: credit card agreements are gobbledegook to 3 in 5 Brits as Klarna and Fairer Finance call for rules revamp",
+    "link": "https://www.klarna.com/international/press/stumped-by-smallprint-credit-card-agreements-are-gobbledegook-to-3-in-5-brits-as-klarna-and-fairer-finance-call-for-rules-revamp/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f5f5f9e63a1018545e6aec11",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna unveils progress of its Give One planet health initiative in new 2022-23 report",
+    "link": "https://www.klarna.com/international/press/klarna-unveils-progress-of-its-give-one-planet-health-initiative-in-new-2022-23-report/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c935d22b4a951b5acc67a740",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Reddit unveil the most popular ‘Buy It For Life’ items of 2023",
+    "link": "https://www.klarna.com/international/press/klarna-and-reddit-unveil-the-most-popular-buy-it-for-life-items-of-2023/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "1d4ec90ba819650b36adb53a",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Spotlight, Spring ‘23: New AI-powered, personalized shopping feed and innovations for consumers and retailers",
+    "link": "https://www.klarna.com/international/press/klarna-spotlight-spring-23-new-ai-powered-personalized-shopping-feed-and-innovations-for-consumers-and-retailers/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5462ccd7ce03b86502efc247",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Assigned Investment Grade Credit Rating by S&P Global.",
+    "link": "https://www.klarna.com/international/press/klarna-assigned-investment-grade-credit-rating-by-sp-global/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e1d343abc74cf53ce497cd2e",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Correction: Klarna Assigned Investment Grade Credit Rating from S&P Global",
+    "link": "https://www.klarna.com/international/press/correction-klarna-assigned-investment-grade-credit-rating-from-sp-global/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "3e513d4d1f932039191a5e67",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Assigned Investment Grade Credit Rating from S&P Global",
+    "link": "https://www.klarna.com/international/press/klarna-assigned-investment-grade-credit-rating-from-sp-global/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d970cd08e3079f4761e5eff0",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Retail revolution: new data reveals next generation of shoppers ready for AI, AR and Robots!",
+    "link": "https://www.klarna.com/international/press/retail-revolution-new-data-reveals-next-generation-of-shoppers-ready-for-ai-ar-and-robots/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b91b088668160ac07da2b4cd",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Airbnb offer flexible payments for guests",
+    "link": "https://www.klarna.com/international/press/klarna-and-airbnb-offer-flexible-payments-for-guests/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c4418edc979d58b698ae8c26",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna announces multi-million contribution from internal carbon tax for game-changing climate impact solutions; shares progress on emissions reduction",
+    "link": "https://www.klarna.com/international/press/klarna-announces-multi-million-contribution-from-internal-carbon-tax-for-game-changing-climate-impact-solutions-shares-progress-on-emissions-reduction/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "40db52b18f4cc35cebbf468a",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Reports First Quarter Results: New global partnership with Airbnb and accelerating with AI",
+    "link": "https://www.klarna.com/international/press/klarna-reports-first-quarter-results-new-global-partnership-with-airbnb-and-accelerating-with-ai/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "5896b25256d2f69ad75aa3c8",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to BNPL Saved Brits Half a Billion Pounds in Credit Card Interest Over a Decade—Klarna Marks 10 Years of Savings",
+    "link": "https://www.klarna.com/international/press/bnpl-saved-brits-half-a-billion-pounds-in-credit-card-interest-over-a-decade-klarna-marks-10-years-of-savings/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0f58d280381ed32540fe62fc",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Enters £7 Billion UK Gift Card Market With Launch of Gift Card Store",
+    "link": "https://www.klarna.com/international/press/klarna-enters-ps7-billion-uk-gift-card-market-with-launch-of-gift-card-store/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d0374edd7f646224a3994164",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Group PLC Shareholders Vote for change to the Board of Directors and the Company’s Articles of Association",
+    "link": "https://www.klarna.com/international/press/klarna-group-plc-shareholders-vote-for-change-to-the-board-of-directors-and-the-companys-articles-of-association/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "26af994a6d0131b5e4b97b2f",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Bank AB announces changes to its Board of Directors",
+    "link": "https://www.klarna.com/international/press/klarna-bank-ab-announces-changes-to-its-board-of-directors/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "106d3684c746680d3dcfd986",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to TickPick and Klarna bring flexible payments to live event tickets",
+    "link": "https://www.klarna.com/international/press/tickpick-and-klarna-bring-flexible-payments-to-live-event-tickets/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "9cecc57689cf340472e905f7",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Worldpay expand partnership to unlock global merchant network",
+    "link": "https://www.klarna.com/international/press/klarna-and-worldpay-expand-partnership-to-unlock-global-merchant-network/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "efd539416eb2e251d117fcc5",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna and Zoom Announce Global Launch of Flexible Payments in 16 Markets",
+    "link": "https://www.klarna.com/international/press/klarna-and-zoom-announce-global-launch-of-flexible-payments-in-16-markets/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b49de484c13e88f41dc94d12",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna now available at John Lewis & Partners",
+    "link": "https://www.klarna.com/international/press/klarna-now-available-at-john-lewis-partners/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7eaed8cd85d9a7e3450d35c1",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Announces Confidential Submission of Draft Registration Statement to SEC for Proposed Initial Public Offering",
+    "link": "https://www.klarna.com/international/press/klarna-announces-confidential-submission-of-draft-registration-statement-to-sec-for-proposed-initial-public-offering/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e8f7be11cb87d24ace1b496a",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Staples launches Klarna flexible payments, helping consumers to ‘work now, pay later’",
+    "link": "https://www.klarna.com/international/press/staples-launches-klarna-flexible-payments-helping-consumers-to-work-now-pay-later/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "3215d60d1b969bd349a1f441",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Global technology powerhouse, Lenovo, bets big on BNPL with Klarna",
+    "link": "https://www.klarna.com/international/press/global-technology-powerhouse-lenovo-bets-big-on-bnpl-with-klarna/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e255d72858b89e78ff54b929",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Reports SEK 216 Million Profit in Q3 2024 as Strategic Partnerships Set Stage for Strong Holiday Season",
+    "link": "https://www.klarna.com/international/press/klarna-reports-sek-216-million-profit-in-q3-2024-as-strategic-partnerships-set-stage-for-strong-holiday-season/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "201da117eb459ffcb2c2eaa8",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna opens new hub in Warsaw to recruit 100 of Poland's top tech talents",
+    "link": "https://www.klarna.com/international/press/klarna-opens-new-hub-in-warsaw-to-recruit-100-of-polands-top-tech-talents/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "1ff43ff60b4b038ad0d5abd0",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Payment Options Now Available at Checkout on Apple Pay In-App and Online in Canada",
+    "link": "https://www.klarna.com/international/press/klarna-payment-options-now-available-at-checkout-on-apple-pay-in-app-and-online-in-canada/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "06878c2a11950d0a71b86192",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to eBay and Klarna Expand Partnership Bringing Buy Now Pay Later (BNPL) to New Markets",
+    "link": "https://www.klarna.com/international/press/ebay-and-klarna-expand-partnership-bringing-buy-now-pay-later-bnpl-to-new-markets/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "afd7eb3a56d6f173ad180274",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Fabletics teams up with Klarna to bring flexible payments to subscription members across the US",
+    "link": "https://www.klarna.com/international/press/fabletics-teams-up-with-klarna-to-bring-flexible-payments-to-subscription-members-across-the-us/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "7f31daa01ef653dc1ae4324e",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna partners with iconic luxury retailers Neiman Marcus and Bergdorf Goodman",
+    "link": "https://www.klarna.com/international/press/klarna-partners-with-iconic-luxury-retailers-neiman-marcus-and-bergdorf-goodman/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "322f2b8c5358b4221eb3f1ff",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna ‘Pay in 3’ launches for Zalando shoppers in five additional markets",
+    "link": "https://www.klarna.com/international/press/klarna-pay-in-3-launches-for-zalando-shoppers-in-five-additional-markets/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "3697c25f86eb62ccf8f8af79",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna is now available to millions of new businesses, in strengthened partnership with Stripe",
+    "link": "https://www.klarna.com/international/press/klarna-available-to-millions-of-new-businesses-in-strengthened-stripe/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e7202999076edb587e00f069",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna signs with J.P. Morgan Payments to expand merchant services offering",
+    "link": "https://www.klarna.com/international/press/klarna-signs-with-j-p-morgan-payments-to-expand-merchant-services-offering/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "54f15da7a4a8870f76396ea9",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Nexi and Klarna partner to boost merchant growth",
+    "link": "https://www.klarna.com/international/press/nexi-and-klarna-partner-to-boost-merchant-growth/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ba43784e80ff4c1717af38f0",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Markus Villig and Niclas Neglén appointed to Klarna Group PLC Board of Directors",
+    "link": "https://www.klarna.com/international/press/markus-villig-and-niclas-neglen-appointed-to-klarna-group-plc-board-of/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c6512dcdc9309b3a79b9c372",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna files registration statement for proposed Initial Public Offering",
+    "link": "https://www.klarna.com/international/press/klarna-files-registration-statement-for-proposed-initial-public-offering/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "3079ca0f2ad1bae73fd025b5",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Announces Partnership with OnePay to Exclusively Power Installment Loans at Walmart in the U.S.",
+    "link": "https://www.klarna.com/international/press/klarna-announces-partnership-with-onepay-to-exclusively-power-installment/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f2eb14f4913fa1c01734df51",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to DoorDash Partners with Klarna to Offer US Customers Even More Convenience with Flexible Payments",
+    "link": "https://www.klarna.com/international/press/doordash-partners-with-klarna-to-offer-us-customers-even-more-convenience/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "425351a86335a1e9920e4e58",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Laybuy returns, powered by Klarna",
+    "link": "https://www.klarna.com/international/press/laybuy-returns-powered-by-klarna/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "965758ba157e27e039aa5509",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Eurostar introduces Klarna for flexible payments in the UK and France, making high-speed rail more accessible",
+    "link": "https://www.klarna.com/international/press/eurostar-introduces-klarna-for-flexible-payments-in-the-uk-and-france/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "0e2dfd32c35e59345f7184c1",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna partners with Aritzia to bring flexible payment options to clients across Canada and the United States",
+    "link": "https://www.klarna.com/international/press/klarna-partners-with-aritzia-to-bring-flexible-payment-options-to-clients/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.280Z",
+    "deliveredAt": "2026-10-30T21:04:53.280Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "cbaec0a5e14886466c6e9c0a",
+    "source": "Klarna",
+    "sourceKey": "src-f16daf5cdc73aa7e",
+    "sourceLabel": "Klarna",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Navigate to Klarna Plus Marks First Year in the US, Signaling Growing Momentum in Subscription Services",
+    "link": "https://www.klarna.com/international/press/klarna-plus-marks-first-year-in-the-us-signaling-growing-momentum-in/",
+    "pageDate": "October 29, 2026",
+    "publishedAt": "2026-10-29T00:00:00.000Z",
+    "detectedAt": "2026-10-30T21:04:53.279Z",
+    "deliveredAt": "2026-10-30T21:04:53.279Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "43a79a62288a9a89fe8be40f",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Las Vegas, NV, United States Mar 2 - 4, 2027 The Proven Conference 2027",
+    "link": "https://amzsummits.com/events/the-proven-conference-2027/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-30T21:04:53.217Z",
+    "deliveredAt": "2026-10-30T21:04:53.217Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "57409c59461d9656fb0a9200",
     "source": "Ebayinc",
     "sourceKey": "src-15b135037542f2c3",
@@ -9559,1480 +11035,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Continues Strong US Growth, Reaching Record Highs In Customers, Retail Partners, and Consumer App Downloads",
     "link": "https://www.klarna.com/international/press/klarna-continues-strong-us-growth-reaching-record-highs-in-customers-retail-partners-and-consumer-app-downloads/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "372507fcca5c615bcf77a551",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with TELFAR to offer shoppers flexible payment solutions",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-telfar-to-offer-shoppers-flexible-payment-solutions/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cd647b888eb13a3250e31c51",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Worldline and Klarna expand payment offering across Europe",
-    "link": "https://www.klarna.com/international/press/worldline-and-klarna-expand-payment-offering-across-europe/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a4035e0f11db908299feec14",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Cosmopolitan and Klarna host second virtual shopping event for Gen Z and millennials, “Hauliday by Cosmo x Klarna”",
-    "link": "https://www.klarna.com/international/press/cosmopolitan-and-klarna-host-second-virtual-shopping-event-for-gen-z-and-millennials-hauliday-by-cosmo-x-klarna/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a77a5f83dbb688b0c58f1b4e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Q1-Q4 2020 Financial Report",
-    "link": "https://www.klarna.com/international/press/klarna-q1-q4-2020-financial-report/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "33633d588a0b6cf23b1cfe0d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna CEO challenges tech to focus on global sustainability in $1 bn funding round",
-    "link": "https://www.klarna.com/international/press/klarna-ceo-challenges-tech-to-focus-on-global-sustainability-in-1-bn-funding-round/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "96ba001fed08db47eec6a672",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands Open Banking solution to 8 more European markets",
-    "link": "https://www.klarna.com/international/press/klarna-expands-open-banking-solution-to-8-more-european-markets/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "37aa189326868b0892b8e4db",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna takes merchant marketing support to new heights with enhanced demand-generation services",
-    "link": "https://www.klarna.com/international/press/klarna-takes-merchant-marketing-support-to-new-heights-with-enhanced-demand-generation-services/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a46263b45e63946002d116ac",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Consumers turn to BNPL for flexibility and security as retail readies for recovery",
-    "link": "https://www.klarna.com/international/press/consumers-turn-to-bnpl-for-flexibility-and-security-as-retail-readies-for-recovery/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "28996acc57042093518f5e21",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to New Klarna survey finds nearly 80% of shoppers want fitting rooms to reopen this year, while many remain skeptical about product testing",
-    "link": "https://www.klarna.com/international/press/new-klarna-survey-finds-nearly-80-of-shoppers-want-fitting-rooms-to-reopen-this-year-while-many-remain-skeptical-about-product-testing/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "77c6daa0c0cb9948b1f503d3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB (publ) announces tender offer regarding certain outstanding senior unsecured bonds",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-publ-announces-tender-offer-regarding-certain-outstanding-senior-unsecured-bonds/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "21d6e77b264f082072663433",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna 2020 Annual Report Published",
-    "link": "https://www.klarna.com/international/press/klarna-2020-annual-report-published/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7a3c0537f844127020f29344",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB (publ) announces final tender offer results",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-publ-announces-final-tender-offer-results/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b689d6a273561d9dc8df8cc7",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches carbon footprint insights for 90 million consumers",
-    "link": "https://www.klarna.com/international/press/klarna-launches-carbon-footprint-insights-for-90-million-consumers/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1496516dfdfcd51b3da8f841",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Macy's, Inc. exclusively partners with Klarna to offer Pay in Four services in 750+ stores nationwide",
-    "link": "https://www.klarna.com/international/press/macys-inc-exclusively-partners-with-klarna-to-offer-pay-in-four-services-in-750-stores-nationwide/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "992dc6afd7f848deabf79113",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Kia ora New Zealand! Klarna brings “smoooth” shopping to Kiwis.",
-    "link": "https://www.klarna.com/international/press/kia-ora-new-zealand-klarna-brings-smoooth-shopping-to-kiwis/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "24d510441242877406bfae55",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Authentic Brands Group and SPARC Group announce exclusive partnership with Klarna to introduce ‘Pay in Four’ across their portfolio of brands",
-    "link": "https://www.klarna.com/international/press/authentic-brands-group-and-sparc-group-announce-exclusive-partnership-with-klarna-to-introduce-pay-in-four-across-their-portfolio-of-brands/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "022c48770774a1ab1320d6c4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Early redemption of subordinated Tier 2 notes",
-    "link": "https://www.klarna.com/international/press/early-redemption-of-subordinated-tier-2-notes/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "39fb47aed34b85cd4445ab8d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Announcement of the appointment of Roger W. Ferguson Jr to Klarna Board",
-    "link": "https://www.klarna.com/international/press/announcement-of-the-appointment-of-roger-w-ferguson-jr-to-klarna-board/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a5f3bd9f7d8e4910782de7a5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna uses increasing global scale to support emerging tech centres",
-    "link": "https://www.klarna.com/international/press/klarna-uses-increasing-global-scale-to-support-emerging-tech-centres/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f8fa170af4e3e934acdff705",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes first quarter results - January - March 2021",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-first-quarter-results-january-march-2021/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "86e17b0a347a017cce739113",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to A$AP Rocky joins Klarna as investor and CEO for a day",
-    "link": "https://www.klarna.com/international/press/aap-rocky-joins-klarna-as-investor-and-ceo-for-a-day/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "28155b9a69a8276a63226431",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Salut!” to France with unique shopping experience",
-    "link": "https://www.klarna.com/international/press/klarna-says-salut-to-france-with-unique-shopping-experience/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c681263113a6b977d1dc142a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to A$AP Rocky and Klarna team up for global campaign",
-    "link": "https://www.klarna.com/international/press/aap-rocky-and-klarna-team-up-for-global-campaign/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a8c83ab0726d50aacc7c3cf6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures additional funding as consumers demand smarter alternatives to shop, bank, & pay",
-    "link": "https://www.klarna.com/international/press/klarna-secures-additional-funding-as-consumers-demand-smarter-alternatives-to-shop-bank-pay/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f25cb6db1cec479a29e2e080",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Launches Klarna Comparison Shopping Service across Europe",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarna-comparison-shopping-service-across-europe/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5958bc939e307624b3f64aae",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna becomes first Fintech to join The Climate Pledge and Race to Zero campaign",
-    "link": "https://www.klarna.com/international/press/klarna-becomes-first-fintech-to-join-the-climate-pledge-and-race-to-zero-campaign/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c07aff289a6342d2d1018a73",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires HERO to bring best of in-store experience to social shopping for its 90m consumers",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-hero-to-bring-best-of-in-store-experience-to-social-shopping-for-its-90m-consumers/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e5fa2cb565b36e9ea6022209",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires APPRL, connecting retailers and content creators as global consumers embrace social shopping",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-apprl-connecting-retailers-and-content-creators-as-global-consumers-embrace-social-shopping/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bc73c68549b574bbc3f556c2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to YOOX NET-A-PORTER Group and Klarna announce global partnership",
-    "link": "https://www.klarna.com/international/press/yoox-net-a-porter-group-and-klarna-announce-global-partnership/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "da57a35b554477cb883beba9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Cześć!” to Poland with “Pay in 30 days”",
-    "link": "https://www.klarna.com/international/press/klarna-says-czesc-to-poland-with-pay-in-30-days/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e0d4cd61481adfc0e70d2b82",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna hits record 20 million US customers as demand for flexible payment options soars",
-    "link": "https://www.klarna.com/international/press/klarna-hits-record-20-million-us-customers-as-demand-for-flexible-payment-options-soars/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "33c9040236a7377aef25c938",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna interim report January - June 2021",
-    "link": "https://www.klarna.com/international/press/klarna-interim-report-january-june-2021/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1b97600490e5a9bc720ccd92",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Global-e expand international partnership across US, UK, France, Spain, Italy and Australia",
-    "link": "https://www.klarna.com/international/press/klarna-and-global-e-expand-international-partnership-across-us-uk-france-spain-italy-and-australia/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f34a01b17966f85258cd6397",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Amendment to interim reports 2021",
-    "link": "https://www.klarna.com/international/press/amendment-to-interim-reports-2021/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "101152a295037a623a5b8cae",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Beautycounter launch ‘Better Beauty’ livestream shopping series",
-    "link": "https://www.klarna.com/international/press/klarna-and-beautycounter-launch-better-beauty-livestream-shopping-series/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "32f2ea39de1f9bc663ba0a14",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna reaches 1 million downloads of its ‘all-in-one’ shopping app in Australia",
-    "link": "https://www.klarna.com/international/press/klarna-reaches-1-million-downloads-of-its-all-in-one-shopping-app-in-australia/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0549d7403c205bb44519e9c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to US shoppers get a jump on the holidays, with 40% shopping earlier than last year and 22% already started",
-    "link": "https://www.klarna.com/international/press/us-shoppers-get-a-jump-on-the-holidays-with-40-shopping-earlier-than-last-year-and-22-already-started/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a22c774ad5d845e51fd0b9c8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Simon Announce National Strategic Alliance",
-    "link": "https://www.klarna.com/international/press/klarna-and-simon-announce-national-strategic-alliance/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ca7650d016d9dfc9dea8fdc9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Billie and Klarna launch a global partnership",
-    "link": "https://www.klarna.com/international/press/billie-and-klarna-launch-a-global-partnership/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6c11e6dba639458692ab6374",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes Climate report 2020/2021 and commits over 1 million USD to climate transformation projects",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-climate-report-20202021-and-commits-over-1-million-usd-to-climate-transformation-projects/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1a1426fabd2aadd8116727d6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Wix, bringing flexible payment solutions to merchants worldwide",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-wix-bringing-flexible-payment-solutions-to-merchants-worldwide/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b53480b60054682bdff490e8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires Inspirock, bringing smooth travel planning to its 90M global consumers",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-inspirock-bringing-smooth-travel-planning-to-its-90m-global-consumers/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "dee0259180ccb07621d9349c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Stripe enter strategic partnership to fuel growth for retailers worldwide",
-    "link": "https://www.klarna.com/international/press/klarna-and-stripe-enter-strategic-partnership-to-fuel-growth-for-retailers-worldwide/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7ba21c5f0013949e74db432a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires PriceRunner to strengthen banking offer for its 90m global consumers",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-pricerunner-to-strengthen-banking-offer-for-its-90m-global-consumers/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4e8a09af0a6a10275ecbe478",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Next generation shopping: Klarna reveals the only shopping app consumers need",
-    "link": "https://www.klarna.com/international/press/next-generation-shopping-klarna-reveals-the-only-shopping-app-consumers-need/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a163e7c61dec3c128e5afc52",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says ‘Dia dhuit’ to Ireland and launches pay in 3",
-    "link": "https://www.klarna.com/international/press/klarna-says-dia-dhuit-to-ireland-and-launches-pay-in-3/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9b60edf79ce0a4bb63320d0d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says ‘Olá’ to Portugal and launches ‘Pay in 3’",
-    "link": "https://www.klarna.com/international/press/klarna-says-ola-to-portugal-and-launches-pay-in-3/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "dd284f6622b0e81d16dd2cf8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna supercharges US offering with launch of ‘Pay Now’ option and Klarna Card",
-    "link": "https://www.klarna.com/international/press/klarna-supercharges-us-offering-with-launch-of-pay-now-option-and-klarna-card/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9ea99e57d8e07eac58ce8093",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches browser extension allowing consumers to pay later across all online stores",
-    "link": "https://www.klarna.com/international/press/klarna-launches-browser-extension-allowing-consumers-to-pay-later-across-all-online-stores/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ccbeba73fdf991481352f8cd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches first-ever immersive sports activation, bringing basketball fans worldwide closer to the game",
-    "link": "https://www.klarna.com/international/press/klarna-launches-first-ever-immersive-sports-activation-bringing-basketball-fans-worldwide-closer-to-the-game/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "56cf519516a370f612bf2521",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna fuels global expansion with the launch of rewards program and Pay Now in nine new markets",
-    "link": "https://www.klarna.com/international/press/klarna-fuels-global-expansion-with-the-launch-of-rewards-program-and-pay-now-in-nine-new-markets/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e87409e3161f4c2922727701",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna expands to Canada with flexible “Pay in 4” service and shopping app, while announcing major investment in local economy",
-    "link": "https://www.klarna.com/international/press/klarna-expands-to-canada-with-flexible-pay-in-4-service-and-shopping-app-while-announcing-major-investment-in-local-economy/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b5cf379b4ebc8cbb735bf38d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Brookfield Properties enhance the in-store shopping experience for millions of US customers",
-    "link": "https://www.klarna.com/international/press/klarna-and-brookfield-properties-enhance-the-in-store-shopping-experience-for-millions-of-us-customers/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "45864d92516b61c1b77fcdf4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces Full Year Financial Results 2021",
-    "link": "https://www.klarna.com/international/press/klarna-announces-full-year-financial-results-2021/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "75a710c8fe284b508213b125",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes its Annual Reports and ESG Report for January – December 2021.",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-its-annual-reports-and-esg-report-for-january-december-2021/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9c73aed237237a768b9a88d2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches ‘Klarna Kosma’ sub-brand and business unit to harness rapid growth of Open Banking platform",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarna-kosma-sub-brand-and-business-unit-to-harness-rapid-growth-of-open-banking-platform/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "102cfcc4e7939de5e62e68f9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Chicago artist Chuck Anderson on custom sneakers for Chicago Bulls’ iconic mascot Benny the Bull",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-chicago-artist-chuck-anderson-on-custom-sneakers-for-chicago-bulls-iconic-mascot-benny-the-bull/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "eefc1bfcb2a3824bfff7af66",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna completes acquisition of PriceRunner",
-    "link": "https://www.klarna.com/international/press/klarna-completes-acquisition-of-pricerunner/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "acdf6ea9a8f75c22c3df33a6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Stocard joins Klarna and gets “Smoooth” with an all-new brand identity",
-    "link": "https://www.klarna.com/international/press/stocard-joins-klarna-and-gets-smoooth-with-an-all-new-brand-identity/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e8feb4507538df755905ce6c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna matches consumer donations towards planet health causes this Earth Week",
-    "link": "https://www.klarna.com/international/press/klarna-matches-consumer-donations-towards-planet-health-causes-this-earth-week/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ba3809a8bc6dfe9903e00eda",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Global-e expand global partnership to Canada",
-    "link": "https://www.klarna.com/international/press/klarna-and-global-e-expand-global-partnership-to-canada/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f73cb738ca4c149107a0e688",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Early redemption of Additional Tier 1 Capital Notes",
-    "link": "https://www.klarna.com/international/press/early-redemption-of-additional-tier-1-capital-notes/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "738c80b48e1df7cb69578c83",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna unveils global Flexible Work Policy, meeting strong demand for hybrid work",
-    "link": "https://www.klarna.com/international/press/klarna-unveils-global-flexible-work-policy-meeting-strong-demand-for-hybrid-work/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a11d4164cf04d210ee4bde28",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches Virtual Shopping, bringing the in-store experience to online shoppers",
-    "link": "https://www.klarna.com/international/press/klarna-launches-virtual-shopping-bringing-the-in-store-experience-to-online-shoppers/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "02c528a59871c69c18c12c27",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with URBN to offer US consumers greater payment flexibility",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-urbn-to-offer-us-consumers-greater-payment-flexibility/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a95876e4d66684493afb4f5f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches Dream Deal Days to celebrate reaching 150 million consumers",
-    "link": "https://www.klarna.com/international/press/klarna-launches-dream-deal-days-to-celebrate-reaching-150-million-consumers/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "53a952b82564460af0133b90",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Card launches in the US alongside new money management tools, empowering consumers to take control of their finances",
-    "link": "https://www.klarna.com/international/press/klarna-card-launches-in-the-us-alongside-new-money-management-tools-empowering-consumers-to-take-control-of-their-finances/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.486Z",
