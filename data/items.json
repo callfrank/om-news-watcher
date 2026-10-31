@@ -1,5 +1,27 @@
 [
   {
+    "guid": "00f67cc9ba8e794ddc4288ac",
+    "source": "DHL Discover Global",
+    "sourceKey": "src-a4b561cb340f5d1b",
+    "sourceLabel": "DHL Discover Global",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Is Your Business Ready for Heavy Weight Shipping?",
+    "link": "https://www.dhl.com/discover/en-global/logistics-advice/essential-guides/is-your-business-ready-for-heavy-weight-shipping",
+    "pageDate": "31.10.2026",
+    "publishedAt": "2026-10-31T12:00:00.000Z",
+    "detectedAt": "2026-10-31T00:48:19.089Z",
+    "deliveredAt": "2026-10-31T00:48:19.089Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "0c9af6f324587c9dc74c7785",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -11013,28 +11035,6 @@
     "priority": 2,
     "title": "Navigate to Klarna Makes Its Big Game Debut With “The Four Quarter-Sized Cowboys” Campaign Starring Four Singing Maya Rudolphs",
     "link": "https://www.klarna.com/international/press/klarna-makes-its-big-game-debut-with-the-four-quarter-sized-cowboys-campaign-starring-four-singing-maya-rudolphs/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f040460900724e6ac0e128d4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Continues Strong US Growth, Reaching Record Highs In Customers, Retail Partners, and Consumer App Downloads",
-    "link": "https://www.klarna.com/international/press/klarna-continues-strong-us-growth-reaching-record-highs-in-customers-retail-partners-and-consumer-app-downloads/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.486Z",
