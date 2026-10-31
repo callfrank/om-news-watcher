@@ -1,5 +1,77 @@
 [
   {
+    "guid": "2e109ac1ebbcd2a0985e69e8",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Big Squij: Hamleys setzt zu Weihnachten auf die Quetschbanane",
+    "link": "https://onlinemarktplatz.de/294351/big-squij-quetschbanane/",
+    "pageDate": "Sat, 31 Oct 2026 07:25:28 +0000",
+    "publishedAt": "2026-10-31T07:25:28.000Z",
+    "detectedAt": "2026-10-31T13:06:46.780Z",
+    "deliveredAt": "2026-10-31T13:06:46.780Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e939a2c1add848c741156f36",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wiederverkauf von Kleidung beeinflusst schon den Neukauf",
+    "link": "https://onlinemarktplatz.de/294014/wiederverkauf-von-kleidung-neukauf/",
+    "pageDate": "Sat, 31 Oct 2026 08:11:50 +0000",
+    "publishedAt": "2026-10-31T08:11:50.000Z",
+    "detectedAt": "2026-10-31T13:06:46.780Z",
+    "deliveredAt": "2026-10-31T13:06:46.780Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ef599639c8f1eb03fc6d06a9",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Verdächtige Vinted-Angebote: Frankreich zieht Bilanz nach Plünderungen",
+    "link": "https://onlinemarktplatz.de/294902/verdaechtige-vinted-angebote/",
+    "pageDate": "Sat, 31 Oct 2026 08:51:00 +0000",
+    "publishedAt": "2026-10-31T08:51:00.000Z",
+    "detectedAt": "2026-10-31T13:06:46.780Z",
+    "deliveredAt": "2026-10-31T13:06:46.780Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "0716057811679966e7276e63",
     "source": "DHL Discover Global",
     "sourceKey": "src-a4b561cb340f5d1b",
@@ -10969,72 +11041,6 @@
     "priority": 2,
     "title": "Navigate to Klarna publishes financial update for January - September 2020",
     "link": "https://www.klarna.com/international/press/klarna-publishes-financial-update-for-january-september-2020/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "37d8f9fcd4979f2bff7cea79",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna appoints Michael Moritz as Chairman of the Klarna Board and welcomes three new global leaders to the Board",
-    "link": "https://www.klarna.com/international/press/klarna-appoints-michael-moritz-as-chairman-of-the-klarna-board-and-welcomes-three-new-global-leaders-to-the-board/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8a8e072cc8599180373c66b3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Online sales spiked by 2000% during final hours of Black Friday, while shoppers prioritized electronics and marketplace purchases",
-    "link": "https://www.klarna.com/international/press/online-sales-spiked-by-2000-during-final-hours-of-black-friday-while-shoppers-prioritized-electronics-and-marketplace-purchases/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8a3c761b31c4ee7bfbfbc347",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Verifone to enable superior shopping experiences in physical stores globally",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-verifone-to-enable-superior-shopping-experiences-in-physical-stores-globally/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.486Z",
