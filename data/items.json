@@ -1,5 +1,27 @@
 [
   {
+    "guid": "0716057811679966e7276e63",
+    "source": "DHL Discover Global",
+    "sourceKey": "src-a4b561cb340f5d1b",
+    "sourceLabel": "DHL Discover Global",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Events"
+    ],
+    "priority": 2,
+    "title": "EU Deforestation Regulation (EUDR): A Guide for Businesses",
+    "link": "https://www.dhl.com/discover/en-global/logistics-advice/logistics-insights/eu-deforestation-regulation",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-10-31T06:22:31.974Z",
+    "deliveredAt": "2026-10-31T06:22:31.974Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "00f67cc9ba8e794ddc4288ac",
     "source": "DHL Discover Global",
     "sourceKey": "src-a4b561cb340f5d1b",
@@ -11013,28 +11035,6 @@
     "priority": 2,
     "title": "Navigate to Klarna partners with Verifone to enable superior shopping experiences in physical stores globally",
     "link": "https://www.klarna.com/international/press/klarna-partners-with-verifone-to-enable-superior-shopping-experiences-in-physical-stores-globally/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fb139fbbb195e352d31c1e6c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Makes Its Big Game Debut With “The Four Quarter-Sized Cowboys” Campaign Starring Four Singing Maya Rudolphs",
-    "link": "https://www.klarna.com/international/press/klarna-makes-its-big-game-debut-with-the-four-quarter-sized-cowboys-campaign-starring-four-singing-maya-rudolphs/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.486Z",
