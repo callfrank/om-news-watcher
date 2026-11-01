@@ -1,5 +1,100 @@
 [
   {
+    "guid": "e092433a8471ee61d59a2724",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Internetsteuer Frankreich: 5,5 Cent pro Gigabyte angenommen",
+    "link": "https://wortfilter.de/internetsteuer-frankreich-gigabyte/",
+    "pageDate": "01.11.2026",
+    "publishedAt": "2026-11-01T12:00:00.000Z",
+    "detectedAt": "2026-11-01T09:45:55.386Z",
+    "deliveredAt": "2026-11-01T09:45:55.386Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6a0a8c944d9e01475ba102b6",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "ALDI Nord Paketstationen: myflexbox startet an drei Märkten",
+    "link": "https://onlinemarktplatz.de/294380/aldi-nord-paketstationen-myflexbox/",
+    "pageDate": "01.11.2026",
+    "publishedAt": "2026-11-01T12:00:00.000Z",
+    "detectedAt": "2026-11-01T09:45:55.385Z",
+    "deliveredAt": "2026-11-01T09:45:55.385Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b75c34b500496f6574115cd8",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Start der Deutschland-App verzögert sich: Anforderungen steigen",
+    "link": "https://onlinemarktplatz.de/294640/start-der-deutschland-app-verzoegerung/",
+    "pageDate": "01.11.2026",
+    "publishedAt": "2026-11-01T12:00:00.000Z",
+    "detectedAt": "2026-11-01T09:45:55.385Z",
+    "deliveredAt": "2026-11-01T09:45:55.385Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "118b7a08cd1f385a88aea0fb",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kaufkraft Europa 2026: Einkommen steigt, Märkte bleiben ungleich",
+    "link": "https://onlinemarktplatz.de/294948/kaufkraft-europa-2026-ranking/",
+    "pageDate": "01.11.2026",
+    "publishedAt": "2026-11-01T12:00:00.000Z",
+    "detectedAt": "2026-11-01T09:45:55.384Z",
+    "deliveredAt": "2026-11-01T09:45:55.384Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "2e109ac1ebbcd2a0985e69e8",
     "source": "Onlinemarktplatz",
     "sourceKey": "src-907af1387802cea1",
@@ -10953,94 +11048,6 @@
     "priority": 2,
     "title": "Navigate to Klarna reaches a record 11 million customers in the US",
     "link": "https://www.klarna.com/international/press/klarna-reaches-a-record-11-million-customers-in-the-us/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "af940ef2dc1e73b25ccc833f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces partnership with Saks OFF 5TH ahead of the holidays",
-    "link": "https://www.klarna.com/international/press/klarna-announces-partnership-with-saks-off-5th-ahead-of-the-holidays/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f84a07478a5053df4ebdbe57",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Express partners with Klarna in time for holiday shopping season",
-    "link": "https://www.klarna.com/international/press/express-partners-with-klarna-in-time-for-holiday-shopping-season/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "710e3de691fccb0941456c1e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Shoppers shift e-commerce spending towards leisure and home goods in the run-up to Black Friday",
-    "link": "https://www.klarna.com/international/press/shoppers-shift-e-commerce-spending-towards-leisure-and-home-goods-in-the-run-up-to-black-friday/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a72f86ceb5cf45b1dcad57b0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes financial update for January - September 2020",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-financial-update-for-january-september-2020/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.486Z",
