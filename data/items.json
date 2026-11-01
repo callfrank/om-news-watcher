@@ -1,5 +1,28 @@
 [
   {
+    "guid": "c9d112373d204c0cf9ea20e7",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "In the media: Maite Zubiaurre about the future of shopping in NRC",
+    "link": "https://over.bol.com/en/news/in-de-media-maite-zubiaurre-over-de-toekomst-van-winkelen-in-nrc/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-01T16:27:13.722Z",
+    "deliveredAt": "2026-11-01T16:27:13.722Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "e092433a8471ee61d59a2724",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11026,28 +11049,6 @@
     "priority": 2,
     "title": "Navigate to Urban Outfitters and Anthropologie partners with Klarna ahead of peak",
     "link": "https://www.klarna.com/international/press/urban-outfitters-and-anthropologie-partners-with-klarna-ahead-of-peak/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "13ca36128f41aa49a4dc7028",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna reaches a record 11 million customers in the US",
-    "link": "https://www.klarna.com/international/press/klarna-reaches-a-record-11-million-customers-in-the-us/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.486Z",
