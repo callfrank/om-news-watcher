@@ -1,5 +1,141 @@
 [
   {
+    "guid": "37427c79d38ae09d31c8aa19",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon CEO Andy Jassy: ‘I had to change how I worked, or I was going to be a lousy dad’",
+    "link": "https://www.aboutamazon.com/news/workplace/amazon-ceo-andy-jassy-work-life-balance",
+    "pageDate": "Nov. 2, 2026",
+    "publishedAt": "2026-11-02T00:00:00.000Z",
+    "detectedAt": "2026-11-02T23:54:46.216Z",
+    "deliveredAt": "2026-11-02T23:54:46.216Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e7db87a7705149b8abe70c46",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "China-News: 90 % der EU-Auslandskäufe gehen nach China",
+    "link": "https://wortfilter.de/china-news-eu-auslandskaeufe-china/",
+    "pageDate": "02.11.2026",
+    "publishedAt": "2026-11-02T12:00:00.000Z",
+    "detectedAt": "2026-11-02T23:54:46.171Z",
+    "deliveredAt": "2026-11-02T23:54:46.171Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e1e9f26d8660d3f35462fb3f",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Zwangsrenteneinzahlung: Neue Rentenpflicht ab 2027: Gewerbe-Umzug = Neugründung?",
+    "link": "https://wortfilter.de/rentenpflicht-2027-gewerbe-umzug-neugruendung/",
+    "pageDate": "02.11.2026",
+    "publishedAt": "2026-11-02T12:00:00.000Z",
+    "detectedAt": "2026-11-02T23:54:46.171Z",
+    "deliveredAt": "2026-11-02T23:54:46.171Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "315e8e4fb23442e71094a694",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Grok Bot: Musk drosselt Limits – Kosten zu hoch für Umsatz",
+    "link": "https://wortfilter.de/grok-bot-nutzungslimits/",
+    "pageDate": "02.11.2026",
+    "publishedAt": "2026-11-02T12:00:00.000Z",
+    "detectedAt": "2026-11-02T23:54:46.171Z",
+    "deliveredAt": "2026-11-02T23:54:46.171Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1d6f326a6e5d4ac3e074db53",
+    "source": "DHL Discover Global",
+    "sourceKey": "src-a4b561cb340f5d1b",
+    "sourceLabel": "DHL Discover Global",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Events"
+    ],
+    "priority": 2,
+    "title": "How to Ship Artwork Internationally",
+    "link": "https://www.dhl.com/discover/en-global/logistics-advice/import-export-advice/how-to-ship-artwork-internationally",
+    "pageDate": "02.11.2026",
+    "publishedAt": "2026-11-02T12:00:00.000Z",
+    "detectedAt": "2026-11-02T23:54:46.158Z",
+    "deliveredAt": "2026-11-02T23:54:46.158Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dea03f48ad53b4d7de20db68",
+    "source": "DHL Discover Global",
+    "sourceKey": "src-a4b561cb340f5d1b",
+    "sourceLabel": "DHL Discover Global",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Events"
+    ],
+    "priority": 2,
+    "title": "EU Deforestation Regulation (EUDR): A Guide for Businesses",
+    "link": "https://www.dhl.com/discover/en-global/logistics-advice/logistics-insights/fca-vs-fob-key-differences",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-02T23:54:46.157Z",
+    "deliveredAt": "2026-11-02T23:54:46.157Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
     "guid": "ce8d8abd708486808619a164",
     "source": "DM",
     "sourceKey": "src-fd6e846f7c6683bc",
@@ -921,28 +1057,6 @@
     "publishedAt": "2026-10-31T08:51:00.000Z",
     "detectedAt": "2026-10-31T13:06:46.780Z",
     "deliveredAt": "2026-10-31T13:06:46.780Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0716057811679966e7276e63",
-    "source": "DHL Discover Global",
-    "sourceKey": "src-a4b561cb340f5d1b",
-    "sourceLabel": "DHL Discover Global",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Events"
-    ],
-    "priority": 2,
-    "title": "EU Deforestation Regulation (EUDR): A Guide for Businesses",
-    "link": "https://www.dhl.com/discover/en-global/logistics-advice/logistics-insights/eu-deforestation-regulation",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-10-31T06:22:31.974Z",
-    "deliveredAt": "2026-10-31T06:22:31.974Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
@@ -10949,116 +11063,6 @@
     "priority": 2,
     "title": "Navigate to Klarna UK hits 7 million customers and 1.6 million app downloads",
     "link": "https://www.klarna.com/international/press/klarna-uk-hits-7-million-customers-and-16-million-app-downloads/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ccbecb8057e3e98c25cb7200",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna year-end report January-December (Q1-Q4) 2019",
-    "link": "https://www.klarna.com/international/press/klarna-year-end-report-january-december-q1-q4-2019/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f6d4f0d503ab92944a9b4343",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Breaking the leap day tradition: see Kirstin propose to her flabbergasted boyfriend on hidden camera.",
-    "link": "https://www.klarna.com/international/press/breaking-the-leap-day-tradition-see-kirstin-propose-to-her-flabbergasted-boyfriend-on-hidden-camera/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e9d86bf937dbcce6d4f5fe12",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to SHEIN and Klarna Partner to Give Shoppers the Fashions They Want and Flexibility They Need",
-    "link": "https://www.klarna.com/international/press/shein-and-klarna-partner-to-give-shoppers-the-fashions-they-want-and-flexibility-they-need/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f9adef1c44fdfe42ac0e615f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Ant Financial Services Group & Klarna announce investment to fuel global cooperation",
-    "link": "https://www.klarna.com/international/press/ant-financial-services-group-klarna-announce-investment-to-fuel-global-cooperation/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "62db0309a04c3a4ccf5bfcb2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Millennials value transparency, technology and talking when it comes to managing their finances",
-    "link": "https://www.klarna.com/international/press/millennials-value-transparency-technology-and-talking-when-it-comes-to-managing-their-finances/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.487Z",
