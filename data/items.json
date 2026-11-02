@@ -1,5 +1,25 @@
 [
   {
+    "guid": "d15eb2997044c1c81f095282",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Chiang Mai, Thailand Nov 3 - 5, 2027 Cross Border Summit 2027",
+    "link": "https://amzsummits.com/events/cross-border-summit-2027/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-02T06:32:06.743Z",
+    "deliveredAt": "2026-11-02T06:32:06.743Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "14a59c6e0f0901d7ee5b696d",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -11030,28 +11050,6 @@
     "priority": 2,
     "title": "Navigate to Klarna says “Buongiorno” in Italy and launches “Pay in 3”",
     "link": "https://www.klarna.com/international/press/klarna-says-buongiorno-in-italy-and-launches-pay-in-3/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9d968a516d2ef72df1839b4c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna makes shopping more rewarding",
-    "link": "https://www.klarna.com/international/press/klarna-makes-shopping-more-rewarding/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.486Z",
