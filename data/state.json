@@ -17537,7 +17537,12 @@
     "src-df3769ae5eb9d873": "Abruf fehlgeschlagen: HTTP 403",
     "src-65cd776c7db6b237": "Abruf fehlgeschlagen: HARD TIMEOUT nach 25s",
     "src-dbea0c1ac563772a": "Abruf fehlgeschlagen: HTTP 403",
-    "src-8542e09c0f690b10": "Abruf fehlgeschlagen: HARD TIMEOUT nach 25s"
+    "src-8542e09c0f690b10": "Abruf fehlgeschlagen: HARD TIMEOUT nach 25s",
+    "src-b0d6dce4f4e53f64": "0 Treffer; zuletzt typischerweise 9",
+    "src-6f65565f4749a295": "0 Treffer; zuletzt typischerweise 7",
+    "src-ba300714de43cc5d": "0 Treffer; zuletzt typischerweise 9",
+    "src-51390123dcbdb93e": "1 Treffer; deutlich unter dem üblichen Niveau 12",
+    "src-3fbff5b0f3b52fe1": "1 Treffer; deutlich unter dem üblichen Niveau 12"
   },
   "deliveredBySource": {
     "Onlinemarktplatz": [
@@ -18634,6 +18639,7 @@
       "https://amzsummits.com/events/handlerbund-sellerday-2026/",
       "https://amzsummits.com/events/amazing-days-online-2026/",
       "https://amzsummits.com/events/the-proven-conference-2027/",
+      "https://amzsummits.com/events/cross-border-summit-2027/",
       "https://amzsummits.com/events/amazon-ecommerce-masters-summit-2027/",
       "https://amzsummits.com/events/amazon-accelerate-2027/",
       "https://amzsummits.com/events/ama-fest-uk-2026/",
@@ -18675,8 +18681,7 @@
       "https://amzsummits.com/events/european-seller-conference-2027/",
       "https://amzsummits.com/events/amazing-days-sofia-2027/",
       "https://amzsummits.com/events/seller-sessions-live-2027/",
-      "https://amzsummits.com/events/asgtg-event-2027/",
-      "https://amzsummits.com/events/cross-border-summit-2027/"
+      "https://amzsummits.com/events/asgtg-event-2027/"
     ],
     "src-27ff0ae02372e565": [],
     "src-b4a8f14e403e1f2f": [
@@ -20340,7 +20345,6 @@
       "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260811~47cd3ee040.de.html"
     ],
     "src-f16daf5cdc73aa7e": [
-      "https://www.klarna.com/international/press/klarna-makes-shopping-more-rewarding/",
       "https://www.klarna.com/international/press/klarna-says-buongiorno-in-italy-and-launches-pay-in-3/",
       "https://www.klarna.com/international/press/etsy-enables-millions-of-us-shoppers-to-buy-now-pay-later-with-klarna/",
       "https://www.klarna.com/international/press/klarna-announces-partnership-with-backcountrycom/",
@@ -20710,6 +20714,7 @@
       "https://www.klarna.com/international/press/klarna-invests-usd-17-million-from-its-internal-carbon-tax-in-sustainability-projects-for-maximum-long-term-climate-impact/",
       "https://www.klarna.com/international/press/play-by-new-rules-and-pay-like-a-pro-klarna-and-visa-change-the-game-with-new-campaign-promoting-the-klarna-card-ahead-of-the-uefa-womens-euro-2022/",
       "https://www.klarna.com/international/press/klarna-app-is-enhanced-with-digital-wallet-for-easy-access-to-loyalty-cards/",
+      "https://www.klarna.com/international/press/klarna-makes-shopping-more-rewarding/",
       "https://www.klarna.com/international/press/klarna-launches-research-lab-to-explore-the-future-of-shopping/",
       "https://www.klarna.com/international/press/klarna-launches-widget-to-track-prices-during-peak-holiday-shopping-season/",
       "https://www.klarna.com/international/press/gamestop-partners-with-klarna-to-offer-gaming-community-a-more-innovative-and-flexible-shopping-experience-online-and-in-store/",
@@ -23599,6 +23604,15 @@
     }
   },
   "lastStoredBySource": {
+    "src-4a1336d19ad6bee0": {
+      "title": "Chiang Mai, Thailand Nov 3 - 5, 2027 Cross Border Summit 2027",
+      "link": "https://amzsummits.com/events/cross-border-summit-2027/",
+      "pageDate": null,
+      "publishedAt": null,
+      "detectedAt": "2026-11-02T06:32:06.743Z",
+      "deliveredAt": "2026-11-02T06:32:06.743Z",
+      "recovered": false
+    },
     "src-5de41fa90c58714d": {
       "title": "Amazon just opened a net-zero carbon delivery station in the UK—its first in Europe",
       "link": "https://www.aboutamazon.com/news/sustainability/net-zero-delivery-station-uk",
@@ -23670,15 +23684,6 @@
       "detectedAt": "2026-10-30T21:04:53.280Z",
       "deliveredAt": "2026-10-30T21:04:53.280Z",
       "recovered": true
-    },
-    "src-4a1336d19ad6bee0": {
-      "title": "Chiang Mai, Thailand Nov 3 - 5, 2027 Cross Border Summit 2027",
-      "link": "https://amzsummits.com/events/cross-border-summit-2027/",
-      "pageDate": null,
-      "publishedAt": null,
-      "detectedAt": "2026-11-02T06:32:06.743Z",
-      "deliveredAt": "2026-11-02T06:32:06.743Z",
-      "recovered": false
     },
     "src-15b135037542f2c3": {
       "title": "Meet the 2026 eBay Live x Up & Running Grant recipients",
