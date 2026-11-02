@@ -1,5 +1,96 @@
 [
   {
+    "guid": "14a59c6e0f0901d7ee5b696d",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon just opened a net-zero carbon delivery station in the UK—its first in Europe",
+    "link": "https://www.aboutamazon.com/news/sustainability/net-zero-delivery-station-uk",
+    "pageDate": "Nov. 1, 2026",
+    "publishedAt": "2026-11-01T00:00:00.000Z",
+    "detectedAt": "2026-11-02T00:45:15.678Z",
+    "deliveredAt": "2026-11-02T00:45:15.678Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9f233fd79ff99eb7f1696476",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Anleitung: so baue ich mir einen eigenen Agenten & Bot",
+    "link": "https://wortfilter.de/ki-agent-bauen-anleitung/",
+    "pageDate": "01.11.2026",
+    "publishedAt": "2026-11-01T12:00:00.000Z",
+    "detectedAt": "2026-11-02T00:45:15.644Z",
+    "deliveredAt": "2026-11-02T00:45:15.644Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "374aaa9bffdfc9e6b03a1e45",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Seller News aus dem Amazon Seller Forum KW 44",
+    "link": "https://wortfilter.de/amazon-seller-news-kw-44-2026/",
+    "pageDate": "01.11.2026",
+    "publishedAt": "2026-11-01T12:00:00.000Z",
+    "detectedAt": "2026-11-02T00:45:15.644Z",
+    "deliveredAt": "2026-11-02T00:45:15.644Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "50bcddc73ed183c7f9e1e6e0",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon startet mit dem Autoverkauf in UK",
+    "link": "https://wortfilter.de/amazon-autoverkauf-uk/",
+    "pageDate": "01.11.2026",
+    "publishedAt": "2026-11-01T12:00:00.000Z",
+    "detectedAt": "2026-11-02T00:45:15.644Z",
+    "deliveredAt": "2026-11-02T00:45:15.644Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "40532fbfff87c6326d428569",
     "source": "BEVH",
     "sourceKey": "src-0a9ea9df2176887f",
@@ -10961,94 +11052,6 @@
     "priority": 2,
     "title": "Navigate to Klarna makes shopping more rewarding",
     "link": "https://www.klarna.com/international/press/klarna-makes-shopping-more-rewarding/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "afd14217bcd11f9efe394579",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires Swedish post-purchase experience startup Woilà",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-swedish-post-purchase-experience-startup-woila/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "efcd13fc56c9a158ea96bab3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to GameStop partners with Klarna to offer gaming community a more innovative and flexible shopping experience online and in store",
-    "link": "https://www.klarna.com/international/press/gamestop-partners-with-klarna-to-offer-gaming-community-a-more-innovative-and-flexible-shopping-experience-online-and-in-store/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1aa23fed52d844780c2563fe",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches widget to track prices during peak holiday shopping season",
-    "link": "https://www.klarna.com/international/press/klarna-launches-widget-to-track-prices-during-peak-holiday-shopping-season/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.486Z",
-    "deliveredAt": "2026-10-29T14:19:35.486Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9f5ea4cfd49abf9a6ab87294",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches research lab to explore the future of shopping",
-    "link": "https://www.klarna.com/international/press/klarna-launches-research-lab-to-explore-the-future-of-shopping/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.486Z",
