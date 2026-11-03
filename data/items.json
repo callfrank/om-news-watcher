@@ -1,5 +1,77 @@
 [
   {
+    "guid": "6701bb1085fb93bdced1a3ed",
+    "source": "Zalando QZ",
+    "sourceKey": "src-553cb068207d01a4",
+    "sourceLabel": "Zalando QZ",
+    "groups": [
+      "Quartalszahlen",
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Unternehmensstrategie",
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Zalando wächst im dritten Quartal profitabel, getragen von einer sehr starken Expansion im B2B-Gesch…",
+    "link": "https://corporate.zalando.com/de/finanzen/zalando-ergebnis-q3-2026",
+    "pageDate": "03.11.2026",
+    "publishedAt": "2026-11-03T12:00:00.000Z",
+    "detectedAt": "2026-11-03T06:47:00.013Z",
+    "deliveredAt": "2026-11-03T06:47:00.013Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Zalando Newsroom"
+    ]
+  },
+  {
+    "guid": "d0d4576645bcb61a0a3bc4f1",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Foodservice price inflation accelerates in September as global energy and crop pressures mount",
+    "link": "https://nielseniq.com/global/en/news-center/2026/foodservice-price-inflation-accelerates-in-september-as-global-energy-and-crop-pressures-mount/",
+    "pageDate": "03.11.2026",
+    "publishedAt": "2026-11-03T12:00:00.000Z",
+    "detectedAt": "2026-11-03T06:47:00.008Z",
+    "deliveredAt": "2026-11-03T06:47:00.008Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c5707c3d771aad19cf3c62db",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Making Intelligence Operational: JD.com CEO Sandy Xu on Turning Enterprise AI into Business Value",
+    "link": "https://jdcorporateblog.com/making-intelligence-operational-jd-com-ceo-sandy-xu-on-turning-enterprise-ai-into-business-value/",
+    "pageDate": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "detectedAt": "2026-11-03T06:46:59.970Z",
+    "deliveredAt": "2026-11-03T06:46:59.970Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "37427c79d38ae09d31c8aa19",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10997,72 +11069,6 @@
     "priority": 2,
     "title": "Navigate to Klarna gives the finger to tradition, empowering everyone to get what or who they love",
     "link": "https://www.klarna.com/international/press/klarna-gives-the-finger-to-tradition-empowering-everyone-to-get-what-or-who-they-love/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6c535b0f7dcfa89c3afdea95",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires the Italian ‘buy now, pay later’ startup Moneymour",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-the-italian-buy-now-pay-later-startup-moneymour/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e31bb91e973282a3cffd3eea",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna is the ring-bearer as Lady Gaga says yes… to herself",
-    "link": "https://www.klarna.com/international/press/klarna-is-the-ring-bearer-as-lady-gaga-says-yes-to-herself/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9bc70107cd50c833cd2d52a2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna UK hits 7 million customers and 1.6 million app downloads",
-    "link": "https://www.klarna.com/international/press/klarna-uk-hits-7-million-customers-and-16-million-app-downloads/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.487Z",
