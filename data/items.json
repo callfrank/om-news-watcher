@@ -1,5 +1,283 @@
 [
   {
+    "guid": "3ed5546058e4953237325698",
+    "source": "Pattern QZ",
+    "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
+    "sourceLabel": "Pattern QZ",
+    "groups": [
+      "Quartalszahlen",
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "E-Commerce",
+      "KI",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Pattern Reports Record Third Quarter 2026 Financial Results",
+    "link": "https://investors.pattern.com/news-releases/news-release-details/pattern-reports-record-third-quarter-2026-financial-results",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-04T21:34:42.606Z",
+    "deliveredAt": "2026-11-04T21:34:42.606Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Pattern Newsroom"
+    ]
+  },
+  {
+    "guid": "c6c163a5819aa3daa9542a09",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-vertrauen-durch-einfuehrung-von-kostenloser-rueckgaben-fuer-fahrzeugteile-und-zubehoer/",
+    "pageDate": "03.11.2026",
+    "publishedAt": "2026-11-03T12:00:00.000Z",
+    "detectedAt": "2026-11-04T21:34:42.586Z",
+    "deliveredAt": "2026-11-04T21:34:42.586Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "46caa5f8620c7bfc4577c279",
+    "source": "Ebayinc",
+    "sourceKey": "src-15b135037542f2c3",
+    "sourceLabel": "Ebayinc",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "The secondhand boom is just getting started",
+    "link": "https://www.ebayinc.com/stories/news/the-secondhand-boom-is-just-getting-started/",
+    "pageDate": "Nov 4, 2026 Leadership",
+    "publishedAt": null,
+    "detectedAt": "2026-11-04T21:34:42.585Z",
+    "deliveredAt": "2026-11-04T21:34:42.585Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "79b4feba568586d0ebe3aaec",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
+    "pageDate": "Nov. 4, 2026",
+    "publishedAt": "2026-11-04T00:00:00.000Z",
+    "detectedAt": "2026-11-04T21:34:42.576Z",
+    "deliveredAt": "2026-11-04T21:34:42.576Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "23db11a8a635b9f267d779c1",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "When is Cyber Monday 2026? Here’s everything you need to know",
+    "link": "https://www.aboutamazon.com/news/retail/when-is-amazon-cyber-monday-faq",
+    "pageDate": "Nov. 4, 2026",
+    "publishedAt": "2026-11-04T00:00:00.000Z",
+    "detectedAt": "2026-11-04T21:34:42.576Z",
+    "deliveredAt": "2026-11-04T21:34:42.576Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "76228f39d169ca4b57c2745b",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "40.500 Euro: BGH billigt Ersatzzustellung im GbR-Briefkasten",
+    "link": "https://wortfilter.de/ersatzzustellung-gbr-bgh-urteil/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T21:34:42.532Z",
+    "deliveredAt": "2026-11-04T21:34:42.532Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2df59550fc9400a6c22a2860",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Shop Direct: Fremde Shops gratis in der Amazon-Suche",
+    "link": "https://wortfilter.de/amazon-shop-direct-merchant-workspace/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T21:34:42.532Z",
+    "deliveredAt": "2026-11-04T21:34:42.532Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "34460cff10300edc3c64668c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Humanoide Roboter Deutschland: 8 kaufbar, keiner fürs Zuhause",
+    "link": "https://wortfilter.de/humanoide-roboter-deutschland/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T21:34:42.532Z",
+    "deliveredAt": "2026-11-04T21:34:42.532Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "10e9106fe57c9347cad2e783",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Kostenlose Tools für Onlinehändler auf einen Klick",
+    "link": "https://wortfilter.de/13-kostenlose-tools-fuer-onlinehaendler/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T21:34:42.532Z",
+    "deliveredAt": "2026-11-04T21:34:42.532Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ce74ef7ef52528b2cd3baefe",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Reichensteuer: Einkommensteuerreform 2027 – was kommt da?",
+    "link": "https://wortfilter.de/einkommensteuerreform-2027-reichensteuer/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T21:34:42.531Z",
+    "deliveredAt": "2026-11-04T21:34:42.531Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "33087824f562496fc0eb4448",
+    "source": "ECDB Reports",
+    "sourceKey": "src-93bc6c77c8e0092a",
+    "sourceLabel": "ECDB",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "E-Commerce in Canada Report 2026",
+    "link": "https://ecdb.com/reports/ecommerce-canada/1041",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-04T21:34:42.464Z",
+    "deliveredAt": "2026-11-04T21:34:42.464Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8fc3a69b773c6873a094e64e",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Cyberangriffe auf Kühlanlagen: eco warnt vor Sicherheitslücken bei externer Fernwartung",
+    "link": "https://www.eco.de/presse/cyberangriffe-auf-kuehlanlagen-eco-warnt-vor-sicherheitsluecken-bei-externer-fernwartung/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-04T21:34:42.462Z",
+    "deliveredAt": "2026-11-04T21:34:42.462Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "ed28648de639682cf843d879",
     "source": "JD QZ",
     "sourceKey": "544a57fa-8f6d-4d8f-8205-461caa30a5d1",
@@ -99,27 +377,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "863c831e849e7cd80adb6318",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-europaeische-ausrichtung-und-buendelt-fuehrung-seiner-eu-marktplaetze/",
-    "pageDate": "03.11.2026",
-    "publishedAt": "2026-11-03T12:00:00.000Z",
-    "detectedAt": "2026-11-04T15:47:55.976Z",
-    "deliveredAt": "2026-11-04T15:47:55.976Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "6694d27eb961086e36e43691",
@@ -10872,247 +11129,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "9819fbc305e80c13db5feb3f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Michael Rouse Joins Klarna as Chief Commercial Officer",
-    "link": "https://www.klarna.com/international/press/michael-rouse-joins-klarna-as-chief-commercial-officer/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e1a89f4796134e576fd8ee52",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Checkout now supports American Express",
-    "link": "https://www.klarna.com/international/press/klarna-checkout-now-supports-american-express/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "af1cc6db7e68037bbeab7f53",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces acquisition of BillPay",
-    "link": "https://www.klarna.com/international/press/klarna-announces-acquisition-of-billpay/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b2e0ee380cd46452b9a335bf",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Brings Instant Financing Options to Shopify’s Online Merchants in Nine Markets",
-    "link": "https://www.klarna.com/international/press/klarna-brings-instant-financing-options-to-shopifys-online-merchants-in-nine-markets/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b540af7b64771cc623fc917a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Strategic Equity Investment by Brightfolk A/S",
-    "link": "https://www.klarna.com/international/press/klarna-announces-strategic-equity-investment-by-brightfolk-as/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "76828ec311266c07da87d370",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna – Europe’s Newest Bank is born",
-    "link": "https://www.klarna.com/international/press/klarna-europes-newest-bank-is-born/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1b7114481b6fe5a6ac1d124d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Visa Commits to Strategic Investment in Klarna; Companies Plan Partnership Deal",
-    "link": "https://www.klarna.com/international/press/visa-commits-to-strategic-investment-in-klarna-companies-plan-partnership-deal/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1542b491b7adf3c6cc228c58",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Permira Announce Strategic Equity Investment",
-    "link": "https://www.klarna.com/international/press/klarna-and-permira-announce-strategic-equity-investment/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "29dad8d76d570365275e2141",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches “Wavy” Peer-to-Peer Payment Service",
-    "link": "https://www.klarna.com/international/press/klarna-launches-wavy-peer-to-peer-payment-service/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "91e9d535554c0dac8a2043fe",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Swedish Tech Bank Klarna Launches “Smoooth” Brand",
-    "link": "https://www.klarna.com/international/press/swedish-tech-bank-klarna-launches-smoooth-brand/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a05308c88216fa894c4a23aa",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Completion of Acquisition of BillPay",
-    "link": "https://www.klarna.com/international/press/klarna-announces-completion-of-acquisition-of-billpay/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
