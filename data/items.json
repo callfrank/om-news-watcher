@@ -1,6 +1,6 @@
 [
   {
-    "guid": "863c831e849e7cd80adb6318",
+    "guid": "c6c163a5819aa3daa9542a09",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,222 @@
     "tags": [],
     "priority": 2,
     "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-europaeische-ausrichtung-und-buendelt-fuehrung-seiner-eu-marktplaetze/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-vertrauen-durch-einfuehrung-von-kostenloser-rueckgaben-fuer-fahrzeugteile-und-zubehoer/",
     "pageDate": "03.11.2026",
     "publishedAt": "2026-11-03T12:00:00.000Z",
-    "detectedAt": "2026-11-04T00:56:19.837Z",
-    "deliveredAt": "2026-11-04T00:56:19.837Z",
+    "detectedAt": "2026-11-04T07:30:58.277Z",
+    "deliveredAt": "2026-11-04T07:30:58.277Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "78ca15dde9277a6be86ad3df",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Schuljahr 2025/2026: Knapp 9 Millionen Schülerinnen und Schüler an allgemeinbildenden Schulen",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_384_213.html",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T07:30:58.252Z",
+    "deliveredAt": "2026-11-04T07:30:58.252Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "78fbc63747f6c21d619202ba",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "4,4 % aller Erwerbstätigen in Deutschland sind Führungskräfte",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N076_13.html",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T07:30:58.251Z",
+    "deliveredAt": "2026-11-04T07:30:58.251Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c1078cf43ab147d11e95e732",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Nur 17 % messen den KI-Nutzen: 5 Methoden für Onlinehändler",
+    "link": "https://wortfilter.de/ki-nutzen-messen-onlinehaendler/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T07:30:58.227Z",
+    "deliveredAt": "2026-11-04T07:30:58.227Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3fb226de3431b5c0346d3678",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Weihnachtsgeschäft 2026: HDE erwartet 2 % Plus, Online 4,1 %",
+    "link": "https://wortfilter.de/weihnachtsgeschaeft-2026-hde-prognose/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T07:30:58.227Z",
+    "deliveredAt": "2026-11-04T07:30:58.227Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fe63d29c0ce3d50598f0d910",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Adobe for Startups: 12 Monate Gratis-Software für Gründer",
+    "link": "https://wortfilter.de/adobe-for-startups/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T07:30:58.227Z",
+    "deliveredAt": "2026-11-04T07:30:58.227Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "466e80db352c917296c1fd5d",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Midterms: Trump Niederlage – was das für Onlinehändler bedeutet",
+    "link": "https://wortfilter.de/midterms-trump-niederlage-onlinehaendler/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T07:30:58.227Z",
+    "deliveredAt": "2026-11-04T07:30:58.227Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2ff6c53551bb69d3dff3f340",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Gelbe Tonne 2027: Das trifft jetzt auch kleine Onlinehändler",
+    "link": "https://wortfilter.de/gelbe-tonne-2027-onlinehaendler/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T07:30:58.227Z",
+    "deliveredAt": "2026-11-04T07:30:58.227Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b6725906a4b74417a9df86e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Neue EU-Gebühr: Amazon erhöht angezeigten Preis bei Remote Fulfillment",
+    "link": "https://onlinemarktplatz.de/295097/eu-bearbeitungsgebuehr-bei-amazon/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T07:30:58.226Z",
+    "deliveredAt": "2026-11-04T07:30:58.226Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b1968684700f0fad645f72bd",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "NIQ und Google wollen KI-Einkäufe mit Handelsdaten verbessern",
+    "link": "https://onlinemarktplatz.de/294913/niq-und-google-produktdaten/",
+    "pageDate": "04.11.2026",
+    "publishedAt": "2026-11-04T12:00:00.000Z",
+    "detectedAt": "2026-11-04T07:30:58.226Z",
+    "deliveredAt": "2026-11-04T07:30:58.226Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "d2fd5db052560ee0dd53c70e",
@@ -10885,204 +11092,6 @@
     "priority": 2,
     "title": "Navigate to Klarna joins Shopify Plus Partner Program to power high-growth merchants",
     "link": "https://www.klarna.com/international/press/klarna-joins-shopify-plus-partner-program-to-power-high-growth-merchants/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f4de52e6bc6179e1128ce73f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna appoints Wilko Klaassen as new General Manager for Belgium and the Netherlands",
-    "link": "https://www.klarna.com/international/press/klarna-appoints-wilko-klaassen-as-new-general-manager-for-belgium-and-the-netherlands/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "19b7b9de63b24f2d665ac21f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to US: Financial limitations are the top cause of holiday shopping stress say consumers",
-    "link": "https://www.klarna.com/international/press/us-financial-limitations-are-the-top-cause-of-holiday-shopping-stress-say-consumers/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4153c55e67081c85ff042060",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Apple Pay Coming to Klarna’s users",
-    "link": "https://www.klarna.com/international/press/apple-pay-coming-to-klarnas-users/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f32c6097fcfda7d4867bd2b0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna links up with Daniel Wellington to allow shoppers to slice their purchase and pay over time",
-    "link": "https://www.klarna.com/international/press/klarna-links-up-with-daniel-wellington-to-allow-shoppers-to-slice-their-purchase-and-pay-over-time/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "db92617a2da42bdc3f56e93a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Snoop Dogg becomes a shareholder in Klarna and transforms into Smoooth Dogg",
-    "link": "https://www.klarna.com/international/press/snoop-dogg-becomes-a-shareholder-in-klarna-and-transforms-into-smoooth-dogg/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "eb6c2af93c1f60d106c5e4a0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Making Gains? Klarna’s Pay later service now available to Gymshark customers in the UK & Nordics",
-    "link": "https://www.klarna.com/international/press/making-gains-klarnas-pay-later-service-now-available-to-gymshark-customers-in-the-uk-nordics/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "385b7ea0f9fd62b3b6339586",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to CFDA/VOGUE FASHION FUND ANNOUNCES MARCH 2019 AMERICANS IN PARIS DESIGNERS",
-    "link": "https://www.klarna.com/international/press/cfdavogue-fashion-fund-announces-march-2019-americans-in-paris-designers/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8134ffe9c8d4187a2bd89216",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna year-end report January - December 2018.",
-    "link": "https://www.klarna.com/international/press/klarna-year-end-report-january-december-2018/",
-    "pageDate": "October 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.487Z",
-    "deliveredAt": "2026-10-29T14:19:35.487Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "21318e1e2b3adf03649bf7c5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Smoooth Dogg and Klarna release unique collection",
-    "link": "https://www.klarna.com/international/press/smoooth-dogg-and-klarna-release-unique-collection/",
     "pageDate": "October 29, 2026",
     "publishedAt": "2026-10-29T00:00:00.000Z",
     "detectedAt": "2026-10-29T14:19:35.487Z",
