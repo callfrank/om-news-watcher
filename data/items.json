@@ -1,18 +1,115 @@
 [
   {
+    "guid": "46cba7d2574fe7dacdc30732",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "3Q 2026 Historical Financial Info",
+    "link": "https://investors.ups.com/_assets/_bde8b72dd2a97b449562d850807b2013/ups/db/1111/11043/file/2026+Q3+Historical+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-05T01:50:04.630Z",
+    "deliveredAt": "2026-11-05T01:50:04.630Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c0f6349203a041d904d2f3cd",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "3Q 2026 Financial Statements",
+    "link": "https://investors.ups.com/_assets/_bde8b72dd2a97b449562d850807b2013/ups/db/1111/11042/file/2026+Q3+Financial+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-05T01:50:04.630Z",
+    "deliveredAt": "2026-11-05T01:50:04.630Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "39add5a206f1531a3f13c936",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "UPS Announces Quarterly Dividend",
+    "link": "https://investors.ups.com/news-events/press-releases/detail/2173/ups-announces-quarterly-dividend",
+    "pageDate": "Wed, 04 Nov 26 17:56:00 -0500",
+    "publishedAt": "2026-11-04T22:56:00.000Z",
+    "detectedAt": "2026-11-05T01:50:04.630Z",
+    "deliveredAt": "2026-11-05T01:50:04.630Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8ade709feded309f88916800",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "UPS Appoints Shannon Eisenhardt to Board of Directors",
+    "link": "https://investors.ups.com/news-events/press-releases/detail/2174/ups-appoints-shannon-eisenhardt-to-board-of-directors",
+    "pageDate": "Wed, 04 Nov 26 18:30:00 -0500",
+    "publishedAt": "2026-11-04T23:30:00.000Z",
+    "detectedAt": "2026-11-05T01:50:04.630Z",
+    "deliveredAt": "2026-11-05T01:50:04.630Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "863c831e849e7cd80adb6318",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-europaeische-ausrichtung-und-buendelt-fuehrung-seiner-eu-marktplaetze/",
+    "pageDate": "03.11.2026",
+    "publishedAt": "2026-11-03T12:00:00.000Z",
+    "detectedAt": "2026-11-05T01:50:04.609Z",
+    "deliveredAt": "2026-11-05T01:50:04.609Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "3ed5546058e4953237325698",
     "source": "Pattern QZ",
     "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
     "sourceLabel": "Pattern QZ",
     "groups": [
-      "Quartalszahlen",
-      "Firmen"
+      "Quartalszahlen"
     ],
     "tags": [
-      "Events",
-      "E-Commerce",
-      "KI",
-      "Unternehmensstrategie"
+      "Events"
     ],
     "priority": 2,
     "title": "Pattern Reports Record Third Quarter 2026 Financial Results",
@@ -27,27 +124,6 @@
     "duplicateSources": [
       "Pattern Newsroom"
     ]
-  },
-  {
-    "guid": "c6c163a5819aa3daa9542a09",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-vertrauen-durch-einfuehrung-von-kostenloser-rueckgaben-fuer-fahrzeugteile-und-zubehoer/",
-    "pageDate": "03.11.2026",
-    "publishedAt": "2026-11-03T12:00:00.000Z",
-    "detectedAt": "2026-11-04T21:34:42.586Z",
-    "deliveredAt": "2026-11-04T21:34:42.586Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "46caa5f8620c7bfc4577c279",
@@ -11036,96 +11112,6 @@
     "publishedAt": null,
     "detectedAt": "2026-10-29T14:19:35.526Z",
     "deliveredAt": "2026-10-29T14:19:35.526Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7564f88fe9a9ca9f17254fad",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to use Alexa for Shopping to compare products, check price history, auto-buy items at target prices, and more",
-    "link": "https://www.aboutamazon.com/news/retail/how-to-use-amazon-shopping-ai-assistant",
-    "pageDate": "Oct. 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.515Z",
-    "deliveredAt": "2026-10-29T14:19:35.515Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7845e7c7be4c0ff33bfec87b",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Alexa for Shopping adds 100+ new capabilities to make shopping even faster and easier",
-    "link": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities",
-    "pageDate": "Oct. 29, 2026",
-    "publishedAt": "2026-10-29T00:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.515Z",
-    "deliveredAt": "2026-10-29T14:19:35.515Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "10d39a5a165ea64747c6ff9a",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "ZEW-Ökonom Friedrich Heinemann zur EZB-Zinsentscheidung // „EZB darf Populisten keinen Blankoscheck ausstellen“ (Oktober 2026)",
-    "link": "https://www.zew.de/presse/pressearchiv/zew-oekonom-friedrich-heinemann-zur-ezb-zinsentscheidung",
-    "pageDate": "29.10.2026",
-    "publishedAt": "2026-10-29T12:00:00.000Z",
-    "detectedAt": "2026-10-29T14:19:35.512Z",
-    "deliveredAt": "2026-10-29T14:19:35.512Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2b327b8c628e03145bd3e8b5",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Lengow acquires Daily&Co",
-    "link": "https://ecommercenews.eu/lengow-acquires-dailyco/",
-    "pageDate": "Thu, 29 Oct 2026 13:10:45 +0000",
-    "publishedAt": "2026-10-29T13:10:45.000Z",
-    "detectedAt": "2026-10-29T14:19:35.497Z",
-    "deliveredAt": "2026-10-29T14:19:35.497Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
