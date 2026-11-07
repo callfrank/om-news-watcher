@@ -1,5 +1,28 @@
 [
   {
+    "guid": "2c33376d22971ad88d9469d8",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Twins Company: Von der Mülltonne zum 3.000-m²-Showroom",
+    "link": "https://wortfilter.de/twins-company-hotelmoebel-astrid-eilers/",
+    "pageDate": "07.11.2026",
+    "publishedAt": "2026-11-07T12:00:00.000Z",
+    "detectedAt": "2026-11-07T16:26:36.459Z",
+    "deliveredAt": "2026-11-07T16:26:36.459Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "df28c0ead62289dcc22d5999",
     "source": "Onlinemarktplatz",
     "sourceKey": "src-907af1387802cea1",
@@ -11007,28 +11030,6 @@
     "priority": 2,
     "title": "Navigate to Klarna launches Open Banking Platform",
     "link": "https://www.klarna.com/international/press/klarna-launches-open-banking-platform/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6769045046f23f56f8994bda",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches global customer authentication platform",
-    "link": "https://www.klarna.com/international/press/klarna-launches-global-customer-authentication-platform/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T17:41:27.001Z",
