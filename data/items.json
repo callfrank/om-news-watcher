@@ -1,5 +1,28 @@
 [
   {
+    "guid": "d492f8839b359acc7aa08654",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Pleiteticker: Firmenpleiten 2026 live – alle 20 Minuten eine",
+    "link": "https://wortfilter.de/pleiteticker-firmenpleiten-2026/",
+    "pageDate": "07.11.2026",
+    "publishedAt": "2026-11-07T12:00:00.000Z",
+    "detectedAt": "2026-11-07T23:59:49.333Z",
+    "deliveredAt": "2026-11-07T23:59:49.333Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "2c33376d22971ad88d9469d8",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11008,28 +11031,6 @@
     "priority": 2,
     "title": "Navigate to Google Pay now live for Klarna users",
     "link": "https://www.klarna.com/international/press/google-pay-now-live-for-klarna-users/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "08fe5c74937165bd50cfcc09",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches Open Banking Platform",
-    "link": "https://www.klarna.com/international/press/klarna-launches-open-banking-platform/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T17:41:27.001Z",
