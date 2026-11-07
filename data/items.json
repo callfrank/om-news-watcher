@@ -1162,26 +1162,6 @@
     "recoveryReason": "seen-but-never-delivered-within-48h"
   },
   {
-    "guid": "8ad0bc30bdff5c9c1332dcd0",
-    "source": "TPG QZ",
-    "sourceKey": "src-29d9014e1b396d31",
-    "sourceLabel": "TPG QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Opens in a new tab",
-    "link": "https://corporate.the-platform-group.com/media/document/5be360d8-19d3-4929-89ee-452663f68d11/assets/AIRTIME-Recording-The-Platform-Group-SE-Co-KGaA-Earnings-Call-Q3-2026-2.mp4?disposition=inline",
-    "pageDate": "Nov 05, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.855Z",
-    "deliveredAt": "2026-11-06T18:30:39.855Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
     "guid": "ac23bd7b253cf0f65e5c6b2f",
     "source": "Kaufland",
     "sourceKey": "src-824d896356b1a926",
