@@ -3,13 +3,13 @@
     "group": "Events",
     "slug": "events",
     "file": "feeds/events.xml",
-    "count": 2
+    "count": 3
   },
   {
     "group": "Finanzen",
     "slug": "finanzen",
     "file": "feeds/finanzen.xml",
-    "count": 406
+    "count": 398
   },
   {
     "group": "Firmen",
@@ -39,13 +39,13 @@
     "group": "Research",
     "slug": "research",
     "file": "feeds/research.xml",
-    "count": 10
+    "count": 11
   },
   {
     "group": "Sonstiges",
     "slug": "sonstiges",
     "file": "feeds/sonstiges.xml",
-    "count": 39
+    "count": 45
   },
   {
     "group": "Staat",

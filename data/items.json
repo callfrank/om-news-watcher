@@ -1,5 +1,209 @@
 [
   {
+    "guid": "7696ace88b5867ae6677fafc",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Ratgeber für Händler: SaaS-Shop vs. selbst verwaltetes Hosting",
+    "link": "https://demoshops.de/saas-shopsystem-vs-selbst-gehostetes-shopsystem/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T13:24:25.940Z",
+    "deliveredAt": "2026-11-08T13:24:25.940Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a2f31c83a3770b560aa0a3fa",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Bösgläubige Markenanmeldung? „Testa Rossa“ darf bleiben",
+    "link": "https://wortfilter.de/boesglaeubige-markenanmeldung-testa-rossa/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T13:24:25.876Z",
+    "deliveredAt": "2026-11-08T13:24:25.876Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "74bb08b63d72f5011de310a6",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Google-Bewertungen gelöscht: 1,95 % der neuen in 7 Tagen weg",
+    "link": "https://wortfilter.de/google-bewertungen-geloescht-studie/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T13:24:25.876Z",
+    "deliveredAt": "2026-11-08T13:24:25.876Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f4e62061c5a99a765443e6eb",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Digitaler Führerschein: i-Kfz-Start geplant, d-you-Website online",
+    "link": "https://onlinemarktplatz.de/295342/digitaler-fuehrerschein-i-kfz/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T13:24:25.874Z",
+    "deliveredAt": "2026-11-08T13:24:25.874Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6c929683e3f391f111cafe42",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kaufdruck im Onlinehandel: Warum Black Friday zum schnellen Kauf reizt",
+    "link": "https://onlinemarktplatz.de/295212/kaufdruck-im-onlinehandel/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T13:24:25.874Z",
+    "deliveredAt": "2026-11-08T13:24:25.874Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5a56cb96fe9507f2c2258d5b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Betrügerische Websites täuschen KI-Agenten bei Zahlungsaufträgen",
+    "link": "https://onlinemarktplatz.de/295217/ki-und-onlinebetrug-scamworld-test/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T13:24:25.874Z",
+    "deliveredAt": "2026-11-08T13:24:25.874Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "54491c5e2cb1828a98685181",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Digitaler Euro 2029: EZB bestätigt Zeitplan und Pläne für neue Banknoten",
+    "link": "https://onlinemarktplatz.de/295313/digitaler-euro-2029-ezb-bargeld-pilot/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T13:24:25.874Z",
+    "deliveredAt": "2026-11-08T13:24:25.874Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "87fd4001fa057a9f62a1f3d1",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Kassel, Germany Mar 16 - 17, 2027 Amazon Sales Kongress 2027 March",
+    "link": "https://amzsummits.com/events/amazon-sales-kongress-2027-march/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-08T13:24:25.816Z",
+    "deliveredAt": "2026-11-08T13:24:25.816Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f7edb75796de82dcafdbcfef",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EY-Analyse \"Mixed Compensation Barometer 2026\"",
+    "link": "https://www.ey.com/de_de/newsroom/2026/11/ey-analyse-mixed-compensation-barometer-2026",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-08T13:24:25.813Z",
+    "deliveredAt": "2026-11-08T13:24:25.813Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d492f8839b359acc7aa08654",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -10833,204 +11037,6 @@
     "priority": 2,
     "title": "Navigate to Klarna appoints Wilko Klaassen as new General Manager for Belgium and the Netherlands",
     "link": "https://www.klarna.com/international/press/klarna-appoints-wilko-klaassen-as-new-general-manager-for-belgium-and-the-netherlands/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "19b7b9de63b24f2d665ac21f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to US: Financial limitations are the top cause of holiday shopping stress say consumers",
-    "link": "https://www.klarna.com/international/press/us-financial-limitations-are-the-top-cause-of-holiday-shopping-stress-say-consumers/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4153c55e67081c85ff042060",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Apple Pay Coming to Klarna’s users",
-    "link": "https://www.klarna.com/international/press/apple-pay-coming-to-klarnas-users/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f32c6097fcfda7d4867bd2b0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna links up with Daniel Wellington to allow shoppers to slice their purchase and pay over time",
-    "link": "https://www.klarna.com/international/press/klarna-links-up-with-daniel-wellington-to-allow-shoppers-to-slice-their-purchase-and-pay-over-time/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "db92617a2da42bdc3f56e93a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Snoop Dogg becomes a shareholder in Klarna and transforms into Smoooth Dogg",
-    "link": "https://www.klarna.com/international/press/snoop-dogg-becomes-a-shareholder-in-klarna-and-transforms-into-smoooth-dogg/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "eb6c2af93c1f60d106c5e4a0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Making Gains? Klarna’s Pay later service now available to Gymshark customers in the UK & Nordics",
-    "link": "https://www.klarna.com/international/press/making-gains-klarnas-pay-later-service-now-available-to-gymshark-customers-in-the-uk-nordics/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "385b7ea0f9fd62b3b6339586",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to CFDA/VOGUE FASHION FUND ANNOUNCES MARCH 2019 AMERICANS IN PARIS DESIGNERS",
-    "link": "https://www.klarna.com/international/press/cfdavogue-fashion-fund-announces-march-2019-americans-in-paris-designers/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8134ffe9c8d4187a2bd89216",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna year-end report January - December 2018.",
-    "link": "https://www.klarna.com/international/press/klarna-year-end-report-january-december-2018/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "21318e1e2b3adf03649bf7c5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Smoooth Dogg and Klarna release unique collection",
-    "link": "https://www.klarna.com/international/press/smoooth-dogg-and-klarna-release-unique-collection/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f26b9bfd0732635fc8daed23",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Google Pay now live for Klarna users",
-    "link": "https://www.klarna.com/international/press/google-pay-now-live-for-klarna-users/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T17:41:27.001Z",
