@@ -1,5 +1,28 @@
 [
   {
+    "guid": "a083c01f3809615252c938dc",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Quartalszahlen: AWS bringt rund 63 % des Betriebsgewinns",
+    "link": "https://wortfilter.de/amazon-quartalszahlen-aws-betriebsgewinn/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T22:30:59.869Z",
+    "deliveredAt": "2026-11-08T22:30:59.869Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "79a790a02783083fdc79fc86",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -11012,28 +11035,6 @@
     "priority": 2,
     "title": "Navigate to Klarna launches ‘Boost’ to supercharge SME growth",
     "link": "https://www.klarna.com/international/press/klarna-launches-boost-to-supercharge-sme-growth/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3a43ba1a8bc6e40b9090eb2f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes interim financial statements for January – September 2018.",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-interim-financial-statements-for-january-september-2018/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T17:41:27.001Z",
