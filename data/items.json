@@ -1,5 +1,68 @@
 [
   {
+    "guid": "79a790a02783083fdc79fc86",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Oktober 26 – der Wero-Rückblick",
+    "link": "https://demoshops.de/2026-10-wero-rueckblick/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T18:31:42.566Z",
+    "deliveredAt": "2026-11-08T18:31:42.566Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f84e4d4fe7b8a73863b58178",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Anker und Pattern: Bis zu 86 % Wachstum abseits von Amazon",
+    "link": "https://wortfilter.de/anker-pattern-quartalszahlen-q3-2026/",
+    "pageDate": "08.11.2026",
+    "publishedAt": "2026-11-08T12:00:00.000Z",
+    "detectedAt": "2026-11-08T18:31:42.503Z",
+    "deliveredAt": "2026-11-08T18:31:42.503Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8bd2e96d6a8d55bf1fb706d7",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eco Geschäftsführer verurteilt Besetzung von Rechenzentrumsbaustelle",
+    "link": "https://www.eco.de/presse/eco-geschaeftsfuehrer-verurteilt-besetzung-von-rechenzentrumsbaustelle-rechenzentren-sind-nicht-der-feind/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-08T18:31:42.435Z",
+    "deliveredAt": "2026-11-08T18:31:42.435Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "7696ace88b5867ae6677fafc",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10971,72 +11034,6 @@
     "priority": 2,
     "title": "Navigate to Klarna publishes interim financial statements for January – September 2018.",
     "link": "https://www.klarna.com/international/press/klarna-publishes-interim-financial-statements-for-january-september-2018/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "779f07bc726636d1906e4b81",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Fintech Disruptor 2019: Digital relevance, open architectures, automation, and data – the new frontline in the battle for the customer",
-    "link": "https://www.klarna.com/international/press/fintech-disruptor-2019-digital-relevance-open-architectures-automation-and-data-the-new-frontline-in-the-battle-for-the-cutomer/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "04a46a3da99a5b35655f10a4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna joins Shopify Plus Partner Program to power high-growth merchants",
-    "link": "https://www.klarna.com/international/press/klarna-joins-shopify-plus-partner-program-to-power-high-growth-merchants/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f4de52e6bc6179e1128ce73f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna appoints Wilko Klaassen as new General Manager for Belgium and the Netherlands",
-    "link": "https://www.klarna.com/international/press/klarna-appoints-wilko-klaassen-as-new-general-manager-for-belgium-and-the-netherlands/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T17:41:27.001Z",
