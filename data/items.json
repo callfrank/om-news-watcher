@@ -1,5 +1,28 @@
 [
   {
+    "guid": "58b099363a425a7e22dbfab1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Google Fonts Abmahnung: Generalanwalt sieht Rechtsmissbrauch",
+    "link": "https://wortfilter.de/google-fonts-abmahnung-generalanwalt/",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T02:00:08.285Z",
+    "deliveredAt": "2026-11-09T02:00:08.285Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "a083c01f3809615252c938dc",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11013,28 +11036,6 @@
     "priority": 2,
     "title": "Navigate to Klarna and Shopify further strengthen global partnership",
     "link": "https://www.klarna.com/international/press/klarna-and-shopify-further-strengthen-global-partnership/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "54bbc122b52556eac6d6b8f9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches ‘Boost’ to supercharge SME growth",
-    "link": "https://www.klarna.com/international/press/klarna-launches-boost-to-supercharge-sme-growth/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T17:41:27.001Z",
