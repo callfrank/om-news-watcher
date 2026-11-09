@@ -1,5 +1,537 @@
 [
   {
+    "guid": "9efbe9e4fc765532a49566ce",
+    "source": "PayPal US",
+    "sourceKey": "src-036682c8cc9a64e1",
+    "sourceLabel": "PayPal US",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Unternehmensnews",
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Venmo Launches Receipt Scanning Feature to Split Bills by Item",
+    "link": "https://newsroom.paypal-corp.com/2026-11-09-Venmo-Launches-Receipt-Scanning-Feature-to-Split-Bills-by-Item",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.279Z",
+    "deliveredAt": "2026-11-09T20:11:48.279Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fbb6b1804e594c85a6e740bb",
+    "source": "Uber",
+    "sourceKey": "src-9ca710b31d1e337a",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "McDonald’s and Uber Expand Global Partnership Across Delivery and Loyalty in 14 Markets",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/McDonalds-and-Uber-Expand-Global-Partnership-Across-Delivery-and-Loyalty-in-14-Markets/default.aspx",
+    "pageDate": "November 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.278Z",
+    "deliveredAt": "2026-11-09T20:11:48.278Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6d799d4d974d89b12cf6dd87",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the trailer for ‘Maxton Hall’ Season 3, the final chapter premiering December 9 on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/maxton-hall-prime-video",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.269Z",
+    "deliveredAt": "2026-11-09T20:11:48.269Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e6b909a43cbce7ae1e8d3597",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon delivers more than 75 million meals to families in need",
+    "link": "https://www.aboutamazon.com/news/community/amazon-expands-food-access-delivery",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.269Z",
+    "deliveredAt": "2026-11-09T20:11:48.269Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b9c79bd8d053b9187bbd9263",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the trailer for 'Blade Runner 2099,' a new sci-fi series coming to Prime Video November 25",
+    "link": "https://www.aboutamazon.com/news/entertainment/blade-runner-2099-prime-video",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.269Z",
+    "deliveredAt": "2026-11-09T20:11:48.269Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "6b39d3fe5404a6c5774559d2",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "AWS commits $100 million of AI and cloud technology to help organizations expand health services worldwide",
+    "link": "https://www.aboutamazon.com/news/aws/aws-health-impact-initiative-100-million-ai-cloud",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.269Z",
+    "deliveredAt": "2026-11-09T20:11:48.269Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "241742e3e404b73541678e7e",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon Leo to launch 40 satellites on its first Vulcan mission",
+    "link": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-vulcan-satellites-launch",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.269Z",
+    "deliveredAt": "2026-11-09T20:11:48.269Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a57553a5a391f5f54891eb65",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Everything to know about the ‘Tomb Raider’ video games coming in 2027 and 2028",
+    "link": "https://www.aboutamazon.com/news/entertainment/amazon-game-studios-lara-croft-tomb-raider-new-games",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.269Z",
+    "deliveredAt": "2026-11-09T20:11:48.269Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "73f7488bb6893e6176241048",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "09.11.2026",
+    "link": "https://news.post.at/presse/de/post/id/2362598/POST%20ENERGIE%20POWERED%20BY%20VERBUND:%20NEUES%20STROM-%20UND%20GASANGEBOT%20F&Uuml;R%20&Ouml;STERREICH",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.265Z",
+    "deliveredAt": "2026-11-09T20:11:48.265Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3689128e60eb69c1dd6212e6",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "POST ENERGIE POWERED BY VERBUND: NEUES STROM- UND GASANGEBOT FÜR ÖSTERREICH",
+    "link": "https://news.post.at/presse/de/post/id/2362598/POST%20ENERGIE%20POWERED%20BY%20VERBUND%3A%20NEUES%20STROM-%20UND%20GASANGEBOT%20F%26Uuml%3BR%20%26Ouml%3BSTERREICH",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.265Z",
+    "deliveredAt": "2026-11-09T20:11:48.265Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6e705aa7a1fff3035fa84013",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Partner sales on Bol continue growing",
+    "link": "https://ecommercenews.eu/partner-sales-on-bol-continue-growing/",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.260Z",
+    "deliveredAt": "2026-11-09T20:11:48.260Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3beb6ccbef1d18612ffb3118",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Almost half of EU online spending abroad goes to fashion",
+    "link": "https://ecommercenews.eu/almost-half-of-eu-online-spending-abroad-goes-to-fashion/",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.260Z",
+    "deliveredAt": "2026-11-09T20:11:48.260Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5a5187d180bc430a13c94778",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Kostenlose Rechtstexte 2026 im Test: Haftung nur im Paket",
+    "link": "https://wortfilter.de/kostenlose-rechtstexte-test-2026/",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.235Z",
+    "deliveredAt": "2026-11-09T20:11:48.235Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dded25dfbd0a0b40f53af3c4",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Bauernregeln Martinstag: Wer im November schreibt, ist zu spät",
+    "link": "https://wortfilter.de/bauernregeln-martinstag/",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.235Z",
+    "deliveredAt": "2026-11-09T20:11:48.235Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "19fbb103349f304132f6bec5",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Heimroboter: Zweiter Anlauf – ohne Preis und Termin",
+    "link": "https://wortfilter.de/amazon-heimroboter-astro-nachfolger/",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.235Z",
+    "deliveredAt": "2026-11-09T20:11:48.235Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8838c383ac69a019779e89a9",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Schenkung an Kinder: Aus 80.000 € Firmenertrag wird 1,1 Mio.",
+    "link": "https://wortfilter.de/schenkung-an-kinder-firma-schenkungsteuer/",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.235Z",
+    "deliveredAt": "2026-11-09T20:11:48.235Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6100ba350524e3e7267827bb",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DHL setzt als erster Expressdienstleister am Flughafen Paris Charles de Gaulle auf Sustainable Aviation Fuel",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-setzt-als-erster-expressdienstleister-am-flughafen-paris-charles-de-gaulle-auf-sustainable-aviation-fuel.html",
+    "pageDate": "09.11.2026, 14:00 MEZ DHL EXPRESSNACHHALTIGKEIT",
+    "publishedAt": null,
+    "detectedAt": "2026-11-09T20:11:48.234Z",
+    "deliveredAt": "2026-11-09T20:11:48.234Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4eae27f3818c225067159acc",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: eBay Live Community – wie aus Zuschauern wiederkehrende Kunden werden",
+    "link": "https://onlinemarktplatz.de/295175/ebay-live-community-podcast/",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.233Z",
+    "deliveredAt": "2026-11-09T20:11:48.233Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "731f9dbf8b175379ce9ff5fd",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Black Friday: Echte Schnäppchen oder nur Trickserei?",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/black-friday-echte-schnaeppchen-oder-nur-trickserei-127067",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.229Z",
+    "deliveredAt": "2026-11-09T20:11:48.229Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f102eada2bd9ecba0aee1c37",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Zwischen Angstmache und fragwürdigen Gesundheitsversprechen",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/zwischen-angstmache-und-fragwuerdigen-gesundheitsversprechen-127061",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.225Z",
+    "deliveredAt": "2026-11-09T20:11:48.225Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Verbraucherzentrale RLP Presse"
+    ]
+  },
+  {
+    "guid": "0571999e00ba754d9618d1a2",
+    "source": "Vinted Newsroom",
+    "sourceKey": "src-4bd55bcb182c0d40",
+    "sourceLabel": "Vinted",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Two in three would rather have a second-hand gift that suits them than a new one they won’t use, Vinted research reveals",
+    "link": "https://company.vinted.com/newsroom/festive-season-2026",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.223Z",
+    "deliveredAt": "2026-11-09T20:11:48.223Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0d3159c11d2768948f53abef",
+    "source": "Vinted Newsroom",
+    "sourceKey": "src-4bd55bcb182c0d40",
+    "sourceLabel": "Vinted",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Vinted Go launches in Finland",
+    "link": "https://company.vinted.com/newsroom/vinted-go-finland",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-09T20:11:48.223Z",
+    "deliveredAt": "2026-11-09T20:11:48.223Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bff58a05dc3810213a2e8aee",
+    "source": "DHL Discover Global",
+    "sourceKey": "src-a4b561cb340f5d1b",
+    "sourceLabel": "DHL Discover Global",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Events"
+    ],
+    "priority": 2,
+    "title": "What is Air Freight Shipping?",
+    "link": "https://www.dhl.com/discover/en-global/logistics-advice/essential-guides/what-is-air-freight-shipping",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-09T20:11:48.219Z",
+    "deliveredAt": "2026-11-09T20:11:48.219Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d0656b658f4cd419cb8e5309",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Beverly Hills, CA, United States Apr 6 - 7, 2027 MDS Inspire 2027",
+    "link": "https://amzsummits.com/events/mds-inspire-2027/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-09T20:11:48.172Z",
+    "deliveredAt": "2026-11-09T20:11:48.172Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "1cbca1b74a6fdd36b141d574",
     "source": "Zew",
     "sourceKey": "src-f3985f12770a41ec",
@@ -225,33 +757,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "a396ac7d9b9f6d238d6cc6d2",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Zwischen Angstmache und fragwürdigen Gesundheitsversprechen",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/zwischen-angstmache-und-fragwuerdigen-gesundheitsversprechen-127062",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.518Z",
-    "deliveredAt": "2026-11-09T09:49:15.518Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Verbraucherzentrale Hamburg Presse",
-      "Verbraucherzentrale BW Presse"
-    ]
   },
   {
     "guid": "86a9760cc172b8d8cda34887",
@@ -10540,512 +11045,6 @@
     "priority": 2,
     "title": "Navigate to Visa Commits to Strategic Investment in Klarna; Companies Plan Partnership Deal",
     "link": "https://www.klarna.com/international/press/visa-commits-to-strategic-investment-in-klarna-companies-plan-partnership-deal/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1542b491b7adf3c6cc228c58",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Permira Announce Strategic Equity Investment",
-    "link": "https://www.klarna.com/international/press/klarna-and-permira-announce-strategic-equity-investment/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "29dad8d76d570365275e2141",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches “Wavy” Peer-to-Peer Payment Service",
-    "link": "https://www.klarna.com/international/press/klarna-launches-wavy-peer-to-peer-payment-service/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "91e9d535554c0dac8a2043fe",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Swedish Tech Bank Klarna Launches “Smoooth” Brand",
-    "link": "https://www.klarna.com/international/press/swedish-tech-bank-klarna-launches-smoooth-brand/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a05308c88216fa894c4a23aa",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Completion of Acquisition of BillPay",
-    "link": "https://www.klarna.com/international/press/klarna-announces-completion-of-acquisition-of-billpay/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4195ea6f6c4a531c0be31285",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to PPRO Group and Klarna partner to offer risk-free credit payment methods across Europe",
-    "link": "https://www.klarna.com/international/press/ppro-group-and-klarna-partner-to-offer-risk-free-credit-payment-methods-across-europe/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3cf568339afd122a2ea64284",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Global: Worldpay partners with Klarna to launch invoice and credit based payments in 6 key European markets",
-    "link": "https://www.klarna.com/international/press/global-worldpay-partners-with-klarna-to-launch-invoice-and-credit-based-payments-in-6-key-european-markets/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ebf6b3f7c3cb262be97de460",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Tis’ the season to be frazzled: 1 in 6 want to go on holiday to escape the festive frenzy – and almost a third of Brits are exhausted by Boxing Day",
-    "link": "https://www.klarna.com/international/press/tis-the-season-to-be-frazzled-1-in-6-want-to-go-on-holiday-to-escape-the-festive-frenzy-and-almost-a-third-of-brits-are-exhausted-by-boxing-day/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "65e5ee2f844db22880b88048",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Group issues senior unsecured bond 2017",
-    "link": "https://www.klarna.com/international/press/klarna-group-issues-senior-unsecured-bond-2017/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4123ddf2de83526c50773c43",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Listing of Notes and Choice of Home Member State.",
-    "link": "https://www.klarna.com/international/press/listing-of-notes-and-choice-of-home-member-state/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8fe780e84e280aa2cff38c6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Payments Expands eCommerce Footprint with ACI Worldwide",
-    "link": "https://www.klarna.com/international/press/klarna-payments-expands-ecommerce-footprint-with-aci-worldwide/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7b80e2464d9beb4d65cd159b",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with London College of Fashion, UAL",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-london-college-of-fashion-ual/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4658e43ecc43d76501e99e21",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna appoints new General Manager for DACH Region",
-    "link": "https://www.klarna.com/international/press/klarna-appoints-new-general-manager-for-dach-region/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2ea79ebb353709ad8a73d6c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to close its Tel Aviv office site",
-    "link": "https://www.klarna.com/international/press/klarna-to-close-its-tel-aviv-office-site/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7db746751f986813ca107f94",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Announcement of change to the Board of Directors at Klarna Bank AB",
-    "link": "https://www.klarna.com/international/press/announcement-of-change-to-the-board-of-directors-at-klarna-bank-ab/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ce257b79a00ccb11540ecc37",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna year-end report January – December 2017.",
-    "link": "https://www.klarna.com/international/press/klarna-year-end-report-january-december-2017/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1c2dd0167d70505c05295510",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Record year for Klarna as the company continues to grow rapidly",
-    "link": "https://www.klarna.com/international/press/record-year-for-klarna-as-the-company-continues-to-grow-rapidly/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "78712c5600bbcda03c5e5ca6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to U.S. Online Merchants Believe Instant Financing Will Drive Increased Sales",
-    "link": "https://www.klarna.com/international/press/us-online-merchants-believe-instant-financing-will-drive-increased-sales/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1ffaa55fcc8c8f8052765e99",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to NL: Klarna and MyOnlineStore partner up to offer all-in-one online commerce solution",
-    "link": "https://www.klarna.com/international/press/nl-klarna-and-myonlinestore-partner-up-to-offer-all-in-one-online-commerce-solution/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "02417b309cc64ca7aecfae57",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna initiates advanced space program to offer payment solutions on Mars",
-    "link": "https://www.klarna.com/international/press/klarna-initiates-advanced-space-program-to-offer-payment-solutions-on-mars/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0ebe7457dae1e72c0cac24c9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Man hit by sound waves in new ad by Klarna",
-    "link": "https://www.klarna.com/international/press/man-hit-by-sound-waves-in-new-ad-by-klarna/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "16fef6f0d1d97c0cbffbc44f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes annual report for 2017",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-annual-report-for-2017/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cf266cd1a56260d72400dfa9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Integration with Magento Commerce to Streamline the Checkout Process and Improve Conversions",
-    "link": "https://www.klarna.com/international/press/klarna-announces-integration-with-magento-commerce-to-streamline-the-checkout-process-and-improve-conversions/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "207a67b9a9e20717499080a4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna puts customers in charge over personal finances with new app",
-    "link": "https://www.klarna.com/international/press/klarna-puts-customers-in-charge-over-personal-finances-with-new-app/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T17:41:27.001Z",
