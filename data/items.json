@@ -1,5 +1,121 @@
 [
   {
+    "guid": "43afc02f8d65f58e0b933ab0",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon in the community: Service, community, and commitment at HQ2",
+    "link": "https://www.aboutamazon.com/news/community/amazon-arlington-virginia-news",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-10T02:45:40.135Z",
+    "deliveredAt": "2026-11-10T02:45:40.135Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "8fb2c2a5cbcbacdc8ab90b4e",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Claude Fable 5.2 is now available on AWS",
+    "link": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-10T02:45:40.134Z",
+    "deliveredAt": "2026-11-10T02:45:40.134Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e176d1f7cc6cb09c63b5fa1d",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Fable 5.2 und Mythos 5.2: Fable-API wird 20 Prozent billiger",
+    "link": "https://wortfilter.de/claude-fable-5-2-mythos-5-2/",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-10T02:45:40.105Z",
+    "deliveredAt": "2026-11-10T02:45:40.105Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5a0ce2d84071dc1a5c4250a5",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Süßwaren-Adventskalender 2025: Absatz –15 %, Preis +11,6 %",
+    "link": "https://wortfilter.de/suesswaren-adventskalender-absatz-preis/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T02:45:40.105Z",
+    "deliveredAt": "2026-11-10T02:45:40.105Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a396ac7d9b9f6d238d6cc6d2",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Zwischen Angstmache und fragwürdigen Gesundheitsversprechen",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/zwischen-angstmache-und-fragwuerdigen-gesundheitsversprechen-127062",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-10T02:45:40.099Z",
+    "deliveredAt": "2026-11-10T02:45:40.099Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Verbraucherzentrale BW Presse"
+    ]
+  },
+  {
     "guid": "9efbe9e4fc765532a49566ce",
     "source": "PayPal US",
     "sourceKey": "src-036682c8cc9a64e1",
@@ -422,32 +538,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "f102eada2bd9ecba0aee1c37",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Zwischen Angstmache und fragwürdigen Gesundheitsversprechen",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/zwischen-angstmache-und-fragwuerdigen-gesundheitsversprechen-127061",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.225Z",
-    "deliveredAt": "2026-11-09T20:11:48.225Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": [
-      "Verbraucherzentrale RLP Presse"
-    ]
   },
   {
     "guid": "0571999e00ba754d9618d1a2",
@@ -10957,94 +11047,6 @@
     "priority": 2,
     "title": "Navigate to Klarna announces acquisition of BillPay",
     "link": "https://www.klarna.com/international/press/klarna-announces-acquisition-of-billpay/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b2e0ee380cd46452b9a335bf",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Brings Instant Financing Options to Shopify’s Online Merchants in Nine Markets",
-    "link": "https://www.klarna.com/international/press/klarna-brings-instant-financing-options-to-shopifys-online-merchants-in-nine-markets/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b540af7b64771cc623fc917a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Strategic Equity Investment by Brightfolk A/S",
-    "link": "https://www.klarna.com/international/press/klarna-announces-strategic-equity-investment-by-brightfolk-as/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "76828ec311266c07da87d370",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna – Europe’s Newest Bank is born",
-    "link": "https://www.klarna.com/international/press/klarna-europes-newest-bank-is-born/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1b7114481b6fe5a6ac1d124d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Visa Commits to Strategic Investment in Klarna; Companies Plan Partnership Deal",
-    "link": "https://www.klarna.com/international/press/visa-commits-to-strategic-investment-in-klarna-companies-plan-partnership-deal/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T17:41:27.001Z",
