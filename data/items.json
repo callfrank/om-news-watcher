@@ -1,5 +1,482 @@
 [
   {
+    "guid": "19ee966c168a9ebf73f12fcc",
+    "source": "Handelskraft",
+    "sourceKey": "src-6c1c923af06aedde",
+    "sourceLabel": "Handelskraft",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Passt euer CMS noch zu eurer Content-Strategie? 5 Signale für eine CMS-Migration in 2027",
+    "link": "https://www.handelskraft.de/5-signale-fuer-cms-migration-2027/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.480Z",
+    "deliveredAt": "2026-11-10T10:29:13.480Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7b257c4bb7219ec525a3da82",
+    "source": "Wero",
+    "sourceKey": "src-b3076904e4e4545a",
+    "sourceLabel": "Wero",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Media & insights",
+    "link": "https://epicompany.eu/media-insights/media-insights/epi-company-initiates-wero-roll-out-in-the-netherlands",
+    "pageDate": "November 10, 2026",
+    "publishedAt": "2026-11-10T00:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.479Z",
+    "deliveredAt": "2026-11-10T10:29:13.479Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "863c831e849e7cd80adb6318",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Neue Creative Directors, neu entdeckte Ikonen: Der eBay Watchlist Trendreport zeigt die aktuellen Pre-Loved Trends",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-europaeische-ausrichtung-und-buendelt-fuehrung-seiner-eu-marktplaetze/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.472Z",
+    "deliveredAt": "2026-11-10T10:29:13.472Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "124e7379511597d6d9e68b67",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "11 Amazon AI features to help you find the best deals this holiday season",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-ai-shopping-tools",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.466Z",
+    "deliveredAt": "2026-11-10T10:29:13.466Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "fe91084c94fa8ac39c19ec76",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Black Friday and Cyber Monday 2026: a first look at Amazon’s best deals",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-black-friday-cyber-monday-deals-2026",
+    "pageDate": "Nov. 9, 2026",
+    "publishedAt": "2026-11-09T00:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.466Z",
+    "deliveredAt": "2026-11-10T10:29:13.466Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8d7d5b8b83d1b93e96d1bf8f",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "​​​UK supermarket sales bounce back in October as extra spending lifts growth",
+    "link": "https://nielseniq.com/global/en/news-center/2026/uk-supermarket-sales-bounce-back-in-october-as-extra-spending-lifts-growth/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.462Z",
+    "deliveredAt": "2026-11-10T10:29:13.462Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b4d6b3272ffdecf7646e18ea",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "13,2 Millionen Behandlungen in Notfallambulanzen im Jahr 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_46_p002.html",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.450Z",
+    "deliveredAt": "2026-11-10T10:29:13.450Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9c4b93e4e8a6040662d56b6c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Faserkennzeichnung im Onlineshop: Lücken kosten rund 6.000 €",
+    "link": "https://wortfilter.de/faserkennzeichnung-onlineshop-vertragsstrafe/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.428Z",
+    "deliveredAt": "2026-11-10T10:29:13.428Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b36473f9b8faef9df55f0866",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "TikTok Shop App startet in Asien – huhu eBay, hört ihr das?",
+    "link": "https://wortfilter.de/tiktok-shop-app/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.428Z",
+    "deliveredAt": "2026-11-10T10:29:13.428Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a7c90cf3cb14fd2ef486c52c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Krisen-PR: Nvidia-Chef holte Profis ein Jahr vor dem Geständnis",
+    "link": "https://wortfilter.de/krisen-pr-onlinehaendler/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.428Z",
+    "deliveredAt": "2026-11-10T10:29:13.428Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "92d7494eea057216c9ffa1a0",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Offizieller Bundeswehr Online Shop: Noch nicht mal einen Onepager bekommt die Bundeswehr hin",
+    "link": "https://wortfilter.de/bundeswehr-online-shop/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.428Z",
+    "deliveredAt": "2026-11-10T10:29:13.428Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ef9881c285131892e7da5a82",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "IKEA Jahresumsatz sinkt auf 43,8 Milliarden Euro – neue Preisrunde in Europa",
+    "link": "https://onlinemarktplatz.de/295423/ikea-jahresumsatz-2026/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.425Z",
+    "deliveredAt": "2026-11-10T10:29:13.425Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "54df6042ad4a5e305f465e5c",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon Länderchefs: Neue Führung für fünf EU-Märkte",
+    "link": "https://onlinemarktplatz.de/295411/amazon-laenderchefs-neu/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.425Z",
+    "deliveredAt": "2026-11-10T10:29:13.425Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f5ce9eec265143348fe21546",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon erweitert Seller Wallet um GBP-Erlöse aus dem UK-Geschäft",
+    "link": "https://onlinemarktplatz.de/295238/amazon-seller-wallet-gbp-erweiterung/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.425Z",
+    "deliveredAt": "2026-11-10T10:29:13.425Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "430d812a6f9e1e3a7b83bc48",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Ratenzahlung im Shop: Neue Warnpflicht ab 20. November",
+    "link": "https://onlinemarktplatz.de/295299/kreditwerbung-2026-warnpfliicht/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.425Z",
+    "deliveredAt": "2026-11-10T10:29:13.425Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "83982468d7c99d330f024904",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Klarna Anruf-Verifizierung startet in allen 26 Märkten",
+    "link": "https://onlinemarktplatz.de/295312/klarna-anruf-verifizierung-weltweit/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.425Z",
+    "deliveredAt": "2026-11-10T10:29:13.425Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aa174136ccbccec3b44554d1",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon Black-Friday-Woche 2026 startet am 19. November und dauert 12 Tage",
+    "link": "https://onlinemarktplatz.de/295456/amazon-black-friday-woche-2026/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.425Z",
+    "deliveredAt": "2026-11-10T10:29:13.425Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f102eada2bd9ecba0aee1c37",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Zwischen Angstmache und fragwürdigen Gesundheitsversprechen",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/zwischen-angstmache-und-fragwuerdigen-gesundheitsversprechen-127061",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.418Z",
+    "deliveredAt": "2026-11-10T10:29:13.418Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Verbraucherzentrale RLP Presse"
+    ]
+  },
+  {
+    "guid": "529fdd3ca11b0b0e4839d077",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Warmwasser clever nutzen",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/warmwasser-clever-nutzen-127041",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.418Z",
+    "deliveredAt": "2026-11-10T10:29:13.418Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9545064c1325bcc17d68d3f0",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Doppelter Erfolg gegen untergeschobene Abos",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/doppelter-erfolg-gegen-untergeschobene-abos-127042",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T10:29:13.418Z",
+    "deliveredAt": "2026-11-10T10:29:13.418Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "abd611b99e4c4faaabbc7293",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Fake Bilder, realer Schmerz: Deepfakes und sexualisierte Gewalt",
+    "link": "https://www.eco.de/presse/fake-bilder-realer-schmerz-deepfakes-und-sexualisierte-gewalt/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-10T10:29:13.365Z",
+    "deliveredAt": "2026-11-10T10:29:13.365Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "43afc02f8d65f58e0b933ab0",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -88,32 +565,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "a396ac7d9b9f6d238d6cc6d2",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Zwischen Angstmache und fragwürdigen Gesundheitsversprechen",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/zwischen-angstmache-und-fragwuerdigen-gesundheitsversprechen-127062",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-10T02:45:40.099Z",
-    "deliveredAt": "2026-11-10T02:45:40.099Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": [
-      "Verbraucherzentrale BW Presse"
-    ]
   },
   {
     "guid": "9efbe9e4fc765532a49566ce",
@@ -10606,451 +11057,6 @@
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T22:54:29.665Z",
     "deliveredAt": "2026-11-05T22:54:29.665Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f6d4c3fe0d680b1987f37c4f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Kohl’s team up to bring flexible payment options to U.S. shoppers",
-    "link": "https://www.klarna.com/international/press/klarna-and-kohls-team-up-to-bring-flexible-payment-options-to-u-s-shoppers/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.665Z",
-    "deliveredAt": "2026-11-05T22:54:29.665Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2b1bbcb5a2a79cd6cb41f1e8",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Exchange rates",
-    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.655Z",
-    "deliveredAt": "2026-11-05T22:54:29.655Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0767096a32977b480bab2734",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "E-Commerce: Das ist diese Woche in der Politik passiert",
-    "link": "https://wortfilter.de/e-commerce-politik-kw-45-2026/",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.652Z",
-    "deliveredAt": "2026-11-05T22:54:29.652Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "768a8607fbc17f3a1100c11b",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Black Friday Rabatte: Jeder Fünfte hält sie für Fake",
-    "link": "https://wortfilter.de/black-friday-rabatte-vertrauen-bcg-studie/",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.652Z",
-    "deliveredAt": "2026-11-05T22:54:29.652Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c9eab45c1f70b7b4dcc7a975",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Onlineshop-Agenturen im Vergleich",
-    "link": "https://wortfilter.de/onlineshop-agenturen-im-vergleich/",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.652Z",
-    "deliveredAt": "2026-11-05T22:54:29.652Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b8084091410bfbfae6bde716",
-    "source": "FedEx Newsroom",
-    "sourceKey": "src-ccc01078527f3e85",
-    "sourceLabel": "FedEx",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "FedEx Makes the Holidays Smarter with AI-Enabled Tools, Robotics, and Predictive Technology",
-    "link": "https://newsroom.fedex.com/newsroom/global-english/fedex-makes-the-holidays-smarter-with-ai-enabled-tools-robotics-and-predictive-technology",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.613Z",
-    "deliveredAt": "2026-11-05T22:54:29.613Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f73f99c045817c3d82fcbee3",
-    "source": "Uber",
-    "sourceKey": "src-9ca710b31d1e337a",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Amazon Launches Partnership with Uber Eats Featuring $0 Delivery Fee for Prime Members",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Amazon-Launches-Partnership-with-Uber-Eats-Featuring-0-Delivery-Fee-for-Prime-Members-2026-afY0fIEoo1/default.aspx",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.032Z",
-    "deliveredAt": "2026-11-05T17:41:27.032Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "21ef8e769f733c3d27f648d4",
-    "source": "DM",
-    "sourceKey": "src-fd6e846f7c6683bc",
-    "sourceLabel": "DM",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Produktrückruf: dm ruft vorsorglich den Artikel „dmBio Pinienkerne, 60g“ zurück",
-    "link": "https://newsroom.dm.de/pressreleases/produktrueckruf-dm-ruft-vorsorglich-den-artikel-dmbio-pinienkerne-60g-zurueck-3476235",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.029Z",
-    "deliveredAt": "2026-11-05T17:41:27.029Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4704f341e8bf38d11804ef68",
-    "source": "Walmart",
-    "sourceKey": "src-58bea26b3e8930f9",
-    "sourceLabel": "Walmart",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Events",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Walmart Expands Nation’s Largest Retail Drone Delivery Operation with 300 New Zipline Sites",
-    "link": "https://corporate.walmart.com/news/2026/11/walmart-expands-drone-delivery-network-with-zipline",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-05T17:41:27.028Z",
-    "deliveredAt": "2026-11-05T17:41:27.028Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8e4e164825b48d658908b76c",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zur Pressemitteilung",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/von-der-filiale-aufs-eis-kaufland-und-die-nhl-vereinbaren-mehrjaehrige-internationale-partnerschaft",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-05T17:41:27.023Z",
-    "deliveredAt": "2026-11-05T17:41:27.023Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Kaufland Newsroom"
-    ]
-  },
-  {
-    "guid": "acf83b932344025b8bb044d1",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon in the community: Here’s what’s happening in Seattle, Bellevue, and the Puget Sound",
-    "link": "https://www.aboutamazon.com/news/community/amazon-seattle-bellevue-puget-sound-news",
-    "pageDate": "Nov. 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.021Z",
-    "deliveredAt": "2026-11-05T17:41:27.021Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3585d9e60ff61aab5d7e9434",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "‘Off Campus’ Season 2 premieres April 28, 2027: Everything to know about the Prime Video show",
-    "link": "https://www.aboutamazon.com/news/entertainment/off-campus-hockey-series-prime-video",
-    "pageDate": "Nov. 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.021Z",
-    "deliveredAt": "2026-11-05T17:41:27.021Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f09136aa5ac2907c7442d43d",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon announces partnership with Uber Eats offering Prime members $0 delivery",
-    "link": "https://www.aboutamazon.com/news/retail/prime-uber-eats-free-delivery",
-    "pageDate": "Nov. 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.021Z",
-    "deliveredAt": "2026-11-05T17:41:27.021Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "dfeb7c09231b1bf6552e975e",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Everything that comes with your Prime membership",
-    "link": "https://www.aboutamazon.com/news/retail/amazon-prime-benefits",
-    "pageDate": "Nov. 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.021Z",
-    "deliveredAt": "2026-11-05T17:41:27.021Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c9bf5c764b396154b623b224",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Who is Sauron? What to know about ‘The Lord of the Rings: The Rings of Power’ Season 3 villain",
-    "link": "https://www.aboutamazon.com/news/entertainment/sauron-lord-of-the-rings-rings-of-power",
-    "pageDate": "Nov. 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.021Z",
-    "deliveredAt": "2026-11-05T17:41:27.021Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "247b5e39f95bbd793b001609",
-    "source": "Ifhkoeln",
-    "sourceKey": "src-ce9e70954500f828",
-    "sourceLabel": "Ifhkoeln",
-    "groups": [
-      "Research"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "B2B-Commerce unter Veränderungsdruck: KI trifft auf starre Systemlandschaften",
-    "link": "https://www.ifhkoeln.de/b2b-commerce-unter-veraenderungsdruck-ki-trifft-auf-starre-systemlandschaften/",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.016Z",
-    "deliveredAt": "2026-11-05T17:41:27.016Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "17d62089847c2142624df0f4",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zalando sees new revenue potential in external shops",
-    "link": "https://ecommercenews.eu/zalando-sees-new-revenue-potential-in-external-shops/",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.006Z",
-    "deliveredAt": "2026-11-05T17:41:27.006Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9819fbc305e80c13db5feb3f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Michael Rouse Joins Klarna as Chief Commercial Officer",
-    "link": "https://www.klarna.com/international/press/michael-rouse-joins-klarna-as-chief-commercial-officer/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e1a89f4796134e576fd8ee52",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Checkout now supports American Express",
-    "link": "https://www.klarna.com/international/press/klarna-checkout-now-supports-american-express/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "af1cc6db7e68037bbeab7f53",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces acquisition of BillPay",
-    "link": "https://www.klarna.com/international/press/klarna-announces-acquisition-of-billpay/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T17:41:27.001Z",
-    "deliveredAt": "2026-11-05T17:41:27.001Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
