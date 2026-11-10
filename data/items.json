@@ -1,5 +1,143 @@
 [
   {
+    "guid": "363fb172987b699c05805001",
+    "source": "Pattern QZ",
+    "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
+    "sourceLabel": "Pattern QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Pattern to Participate in Upcoming Investor Conferences",
+    "link": "https://investors.pattern.com/news-releases/news-release-details/pattern-participate-upcoming-investor-conferences-3",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-10T23:29:12.970Z",
+    "deliveredAt": "2026-11-10T23:29:12.970Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "863c831e849e7cd80adb6318",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Neue Creative Directors, neu entdeckte Ikonen: Der eBay Watchlist Trendreport zeigt die aktuellen Pre-Loved Trends",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-europaeische-ausrichtung-und-buendelt-fuehrung-seiner-eu-marktplaetze/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T23:29:12.949Z",
+    "deliveredAt": "2026-11-10T23:29:12.949Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "6a9d9faa299679b13ca60816",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "GTA 6 Download bremst Google Analytics? Kein Beleg",
+    "link": "https://wortfilter.de/gta-6-download-google-analytics/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T23:29:12.894Z",
+    "deliveredAt": "2026-11-10T23:29:12.894Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8aed2029f4e4f819a73dc67e",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EUDR in 50 Tagen: Was Onlinehändler jetzt prüfen müssen",
+    "link": "https://wortfilter.de/eudr-onlinehaendler-checkliste/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T23:29:12.894Z",
+    "deliveredAt": "2026-11-10T23:29:12.894Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "022652ea978f104dbf7189f1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "E-Auto-Förderung für Unternehmer: 75 % AfA statt Prämie",
+    "link": "https://wortfilter.de/e-auto-foerderung-unternehmer/",
+    "pageDate": "10.11.2026",
+    "publishedAt": "2026-11-10T12:00:00.000Z",
+    "detectedAt": "2026-11-10T23:29:12.894Z",
+    "deliveredAt": "2026-11-10T23:29:12.894Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f102eada2bd9ecba0aee1c37",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Zwischen Angstmache und fragwürdigen Gesundheitsversprechen",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/zwischen-angstmache-und-fragwuerdigen-gesundheitsversprechen-127061",
+    "pageDate": "09.11.2026",
+    "publishedAt": "2026-11-09T12:00:00.000Z",
+    "detectedAt": "2026-11-10T23:29:12.885Z",
+    "deliveredAt": "2026-11-10T23:29:12.885Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": [
+      "Verbraucherzentrale RLP Presse"
+    ]
+  },
+  {
     "guid": "fefa2ff78c0a25f9869f22ac",
     "source": "Sea Ltd. QZ",
     "sourceKey": "119c47b8-2de5-46eb-9009-6eb2ab2a139a",
@@ -78,27 +216,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "c6c163a5819aa3daa9542a09",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Neue Creative Directors, neu entdeckte Ikonen: Der eBay Watchlist Trendreport zeigt die aktuellen Pre-Loved Trends",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-vertrauen-durch-einfuehrung-von-kostenloser-rueckgaben-fuer-fahrzeugteile-und-zubehoer/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.335Z",
-    "deliveredAt": "2026-11-10T18:18:39.335Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "d085b34cd4aa8e5d5f560ab9",
@@ -389,32 +506,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "a396ac7d9b9f6d238d6cc6d2",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Zwischen Angstmache und fragwürdigen Gesundheitsversprechen",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/zwischen-angstmache-und-fragwuerdigen-gesundheitsversprechen-127062",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.272Z",
-    "deliveredAt": "2026-11-10T18:18:39.272Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": [
-      "Verbraucherzentrale BW Presse"
-    ]
   },
   {
     "guid": "fd4297ae79db1b5425835070",
@@ -10961,94 +11052,6 @@
     "priority": 2,
     "title": "Navigate to Klarna goes live with J.P. Morgan Payments, opening flexible checkout to U.S. merchants",
     "link": "https://www.klarna.com/international/press/klarna-goes-live-with-j-p-morgan-payments-opening-flexible-checkout-to-u-s-merchants/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.665Z",
-    "deliveredAt": "2026-11-05T22:54:29.665Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a12a6070b8e6fb6d40ed2bda",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Housecall Pro bring flexible payments to America’s skilled trades",
-    "link": "https://www.klarna.com/international/press/klarna-and-housecall-pro-bring-flexible-payments-to-americas-skilled-trades/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.665Z",
-    "deliveredAt": "2026-11-05T22:54:29.665Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7ab809ed235484c46243a5d5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to The fairest of them all: Klarna supercharges memberships, removing fees, boosting cashback and increasing annual value to as much as €6,000",
-    "link": "https://www.klarna.com/international/press/the-fairest-of-them-all-klarna-supercharges-memberships-removing-fees-boosting-cashback-and-increasing-annual-value-to-as-much-as-eur6-000/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.665Z",
-    "deliveredAt": "2026-11-05T22:54:29.665Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ca4a108a38a5d436ec6b1c53",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Reports Second Quarter 2026 Results",
-    "link": "https://www.klarna.com/international/press/klarna-reports-second-quarter-2026-results/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.665Z",
-    "deliveredAt": "2026-11-05T22:54:29.665Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "53dd05ba4fe593e0eb6a8699",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches in-store with GARAGE and DYNAMITE across North America and the UK",
-    "link": "https://www.klarna.com/international/press/klarna-launches-in-store-with-garage-and-dynamite-across-north-america-and-the-uk/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T22:54:29.665Z",
