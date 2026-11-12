@@ -1,5 +1,216 @@
 [
   {
+    "guid": "ecdcaf5e6c3bced35f2b9064",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-recommerce-report-82-prozent-kaufen-gebraucht-bei-ebay-doch-der-grenz%C3%BCberschreitende-handel-stockt/",
+    "pageDate": "11.11.2026",
+    "publishedAt": "2026-11-11T12:00:00.000Z",
+    "detectedAt": "2026-11-12T22:45:01.598Z",
+    "deliveredAt": "2026-11-12T22:45:01.598Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "9d6359bef55d1cf601da6cd4",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Aktive Cyberabwehr: Bundestag erlaubt Löschen auf Hacker-Servern",
+    "link": "https://wortfilter.de/aktive-cyberabwehr-gesetz-bundestag/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T22:45:01.556Z",
+    "deliveredAt": "2026-11-12T22:45:01.556Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "afa7047e041d4a9e72d12afc",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Gemini in CarPlay: KI hört dir 47 Stau-Stunden im Jahr zu",
+    "link": "https://wortfilter.de/gemini-carplay-stau-ecommerce/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T22:45:01.556Z",
+    "deliveredAt": "2026-11-12T22:45:01.556Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "27465829a7d59bbd091ea408",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Shopify KI: 7,95 Prozent mehr Bestellungen im Shop-App-Feed",
+    "link": "https://wortfilter.de/shopify-ki-generative-discovery/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T22:45:01.556Z",
+    "deliveredAt": "2026-11-12T22:45:01.556Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1994f5e2d821c554f04c9f76",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Alexa für Shopping: 365 Tage Konkurrenz-Preise gratis",
+    "link": "https://wortfilter.de/alexa-fuer-shopping-konkurrenz/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T22:45:01.556Z",
+    "deliveredAt": "2026-11-12T22:45:01.556Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "426379234c82c0e1eaa6e334",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "eBay Magical Listing: Foto knipsen, KI füllt Angebot aus",
+    "link": "https://wortfilter.de/ebay-magical-listing-foto-ki-angebot/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T22:45:01.555Z",
+    "deliveredAt": "2026-11-12T22:45:01.555Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "83be0e0c55cf30fab994b5e1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Review Requests: Bewertungsbitte als Werbeprodukt",
+    "link": "https://wortfilter.de/amazon-review-requests/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T22:45:01.555Z",
+    "deliveredAt": "2026-11-12T22:45:01.555Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b91e2081c950d66e99621e8f",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Microsoft 365 Störung: Über 130.000 Outlook-Meldungen",
+    "link": "https://wortfilter.de/microsoft-365-stoerung-outlook-teams/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T22:45:01.555Z",
+    "deliveredAt": "2026-11-12T22:45:01.555Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8c4d42219abc6624dbf5b699",
+    "source": "Pattern Newsroom",
+    "sourceKey": "src-fd172f245374fd81",
+    "sourceLabel": "Pattern",
+    "groups": [
+      "Firmen",
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "E-Commerce",
+      "KI",
+      "Unternehmensstrategie",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Pattern to Participate in Upcoming Investor Conferences",
+    "link": "https://www.pattern.com/news/pattern-to-participate-in-upcoming-investor-conferences-4",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-12T22:45:01.535Z",
+    "deliveredAt": "2026-11-12T22:45:01.535Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Pattern QZ"
+    ]
+  },
+  {
     "guid": "93e61c9244e10e2b465dc5c5",
     "source": "PayPal US",
     "sourceKey": "src-036682c8cc9a64e1",
@@ -70,27 +281,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "c6c163a5819aa3daa9542a09",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-vertrauen-durch-einfuehrung-von-kostenloser-rueckgaben-fuer-fahrzeugteile-und-zubehoer/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-12T17:07:03.293Z",
-    "deliveredAt": "2026-11-12T17:07:03.293Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "acf83b932344025b8bb044d1",
@@ -2502,28 +2692,6 @@
     "publishedAt": "2026-11-11T12:00:00.000Z",
     "detectedAt": "2026-11-11T03:03:35.493Z",
     "deliveredAt": "2026-11-11T03:03:35.493Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "363fb172987b699c05805001",
-    "source": "Pattern QZ",
-    "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
-    "sourceLabel": "Pattern QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Events"
-    ],
-    "priority": 2,
-    "title": "Pattern to Participate in Upcoming Investor Conferences",
-    "link": "https://investors.pattern.com/news-releases/news-release-details/pattern-participate-upcoming-investor-conferences-3",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T23:29:12.970Z",
-    "deliveredAt": "2026-11-10T23:29:12.970Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
@@ -10938,160 +11106,6 @@
     "priority": 2,
     "title": "Navigate to Klarna teams up with Chicago cross-stitch designer Emma “Stitch Gawd” McKee on third-annual special edition sneaker for Benny The Bull",
     "link": "https://www.klarna.com/international/press/klarna-teams-up-with-chicago-cross-stitch-designer-emma-stitch-gawd-mckee-on-third-annual-special-edition-sneaker-for-benny-the-bull/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "49973fd25d33533ec0642775",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna AI assistant handles two-thirds of customer service chats in its first month",
-    "link": "https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "404b93f0047f548c9fb13856",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna reports full year 2023 earnings: growing GMV and approaching annual profitability",
-    "link": "https://www.klarna.com/international/press/klarna-reports-full-year-2023-earnings-growing-gmv-and-approaching-annual-profitability/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fbb3dc683db557aa72be8c75",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna reveals 2023 sustainability progress: 25% GHG emissions reduction, $24.5M for planet health, and a surge in conscious shopping",
-    "link": "https://www.klarna.com/international/press/klarna-reveals-2023-sustainability-progress-25-ghg-emissions-reduction-245m-for-planet-health-and-a-surge-in-conscious-shopping/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "522a4d58997809da06b3709b",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Angel City Football Club to reserve seats in BMO Stadium for youth soccer players throughout the 2024 NWSL season, making the fan experience more accessible",
-    "link": "https://www.klarna.com/international/press/klarna-and-angel-city-football-club-to-reserve-seats-in-bmo-stadium-for-youth-soccer-players-throughout-the-2024-nwsl-season-making-the-fan-experience-more-accessible/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "79bd33d96a8716e8c5d02a7a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna ‘Wikipink’ challenges broken US credit system with transparent data",
-    "link": "https://www.klarna.com/international/press/klarna-wikipink-challenges-broken-us-credit-system-with-transparent-data/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "39434ea2cfd51ae1bf014c0f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Andrew Reed appointed to Klarna Holding AB and Klarna Bank AB Boards",
-    "link": "https://www.klarna.com/international/press/andrew-reed-appointed-to-klarna-holding-ab-and-klarna-bank-ab-boards/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4ef1a064dab175e857ab3358",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to New and improved Klarna Card announced in the US, empowering smarter spending and greater financial control",
-    "link": "https://www.klarna.com/international/press/new-and-improved-klarna-card-announced-in-the-us-empowering-smarter-spending-and-greater-financial-control/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T22:54:29.666Z",
