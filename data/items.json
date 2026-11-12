@@ -1,5 +1,493 @@
 [
   {
+    "guid": "19ae5087b4deed1acf8101cb",
+    "source": "JD QZ",
+    "sourceKey": "544a57fa-8f6d-4d8f-8205-461caa30a5d1",
+    "sourceLabel": "JD QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "JD.com Completes Voluntary Public Takeover Offer of CECONOMY",
+    "link": "https://ir.jd.com/news-releases/news-release-details/jdcom-completes-voluntary-public-takeover-offer-ceconomy",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-12T12:31:50.821Z",
+    "deliveredAt": "2026-11-12T12:31:50.821Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ecdcaf5e6c3bced35f2b9064",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-recommerce-report-82-prozent-kaufen-gebraucht-bei-ebay-doch-der-grenz%C3%BCberschreitende-handel-stockt/",
+    "pageDate": "11.11.2026",
+    "publishedAt": "2026-11-11T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.797Z",
+    "deliveredAt": "2026-11-12T12:31:50.797Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "f07e5db1dd298f411c3c8fae",
+    "source": "BPEX",
+    "sourceKey": "src-fdfe2643c70da9a3",
+    "sourceLabel": "BPEX",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Ausblick Weihnachtsgeschäft und Gesamtjahr 2026",
+    "link": "https://bpex-ev.de/presse/meldung/ausblick-weihnachtsgeschaeft-2026",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-12T12:31:50.773Z",
+    "deliveredAt": "2026-11-12T12:31:50.773Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c7f5812c7b1a6f94e8e11356",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Übernahme von weiteren tegut-Märkten durch REWE genehmigt",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/11_12_2026_REWE_tegut.html?nn=52004",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.771Z",
+    "deliveredAt": "2026-11-12T12:31:50.771Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7ac125bf2d4a48b3a37ae13f",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ECB publishes Economic Bulletin",
+    "link": "https://www.ecb.europa.eu/press/economic-bulletin/html/index.en.html",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.751Z",
+    "deliveredAt": "2026-11-12T12:31:50.751Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "41cd88559f2cc44be10b949f",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "What Reddit tells us about retail investor sentiment",
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261112~a4c8b903d9.en.html",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.751Z",
+    "deliveredAt": "2026-11-12T12:31:50.751Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d399cc501d23f8be8838c93c",
+    "source": "Target QZ",
+    "sourceKey": "src-ba300714de43cc5d",
+    "sourceLabel": "Target QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Target Appoints Sally Grimes to Board of Directors",
+    "link": "https://corporate.target.com/press/release/2026/11/target-appoints-sally-grimes-to-board-of-directors",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-12T12:31:50.749Z",
+    "deliveredAt": "2026-11-12T12:31:50.749Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3ba436be921bc9b03bc7bf19",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "PayPal Data-Insights: Cross-Border-Handel, 27 Mio. Auslandskunden in Deutschland",
+    "link": "https://wortfilter.de/cross-border-handel-paypal-global-beat-2026/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.745Z",
+    "deliveredAt": "2026-11-12T12:31:50.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "83cf61eb229a813d1dd32a06",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "BrickLink offline: Lego nennt kein Datum für die Rückkehr",
+    "link": "https://wortfilter.de/bricklink-offline-lego/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.745Z",
+    "deliveredAt": "2026-11-12T12:31:50.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4df7cd8725a44cf92aefccf7",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "GTA 6 bei Lidl ausverkauft: 10 Euro Schnäppchen mit Lidl Plus",
+    "link": "https://wortfilter.de/gta-6-lidl-plus-ausverkauft/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.745Z",
+    "deliveredAt": "2026-11-12T12:31:50.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2009c7c48a502c8085731fed",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "E-Commerce: Das ist diese Woche in der Politik passiert",
+    "link": "https://wortfilter.de/e-commerce-politik-kw-46-2026/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.745Z",
+    "deliveredAt": "2026-11-12T12:31:50.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1602d85f36f3fc45392446f8",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Datenabfluss bei Maersk: Erpresser fordern 5 Mio. Dollar",
+    "link": "https://wortfilter.de/datenabfluss-maersk-whitearmor/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.745Z",
+    "deliveredAt": "2026-11-12T12:31:50.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2975b646dfe66e5b49d17af4",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "KI-Sichtbarkeit: 29 Prozent der Deutschen nutzen KI im Alltag",
+    "link": "https://wortfilter.de/ki-sichtbarkeit-onlinehaendler/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.745Z",
+    "deliveredAt": "2026-11-12T12:31:50.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e72bbfbd7f52e3a42073f3e4",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "\"Respekt und Resultate\": DHL belegt Rang sechs im Ranking der besten Arbeitgeber der Welt",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/respekt-und-resultate-dhl-belegt-rang-sechs-im-ranking-der-besten-arbeitgeber-der-welt.html",
+    "pageDate": "12.11.2026, 13:15 MEZ DHL",
+    "publishedAt": null,
+    "detectedAt": "2026-11-12T12:31:50.744Z",
+    "deliveredAt": "2026-11-12T12:31:50.744Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "22b436cc076d624a4fc8c43a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Lidl verkauft GTA 6 günstiger und bindet den Preis an sein Kundenprogramm",
+    "link": "https://onlinemarktplatz.de/295610/lidls-gta-6-angebot/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.744Z",
+    "deliveredAt": "2026-11-12T12:31:50.744Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2b979842e2e770580f940ea5",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "JD Singles Day: Services wachsen, Joybuy bringt das Modell nach Europa",
+    "link": "https://onlinemarktplatz.de/295617/jd-singles-day-2026-ki-services-joybuy/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.744Z",
+    "deliveredAt": "2026-11-12T12:31:50.744Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "39c582b22b6e4828219658fd",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Alexa für Shopping startet in Deutschland und Österreich",
+    "link": "https://onlinemarktplatz.de/295624/alexa-fuer-shopping-deutschland/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.744Z",
+    "deliveredAt": "2026-11-12T12:31:50.744Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7579e3f7210bd4876c851404",
+    "source": "Deloitte",
+    "sourceKey": "src-ee546a6472b48b72",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Verbraucher:innen sparen aus Überzeugung, nicht nur aus Notwendigkeit",
+    "link": "https://www.deloitte.com/de/de/about/press-room/verbraucher-innen-sparen-aus-ueberzeugung-nicht-nur-aus-notwendigkeit.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-12T12:31:50.741Z",
+    "deliveredAt": "2026-11-12T12:31:50.741Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f8f6173b0ff98bbc88790b8b",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "From Tokens to AI-Powered Shopping: How JD.com Brings AI into Singles’ Day 2026",
+    "link": "https://jdcorporateblog.com/from-tokens-to-ai-powered-shopping-how-jd-com-brings-ai-into-singles-day-2026/",
+    "pageDate": "Nov 12, 2026",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.698Z",
+    "deliveredAt": "2026-11-12T12:31:50.698Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dca34cacf38fc9254eee2cbf",
+    "source": "Galaxus Medienmitteilungen",
+    "sourceKey": "src-c4694153f4de0aba",
+    "sourceLabel": "Galaxus",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Fast jedes zweite Paar in Deutschland treibt nie gemeinsam Sport",
+    "link": "https://www.galaxus.de/de/page/fast-jedes-zweite-paar-in-deutschland-treibt-nie-gemeinsam-sport-44170",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-12T12:31:50.695Z",
+    "deliveredAt": "2026-11-12T12:31:50.695Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "244ec04ddfd2bc60fa1e405f",
+    "source": "Ecommerce Europe Press Releases",
+    "sourceKey": "src-8d7a4dfc95d50e42",
+    "sourceLabel": "Ecommerce Europe",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Digital Fairness Act: retailers call for effective enforcement and proportionate rules",
+    "link": "https://ecommerce-europe.eu/press-item/digital-fairness-act-retailers-call-for-effective-enforcement-and-proportionate-rules/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-12T12:31:50.670Z",
+    "deliveredAt": "2026-11-12T12:31:50.670Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fe31e5c183ac93ca20f65b39",
+    "source": "OTTO Pressemitteilungen",
+    "sourceKey": "src-8ce2a9da213bfc6e",
+    "sourceLabel": "OTTO",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Erfolgreicher Auftakt ins Weihnachtsgeschäft: OTTO blickt zuversichtlich auf Black Friday",
+    "link": "https://www.otto.de/unternehmen/de/presse/singles-day-2026-otto-blickt-zuversichtlich-auf-black-friday",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T12:31:50.667Z",
+    "deliveredAt": "2026-11-12T12:31:50.667Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c7f509664a99ff1501649311",
     "source": "Action",
     "sourceKey": "src-89cea149987a2a2d",
@@ -20,27 +508,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "c6c163a5819aa3daa9542a09",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-vertrauen-durch-einfuehrung-von-kostenloser-rueckgaben-fuer-fahrzeugteile-und-zubehoer/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-12T08:20:32.199Z",
-    "deliveredAt": "2026-11-12T08:20:32.199Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "a41c1f2a6cc438bcc0e23a15",
@@ -10614,468 +11081,6 @@
     "priority": 2,
     "title": "Navigate to Klarna acquires Laybuy in New Zealand",
     "link": "https://www.klarna.com/international/press/klarna-acquires-laybuy-in-new-zealand/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "45daee304ea35b0d8b2c1a30",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna H1 earnings: Compounding growth generates 27% revenue rise, SEK 1.1 billion profit improvement, and over SEK 1 trillion annualized GMV",
-    "link": "https://www.klarna.com/international/press/klarna-h1-earnings-compounding-growth-generates-27-revenue-rise-sek-11-billion-profit-improvement-and-over-sek-1-trillion-annualized-gmv/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5c9b6272c97831a17d031ae8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with UATP to tap the $1 trillion air travel industry",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-uatp-to-tap-the-1-trillion-air-travel-industry/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ccd7830ad4bc006a0cdd52cf",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Shopping made smarter: Klarna adds more AI features to its assistant powered by OpenAI",
-    "link": "https://www.klarna.com/international/press/shopping-made-smarter-klarna-adds-more-ai-features-to-its-assistant-powered-by-openai/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f4c925ed0223e833a3ea0762",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Xero bring ‘buy now, pay later’ to small businesses",
-    "link": "https://www.klarna.com/international/press/klarna-and-xero-bring-buy-now-pay-later-to-small-businesses/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0aff773bc0ef67ae88081817",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Adyen and Klarna go to the shops: Klarna launches on Adyen in-store terminals across Europe, North America and Australia",
-    "link": "https://www.klarna.com/international/press/adyen-and-klarna-go-to-the-shops-klarna-launches-on-adyen-in-store-terminals-across-europe-north-america-and-australia/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "24689bfa065b0c103e2ca69c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna now an official Apple reseller with the launch of new storefront, offering the latest Apple products and a new flexible monthly payment option",
-    "link": "https://www.klarna.com/international/press/klarna-now-an-official-apple-reseller-with-the-launch-of-new-storefront-offering-the-latest-apple-products-and-a-new-flexible-monthly-payment-option/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d988e6ee3fba23c8331d4c01",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna cashback drives $100m-worth of sales in just six weeks.",
-    "link": "https://www.klarna.com/international/press/klarna-cashback-drives-100m-worth-of-sales-in-just-six-weeks/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "20b90dfa02dba8d1221f2729",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Merchants Continue To Choose Klarna, With 100,000 New Retailers Joining Klarna’s Network in One Year",
-    "link": "https://www.klarna.com/international/press/merchants-continue-to-choose-klarna-with-100000-new-retailers-joining-klarnas-network-in-one-year/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d94a43d95b82bc465eeb4b6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna fuels £30bn expansion with UK loans partnership",
-    "link": "https://www.klarna.com/international/press/klarna-fuels-ps30bn-expansion-with-uk-loans-partnership/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f4bd6a99b90320f7e3b1fcd7",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Rite Aid Partners with Klarna to Offer Pay in 4 Option in All Stores",
-    "link": "https://www.klarna.com/international/press/rite-aid-partners-with-klarna-to-offer-pay-in-4-option-in-all-stores/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7f34b1ff8babb4b4fdd15fa6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to fuel £30bn expansion with UK loans partnership",
-    "link": "https://www.klarna.com/international/press/klarna-to-fuel-ps30bn-expansion-with-uk-loans-partnership/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "34adcd0ad796a5fa0d981288",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Payment Options Now Available at Checkout on Apple Pay In-App and Online",
-    "link": "https://www.klarna.com/international/press/klarna-payment-options-now-available-at-checkout-on-apple-pay-in-app-and-online/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "686d06609842205dcd7e5bd2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna receives FCA authorisation, paving the way for cashback and balance features",
-    "link": "https://www.klarna.com/international/press/klarna-receives-fca-authorisation-paving-the-way-for-cashback-and-balance/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3a5cd4a4a1d2b3a8c269b955",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna delinquency rates drop as consumer health improves",
-    "link": "https://www.klarna.com/international/press/klarna-delinquency-rates-drop-as-consumer-health-improves/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "df51a828d620332cfb727d91",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to No More Friction: Klarna automatically enables thousands of WooCommerce stores, tackling checkout drop-offs head-on.",
-    "link": "https://www.klarna.com/international/press/no-more-friction-klarna-automatically-enables-thousands-of-woocommerce/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "08217146360f5084a888bcd3",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna to Launch as a Payment Option in Autofill on Chrome, Expanding Work with Google Pay",
-    "link": "https://www.klarna.com/international/press/klarna-to-launch-as-a-payment-option-in-autofill-on-chrome-expanding-work/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "220877012feee5e931760e1c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna grows Q2 revenue to $823m, reports continued operating profitability and highest number of on-time payments",
-    "link": "https://www.klarna.com/international/press/klarna-grows-q2-revenue-to-usd823m-reports-continued-operating-profitability/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b5bd771d204b4a31af7662d1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures scalable funding in $26bn deal to drive U.S. Pay in 4 growth",
-    "link": "https://www.klarna.com/international/press/klarna-secures-scalable-funding-in-usd26bn-deal-to-drive-u-s-pay-in-4-growth/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "61ad3b551f36e34194fff124",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures EUR 1.4bn structured financing facility with Santander",
-    "link": "https://www.klarna.com/international/press/klarna-secures-eur-1-4bn-structured-financing-facility-with-santander/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7d1e0096ffc9cc07f74ea5ec",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Walmart Canada Becomes Klarna’s Largest Omni Retailer in Canada",
-    "link": "https://www.klarna.com/international/press/walmart-canada-becomes-klarnas-largest-omni-retailer-in-canada/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1e35aeb3a070c63ff309f03d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches debit-first card across Europe for everyday spending",
-    "link": "https://www.klarna.com/international/press/klarna-launches-debit-first-card-across-europe-for-everyday-spending/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T22:54:29.666Z",
