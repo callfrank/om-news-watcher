@@ -1,6 +1,28 @@
 [
   {
-    "guid": "ecdcaf5e6c3bced35f2b9064",
+    "guid": "c7f509664a99ff1501649311",
+    "source": "Action",
+    "sourceKey": "src-89cea149987a2a2d",
+    "sourceLabel": "Action",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Action net sales up 14% in first nine months of 2026, driven by strong customer growth",
+    "link": "https://company.action.com/pressreleases/action-net-sales-up-14-in-first-nine-months-of-2026-driven-by-strong-customer-growth/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.212Z",
+    "deliveredAt": "2026-11-12T08:20:32.212Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c6c163a5819aa3daa9542a09",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +32,257 @@
     "tags": [],
     "priority": 2,
     "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-recommerce-report-82-prozent-kaufen-gebraucht-bei-ebay-doch-der-grenz%C3%BCberschreitende-handel-stockt/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-vertrauen-durch-einfuehrung-von-kostenloser-rueckgaben-fuer-fahrzeugteile-und-zubehoer/",
     "pageDate": "11.11.2026",
     "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-12T01:01:09.745Z",
-    "deliveredAt": "2026-11-12T01:01:09.745Z",
+    "detectedAt": "2026-11-12T08:20:32.199Z",
+    "deliveredAt": "2026-11-12T08:20:32.199Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "a41c1f2a6cc438bcc0e23a15",
+    "source": "Gfu",
+    "sourceKey": "src-e47d0ee60e79a7e8",
+    "sourceLabel": "Gfu",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Der Aufstieg der intelligenten Heimrobotik",
+    "link": "https://gfu.de/der-aufstieg-der-intelligenten-heimrobotik/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.186Z",
+    "deliveredAt": "2026-11-12T08:20:32.186Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4a4c7b9d575a5e6431513253",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "12.11.2026",
+    "link": "https://news.post.at/presse/de/post/id/2363786/&Ouml;STERREICHISCHE%20POST%20Q1-3%202026",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.176Z",
+    "deliveredAt": "2026-11-12T08:20:32.176Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3e93e4917c8b51a794b2f98e",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ÖSTERREICHISCHE POST Q1-3 2026",
+    "link": "https://news.post.at/presse/de/post/id/2363786/%26Ouml%3BSTERREICHISCHE%20POST%20Q1-3%202026",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.176Z",
+    "deliveredAt": "2026-11-12T08:20:32.176Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "58547ac49424036b0fc9dfd9",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Pflege: 10 % der Erwerbstätigen von 25 bis 64 Jahren betreuen Angehörige",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N079_23.html",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.167Z",
+    "deliveredAt": "2026-11-12T08:20:32.167Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8e18d500cd4789fd9b83abce",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Statistik der Grundsteuerwerte zeigt strukturelle Unterschiede in der Verteilung des Grundbesitzes in Deutschland",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_395_73.html",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.167Z",
+    "deliveredAt": "2026-11-12T08:20:32.167Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b118d3fa4d02ed6cf2b7c86",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Meet the future euro banknotes’ designers",
+    "link": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/meet-the-designers.en.html",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.162Z",
+    "deliveredAt": "2026-11-12T08:20:32.162Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cbc6f99301913edff5205836",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Digitale Fairness: EU legt Vorschlag gegen Abofallen und Dark Patterns vor",
+    "link": "https://onlinemarktplatz.de/295556/digitale-fairness-eu/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.152Z",
+    "deliveredAt": "2026-11-12T08:20:32.152Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "934000340f55eb254ec151b0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Barrierefreie Online-Shops: Wo es vor Black Friday hakt",
+    "link": "https://onlinemarktplatz.de/295305/barrierefreie-online-shops/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.152Z",
+    "deliveredAt": "2026-11-12T08:20:32.152Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0e65b9b389c4f90abd9571ca",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "TikTok Shop App startet in vier Ländern Südostasiens",
+    "link": "https://onlinemarktplatz.de/295490/tiktok-shop-app-start-suedostasien/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.152Z",
+    "deliveredAt": "2026-11-12T08:20:32.152Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a0f3b30ef5ef42532ec6bb74",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Shopify öffnet Shop für Händler mit anderen Zahlungsanbietern",
+    "link": "https://onlinemarktplatz.de/295504/shopify-shop-zulassung/",
+    "pageDate": "12.11.2026",
+    "publishedAt": "2026-11-12T12:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.152Z",
+    "deliveredAt": "2026-11-12T08:20:32.152Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ffd6c25f9273cbf91f637911",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "JD.com’s 2026 Singles’ Day Grand Promotion: AI, Services, and Omnichannel Retail",
+    "link": "https://jdcorporateblog.com/jd-coms-2026-singles-day-grand-promotion-ai-services-and-omnichannel-retail/",
+    "pageDate": "Nov 12, 2026",
+    "publishedAt": "2026-11-12T00:00:00.000Z",
+    "detectedAt": "2026-11-12T08:20:32.102Z",
+    "deliveredAt": "2026-11-12T08:20:32.102Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "79b4feba568586d0ebe3aaec",
@@ -10812,270 +11076,6 @@
     "priority": 2,
     "title": "Navigate to Klarna launches debit-first card across Europe for everyday spending",
     "link": "https://www.klarna.com/international/press/klarna-launches-debit-first-card-across-europe-for-everyday-spending/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "40b9bfcc0b4de9e55fc63646",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Launch of its Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-launch-of-its-initial-public-offering/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c08b022eabc23e7e2f53d160",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Pricing of its Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-pricing-of-its-initial-public-offering/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6dd69f14ea172117233fb16d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna lists on the New York Stock Exchange",
-    "link": "https://www.klarna.com/international/press/klarna-lists-on-the-new-york-stock-exchange/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c2088fee9313afa9cbb22895",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Gap Inc. Partners with Klarna to Offer Seamless, Flexible Payments Across Portfolio of Brands",
-    "link": "https://www.klarna.com/international/press/gap-inc-partners-with-klarna-to-offer-seamless-flexible-payments-across/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0b698823571c7fd977926efb",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Completes Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-completes-initial-public-offering/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "112b10b7c72d43df11771c6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Customers in US and UK Can Now Access Klarna Installment Plans for In-Store Apple Pay Purchases",
-    "link": "https://www.klarna.com/international/press/klarna-customers-in-us-and-uk-can-now-access-klarna-installment-plans-for-in/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4e4376e3c8267b8ea7f5fc61",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Card passes 1 million US sign-ups in 11 weeks",
-    "link": "https://www.klarna.com/international/press/klarna-card-passes-1-million-us-sign-ups-in-11-weeks/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7eb1e9aa72420582aac334f2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna strengthens collaboration with Google to support Agent Payments Protocol (AP2)",
-    "link": "https://www.klarna.com/international/press/klarna-strengthens-collaboration-with-google-to-support-agent-payments/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c25acf85d44fc6946d699a68",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna set to land with Qatar Airways, bringing flexible payments to 17 markets",
-    "link": "https://www.klarna.com/international/press/klarna-set-to-land-with-qatar-airways-bringing-flexible-payments-to-17/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "69e5f6c827be346b51dd2e8e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches flexible debit card and digital wallet in UK",
-    "link": "https://www.klarna.com/international/press/klarna-launches-flexible-debit-card-and-digital-wallet-in-uk/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "aec8f4388d4eb3e55a89cf77",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches memberships: premium perks without expensive credit",
-    "link": "https://www.klarna.com/international/press/klarna-launches-memberships-premium-perks-without-expensive-credit/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "79c2029769a37bf55d4aaf6d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens the floor to shareholders ahead of Q3 2025 Earnings via Say Technologies",
-    "link": "https://www.klarna.com/international/press/klarna-opens-the-floor-to-shareholders-ahead-of-q3-2025-earnings-via-say/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T22:54:29.666Z",
