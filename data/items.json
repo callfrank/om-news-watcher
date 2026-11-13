@@ -1,5 +1,96 @@
 [
   {
+    "guid": "3c79659fce6e702c995727ca",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "AWS re:Invent 2026: What to know",
+    "link": "https://www.aboutamazon.com/news/aws/what-is-aws-reinvent",
+    "pageDate": "Nov. 13, 2026",
+    "publishedAt": "2026-11-13T00:00:00.000Z",
+    "detectedAt": "2026-11-13T23:54:35.715Z",
+    "deliveredAt": "2026-11-13T23:54:35.715Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4daa8ef14ca09d0126eb32e8",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EUDR-Gesetz: Was Onlinehändler ab 30. Dezember tun müssen",
+    "link": "https://wortfilter.de/eudr-onlinehaendler-massnahmenplan/",
+    "pageDate": "13.11.2026",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "detectedAt": "2026-11-13T23:54:35.685Z",
+    "deliveredAt": "2026-11-13T23:54:35.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5c550b3160190aede18ed974",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "ChatGPT Wallet: KI-Agenten kaufen ein – zum Start ohne Provision",
+    "link": "https://wortfilter.de/chatgpt-wallet-ki-agenten-einkaufen/",
+    "pageDate": "13.11.2026",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "detectedAt": "2026-11-13T23:54:35.685Z",
+    "deliveredAt": "2026-11-13T23:54:35.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3340630bd9aadfcd5439e15e",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Flugstopp USA: Alle Abflüge gestoppt – zweites Mal seit 9/11",
+    "link": "https://wortfilter.de/flugstopp-usa/",
+    "pageDate": "13.11.2026",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "detectedAt": "2026-11-13T23:54:35.685Z",
+    "deliveredAt": "2026-11-13T23:54:35.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "0e26eeacf36b556fda4c3d2f",
     "source": "UPS QZ",
     "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
@@ -11031,94 +11122,6 @@
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.139Z",
     "deliveredAt": "2026-11-06T03:27:32.139Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "00c46722bdaad1d5c51e5273",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Is Now Available on Google Pay",
-    "link": "https://www.klarna.com/international/press/klarna-is-now-available-on-google-pay/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.139Z",
-    "deliveredAt": "2026-11-06T03:27:32.139Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ba7ed4fd61ae1b433a486ac6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna rejects carbon offsets with fresh $1.25m fund for environmental moonshots",
-    "link": "https://www.klarna.com/international/press/klarna-rejects-carbon-offsets-with-fresh-usd1-25m-fund-for-environmental/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.139Z",
-    "deliveredAt": "2026-11-06T03:27:32.139Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5ded8d053a42eef7f2cdf555",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Poshmark Partner to Power Seamless Resale, Just in Time for Back-to-School",
-    "link": "https://www.klarna.com/international/press/klarna-and-poshmark-partner-to-power-seamless-resale-just-in-time-for-back/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.139Z",
-    "deliveredAt": "2026-11-06T03:27:32.139Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e8c34eeea5e1759ee5e0f304",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna brings flexible payments to Fresha, backing small businesses globally",
-    "link": "https://www.klarna.com/international/press/untitled-entry-2026-11-02-at-10-51-34/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.138Z",
-    "deliveredAt": "2026-11-06T03:27:32.138Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
