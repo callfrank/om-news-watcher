@@ -1,5 +1,206 @@
 [
   {
+    "guid": "0e26eeacf36b556fda4c3d2f",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "3Q 2026 Historical Financial Info",
+    "link": "https://investors.ups.com/_assets/_4ff917ab37be9b214af733fc70205587/ups/db/1111/11043/file/2026+Q3+Historical+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-13T18:33:13.958Z",
+    "deliveredAt": "2026-11-13T18:33:13.958Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1de5c8d02ea40718774c8994",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "3Q 2026 Financial Statements",
+    "link": "https://investors.ups.com/_assets/_4ff917ab37be9b214af733fc70205587/ups/db/1111/11042/file/2026+Q3+Financial+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-13T18:33:13.958Z",
+    "deliveredAt": "2026-11-13T18:33:13.958Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2d99f102a5e0980a3fc172d1",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Meet Alexa for Shopping, your personalized, agentic AI assistant on Amazon",
+    "link": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant",
+    "pageDate": "Nov. 13, 2026",
+    "publishedAt": "2026-11-13T00:00:00.000Z",
+    "detectedAt": "2026-11-13T18:33:13.944Z",
+    "deliveredAt": "2026-11-13T18:33:13.944Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b48dbc0c001b4a9ff45a6b82",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Strong online growth in Denmark",
+    "link": "https://ecommercenews.eu/strong-online-growth-in-denmark/",
+    "pageDate": "13.11.2026",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "detectedAt": "2026-11-13T18:33:13.934Z",
+    "deliveredAt": "2026-11-13T18:33:13.934Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ff40b78bf7b67895bc45ed6b",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Werbung mit „Bekannt aus“: Gekaufte Anzeigen zählen nicht",
+    "link": "https://wortfilter.de/werbung-mit-bekannt-aus-urteil-lg-hamburg/",
+    "pageDate": "13.11.2026",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "detectedAt": "2026-11-13T18:33:13.915Z",
+    "deliveredAt": "2026-11-13T18:33:13.915Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4cec16199f81c173ea9bf6d3",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Claude Störung: Doppelausfall bei Login und Microsoft 365",
+    "link": "https://wortfilter.de/claude-stoerung-login-microsoft-365/",
+    "pageDate": "13.11.2026",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "detectedAt": "2026-11-13T18:33:13.915Z",
+    "deliveredAt": "2026-11-13T18:33:13.915Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c353e486bfe6c27cfd576638",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Microsoft 365 Ausfall: Server fallen beim Selbsttest durch",
+    "link": "https://wortfilter.de/microsoft-365-ausfall-ursache/",
+    "pageDate": "13.11.2026",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "detectedAt": "2026-11-13T18:33:13.915Z",
+    "deliveredAt": "2026-11-13T18:33:13.915Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "54633ef41c7dd5878d123df8",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Workwear auf Twitch – wie Würth MODYF Sponsoring und Verkauf verbindet",
+    "link": "https://onlinemarktplatz.de/295272/workwear-auf-twitch-wuerth-modyf/",
+    "pageDate": "13.11.2026",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "detectedAt": "2026-11-13T18:33:13.914Z",
+    "deliveredAt": "2026-11-13T18:33:13.914Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0f67d4bf03f324936084b17d",
+    "source": "ECDB Reports",
+    "sourceKey": "src-93bc6c77c8e0092a",
+    "sourceLabel": "ECDB",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "E-Commerce",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "The D2C Revolution Is Not Happening Report",
+    "link": "https://ecdb.com/reports/the-d2c-revolution/1042",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-13T18:33:13.876Z",
+    "deliveredAt": "2026-11-13T18:33:13.876Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "ecdcaf5e6c3bced35f2b9064",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
@@ -10918,205 +11119,6 @@
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.138Z",
     "deliveredAt": "2026-11-06T03:27:32.138Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ff7b63998392caf60ea0f56d",
-    "source": "Pattern QZ",
-    "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
-    "sourceLabel": "Pattern QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Events"
-    ],
-    "priority": 2,
-    "title": "Pattern Named to the 2026 America's Top 100 Most Loved Workplaces®, as Featured in the Wall Street Journal",
-    "link": "https://investors.pattern.com/news-releases/news-release-details/pattern-named-2026-americas-top-100-most-loved-workplacesr",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-05T22:54:29.694Z",
-    "deliveredAt": "2026-11-05T22:54:29.694Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Pattern Newsroom"
-    ]
-  },
-  {
-    "guid": "f479de5b65bff273e1f98bfa",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "‘Clarkson’s Farm’ star Kaleb Cooper headlines new series ‘Kaleb Off the Farm,’ coming to Prime Video January 8",
-    "link": "https://www.aboutamazon.com/news/entertainment/kaleb-cooper-off-the-farm-clarksons-farm-prime-video",
-    "pageDate": "Nov. 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.678Z",
-    "deliveredAt": "2026-11-05T22:54:29.678Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d4e0bffe8be6a37a080b5360",
-    "source": "Mittelstand Digital",
-    "sourceKey": "src-3fbff5b0f3b52fe1",
-    "sourceLabel": "Mittelstand Digital",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Selbstlerneinheit: Retail Media",
-    "link": "https://digitalzentrumhandel.de/author/lena-peters/",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.674Z",
-    "deliveredAt": "2026-11-05T22:54:29.674Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c1b7380933db307264c2c0d1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says „Bună” to Romania with its interest-free “Pay in 3” service and shopping app",
-    "link": "https://www.klarna.com/international/press/klarna-says-buna-to-romania-with-its-interest-free-pay-in-3-service-and-shopping-app/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "86f4f085bc0ba7fc603e1051",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna unveils new tools enabling consumers to shop more consciously and take climate action",
-    "link": "https://www.klarna.com/international/press/klarna-unveils-new-tools-enabling-consumers-to-shop-more-consciously-and-take-climate-action/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0a80700c7b85d5689988fae4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna achieves monumental growth in Canada, with 640k active consumers and 2M orders processed",
-    "link": "https://www.klarna.com/international/press/klarna-achieves-monumental-growth-in-canada-with-640k-active-consumers-and-2m-orders-processed/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "57c7849039351df0c4e20719",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna fashions a bigger partnership with MandM to take legendary brands international",
-    "link": "https://www.klarna.com/international/press/klarna-fashions-a-bigger-partnership-with-mandm-to-take-legendary-brands-international/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "18566405ca8639cea9000d4a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Europe turns pink: Klarna announces huge growth in key European markets",
-    "link": "https://www.klarna.com/international/press/europe-turns-pink-klarna-announces-huge-growth-in-key-european-markets/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8be5b6a181351f6f5fc79583",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna reports H1 2023 Results: smashes profitability target, continued growth ahead of e-commerce.",
-    "link": "https://www.klarna.com/international/press/klarna-reports-h1-2023-results-smashes-profitability-target-continued-growth-ahead-of-e-commerce/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
