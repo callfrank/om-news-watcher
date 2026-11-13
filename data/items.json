@@ -1,6 +1,6 @@
 [
   {
-    "guid": "ecdcaf5e6c3bced35f2b9064",
+    "guid": "c6c163a5819aa3daa9542a09",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,38 @@
     "tags": [],
     "priority": 2,
     "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-recommerce-report-82-prozent-kaufen-gebraucht-bei-ebay-doch-der-grenz%C3%BCberschreitende-handel-stockt/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-vertrauen-durch-einfuehrung-von-kostenloser-rueckgaben-fuer-fahrzeugteile-und-zubehoer/",
     "pageDate": "11.11.2026",
     "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-12T22:45:01.598Z",
-    "deliveredAt": "2026-11-12T22:45:01.598Z",
+    "detectedAt": "2026-11-13T02:57:15.628Z",
+    "deliveredAt": "2026-11-13T02:57:15.628Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "3e91974f31da49d442922842",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "eBay Depop: Tochter-Inserat auf Platz 1 der US-App-Suche",
+    "link": "https://wortfilter.de/ebay-depop-suche/",
+    "pageDate": "13.11.2026",
+    "publishedAt": "2026-11-13T12:00:00.000Z",
+    "detectedAt": "2026-11-13T02:57:15.586Z",
+    "deliveredAt": "2026-11-13T02:57:15.586Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "9d6359bef55d1cf601da6cd4",
@@ -187,14 +210,12 @@
     "sourceKey": "src-fd172f245374fd81",
     "sourceLabel": "Pattern",
     "groups": [
-      "Firmen",
-      "Quartalszahlen"
+      "Firmen"
     ],
     "tags": [
       "E-Commerce",
       "KI",
-      "Unternehmensstrategie",
-      "Events"
+      "Unternehmensstrategie"
     ],
     "priority": 2,
     "title": "Pattern to Participate in Upcoming Investor Conferences",
@@ -11084,28 +11105,6 @@
     "priority": 2,
     "title": "Navigate to Buy Now, Pay Early: 97.4% of Klarna Black Friday purchases paid off on time or early",
     "link": "https://www.klarna.com/international/press/buy-now-pay-early-974-of-klarna-black-friday-purchases-paid-off-on-time-or-early/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-05T22:54:29.666Z",
-    "deliveredAt": "2026-11-05T22:54:29.666Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1319be815a27e47d230cb59f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna teams up with Chicago cross-stitch designer Emma “Stitch Gawd” McKee on third-annual special edition sneaker for Benny The Bull",
-    "link": "https://www.klarna.com/international/press/klarna-teams-up-with-chicago-cross-stitch-designer-emma-stitch-gawd-mckee-on-third-annual-special-edition-sneaker-for-benny-the-bull/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-05T22:54:29.666Z",
