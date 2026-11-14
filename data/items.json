@@ -1,5 +1,51 @@
 [
   {
+    "guid": "c83cd16210d7911773ffd681",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Sparkasse S-ID-Check endet: Shops müssen nichts umbauen",
+    "link": "https://wortfilter.de/sparkasse-s-id-check-click-to-pay-onlinehaendler/",
+    "pageDate": "14.11.2026",
+    "publishedAt": "2026-11-14T12:00:00.000Z",
+    "detectedAt": "2026-11-14T22:59:47.397Z",
+    "deliveredAt": "2026-11-14T22:59:47.397Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "073c4aa88b84800acbdbf9d1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "GTA 6 Fake-Shops: PC-Keys für ein Spiel ohne PC-Version",
+    "link": "https://wortfilter.de/gta-6-fake-shops-pc-keys/",
+    "pageDate": "14.11.2026",
+    "publishedAt": "2026-11-14T12:00:00.000Z",
+    "detectedAt": "2026-11-14T22:59:47.397Z",
+    "deliveredAt": "2026-11-14T22:59:47.397Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d046f4d02620015c3b38a22c",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -11085,50 +11131,6 @@
     "priority": 2,
     "title": "Navigate to Eurostar introduces Klarna for flexible payments in the UK and France, making high-speed rail more accessible",
     "link": "https://www.klarna.com/international/press/eurostar-introduces-klarna-for-flexible-payments-in-the-uk-and-france/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.139Z",
-    "deliveredAt": "2026-11-06T03:27:32.139Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0e2dfd32c35e59345f7184c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Aritzia to bring flexible payment options to clients across Canada and the United States",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-aritzia-to-bring-flexible-payment-options-to-clients/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.139Z",
-    "deliveredAt": "2026-11-06T03:27:32.139Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cbaec0a5e14886466c6e9c0a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Plus Marks First Year in the US, Signaling Growing Momentum in Subscription Services",
-    "link": "https://www.klarna.com/international/press/klarna-plus-marks-first-year-in-the-us-signaling-growing-momentum-in/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.139Z",
