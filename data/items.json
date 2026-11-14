@@ -1,5 +1,51 @@
 [
   {
+    "guid": "11d3f31b7bf9ded6cee2153d",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Testergebnis: Social Media Sharing Tool Blog2Social ist schlecht",
+    "link": "https://wortfilter.de/blog2social-test-erfahrung/",
+    "pageDate": "14.11.2026",
+    "publishedAt": "2026-11-14T12:00:00.000Z",
+    "detectedAt": "2026-11-14T06:21:13.961Z",
+    "deliveredAt": "2026-11-14T06:21:13.961Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a18bb02c6058ed78aa578ed0",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Bundeswehr Shop fällt krachend durch Compliance-Prüfung",
+    "link": "https://wortfilter.de/bundeswehrshop-compliance-pruefung/",
+    "pageDate": "14.11.2026",
+    "publishedAt": "2026-11-14T12:00:00.000Z",
+    "detectedAt": "2026-11-14T06:21:13.960Z",
+    "deliveredAt": "2026-11-14T06:21:13.960Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "3c79659fce6e702c995727ca",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -11074,50 +11120,6 @@
     "priority": 2,
     "title": "Navigate to Klarna and Visa Launch Pilot of New Debit Card with Increased Flexibility at Money 2020 Europe",
     "link": "https://www.klarna.com/international/press/klarna-and-visa-launch-pilot-of-new-debit-card-with-increased-flexibility-at/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.139Z",
-    "deliveredAt": "2026-11-06T03:27:32.139Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ed82e69420c10e06c875fdab",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens direct line to CEO Sebastian Siemiatkowski – powered by AI",
-    "link": "https://www.klarna.com/international/press/klarna-opens-direct-line-to-ceo-sebastian-siemiatkowski-powered-by-ai/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.139Z",
-    "deliveredAt": "2026-11-06T03:27:32.139Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6dc631379b0bd7d5377c29b9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Tap to switch: Klarna expands into mobile phone plans with flexible, no-hassle service for 25M Americans",
-    "link": "https://www.klarna.com/international/press/tap-to-switch-klarna-expands-into-mobile-phone-plans-with-flexible-no-hassle/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.139Z",
