@@ -1,5 +1,74 @@
 [
   {
+    "guid": "da561db3afcd22b7f891c79c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "World Product Graph: Amazon will auch fremde Shops auslesen",
+    "link": "https://wortfilter.de/amazon-world-product-graph/",
+    "pageDate": "15.11.2026",
+    "publishedAt": "2026-11-15T12:00:00.000Z",
+    "detectedAt": "2026-11-15T21:50:07.164Z",
+    "deliveredAt": "2026-11-15T21:50:07.164Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b4147154911aa7bf39fe018d",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Versicherer ACE will eBays 55,7-Mio.-Vergleich nicht zahlen",
+    "link": "https://wortfilter.de/ebay-cyberstalking-versicherer-ace/",
+    "pageDate": "15.11.2026",
+    "publishedAt": "2026-11-15T12:00:00.000Z",
+    "detectedAt": "2026-11-15T21:50:07.164Z",
+    "deliveredAt": "2026-11-15T21:50:07.164Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2cc019b6d19bec3d9e4a59a3",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Unfall wegen Outlook Ausfall: Das könnte euch auch passieren",
+    "link": "https://wortfilter.de/outlook-ausfall-phantasialand/",
+    "pageDate": "15.11.2026",
+    "publishedAt": "2026-11-15T12:00:00.000Z",
+    "detectedAt": "2026-11-15T21:50:07.164Z",
+    "deliveredAt": "2026-11-15T21:50:07.164Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "ee595deb48e1f6541e95354a",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11077,72 +11146,6 @@
     "priority": 2,
     "title": "Navigate to eBay and Klarna Expand Partnership Bringing Buy Now Pay Later (BNPL) to New Markets",
     "link": "https://www.klarna.com/international/press/ebay-and-klarna-expand-partnership-bringing-buy-now-pay-later-bnpl-to-new-markets/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "afd7eb3a56d6f173ad180274",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Fabletics teams up with Klarna to bring flexible payments to subscription members across the US",
-    "link": "https://www.klarna.com/international/press/fabletics-teams-up-with-klarna-to-bring-flexible-payments-to-subscription-members-across-the-us/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7f31daa01ef653dc1ae4324e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with iconic luxury retailers Neiman Marcus and Bergdorf Goodman",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-iconic-luxury-retailers-neiman-marcus-and-bergdorf-goodman/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "322f2b8c5358b4221eb3f1ff",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna ‘Pay in 3’ launches for Zalando shoppers in five additional markets",
-    "link": "https://www.klarna.com/international/press/klarna-pay-in-3-launches-for-zalando-shoppers-in-five-additional-markets/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.140Z",
