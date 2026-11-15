@@ -1,5 +1,97 @@
 [
   {
+    "guid": "ee595deb48e1f6541e95354a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "DHL Paketpreise 2027: In der Filiale bis zu 2 Euro teurer",
+    "link": "https://wortfilter.de/dhl-paketpreise-2027/",
+    "pageDate": "15.11.2026",
+    "publishedAt": "2026-11-15T12:00:00.000Z",
+    "detectedAt": "2026-11-15T17:10:15.544Z",
+    "deliveredAt": "2026-11-15T17:10:15.544Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a063424f9e2ca19f82e63a9d",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Anleitung: So funktioniert Parasite SEO",
+    "link": "https://wortfilter.de/parasite-seo-anleitung/",
+    "pageDate": "15.11.2026",
+    "publishedAt": "2026-11-15T12:00:00.000Z",
+    "detectedAt": "2026-11-15T17:10:15.544Z",
+    "deliveredAt": "2026-11-15T17:10:15.544Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5248e82953a571695b44310a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Traffic messen: Die 10 besten Tools im Test – GA4 nur Neunter",
+    "link": "https://wortfilter.de/traffic-messen-tools-test/",
+    "pageDate": "15.11.2026",
+    "publishedAt": "2026-11-15T12:00:00.000Z",
+    "detectedAt": "2026-11-15T17:10:15.544Z",
+    "deliveredAt": "2026-11-15T17:10:15.544Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "860e687bbab370b936d7b2b2",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Versandpreise 2025: DHL-Großkunden zahlen bis zu 51 % weniger",
+    "link": "https://wortfilter.de/versandpreise-2025-paketdienste/",
+    "pageDate": "15.11.2026",
+    "publishedAt": "2026-11-15T12:00:00.000Z",
+    "detectedAt": "2026-11-15T17:10:15.544Z",
+    "deliveredAt": "2026-11-15T17:10:15.544Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "d3ae06ce5c133f343a9e874a",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11051,94 +11143,6 @@
     "priority": 2,
     "title": "Navigate to Klarna ‘Pay in 3’ launches for Zalando shoppers in five additional markets",
     "link": "https://www.klarna.com/international/press/klarna-pay-in-3-launches-for-zalando-shoppers-in-five-additional-markets/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3697c25f86eb62ccf8f8af79",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna is now available to millions of new businesses, in strengthened partnership with Stripe",
-    "link": "https://www.klarna.com/international/press/klarna-available-to-millions-of-new-businesses-in-strengthened-stripe/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e7202999076edb587e00f069",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna signs with J.P. Morgan Payments to expand merchant services offering",
-    "link": "https://www.klarna.com/international/press/klarna-signs-with-j-p-morgan-payments-to-expand-merchant-services-offering/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "54f15da7a4a8870f76396ea9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Nexi and Klarna partner to boost merchant growth",
-    "link": "https://www.klarna.com/international/press/nexi-and-klarna-partner-to-boost-merchant-growth/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ba43784e80ff4c1717af38f0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Markus Villig and Niclas Neglén appointed to Klarna Group PLC Board of Directors",
-    "link": "https://www.klarna.com/international/press/markus-villig-and-niclas-neglen-appointed-to-klarna-group-plc-board-of/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.140Z",
