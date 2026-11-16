@@ -1,5 +1,113 @@
 [
   {
+    "guid": "7d338dda677d68c1703a3b52",
+    "source": "Baidu QZ",
+    "sourceKey": "0b16875f-ed8a-4824-948a-653a40b8121b",
+    "sourceLabel": "Baidu QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Baidu to Report Third Quarter 2026 Financial Results on November 16, 2026",
+    "link": "https://ir.baidu.com/news-releases/news-release-details/baidu-report-third-quarter-2026-financial-results-november-16",
+    "pageDate": "November 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-16T02:07:02.840Z",
+    "deliveredAt": "2026-11-16T02:07:02.840Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "68ec4802464f978a64d543c6",
+    "source": "JD QZ",
+    "sourceKey": "544a57fa-8f6d-4d8f-8205-461caa30a5d1",
+    "sourceLabel": "JD QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "JD.com to Report Third Quarter 2026 Financial Results on November 17, 2026",
+    "link": "https://ir.jd.com/news-releases/news-release-details/jdcom-report-third-quarter-2026-financial-results-november-17",
+    "pageDate": "November 17, 2026",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "detectedAt": "2026-11-16T02:07:02.837Z",
+    "deliveredAt": "2026-11-16T02:07:02.837Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "4abf8a164c09290bcc43d26c",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon Leo mission updates: Ariane 6 to launch 36 more Leo satellites on November 23",
+    "link": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
+    "pageDate": "Nov. 15, 2026",
+    "publishedAt": "2026-11-15T00:00:00.000Z",
+    "detectedAt": "2026-11-16T02:07:02.814Z",
+    "deliveredAt": "2026-11-16T02:07:02.814Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d903bf11fe037cf8ff7d27d5",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Agentursterben: Händler kündigen Wartung und nutzen KI",
+    "link": "https://wortfilter.de/agentursterben-ki-haendler/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T02:07:02.779Z",
+    "deliveredAt": "2026-11-16T02:07:02.779Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d866dd3b357e1addf3d7ea4d",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Strompreise 2027: Bis zu 5,5 Cent mehr – auch für Onlinehändler",
+    "link": "https://wortfilter.de/strompreise-2027-onlinehaendler/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T02:07:02.778Z",
+    "deliveredAt": "2026-11-16T02:07:02.778Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "da561db3afcd22b7f891c79c",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11036,116 +11144,6 @@
     "priority": 2,
     "title": "Navigate to Staples launches Klarna flexible payments, helping consumers to ‘work now, pay later’",
     "link": "https://www.klarna.com/international/press/staples-launches-klarna-flexible-payments-helping-consumers-to-work-now-pay-later/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3215d60d1b969bd349a1f441",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Global technology powerhouse, Lenovo, bets big on BNPL with Klarna",
-    "link": "https://www.klarna.com/international/press/global-technology-powerhouse-lenovo-bets-big-on-bnpl-with-klarna/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e255d72858b89e78ff54b929",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Reports SEK 216 Million Profit in Q3 2024 as Strategic Partnerships Set Stage for Strong Holiday Season",
-    "link": "https://www.klarna.com/international/press/klarna-reports-sek-216-million-profit-in-q3-2024-as-strategic-partnerships-set-stage-for-strong-holiday-season/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "201da117eb459ffcb2c2eaa8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna opens new hub in Warsaw to recruit 100 of Poland's top tech talents",
-    "link": "https://www.klarna.com/international/press/klarna-opens-new-hub-in-warsaw-to-recruit-100-of-polands-top-tech-talents/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1ff43ff60b4b038ad0d5abd0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Payment Options Now Available at Checkout on Apple Pay In-App and Online in Canada",
-    "link": "https://www.klarna.com/international/press/klarna-payment-options-now-available-at-checkout-on-apple-pay-in-app-and-online-in-canada/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "06878c2a11950d0a71b86192",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to eBay and Klarna Expand Partnership Bringing Buy Now Pay Later (BNPL) to New Markets",
-    "link": "https://www.klarna.com/international/press/ebay-and-klarna-expand-partnership-bringing-buy-now-pay-later-bnpl-to-new-markets/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.140Z",
