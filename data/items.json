@@ -1,5 +1,370 @@
 [
   {
+    "guid": "b4b27173d800e443f63f577b",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Bringing Creators Home: Four Years of Walmart Creator",
+    "link": "https://corporate.walmart.com/news/2026/11/bringing-creators-home",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-16T19:53:35.885Z",
+    "deliveredAt": "2026-11-16T19:53:35.885Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8ba1230d971c66c277531f0e",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "The official ‘James Bond’ films in order: How to watch 007 on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/james-bond-movies-watch-prime-video",
+    "pageDate": "Nov. 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.870Z",
+    "deliveredAt": "2026-11-16T19:53:35.870Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "6c0dee2faccf1b1ced70e861",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch Arnold Schwarzenegger in Prime’s new holiday ad",
+    "link": "https://www.aboutamazon.com/news/retail/arnold-schwarzenegger-amazon-holiday-ad-santa",
+    "pageDate": "Nov. 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.870Z",
+    "deliveredAt": "2026-11-16T19:53:35.870Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ab8dda4961f34b266c8a0cba",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Robert Pattinson is the new James Bond",
+    "link": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film",
+    "pageDate": "Nov. 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.870Z",
+    "deliveredAt": "2026-11-16T19:53:35.870Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1090504bca8b38969e56592b",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Next 'James Bond' film: Everything you need to know",
+    "link": "https://www.aboutamazon.com/news/entertainment/next-james-bond-movie-latest-updates",
+    "pageDate": "Nov. 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.870Z",
+    "deliveredAt": "2026-11-16T19:53:35.870Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6fb0a785fbbaf856ae71a12b",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "5 ways Amazon is innovating to improve the experience of delivery drivers",
+    "link": "https://www.aboutamazon.com/news/transportation/innovating-the-amazon-driver-experience",
+    "pageDate": "Nov. 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.870Z",
+    "deliveredAt": "2026-11-16T19:53:35.870Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "11918603995988df651fe2c5",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Watch the teaser trailer for ‘Beast Games’ Season 3, coming to Prime Video December 16",
+    "link": "https://www.aboutamazon.com/news/entertainment/mr-beast-prime-video-beast-games-season-three",
+    "pageDate": "Nov. 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.870Z",
+    "deliveredAt": "2026-11-16T19:53:35.870Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "74f341549db4b3ee7a63b872",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Haul Distributed Fulfillment available in Europe",
+    "link": "https://ecommercenews.eu/amazon-haul-distributed-fulfillment-available-in-europe/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.854Z",
+    "deliveredAt": "2026-11-16T19:53:35.854Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "13e1ce7e80f16f3a19a70541",
+    "source": "Wettbewerbszentrale",
+    "sourceKey": "src-24a9968f52923b9b",
+    "sourceLabel": "Wettbewerbszentrale",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Events",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Rückblick: 16. Gesundheitsrechtstag (GRT)",
+    "link": "https://www.wettbewerbszentrale.de/rueckblick-16-gesundheitsrechtstag-grt/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.850Z",
+    "deliveredAt": "2026-11-16T19:53:35.850Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2aa2776a29fe1c275c52bf9c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Weihnachtsgeld zurückfordern: Ohne Klausel kein Cent zurück",
+    "link": "https://wortfilter.de/weihnachtsgeld-zurueckfordern-arbeitgeber/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.824Z",
+    "deliveredAt": "2026-11-16T19:53:35.824Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "66629cbcbde506a642fe8beb",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "BigCommerce Shopping Agent: KI-Assistent für Shops startet",
+    "link": "https://wortfilter.de/bigcommerce-shopping-agent/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.824Z",
+    "deliveredAt": "2026-11-16T19:53:35.824Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2497136f35f61ce44c66ef51",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "BundID Hackerangriff: Konten gesperrt, Login nur mit Code",
+    "link": "https://wortfilter.de/bundid-hackerangriff/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.824Z",
+    "deliveredAt": "2026-11-16T19:53:35.824Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "49b2c68069c266f7c074aeec",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Qoo10 Datenleck: eBay-Tochter meldet Zugriff auf Kundendaten",
+    "link": "https://wortfilter.de/qoo10-datenleck/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.824Z",
+    "deliveredAt": "2026-11-16T19:53:35.824Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "231a74af3fdf30029bada3b7",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Falsche Rolex im Paket: Händler trägt 27.499 € Versandrisiko",
+    "link": "https://wortfilter.de/versandrisiko-rolex-lg-landau/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.824Z",
+    "deliveredAt": "2026-11-16T19:53:35.824Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b1d5a0dcd6435385aea34629",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Weihnachtsgeschäft Paketdienste: Prognosen im Faktencheck",
+    "link": "https://wortfilter.de/weihnachtsgeschaeft-paketdienste-prognose-2026/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.824Z",
+    "deliveredAt": "2026-11-16T19:53:35.824Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9c02b13a26d418ce57160e9d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Baidu Quartalszahlen 2026: KI-Cloud wächst, Werbung schrumpft",
+    "link": "https://onlinemarktplatz.de/295799/baidu-quartalszahlen-2026-q3/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T19:53:35.822Z",
+    "deliveredAt": "2026-11-16T19:53:35.822Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "1b45191966bdf016521b6f14",
     "source": "Handelskraft",
     "sourceKey": "src-6c1c923af06aedde",
@@ -10796,358 +11161,6 @@
     "priority": 2,
     "title": "Navigate to Play by new rules, and pay like a pro. Klarna and Visa change the game with new campaign promoting the Klarna card ahead of the UEFA Women’s EURO 2022™",
     "link": "https://www.klarna.com/international/press/play-by-new-rules-and-pay-like-a-pro-klarna-and-visa-change-the-game-with-new-campaign-promoting-the-klarna-card-ahead-of-the-uefa-womens-euro-2022/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bd2f1aefab5318aad9c1acc2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna invests USD 1.7 million from its internal carbon tax in sustainability projects for maximum long-term climate impact.",
-    "link": "https://www.klarna.com/international/press/klarna-invests-usd-17-million-from-its-internal-carbon-tax-in-sustainability-projects-for-maximum-long-term-climate-impact/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c0136c7fae1ac07fd58f2b28",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna closes major financing round during worst stock downturn in 50 years",
-    "link": "https://www.klarna.com/international/press/klarna-closes-major-financing-round-during-worst-stock-downturn-in-50-years/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4592c0fb3491506f13715bc9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with MEC to offer Canadians payment flexibility when shopping for outdoor gear",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-mec-to-offer-canadians-payment-flexibility-when-shopping-for-outdoor-gear/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5415905c988d024922788478",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Airbank chooses Klarna Kosma’s open banking platform for international expansion",
-    "link": "https://www.klarna.com/international/press/airbank-chooses-klarna-kosmas-open-banking-platform-for-international-expansion/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5a97c515fd9ce107f8f9ab33",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and StyleSeat team up to offer consumers flexible payments",
-    "link": "https://www.klarna.com/international/press/klarna-and-styleseat-team-up-to-offer-consumers-flexible-payments/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c6dfd2ff0114dc476b034f7c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna growth continues to outpace global e-commerce in first half of 2022 powered by US success",
-    "link": "https://www.klarna.com/international/press/klarna-growth-continues-to-outpace-global-e-commerce-in-first-half-of-2022-powered-by-us-success/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8fa11ebcfb4288eb6af0c4ea",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna manifests their position as a universal growth engine for merchants - instituting Klarna Growth Awards",
-    "link": "https://www.klarna.com/international/press/klarna-manifests-their-position-as-a-universal-growth-engine-for-merchants-instituting-klarna-growth-awards/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "90b714f1597b785a3a0e9147",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Γεια σας” to Greece with its interest-free “Pay in 3” service and shopping app",
-    "link": "https://www.klarna.com/international/press/klarna-says-geia-sas-to-greece-with-its-interest-free-pay-in-3-service-and-shopping-app/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "70b0d0e4decd8bec0d6e3fcc",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to re—inc, Klarna, and Angel City Football Club Release Limited-Edition Collab",
-    "link": "https://www.klarna.com/international/press/re-inc-klarna-and-angel-city-football-club-release-limited-edition-collab/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "dddad1d1b72ddd04afce7acd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Ahoj” to Czechia with its interest-free “Pay in 3” service and shopping app",
-    "link": "https://www.klarna.com/international/press/klarna-says-ahoj-to-czechia-with-its-interest-free-pay-in-3-service-and-shopping-app/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "65b0f0a4c0ab51b2d9a51dd8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Wix expand global partnership into Canada, bringing flexible payment options to e-commerce businesses of all sizes",
-    "link": "https://www.klarna.com/international/press/klarna-and-wix-expand-global-partnership-into-canada-bringing-flexible-payment-options-to-e-commerce-businesses-of-all-sizes/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "54b77bb59a5552fea6bf346e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Introducing Klarna Spotlight: a collection of product innovations for a new era of shopping",
-    "link": "https://www.klarna.com/international/press/introducing-klarna-spotlight-a-collection-of-product-innovations-for-a-new-era-of-shopping/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0afa54e7541f567369beb742",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Tender Information Document in respect of a tender offer for certain outstanding SEK denominated senior unsecured floating rate notes",
-    "link": "https://www.klarna.com/international/press/tender-information-document-in-respect-of-a-tender-offer-for-certain-outstanding-sek-denominated-senior-unsecured-floating-rate-notes/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8dcf3e86cd0e7cf3bd611de0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB announces results of tender offer for outstanding bonds",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-announces-results-of-tender-offer-for-outstanding-bonds/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5dbe24042e18bf9a6cf29bec",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Dutch money saving start-up iBilly’s user rates soar after partnering with Klarna Kosma",
-    "link": "https://www.klarna.com/international/press/dutch-money-saving-start-up-ibillys-user-rates-soar-after-partnering-with-klarna-kosma/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "af43b1c5b1ebc114cc7a5b38",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna introduces Money Story: A personal overview of your spending in 2022",
-    "link": "https://www.klarna.com/international/press/klarna-introduces-money-story-a-personal-overview-of-your-spending-in-2022/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.140Z",
