@@ -1,5 +1,183 @@
 [
   {
+    "guid": "1b45191966bdf016521b6f14",
+    "source": "Handelskraft",
+    "sourceKey": "src-6c1c923af06aedde",
+    "sourceLabel": "Handelskraft",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Decision Model Jev, Kev & Co.: Ein KI-Tool für mehr Einordnung und weniger Text",
+    "link": "https://www.handelskraft.de/decision-model-ki-tool-fuer-mehr-einordnung/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T13:39:23.744Z",
+    "deliveredAt": "2026-11-16T13:39:23.744Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3f450bdcafc719a398e8fac4",
+    "source": "Uber",
+    "sourceKey": "src-9ca710b31d1e337a",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Zoox Is Now Available on Uber in Las Vegas",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Zoox-Is-Now-Available-on-Uber-in-Las-Vegas/default.aspx",
+    "pageDate": "November 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-16T13:39:23.742Z",
+    "deliveredAt": "2026-11-16T13:39:23.742Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ef9b794a7b75580c6cf313a9",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart Names Joe Creed to Board of Directors",
+    "link": "https://corporate.walmart.com/news/2026/11/walmart-names-joe-creed-to-board-of-directors",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-16T13:39:23.739Z",
+    "deliveredAt": "2026-11-16T13:39:23.739Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5c906ccc7fc31c6d34342ef7",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon opens its first delivery station in Puerto Rico, bringing faster shipping and new jobs",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-puerto-rico-delivery-station-dorado",
+    "pageDate": "Nov. 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-16T13:39:23.734Z",
+    "deliveredAt": "2026-11-16T13:39:23.734Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4b13aba7a61eb98c79a84113",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": ", Bonn, 16.11.2026 BSI und Auto-ISAC unterzeichnen Absichtserklärung zur Cybersicherheit im Automobilsektor Digitale Technologien werden in immer größerem Umfang in Straßenfahrzeugen eingesetzt. Damit wächst die Angriffsfläche für Cyberangriffe. Das BSI und das Automotive Information Sharing and Analysis Center (Auto-ISAC) unterzeichneten ein Memorandum of Understanding zur Zusammenarbeit im Bereich Automotive Security.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261116_BSI_Auto-ISAC_Cybersicherheit_Auto.html",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T13:39:23.705Z",
+    "deliveredAt": "2026-11-16T13:39:23.705Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cc3393ed11635258ba06e0e6",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Betreiberin des ASUS Onlineshops ist pleite",
+    "link": "https://wortfilter.de/asus-onlineshop-betreiberin-pleite/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T13:39:23.704Z",
+    "deliveredAt": "2026-11-16T13:39:23.704Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0ea480835a85d709afc6d6ba",
+    "source": "PayPal DE Aktuelle Mitteilungen",
+    "sourceKey": "src-8542e09c0f690b10",
+    "sourceLabel": "PayPal DE",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "PayPal-Studie zum Weihnachtsgeschäft: 67 Prozent haben Online-Käufe wegen fehlender Zahlarten abgebrochen",
+    "link": "https://newsroom.deatch.paypal-corp.com/2026-11-16-PayPal-Studie-zum-Weihnachtsgeschaeft-67-Prozent-haben-Online-Kaeufe-wegen-fehlender-Zahlarten-abgebrochen",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T13:39:23.687Z",
+    "deliveredAt": "2026-11-16T13:39:23.687Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "d79750fa3687c15fcd3014b1",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "E-Mail-Marketing in der Black Week: Wer mehr verschickt, riskiert nachhaltig seine Zustellbarkeit",
+    "link": "https://www.eco.de/presse/e-mail-marketing-in-der-black-week-wer-mehr-verschickt-riskiert-nachhaltig-seine-zustellbarkeit/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-16T13:39:23.657Z",
+    "deliveredAt": "2026-11-16T13:39:23.657Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "cd74ae24556dc0f3cc1cb4e9",
     "source": "Baidu QZ",
     "sourceKey": "0b16875f-ed8a-4824-948a-653a40b8121b",
@@ -10970,182 +11148,6 @@
     "priority": 2,
     "title": "Navigate to Klarna introduces Money Story: A personal overview of your spending in 2022",
     "link": "https://www.klarna.com/international/press/klarna-introduces-money-story-a-personal-overview-of-your-spending-in-2022/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a2aa36ab6652e06b873f8598",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna US growth surges with GMV up 71% YoY",
-    "link": "https://www.klarna.com/international/press/klarna-us-growth-surges-with-gmv-up-71-yoy/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "67f89b1fe03356fbb385cde7",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Reports Fourth Quarter Results and Full Year 2022 Annual Report",
-    "link": "https://www.klarna.com/international/press/klarna-reports-fourth-quarter-results-and-full-year-2022-annual-report/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ba1196eb489f1f9a372d9d7d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Reports Fourth Quarter Results and 2022 Annual Report",
-    "link": "https://www.klarna.com/international/press/klarna-reports-fourth-quarter-results-and-2022-annual-report/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ed82108156dd3ed9aa437ac0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna unveils conscious badges powered by Clarity AI, the world’s first assessment of electronics brands' environmental achievements",
-    "link": "https://www.klarna.com/international/press/klarna-unveils-conscious-badges-powered-by-clarity-ai-the-worlds-first-assessment-of-electronics-brands-environmental-achievements/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "598e6d4af932283dc3d5f5f0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna brings smoooth shopping to ChatGPT",
-    "link": "https://www.klarna.com/international/press/klarna-brings-smoooth-shopping-to-chatgpt/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2f510d6d4a5489108553187c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Stumped by smallprint: credit card agreements are gobbledegook to 3 in 5 Brits as Klarna and Fairer Finance call for rules revamp",
-    "link": "https://www.klarna.com/international/press/stumped-by-smallprint-credit-card-agreements-are-gobbledegook-to-3-in-5-brits-as-klarna-and-fairer-finance-call-for-rules-revamp/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f5f5f9e63a1018545e6aec11",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna unveils progress of its Give One planet health initiative in new 2022-23 report",
-    "link": "https://www.klarna.com/international/press/klarna-unveils-progress-of-its-give-one-planet-health-initiative-in-new-2022-23-report/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c935d22b4a951b5acc67a740",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Reddit unveil the most popular ‘Buy It For Life’ items of 2023",
-    "link": "https://www.klarna.com/international/press/klarna-and-reddit-unveil-the-most-popular-buy-it-for-life-items-of-2023/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.140Z",
