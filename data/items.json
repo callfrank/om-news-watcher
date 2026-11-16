@@ -1,5 +1,403 @@
 [
   {
+    "guid": "cd74ae24556dc0f3cc1cb4e9",
+    "source": "Baidu QZ",
+    "sourceKey": "0b16875f-ed8a-4824-948a-653a40b8121b",
+    "sourceLabel": "Baidu QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Baidu Announces Third Quarter 2026 Results",
+    "link": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-third-quarter-2026-results",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-16T09:42:20.530Z",
+    "deliveredAt": "2026-11-16T09:42:20.530Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0e64035b1ff5a833f7893be8",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Neueröffnung – Kenn, Donnerstag, 19. Novermber 2026",
+    "link": "https://newsroom.dm.de/pressreleases/neueroeffnung-kenn-donnerstag-19-novermber-2026-3478437",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.513Z",
+    "deliveredAt": "2026-11-16T09:42:20.513Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6036bea4f22541ab954382ac",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Bundeskartellamt verhängt Bußgelder von rund 5,5 Millionen Euro wegen Quotenkartells bei Geokunststoffen",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/11_13_2026_Geokunststoffe.html?nn=52004",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.494Z",
+    "deliveredAt": "2026-11-16T09:42:20.494Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ee690407272b25210021cc50",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "1,4 % weniger wissenschaftliches Hochschulpersonal im Jahr 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_401_213.html",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.493Z",
+    "deliveredAt": "2026-11-16T09:42:20.493Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c6d8946139f62bc6f953f233",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Energieverbrauch der Industrie 2025 um 2,9 % gesunken",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_400_435.html",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.492Z",
+    "deliveredAt": "2026-11-16T09:42:20.492Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "16cb19ee5d52654900a535b7",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Civil society seminar on the digital euro",
+    "link": "https://www.ecb.europa.eu/press/conferences/html/ecb_civilsoc.en.html",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.475Z",
+    "deliveredAt": "2026-11-16T09:42:20.475Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "459b6cdc42eba509eb00a882",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "What happens when AI acts on its own?",
+    "link": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.475Z",
+    "deliveredAt": "2026-11-16T09:42:20.475Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c04c35da48c19e24946cd2be",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Risks and resilience in the financial system",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.475Z",
+    "deliveredAt": "2026-11-16T09:42:20.475Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "764742140d69bb94adabf281",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Black Friday und Cyber Monday: HDE rechnet zu Aktionstagen mit Umsatz von 6,2 Milliarden Euro",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15435-black-friday-und-cyber-monday-hde-rechnet-zu-aktionstagen-mit-umsatz-von-6-2-milliarden-euro",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-16T09:42:20.469Z",
+    "deliveredAt": "2026-11-16T09:42:20.469Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1f289e6750600184041d85c8",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Onlinehändler-Horoskop KW 47: Elf Tage bis Black Friday",
+    "link": "https://wortfilter.de/onlinehaendler-horoskop-kw-47/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.468Z",
+    "deliveredAt": "2026-11-16T09:42:20.468Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8e7525122b95f88437889b4b",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Otto Singles Day: Bestellwert +6 Prozent, 2024 waren es 30",
+    "link": "https://wortfilter.de/otto-singles-day-2026/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.468Z",
+    "deliveredAt": "2026-11-16T09:42:20.468Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5544223678033f1babef9c40",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Watchlist Internet: Liste mit über 2.500 Fake-Shops entdeckt",
+    "link": "https://wortfilter.de/fake-shops-watchlist-internet/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.468Z",
+    "deliveredAt": "2026-11-16T09:42:20.468Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c80cc3b321554ca814dd3e05",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Tierisches Finale: Deutsche Post startet Online-Voting für Briefmarke \"Deutschlands schönstes Haustier\"",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/deutsche-post-startet-online-voting-fuer-briefmarke-deutschlands-schoenstes-haustier.html",
+    "pageDate": "16.11.2026, 10:00 MEZ POST & PAKET DEUTSCHLAND",
+    "publishedAt": null,
+    "detectedAt": "2026-11-16T09:42:20.467Z",
+    "deliveredAt": "2026-11-16T09:42:20.467Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "db6513b735866942750915ad",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "OTTOs Singles-Day-Bilanz: Bestellwerte steigen um sechs Prozent",
+    "link": "https://onlinemarktplatz.de/295736/ottos-singles-day-bilanz-2026/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.466Z",
+    "deliveredAt": "2026-11-16T09:42:20.466Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8dcc6edf4d21f1619256e572",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Weihnachtspakete 2026: BPEX erwartet 760 Millionen Sendungen",
+    "link": "https://onlinemarktplatz.de/295632/weihnachtspakete-2026-bpex/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.466Z",
+    "deliveredAt": "2026-11-16T09:42:20.466Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "92e8d93af98f873d81f6235f",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Walmart Zipline: 300 neue Drohnenstandorte in den USA",
+    "link": "https://onlinemarktplatz.de/295337/walmart-zipline/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.466Z",
+    "deliveredAt": "2026-11-16T09:42:20.466Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3cf9afbe084cac764e2831a9",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "World Product Graph: Amazon erwägt globale Produktdatenbank",
+    "link": "https://onlinemarktplatz.de/295791/world-product-graph-amazon/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-16T09:42:20.466Z",
+    "deliveredAt": "2026-11-16T09:42:20.466Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fa8922b6c1d14548d4ad0052",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EY-Analyse Industriebarometer Q3 2026",
+    "link": "https://www.ey.com/de_de/newsroom/2026/11/ey-analyse-industriebarometer-quartal-3-2026",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-16T09:42:20.416Z",
+    "deliveredAt": "2026-11-16T09:42:20.416Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "7d338dda677d68c1703a3b52",
     "source": "Baidu QZ",
     "sourceKey": "0b16875f-ed8a-4824-948a-653a40b8121b",
@@ -10748,402 +11146,6 @@
     "priority": 2,
     "title": "Navigate to Klarna and Reddit unveil the most popular ‘Buy It For Life’ items of 2023",
     "link": "https://www.klarna.com/international/press/klarna-and-reddit-unveil-the-most-popular-buy-it-for-life-items-of-2023/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1d4ec90ba819650b36adb53a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Spotlight, Spring ‘23: New AI-powered, personalized shopping feed and innovations for consumers and retailers",
-    "link": "https://www.klarna.com/international/press/klarna-spotlight-spring-23-new-ai-powered-personalized-shopping-feed-and-innovations-for-consumers-and-retailers/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5462ccd7ce03b86502efc247",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Assigned Investment Grade Credit Rating by S&P Global.",
-    "link": "https://www.klarna.com/international/press/klarna-assigned-investment-grade-credit-rating-by-sp-global/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e1d343abc74cf53ce497cd2e",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Correction: Klarna Assigned Investment Grade Credit Rating from S&P Global",
-    "link": "https://www.klarna.com/international/press/correction-klarna-assigned-investment-grade-credit-rating-from-sp-global/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3e513d4d1f932039191a5e67",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Assigned Investment Grade Credit Rating from S&P Global",
-    "link": "https://www.klarna.com/international/press/klarna-assigned-investment-grade-credit-rating-from-sp-global/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d970cd08e3079f4761e5eff0",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Retail revolution: new data reveals next generation of shoppers ready for AI, AR and Robots!",
-    "link": "https://www.klarna.com/international/press/retail-revolution-new-data-reveals-next-generation-of-shoppers-ready-for-ai-ar-and-robots/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b91b088668160ac07da2b4cd",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Airbnb offer flexible payments for guests",
-    "link": "https://www.klarna.com/international/press/klarna-and-airbnb-offer-flexible-payments-for-guests/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c4418edc979d58b698ae8c26",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces multi-million contribution from internal carbon tax for game-changing climate impact solutions; shares progress on emissions reduction",
-    "link": "https://www.klarna.com/international/press/klarna-announces-multi-million-contribution-from-internal-carbon-tax-for-game-changing-climate-impact-solutions-shares-progress-on-emissions-reduction/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "40db52b18f4cc35cebbf468a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Reports First Quarter Results: New global partnership with Airbnb and accelerating with AI",
-    "link": "https://www.klarna.com/international/press/klarna-reports-first-quarter-results-new-global-partnership-with-airbnb-and-accelerating-with-ai/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5896b25256d2f69ad75aa3c8",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to BNPL Saved Brits Half a Billion Pounds in Credit Card Interest Over a Decade—Klarna Marks 10 Years of Savings",
-    "link": "https://www.klarna.com/international/press/bnpl-saved-brits-half-a-billion-pounds-in-credit-card-interest-over-a-decade-klarna-marks-10-years-of-savings/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0f58d280381ed32540fe62fc",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Enters £7 Billion UK Gift Card Market With Launch of Gift Card Store",
-    "link": "https://www.klarna.com/international/press/klarna-enters-ps7-billion-uk-gift-card-market-with-launch-of-gift-card-store/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d0374edd7f646224a3994164",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Group PLC Shareholders Vote for change to the Board of Directors and the Company’s Articles of Association",
-    "link": "https://www.klarna.com/international/press/klarna-group-plc-shareholders-vote-for-change-to-the-board-of-directors-and-the-companys-articles-of-association/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "26af994a6d0131b5e4b97b2f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB announces changes to its Board of Directors",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-announces-changes-to-its-board-of-directors/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "106d3684c746680d3dcfd986",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to TickPick and Klarna bring flexible payments to live event tickets",
-    "link": "https://www.klarna.com/international/press/tickpick-and-klarna-bring-flexible-payments-to-live-event-tickets/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9cecc57689cf340472e905f7",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Worldpay expand partnership to unlock global merchant network",
-    "link": "https://www.klarna.com/international/press/klarna-and-worldpay-expand-partnership-to-unlock-global-merchant-network/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "efd539416eb2e251d117fcc5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Zoom Announce Global Launch of Flexible Payments in 16 Markets",
-    "link": "https://www.klarna.com/international/press/klarna-and-zoom-announce-global-launch-of-flexible-payments-in-16-markets/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b49de484c13e88f41dc94d12",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna now available at John Lewis & Partners",
-    "link": "https://www.klarna.com/international/press/klarna-now-available-at-john-lewis-partners/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7eaed8cd85d9a7e3450d35c1",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Announces Confidential Submission of Draft Registration Statement to SEC for Proposed Initial Public Offering",
-    "link": "https://www.klarna.com/international/press/klarna-announces-confidential-submission-of-draft-registration-statement-to-sec-for-proposed-initial-public-offering/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e8f7be11cb87d24ace1b496a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Staples launches Klarna flexible payments, helping consumers to ‘work now, pay later’",
-    "link": "https://www.klarna.com/international/press/staples-launches-klarna-flexible-payments-helping-consumers-to-work-now-pay-later/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T03:27:32.140Z",
