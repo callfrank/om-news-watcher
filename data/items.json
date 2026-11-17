@@ -1,5 +1,135 @@
 [
   {
+    "guid": "9d7d6c8bd8796840d42dfb8e",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "3Q 2026 Historical Financial Info",
+    "link": "https://investors.ups.com/_assets/_09724bb81b55bb1f7b199eff6aa9172f/ups/db/1111/11043/file/2026+Q3+Historical+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T02:56:42.059Z",
+    "deliveredAt": "2026-11-17T02:56:42.059Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "9f11791d7e393119b17a43e0",
+    "source": "UPS QZ",
+    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
+    "sourceLabel": "UPS QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "3Q 2026 Financial Statements",
+    "link": "https://investors.ups.com/_assets/_09724bb81b55bb1f7b199eff6aa9172f/ups/db/1111/11042/file/2026+Q3+Financial+Info+for+Website.xlsx",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T02:56:42.058Z",
+    "deliveredAt": "2026-11-17T02:56:42.058Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": []
+  },
+  {
+    "guid": "3fc0ba0c97b6e8dd62165646",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to use Amazon’s price history feature",
+    "link": "https://www.aboutamazon.com/news/retail/how-to-check-amazon-price-history",
+    "pageDate": "Nov. 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-17T02:56:42.037Z",
+    "deliveredAt": "2026-11-17T02:56:42.037Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "adff04645a2dcf530b2f56cf",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Black Friday 2026: HDE erwartet Rekord von 6,2 Mrd. Euro",
+    "link": "https://wortfilter.de/black-friday-2026-hde-umsatz/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-17T02:56:41.996Z",
+    "deliveredAt": "2026-11-17T02:56:41.996Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bc9933423d6711f593508064",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Feedbackgespräch Mitarbeiter: Schweigen im Lager rächt sich",
+    "link": "https://wortfilter.de/feedbackgespraech-mitarbeiter-onlinehaendler/",
+    "pageDate": "16.11.2026",
+    "publishedAt": "2026-11-16T12:00:00.000Z",
+    "detectedAt": "2026-11-17T02:56:41.996Z",
+    "deliveredAt": "2026-11-17T02:56:41.996Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0c48d06e2621ea26cd8afdb4",
+    "source": "Amazon Seller Events",
+    "sourceKey": "src-4a1336d19ad6bee0",
+    "sourceLabel": "Amazon Seller",
+    "groups": [
+      "Events"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "London, United Kingdom Nov 10 - 11, 2027 White & Private Label Expo London 2027",
+    "link": "https://amzsummits.com/events/white-private-label-expo-london-2027/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T02:56:41.937Z",
+    "deliveredAt": "2026-11-17T02:56:41.937Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "b4b27173d800e443f63f577b",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -1647,46 +1777,6 @@
     "publishedAt": "2026-11-13T12:00:00.000Z",
     "detectedAt": "2026-11-13T23:54:35.685Z",
     "deliveredAt": "2026-11-13T23:54:35.685Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0e26eeacf36b556fda4c3d2f",
-    "source": "UPS QZ",
-    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
-    "sourceLabel": "UPS QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "3Q 2026 Historical Financial Info",
-    "link": "https://investors.ups.com/_assets/_4ff917ab37be9b214af733fc70205587/ups/db/1111/11043/file/2026+Q3+Historical+Info+for+Website.xlsx",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-13T18:33:13.958Z",
-    "deliveredAt": "2026-11-13T18:33:13.958Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1de5c8d02ea40718774c8994",
-    "source": "UPS QZ",
-    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
-    "sourceLabel": "UPS QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "3Q 2026 Financial Statements",
-    "link": "https://investors.ups.com/_assets/_4ff917ab37be9b214af733fc70205587/ups/db/1111/11042/file/2026+Q3+Financial+Info+for+Website.xlsx",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-13T18:33:13.958Z",
-    "deliveredAt": "2026-11-13T18:33:13.958Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
@@ -11076,95 +11166,6 @@
     "publishedAt": "2026-11-04T12:00:00.000Z",
     "detectedAt": "2026-11-06T08:34:23.046Z",
     "deliveredAt": "2026-11-06T08:34:23.046Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ff94f89cf4ce5e939474a6bd",
-    "source": "EY Newsroom",
-    "sourceKey": "src-8fc60553640bf464",
-    "sourceLabel": "EY",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "EY Entrepreneur Of The Year: Preisträgerinnen und Preisträger",
-    "link": "https://www.ey.com/de_de/newsroom/2026/11/ey-entrepreneur-of-the-year-2026-preistraegerinnen-und-preistraeger",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-06T08:34:23.031Z",
-    "deliveredAt": "2026-11-06T08:34:23.031Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4fa8b16672113dd7914231e9",
-    "source": "Zalando Newsroom",
-    "sourceKey": "src-72a2ecac55647739",
-    "sourceLabel": "Zalando",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Zalando Visionary Award zieht nach Mailand: Partnerschaft mit der Fondazione Sozzani",
-    "link": "https://corporate.zalando.com/de/fashion/zalando-visionary-award-zieht-nach-mailand-partnerschaft-mit-der-fondazione-sozzani",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.023Z",
-    "deliveredAt": "2026-11-06T08:34:23.023Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "effa5a5d8f15920e4065d538",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna App is enhanced with digital wallet for easy access to loyalty cards",
-    "link": "https://www.klarna.com/international/press/klarna-app-is-enhanced-with-digital-wallet-for-easy-access-to-loyalty-cards/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "594b14b01dc180c379104acf",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Play by new rules, and pay like a pro. Klarna and Visa change the game with new campaign promoting the Klarna card ahead of the UEFA Women’s EURO 2022™",
-    "link": "https://www.klarna.com/international/press/play-by-new-rules-and-pay-like-a-pro-klarna-and-visa-change-the-game-with-new-campaign-promoting-the-klarna-card-ahead-of-the-uefa-womens-euro-2022/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T03:27:32.140Z",
-    "deliveredAt": "2026-11-06T03:27:32.140Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
