@@ -1,5 +1,835 @@
 [
   {
+    "guid": "426265559159de24359340eb",
+    "source": "JD QZ",
+    "sourceKey": "544a57fa-8f6d-4d8f-8205-461caa30a5d1",
+    "sourceLabel": "JD QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "JD.com Announces Third Quarter 2026 Results",
+    "link": "https://ir.jd.com/news-releases/news-release-details/jdcom-announces-third-quarter-2026-results",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T11:51:47.871Z",
+    "deliveredAt": "2026-11-17T11:51:47.871Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6333ef37708efcf80120d18c",
+    "source": "JD QZ",
+    "sourceKey": "544a57fa-8f6d-4d8f-8205-461caa30a5d1",
+    "sourceLabel": "JD QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "JD.com Inc 3Q2026 Financial and Operational Highlights",
+    "link": "https://ir.jd.com/system/files-encrypted/nasdaq_kms/assets/2026/11/17/17-54-00/JD.com%20Inc%202026Q3%20Financial%20and%20Operational%20Highlights.pdf",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T11:51:47.871Z",
+    "deliveredAt": "2026-11-17T11:51:47.871Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "74770a302708e276cdd4de5f",
+    "source": "TPG QZ",
+    "sourceKey": "src-29d9014e1b396d31",
+    "sourceLabel": "TPG QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Open news detail page",
+    "link": "https://corporate.the-platform-group.com/news/the-platform-group-plans-extraordinary-general-meeting-101-capital-reduction-and-capital-increase/e1b5e4e8-78ee-4446-b3b5-c1076b509b53?disposition=inline",
+    "pageDate": "Nov 17, 2026",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.865Z",
+    "deliveredAt": "2026-11-17T11:51:47.865Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8482ac577dbe1c167419b037",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "FRITZ schließt Wero an",
+    "link": "https://demoshops.de/fritzbox-wero-bezahlen/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.864Z",
+    "deliveredAt": "2026-11-17T11:51:47.864Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "477380c16be6a58f550fbf33",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "‘The Odyssey’ is out now on Prime Video. Here's how to watch.",
+    "link": "https://www.aboutamazon.com/news/entertainment/the-odyssey-christopher-nolan-prime-video",
+    "pageDate": "Nov. 17, 2026",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.849Z",
+    "deliveredAt": "2026-11-17T11:51:47.849Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "da499a48e56617ae767a0c42",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Inside Amazon’s new Tokyo office with views of Japan's iconic Tokyo Tower",
+    "link": "https://www.aboutamazon.com/news/amazon-offices/amazon-tokyo-office-photos",
+    "pageDate": "Nov. 16, 2026",
+    "publishedAt": "2026-11-16T00:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.849Z",
+    "deliveredAt": "2026-11-17T11:51:47.849Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cca0df3010db675785cfcb33",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon sets goal to cut electricity carbon intensity 65% by 2030",
+    "link": "https://www.aboutamazon.com/news/sustainability/amazon-carbon-intensity-goal-electricity-emissions",
+    "pageDate": "Nov. 17, 2026",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.849Z",
+    "deliveredAt": "2026-11-17T11:51:47.849Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d55e4492b4366354d60ecdf1",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon to invest $7 billion in renewable energy in India by 2030",
+    "link": "https://www.aboutamazon.com/news/sustainability/amazon-investment-india-renewable-energy",
+    "pageDate": "Nov. 17, 2026",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.849Z",
+    "deliveredAt": "2026-11-17T11:51:47.849Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9ec32042ef6b3b676ecc1685",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Bis zu 30 Prozent niedrigeres Elterngeld setzt Anreiz zu einer gleichmäßigeren Aufteilung // ZEW-Analyse zur geplanten Reform des Elterngelds",
+    "link": "https://www.zew.de/presse/pressearchiv/bis-zu-30-prozent-niedrigeres-elterngeld-setzt-anreiz-zu-einer-gleichmaessigeren-aufteilung",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.847Z",
+    "deliveredAt": "2026-11-17T11:51:47.847Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c9cdddbf50bf4247298d9618",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Verbesserung der Erwartungen im November // Der ZEW-Indikator liegt bei plus 35,6 Punkten",
+    "link": "https://www.zew.de/presse/pressearchiv/verbesserung-der-erwartungen-im-november",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.847Z",
+    "deliveredAt": "2026-11-17T11:51:47.847Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c832c6d517e53b28d4318409",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "ZEW-Ökonom Friedrich Heinemann zur Diskussion um EZB-Spitze // „Brunnermeiers US-Perspektive ist von Vorteil für den EZB-Rat“",
+    "link": "https://www.zew.de/presse/pressearchiv/zew-oekonom-friedrich-heinemann-zur-diskussion-um-ezb-spitze",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.847Z",
+    "deliveredAt": "2026-11-17T11:51:47.847Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f20e91e4651eb318216d3e71",
+    "source": "Ifhkoeln",
+    "sourceKey": "src-ce9e70954500f828",
+    "sourceLabel": "Ifhkoeln",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Spielwarenmarkt wächst: Erwachsene und interaktive Produkte geben neue Impulse",
+    "link": "https://www.ifhkoeln.de/spielwarenmarkt-waechst-erwachsene-und-interaktive-produkte-geben-neue-impulse/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.847Z",
+    "deliveredAt": "2026-11-17T11:51:47.847Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bf7833026ca05af63115467d",
+    "source": "Gfu",
+    "sourceKey": "src-e47d0ee60e79a7e8",
+    "sourceLabel": "Gfu",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Black Friday und die Promotion-Saison 2026",
+    "link": "https://gfu.de/black-friday-und-die-promotion-saison-2026/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.846Z",
+    "deliveredAt": "2026-11-17T11:51:47.846Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "64626c77d66f724c3c1086ca",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Contract caterers outpace inflation with 5.2% growth in third quarter",
+    "link": "https://nielseniq.com/global/en/news-center/2026/contract-caterers-outpace-inflation-with-5-2-growth-in-third-quarter/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.845Z",
+    "deliveredAt": "2026-11-17T11:51:47.845Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d4e0bffe8be6a37a080b5360",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Selbstlerneinheit: E-Mail-Newsletter",
+    "link": "https://digitalzentrumhandel.de/author/lena-peters/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.844Z",
+    "deliveredAt": "2026-11-17T11:51:47.844Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "137447f33a2bee49052fbf72",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Allegro GMV grows 14.7% in Q3 in Poland",
+    "link": "https://ecommercenews.eu/allegro-gmv-grows-14-7-in-q3-in-poland/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.839Z",
+    "deliveredAt": "2026-11-17T11:51:47.839Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a42b1eeb89c1592840e8b4a7",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Dichte gestiegen: Eine Kinderärztin oder ein Kinderarzt versorgt im Schnitt 1 603 Kinder und Jugendliche",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N080_23.html",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.838Z",
+    "deliveredAt": "2026-11-17T11:51:47.838Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fe2d090214100884a8a90f05",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "7,7 % der im Jahr 2025 neu zugelassenen Lkw in der EU fahren rein elektrisch",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_47_p002.html",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.838Z",
+    "deliveredAt": "2026-11-17T11:51:47.838Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1f70126f876b001936aa1476",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Why is my food shop still so expensive?",
+    "link": "https://www.ecb.europa.eu/press/tvservices/podcast/html/index.en.html",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.820Z",
+    "deliveredAt": "2026-11-17T11:51:47.820Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e516a5fbc6229979ab21ce65",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "How exposed is Europe’s bond market to big tech?",
+    "link": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_04~f35a6e3544.en.html",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.820Z",
+    "deliveredAt": "2026-11-17T11:51:47.820Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "84afa7fc4ce9e38fbb7e0138",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Vor dem Koalitionsausschuss: HDE fordert rasche Stromsteuersenkung für alle",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15436-vor-dem-koalitionsausschuss-hde-fordert-rasche-stromsteuersenkung-fuer-alle",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T11:51:47.815Z",
+    "deliveredAt": "2026-11-17T11:51:47.815Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "45a49735abc8b3dd470b6ab4",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Contwig startet: 1.300 Jobs, Freigabe erst am Vortag",
+    "link": "https://wortfilter.de/amazon-contwig-scn4-start/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.814Z",
+    "deliveredAt": "2026-11-17T11:51:47.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6b55e0130eb14f13fbb754ad",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Störung bei GMX und WEB.DE: Dort sind rund 30 % deiner Kunden",
+    "link": "https://wortfilter.de/stoerung-gmx-web-de-login/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.814Z",
+    "deliveredAt": "2026-11-17T11:51:47.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c3d5501907be39c800e89cfb",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Chase Störung: Dritter US-Großausfall binnen fünf Tagen",
+    "link": "https://wortfilter.de/chase-stoerung/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.814Z",
+    "deliveredAt": "2026-11-17T11:51:47.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "90847ff6331f3ee100dd46a1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Impressum bei Serverausfall: Droht jetzt die Vertragsstrafe?",
+    "link": "https://wortfilter.de/impressum-bei-serverausfall/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.814Z",
+    "deliveredAt": "2026-11-17T11:51:47.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4da86c34483be66314d73871",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Heimliche KI-Nutzung trotz Verbot: Wann es den Job kostet",
+    "link": "https://wortfilter.de/heimliche-ki-nutzung-homeoffice/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.814Z",
+    "deliveredAt": "2026-11-17T11:51:47.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6374fa222c3207f7f04a7e2c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "CCD II Rechnungskauf: Ab 20. November wird BNPL zum Kredit",
+    "link": "https://wortfilter.de/ccd-ii-rechnungskauf/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.814Z",
+    "deliveredAt": "2026-11-17T11:51:47.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6ac31c7b1c952c9b825719bd",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Werbung mit Selbstverständlichkeiten: OLG kippt „0 % PFOA“",
+    "link": "https://wortfilter.de/werbung-mit-selbstverstaendlichkeiten-pfoa/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.814Z",
+    "deliveredAt": "2026-11-17T11:51:47.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a3b32d007a44c42dc78bf250",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Sachgrundlose Befristung: Entwurf erlaubt 4 statt 2 Jahre",
+    "link": "https://wortfilter.de/sachgrundlose-befristung-vier-jahre/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.814Z",
+    "deliveredAt": "2026-11-17T11:51:47.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "39ba09d51db066cd351e28ed",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Neues Produkthaftungsgesetz: Wer schweigt, haftet unbegrenzt",
+    "link": "https://wortfilter.de/neues-produkthaftungsgesetz-haendler/",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.814Z",
+    "deliveredAt": "2026-11-17T11:51:47.814Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f7c6b184d32358ce256cd15c",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DHL Supply Chain steigert Umsatz um 12 Prozent und profitiert vom Umbau globaler Lieferketten",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-supply-chain-steigert-umsatz-und-profitiert-vom-umbau-globaler-lieferketten.html",
+    "pageDate": "17.11.2026, 09:30 MEZ DHL SUPPLY CHAIN",
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T11:51:47.813Z",
+    "deliveredAt": "2026-11-17T11:51:47.813Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "02bdc9e99de065ce0733d801",
+    "source": "Deloitte",
+    "sourceKey": "src-ee546a6472b48b72",
+    "sourceLabel": "Deloitte",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Wachstum fortgesetzt",
+    "link": "https://www.deloitte.com/de/de/about/press-room/geschaeftsjahr-2025-2026.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T11:51:47.812Z",
+    "deliveredAt": "2026-11-17T11:51:47.812Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "71eca42c21df664ca68eba90",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "„Heizen mit Wärmepumpe – passt das zu meinem Haus?“",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/heizen-mit-waermepumpe-passt-das-zu-meinem-haus-127266",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.809Z",
+    "deliveredAt": "2026-11-17T11:51:47.809Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "99a27089d0a54f7149128b52",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceKey": "src-17979740ef54054e",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Debeka-Sammelklage: Jetzt Ansprüche sichern",
+    "link": "https://www.vzhh.de/presse/debeka-sammelklage-jetzt-ansprueche-sichern",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T11:51:47.808Z",
+    "deliveredAt": "2026-11-17T11:51:47.808Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bd544537a267c699fe96f8a2",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "17.11.2026Debeka-Sammelklage: Jetzt Ansprüche sichern",
+    "link": "https://www.vzbv.de/pressemitteilungen/debeka-sammelklage-jetzt-ansprueche-sichern",
+    "pageDate": "17.11.2026",
+    "publishedAt": "2026-11-17T12:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.806Z",
+    "deliveredAt": "2026-11-17T11:51:47.806Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c6f8bf4ae65c73a5dfc6d5b1",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "E-Rechnung",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/e-rechnung-telekom-gibt-geschaeftskunden-mehr-wahlfreiheit",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T11:51:47.803Z",
+    "deliveredAt": "2026-11-17T11:51:47.803Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ccbf892f4c2d324b00c2d737",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "JD.com Announces Third Quarter 2026 Financial Results",
+    "link": "https://jdcorporateblog.com/jd-com-announces-third-quarter-2026-financial-results/",
+    "pageDate": "Nov 17, 2026",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "detectedAt": "2026-11-17T11:51:47.783Z",
+    "deliveredAt": "2026-11-17T11:51:47.783Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "779cace742220af701b5d40d",
+    "source": "DPD Presse",
+    "sourceKey": "src-bb722a60d74f3965",
+    "sourceLabel": "DPD",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "In­no­va­ti­ves Pi­lot­pro­jekt von DPD Deutsch­land und Adolf Würth GmbH & Co. KG",
+    "link": "https://www.dpd.com/de/de/news/innovatives-pilotprojekt-von-dpd-deutschland-und-adolf-wuerth-gmbh-co-kg/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-17T11:51:47.759Z",
+    "deliveredAt": "2026-11-17T11:51:47.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "9d7d6c8bd8796840d42dfb8e",
     "source": "UPS QZ",
     "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
@@ -10324,850 +11154,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "211fc9d891990ec6156f2d85",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Was man zum Start der digitalen Brieftasche „d-you“ wissen muss",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/was-man-zum-start-der-digitalen-brieftasche-dyou-wissen-muss-127008",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:58.955Z",
-    "deliveredAt": "2026-11-06T11:32:58.955Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "16ef8f1993d3d1521d7a6fc8",
-    "source": "VZBV Pressemitteilungen",
-    "sourceKey": "src-89cdb65f3f059fb8",
-    "sourceLabel": "VZBV",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "05.11.2026„Spritpreisdeckel droht zum Feigenblatt zu werden“",
-    "link": "https://www.vzbv.de/pressemitteilungen/spritpreisdeckel-droht-zum-feigenblatt-zu-werden",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:58.950Z",
-    "deliveredAt": "2026-11-06T11:32:58.950Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "0b7bb22808c2a1e0107b8a2d",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Telekom ist zum 15. Mal in Folge Spitzenreiter des Computer BILD Mobilfunknetztest",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/telekom-ist-zum-15-mal-in-folge-spitzenreiter-des-computer-bild",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-06T11:32:58.947Z",
-    "deliveredAt": "2026-11-06T11:32:58.947Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ccbf9a9b8569796e508ab969",
-    "source": "OMT E-Commerce Events",
-    "sourceKey": "src-b0d6dce4f4e53f64",
-    "sourceLabel": "OMT E-Commerce",
-    "groups": [
-      "Events"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Pickware Day",
-    "link": "https://www.omt.de/events/pickware-day/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-06T11:32:58.896Z",
-    "deliveredAt": "2026-11-06T11:32:58.896Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "39add5a206f1531a3f13c936",
-    "source": "UPS QZ",
-    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
-    "sourceLabel": "UPS QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "UPS Announces Quarterly Dividend",
-    "link": "https://investors.ups.com/news-events/press-releases/detail/2173/ups-announces-quarterly-dividend",
-    "pageDate": "Wed, 04 Nov 26 17:56:00 -0500",
-    "publishedAt": "2026-11-04T22:56:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.122Z",
-    "deliveredAt": "2026-11-06T08:34:23.122Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8ade709feded309f88916800",
-    "source": "UPS QZ",
-    "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
-    "sourceLabel": "UPS QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "UPS Appoints Shannon Eisenhardt to Board of Directors",
-    "link": "https://investors.ups.com/news-events/press-releases/detail/2174/ups-appoints-shannon-eisenhardt-to-board-of-directors",
-    "pageDate": "Wed, 04 Nov 26 18:30:00 -0500",
-    "publishedAt": "2026-11-04T23:30:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.121Z",
-    "deliveredAt": "2026-11-06T08:34:23.121Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bcd4d10f2fb21284b1ceb88e",
-    "source": "Handelskraft",
-    "sourceKey": "src-6c1c923af06aedde",
-    "sourceLabel": "Handelskraft",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Semantische Suche im B2B-Shop: Produktdaten auffindbar machen und Self-Service stärken",
-    "link": "https://www.handelskraft.de/semantische-suche-im-b2b-shop/",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.115Z",
-    "deliveredAt": "2026-11-06T08:34:23.115Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6694d27eb961086e36e43691",
-    "source": "coolblue",
-    "sourceKey": "src-76710ae49ff665dc",
-    "sourceLabel": "coolblue",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Neues Logistikzentrum in Troisdorf: Coolblue stärkt Infrastruktur in NRW und erschließt Region Koblenz mit eigenem Lieferdienst",
-    "link": "https://aboutcoolblue.com/news/de/neues-logistikzentrum-in-troisdorf-coolblue-staerkt-infrastruktur-in-nrw-und-erschliesst-region-koblenz-mit-eigenem-lieferdienst/",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.102Z",
-    "deliveredAt": "2026-11-06T08:34:23.102Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8be4d873b6686ebeffc89711",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "„Europa darf sich nicht auf dem Wahlerfolg der Demokraten ausruhen“ // ZEW-Präsident Achim Wambach zum Wahlsieg der Demokraten bei den US-Zwischenwahlen",
-    "link": "https://www.zew.de/presse/pressearchiv/europa-darf-sich-nicht-auf-dem-wahlerfolg-der-demokraten-ausruhen",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.098Z",
-    "deliveredAt": "2026-11-06T08:34:23.098Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4d1eea924041e33ef0cd7f56",
-    "source": "Gfu",
-    "sourceKey": "src-e47d0ee60e79a7e8",
-    "sourceLabel": "Gfu",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "GFU-Gesellschafter bestätigen Aufsichtsrat für weitere Amtsperiode",
-    "link": "https://gfu.de/gfu-gesellschafter-bestaetigen-aufsichtsrat-fuer-weitere-amtsperiode/",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.097Z",
-    "deliveredAt": "2026-11-06T08:34:23.097Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "351f6fc4f40624e1c87b9c34",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Restaurants’ delivery sales strengthen in September after tough Summer",
-    "link": "https://nielseniq.com/global/en/news-center/2026/restaurants-delivery-sales-strengthen-in-september-after-tough-summer/",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.096Z",
-    "deliveredAt": "2026-11-06T08:34:23.096Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "15ee904f1885f335e9490e36",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "04.11.2026",
-    "link": "https://news.post.at/presse/de/post/id/2360837/NEUE%20WEIHNACHTSBRIEFMARKE%20L&Auml;SST%20SICH%20ALS%20CHRISTBAUMSCHMUCK%20VERWENDEN",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.095Z",
-    "deliveredAt": "2026-11-06T08:34:23.095Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ae25776c6420eb83153aca09",
-    "source": "Post AT",
-    "sourceKey": "src-7233e5eef034b3db",
-    "sourceLabel": "Post AT",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "NEUE WEIHNACHTSBRIEFMARKE LÄSST SICH ALS CHRISTBAUMSCHMUCK VERWENDEN",
-    "link": "https://news.post.at/presse/de/post/id/2360837/NEUE%20WEIHNACHTSBRIEFMARKE%20L%26Auml%3BSST%20SICH%20ALS%20CHRISTBAUMSCHMUCK%20VERWENDEN",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.095Z",
-    "deliveredAt": "2026-11-06T08:34:23.095Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3013710dfb75804339fc76f3",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Kraftstoffpreise im Oktober",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/11_04_2026_Sonderbericht_MTSK.html?nn=52004",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.090Z",
-    "deliveredAt": "2026-11-06T08:34:23.090Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "78ca15dde9277a6be86ad3df",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Schuljahr 2025/2026: Knapp 9 Millionen Schülerinnen und Schüler an allgemeinbildenden Schulen",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_384_213.html",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.090Z",
-    "deliveredAt": "2026-11-06T08:34:23.090Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "78fbc63747f6c21d619202ba",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "4,4 % aller Erwerbstätigen in Deutschland sind Führungskräfte",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N076_13.html",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.090Z",
-    "deliveredAt": "2026-11-06T08:34:23.090Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b5bf3d3eca2a556e3f3981b6",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Auftragseingang im Verarbeitenden Gewerbe im September 2026: +4,4 % zum Vormonat",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_385_421.html",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.090Z",
-    "deliveredAt": "2026-11-06T08:34:23.090Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "46760a7b926ce7721bc27440",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Arbeitskosten im Jahr 2024 in Hamburg am höchsten, in Mecklenburg-Vorpommern am niedrigsten",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_388_624.html",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.090Z",
-    "deliveredAt": "2026-11-06T08:34:23.090Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a2c212c4eeafbce21837628c",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Produktion im September 2026: +0,7 % zum Vormonat",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_389_421.html",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.090Z",
-    "deliveredAt": "2026-11-06T08:34:23.090Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a6ca9881256b0a57a5aa2530",
-    "source": "Wettbewerbszentrale",
-    "sourceKey": "src-24a9968f52923b9b",
-    "sourceLabel": "Wettbewerbszentrale",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Events",
-      "KI",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Green Claims Directive vor dem Aus: EU-Kommission kündigt Rücknahme an",
-    "link": "https://www.wettbewerbszentrale.de/green-claims-directive-vor-dem-aus-eu-kommission-kuendigt-ruecknahme-an/",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.088Z",
-    "deliveredAt": "2026-11-06T08:34:23.088Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b4769c3aafbfe022493faf3e",
-    "source": "Wettbewerbszentrale",
-    "sourceKey": "src-24a9968f52923b9b",
-    "sourceLabel": "Wettbewerbszentrale",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Events",
-      "KI",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "BGH-Termin am 05.11.26 zu Login beim Kündigungsbutton",
-    "link": "https://www.wettbewerbszentrale.de/bgh-termin-am-05-11-26-zu-login-beim-kuendigungsbutton/",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.088Z",
-    "deliveredAt": "2026-11-06T08:34:23.088Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2043ffc28c2d11c6558f2d8d",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "ECB Conference on Money Markets 2026",
-    "link": "https://www.ecb.europa.eu/press/conferences/html/20261105-money-markets.en.html",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.080Z",
-    "deliveredAt": "2026-11-06T08:34:23.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "226bfa0750649d32044e98a0",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Navigating stormy waters",
-    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.080Z",
-    "deliveredAt": "2026-11-06T08:34:23.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a623d81c6f765e470daf87fa",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Shaping the future of money",
-    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.080Z",
-    "deliveredAt": "2026-11-06T08:34:23.080Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f23bb064463bc79b624bdc92",
-    "source": "BSI",
-    "sourceKey": "src-64a086442adaeeab",
-    "sourceLabel": "BSI",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Meldung:, 04.11.2026 BSI übergibt IT-Sicherheitszertifikate auf der it-sa 2026 Das BSI hat im Rahmen der Fachmesse für IT-Sicherheit \"it-sa Expo&Congress\" vom 27. bis 29. Oktober 2026 in Nürnberg zahlreiche Cybersicherheitszertifikate an Hersteller übergeben.",
-    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/it-sa-Zertifikatuebergaben_261104.html",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.077Z",
-    "deliveredAt": "2026-11-06T08:34:23.077Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8283fac366649efd8ca03c49",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "eCom Scroll Insolvenz: Amazon-Händler scheitert mangels Masse",
-    "link": "https://wortfilter.de/ecom-scroll-insolvenz/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.076Z",
-    "deliveredAt": "2026-11-06T08:34:23.076Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "dc151f0b7e40d9a515fc6687",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Homeoffice zurückgefahren: 56 % der Firmen rudern zurück",
-    "link": "https://wortfilter.de/homeoffice-zurueckgefahren-bitkom/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.076Z",
-    "deliveredAt": "2026-11-06T08:34:23.076Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b6174aad57e7fe807d80f69c",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon Weihnachtsretouren 2026: Diese Fristen gelten in Deutschland",
-    "link": "https://onlinemarktplatz.de/295099/amazon-weihnachtsretouren-2026/",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.074Z",
-    "deliveredAt": "2026-11-06T08:34:23.074Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "cfb5a77c39ce8b438d0a0032",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Pattern Q3 2026: Quartalsumsatz auf 886 Millionen US-Dollar gesteigert – Amazon-Abhängigkeit bleibt hoch",
-    "link": "https://onlinemarktplatz.de/295207/pattern-q3-2026-umsatz-amazon-prognose/",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.074Z",
-    "deliveredAt": "2026-11-06T08:34:23.074Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c056abdfd6afc20ea3cc0667",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Klage gegen Shein: Umwelthilfe fordert Verkaufsstopp für schadstoffbelastete Produkte – Update: Stellungnahme von Shein",
-    "link": "https://onlinemarktplatz.de/295201/klage-gegen-shein-duh/",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.074Z",
-    "deliveredAt": "2026-11-06T08:34:23.074Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "810b33909ece359242e971ad",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Deutschlands Wirtschaft vor Weihnachten: Erholung erreicht den Onlinehandel nur teilweise",
-    "link": "https://onlinemarktplatz.de/295267/konjunktur-und-onlinehandel-2026/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.074Z",
-    "deliveredAt": "2026-11-06T08:34:23.074Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3dc60e0d7368bc2583a818ea",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "DAILY&CO-Übernahme: Lengow verbindet Software und Vertriebsbetreuung",
-    "link": "https://onlinemarktplatz.de/295040/lengow-und-dailyco-uebernahme/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.074Z",
-    "deliveredAt": "2026-11-06T08:34:23.074Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8a8b6a85e344010ef0c52162",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Shop Direct Workspace: Amazon öffnet Händlerportal für den US-Store",
-    "link": "https://onlinemarktplatz.de/295190/shop-direct-workspace-amazon/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.074Z",
-    "deliveredAt": "2026-11-06T08:34:23.074Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0d521b757e7b86f23b0590c3",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "JD.com KI-Strategie: Viele Anwendungen, offene Rechnung zur Wirtschaftlichkeit",
-    "link": "https://onlinemarktplatz.de/295071/jd-com-ki-strategie-messbare-ertraege/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.074Z",
-    "deliveredAt": "2026-11-06T08:34:23.074Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "887dc3bbbe11999d545a473c",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Sicher gegen Abzocke",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/sicher-gegen-abzocke-126918",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.072Z",
-    "deliveredAt": "2026-11-06T08:34:23.072Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d5f07e180a7354b50097cc85",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Energetische Gebäudesanierung – Schritt für Schritt",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/energetische-gebaeudesanierung-schritt-fuer-schritt-126994",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.072Z",
-    "deliveredAt": "2026-11-06T08:34:23.072Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "89f3602a304ef2efd1c65212",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Verbraucherzentrale verklagt Google wegen Werbung für Fake-Shops",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/verbraucherzentrale-verklagt-google-wegen-werbung-fuer-fakeshops-126945",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.070Z",
-    "deliveredAt": "2026-11-06T08:34:23.070Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b5080b5f396a9a638aa4d98d",
-    "source": "GMX Newsroom",
-    "sourceKey": "src-3347cf90b11a7aaa",
-    "sourceLabel": "GMX",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "KI"
-    ],
-    "priority": 2,
-    "title": "KI darf helfen, aber: Mehrheit entscheidet lieber selbst",
-    "link": "https://newsroom.gmx.net/2026/11/04/ki-umfrage-mehrheit-will-selbst-entscheiden/",
-    "pageDate": "04.11.2026",
-    "publishedAt": "2026-11-04T12:00:00.000Z",
-    "detectedAt": "2026-11-06T08:34:23.046Z",
-    "deliveredAt": "2026-11-06T08:34:23.046Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
