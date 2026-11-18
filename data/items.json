@@ -1,5 +1,434 @@
 [
   {
+    "guid": "efa04b87bcc2e0a2eaf87901",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Kaufland Interact: MRC-Akkreditierung für Retail Media Werbeinventar der Kaufland-App",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/kaufland-interact-mrc-akkreditierung-fuer-retail-media-werbeinventar-der-kaufland-app",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-18T11:41:51.157Z",
+    "deliveredAt": "2026-11-18T11:41:51.157Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "669e75c290a106dfd1220d51",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch ‘Madden,’ the new movie streaming now on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/madden-movie-nicolas-cage-prime-video",
+    "pageDate": "Nov. 18, 2026",
+    "publishedAt": "2026-11-18T00:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.155Z",
+    "deliveredAt": "2026-11-18T11:41:51.155Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "84232a8f74e8bf7ab1c20801",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "KI kritisch für eigene Wettbewerbsfähigkeit // ZEW-Befragung von Informationswirtschaft und verarbeitendem Gewerbe",
+    "link": "https://www.zew.de/presse/pressearchiv/ki-kritisch-fuer-eigene-wettbewerbsfaehigkeit",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.154Z",
+    "deliveredAt": "2026-11-18T11:41:51.154Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f73f49bde06a984df4068839",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Flat October for hospitality as consumers stay cautious before Christmas",
+    "link": "https://nielseniq.com/global/en/news-center/2026/flat-october-for-hospitality-as-consumers-stay-cautious-before-christmas/",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.152Z",
+    "deliveredAt": "2026-11-18T11:41:51.152Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1c25df8987d0359444ce7e7d",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Baugenehmigungen für Wohnungen im September 2026: -14,8 % zum Vorjahresmonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_402_3111.html",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.146Z",
+    "deliveredAt": "2026-11-18T11:41:51.146Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1b5e1ef563ebbf6dc13e90e0",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Erwerbstätigkeit im 3. Quartal 2026 saisonbereinigt gegenüber dem Vorquartal gesunken",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_404_13321.html",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.146Z",
+    "deliveredAt": "2026-11-18T11:41:51.146Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "32eaf8ca20d3a5bc898cef2d",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragsbestand im Verarbeitenden Gewerbe im September 2026: +0,8 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_403_421.html",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.146Z",
+    "deliveredAt": "2026-11-18T11:41:51.146Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9efecc1ac0535e8e34a2a4c8",
+    "source": "Target QZ",
+    "sourceKey": "src-ba300714de43cc5d",
+    "sourceLabel": "Target QZ",
+    "groups": [
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Target Corporation Reports Third Quarter Earnings",
+    "link": "https://corporate.target.com/press/release/2026/11/target-corporation-reports-third-quarter-earnings",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-18T11:41:51.126Z",
+    "deliveredAt": "2026-11-18T11:41:51.126Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dd6c88ca8288b00213e96aa1",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Koalitionsausschuss: Handelsverband sieht gute Schritte und fordert dauerhafte Senkung der Stromsteuer",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15445-koalitionsausschuss-handelsverband-sieht-gute-schritte-und-fordert-dauerhafte-senkung-der-stromsteuer",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-18T11:41:51.124Z",
+    "deliveredAt": "2026-11-18T11:41:51.124Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d73cbdc3029970deb0a77e8c",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Aktuelle HDE-Umfrage zur Verbraucherstimmung: Zwei Drittel müssen immer auf den Preis schauen",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15439-aktuelle-hde-umfrage-zur-verbraucherstimmung-zwei-drittel-muessen-immer-auf-den-preis-schauen",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-18T11:41:51.124Z",
+    "deliveredAt": "2026-11-18T11:41:51.124Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9a9f65794bba2e6fea074283",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon GPSR: Massen-Upload für bis zu 5.000 SKU pro Vorlage",
+    "link": "https://wortfilter.de/amazon-gpsr-massen-upload/",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.123Z",
+    "deliveredAt": "2026-11-18T11:41:51.123Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fb9c3dcbd708dc9a1e8cbba8",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "KI-Video erstellen: 5 Regeln für den Prompt – mit Vorlagen",
+    "link": "https://wortfilter.de/ki-video-erstellen/",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.123Z",
+    "deliveredAt": "2026-11-18T11:41:51.123Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0d77ed8c327604137fb1430a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "KI im Kundenservice: Jede fünfte Firma baut Personal ab",
+    "link": "https://wortfilter.de/ki-kundenservice-personalabbau/",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.123Z",
+    "deliveredAt": "2026-11-18T11:41:51.123Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "19c893d2391acd4a06215636",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Achtung: Sicherheitslücke bei bekanntem WP-Plugin Contact Form 7",
+    "link": "https://wortfilter.de/contact-form-7-sicherheitsluecke/",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.123Z",
+    "deliveredAt": "2026-11-18T11:41:51.123Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e25735b532ee760d00e27929",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Häufigste Passwörter 2026: Deutschland setzt auf „1234567“",
+    "link": "https://wortfilter.de/haeufigste-passwoerter-2026/",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.123Z",
+    "deliveredAt": "2026-11-18T11:41:51.123Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0691a5da92afe149379db4d7",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Genug Betrug: Große Versprechen, kleine Qualität – und die Retoure geht nach China",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/genug-betrug-grosse-versprechen-kleine-qualitaet-und-die-retoure-geht-nach-china-127288",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-18T11:41:51.119Z",
+    "deliveredAt": "2026-11-18T11:41:51.119Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5f85059fe2566b2849128c21",
+    "source": "Visa Newsroom DE",
+    "sourceKey": "src-7defdf77aa356e20",
+    "sourceLabel": "Visa",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Visa erweitert Agentic Ready für vertrauenswürdigen Agentic Commerce in Europa",
+    "link": "https://www.visa.de/uber-visa/newsroom/press-releases.3478845.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-18T11:41:51.115Z",
+    "deliveredAt": "2026-11-18T11:41:51.115Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b9b655a490054901c35a0d53",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Microagi trainiert KI-Roboter auf der IAIC",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/microagi-trainiert-ki-roboter-auf-der-iaic",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-18T11:41:51.112Z",
+    "deliveredAt": "2026-11-18T11:41:51.112Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "787749f43901581a07cdee97",
+    "source": "LKA Prävention",
+    "sourceKey": "src-02d707caf7513f21",
+    "sourceLabel": "LKA Prävention",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Events",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "QR-Code Phishing (Quishing) per Briefpost im Namen der apoBank auch in Kombination mit Anrufen und Mails",
+    "link": "https://www.polizei-praevention.de/aktuelles/qr-code-phishing-quishing-per-briefpost-im-namen-der-apobank-auch-in-kombination-mit-anrufen-und-mails.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-18T11:41:51.096Z",
+    "deliveredAt": "2026-11-18T11:41:51.096Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "e7c7eecf53049de5aebb69b7",
     "source": "UPS QZ",
     "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
@@ -67,8 +496,7 @@
     "sourceKey": "src-58bea26b3e8930f9",
     "sourceLabel": "Walmart",
     "groups": [
-      "Firmen",
-      "Quartalszahlen"
+      "Firmen"
     ],
     "tags": [
       "Quartalszahlen",
@@ -10753,428 +11181,6 @@
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T18:30:39.824Z",
     "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "45864d92516b61c1b77fcdf4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna announces Full Year Financial Results 2021",
-    "link": "https://www.klarna.com/international/press/klarna-announces-full-year-financial-results-2021/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "75a710c8fe284b508213b125",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes its Annual Reports and ESG Report for January – December 2021.",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-its-annual-reports-and-esg-report-for-january-december-2021/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "9c73aed237237a768b9a88d2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches ‘Klarna Kosma’ sub-brand and business unit to harness rapid growth of Open Banking platform",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarna-kosma-sub-brand-and-business-unit-to-harness-rapid-growth-of-open-banking-platform/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "102cfcc4e7939de5e62e68f9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with Chicago artist Chuck Anderson on custom sneakers for Chicago Bulls’ iconic mascot Benny the Bull",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-chicago-artist-chuck-anderson-on-custom-sneakers-for-chicago-bulls-iconic-mascot-benny-the-bull/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "eefc1bfcb2a3824bfff7af66",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna completes acquisition of PriceRunner",
-    "link": "https://www.klarna.com/international/press/klarna-completes-acquisition-of-pricerunner/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8eb3f05d93d6700093f61099",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Steuerfahndung: Onlinehändler 9 Monate unschuldig in U-Haft",
-    "link": "https://wortfilter.de/steuerfahndung-onlinehaendler-u-haft/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.810Z",
-    "deliveredAt": "2026-11-06T18:30:39.810Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "44c298cca1316c1bae3ee99d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Dark Patterns: Die 25 häufigsten Tricks im Onlinehandel",
-    "link": "https://wortfilter.de/dark-patterns-top-25/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.810Z",
-    "deliveredAt": "2026-11-06T18:30:39.810Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b142569253f22eb03aaae037",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "DPD Preiserhöhung: 56 Prozent mehr – Händler wehrt sich",
-    "link": "https://wortfilter.de/dpd-preiserhoehung/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.810Z",
-    "deliveredAt": "2026-11-06T18:30:39.810Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "67a5ddd7d19e5101eea90e50",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Was ist die EUDR? Für wen und was gilt die EUDR?",
-    "link": "https://wortfilter.de/was-ist-die-eudr/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.810Z",
-    "deliveredAt": "2026-11-06T18:30:39.810Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "21e1ad300ca333bd54cb8e53",
-    "source": "OMT E-Commerce Events",
-    "sourceKey": "src-b0d6dce4f4e53f64",
-    "sourceLabel": "OMT E-Commerce",
-    "groups": [
-      "Events"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "D2C SUMMIT",
-    "link": "https://www.omt.de/events/d2c-summit/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-06T18:30:39.759Z",
-    "deliveredAt": "2026-11-06T18:30:39.759Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ac08259afe542ed5a04a0891",
-    "source": "DM",
-    "sourceKey": "src-fd6e846f7c6683bc",
-    "sourceLabel": "DM",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Baden-Württemberg ehrt Christoph Werner mit Wirtschaftsmedaille",
-    "link": "https://newsroom.dm.de/pressreleases/baden-wuerttemberg-ehrt-christoph-werner-mit-wirtschaftsmedaille-3476115",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:59.022Z",
-    "deliveredAt": "2026-11-06T11:32:59.022Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9c18ee2e47a15cec154227a3",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch ‘Campus Drivers,’ the adaptation of the best-selling novels out now on Prime Video",
-    "link": "https://www.aboutamazon.com/news/entertainment/campus-drivers-prime-video",
-    "pageDate": "Nov. 6, 2026",
-    "publishedAt": "2026-11-06T00:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:59.008Z",
-    "deliveredAt": "2026-11-06T11:32:59.008Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "70e986a187663f4adc056bf5",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch 'I Play Rocky,' the true story behind ‘Rocky,’ out now in select theaters",
-    "link": "https://www.aboutamazon.com/news/entertainment/i-play-rocky-trailer-cast-release-date-amazon-mgm-studios",
-    "pageDate": "Nov. 6, 2026",
-    "publishedAt": "2026-11-06T00:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:59.008Z",
-    "deliveredAt": "2026-11-06T11:32:59.008Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c35975d35324a98c85d12395",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "Deutschland verschenkt Innovationspotenzial // ZEW-Studie zur staatlichen Forschungsförderung in der Chemie-, Pharma- und Biotechindustrie",
-    "link": "https://www.zew.de/presse/pressearchiv/deutschland-verschenkt-innovationspotenzial",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:59.004Z",
-    "deliveredAt": "2026-11-06T11:32:59.004Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "2730540f8c1fc5fe07bd5aa7",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "EU Commission approves takeover Ceconomy by JD.com",
-    "link": "https://ecommercenews.eu/eu-commission-approves-takeover-ceconomy-by-jd-com/",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:58.991Z",
-    "deliveredAt": "2026-11-06T11:32:58.991Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "77975afbba0a7c2398aa9869",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "OBI darf elf Baumärkte der insolventen HELLWEG-Gruppe übernehmen",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/11_04_2026_OBI_Hellweg.html?nn=52004",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:58.990Z",
-    "deliveredAt": "2026-11-06T11:32:58.990Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4e03ffaedd4a149ff5f28e0b",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Zusammenschlussanmeldung Vivecti/Sana SEL zurückgenommen",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/11_06_2026_Vivecti_Sana.html?nn=52004",
-    "pageDate": "06.11.2026",
-    "publishedAt": "2026-11-06T12:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:58.990Z",
-    "deliveredAt": "2026-11-06T11:32:58.990Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c0f795f09ec5ebd42a5c5c59",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Zahl der Privathaushalte kann bis zum Jahr 2050 um bis zu 5 % zurückgehen",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_386_122.html",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:58.989Z",
-    "deliveredAt": "2026-11-06T11:32:58.989Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a610f30bcfc0cc28556411b1",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Umsatz im Dienstleistungsbereich im August 2026 um 0,9 % höher als im Vormonat",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_387_474.html",
-    "pageDate": "05.11.2026",
-    "publishedAt": "2026-11-05T12:00:00.000Z",
-    "detectedAt": "2026-11-06T11:32:58.989Z",
-    "deliveredAt": "2026-11-06T11:32:58.989Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
