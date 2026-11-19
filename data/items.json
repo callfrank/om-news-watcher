@@ -1,18 +1,533 @@
 [
   {
+    "guid": "d9905a58d5d3909df7fab537",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "How does bol keep everything running smoothly during the busiest time of the year?",
+    "link": "https://over.bol.com/en/news/how-does-bol-keep-everything-running-smoothly-during-the-busiest-time-of-the-year/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-19T09:31:48.735Z",
+    "deliveredAt": "2026-11-19T09:31:48.735Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "73d80a5bb3aecdc295646d5b",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Finanzielle Prämien helfen – auch wenn schon Energie gespart wird // Analyse zum Bonusprogramm eines großen deutschen Energieversorgers während der Gaskrise 2022/2023",
+    "link": "https://www.zew.de/presse/pressearchiv/finanzielle-praemien-helfen-auch-wenn-schon-energie-gespart-wird",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.732Z",
+    "deliveredAt": "2026-11-19T09:31:48.732Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "af1013f4decb3d854fbfd2db",
+    "source": "Ifhkoeln",
+    "sourceKey": "src-ce9e70954500f828",
+    "sourceLabel": "Ifhkoeln",
+    "groups": [
+      "Research"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Black Friday und Weihnachten: Konsument:innen planen genauer und schenken kleiner",
+    "link": "https://www.ifhkoeln.de/black-friday-und-weihnachten-konsumentinnen-planen-genauer-und-schenken-kleiner/",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.732Z",
+    "deliveredAt": "2026-11-19T09:31:48.732Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e97292c767e119121dd3070c",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "19.11.2026",
+    "link": "https://news.post.at/presse/de/post/id/2367392/&Ouml;STERREICHISCHE%20POST%20BAUT%20VIRTUELLE%20LOGISTIKZENTREN%20F&Uuml;R%20PAKETLOGISTIK",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.726Z",
+    "deliveredAt": "2026-11-19T09:31:48.726Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a164fd71d6604ee4bdf6a953",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "ÖSTERREICHISCHE POST BAUT VIRTUELLE LOGISTIKZENTREN FÜR PAKETLOGISTIK",
+    "link": "https://news.post.at/presse/de/post/id/2367392/%26Ouml%3BSTERREICHISCHE%20POST%20BAUT%20VIRTUELLE%20LOGISTIKZENTREN%20F%26Uuml%3BR%20PAKETLOGISTIK",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.726Z",
+    "deliveredAt": "2026-11-19T09:31:48.726Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "18b43de53d600cbad29e2083",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Gastgewerbeumsatz im September 2026 real 1,2 % höher als im Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_405_45213.html",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.716Z",
+    "deliveredAt": "2026-11-19T09:31:48.716Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ee7afd46c3833bb2d6868507",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "5,7 % der Bevölkerung konnten 2025 aus Geldmangel ihre Wohnung nicht angemessen warmhalten",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N081_61_63.html",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.716Z",
+    "deliveredAt": "2026-11-19T09:31:48.716Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b5eca0e6f1647566476d7a11",
+    "source": "Wettbewerbszentrale",
+    "sourceKey": "src-24a9968f52923b9b",
+    "sourceLabel": "Wettbewerbszentrale",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Events",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "LG Bochum: Irreführende Black-Friday-Werbung",
+    "link": "https://www.wettbewerbszentrale.de/lg-bochum-irrefuehrende-black-friday-werbung/",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.713Z",
+    "deliveredAt": "2026-11-19T09:31:48.713Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8f6d530ca6edaf8d59df52b1",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": ", Berlin | Bonn, 19.11.2026 BSI-Jahreslagebericht: Cybersicherheitslage in Deutschland ist angespannt bis kritisch Das Bundesamt für Sicherheit in der Informationstechnik (BSI) stellt in seinem aktuellen Jahresbericht eine weitere Verschärfung der IT-Sicherheitslage in Deutschland fest: Die Situation im Cyberraum ist angespannt bis kritisch.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261119_Lagebericht.html",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.685Z",
+    "deliveredAt": "2026-11-19T09:31:48.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "66d0955ddabf680c06ce0aa9",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Handelskongress Deutschland: HDE-Präsident von Preen fordert entschlossene Strukturreformen: „Es ist fünf nach zwölf“",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15442-handelskongress-deutschland-hde-praesident-von-preen-fordert-entschlossene-strukturreformen-es-ist-fuenf-nach-zwoelf",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-19T09:31:48.684Z",
+    "deliveredAt": "2026-11-19T09:31:48.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bc88fad7008b33735c94e20f",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "DPD GLS Fusion: Not kauft Elend – Händlermeinungen",
+    "link": "https://wortfilter.de/gls-dpd-fusion-haendler/",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.682Z",
+    "deliveredAt": "2026-11-19T09:31:48.682Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8a787e8e1033bc0527d33ced",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Black Friday Retouren vermeiden: 10 Tipps für Onlinehändler",
+    "link": "https://wortfilter.de/retouren-vermeiden-black-friday/",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.682Z",
+    "deliveredAt": "2026-11-19T09:31:48.682Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0741826dabf022448dc133f5",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Von Einkauf zu AInkauf: Fast neun von zehn Shoppern nutzen KI oder wollen sie nutzen, um den besten Preis zu finden",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/fast-neun-von-zehn-shoppern-nutzen-ki-oder-wollen-sie-nutzen-um-den-besten-preis-zu-finden.html",
+    "pageDate": "19.11.2026, 09:45 MEZ DHL ECOMMERCE",
+    "publishedAt": null,
+    "detectedAt": "2026-11-19T09:31:48.681Z",
+    "deliveredAt": "2026-11-19T09:31:48.681Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "233a904328f0e3a94ff3461a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "GLS und DPD wollen deutsches Paketgeschäft zusammenführen",
+    "link": "https://onlinemarktplatz.de/295871/gls-und-geopost-zusammenschluss/",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.680Z",
+    "deliveredAt": "2026-11-19T09:31:48.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "19bbdd4b774feb995163705b",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Amazon nimmt in Contwig neues Logistikzentrum vor Weihnachten in Betrieb",
+    "link": "https://onlinemarktplatz.de/295853/amazon-contwig-logistikzentrum-start/",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.680Z",
+    "deliveredAt": "2026-11-19T09:31:48.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aca67a4a00105f5bdf160b28",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Internationaler Privatverkauf: eBay übernimmt den Auslandsversand",
+    "link": "https://onlinemarktplatz.de/295879/internationaler-privatverkauf-ebay/",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.680Z",
+    "deliveredAt": "2026-11-19T09:31:48.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "068f02f62d72e5d4535a65d2",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "ChatGPT Wallet startet in den USA: Was Händler wissen müssen",
+    "link": "https://onlinemarktplatz.de/295809/chatgpt-wallet-usa-haendler-checkout/",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.680Z",
+    "deliveredAt": "2026-11-19T09:31:48.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d85e7e046b6478f2237290af",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Newsletter im Weihnachtsgeschäft: eco warnt vor Versandspitzen",
+    "link": "https://onlinemarktplatz.de/295824/newsletter-im-weihnachtsgeschaeft/",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.680Z",
+    "deliveredAt": "2026-11-19T09:31:48.680Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2d4954ada3ed0e399bd634eb",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Kfz-Versicherung: Wechsel kann sich lohnen",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/kfzversicherung-wechsel-kann-sich-lohnen-127215",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.671Z",
+    "deliveredAt": "2026-11-19T09:31:48.671Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c0b94ef2bfe1616b3f655b08",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Irreführende Förderwerbung zum Altersvorsorgedepot gestoppt",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/irrefuehrende-foerderwerbung-zum-altersvorsorgedepot-gestoppt-127319",
+    "pageDate": "19.11.2026",
+    "publishedAt": "2026-11-19T12:00:00.000Z",
+    "detectedAt": "2026-11-19T09:31:48.671Z",
+    "deliveredAt": "2026-11-19T09:31:48.671Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "250b6d95e20f9f6a072ef24f",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Spitzenleistung bestätigt: Telekom erneut Mobilfunk-Sieger beim CHIP-Netztest",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/spitzenleistung-bestaetigt-telekom-erneut-mobilfunk-sieger-beim",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-19T09:31:48.665Z",
+    "deliveredAt": "2026-11-19T09:31:48.665Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d6ae29330a1b820078475dcc",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Deutsche Telekom stärkt souveräne KI in Deutschland",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/deutsche-telekom-staerkt-souveraene-ki-in-deutschland",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-19T09:31:48.665Z",
+    "deliveredAt": "2026-11-19T09:31:48.665Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c4813d17eafb44a26a44652f",
+    "source": "Galaxus Medienmitteilungen",
+    "sourceKey": "src-c4694153f4de0aba",
+    "sourceLabel": "Galaxus",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "10 Tipps: Wie vermeidet man Black-Friday- und Weihnachts-Flops?",
+    "link": "https://www.galaxus.de/de/page/10-tipps-wie-vermeidet-man-black-friday-und-weihnachts-flops-44430",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-19T09:31:48.637Z",
+    "deliveredAt": "2026-11-19T09:31:48.637Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "4c97e3e9f9b8fbff60071cfe",
     "source": "Pattern QZ",
     "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
     "sourceLabel": "Pattern QZ",
     "groups": [
-      "Quartalszahlen",
-      "Firmen"
+      "Quartalszahlen"
     ],
     "tags": [
-      "Events",
-      "E-Commerce",
-      "KI",
-      "Unternehmensstrategie"
+      "Events"
     ],
     "priority": 2,
     "title": "Pattern Named to Deloitte Technology Fast 500",
@@ -10699,515 +11214,6 @@
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T23:32:17.165Z",
     "deliveredAt": "2026-11-06T23:32:17.165Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "21d6e77b264f082072663433",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna 2020 Annual Report Published",
-    "link": "https://www.klarna.com/international/press/klarna-2020-annual-report-published/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.165Z",
-    "deliveredAt": "2026-11-06T23:32:17.165Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "7a3c0537f844127020f29344",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Bank AB (publ) announces final tender offer results",
-    "link": "https://www.klarna.com/international/press/klarna-bank-ab-publ-announces-final-tender-offer-results/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.165Z",
-    "deliveredAt": "2026-11-06T23:32:17.165Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b689d6a273561d9dc8df8cc7",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna launches carbon footprint insights for 90 million consumers",
-    "link": "https://www.klarna.com/international/press/klarna-launches-carbon-footprint-insights-for-90-million-consumers/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.165Z",
-    "deliveredAt": "2026-11-06T23:32:17.165Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "1496516dfdfcd51b3da8f841",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Macy's, Inc. exclusively partners with Klarna to offer Pay in Four services in 750+ stores nationwide",
-    "link": "https://www.klarna.com/international/press/macys-inc-exclusively-partners-with-klarna-to-offer-pay-in-four-services-in-750-stores-nationwide/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.165Z",
-    "deliveredAt": "2026-11-06T23:32:17.165Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "992dc6afd7f848deabf79113",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Kia ora New Zealand! Klarna brings “smoooth” shopping to Kiwis.",
-    "link": "https://www.klarna.com/international/press/kia-ora-new-zealand-klarna-brings-smoooth-shopping-to-kiwis/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.165Z",
-    "deliveredAt": "2026-11-06T23:32:17.165Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "24d510441242877406bfae55",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Authentic Brands Group and SPARC Group announce exclusive partnership with Klarna to introduce ‘Pay in Four’ across their portfolio of brands",
-    "link": "https://www.klarna.com/international/press/authentic-brands-group-and-sparc-group-announce-exclusive-partnership-with-klarna-to-introduce-pay-in-four-across-their-portfolio-of-brands/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.165Z",
-    "deliveredAt": "2026-11-06T23:32:17.165Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "022c48770774a1ab1320d6c4",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Early redemption of subordinated Tier 2 notes",
-    "link": "https://www.klarna.com/international/press/early-redemption-of-subordinated-tier-2-notes/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.165Z",
-    "deliveredAt": "2026-11-06T23:32:17.165Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "39fb47aed34b85cd4445ab8d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Announcement of the appointment of Roger W. Ferguson Jr to Klarna Board",
-    "link": "https://www.klarna.com/international/press/announcement-of-the-appointment-of-roger-w-ferguson-jr-to-klarna-board/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.165Z",
-    "deliveredAt": "2026-11-06T23:32:17.165Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a5f3bd9f7d8e4910782de7a5",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna uses increasing global scale to support emerging tech centres",
-    "link": "https://www.klarna.com/international/press/klarna-uses-increasing-global-scale-to-support-emerging-tech-centres/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.164Z",
-    "deliveredAt": "2026-11-06T23:32:17.164Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "ac23bd7b253cf0f65e5c6b2f",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Kaufland eröffnet erstmals in Gelsenkirchen und belebt Einkaufsstandort",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/kaufland-eroeffnet-erstmals-in-gelsenkirchen-und-belebt-einkaufsstandort",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-06T18:30:39.842Z",
-    "deliveredAt": "2026-11-06T18:30:39.842Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ac0e924d38216763509089a8",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Was Kauflands KI-Assistenz für immer mehr Online-Händler unverzichtbar macht",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/was-kauflands-ki-assistenz-fuer-immer-mehr-online-haendler-unverzichtbar-macht",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-06T18:30:39.842Z",
-    "deliveredAt": "2026-11-06T18:30:39.842Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null,
-    "duplicateSources": [
-      "Kaufland Newsroom"
-    ]
-  },
-  {
-    "guid": "87b45e66b4c616942ef17484",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Text, shop, done: Alexa for Shopping is now just a text away",
-    "link": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-text-to-shop",
-    "pageDate": "Nov. 6, 2026",
-    "publishedAt": "2026-11-06T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.840Z",
-    "deliveredAt": "2026-11-06T18:30:39.840Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7b0c2e41b075348c3be82b15",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "9 fantasy shows on Prime Video to binge before ‘The Rings of Power’ Season 3",
-    "link": "https://www.aboutamazon.com/news/entertainment/fantasy-series-on-prime-video",
-    "pageDate": "Nov. 6, 2026",
-    "publishedAt": "2026-11-06T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.840Z",
-    "deliveredAt": "2026-11-06T18:30:39.840Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "30576dd4a2deef8cd01fb2a8",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch Camp Flog Gnaw 2026 festival on Amazon Music, Prime Video, and Twitch",
-    "link": "https://www.aboutamazon.com/news/entertainment/camp-flog-gnaw-tyler-the-creator-livestream-amazon-music",
-    "pageDate": "Nov. 6, 2026",
-    "publishedAt": "2026-11-06T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.840Z",
-    "deliveredAt": "2026-11-06T18:30:39.840Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f8fa170af4e3e934acdff705",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna publishes first quarter results - January - March 2021",
-    "link": "https://www.klarna.com/international/press/klarna-publishes-first-quarter-results-january-march-2021/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "86e17b0a347a017cce739113",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to A$AP Rocky joins Klarna as investor and CEO for a day",
-    "link": "https://www.klarna.com/international/press/aap-rocky-joins-klarna-as-investor-and-ceo-for-a-day/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "28155b9a69a8276a63226431",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Salut!” to France with unique shopping experience",
-    "link": "https://www.klarna.com/international/press/klarna-says-salut-to-france-with-unique-shopping-experience/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c681263113a6b977d1dc142a",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to A$AP Rocky and Klarna team up for global campaign",
-    "link": "https://www.klarna.com/international/press/aap-rocky-and-klarna-team-up-for-global-campaign/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "a8c83ab0726d50aacc7c3cf6",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna secures additional funding as consumers demand smarter alternatives to shop, bank, & pay",
-    "link": "https://www.klarna.com/international/press/klarna-secures-additional-funding-as-consumers-demand-smarter-alternatives-to-shop-bank-pay/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f25cb6db1cec479a29e2e080",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna Launches Klarna Comparison Shopping Service across Europe",
-    "link": "https://www.klarna.com/international/press/klarna-launches-klarna-comparison-shopping-service-across-europe/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "5958bc939e307624b3f64aae",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna becomes first Fintech to join The Climate Pledge and Race to Zero campaign",
-    "link": "https://www.klarna.com/international/press/klarna-becomes-first-fintech-to-join-the-climate-pledge-and-race-to-zero-campaign/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c07aff289a6342d2d1018a73",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires HERO to bring best of in-store experience to social shopping for its 90m consumers",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-hero-to-bring-best-of-in-store-experience-to-social-shopping-for-its-90m-consumers/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e5fa2cb565b36e9ea6022209",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna acquires APPRL, connecting retailers and content creators as global consumers embrace social shopping",
-    "link": "https://www.klarna.com/international/press/klarna-acquires-apprl-connecting-retailers-and-content-creators-as-global-consumers-embrace-social-shopping/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
