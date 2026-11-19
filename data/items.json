@@ -1,5 +1,80 @@
 [
   {
+    "guid": "4c97e3e9f9b8fbff60071cfe",
+    "source": "Pattern QZ",
+    "sourceKey": "0cfda5e1-e0a9-4bbc-bbdc-dc9d305d1b11",
+    "sourceLabel": "Pattern QZ",
+    "groups": [
+      "Quartalszahlen",
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "E-Commerce",
+      "KI",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Pattern Named to Deloitte Technology Fast 500",
+    "link": "https://investors.pattern.com/news-releases/news-release-details/pattern-named-deloitte-technology-fast-500",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-19T01:32:13.441Z",
+    "deliveredAt": "2026-11-19T01:32:13.441Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Pattern Newsroom"
+    ]
+  },
+  {
+    "guid": "1e141ce8170dc1b2028158fa",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Gesicht des Handels 2026: HDE zeichnet Nele Karbstein von Peek & Cloppenburg aus",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15440-gesicht-des-handels-2026-hde-zeichnet-nele-karbstein-von-peek-cloppenburg-aus",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-19T01:32:13.389Z",
+    "deliveredAt": "2026-11-19T01:32:13.389Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d2774d2f6a2c549a587af3d1",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Deutsche Handelspreise für Zara, Modehaus Zinser und Michael Herz",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15441-deutsche-handelspreise-fuer-zara-modehaus-zinser-und-michael-herz",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-19T01:32:13.389Z",
+    "deliveredAt": "2026-11-19T01:32:13.389Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "4b9379483386ae8a09b05183",
     "source": "UPS QZ",
     "sourceKey": "74ead7ab-7531-43f4-8820-4b1a67a6fe3f",
@@ -11129,72 +11204,6 @@
     "priority": 2,
     "title": "Navigate to Klarna acquires APPRL, connecting retailers and content creators as global consumers embrace social shopping",
     "link": "https://www.klarna.com/international/press/klarna-acquires-apprl-connecting-retailers-and-content-creators-as-global-consumers-embrace-social-shopping/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "bc73c68549b574bbc3f556c2",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to YOOX NET-A-PORTER Group and Klarna announce global partnership",
-    "link": "https://www.klarna.com/international/press/yoox-net-a-porter-group-and-klarna-announce-global-partnership/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "da57a35b554477cb883beba9",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna says “Cześć!” to Poland with “Pay in 30 days”",
-    "link": "https://www.klarna.com/international/press/klarna-says-czesc-to-poland-with-pay-in-30-days/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T18:30:39.824Z",
-    "deliveredAt": "2026-11-06T18:30:39.824Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e0d4cd61481adfc0e70d2b82",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna hits record 20 million US customers as demand for flexible payment options soars",
-    "link": "https://www.klarna.com/international/press/klarna-hits-record-20-million-us-customers-as-demand-for-flexible-payment-options-soars/",
     "pageDate": "November 5, 2026",
     "publishedAt": "2026-11-05T00:00:00.000Z",
     "detectedAt": "2026-11-06T18:30:39.824Z",
