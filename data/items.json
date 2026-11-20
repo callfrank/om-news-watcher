@@ -1,5 +1,167 @@
 [
   {
+    "guid": "21fe99dfca2eb2f48530a766",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Rückruf: Speisekartoffeln rot festkochend 1,5 kg des Herstellers Parmentine",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/rueckruf-speisekartoffeln-rot-festkochend-1-5-kg-des-herstellers-parmentine",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-20T23:22:49.808Z",
+    "deliveredAt": "2026-11-20T23:22:49.808Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c60cf193ae1058fa963a4efb",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "6 tips to help you spot and avoid scams impersonating Amazon",
+    "link": "https://www.aboutamazon.com/news/retail/how-to-avoid-amazon-scams",
+    "pageDate": "Nov. 20, 2026",
+    "publishedAt": "2026-11-20T00:00:00.000Z",
+    "detectedAt": "2026-11-20T23:22:49.807Z",
+    "deliveredAt": "2026-11-20T23:22:49.807Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "52ee6c48a8624838e537282c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Mehrwertsteuerbetrug mit AirPods: 23 Mio. Schaden geschätzt",
+    "link": "https://wortfilter.de/mehrwertsteuerbetrug-airpods/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T23:22:49.777Z",
+    "deliveredAt": "2026-11-20T23:22:49.777Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "86128be8bd636a0f27cce8ea",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Insolvenzantrag gegen The Platform Group: Bank zieht zurück",
+    "link": "https://wortfilter.de/the-platform-group-insolvenzantrag/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T23:22:49.777Z",
+    "deliveredAt": "2026-11-20T23:22:49.777Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "74b16d73d17823cac000507c",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "BBC News – These Firms You’ve Never Heard Of Are Feeding Fears The AI Bubble Could Burst",
+    "link": "https://www.forrester.com/press-newsroom/bbc-news-these-firms-youve-never-heard-of-are-feeding-fears-the-ai-bubble-could-burst/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-20T23:22:49.733Z",
+    "deliveredAt": "2026-11-20T23:22:49.733Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "46a5e6ef972c6048655c9272",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "The New York Times – CVS to Split Off Drugstore Business, Ending Its Bigger-Is-Better Era",
+    "link": "https://www.forrester.com/press-newsroom/the-new-york-times-cvs-to-split-off-drugstore-business-ending-its-bigger-is-better-era/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-20T23:22:49.733Z",
+    "deliveredAt": "2026-11-20T23:22:49.733Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1438507939f4e09c49973e68",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "MarketWatch – Growing Pressure Shows The AI Buildout Is Starting To Outrun Big Tech’s Cash",
+    "link": "https://www.forrester.com/press-newsroom/marketwatch-growing-pressure-shows-the-ai-buildout-is-starting-to-outrun-big-techs-cash/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-20T23:22:49.732Z",
+    "deliveredAt": "2026-11-20T23:22:49.732Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "83c0065b8a8ca6bb81974c50",
     "source": "PayPal US",
     "sourceKey": "src-036682c8cc9a64e1",
@@ -11087,167 +11249,6 @@
     "publishedAt": "2026-11-09T12:00:00.000Z",
     "detectedAt": "2026-11-09T09:49:15.548Z",
     "deliveredAt": "2026-11-09T09:49:15.548Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "554ed6055df4b147aee2dcd7",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Exporte im September 2026: +2,0 % zum August 2026",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_390_51.html",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.548Z",
-    "deliveredAt": "2026-11-09T09:49:15.548Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "16fa87bebdcc9d338b8536d8",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "41 % weniger Zuzüge syrischer Staatsangehöriger von Januar bis September 2026 als im Vorjahreszeitraum",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD25_N077_12.html",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.548Z",
-    "deliveredAt": "2026-11-09T09:49:15.548Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "cd5be5fc696ea043e5096095",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Lkw-Maut-Fahrleistungsindex im Oktober 2026: -1,6 % zum Vormonat",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_391_421.html",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.547Z",
-    "deliveredAt": "2026-11-09T09:49:15.547Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6ef262744db8299018804512",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Onlinehändler-Horoskop KW 46: 18 Tage bis Black Friday",
-    "link": "https://wortfilter.de/onlinehaendler-horoskop-kw-46/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.524Z",
-    "deliveredAt": "2026-11-09T09:49:15.524Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bb25434be99bd61c3bef6906",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "EUDR im Onlinehandel: Wer ab Ende 2026 selbst prüfen muss",
-    "link": "https://onlinemarktplatz.de/295004/eudr-im-onlinehandel-pflichten/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.522Z",
-    "deliveredAt": "2026-11-09T09:49:15.522Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d567fbf2a9dfce58987969aa",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Chinas Handelsmodelle: Was deutsche Händler übernehmen können",
-    "link": "https://onlinemarktplatz.de/295018/chinas-handelsmodelle-deutsche-haendler/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.522Z",
-    "deliveredAt": "2026-11-09T09:49:15.522Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "accbb9f38daef354e6a810ef",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon öffnet Chipstrategie: Trainium soll außerhalb von AWS laufen",
-    "link": "https://onlinemarktplatz.de/295009/amazon-trainium-ausserhalb-aws-2027/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.522Z",
-    "deliveredAt": "2026-11-09T09:49:15.522Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
