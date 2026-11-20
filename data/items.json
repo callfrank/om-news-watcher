@@ -1,5 +1,351 @@
 [
   {
+    "guid": "919f223c9df65a0d45e88148",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Erzeugerpreise im Oktober 2026: +8,1 % gegenüber Oktober 2025",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_407_61241.html",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.708Z",
+    "deliveredAt": "2026-11-20T08:33:20.708Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dce0835b5731dd7c78702448",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Elektrischer Strom im Wert von 4,3 Milliarden Euro im 1. bis 3. Quartal 2026 exportiert",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_406_51.html",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.708Z",
+    "deliveredAt": "2026-11-20T08:33:20.708Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0e702fb7171b559b09a8148c",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Financial stability risks facing the euro area",
+    "link": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/index.en.html",
+    "pageDate": "18.11.2026",
+    "publishedAt": "2026-11-18T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.689Z",
+    "deliveredAt": "2026-11-20T08:33:20.689Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "6dee70369198ec5ce0e5eb7a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Seller Central Menü: Altes Menü zurück – nur pro Sitzung",
+    "link": "https://wortfilter.de/seller-central-menue-klassisch/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.686Z",
+    "deliveredAt": "2026-11-20T08:33:20.686Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c53639781cc07e4eb6e31490",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "PHP Update: 7 kritische Lücken – und Java4Shell obendrauf",
+    "link": "https://wortfilter.de/php-update-java4shell/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.686Z",
+    "deliveredAt": "2026-11-20T08:33:20.686Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ebf234f5f2a0d38685a75162",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Walmarts Marktplatz wächst um 49 Prozent: Filialen stärken Fulfillment",
+    "link": "https://onlinemarktplatz.de/295990/walmarts-marktplatz-waechst-q3-fy27/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.684Z",
+    "deliveredAt": "2026-11-20T08:33:20.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0e51f38981e8390f70a4ac33",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "PDD Quartalszahlen: Umsatz stagniert, operativer Gewinn steigt",
+    "link": "https://onlinemarktplatz.de/295995/pdd-quartalszahlen-q3-2026/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.684Z",
+    "deliveredAt": "2026-11-20T08:33:20.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "969480d651d4686ab01c81b8",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Alibaba Quartalszahlen 2026: Cloud wächst, Handel unter Druck",
+    "link": "https://onlinemarktplatz.de/295996/alibaba-quartalszahlen-2026/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.684Z",
+    "deliveredAt": "2026-11-20T08:33:20.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c80d50f84374f9b7c1012f80",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Nielsens Werbeauswertung: Handel prägt Black Friday 2026",
+    "link": "https://onlinemarktplatz.de/295948/nielsens-werbeauswertung-black-friday/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.684Z",
+    "deliveredAt": "2026-11-20T08:33:20.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f0be0c0d39aa09b59666c2da",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Studie zur Werbemessung: Nur 13 Prozent der untersuchten Shops nutzen serverseitiges Tagging",
+    "link": "https://onlinemarktplatz.de/295810/digitl-tracking-studie-dach-shops-2026/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.684Z",
+    "deliveredAt": "2026-11-20T08:33:20.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "eba5a746d11d399ebbf0a10e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Etsy-Synchronisierung mit Shopify: Marketplace Connect steigt aus",
+    "link": "https://onlinemarktplatz.de/296023/etsy-synchronisierung-mit-shopify/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.684Z",
+    "deliveredAt": "2026-11-20T08:33:20.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "126f5122119d0287497067cc",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Intelligente Haushaltsroboter: Saugroboterumsatz steigt um 16 Prozent",
+    "link": "https://onlinemarktplatz.de/295767/intelligente-haushaltsroboter-2026/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.684Z",
+    "deliveredAt": "2026-11-20T08:33:20.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "66cd3c2f46cff30b827102eb",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Temu und TrueLayer: Bankzahlungen starten in Deutschland",
+    "link": "https://onlinemarktplatz.de/295946/temu-und-truelayer-bankzahlungen/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.684Z",
+    "deliveredAt": "2026-11-20T08:33:20.684Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "510124f016ad79589e812584",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Black Friday Meets “China Haul”: Discover More with JD.com, Wherever You Are",
+    "link": "https://jdcorporateblog.com/black-friday-meets-china-haul-discover-more-with-jd-com-wherever-you-are/",
+    "pageDate": "Nov 20, 2026",
+    "publishedAt": "2026-11-20T00:00:00.000Z",
+    "detectedAt": "2026-11-20T08:33:20.649Z",
+    "deliveredAt": "2026-11-20T08:33:20.649Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "49389d33a20e63d7c8db22b4",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EY-Studie Weihnachtsgeschenke 2026",
+    "link": "https://www.ey.com/de_de/newsroom/2026/11/ey-studie-ausgaben-fuer-weihnachtsgeschenke-in-deutschland-2026",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-20T08:33:20.631Z",
+    "deliveredAt": "2026-11-20T08:33:20.631Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "7c547694a1145cb644f879bf",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -10905,341 +11251,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "f7edb75796de82dcafdbcfef",
-    "source": "EY Newsroom",
-    "sourceKey": "src-8fc60553640bf464",
-    "sourceLabel": "EY",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "EY-Analyse \"Mixed Compensation Barometer 2026\"",
-    "link": "https://www.ey.com/de_de/newsroom/2026/11/ey-analyse-mixed-compensation-barometer-2026",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-08T13:24:25.813Z",
-    "deliveredAt": "2026-11-08T13:24:25.813Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d492f8839b359acc7aa08654",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Pleiteticker: Firmenpleiten 2026 live – alle 20 Minuten eine",
-    "link": "https://wortfilter.de/pleiteticker-firmenpleiten-2026/",
-    "pageDate": "07.11.2026",
-    "publishedAt": "2026-11-07T12:00:00.000Z",
-    "detectedAt": "2026-11-07T23:59:49.333Z",
-    "deliveredAt": "2026-11-07T23:59:49.333Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2c33376d22971ad88d9469d8",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Twins Company: Von der Mülltonne zum 3.000-m²-Showroom",
-    "link": "https://wortfilter.de/twins-company-hotelmoebel-astrid-eilers/",
-    "pageDate": "07.11.2026",
-    "publishedAt": "2026-11-07T12:00:00.000Z",
-    "detectedAt": "2026-11-07T16:26:36.459Z",
-    "deliveredAt": "2026-11-07T16:26:36.459Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "df28c0ead62289dcc22d5999",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Nach dem Labubu-Boom: Pop Mart verliert fast die Hälfte seines Quartalsumsatzes",
-    "link": "https://onlinemarktplatz.de/295220/labubu-hype-2026-pop-mart/",
-    "pageDate": "07.11.2026",
-    "publishedAt": "2026-11-07T12:00:00.000Z",
-    "detectedAt": "2026-11-07T10:10:40.986Z",
-    "deliveredAt": "2026-11-07T10:10:40.986Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a9aa1508f6c7d3c2b4c0aa84",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Warum Charity Shops trotz Secondhand-Boom kämpfen",
-    "link": "https://onlinemarktplatz.de/295219/charity-shops-verlieren/",
-    "pageDate": "07.11.2026",
-    "publishedAt": "2026-11-07T12:00:00.000Z",
-    "detectedAt": "2026-11-07T10:10:40.986Z",
-    "deliveredAt": "2026-11-07T10:10:40.986Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "877f2470a4cf2e3dc8d428e8",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "500 Paar Nike-Sneaker: Berliner Influencer-Aktion führt zu Polizeieinsatz",
-    "link": "https://onlinemarktplatz.de/295218/sneaker-tausch-berlin-marli/",
-    "pageDate": "07.11.2026",
-    "publishedAt": "2026-11-07T12:00:00.000Z",
-    "detectedAt": "2026-11-07T10:10:40.986Z",
-    "deliveredAt": "2026-11-07T10:10:40.986Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ab761616cf310dd8fb5a77ee",
-    "source": "TPG QZ",
-    "sourceKey": "src-29d9014e1b396d31",
-    "sourceLabel": "TPG QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Opens in a new tab",
-    "link": "https://corporate.the-platform-group.com/media/document/d7d6ef29-2901-42cb-a36f-22280196cb98/assets/Q3_2026_Call_TPG.pdf?disposition=inline",
-    "pageDate": "Nov 05, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.194Z",
-    "deliveredAt": "2026-11-06T23:32:17.194Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "49352216b6734f6260c079fa",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to New Klarna data reveal that 79% of consumers would rather be healthy than wealthy this holiday season",
-    "link": "https://www.klarna.com/international/press/new-klarna-data-reveal-that-79-of-consumers-would-rather-be-healthy-than-wealthy-this-holiday-season/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.166Z",
-    "deliveredAt": "2026-11-06T23:32:17.166Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fc31e7509bf4eeebac490815",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna creates new ways to make shopping social with the launch of followable Wish lists",
-    "link": "https://www.klarna.com/international/press/klarna-creates-new-ways-to-make-shopping-social-with-the-launch-of-followable-wish-lists/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.166Z",
-    "deliveredAt": "2026-11-06T23:32:17.166Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "3244d5b9770de19d31c0d817",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna introduces Google Pay for in-store payments",
-    "link": "https://www.klarna.com/international/press/klarna-introduces-google-pay-for-in-store-payments/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.166Z",
-    "deliveredAt": "2026-11-06T23:32:17.166Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "c30a7dc0fab214b3c42f5b8c",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna partners with influencers to create live, in-game shopping experience in Animal crossing",
-    "link": "https://www.klarna.com/international/press/klarna-partners-with-influencers-to-create-live-in-game-shopping-experience-in-animal-crossing/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.166Z",
-    "deliveredAt": "2026-11-06T23:32:17.166Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "80f9c130ed1e29d56c2d446d",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna and Beautycounter partner to offer clean beauty to more shoppers",
-    "link": "https://www.klarna.com/international/press/klarna-and-beautycounter-partner-to-offer-clean-beauty-to-more-shoppers/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.166Z",
-    "deliveredAt": "2026-11-06T23:32:17.166Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e1bcf571c486991349ea299f",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna adds more than 1 million new US consumers during the summer months",
-    "link": "https://www.klarna.com/international/press/klarna-adds-more-than-1-million-new-us-consumers-during-the-summer-months/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.166Z",
-    "deliveredAt": "2026-11-06T23:32:17.166Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "03a68607712714c2816566bc",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna interim report January - June 2020.",
-    "link": "https://www.klarna.com/international/press/klarna-interim-report-january-june-2020/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.166Z",
-    "deliveredAt": "2026-11-06T23:32:17.166Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4af807c9ef57e03a1edcca37",
-    "source": "Klarna",
-    "sourceKey": "src-f16daf5cdc73aa7e",
-    "sourceLabel": "Klarna",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Navigate to Klarna introduces social shopping to UK Consumers",
-    "link": "https://www.klarna.com/international/press/klarna-introduces-social-shopping-to-uk-consumers/",
-    "pageDate": "November 5, 2026",
-    "publishedAt": "2026-11-05T00:00:00.000Z",
-    "detectedAt": "2026-11-06T23:32:17.166Z",
-    "deliveredAt": "2026-11-06T23:32:17.166Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
