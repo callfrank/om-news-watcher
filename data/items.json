@@ -1,5 +1,248 @@
 [
   {
+    "guid": "821b83e7fdfe82e63bf58312",
+    "source": "PayPal US",
+    "sourceKey": "src-036682c8cc9a64e1",
+    "sourceLabel": "PayPal US",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Unternehmensnews",
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Brian J. Lee to Join PayPal's Board of Directors",
+    "link": "https://newsroom.paypal-corp.com/2026-11-20-Brian-J-Lee-to-Join-PayPals-Board-of-Directors",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T12:18:14.791Z",
+    "deliveredAt": "2026-11-20T12:18:14.791Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "15693211a3e0a8cca5dae063",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Neueröffnung – Velbert-Langenberg, Donnerstag, 26. November 2026",
+    "link": "https://newsroom.dm.de/pressreleases/neueroeffnung-velbert-langenberg-donnerstag-26-november-2026-3479465",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T12:18:14.785Z",
+    "deliveredAt": "2026-11-20T12:18:14.785Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "70e986a187663f4adc056bf5",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch 'I Play Rocky,' the true story behind ‘Rocky,’ out now in theaters",
+    "link": "https://www.aboutamazon.com/news/entertainment/i-play-rocky-trailer-cast-release-date-amazon-mgm-studios",
+    "pageDate": "Nov. 20, 2026",
+    "publishedAt": "2026-11-20T00:00:00.000Z",
+    "detectedAt": "2026-11-20T12:18:14.775Z",
+    "deliveredAt": "2026-11-20T12:18:14.775Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ad4e086145c8b00fd67cadd0",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch 'Perfect Liars,' the adaptation of the hit novel streaming now on Prime Video",
+    "link": "https://www.aboutamazon.com/news/entertainment/perfect-liars-prime-video",
+    "pageDate": "Nov. 20, 2026",
+    "publishedAt": "2026-11-20T00:00:00.000Z",
+    "detectedAt": "2026-11-20T12:18:14.774Z",
+    "deliveredAt": "2026-11-20T12:18:14.774Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c8f43e8cd69a77c63365d7b6",
+    "source": "Bundeskartellamt",
+    "sourceKey": "src-65453440d7dc3b0e",
+    "sourceLabel": "Bundeskartellamt",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "10. Deutsch-Französischer Wettbewerbstag in Bonn",
+    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/11_20_2026_DFWT.html?nn=52004",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T12:18:14.759Z",
+    "deliveredAt": "2026-11-20T12:18:14.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "68a8a6aed7ae1c36f47e655e",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Shopify Etsy: Sync endet 2027 – lohnt sich Etsy noch?",
+    "link": "https://wortfilter.de/shopify-etsy-marketplace-connect/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T12:18:14.723Z",
+    "deliveredAt": "2026-11-20T12:18:14.723Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3e5a021496cc7cdfc945e215",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Temu Pay by Bank: Bankzahlung startet vor dem Black Friday",
+    "link": "https://wortfilter.de/temu-pay-by-bank-truelayer/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T12:18:14.723Z",
+    "deliveredAt": "2026-11-20T12:18:14.723Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c2105d63cdf83a7c3e1e1d24",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Safety Gate: 6 gefährliche Produkte trotz Warnung im Handel",
+    "link": "https://wortfilter.de/safety-gate-kw-46-2026/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T12:18:14.723Z",
+    "deliveredAt": "2026-11-20T12:18:14.723Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a9019274cbea3cf38c2d460d",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "KI-Konfigurator-Test: Warum ich den Shop wechselte",
+    "link": "https://wortfilter.de/ki-konfigurator-test-hoodie/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T12:18:14.723Z",
+    "deliveredAt": "2026-11-20T12:18:14.723Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "639f28b3c8f25c38cbdaaae5",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Barbara Eleota wird neue CEO von Hillebrand Gori – a company of DHL",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/barbara-eleota-wird-neue-ceo-von-hillebrand-gori.html",
+    "pageDate": "20.11.2026, 11:00 MEZ DHL GLOBAL FORWARDING",
+    "publishedAt": null,
+    "detectedAt": "2026-11-20T12:18:14.722Z",
+    "deliveredAt": "2026-11-20T12:18:14.722Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e966a6a467fe097c4d905e39",
+    "source": "SHEIN Newsroom",
+    "sourceKey": "src-7d01254fcbc3e629",
+    "sourceLabel": "SHEIN",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "SHEIN and SPEAC Further Strengthen Marketplace Seller Compliance Education with Training on EU Chemical Safety Requirements",
+    "link": "https://www.sheingroup.com/newsroom/shein-and-speac-further-strengthen-marketplace-seller-compliance-education-with-training-on-eu",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-20T12:18:14.707Z",
+    "deliveredAt": "2026-11-20T12:18:14.707Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "919f223c9df65a0d45e88148",
     "source": "DeStatis",
     "sourceKey": "src-7523dc532642ad9d",
@@ -11003,251 +11246,6 @@
     "publishedAt": "2026-11-08T12:00:00.000Z",
     "detectedAt": "2026-11-08T22:30:59.869Z",
     "deliveredAt": "2026-11-08T22:30:59.869Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "79a790a02783083fdc79fc86",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Oktober 26 – der Wero-Rückblick",
-    "link": "https://demoshops.de/2026-10-wero-rueckblick/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T18:31:42.566Z",
-    "deliveredAt": "2026-11-08T18:31:42.566Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f84e4d4fe7b8a73863b58178",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Anker und Pattern: Bis zu 86 % Wachstum abseits von Amazon",
-    "link": "https://wortfilter.de/anker-pattern-quartalszahlen-q3-2026/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T18:31:42.503Z",
-    "deliveredAt": "2026-11-08T18:31:42.503Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8bd2e96d6a8d55bf1fb706d7",
-    "source": "eco Presse",
-    "sourceKey": "src-b784bc4111de43c5",
-    "sourceLabel": "eco",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "eco Geschäftsführer verurteilt Besetzung von Rechenzentrumsbaustelle",
-    "link": "https://www.eco.de/presse/eco-geschaeftsfuehrer-verurteilt-besetzung-von-rechenzentrumsbaustelle-rechenzentren-sind-nicht-der-feind/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-08T18:31:42.435Z",
-    "deliveredAt": "2026-11-08T18:31:42.435Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7696ace88b5867ae6677fafc",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Ratgeber für Händler: SaaS-Shop vs. selbst verwaltetes Hosting",
-    "link": "https://demoshops.de/saas-shopsystem-vs-selbst-gehostetes-shopsystem/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T13:24:25.940Z",
-    "deliveredAt": "2026-11-08T13:24:25.940Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a2f31c83a3770b560aa0a3fa",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Bösgläubige Markenanmeldung? „Testa Rossa“ darf bleiben",
-    "link": "https://wortfilter.de/boesglaeubige-markenanmeldung-testa-rossa/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T13:24:25.876Z",
-    "deliveredAt": "2026-11-08T13:24:25.876Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "74bb08b63d72f5011de310a6",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Google-Bewertungen gelöscht: 1,95 % der neuen in 7 Tagen weg",
-    "link": "https://wortfilter.de/google-bewertungen-geloescht-studie/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T13:24:25.876Z",
-    "deliveredAt": "2026-11-08T13:24:25.876Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f4e62061c5a99a765443e6eb",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Digitaler Führerschein: i-Kfz-Start geplant, d-you-Website online",
-    "link": "https://onlinemarktplatz.de/295342/digitaler-fuehrerschein-i-kfz/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T13:24:25.874Z",
-    "deliveredAt": "2026-11-08T13:24:25.874Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6c929683e3f391f111cafe42",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Kaufdruck im Onlinehandel: Warum Black Friday zum schnellen Kauf reizt",
-    "link": "https://onlinemarktplatz.de/295212/kaufdruck-im-onlinehandel/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T13:24:25.874Z",
-    "deliveredAt": "2026-11-08T13:24:25.874Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5a56cb96fe9507f2c2258d5b",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Betrügerische Websites täuschen KI-Agenten bei Zahlungsaufträgen",
-    "link": "https://onlinemarktplatz.de/295217/ki-und-onlinebetrug-scamworld-test/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T13:24:25.874Z",
-    "deliveredAt": "2026-11-08T13:24:25.874Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "54491c5e2cb1828a98685181",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Digitaler Euro 2029: EZB bestätigt Zeitplan und Pläne für neue Banknoten",
-    "link": "https://onlinemarktplatz.de/295313/digitaler-euro-2029-ezb-bargeld-pilot/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T13:24:25.874Z",
-    "deliveredAt": "2026-11-08T13:24:25.874Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "87fd4001fa057a9f62a1f3d1",
-    "source": "Amazon Seller Events",
-    "sourceKey": "src-4a1336d19ad6bee0",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Kassel, Germany Mar 16 - 17, 2027 Amazon Sales Kongress 2027 March",
-    "link": "https://amzsummits.com/events/amazon-sales-kongress-2027-march/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-08T13:24:25.816Z",
-    "deliveredAt": "2026-11-08T13:24:25.816Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
