@@ -1,5 +1,117 @@
 [
   {
+    "guid": "83c0065b8a8ca6bb81974c50",
+    "source": "PayPal US",
+    "sourceKey": "src-036682c8cc9a64e1",
+    "sourceLabel": "PayPal US",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Unternehmensnews",
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "PayPal Announces Executive Leadership Appointments to Advance Three-Year Strategy",
+    "link": "https://newsroom.paypal-corp.com/2026-11-20-PayPal-Announces-Executive-Leadership-Appointments-to-Advance-Three-Year-Strategy",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T17:19:09.805Z",
+    "deliveredAt": "2026-11-20T17:19:09.805Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7d90fef5362d148b21e76ea8",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon’s commitment to low prices every day",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-orders-savings-discounts-shopping",
+    "pageDate": "Nov. 20, 2026",
+    "publishedAt": "2026-11-20T00:00:00.000Z",
+    "detectedAt": "2026-11-20T17:19:09.794Z",
+    "deliveredAt": "2026-11-20T17:19:09.794Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "ec73a87e3527ff5b3436f692",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon and Prime make everyday life more affordable for American families",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-prime-affordable-everyday-savings",
+    "pageDate": "Nov. 20, 2026",
+    "publishedAt": "2026-11-20T00:00:00.000Z",
+    "detectedAt": "2026-11-20T17:19:09.794Z",
+    "deliveredAt": "2026-11-20T17:19:09.794Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "b19a16a8ee5c2d4c221bb5bb",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Launches NIQ AI Gauge to Help Brands Turn AI Adoption into Growth",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-launches-niq-ai-gauge-to-help-brands-turn-ai-adoption-into-growth/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T17:19:09.790Z",
+    "deliveredAt": "2026-11-20T17:19:09.790Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "277bb49c5f9095cf35ddb03c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Galeria Kaufhof Schließung: So könnt ihr davon profitieren",
+    "link": "https://wortfilter.de/galeria-kaufhof-schliessung/",
+    "pageDate": "20.11.2026",
+    "publishedAt": "2026-11-20T12:00:00.000Z",
+    "detectedAt": "2026-11-20T17:19:09.759Z",
+    "deliveredAt": "2026-11-20T17:19:09.759Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "821b83e7fdfe82e63bf58312",
     "source": "PayPal US",
     "sourceKey": "src-036682c8cc9a64e1",
@@ -11136,116 +11248,6 @@
     "publishedAt": "2026-11-09T12:00:00.000Z",
     "detectedAt": "2026-11-09T09:49:15.522Z",
     "deliveredAt": "2026-11-09T09:49:15.522Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "86a9760cc172b8d8cda34887",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Telekom erweitert KI-Fabrik in München",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/ki-nachfrage-steigt-telekom-erweitert-ki-fabrik-in-muenchen",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-09T09:49:15.509Z",
-    "deliveredAt": "2026-11-09T09:49:15.509Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "441c27654043eaf5e211dee4",
-    "source": "JD Corporate News",
-    "sourceKey": "src-9261fd3fa3c1f896",
-    "sourceLabel": "JD",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "JINGDONG Property invests in Brisbane with Acquisition of Development-Ready Site in North Maclean",
-    "link": "https://jdcorporateblog.com/jingdong-property-invests-in-brisbane-with-acquisition-of-development-ready-site-in-north-maclean/",
-    "pageDate": "Nov 9, 2026",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.483Z",
-    "deliveredAt": "2026-11-09T09:49:15.483Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "62856e0f130e08791d8b2929",
-    "source": "DPD Presse",
-    "sourceKey": "src-bb722a60d74f3965",
-    "sourceLabel": "DPD",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Damit Ge­schen­ke recht­zei­tig an­kom­men: DPD ver­öf­fent­licht Ver­sand­fris­ten für die Fei­er­ta­ge",
-    "link": "https://www.dpd.com/de/de/news/damit-ihre-geschenke-rechtzeitig-ankommen-dpd-veroeffentlicht-versandfristen-fuer-die-feiertage/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-09T09:49:15.453Z",
-    "deliveredAt": "2026-11-09T09:49:15.453Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "58b099363a425a7e22dbfab1",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Google Fonts Abmahnung: Generalanwalt sieht Rechtsmissbrauch",
-    "link": "https://wortfilter.de/google-fonts-abmahnung-generalanwalt/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T02:00:08.285Z",
-    "deliveredAt": "2026-11-09T02:00:08.285Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a083c01f3809615252c938dc",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Amazon Quartalszahlen: AWS bringt rund 63 % des Betriebsgewinns",
-    "link": "https://wortfilter.de/amazon-quartalszahlen-aws-betriebsgewinn/",
-    "pageDate": "08.11.2026",
-    "publishedAt": "2026-11-08T12:00:00.000Z",
-    "detectedAt": "2026-11-08T22:30:59.869Z",
-    "deliveredAt": "2026-11-08T22:30:59.869Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
