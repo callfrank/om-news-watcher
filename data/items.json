@@ -1,5 +1,51 @@
 [
   {
+    "guid": "079f844b6041b5cf17aa7f52",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Etsy KI-Training: Händler gehen – Etsy will Klausel ändern",
+    "link": "https://wortfilter.de/etsy-ki-training/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-21T20:07:19.695Z",
+    "deliveredAt": "2026-11-21T20:07:19.695Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c4e1a248acaac5321ef873d4",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "DPD GLS Zusammenschluss: Wohin mit den 150 Standorten?",
+    "link": "https://wortfilter.de/dpd-gls-zusammenschluss-standorte/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-21T20:07:19.695Z",
+    "deliveredAt": "2026-11-21T20:07:19.695Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "454b3d5c58911dbc7de5971e",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11219,46 +11265,6 @@
     "publishedAt": "2026-11-09T12:00:00.000Z",
     "detectedAt": "2026-11-09T20:11:48.229Z",
     "deliveredAt": "2026-11-09T20:11:48.229Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0571999e00ba754d9618d1a2",
-    "source": "Vinted Newsroom",
-    "sourceKey": "src-4bd55bcb182c0d40",
-    "sourceLabel": "Vinted",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Two in three would rather have a second-hand gift that suits them than a new one they won’t use, Vinted research reveals",
-    "link": "https://company.vinted.com/newsroom/festive-season-2026",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.223Z",
-    "deliveredAt": "2026-11-09T20:11:48.223Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0d3159c11d2768948f53abef",
-    "source": "Vinted Newsroom",
-    "sourceKey": "src-4bd55bcb182c0d40",
-    "sourceLabel": "Vinted",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Vinted Go launches in Finland",
-    "link": "https://company.vinted.com/newsroom/vinted-go-finland",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.223Z",
-    "deliveredAt": "2026-11-09T20:11:48.223Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
