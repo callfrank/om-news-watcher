@@ -1,5 +1,123 @@
 [
   {
+    "guid": "454b3d5c58911dbc7de5971e",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "BSI Cyber Index: 170 Punkte sind keine 170 Angriffe",
+    "link": "https://wortfilter.de/bsi-cyber-index-erklaert/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-21T13:02:59.477Z",
+    "deliveredAt": "2026-11-21T13:02:59.477Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1ce59ffb0eb0ab9e7da13227",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Black Friday Phishing: 82 % mehr – so beweist du deine Echtheit",
+    "link": "https://wortfilter.de/black-friday-phishing-trust-signale/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-21T13:02:59.477Z",
+    "deliveredAt": "2026-11-21T13:02:59.477Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b3fee7c34ffb209385c9efc8",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Urlaub für Games: Fünf Millionen Deutsche haben sich schon freigenommen",
+    "link": "https://onlinemarktplatz.de/295895/urlaub-fuer-games/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-21T13:02:59.475Z",
+    "deliveredAt": "2026-11-21T13:02:59.475Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3de37bd56003ce86a9f9b8e6",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Neue TikTok-Produkte: Cowgirl-Pyjama führt Ranking an",
+    "link": "https://onlinemarktplatz.de/295897/neue-tiktok-produkte-cowgirl-pyjama/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-21T13:02:59.475Z",
+    "deliveredAt": "2026-11-21T13:02:59.475Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a42923465d96acbb2250bd01",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Labubu-Anbieter eröffnet in Leipzig: Pop Mart baut deutsches Filialnetz aus",
+    "link": "https://onlinemarktplatz.de/295896/pop-mart-leipzig/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-21T13:02:59.475Z",
+    "deliveredAt": "2026-11-21T13:02:59.475Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "21fe99dfca2eb2f48530a766",
     "source": "Kaufland",
     "sourceKey": "src-824d896356b1a926",
@@ -11141,114 +11259,6 @@
     "publishedAt": "2026-11-09T12:00:00.000Z",
     "detectedAt": "2026-11-09T20:11:48.223Z",
     "deliveredAt": "2026-11-09T20:11:48.223Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bff58a05dc3810213a2e8aee",
-    "source": "DHL Discover Global",
-    "sourceKey": "src-a4b561cb340f5d1b",
-    "sourceLabel": "DHL Discover Global",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Events"
-    ],
-    "priority": 2,
-    "title": "What is Air Freight Shipping?",
-    "link": "https://www.dhl.com/discover/en-global/logistics-advice/essential-guides/what-is-air-freight-shipping",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-09T20:11:48.219Z",
-    "deliveredAt": "2026-11-09T20:11:48.219Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d0656b658f4cd419cb8e5309",
-    "source": "Amazon Seller Events",
-    "sourceKey": "src-4a1336d19ad6bee0",
-    "sourceLabel": "Amazon Seller",
-    "groups": [
-      "Events"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Beverly Hills, CA, United States Apr 6 - 7, 2027 MDS Inspire 2027",
-    "link": "https://amzsummits.com/events/mds-inspire-2027/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-09T20:11:48.172Z",
-    "deliveredAt": "2026-11-09T20:11:48.172Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1cbca1b74a6fdd36b141d574",
-    "source": "Zew",
-    "sourceKey": "src-f3985f12770a41ec",
-    "sourceLabel": "Zew",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Recht & Regulierung",
-      "Events"
-    ],
-    "priority": 3,
-    "title": "Wärmepumpen werden favorisiert – aber Gebäudeeigenschaften ausschlaggebend // ZEW-Befragung unter Energieexperten/-innen zu Empfehlungen beim Heizungstausch",
-    "link": "https://www.zew.de/presse/pressearchiv/waermepumpen-werden-favorisiert-aber-gebaeudeeigenschaften-ausschlaggebend",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.562Z",
-    "deliveredAt": "2026-11-09T09:49:15.562Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a39f065c6e484a37d9b938b3",
-    "source": "Mittelstand Digital",
-    "sourceKey": "src-3fbff5b0f3b52fe1",
-    "sourceLabel": "Mittelstand Digital",
-    "groups": [
-      "Institute"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Von Social Media bis Logistik – Wie KI den Handelsalltag in der Praxis verändert",
-    "link": "https://digitalzentrumhandel.de/author/franziska-dickmann/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.557Z",
-    "deliveredAt": "2026-11-09T09:49:15.557Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "6f43ef6f51640c4e9fb1691b",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Marktbefragung zu Googles Kartendiensten im Automobilbereich",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/11_09_2026_Google_Auto_SDK.html?nn=52004",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T09:49:15.548Z",
-    "deliveredAt": "2026-11-09T09:49:15.548Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
