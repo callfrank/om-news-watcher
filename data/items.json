@@ -1,5 +1,97 @@
 [
   {
+    "guid": "44f62ad54441d4c6811bab09",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "WP Fastest Cache Sicherheitslücke: Dateien löschen ohne Login",
+    "link": "https://wortfilter.de/wp-fastest-cache-sicherheitsluecke/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-22T00:21:12.228Z",
+    "deliveredAt": "2026-11-22T00:21:12.228Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dd62ef7830d6add561d2c8df",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Hugendubel Hackerangriff: Shop offline kurz vor Black Friday",
+    "link": "https://wortfilter.de/hugendubel-hackerangriff/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-22T00:21:12.228Z",
+    "deliveredAt": "2026-11-22T00:21:12.228Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3f55bd7f0a0ac7e2cd5626ab",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "BIMI einrichten: Logo in Gmail ab rund 650 Dollar im Jahr",
+    "link": "https://wortfilter.de/bimi-einrichten-logo-gmail/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-22T00:21:12.228Z",
+    "deliveredAt": "2026-11-22T00:21:12.228Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6cb9850486237ac917381970",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Vinted Werbung in den USA: Sogar Depop wirbt in der App",
+    "link": "https://wortfilter.de/vinted-werbung-usa/",
+    "pageDate": "21.11.2026",
+    "publishedAt": "2026-11-21T12:00:00.000Z",
+    "detectedAt": "2026-11-22T00:21:12.227Z",
+    "deliveredAt": "2026-11-22T00:21:12.227Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "079f844b6041b5cf17aa7f52",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11174,97 +11266,6 @@
     "publishedAt": "2026-11-09T12:00:00.000Z",
     "detectedAt": "2026-11-09T20:11:48.235Z",
     "deliveredAt": "2026-11-09T20:11:48.235Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8838c383ac69a019779e89a9",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Schenkung an Kinder: Aus 80.000 € Firmenertrag wird 1,1 Mio.",
-    "link": "https://wortfilter.de/schenkung-an-kinder-firma-schenkungsteuer/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.235Z",
-    "deliveredAt": "2026-11-09T20:11:48.235Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6100ba350524e3e7267827bb",
-    "source": "DHL",
-    "sourceKey": "src-e5330506f57b7169",
-    "sourceLabel": "DHL",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "DHL setzt als erster Expressdienstleister am Flughafen Paris Charles de Gaulle auf Sustainable Aviation Fuel",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-setzt-als-erster-expressdienstleister-am-flughafen-paris-charles-de-gaulle-auf-sustainable-aviation-fuel.html",
-    "pageDate": "09.11.2026, 14:00 MEZ DHL EXPRESSNACHHALTIGKEIT",
-    "publishedAt": null,
-    "detectedAt": "2026-11-09T20:11:48.234Z",
-    "deliveredAt": "2026-11-09T20:11:48.234Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4eae27f3818c225067159acc",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Podcast: eBay Live Community – wie aus Zuschauern wiederkehrende Kunden werden",
-    "link": "https://onlinemarktplatz.de/295175/ebay-live-community-podcast/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.233Z",
-    "deliveredAt": "2026-11-09T20:11:48.233Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "731f9dbf8b175379ce9ff5fd",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Black Friday: Echte Schnäppchen oder nur Trickserei?",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/black-friday-echte-schnaeppchen-oder-nur-trickserei-127067",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.229Z",
-    "deliveredAt": "2026-11-09T20:11:48.229Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
