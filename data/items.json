@@ -1,5 +1,51 @@
 [
   {
+    "guid": "987d363fd634bb04d12efa32",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "KI-Chat für die Warenwirtschaft: Kostenloser Beta-Test",
+    "link": "https://wortfilter.de/ki-chat-warenwirtschaft-beta-test/",
+    "pageDate": "22.11.2026",
+    "publishedAt": "2026-11-22T12:00:00.000Z",
+    "detectedAt": "2026-11-22T21:18:03.010Z",
+    "deliveredAt": "2026-11-22T21:18:03.010Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "de7eb02861aee174ce03c84a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Cleverbridge Datenleck: Hacker kopieren Kartendaten samt CVV",
+    "link": "https://wortfilter.de/cleverbridge-datenleck/",
+    "pageDate": "22.11.2026",
+    "publishedAt": "2026-11-22T12:00:00.000Z",
+    "detectedAt": "2026-11-22T21:18:03.010Z",
+    "deliveredAt": "2026-11-22T21:18:03.010Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "786b490cb636a6cf3efde9f7",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11232,50 +11278,6 @@
     "priority": 2,
     "title": "Watch the trailer for ‘Maxton Hall’ Season 3, the final chapter premiering December 9 on Prime Video",
     "link": "https://www.aboutamazon.com/news/entertainment/maxton-hall-prime-video",
-    "pageDate": "Nov. 9, 2026",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.269Z",
-    "deliveredAt": "2026-11-09T20:11:48.269Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e6b909a43cbce7ae1e8d3597",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon delivers more than 75 million meals to families in need",
-    "link": "https://www.aboutamazon.com/news/community/amazon-expands-food-access-delivery",
-    "pageDate": "Nov. 9, 2026",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.269Z",
-    "deliveredAt": "2026-11-09T20:11:48.269Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "b9c79bd8d053b9187bbd9263",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Watch the trailer for 'Blade Runner 2099,' a new sci-fi series coming to Prime Video November 25",
-    "link": "https://www.aboutamazon.com/news/entertainment/blade-runner-2099-prime-video",
     "pageDate": "Nov. 9, 2026",
     "publishedAt": "2026-11-09T00:00:00.000Z",
     "detectedAt": "2026-11-09T20:11:48.269Z",
