@@ -1,5 +1,29 @@
 [
   {
+    "guid": "bb7705e7c1bf9f6a6ff4b7cb",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Teure Adventskalender: Viele zweifeln am Gegenwert und wollen trotzdem kaufen",
+    "link": "https://onlinemarktplatz.de/295898/teure-adventskalender/",
+    "pageDate": "22.11.2026",
+    "publishedAt": "2026-11-22T12:00:00.000Z",
+    "detectedAt": "2026-11-22T07:30:50.172Z",
+    "deliveredAt": "2026-11-22T07:30:50.172Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "44f62ad54441d4c6811bab09",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11239,29 +11263,6 @@
     "priority": 2,
     "title": "Bauernregeln Martinstag: Wer im November schreibt, ist zu spät",
     "link": "https://wortfilter.de/bauernregeln-martinstag/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.235Z",
-    "deliveredAt": "2026-11-09T20:11:48.235Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "19fbb103349f304132f6bec5",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Amazon Heimroboter: Zweiter Anlauf – ohne Preis und Termin",
-    "link": "https://wortfilter.de/amazon-heimroboter-astro-nachfolger/",
     "pageDate": "09.11.2026",
     "publishedAt": "2026-11-09T12:00:00.000Z",
     "detectedAt": "2026-11-09T20:11:48.235Z",
