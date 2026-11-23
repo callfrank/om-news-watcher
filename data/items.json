@@ -1,5 +1,255 @@
 [
   {
+    "guid": "75416127da79a99139263f23",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Vom Stadionmikro an die dm-Kasse: Martin Wacker kassiert im neuen dm-Markt in Ettlingen für den guten Zweck",
+    "link": "https://newsroom.dm.de/pressreleases/vom-stadionmikro-an-die-dm-kasse-martin-wacker-kassiert-im-neuen-dm-markt-in-ettlingen-fuer-den-guten-zweck-3481485",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.221Z",
+    "deliveredAt": "2026-11-23T13:15:08.221Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "35bab55d59e48837c5310ab7",
+    "source": "bol",
+    "sourceKey": "src-4a0926dd52e60011",
+    "sourceLabel": "bol",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Bol as a tech company: building the future of shopping",
+    "link": "https://over.bol.com/en/news/bol-as-a-tech-company-building-the-future-of-shopping/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-23T13:15:08.214Z",
+    "deliveredAt": "2026-11-23T13:15:08.214Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "761fe6587dad98cb6b76c983",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "ZEW-Ökonomin Tabea Bucher-Koenen zur Finanzbildungsstrategie des Bundes // „Entscheidend ist, wen die Angebote erreichen“",
+    "link": "https://www.zew.de/presse/pressearchiv/zew-oekonomin-tabea-bucher-koenen-zur-finanzbildungsstrategie-des-bundes",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.212Z",
+    "deliveredAt": "2026-11-23T13:15:08.212Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b20363b4149a22e41354c2a",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "NIQ Expands ConnectAI Charter Program to Ten Client Engagements, Naming Arthēa and Pernod Ricard USA",
+    "link": "https://nielseniq.com/global/en/news-center/2026/niq-expands-connectai-charter-program-to-ten-client-engagements-naming-arthea-and-pernod-ricard-usa/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.210Z",
+    "deliveredAt": "2026-11-23T13:15:08.210Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "19566936924611b54a3635d5",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Comparigo launches in two markets",
+    "link": "https://ecommercenews.eu/comparigo-launches-in-two-markets/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.203Z",
+    "deliveredAt": "2026-11-23T13:15:08.203Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f3133a3170dd278b31647f37",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Linux Sicherheitslücken: Mehr CVEs als Microsoft – na und?",
+    "link": "https://wortfilter.de/linux-sicherheitsluecken-microsoft-vergleich/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.176Z",
+    "deliveredAt": "2026-11-23T13:15:08.176Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6a71e007a2d0940ce31160df",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "osCommerce Sicherheitslücken: Kundendaten ohne Login lesbar",
+    "link": "https://wortfilter.de/oscommerce-sicherheitsluecken/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.176Z",
+    "deliveredAt": "2026-11-23T13:15:08.176Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e07115de682c63e571c711f7",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Schatten-KI: Wenn der Mitarbeitende smarter ist als der Chef",
+    "link": "https://wortfilter.de/schatten-ki-warnsignale/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.176Z",
+    "deliveredAt": "2026-11-23T13:15:08.176Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f269cadb859630a634dd65b9",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: ROPT Cockpit setzt auf Aufgaben statt Dashboards",
+    "link": "https://onlinemarktplatz.de/295776/podcast-ropt-cockpit-aufgaben/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.174Z",
+    "deliveredAt": "2026-11-23T13:15:08.174Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0c238bfb212b95cfe0db2ec1",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "OBI und toom planen Zusammenschluss unter der Marke OBI",
+    "link": "https://onlinemarktplatz.de/296152/obi-und-toom-zusammenschluss/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.174Z",
+    "deliveredAt": "2026-11-23T13:15:08.174Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f7b5da1dc24c9e024f25cf4d",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Frauen und Finanzen: Mit Wissen die eigene Zukunft selbst gestalten",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/frauen-und-finanzen-mit-wissen-die-eigene-zukunft-selbst-gestalten-127397",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T13:15:08.170Z",
+    "deliveredAt": "2026-11-23T13:15:08.170Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "c81f63962a933480e8c99da8",
     "source": "Handelskraft",
     "sourceKey": "src-6c1c923af06aedde",
@@ -11036,245 +11286,6 @@
     "publishedAt": "2026-11-10T12:00:00.000Z",
     "detectedAt": "2026-11-10T18:18:39.272Z",
     "deliveredAt": "2026-11-10T18:18:39.272Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f13b9e5441e333b864e67aba",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "IMTEST-Netztest 2026: Telekom erneut auf Platz eins",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/imtest-netztest-2026-telekom-erneut-auf-platz-eins",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T18:18:39.263Z",
-    "deliveredAt": "2026-11-10T18:18:39.263Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d54cc5add8de6ce51bea0b4c",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Was sich bei Magenta Moments am Mittwoch ändert",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/was-sich-bei-magenta-moments-am-mittwoch-aendert",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T18:18:39.263Z",
-    "deliveredAt": "2026-11-10T18:18:39.263Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bfddc991f7fef1a1e5672602",
-    "source": "Forrester Press Newsroom",
-    "sourceKey": "src-b4a8f14e403e1f2f",
-    "sourceLabel": "Forrester",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Studien & Marktdaten",
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Bloomberg – Colony: AI Investment Will Continue Despite Tech Selloff",
-    "link": "https://www.forrester.com/press-newsroom/bloomberg-colony-ai-investment-will-continue-despite-tech-selloff/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T18:18:39.210Z",
-    "deliveredAt": "2026-11-10T18:18:39.210Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5a4cacc76a2d0d6dadbfec07",
-    "source": "eco Presse",
-    "sourceKey": "src-b784bc4111de43c5",
-    "sourceLabel": "eco",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Von KI-Piloten zu autonomen Produktionsprozessen: 5 Voraussetzungen für die industrielle KI der Zukunft",
-    "link": "https://www.eco.de/presse/von-ki-piloten-zu-autonomen-produktionsprozessen-fuenf-voraussetzungen-fuer-die-industrielle-ki-der-zukunft/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T18:18:39.200Z",
-    "deliveredAt": "2026-11-10T18:18:39.200Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "19ee966c168a9ebf73f12fcc",
-    "source": "Handelskraft",
-    "sourceKey": "src-6c1c923af06aedde",
-    "sourceLabel": "Handelskraft",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Passt euer CMS noch zu eurer Content-Strategie? 5 Signale für eine CMS-Migration in 2027",
-    "link": "https://www.handelskraft.de/5-signale-fuer-cms-migration-2027/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.480Z",
-    "deliveredAt": "2026-11-10T10:29:13.480Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7b257c4bb7219ec525a3da82",
-    "source": "Wero",
-    "sourceKey": "src-b3076904e4e4545a",
-    "sourceLabel": "Wero",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Media & insights",
-    "link": "https://epicompany.eu/media-insights/media-insights/epi-company-initiates-wero-roll-out-in-the-netherlands",
-    "pageDate": "November 10, 2026",
-    "publishedAt": "2026-11-10T00:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.479Z",
-    "deliveredAt": "2026-11-10T10:29:13.479Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "124e7379511597d6d9e68b67",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "11 Amazon AI features to help you find the best deals this holiday season",
-    "link": "https://www.aboutamazon.com/news/retail/amazon-ai-shopping-tools",
-    "pageDate": "Nov. 9, 2026",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.466Z",
-    "deliveredAt": "2026-11-10T10:29:13.466Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fe91084c94fa8ac39c19ec76",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Black Friday and Cyber Monday 2026: a first look at Amazon’s best deals",
-    "link": "https://www.aboutamazon.com/news/retail/amazon-black-friday-cyber-monday-deals-2026",
-    "pageDate": "Nov. 9, 2026",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.466Z",
-    "deliveredAt": "2026-11-10T10:29:13.466Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8d7d5b8b83d1b93e96d1bf8f",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "​​​UK supermarket sales bounce back in October as extra spending lifts growth",
-    "link": "https://nielseniq.com/global/en/news-center/2026/uk-supermarket-sales-bounce-back-in-october-as-extra-spending-lifts-growth/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.462Z",
-    "deliveredAt": "2026-11-10T10:29:13.462Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b4d6b3272ffdecf7646e18ea",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "13,2 Millionen Behandlungen in Notfallambulanzen im Jahr 2025",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_46_p002.html",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.450Z",
-    "deliveredAt": "2026-11-10T10:29:13.450Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9c4b93e4e8a6040662d56b6c",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Faserkennzeichnung im Onlineshop: Lücken kosten rund 6.000 €",
-    "link": "https://wortfilter.de/faserkennzeichnung-onlineshop-vertragsstrafe/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.428Z",
-    "deliveredAt": "2026-11-10T10:29:13.428Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
