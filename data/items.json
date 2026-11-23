@@ -1,5 +1,297 @@
 [
   {
+    "guid": "63027c446578b679bdbbd880",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Your Thanksgiving Questions, Answered",
+    "link": "https://corporate.walmart.com/news/2026/11/your-thanksgiving-questions-answered",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-23T22:03:56.871Z",
+    "deliveredAt": "2026-11-23T22:03:56.871Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4d462910101a50e5f60e476e",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon to purchase Decart's AI optimization technology to advance chip and model innovation for customers",
+    "link": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+    "pageDate": "Nov. 23, 2026",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "detectedAt": "2026-11-23T22:03:56.860Z",
+    "deliveredAt": "2026-11-23T22:03:56.860Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5dc94f81c1b40564124230e6",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "AI safety can’t depend on an emergency brake. It needs better engineering.",
+    "link": "https://www.aboutamazon.com/news/aws/aws-ceo-ai-safety-engineering",
+    "pageDate": "Nov. 23, 2026",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "detectedAt": "2026-11-23T22:03:56.860Z",
+    "deliveredAt": "2026-11-23T22:03:56.860Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e0f6657e0fc05def3352ec21",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Allegro and Zalando climb European top 10",
+    "link": "https://ecommercenews.eu/allegro-and-zalando-climb-european-top-10/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T22:03:56.845Z",
+    "deliveredAt": "2026-11-23T22:03:56.845Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "addc177d97b1e3b49411a244",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Warum Händler selbst die schrägste Kundenfrage smart beantworten sollten",
+    "link": "https://wortfilter.de/amazon-kundenfragen-beantworten/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-23T22:03:56.809Z",
+    "deliveredAt": "2026-11-23T22:03:56.809Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "16db67e9df6ba3c0f60d5758",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Neu als Chef? 8 Fallen, die Probleme machen",
+    "link": "https://wortfilter.de/anfaengerfehler-als-chef/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T22:03:56.809Z",
+    "deliveredAt": "2026-11-23T22:03:56.809Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4f9350cf61448a3a2672c853",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Fakeshop-Studie: 97 % der Opfer kaufen danach vorsichtiger",
+    "link": "https://wortfilter.de/fakeshop-studie-vertrauen/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T22:03:56.809Z",
+    "deliveredAt": "2026-11-23T22:03:56.809Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8df680ed4585509e65c74c97",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Snapchat Werbung: KI sucht Creator, Snap Map zeigt ihre Läden",
+    "link": "https://wortfilter.de/snapchat-werbung-creator-snap-map/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T22:03:56.809Z",
+    "deliveredAt": "2026-11-23T22:03:56.809Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c1482f574b1b18d5730df098",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Agentic Commerce: bis zu 5 Billionen Dollar – und viel Skepsis",
+    "link": "https://wortfilter.de/agentic-commerce-billionen-skepsis/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T22:03:56.809Z",
+    "deliveredAt": "2026-11-23T22:03:56.809Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "08a60df504b98c28be27556f",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Hochwertige Verpackung: 1 Minute pro Paket – zu teuer?",
+    "link": "https://wortfilter.de/hochwertige-verpackung-onlinehandel/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T22:03:56.809Z",
+    "deliveredAt": "2026-11-23T22:03:56.809Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3a3cefe07e5784dfc1018133",
+    "source": "Etsy",
+    "sourceKey": "src-dbea0c1ac563772a",
+    "sourceLabel": "Etsy",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Etsy’s Cyber Specials Are Back: Shop Trending Finds and Meaningful Gifts That Feel Uniquely You for up to 60% Off",
+    "link": "https://www.etsy.com/de/news/etsyas-cyber-specials-are-back-shop-trending-finds-and-meaningful-gifts-that-feel-uniquely-you-for-up-to-60-off",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-23T22:03:56.806Z",
+    "deliveredAt": "2026-11-23T22:03:56.806Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7201a7b3e70b4bf5f362b32f",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "JoyLogistics Launches Regional Distribution Hub in Poland to Support Haier Europe Operations Across Key European Markets",
+    "link": "https://jdcorporateblog.com/joylogistics-launches-regional-distribution-hub-in-poland-to-support-haier-europe-operations-across-key-european-markets/",
+    "pageDate": "Nov 23, 2026",
+    "publishedAt": "2026-11-23T00:00:00.000Z",
+    "detectedAt": "2026-11-23T22:03:56.764Z",
+    "deliveredAt": "2026-11-23T22:03:56.764Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "94f3217d7ba53c5e02499a20",
+    "source": "eco Presse",
+    "sourceKey": "src-b784bc4111de43c5",
+    "sourceLabel": "eco",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "eco zu Costas Digitalsteuer-Vorstoß: Wachstumsbranche darf nicht...",
+    "link": "https://www.eco.de/presse/eco-zu-costas-digitalsteuer-vorstoss-wachstumsbranche-darf-nicht-zur-haushaltsreserve-werden/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-23T22:03:56.732Z",
+    "deliveredAt": "2026-11-23T22:03:56.732Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "75416127da79a99139263f23",
     "source": "DM",
     "sourceKey": "src-fd6e846f7c6683bc",
@@ -10999,293 +11291,6 @@
     "publishedAt": null,
     "detectedAt": "2026-11-10T18:18:39.334Z",
     "deliveredAt": "2026-11-10T18:18:39.334Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7feb013c419ed9429901166e",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "When is Amazon's Black Friday 2026 event? Here’s everything you need to know",
-    "link": "https://www.aboutamazon.com/news/retail/when-is-amazon-black-friday-faq",
-    "pageDate": "Nov. 10, 2026",
-    "publishedAt": "2026-11-10T00:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.325Z",
-    "deliveredAt": "2026-11-10T18:18:39.325Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "23db11a8a635b9f267d779c1",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "When is Amazon's Cyber Monday 2026 event? Here’s everything you need to know",
-    "link": "https://www.aboutamazon.com/news/retail/when-is-amazon-cyber-monday-faq",
-    "pageDate": "Nov. 10, 2026",
-    "publishedAt": "2026-11-10T00:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.325Z",
-    "deliveredAt": "2026-11-10T18:18:39.325Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "66adab777a7546d8b1699d93",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch NFL, NBA, and the ‘Skins Game’ on Prime Video this Black Friday",
-    "link": "https://www.aboutamazon.com/news/entertainment/black-friday-football-prime-video-nba-golf",
-    "pageDate": "Nov. 10, 2026",
-    "publishedAt": "2026-11-10T00:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.325Z",
-    "deliveredAt": "2026-11-10T18:18:39.325Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f6071a6227fa798fe6579b2d",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Ring announces Ring Robotics, ushering in a new era of security",
-    "link": "https://www.aboutamazon.com/news/devices/ring-drone-cam-rover-cam-security-robot",
-    "pageDate": "Nov. 10, 2026",
-    "publishedAt": "2026-11-10T00:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.325Z",
-    "deliveredAt": "2026-11-10T18:18:39.325Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5a2edf5686902906ee7bda7a",
-    "source": "Nielseniq",
-    "sourceKey": "src-3b4d077cfd190cbb",
-    "sourceLabel": "Nielseniq",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "NIQ Launches New Shelf Architect Capability to Help Manufacturers Drive Store-Level Assortment Growth",
-    "link": "https://nielseniq.com/global/en/news-center/2026/niq-launches-new-shelf-architect-capability-to-help-manufacturers-drive-store-level-assortment-growth/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.320Z",
-    "deliveredAt": "2026-11-10T18:18:39.320Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6e7665b9f0248e8012289011",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "European Council approves VAT simplification for online sales",
-    "link": "https://ecommercenews.eu/european-council-approves-vat-simplification-for-online-sales/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.310Z",
-    "deliveredAt": "2026-11-10T18:18:39.310Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2b1bbcb5a2a79cd6cb41f1e8",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Exchange rates",
-    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.287Z",
-    "deliveredAt": "2026-11-10T18:18:39.287Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "f1407f606b6277d1bdc865a7",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Monetary policy communication: the ECB experience",
-    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.287Z",
-    "deliveredAt": "2026-11-10T18:18:39.287Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3b163d8ea079c70e707f2415",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Singles Day: Braucht der Onlinehandel den 11.11. überhaupt?",
-    "link": "https://wortfilter.de/singles-day-onlinehandel/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.280Z",
-    "deliveredAt": "2026-11-10T18:18:39.280Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8705f0d5703da1b2e6e66033",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Klage gegen Google: Kein deutsches Gericht für Auswanderer",
-    "link": "https://wortfilter.de/klage-gegen-google-auswanderer/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.280Z",
-    "deliveredAt": "2026-11-10T18:18:39.280Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e359185da337c1e1a3359dca",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Amazon Country Manager: Ex-eBay-Managerin führt 5 EU-Märkte",
-    "link": "https://wortfilter.de/amazon-country-manager-eu-emerging-stores/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.280Z",
-    "deliveredAt": "2026-11-10T18:18:39.280Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0b32ce962f6c2a71f7176d12",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Singles-Day-Rabatte: Mehr Nachfrage oder verschobene Käufe?",
-    "link": "https://onlinemarktplatz.de/295478/singles-day-rabatte-nachfrage/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.278Z",
-    "deliveredAt": "2026-11-10T18:18:39.278Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fd4297ae79db1b5425835070",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Seriöse online- Angebote für Heizöl finden",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/serioese-online-angebote-fuer-heizoel-finden-127113",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.272Z",
-    "deliveredAt": "2026-11-10T18:18:39.272Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
