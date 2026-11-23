@@ -1,5 +1,297 @@
 [
   {
+    "guid": "c81f63962a933480e8c99da8",
+    "source": "Handelskraft",
+    "sourceKey": "src-6c1c923af06aedde",
+    "sourceLabel": "Handelskraft",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Produktdatenmanagement: Passt euer PIM noch? 4 Signale, auf die ihr achten solltet",
+    "link": "https://www.handelskraft.de/produktdatenmanagement-passt-euer-pim-noch/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.612Z",
+    "deliveredAt": "2026-11-23T09:53:21.612Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dc39f3cd7b0ab13a9d021423",
+    "source": "Rewe",
+    "sourceKey": "src-dca03b70693088ae",
+    "sourceLabel": "Rewe",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "„Alles aus Liebe. Alles fürs Fest\"",
+    "link": "https://mediacenter.rewe.de/pressemitteilungen/rewe-weihnachten-2026",
+    "pageDate": "Gestern",
+    "publishedAt": null,
+    "detectedAt": "2026-11-23T09:53:21.607Z",
+    "deliveredAt": "2026-11-23T09:53:21.607Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "90bd467514cd63d960c8284f",
+    "source": "Wettbewerbszentrale",
+    "sourceKey": "src-24a9968f52923b9b",
+    "sourceLabel": "Wettbewerbszentrale",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Events",
+      "KI",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "LG Köln: Auch befristete Sonderangebote gelten als Referenzpreise",
+    "link": "https://www.wettbewerbszentrale.de/lg-koeln-auch-befristete-sonderangebote-gelten-als-referenzpreise/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.589Z",
+    "deliveredAt": "2026-11-23T09:53:21.589Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "affa7becc1bebd483710c639",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "How are Executive Board members chosen?",
+    "link": "https://www.ecb.europa.eu/ecb-and-you/explainers/html/choosingboardmembers.en.html",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.575Z",
+    "deliveredAt": "2026-11-23T09:53:21.575Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "729123ef5c7595b44fd7bae7",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": ", Bonn, 23.11.2026 Black Friday: Wenn das Schnäppchen zur Betrugsfalle wird Rund um den Black Friday locken zahlreiche Onlineshops mit hohen Rabatten und vermeintlich unschlagbaren Angeboten. Doch zwischen den vielen Sonderaktionen lauern auch Betrugsfallen: Das BSI warnt davor, sich beim digitalen Einkauf von günstigen Preisen und zeitlich begrenzten Angeboten unter Druck setzen zu lassen.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261123_Black_Friday_2026.html",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.572Z",
+    "deliveredAt": "2026-11-23T09:53:21.572Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a7a966c7623abe2bc5dc77d0",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "About You Marktplatz sucht Händler: 4 bis 22 % Provision",
+    "link": "https://wortfilter.de/about-you-marktplatz-haendler/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.571Z",
+    "deliveredAt": "2026-11-23T09:53:21.571Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0fc712b019bf2fc6dc6b9e6c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Sale-Preis im Merchant Center: Google will höchstens 30 Tage",
+    "link": "https://wortfilter.de/sale-preis-merchant-center-30-tage/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.571Z",
+    "deliveredAt": "2026-11-23T09:53:21.571Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9963a22fa5644d9b902370f8",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "PayPals Führungsumbau: Neue Spitzenkräfte für die Dreijahresstrategie",
+    "link": "https://onlinemarktplatz.de/296111/paypals-fuehrungsumbau/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.570Z",
+    "deliveredAt": "2026-11-23T09:53:21.570Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "04fda137dbbdefa9bb1d6c9e",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "TikTok in Europa: Deutschland und Österreich wollen neue Eigentümer",
+    "link": "https://onlinemarktplatz.de/296044/tiktok-in-europa-eigentuemer/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.570Z",
+    "deliveredAt": "2026-11-23T09:53:21.570Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2232d99a1e955a8bc152cddc",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Shack im Porträt: Wie der Schweizer Marktplatz Privatverkäufer gewinnen will",
+    "link": "https://onlinemarktplatz.de/296094/marktplatz-app-shack/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.570Z",
+    "deliveredAt": "2026-11-23T09:53:21.570Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c1a46140002f7d6d6b8d4724",
+    "source": "Verbraucherzentrale Hamburg Presse",
+    "sourceKey": "src-17979740ef54054e",
+    "sourceLabel": "Verbraucherzentrale Hamburg",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Großpackungen: Günstiger Preis, teurer Einkauf?",
+    "link": "https://www.vzhh.de/presse/grosspackungen-guenstiger-preis-teurer-einkauf",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-23T09:53:21.566Z",
+    "deliveredAt": "2026-11-23T09:53:21.566Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a5bc5aedca4d28e9fb9894bc",
+    "source": "Visa Newsroom DE",
+    "sourceKey": "src-7defdf77aa356e20",
+    "sourceLabel": "Visa",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [
+      "Payment"
+    ],
+    "priority": 2,
+    "title": "Visa Payment Monitor 2026: Hohe Zufriedenheit beim Bezahlen in Deutschland, der Blick ins europäische Ausland zeigt jedoch Potenzial",
+    "link": "https://www.visa.de/uber-visa/newsroom/press-releases.3481388.html",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-23T09:53:21.564Z",
+    "deliveredAt": "2026-11-23T09:53:21.564Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c88f75c6f52ad7e2d2d1660b",
+    "source": "Startup-Verband Presse",
+    "sourceKey": "src-515b92a6da1e3698",
+    "sourceLabel": "Startup-Verband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "DeepTech Startup Monitor 2026: Deutschlands nächste Wachstumswelle kommt aus dem Labor",
+    "link": "https://startupverband.de/presse/pressemitteilungen/deeptech-startup-monitor-2026-deutschlands-naechste-wachstumswelle-kommt-aus-dem-labor-23-11-2026/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T09:53:21.561Z",
+    "deliveredAt": "2026-11-23T09:53:21.561Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "823bcde8eda87896c95d8c55",
     "source": "DeStatis",
     "sourceKey": "src-7523dc532642ad9d",
@@ -10986,306 +11278,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "b36473f9b8faef9df55f0866",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "TikTok Shop App startet in Asien – huhu eBay, hört ihr das?",
-    "link": "https://wortfilter.de/tiktok-shop-app/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.428Z",
-    "deliveredAt": "2026-11-10T10:29:13.428Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a7c90cf3cb14fd2ef486c52c",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Krisen-PR: Nvidia-Chef holte Profis ein Jahr vor dem Geständnis",
-    "link": "https://wortfilter.de/krisen-pr-onlinehaendler/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.428Z",
-    "deliveredAt": "2026-11-10T10:29:13.428Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "92d7494eea057216c9ffa1a0",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Offizieller Bundeswehr Online Shop: Noch nicht mal einen Onepager bekommt die Bundeswehr hin",
-    "link": "https://wortfilter.de/bundeswehr-online-shop/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.428Z",
-    "deliveredAt": "2026-11-10T10:29:13.428Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ef9881c285131892e7da5a82",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "IKEA Jahresumsatz sinkt auf 43,8 Milliarden Euro – neue Preisrunde in Europa",
-    "link": "https://onlinemarktplatz.de/295423/ikea-jahresumsatz-2026/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.425Z",
-    "deliveredAt": "2026-11-10T10:29:13.425Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "54df6042ad4a5e305f465e5c",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon Länderchefs: Neue Führung für fünf EU-Märkte",
-    "link": "https://onlinemarktplatz.de/295411/amazon-laenderchefs-neu/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.425Z",
-    "deliveredAt": "2026-11-10T10:29:13.425Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f5ce9eec265143348fe21546",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon erweitert Seller Wallet um GBP-Erlöse aus dem UK-Geschäft",
-    "link": "https://onlinemarktplatz.de/295238/amazon-seller-wallet-gbp-erweiterung/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.425Z",
-    "deliveredAt": "2026-11-10T10:29:13.425Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "430d812a6f9e1e3a7b83bc48",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Ratenzahlung im Shop: Neue Warnpflicht ab 20. November",
-    "link": "https://onlinemarktplatz.de/295299/kreditwerbung-2026-warnpfliicht/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.425Z",
-    "deliveredAt": "2026-11-10T10:29:13.425Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "83982468d7c99d330f024904",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Klarna Anruf-Verifizierung startet in allen 26 Märkten",
-    "link": "https://onlinemarktplatz.de/295312/klarna-anruf-verifizierung-weltweit/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.425Z",
-    "deliveredAt": "2026-11-10T10:29:13.425Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "aa174136ccbccec3b44554d1",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Amazon Black-Friday-Woche 2026 startet am 19. November und dauert 12 Tage",
-    "link": "https://onlinemarktplatz.de/295456/amazon-black-friday-woche-2026/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.425Z",
-    "deliveredAt": "2026-11-10T10:29:13.425Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "529fdd3ca11b0b0e4839d077",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Warmwasser clever nutzen",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/warmwasser-clever-nutzen-127041",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.418Z",
-    "deliveredAt": "2026-11-10T10:29:13.418Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9545064c1325bcc17d68d3f0",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Doppelter Erfolg gegen untergeschobene Abos",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/doppelter-erfolg-gegen-untergeschobene-abos-127042",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T10:29:13.418Z",
-    "deliveredAt": "2026-11-10T10:29:13.418Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "abd611b99e4c4faaabbc7293",
-    "source": "eco Presse",
-    "sourceKey": "src-b784bc4111de43c5",
-    "sourceLabel": "eco",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Fake Bilder, realer Schmerz: Deepfakes und sexualisierte Gewalt",
-    "link": "https://www.eco.de/presse/fake-bilder-realer-schmerz-deepfakes-und-sexualisierte-gewalt/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T10:29:13.365Z",
-    "deliveredAt": "2026-11-10T10:29:13.365Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "43afc02f8d65f58e0b933ab0",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon in the community: Service, community, and commitment at HQ2",
-    "link": "https://www.aboutamazon.com/news/community/amazon-arlington-virginia-news",
-    "pageDate": "Nov. 9, 2026",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "detectedAt": "2026-11-10T02:45:40.135Z",
-    "deliveredAt": "2026-11-10T02:45:40.135Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]

@@ -9,7 +9,7 @@
     "group": "Finanzen",
     "slug": "finanzen",
     "file": "feeds/finanzen.xml",
-    "count": 23
+    "count": 25
   },
   {
     "group": "Firmen",
@@ -45,13 +45,13 @@
     "group": "Sonstiges",
     "slug": "sonstiges",
     "file": "feeds/sonstiges.xml",
-    "count": 248
+    "count": 244
   },
   {
     "group": "Staat",
     "slug": "staat",
     "file": "feeds/staat.xml",
-    "count": 12
+    "count": 14
   },
   {
     "group": "Verbände",
