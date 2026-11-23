@@ -1,5 +1,28 @@
 [
   {
+    "guid": "2f2765adb28fc60de5e41d97",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Lieferzeiten: 10 Tage im Angebot, Ware nach 3 Tagen da",
+    "link": "https://wortfilter.de/amazon-lieferzeiten-ssa/",
+    "pageDate": "22.11.2026",
+    "publishedAt": "2026-11-22T12:00:00.000Z",
+    "detectedAt": "2026-11-23T01:48:23.698Z",
+    "deliveredAt": "2026-11-23T01:48:23.698Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "987d363fd634bb04d12efa32",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11263,27 +11286,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "6d799d4d974d89b12cf6dd87",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Watch the trailer for ‘Maxton Hall’ Season 3, the final chapter premiering December 9 on Prime Video",
-    "link": "https://www.aboutamazon.com/news/entertainment/maxton-hall-prime-video",
-    "pageDate": "Nov. 9, 2026",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.269Z",
-    "deliveredAt": "2026-11-09T20:11:48.269Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
