@@ -1,5 +1,122 @@
 [
   {
+    "guid": "823bcde8eda87896c95d8c55",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "14,7 % mehr Spenden im Jahr 2022 als im Vorjahr",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N082_73.html",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T07:11:38.301Z",
+    "deliveredAt": "2026-11-23T07:11:38.301Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "270f5505d9bbf27791b97d0a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Onlinehändler-Horoskop KW 48: Vier Tage bis Black Friday",
+    "link": "https://wortfilter.de/onlinehaendler-horoskop-kw-48/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T07:11:38.278Z",
+    "deliveredAt": "2026-11-23T07:11:38.278Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9b61fb78565579a3d9c7c3f0",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Scalapay bei Shopify: Einschränkung für deutsche Kunden",
+    "link": "https://onlinemarktplatz.de/296132/scalapay-bei-shopify/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T07:11:38.277Z",
+    "deliveredAt": "2026-11-23T07:11:38.277Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "eba89201e3693ffc840b2e78",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "CVS Pharmacy soll eigenständig werden: Konzern plant Aufspaltung",
+    "link": "https://onlinemarktplatz.de/296117/cvs-pharmacy-abspaltung-2028/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T07:11:38.277Z",
+    "deliveredAt": "2026-11-23T07:11:38.277Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "733d8f09fa98a3708463031d",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Weihnachtslogistik 2026: Warum der Wareneingang später anzieht",
+    "link": "https://onlinemarktplatz.de/295963/weihnachtslogistik-2026/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-23T07:11:38.277Z",
+    "deliveredAt": "2026-11-23T07:11:38.277Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "2f2765adb28fc60de5e41d97",
     "source": "Wortfilter",
     "sourceKey": "src-4ac1e5fd69b71704",
@@ -11170,121 +11287,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8fb2c2a5cbcbacdc8ab90b4e",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Claude Fable 5.2 is now available on AWS",
-    "link": "https://www.aboutamazon.com/news/aws/anthropic-claude-4-opus-sonnet-amazon-bedrock",
-    "pageDate": "Nov. 9, 2026",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "detectedAt": "2026-11-10T02:45:40.134Z",
-    "deliveredAt": "2026-11-10T02:45:40.134Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e176d1f7cc6cb09c63b5fa1d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Fable 5.2 und Mythos 5.2: Fable-API wird 20 Prozent billiger",
-    "link": "https://wortfilter.de/claude-fable-5-2-mythos-5-2/",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-10T02:45:40.105Z",
-    "deliveredAt": "2026-11-10T02:45:40.105Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5a0ce2d84071dc1a5c4250a5",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Süßwaren-Adventskalender 2025: Absatz –15 %, Preis +11,6 %",
-    "link": "https://wortfilter.de/suesswaren-adventskalender-absatz-preis/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T02:45:40.105Z",
-    "deliveredAt": "2026-11-10T02:45:40.105Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9efbe9e4fc765532a49566ce",
-    "source": "PayPal US",
-    "sourceKey": "src-036682c8cc9a64e1",
-    "sourceLabel": "PayPal US",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [
-      "Unternehmensnews",
-      "Payment"
-    ],
-    "priority": 2,
-    "title": "Venmo Launches Receipt Scanning Feature to Split Bills by Item",
-    "link": "https://newsroom.paypal-corp.com/2026-11-09-Venmo-Launches-Receipt-Scanning-Feature-to-Split-Bills-by-Item",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.279Z",
-    "deliveredAt": "2026-11-09T20:11:48.279Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fbb6b1804e594c85a6e740bb",
-    "source": "Uber",
-    "sourceKey": "src-9ca710b31d1e337a",
-    "sourceLabel": "Uber",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Events",
-      "Quartalszahlen",
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "McDonald’s and Uber Expand Global Partnership Across Delivery and Loyalty in 14 Markets",
-    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/McDonalds-and-Uber-Expand-Global-Partnership-Across-Delivery-and-Loyalty-in-14-Markets/default.aspx",
-    "pageDate": "November 9, 2026",
-    "publishedAt": "2026-11-09T00:00:00.000Z",
-    "detectedAt": "2026-11-09T20:11:48.278Z",
-    "deliveredAt": "2026-11-09T20:11:48.278Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
