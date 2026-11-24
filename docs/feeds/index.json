@@ -15,7 +15,7 @@
     "group": "Firmen",
     "slug": "firmen",
     "file": "feeds/firmen.xml",
-    "count": 101
+    "count": 100
   },
   {
     "group": "Institute",
@@ -33,19 +33,19 @@
     "group": "Quartalszahlen",
     "slug": "quartalszahlen",
     "file": "feeds/quartalszahlen.xml",
-    "count": 19
+    "count": 18
   },
   {
     "group": "Research",
     "slug": "research",
     "file": "feeds/research.xml",
-    "count": 41
+    "count": 42
   },
   {
     "group": "Sonstiges",
     "slug": "sonstiges",
     "file": "feeds/sonstiges.xml",
-    "count": 250
+    "count": 251
   },
   {
     "group": "Staat",

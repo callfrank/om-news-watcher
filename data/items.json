@@ -1,5 +1,72 @@
 [
   {
+    "guid": "2b1bbcb5a2a79cd6cb41f1e8",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Exchange rates",
+    "link": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-24T05:08:43.802Z",
+    "deliveredAt": "2026-11-24T05:08:43.802Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "a004ebef6950d00f3b6d8262",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Impressum melden: Kein Problemtyp für Händler",
+    "link": "https://wortfilter.de/amazon-impressum-melden/",
+    "pageDate": "23.11.2026",
+    "publishedAt": "2026-11-23T12:00:00.000Z",
+    "detectedAt": "2026-11-24T05:08:43.799Z",
+    "deliveredAt": "2026-11-24T05:08:43.799Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d7593327c8eed2222b5f8c4e",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Forrester: More Than Two-Thirds Of Consumers Expect Their Banking App To Manage All Financial Tasks",
+    "link": "https://www.forrester.com/press-newsroom/forrester-more-than-two-thirds-of-consumers-expect-their-banking-app-to-manage-all-financial-tasks/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-24T05:08:43.764Z",
+    "deliveredAt": "2026-11-24T05:08:43.764Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "63027c446578b679bdbbd880",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
@@ -11226,71 +11293,6 @@
     "publishedAt": null,
     "detectedAt": "2026-11-10T18:18:39.353Z",
     "deliveredAt": "2026-11-10T18:18:39.353Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c901c6fb28c98cb810b769d9",
-    "source": "Sea Ltd. QZ",
-    "sourceKey": "119c47b8-2de5-46eb-9009-6eb2ab2a139a",
-    "sourceLabel": "Sea Ltd. QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Presentation",
-    "link": "https://cdn.sea.com/investor/3Q2026/VZJl6wXWX76O8otphvf6/2026.11.10%20Sea%20Third%20Quarter%202026%20Results%20Deck.pdf",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T18:18:39.353Z",
-    "deliveredAt": "2026-11-10T18:18:39.353Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7a6d4d0d44c93ee96b0961d4",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Klarna fordert monatliche Händler-Gebühr – eine Chance für Wero?",
-    "link": "https://demoshops.de/klarna-fordert-monatliche-haendler-gebuehr/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T18:18:39.347Z",
-    "deliveredAt": "2026-11-10T18:18:39.347Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d085b34cd4aa8e5d5f560ab9",
-    "source": "Ebayinc",
-    "sourceKey": "src-15b135037542f2c3",
-    "sourceLabel": "Ebayinc",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "E-Commerce",
-      "Studien & Marktdaten",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "eBay’s Watchlist Trend Report reveals how fashion’s creative director shakeups are creating demand for archival items",
-    "link": "https://www.ebayinc.com/stories/news/ebays-watchlist-trend-report-reveals-how-fashions-creative-director-shakeups-are-creating-demand-for-archival-items/",
-    "pageDate": "Nov 10, 2026 Fashion",
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T18:18:39.334Z",
-    "deliveredAt": "2026-11-10T18:18:39.334Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
