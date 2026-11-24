@@ -1,5 +1,237 @@
 [
   {
+    "guid": "da0a7ae5766d2e319069ab09",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen",
+      "Quartalszahlen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart Leadership to Participate in Upcoming Investor Events",
+    "link": "https://corporate.walmart.com/news/2026/11/Q4-Investor-Events",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-24T17:43:38.692Z",
+    "deliveredAt": "2026-11-24T17:43:38.692Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null,
+    "duplicateSources": [
+      "Walmart QZ"
+    ]
+  },
+  {
+    "guid": "ad6645b288cae5f6434d85af",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Walmart’s Black Friday Deals Continue. Meta’s Muse Can Now Shop Them, Too.",
+    "link": "https://corporate.walmart.com/news/2026/11/black-friday-deals-with-meta-muse",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-24T17:43:38.692Z",
+    "deliveredAt": "2026-11-24T17:43:38.692Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b33aaf4759c20c48d6b0f670",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Zur Pressemitteilung",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/kaufland-weihnachtskampagne-festtagsfreude-genau-dann-wenn-man-sie-spuert",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-24T17:43:38.688Z",
+    "deliveredAt": "2026-11-24T17:43:38.688Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7f231cad3485c52dc7a069f1",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon CTO Werner Vogels’ 5 tech predictions for 2027 and beyond",
+    "link": "https://www.aboutamazon.com/news/aws/werner-vogels-tech-predictions-2027",
+    "pageDate": "Nov. 24, 2026",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "detectedAt": "2026-11-24T17:43:38.685Z",
+    "deliveredAt": "2026-11-24T17:43:38.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b4daa4b5abe14e98b0228237",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "18 holiday movies and shows to watch on Prime Video this season",
+    "link": "https://www.aboutamazon.com/news/entertainment/christmas-movies-amazon-prime-holidays-watch",
+    "pageDate": "Nov. 24, 2026",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "detectedAt": "2026-11-24T17:43:38.685Z",
+    "deliveredAt": "2026-11-24T17:43:38.685Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4329c05aaa04504a739f667e",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Onbuy and Octopia expand partnership",
+    "link": "https://ecommercenews.eu/onbuy-and-octopia-expand-partnership/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T17:43:38.677Z",
+    "deliveredAt": "2026-11-24T17:43:38.677Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0862cce86f441a8bf89b1f45",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Meldung:, 24.11.2026 OSCAL bleibt Standardsprache für BSI-Sicherheitsanforderungen Die angekündigte Auflösung der OSCAL Foundation hat keine Auswirkungen auf die Weiterentwicklung der BSI-Sicherheitsanforderungen. Dafür sorgt die direkte Zusammenarbeit zwischen NIST und BSI.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/OSCAL-bleibt_261124.html",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T17:43:38.657Z",
+    "deliveredAt": "2026-11-24T17:43:38.657Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b7b13f4c72ceac6e11bb1359",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "eBay Versand für Rivalen: Stellenanzeigen verraten den Plan",
+    "link": "https://wortfilter.de/ebay-versand-konkurrenz/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T17:43:38.656Z",
+    "deliveredAt": "2026-11-24T17:43:38.656Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7ca4af03b7d44e4c92d65c9a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Größte Marktplätze Europas: Allegro und Zalando klettern",
+    "link": "https://wortfilter.de/groesste-marktplaetze-europas-2026/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T17:43:38.656Z",
+    "deliveredAt": "2026-11-24T17:43:38.656Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dafbcd85142f583501d1bc02",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "TikToks Auftragsstudie: 84 Prozent der befragten Shop-Unternehmen melden mehr Umsatz",
+    "link": "https://onlinemarktplatz.de/296291/tiktoks-auftragsstudie-shop-umsatz-2026/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T17:43:38.654Z",
+    "deliveredAt": "2026-11-24T17:43:38.654Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "7a3312286f822cee2db6fd36",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -11072,222 +11304,6 @@
     "publishedAt": "2026-11-11T12:00:00.000Z",
     "detectedAt": "2026-11-11T18:43:09.195Z",
     "deliveredAt": "2026-11-11T18:43:09.195Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a9f95cb3ac0b525bbf7f20dc",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "PayPal-Gebühren: Kartellamt sieht Nachteile für Händler und Kunden",
-    "link": "https://onlinemarktplatz.de/295535/paypal-gebuehren-kartellamt/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.195Z",
-    "deliveredAt": "2026-11-11T18:43:09.195Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9a4ee7a2307ee461a216e362",
-    "source": "Etsy",
-    "sourceKey": "src-dbea0c1ac563772a",
-    "sourceLabel": "Etsy",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Olivia Rodrigo and Etsy Team Up for the Holiday Season Timed to New Song “take me home (4 christmas)”",
-    "link": "https://www.etsy.com/de/news/olivia-rodrigo-and-etsy-team-up-for-the-holiday-season-timed-to-new-song-atake-me-home-4-christmasa",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T18:43:09.194Z",
-    "deliveredAt": "2026-11-11T18:43:09.194Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bb1dee6f6f1bfea3b66ae4ca",
-    "source": "Deloitte",
-    "sourceKey": "src-ee546a6472b48b72",
-    "sourceLabel": "Deloitte",
-    "groups": [
-      "Research"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Ohne Reformen und technologische Innovationen könnten sich Pflegekosten bis 2050 nahezu verdreifachen",
-    "link": "https://www.deloitte.com/de/de/about/press-room/ohne-reformen-und-technologische-innovationen-koennten-sich-pflegekosten-bis-2050-nahezu-verdreifachen.html",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T18:43:09.192Z",
-    "deliveredAt": "2026-11-11T18:43:09.192Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fa5d4374df3d8f9e1bcdd80d",
-    "source": "Startup-Verband Presse",
-    "sourceKey": "src-515b92a6da1e3698",
-    "sourceLabel": "Startup-Verband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Logistik",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Digital Fairness Act: Startup-Verband warnt vor Mehrbelastung für Startups und Scaleups",
-    "link": "https://startupverband.de/presse/pressemitteilungen/digital-fairness-act-startup-verband-warnt-vor-mehrbelastung-fuer-startups-und-scaleups-11-11-2026/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.181Z",
-    "deliveredAt": "2026-11-11T18:43:09.181Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "9d15aebad1aa1c1833ae6836",
-    "source": "eco Presse",
-    "sourceKey": "src-b784bc4111de43c5",
-    "sourceLabel": "eco",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Digital Fairness Act: Europa braucht faire digitale Märkte ohne regulatorische Stolperfallen",
-    "link": "https://www.eco.de/presse/eco-zum-digital-fairness-act-europa-braucht-faire-digitale-maerkte-ohne-regulatorische-stolperfallen/",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T18:43:09.119Z",
-    "deliveredAt": "2026-11-11T18:43:09.119Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ca476a4ff0247ada730d676d",
-    "source": "DM",
-    "sourceKey": "src-fd6e846f7c6683bc",
-    "sourceLabel": "DM",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Produktrückruf: dm ruft vorsorglich den Artikel „Sportness 50 % Proteinriegel mit Crispy-White-Chocolate-Geschmack, 45 g“ zurück",
-    "link": "https://newsroom.dm.de/pressreleases/produktrueckruf-dm-ruft-vorsorglich-den-artikel-sportness-50-prozent-proteinriegel-mit-crispy-white-chocolate-geschmack-45-g-zurueck-3477552",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.846Z",
-    "deliveredAt": "2026-11-11T10:57:19.846Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "863c831e849e7cd80adb6318",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Neue Creative Directors, neu entdeckte Ikonen: Der eBay Watchlist Trendreport zeigt die aktuellen Pre-Loved Trends",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-staerkt-europaeische-ausrichtung-und-buendelt-fuehrung-seiner-eu-marktplaetze/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.843Z",
-    "deliveredAt": "2026-11-11T10:57:19.843Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
-  },
-  {
-    "guid": "079a22a8cbb5d19d5f2a1b50",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Bundeskartellamt: PayPal könnte Wettbewerb zwischen Zahlungsdiensten behindern",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/11_11_2026_Paypal.html?nn=52004",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.821Z",
-    "deliveredAt": "2026-11-11T10:57:19.821Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "382bfbc1cca492b6c9bed3e1",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Tourismus in Deutschland im September 2026: 0,8 % mehr Übernachtungen als im Vorjahresmonat",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_394_45412.html",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.821Z",
-    "deliveredAt": "2026-11-11T10:57:19.821Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "29315efeaa75e2910295094e",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Zahl der Schulanfängerinnen und -anfänger 2026 um 0,7 % gesunken",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_393_211.html",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.821Z",
-    "deliveredAt": "2026-11-11T10:57:19.821Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
