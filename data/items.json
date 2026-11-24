@@ -1,5 +1,299 @@
 [
   {
+    "guid": "30bef1223d560bf6ddb44709",
+    "source": "Kaufland",
+    "sourceKey": "src-824d896356b1a926",
+    "sourceLabel": "Kaufland",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Zur Pressemitteilung",
+    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/kaufland-fleischwaren-plant-uebernahme-des-produktionsstandortes-von-ponnath-in-nuernberg",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-24T09:18:36.760Z",
+    "deliveredAt": "2026-11-24T09:18:36.760Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a704645c1aa96df0cf38037f",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Selbstlerneinheit: Social Recruiting und KI-Tools",
+    "link": "https://digitalzentrumhandel.de/author/anne-liesenfeld/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.753Z",
+    "deliveredAt": "2026-11-24T09:18:36.753Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "e9c49fef13e88e387eb626a8",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Computer und Spielekonsolen im Oktober 2026 deutlich teurer als ein Jahr zuvor",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N083_61.html",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.745Z",
+    "deliveredAt": "2026-11-24T09:18:36.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5ca067706341eae2fb6058b0",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Mehr als jedes dritte Unternehmen nutzt 2026 künstliche Intelligenz",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_408_52911.html",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.745Z",
+    "deliveredAt": "2026-11-24T09:18:36.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "96ccc1d346266aaf82cc4b16",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "98 % der Feuerwerk-Importe im Jahr 2025 kamen aus China",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2026/PD26_48_p002.html",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.745Z",
+    "deliveredAt": "2026-11-24T09:18:36.745Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "08dc089a03a2b3152d5eda23",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Nikolaus bringt dem Einzelhandel mehr als eine Milliarde Euro Umsatz",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15450-nikolaus-bringt-dem-einzelhandel-mehr-als-eine-milliarde-euro-umsatz",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-24T09:18:36.722Z",
+    "deliveredAt": "2026-11-24T09:18:36.722Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0bb9aa42869bd85428dbe697",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kay Schiebur geht: Otto Group verkleinert Vorstand auf vier Mitglieder",
+    "link": "https://onlinemarktplatz.de/296142/kay-schiebur-otto-group/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.721Z",
+    "deliveredAt": "2026-11-24T09:18:36.721Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d415acb663c88b655fa4dc20",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Omnichannel-Trends 2027: Zehn Entwicklungen im Faktencheck",
+    "link": "https://onlinemarktplatz.de/296053/omnichannel-trends-2027-faktencheck/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.721Z",
+    "deliveredAt": "2026-11-24T09:18:36.721Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "93aea77730138682673a9744",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Manipulierte WordPress-Plugins: WooCommerce-Anbindung gesperrt",
+    "link": "https://onlinemarktplatz.de/296232/manipulierte-wordpress-plugins/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.721Z",
+    "deliveredAt": "2026-11-24T09:18:36.721Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1a2d6b6b51359baed7d0f153",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Googles Sale-Kennzeichnung: Empfehlung für maximal 30 Tage",
+    "link": "https://onlinemarktplatz.de/296147/googles-sale-kennzeichnung/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.721Z",
+    "deliveredAt": "2026-11-24T09:18:36.721Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b956691d1aa6668d4a8abf72",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Richtig gut versichert: Hilfe und Unterstützung im Alltag nach einem Unfall",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/richtig-gut-versichert-hilfe-und-unterstuetzung-im-alltag-nach-einem-unfall-127430",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.716Z",
+    "deliveredAt": "2026-11-24T09:18:36.716Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cfb0d55f9b224c33161e4e7f",
+    "source": "Verbraucherzentrale BW Presse",
+    "sourceKey": "src-1b0ed24ce78ff6f3",
+    "sourceLabel": "Verbraucherzentrale BW",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Nachhaltigkeit"
+    ],
+    "priority": 2,
+    "title": "Reform der Altersvorsorge: Öffentliches Standarddepot lässt auf sich warten – Riester-Probleme bleiben?",
+    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/reform-der-altersvorsorge-oeffentliches-standarddepot-laesst-auf-sich-warten-riesterprobleme-bleiben-127418",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.714Z",
+    "deliveredAt": "2026-11-24T09:18:36.714Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d2ddcc0228143e11130058b1",
+    "source": "JD Corporate News",
+    "sourceKey": "src-9261fd3fa3c1f896",
+    "sourceLabel": "JD",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "JD.com Brings Global Partners Together to Strengthen Cross-Border Trade and Brand Growth in China",
+    "link": "https://jdcorporateblog.com/jd-com-brings-global-partners-together-to-strengthen-cross-border-trade-and-brand-growth-in-china/",
+    "pageDate": "Nov 24, 2026",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "detectedAt": "2026-11-24T09:18:36.692Z",
+    "deliveredAt": "2026-11-24T09:18:36.692Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "2b1bbcb5a2a79cd6cb41f1e8",
     "source": "ECB",
     "sourceKey": "src-f132ccda6cdbce0d",
@@ -11003,296 +11297,6 @@
     "publishedAt": "2026-11-11T12:00:00.000Z",
     "detectedAt": "2026-11-11T10:57:19.795Z",
     "deliveredAt": "2026-11-11T10:57:19.795Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3708cc0d83be2ab3053e212f",
-    "source": "Verbraucherzentrale Hamburg Presse",
-    "sourceKey": "src-17979740ef54054e",
-    "sourceLabel": "Verbraucherzentrale Hamburg",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Digitaler Nachlass: Wenn der Entsperrcode fürs Handy fehlt",
-    "link": "https://www.vzhh.de/presse/digitaler-nachlass-wenn-der-entsperrcode-fuers-handy-fehlt",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T10:57:19.794Z",
-    "deliveredAt": "2026-11-11T10:57:19.794Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f102eada2bd9ecba0aee1c37",
-    "source": "Verbraucherzentrale BW Presse",
-    "sourceKey": "src-1b0ed24ce78ff6f3",
-    "sourceLabel": "Verbraucherzentrale BW",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Nachhaltigkeit"
-    ],
-    "priority": 2,
-    "title": "Zwischen Angstmache und fragwürdigen Gesundheitsversprechen",
-    "link": "https://www.verbraucherzentrale-bawue.de/pressemitteilungen/zwischen-angstmache-und-fragwuerdigen-gesundheitsversprechen-127061",
-    "pageDate": "09.11.2026",
-    "publishedAt": "2026-11-09T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.792Z",
-    "deliveredAt": "2026-11-11T10:57:19.792Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": [
-      "Verbraucherzentrale RLP Presse"
-    ]
-  },
-  {
-    "guid": "6b6a5bca8ad55f404f73cb7a",
-    "source": "Telekom Medieninformationen",
-    "sourceKey": "src-6f65565f4749a295",
-    "sourceLabel": "Telekom",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "MagentaTV: Zwischen Liebesglück, Machtspielen und Hexerei",
-    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/magentatv-zwischen-liebesglueck-machtspielen-und-hexerei",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T10:57:19.789Z",
-    "deliveredAt": "2026-11-11T10:57:19.789Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e5059d18d224dd5c16d51f39",
-    "source": "Momox Presse",
-    "sourceKey": "src-347c1a155304dbda",
-    "sourceLabel": "Momox",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce",
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "Second Hand unterm Weihnachtsbaum: 88 Prozent würden sich über ein gebrauchtes Geschenk freuen",
-    "link": "https://momox.biz/presse/8-pressemeldungen/261-2026/1302-momox-second-hand-geschenke-2026",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.780Z",
-    "deliveredAt": "2026-11-11T10:57:19.780Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f3c5a38d60860e38d4e3e1e6",
-    "source": "JD Corporate News",
-    "sourceKey": "src-9261fd3fa3c1f896",
-    "sourceLabel": "JD",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "SPL and JINGDONG Industrials Sign Strategic Partnership to Strengthen Industrial Supply Chains in Saudi Arabia",
-    "link": "https://jdcorporateblog.com/spl-and-jingdong-industrials-sign-strategic-partnership-to-strengthen-industrial-supply-chains-in-saudi-arabia/",
-    "pageDate": "Nov 11, 2026",
-    "publishedAt": "2026-11-11T00:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.771Z",
-    "deliveredAt": "2026-11-11T10:57:19.771Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "aa8158efb704168621e7ff2e",
-    "source": "Galaxus Medienmitteilungen",
-    "sourceKey": "src-c4694153f4de0aba",
-    "sourceLabel": "Galaxus",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Galaxus startet MCP-Schnittstelle für KI-Assistenten",
-    "link": "https://www.galaxus.de/de/page/galaxus-startet-mcp-schnittstelle-fuer-ki-assistenten-44216",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T10:57:19.769Z",
-    "deliveredAt": "2026-11-11T10:57:19.769Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3267d033de97a43f1a287e95",
-    "source": "Zalando Newsroom",
-    "sourceKey": "src-72a2ecac55647739",
-    "sourceLabel": "Zalando",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "Vom einfachen Chat-Tool zum Shopping- und Lifestyle-Begleiter: Die Entwicklung des Zalando Assistant",
-    "link": "https://corporate.zalando.com/de/technologie/vom-einfachen-chat-tool-zum-shopping-und-lifestyle-begleiter-die-entwicklung-des",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.746Z",
-    "deliveredAt": "2026-11-11T10:57:19.746Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "11122dfdf7fc2069677a63f0",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Nach 27 Jahren: EcommerceBytes eingestellt",
-    "link": "https://wortfilter.de/ecommercebytes-eingestellt/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T03:03:35.493Z",
-    "deliveredAt": "2026-11-11T03:03:35.493Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6a9d9faa299679b13ca60816",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "GTA 6 Download bremst Google Analytics? Kein Beleg",
-    "link": "https://wortfilter.de/gta-6-download-google-analytics/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T23:29:12.894Z",
-    "deliveredAt": "2026-11-10T23:29:12.894Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "8aed2029f4e4f819a73dc67e",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "EUDR in 50 Tagen: Was Onlinehändler jetzt prüfen müssen",
-    "link": "https://wortfilter.de/eudr-onlinehaendler-checkliste/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T23:29:12.894Z",
-    "deliveredAt": "2026-11-10T23:29:12.894Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "022652ea978f104dbf7189f1",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "E-Auto-Förderung für Unternehmer: 75 % AfA statt Prämie",
-    "link": "https://wortfilter.de/e-auto-foerderung-unternehmer/",
-    "pageDate": "10.11.2026",
-    "publishedAt": "2026-11-10T12:00:00.000Z",
-    "detectedAt": "2026-11-10T23:29:12.894Z",
-    "deliveredAt": "2026-11-10T23:29:12.894Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fefa2ff78c0a25f9869f22ac",
-    "source": "Sea Ltd. QZ",
-    "sourceKey": "119c47b8-2de5-46eb-9009-6eb2ab2a139a",
-    "sourceLabel": "Sea Ltd. QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Transcript",
-    "link": "https://cdn.sea.com/investor/3Q2026/VZJl6wXWX76O8otphvf6/2026.11.10%20Sea%20Third%20Quarter%202026%20Earnings%20Call%20Transcript.pdf",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T18:18:39.353Z",
-    "deliveredAt": "2026-11-10T18:18:39.353Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6d678c4b9d1ab7585439e9fe",
-    "source": "Sea Ltd. QZ",
-    "sourceKey": "119c47b8-2de5-46eb-9009-6eb2ab2a139a",
-    "sourceLabel": "Sea Ltd. QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Infographic",
-    "link": "https://cdn.sea.com/investor/3Q2026/VZJl6wXWX76O8otphvf6/2026.11.10%20Sea%20Third%20Quarter%202026%20Results%20Infographic.pdf",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-10T18:18:39.353Z",
-    "deliveredAt": "2026-11-10T18:18:39.353Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
