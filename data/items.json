@@ -1,5 +1,314 @@
 [
   {
+    "guid": "7a3312286f822cee2db6fd36",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Sparkassen stärken Wero: Käuferschutz, Abo-Zahlungen, One-Click & EPI-App",
+    "link": "https://demoshops.de/sparkasse-wero-kaeuferschutz-abo-zahlungen/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.295Z",
+    "deliveredAt": "2026-11-24T12:39:35.295Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "994db7c5d1b17583aeb5afa6",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How to watch the UEFA Champions League on Prime Video outside the US",
+    "link": "https://www.aboutamazon.com/news/entertainment/champions-league-prime-video-how-to-watch-schedule",
+    "pageDate": "Nov. 24, 2026",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.268Z",
+    "deliveredAt": "2026-11-24T12:39:35.268Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9a0ac9e08bb1e35ad7f3f318",
+    "source": "Iwh-halle",
+    "sourceKey": "src-029efb425dd21a52",
+    "sourceLabel": "Iwh-halle",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten"
+    ],
+    "priority": 3,
+    "title": "24.11.2026 • 33/2026",
+    "link": "https://www.iwh-halle.de/presse/pressemitteilungen/detail/erei-update-mieten-in-deutschland-steigen-waehrend-kaufpreise-stagnieren",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.265Z",
+    "deliveredAt": "2026-11-24T12:39:35.265Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0d4bad59a2134b8d2d77c80d",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Bruttoinlandsprodukt, tiefer gegliederte Ergebnisse25. November 2026",
+    "link": "https://www.destatis.de/DE/Presse/Wochenvorschau/_inhalt.html",
+    "pageDate": "25. NOV 26",
+    "publishedAt": "2026-11-25T00:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.249Z",
+    "deliveredAt": "2026-11-24T12:39:35.249Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "c1cd3178b555701e8e4de218",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "98 % der Feuerwerk-Importe im Jahr 2025 kamen aus China24. November 2026",
+    "link": "https://www.destatis.de/SiteGlobals/Forms/Suche/Presse/DE/Pressesuche_Formular_2.html",
+    "pageDate": "24. NOV 26",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.249Z",
+    "deliveredAt": "2026-11-24T12:39:35.249Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "a2b3010001fea6c4fa2ba560",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "How scenario synthesis helps assess risks",
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261124~6486644873.en.html",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.220Z",
+    "deliveredAt": "2026-11-24T12:39:35.220Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "82f40047fe775baf5613aa6d",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Resilience in an age of shocks",
+    "link": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.219Z",
+    "deliveredAt": "2026-11-24T12:39:35.219Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bab227d34c5ce647d066b9ad",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Erfolgreich in den Onlinehandel starten – Internationalisierung",
+    "link": "https://wortfilter.de/internationalisierung-im-onlinehandel/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.210Z",
+    "deliveredAt": "2026-11-24T12:39:35.210Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f809212193c81edcbe31cd05",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Gewerbestrom-Test 2026: Flensburg schlägt E.ON und EnBW",
+    "link": "https://wortfilter.de/gewerbestrom-test-2026/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.210Z",
+    "deliveredAt": "2026-11-24T12:39:35.210Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a4a7bd1b1b874d5c7db1b3e7",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "DHL hält den Wintersport in Bewegung: Partnerschaften mit BSD und FIL verlängert",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-haelt-den-wintersport-in-bewegung-partnerschaften-mit-bsd-und-fil-verlaengert.html",
+    "pageDate": "23.11.2026, 12:00 MEZ DHL",
+    "publishedAt": null,
+    "detectedAt": "2026-11-24T12:39:35.209Z",
+    "deliveredAt": "2026-11-24T12:39:35.209Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5ddbcbd387ad545e4beae1ee",
+    "source": "DHL",
+    "sourceKey": "src-e5330506f57b7169",
+    "sourceLabel": "DHL",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Technologie, Industrie, Life Sciences & Healthcare sowie Infrastruktur und Energie treiben Wachstum bei DHL Express Europe",
+    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/technologie-industrie-life-sciences-und-healthcare-sowie-infrastruktur-und-energie-treiben-wachstum-bei-dhl-express-europe.html",
+    "pageDate": "24.11.2026, 11:00 MEZ DHL EXPRESS",
+    "publishedAt": null,
+    "detectedAt": "2026-11-24T12:39:35.209Z",
+    "deliveredAt": "2026-11-24T12:39:35.209Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2c6520ca15c38a7e4b3a3f9a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Google Shopping Report 2026: Was Kunden vor Weihnachten suchen",
+    "link": "https://onlinemarktplatz.de/296258/google-shopping-report-2026/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.208Z",
+    "deliveredAt": "2026-11-24T12:39:35.208Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5b34332766539f8d732ab72f",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Farinas Vertriebsstrategie – Beratung, Duftproben und Markenerlebnis",
+    "link": "https://onlinemarktplatz.de/295931/farinas-vertriebsstrategie-podcast/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.208Z",
+    "deliveredAt": "2026-11-24T12:39:35.208Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "88f096a2ff6223b9922b3a8c",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "24.11.2026Smart Glasses: Verbraucherzentrale verklagt Meta und Ray-Ban",
+    "link": "https://www.vzbv.de/pressemitteilungen/smart-glasses-verbraucherzentrale-verklagt-meta-und-ray-ban",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-24T12:39:35.197Z",
+    "deliveredAt": "2026-11-24T12:39:35.197Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "30bef1223d560bf6ddb44709",
     "source": "Kaufland",
     "sourceKey": "src-824d896356b1a926",
@@ -2980,28 +3289,6 @@
     "duplicateSources": [
       "Walmart QZ"
     ]
-  },
-  {
-    "guid": "3a938406ffb11964642bc42b",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zur Pressemitteilung",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/black-week-offensive-kaufland.de-bietet-kunden-2-5-millionen-artikel-mit-bis-zu-60-rabatt",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-19T18:42:56.073Z",
-    "deliveredAt": "2026-11-19T18:42:56.073Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   },
   {
     "guid": "0c4705106b8e4a07ce2f48a5",
@@ -11001,302 +11288,6 @@
     "publishedAt": "2026-11-11T12:00:00.000Z",
     "detectedAt": "2026-11-11T10:57:19.821Z",
     "deliveredAt": "2026-11-11T10:57:19.821Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "6bf999ca3e78d2d6294a690c",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Inflationsrate im Oktober 2026 bei +2,8 %",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_392_611.html",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.821Z",
-    "deliveredAt": "2026-11-11T10:57:19.821Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "eea7e535588d65fba43cb7ea",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "How the sovereign debt crisis shaped wealth inequality",
-    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261111~ee77dcd0d0.en.html",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.807Z",
-    "deliveredAt": "2026-11-11T10:57:19.807Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4f1cc473c196d593d0ede422",
-    "source": "BSI",
-    "sourceKey": "src-64a086442adaeeab",
-    "sourceLabel": "BSI",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Meldung:, 11.11.2026 Hardware-Angriffe umgehen TPM2-basierte Festplattenverschlüsselung Das BSI hat die Studie \"Active and Passive Attacks against TPM2-based Full Disk Encryption\" veröffentlicht. Sie zeigt Angriffsvektoren und Gegenmaßnahmen auf den gängigen Betriebssystemen.",
-    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/Hardware-Angriffe_TPM2_Verschluesselung_261111.html",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.802Z",
-    "deliveredAt": "2026-11-11T10:57:19.802Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c1716c08a45ad6a32c56446d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Speicherkrise: Desktop-PCs 41 % teurer, Refurbished profitiert",
-    "link": "https://wortfilter.de/speicherkrise-refurbished-haendler/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.800Z",
-    "deliveredAt": "2026-11-11T10:57:19.800Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "96bb3d3af9b7367abe9bd192",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Seit 1. November: Drei Produktkennungen pro Zollanmeldung",
-    "link": "https://wortfilter.de/produktkennungen-zollanmeldung-pid-pflicht/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.800Z",
-    "deliveredAt": "2026-11-11T10:57:19.800Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "65ab0c59db284e78a2b17528",
-    "source": "DHL",
-    "sourceKey": "src-e5330506f57b7169",
-    "sourceLabel": "DHL",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "DHL Express investiert rund 55 Millionen Euro in neues Gateway am Flughafen Arlanda zur Unterstützung des internationalen Handels",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/dhl-express-investiert-rund-55-millionen-euro-in-neues-gateway-am-flughafen-arlanda.html",
-    "pageDate": "11.11.2026, 09:00 MEZ DHL EXPRESS",
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T10:57:19.799Z",
-    "deliveredAt": "2026-11-11T10:57:19.799Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "83e7729765e89394b3492be5",
-    "source": "DHL",
-    "sourceKey": "src-e5330506f57b7169",
-    "sourceLabel": "DHL",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Führungswechsel bei DHL Global Forwarding: Casper Ellerbaek und Niki Frank tauschen Rollen",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/fuehrungswechsel-bei-dhl-global-forwarding-casper-ellerbaek-und-niki-frank-tauschen-rollen.html",
-    "pageDate": "11.11.2026, 11:00 MEZ DHL GLOBAL FORWARDING",
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T10:57:19.799Z",
-    "deliveredAt": "2026-11-11T10:57:19.799Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0927835b8c27880ba514b786",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Shopee Quartalszahlen: Werbung wächst schneller als das Handelsvolumen",
-    "link": "https://onlinemarktplatz.de/295498/shopee-quartalszahlen-q3-2026/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.798Z",
-    "deliveredAt": "2026-11-11T10:57:19.798Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "600c42b59ee3b7744cf1500a",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "ChatGPT Business Hub: OpenAI öffnet Händlerprofile",
-    "link": "https://onlinemarktplatz.de/295515/chatgpt-business-hub/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.798Z",
-    "deliveredAt": "2026-11-11T10:57:19.798Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b885451e2b7c267871b4e587",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "OTTO, Amazon, Kaufland und eBay: Wie sich Verkäufergebühren unterscheiden",
-    "link": "https://onlinemarktplatz.de/295485/marktplatzgebuehren-2026/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.798Z",
-    "deliveredAt": "2026-11-11T10:57:19.798Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "76922b27cd8f57191611180e",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Lieferando Prime-Vorteil soll am 11. November enden",
-    "link": "https://onlinemarktplatz.de/295314/lieferando-prime-vorteil-endet/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.798Z",
-    "deliveredAt": "2026-11-11T10:57:19.798Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a5176f7f0b5da83480372d5d",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Importverkäufe: 150-Euro-Grenze soll fallen, Starttermin bleibt bedingt",
-    "link": "https://onlinemarktplatz.de/295442/ioss-ohne-wertgrenze-eu-rat/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.798Z",
-    "deliveredAt": "2026-11-11T10:57:19.798Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "182f28ded6adfab0f0255087",
-    "source": "Verbraucherzentrale RLP Presse",
-    "sourceKey": "src-60410208ae6b15b3",
-    "sourceLabel": "Verbraucherzentrale RLP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Apfel oder Kapsel – Klartext über Nahrungsergänzungsmittel",
-    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/apfel-oder-kapsel-klartext-ueber-nahrungsergaenzungsmittel-127122",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T10:57:19.795Z",
-    "deliveredAt": "2026-11-11T10:57:19.795Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
