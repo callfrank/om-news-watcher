@@ -1,5 +1,338 @@
 [
   {
+    "guid": "e91f3acdb98f6b58aebd83da",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Steam schließt Wero an",
+    "link": "https://demoshops.de/steam-wero-bezahlen/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.717Z",
+    "deliveredAt": "2026-11-25T20:13:15.717Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7b257c4bb7219ec525a3da82",
+    "source": "Wero",
+    "sourceKey": "src-b3076904e4e4545a",
+    "sourceLabel": "Wero",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Media & insights",
+    "link": "https://epicompany.eu/media-insights/media-insights/epi-company-initiates-wero-roll-out-in-the-netherlands",
+    "pageDate": "November 25, 2026",
+    "publishedAt": "2026-11-25T00:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.714Z",
+    "deliveredAt": "2026-11-25T20:13:15.714Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "f0525f624f9ab19612d484d4",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Kalyan Krishnamurthy to Leave Flipkart After More Than Eleven Years with the Company",
+    "link": "https://corporate.walmart.com/news/2026/11/kalyan-krishnamurthy-to-leave-flipkart",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-25T20:13:15.709Z",
+    "deliveredAt": "2026-11-25T20:13:15.709Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "242153eaf1a51efd09d9e1c4",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "'God of War' on Prime Video: Everything to know about the video game adaptation",
+    "link": "https://www.aboutamazon.com/news/entertainment/god-of-war-prime-video-series",
+    "pageDate": "Nov. 25, 2026",
+    "publishedAt": "2026-11-25T00:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.701Z",
+    "deliveredAt": "2026-11-25T20:13:15.701Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "79b4feba568586d0ebe3aaec",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Top 10 Original films and series on Prime Video: See the weekly rankings",
+    "link": "https://www.aboutamazon.com/news/entertainment/prime-video-top-10-movies-shows",
+    "pageDate": "Nov. 25, 2026",
+    "publishedAt": "2026-11-25T00:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.701Z",
+    "deliveredAt": "2026-11-25T20:13:15.701Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h"
+  },
+  {
+    "guid": "13522b6b123a6de9f2a2d195",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Sweden joins T2",
+    "link": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.676Z",
+    "deliveredAt": "2026-11-25T20:13:15.676Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cdac81d795b3a75b73901aa5",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Steiff Hackerangriff: Datenklau möglich – und der Shop?",
+    "link": "https://wortfilter.de/steiff-hackerangriff/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.672Z",
+    "deliveredAt": "2026-11-25T20:13:15.672Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8cde10454757fc77436095bf",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Fast 2 Milliarden Zugangsdaten offen: Amazon, PayPal, eBay dabei",
+    "link": "https://wortfilter.de/2-milliarden-zugangsdaten-datenleck/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.672Z",
+    "deliveredAt": "2026-11-25T20:13:15.672Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f53f8612084f0c4405fcfe99",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Urteil gegen Hornbach rechtskräftig: Falle im Textbaustein",
+    "link": "https://wortfilter.de/urteil-gegen-hornbach-greenwashing/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.672Z",
+    "deliveredAt": "2026-11-25T20:13:15.672Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b9242366cb8d2632cd899db0",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Joomla Sicherheitslücken: 58 Fixes, 4 kritisch – BSI warnt",
+    "link": "https://wortfilter.de/joomla-sicherheitsluecken/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.672Z",
+    "deliveredAt": "2026-11-25T20:13:15.672Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "49f9fa51d8c2c2aba32af0ec",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Fälschung beim Zoll: Wer Temu-Fakes weiterverkauft, haftet",
+    "link": "https://wortfilter.de/temu-zoll-faelschung/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.672Z",
+    "deliveredAt": "2026-11-25T20:13:15.672Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "56bb0fa40a7df90666636d79",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Temus Transaktionsanteil in der EU halbiert sich laut ECDB",
+    "link": "https://onlinemarktplatz.de/296290/temus-transaktionsanteil-eu-ecdb/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.671Z",
+    "deliveredAt": "2026-11-25T20:13:15.671Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bc1ac16dd56acb2963631399",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Welche Heizung passt zu mir?",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/welche-heizung-passt-zu-mir-127497",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.668Z",
+    "deliveredAt": "2026-11-25T20:13:15.668Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "459c9cb8e6b08c00180c470d",
+    "source": "Fressnapf Newsroom",
+    "sourceKey": "src-94258df63c219915",
+    "sourceLabel": "Fressnapf",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Logistik"
+    ],
+    "priority": 2,
+    "title": "Personelle Veränderung im Executive Management Board von Fressnapf | Maxi Zoo",
+    "link": "https://www.mynewsdesk.com/de/fressnapf-holding-se/pressreleases/personelle-veraenderung-im-executive-management-board-von-fressnapf-maxi-zoo-3483679",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.633Z",
+    "deliveredAt": "2026-11-25T20:13:15.633Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "13562be04ef8e9d2f97ed8c5",
+    "source": "EY Newsroom",
+    "sourceKey": "src-8fc60553640bf464",
+    "sourceLabel": "EY",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "EY-Studie: Resilienz als Motor für Deutschlands Wettbewerbsfähigkeit",
+    "link": "https://www.ey.com/de_de/newsroom/2026/11/ey-analyse-resilienzperspektiven",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T20:13:15.630Z",
+    "deliveredAt": "2026-11-25T20:13:15.630Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "e3d4f587957a43fd34dc7d9f",
     "source": "DM",
     "sourceKey": "src-fd6e846f7c6683bc",
@@ -10981,335 +11314,5 @@
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "e1c76d72bc8b930ccb6bc0b3",
-    "source": "PDD Holdings News Releases",
-    "sourceKey": "src-ee457bfea777d888",
-    "sourceLabel": "PDD Holdings",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "Studien & Marktdaten"
-    ],
-    "priority": 2,
-    "title": "PDD Holdings to Report Third Quarter 2026 Unaudited Financial Results on November 19, 2026",
-    "link": "https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-report-third-quarter-2026-unaudited-financial",
-    "pageDate": "Nov 12, 2026",
-    "publishedAt": "2026-11-12T00:00:00.000Z",
-    "detectedAt": "2026-11-12T17:07:03.212Z",
-    "deliveredAt": "2026-11-12T17:07:03.212Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d62c3821f231d8f2a41a9398",
-    "source": "Google Ads & Commerce Blog",
-    "sourceKey": "src-147cfee3d1361ebb",
-    "sourceLabel": "Google Ads & Commerce",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "We’re introducing a new transparency tool for invalid traffic in Google Ads.",
-    "link": "https://blog.google/products/ads-commerce/invalid-traffic-overview-google-ads/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T17:07:03.210Z",
-    "deliveredAt": "2026-11-12T17:07:03.210Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "19ae5087b4deed1acf8101cb",
-    "source": "JD QZ",
-    "sourceKey": "544a57fa-8f6d-4d8f-8205-461caa30a5d1",
-    "sourceLabel": "JD QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "JD.com Completes Voluntary Public Takeover Offer of CECONOMY",
-    "link": "https://ir.jd.com/news-releases/news-release-details/jdcom-completes-voluntary-public-takeover-offer-ceconomy",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-12T12:31:50.821Z",
-    "deliveredAt": "2026-11-12T12:31:50.821Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f07e5db1dd298f411c3c8fae",
-    "source": "BPEX",
-    "sourceKey": "src-fdfe2643c70da9a3",
-    "sourceLabel": "BPEX",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Ausblick Weihnachtsgeschäft und Gesamtjahr 2026",
-    "link": "https://bpex-ev.de/presse/meldung/ausblick-weihnachtsgeschaeft-2026",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-12T12:31:50.773Z",
-    "deliveredAt": "2026-11-12T12:31:50.773Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c7f5812c7b1a6f94e8e11356",
-    "source": "Bundeskartellamt",
-    "sourceKey": "src-65453440d7dc3b0e",
-    "sourceLabel": "Bundeskartellamt",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Übernahme von weiteren tegut-Märkten durch REWE genehmigt",
-    "link": "https://www.bundeskartellamt.de/SharedDocs/Meldung/DE/Pressemitteilungen/2026/11_12_2026_REWE_tegut.html?nn=52004",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T12:31:50.771Z",
-    "deliveredAt": "2026-11-12T12:31:50.771Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7ac125bf2d4a48b3a37ae13f",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "ECB publishes Economic Bulletin",
-    "link": "https://www.ecb.europa.eu/press/economic-bulletin/html/index.en.html",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T12:31:50.751Z",
-    "deliveredAt": "2026-11-12T12:31:50.751Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "41cd88559f2cc44be10b949f",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "What Reddit tells us about retail investor sentiment",
-    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261112~a4c8b903d9.en.html",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T12:31:50.751Z",
-    "deliveredAt": "2026-11-12T12:31:50.751Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d399cc501d23f8be8838c93c",
-    "source": "Target QZ",
-    "sourceKey": "src-ba300714de43cc5d",
-    "sourceLabel": "Target QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Studien & Marktdaten",
-      "Events"
-    ],
-    "priority": 2,
-    "title": "Target Appoints Sally Grimes to Board of Directors",
-    "link": "https://corporate.target.com/press/release/2026/11/target-appoints-sally-grimes-to-board-of-directors",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-12T12:31:50.749Z",
-    "deliveredAt": "2026-11-12T12:31:50.749Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3ba436be921bc9b03bc7bf19",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "PayPal Data-Insights: Cross-Border-Handel, 27 Mio. Auslandskunden in Deutschland",
-    "link": "https://wortfilter.de/cross-border-handel-paypal-global-beat-2026/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T12:31:50.745Z",
-    "deliveredAt": "2026-11-12T12:31:50.745Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "83cf61eb229a813d1dd32a06",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "BrickLink offline: Lego nennt kein Datum für die Rückkehr",
-    "link": "https://wortfilter.de/bricklink-offline-lego/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T12:31:50.745Z",
-    "deliveredAt": "2026-11-12T12:31:50.745Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4df7cd8725a44cf92aefccf7",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "GTA 6 bei Lidl ausverkauft: 10 Euro Schnäppchen mit Lidl Plus",
-    "link": "https://wortfilter.de/gta-6-lidl-plus-ausverkauft/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T12:31:50.745Z",
-    "deliveredAt": "2026-11-12T12:31:50.745Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2009c7c48a502c8085731fed",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "E-Commerce: Das ist diese Woche in der Politik passiert",
-    "link": "https://wortfilter.de/e-commerce-politik-kw-46-2026/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T12:31:50.745Z",
-    "deliveredAt": "2026-11-12T12:31:50.745Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1602d85f36f3fc45392446f8",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Datenabfluss bei Maersk: Erpresser fordern 5 Mio. Dollar",
-    "link": "https://wortfilter.de/datenabfluss-maersk-whitearmor/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T12:31:50.745Z",
-    "deliveredAt": "2026-11-12T12:31:50.745Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2975b646dfe66e5b49d17af4",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "KI-Sichtbarkeit: 29 Prozent der Deutschen nutzen KI im Alltag",
-    "link": "https://wortfilter.de/ki-sichtbarkeit-onlinehaendler/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T12:31:50.745Z",
-    "deliveredAt": "2026-11-12T12:31:50.745Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e72bbfbd7f52e3a42073f3e4",
-    "source": "DHL",
-    "sourceKey": "src-e5330506f57b7169",
-    "sourceLabel": "DHL",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "\"Respekt und Resultate\": DHL belegt Rang sechs im Ranking der besten Arbeitgeber der Welt",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/respekt-und-resultate-dhl-belegt-rang-sechs-im-ranking-der-besten-arbeitgeber-der-welt.html",
-    "pageDate": "12.11.2026, 13:15 MEZ DHL",
-    "publishedAt": null,
-    "detectedAt": "2026-11-12T12:31:50.744Z",
-    "deliveredAt": "2026-11-12T12:31:50.744Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
   }
 ]
