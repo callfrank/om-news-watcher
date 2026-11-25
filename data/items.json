@@ -1,5 +1,324 @@
 [
   {
+    "guid": "a2c6e38e60bc492c1c1f854a",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Amazon Autos is coming to the UK—the first country outside the US",
+    "link": "https://www.aboutamazon.com/news/retail/amazon-autos-uk",
+    "pageDate": "Nov. 24, 2026",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.299Z",
+    "deliveredAt": "2026-11-25T07:41:44.299Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "52c531ccf1bfab4162b53e67",
+    "source": "Mittelstand Digital",
+    "sourceKey": "src-3fbff5b0f3b52fe1",
+    "sourceLabel": "Mittelstand Digital",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Infoblatt: Gesetzliche Neuregelungen zu Gewährleistung und Herstellergarantie",
+    "link": "https://digitalzentrumhandel.de/author/andrea-balas/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.296Z",
+    "deliveredAt": "2026-11-25T07:41:44.296Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "063ccd8ad5b551a52f9384c8",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Bruttoinlandsprodukt: Ausführliche Ergebnisse zur Wirtschaftsleistung im 3. Quartal 2026",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_409_811.html",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.288Z",
+    "deliveredAt": "2026-11-25T07:41:44.288Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8d1555071b6b7c7d0b27628c",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Auftragseingang im Bauhauptgewerbe im September 2026: -16,1 % zum Vormonat",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_410_441.html",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.288Z",
+    "deliveredAt": "2026-11-25T07:41:44.288Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ab52ff34c1c0c824e6a2285b",
+    "source": "Handelsverband",
+    "sourceKey": "src-2703ad59aff2f833",
+    "sourceLabel": "Handelsverband",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [
+      "Recht & Regulierung",
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": "Brief von 50 europäischen Lebensmittelhändlern an EU-Kommission: Branche warnt vor steigenden Preisen infolge von UTP-Richtlinie",
+    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15451-gemeinsamer-brief-der-ceos-von-50-europaeischen-lebensmittelhaendlern-an-die-eu-kommission",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-25T07:41:44.264Z",
+    "deliveredAt": "2026-11-25T07:41:44.264Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d15ec02aa0598902e3db34ac",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Brickfox Actindo: Stille Übernahme, Hölscher ist raus",
+    "link": "https://wortfilter.de/brickfox-actindo-uebernahme/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.263Z",
+    "deliveredAt": "2026-11-25T07:41:44.263Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b68cf51d544b0bf61baf5243",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Vinted SpeedX: Abgeschalteter Versand plötzlich wieder an",
+    "link": "https://wortfilter.de/vinted-speedx/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.263Z",
+    "deliveredAt": "2026-11-25T07:41:44.263Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "48a70c234db5dbe669804286",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "JoyLogistics: JD.com eröffnet Haier-Lager mit 37.000 m²",
+    "link": "https://wortfilter.de/joylogistics-haier-polen/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.263Z",
+    "deliveredAt": "2026-11-25T07:41:44.263Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "8119e83f534ada28acd427d2",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Rücksendung: Ab 10.12. automatische Erstattung für FBM an Käufer",
+    "link": "https://wortfilter.de/amazon-ruecksendung-automatische-erstattung/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.263Z",
+    "deliveredAt": "2026-11-25T07:41:44.263Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d183a1185ede122eda8b5c26",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "idealo Gewinnspiel: 250.000-€-Jackpot, Chance verschwiegen",
+    "link": "https://wortfilter.de/idealo-gewinnspiel-jackpot/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.263Z",
+    "deliveredAt": "2026-11-25T07:41:44.263Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "157efcdd29db32edb996a103",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Wero wächst weiter in Europa: Neue Bankzugänge, Händler und Bezahlfunktionen",
+    "link": "https://onlinemarktplatz.de/296297/wero-waechst-bunq-haendler-abos-europa/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.261Z",
+    "deliveredAt": "2026-11-25T07:41:44.261Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cbbee3646b74ee4993c92980",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Kauflands MRC-Akkreditierung: Was die App-Messung belegt",
+    "link": "https://onlinemarktplatz.de/295866/kauflands-mrc-akkreditierung/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.261Z",
+    "deliveredAt": "2026-11-25T07:41:44.261Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0f876fda646ba49e412b1851",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Nikolausgeschäft 2026 schwächelt – Online-Weihnachtsgeschäft wächst",
+    "link": "https://onlinemarktplatz.de/296244/nikolausgeschaeft-2026-umsatz-rueckgang/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.261Z",
+    "deliveredAt": "2026-11-25T07:41:44.261Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "55c982a0ac3a94e1c230c63c",
+    "source": "Tencent News",
+    "sourceKey": "src-185f9a8b3d183058",
+    "sourceLabel": "Tencent News",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Events"
+    ],
+    "priority": 2,
+    "title": "Tencent Spotlights How AI and Connected Payments Simplify Everyday Services at SFF 2026",
+    "link": "https://www.tencent.com/tencent-spotlights-how-ai-and-connected-payments-simplify-everyday-services-at-sff-2026/",
+    "pageDate": "November 25, 2026",
+    "publishedAt": "2026-11-25T00:00:00.000Z",
+    "detectedAt": "2026-11-25T07:41:44.233Z",
+    "deliveredAt": "2026-11-25T07:41:44.233Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "793b94e43c39472b1f5d320d",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10992,316 +11311,6 @@
     "publishedAt": "2026-11-11T12:00:00.000Z",
     "detectedAt": "2026-11-12T01:01:09.714Z",
     "deliveredAt": "2026-11-12T01:01:09.714Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "02e070b05078c083f00fa580",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Anthropic-Börsengang: Claude liest mit, bringt kaum Besucher",
-    "link": "https://wortfilter.de/anthropic-boersengang-claude/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-12T01:01:09.714Z",
-    "deliveredAt": "2026-11-12T01:01:09.714Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "97b4233b4187e5e1d71039a3",
-    "source": "WERO News",
-    "sourceKey": "src-2a68fce167742775",
-    "sourceLabel": "WERO News",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Gießen ist jetzt Wero-Kommune",
-    "link": "https://demoshops.de/giessen-wero/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.268Z",
-    "deliveredAt": "2026-11-11T18:43:09.268Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "53ce99a9be294fbbc5f5a9b1",
-    "source": "Ebayinc",
-    "sourceKey": "src-15b135037542f2c3",
-    "sourceLabel": "Ebayinc",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "Quartalszahlen",
-      "E-Commerce",
-      "Studien & Marktdaten",
-      "Unternehmensstrategie"
-    ],
-    "priority": 2,
-    "title": "eBay makes selling easier with a new camera-first experience",
-    "link": "https://www.ebayinc.com/stories/news/ebay-makes-selling-easier-with-a-new-camera-first-experience/",
-    "pageDate": "Nov 11, 2026 AI",
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T18:43:09.255Z",
-    "deliveredAt": "2026-11-11T18:43:09.255Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "28081007ba91947dfea84a9c",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch every ‘The Lord of the Rings’ film and series on Prime Video",
-    "link": "https://www.aboutamazon.com/news/entertainment/where-to-watch-lord-of-the-rings",
-    "pageDate": "Nov. 11, 2026",
-    "publishedAt": "2026-11-11T00:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.248Z",
-    "deliveredAt": "2026-11-11T18:43:09.248Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "fe493e598b965f68db778865",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch ‘The Lord of the Rings: The Rings of Power’ Season 3, streaming now on Prime Video",
-    "link": "https://www.aboutamazon.com/news/entertainment/lord-of-the-rings-rings-of-power-season-3-prime-video",
-    "pageDate": "Nov. 11, 2026",
-    "publishedAt": "2026-11-11T00:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.248Z",
-    "deliveredAt": "2026-11-11T18:43:09.248Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "97f6f828617fbae69fae475f",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch live sports like the NBA, NFL, and more on Prime Video",
-    "link": "https://www.aboutamazon.com/news/entertainment/live-sports-streaming-prime-video",
-    "pageDate": "Nov. 11, 2026",
-    "publishedAt": "2026-11-11T00:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.248Z",
-    "deliveredAt": "2026-11-11T18:43:09.248Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "8eb11cdc8e29e8999509a1d0",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "AWS to launch first cloud infrastructure region in Chile, investing more than $4 billion",
-    "link": "https://www.aboutamazon.com/news/aws/aws-south-america-chile-region-launch",
-    "pageDate": "Nov. 11, 2026",
-    "publishedAt": "2026-11-11T00:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.248Z",
-    "deliveredAt": "2026-11-11T18:43:09.248Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1ac1742ee4da280dbdadfad3",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How we built the agents that built AWS Emulator",
-    "link": "https://www.aboutamazon.com/news/aws/how-autonomous-ai-agents-built-aws-emulator",
-    "pageDate": "Nov. 11, 2026",
-    "publishedAt": "2026-11-11T00:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.248Z",
-    "deliveredAt": "2026-11-11T18:43:09.248Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fafc3f97ce73d42ae4285dda",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "70 % der Eingewanderten sind erwerbstätig",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_N078_13.html",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.226Z",
-    "deliveredAt": "2026-11-11T18:43:09.226Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "137a2a5d68caa6e61d4981fe",
-    "source": "ECB",
-    "sourceKey": "src-f132ccda6cdbce0d",
-    "sourceLabel": "ECB",
-    "groups": [
-      "Finanzen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Who holds stablecoins in the euro area?",
-    "link": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202607_08~f4ddf0117c.en.html",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.207Z",
-    "deliveredAt": "2026-11-11T18:43:09.207Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4d05363dccde3a361fd4f5b8",
-    "source": "BEVH",
-    "sourceKey": "src-0a9ea9df2176887f",
-    "sourceLabel": "BEVH",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Digital Fairness Act stellt Handel vor rechtlichen Systemwechsel",
-    "link": "https://bevh.org/detail/digital-fairness-act-stellt-handel-vor-rechtlichen-systemwechsel",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.201Z",
-    "deliveredAt": "2026-11-11T18:43:09.201Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "22615aa916a506f47d7295c5",
-    "source": "BEVH",
-    "sourceKey": "src-0a9ea9df2176887f",
-    "sourceLabel": "BEVH",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "PayPal-Rüge des Bundeskartellamts: Wettbewerb funktioniert nur, wenn Preisunterschiede sichtbar werden",
-    "link": "https://bevh.org/detail/paypal-ruege-des-bundeskartellamts-wettbewerb-funktioniert-nur-wenn-preisunterschiede-sichtbar-werden",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.201Z",
-    "deliveredAt": "2026-11-11T18:43:09.201Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "e408d8e92e2d21e9d03eb030",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Digital Fairness Act: HDE warnt vor Regulierungschaos",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15426-digital-fairness-act-hde-warnt-vor-regulierungschaos",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T18:43:09.199Z",
-    "deliveredAt": "2026-11-11T18:43:09.199Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7069bdd7093797154c1bab12",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "HDE befürwortet Pläne zur Abschaffung der Steuerklassen III und V",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15427-hde-befuerwortet-plaene-zur-abschaffung-der-steuerklassen-iii-und-v",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T18:43:09.199Z",
-    "deliveredAt": "2026-11-11T18:43:09.199Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
