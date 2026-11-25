@@ -1,12 +1,240 @@
 [
   {
+    "guid": "793b94e43c39472b1f5d320d",
+    "source": "WERO News",
+    "sourceKey": "src-2a68fce167742775",
+    "sourceLabel": "WERO News",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Mit Wero online verkaufen, ganz ohne Shop: so einfach geht es",
+    "link": "https://demoshops.de/mit-wero-online-verkaufen-ohne-shop/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-25T01:37:53.169Z",
+    "deliveredAt": "2026-11-25T01:37:53.169Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "db2054194f674ba72b6c4121",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "‘The Lord of the Rings: The Rings of Power’ Season 4 is confirmed. Here’s what we know",
+    "link": "https://www.aboutamazon.com/news/entertainment/lord-of-the-rings-rings-of-power-season-4-prime-video",
+    "pageDate": "Nov. 24, 2026",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "detectedAt": "2026-11-25T01:37:53.151Z",
+    "deliveredAt": "2026-11-25T01:37:53.151Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7c67cb49724548c3948c7ec1",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How Amazon Leo's satellites launch with help from 13 European countries",
+    "link": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-ariane-space",
+    "pageDate": "Nov. 24, 2026",
+    "publishedAt": "2026-11-24T00:00:00.000Z",
+    "detectedAt": "2026-11-25T01:37:53.151Z",
+    "deliveredAt": "2026-11-25T01:37:53.151Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f770a88aa3eca8d09a5910f7",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "EU-Bürokratieindex: 118 % mehr EU-Recht, Abbau Fehlanzeige",
+    "link": "https://wortfilter.de/eu-buerokratieindex-2026/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-25T01:37:53.117Z",
+    "deliveredAt": "2026-11-25T01:37:53.117Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aad9c9e3689725cf9fc5dbd1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Google Alerts Störung: Seit 20. November keine Mails mehr",
+    "link": "https://wortfilter.de/google-alerts-stoerung/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-25T01:37:53.117Z",
+    "deliveredAt": "2026-11-25T01:37:53.117Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c3aef95bbbfcaf55b21de96a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Kostenlose China-KI: 9 Chatbots im Check – 4 auf Deutsch",
+    "link": "https://wortfilter.de/kostenlose-china-ki/",
+    "pageDate": "24.11.2026",
+    "publishedAt": "2026-11-24T12:00:00.000Z",
+    "detectedAt": "2026-11-25T01:37:53.117Z",
+    "deliveredAt": "2026-11-25T01:37:53.117Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "1867c888ca0a958c80f86dae",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "The Guardian – A Global Microsoft 365 Outage Has Hit Millions – What Happened And When Will It Be Fixed?",
+    "link": "https://www.forrester.com/press-newsroom/the-guardian-a-global-microsoft-365-outage-has-hit-millions-what-happened-and-when-will-it-be-fixed/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-25T01:37:53.074Z",
+    "deliveredAt": "2026-11-25T01:37:53.074Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "aa291b63ef89cc97f72c6b7a",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Fortune – The Downfall Of AI’s $5.7 Trillion Man",
+    "link": "https://www.forrester.com/press-newsroom/fortune-the-downfall-of-ais-5-7-trillion-man/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-25T01:37:53.074Z",
+    "deliveredAt": "2026-11-25T01:37:53.074Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cfad52b4a772dd6aba460cb3",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "The New York Times – Disney Doubles Down On New Shows And Movies Amid Industry Upheaval",
+    "link": "https://www.forrester.com/press-newsroom/the-new-york-times-disney-doubles-down-on-new-shows-and-movies-amid-industry-upheaval/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-25T01:37:53.074Z",
+    "deliveredAt": "2026-11-25T01:37:53.074Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "89b93fdfe2ae9e51438d16d4",
+    "source": "Forrester Press Newsroom",
+    "sourceKey": "src-b4a8f14e403e1f2f",
+    "sourceLabel": "Forrester",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Studien & Marktdaten",
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Fortune – Warby Parker Is Betting Its Next Chapter On Smart Glasses People Actually Want To Wear",
+    "link": "https://www.forrester.com/press-newsroom/fortune-warby-parker-is-betting-its-next-chapter-on-smart-glasses-people-actually-want-to-wear/",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-25T01:37:53.074Z",
+    "deliveredAt": "2026-11-25T01:37:53.074Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "da0a7ae5766d2e319069ab09",
     "source": "Walmart",
     "sourceKey": "src-58bea26b3e8930f9",
     "sourceLabel": "Walmart",
     "groups": [
-      "Firmen",
-      "Quartalszahlen"
+      "Firmen"
     ],
     "tags": [
       "Quartalszahlen",
@@ -536,28 +764,6 @@
     "publishedAt": "2026-11-24T12:00:00.000Z",
     "detectedAt": "2026-11-24T12:39:35.197Z",
     "deliveredAt": "2026-11-24T12:39:35.197Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "30bef1223d560bf6ddb44709",
-    "source": "Kaufland",
-    "sourceKey": "src-824d896356b1a926",
-    "sourceLabel": "Kaufland",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Zur Pressemitteilung",
-    "link": "https://unternehmen.kaufland.de/presse/newsroom/2026/november/kaufland-fleischwaren-plant-uebernahme-des-produktionsstandortes-von-ponnath-in-nuernberg",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-24T09:18:36.760Z",
-    "deliveredAt": "2026-11-24T09:18:36.760Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
@@ -11096,214 +11302,6 @@
     "publishedAt": null,
     "detectedAt": "2026-11-11T18:43:09.199Z",
     "deliveredAt": "2026-11-11T18:43:09.199Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "917d863b22419348f9249f02",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "HDE kritisiert digitale Bonpflicht und fordert Abschaffung der allgemeinen Belegausgabepflicht",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15428-hde-kritisiert-digitale-bonpflicht-und-fordert-abschaffung-der-allgemeinen-belegausgabepflicht",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T18:43:09.199Z",
-    "deliveredAt": "2026-11-11T18:43:09.199Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c6d38a434d670b55aff8e695",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Digitaler Euro: Handel warnt vor „staatlich organisiertem Kostentreiber“",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15429-digitaler-euro-handel-warnt-vor-staatlich-organisiertem-kostentreiber",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T18:43:09.199Z",
-    "deliveredAt": "2026-11-11T18:43:09.199Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1b9d08626c8c5c9534ce4678",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "HDE begrüßt Abschluss der Tarifrunde und warnt vor zu hohem Mindestlohn",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15430-hde-begruesst-abschluss-der-tarifrunde-und-warnt-vor-zu-hohem-mindestlohn",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-11T18:43:09.199Z",
-    "deliveredAt": "2026-11-11T18:43:09.199Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4b1e06d09a0b43e5d3e65861",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Gesetzesänderungen 2027: Vier Stichtage für Onlinehändler",
-    "link": "https://wortfilter.de/gesetzesaenderungen-2027-onlinehaendler/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.197Z",
-    "deliveredAt": "2026-11-11T18:43:09.197Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1a144d94c0ec8fb8464bc42b",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "PayPal-Gebühren: Kartellamt stellt Aufschlagverbot infrage",
-    "link": "https://wortfilter.de/paypal-gebuehren-kartellamt-aufschlagverbot/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.197Z",
-    "deliveredAt": "2026-11-11T18:43:09.197Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a5edf02ed102dc8e7a336c6d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "ChatGPT Business Hub: So meldest du dein Firmenprofil an",
-    "link": "https://wortfilter.de/chatgpt-business-hub-firmenprofil/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.197Z",
-    "deliveredAt": "2026-11-11T18:43:09.197Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "f3c72cc57395989db16fbc64",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Inflation Oktober 2026: Sprit +28,9 %, Spielzeug −8,1 %",
-    "link": "https://wortfilter.de/inflation-oktober-2026-sprit-spielzeug/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.197Z",
-    "deliveredAt": "2026-11-11T18:43:09.197Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "18d5f27f2a44c9835b63a0dd",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Black Friday Strategie: Die Suche läuft – der 14-Punkte-Plan",
-    "link": "https://wortfilter.de/black-friday-strategie-onlinehaendler/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.197Z",
-    "deliveredAt": "2026-11-11T18:43:09.197Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "00a097c9b3f3a4e33d43ec5a",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Podcast: Offene Handelsplattformen – Toshiba diskutiert Spielräume für Händler",
-    "link": "https://onlinemarktplatz.de/295174/offene-handelsplattformen-ehi/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-11T18:43:09.195Z",
-    "deliveredAt": "2026-11-11T18:43:09.195Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
