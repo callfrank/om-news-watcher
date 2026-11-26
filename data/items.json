@@ -1,5 +1,53 @@
 [
   {
+    "guid": "849e96fd11e502f23cb90db4",
+    "source": "Walmart",
+    "sourceKey": "src-58bea26b3e8930f9",
+    "sourceLabel": "Walmart",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Quartalszahlen",
+      "Events",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Indian Products Add to Walmart’s Holiday Gifting, Home and Lifestyle Assortment",
+    "link": "https://corporate.walmart.com/news/2026/11/Indian-Products-Add-to-Walmarts-Holiday-Gifting-Assortment",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-26T05:34:49.628Z",
+    "deliveredAt": "2026-11-26T05:34:49.628Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b4d098048acb22cc8b565b25",
+    "source": "Zew",
+    "sourceKey": "src-f3985f12770a41ec",
+    "sourceLabel": "Zew",
+    "groups": [
+      "Institute"
+    ],
+    "tags": [
+      "Studien & Marktdaten",
+      "Recht & Regulierung",
+      "Events"
+    ],
+    "priority": 3,
+    "title": "Drei Milliarden Euro mehr für Digitalisierung im Kernhaushalt – besonders durch Verteidigung // ZEW berechnet für Agora Digitale Transformation den Digitalhaushalt des Bundes 2026",
+    "link": "https://www.zew.de/presse/pressearchiv/drei-milliarden-euro-mehr-fuer-digitalisierung-im-kernhaushalt-besonders-durch-verteidigung",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T05:34:49.619Z",
+    "deliveredAt": "2026-11-26T05:34:49.619Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "dd84d3ff2fb98fc749307899",
     "source": "Aboutamazon",
     "sourceKey": "src-5de41fa90c58714d",
@@ -11266,51 +11314,6 @@
     "publishedAt": "2026-11-12T12:00:00.000Z",
     "detectedAt": "2026-11-12T17:07:03.264Z",
     "deliveredAt": "2026-11-12T17:07:03.264Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "71686a61dee7b831e2fdb68a",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "EU targets online sales tricks with Digital Fairness Act",
-    "link": "https://ecommercenews.eu/eu-targets-online-sales-tricks-with-digital-fairness-act/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T17:07:03.264Z",
-    "deliveredAt": "2026-11-12T17:07:03.264Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fa08e6ae3b4b982b72796a78",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Apache Sicherheitslücke: maxcluster schaltet HTTP/2 ab",
-    "link": "https://wortfilter.de/apache-sicherheitsluecke-http2-maxcluster/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T17:07:03.236Z",
-    "deliveredAt": "2026-11-12T17:07:03.236Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
