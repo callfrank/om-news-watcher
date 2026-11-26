@@ -1,5 +1,404 @@
 [
   {
+    "guid": "7cdd32b888c119943828e962",
+    "source": "Hahnclassic",
+    "sourceKey": "src-4e8676d7ff867c65",
+    "sourceLabel": "Hahnclassic",
+    "groups": [],
+    "tags": [],
+    "priority": 2,
+    "title": "Porsche Boxster (981)",
+    "link": "https://hahnclassic.de/porsche-boxster",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-26T21:57:47.917Z",
+    "deliveredAt": "2026-11-26T21:57:47.917Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "617b76670498812c74cfb776",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Ein Jahr eBay Live in Deutschland: Handelsvolumen seit Jahresbeginn mehr als versiebenfacht",
+    "link": "https://www.ebayinc.com/stories/press-room/de/reifenwechsel-auf-den-letzten-druecker-viele-wuenschen-sich-reifenkauf-und-montage-aus-einer-hand/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.902Z",
+    "deliveredAt": "2026-11-26T21:57:47.902Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "24d2df0ff3ce0087eaf1f5f2",
+    "source": "Gfu",
+    "sourceKey": "src-e47d0ee60e79a7e8",
+    "sourceLabel": "Gfu",
+    "groups": [
+      "Verbände"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Vom Air Fryer bis zum Fernseher",
+    "link": "https://gfu.de/vom-air-fryer-bis-zum-fernseher/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.892Z",
+    "deliveredAt": "2026-11-26T21:57:47.892Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6805b5df8a93adbdb5f8b86d",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "​​​GTA VI sends UK games retail sales soaring 99% to £142m in launch week",
+    "link": "https://nielseniq.com/global/en/news-center/2026/gta-vi-sends-uk-games-retail-sales-soaring-99-to-142m-in-launch-week/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.890Z",
+    "deliveredAt": "2026-11-26T21:57:47.890Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f3ccab8dbab533154b027f9b",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Rachel White Leads NIQ Delegation at China Investment Expo",
+    "link": "https://nielseniq.com/global/en/news-center/2026/rachel-white-leads-niq-delegation-at-china-investment-expo/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.890Z",
+    "deliveredAt": "2026-11-26T21:57:47.890Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "bb8af9c911c332884b52ba08",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "‘72% of German TikTok Shop merchants sell across borders’",
+    "link": "https://ecommercenews.eu/72-of-german-tiktok-shop-merchants-sell-across-borders/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.879Z",
+    "deliveredAt": "2026-11-26T21:57:47.879Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "13b105d09d318656b9bd295a",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Arvato acquires Ekol Logistics",
+    "link": "https://ecommercenews.eu/arvato-acquires-ekol-logistics/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.878Z",
+    "deliveredAt": "2026-11-26T21:57:47.878Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0260d9957c71b01652bb1df3",
+    "source": "BSI",
+    "sourceKey": "src-64a086442adaeeab",
+    "sourceLabel": "BSI",
+    "groups": [
+      "Staat"
+    ],
+    "tags": [
+      "Sicherheit"
+    ],
+    "priority": 2,
+    "title": ", Bonn, 26.11.2026 Offensive agentische KI verschärft Bedrohungslage Agentic Offensive Frameworks können mit selbstgewählten KI-Modellen betrieben und frei zugänglichen KI-Modellen weitgehend selbstständig Ziele angreifen. Das BSI hat im Rahmen des AISI Deutschland dieses Vorgehen untersucht und stellt erneut eine deutliche Verschärfung der Bedrohungslage im Cyberraum fest.",
+    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261126_agentische-KI.html",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.835Z",
+    "deliveredAt": "2026-11-26T21:57:47.835Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "11d9248631efe7db824928f5",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Ausgefallene Tastaturen und Mäuse: 12 Design-Fundstücke",
+    "link": "https://wortfilter.de/ausgefallene-tastaturen-maeuse-design/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "dc8616be36617868285482c1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "9 ausgefallene Monitore: Vom Touch-Streifen bis 55 Zoll",
+    "link": "https://wortfilter.de/ausgefallene-monitore-design-business/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "9540f4e7a932f124f1022c3a",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Back Market Freenet: Bis zu 240 € Rabatt mit Handyvertrag",
+    "link": "https://wortfilter.de/back-market-freenet/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e4f89cc3378f0d23c9cd9542",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Erfolgreich in den Onlinehandel starten – Rechtliches (2/2)",
+    "link": "https://wortfilter.de/verpackungslizenzierung-im-onlinehandel/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c67df7d4cbd13ec8dd4d0b6f",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "WhatsApp geplante Nachrichten: Senden bis zu 14 Tage später",
+    "link": "https://wortfilter.de/whatsapp-geplante-nachrichten/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "066a26e762850804dad615c6",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Sicherheitslücken für Onlinehändler: JTL, Germanized & WP-Plugins",
+    "link": "https://wortfilter.de/sicherheitsluecken-onlinehaendler-jtl-germanized/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "0500d49e30363041eaeee30b",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Germanized Sicherheitslücke: Achtung beim Widerrufsbutton",
+    "link": "https://wortfilter.de/germanized-sicherheitsluecke/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4d7dbb2b1f5a0a654bb336d7",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Joybuy (JD.com) Lager Oberhausen: 700 Roboter, bis zu 350.000 Teile/Tag",
+    "link": "https://wortfilter.de/joybuy-lager-oberhausen-roboter/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "49acfa7db708487780cafa7c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Monatsabrechnung weg wegen CCD II: Händler-Geld bis zu 30 Tage früher",
+    "link": "https://wortfilter.de/amazon-monatsabrechnung-abgeschafft/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "371ab7d3499c2ab9ee78e257",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Premiumversand: Schluss mit der Auto-Anmeldung",
+    "link": "https://wortfilter.de/amazon-premiumversand/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-26T21:57:47.832Z",
+    "deliveredAt": "2026-11-26T21:57:47.832Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "17c49c0b1e6e385eb784c43a",
     "source": "TPG QZ",
     "sourceKey": "src-29d9014e1b396d31",
@@ -38,27 +437,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "cec80fca9e0caa3381edf985",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Ein Jahr eBay Live in Deutschland: Handelsvolumen seit Jahresbeginn mehr als versiebenfacht",
-    "link": "https://www.ebayinc.com/stories/press-room/de/unternehmertum-das-begeistert-das-sind-die-gewinner-innen-der-ebay-awards-2026/",
-    "pageDate": "26.11.2026",
-    "publishedAt": "2026-11-26T12:00:00.000Z",
-    "detectedAt": "2026-11-26T12:32:38.543Z",
-    "deliveredAt": "2026-11-26T12:32:38.543Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "953d32cbacf8543b70202817",
@@ -8327,26 +8705,6 @@
     "recoveryReason": null
   },
   {
-    "guid": "74770a302708e276cdd4de5f",
-    "source": "TPG QZ",
-    "sourceKey": "src-29d9014e1b396d31",
-    "sourceLabel": "TPG QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Open news detail page",
-    "link": "https://corporate.the-platform-group.com/news/the-platform-group-plans-extraordinary-general-meeting-101-capital-reduction-and-capital-increase/e1b5e4e8-78ee-4446-b3b5-c1076b509b53?disposition=inline",
-    "pageDate": "Nov 17, 2026",
-    "publishedAt": "2026-11-17T00:00:00.000Z",
-    "detectedAt": "2026-11-17T11:51:47.865Z",
-    "deliveredAt": "2026-11-17T11:51:47.865Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
     "guid": "8482ac577dbe1c167419b037",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -10942,370 +11300,6 @@
     "publishedAt": "2026-11-13T12:00:00.000Z",
     "detectedAt": "2026-11-13T18:33:13.915Z",
     "deliveredAt": "2026-11-13T18:33:13.915Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c353e486bfe6c27cfd576638",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Microsoft 365 Ausfall: Server fallen beim Selbsttest durch",
-    "link": "https://wortfilter.de/microsoft-365-ausfall-ursache/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T18:33:13.915Z",
-    "deliveredAt": "2026-11-13T18:33:13.915Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "54633ef41c7dd5878d123df8",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Podcast: Workwear auf Twitch – wie Würth MODYF Sponsoring und Verkauf verbindet",
-    "link": "https://onlinemarktplatz.de/295272/workwear-auf-twitch-wuerth-modyf/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T18:33:13.914Z",
-    "deliveredAt": "2026-11-13T18:33:13.914Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "0f67d4bf03f324936084b17d",
-    "source": "ECDB Reports",
-    "sourceKey": "src-93bc6c77c8e0092a",
-    "sourceLabel": "ECDB",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "E-Commerce",
-      "Studien & Marktdaten",
-      "KI"
-    ],
-    "priority": 2,
-    "title": "The D2C Revolution Is Not Happening Report",
-    "link": "https://ecdb.com/reports/the-d2c-revolution/1042",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-13T18:33:13.876Z",
-    "deliveredAt": "2026-11-13T18:33:13.876Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ecdcaf5e6c3bced35f2b9064",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Verkaufen beginnt jetzt mit der Kamera: eBay vereinfacht die Angebotserstellung",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-recommerce-report-82-prozent-kaufen-gebraucht-bei-ebay-doch-der-grenz%C3%BCberschreitende-handel-stockt/",
-    "pageDate": "11.11.2026",
-    "publishedAt": "2026-11-11T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.284Z",
-    "deliveredAt": "2026-11-13T10:58:48.284Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
-  },
-  {
-    "guid": "f8a233adaeed76a1f6070053",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Unternehmensinsolvenzen im August 2026: +4,4 % gegenüber August 2025",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_398_52411.html",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.259Z",
-    "deliveredAt": "2026-11-13T10:58:48.259Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7cf1542ab4deaa48ba3ef32e",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Großhandelspreise im Oktober 2026: +8,8 % gegenüber Oktober 2025",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_396_61281.html",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.259Z",
-    "deliveredAt": "2026-11-13T10:58:48.259Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "df61c658614e9703edae1ae0",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "4,5 % mehr Gründungen größerer Betriebe im 1. bis 3. Quartal 2026 als im Vorjahreszeitraum",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_399_52311.html",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.259Z",
-    "deliveredAt": "2026-11-13T10:58:48.259Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d34f24951a3967d4b0611957",
-    "source": "DeStatis",
-    "sourceKey": "src-7523dc532642ad9d",
-    "sourceLabel": "DeStatis",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Erzeugerpreise landwirtschaftlicher Produkte im September 2026: -4,6 % gegenüber September 2025",
-    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_397_61211.html",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.259Z",
-    "deliveredAt": "2026-11-13T10:58:48.259Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d247ff1c6df5c0d7ee48057c",
-    "source": "PDD QZ",
-    "sourceKey": "src-14ed67a6e12692ad",
-    "sourceLabel": "PDD QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [
-      "Events"
-    ],
-    "priority": 2,
-    "title": "PDD Holdings 3Q 2026 Earnings Conference Call",
-    "link": "https://investor.pddholdings.com/events/event-details/pdd-holdings-3q-2026-earnings-conference-call",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-13T10:58:48.238Z",
-    "deliveredAt": "2026-11-13T10:58:48.238Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b6eeea894531ba408cd8c4f2",
-    "source": "BSI",
-    "sourceKey": "src-64a086442adaeeab",
-    "sourceLabel": "BSI",
-    "groups": [
-      "Staat"
-    ],
-    "tags": [
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": ", Bonn, 13.11.2026 Angriffe auf Kühlgeräte: Weitere Schwachstellen in Danfoss Controller AK-SM800A Das BSI hat Kenntnis über weitere Schwachstellen in Danfoss Controllern des Typs AK-SM 800A, die in industriellen Kühlanlagen eingesetzt werden. Betroffene Geräte sollten nicht mit dem Internet verbunden werden.",
-    "link": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261113_Kuehlgeraete-Danfoss.html",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.235Z",
-    "deliveredAt": "2026-11-13T10:58:48.235Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d97af109d65c95e96c1c8503",
-    "source": "Handelsverband",
-    "sourceKey": "src-2703ad59aff2f833",
-    "sourceLabel": "Handelsverband",
-    "groups": [
-      "Verbände"
-    ],
-    "tags": [
-      "Recht & Regulierung",
-      "Sicherheit"
-    ],
-    "priority": 2,
-    "title": "Branchendialog Lebensmittel: Handel bringt gemeinsam mit Partnern faire Lieferketten voran",
-    "link": "https://einzelhandel.de/presse/aktuellemeldungen/15434-branchendialog-lebensmittel-handel-bringt-gemeinsam-mit-partnern-faire-lieferketten-voran",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-13T10:58:48.234Z",
-    "deliveredAt": "2026-11-13T10:58:48.234Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "daa4344def86858a7d9d0875",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Markenlizenz & Insolvenz: Verwalter scheitert mit Eilantrag",
-    "link": "https://wortfilter.de/markenlizenz-insolvenz-olg-koeln/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.232Z",
-    "deliveredAt": "2026-11-13T10:58:48.232Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ec2cc7f6ae1097475a7029ff",
-    "source": "DHL",
-    "sourceKey": "src-e5330506f57b7169",
-    "sourceLabel": "DHL",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "Mehr Leistung für Päckchen, neue Preisvorteile online: Deutsche Post AG passt Paketpreise für Privatkunden zum 1. Januar 2027 moderat an",
-    "link": "https://group.dhl.com/de/presse/pressemitteilungen/2026/deutsche-post-ag-passt-paketpreise-fuer-privatkunden-zum-1-januar-2027-moderat-an.html",
-    "pageDate": "13.11.2026, 10:00 MEZ POST & PAKET DEUTSCHLAND",
-    "publishedAt": null,
-    "detectedAt": "2026-11-13T10:58:48.232Z",
-    "deliveredAt": "2026-11-13T10:58:48.232Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "375f6cd7b0c4b0668071b058",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Microsoft 365 Störung: Outlook und Teams weiter eingeschränkt",
-    "link": "https://onlinemarktplatz.de/295643/microsoft-365-stoerung-2026/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.231Z",
-    "deliveredAt": "2026-11-13T10:58:48.231Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "39a80d33e7c2c01df18e3246",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Vinted Go startet mit 300 Paketpunkten in Finnland",
-    "link": "https://onlinemarktplatz.de/295491/vinted-go-finnland-300-paketpunkte/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.231Z",
-    "deliveredAt": "2026-11-13T10:58:48.231Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "54667ac842d26739aac09bfb",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Comet Marktplatz startet mit 2.500 Verkäufern neu",
-    "link": "https://onlinemarktplatz.de/295443/comet-marktplatz-neustart/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T10:58:48.231Z",
-    "deliveredAt": "2026-11-13T10:58:48.231Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
