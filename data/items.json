@@ -1,5 +1,96 @@
 [
   {
+    "guid": "dd84d3ff2fb98fc749307899",
+    "source": "Aboutamazon",
+    "sourceKey": "src-5de41fa90c58714d",
+    "sourceLabel": "Aboutamazon",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "How the AWS Nitro System protects customers’ most sensitive data",
+    "link": "https://www.aboutamazon.com/news/aws/aws-nitro-system-customer-data-privacy",
+    "pageDate": "Nov. 25, 2026",
+    "publishedAt": "2026-11-25T00:00:00.000Z",
+    "detectedAt": "2026-11-26T02:52:07.100Z",
+    "deliveredAt": "2026-11-26T02:52:07.100Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ec72b5518ab3362df0631f64",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Etsy KI-Klausel neu: Lizenz für Partner bleibt unbefristet",
+    "link": "https://wortfilter.de/etsy-ki-klausel-neu/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-26T02:52:07.066Z",
+    "deliveredAt": "2026-11-26T02:52:07.066Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "e40d577631bb8648e4ce6c3d",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Verbraucherzentrale verklagt OpenAI: Kündigen per „Abbrechen“",
+    "link": "https://wortfilter.de/verbraucherzentrale-verklagt-openai/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-26T02:52:07.066Z",
+    "deliveredAt": "2026-11-26T02:52:07.066Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "b2faa1079889c9ac4e96d929",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Odoo gewinnt in Deutschland an Boden – warum JTL-Agenturen ihr Angebot erweitern",
+    "link": "https://wortfilter.de/odoo-jtl-agenturen/",
+    "pageDate": "25.11.2026",
+    "publishedAt": "2026-11-25T12:00:00.000Z",
+    "detectedAt": "2026-11-26T02:52:07.066Z",
+    "deliveredAt": "2026-11-26T02:52:07.066Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "e91f3acdb98f6b58aebd83da",
     "source": "WERO News",
     "sourceKey": "src-2a68fce167742775",
@@ -11223,96 +11314,5 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "b238eca8084c239f687bedd7",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Weltuntergang 13. November 2026: Kein Onlinehandel mehr?",
-    "link": "https://wortfilter.de/weltuntergang-13-november-2026/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T17:07:03.236Z",
-    "deliveredAt": "2026-11-12T17:07:03.236Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5bfb65c2ad916c240a60635d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Bundeswehr Shop Fehlstart: Platz 13.515 in der Warteschlange",
-    "link": "https://wortfilter.de/bundeswehr-shop-warteschlange/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T17:07:03.236Z",
-    "deliveredAt": "2026-11-12T17:07:03.236Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "bd2f7cf651f1e38cfba642a3",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "KI-Agenten aussperren: Nach Amazon macht jetzt United dicht",
-    "link": "https://wortfilter.de/ki-agenten-aussperren-united/",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T17:07:03.236Z",
-    "deliveredAt": "2026-11-12T17:07:03.236Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "1d6f326a6e5d4ac3e074db53",
-    "source": "DHL Discover Global",
-    "sourceKey": "src-a4b561cb340f5d1b",
-    "sourceLabel": "DHL Discover Global",
-    "groups": [
-      "Logistik"
-    ],
-    "tags": [
-      "Events"
-    ],
-    "priority": 2,
-    "title": "How to Ship Artwork Internationally",
-    "link": "https://www.dhl.com/discover/en-global/logistics-advice/import-export-advice/how-to-ship-artwork-internationally",
-    "pageDate": "12.11.2026",
-    "publishedAt": "2026-11-12T12:00:00.000Z",
-    "detectedAt": "2026-11-12T17:07:03.221Z",
-    "deliveredAt": "2026-11-12T17:07:03.221Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
   }
 ]
