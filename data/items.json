@@ -1,5 +1,26 @@
 [
   {
+    "guid": "ecdcaf5e6c3bced35f2b9064",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Ein Jahr eBay Live in Deutschland: Handelsvolumen seit Jahresbeginn mehr als versiebenfacht",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-recommerce-report-82-prozent-kaufen-gebraucht-bei-ebay-doch-der-grenz%C3%BCberschreitende-handel-stockt/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-27T03:48:11.917Z",
+    "deliveredAt": "2026-11-27T03:48:11.917Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
     "guid": "7cdd32b888c119943828e962",
     "source": "Hahnclassic",
     "sourceKey": "src-4e8676d7ff867c65",
@@ -16,27 +37,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "617b76670498812c74cfb776",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Ein Jahr eBay Live in Deutschland: Handelsvolumen seit Jahresbeginn mehr als versiebenfacht",
-    "link": "https://www.ebayinc.com/stories/press-room/de/reifenwechsel-auf-den-letzten-druecker-viele-wuenschen-sich-reifenkauf-und-montage-aus-einer-hand/",
-    "pageDate": "26.11.2026",
-    "publishedAt": "2026-11-26T12:00:00.000Z",
-    "detectedAt": "2026-11-26T21:57:47.902Z",
-    "deliveredAt": "2026-11-26T21:57:47.902Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "24d2df0ff3ce0087eaf1f5f2",
