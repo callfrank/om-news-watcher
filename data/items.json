@@ -1,5 +1,134 @@
 [
   {
+    "guid": "ecdcaf5e6c3bced35f2b9064",
+    "source": "eBay DE",
+    "sourceKey": "src-af482dcfb65eaa40",
+    "sourceLabel": "eBay DE",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Ein Jahr eBay Live in Deutschland: Handelsvolumen seit Jahresbeginn mehr als versiebenfacht",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-recommerce-report-82-prozent-kaufen-gebraucht-bei-ebay-doch-der-grenz%C3%BCberschreitende-handel-stockt/",
+    "pageDate": "26.11.2026",
+    "publishedAt": "2026-11-26T12:00:00.000Z",
+    "detectedAt": "2026-11-27T13:55:12.301Z",
+    "deliveredAt": "2026-11-27T13:55:12.301Z",
+    "recovered": true,
+    "historicalBackfill": false,
+    "recoveryReason": "seen-but-never-delivered-within-48h",
+    "duplicateSources": []
+  },
+  {
+    "guid": "bd57b3487c853e3ff136f93f",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "27.11.2026",
+    "link": "https://news.post.at/presse/de/post/id/2371235/POSTAMT%20CHRISTKINDL%20STARTET%20IN%20DIE%2077.%20SAISON&nbsp;",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T13:55:12.292Z",
+    "deliveredAt": "2026-11-27T13:55:12.292Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "607faf3bd480bdeb34498b54",
+    "source": "Post AT",
+    "sourceKey": "src-7233e5eef034b3db",
+    "sourceLabel": "Post AT",
+    "groups": [
+      "Logistik"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "POSTAMT CHRISTKINDL STARTET IN DIE 77. SAISON",
+    "link": "https://news.post.at/presse/de/post/id/2371235/POSTAMT%20CHRISTKINDL%20STARTET%20IN%20DIE%2077.%20SAISON%26nbsp%3B",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T13:55:12.292Z",
+    "deliveredAt": "2026-11-27T13:55:12.292Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "81a6c36eb70392bce1170bfa",
+    "source": "EcommerceNews",
+    "sourceKey": "src-bd7434d76405faf6",
+    "sourceLabel": "EcommerceNews",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "WAPI wins FDI Insider Award for AI-driven fulfillment",
+    "link": "https://ecommercenews.eu/wapi-wins-fdi-insider-award-for-ai-driven-fulfillment/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T13:55:12.287Z",
+    "deliveredAt": "2026-11-27T13:55:12.287Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "884e635533527728388c39e2",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Touchscreen Monitor 15 Zoll: Rechnung zeigt 21 € Plus am Tag",
+    "link": "https://wortfilter.de/touchscreen-monitor-15-zoll-packplatz/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T13:55:12.266Z",
+    "deliveredAt": "2026-11-27T13:55:12.266Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "26766a96272b673200991ccb",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Barcode-Scanner Test: Rechnung zeigt rund 71 € Ersparnis am Tag",
+    "link": "https://wortfilter.de/barcode-scanner-test-black-friday/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T13:55:12.266Z",
+    "deliveredAt": "2026-11-27T13:55:12.266Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
     "guid": "62330bfc89a7409562edd7e3",
     "source": "Uber",
     "sourceKey": "src-9ca710b31d1e337a",
@@ -43,27 +172,6 @@
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
-  },
-  {
-    "guid": "cec80fca9e0caa3381edf985",
-    "source": "eBay DE",
-    "sourceKey": "src-af482dcfb65eaa40",
-    "sourceLabel": "eBay DE",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Ein Jahr eBay Live in Deutschland: Handelsvolumen seit Jahresbeginn mehr als versiebenfacht",
-    "link": "https://www.ebayinc.com/stories/press-room/de/unternehmertum-das-begeistert-das-sind-die-gewinner-innen-der-ebay-awards-2026/",
-    "pageDate": "26.11.2026",
-    "publishedAt": "2026-11-26T12:00:00.000Z",
-    "detectedAt": "2026-11-27T11:42:48.643Z",
-    "deliveredAt": "2026-11-27T11:42:48.643Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h",
-    "duplicateSources": []
   },
   {
     "guid": "b03a0bca4c063c8626958891",
@@ -11174,121 +11282,6 @@
     "publishedAt": "2026-11-15T12:00:00.000Z",
     "detectedAt": "2026-11-15T09:57:20.801Z",
     "deliveredAt": "2026-11-15T09:57:20.801Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "202fc18964aa52f9a5a109dc",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Produkttrends im November: Zwischen Hundeleckerlis und Keramik",
-    "link": "https://onlinemarktplatz.de/295577/produkttrends-im-november/",
-    "pageDate": "15.11.2026",
-    "publishedAt": "2026-11-15T12:00:00.000Z",
-    "detectedAt": "2026-11-15T09:57:20.801Z",
-    "deliveredAt": "2026-11-15T09:57:20.801Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "c83cd16210d7911773ffd681",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Sparkasse S-ID-Check endet: Shops müssen nichts umbauen",
-    "link": "https://wortfilter.de/sparkasse-s-id-check-click-to-pay-onlinehaendler/",
-    "pageDate": "14.11.2026",
-    "publishedAt": "2026-11-14T12:00:00.000Z",
-    "detectedAt": "2026-11-14T22:59:47.397Z",
-    "deliveredAt": "2026-11-14T22:59:47.397Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "073c4aa88b84800acbdbf9d1",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "GTA 6 Fake-Shops: PC-Keys für ein Spiel ohne PC-Version",
-    "link": "https://wortfilter.de/gta-6-fake-shops-pc-keys/",
-    "pageDate": "14.11.2026",
-    "publishedAt": "2026-11-14T12:00:00.000Z",
-    "detectedAt": "2026-11-14T22:59:47.397Z",
-    "deliveredAt": "2026-11-14T22:59:47.397Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d046f4d02620015c3b38a22c",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "How to watch ‘The Oprah Podcast’ on Prime Video, with new episodes twice weekly",
-    "link": "https://www.aboutamazon.com/news/entertainment/oprah-podcast-prime-video",
-    "pageDate": "Nov. 14, 2026",
-    "publishedAt": "2026-11-14T00:00:00.000Z",
-    "detectedAt": "2026-11-14T13:49:20.146Z",
-    "deliveredAt": "2026-11-14T13:49:20.146Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "de20fbd9e6c23d5611d7c3f0",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Google AI Overviews verdreifacht: KI bei 61 % der Keywords",
-    "link": "https://wortfilter.de/google-ai-overviews-61-prozent/",
-    "pageDate": "14.11.2026",
-    "publishedAt": "2026-11-14T12:00:00.000Z",
-    "detectedAt": "2026-11-14T13:49:20.121Z",
-    "deliveredAt": "2026-11-14T13:49:20.121Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
