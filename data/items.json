@@ -1,6 +1,51 @@
 [
   {
-    "guid": "ecdcaf5e6c3bced35f2b9064",
+    "guid": "62330bfc89a7409562edd7e3",
+    "source": "Uber",
+    "sourceKey": "src-9ca710b31d1e337a",
+    "sourceLabel": "Uber",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "Events",
+      "Quartalszahlen",
+      "Logistik",
+      "Unternehmensstrategie"
+    ],
+    "priority": 2,
+    "title": "Uber Secures Approximately 87% of Delivery Hero Shares Following End of Additional Acceptance Period",
+    "link": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Secures-Approximately-87-of-Delivery-Hero-Shares-Following-End-of-Additional-Acceptance-Period/default.aspx",
+    "pageDate": "November 27, 2026",
+    "publishedAt": "2026-11-27T00:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.650Z",
+    "deliveredAt": "2026-11-27T11:42:48.650Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "4c1cb1a9a78f9e92dd6b1076",
+    "source": "DM",
+    "sourceKey": "src-fd6e846f7c6683bc",
+    "sourceLabel": "DM",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "Neueröffnung – Karlsruhe Midstad, 3. Dezember 2026",
+    "link": "https://newsroom.dm.de/pressreleases/neueroeffnung-karlsruhe-midstad-3-dezember-2026-3484270",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.646Z",
+    "deliveredAt": "2026-11-27T11:42:48.646Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cec80fca9e0caa3381edf985",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +55,282 @@
     "tags": [],
     "priority": 2,
     "title": "Ein Jahr eBay Live in Deutschland: Handelsvolumen seit Jahresbeginn mehr als versiebenfacht",
-    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-recommerce-report-82-prozent-kaufen-gebraucht-bei-ebay-doch-der-grenz%C3%BCberschreitende-handel-stockt/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/unternehmertum-das-begeistert-das-sind-die-gewinner-innen-der-ebay-awards-2026/",
     "pageDate": "26.11.2026",
     "publishedAt": "2026-11-26T12:00:00.000Z",
-    "detectedAt": "2026-11-27T03:48:11.917Z",
-    "deliveredAt": "2026-11-27T03:48:11.917Z",
+    "detectedAt": "2026-11-27T11:42:48.643Z",
+    "deliveredAt": "2026-11-27T11:42:48.643Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "b03a0bca4c063c8626958891",
+    "source": "Nielseniq",
+    "sourceKey": "src-3b4d077cfd190cbb",
+    "sourceLabel": "Nielseniq",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Foodservice prices edge down in October, but winter supply risks grow",
+    "link": "https://nielseniq.com/global/en/news-center/2026/foodservice-prices-edge-down-in-october-but-winter-supply-risks-grow/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.635Z",
+    "deliveredAt": "2026-11-27T11:42:48.635Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3249ac26bf41a2a1a0dbfc82",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Erwerbstätigkeit im Oktober 2026 saisonbereinigt gegenüber dem Vormonat leicht gesunken",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_412_132.html",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.626Z",
+    "deliveredAt": "2026-11-27T11:42:48.626Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "3f3b2dab40fee122522de670",
+    "source": "DeStatis",
+    "sourceKey": "src-7523dc532642ad9d",
+    "sourceLabel": "DeStatis",
+    "groups": [
+      "Research"
+    ],
+    "tags": [
+      "Quartalszahlen"
+    ],
+    "priority": 2,
+    "title": "Wintersemester 2026/2027: 0,2 % weniger Studierende als im Vorjahr",
+    "link": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_413_21.html",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.626Z",
+    "deliveredAt": "2026-11-27T11:42:48.626Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6f95621a5e48d26757a8e228",
+    "source": "ECB",
+    "sourceKey": "src-f132ccda6cdbce0d",
+    "sourceLabel": "ECB",
+    "groups": [
+      "Finanzen"
+    ],
+    "tags": [],
+    "priority": 2,
+    "title": "AI, jobs and prices: what euro area consumers expect",
+    "link": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261127~81118f8ec0.en.html",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.606Z",
+    "deliveredAt": "2026-11-27T11:42:48.606Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "221fcdddb388b1668304e18c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Temu Verbraucherschutz: Glücksrad weg, Drittlandhändler bleiben",
+    "link": "https://wortfilter.de/temu-verbraucherschutz-eu-zusagen/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.602Z",
+    "deliveredAt": "2026-11-27T11:42:48.602Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "7f46ff137960faca78a02981",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Amazon Streik Black Friday: Zwergenaufstand an 11 Lagern",
+    "link": "https://wortfilter.de/amazon-streik-black-friday/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.602Z",
+    "deliveredAt": "2026-11-27T11:42:48.602Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "fb73afdb47824bd67a772230",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "SAP Stellenabbau: 10.000 Jobs wackeln – radikal, aber richtig",
+    "link": "https://wortfilter.de/sap-stellenabbau-ki/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.602Z",
+    "deliveredAt": "2026-11-27T11:42:48.602Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6daf07be9e6ca1b33fa43d5c",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Safety Gate KW47: 8 gefährliche Produkte trotz Warnung im Handel",
+    "link": "https://wortfilter.de/safety-gate-kw-47-2026/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.602Z",
+    "deliveredAt": "2026-11-27T11:42:48.602Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "a7efcb40da096d3f6691f399",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Das jetzt auch noch: 27 Mrd. Dollar Amazon-Export seit 2015 von indischen Händlern",
+    "link": "https://wortfilter.de/haendler-aus-indien-amazon-export/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.602Z",
+    "deliveredAt": "2026-11-27T11:42:48.602Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "d005d7325ecb875af23a7851",
+    "source": "Verbraucherzentrale RLP Presse",
+    "sourceKey": "src-60410208ae6b15b3",
+    "sourceLabel": "Verbraucherzentrale RLP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Alltagshelfer unter der Lupe: Wie sicher sind Vorratsdosen & Co.?",
+    "link": "https://www.verbraucherzentrale-rlp.de/pressemitteilungen/alltagshelfer-unter-der-lupe-wie-sicher-sind-vorratsdosen-co-127606",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.598Z",
+    "deliveredAt": "2026-11-27T11:42:48.598Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "43c511e9721de379049e7a38",
+    "source": "VZBV Pressemitteilungen",
+    "sourceKey": "src-89cdb65f3f059fb8",
+    "sourceLabel": "VZBV",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "27.11.2026Ramona Pop verlässt den vzbv zur Jahresmitte 2027",
+    "link": "https://www.vzbv.de/pressemitteilungen/ramona-pop-verlaesst-den-vzbv-zur-jahresmitte-2027",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-27T11:42:48.595Z",
+    "deliveredAt": "2026-11-27T11:42:48.595Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "819a5f0f154096180d933e4f",
+    "source": "Telekom Medieninformationen",
+    "sourceKey": "src-6f65565f4749a295",
+    "sourceLabel": "Telekom",
+    "groups": [
+      "Firmen"
+    ],
+    "tags": [
+      "KI"
+    ],
+    "priority": 2,
+    "title": "Telekom erneut mit Rekordmonat beim Glasfaserausbau",
+    "link": "https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/telekom-erneut-mit-rekordmonat-beim-glasfaserausbau",
+    "pageDate": null,
+    "publishedAt": null,
+    "detectedAt": "2026-11-27T11:42:48.592Z",
+    "deliveredAt": "2026-11-27T11:42:48.592Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "7cdd32b888c119943828e962",
@@ -10977,329 +11289,6 @@
     "publishedAt": "2026-11-14T12:00:00.000Z",
     "detectedAt": "2026-11-14T13:49:20.121Z",
     "deliveredAt": "2026-11-14T13:49:20.121Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7e655ddbadfcc129b61ab289",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Squishy-Lager Berlin: Wie TikTok-Trends im Verkauf landen",
-    "link": "https://onlinemarktplatz.de/295578/squishy-lager-berlin-tiktok/",
-    "pageDate": "14.11.2026",
-    "publishedAt": "2026-11-14T12:00:00.000Z",
-    "detectedAt": "2026-11-14T13:49:20.120Z",
-    "deliveredAt": "2026-11-14T13:49:20.120Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3c2b772555d9823301d8196b",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Comeback der Kabelkopfhörer: Warum das Kabel wieder gefragt ist",
-    "link": "https://onlinemarktplatz.de/295575/comeback-der-kabelkopfhoerer/",
-    "pageDate": "14.11.2026",
-    "publishedAt": "2026-11-14T12:00:00.000Z",
-    "detectedAt": "2026-11-14T13:49:20.120Z",
-    "deliveredAt": "2026-11-14T13:49:20.120Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d9f38033367a857c147d18cd",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "Black-Friday-Angebote vergleichen: Warum Warten teurer werden kann",
-    "link": "https://onlinemarktplatz.de/295576/black-friday-angebote-vergleichen/",
-    "pageDate": "14.11.2026",
-    "publishedAt": "2026-11-14T12:00:00.000Z",
-    "detectedAt": "2026-11-14T13:49:20.120Z",
-    "deliveredAt": "2026-11-14T13:49:20.120Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "54da0344a76a5f2767e3be7c",
-    "source": "Onlinemarktplatz",
-    "sourceKey": "src-907af1387802cea1",
-    "sourceLabel": "OLMP",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Payment",
-      "E-Commerce",
-      "Recht & Regulierung"
-    ],
-    "priority": 2,
-    "title": "DHL Paketpreise 2027: Höhere Filialpreise, kleinere Päckchen",
-    "link": "https://onlinemarktplatz.de/295683/dhl-paketpreise-2027/",
-    "pageDate": "14.11.2026",
-    "publishedAt": "2026-11-14T12:00:00.000Z",
-    "detectedAt": "2026-11-14T13:49:20.120Z",
-    "deliveredAt": "2026-11-14T13:49:20.120Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "11d3f31b7bf9ded6cee2153d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Testergebnis: Social Media Sharing Tool Blog2Social ist schlecht",
-    "link": "https://wortfilter.de/blog2social-test-erfahrung/",
-    "pageDate": "14.11.2026",
-    "publishedAt": "2026-11-14T12:00:00.000Z",
-    "detectedAt": "2026-11-14T06:21:13.961Z",
-    "deliveredAt": "2026-11-14T06:21:13.961Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "a18bb02c6058ed78aa578ed0",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Bundeswehr Shop fällt krachend durch Compliance-Prüfung",
-    "link": "https://wortfilter.de/bundeswehrshop-compliance-pruefung/",
-    "pageDate": "14.11.2026",
-    "publishedAt": "2026-11-14T12:00:00.000Z",
-    "detectedAt": "2026-11-14T06:21:13.960Z",
-    "deliveredAt": "2026-11-14T06:21:13.960Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3c79659fce6e702c995727ca",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "AWS re:Invent 2026: What to know",
-    "link": "https://www.aboutamazon.com/news/aws/what-is-aws-reinvent",
-    "pageDate": "Nov. 13, 2026",
-    "publishedAt": "2026-11-13T00:00:00.000Z",
-    "detectedAt": "2026-11-13T23:54:35.715Z",
-    "deliveredAt": "2026-11-13T23:54:35.715Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4daa8ef14ca09d0126eb32e8",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "EUDR-Gesetz: Was Onlinehändler ab 30. Dezember tun müssen",
-    "link": "https://wortfilter.de/eudr-onlinehaendler-massnahmenplan/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T23:54:35.685Z",
-    "deliveredAt": "2026-11-13T23:54:35.685Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "5c550b3160190aede18ed974",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "ChatGPT Wallet: KI-Agenten kaufen ein – zum Start ohne Provision",
-    "link": "https://wortfilter.de/chatgpt-wallet-ki-agenten-einkaufen/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T23:54:35.685Z",
-    "deliveredAt": "2026-11-13T23:54:35.685Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "3340630bd9aadfcd5439e15e",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Flugstopp USA: Alle Abflüge gestoppt – zweites Mal seit 9/11",
-    "link": "https://wortfilter.de/flugstopp-usa/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T23:54:35.685Z",
-    "deliveredAt": "2026-11-13T23:54:35.685Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2d99f102a5e0980a3fc172d1",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Meet Alexa for Shopping, your personalized, agentic AI assistant on Amazon",
-    "link": "https://www.aboutamazon.com/news/retail/alexa-for-shopping-ai-assistant",
-    "pageDate": "Nov. 13, 2026",
-    "publishedAt": "2026-11-13T00:00:00.000Z",
-    "detectedAt": "2026-11-13T18:33:13.944Z",
-    "deliveredAt": "2026-11-13T18:33:13.944Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b48dbc0c001b4a9ff45a6b82",
-    "source": "EcommerceNews",
-    "sourceKey": "src-bd7434d76405faf6",
-    "sourceLabel": "EcommerceNews",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Strong online growth in Denmark",
-    "link": "https://ecommercenews.eu/strong-online-growth-in-denmark/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T18:33:13.934Z",
-    "deliveredAt": "2026-11-13T18:33:13.934Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ff40b78bf7b67895bc45ed6b",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Werbung mit „Bekannt aus“: Gekaufte Anzeigen zählen nicht",
-    "link": "https://wortfilter.de/werbung-mit-bekannt-aus-urteil-lg-hamburg/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T18:33:13.915Z",
-    "deliveredAt": "2026-11-13T18:33:13.915Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "4cec16199f81c173ea9bf6d3",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Claude Störung: Doppelausfall bei Login und Microsoft 365",
-    "link": "https://wortfilter.de/claude-stoerung-login-microsoft-365/",
-    "pageDate": "13.11.2026",
-    "publishedAt": "2026-11-13T12:00:00.000Z",
-    "detectedAt": "2026-11-13T18:33:13.915Z",
-    "deliveredAt": "2026-11-13T18:33:13.915Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
