@@ -1,6 +1,6 @@
 [
   {
-    "guid": "cec80fca9e0caa3381edf985",
+    "guid": "ecdcaf5e6c3bced35f2b9064",
     "source": "eBay DE",
     "sourceKey": "src-af482dcfb65eaa40",
     "sourceLabel": "eBay DE",
@@ -10,15 +10,251 @@
     "tags": [],
     "priority": 2,
     "title": "Ein Jahr eBay Live in Deutschland: Handelsvolumen seit Jahresbeginn mehr als versiebenfacht",
-    "link": "https://www.ebayinc.com/stories/press-room/de/unternehmertum-das-begeistert-das-sind-die-gewinner-innen-der-ebay-awards-2026/",
+    "link": "https://www.ebayinc.com/stories/press-room/de/ebay-recommerce-report-82-prozent-kaufen-gebraucht-bei-ebay-doch-der-grenz%C3%BCberschreitende-handel-stockt/",
     "pageDate": "26.11.2026",
     "publishedAt": "2026-11-26T12:00:00.000Z",
-    "detectedAt": "2026-11-27T22:43:36.734Z",
-    "deliveredAt": "2026-11-27T22:43:36.734Z",
+    "detectedAt": "2026-11-28T04:17:07.140Z",
+    "deliveredAt": "2026-11-28T04:17:07.140Z",
     "recovered": true,
     "historicalBackfill": false,
     "recoveryReason": "seen-but-never-delivered-within-48h",
     "duplicateSources": []
+  },
+  {
+    "guid": "3f0aa9ee11e0bb6ce20691a1",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Erfolgreich in den Onlinehandel starten – Marketing (1/2)",
+    "link": "https://wortfilter.de/marketing-fuer-onlineshops-teil-1/",
+    "pageDate": "28.11.2026",
+    "publishedAt": "2026-11-28T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.104Z",
+    "deliveredAt": "2026-11-28T04:17:07.104Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "cd0b1231058825819edee3b3",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "KI in der Buchhaltung: Dos & Don’ts – du haftest, nicht ChatGPT",
+    "link": "https://wortfilter.de/ki-buchhaltung-dos-donts/",
+    "pageDate": "28.11.2026",
+    "publishedAt": "2026-11-28T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.104Z",
+    "deliveredAt": "2026-11-28T04:17:07.104Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "f5cd2a041dbdcff475d85bff",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "PDF Invoices Sicherheitslücke: Schadcode per Adressfeld",
+    "link": "https://wortfilter.de/pdf-invoices-sicherheitsluecke/",
+    "pageDate": "28.11.2026",
+    "publishedAt": "2026-11-28T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.104Z",
+    "deliveredAt": "2026-11-28T04:17:07.104Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "ebc1bc7f53eecab5ce8f417f",
+    "source": "Wortfilter",
+    "sourceKey": "src-4ac1e5fd69b71704",
+    "sourceLabel": "Wortfilter",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Logistik",
+      "E-Commerce"
+    ],
+    "priority": 2,
+    "title": "Erfolgreich in den Onlinehandel starten – Marketing (2/2)",
+    "link": "https://wortfilter.de/werbeanzeigen-fuer-onlineshops/",
+    "pageDate": "28.11.2026",
+    "publishedAt": "2026-11-28T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.104Z",
+    "deliveredAt": "2026-11-28T04:17:07.104Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "2a8db09775345fcb2941087a",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "KI beim Rabattcheck: Kunden hoffen auf Schutz vor Fehlkäufen",
+    "link": "https://onlinemarktplatz.de/296385/ki-beim-rabattcheck/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.103Z",
+    "deliveredAt": "2026-11-28T04:17:07.103Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "5eba700aa035f0296d01bf36",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Ver.di gegen Amazon: Wieder PR-Streik am Black Friday, wieder dieselben Forderungen",
+    "link": "https://onlinemarktplatz.de/296457/amazon-streik-2026-black-friday-wirkung/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.103Z",
+    "deliveredAt": "2026-11-28T04:17:07.103Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "c98b519a66a2089d0cc13138",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Weihnachtsgeschenke 2026: EY meldet stabile Budgets, mehr digitale Kaufhilfe",
+    "link": "https://onlinemarktplatz.de/296123/weihnachtsgeschenke-2026/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.103Z",
+    "deliveredAt": "2026-11-28T04:17:07.103Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6dd1eed97157e95f6daac1ea",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Telekom und Mistral: 100 Millionen Euro für europäische KI",
+    "link": "https://onlinemarktplatz.de/296124/telekom-und-mistral-ki/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.103Z",
+    "deliveredAt": "2026-11-28T04:17:07.103Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "6e7a41bad3c6c5c4026f3104",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Product Content API: bol öffnet Zugang für alle Lieferanten",
+    "link": "https://onlinemarktplatz.de/296231/product-content-api-bol-lieferanten/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.102Z",
+    "deliveredAt": "2026-11-28T04:17:07.102Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
+  },
+  {
+    "guid": "af5faf48ffd96499a9c1d013",
+    "source": "Onlinemarktplatz",
+    "sourceKey": "src-907af1387802cea1",
+    "sourceLabel": "OLMP",
+    "groups": [
+      "Sonstiges"
+    ],
+    "tags": [
+      "Payment",
+      "E-Commerce",
+      "Recht & Regulierung"
+    ],
+    "priority": 2,
+    "title": "Podcast: Sunday Natural verbindet Direktvertrieb und Amazon",
+    "link": "https://onlinemarktplatz.de/296296/sunday-natural-amazon-direktvertrieb/",
+    "pageDate": "27.11.2026",
+    "publishedAt": "2026-11-27T12:00:00.000Z",
+    "detectedAt": "2026-11-28T04:17:07.102Z",
+    "deliveredAt": "2026-11-28T04:17:07.102Z",
+    "recovered": false,
+    "historicalBackfill": false,
+    "recoveryReason": null
   },
   {
     "guid": "0cc8851bace706fd22e5a4d8",
@@ -11048,228 +11284,6 @@
     "publishedAt": "2026-11-16T12:00:00.000Z",
     "detectedAt": "2026-11-16T09:42:20.466Z",
     "deliveredAt": "2026-11-16T09:42:20.466Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "fa8922b6c1d14548d4ad0052",
-    "source": "EY Newsroom",
-    "sourceKey": "src-8fc60553640bf464",
-    "sourceLabel": "EY",
-    "groups": [
-      "Research"
-    ],
-    "tags": [
-      "Quartalszahlen"
-    ],
-    "priority": 2,
-    "title": "EY-Analyse Industriebarometer Q3 2026",
-    "link": "https://www.ey.com/de_de/newsroom/2026/11/ey-analyse-industriebarometer-quartal-3-2026",
-    "pageDate": null,
-    "publishedAt": null,
-    "detectedAt": "2026-11-16T09:42:20.416Z",
-    "deliveredAt": "2026-11-16T09:42:20.416Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "7d338dda677d68c1703a3b52",
-    "source": "Baidu QZ",
-    "sourceKey": "0b16875f-ed8a-4824-948a-653a40b8121b",
-    "sourceLabel": "Baidu QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "Baidu to Report Third Quarter 2026 Financial Results on November 16, 2026",
-    "link": "https://ir.baidu.com/news-releases/news-release-details/baidu-report-third-quarter-2026-financial-results-november-16",
-    "pageDate": "November 16, 2026",
-    "publishedAt": "2026-11-16T00:00:00.000Z",
-    "detectedAt": "2026-11-16T02:07:02.840Z",
-    "deliveredAt": "2026-11-16T02:07:02.840Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "68ec4802464f978a64d543c6",
-    "source": "JD QZ",
-    "sourceKey": "544a57fa-8f6d-4d8f-8205-461caa30a5d1",
-    "sourceLabel": "JD QZ",
-    "groups": [
-      "Quartalszahlen"
-    ],
-    "tags": [],
-    "priority": 2,
-    "title": "JD.com to Report Third Quarter 2026 Financial Results on November 17, 2026",
-    "link": "https://ir.jd.com/news-releases/news-release-details/jdcom-report-third-quarter-2026-financial-results-november-17",
-    "pageDate": "November 17, 2026",
-    "publishedAt": "2026-11-17T00:00:00.000Z",
-    "detectedAt": "2026-11-16T02:07:02.837Z",
-    "deliveredAt": "2026-11-16T02:07:02.837Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "4abf8a164c09290bcc43d26c",
-    "source": "Aboutamazon",
-    "sourceKey": "src-5de41fa90c58714d",
-    "sourceLabel": "Aboutamazon",
-    "groups": [
-      "Firmen"
-    ],
-    "tags": [
-      "KI"
-    ],
-    "priority": 2,
-    "title": "Amazon Leo mission updates: Ariane 6 to launch 36 more Leo satellites on November 23",
-    "link": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates",
-    "pageDate": "Nov. 15, 2026",
-    "publishedAt": "2026-11-15T00:00:00.000Z",
-    "detectedAt": "2026-11-16T02:07:02.814Z",
-    "deliveredAt": "2026-11-16T02:07:02.814Z",
-    "recovered": true,
-    "historicalBackfill": false,
-    "recoveryReason": "seen-but-never-delivered-within-48h"
-  },
-  {
-    "guid": "d903bf11fe037cf8ff7d27d5",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Agentursterben: Händler kündigen Wartung und nutzen KI",
-    "link": "https://wortfilter.de/agentursterben-ki-haendler/",
-    "pageDate": "16.11.2026",
-    "publishedAt": "2026-11-16T12:00:00.000Z",
-    "detectedAt": "2026-11-16T02:07:02.779Z",
-    "deliveredAt": "2026-11-16T02:07:02.779Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "d866dd3b357e1addf3d7ea4d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Strompreise 2027: Bis zu 5,5 Cent mehr – auch für Onlinehändler",
-    "link": "https://wortfilter.de/strompreise-2027-onlinehaendler/",
-    "pageDate": "16.11.2026",
-    "publishedAt": "2026-11-16T12:00:00.000Z",
-    "detectedAt": "2026-11-16T02:07:02.778Z",
-    "deliveredAt": "2026-11-16T02:07:02.778Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "da561db3afcd22b7f891c79c",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "World Product Graph: Amazon will auch fremde Shops auslesen",
-    "link": "https://wortfilter.de/amazon-world-product-graph/",
-    "pageDate": "15.11.2026",
-    "publishedAt": "2026-11-15T12:00:00.000Z",
-    "detectedAt": "2026-11-15T21:50:07.164Z",
-    "deliveredAt": "2026-11-15T21:50:07.164Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "b4147154911aa7bf39fe018d",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Versicherer ACE will eBays 55,7-Mio.-Vergleich nicht zahlen",
-    "link": "https://wortfilter.de/ebay-cyberstalking-versicherer-ace/",
-    "pageDate": "15.11.2026",
-    "publishedAt": "2026-11-15T12:00:00.000Z",
-    "detectedAt": "2026-11-15T21:50:07.164Z",
-    "deliveredAt": "2026-11-15T21:50:07.164Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "2cc019b6d19bec3d9e4a59a3",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "Unfall wegen Outlook Ausfall: Das könnte euch auch passieren",
-    "link": "https://wortfilter.de/outlook-ausfall-phantasialand/",
-    "pageDate": "15.11.2026",
-    "publishedAt": "2026-11-15T12:00:00.000Z",
-    "detectedAt": "2026-11-15T21:50:07.164Z",
-    "deliveredAt": "2026-11-15T21:50:07.164Z",
-    "recovered": false,
-    "historicalBackfill": false,
-    "recoveryReason": null
-  },
-  {
-    "guid": "ee595deb48e1f6541e95354a",
-    "source": "Wortfilter",
-    "sourceKey": "src-4ac1e5fd69b71704",
-    "sourceLabel": "Wortfilter",
-    "groups": [
-      "Sonstiges"
-    ],
-    "tags": [
-      "Logistik",
-      "E-Commerce"
-    ],
-    "priority": 2,
-    "title": "DHL Paketpreise 2027: In der Filiale bis zu 2 Euro teurer",
-    "link": "https://wortfilter.de/dhl-paketpreise-2027/",
-    "pageDate": "15.11.2026",
-    "publishedAt": "2026-11-15T12:00:00.000Z",
-    "detectedAt": "2026-11-15T17:10:15.544Z",
-    "deliveredAt": "2026-11-15T17:10:15.544Z",
     "recovered": false,
     "historicalBackfill": false,
     "recoveryReason": null
